@@ -12,7 +12,8 @@ on:
     - cron: '55 2 * * *'
     - cron: '55 10 * * *'
   workflow_dispatch: # 手動実行用
-
+permissions:
+  contents: write
 jobs:
   post:
     runs-on: ubuntu-latest
