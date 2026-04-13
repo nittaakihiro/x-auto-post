@@ -38,9 +38,12 @@ jobs:
         run: python scripts/auto_post.py
 
       - name: Commit queue updates
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/post_queue.json
           git diff --cached --quiet || git commit -m "update: post queue status"
-          git push
+          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
