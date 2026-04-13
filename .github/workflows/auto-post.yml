@@ -1,0 +1,46 @@
+name: X Auto Post
+
+on:
+  schedule:
+    # JST = UTC+9 → UTC変換
+    # 7:25 JST = 22:25 UTC (前日)
+    # 8:15 JST = 23:15 UTC (前日)
+    # 11:55 JST = 02:55 UTC
+    # 19:55 JST = 10:55 UTC
+    - cron: '25 22 * * *'
+    - cron: '15 23 * * *'
+    - cron: '55 2 * * *'
+    - cron: '55 10 * * *'
+  workflow_dispatch: # 手動実行用
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run auto_post
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/auto_post.py
+
+      - name: Commit queue updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/post_queue.json
+          git diff --cached --quiet || git commit -m "update: post queue status"
+          git push
