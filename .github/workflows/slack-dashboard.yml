@@ -114,11 +114,16 @@ jobs:
           if reply_sales:
               blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*📣 リプ営業候補（手動投稿）*"}})
               for i, rs in enumerate(reply_sales, 1):
-                  url = rs.get("url", "")
-                  text = rs.get("text", "")
+                  target = rs.get("target_description", rs.get("url", ""))
+                  query = rs.get("search_query", "")
+                  text = rs.get("reply_text", rs.get("text", ""))
+                  line = f"{i}. *{target}*"
+                  if query:
+                      line += f"\n検索: `{query}`"
+                  line += f"\n💬 {text}"
                   blocks.append({
                       "type": "context",
-                      "elements": [{"type": "mrkdwn", "text": f"{i}. <{url}>\n{text}"}]
+                      "elements": [{"type": "mrkdwn", "text": line}]
                   })
               blocks.append({"type": "divider"})
 
