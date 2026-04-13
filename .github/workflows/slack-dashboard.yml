@@ -17,7 +17,7 @@ jobs:
       - name: Generate and send Slack message
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          SLACK_CHANNEL: DGAKY546E6M
+          SLACK_USER_ID: U01PHHAB887
         run: |
           pip install -q python-dotenv
 
@@ -88,9 +88,28 @@ jobs:
               ]
           })
 
-          # Send to Slack
+          # Open DM channel first
+          open_payload = json.dumps({
+              "users": os.environ["SLACK_USER_ID"]
+          }).encode()
+          open_req = urllib.request.Request(
+              "https://slack.com/api/conversations.open",
+              data=open_payload,
+              headers={
+                  "Authorization": f"Bearer {os.environ['SLACK_BOT_TOKEN']}",
+                  "Content-Type": "application/json"
+              }
+          )
+          with urllib.request.urlopen(open_req) as resp:
+              open_result = json.loads(resp.read())
+              if not open_result.get("ok"):
+                  print(f"DM open失敗: {open_result.get('error')}")
+                  exit(1)
+              dm_channel = open_result["channel"]["id"]
+
+          # Send to Slack DM
           payload = json.dumps({
-              "channel": os.environ["SLACK_CHANNEL"],
+              "channel": dm_channel,
               "blocks": blocks,
               "text": f"X Dashboard — {today_jp}（{day_of_week}）"
           }).encode()
