@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'output/post_queue.json'
+      - 'output/dashboard.json'
   workflow_dispatch:
 
 jobs:
@@ -19,13 +20,12 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_USER_ID: U01PHHAB887
         run: |
-          pip install -q python-dotenv
-
           python3 << 'PYEOF'
           import json
           import os
           import urllib.request
           from datetime import datetime, timezone, timedelta
+          from pathlib import Path
 
           JST = timezone(timedelta(hours=9))
           today = datetime.now(JST).strftime("%Y-%m-%d")
@@ -36,97 +36,118 @@ jobs:
           # Load queue
           with open("output/post_queue.json", "r") as f:
               queue = json.load(f)
-
-          # Filter today's posts
           today_posts = [p for p in queue if p["date"] == today and p["status"] == "pending"]
 
-          if not today_posts:
-              print("今日の投稿なし。スキップ。")
+          # Load dashboard (engage cards + reply sales)
+          dashboard = {}
+          dash_path = Path("output/dashboard.json")
+          if dash_path.exists():
+              with open(dash_path, "r") as f:
+                  dashboard = json.load(f)
+
+          engage_cards = dashboard.get("engage_cards", [])
+          reply_sales = dashboard.get("reply_sales", [])
+
+          if not today_posts and not engage_cards:
+              print("今日のコンテンツなし。スキップ。")
               exit(0)
 
-          # Build Slack message
+          def slack_api(method, payload):
+              req = urllib.request.Request(
+                  f"https://slack.com/api/{method}",
+                  data=json.dumps(payload).encode(),
+                  headers={
+                      "Authorization": f"Bearer {os.environ['SLACK_BOT_TOKEN']}",
+                      "Content-Type": "application/json; charset=utf-8"
+                  }
+              )
+              with urllib.request.urlopen(req) as resp:
+                  return json.loads(resp.read())
+
+          # Open DM
+          open_result = slack_api("conversations.open", {"users": os.environ["SLACK_USER_ID"]})
+          if not open_result.get("ok"):
+              print(f"DM open失敗: {open_result.get('error')}")
+              exit(1)
+          dm_channel = open_result["channel"]["id"]
+
+          # === Build blocks ===
           blocks = [
-              {
-                  "type": "header",
-                  "text": {"type": "plain_text", "text": f"📋 X Dashboard — {today_jp}（{day_of_week}）"}
-              },
+              {"type": "header", "text": {"type": "plain_text", "text": f"📋 X Dashboard — {today_jp}（{day_of_week}）"}},
               {"type": "divider"}
           ]
 
-          for p in sorted(today_posts, key=lambda x: x["time"]):
-              time_str = p["time"]
-              freshness = "🔒 locked" if p.get("freshness") == "locked" else "🔄 updatable"
-              text = p["text"]
-              char_count = len(text)
+          # --- オリジナル投稿 ---
+          if today_posts:
+              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🖊️ オリジナル投稿（自動投稿）*"}})
+              for p in sorted(today_posts, key=lambda x: x["time"]):
+                  freshness = "🔒" if p.get("freshness") == "locked" else "🔄"
+                  img = "🖼️" if p.get("image", {}).get("type") == "gemini" else ""
+                  blocks.append({
+                      "type": "section",
+                      "text": {"type": "mrkdwn", "text": f"*{p['time']}* {freshness} {img} — {len(p['text'])}字\n\n{p['text']}"}
+                  })
+                  if p.get("reply") and p["reply"].get("text"):
+                      blocks.append({
+                          "type": "context",
+                          "elements": [{"type": "mrkdwn", "text": f"💬 *リプ:* {p['reply']['text']}"}]
+                      })
+                  blocks.append({"type": "divider"})
 
-              post_block = {
-                  "type": "section",
-                  "text": {
-                      "type": "mrkdwn",
-                      "text": f"*{time_str}* ({freshness}) — {char_count}字\n\n{text}"
-                  }
-              }
-              blocks.append(post_block)
+          # --- 絡みカード（手動投稿） ---
+          if engage_cards:
+              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🤝 絡み候補（手動投稿）*"}})
+              for i, card in enumerate(engage_cards, 1):
+                  card_type = card.get("type", "reply")
+                  tier = card.get("tier", "")
+                  target = card.get("target", "")
+                  url = card.get("url", "")
+                  text = card.get("text", "")
+                  label = "引用RT" if card_type == "quote_rt" else "リプ"
+                  blocks.append({
+                      "type": "section",
+                      "text": {"type": "mrkdwn", "text": f"*{i}. [{label}] {target}* ({tier})\n<{url}>\n\n{text}"}
+                  })
+                  blocks.append({"type": "divider"})
 
-              # Reply section
-              if p.get("reply") and p["reply"].get("text"):
-                  reply_block = {
+          # --- リプ営業（手動投稿） ---
+          if reply_sales:
+              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*📣 リプ営業候補（手動投稿）*"}})
+              for i, rs in enumerate(reply_sales, 1):
+                  url = rs.get("url", "")
+                  text = rs.get("text", "")
+                  blocks.append({
                       "type": "context",
-                      "elements": [
-                          {"type": "mrkdwn", "text": f"💬 *リプ:* {p['reply']['text']}"}
-                      ]
-                  }
-                  blocks.append(reply_block)
-
+                      "elements": [{"type": "mrkdwn", "text": f"{i}. <{url}>\n{text}"}]
+                  })
               blocks.append({"type": "divider"})
 
-          # Summary
+          # --- サマリー ---
+          summary_parts = []
+          if today_posts:
+              summary_parts.append(f"📝 オリジナル{len(today_posts)}本（自動投稿）")
+          if engage_cards:
+              summary_parts.append(f"🤝 絡み{len(engage_cards)}本（手動）")
+          if reply_sales:
+              summary_parts.append(f"📣 リプ営業{len(reply_sales)}件（手動）")
           blocks.append({
               "type": "context",
-              "elements": [
-                  {"type": "mrkdwn", "text": f"📝 {len(today_posts)}本のオリジナル投稿 | GitHub Actions で自動投稿されます"}
-              ]
+              "elements": [{"type": "mrkdwn", "text": " | ".join(summary_parts)}]
           })
 
-          # Open DM channel first
-          open_payload = json.dumps({
-              "users": os.environ["SLACK_USER_ID"]
-          }).encode()
-          open_req = urllib.request.Request(
-              "https://slack.com/api/conversations.open",
-              data=open_payload,
-              headers={
-                  "Authorization": f"Bearer {os.environ['SLACK_BOT_TOKEN']}",
-                  "Content-Type": "application/json"
-              }
-          )
-          with urllib.request.urlopen(open_req) as resp:
-              open_result = json.loads(resp.read())
-              if not open_result.get("ok"):
-                  print(f"DM open失敗: {open_result.get('error')}")
-                  exit(1)
-              dm_channel = open_result["channel"]["id"]
-
-          # Send to Slack DM
-          payload = json.dumps({
-              "channel": dm_channel,
-              "blocks": blocks,
-              "text": f"X Dashboard — {today_jp}（{day_of_week}）"
-          }).encode()
-
-          req = urllib.request.Request(
-              "https://slack.com/api/chat.postMessage",
-              data=payload,
-              headers={
-                  "Authorization": f"Bearer {os.environ['SLACK_BOT_TOKEN']}",
-                  "Content-Type": "application/json"
-              }
-          )
-          with urllib.request.urlopen(req) as resp:
-              result = json.loads(resp.read())
-              if result.get("ok"):
-                  print(f"Slack送信成功: {today_jp}")
-              else:
+          # === Send ===
+          # Slack blocks limit is 50, split if needed
+          MAX_BLOCKS = 50
+          for i in range(0, len(blocks), MAX_BLOCKS):
+              chunk = blocks[i:i+MAX_BLOCKS]
+              result = slack_api("chat.postMessage", {
+                  "channel": dm_channel,
+                  "blocks": chunk,
+                  "text": f"X Dashboard — {today_jp}（{day_of_week}）"
+              })
+              if not result.get("ok"):
                   print(f"Slack送信失敗: {result.get('error')}")
                   exit(1)
+
+          print(f"Slack送信成功: {today_jp}")
           PYEOF
