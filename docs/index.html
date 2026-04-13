@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X Dashboard Index</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a0a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+h1 { font-size: 1.5em; margin-bottom: 24px; color: #fff; }
+.day-link { display: block; background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 16px; margin-bottom: 8px; color: #60a5fa; text-decoration: none; font-size: 1.1em; }
+.day-link:hover { background: #222; border-color: #555; }
+</style>
+</head>
+<body>
+<h1>X Dashboard</h1>
+<p style="color: #888; margin-bottom: 24px;">最新のダッシュボードをクリック</p>
+<div id="links"></div>
+<script>
+// GitHub Pages doesn't support directory listing, so we use a manifest
+fetch('manifest.json')
+  .then(r => r.json())
+  .then(days => {
+    const el = document.getElementById('links');
+    days.reverse().forEach(d => {
+      const a = document.createElement('a');
+      a.className = 'day-link';
+      a.href = d.path;
+      a.textContent = d.date;
+      el.appendChild(a);
+    });
+  })
+  .catch(() => {
+    document.getElementById('links').innerHTML = '<p style="color:#888;">ダッシュボードがまだありません</p>';
+  });
+</script>
+</body>
+</html>

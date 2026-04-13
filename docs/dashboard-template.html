@@ -1,0 +1,138 @@
+<!--
+  X Dashboard テンプレート（固定）
+  - CSS・HTML骨格・ラベル・コピーボタンの挙動はこのファイルが正。
+  - x-post.md 実行時はこのテンプレをコピーして動的部分を埋める。
+  - デザインを変更したいときはこのファイルを編集する。
+
+  プレースホルダー凡例:
+    {{DATE_JP}}       → 2026年4月5日（土）
+    {{DATE_ISO}}      → 2026.04.05
+    {{SUBTITLE}}      → その日の一言（例: スレッド日 / 通常運用）
+    {{STRATEGY_ITEMS}} → <li>項目</li> のリスト
+    {{RESEARCH_CONTENT}} → リサーチセクションの中身
+    {{ENGAGE_CARDS}}   → インフルエンサー絡みカード（3枚）
+    {{ORIGINAL_CARDS}} → オリジナル投稿カード（2枚）
+    {{THREAD_SECTION}} → スレッド（該当日のみ。なければ空）
+    {{REPLY_LIST}}     → リプ営業リスト（10件）
+    {{CHECKLIST_ITEMS}} → チェックリスト <li> のリスト
+    {{ANALYTICS_NOTE}} → アナリティクスバナーの補足テキスト
+-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X Dashboard {{DATE_ISO}}</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a0a; color: #e0e0e0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+h1 { font-size: 1.5em; margin-bottom: 8px; color: #fff; }
+.date { color: #888; margin-bottom: 24px; }
+.strategy-memo { background: #1a1a2e; border-left: 4px solid #e94560; padding: 16px; border-radius: 8px; margin-bottom: 24px; }
+.strategy-memo h2 { color: #e94560; font-size: 1.1em; margin-bottom: 8px; }
+.strategy-memo ul { padding-left: 20px; }
+.strategy-memo li { margin-bottom: 4px; line-height: 1.6; }
+.section-title { font-size: 1.2em; color: #fff; margin: 32px 0 16px; border-bottom: 2px solid #333; padding-bottom: 8px; }
+.card { background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+.card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px; }
+.card-type { font-size: 0.8em; padding: 4px 10px; border-radius: 20px; font-weight: 600; }
+.type-quote { background: #2d1b69; color: #a78bfa; }
+.type-reply { background: #1b3a4b; color: #67e8f9; }
+.type-original { background: #1b4332; color: #6ee7b7; }
+.type-thread { background: #4a1942; color: #f0abfc; }
+.type-reply-sales { background: #3b2a0a; color: #f59e0b; }
+.card-time { color: #888; font-size: 0.85em; }
+.card-target { background: #111; padding: 12px; border-radius: 8px; margin-bottom: 12px; font-size: 0.9em; color: #aaa; }
+.card-target a { color: #60a5fa; text-decoration: none; }
+.card-body { background: #111; padding: 16px; border-radius: 8px; margin-bottom: 12px; line-height: 1.8; white-space: pre-wrap; font-size: 0.95em; }
+.copy-btn { background: #333; color: #fff; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 0.85em; }
+.copy-btn:hover { background: #555; }
+.reply-section { border-top: 1px solid #333; padding-top: 12px; margin-top: 12px; }
+.reply-label { color: #888; font-size: 0.8em; margin-bottom: 6px; }
+.reply-text { background: #0d1117; padding: 12px; border-radius: 8px; font-size: 0.9em; line-height: 1.6; white-space: pre-wrap; }
+.image-prompt { background: #1a1a2e; padding: 12px; border-radius: 8px; margin-top: 12px; font-size: 0.85em; color: #a78bfa; white-space: pre-wrap; }
+.image-prompt-label { color: #666; font-size: 0.75em; margin-bottom: 4px; }
+.source { color: #888; font-size: 0.8em; margin-top: 8px; }
+.source a { color: #60a5fa; text-decoration: none; }
+.checklist { background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+.checklist li { margin-bottom: 8px; list-style: none; }
+.checklist input { margin-right: 8px; }
+.analytics-banner { background: linear-gradient(135deg, #1a1a2e, #16213e); border: 1px solid #0f3460; border-radius: 12px; padding: 20px; text-align: center; margin-top: 24px; }
+.analytics-banner a { color: #e94560; font-weight: 600; text-decoration: none; }
+details { margin-bottom: 16px; }
+summary { cursor: pointer; color: #888; padding: 8px; background: #111; border-radius: 8px; }
+.reply-list { margin-top: 8px; }
+.reply-item { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px; padding: 12px; margin-bottom: 8px; }
+.reply-item-target { font-size: 0.85em; color: #888; margin-bottom: 6px; }
+.reply-item-target a { color: #60a5fa; text-decoration: none; }
+.badge-hot { background: #dc2626; color: #fff; padding: 2px 8px; border-radius: 10px; font-size: 0.7em; margin-left: 8px; }
+.badge-new { background: #059669; color: #fff; padding: 2px 8px; border-radius: 10px; font-size: 0.7em; margin-left: 8px; }
+.char-count { color: #666; font-size: 0.75em; text-align: right; margin-top: 4px; }
+.thread-chain { border-left: 3px solid #f0abfc; padding-left: 16px; margin: 12px 0; }
+.thread-num { color: #f0abfc; font-weight: 700; font-size: 0.8em; margin-bottom: 4px; }
+</style>
+<script>
+function copyText(id) {
+  const el = document.getElementById(id);
+  navigator.clipboard.writeText(el.innerText);
+  const btn = el.parentElement.querySelector('.copy-btn');
+  btn.textContent = '✓ コピー済み';
+  setTimeout(() => btn.textContent = 'コピー', 2000);
+}
+</script>
+</head>
+<body>
+
+<h1>X Dashboard</h1>
+<p class="date">{{DATE_JP}} — {{SUBTITLE}}</p>
+
+<!-- ===== 戦略メモ ===== -->
+<div class="strategy-memo">
+<h2>今日の方針</h2>
+<ul>
+{{STRATEGY_ITEMS}}
+</ul>
+</div>
+
+<!-- ===== リサーチ（折りたたみ） ===== -->
+<details>
+<summary>リサーチセクション（クリックで展開）</summary>
+<div style="padding: 12px; margin-top: 8px;">
+{{RESEARCH_CONTENT}}
+</div>
+</details>
+
+<!-- ===== インフルエンサー絡み ===== -->
+<h2 class="section-title">インフルエンサー絡み（5本：A/B tier 2 + tier外 3）</h2>
+{{ENGAGE_CARDS}}
+
+<!-- ===== オリジナル投稿 ===== -->
+<h2 class="section-title">オリジナル投稿（2本・長文アナリスト型）</h2>
+{{ORIGINAL_CARDS}}
+
+<!-- ===== スレッド（該当日のみ） ===== -->
+{{THREAD_SECTION}}
+
+<!-- ===== リプ営業 ===== -->
+<h2 class="section-title">リプ営業リスト（10件）</h2>
+<div class="reply-list">
+{{REPLY_LIST}}
+</div>
+
+<!-- ===== チェックリスト ===== -->
+<h2 class="section-title">チェックリスト</h2>
+<div class="checklist">
+<ul>
+{{CHECKLIST_ITEMS}}
+</ul>
+</div>
+
+<!-- ===== アナリティクス ===== -->
+<div class="analytics-banner">
+<p>本日のパフォーマンス確認</p>
+<p style="margin-top: 8px;"><a href="https://analytics.twitter.com" target="_blank">X Analytics を開く</a></p>
+<p style="color: #888; font-size: 0.85em; margin-top: 8px;">{{ANALYTICS_NOTE}}</p>
+</div>
+
+</body>
+</html>
