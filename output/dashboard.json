@@ -1,82 +1,175 @@
 {
   "date": "2026-04-13",
+  "strategy_memo": "【本日の戦略】\n・伸びる型: 逆張りファクト型×業界ニュース分析型 (4,450〜11,952 imp 実績)\n・7:30 locked: 育成就労制度の転籍自由化→建設業への構造的影響（制度解説×逆張りファクト）\n・12:00 updatable: CONOC×JAPAN AI 16エージェント投入→次のボトルネック分析\n・20:00 既存: BIM図面審査4月開始（locked、既にキュー済み）\n・絡み: karube_sanei（受注断り・価格決定権）A tier×2、yukinoro1125s A tier×1、TKG_CraftBank B tier×1、tier外バズ探し×1\n・避けるテーマ: AI活用率9.4%、日建連×不動産協、BIM図面審査、建設ロボット標準化、LIXIL、清水建設AEC、高輪GW、建設投資80.7兆円",
+  "analytics_insights": {
+    "top5_patterns": [
+      "11,952 imp: Autodesks Forma Building Design — 固有名詞5社×具体数字×業界ニュース分析",
+      "4,450 imp: 施工計画書の解体手順がほぼ白紙 — 逆張りファクト×業界インサイダー視点",
+      "1,466 imp: 補助金が製造業仕様のまま — 構造問題の指摘×共感呼ぶ不満",
+      "1,395 imp: 資材値上げ全部ナフサに繋がる — 一見バラバラな事象を1本に繋ぐ",
+      "1,389 imp: 俺が作ったビル誰も知らない — 職人への感情共感"
+    ],
+    "avoid_patterns": [
+      "URLリンクのみリプライ: 37〜72 imp",
+      "短文感想投稿（1〜2文）: 68〜85 imp",
+      "ハッシュタグ付き投稿: 66 imp実績あり",
+      "「うちのBPOで〜」始まり: 営業臭で伸びない"
+    ]
+  },
+  "posts_today": [
+    {
+      "time": "07:30",
+      "freshness": "locked",
+      "status": "queued",
+      "theme": "育成就労制度×建設業の転籍自由化リスク",
+      "text_preview": "2027年4月、技能実習制度が廃止される。受け入れ見込数は建設分野だけで約20万人規模。転籍の自由化が始まると「引き留める努力」が必要になる。",
+      "reply_text": "育成就労制度の建設分野詳細はこちら。受け入れ規程・賃金体系・住環境の整備が必要で、中小の建設会社ほど今から動かないと2027年に間に合わない。",
+      "image_prompt": "Japanese infographic split design. Left side: bold text '技能実習制度' with padlock icon, red X mark, caption '2027年廃止'. Right side: '育成就労制度' with open door icon and person silhouette, caption '2027年4月〜'. Center: horizontal arrow labeled '転籍の自由化'. Bottom stats row: '建設分野 受入見込 約20万人'. Dark navy (#0d1b2a) background, white body text, orange (#ff8c00) accents. Small '@akionionio' label bottom right. 1200x675px flat design.",
+      "sources": [
+        "建設通信新聞 https://www.kensetsunews.com/archives/1163889",
+        "ANDPAD ONE https://one.andpad.jp/magazine/21431/"
+      ]
+    },
+    {
+      "time": "12:00",
+      "freshness": "updatable",
+      "status": "queued",
+      "theme": "CONOC×JAPAN AI 16エージェント投入→次のボトルネック分析",
+      "text_preview": "CONOCがJAPAN AIと提携し2026年度内に16のAIエージェント投入。ANDPADが基盤、フォトラクションが写真帳、CONOCがエージェント層。ツールは整った。次は使いこなす人材。",
+      "reply_text": "CONOCとJAPAN AIの提携詳細はこちら。「ツールを入れる」のと「ツールが使われる」のは別の話。中小建設会社に刺さるには、導入後の伴走支援まで込みで設計する必要があると思う。",
+      "image_prompt": "Japanese infographic showing construction AI ecosystem. Three rounded boxes connected by right-pointing arrows: Box 1 'ANDPAD' subtitle '施工管理SaaS'; Box 2 'フォトラクション' subtitle '写真帳DX'; Box 3 'CONOC' subtitle 'AIエージェント×16'. Top label: '建設特化プロダクトが揃いつつある'. Bottom banner: '次のボトルネック = 使いこなす人材'. Dark navy (#0d1b2a) background, white text, orange (#ff8c00) box borders and arrows. Small '@akionionio' label bottom right. 1200x675px modern flat design.",
+      "sources": [
+        "PRTimes https://prtimes.jp/main/html/rd/p/000000081.000012493.html"
+      ]
+    },
+    {
+      "time": "20:00",
+      "freshness": "locked",
+      "status": "already_queued",
+      "note": "BIM図面審査（4月開始）のエントリが既にキュー済みのためスキップ。以下はバックアップ案。",
+      "theme_backup": "公共工事設計労務単価14年連続上昇×でも倒産は過去最多という矛盾",
+      "text_preview_backup": "設計労務単価4.5%引き上げで14年連続。全職種平均が日額25,834円で過去最高。でも建設業の倒産は過去最多。設計単価と現場賃金の間にある多層構造の壁が変わらない限り、この矛盾は続く。",
+      "image_prompt_backup": "Japanese infographic showing contradiction. Left: upward arrow '設計労務単価 14年連続上昇 ＋4.5% 日額25,834円'. Center: orange question mark '？'. Right: '建設業倒産 過去最多'. Bottom: '設計単価と現場賃金の間にある壁'. Dark navy background, white and orange text. @akionionio bottom right. 1200x675px."
+    }
+  ],
   "engage_cards": [
     {
-      "type": "quote_rt",
-      "tier": "A tier",
-      "target": "@karube_sanei（軽部治）",
-      "url": "https://x.com/karube_sanei/status/2022899601683157019",
-      "text": "これ、現場の肌感覚としてわかる。\n建設業の経営者って「なんとかなるだろ」で限界を超えてきた人が多い。でもここ数年で法改正・人手不足・資材高騰が同時に来て、気合いでは乗り切れないフェーズに入ってる。\n事務の自動化とか、AIの導入とか、泥臭い効率化が経営を分ける時代だと思う。"
+      "id": 1,
+      "tier": "A",
+      "target": "@karube_sanei",
+      "name": "軽部治｜建設業の闇を暴露する社長",
+      "target_post_url": "https://x.com/karube_sanei/status/2036624753960595546",
+      "target_summary": "「正直に言うと、この話はもう「人が足りないですね」で済む段階はとっくに過ぎてる。8割が受注を断ってる」",
+      "action_type": "quote_rt",
+      "post_time": "08:00",
+      "text": "8割が受注を断ってるってことは、仕事はあるのに「人いないから今回は無理です」と頭を下げてる状態が続いてる。\nでも下請けへの発注圧力は変わらない。受注できる量が縮んでるのに、発注側の期待値は据え置き。\nこの非対称性が変わらない限り、現場の過重負担は解消しない。"
     },
     {
-      "type": "quote_rt",
-      "tier": "A tier",
-      "target": "@karube_sanei（軽部治）",
-      "url": "https://x.com/karube_sanei/status/2021162449165222147",
-      "text": "このデータ意外と知られてない。\n建設業の月給40.8万って全産業平均より高い。ただ問題は休日と労働時間。年間出勤日数は全産業平均より20日多い。\n時給換算すると差はかなり縮まる。「給料は悪くない、でも時間がない」が正確な表現だと思う。"
+      "id": 2,
+      "tier": "A",
+      "target": "@karube_sanei",
+      "name": "軽部治｜建設業の闇を暴露する社長",
+      "target_post_url": "https://x.com/karube_sanei/status/2037107629739434228",
+      "target_summary": "「建設業で手を動かす人が報われないのは、気合いが足りないからじゃない。現場に価格決定権がない。」",
+      "action_type": "reply",
+      "post_time": "09:00",
+      "text": "うちが支援してる現場でも同じ話を繰り返し聞く。\n腕で勝てても価格で負ける構造だと、品質を上げるインセンティブが弱くなる。改正建設業法の労務費ルールで少しずつ変わってきてるけど、現場への浸透はこれからだと思う。"
     },
     {
-      "type": "reply",
+      "id": 3,
+      "tier": "A",
+      "target": "@yukinoro1125s",
+      "name": "野呂侑希｜燈 CEO",
+      "target_post_url": "https://x.com/yukinoro1125s/status/2016683207715147922",
+      "target_summary": "燈が50億円調達・評価額1000億円超達成。建設・製造・物流のDXで黒字経営継続。",
+      "action_type": "reply",
+      "post_time": "09:30",
+      "text": "建設・製造・物流という「デジタルから遠い」とされてた産業で黒字継続してるのが証明になってる。\n現場に密着してプロダクトを磨くスタイル、中小建設会社への展開が楽しみ。"
+    },
+    {
+      "id": 4,
+      "tier": "B",
+      "target": "@TKG_CraftBank",
+      "name": "髙木健次｜クラフトバンク総研",
+      "target_post_url": "https://x.com/TKG_CraftBank",
+      "target_summary": "最新の建設業データ分析投稿（当日要確認）",
+      "action_type": "reply",
+      "post_time": "10:00",
+      "text": "クラフトバンクのデータ分析、専門工事会社の実態が数字で出てくるのが貴重。\nこういうデータが蓄積されると業界全体の意思決定の質が変わってくると思う。"
+    },
+    {
+      "id": 5,
       "tier": "tier外",
-      "target": "@kentsumedia（建通新聞社）",
-      "url": "https://x.com/kentsumedia/status/1877498087176024387",
-      "text": "技術者不足のほうが深刻になってきてますよね。\n500社の建設会社を支援してる実感として、施工管理者が足りなくて受注を断るケースがここ1年で明らかに増えてる。欠員率が全産業トップという数字は現場感と完全に一致してます。"
-    },
-    {
-      "type": "reply",
-      "tier": "tier外",
-      "target": "@yuuko_career（ゆうこ）",
-      "url": "https://x.com/yuuko_career/status/2034782219890258129",
-      "text": "これめちゃくちゃ大事。\n建設会社の採用支援もやってるけど、応募が来ない会社は大体この3つ全部当てはまる。逆に「現場の1日の流れ」と「先輩社員インタビュー」を載せるだけで応募率が2-3倍変わった実例がある。"
-    },
-    {
-      "type": "reply",
-      "tier": "tier外",
-      "target": "建設業バズ投稿",
-      "url": "https://x.com/search?q=%E5%BB%BA%E8%A8%AD%E6%A5%AD%20min_faves%3A100&f=live",
-      "text": "※当日の朝にX検索「建設業 min_faves:100」で最新バズを見つけて絡む"
+      "target": "建設業バズ投稿（当日発掘）",
+      "name": "tier外インフルエンサー or バズ投稿",
+      "search_url": "https://x.com/search?q=%E5%BB%BA%E8%A8%AD%E6%A5%AD%20min_faves%3A100&f=live",
+      "target_summary": "当日の建設業バズ投稿を探す（知らないアカウントでもOK）",
+      "action_type": "quote_rt",
+      "post_time": "10:30",
+      "text": "【テンプレ】\nまさにこれ。\n実際に建設会社に現場で入ってると、[相手の主張に対する一次情報1-2行]。\n構造的な問題で、[自分の意見を短く断言]。",
+      "note": "建設業 site:x.com min_faves:100 で今日のバズ投稿を探してリアルタイムで絡む"
     }
   ],
   "reply_sales": [
     {
-      "url": "https://x.com/search?q=%E6%96%BD%E5%B7%A5%E7%AE%A1%E7%90%86%20%E5%A4%A7%E5%A4%89&f=live",
-      "text": "施工管理の事務作業、AIで月40時間削減できた事例あります。もしよければ詳しくお話しできますよ。"
+      "id": 1,
+      "target_description": "安全書類・書類作成の大変さを発信している中小建設会社",
+      "search_query": "安全書類 大変 site:x.com",
+      "reply_text": "安全書類をAI化したら月40時間浮いた事例があります（茨城の型枠屋さん8人）。どの書類から始めたか詳しく話せますが、よかったら。"
     },
     {
-      "url": "https://x.com/search?q=%E5%BB%BA%E8%A8%AD%E6%A5%AD%20%E4%BA%BA%E6%89%8B%E4%B8%8D%E8%B6%B3&f=live",
-      "text": "人手不足の現場、BPOで外部から支援するモデルもありますよ。建設業特化で500社の実績があるのでお気軽にどうぞ。"
+      "id": 2,
+      "target_description": "採用難・人手不足を発信している建設会社社長",
+      "search_query": "建設業 採用 応募こない site:x.com",
+      "reply_text": "採用広告ゼロで応募が増えた建設会社の事例を最近いくつか見てて、共通してたのは「SNSで現場の中身を見せる」でした。新光重機さんのやり方が参考になるかもしれません。"
     },
     {
-      "url": "https://x.com/search?q=%E5%AE%89%E5%85%A8%E6%9B%B8%E9%A1%9E%20%E5%A4%A7%E5%A4%89&f=live",
-      "text": "安全書類の作成、AIで自動化できますよ。8人の型枠屋さんで月40時間削減の実績あります。"
+      "id": 3,
+      "target_description": "日報・施工管理の手間について発信している施工管理者",
+      "search_query": "日報 手書き 施工管理 面倒 site:x.com",
+      "reply_text": "音声入力で日報を記録してる現場の支援をしてますが、1日30分削減できてる会社があります。直帰できるようになったと言ってました。詳しく話せます。"
     },
     {
-      "url": "https://x.com/search?q=%E5%BB%BA%E8%A8%AD%E6%A5%AD%20DX&f=live",
-      "text": "建設DXって大掛かりなイメージあるけど、まずは日報や写真整理からが一番効果出やすいですよ。"
+      "id": 4,
+      "target_description": "育成就労・外国人採用を検討している建設会社",
+      "search_query": "育成就労 建設業 準備 site:x.com",
+      "reply_text": "2027年の育成就労に向けて、受け入れ規程や賃金体系の整備を今から始めてる建設会社のサポートをしてます。転籍リスクへの対策も含めて話せますが、よかったら。"
     },
     {
-      "url": "https://x.com/search?q=%E5%B7%A5%E4%BA%8B%E5%86%99%E7%9C%9F%20%E6%95%B4%E7%90%86&f=live",
-      "text": "工事写真の整理、AI使えば当日中に終わりますよ。大阪の電気工事会社で作成時間1/10になった事例あります。"
+      "id": 5,
+      "target_description": "事業承継・後継者問題を発信しているオーナー社長",
+      "search_query": "建設業 事業承継 後継者 悩み site:x.com",
+      "reply_text": "引き継ぎ前の業務整理・デジタル化で企業価値を高めてから承継する流れが増えてます。建設会社の承継サポートの経験があります。"
     },
     {
-      "url": "https://x.com/search?q=%E6%96%BD%E5%B7%A5%E8%A8%88%E7%94%BB%E6%9B%B8%20%E4%BD%9C%E6%88%90&f=live",
-      "text": "施工計画書の作成、AIでかなり楽になりますよ。よかったら事例お見せできます。"
+      "id": 6,
+      "target_description": "経審・入札参加に悩んでいる建設会社",
+      "search_query": "経審 点数 入札 困った 建設 site:x.com",
+      "reply_text": "経審の点数を上げる方法、CCUSとの連動も含めて整理したことがあります。書類周りで詰まってる部分があれば話せます。"
     },
     {
-      "url": "https://x.com/search?q=%E5%BB%BA%E8%A8%AD%E6%A5%AD%20%E6%8E%A1%E7%94%A8&f=live",
-      "text": "建設業の採用、SNS活用でコスト1/10にできた会社もありますよ。"
+      "id": 7,
+      "target_description": "下請け単価・元請からの値下げ圧力に悩む専門工事会社",
+      "search_query": "下請 単価 値下げ 建設 交渉 site:x.com",
+      "reply_text": "4月から改正建設業法の労務費ルールが本格運用されてます。「著しく低い労務費での見積は禁止」が武器になるので、国交省への通報制度も含めて確認するといいかもしれません。"
     },
     {
-      "url": "https://x.com/search?q=%E5%BB%BA%E8%A8%AD%E6%A5%AD%20%E4%BA%8B%E5%8B%99&f=live",
-      "text": "事務作業をAIに任せたら現場もう1件回せるようになった建設会社、結構あります。"
+      "id": 8,
+      "target_description": "見積もり・積算の効率化を求めている建設会社",
+      "search_query": "見積 積算 効率化 建設業 site:x.com",
+      "reply_text": "見積作成のAI化、Excel入力からOCR→自動生成に変えた会社の事例を見てます。東京の内装屋さんが2時間→40分になった話、詳しく話せます。"
     },
     {
-      "url": "https://x.com/search?q=%E5%BB%BA%E8%A8%AD%E6%A5%AD%20%E6%AE%8B%E6%A5%AD&f=live",
-      "text": "残業の原因が書類作業なら、AIで一気に減らせますよ。実際に残業ゼロになった現場あります。"
+      "id": 9,
+      "target_description": "建設業DXの社内推進担当者",
+      "search_query": "建設業 DX 社内 推進 なかなか進まない site:x.com",
+      "reply_text": "社内DX推進、本当に大変だと思います。「ツールを入れる」より「使われる環境を作る」の方が難しくて、ここで詰まる会社が多い。同じ悩みを持つ方と話せると思います。"
     },
     {
-      "url": "https://x.com/search?q=%E5%BB%BA%E8%A8%AD%E6%A5%AD%20%E8%A3%9C%E5%8A%A9%E9%87%91%20AI&f=live",
-      "text": "AI導入の補助金、2026年から使えるものが増えてます。建設業向けの活用事例もお話しできますよ。"
+      "id": 10,
+      "target_description": "若手技能者の育成・OJTに課題を持つ建設会社",
+      "search_query": "建設業 若手 育成 OJT 教える時間ない site:x.com",
+      "reply_text": "動画マニュアルとAI教材を組み合わせて若手育成してる現場の支援をしてます。広島の鉄筋屋さん（20人）で安全教育資料が半日→30分になった事例があります。"
     }
   ]
 }
