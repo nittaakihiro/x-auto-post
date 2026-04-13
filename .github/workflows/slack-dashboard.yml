@@ -1,0 +1,113 @@
+name: Send Dashboard to Slack
+
+on:
+  push:
+    paths:
+      - 'output/post_queue.json'
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate and send Slack message
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL: DGAKY546E6M
+        run: |
+          pip install -q python-dotenv
+
+          python3 << 'PYEOF'
+          import json
+          import os
+          import urllib.request
+          from datetime import datetime, timezone, timedelta
+
+          JST = timezone(timedelta(hours=9))
+          today = datetime.now(JST).strftime("%Y-%m-%d")
+          today_jp = datetime.now(JST).strftime("%Y年%-m月%-d日")
+          weekdays = ["月", "火", "水", "木", "金", "土", "日"]
+          day_of_week = weekdays[datetime.now(JST).weekday()]
+
+          # Load queue
+          with open("output/post_queue.json", "r") as f:
+              queue = json.load(f)
+
+          # Filter today's posts
+          today_posts = [p for p in queue if p["date"] == today and p["status"] == "pending"]
+
+          if not today_posts:
+              print("今日の投稿なし。スキップ。")
+              exit(0)
+
+          # Build Slack message
+          blocks = [
+              {
+                  "type": "header",
+                  "text": {"type": "plain_text", "text": f"📋 X Dashboard — {today_jp}（{day_of_week}）"}
+              },
+              {"type": "divider"}
+          ]
+
+          for p in sorted(today_posts, key=lambda x: x["time"]):
+              time_str = p["time"]
+              freshness = "🔒 locked" if p.get("freshness") == "locked" else "🔄 updatable"
+              text = p["text"]
+              char_count = len(text)
+
+              post_block = {
+                  "type": "section",
+                  "text": {
+                      "type": "mrkdwn",
+                      "text": f"*{time_str}* ({freshness}) — {char_count}字\n\n{text}"
+                  }
+              }
+              blocks.append(post_block)
+
+              # Reply section
+              if p.get("reply") and p["reply"].get("text"):
+                  reply_block = {
+                      "type": "context",
+                      "elements": [
+                          {"type": "mrkdwn", "text": f"💬 *リプ:* {p['reply']['text']}"}
+                      ]
+                  }
+                  blocks.append(reply_block)
+
+              blocks.append({"type": "divider"})
+
+          # Summary
+          blocks.append({
+              "type": "context",
+              "elements": [
+                  {"type": "mrkdwn", "text": f"📝 {len(today_posts)}本のオリジナル投稿 | GitHub Actions で自動投稿されます"}
+              ]
+          })
+
+          # Send to Slack
+          payload = json.dumps({
+              "channel": os.environ["SLACK_CHANNEL"],
+              "blocks": blocks,
+              "text": f"X Dashboard — {today_jp}（{day_of_week}）"
+          }).encode()
+
+          req = urllib.request.Request(
+              "https://slack.com/api/chat.postMessage",
+              data=payload,
+              headers={
+                  "Authorization": f"Bearer {os.environ['SLACK_BOT_TOKEN']}",
+                  "Content-Type": "application/json"
+              }
+          )
+          with urllib.request.urlopen(req) as resp:
+              result = json.loads(resp.read())
+              if result.get("ok"):
+                  print(f"Slack送信成功: {today_jp}")
+              else:
+                  print(f"Slack送信失敗: {result.get('error')}")
+                  exit(1)
+          PYEOF
