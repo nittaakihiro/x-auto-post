@@ -98,15 +98,28 @@ jobs:
           if engage_cards:
               blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🤝 絡み候補（手動投稿）*"}})
               for i, card in enumerate(engage_cards, 1):
-                  card_type = card.get("type", "reply")
+                  card_type = card.get("action_type", card.get("type", "reply"))
                   tier = card.get("tier", "")
                   target = card.get("target", "")
-                  url = card.get("url", "")
+                  name = card.get("name", "")
+                  url = card.get("target_post_url", card.get("url", ""))
+                  summary = card.get("target_summary", "")
                   text = card.get("text", "")
-                  label = "引用RT" if card_type == "quote_rt" else "リプ"
+                  label = "引用RT" if "quote" in card_type else "リプ"
+                  header = f"*{i}. [{label}] {target}*"
+                  if name:
+                      header += f" ({name})"
+                  if tier:
+                      header += f" [{tier} tier]"
+                  line = header
+                  if url:
+                      line += f"\n{url}"
+                  if summary:
+                      line += f"\n> {summary}"
+                  line += f"\n\n💬 {text}"
                   blocks.append({
                       "type": "section",
-                      "text": {"type": "mrkdwn", "text": f"*{i}. [{label}] {target}* ({tier})\n<{url}>\n\n{text}"}
+                      "text": {"type": "mrkdwn", "text": line}
                   })
                   blocks.append({"type": "divider"})
 
