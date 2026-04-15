@@ -7,6 +7,7 @@ import urllib.request
 
 CHANNEL = "C0ANXKLGC90"
 
+
 def fetch(limit=30):
     token = os.environ.get("SLACK_BOT_TOKEN")
     if not token:
@@ -21,10 +22,24 @@ def fetch(limit=30):
         return []
     return data.get("messages", [])
 
-if __name__ == "__main__":
-    msgs = fetch()
+
+def to_json(msgs):
+    out = []
     for m in msgs:
         text = m.get("text", "")
-        if "x.com" in text or "twitter.com" in text:
-            print(text[:300])
-            print("---")
+        if "x.com" not in text and "twitter.com" not in text:
+            continue
+        out.append({"ts": m.get("ts"), "text": text})
+    return out
+
+
+if __name__ == "__main__":
+    msgs = fetch()
+    if "--json" in sys.argv:
+        print(json.dumps(to_json(msgs), ensure_ascii=False, indent=2))
+    else:
+        for m in msgs:
+            text = m.get("text", "")
+            if "x.com" in text or "twitter.com" in text:
+                print(text[:300])
+                print("---")
