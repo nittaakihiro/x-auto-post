@@ -2,15 +2,22 @@ name: X Auto Post
 
 on:
   schedule:
-    # JST = UTC+9 → UTC変換
-    # 7:25 JST = 22:25 UTC (前日)
-    # 8:15 JST = 23:15 UTC (前日)
-    # 11:55 JST = 02:55 UTC
-    # 19:55 JST = 10:55 UTC
-    - cron: '25 22 * * *'
-    - cron: '15 23 * * *'
-    - cron: '55 2 * * *'
-    - cron: '55 10 * * *'
+    # JST = UTC+9
+    # GitHub Actions schedule は最大1時間級の遅延があるため、各投稿枠で前倒し+定時+予備の3発打つ。
+    # auto_post.py は posted 済みを再投稿しないため、多重実行しても二重投稿にならない。
+    #
+    # 7:30 JST 投稿枠
+    - cron: '25 22 * * *'   # 07:25 JST
+    - cron: '45 22 * * *'   # 07:45 JST
+    - cron: '5 23 * * *'    # 08:05 JST
+    # 12:00 JST 投稿枠
+    - cron: '55 2 * * *'    # 11:55 JST
+    - cron: '15 3 * * *'    # 12:15 JST
+    - cron: '35 3 * * *'    # 12:35 JST
+    # 20:00 JST 投稿枠
+    - cron: '55 10 * * *'   # 19:55 JST
+    - cron: '15 11 * * *'   # 20:15 JST
+    - cron: '35 11 * * *'   # 20:35 JST
   workflow_dispatch: # 手動実行用
 permissions:
   contents: write
