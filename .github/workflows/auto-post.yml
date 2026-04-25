@@ -18,6 +18,8 @@ on:
     - cron: '55 10 * * *'   # 19:55 JST
     - cron: '15 11 * * *'   # 20:15 JST
     - cron: '35 11 * * *'   # 20:35 JST
+    # リプライ回収（20:00枠のリプが翌日に回るのを防止）
+    - cron: '50 11 * * *'   # 20:50 JST
   workflow_dispatch: # 手動実行用
 permissions:
   contents: write
