@@ -1,139 +1,124 @@
 {
-  "date": "2026-05-01",
-  "generated_at": "2026-05-02T07:21:18.793855+09:00",
+  "date": "2026-05-02",
+  "generated_at": "2026-05-03T07:20:17.155280+09:00",
   "original_post": {
     "time": "07:30",
     "freshness": "locked",
-    "type": "Build in Public型",
+    "type": "独り言型",
     "status": "pending",
     "tweet_id": null,
-    "text": "うちで作ってる日報AIの話。\n\n先週、現場から音声で話しかけると書類が完成する試作を動かした。\n「バイブロ」「ラス型枠」がことごとく別の漢字に化ける問題が出た。\n\nSORABITOが4月21日にTakumiXを発表してた。会社ごとに用語・マニュアル・FAQを学習させて対話業務を自動化するやつ。音声辞書のカスタマイズまで込みのサービス。\n\n語彙問題を個社カスタマイズで解くなら、僕は「何百社分もの書類パターンを横断学習させる」方向で差を出すしかない。\n今週からその方向で組み直しを始めた。",
-    "reply_text": "SORABITOのTakumiXの詳細。ElevenLabs Japanとの提携で4月21日リリース。会社ごとにFAQ・マニュアル・用語を事前学習させる仕様。建設機械レンタルや現場作業指示への応用を想定してる。\nhttps://www.sorabito.com/press-20260421/",
-    "image_prompt": "フラットデザイン横型1200x675px。濃紺背景にオレンジアクセント。画面左側に「音声入力中」の波形アイコンと「バイブロ→誤変換×」テキスト（赤い×マーク）、画面右側に「書類パターン学習中」のデータベースアイコンと縦に積まれた書類の山。上部に白文字で大きく「現場日報AI 開発中」。右下に小さく @akionionio。日本語テキストは正確に描画すること。",
-    "episode_ref": "SORABITOのTakumiX（2026-04-21リリース）+ 自社日報AI開発進捗"
+    "text": "大成建設が手形をやめて全額現金払い・80日短縮を発表した。\n「神対応」と言う人がいる。\n\n材料費と外注費を60日手形で払うのが業界標準だった。\n受け取った下請けは、紙切れを割り引いて現金化して資材を買う。\n割引手数料は当然、自社負担で。\n\n「普通になった」が称賛される業界。\n僕はそこが一番気になってる。",
+    "reply_text": "大成建設のプレスリリース（2026年5月1日）。7月請求分から中小協力会社への支払いを全額現金化、支払期日を80日短縮。下請法改正で2026年以降60日超手形は法令違反になる。\nhttps://www.nikkei.com/article/DGXZQOUB010DH0R00C26A5000000/",
+    "image_prompt": "フラットデザイン横型1200x675px。濃紺背景、白文字、オレンジアクセント。左側に「60日手形」の紙のイラスト（大きな×マーク）と下に「割引手数料 自社負担」の赤文字。右側に「全額現金」のコインスタックと「80日短縮」の白文字（チェックマーク付き）。中央上部に「大成建設 2026年7月〜」の太字白文字。右下に小さく @akionionio。日本語テキストは正確に描画すること。",
+    "episode_ref": "大成建設 手形廃止・全額現金化発表（日経2026年5月1日）"
   },
   "engage_cards": [
     {
       "card_no": 1,
-      "target": "@RealPolice24",
-      "tier": "tier外（バズ）",
-      "action_type": "quote_rt",
-      "imp": 810000,
-      "target_post_url": "https://x.com/RealPolice24/status/2050037363464888758",
-      "target_summary": "入社一週間の新人バイトをいきなり現場監督にする建設業界（810,000 imp）",
-      "text": "1週間でいきなり現場監督。これ事実として普通にある。\n\n「現場で覚えろ」がOJTになって、採用コスト5〜10万かけた人が1ヶ月で消える。\n\n僕が見てる限り、定着してる現場には共通点がある。\n初日から1週間、現場に出す前に「書類と現場の言葉」を教えてる時間がある。たったそれだけ。"
+      "target_account": "@PapalotX",
+      "target_post_url": "https://x.com/PapalotX/status/2050407275999932618",
+      "engagement": "imp:100,000 / like:759 / RT:271",
+      "type": "quote_rt",
+      "text": "これは正確な指摘。\n下請法改正で2026年以降60日超手形は建設業法違反になる。大成が「7月から全額現金・80日短縮」を発表した背景にはこれがある。\n「神対応」じゃなくて「法令対応の前倒し」。他の大手も今年中に追随しないと下請法違反になる。",
+      "tier": "tier外バズ"
     },
     {
       "card_no": 2,
-      "target": "@monozukuritarou",
-      "tier": "A",
-      "action_type": "quote_rt",
-      "imp": 140000,
-      "target_post_url": "https://x.com/monozukuritarou/status/2050155865966342461",
-      "target_summary": "SONYイメージセンサーNo.1、Samsungに脅かされる話（140,000 imp）",
-      "text": "これ、建設業でも無縁じゃない。\n\n現場の工事写真AIや安全書類AIのほとんどはスマホのカメラに依存してる。\nSamsungセンサーが主流になれば、テック各社はそれに最適化したモデルを作り直す必要がある。\n\n「建設テックはスマホの上に乗ってる産業」という意識、業界全体でまだ薄い。\nうちが作ってるAIもまさにここに乗っかってるので、他人事じゃない。"
+      "target_account": "@tasogare_plus（豊田啓介引用経由）",
+      "target_post_url": "https://x.com/tasogare_plus/status/2050411424015634740",
+      "engagement": "imp:10,000 / like:431 / RT:178",
+      "type": "quote_rt",
+      "text": "全長43km、高低差92mを重機なしで引いた玉川上水が1653年完成で今も現役。\n設計は精度だけじゃなく「何十年使われるか」を前提に組まれてる。\nBIMもAIも進化してる今、「100年もつ建物」の比率が増えてるかは全く別の問いだ。",
+      "tier": "tier外バズ"
     },
     {
       "card_no": 3,
-      "target": "@karube_sanei",
-      "tier": "A",
-      "action_type": "quote_rt",
-      "imp": 1731,
-      "target_post_url": "https://x.com/karube_sanei/status/2050160567097413941",
-      "target_summary": "水道屋なのに電気・建築・土木もやってる会社、技術屋とは何か（1,731 imp）",
-      "text": "まさに。兼業している会社ほど、「誰が何をできるか」が社長の頭の中にだけある状態になってる。\n\n神戸の管工事会社（35人）で作業員名簿をAI化した。\n整理に入った時点で、資格情報の確認だけで3日かかった。\n\n名簿が当日出るようになると、「誰をどこに配置するか」の判断がその日できるようになった。"
+      "target_account": "@karube_sanei",
+      "target_post_url": "https://x.com/karube_sanei/status/2050515700595482884",
+      "engagement": "imp:1,982 / like:41 / RT:3",
+      "type": "quote_rt",
+      "text": "新築は1件の見積もりで利益を削って受注、施工中に資材高騰で赤字が積み重なる。\n安定してる会社の共通点を見ると、月次リフォーム・点検の売上が全体の3〜4割ある。新築が赤字でも月次で踏ん張れる。\n新築だけで勝負してると1件の読み違いが命取りになる。",
+      "tier": "A tier"
     },
     {
       "card_no": 4,
-      "target": "@funatomix",
-      "tier": "B",
-      "action_type": "quote_rt",
-      "imp": 355,
-      "target_post_url": "https://x.com/funatomix/status/2050167346149351555",
-      "target_summary": "図面はあくまで理想。現場がリアル。その間を埋めるのが仕事（355 imp）",
-      "text": "この感覚、施工管理出身の人はわかると思う。\n\n「図面通りにできません」と言えるようになるまでに、若手は3〜5年かかる。\n消えていくのは技術の差じゃなくて、「設計側に言えない」空気が原因だったりする。\n\n僕は初訪問の時、現場の若手が疑問を言える環境かどうかを最初に確認するようにしてる。"
+      "target_account": "@funatomix",
+      "target_post_url": "https://x.com/funatomix/status/2050449707076665680",
+      "engagement": "imp:1,718 / like:11",
+      "type": "quote_rt",
+      "text": "建設業の資材費を手形で受け取る会社は、割引手数料を自社で負担して現金化してた。\n大手が「2026年から廃止」に動いてる今でも、2〜3次の間ではまだ残ってる。\n初めて見た時に「不安でしかなかった」という感覚は正しい。",
+      "tier": "tier外バズ"
     },
     {
       "card_no": 5,
-      "target": "@shinwa_construc",
-      "tier": "tier外",
-      "action_type": "quote_rt",
-      "imp": 321,
-      "target_post_url": "https://x.com/shinwa_construc/status/2050132803120250909",
-      "target_summary": "緊急工事・随意契約、資材高騰で1.5倍になると職員判断が難しくなる（321 imp）",
-      "text": "随意契約の上限と資材高騰のギャップ、今いたるところで詰まってる。\n\n上限設定が2〜3年前の工事費水準のまま据え置かれてる自治体が多い中、資材高騰で工事費が1.3〜1.5倍になった案件がここ1年で急増した。\n\n入札手続きに戻ると最速でも3〜6ヶ月。学校の雨漏りが1年近く放置になる構造。\n\n随意契約基準の見直しを求める声が出始めてるか、僕は今注視してる。"
+      "target_account": "@cogecoge_",
+      "target_post_url": "https://x.com/cogecoge_/status/2050519635393679666",
+      "engagement": "imp:1,293 / like:19 / RT:2",
+      "type": "quote_rt",
+      "text": "4次・5次の末端まで価格改善が届かない構造、ほぼこれ。\n元請が一次と単価改善しても中間層で吸収されて末端には届かない。\n電子発注記録が普及すると各層の単価が可視化され始めるが、業界全体でそれを受け入れる動きはまだ遅い。",
+      "tier": "B tier"
     }
   ],
   "reply_sales": [
     {
       "no": 1,
-      "target_account": "@CRAFTCOM2",
-      "target_post_url": "https://x.com/CRAFTCOM2/status/2050160558176186716",
-      "target_summary": "明日着手するから今日中にデータが欲しい→思考がブラック",
-      "reply_text": "明日着手するから今日中にデータ、は段取りの問題ではあるけど、「いつ誰が何を決めるか」が書面で決まってない現場で必ず起きる。施工計画書に情報の締め切りを入れてる現場は同じミスをしない。"
+      "target_post_url": "https://x.com/PapalotX/status/2050407275999932618",
+      "target_account": "@PapalotX",
+      "reply_text": "下請法の経緯確認。2024年3月改正で60日超手形は建設業法違反扱い、2026年1月から完全施行。大成の7月対応は「法令ギリギリ」じゃなく相当な前倒し。他の大手が今年中に追随するかが本丸。"
     },
     {
       "no": 2,
-      "target_account": "@beaver2405",
-      "target_post_url": "https://x.com/beaver2405/status/2050154838626046026",
-      "target_summary": "建設業においてはポジショントークしか存在しない",
-      "reply_text": "建設業でポジショントークを見抜くには「誰が発注者で誰が受注者か」を先に確認するといい。同じデータでも立場が変わると全く逆の意見になる業界。中立的なデータが外から入りにくいのがずっと続いてる構造的な問題。"
+      "target_post_url": "https://x.com/karube_sanei/status/2050515700595482884",
+      "target_account": "@karube_sanei",
+      "reply_text": "材料費高騰のリスクは長期工事ほど大きい。2026年国交省の建設資材総合指数は2020年比135前後。見積段階の想定単価と着工時の実勢価格の乖離が利益を食う。短工期×小規模案件はこの乖離リスクが小さい。"
     },
     {
       "no": 3,
-      "target_account": "@ITM_BUILT",
-      "target_post_url": "https://x.com/ITM_BUILT/status/2050158303838408883",
-      "target_summary": "音声AIエージェントTakumiXが現場対話業務を自動化 SORABITO",
-      "reply_text": "TakumiX、ElevenLabs Japanとの提携で音声の自然さが実用レベルになってる。建設向け音声AIの課題は語彙カスタマイズの精度と応答速度。SORABITOは会社ごとに事前学習させる方式を選んだ。横展開の速さより精度を取ったということ。"
+      "target_post_url": "https://x.com/Pirokichi_1024/status/2050586681838027104",
+      "target_account": "@Pirokichi_1024（軽部治リプ先）",
+      "reply_text": "改修の見積もりが「予算オーバー」になるパターン、施主の想定が3〜4年前の単価ベースのままのことが多い。建設工事費デフレーターを使って「今はこれだけ上がってる」と見せると認識が変わりやすい。"
     },
     {
       "no": 4,
-      "target_account": "@karube_sanei",
-      "target_post_url": "https://x.com/karube_sanei/status/2050172841463845215",
-      "target_summary": "推進工事、受注できていないので営業頑張らねば",
-      "reply_text": "推進工事の需要、地域格差が大きい。老朽管の更新が集中してる都市部は需要があるが、地方は発注が地元指名に集中する構造で入り込みにくい。新規地域での受注は入札情報の早期取得が先になる。"
+      "target_post_url": "https://x.com/funatomix/status/2050449707076665680",
+      "target_account": "@funatomix",
+      "reply_text": "手形の割引手数料、年率換算で3〜5%になることも。2024年の下請法改正で建設業の手形サイト60日超は違反。受け取る側は「そういうもの」で飲み込まず、法的根拠で改善交渉できる時代になってる。"
     },
     {
       "no": 5,
-      "target_account": "@karube_sanei",
-      "target_post_url": "https://x.com/karube_sanei/status/2050142716219252947",
-      "target_summary": "都内1棟マンション見積もりを3棟いただいている",
-      "reply_text": "都内の1棟建築、今は施工管理技士の確保が先。資機材も職人も逼迫してるが、見積もりを受けてもらえるかどうかが最初の壁。3棟同時に見積もりを出してもらえてる状況、その信頼関係が資産。"
+      "target_post_url": "https://x.com/funatomix/status/2050498826058727662",
+      "target_account": "@funatomix",
+      "reply_text": "事業再生で一番難しいのは「関係で飲み込んできたコスト」の整理。建設業は元請との関係性が長いから、損切りが「裏切り」に見える。数字を先に共有してから話すと感情的な反応が少し和らぐ場合がある。"
     },
     {
       "no": 6,
-      "target_account": "@karube_sanei",
-      "target_post_url": "https://x.com/karube_sanei/status/2050140273498612002",
-      "target_summary": "1級電気工事施工管理技士の採用、4月は合計4名内定",
-      "reply_text": "1級電気工事施工管理技士の採用、今は本当に引っ張り合い。2025年の技術検定合格者数が前年を下回った中で、受験者数自体も減ってる。4名内定は相当動いた結果だと思う。"
+      "target_post_url": "https://x.com/UraBanashi_2525/status/2050382302530936834",
+      "target_account": "@UraBanashi_2525",
+      "reply_text": "施工管理1年目のGW後離職、毎年5月第2週に集中する。「体力的にきつい」より「何がわからないかわからない」で折れるパターンが多い。最初の3ヶ月は「できる仕事」より「理解できる仕事」を渡すと定着率が変わる。"
     },
     {
       "no": 7,
-      "target_account": "@akki35496（藤本壮介設計・太宰府仮殿関連）",
-      "target_post_url": "https://x.com/akki35496/status/2050063113916236043",
-      "target_summary": "太宰府天満宮の仮殿（藤本壮介設計）、屋根の植物が壮観",
-      "reply_text": "仮殿という一時施設なのに、屋根に植えた木の成長を設計に組み込んだ。解体前提の構造物でここまで考えた設計はなかなかない。建設の発注側がどこまで「完成後の変化」を前提にできるかで、こういう仕事が生まれるかどうかが決まる。"
+      "target_post_url": "https://x.com/cogecoge_/status/2050519635393679666",
+      "target_account": "@cogecoge_",
+      "reply_text": "CCUS（建設キャリアアップシステム）の賃金水準登録が進むと、各層の労務費が可視化されてくる。2026年度からCCUS活用モデル工事が拡大する方向で国交省が動いてる。末端の労務費可視化の第一歩になるかもしれない。"
     },
     {
       "no": 8,
-      "target_account": "@karube_sanei",
-      "target_post_url": "https://x.com/karube_sanei/status/2050177357059891626",
-      "target_summary": "建設業の社長様で自分の「分身」を作りたい方、機械は24時間動く",
-      "reply_text": "「機械は文句を言わずに24時間動く」はそう。建設会社で入れて評判がいいのは夜間ルーティン系。見積もりのたたき台生成、請求書の仕訳、安全書類のテンプレ作成。人が帰った後に動かしておく使い方が一番摩擦が少ない。"
+      "target_post_url": "https://x.com/KowashiyaGEN/status/2050369795984679018",
+      "target_account": "@KowashiyaGEN",
+      "reply_text": "ナフサ由来の建設資材（防水シート・断熱材・接着剤・塗料の溶剤系）は石油価格と連動して動く。ホルムズ封鎖が続く間、一部品番の出荷制限が出てきてる。工程に組んでる会社は早めに代替品確認を。"
     },
     {
       "no": 9,
-      "target_account": "@monozukuritarou",
-      "target_post_url": "https://x.com/monozukuritarou/status/2050176570997043666",
-      "target_summary": "日本市場でベンツは死んだ、Cクラス1000万で恥を買う",
-      "reply_text": "ベンツの話だけど構造は建設機械と似てる。コマツや日立建機は国内シェアを守ってるが、ボルボ建機やサンドビックの高性能機は円安で国内競争力が急落してる。海外製品の価格転嫁が続く中、メンテナンス・部品調達コストが次の問題になる。"
+      "target_post_url": "https://x.com/yukiyushi1117/status/2050518250476515551",
+      "target_account": "@yukiyushi1117（軽部治リプ先）",
+      "reply_text": "資材高騰期は短工期案件の強さが出る。6ヶ月工事だと見積もりと着工時の資材価格差がそのまま利益を削る。1〜2ヶ月完結の案件を月複数件まわす体制は、物価変動リスクへのヘッジにもなってる。"
     },
     {
       "no": 10,
-      "target_account": "@banban0938（藤本壮介仮殿関連）",
-      "target_post_url": "https://x.com/banban0938/status/2050064547499868474",
-      "target_summary": "太宰府天満宮仮殿、はーるかなーるー（502 imp）",
-      "reply_text": "藤本壮介さんのデザイン、木々が育つことを前提にした構成が面白い。通常の建設プロジェクトは竣工時点を完成とするが、ここは植物が育った後が本来の姿。発注者と設計者の長期的な信頼関係がないとこういう仕事はできない。"
+      "target_post_url": "https://x.com/KowashiyaGEN/status/2050536512090149323",
+      "target_account": "@KowashiyaGEN",
+      "reply_text": "タワマン廃墟化の問題、2026年改正マンション管理適正化法が試される年。管理組合が機能しない物件の修繕積立金不足は全国700万戸以上で問題化してる。設計より維持管理合意の仕組みが先に崩れる。"
     }
   ]
 }
