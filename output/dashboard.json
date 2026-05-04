@@ -1,154 +1,154 @@
 {
-  "date": "2026-05-03",
-  "generated_at": "2026-05-03T07:00:00.000000+09:00",
+  "date": "2026-05-04",
+  "generated_at": "2026-05-05T07:18:04.428574+09:00",
   "original_post": {
     "time": "07:30",
     "freshness": "locked",
-    "type": "Build in Public型",
+    "type": "商談メモ型",
     "status": "pending",
     "tweet_id": null,
-    "text": "GW中、僕は事務所で一人。建設書類の自動生成を改修してる。\n\n書式が会社ごとに微妙に違う。それを吸収しようとすると、今日で設計変更3回目になった。\n\n精度が上がるのは面白い。メンテを誰がやるか、それを先に決めないと結局使われなくなる。",
-    "reply_text": "うちが改修してるのは安全書類・施工体制台帳まわり。書式の標準化が業界でまだ進んでないから会社ごとに個別対応が必要になってる。国交省のBIM/CIM標準化が書類フォーマットの統一まで波及してくれると、こういうコストは下がる。",
-    "image_prompt": "フラットデザイン横型1200x675px。濃紺背景、白文字、オレンジアクセント。左側に複数の異なる書式の建設書類フォーム（安全書類・施工体制台帳）が重なり合って積み上がっているイラスト。右側にノートパソコンでコードを書く人物のシルエット。中央上部に「設計変更3回目」の大きなオレンジ文字。下部に「メンテする人を先に決める」の白文字。右下に小さく @akionionio。日本語テキストは正確に描画すること。",
+    "text": "熊本の基礎屋（28人）の話。工程表が手書きで、天気予報が変わるたびに書き直しが起きてると言ってた。\n\n気象APIと工程表を繋いで、翌日降水確率が60%を超えたら自動でアラートが出るようにした。\n\n「これで夜中に気象庁見なくてよくなった」。",
+    "reply_text": "天気予報と工程が繋がるメリットは前日中止の判断が早くなること。当日朝に職人が現場に集まってから中止を告げると、日当の無駄と職人の信頼の両方を失う。前日18時に確定できると職人側の翌日計画も変わる。",
+    "image_prompt": "横型1200x675px フラットデザイン。濃紺背景、白文字、オレンジアクセント。左側に手書きの工程表のイラスト、雨マークで複数回書き直した跡がある。右側にスマートフォン画面に「降水確率65%：明日の作業を中止します」のアラート通知。中央に「当日中止→前日判断」のオレンジ大文字。右下に小さく @akionionio。日本語テキストは正確に描画すること。",
     "self_check": {
       "not_3para_structure": true,
       "not_opinion_ending": true,
       "not_slogan_ending": true,
-      "first_person_boku": true,
+      "first_person_boku_or_omitted": true,
       "no_fabricated_story": true,
       "no_dm_cta": true,
       "no_shienaki_expression": true,
       "no_self_promo": true,
-      "has_field_translation": "Build in Public型のため対象外"
+      "has_field_translation": true
     },
-    "episode_ref": "自社AI開発（Build in Public型）",
-    "news_source": "国交省BIM/CIM標準化方針（補足リプ）"
+    "episode_ref": "エピソードバンク #17: 熊本の基礎工事28人 / 天気予報×工程表AI連動 / 当日中止→前日判断"
   },
   "engage_cards": [
     {
       "card_no": 1,
-      "target_account": "@nikkei",
-      "target_post_url": "https://x.com/nikkei/status/2050742528870097100",
-      "engagement": "imp:410,000 / like:2,021 / RT:1,053",
-      "type": "quote_rt",
       "tier": "tier外バズ",
-      "text": "建設資材への波及が今まさに起きてる。\nオート化学工業が4月9日からシーリング材・防水材を全製品クォータ制に。日新工業は防水材の受注停止＋40%値上げ。TOTOは新規受注全面停止。\nGW明けに「入荷できない」が一斉に来る。代替品確認は今週中が限界。",
-      "fact_check": "オート化学工業4/9クォータ制・日新工業4/14受注停止+40%値上げ・TOTO4/13新規受注停止はWebSearch確認済み"
+      "type": "quote_rt",
+      "target_account": "@Malaysiachansan",
+      "target_post_url": "https://x.com/Malaysiachansan/status/2051077846756716832",
+      "engagement": "imp:17,000 / like:314 / RT:27",
+      "text": "月27万でも集まらない実態、ずっと聞く。\n\n賃金より「休日が読めない」と「3年後の自分が見えない」が離脱の本音に出てくる。月給制に切り替えた会社から先に応募数が変わってきてる。求人票に年収だけ書いてる会社と、1年後のロールモデルを書いてる会社で差が出てきてる。"
     },
     {
       "card_no": 2,
-      "target_account": "@LPGadvisorJP（建築エコノミスト森山高至RT経由）",
-      "target_post_url": "https://x.com/LPGadvisorJP/status/2050754094227423633",
-      "engagement": "imp:30,000 / like:2,368 / RT:1,324",
+      "tier": "tier外バズ",
       "type": "quote_rt",
-      "tier": "tier外バズ（C tier表示）",
-      "text": "クラッカーが止まったら再稼働1ヶ月。それが建設現場に直撃する部分。\n防水材・シーリング材・断熱材の一部メーカーがすでに受注停止・クォータ制に入ってる。\nGW中に動かせなかった工期の穴は、資材が来なければ埋められない。",
-      "fact_check": "クラッカー再稼働1ヶ月はSlack buzzの原文テキストより引用。受注停止・クォータ制はWebSearch確認済み"
+      "target_account": "@RikenYamamoto",
+      "target_post_url": "https://x.com/RikenYamamoto/status/2051192812570554807",
+      "engagement": "imp:8,952 / like:48 / RT:3",
+      "text": "AI設計ツールが普及するほど、構造安定性の判断がブラックボックスになるリスクが上がる。\n\nAutodeskがAI支援をRevitに入れてきたが、アウトプットが正しいかを判断できる設計者が減ってる。「何を根拠に安全とするか」のトレーサビリティが今後問われる。"
     },
     {
       "card_no": 3,
-      "target_account": "@fujiwaramasaaki",
-      "target_post_url": "https://x.com/fujiwaramasaaki/status/2050515650947268928",
-      "engagement": "imp:11,000 / like:88 / RT:6",
-      "type": "quote_rt",
       "tier": "tier外バズ",
-      "text": "用地仕入→設計→施工→販売まで自社一貫の施工管理は、発注者と施工者の情報格差がゼロ。\n分離発注の現場では施工管理が「やってくれ」で渡された仕様書を解釈するところから始まる。\n「裁量が足りない」なら一気通貫体制の会社で積む経験の方が確実に広がる。",
-      "fact_check": "投稿内容から読み取れる一般的観察。創作体験談なし"
+      "type": "quote_rt",
+      "target_account": "@KowashiyaGEN (via @gatensuki_gen)",
+      "target_post_url": "https://x.com/gatensuki_gen/status/2050857292388868379",
+      "engagement": "imp:1,108 / like:10 / RT:5",
+      "text": "解体屋ゲンが長く続いてるのは現場のリアルを描いてるから。\n\n飲みと依存の話は今の建設業にもある。働き方改革で残業がなくなった後、夜の時間の使い方が変わった現場と変わってない現場が分かれてきてる。"
     },
     {
       "card_no": 4,
-      "target_account": "@shinkojuki（新光重機）",
-      "target_post_url": "https://x.com/shinkojuki/status/2050833950072062316",
-      "engagement": "imp:567 / like:19",
-      "type": "quote_rt",
       "tier": "B tier",
-      "text": "ICT建機が本当に効くのは測量→設計→施工のデータが繋がってる時。\nマシンコントロールで施工精度が上がっても、図面精度が追いついてないと効果が半減する。\nBIM設計→現場直接連携が整うと精度じゃなくてスピードに化ける。",
-      "fact_check": "ICT建機・マシンコントロール・BIM連携は業界技術知識ベース"
+      "type": "quote_rt",
+      "target_account": "@funatomix",
+      "target_post_url": "https://x.com/funatomix/status/2051131060260606018",
+      "engagement": "imp:1,674 / like:11 / RT:1",
+      "text": "RIZAP建設の脅威、住み分けの話だと思う。\n\nスピード意思決定が必要な小規模改修はブランド力が強い。大型案件は調達力と工程管理が勝負で土台が違う。FC系は本部が現場管理コストをどれだけ吸収できるかが耐久性を決める。"
     },
     {
       "card_no": 5,
-      "target_account": "@funatomix",
-      "target_post_url": "https://x.com/funatomix/status/2050833853519118811",
-      "engagement": "imp:263 / like:10",
-      "type": "quote_rt",
       "tier": "B tier",
-      "text": "建設業のMQ会計が機能するのは完工基準の問題を可視化できるから。\n工事中は原価が積み上がるが利益確定しないから月次で赤字に見えて社長が不安になる。\n完工後にまとめて利益が出る構造を理解した上での意思決定かどうかで、判断の質が変わる。",
-      "fact_check": "完工基準・MQ会計は会計知識ベース。創作なし"
+      "type": "quote_rt",
+      "target_account": "@shinkojuki",
+      "target_post_url": "https://x.com/shinkojuki/status/2051175112582606909",
+      "engagement": "imp:283 / like:18 / RT:7",
+      "text": "燃料の間違いは現場を止める。\n\n重機は軽油、ジェットヒーターは灯油、発電機は軽油。これを管理してるのは今もベテランの頭の中が多い。GW明けの現場再稼働で燃料切れが出るパターン、毎年ある。"
     }
   ],
   "reply_sales": [
     {
       "no": 1,
-      "target_post_url": "https://x.com/nikkei/status/2050742528870097100",
-      "target_account": "@nikkei",
-      "reply_text": "ナフサ由来の建設資材は今週から直接影響が出てる。シーリング材・防水材・断熱材の一部メーカーで受注停止・クォータ制が始まってる。GW明けに工程に組んでた資材が来なかった時の代替品手配、今から動いた方が安全。"
+      "target_account": "@Malaysiachansan",
+      "target_post_url": "https://x.com/Malaysiachansan/status/2051077846756716832",
+      "reply_text": "月給制に切り替えた会社から先に応募数が変わってきてる。日給制だと雨天欠勤で収入が読めないから、求人を見た段階で敬遠される。賃金の絶対値より雇用の安定感が先に判断されてる。"
     },
     {
       "no": 2,
-      "target_post_url": "https://x.com/LPGadvisorJP/status/2050754094227423633",
-      "target_account": "@LPGadvisorJP",
-      "reply_text": "建設現場への直接影響はシーリング材・防水材・断熱材。オート化学工業がクォータ制、日新工業が受注停止に動いてる。停止から再稼働1ヶ月のタイムラグが現場工程に響く。GW明けの入荷確認は早めに。"
+      "target_account": "@RikenYamamoto",
+      "target_post_url": "https://x.com/RikenYamamoto/status/2051192812570554807",
+      "reply_text": "AI設計ツールが出てきてから「なぜこの構造になったか」を説明できない設計者が出てくる問題を聞くようになった。アウトプットの根拠を辿れる人間が希少になってる。自動化と理解力の乖離はどこかで顕在化する。"
     },
     {
       "no": 3,
-      "target_post_url": "https://x.com/Beyond_Climate/status/2050774507342766486",
-      "target_account": "@Beyond_Climate",
-      "reply_text": "建設・設計の観点では、データセンター周辺の建物外皮設計（断熱・遮熱）への要求が変わってくる。都市の熱環境が2℃変わると冷房負荷の設計基準がズレる。ZEB基準だけじゃ追いつかない。都市計画レベルの熱環境設計基準が必要になってくる。"
+      "target_account": "@funatomix",
+      "target_post_url": "https://x.com/funatomix/status/2051149274797523010",
+      "reply_text": "建設業でMQ会計が難しいのは完工基準の問題がある。工事中は原価が積み上がるのに利益が確定しないから月次で赤字に見える。工事台帳ベースで原価を把握できてる会社は意思決定の速度が違う。"
     },
     {
       "no": 4,
-      "target_post_url": "https://x.com/fujiwaramasaaki/status/2050515650947268928",
-      "target_account": "@fujiwaramasaaki",
-      "reply_text": "自社一貫体制の施工管理は設計段階から入れるから工程の意思決定が速い。受注→施工だけの現場と比べると上流から関与できる分、学習密度が高い。延床1,000〜9,000㎡の中高層RC、自社開発で管理してる会社は工期の読み精度が違う。"
+      "target_account": "@funatomix",
+      "target_post_url": "https://x.com/funatomix/status/2051126542290518058",
+      "reply_text": "FC特化の内装は発注者との単価交渉がしやすい。ブランドで価格を守れる構造がある。本部の品質管理コストが増えるとFC加盟料の設計が崩れやすいから、どこで利益を取るかが肝になる。"
     },
     {
       "no": 5,
-      "target_post_url": "https://x.com/shinkojuki/status/2050833950072062316",
       "target_account": "@shinkojuki",
-      "reply_text": "ICT建機の効果が本当に出るのは測量→設計→施工がデータで繋がってる時。GNSS測量→BIM設計→マシンコントロールの連携が一本線になると、現場の判断が減って工期の予測精度が上がる。中小でもリースで使い始める会社が増えてる。"
+      "target_post_url": "https://x.com/shinkojuki/status/2051175112582606909",
+      "reply_text": "重機軽油、ジェットヒーター灯油、発電機軽油。これが混同されると現場が止まる。管理表を作って貼ってる現場は減るけど、人が変わると引き継ぎがリセットされる。デジタル台帳に変えると入れ替えに強くなる。"
     },
     {
       "no": 6,
-      "target_post_url": "https://x.com/shinkojuki/status/2050842751139488002",
-      "target_account": "@shinkojuki",
-      "reply_text": "能登の復旧現場で遠隔操縦重機の実用データが今年から蓄積されてる。人が入れない場所を機械が先行する標準が防災土木に広がれば、重機オペレーターの役割も変わる。防衛省の無人化研究と民間建機メーカーの開発が交差してきた。"
+      "target_account": "@Stoneman_ISHIO",
+      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2051259025849974839",
+      "reply_text": "日本の建設業でAIが最初に変えてるのは事務作業。安全書類・工事写真整理・施工体制台帳あたりから入ってる。肉体労働がAIに置き換わる前に管理コストが下がる過渡期にいる。今は両方必要な時期。"
     },
     {
       "no": 7,
-      "target_post_url": "https://x.com/funatomix/status/2050833853519118811",
-      "target_account": "@funatomix",
-      "reply_text": "建設業でMQ会計を使うと完工基準の問題が一番わかりやすく見える。工事中は原価が積み上がっても利益確定しないから月次で赤字に見える構造、知らずに経営判断してる社長は多い。MGで体感してから数字を見ると別物になる。"
+      "target_account": "@oyakata_sgak",
+      "target_post_url": "https://x.com/oyakata_sgak/status/2051252887922393550",
+      "reply_text": "施工管理アプリのUI、現場で使いにくいのが多い。疲れた状態でスクロールしないと見つからない機能は使われなくなる。シンプルさと機能性の設計が現場への定着率を決める。"
     },
     {
       "no": 8,
-      "target_post_url": "https://x.com/funatomix/status/2050806650853048539",
-      "target_account": "@funatomix",
-      "reply_text": "建設業でコツコツ積み上げが効くのは定期点検・メンテ契約。新築1件より月次メンテ50件の利益の安定度が全然違う。新築が取れない時期でも月次で踏ん張れる構造を持ってる会社は不況に強い。"
+      "target_account": "@KowashiyaGEN (via @gatensuki_gen)",
+      "target_post_url": "https://x.com/gatensuki_gen/status/2050857292388868379",
+      "reply_text": "解体屋ゲンが長く続いてるのは現場のリアルを描いてるから。飲み文化と依存の話は今の建設業にもある。残業規制で夜の時間が空いた後、良い方向に変わった現場と変わってない現場が分かれてきてる。"
     },
     {
       "no": 9,
-      "target_post_url": "https://x.com/yosshi_oyakata/status/2050824456608833929",
-      "target_account": "@yosshi_oyakata",
-      "reply_text": "GW全現場閉まったのはゆっくりできたかもですが、明けの月曜朝に安全書類の確認で詰まる現場が多い。GW中に新規入場者が入ったケースは名簿・KY記録・健康管理シートの整合を戻ってくる前に確認しておくと朝礼が止まらない。"
+      "target_account": "@chocozap_ (KowashiyaGEN経由)",
+      "target_post_url": "https://x.com/chocozap_/status/2050923328093691974",
+      "reply_text": "集中力と身体の状態、現場の判断力に直結する。重作業の後に書類仕事をやらせると効率が落ちる。施工と事務が分離されてない現場は、どちらの時間に何をやるかの設計をもう少し考えてもいい。"
     },
     {
       "no": 10,
-      "target_post_url": "https://x.com/Kentaro_Mo/status/2050938065347395739",
-      "target_account": "@Kentaro_Mo",
-      "reply_text": "製造業の間接業務AI化は建設業の2〜3年先を走ってる。アクセンチュア×NSKの連携で成果が出れば建設大手にも横展開される。中小建設は独自AI開発より既製品の組み合わせで業務自動化する方が今は費用対効果が高い。"
+      "target_account": "@toyoda_noiz",
+      "target_post_url": "https://x.com/toyoda_noiz/status/2051242456562495691",
+      "reply_text": "建物の『直さないといけない』は設計から20〜30年後に来る。設計時のメンテナンス計画通りに動いてる建物は少ない。所有者が変わって計画が形骸化する。長寿命建物の管理コストをどこで誰が持つかの設計が問われてきてる。"
     }
   ],
   "research_notes": {
     "web_search": [
-      "建設業 AI 最新ニュース 2026年5月: 国交省が2026年5月以降の直轄土木業務の特記仕様書に生成AI活用方針を明記開始（日経クロステック確認）",
-      "ナフサ 建設資材 出荷制限 2026: オート化学工業4/9クォータ制、日新工業4/14受注停止+40%値上げ、TOTO4/13新規受注全面停止を確認"
+      "建設業 採用 人手不足 2026年5月: 建設躯体工事従事者の有効求人倍率7.75倍（2025年4月時点、新建ハウジング）",
+      "建設業 AI DX 2026年5月: 国内建設AI市場は年間成長率20%超、i-Construction 2.0で2040年度までに省人化3割・生産性1.5倍（OptiMax AI情報）",
+      "大型工事「26年度受注できず」建設会社の7割 - 人手不足が成長投資を阻む（日経新聞）"
     ],
-    "slack_buzz_top5_by_engagement": [
-      "@nikkei: イラン原油180万バレル行き場失う (410,000 imp)",
-      "@LPGadvisorJP: ナフサ分解装置停止リスク (30,000 imp)",
-      "@fujiwaramasaaki: 施工管理求人 自社開発物件 (11,000 imp)",
-      "@Beyond_Climate: データセンター熱島 (2,408 imp)",
-      "@Stoneman_ISHIO: ボクシングイベント (2,391 imp / 建設コンテンツでないためリプ営業のみ)"
+    "slack_buzz_top5": [
+      "@Malaysiachansan: 建設土木月27万/事務職月18万の採用格差 (17,000 imp)",
+      "@RikenYamamoto: 建築の構造安定性 (8,952 imp)",
+      "@funatomix: RIZAP建設の脅威/FC再現性 (1,674 imp)",
+      "@oyakata_sgak: 下にボタンあった (1,610 imp)",
+      "@funatomix: 数字理解で経営モヤモヤ解消 (1,010 imp)"
+    ],
+    "today_topic_avoidance": [
+      "5/3 7:30: Build in Public（書類AI改修）→ 避けた ✓",
+      "5/4 20:00: 職人が来ない/人手不足→ 避けた（別角度・天気予報×工程表）✓",
+      "5/4 12:00: 標準労務費 → 避けた ✓"
     ]
   }
 }
