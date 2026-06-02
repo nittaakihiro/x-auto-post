@@ -3473,5 +3473,30 @@
     "reply_tweet_id": null,
     "posted_at": null,
     "error": null
+  },
+  {
+    "id": "2026-06-03_07:30",
+    "date": "2026-06-03",
+    "time": "07:30",
+    "text": "工事写真の自動分類ツールを作ってる。\n\n名古屋の設備工事屋（15人）で試したとき、3日かかってた写真整理が1日になった。それを汎用化する段階。\n\nフォルダ構成が会社ごとに全然違うのが想定外で、そこに一番時間を使ってる。今週でルールの共通化をやりきって、来月β試験に入る。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "gemini",
+      "prompt": "散乱した工事写真ファイルが整理されたフォルダに自動分類されるプロセスを示すフラットデザインイラスト。左に混沌とした写真アイコンの山（Beforeラベル）、中央に大きな矢印、右に整理されたフォルダ構成（Afterラベル、工種別・日付別）。濃紺背景、オレンジと白のアクセント。下部に「工事写真 3日→1日」白文字。右下に小さく @akionionio。1200x675px。日本語テキストは正確に描画すること。",
+      "path": null
+    },
+    "reply": {
+      "text": "今週試してるのは、写真のEXIF情報から撮影箇所を自動判定する仕組み。工事番号がファイル名に入ってれば精度が出る。入ってない現場のほうが多いのが現状。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "pending",
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null
   }
 ]
