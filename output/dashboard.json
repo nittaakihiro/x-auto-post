@@ -1,151 +1,151 @@
 {
-  "date": "2026-06-10",
-  "post_date": "2026-06-10",
-  "generated_at": "2026-06-11T11:14:35.992823+09:00",
+  "date": "2026-06-11",
+  "post_date": "2026-06-11",
+  "generated_at": "2026-06-12T07:09:32.494892+09:00",
   "original_post": {
     "time": "07:30",
-    "date": "2026-06-10",
+    "date": "2026-06-11",
     "freshness": "locked",
-    "type": "独り言型",
+    "type": "Build in Public型",
     "status": "pending",
     "tweet_id": null,
-    "text": "仙台の防水工事、10人規模の会社が請求書のAI読み取りを入れた。\n下請け10社分の手入力がほぼなくなって、エラー率が90%減った。\n\nAI導入の話をするとき、費用や稟議より先に「何かあったときのサポート体制はあるか」を聞かれることが多い。\n壊れた後の話を先に片付けると、スムーズに動く。",
-    "reply": "仙台の事例だと請求書の対応は5〜7パターンに分類できた。分類ルールを作る最初の1週間が設定時間の8割。そこ過ぎると自走する。",
-    "image_prompt": "白い紙に黒ペンで手書きメモ風のイラスト。左側に「請求書 ×10社」とノートに走り書き。中央に大きく「エラー90%減」と手書き文字。右側にシンプルなAIアイコン（PCと矢印）。殴り書きのラフなタッチ。下部に「読み取り・分類が自動になった」と小さく手書き。白背景・黒ペン・文字は最大3行。装飾なし。",
-    "note": "独り言型 / エピソードバンク#10（仙台の防水工事10人・請求書AI読み取り・エラー率90%減）/ 体験談創作なし・自社宣伝なし"
+    "text": "うちのチームが今週、工事写真の自動タグ付けをテストした。撮影場所・工程・日付を読んで分類する仕組みで、現場から届いた1000枚を流したら手作業より速く処理できた。\n\n誤認識が多かったのは足場解体と内部解体の判定。似た画角で区別しにくい。来週そこだけ別モデルを追加で試す。",
+    "reply": "工事写真の分類は撮影条件のばらつきがある。高さ・距離・光量が現場ごとに違うので、汎用モデルだと精度が頭打ちになりやすい。足場解体は解体前・解体中・解体後で見た目が変わるので、状態別にラベルを細分化して来週再学習する。",
+    "image_prompt": "白い紙に黒ペンで殴り書きした手書きメモ風。見出し「工事写真 自動タグ付け TEST」。箇条書き3行：「1000枚 → 手作業より速く」「OK: 撮影場所 / 工程 / 日付」「NG: 足場解体 vs 内部解体（画角似てる）」。走り書き風の矢印や丸囲みあり。右下に小さく「@akionionio」。装飾なし。1200x675px。",
+    "note": "Build in Public型 / AI自社開発進捗 / 体験談創作なし・自社宣伝なし"
   },
   "engage_cards": [
     {
       "no": 1,
-      "tier": "A tier (@monozukuritarou)",
-      "account": "@monozukuritarou",
+      "tier": "tier外（日経）",
+      "account": "@nikkei",
       "action": "引用RT",
-      "target_post_url": "https://x.com/monozukuritarou/status/2064609781474885902",
-      "target_summary": "なぜ「PLMやVSSモデルが今後AI」で進化できるのか？MCPの深堀 — 4,623 imp / いいね25 / RT2",
-      "imp": 4623,
-      "likes": 25,
+      "target_post_url": "https://x.com/nikkei/status/2064931556599230691",
+      "target_summary": "鉄筋が1年3カ月ぶり高値　中東発の原燃料高、転嫁には時間 — 28,000 imp / いいね177 / RT85",
+      "imp": 28000,
+      "likes": 177,
       "post_time": "8:00-10:00",
-      "text": "MCPを使ってプロダクトの仕様管理を整理しようとしてる。\n建設業でも施工手順書・図面の管理は似た問題があって、データ構造を先に固めないとAIが乗っかれない。\nPLMとの接続の話、製造から少し遅れて建設でも出てくると思う。"
+      "text": "鉄筋の転嫁が遅れる構造は、元請・下請の契約更新タイミングと原料高の時差にある。資材価格は月次で動くが、請負金額の見直しは半年〜1年後になることが多い。この時差が中小下請の財務を直撃してる。"
     },
     {
       "no": 2,
-      "tier": "B tier (@shinkojuki)",
-      "account": "@shinkojuki",
+      "tier": "tier外バズ (@muraki0924)",
+      "account": "@muraki0924",
       "action": "引用RT",
-      "target_post_url": "https://x.com/shinkojuki/status/2064631451086098885",
-      "target_summary": "CSPI-EXPO2026@幕張メッセ OEDO Dynamics出展 遠隔操作・自動運転重機 — 381 imp / いいね11",
-      "imp": 381,
-      "likes": 11,
+      "target_post_url": "https://x.com/muraki0924/status/2064643742699769979",
+      "target_summary": "「人がいない」は慢性から常態へ — 1,278 imp / いいね26 / RT2",
+      "imp": 1278,
+      "likes": 26,
       "post_time": "8:00-10:00",
-      "text": "遠隔操作重機、今年から実案件への適用が増えてきてる。\n幕張で実機を見れるなら行きたいところ。オペレーターを何人でどう配置するか、コスト試算のリアルな話が聞きたい。"
+      "text": "2025年度の建設業倒産2041件のうち人手不足倒産が112件（帝国データバンク2025年度報）。全業種の人手不足倒産427件の26%が建設業に集中してる。「固定メンバー化・多能工化・少人数高単価」は現場実感と合う。30人以下の会社は今年から本格的に舵を切り始めてる。"
     },
     {
       "no": 3,
-      "tier": "tier外バズ (@ZanEngineer)",
-      "account": "@ZanEngineer",
-      "action": "引用RT",
-      "target_post_url": "https://x.com/ZanEngineer/status/2064666501354082579",
-      "target_summary": "【悲報】人手不足の理由、給料が安いからだった。給料よければめっちゃ集まるじゃん — 1,057 imp / いいね41 / RT16",
-      "imp": 1057,
-      "likes": 41,
+      "tier": "tier外バズ (@muraki0924)",
+      "account": "@muraki0924",
+      "action": "リプ",
+      "target_post_url": "https://x.com/muraki0924/status/2064890000307794019",
+      "target_summary": "これからの建設業は大変だ。でも見方を変えれば誰でも参入できる時代ではなくなった — 1,080 imp / いいね26",
+      "imp": 1080,
+      "likes": 26,
       "post_time": "8:00-10:00",
-      "text": "給料上げれば集まるのは事実。\n問題は建設業の価格構造が下から上に変わりにくいこと。元請が下請に払う単価が変わらないと、職人に渡る金額は増えない。\n公共工事の設計労務単価は直近2年で上がってる。民間の方が遅れてる。"
+      "text": "同意。チャンスが来る会社と来ない会社は分かれる。うちが見てる範囲だと、生き残りそうなのは取引先が3社以上あって自社で書類を作れる会社。元請1社依存で書類を丸投げしてる会社は、相手が変わった瞬間に仕事が止まる。"
     },
     {
       "no": 4,
-      "tier": "S tier (@sekokan_kun)",
-      "account": "@sekokan_kun",
+      "tier": "B tier (@TKG_CraftBank)",
+      "account": "@TKG_CraftBank",
       "action": "リプ",
-      "target_post_url": "https://x.com/sekokan_kun/status/2064661577920594144",
-      "target_summary": "施工管理のキャリアパスを具体的に整理。積算・技術営業・発注者側・実務家教員まで — 165 imp / いいね4 / RT1",
-      "imp": 165,
-      "likes": 4,
+      "target_post_url": "https://x.com/TKG_CraftBank/status/2064951781759832246",
+      "target_summary": "130回講演してきたが四国ゼロ回、明日初めて愛媛で講演 — 193 imp / いいね10",
+      "imp": 193,
+      "likes": 10,
       "post_time": "8:00-10:00",
-      "text": "積算で5年やった人間が受注営業に転換すると、見積精度の高さが武器になる。現場原価がわかる営業はそう多くない。\n施工管理→積算ルートの評価、僕が見てる範囲でも安定してる。"
+      "text": "130回で四国初は確かにレア。四国は建設業DX系のセミナーや商談が東名阪と比べて少ない印象がある。実際に話してみると課題意識はどこも変わらないので、初回でも反応は良いはず。"
     },
     {
       "no": 5,
-      "tier": "C tier (@ITM_BUILT)",
-      "account": "@ITM_BUILT",
-      "action": "リプ",
-      "target_post_url": "https://x.com/ITM_BUILT/status/2064634946170597715",
-      "target_summary": "工事写真の工種分類をAIが自動提案する「写管屋クラウド AIアシスト」を開発 — 23 imp",
-      "imp": 23,
-      "likes": 0,
+      "tier": "tier外 (@funatomix)",
+      "account": "@funatomix",
+      "action": "引用RT",
+      "target_post_url": "https://x.com/funatomix/status/2065008322995245370",
+      "target_summary": "ゼネコンが協力会社の採用と経営支援に乗り出すのも当たり前になる未来 — 65 imp / いいね4",
+      "imp": 65,
+      "likes": 4,
       "post_time": "8:00-10:00",
-      "text": "工事写真の分類、手作業でやってる会社だと1現場100〜300枚が普通で、担当者がかなりの時間を使ってる。\n大阪の電気工事会社（25人）で写真帳のAI化をしたとき、作成時間が10分の1になって当日提出が普通になった。\n分類の自動提案が精度出れば、現場提出の習慣が変わると思う。"
+      "text": "大手ゼネコンが協力会社の採用・経営支援に乗り出す例が増えてる。元請の仕事の質は協力会社で決まる、という認識から自然な動きだ。選ばれる側に立つには、受発注関係が変わる前に採用と書類整備を自力で回せる状態にしておく必要がある。"
     }
   ],
   "reply_sales": [
     {
       "no": 1,
-      "account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2064610012920696959",
-      "target_summary": "建設キャリアアップシステム登録が181万人超。建設で働く人の半分近くが入っている — 55 imp",
-      "text": "181万人。建設で働く人の4〜5割が登録してる計算になる。CCUSが普及期に入った感覚はあって、経審の加点が動いたと思う。"
+      "account": "@muraki0924",
+      "target_post_url": "https://x.com/muraki0924/status/2064643742699769979",
+      "target_summary": "「人がいない」は慢性から常態へ",
+      "text": "外国人も取り合い、のところが一番実態に近い。特定技能への移行が進んでるが、建設業のマッチングはまだ整ってない。2026年度に受け入れ上限が撤廃される業種も出てきたので、外国人確保の難易度は来年さらに上がる。"
     },
     {
       "no": 2,
-      "account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2064589628959862848",
-      "target_summary": "建設業の技術職、女性の比率はまだ8.5%。現場の空気は確実に変わってきている — 64 imp",
-      "text": "8.5%でも増えてきてる感覚はある。設備より採用担当者の話し方が変わってきてる会社の方が、実際来てくれてる。"
+      "account": "@muraki0924",
+      "target_post_url": "https://x.com/muraki0924/status/2064890000307794019",
+      "target_summary": "ピンチの中にもチャンスはある",
+      "text": "チャンスをつかむ会社の条件が一個ある。廃業・M&Aで出た優良人材を即採用できる採用フローを持ってること。いい職人は廃業を知った日に次の声をかけた会社に行く。その判断は数日で動く。"
     },
     {
       "no": 3,
-      "account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2064625352945930345",
-      "target_summary": "ICTの補助金、申し込みが予算を大きく上回ったらしい。建機の購入が大きく増えた — 63 imp",
-      "text": "申し込みが予算超過。去年まで「手続きが面倒で見送り」の話が多かったのに、何かが変わったのか、単純に数が増えたのか気になる。"
+      "account": "@nikkei",
+      "target_post_url": "https://x.com/nikkei/status/2064931556599230691",
+      "target_summary": "鉄筋が1年3カ月ぶり高値、中東発の原燃料高",
+      "text": "転嫁には時間、は鉄骨使う現場にも同じことが言える。鉄筋・鉄骨で躯体工事の原価が固定できないまま着工してる現場が今年に入ってから増えてる。完工時に赤字になって初めて数字が見える動きが夏以降にまとめて出そう。"
     },
     {
       "no": 4,
-      "account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2064641646713782583",
-      "target_summary": "5月の建設業倒産は前の年より11.9%減った。資材高・人手不足が続く中で — 14 imp",
-      "text": "前年比11.9%減。倒産しないこととキャッシュが回ってることは別の話なので、売上・利益の実態は別途見ないと。ただこの数字はそれなりに意味がある。"
+      "account": "@TKG_CraftBank",
+      "target_post_url": "https://x.com/TKG_CraftBank/status/2064951781759832246",
+      "target_summary": "130回講演・四国初・愛媛",
+      "text": "130回で四国ゼロ、確かに四国は建設業DX系のセミナーや商談が東名阪と比べて少ない印象がある。実際に話してみると課題意識はどこも変わらないので、初回でも反応は良いはず。"
     },
     {
       "no": 5,
-      "account": "@Stoneman_ISHIO",
-      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2064670936448766124",
-      "target_summary": "参加しておいてなんですが…めっちゃ勉強になったし面白かった。アカデミックな会 — 188 imp",
-      "text": "石男さんが入ることで場が変わる、という話、研究と現場の温度を揃える役割だと思う。こういう役割をやれる人は少ない。"
+      "account": "@funatomix",
+      "target_post_url": "https://x.com/funatomix/status/2065008322995245370",
+      "target_summary": "ゼネコンが協力会社の採用・経営支援に乗り出す",
+      "text": "採用と経営支援に乗り出す次のステップは発注条件化だと思う。施工管理アプリの利用条件化は一部ゼネコンで始まってる。採用・経営も条件化が進めば、対応できてない下請は仕事が止まる前に連絡が来なくなる。"
     },
     {
       "no": 6,
-      "account": "@cogecoge_",
-      "target_post_url": "https://x.com/cogecoge_/status/2064646896774529150",
-      "target_summary": "廃番のmiwaノブさんを新しい物に交換するよー — 876 imp / いいね23",
-      "text": "廃番部品の互換探しは地味に時間かかる。型枠大工さんがこういう情報を発信して蓄積してくれてるのはありがたい。"
+      "account": "@ITM_BUILT",
+      "target_post_url": "https://x.com/ITM_BUILT/status/2064997335005020369",
+      "target_summary": "戸田建設GENBAx点検・2周年・点検表チェック手間ゼロ",
+      "text": "点検表のチェックだけなら2年で費用回収できるケースがほとんど。問題は導入後に誰が管理するかで、現場監督が入れ替わったタイミングで使われなくなることが多い。2周年ということは使い続けてる例として価値がある。"
     },
     {
       "no": 7,
-      "account": "@CRAFTCOM2",
-      "target_post_url": "https://x.com/CRAFTCOM2/status/2064652676307300413",
-      "target_summary": "明日は早朝から香川県でスキャ活 — 127 imp",
-      "text": "早朝から香川でスキャ活。地方でどこまで3Dスキャンが入ってるか気になってる。"
+      "account": "@ITM_BUILT",
+      "target_post_url": "https://x.com/ITM_BUILT/status/2065012434663014862",
+      "target_summary": "アンドパッド・国交省建築行政DX推進事業採択・AIで建築計画概要書テキストデータ化",
+      "text": "建築計画概要書のテキストデータ化、国交省が動くと標準化が一気に進む。手書き・PDFスキャンが混在してる現状でAIが読める形に統一されれば、行政・民間の両方に効く。着工後の変更対応も早くなるはず。"
     },
     {
       "no": 8,
-      "account": "@CRAFTCOM2",
-      "target_post_url": "https://x.com/CRAFTCOM2/status/2064654279584190899",
-      "target_summary": "あのデータを出したら世の中ひっくり返るから出したいけど、訴えられるだろうな — 120 imp",
-      "text": "このシリーズの続きが気になる。建設業の表に出てないデータ、あると思う。"
+      "account": "@ANDPAD_official",
+      "target_post_url": "https://x.com/ANDPAD_official/status/2064996056392237367",
+      "target_summary": "ANDPAD AWARD 2026 授賞式・明日開催",
+      "text": "ANDPAD AWARD、受賞する現場の共通点は導入率より使い方の深さ。アプリを入れただけの現場より、写真・工程・書類を全部連動させてる現場が断然強い。受賞事例の内容が出たら追いかけます。"
     },
     {
       "no": 9,
-      "account": "@CRAFTCOM2",
-      "target_post_url": "https://x.com/CRAFTCOM2/status/2064654810511774070",
-      "target_summary": "ドボサポサミット#2は60人集まったか 俺らには幕張は狭すぎるな — 72 imp",
-      "text": "60人で幕張が狭い。これだけ集まれるコミュニティが育ってきた。"
+      "account": "@LandRush_tokyo",
+      "target_post_url": "https://x.com/LandRush_tokyo/status/2064945463267319963",
+      "target_summary": "日本郵政デベ化・ゼネコン各社AM領域参入など業界構造変化",
+      "text": "デベが増えるほど、施工側との分担が変わってくる。ゼネコン各社がAM領域に入るのは、設計・施工だけでは差別化しにくくなってきた側面もある。建設DXがゼネコン→下請に波及するスピードより、デベ→ゼネコンの方が速いと見てる。"
     },
     {
       "no": 10,
-      "account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2064602484300267890",
-      "target_summary": "竣工の日、誰もいなくなった現場に一人で立つ時間が、わりと好きだ — 103 imp",
-      "text": "竣工後に誰もいなくなった現場に立つ時間の話。施工に関わってきた人間はみんな持ってる感覚だと思う。"
+      "account": "@taro_f",
+      "target_post_url": "https://x.com/taro_f/status/2064925390955831335",
+      "target_summary": "Anthropic CEO ダリオ・アモデイ「直属の部下1人」組織設計",
+      "text": "「直属の部下1人」ルールは現場監督の在り方に近い。現場所長が5人を直接管理するのと、所長→班長→職人の3層を使うのとで伝達精度が全然違う。組織設計の考え方は業界関係なく通じる。"
     }
   ],
   "repost_evening": [
@@ -202,54 +202,54 @@
   ],
   "repost_morning": [
     {
-      "url": "https://x.com/cogecoge_/status/2064646896774529150",
-      "author": "@cogecoge_",
-      "snippet": "廃番のmiwaノブさんを新しい物に交換するよー",
+      "url": "https://x.com/nikkei/status/2064931556599230691",
+      "author": "@nikkei",
+      "snippet": "鉄筋が1年3カ月ぶり高値　中東発の原燃料高、転嫁には時間",
       "engagement": {
-        "likes": 23,
-        "rts": 1
+        "likes": 177,
+        "rts": 85
       },
-      "reason": "型枠大工Bティア、876 impで今日最高エンゲ。職人の現場知恵コンテンツ"
+      "reason": "建設業の資材コスト上昇を直撃する日経のニュース。建設業フォロワーとの共鳴度が高く、リポストで業界ニュースを発信している姿勢を示せる"
     },
     {
-      "url": "https://x.com/sekokan_kun/status/2064625352945930345",
-      "author": "@sekokan_kun",
-      "snippet": "ICTの補助金、申し込みが予算を大きく上回ったらしい。全国建設業協会で",
+      "url": "https://x.com/soufujimoto/status/2064961197326336224",
+      "author": "@soufujimoto",
+      "snippet": "パリ、シャルル・ド・ゴール空港",
       "engagement": {
-        "likes": 2,
-        "rts": 1
-      },
-      "reason": "建設業ICT普及の節目ニュース。公共性高く信頼性あり"
-    },
-    {
-      "url": "https://x.com/sekokan_kun/status/2064589628959862848",
-      "author": "@sekokan_kun",
-      "snippet": "建設業の技術職、女性の比率はまだ8.5%。少なく見えるけど、現場の空気は確実に変わってきている",
-      "engagement": {
-        "likes": 1,
+        "likes": 112,
         "rts": 0
       },
-      "reason": "建設業の多様化データ。労務系フォロワー層へのリーチ"
+      "reason": "C tier建築家・藤本壮介の投稿。建築・建設界隈に存在感を示せる。いいね112で朝枠基準50超え"
     },
     {
-      "url": "https://x.com/Stoneman_ISHIO/status/2064670936448766124",
-      "author": "@Stoneman_ISHIO",
-      "snippet": "参加しておいてなんですが…めっちゃ勉強なったし面白かったです",
+      "url": "https://x.com/soufujimoto/status/2064962065698279527",
+      "author": "@soufujimoto",
+      "snippet": "一昨日\nパリ\n万博の遺産",
       "engagement": {
-        "likes": 5,
-        "rts": 0
+        "likes": 120,
+        "rts": 8
       },
-      "reason": "A tierコミュニティ活動。インフラDX×アカデミックの接点"
+      "reason": "藤本壮介の万博遺産投稿。RT8で拡散中。建築・建設の文化的側面をRTすることで幅のある発信者に見える"
     },
     {
-      "url": "https://x.com/sekokan_kun/status/2064610012920696959",
-      "author": "@sekokan_kun",
-      "snippet": "建設キャリアアップシステムの登録が181万人。建設で働く人の、もう半分近くが入っている",
+      "url": "https://x.com/kouta_hikichi/status/2064873641687535931",
+      "author": "@kouta_hikichi",
+      "snippet": "どうすれば自分のやりたいことができますか？「個人の想い」と「社会の欲望」をいかに接続するか",
       "engagement": {
-        "likes": 1,
-        "rts": 0
+        "likes": 99,
+        "rts": 22
       },
-      "reason": "CCUS普及の重要マイルストーン。経審・採用に関心層にリーチ"
+      "reason": "10,000 imp・99いいね・RT22の高拡散投稿。起業家・経営者層に刺さる内容でリポストで自身のポジションを強化できる"
+    },
+    {
+      "url": "https://x.com/taro_f/status/2064925390955831335",
+      "author": "@taro_f",
+      "snippet": "Anthropic CEO ダリオ・アモデイ — 直属の部下を「1人」にする極限の組織設計",
+      "engagement": {
+        "likes": 55,
+        "rts": 12
+      },
+      "reason": "9,453 imp・55いいねで朝枠基準50超え。建設業×AI×組織設計のテーマで自分のポジショニングと合致する"
     }
   ],
   "repost_noon": [
