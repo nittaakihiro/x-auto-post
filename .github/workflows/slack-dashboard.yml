@@ -47,8 +47,11 @@ jobs:
 
           engage_cards = dashboard.get("engage_cards", [])
           reply_sales = dashboard.get("reply_sales", [])
+          repost_morning = dashboard.get("repost_morning", [])
+          repost_noon = dashboard.get("repost_noon", [])
+          repost_evening = dashboard.get("repost_evening", [])
 
-          if not today_posts and not engage_cards:
+          if not today_posts and not engage_cards and not (repost_morning or repost_noon or repost_evening):
               print("今日のコンテンツなし。スキップ。")
               exit(0)
 
@@ -140,6 +143,36 @@ jobs:
                   })
               blocks.append({"type": "divider"})
 
+          # --- リポスト候補（朝/昼/夜 各5件） ---
+          def render_reposts(label, items):
+              if not items:
+                  return
+              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": f"*🔁 {label}（手動RT・{len(items)}件）*"}})
+              for i, r in enumerate(items, 1):
+                  url = r.get("url", "")
+                  author = r.get("author", "")
+                  snippet = r.get("snippet", "")
+                  eng = r.get("engagement", {}) or {}
+                  reason = r.get("reason", "")
+                  likes = eng.get("likes", "?")
+                  rts = eng.get("rts", "?")
+                  line = f"{i}. *{author}* ❤️{likes} 🔁{rts}"
+                  if url:
+                      line += f"\n{url}"
+                  if snippet:
+                      line += f"\n> {snippet}"
+                  if reason:
+                      line += f"\n💡 {reason}"
+                  blocks.append({
+                      "type": "context",
+                      "elements": [{"type": "mrkdwn", "text": line}]
+                  })
+              blocks.append({"type": "divider"})
+
+          render_reposts("リポスト候補・朝枠", repost_morning)
+          render_reposts("リポスト候補・昼枠", repost_noon)
+          render_reposts("リポスト候補・夜枠", repost_evening)
+
           # --- サマリー ---
           summary_parts = []
           if today_posts:
@@ -148,6 +181,9 @@ jobs:
               summary_parts.append(f"🤝 絡み{len(engage_cards)}本（手動）")
           if reply_sales:
               summary_parts.append(f"📣 リプ営業{len(reply_sales)}件（手動）")
+          repost_total = len(repost_morning) + len(repost_noon) + len(repost_evening)
+          if repost_total:
+              summary_parts.append(f"🔁 リポスト候補{repost_total}件（手動）")
           blocks.append({
               "type": "context",
               "elements": [{"type": "mrkdwn", "text": " | ".join(summary_parts)}]
