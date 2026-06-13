@@ -63,8 +63,12 @@ logging.basicConfig(
 )
 log = logging.getLogger("auto_post")
 
-# 前日以前のpendingは自動スキップ（古い投稿を今さら投稿しない）
+# 古いpendingは自動スキップ（古い投稿を今さら投稿しない）
 SKIP_OLD_DAYS = True
+# スキップ判定のグレース幅。予定時刻からこの時間を超えたものだけドロップする。
+# GitHub Actionsのスケジュール遅延（最大数時間）で同日枠が「日付超過」で落ちるのを防ぐ。
+# 例: 20:00枠が遅延で翌朝に回っても 14h 以内なら投稿、2日以上前の古い投稿はドロップ。
+SKIP_GRACE_HOURS = 14
 
 
 def fetch_latest_source(search_query: str) -> str | None:
@@ -169,11 +173,17 @@ def run():
     due_posts = get_due_posts(queue, now)
 
     if SKIP_OLD_DAYS:
-        skipped = [p for p in due_posts if p["date"] < today]
-        due_posts = [p for p in due_posts if p["date"] >= today]
-        for p in skipped:
-            mark_failed(queue, p["id"], "日付超過のためスキップ")
-            log.warning(f"スキップ（日付超過）: {p['id']}")
+        # カレンダー日ではなく予定時刻からの経過時間で判定する。
+        # GHA遅延で同日枠が落ちないよう、SKIP_GRACE_HOURS 以内なら遅れても投稿する。
+        def _scheduled_dt(p):
+            return datetime.strptime(f"{p['date']} {p['time']}", "%Y-%m-%d %H:%M").replace(tzinfo=JST)
+        grace = timedelta(hours=SKIP_GRACE_HOURS)
+        skipped_ids = {p["id"] for p in due_posts if now - _scheduled_dt(p) > grace}
+        for p in due_posts:
+            if p["id"] in skipped_ids:
+                mark_failed(queue, p["id"], f"予定から{SKIP_GRACE_HOURS}時間超過のためスキップ")
+                log.warning(f"スキップ（{SKIP_GRACE_HOURS}h超過）: {p['id']}")
+        due_posts = [p for p in due_posts if p["id"] not in skipped_ids]
 
     for post in due_posts:
         try:
