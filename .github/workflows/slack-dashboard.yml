@@ -101,13 +101,13 @@ jobs:
           if engage_cards:
               blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🤝 絡み候補（手動投稿）*"}})
               for i, card in enumerate(engage_cards, 1):
-                  card_type = card.get("action_type", card.get("type", "reply"))
+                  card_type = card.get("action_type") or card.get("type", "reply")
                   tier = card.get("tier", "")
-                  target = card.get("target", "")
+                  target = card.get("target") or card.get("target_account", "")
                   name = card.get("name", "")
-                  url = card.get("target_post_url", card.get("url", ""))
-                  summary = card.get("target_summary", "")
-                  text = card.get("text", "")
+                  url = card.get("target_post_url") or card.get("url", "")
+                  summary = card.get("target_summary") or card.get("target_snippet", "")
+                  text = card.get("text") or card.get("reply_text", "")
                   label = "引用RT" if "quote" in card_type else "リプ"
                   header = f"*{i}. [{label}] {target}*"
                   if name:
@@ -130,10 +130,16 @@ jobs:
           if reply_sales:
               blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*📣 リプ営業候補（手動投稿）*"}})
               for i, rs in enumerate(reply_sales, 1):
-                  target = rs.get("target_description", rs.get("url", ""))
+                  target = rs.get("target_description") or rs.get("target_account", "")
+                  url = rs.get("target_url") or rs.get("url", "")
+                  snippet = rs.get("snippet", "")
                   query = rs.get("search_query", "")
-                  text = rs.get("reply_text", rs.get("text", ""))
+                  text = rs.get("reply_text") or rs.get("text", "")
                   line = f"{i}. *{target}*"
+                  if url:
+                      line += f"\n{url}"
+                  if snippet:
+                      line += f"\n> {snippet}"
                   if query:
                       line += f"\n検索: `{query}`"
                   line += f"\n💬 {text}"
