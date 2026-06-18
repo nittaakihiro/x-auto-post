@@ -1,17 +1,17 @@
 {
-  "date": "2026-06-18",
-  "post_date": "2026-06-18",
-  "generated_at": "2026-06-18T07:21:41.667283+09:00",
+  "date": "2026-06-19",
+  "post_date": "2026-06-19",
+  "generated_at": "2026-06-19T07:16:38.066865+09:00",
   "original_post": {
     "time": "07:30",
     "freshness": "locked",
-    "text": "昨日の商談で、埼玉の塗装会社の社長に会った。\n近隣説明書類、毎回自分で書いてたのをAIに任せたら30分が3分になった。\nでも喜んでたのは時短より書き方が揃ったこと。\nバラバラだった文章が統一されたら、そのあとクレームが減ったらしい。\n「自分の仕事がこんなに不揃いだったとは」と言ってた。\n来週、僕がもう少し掘り下げて聞いてくる予定。",
-    "reply_text": "近隣説明書類はトラブル防止の最初の壁。現場ごとに書くと内容が微妙にズレる。AIに任せると文章の型が固まって、品質が均一になる副産物がある。安全書類や作業員名簿より効果が出やすい書類の一つ。",
+    "text": "昨日の日経に、秋田の建設会社が生成AIを使って自社向けソフトを開発し中小企業に売り始めてる、という記事があった。担当2人。経理・在庫管理が対象。\n僕もこの方向は前から考えてた。\n建設の現場ルールって、業界外の人には説明しきれない細かさがある。でも建設会社が自分で作ったら、その細かさが最初から入ってる。\n工事写真の自動分類とか見積書読み取りを今まさに作ってる立場で、同じ方向に向かってると再度認識。",
+    "reply_text": "建設会社が作ったソフトには、業界の細かいルールが最初から入ってる。外部ITベンダーに仕様を伝えるより、自分たちで作る方が結局早いことがある。生成AIがコードを書いてくれるから、担当者1〜2人でも動かせる。",
     "image_type": "gemini",
-    "image_prompt": "日本語の手書きメモ風。B5ノートに黒ボールペンで殴り書き。タイトル「近隣説明書類」、大きく「30分→3分」と書かれ、右横に「クレーム減」とメモ。下の余白に「文章が不揃い→統一」と走り書き。白背景、シンプル、消しゴム跡あり。",
-    "char_count": 166,
+    "image_prompt": "日本語の手書きメモ風。ノートに黒ボールペンで殴り書き。「建設会社がソフトを作る」「現場ルール × 生成AI」「担当2人 → 経理・在庫管理」「自社ノウハウが入ってる」というキーワードが散らばっている。白地のノート、鉛筆っぽい線。ウォーターマーク・署名なし。",
+    "char_count": 196,
     "self_check": {
-      "banned_topics": "なし（塗装会社・近隣説明書類は非禁止）",
+      "banned_topics": "なし",
       "char_ok": true,
       "no_blank_line": true,
       "asa_format_ok": true,
@@ -20,436 +20,213 @@
       "no_dm_lure": true,
       "no_ai_smell_gte2": true,
       "image_prompt_set": true,
-      "episode_bank": "#3 埼玉の塗装会社12人"
+      "topic": "秋田の建設会社がマイクロSIer化（日経6/18バズ）"
     }
   },
   "engage_cards": [
     {
       "card_no": 1,
       "type": "quote_rt",
-      "tier": "tier外（高バズ）",
-      "target_account": "@daichi_shiraiwa",
-      "target_post_url": "https://x.com/daichi_shiraiwa/status/2067004296550338600",
-      "target_snippet": "人手不足の建設会社が、なぜ年々もっと人手不足になっていくのか。その悪循環を、ぜんぶ繋げてみます。",
+      "tier": "tier外（日経バズ）",
+      "target_account": "@nikkei",
+      "target_post_url": "https://x.com/nikkei/status/2067517950102237464",
+      "target_snippet": "生成AIで「マイクロSIer」　秋田の建設会社がソフト開発",
       "engagement": {
-        "views": 43000,
-        "likes": 1102,
-        "rts": 337
+        "views": 17000,
+        "likes": 49,
+        "rts": 22
       },
-      "reply_text": "建設業でまったく同じ構造が起きてる。採用基準を下げると現場の優秀な若手の負担が増えて辞める。採用コストだけ上がって、また基準を下げる。抜け出すには採用より定着の優先順位を変えるしかない。"
+      "reply_text": "秋田の建設会社が担当2人でソフト開発して売り始めた、という話が気になった。建設の仕事を知ってる人が作ったら、現場の細かいルールが最初から入ってる。汎用AIが普及してから、こういう動きが出てくると思ってた。"
     },
     {
       "card_no": 2,
       "type": "quote_rt",
       "tier": "S（建設アップデート）",
       "target_account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2067072941209371112",
-      "target_snippet": "来月から始まる全国安全週間、今年で99回目らしい。100年近く、毎年立ち止まって安全を考え続けてきた業界なんだと思う。",
+      "target_post_url": "https://x.com/sekokan_kun/status/2067521182262538315",
+      "target_snippet": "電源も配線もいらないタグを壁や橋に貼っておいて、1ミリ未満のひび割れを電波の変化で検知する",
       "engagement": {
-        "views": 120,
-        "likes": 11,
+        "views": 130,
+        "likes": 2,
         "rts": 0
       },
-      "reply_text": "99回積み上げた業界の粘り強さ。スローガンが「多様な人材、全員参加」なのが今年らしい。外国人が現場に増えた分、安全教育の共通言語をどう作るかが現場の宿題になってる。"
+      "reply_text": "電源も配線もいらない状態で壁や橋に貼るだけで、ひび割れを検知できるなら点検の人手不足に直接効く。どこに貼ったか管理する仕組みを先に決めておかないと後で困りそうだけど、発想は面白い。"
     },
     {
       "card_no": 3,
       "type": "reply",
-      "tier": "B（型枠大工）",
-      "target_account": "@cogecoge_",
-      "target_post_url": "https://x.com/cogecoge_/status/2067117874632872027",
-      "target_snippet": "デンヨーさんの広島営業所に在庫あった！「あれ？ちょっと前まで2千円台だったのに…」とパソコン見ながら言ってたw 何もかも高くなったよね",
+      "tier": "A（石男くん）",
+      "target_account": "@Stoneman_ISHIO",
+      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2067542851815366786",
+      "target_snippet": "日本建設機械施工大賞　新庄砕石！？！！？！？？　売上1兆円超えの中に…本当に感謝です！",
       "engagement": {
-        "views": 682,
-        "likes": 16,
-        "rts": 0
+        "views": 203,
+        "likes": 9,
+        "rts": 1
       },
-      "reply_text": "発電機まで上がってきてるのか。備品コストがじわじわ積み上がって、気づいたときには工事の採算が変わってる。見積の段階で織り込めるかどうか、毎回判断が必要になってきた。"
+      "reply_text": "新庄砕石さんが大賞、おめでとうございます！社員の表彰を後ろで見てて泣きそうになる、という話を読んでじわっときました。本当に感謝って書いてくれてるのが正直でいい。"
     },
     {
       "card_no": 4,
       "type": "reply",
-      "tier": "A（石男くん）",
-      "target_account": "@Stoneman_ISHIO",
-      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2067158059403948522",
-      "target_snippet": "土木×AI、無人化・遠隔施工の可能性について、多くの方に興味を持っていただけたなら嬉しいです！！ここからが本番。技術を「実装」して現場を変えていきましょう",
+      "tier": "A（軽部治）",
+      "target_account": "@karube_sanei",
+      "target_post_url": "https://x.com/karube_sanei/status/2067547749407703414",
+      "target_snippet": "設計した時の単価と、実際に工事する時の単価がもう違う。工期が長ければその間にも上がる",
       "engagement": {
-        "views": 711,
-        "likes": 14,
-        "rts": 1
+        "views": 4,
+        "likes": 0,
+        "rts": 0
       },
-      "reply_text": "現場を変えるのは技術より実装、というのが伝わってくる。知ってる人が増えてきた段階から、実際に動かす段階に変わってきてる。ここからの方が長い。"
+      "reply_text": "これ、じわじわきつい問題ですよね。設計の時点と、実際に工事が始まる時の材料・労務費が違う。物価スライドがあっても発動条件があって、全部カバーされるわけじゃない。長い工期の現場ほど読み違えやすい。"
     },
     {
       "card_no": 5,
-      "type": "reply",
-      "tier": "C（建設通信新聞）",
-      "target_account": "@kensetsunews",
-      "target_post_url": "https://x.com/kensetsunews/status/2067142544962826630",
-      "target_snippet": "佐藤工業ら、トンネル切羽監視システムを開発",
+      "type": "quote_rt",
+      "tier": "S（建設アップデート）",
+      "target_account": "@sekokan_kun",
+      "target_post_url": "https://x.com/sekokan_kun/status/2067532268323930586",
+      "target_snippet": "「子どもがなりたい職業ナンバーワンを目指す」。建設会社の社長が、本気でそう言い始めた",
       "engagement": {
-        "views": 70,
-        "likes": 1,
-        "rts": 1
+        "views": 74,
+        "likes": 2,
+        "rts": 0
       },
-      "reply_text": "崩落リスクのある場所に人を置かなくていい選択肢が出てきた。安全を動機にした技術の現場受け入れは早い。佐藤工業が絡んでると実用化まで近い気がする。"
+      "reply_text": "建設会社の社長がこういう目標を言葉にして動いてる、というのがいい。愛知県で大賞を取りながら「次は子どもがなりたい職業ナンバーワン」と言える人が業界を変えていく。"
     }
   ],
   "reply_sales": [
     {
       "no": 1,
-      "target_account": "@daichi_shiraiwa",
-      "target_post_url": "https://x.com/daichi_shiraiwa/status/2067004296550338600",
-      "target_snippet": "人手不足の悪循環：採用基準を下げる→優秀な若手の負担増→早期退職→採用コスト増",
-      "reply_text": "建設業でも同じ悪循環がある。採用基準を下げると優秀な若手の負担が増えて辞める。採用コストだけが上がって採用基準をまた下げる。抜け出す鍵は採用より定着の優先順位を変えること。"
+      "target_account": "@Stoneman_ISHIO",
+      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2067525111373279501",
+      "target_snippet": "いやこれウチ映ってる(笑)！！優しい世界(笑)",
+      "reply_text": "映ってるのを後から発見するの、最高ですね笑　現場って、気づかないところで記録が残ってるの、面白い。"
     },
     {
       "no": 2,
       "target_account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2067072941209371112",
-      "target_snippet": "全国安全週間、今年で99回目。多様な人材・全員参加のスローガン",
-      "reply_text": "99回続いてきた業界の粘り強さはすごいと思う。外国人が現場に増えた今、安全の共通言語をどう作るかが現場の宿題になってる。"
+      "target_post_url": "https://x.com/sekokan_kun/status/2067541328544829794",
+      "target_snippet": "鹿島が、山岳トンネル自動化システムに新しい遠隔爆薬装てん法を組み込んだ",
+      "reply_text": "発破作業の危険な場所から人が離れられるなら、安全対策として一番納得できる動機。鹿島が下呂市のトンネルで実際に動かしてるのがポイントで、実証じゃなくて実用フェーズ。"
     },
     {
       "no": 3,
-      "target_account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2067156290770731266",
-      "target_snippet": "大成建設が、CO2を吸ったコンクリートで家具の天板を作るらしい。建材が見えるところに出てくる",
-      "reply_text": "建材が見えるところに出てくると施工会社の説明の仕方が変わる。建て主への提案の武器になる。"
+      "target_account": "@Shimizu_now",
+      "target_post_url": "https://x.com/Shimizu_now/status/2067501118100521250",
+      "target_snippet": "施工性、耐久性を高めた実用型のブロック浮体を開発。（株）博展と共同実証契約を締結",
+      "reply_text": "水辺のにぎわい施設として展開していく、という方向が具体的でいい。博展との共同実証から商業化へどう進むか、清水建設の組み立て方が気になる。"
     },
     {
       "no": 4,
-      "target_account": "@cogecoge_",
-      "target_post_url": "https://x.com/cogecoge_/status/2067117874632872027",
-      "target_snippet": "デンヨーの発電機に在庫あった。ちょっと前まで2千円台だったのに高くなった",
-      "reply_text": "備品コストがじわじわ上がると、気づいたときには工事全体の採算が変わってる。見積の段階で織り込んでおくのが難しい。"
+      "target_account": "@kensetsunews",
+      "target_post_url": "https://x.com/kensetsunews/status/2067513590433882425",
+      "target_snippet": "熊本市の新庁舎、事業費最大1230億円に",
+      "reply_text": "熊本市の新庁舎が最大1230億円。震災後の仮設庁舎から10年かけての建て替えで、工事費高騰の影響が金額にも出てる。地元の施工体制がどうなるか気になる。"
     },
     {
       "no": 5,
-      "target_account": "@Stoneman_ISHIO",
-      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2067158059403948522",
-      "target_snippet": "ここからが本番。技術を「実装」して現場を変えていきましょう",
-      "reply_text": "実装まで持っていってる人の話は情報密度が違う。知ってる段階から動かす段階へ、ここが一番長い工程だと思ってる。"
+      "target_account": "@ITM_BUILT",
+      "target_post_url": "https://x.com/ITM_BUILT/status/2067537829702627461",
+      "target_snippet": "仕上検査の音声入力AI機能をスパイダープラスと開発　作業時間33％短縮",
+      "reply_text": "仕上検査で音声入力が使えると、両手が空いたまま記録できる。33%短縮という数字より、検査しながら書類が同時に進む状態の方がイメージしやすい。スパイダープラスの音声機能、試してみたい。"
     },
     {
       "no": 6,
-      "target_account": "@CRAFTCOM2",
-      "target_post_url": "https://x.com/CRAFTCOM2/status/2067137376674295859",
-      "target_snippet": "土木×AI 無人重機×AI活用、大大盛況で終了",
-      "reply_text": "現場で動かしてる人の話は理論より具体的で面白い。現場で使える形にどう落とすか、ここが一番の課題だと思う。"
+      "target_account": "@ITM_BUILT",
+      "target_post_url": "https://x.com/ITM_BUILT/status/2067500080186462229",
+      "target_snippet": "ボルボ建機のフラグシップ機が日本上陸　都市部の狭小地でも30トン級のパワー発揮",
+      "reply_text": "都市部の狭小地で30トン級が動けるなら、現場の選択肢が広がる。機体サイズだけじゃなくて、周囲への振動・騒音対策も気になるところ。"
     },
     {
       "no": 7,
-      "target_account": "@kensetsunews",
-      "target_post_url": "https://x.com/kensetsunews/status/2067142544962826630",
-      "target_snippet": "佐藤工業ら、トンネル切羽監視システムを開発",
-      "reply_text": "崩落リスクのある場所に人を置かなくていいなら、それが一番。安全を理由にした技術の導入は現場の受け入れが早い。"
+      "target_account": "@sekokan_kun",
+      "target_post_url": "https://x.com/sekokan_kun/status/2067519552276300155",
+      "target_snippet": "清水建設が、水に浮かべる「ブロック浮体」を改良して、水上建築の事業化を加速",
+      "reply_text": "水の上に街を作る、というビジョンが実証フェーズに入ってきてる。浮体構造って工事の方法がかなり特殊で、職人側の技術習得も一緒に必要になりそう。"
     },
     {
       "no": 8,
-      "target_account": "@kensetsunews",
-      "target_post_url": "https://x.com/kensetsunews/status/2067142502227083635",
-      "target_snippet": "清水建設、「浮体式建築」の事業化目指す",
-      "reply_text": "浮体式建築を事業化まで持っていく気だとしたら本気だ。海面上昇対応の需要が現実になってきてる中で、タイミングが早すぎない気もする。"
+      "target_account": "@hupuyoyo",
+      "target_post_url": "https://x.com/hupuyoyo/status/2067466427746119808",
+      "target_snippet": "優秀な人を集めるには少なくとも同業他社より良い待遇が必要だし、数十年かかるから今動かないと厳しい",
+      "reply_text": "同業他社より良い待遇が必要、という前提が正確だと思う。採用の問題は来てもらうことより、来た人が続けることの方が難しい。"
     },
     {
       "no": 9,
-      "target_account": "@sekokan_kun",
-      "target_post_url": "https://x.com/sekokan_kun/status/2067178616048525616",
-      "target_snippet": "同じ建物を建てる仕事でも、データセンターは別競技だと思う。止められない、冷やし続ける、ミリ単位で精度を出す",
-      "reply_text": "止められない、冷やし続ける、ミリ単位で精度を出す、という条件が揃うと別の職種みたいになる。実績のある施工会社が圧倒的に有利な分野だと思う。"
+      "target_account": "@kanatsu_jyouhou",
+      "target_post_url": "https://x.com/kanatsu_jyouhou/status/2067499058508485109",
+      "target_snippet": "土木サポート協会さんにはいろいろな有名どころが集まってますなあ",
+      "reply_text": "土木サポート協会さん、いろんな方が集まってるんですね。モバイルスキャン系の技術、現場でどう使われてるか直接聞ける場って少ないので、こういう集まりは貴重だと思う。"
     },
     {
       "no": 10,
-      "target_account": "@kensetsunews",
-      "target_post_url": "https://x.com/kensetsunews/status/2067149808171950300",
-      "target_snippet": "重要文化財の神奈川県本庁舎、大規模改修へ設計委託",
-      "reply_text": "重要文化財の改修は保存と更新のバランスが難しく、設計も施工も専門性が上がる。こういった案件を得意にしてる会社は少ないから、実績があると差別化になる。"
+      "target_account": "@Shimizu_now",
+      "target_post_url": "https://x.com/Shimizu_now/status/2067469326610006070",
+      "target_snippet": "JR潮見駅高架下リニューアルなど、変化を迎える潮見の「新たな灯がともる瞬間」を祝うイベントを開催",
+      "reply_text": "JR潮見駅高架下のリニューアル、今日からまちびらきイベント。水辺×みどりの空間、施工した場所でこういうイベントが生まれるのを見ると仕事の続きを感じる。"
     }
   ],
-  "repost_morning": [
+  "engage_pool_morning": [
     {
-      "url": "https://x.com/sekokan_kun/status/2067156290770731266",
+      "url": "https://x.com/sekokan_kun/status/2067540718340751445",
       "author": "@sekokan_kun",
-      "snippet": "隠れて当たり前だった建材が、毎日触りたくなるモノになり始めてる。大成建設が、CO2を吸ったコンクリートで家具の天板を作るらしい。",
+      "snippet": "おっしゃる通りで、待遇と誇りは両輪ですよね。語り方だけで人が来ても、実際に働いて生活が成り立たなければ",
       "engagement": {
         "likes": 1,
-        "rts": 0,
-        "views": 66
+        "rts": 0
       },
-      "reason": "建材×サステナビリティという新文脈。建設業ポジティブな話題でフォロワー以外にリーチしやすい"
+      "engage_type": "reply",
+      "draft": "待遇と誇りは両輪、は本当にそうで。建設会社がどちらか一方だけ改善しても採用には追いつかない。語り方だけ変えて実態が伴わないと続かないし、逆も同じ。",
+      "reason": "採用テーマで今日のバズ文脈と合致。sekokan_kunとの交流チャンス。"
     },
     {
-      "url": "https://x.com/sekokan_kun/status/2067166608800588100",
-      "author": "@sekokan_kun",
-      "snippet": "仮設の現場事務所を、木を混ぜた構造で作るらしい。しかも工事が終わったら、その木材をまた資源として使い回すという。竹中工務店が開発したハイブリッド木造の仮設事務所。",
+      "url": "https://x.com/Stoneman_ISHIO/status/2067525111373279501",
+      "author": "@Stoneman_ISHIO",
+      "snippet": "いやこれウチ映ってる(笑)！！優しい世界(笑)",
       "engagement": {
-        "likes": 2,
-        "rts": 0,
-        "views": 24
+        "likes": 15,
+        "rts": 0
       },
-      "reason": "循環型仮設という発想が新鮮。竹中工務店の本気度が伝わる話題"
+      "engage_type": "reply",
+      "draft": "映ってるのを後から発見する瞬間、最高ですね笑　現場の記録って、あとから見ると財産になることが多い。",
+      "reason": "A tierアカウントとの軽いやり取りでエンゲージメント獲得チャンス。"
     },
     {
-      "url": "https://x.com/CRAFTCOM2/status/2067137376674295859",
-      "author": "@CRAFTCOM2",
-      "snippet": "午後の発表・パネルディスカッション 土木×AI 【無人・遠隔重機×AI活用 柿崎様】大大盛況で終了しました！！",
-      "engagement": {
-        "likes": 16,
-        "rts": 1,
-        "views": 285
-      },
-      "reason": "業界イベントの熱量が伝わる。現場AI実装コミュニティのリーチ拡大に有効"
-    },
-    {
-      "url": "https://x.com/Ohnoseiko_pr/status/2067157902142710248",
-      "author": "@monozukuritarou（RT元）",
-      "snippet": "タングステンの状況。どーなっちゃうの",
-      "engagement": {
-        "likes": 13,
-        "rts": 4,
-        "views": 1708
-      },
-      "reason": "製造業サプライチェーン問題。建設資材コストへの波及を示唆できる文脈でRT価値あり"
-    },
-    {
-      "url": "https://x.com/kensetsunews/status/2067142502227083635",
+      "url": "https://x.com/kensetsunews/status/2067502144480334249",
       "author": "@kensetsunews",
-      "snippet": "清水建設、「浮体式建築」の事業化目指す",
+      "snippet": "関西大学、大阪・吹田市に2.2万㎡の学生会館　来年4月着工",
       "engagement": {
         "likes": 1,
-        "rts": 1,
-        "views": 131
-      },
-      "reason": "業界ニュース系RT。清水建設の先進的取り組みで建設業のポジティブ文脈を広げる"
-    }
-  ],
-  "repost_noon": [
-    {
-      "url": "https://x.com/TKG_CraftBank/status/2066864523714560001",
-      "author": "@TKG_CraftBank",
-      "snippet": "入札不調が増えてる理由は、設計労務単価の上昇に自治体の積算基準が追いついてないから。単価は14年連続で上がって25,000円超えたのに、発注価格の改定は時間がかかる",
-      "engagement": {
-        "likes": 44,
-        "rts": 11
-      },
-      "reason": "B tierデータ分析アカウント。今日の昼枠テーマ（入札不調・単価ギャップ）を数字で補強する内容で相乗効果が高い"
-    },
-    {
-      "url": "https://x.com/karube_sanei/status/2066875389124608001",
-      "author": "@karube_sanei",
-      "snippet": "採算が取れない仕事を受け続けた会社がどうなったかを見てきた。断れる会社の方が5年後生き残ってる。受注選択力は今の建設業でいちばん重要な経営スキルだと思う",
-      "engagement": {
-        "likes": 58,
-        "rts": 12
-      },
-      "reason": "A tierアカウント。「受注を断れる会社が生き残る」という論点が昼枠の民間シフト分析と直結。朝のrepost_morningと被らない別投稿"
-    },
-    {
-      "url": "https://x.com/kensetsunews/status/2066858234891264001",
-      "author": "@kensetsunews",
-      "snippet": "自治体9割超で入札不調・不落発生、日本総研調べ。不落の理由は「価格が合わない」が76.6%、「工期が合わない」23.4%（2026年5月公表）",
-      "engagement": {
-        "likes": 26,
-        "rts": 14
-      },
-      "reason": "C tier業界紙公式。日本総研調査速報のRT＝昼枠投稿の一次ソース紹介として信頼性を補完"
-    },
-    {
-      "url": "https://x.com/Stoneman_ISHIO/status/2066889761234944001",
-      "author": "@Stoneman_ISHIO",
-      "snippet": "公共工事を減らして民間にシフトした会社が増えてる。理由は単純で、公共は入札コストがかかる割に採算が厳しい。民間は交渉できる分まだマシという判断",
-      "engagement": {
-        "likes": 39,
-        "rts": 6
-      },
-      "reason": "B tier現場系アカウント。民間シフトの実感を語る内容で昼枠の締め（受注先比率の見直し）と完全一致"
-    },
-    {
-      "url": "https://x.com/shinkojuki/status/2066903412853760001",
-      "author": "@shinkojuki",
-      "snippet": "今週の稼働問い合わせを見てると、公共工事が少なく民間建築が多い。入札不調が続けば建機の稼働も民間依存が高まる流れ。実感として変化を感じてる",
-      "engagement": {
-        "likes": 31,
-        "rts": 5
-      },
-      "reason": "B tier建機レンタル公式（67,500フォロワー）。現場の実稼働から見た入札不調の影響を語る。業界バロメーターとして拡散価値あり"
-    }
-  ],
-  "repost_evening": [
-    {
-      "url": "https://x.com/NIKKEIxTECH/status/2066760513057689770",
-      "author": "@NIKKEIxTECH",
-      "snippet": "国土交通省も注目のフィジカルAI、インフラ維持管理や災害対策に活用を推進。建設領域でのロボット",
-      "engagement": {
-        "likes": 215,
-        "rts": 48
-      },
-      "reason": "国交省×フィジカルAIの展開。夕枠の国交省AI義務化と文脈が合い、拡散価値が高い"
-    },
-    {
-      "url": "https://x.com/ITM_BUILT/status/2046047467083624468",
-      "author": "@ITM_BUILT",
-      "snippet": "熟練工の暗黙知を活用し、AIが発破パターン選定 三井住友建設が山岳トンネル工事で現場実証",
-      "engagement": {
-        "likes": 182,
-        "rts": 35
-      },
-      "reason": "C tier・職人の暗黙知×AI実証事例。夕枠の生成AI義務化と建設AI推進の大波として相乗効果"
-    },
-    {
-      "url": "https://x.com/karube_sanei/status/2037107629739434228",
-      "author": "@karube_sanei",
-      "snippet": "建設業で手を動かす人が報われないのは、気合いが足りないからじゃないと思ってる。原因は構造です。現場に",
-      "engagement": {
-        "likes": 280,
-        "rts": 72
-      },
-      "reason": "A tier・価格決定権の構造問題。新田の現場視点と共鳴し絡みコメントが書きやすい"
-    },
-    {
-      "url": "https://x.com/TKG_CraftBank/status/1990196398055424102",
-      "author": "@TKG_CraftBank",
-      "snippet": "施行余力が無いのはよく知っているけど、余力が無いと正直に言うと、平成の頃のように公共工事予算を減らされ",
-      "engagement": {
-        "likes": 105,
-        "rts": 28
-      },
-      "reason": "B tier・施行余力と公共発注の構造問題。国交省のAI要請が「余力がない」現場に届くかという切り口で絡める"
-    },
-    {
-      "url": "https://x.com/yasstyle_/status/2059868265460203940",
-      "author": "@yasstyle_",
-      "snippet": "土木学会のデジタルツイン・DXシンポジウム2026に呼ばれたので登壇します 僕のパートは16時〜のパネル",
-      "engagement": {
-        "likes": 112,
-        "rts": 31
-      },
-      "reason": "土木学会DXシンポジウム2026の登壇告知。建設DX推進の動向として業界内で注目度高い"
-    }
-  ],
-  "engage_pool_noon": [
-    {
-      "url": "https://x.com/TKG_CraftBank/status/2066864523714560001",
-      "author": "@TKG_CraftBank",
-      "snippet": "入札不調が増えてる理由は、設計労務単価の上昇に自治体の積算基準が追いついてないから。単価は14年連続で上がって25,000円超えたのに、発注",
-      "engagement": {
-        "likes": 95,
-        "rts": 32
+        "rts": 0
       },
       "engage_type": "reply",
-      "draft": "自治体の積算改定ラグ、毎年話題になるのに進まない。単価が上がるたびに受注側が差額を引き受ける構図になってる。公共工事の採算が民間より悪くなってる理由のひとつはここだと思う。",
-      "reason": "B tier・データ分析。有効求人倍率（今日昼ポスト）とは別角度の人手不足＆単価問題。リプで補足しやすい。"
+      "draft": "関西大学が2.2万㎡の学生会館を計画してるのか。大型施設が一つ増えると施工から内装・設備まで地域の業者が数年単位で動く。近畿圏の施工体制の動向が気になる。",
+      "reason": "業界紙アカウントへのリプで建設業専門家ポジションをアピール。"
     },
     {
-      "url": "https://x.com/karube_sanei/status/2066875389124608001",
-      "author": "@karube_sanei",
-      "snippet": "採算が取れない仕事を受け続けた会社がどうなったかを見てきた。断れる会社の方が5年後生き残ってる。受注選択力は今の建設業でいちばん重要な経営ス",
+      "url": "https://x.com/Shimizu_now/status/2067525746298601535",
+      "author": "@Shimizu_now",
+      "snippet": "塗るだけでコンクリート構造物をCO₂吸収体にする「DACコート®」",
       "engagement": {
-        "likes": 320,
-        "rts": 78
+        "likes": 0,
+        "rts": 0
       },
       "engage_type": "reply",
-      "draft": "断れる会社の方が生き残る話、有効求人倍率でも同じことが言える。受注を選べる余裕がある会社は職人も案件も質で選べる。受注力と採用力って連動してる。",
-      "reason": "A tier。採算×人手不足の連動テーマ、今日の昼ポスト（求人倍率）のフォロー絡みとして入れやすい。"
+      "draft": "コンクリートにCO₂を吸収させるコーティング材、か。完成後の構造物が吸収材として機能するなら、施工段階だけじゃなくて長期の炭素収支に関係してくる。清水建設の技術系の投稿、継続して追いかけたい。",
+      "reason": "大手ゼネコンの技術投稿への技術的コメントで存在感アピール。"
     },
     {
-      "url": "https://x.com/Stoneman_ISHIO/status/2066889761234944001",
-      "author": "@Stoneman_ISHIO",
-      "snippet": "公共工事を減らして民間にシフトした会社が増えてる。理由は単純で、公共は入札コストがかかる割に採算が厳しい。民間は交渉できる分まだマシという判",
+      "url": "https://x.com/kanatsu_jyouhou/status/2067499058508485109",
+      "author": "@kanatsu_jyouhou",
+      "snippet": "土木サポート協会さんにはいろいろな有名どころが集まってますなあ",
       "engagement": {
-        "likes": 145,
-        "rts": 41
-      },
-      "engage_type": "quote",
-      "draft": "民間シフトで利益率が改善する話はよく聞く。でも民間発注が落ちたときのリスクを考えてる会社がどれくらいいるかな、と気になってる。公共との組み合わせを意図的にコントロールできてる会社、少ない印象。",
-      "reason": "B tier。公共→民間シフトの実態。現場目線の具体論で引用コメントがしやすい。"
-    },
-    {
-      "url": "https://x.com/shinkojuki/status/2066903412853760001",
-      "author": "@shinkojuki",
-      "snippet": "今週の稼働問い合わせを見てると、公共工事が少なく民間建築が多い。入札不調が続けば建機の稼働も民間依存が高まる。実感として変化を感じてる",
-      "engagement": {
-        "likes": 88,
-        "rts": 22
-      },
-      "engage_type": "quote",
-      "draft": "現場からの実感値、重い。民間依存が高まると建機の稼働は好調に見えても、景気の振れ幅に直接つながる。公共がバッファーになってた時代が終わりかけてる。",
-      "reason": "B tier（建機）。入札不落→民間シフト→建機稼働という業界の連鎖を引用RTで補足できる。フォロワー6.7万超、露出が大きい。"
-    },
-    {
-      "url": "https://x.com/ReutersJapan/status/2060146171230769587",
-      "author": "@ReutersJapan",
-      "snippet": "4月の完全失業率は2.5％に改善、有効求人倍率1.18倍で横ばい",
-      "engagement": {
-        "likes": 55,
-        "rts": 28
+        "likes": 22,
+        "rts": 1
       },
       "engage_type": "reply",
-      "draft": "全体1.18倍横ばいでも、建設業は躯体工事7.48倍・土木6.33倍。同じ人手不足でも別の話。建設は採用競争以前の問題で、産業として選ばれる理由を作らないと数字は動かない。",
-      "reason": "tier外・大手メディア。全職種データを引用し建設との対比を入れると昼ポストと連動するコンテキストになる。"
-    }
-  ],
-  "engage_pool_evening": [
-    {
-      "url": "https://x.com/sekokan_kun/status/2067195430280951234",
-      "author": "@sekokan_kun",
-      "snippet": "CSPI2026、今年は現場AIが軒並み「実証段階」から「実装段階」に移ってきた感覚がある。見に来てよかった。",
-      "engagement": {
-        "likes": 230,
-        "rts": 45
-      },
-      "engage_type": "quote",
-      "draft": "CSPI2026の現場AIが実証→実装フェーズへ、という観察は僕も同じ感覚で、でも展示会で見えるのは最前線だけ。町場の会社がいつ追いつくか、そこが本番だと思ってる。",
-      "reason": "建設アップデート。CSPI2026開催中のタイムリーな実感レポート。夕枠のテーマ（受注増≠利益増）の裏側にある格差論と連動。"
-    },
-    {
-      "url": "https://x.com/ITM_BUILT/status/2067200814957923417",
-      "author": "@ITM_BUILT",
-      "snippet": "建設DXの主役が変わった。3年前は「何でも自動化」の空気だったが、今年のCSPI2026では現場に定着した具体的なツールの話が多かった。",
-      "engagement": {
-        "likes": 145,
-        "rts": 28
-      },
-      "engage_type": "reply",
-      "draft": "定着した具体的なツールの話が多かった、という観察、現場でも実感してる。試して終わった会社と使い続けてる会社の差が今年から利益率に出てくる。",
-      "reason": "C tierメディア。CSPI2026のタイムリーな記事投稿。展示会期間中の絡みはインプが取れやすい。"
-    },
-    {
-      "url": "https://x.com/nikkenko/status/2067185299456123890",
-      "author": "@nikkenko",
-      "snippet": "建設工事受注動態、4月分前年比増。民間建築が引っ張る形が続く。公共と民間の構成比の変化が各社の経営判断に影響。",
-      "engagement": {
-        "likes": 118,
-        "rts": 33
-      },
-      "engage_type": "reply",
-      "draft": "民間牽引が続いてるが、原価が上がった状態での受注増は採算管理が先決。受注量と利益量は別のメーターで見ないと秋に差が出る。",
-      "reason": "C tier業界紙。工事受注統計の報道。夕枠投稿テーマ（受注増≠利益増）と直結して補強できる。"
-    },
-    {
-      "url": "https://x.com/inatake0/status/2067210355889203456",
-      "author": "@inatake0",
-      "snippet": "CSPI2026 ANDPAD出展中。施工管理アプリの次の話をしてる。データが整ってる会社に合わせた機能追加が増えてきた。",
-      "engagement": {
-        "likes": 312,
-        "rts": 67
-      },
-      "engage_type": "quote",
-      "draft": "データが整ってる会社向けの機能追加が増えてきた、そうなんだよな。導入してデータ蓄積してないと次のAI機能が使えない。半数以上がフル活用できてないという現実が先にある。",
-      "reason": "A tier・ANDPAD CEO。CSPI出展タイミングで引用RT。建設テックの到達点と中小のギャップを論評しやすい。"
-    },
-    {
-      "url": "https://x.com/Otaka_Const/status/2067190847231564822",
-      "author": "@Otaka_Const",
-      "snippet": "今日の商談、「受注は取れてるんですけどね、なぜか利益が残らないんですよ」という経営者の一言。これが今の地方建設業のリアルだと思う。",
-      "engagement": {
-        "likes": 178,
-        "rts": 42
-      },
-      "engage_type": "quote",
-      "draft": "これ、今の建設業の核心。受注は取れてるのに利益が残らない。外注費の管理・材料コストの織り込みが追いついてないケースが多い。受注額ではなく完工後の採算で仕事を選ぶ段階に来てる。",
-      "reason": "B tier。地方建設会社14,000フォロワー。夕枠投稿テーマ（受注量≠利益量）と完全一致する現場声。引用コメントが書きやすい。"
+      "draft": "土木サポート協会さんにいろんな方が集まってるんですね。モバイルスキャン界隈の方々が一堂に会する機会ってあまりないので、こういう場から技術の横展開が加速しそう。",
+      "reason": "CRAFTCOM2経由で建設テック界隈のキーパーソンに接触できるチャンス。"
     }
   ]
 }
