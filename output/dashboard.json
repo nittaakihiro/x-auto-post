@@ -1,101 +1,103 @@
 {
-  "date": "2026-06-26",
-  "post_date": "2026-06-26",
-  "generated_at": "2026-06-26T07:07:33.563281+09:00",
+  "date": "2026-06-27",
+  "post_date": "2026-06-27",
+  "generated_at": "2026-06-27T07:09:07.553300+09:00",
   "original_post": {
     "time": "07:30",
     "freshness": "locked",
-    "text": "今朝、岡山で舗装工事をやってる会社から連絡が来た。\n安全パトロールの記録をデジタル化したら、漏れが消えたと。\n以前は「書いた気がする」「確認したつもり」で月に数件の不備があって、後から是正対応に走ってた。\n速くなったわけじゃない。抜けが減った。\n「是正で潰れてた時間がそのまま返ってきた」と社長が言ってた。再度認識。",
-    "reply_text": "安全パトロールの記録は、記録者ごとに精度がばらつきやすい。デジタル化でフォームを統一すると、記入漏れ自体が仕組みで防げる。月一回の不備対応がなくなるだけで、管理職の時間の使い方が変わる。",
+    "text": "今朝また聞いた。現場が終わってから事務所に戻って日報を書く、という流れが当たり前になってる会社の話。\n30分かけて車で戻って、10分書いて、また帰る。\n先月、北海道の土木会社（50人）がスマホの音声入力に切り替えた。\n現場から直接帰宅できて、1人あたり1日30分の往復が消えた。\n10人いたら月に100時間浮く計算だ。",
+    "reply_text": "北海道のその会社、最初はスマホを現場で使う抵抗が強かったって聞いた。試しに1週間やったら翌週から全員が使い始めた。やり方を一度見せることが一番早い。",
     "image": {
       "type": "gemini",
-      "prompt": "日本語の手書きメモ風。ノートに黒ボールペンで殴り書き。左に「是正対応：月3〜4件」と取り消し線、右に「記録漏れ：消えた」と丸囲み。下段に「速さより確実性」とだけ書いてある。矢印、強調線。白地のノート、急いだ筆跡。ウォーターマーク・署名なし。1200x675px。"
+      "prompt": "白背景・モノクロのニュース記事風スクリーンショット。日本語。見出し「日報のために戻る会社 vs 現場で完結する会社」。2段比較：Before＝現場終了→車で事務所(30分)→日報記入(10分)→帰宅、After＝現場終了→スマホ音声入力(1分)→直帰。下部に注釈「1人1日30分 × 10人 = 月100時間」。明朝体フォント。ウォーターマーク・署名なし。1200x675px。"
     },
-    "char_count": 154,
+    "post_pattern": "型6_あるある対比型",
+    "char_count": 155,
     "self_check": {
       "char_ok": true,
       "no_blank_line": true,
       "no_ai_smell_words": true,
       "no_banned_topics": true,
       "morning_prefix": true,
-      "image_specified": true
+      "image_specified": true,
+      "pattern_no_dup": true
     }
   },
   "engage_cards": [
     {
       "no": 1,
-      "action_type": "quote",
-      "target_account": "@ieiri_lab",
-      "name": "家入龍太（建設ITジャーナリスト）",
+      "action_type": "reply",
+      "target_account": "@norimenman",
+      "name": "norimenman（ゼネコン話題系）",
       "tier": "C",
-      "target_post_url": "https://x.com/ieiri_lab/status/2069936620875477102",
-      "target_snippet": "相模ダムで遠隔ドローン巡視が一気に進化！レベル3.5の活用で飛行範囲10倍、点群データ作成5時間→1時間",
+      "target_post_url": "https://x.com/norimenman/status/2070318679833874566",
+      "target_snippet": "生活の上に仕事は無いよ 仕事あっての生活 仕事は歯を食いしばって頑張る根性必要",
       "engagement": {
-        "likes": 10,
-        "rts": 0,
-        "views": 442
+        "likes": 62,
+        "rts": 2,
+        "views": 4293
       },
-      "text": "飛行範囲が10倍になって、点群作成も5時間から1時間に。効率化って一言で片付けたくない話で、今まで見に行けなかった場所のデータが取れるようになった、が正確だと思う。"
+      "text": "仕事と生活をどっちが上か下かで測ると詰まる。根性で回してきた現場が、仕組みを変えた途端に全員が楽になったケースを何社も見てきた。根性は入り口で、出口は別のところにある。"
     },
     {
       "no": 2,
-      "action_type": "reply",
-      "target_account": "@funatomix",
-      "name": "ふなとみ",
+      "action_type": "quote",
+      "target_account": "@Stoneman_ISHIO",
+      "name": "石男くん",
       "tier": "B",
-      "target_post_url": "https://x.com/funatomix/status/2069960798932541924",
-      "target_snippet": "22歳の女性施工管理アシスタントの密着動画撮影中！面接来たとき想いが溢れるぐらい熱くて、幹部も圧倒されました",
+      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2070439425851687107",
+      "target_snippet": "「どうせ中小には無理。」「それやって何なんの？」そんな言葉を何度も聞いてきました。でも、地方の建設会社でも本気で挑戦すれば",
       "engagement": {
         "likes": 11,
-        "rts": 0,
-        "views": 701
+        "rts": 2,
+        "views": 167
       },
-      "text": "入る前から熱量ある人って、周りのチームにもじわじわ影響する。こういう人が来てくれた時の現場の空気は、ちゃんと変わる。"
+      "text": "「どうせ中小には無理」って言葉、本当によく聞く。でも僕の周りで一番面白い動きをしてるのはたいてい中小だ。おめでとうございます、石男さん。"
     },
     {
       "no": 3,
-      "action_type": "quote",
-      "target_account": "@SpiderPlusandco",
-      "name": "スパイダープラス",
+      "action_type": "reply",
+      "target_account": "@cogecoge_",
+      "name": "コゲ【型枠大工】",
       "tier": "B",
-      "target_post_url": "https://x.com/SpiderPlusandco/status/2070047085358133662",
-      "target_snippet": "みらプロ初の三者連携で実施した、建設DX体験授業。高知工業高校×岸之上工務店×スパイダープラス",
+      "target_post_url": "https://x.com/cogecoge_/status/2070412017903771960",
+      "target_snippet": "勾配重力現場、山が来て枠がやられてるらしい。明日は別現場だから日曜か月曜にバラしから建込みし直しだ。物が壊れただけ、怪我も命も大丈夫！",
       "engagement": {
-        "likes": 0,
+        "likes": 16,
         "rts": 0,
-        "views": 0
+        "views": 430
       },
-      "text": "工業高校生に施工中の現場を教室にした授業。入る前に体験した人は、3年で辞めにくい。知って入るのと知らずに入るのは定着率が変わる。"
+      "text": "物だけで済んで本当によかった。豪雨の後の山は読みにくい。日曜からの建込み直し、無理せずに。型枠大工の仕事はこういうリカバリーも全部込みなのがきつい。"
     },
     {
       "no": 4,
-      "action_type": "quote",
-      "target_account": "@kensetsunews",
-      "name": "建設通信新聞",
-      "tier": "C",
-      "target_post_url": "https://x.com/kensetsunews/status/2070052736260018330",
-      "target_snippet": "自民党勉強会、公共事業B/C評価の見直しを提言",
+      "action_type": "reply",
+      "target_account": "@CRAFTCOM2",
+      "name": "沖山達哉（CRAFTCOM代表）",
+      "tier": "B",
+      "target_post_url": "https://x.com/CRAFTCOM2/status/2070456338162024920",
+      "target_snippet": "ウチの社員さんでシングルマザーの方がいるけど、お父さんお母さんの二刀流で本当に大変だと思う。この方が2人分の給料を貰える様に僕も頑張らないと",
       "engagement": {
-        "likes": 0,
+        "likes": 14,
         "rts": 0,
-        "views": 35
+        "views": 208
       },
-      "text": "公共工事のB/C評価の見直し提言。採算が合わないけど必要な工事、特に維持管理系は費用便益だけで弾くと後でもっとコストがかかる。評価軸の更新は遅れてた。"
+      "text": "こういう気持ちで動いてる社長の会社は伸びる。案件を増やして給料を上げるより、無駄を削って原資を作る方が長続きすると思う。一番の福利厚生は安定した給料だから。"
     },
     {
       "no": 5,
       "action_type": "reply",
-      "target_account": "@ANDPAD_official",
-      "name": "ANDPAD公式",
-      "tier": "B",
-      "target_post_url": "https://x.com/ANDPAD_official/status/2070084597728391494",
-      "target_snippet": "「AIエージェント」とは？複数のAI技術を統合し、自律的に複雑なタスクを実行できる高度なシステム",
+      "target_account": "@karube_sanei",
+      "name": "軽部治",
+      "tier": "A",
+      "target_post_url": "https://x.com/karube_sanei/status/2070446644550910163",
+      "target_snippet": "衛生配管工、電工を募集してます。現場:1都3県。未経験可。未経験:年収420万〜 経験者:年収560万〜",
       "engagement": {
-        "likes": 0,
-        "rts": 0,
-        "views": 16
+        "likes": 20,
+        "rts": 4,
+        "views": 1041
       },
-      "text": "建設現場文脈だと、写真整理・書類作成・工程更新から入るのが現実的な気がする。まず一つの業務だけ自律化してみるのが定着のコツだと思う。"
+      "text": "未経験420万はかなり出してる。採用コスト込みで逆算するとこの数字がむしろ合理的だったりする。宿舎付きで関東全域は動ける人にはいい条件だと思う。"
     }
   ],
   "reply_sales": [
@@ -172,69 +174,69 @@
   ],
   "engage_pool_morning": [
     {
-      "url": "https://x.com/ieiri_lab/status/2069936620875477102",
-      "author": "@ieiri_lab",
-      "snippet": "相模ダムで遠隔ドローン巡視が一気に進化！レベル3.5の活用で、飛行範囲は現場内から上流の相模湖、下流河川まで10倍以上に拡大。さらに点群データ作成も5時間から1時間へ短縮",
+      "url": "https://x.com/norimenman/status/2070318679833874566",
+      "author": "@norimenman",
+      "snippet": "生活の上に仕事は無いよ 仕事あっての生活 仕事は歯を食いしばって頑張る根性必要",
       "engagement": {
-        "likes": 10,
-        "rts": 0,
-        "views": 442
+        "likes": 62,
+        "rts": 2,
+        "views": 4293
       },
-      "engage_type": "quote",
-      "draft": "飛行範囲が10倍になって、点群作成も5時間から1時間に。効率化って一言で片付けたくない話で、今まで見に行けなかった場所のデータが取れるようになった、が正確だと思う。",
-      "reason": "建設DX×ドローンの具体的な数値改善事例、絡みやすく専門性も出せる"
+      "engage_type": "reply",
+      "draft": "仕事と生活をどっちが上か下かで測ると詰まる。根性で回してきた現場が、仕組みを変えた途端に全員が楽になったケースを何社も見てきた。根性は入り口で、出口は別のところにある。",
+      "reason": "建設業の労働観・働き方テーマ、共感しながら仕組み改善の視点を添えられる"
     },
     {
-      "url": "https://x.com/funatomix/status/2069960798932541924",
-      "author": "@funatomix",
-      "snippet": "人生ぶち上げチャンネルを見て入社してくれた、22歳の女性施工管理アシスタントの密着動画撮影中！面接来たとき想いが溢れるぐらい熱くて、僕含めた幹部も圧倒されました笑",
+      "url": "https://x.com/Stoneman_ISHIO/status/2070439425851687107",
+      "author": "@Stoneman_ISHIO",
+      "snippet": "「どうせ中小には無理。」「それやって何なんの？」そんな言葉を何度も聞いてきました。でも、地方の建設会社でも本気で挑戦すれば",
       "engagement": {
         "likes": 11,
-        "rts": 0,
-        "views": 701
-      },
-      "engage_type": "reply",
-      "draft": "入る前から熱量ある人って、周りのチームにもじわじわ影響する。こういう人が来てくれた時の現場の空気は、ちゃんと変わる。",
-      "reason": "建設業への女性参入・採用テーマで共感コメントがつけやすい"
-    },
-    {
-      "url": "https://x.com/SpiderPlusandco/status/2070047085358133662",
-      "author": "@SpiderPlusandco",
-      "snippet": "みらプロ初の三者連携で実施した、建設DX体験授業の様子をダイジェスト版でご紹介。高知工業高校 岸之上工務店 スパイダープラス",
-      "engagement": {
-        "likes": 0,
-        "rts": 0,
-        "views": 0
+        "rts": 2,
+        "views": 167
       },
       "engage_type": "quote",
-      "draft": "工業高校生に施工中の現場を教室にした授業。入る前に体験した人は、3年で辞めにくい。知って入るのと知らずに入るのは定着率が変わる。",
-      "reason": "建設業の若者採用・教育テーマ、業界の未来につながる絡みができる"
+      "draft": "「どうせ中小には無理」って言葉、本当によく聞く。でも僕の周りで一番面白い動きをしてるのはたいてい中小だ。おめでとうございます、石男さん。",
+      "reason": "B tier。日本建設機械施工大賞受賞、地方中小建設会社の挑戦テーマで絡みやすい"
     },
     {
-      "url": "https://x.com/kensetsunews/status/2070052736260018330",
-      "author": "@kensetsunews",
-      "snippet": "自民党勉強会、公共事業B/C評価の見直しを提言",
+      "url": "https://x.com/cogecoge_/status/2070412017903771960",
+      "author": "@cogecoge_",
+      "snippet": "勾配重力現場、山が来て枠がやられてるらしい。明日は別現場だから日曜か月曜にバラしから建込みし直しだ。物が壊れただけ、怪我も命も大丈夫！",
       "engagement": {
-        "likes": 0,
+        "likes": 16,
         "rts": 0,
-        "views": 35
-      },
-      "engage_type": "quote",
-      "draft": "公共工事のB/C評価の見直し提言。採算が合わないけど必要な工事、特に維持管理系は費用便益だけで弾くと後でもっとコストがかかる。評価軸の更新は遅れてた。",
-      "reason": "インフラ維持管理・公共投資テーマ、専門的な視点で絡める"
-    },
-    {
-      "url": "https://x.com/ANDPAD_official/status/2070084597728391494",
-      "author": "@ANDPAD_official",
-      "snippet": "「AIエージェント」とは？AIエージェントとは、複数のAI技術を統合し、自律的に複雑なタスクを実行できる高度なシステムです。",
-      "engagement": {
-        "likes": 0,
-        "rts": 0,
-        "views": 16
+        "views": 430
       },
       "engage_type": "reply",
-      "draft": "建設現場文脈だと、写真整理・書類作成・工程更新から入るのが現実的な気がする。まず一つの業務だけ自律化してみるのが定着のコツだと思う。",
-      "reason": "建設DX×AIエージェントテーマ、現場目線のコメントで差別化できる"
+      "draft": "物だけで済んで本当によかった。豪雨の後の山は読みにくい。日曜からの建込み直し、無理せずに。型枠大工の仕事はこういうリカバリーも全部込みなのがきつい。",
+      "reason": "B tier。現場の実態・安全テーマ、共感リプで関係が深まりやすい"
+    },
+    {
+      "url": "https://x.com/CRAFTCOM2/status/2070456338162024920",
+      "author": "@CRAFTCOM2",
+      "snippet": "ウチの社員さんでシングルマザーの方がいるけど、お父さんお母さんの二刀流で本当に大変だと思う。この方が2人分の給料を貰える様に僕も頑張らないと",
+      "engagement": {
+        "likes": 14,
+        "rts": 0,
+        "views": 208
+      },
+      "engage_type": "reply",
+      "draft": "こういう気持ちで動いてる社長の会社は伸びる。案件を増やして給料を上げるより、無駄を削って原資を作る方が長続きすると思う。一番の福利厚生は安定した給料だから。",
+      "reason": "B tier。雇用・処遇テーマ、働く人への視点で共感リプが打ちやすい"
+    },
+    {
+      "url": "https://x.com/karube_sanei/status/2070446644550910163",
+      "author": "@karube_sanei",
+      "snippet": "衛生配管工、電工を募集してます。現場:1都3県。未経験可。未経験:年収420万〜 経験者:年収560万〜",
+      "engagement": {
+        "likes": 20,
+        "rts": 4,
+        "views": 1041
+      },
+      "engage_type": "reply",
+      "draft": "未経験420万はかなり出してる。採用コスト込みで逆算するとこの数字がむしろ合理的だったりする。宿舎付きで関東全域は動ける人にはいい条件だと思う。",
+      "reason": "A tier。採用・処遇改善テーマ、数字ベースで絡める"
     }
   ],
   "engage_pool_noon": [
