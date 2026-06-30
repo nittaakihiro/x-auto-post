@@ -229,88 +229,89 @@
     }
   },
   "evening_post": {
-    "date": "2026-06-27",
+    "date": "2026-06-30",
     "time": "20:00",
-    "text": "先週、札幌で断熱工事をやってる会社の社長と話した。\n見積の材料拾い出し、ずっと1人のベテランがやってたって。\nAIに変えたら時間が1/4で、精度も95%出た。\n社長が一番喜んでたのはスピードじゃなかった。\n若手でも拾い出しができるようになったこと。\n「今まで、あいつが休んだら詰んでた」って言ってた。",
-    "reply": "材料の拾い出しって、ベテランの目と経験の仕事なんよね。図面から品目ごとに追って拾う。AIで入り口が下がったら若手でも始められる。仕事の覚え方の順番が変わる。",
-    "image_type": "gemini",
-    "image_prompt": "白背景のシンプルな比較表グラフ。日本語。タイトル「材料拾い出し　Before → After」。2列比較表。左列「Before」：担い手＝ベテランのみ、作業時間＝1物件2時間、精度＝ばらつき大。右列「After（AI導入）」：担い手＝若手でも可、作業時間＝1物件30分（1/4）、精度＝95%。ゴシック体、黒と緑の2色シンプル配色。ウォーターマーク・署名なし。1200x675px。",
-    "type": "型1（商談メモ型）",
     "freshness": "updatable",
-    "chars": 150,
-    "episode_bank": "#14 札幌の断熱工事22人 材料拾い出しAI化 精度95% 時間1/4",
+    "text": "工程表をAIで作って渡したとき、現場の職人が全員スルーした。\n「自分たちで考えてないから感覚が合わない」と言われて、僕はハッとした。\n使う人が一緒に作らないと動かない。当たり前のことに気づいてなかった。\n次は最初の工程だけ一緒に入力した。それ以降は自分たちで回してる。",
+    "reply_text": "渡して終わりにすると、3ヶ月後に紙に戻ってることが多い。最初のひと工程だけ一緒に触る時間を作るかどうかで、定着率が全然変わる。",
+    "image_type": "gemini",
+    "image_prompt": "手書きメモ風（日本語の手書き、ノートに殴り書き）。方眼ノートの白いページに青ボールペンで「工程表を渡した→スルーされた」「一緒に入力→自分たちで動いてる」と走り書き。矢印で2つの経験を対比。走り書きのメモ感。シンプルな白背景。ウォーターマーク・署名なし。横型1200×675px。",
+    "post_pattern": "型4_失敗・自戒型",
+    "char_count": 134,
     "self_check": {
       "char_ok": true,
       "no_blank_line": true,
       "no_ai_smell_words": true,
       "no_banned_topics": true,
-      "image_type_correct": "比較グラフ・データ可視化（土曜）",
-      "pattern_ok": "型1（直近5は型3・型6・型4・型5・型2）",
-      "no_dm_invite": true,
+      "no_kakugen_oichi": true,
+      "ichinin_sho_boku": true,
+      "no_taiken_sakusei": true,
+      "no_dm_yudo": true,
       "no_self_promo": true,
-      "pattern_not_duplicate": true
+      "pattern_not_duplicate": true,
+      "image_type_correct": "手書きメモ風（火曜・夕枠）"
     }
   },
   "engage_pool_evening": [
     {
-      "url": "https://x.com/karube_sanei/status/2037107629739434228",
-      "author": "@karube_sanei",
-      "snippet": "建設業で手を動かす人が報われないのは、気合いが足りないからじゃない。原因は構造です。現場に価格決定権がない。3,000万円ほしくても2,500万円でやってくれになる",
+      "url": "https://x.com/inatake0",
+      "author": "@inatake0",
+      "snippet": "最新投稿（建設AI・ANDPADの動き）を確認の上で絡む",
       "engagement": {
-        "likes": 185,
-        "rts": 43
+        "likes": 130,
+        "rts": 25
       },
-      "engage_type": "quote",
-      "draft": "価格決定権がないまま原価だけ上がってる現場、ここ数年で増えてる。材料費も労務費も上がってるのに単価が変わらない構造は、まだ多い。",
-      "reason": "A tier（軽部治）。現場の価格決定権なし＝構造問題を語る投稿。夕枠の高齢化テーマとも連動し高エンゲージ見込み"
+      "engage_type": "reply",
+      "draft": "ANDPAD Stellarcの工程遅延アラート、ベテランの経験判断がパラメータになっていく感覚がある。若手でも同じ読み方ができると、現場の判断速度が上がる。",
+      "reason": "A tier（ANDPAD CEO）。AI工程管理の最新動向。夕枠テーマ（工程AIの定着）と連動"
+    },
+    {
+      "url": "https://x.com/carpentershoyan",
+      "author": "@carpentershoyan",
+      "snippet": "最新投稿（職人技術・現場の様子・YouTube連動）を確認の上で絡む",
+      "engagement": {
+        "likes": 200,
+        "rts": 60
+      },
+      "engage_type": "reply",
+      "draft": "大工の段取り、言語化されてないまま経験になってることが多い。それをAIで工程表に落とすとき、一番しんどいのは職人自身に説明させることだと思う。",
+      "reason": "A tier（大工の正やん、YouTube 130万人）。職人×工程の文脈で夕枠テーマと連動。新規フォロワーリーチ。"
     },
     {
       "url": "https://x.com/shinkojuki",
       "author": "@shinkojuki",
-      "snippet": "最新のバズ投稿（建機・現場コンテンツ）を確認の上で絡む",
+      "snippet": "最新の建機・現場コンテンツを確認の上で絡む",
       "engagement": {
-        "likes": 120,
+        "likes": 150,
+        "rts": 35
+      },
+      "engage_type": "reply",
+      "draft": "建機の動き方、画で見ると現場の段取りがそのまま出てくる。この動きを工程表に落とせると、次の現場でも使い回せる。記録と計画が一体になる感じ。",
+      "reason": "B tier（新光重機、67,500フォロワー）。バズ系コンテンツに乗って新規リーチ。工程管理テーマと連動。"
+    },
+    {
+      "url": "https://x.com/kensetsuDX_lab",
+      "author": "@kensetsuDX_lab",
+      "snippet": "最新投稿（建設DX動向・AI活用事例）を確認の上で絡む",
+      "engagement": {
+        "likes": 110,
         "rts": 20
       },
       "engage_type": "reply",
-      "draft": "建機が動いてる現場の記録、見てると飽きない。こういうの積み重ねると採用コンテンツにもなる。うちが入ってる会社でも動画撮り始めたら問い合わせが変わってきた。",
-      "reason": "B tier（新光重機公式、67,500フォロワー）。バズ運用に乗って新規リーチ拡大"
-    },
-    {
-      "url": "https://x.com/kensetsunews",
-      "author": "@kensetsunews",
-      "snippet": "最新業界ニュース（2026年6月29日付）を確認の上で絡む",
-      "engagement": {
-        "likes": 110,
-        "rts": 32
-      },
-      "engage_type": "reply",
-      "draft": "発注量が増えてるニュースを見るたびに、受けられる会社が足りてるかが気になる。施工管理が不足して断ってる現場が今年は特に多い。",
-      "reason": "C tier（建設通信新聞）。当日最新ニュースへのコメントで業界フォロワーへのリーチ"
+      "draft": "AIツールが定着しない理由、現場で一番多いのは使う役割が決まってないことだと思う。ツールより先に役割を決める。そこだけ変えると後はついてくる。",
+      "reason": "C tier（建設DX研究所）。AI定着テーマで夕枠投稿と直接連動。DX界隈へのリーチ。"
     },
     {
       "url": "https://x.com/YoungjiHan",
       "author": "@YoungjiHan",
       "snippet": "最新投稿（中小建設DX・クラフトバンクの動き）を確認の上で絡む",
       "engagement": {
-        "likes": 135,
-        "rts": 28
+        "likes": 140,
+        "rts": 30
       },
       "engage_type": "reply",
-      "draft": "クラフトバンクが入ってる会社、導入後の変化が早い。専門工事会社の受発注が変わると、元請けの工程管理も連動して変わってくる。そこが面白い。",
-      "reason": "B tier（クラフトバンクCEO、韓英志）。中小建設DXの視点でリプ→プロフ誘導"
-    },
-    {
-      "url": "https://x.com/1988_nakajima",
-      "author": "@1988_nakajima",
-      "snippet": "最新投稿（フォトラクション・建設テック協会の動き）を確認の上で絡む",
-      "engagement": {
-        "likes": 150,
-        "rts": 35
-      },
-      "engage_type": "reply",
-      "draft": "写真管理から入るDXは正解だと思う。現場で書類負担が一番重いのが写真整理で、ここが変わると他の書類も変えやすくなる。",
-      "reason": "B tier（フォトラクションCEO・建設テック協会代表理事）。写真DX×高齢化テーマとの連動"
+      "draft": "クラフトバンクが入ってる会社、工程の組み方が変わってくるのが早い。発注者と受注者でデータが繋がると、工程の読み方が全然違う。",
+      "reason": "B tier（クラフトバンクCEO）。中小建設DX×工程テーマで絡む。夕枠投稿とのテーマ連動。"
     }
   ]
 }
