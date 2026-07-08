@@ -1,9 +1,10 @@
 name: Send Dashboard to Slack
 
+# dashboard.json が変わった時だけ通知する（= 生成ルーティン3本の直後、1日3回）。
+# 旧: post_queue.json も対象だったため、posterのstatus更新のたびに同じ内容のDMが1日6〜10回飛んでいた。
 on:
   push:
     paths:
-      - 'output/post_queue.json'
       - 'output/dashboard.json'
   workflow_dispatch:
 

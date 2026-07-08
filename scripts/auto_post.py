@@ -67,8 +67,11 @@ log = logging.getLogger("auto_post")
 SKIP_OLD_DAYS = True
 # スキップ判定のグレース幅。予定時刻からこの時間を超えたものだけドロップする。
 # GitHub Actionsのスケジュール遅延（最大数時間）で同日枠が「日付超過」で落ちるのを防ぐ。
-# 例: 20:00枠が遅延で翌朝に回っても 14h 以内なら投稿、2日以上前の古い投稿はドロップ。
-SKIP_GRACE_HOURS = 14
+# 2026-07-08: 14h→6h に短縮。14hだと20:00枠が翌朝8時台に着弾し（6/13以降ほぼ毎日発生・
+# 実測で20:00枠39本中20本が翌朝8時台投稿）、鮮度切れネタ＋朝枠との二重投下で中央値を
+# 押し下げていた。正確な時刻の投稿はローカルMac cronのworkflow_dispatchが担うため、
+# graceはフォールバック遅延の吸収分だけあればよい。
+SKIP_GRACE_HOURS = 6
 
 
 def fetch_latest_source(search_query: str) -> str | None:
@@ -232,8 +235,10 @@ def run():
             else:
                 mark_failed(queue, post["id"], "tweet_idが取得できませんでした")
 
-            # 連続投稿のレート制限対策（2秒間隔）
-            time.sleep(2)
+            # 複数枠が同時にdueになった場合の連射防止（2026-07-08: 2秒→90秒。
+            # 7/3に4本を14秒で連射した事故あり。タイムライン上も機械投稿に見える）
+            if len(due_posts) > 1:
+                time.sleep(90)
 
         except Exception as e:
             mark_failed(queue, post["id"], str(e))

@@ -1,52 +1,30 @@
 # X Auto Post System
 
 ## 概要
-このリポジトリはX（Twitter）の自動投稿システム。
-- `scripts/auto_post.py` — キューから自動投稿（GitHub Actionsで実行）
-- `scripts/post_queue.py` — キュー管理モジュール
-- `scripts/x_poster.py` — X API投稿クライアント
-- `output/post_queue.json` — 投稿キュー（これに書き込めば自動投稿される）
+X（Twitter, @akionionio）の自動投稿システム。**戦略の正本は `docs/x-strategist.md`（v3, 2026-07-08全面改訂）**。
 
-## リモートエージェント（投稿生成）の手順
+## アーキテクチャ（3段）
+1. **生成**: Claude Code Routines（x-post-morning 6:30 JST / noon 11:00 / evening 19:00）が投稿1本+絡み候補5件を生成し、`output/post_queue.json` / `output/dashboard.json` にcommit+push。**投稿はしない**
+2. **キュー**: `output/post_queue.json`（appendのみ。既存エントリは上書きしない）
+3. **実投稿**: GitHub Actions `auto-post.yml` の `scripts/auto_post.py`
+   - **正確な時刻の投稿はローカルMacのcronからのworkflow_dispatch**（7:25 / 12:00 / 20:00 / 20:50 JST）
+   - Actionsのschedule cronはフォールバック（実測で40分〜3.5h遅延するため前倒し配置）
+   - 予定から6時間（SKIP_GRACE_HOURS）超過したpendingはfailedにしてスキップ
+   - 投稿失敗が出たらSlack DMで即通知（auto-post.ymlのNotifyステップ）
 
-毎朝7:00 JSTにリモートエージェントが起動し、以下を実行する:
+## 補助ワークフロー
+- `fetch-slack.yml`: 30分毎にSlack #x-influencer-watch → `output/slack_buzz.json`
+- `slack-dashboard.yml`: `output/dashboard.json` が変わった時だけ（=生成ルーティン直後、1日3回）投稿+絡み候補をSlack DM
+- `fetch-metrics.yml`: 週1（月曜5:30 JST）で自分の直近100投稿のpublic_metricsを `data/analytics/live_metrics.json` へ → x-analytics-weekly ルーティン（月曜6:00 JST）が読んで `data/analytics/weekly_summary.md` を更新
 
-### 1. マンネリチェック
-- `scripts/` ディレクトリで以下を実行して直近投稿を取得:
-  ```bash
-  cd scripts && python3 -c "from x_poster import XPoster; import json; print(json.dumps(XPoster().get_my_tweets(20), ensure_ascii=False, indent=2))"
-  ```
-- 直近20件のテーマ・フレーズを分析し、被りを特定 → 今日は使わない
+## 投稿ルールの要点（詳細は docs/x-strategist.md）
+- 必須要素ゲート: 実名1+ / 数字2+ / 新情報1+ / 現場への含意1行。満たせないネタは没
+- 創作体験談・あるある・気づき独り言は全廃（6型パターン集は2026-07-08に廃止）
+- オリジナル3本/日上限。自己リプは「ソース: URL」+一言30字以内のみ
+- 本文にURL・ハッシュタグ・自社名を入れない
+- マンネリ対策はジャンルbanではなく「同一の数字×固有名詞ペアの14日間ban」
+- 絡み候補は 24h以内（snowflakeで機械検証）×建設業界関連×いいね50+またはフォロワー2,000+ の3条件AND
+- 引用RT・リプライはキューに入れない（API制限で失敗するため手動投稿）
 
-### 2. Slack #x-influencer-watch から絡み先取得
-- **Slack MCPは使わない。代わりにfetch_slack.pyを実行:**
-  ```bash
-  cd scripts && SLACK_BOT_TOKEN="$SLACK_BOT_TOKEN" python3 fetch_slack.py
-  ```
-- 環境変数 `SLACK_BOT_TOKEN` はトリガープロンプトの冒頭で `export` する
-- x.comのURLが含まれる投稿をピックアップし、絡みカードのネタにする
-
-### 3. リサーチ
-- WebSearchで建設業の最新ニュース・トレンドを調査
-- 検索クエリ例:
-  - `建設業 AI 最新ニュース`
-  - `建設DX 2026`
-  - `建設業 site:x.com min_faves:100`
-  - `国交省 建設業 プレスリリース`
-
-### 4. オリジナル投稿3本を生成
-- `docs/x-strategist.md` のルールに従う
-- 投稿時刻: 7:30 / 12:00 / 20:00
-- 各投稿にリプライ文も用意
-
-### 5. post_queue.json に書き込み
-- `scripts/post_queue.py` の `add_post()` を使うか、直接JSONを編集
-- 既存のキューエントリは上書きしない（appendのみ）
-
-### 6. commit & push
-- 変更をcommit+pushしてGitHub Actionsに投稿を引き渡す
-
-## 注意事項
-- 引用RT・リプライはキューに入れない（API制限で失敗するため）
-- オリジナル投稿のみキューに登録する
-- 自社サービス名（ツクノビ、BPO等）は本文に入れない → リプで分離
+## 検証ルール
+戦略・ルールを変更したら、必ず2週間後に weekly_summary.md で前後比較する。検証なしの変更継続は禁止（6月の崩壊の再発防止）。

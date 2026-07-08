@@ -2,31 +2,29 @@ name: X Auto Post
 
 on:
   schedule:
-    # JST = UTC+9
-    # GitHub Actions schedule は最大1時間級の遅延があるため、各投稿枠で前倒し+定時+予備の3発打つ。
-    # auto_post.py は posted 済みを再投稿しないため、多重実行しても二重投稿にならない。
+    # ⚠️ scheduleは実測で40分〜3.5時間遅延する（2026-07-08確認: 昼枠が15-17時JST着弾、夜枠が翌朝8時着弾）。
+    # 正確な時刻の投稿はローカルMacのcronからの workflow_dispatch が担う（crontab: 7:25/12:00/20:00/20:50 JST）。
+    # 以下のscheduleはMacが落ちてる時のフォールバック。遅延前提なので目標時刻より前倒しで置く。
+    # auto_post.py は posted 済みを再投稿しない＆SKIP_GRACE_HOURS超過はスキップするため、多重実行しても安全。
     #
-    # 7:30 JST 投稿枠
-    - cron: '25 22 * * *'   # 07:25 JST
-    - cron: '45 22 * * *'   # 07:45 JST
-    - cron: '5 23 * * *'    # 08:05 JST
-    # 12:00 JST 投稿枠
-    - cron: '55 2 * * *'    # 11:55 JST
-    - cron: '15 3 * * *'    # 12:15 JST
-    - cron: '35 3 * * *'    # 12:35 JST
-    # 20:00 JST 投稿枠
-    - cron: '55 10 * * *'   # 19:55 JST
-    - cron: '15 11 * * *'   # 20:15 JST
-    - cron: '35 11 * * *'   # 20:35 JST
+    # 7:25 JST 投稿枠（フォールバック）
+    - cron: '13 22 * * *'   # 07:13 JST
+    - cron: '43 22 * * *'   # 07:43 JST
+    # 12:00 JST 投稿枠（フォールバック）
+    - cron: '17 2 * * *'    # 11:17 JST
+    - cron: '47 2 * * *'    # 11:47 JST
+    # 20:00 JST 投稿枠（フォールバック）
+    - cron: '13 10 * * *'   # 19:13 JST
+    - cron: '43 10 * * *'   # 19:43 JST
     # リプライ回収（20:00枠のリプが翌日に回るのを防止）
-    - cron: '50 11 * * *'   # 20:50 JST
-  workflow_dispatch: # 手動実行用
+    - cron: '53 11 * * *'   # 20:53 JST
+  workflow_dispatch: # ローカルMac cronからの正時トリガー + 手動実行用
 permissions:
   contents: write
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v4
@@ -46,6 +44,42 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/auto_post.py
+
+      - name: Notify failures to Slack
+        continue-on-error: true
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_USER_ID: U01PHHAB887
+        run: |
+          python3 << 'PYEOF'
+          # この実行で新たに failed になった投稿があればSlack DMで即通知する。
+          # (402課金切れで6/27-7/2の5日間ほぼ全滅しても誰も気づけなかった事故の再発防止)
+          import json, os, subprocess, urllib.request
+          diff = subprocess.run(
+              ["git", "diff", "--unified=0", "output/post_queue.json"],
+              capture_output=True, text=True).stdout
+          new_failed = [l for l in diff.splitlines()
+                        if l.startswith("+") and '"failed"' in l]
+          if not new_failed:
+              print("新規failedなし")
+              raise SystemExit(0)
+          errors = [l for l in diff.splitlines()
+                    if l.startswith("+") and '"error"' in l and 'null' not in l]
+          text = (":rotating_light: *X自動投稿が失敗しました*\n"
+                  f"新規failed: {len(new_failed)}件\n"
+                  + "\n".join(e.strip("+ ") for e in errors[:5])
+                  + "\nhttps://github.com/nittaakihiro/x-auto-post/blob/main/output/post_queue.json")
+          def api(method, payload):
+              req = urllib.request.Request(
+                  f"https://slack.com/api/{method}",
+                  data=json.dumps(payload).encode(),
+                  headers={"Authorization": f"Bearer {os.environ['SLACK_BOT_TOKEN']}",
+                           "Content-Type": "application/json; charset=utf-8"})
+              return json.loads(urllib.request.urlopen(req).read())
+          ch = api("conversations.open", {"users": os.environ["SLACK_USER_ID"]})["channel"]["id"]
+          api("chat.postMessage", {"channel": ch, "text": text})
+          print(f"Slack通知送信: {len(new_failed)}件")
+          PYEOF
 
       - name: Commit queue updates
         continue-on-error: true
