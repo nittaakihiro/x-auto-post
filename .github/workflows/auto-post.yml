@@ -45,6 +45,47 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/auto_post.py
 
+      - name: Detect missing generation
+        continue-on-error: true
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_USER_ID: U01PHHAB887
+        run: |
+          python3 << 'PYEOF'
+          # 生成ルーティンが枠を作らないまま消える事故の検知（朝枠が30日で4回消失・7/8昼2連続の実績）。
+          # dispatch実行時、直近90分以内に予定時刻が来た枠がキューに存在しなければSlack DMで警告。
+          import json, os, urllib.request
+          from datetime import datetime, timezone, timedelta
+          JST = timezone(timedelta(hours=9))
+          now = datetime.now(JST)
+          today = now.strftime("%Y-%m-%d")
+          queue = json.load(open("output/post_queue.json"))
+          missing = []
+          for slot in ("07:25", "12:00", "20:00"):
+              sched = datetime.strptime(f"{today} {slot}", "%Y-%m-%d %H:%M").replace(tzinfo=JST)
+              recently_due = timedelta(0) <= now - sched <= timedelta(minutes=90)
+              exists = any(p.get("date") == today and p.get("time") == slot for p in queue)
+              if recently_due and not exists:
+                  missing.append(slot)
+          if not missing:
+              print("欠落なし")
+              raise SystemExit(0)
+          text = (":warning: *X投稿の生成漏れ*\n"
+                  f"今日の {' / '.join(missing)} 枠がpost_queue.jsonに存在しません。"
+                  "生成ルーティンが成果物を出さずに終わった可能性があります。\n"
+                  "手動再生成: claude.ai/code/routines から該当ルーティンをRun")
+          def api(method, payload):
+              req = urllib.request.Request(
+                  f"https://slack.com/api/{method}",
+                  data=json.dumps(payload).encode(),
+                  headers={"Authorization": f"Bearer {os.environ['SLACK_BOT_TOKEN']}",
+                           "Content-Type": "application/json; charset=utf-8"})
+              return json.loads(urllib.request.urlopen(req).read())
+          ch = api("conversations.open", {"users": os.environ["SLACK_USER_ID"]})["channel"]["id"]
+          api("chat.postMessage", {"channel": ch, "text": text})
+          print(f"Slack警告送信: {missing}")
+          PYEOF
+
       - name: Notify failures to Slack
         continue-on-error: true
         env:
