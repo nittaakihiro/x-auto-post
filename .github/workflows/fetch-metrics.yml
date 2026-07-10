@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/analytics/live_metrics.json
+          git add data/analytics/live_metrics.json data/analytics/followers_history.jsonl
           git diff --cached --quiet || git commit -m "analytics: live metrics snapshot"
           git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
