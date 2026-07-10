@@ -104,11 +104,11 @@ jobs:
               for i, card in enumerate(engage_cards, 1):
                   card_type = card.get("action_type") or card.get("type", "reply")
                   tier = card.get("tier", "")
-                  target = card.get("target") or card.get("target_account", "")
+                  target = card.get("target") or card.get("target_account") or card.get("author", "")
                   name = card.get("name", "")
                   url = card.get("target_post_url") or card.get("url", "")
-                  summary = card.get("target_summary") or card.get("target_snippet", "")
-                  text = card.get("text") or card.get("reply_text", "")
+                  summary = card.get("target_summary") or card.get("target_snippet") or card.get("snippet", "")
+                  text = card.get("text") or card.get("reply_text") or card.get("draft", "")
                   label = "引用RT" if "quote" in card_type else "リプ"
                   header = f"*{i}. [{label}] {target}*"
                   if name:
