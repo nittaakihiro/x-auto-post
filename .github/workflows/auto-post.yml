@@ -54,6 +54,8 @@ jobs:
           python3 << 'PYEOF'
           # 生成ルーティンが枠を作らないまま消える事故の検知（朝枠が30日で4回消失・7/8昼2連続の実績）。
           # dispatch実行時、直近90分以内に予定時刻が来た枠がキューに存在しなければSlack DMで警告。
+          # 【重複抑制】scheduleフォールバックが遅延着弾して同じ枠を何度も鳴らす事故（7/12に4連投）を防ぐため、
+          # output/alert_state.json に通知済みの (日付, 枠) を記録し、同じ枠は1日1回だけ鳴らす。
           import json, os, urllib.request
           from datetime import datetime, timezone, timedelta
           JST = timezone(timedelta(hours=9))
@@ -67,11 +69,18 @@ jobs:
               exists = any(p.get("date") == today and p.get("time") == slot for p in queue)
               if recently_due and not exists:
                   missing.append(slot)
-          if not missing:
-              print("欠落なし")
+          STATE = "output/alert_state.json"
+          try:
+              state = json.load(open(STATE))
+          except (FileNotFoundError, ValueError):
+              state = {}
+          already = state.get(today, [])
+          to_send = [s for s in missing if s not in already]
+          if not to_send:
+              print("欠落なし / 既に通知済み")
               raise SystemExit(0)
           text = (":warning: *X投稿の生成漏れ*\n"
-                  f"今日の {' / '.join(missing)} 枠がpost_queue.jsonに存在しません。"
+                  f"今日の {' / '.join(to_send)} 枠がpost_queue.jsonに存在しません。"
                   "生成ルーティンが成果物を出さずに終わった可能性があります。\n"
                   "手動再生成: claude.ai/code/routines から該当ルーティンをRun")
           def api(method, payload):
@@ -83,7 +92,11 @@ jobs:
               return json.loads(urllib.request.urlopen(req).read())
           ch = api("conversations.open", {"users": os.environ["SLACK_USER_ID"]})["channel"]["id"]
           api("chat.postMessage", {"channel": ch, "text": text})
-          print(f"Slack警告送信: {missing}")
+          state[today] = already + to_send
+          for d in sorted(state)[:-7]:   # 直近7日分だけ残す
+              del state[d]
+          json.dump(state, open(STATE, "w"), ensure_ascii=False, indent=0)
+          print(f"Slack警告送信: {to_send}")
           PYEOF
 
       - name: Notify failures to Slack
@@ -130,5 +143,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/post_queue.json
+          [ -f output/alert_state.json ] && git add output/alert_state.json
           git diff --cached --quiet || git commit -m "update: post queue status"
           git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
