@@ -6,7 +6,7 @@
 # 経路3: GitHub Contents API (curl相当のPUT)
 # 失敗エラーはトークンをマスクして healthcheck.txt に記録する。
 set -u
-T="${DIAG_TOKEN:-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}"
+T="${DIAG_TOKEN:?DIAG_TOKEN env required — never hardcode tokens (public repo secret-scanning auto-revokes them)}"
 TS=$(date -u +%Y%m%dT%H%M%SZ)
 cd "$(dirname "$0")/.." || exit 1
 
