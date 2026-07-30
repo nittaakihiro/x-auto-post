@@ -9,136 +9,34 @@
   "engage_cards": [
     {
       "no": 1,
-      "action_type": "reply",
-      "target_account": "@sekokan_kun",
-      "name": "建設アップデート",
-      "tier": "A",
-      "target_post_url": "https://x.com/sekokan_kun/status/2082309689778536480",
-      "target_snippet": "職人のキャリアに「役職」を作る。海の土木の世界で、その仕組みが新しく生まれようとしてる。日本海洋土木技術協会が、基幹技能者の新設に向けて本格的に動き出した。",
-      "engagement": {
-        "likes": 10,
-        "rts": 1
-      },
-      "text": "基幹技能者、陸上土木のCCUSレベル4に近い仕組みが海の土木にもできるんですね。多重下請けの中でこの資格が賃金交渉の物差しになっていくと僕は見ています。"
-    },
-    {
-      "no": 2,
-      "action_type": "reply",
-      "target_account": "@karube_sanei",
-      "name": "軽部治",
-      "tier": "A",
-      "target_post_url": "https://x.com/karube_sanei/status/2082449646841118723",
-      "target_snippet": "2019年10月1日 上野で不動産会社を立ち上げた。今は代表は退いているが、あの日誓った想いは忘れない。必ず都心にどデカい自社ビルを建ててやる。",
-      "engagement": {
-        "likes": 39,
-        "rts": 0
-      },
-      "text": "2019年の創業から自社ビルという目標がぶれてないの、すごいと思いました。都心の地価が上がり続けてる今も、その目標を持ち続けるのは相当な胆力だと感じます。"
-    },
-    {
-      "no": 3,
-      "action_type": "reply",
-      "target_account": "@kenplatz_ed",
-      "name": "日経クロステック 建築・土木",
+      "action_type": "quote",
+      "target_account": "@kensetsunews",
+      "name": "建設通信新聞",
       "tier": "業界紙",
-      "target_post_url": "https://x.com/kenplatz_ed/status/2082581289258139798",
-      "target_snippet": "鹿島がCO2を吸収・固定するハーフPCa床版開発、コマツ新本社に適用。鹿島とタカムラ建設は二酸化炭素を吸収・固定する環境配慮型コンクリートの技術を使用したハーフプレキャスト床版を開発した。",
+      "target_post_url": "https://x.com/kensetsunews/status/2082622971114598514",
+      "target_snippet": "三菱地所ら東京・原宿八角館ビル建替え、設計はSANAA",
       "engagement": {
-        "likes": 0,
+        "likes": 3,
         "rts": 0
       },
-      "text": "CO2SUICOMがハーフPCa床版に使われるのは初めて知りました。工場製作のプレキャストなら、現場での品質と工期のばらつきも抑えやすそうですね。"
-    },
-    {
-      "no": 4,
-      "action_type": "reply",
-      "target_account": "@kenplatz_ed",
-      "name": "日経クロステック 建築・土木",
-      "tier": "業界紙",
-      "target_post_url": "https://x.com/kenplatz_ed/status/2082579600891314312",
-      "target_snippet": "ナフサ由来の断熱材や塗料に調達リスク、脱石油建材への期待高まる。",
-      "engagement": {
-        "likes": 0,
-        "rts": 0
-      },
-      "text": "断熱材の調達リスクは価格より納期の読みにくさが厄介そうですね。代替建材への切り替えを今のうちに検討する専門工事会社は増えていく気がします。"
-    },
-    {
-      "no": 5,
-      "action_type": "reply",
-      "target_account": "@nikkenko",
-      "name": "日刊建設工業新聞",
-      "tier": "業界紙",
-      "target_post_url": "https://x.com/nikkenko/status/2082573136885592221",
-      "target_snippet": "美濃太田駅南地区再開発（岐阜県美濃加茂市）／TSUCHIYAに／準備組合",
-      "engagement": {
-        "likes": 0,
-        "rts": 0
-      },
-      "text": "岐阜県美濃加茂市クラスの地方都市でも再開発が動いてるのは印象的です。準備組合からTSUCHIYAへという流れ、地元発の再開発でいいですね。"
+      "text": "原宿エリアの再開発、SANAAの設計は楽しみです。ゼネコン各社の受注残は24兆1,764億円で前年比10.1%増と過去最高なので、こういう大型案件がまだまだ積み上がっていきそうですね。"
     }
   ],
-  "engage_cards_note": "2026-07-30 12:00枠: output/slack_buzz.json(直近30件)をsnowflakeで機械検証。24h以内×建設業界直接関連×(A tier/業界紙 or いいね50+/フォロワー2,000+)の3条件ANDで5件を採用。@sekokan_kun(A tier)×1件、@karube_sanei(A tier)×1件、@kenplatz_ed(業界紙・日経クロステック)×2件、@nikkenko(業界紙)×1件。除外理由: @Stoneman_ISHIO(A tier)の2件は熊本地震の道路被害速報のため、進行中の災害をcontent marketing目的の絡み対象にするのは不適切と判断し除外(朝枠と同じ判断基準)。@monozukuritarou(A tier)は自身のラジオ告知で建設業界への直接関連が薄いため除外。@TKG_CraftBank(A tier)は献本御礼のみで業界内容が読み取れず除外。@funatomix(B tier)は無関係な雑談のため除外。@shirahadenki/@DaikiYamamura等tier外はいいねが100未満(戦略書のtier外min_faves基準)のため除外。@mori_arch_econo関連の投稿群はすべて熊本地震の被災地支援に関する内容のため、災害対応中のcontent marketing目的の絡みとして不適切と判断し除外。@toyoda_noiz/@soufujimoto(TRIAD_press)は建設業界データに乏しく除外。@ITM_BUILTはいいね実質0件で条件3未充足のため除外。同日engage_pool_morning・eveningとの重複なし。",
+  "engage_cards_note": "2026-07-30 20:00枠(夕枠・引用RT型): output/slack_buzz.json(直近30件)をsnowflakeで機械検証。24h以内(tweet_id 2082622971114598514 → 2026-07-30T09:23 JST、投稿予定20:00基準で約10.6h前)×建設業界直接関連(ゼネコン・デベロッパーの大型再開発)×業界紙tier(建設通信新聞、フォロワー2,000+相当)の3条件AND。引用文には自分の本日朝枠で確認済みの実数字(ゼネコン50社受注残24兆1,764億円・前年比10.1%増)を独自に追加。同日の他枠カード(@sekokan_kun/@karube_sanei/@kenplatz_ed/@nikkenko)とは別アカウント・別投稿。除外理由: @kenplatz_ed/@toyoda_noizの直近投稿は熊本地震関連のため進行中の災害をcontent marketing目的の絡み対象にするのは不適切と判断し除外(朝枠と同じ判断基準)。@monozukuritarou(A tier)は自身のギャグ投稿で建設業界への直接関連が薄いため除外。@TKG_CraftBank(A tier)の投稿は熊本地震関連の予算配分・支援情報のため除外。@cogecoge_/@shinkojuki/@funatomix(B tier)は雑談・イベント告知で数字補足の余地がなく除外。",
   "engage_pool_evening": [
     {
-      "url": "https://x.com/sekokan_kun/status/2082291521697857857",
-      "author": "@sekokan_kun",
-      "snippet": "建設現場の「休み方」が、やっと当たり前のところに近づいてきた。国交省が、2026年度から現場の働き方の後押しを一段広げる。週休2日の定着に加え、猛暑への対応や柔軟な働き方も含めて多様な働き方を推し進める方針。",
+      "no": 1,
+      "action_type": "quote",
+      "target_account": "@kensetsunews",
+      "name": "建設通信新聞",
+      "tier": "業界紙",
+      "target_post_url": "https://x.com/kensetsunews/status/2082622971114598514",
+      "target_snippet": "三菱地所ら東京・原宿八角館ビル建替え、設計はSANAA",
       "engagement": {
-        "likes": 9,
+        "likes": 3,
         "rts": 0
       },
-      "engage_type": "reply",
-      "draft": "週休2日はここ数年で急速に定着が進んでるけど、猛暑対応まで方針に入るのは大きい変化ですね。中小の現場ほど休みの取り方の裁量が効きやすいので、追い風になりそうです。",
-      "reason": "24h以内投稿(snowflake検証: tweet_id 2082291521697857857 → 2026-07-29T11:26 JST、本ルーティンの投稿予定時刻2026-07-29T20:00 JST基準で約8.6h前)。@sekokan_kun は正本記載のA tierアカウント。国交省の建設業働き方改革方針という制度ニュースで建設業界に直接関連。出典: output/slack_buzz.json"
-    },
-    {
-      "url": "https://x.com/sekokan_kun/status/2082309689778536480",
-      "author": "@sekokan_kun",
-      "snippet": "職人のキャリアに「役職」を作る。海の土木の世界で、その仕組みが新しく生まれようとしてる。日本海洋土木技術協会が、基幹技能者の新設に向けて本格的に動き出した。設立後初めての総会と理事会を開いての決定。",
-      "engagement": {
-        "likes": 0,
-        "rts": 0
-      },
-      "engage_type": "reply",
-      "draft": "陸上の建設業ではもう当たり前になった基幹技能者の枠組みが、海洋土木にもようやく広がるんですね。潜水士や特殊船舶の技能が正当に評価される仕組みができると、若手の定着にも効きそうです。",
-      "reason": "24h以内投稿(snowflake検証: tweet_id 2082309689778536480 → 2026-07-29T12:38 JST、投稿予定時刻基準で約7.4h前)。@sekokan_kun は正本記載のA tierアカウント。日本海洋土木技術協会の基幹技能者新設という制度ニュースで建設業界に直接関連。出典: output/slack_buzz.json"
-    },
-    {
-      "url": "https://x.com/kensetsunews/status/2082260368198709359",
-      "author": "@kensetsunews",
-      "snippet": "洋上風力コスト増、山形・遊佐沖の英BP撤退　政府は引き留め策",
-      "engagement": {
-        "likes": 2,
-        "rts": 0
-      },
-      "engage_type": "reply",
-      "draft": "資材高とコスト増で撤退が出るのは洋上風力特有の投資回収の長さも影響してそうですね。地元の建設・港湾関係者への発注計画にも影響が出るか、続報が気になります。",
-      "reason": "24h以内投稿(snowflake検証: tweet_id 2082260368198709359 → 2026-07-29T09:22 JST、投稿予定時刻基準で約10.6h前)。@kensetsunews は正本記載の業界紙tierアカウント。洋上風力事業からの外資撤退という実名+実数ニュースで建設業界に直接関連。出典: output/slack_buzz.json"
-    },
-    {
-      "url": "https://x.com/nikkenko/status/2082340684267462764",
-      "author": "@nikkenko",
-      "snippet": "神戸市、東部新都心「HAT神戸」の活性化策を検討　年度内に取りまとめ",
-      "engagement": {
-        "likes": 0,
-        "rts": 0
-      },
-      "engage_type": "reply",
-      "draft": "都心の再開発は箱もの単体でなく、エリア全体の活性化策とセットで検討される流れが強まってますね。年度内取りまとめということは、来年度の発注計画にも関わってきそうです。",
-      "reason": "24h以内投稿(snowflake検証: tweet_id 2082340684267462764 → 2026-07-29T14:41 JST、投稿予定時刻基準で約5.3h前)。@nikkenko は正本記載の業界紙tierアカウント。神戸市の都市再開発検討という制度・自治体ニュースで建設業界に直接関連。出典: output/slack_buzz.json"
-    },
-    {
-      "url": "https://x.com/Shimizu_now/status/2082299510487912494",
-      "author": "@Shimizu_now",
-      "snippet": "清水建設の技術を紹介する「#テクノアイ」で「開発者ストーリー」を公開。街中のコンクリートが「CO2を吸収する『森』」に生まれ変わる技術開発の舞台裏。「DACコート」開発の鍵とは？産学連携で挑んだ持続可能な未来への道。",
-      "engagement": {
-        "likes": 7,
-        "rts": 1
-      },
-      "engage_type": "reply",
-      "draft": "コンクリートがCO2を吸収する側に回るのは面白いですね。資材高騰が続く中、脱炭素と調達コストの両方に効く技術は、大手だけでなく専門工事側にも波及してほしいところです。",
-      "reason": "24h以内投稿(snowflake検証: tweet_id 2082299510487912494 → 2026-07-29T11:57 JST、投稿予定時刻基準で約8h前)。清水建設公式アカウントはスーパーゼネコンの公式広報で、フォロワー数は明記された優先ターゲット外だが企業規模上2,000超は確実。CO2吸収コンクリート技術という建設テック動向で建設業界に直接関連。出典: output/slack_buzz.json"
+      "text": "原宿エリアの再開発、SANAAの設計は楽しみです。ゼネコン各社の受注残は24兆1,764億円で前年比10.1%増と過去最高なので、こういう大型案件がまだまだ積み上がっていきそうですね。"
     }
   ],
   "engage_pool_noon": [
@@ -272,12 +170,12 @@
   ],
   "evening_post": {
     "time": "20:00",
-    "text": "中小企業省力化投資補助金、一般型第7回の締切は7月31日17時に迫ってる。\n上限は最大1億円で、直近の第4回採択1,456件のうち建設業は15.9%、製造業に次ぐ2位だった。\nカタログ注文型だと建設業は38.0%で全業種トップ、省力化投資に一番食いついてる業種は建設業だと僕は見てる。\n締切まであと2日、GビズIDプライムの取得だけでも済ませておかないと今回は間に合わない。",
+    "text": "国土交通省の令和7年度下請取引等実態調査で、労務費を内訳明示した見積書を出してる下請けは71.3%だった。\nでも元請けが見積に必要な項目を全部揃えて出してるのはわずか17.9%だ。\nルールを守ってるのは下請けの方で、元請けの対応が追いついてないのが引っかかった。\n内訳明示した見積書は下請けにとって交渉の切り札だ、出し渋る理由はもうない。",
     "type": "original",
     "freshness": "updatable",
-    "source_url": "https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/260605001.html 中小企業省力化投資補助事業(一般型)第7回公募要領(中小企業庁)。締切2026年7月31日17:00・上限額最大1億円はWebSearchで複数ソース(補助金クラウド/mirasapo-plus等)を突き合わせて確認。第4回採択1,456件中建設業15.9%(製造業に次ぐ2位)、カタログ注文型で建設業38.0%(全業種トップ・2025年12月末時点)はhojokin-joseikin.com/ai-soumu.com等の実績まとめ記事の検索結果を2クエリで突き合わせて確認(直接WebFetchは403でブロック)。投稿はしない(自分の確認用)。"
+    "source_url": "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo13_hh_000001_00342.html 国土交通省 令和7年度下請取引等実態調査(見積における労務費の交渉状況等の調査結果)。対象30,000業者・回答19,964業者(回収率66.5%)。元請けが見積に必要な項目を全て記載:17.9%、下請けが労務費を内訳明示した見積書を交付:71.3%、内訳明示した労務費を含む見積金額の全額が支払われる契約:75.6%。複数の独立したWebSearchで同一の3数値を確認(MLIT報道発表資料・日本工業経済新聞の関連報道)。投稿はしない(自分の確認用)。"
   },
-  "generated_at_evening": "2026-07-29T19:11:54+09:00",
+  "generated_at_evening": "2026-07-30T20:00:00+09:00",
   "noon_post": {
     "time": "12:00",
     "text": "全国の建設業許可業者数は48万3,823者で、前年より123者、0.03%増えただけだった。\n国土交通省が5月15日に公表した最新の数字だ。\nでも元請けとして大きな工事を直接受注できる特定建設業の許可は50,511者で、前年比772者、1.6%増えてる。\n全体はほぼ横ばいなのに特定建設業だけ伸び率が50倍以上違うのを見て、僕は下請けから元請けへ切り替える動きが増えてると見てる。\n重層下請けの中間に留まるより、自分で特定建設業を取って直接受注を狙う専門工事会社が、この数字の裏で増えてると僕は思う。",
@@ -288,5 +186,5 @@
   "generated_at_noon": "2026-07-30T12:00:00+09:00",
   "generated_at_morning": "2026-07-30T06:45:00+09:00",
   "source_url_morning": "https://www.tsr-net.co.jp/data/detail/1203085_1527.html 東京商工リサーチ(上場ゼネコン50社 2025年度＝26年3月期決算・7/29公表)。売上高14兆981億円(+0.1%)・純利益1兆309億円(+47.5%)・当期純利益率7.3%(集計開始以来最高)・受注高16兆5,388億円(+5.8%)・期末繰越高24兆1,764億円(+10.1%、過去最高)・50社全社黒字・増収増益31社(62.0%)をWebSearchで確認(Yahoo!ニュース転載記事でも同数値確認)。投稿はしない(自分の確認用)。",
-  "source_url_evening": "https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/260605001.html"
+  "source_url_evening": "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo13_hh_000001_00342.html"
 }
