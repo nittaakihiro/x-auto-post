@@ -98,9 +98,9 @@ jobs:
                       })
                   blocks.append({"type": "divider"})
 
-          # --- 絡みカード（手動投稿） ---
+          # --- 絡みカード（手動投稿・v4: コピペ10秒が目的。完成文を先頭に置く） ---
           if engage_cards:
-              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🤝 絡み候補（手動投稿）*"}})
+              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🤝 絡み（コピペで投稿・早いほど効く）*"}})
               for i, card in enumerate(engage_cards, 1):
                   card_type = card.get("action_type") or card.get("type", "reply")
                   tier = card.get("tier", "")
@@ -110,17 +110,16 @@ jobs:
                   summary = card.get("target_summary") or card.get("target_snippet") or card.get("snippet", "")
                   text = card.get("text") or card.get("reply_text") or card.get("draft", "")
                   label = "引用RT" if "quote" in card_type else "リプ"
-                  header = f"*{i}. [{label}] {target}*"
+                  header = f"*[{label}] {target}*"
                   if name:
                       header += f" ({name})"
                   if tier:
                       header += f" [{tier} tier]"
-                  line = header
+                  line = f"{header}\n```{text}```"
                   if url:
-                      line += f"\n{url}"
+                      line += f"\n→ 投稿先: {url}"
                   if summary:
                       line += f"\n> {summary}"
-                  line += f"\n\n💬 {text}"
                   blocks.append({
                       "type": "section",
                       "text": {"type": "mrkdwn", "text": line}

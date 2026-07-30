@@ -39,6 +39,35 @@ def main():
         }
     except Exception as e:
         print(f"[METRICS] フォロワー数取得失敗: {e}")
+    # 絡み実行数（v4のインプットKPI）: リプ・引用RTはキューに入れず手動投稿のみなので、
+    # 直近7日の「他人へのリプ + 引用RT」がそのまま絡み実行数になる
+    try:
+        from datetime import timedelta
+        recent = poster.get_my_tweets(100, include_replies=True)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+        engaged = []
+        for t in recent:
+            if not t.get("created_at"):
+                continue
+            if datetime.fromisoformat(t["created_at"]) < cutoff:
+                continue
+            kind = "reply" if t.get("is_reply") else "quote" if t.get("is_quote") else None
+            if kind:
+                engaged.append({
+                    "kind": kind,
+                    "id": t["id"],
+                    "text": t["text"][:80],
+                    "created_at": t["created_at"],
+                })
+        payload["engage_7d"] = {
+            "replies": sum(1 for e in engaged if e["kind"] == "reply"),
+            "quotes": sum(1 for e in engaged if e["kind"] == "quote"),
+            "total": len(engaged),
+            "items": engaged,
+        }
+        print(f"[METRICS] 絡み実行数(7日): {len(engaged)}件")
+    except Exception as e:
+        print(f"[METRICS] 絡み実行数カウント失敗: {e}")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1))
     if payload.get("account", {}).get("followers") is not None:

@@ -132,24 +132,32 @@ class XPoster:
         print(f"[THREAD] スレッド投稿完了: {len(ids)}件")
         return ids
 
-    def get_my_tweets(self, count: int = 20) -> list[dict]:
-        """自分の直近投稿を取得。[{"id", "text", "created_at"}]のリストを返す。"""
+    def get_my_tweets(self, count: int = 20, include_replies: bool = False) -> list[dict]:
+        """自分の直近投稿を取得。[{"id", "text", "created_at"}]のリストを返す。
+
+        include_replies=True で他人へのリプも含める（絡み実行数の週次カウント用）。
+        """
+        exclude = ["retweets"] if include_replies else ["replies", "retweets"]
         resp = self.client.get_users_tweets(
             id=self.user_id,
             max_results=min(count, 100),
-            tweet_fields=["created_at", "public_metrics"],
-            exclude=["replies", "retweets"],
+            tweet_fields=["created_at", "public_metrics", "referenced_tweets", "in_reply_to_user_id"],
+            exclude=exclude,
             user_auth=True,
         )
         if not resp.data:
             return []
         tweets = []
         for t in resp.data:
+            refs = t.referenced_tweets or []
             tweets.append({
                 "id": t.id,
                 "text": t.text,
                 "created_at": t.created_at.isoformat() if t.created_at else None,
                 "metrics": t.public_metrics,
+                "is_reply": t.in_reply_to_user_id is not None
+                and str(t.in_reply_to_user_id) != str(self.user_id),
+                "is_quote": any(r.type == "quoted" for r in refs),
             })
         print(f"[TIMELINE] 直近{len(tweets)}件取得")
         return tweets
