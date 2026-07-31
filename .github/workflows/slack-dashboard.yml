@@ -37,7 +37,7 @@ jobs:
           # Load queue
           with open("output/post_queue.json", "r") as f:
               queue = json.load(f)
-          today_posts = [p for p in queue if p["date"] == today and p["status"] == "pending"]
+          today_posts = [p for p in queue if p["date"] == today and p["status"] in ("pending", "draft")]
 
           # Load dashboard (engage cards + reply sales)
           dashboard = {}
@@ -81,15 +81,23 @@ jobs:
               {"type": "divider"}
           ]
 
-          # --- オリジナル投稿 ---
+          # --- オリジナル（v4.1: draft=新田さんがリライトして手動投稿 / pending=自動投稿） ---
           if today_posts:
-              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🖊️ オリジナル投稿（自動投稿）*"}})
+              has_draft = any(p["status"] == "draft" for p in today_posts)
+              label = "*🖊️ 下書き（自分の言葉にリライトして投稿）*" if has_draft else "*🖊️ オリジナル投稿（自動投稿）*"
+              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": label}})
               for p in sorted(today_posts, key=lambda x: x["time"]):
                   freshness = "🔒" if p.get("freshness") == "locked" else "🔄"
                   img = "🖼️" if p.get("image", {}).get("type") == "gemini" else ""
+                  if p["status"] == "draft":
+                      line = f"*{p['time']}枠（目安。ズレてOK）* {img} — {len(p['text'])}字\n```{p['text']}```"
+                      if p.get("hint"):
+                          line += f"\n💡 *解釈の種:* {p['hint']}"
+                  else:
+                      line = f"*{p['time']}* {freshness} {img} — {len(p['text'])}字\n\n{p['text']}"
                   blocks.append({
                       "type": "section",
-                      "text": {"type": "mrkdwn", "text": f"*{p['time']}* {freshness} {img} — {len(p['text'])}字\n\n{p['text']}"}
+                      "text": {"type": "mrkdwn", "text": line}
                   })
                   if p.get("reply") and p["reply"].get("text"):
                       blocks.append({
@@ -182,7 +190,11 @@ jobs:
           # --- サマリー ---
           summary_parts = []
           if today_posts:
-              summary_parts.append(f"📝 オリジナル{len(today_posts)}本（自動投稿）")
+              n_draft = sum(1 for p in today_posts if p["status"] == "draft")
+              if n_draft:
+                  summary_parts.append(f"📝 下書き{n_draft}本（リライトして手動投稿）")
+              if len(today_posts) - n_draft:
+                  summary_parts.append(f"📝 オリジナル{len(today_posts) - n_draft}本（自動投稿）")
           if engage_cards:
               summary_parts.append(f"🤝 絡み{len(engage_cards)}本（手動）")
           if reply_sales:

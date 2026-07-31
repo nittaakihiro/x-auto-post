@@ -169,8 +169,14 @@ def add_post(queue: list[dict], date: str, time: str, text: str,
              thread_texts: list[str] = None,
              image_type: str = "none", image_prompt: str = None,
              source_query: str = None,
-             freshness: str = "locked") -> list[dict]:
-    """キューに投稿を追加。"""
+             freshness: str = "locked",
+             status: str = "pending",
+             hint: str = None) -> list[dict]:
+    """キューに投稿を追加。
+
+    status="draft" は自動投稿されない下書き（v4.1リライト運転。新田さんが
+    自分の言葉にリライトして手動投稿する）。hint はリライト用の解釈の種。
+    """
     post_id = f"{date}_{time}"
 
     # 重複チェック
@@ -197,7 +203,8 @@ def add_post(queue: list[dict], date: str, time: str, text: str,
             "source_query": source_query,
         } if reply_text else None,
         "freshness": freshness,  # "locked" | "updatable"
-        "status": "pending",
+        "status": status,  # "pending"=自動投稿 | "draft"=リライト用下書き（posterは無視）
+        "hint": hint,      # 下書きのリライト用「解釈の種」（draft時のみ使用）
         "tweet_id": None,
         "reply_tweet_id": None,
         "posted_at": None,

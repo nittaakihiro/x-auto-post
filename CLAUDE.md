@@ -1,16 +1,13 @@
 # X Auto Post System
 
 ## 概要
-X（Twitter, @akionionio）の自動投稿システム。**戦略の正本は `docs/x-strategist.md`（v4, 2026-07-30 成長モデル再設計）**。ルーティン手順は `docs/x-routine-spec.md`。
+X（Twitter, @akionionio）の投稿支援システム。**戦略の正本は `docs/x-strategist.md`（v4.1, 2026-07-31 リライト運転）**。ルーティン手順は `docs/x-routine-spec.md`。
 
-## アーキテクチャ（3段）
-1. **生成**: Claude Code Routines（x-post-morning 6:30 JST / noon 11:00 / evening 19:00）が投稿0〜1本+絡みカード1枚を生成し、`output/post_queue.json` / `output/dashboard.json` にcommit+push。**投稿はしない**（ゲート3回失敗の枠は休載）
-2. **キュー**: `output/post_queue.json`（appendのみ。既存エントリは上書きしない）
-3. **実投稿**: GitHub Actions `auto-post.yml` の `scripts/auto_post.py`
-   - **正確な時刻の投稿はローカルMacのcronからのworkflow_dispatch**（7:25 / 12:00 / 20:00 / 20:50 JST）
-   - Actionsのschedule cronはフォールバック（実測で40分〜3.5h遅延するため前倒し配置）
-   - 予定から6時間（SKIP_GRACE_HOURS）超過したpendingはfailedにしてスキップ
-   - 投稿失敗が出たらSlack DMで即通知（auto-post.ymlのNotifyステップ）
+## アーキテクチャ（v4.1: 自動投稿は停止中・下書き運転）
+1. **生成**: Claude Code Routines（x-post-morning 6:30 JST / noon 11:00 / evening 19:00）が**下書き**（`status='draft'` + `hint`=解釈の種）0〜1本+絡みカード1枚を生成し、`output/post_queue.json` / `output/dashboard.json` にcommit+push
+2. **通知**: `slack-dashboard.yml` が下書き＋絡みカードをSlack DMへ
+3. **実投稿**: **新田さんが下書きを自分の言葉にリライトして手動投稿**（枠時刻7:25/12:00/20:00は目安）
+4. （温存）自動投稿系: `auto-post.yml` + ローカルlaunchd dispatch。pendingを積めば従来どおり自動投稿される（draftは無視される）。SKIP_GRACE_HOURS=6h・失敗時Slack DM通知
 
 ## 補助ワークフロー
 - `fetch-slack.yml`: 30分毎にSlack #x-influencer-watch → `output/slack_buzz.json`
