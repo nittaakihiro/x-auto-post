@@ -171,11 +171,14 @@ def add_post(queue: list[dict], date: str, time: str, text: str,
              source_query: str = None,
              freshness: str = "locked",
              status: str = "pending",
-             hint: str = None) -> list[dict]:
+             hint: str = None,
+             article_url: str = None) -> list[dict]:
     """キューに投稿を追加。
 
     status="draft" は自動投稿されない下書き（v4.1リライト運転。新田さんが
     自分の言葉にリライトして手動投稿する）。hint はリライト用の解釈の種。
+    article_url はスクショ用の元記事URL（新田さんがリライト時にスクショして
+    画像添付する。本文にURLは貼らない）。
     """
     post_id = f"{date}_{time}"
 
@@ -205,6 +208,7 @@ def add_post(queue: list[dict], date: str, time: str, text: str,
         "freshness": freshness,  # "locked" | "updatable"
         "status": status,  # "pending"=自動投稿 | "draft"=リライト用下書き（posterは無視）
         "hint": hint,      # 下書きのリライト用「解釈の種」（draft時のみ使用）
+        "article_url": article_url,  # スクショ用の元記事URL（本文には貼らない）
         "tweet_id": None,
         "reply_tweet_id": None,
         "posted_at": None,

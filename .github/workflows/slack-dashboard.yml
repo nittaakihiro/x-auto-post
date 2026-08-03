@@ -93,6 +93,8 @@ jobs:
                       line = f"*{p['time']}枠（目安。ズレてOK）* {img} — {len(p['text'])}字\n```{p['text']}```"
                       if p.get("hint"):
                           line += f"\n💡 *解釈の種:* {p['hint']}"
+                      if p.get("article_url"):
+                          line += f"\n📎 *スクショ用元記事（画像で添付・本文にURLは貼らない）:* {p['article_url']}"
                   else:
                       line = f"*{p['time']}* {freshness} {img} — {len(p['text'])}字\n\n{p['text']}"
                   blocks.append({
