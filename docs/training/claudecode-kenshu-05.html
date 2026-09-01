@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ClaudeCode研修_建設業特化_第5回</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+/* ビルド時はスライドと同じ階層に fonts/ を置く（docs/training/README.md 参照） */
+@font-face { font-family:'NotoJP Local'; font-weight:400; font-display:block; src:url('fonts/NotoSansJP-400.woff') format('woff'); }
+@font-face { font-family:'NotoJP Local'; font-weight:700; font-display:block; src:url('fonts/NotoSansJP-700.woff') format('woff'); }
+@font-face { font-family:'NotoJP Local'; font-weight:900; font-display:block; src:url('fonts/NotoSansJP-900.woff') format('woff'); }
+
+:root{
+  --ink:#16233A;
+  --sub:#5D6B84;
+  --faint:#8A97AC;
+  --line:#DCE3ED;
+  --panel:#F4F7FA;
+  --panel2:#EDF2F8;
+  --accent:#C05A34;
+  --accent-soft:#FBEDE7;
+  --ok:#2C7357;
+  --ok-soft:#E9F3EE;
+  --warn:#A93A26;
+  --warn-soft:#FBEBE7;
+  --navy:#1B3A5F;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{
+  font-family:'NotoJP Local','Noto Sans JP','IPAGothic',sans-serif;
+  color:var(--ink);
+  background:#8A93A3;
+  font-feature-settings:"palt" 1;
+  line-height:1.6;
+}
+@page{ size:1280px 720px; margin:0 }
+
+.slide{
+  position:relative;
+  width:1280px; height:720px;
+  background:#fff;
+  padding:52px 68px 56px;
+  overflow:hidden;
+  page-break-after:always;
+  break-after:page;
+  margin:0 auto 22px;
+}
+.slide:last-child{page-break-after:auto;break-after:auto;margin-bottom:0}
+
+/* ---------- ヘッダー / フッター ---------- */
+.eyebrow{
+  display:flex; align-items:center; gap:14px;
+  font-size:15px; font-weight:700; color:var(--faint);
+  letter-spacing:.06em;
+}
+.eyebrow .tag{
+  background:var(--navy); color:#fff; font-weight:900;
+  padding:4px 12px; border-radius:3px; font-size:14px; letter-spacing:.08em;
+}
+.eyebrow .sep{color:var(--line)}
+.pnum{
+  position:absolute; right:68px; bottom:30px;
+  font-size:14px; color:var(--faint); font-weight:700; letter-spacing:.08em;
+}
+.foot{
+  position:absolute; left:68px; right:150px; bottom:26px;
+  font-size:17px; color:var(--navy); font-weight:700;
+  border-top:2px solid var(--line); padding-top:12px;
+}
+.foot .arrow{color:var(--accent); margin-right:8px}
+.foot .note{display:block;font-size:14px;color:var(--sub);font-weight:400;margin-top:5px;line-height:1.5}
+
+h1.title{ font-size:46px; font-weight:900; line-height:1.28; letter-spacing:-.01em; margin-top:16px }
+h2.title{ font-size:41px; font-weight:900; line-height:1.3; letter-spacing:-.01em; margin-top:18px }
+.lead{ font-size:20px; color:var(--sub); margin-top:17px; line-height:1.65; max-width:1010px }
+
+/* ---------- 表紙 ---------- */
+.cover{ background:linear-gradient(160deg,#16233A 0%,#1B3A5F 62%,#24486F 100%); color:#fff; padding:64px 76px }
+.cover .day{
+  display:inline-block; border:2px solid rgba(255,255,255,.5);
+  padding:7px 20px; border-radius:4px;
+  font-size:16px; font-weight:900; letter-spacing:.18em;
+}
+.cover h1{ font-size:64px; font-weight:900; line-height:1.22; margin-top:30px; letter-spacing:-.02em }
+.cover h1 .accent{ color:#F0A87F }
+.cover .sub{ font-size:21px; color:rgba(255,255,255,.82); margin-top:22px; line-height:1.6 }
+.cover .goals{ display:flex; gap:18px; margin-top:44px }
+.cover .goal{
+  flex:1; background:rgba(255,255,255,.09);
+  border:1px solid rgba(255,255,255,.2); border-radius:6px; padding:20px 22px;
+}
+.cover .goal .n{ font-size:15px; font-weight:900; color:#F0A87F; letter-spacing:.1em }
+.cover .goal .t{ font-size:19px; font-weight:700; margin-top:9px; line-height:1.5 }
+.cover .meta{
+  position:absolute; left:76px; bottom:38px;
+  font-size:15px; color:rgba(255,255,255,.55); letter-spacing:.06em;
+}
+
+/* ---------- 章扉 ---------- */
+.divider{ background:var(--panel) }
+.divider .chapno{
+  font-size:15px; font-weight:900; color:var(--accent); letter-spacing:.2em;
+}
+.divider h2{ font-size:52px; font-weight:900; line-height:1.26; margin-top:18px; letter-spacing:-.02em }
+.divider .lead{ font-size:20px; margin-top:20px }
+.divider .agenda{ margin-top:60px; border-top:2px solid var(--line) }
+.divider .agenda .row{
+  display:flex; align-items:center; gap:22px;
+  padding:23px 4px; border-bottom:1px solid var(--line);
+}
+.divider .agenda .row .idx{ font-size:20px; font-weight:900; color:var(--faint); width:26px }
+.divider .agenda .row .txt{ font-size:24px; font-weight:700; flex:1 }
+.divider .bignum{
+  position:absolute; right:60px; bottom:24px;
+  font-size:210px; font-weight:900; color:#E4EAF2; line-height:.8; letter-spacing:-.04em;
+}
+
+/* ---------- 汎用パーツ ---------- */
+.grid2{ display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:30px }
+.grid3{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-top:30px }
+.grid4{ display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:24px }
+
+.card{ background:var(--panel); border-radius:7px; padding:27px 28px; border:1px solid var(--line) }
+.card.plain{ background:#fff }
+.card .n{ font-size:14px; font-weight:900; color:var(--accent); letter-spacing:.1em }
+.card h3{ font-size:23px; font-weight:900; line-height:1.45; margin-top:9px }
+.card p{ font-size:17px; color:var(--sub); margin-top:12px; line-height:1.7 }
+.card .ex{ font-size:16px; color:var(--navy); margin-top:14px; background:#fff; border-left:3px solid var(--accent); padding:11px 14px; line-height:1.6 }
+
+.numlist{ margin-top:30px }
+.numlist .item{ display:flex; gap:22px; padding:22px 0; border-bottom:1px solid var(--line) }
+.numlist .item:first-child{ border-top:1px solid var(--line) }
+.numlist .no{
+  flex:none; width:34px; height:34px; border-radius:50%;
+  background:var(--navy); color:#fff; font-size:16px; font-weight:900;
+  display:flex; align-items:center; justify-content:center;
+}
+.numlist .body h3{ font-size:23px; font-weight:900; line-height:1.45 }
+.numlist .body p{ font-size:17px; color:var(--sub); margin-top:7px; line-height:1.6 }
+
+.checks{ margin-top:20px }
+.checks li{ list-style:none; font-size:18px; line-height:2.0; padding-left:28px; position:relative }
+.checks li:before{ content:"✓"; position:absolute; left:0; color:var(--ok); font-weight:900 }
+.checks.warn li:before{ content:"✗"; color:var(--warn) }
+
+.callout{
+  margin-top:26px; background:var(--accent-soft); border-left:5px solid var(--accent);
+  border-radius:0 6px 6px 0; padding:22px 28px;
+}
+.callout .t{ font-size:21px; font-weight:900; line-height:1.5 }
+.callout p{ font-size:17px; color:#7A4B36; margin-top:9px; line-height:1.65 }
+
+.speech{
+  background:#fff; border:2px solid var(--navy); border-radius:8px;
+  padding:22px 26px; font-size:20px; font-weight:700; line-height:1.65; color:var(--navy);
+  position:relative;
+}
+.speech.small{ font-size:16px; font-weight:400; color:var(--ink) }
+.speech .who{ display:block; font-size:13px; font-weight:900; color:var(--faint); letter-spacing:.08em; margin-bottom:7px }
+
+.cmd{
+  font-family:'NotoJP Local','Noto Sans JP',monospace;
+  background:var(--navy); color:#fff; border-radius:5px;
+  padding:6px 14px; font-size:19px; font-weight:700; display:inline-block; letter-spacing:.02em;
+}
+.cmd.lg{ font-size:34px; padding:14px 28px }
+
+table.tbl{ width:100%; border-collapse:collapse; margin-top:28px }
+table.tbl th{
+  background:var(--navy); color:#fff; font-size:17px; font-weight:900;
+  text-align:left; padding:15px 18px; letter-spacing:.04em;
+}
+table.tbl td{ border-bottom:1px solid var(--line); padding:19px 18px; font-size:17px; vertical-align:top; line-height:1.6 }
+table.tbl td.k{ font-weight:900; font-size:19px; width:190px }
+table.tbl tr:nth-child(even) td{ background:var(--panel) }
+
+.steps{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:30px }
+.step{ background:#fff; border:1px solid var(--line); border-radius:7px; padding:24px 26px; position:relative }
+.step .sn{
+  display:inline-block; background:var(--accent); color:#fff;
+  font-size:13px; font-weight:900; letter-spacing:.1em; padding:4px 11px; border-radius:3px;
+}
+.step h3{ font-size:21px; font-weight:900; margin-top:13px; line-height:1.45 }
+.step p{ font-size:16px; color:var(--sub); margin-top:11px; line-height:1.65 }
+
+.drillhead{ display:flex; align-items:center; gap:14px; margin-top:4px }
+.drillhead .badge{
+  background:var(--accent); color:#fff; font-size:15px; font-weight:900;
+  padding:6px 16px; border-radius:4px; letter-spacing:.06em;
+}
+.drillhead .where{ font-size:16px; color:var(--sub); font-weight:700 }
+
+.clear{ background:var(--ok-soft); border:1px solid #C6DED4; border-radius:7px; padding:22px 26px }
+.clear .t{ font-size:16px; font-weight:900; color:var(--ok); letter-spacing:.06em }
+.clear li{ list-style:none; font-size:17px; line-height:1.85; padding-left:26px; position:relative; margin-top:6px }
+.clear li:before{ content:"✓"; position:absolute; left:0; color:var(--ok); font-weight:900 }
+
+.trouble{ background:var(--panel2); border-radius:7px; padding:22px 26px }
+.trouble .t{ font-size:16px; font-weight:900; color:var(--navy); letter-spacing:.04em }
+.trouble p{ font-size:16px; color:var(--sub); margin-top:10px; line-height:1.65 }
+
+.split{ display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:30px }
+.okbox{ background:var(--ok-soft); border:1px solid #C6DED4; border-radius:7px; padding:26px 28px }
+.ngbox{ background:var(--warn-soft); border:1px solid #EBC9C1; border-radius:7px; padding:26px 28px }
+.okbox .h{ font-size:19px; font-weight:900; color:var(--ok) }
+.ngbox .h{ font-size:19px; font-weight:900; color:var(--warn) }
+.okbox li,.ngbox li{ list-style:none; font-size:17px; line-height:1.7; margin-top:14px; padding-left:28px; position:relative }
+.okbox li:before{ content:"✓"; position:absolute; left:0; color:var(--ok); font-weight:900 }
+.ngbox li:before{ content:"✗"; position:absolute; left:0; color:var(--warn); font-weight:900 }
+.okbox li .d,.ngbox li .d{ display:block; font-size:15px; color:var(--sub); line-height:1.55; margin-top:3px }
+
+.flow{ display:flex; align-items:stretch; gap:0; margin-top:32px }
+.flow .fbox{ flex:1; background:var(--panel); border:1px solid var(--line); border-radius:7px; padding:22px 22px }
+.flow .fno{ font-size:13px; font-weight:900; color:var(--accent); letter-spacing:.1em }
+.flow .fbox h3{ font-size:19px; font-weight:900; margin-top:10px; line-height:1.45 }
+.flow .fbox p{ font-size:15px; color:var(--sub); margin-top:10px; line-height:1.6 }
+.flow .fsep{ flex:none; width:34px; display:flex; align-items:center; justify-content:center; color:var(--faint); font-size:22px; font-weight:900 }
+
+/* 情報量の多いページだけ、余白を1段だけ詰める */
+.slide.tight h2.title{ margin-top:14px }
+.slide.tight .lead{ margin-top:13px }
+.slide.tight .grid2,.slide.tight .grid3,.slide.tight .numlist,
+.slide.tight .steps,.slide.tight table.tbl,.slide.tight .clear,
+.slide.tight .split,.slide.tight .callout{ margin-top:22px }
+.slide.tight .card{ padding:22px 24px }
+.slide.tight .card p{ margin-top:9px; line-height:1.6 }
+.slide.tight table.tbl td{ padding:15px 18px }
+.slide.tight .numlist .item{ padding:17px 0 }
+.slide.tight .step{ padding:20px 22px }
+.slide.tight .step p{ margin-top:9px; line-height:1.6 }
+.slide.tight .clear{ padding:18px 24px }
+.slide.tight .clear li{ line-height:1.75; margin-top:4px }
+.slide.tight .trouble{ padding:18px 24px }
+.slide.tight .checks li{ line-height:1.85 }
+.slide.tighter .lead{ margin-top:11px }
+.slide.tighter .steps{ margin-top:18px }
+.slide.tighter .grid2{ margin-top:18px }
+.slide.tighter .step{ padding:18px 20px }
+</style>
+</head>
+<body>
+
+<!-- ========== 01 表紙 ========== -->
+<section class="slide cover">
+  <span class="day">DAY 5 ｜ 自動化 ②</span>
+  <h1>いつもの手順を、<br><span class="accent">一言で動かす</span></h1>
+  <p class="sub">前回は「任せ方」でした。今日は、同じ説明を二度としないための回です。</p>
+  <div class="goals">
+    <div class="goal"><div class="n">01</div><div class="t">毎回同じ手順の業務を、<br>手順書1枚にできる</div></div>
+    <div class="goal"><div class="n">02</div><div class="t">その手順書を呼び出して、<br>一言で動かせる</div></div>
+    <div class="goal"><div class="n">03</div><div class="t">思ったとおりに動かないとき、<br>自分で直せる</div></div>
+  </div>
+  <div class="meta">ClaudeCode研修（建設業特化）　第5回</div>
+</section>
+
+<!-- ========== 02 前回の振り返り ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>前回の振り返り</span></div>
+  <h2 class="title">前回で、任せられるようになったこと</h2>
+  <div class="grid3">
+    <div class="card">
+      <div class="n">01</div>
+      <h3>承認画面を読んでから「はい」</h3>
+      <p>どのファイルを、どうするか。読むのはそこだけでした</p>
+    </div>
+    <div class="card">
+      <div class="n">02</div>
+      <h3>一括処理が本領</h3>
+      <p>10件でも100件でも、指示は同じ1文。まとめる・整える</p>
+    </div>
+    <div class="card">
+      <div class="n">03</div>
+      <h3>下書きまでAI、送信は人間</h3>
+      <p>お使いのメールとつないで、作って直して送るまで</p>
+    </div>
+  </div>
+  <div class="grid2" style="margin-top:26px">
+    <div class="card plain">
+      <h3 style="font-size:20px">動作確認を2つだけ</h3>
+      <ul class="checks" style="margin-top:12px">
+        <li>Codeタブで「AI-WORKの中身を教えて」に答えが返る</li>
+        <li>「今日届いたメールを3件、要約して」に答えが返る</li>
+      </ul>
+      <p style="font-size:15px;color:var(--sub);margin-top:12px">どちらか動かない方は手を挙げてください。個別に見ます</p>
+    </div>
+    <div class="card plain">
+      <h3 style="font-size:20px">宿題の確認</h3>
+      <p style="font-size:16px;margin-top:10px">「毎回同じ手順でやっている業務」を、1つ書き出してきていただきました。</p>
+      <p style="font-size:16px;margin-top:8px;color:var(--navy);font-weight:700">それが今日の題材そのものです。手元に出しておいてください。</p>
+    </div>
+  </div>
+  <div class="pnum">02</div>
+</section>
+
+<!-- ========== 03 今日やること ========== -->
+<section class="slide tight">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>今日やること</span></div>
+  <h2 class="title">今日やること</h2>
+  <div class="numlist">
+    <div class="item">
+      <div class="no">1</div>
+      <div class="body"><h3>手順書を1枚書く</h3><p>頭の中の段取りを、日本語で外に出します。まだPCは触りません</p></div>
+    </div>
+    <div class="item">
+      <div class="no">2</div>
+      <div class="body"><h3>一言で呼べる形にする</h3><p>書いた手順書を覚えてもらい、次からは名前を呼ぶだけにします</p></div>
+    </div>
+    <div class="item">
+      <div class="no">3</div>
+      <div class="body"><h3>実演と演習</h3><p>週1回の定型業務を、通しで1本。そのあとご自分の業務で</p></div>
+    </div>
+    <div class="item">
+      <div class="no">4</div>
+      <div class="body"><h3>直す・絞る・渡す</h3><p>思ったとおりに動かないときの直し方と、人に渡せる形にする話</p></div>
+    </div>
+  </div>
+  <div class="foot"><span class="arrow">→</span>前回までは「1回やらせる」。今日は「毎回、同じように動く」形にします
+    <span class="note">書き出してきた業務が、今日の終わりには名前を呼ぶだけで動くようになります</span>
+  </div>
+  <div class="pnum">03</div>
+</section>
+
+<!-- ========== 04 なぜ手順書なのか ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>考え方</span></div>
+  <h2 class="title">今日の主役は、AIではなく「手順書」です</h2>
+  <div class="grid3">
+    <div class="card">
+      <h3>毎回、同じ説明をしています</h3>
+      <p>「まず○○フォルダを見て、金額を拾って、あの表の形にして、最後に△△さんに送る」</p>
+      <p style="color:var(--navy);font-weight:700">その説明、今月何回しましたか</p>
+    </div>
+    <div class="card">
+      <h3>1回書けば、二度と説明しなくていい</h3>
+      <p>AIは忘れません。手順書に書いた順番どおり、毎回同じ形で動きます。</p>
+      <p>新人に毎回口で伝え直しているものと、同じ扱いです</p>
+    </div>
+    <div class="card">
+      <h3>書き出す価値は、AI抜きでもあります</h3>
+      <p>手順書にできない業務は、人にも引き継げない業務です。</p>
+      <p>今日は、その棚卸しでもあります</p>
+    </div>
+  </div>
+  <div class="callout">
+    <div class="t">今日の本当の成果物は、手順書です</div>
+    <p>手順書さえ書ければ、それを一言で呼べる形にするのは、頼むだけの作業です。難しいのは書くほうで、そこは皆さんにしか書けません</p>
+  </div>
+  <div class="pnum">04</div>
+</section>
+
+<!-- ========== 05 CHAPTER 01 扉 ========== -->
+<section class="slide divider">
+  <div class="chapno">CHAPTER 01</div>
+  <h2>毎回の説明を、<br>1回で終わりにする</h2>
+  <p class="lead">頭の中にある段取りを、日本語で1枚に書き出します。きれいに書く必要はありません。</p>
+  <div class="agenda">
+    <div class="row"><div class="idx">1</div><div class="txt">ルール・事実・手順 — 置き場が3つあります</div></div>
+    <div class="row"><div class="idx">2</div><div class="txt">手順書の型（5行）</div></div>
+    <div class="row"><div class="idx">3</div><div class="txt">実習① ご自分の定型業務を、1枚に</div></div>
+  </div>
+  <div class="bignum">01</div>
+</section>
+
+<!-- ========== 06 置き場の整理 ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>置き場の整理</span></div>
+  <h2 class="title">「覚えさせる」には、置き場が3つあります</h2>
+  <p class="lead">前回は上の2つを使いました。今日は3つ目です。</p>
+  <table class="tbl">
+    <tr><th style="width:190px">置き場</th><th style="width:180px">いつ効くか</th><th style="width:230px">入れるもの</th><th>例</th></tr>
+    <tr><td class="k">CLAUDE.md</td><td>毎回、勝手に</td><td>会社と自分の<strong>ルール</strong></td><td>金額は税抜・税込を併記／お客様は「○○様」／元のファイルは変更しない</td></tr>
+    <tr><td class="k">メモリ</td><td>会話の中で</td><td>その場かぎりの<strong>事実・事情</strong></td><td>田中様邸の施主様は朝が忙しいので、連絡は午後に</td></tr>
+    <tr><td class="k" style="color:var(--accent)">コマンド</td><td>呼んだときだけ</td><td>決まった作業の<strong>手順</strong></td><td>請求書チェック／写真整理／週次の支払確認 ← <strong>今日ここ</strong></td></tr>
+  </table>
+  <div class="foot"><span class="arrow">→</span>迷ったら「毎回守ってほしいこと」はCLAUDE.md、「決まった段取り」はコマンド
+    <span class="note">ルールは全部のコマンドに効きます。コマンドの中にルールを書き写す必要はありません</span>
+  </div>
+  <div class="pnum">06</div>
+</section>
+
+<!-- ========== 07 手順書の型 ========== -->
+<section class="slide tight">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>いちばん大事</span></div>
+  <h2 class="title">手順書は、5行で足ります</h2>
+  <table class="tbl" style="margin-top:22px">
+    <tr><th style="width:230px">書くこと</th><th style="width:430px">何を書くか</th><th>書き方の例</th></tr>
+    <tr><td class="k">① いつ使うか</td><td>どのタイミングで呼ぶ作業か</td><td>毎週月曜の朝／請求書が溜まったとき</td></tr>
+    <tr><td class="k">② 何を見るか</td><td>フォルダ名を、そのまま書く</td><td>AI-WORK/請求書 の中のPDF全部</td></tr>
+    <tr><td class="k">③ 何をするか</td><td>読み取る項目と、並べ方</td><td>支払先・請求日・金額（税抜／税込）・支払期日を抜き出し、期日順に並べる</td></tr>
+    <tr><td class="k">④ 何を出すか</td><td>ファイル名と、保存する場所</td><td>支払一覧_日付.xlsx を AI-WORK/output に保存</td></tr>
+    <tr><td class="k">⑤ 守ること</td><td>やってほしくないこと</td><td>読み取れない項目は「不明」。推測で埋めない。元ファイルは変更しない</td></tr>
+  </table>
+  <div class="foot"><span class="arrow">→</span>④と⑤を飛ばすと、毎回ちがう形で出てきます。ここが手順書の肝です
+    <span class="note">書けないところがあれば、そこが今、人の頭の中だけで処理している工程です</span>
+  </div>
+  <div class="pnum">07</div>
+</section>
+
+<!-- ========== 08 実習① ========== -->
+<section class="slide tight">
+  <div class="drillhead"><span class="badge">実習 ①</span><span class="where">10分　紙かメモ帳で（まだPCは触りません）</span></div>
+  <h2 class="title">ご自分の定型業務を、手順書1枚に</h2>
+  <p class="lead">宿題で書き出した「毎回同じ手順の業務」を、5行の型に流し込みます。</p>
+  <div class="steps">
+    <div class="step">
+      <span class="sn">STEP 1</span>
+      <h3>5行を埋める　7分</h3>
+      <p>①いつ ②何を見る ③何をする ④何を出す ⑤守ること。<br>③が長くなったら、それは2本に分ける合図です</p>
+    </div>
+    <div class="step">
+      <span class="sn">STEP 2</span>
+      <h3>隣の方と交換して読む　3分</h3>
+      <p>見るのは1点だけ。「この1枚で、その人の代わりに作業できそうか」</p>
+    </div>
+    <div class="step">
+      <span class="sn">題材が無い方</span>
+      <h3>この4つから1つ</h3>
+      <p>毎週の支払確認／月末の書類チェック／現場写真の整理／週次の実績まとめ</p>
+    </div>
+  </div>
+  <div class="clear" style="margin-top:24px">
+    <div class="t">クリア条件</div>
+    <li>5行が全部埋まった</li>
+    <li>④の保存先とファイル名が決まっている</li>
+    <li>⑤に「読み取れない項目は不明。推測しない」が入っている</li>
+  </div>
+  <div class="pnum">08</div>
+</section>
+
+<!-- ========== 09 CHAPTER 02 扉 ========== -->
+<section class="slide divider">
+  <div class="chapno">CHAPTER 02</div>
+  <h2>一言で呼べる形に<br>してもらいます</h2>
+  <p class="lead">書いた5行を、そのまま渡すだけです。次からは、名前を呼ぶだけで動きます。</p>
+  <div class="agenda">
+    <div class="row"><div class="idx">1</div><div class="txt">「コマンド」とは何か</div></div>
+    <div class="row"><div class="idx">2</div><div class="txt">実演 — コマンドができるまで、3ステップ</div></div>
+    <div class="row"><div class="idx">3</div><div class="txt">実習② ご自分のコマンドを作って、2回動かす</div></div>
+  </div>
+  <div class="bignum">02</div>
+</section>
+
+<!-- ========== 10 コマンドとは ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>コマンドとは</span></div>
+  <h2 class="title">入力欄で「/」を打つと、覚えさせた手順が出てきます</h2>
+  <div class="grid2" style="grid-template-columns:0.85fr 1.15fr">
+    <div class="card plain" style="display:flex;flex-direction:column;justify-content:center;gap:12px">
+      <span class="cmd">/請求書チェック</span>
+      <span class="cmd">/週次支払</span>
+      <span class="cmd">/写真整理</span>
+      <p style="font-size:16px;color:var(--sub);margin-top:8px">選ぶだけで、あの5行がそのまま実行されます</p>
+    </div>
+    <div>
+      <div class="card">
+        <h3>中身は、ただの文字のファイル</h3>
+        <p>作業フォルダの中の「.claude/commands」という場所に、手順書が1枚ずつ入るだけです。CLAUDE.mdと同じ、メモ帳で開ける素直なファイルです</p>
+      </div>
+      <div class="card" style="margin-top:18px">
+        <h3>自分でファイルを作る必要はありません</h3>
+        <p>「この手順を、請求書チェック という名前で使えるようにして」と頼めば、AIが作って、書いた中身を見せてくれます</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span class="arrow">→</span>覚えるのは「/」ひとつだけ。作るのも直すのも、日本語で頼みます
+    <span class="note">CLAUDE.mdのルールは、どのコマンドを呼んでも効いています。書き写す必要はありません</span>
+  </div>
+  <div class="pnum">10</div>
+</section>
+
+<!-- ========== 11 実演 コマンドができるまで ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>実演</span></div>
+  <h2 class="title">コマンドができるまで、3ステップ</h2>
+  <div class="steps" style="margin-top:24px">
+    <div class="step">
+      <span class="sn">STEP 1</span>
+      <h3>手順を、読み上げて渡す</h3>
+      <div class="speech small" style="margin-top:12px;border-width:1px">毎週やっている請求書の確認を、コマンドにしたいです。手順はこうです。①〜⑤（5行を読み上げる）これを「請求書チェック」という名前で使えるようにしてください。</div>
+    </div>
+    <div class="step">
+      <span class="sn">STEP 2</span>
+      <h3>承認して、中身を見る</h3>
+      <p>新しいファイルを作る承認画面（Write）が出ます。緑の行が、いま書かれた手順書です。読んでから「一度だけ許可」。</p>
+      <p style="color:var(--navy);font-weight:700">ここで自分の意図と違えば、その場で日本語で直せます</p>
+    </div>
+    <div class="step">
+      <span class="sn">STEP 3</span>
+      <h3>呼んでみる</h3>
+      <p>入力欄で「/」を打ち、請求書チェック を選ぶ。あの5行どおりに動き始めます。</p>
+      <p style="color:var(--navy);font-weight:700">ここまで3分。来週からは、これだけです</p>
+    </div>
+  </div>
+  <div class="foot"><span class="arrow">→</span>作るのに使うのは、実習①で書いた5行だけです
+  </div>
+  <div class="pnum">11</div>
+</section>
+
+<!-- ========== 12 実習② ========== -->
+<section class="slide tight tighter">
+  <div class="drillhead"><span class="badge">実習 ②</span><span class="where">15分　ご自分のPCで</span></div>
+  <h2 class="title">自分のコマンドを1つ作って、2回動かす</h2>
+  <p class="lead">実習①の5行を、そのまま読み上げて渡します。整えなくて大丈夫です。</p>
+  <div class="steps">
+    <div class="step">
+      <span class="sn">1　頼む　5分</span>
+      <h3>5行を渡して、名前を付ける</h3>
+      <p>「この手順を ○○ という名前で使えるようにして。手順は…」<br>作られた中身を、承認画面で読んでから「一度だけ許可」</p>
+    </div>
+    <div class="step">
+      <span class="sn">2　1回目　5分</span>
+      <h3>「/」で呼んで、通す</h3>
+      <p>止まったら「続けて」。違う動きをしたら、その場で日本語で直す</p>
+    </div>
+    <div class="step">
+      <span class="sn">3　2回目　5分</span>
+      <h3>別の月・別のフォルダで、もう一度</h3>
+      <p>2回目も同じ形で出てきたら本物です。ここまで来て完成</p>
+    </div>
+  </div>
+  <div class="grid2" style="margin-top:22px">
+    <div class="clear">
+      <div class="t">クリア条件</div>
+      <li>「/」で一覧に出てきた</li>
+      <li>1回目が最後まで通った</li>
+      <li>2回目も、同じ形で出てきた</li>
+    </div>
+    <div class="trouble">
+      <div class="t">つまずいたら</div>
+      <p><strong>一覧に出ない</strong>　→「さっき作ったコマンドが見当たりません。確認して」</p>
+      <p><strong>途中で違うことをする</strong>　→ ②か③が曖昧です。次のチャプターで直し方をやります</p>
+    </div>
+  </div>
+  <div class="pnum">12</div>
+</section>
+
+<!-- ========== 13 CHAPTER 03 扉 ========== -->
+<section class="slide divider">
+  <div class="chapno">CHAPTER 03</div>
+  <h2>毎週の半日が、<br>5分になります</h2>
+  <p class="lead">工程がいくつあっても、呼び方は変わりません。1本で終わる仕事を、通しで見ます。</p>
+  <div class="agenda">
+    <div class="row"><div class="idx">1</div><div class="txt">実演 — 週次の支払確認から、報告メールの下書きまで</div></div>
+    <div class="row"><div class="idx">2</div><div class="txt">役割別のコマンド例（営業・営業事務・経理・現場・経営）</div></div>
+    <div class="row"><div class="idx">3</div><div class="txt">演習③ ご自分の業務を、もう1本</div></div>
+  </div>
+  <div class="bignum">03</div>
+</section>
+
+<!-- ========== 14 実演 週次支払 ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>実演</span></div>
+  <h2 class="title">コマンド1本に、4工程が入っています</h2>
+  <div class="flow">
+    <div class="fbox"><div class="fno">工程 ①</div><h3>読む</h3><p>AI-WORK/請求書 の今週分のPDFを全部読む</p></div>
+    <div class="fsep">›</div>
+    <div class="fbox"><div class="fno">工程 ②</div><h3>抜き出す</h3><p>支払先／請求日／件名／金額（税抜・税込）／支払期日</p></div>
+    <div class="fsep">›</div>
+    <div class="fbox"><div class="fno">工程 ③</div><h3>表にする</h3><p>期日順に並べ、支払一覧_日付.xlsx を AI-WORK/output へ</p></div>
+    <div class="fsep">›</div>
+    <div class="fbox"><div class="fno">工程 ④</div><h3>報告文を作る</h3><p>件数・合計・期日が近い3件の報告メール下書き（送信はしない）</p></div>
+  </div>
+  <div class="grid2" style="margin-top:26px;grid-template-columns:0.9fr 1.1fr">
+    <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;background:var(--panel);border-radius:7px;padding:26px">
+      <p style="font-size:15px;color:var(--sub);font-weight:700">月曜の朝、打つのはこれだけ</p>
+      <span class="cmd lg" style="margin-top:14px">/週次支払</span>
+    </div>
+    <div class="card plain">
+      <h3 style="font-size:20px">⑤ 守ることも、毎回そのまま効きます</h3>
+      <ul class="checks" style="margin-top:10px">
+        <li>計算した金額の横に「要検算」と書く</li>
+        <li>読み取れない項目は「不明」。推測で埋めない</li>
+        <li>メールは下書きまで。送信ボタンは人が押す</li>
+      </ul>
+    </div>
+  </div>
+  <div class="pnum">14</div>
+</section>
+
+<!-- ========== 15 役割別 ① ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>役割別のコマンド例 ①</span></div>
+  <h2 class="title">事務所まわりの3本</h2>
+  <p class="lead">前回やった一括処理に、名前を付けただけです。中身は皆さんがもう見たものです。</p>
+  <div class="grid3">
+    <div class="card">
+      <div class="n">営業</div>
+      <h3>/過去見積さがし</h3>
+      <p>これから出す見積に似た過去案件を探して、金額・数量／面積・工期を1枚に並べる</p>
+      <div class="ex">次の見積の根拠が、過去の実績から出せます</div>
+    </div>
+    <div class="card">
+      <div class="n">営業事務</div>
+      <h3>/提出書類チェック</h3>
+      <p>協力会社から届いた書類を必要書類リストと突き合わせ、不足と記入漏れを一覧で報告</p>
+      <div class="ex">指摘だけ。中身は変更しない、を⑤に入れておく</div>
+    </div>
+    <div class="card">
+      <div class="n">経理</div>
+      <h3>/注文請求つきあわせ</h3>
+      <p>注文書と請求書を突き合わせ、金額差・二重請求・注文のない請求を一覧で報告</p>
+      <div class="ex">1件ずつ開いて確認する時間が、まるごと消えます</div>
+    </div>
+  </div>
+  <div class="foot"><span class="arrow">→</span>型は同じです。フォルダを指して、出す形を決めて、守ることを書く
+  </div>
+  <div class="pnum">15</div>
+</section>
+
+<!-- ========== 16 役割別 ② ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>役割別のコマンド例 ②</span></div>
+  <h2 class="title">現場の手間と、経営の判断材料</h2>
+  <div class="grid2">
+    <div class="card">
+      <div class="n">現場・施工管理</div>
+      <h3>/現場写真整理</h3>
+      <p>撮影日ごとにフォルダ分け、ファイル名を「日付_連番.jpg」にリネーム、最後に何日分・何枚かを報告</p>
+      <div class="ex">⑤ 元のファイルは消さない／整理後の構成を先に見せて、承認を取ってから実行</div>
+      <p style="margin-top:12px;color:var(--navy);font-weight:700">写真1,000枚でも、呼び方は3文字のままです</p>
+    </div>
+    <div class="card">
+      <div class="n">経営・管理</div>
+      <h3>/月次コスト点検</h3>
+      <p>販管費を科目別×月別に集計したうえで、前月比で増えた科目・同じ支払先への重複・使っていない可能性のある固定費を洗い出し、見直し案を5つ提案</p>
+      <div class="ex">⑤ 数字は元データから。判断はこちらでするので、提案まで</div>
+      <p style="margin-top:12px;color:var(--navy);font-weight:700">月1回の仕事ほど、コマンドにする価値があります</p>
+    </div>
+  </div>
+  <div class="foot"><span class="arrow">→</span>「どうやったっけ」を毎月思い出す時間が、まるごと消えます
+    <span class="note">頻度が低い仕事ほど手順を忘れます。忘れる仕事こそ、先に書いておく</span>
+  </div>
+  <div class="pnum">16</div>
+</section>
+
+<!-- ========== 17 演習③ ========== -->
+<section class="slide tight">
+  <div class="drillhead"><span class="badge">演習 ③</span><span class="where">15分　全員が自分のPCで</span></div>
+  <h2 class="title">ご自分の業務で、もう1本</h2>
+  <p class="lead">1本目が動いた方は2本目へ。1本目が途中で止まった方は、それを直すのが今日の演習です。</p>
+  <div class="grid2" style="grid-template-columns:1.15fr 0.85fr">
+    <div class="card plain">
+      <h3 style="font-size:20px">2本目のネタ探し（どれか1つ）</h3>
+      <ul class="checks" style="margin-top:12px">
+        <li>月に1回の集計（実績・原価・支払）</li>
+        <li>提出前のチェック（記入漏れ・添付漏れ）</li>
+        <li>フォルダの整理（写真・図面・書類）</li>
+        <li>決まった相手への定期連絡（下書きまで）</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 style="font-size:20px">早く終わった方は</h3>
+      <p>できたコマンドに「条件」を1行足して、もう一度動かしてみてください</p>
+      <div class="ex">「先月分は除いて」<br>「金額が10万円以上のものに★を付けて」</div>
+    </div>
+  </div>
+  <div class="clear" style="margin-top:22px">
+    <div class="t">クリア条件</div>
+    <li>2本目が動いた（または、1本目が直った）</li>
+    <li>出てきたものを、原本と突き合わせて確かめた</li>
+  </div>
+  <div class="pnum">17</div>
+</section>
+
+<!-- ========== 18 CHAPTER 04 扉 ========== -->
+<section class="slide divider">
+  <div class="chapno">CHAPTER 04</div>
+  <h2>直す・絞る・渡す</h2>
+  <p class="lead">作ったあとの話です。手順書は育てるもの。そして、自分だけのものにしないための話。</p>
+  <div class="agenda">
+    <div class="row"><div class="idx">1</div><div class="txt">思ったとおりに動かないときの直し方</div></div>
+    <div class="row"><div class="idx">2</div><div class="txt">「常に許可」を、そろそろ決めます</div></div>
+    <div class="row"><div class="idx">3</div><div class="txt">作ったコマンドを、人に渡す／任せてはいけないこと</div></div>
+  </div>
+  <div class="bignum">04</div>
+</section>
+
+<!-- ========== 19 直し方 ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>いちばん大事</span></div>
+  <h2 class="title">思ったとおりに動かないのは、手順書のせいです</h2>
+  <table class="tbl" style="margin-top:20px">
+    <tr><th style="width:290px">症状</th><th style="width:300px">原因</th><th>直し方（日本語で頼むだけ）</th></tr>
+    <tr><td class="k" style="width:290px;font-size:17px">毎回、少しずつ違う形で出る</td><td>③「何をするか」が曖昧</td><td>出てほしかった形を見せて「この形で固定して、コマンドを直しておいて」</td></tr>
+    <tr><td class="k" style="width:290px;font-size:17px">違うフォルダを見にいく</td><td>②「何を見るか」が言葉のまま</td><td>「AI-WORK/請求書 と、フォルダ名で書き直して」</td></tr>
+    <tr><td class="k" style="width:290px;font-size:17px">途中で止まる・聞き返してくる</td><td>判断が要る工程が混ざっている</td><td>そこは人がやる工程として、手順書から外す</td></tr>
+  </table>
+  <div class="speech" style="margin-top:24px">
+    <span class="who">直すときの言い方（例）</span>
+    さっきの請求書チェック、支払期日が空欄のときに止まりました。空欄なら「不明」と書いて先に進むように、手順を直しておいてください。
+  </div>
+  <div class="foot"><span class="arrow">→</span>1回で完成させない。3回動かして、2回直す。それで完成です
+  </div>
+  <div class="pnum">19</div>
+</section>
+
+<!-- ========== 20 常に許可 ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>承認のしぼり方</span></div>
+  <h2 class="title">前回は「押さないで」。今日は、押していいものを決めます</h2>
+  <p class="lead">同じコマンドを毎週動かすので、毎回出てくる命令が決まってきました。そこだけ、絞ります。</p>
+  <div class="split">
+    <div class="okbox">
+      <div class="h">決めていいもの（毎回出てくる同じ命令）</div>
+      <li>python<span class="d">ExcelやPDFを読むときに必ず動くもの。中身を見るために毎回出ます</span></li>
+      <li>mkdir<span class="d">フォルダを作る。整理系のコマンドで毎回出ます</span></li>
+    </div>
+    <div class="ngbox">
+      <div class="h">絶対に決めないもの</div>
+      <li>メールの送信<span class="d">宛先と本文は、毎回自分の目で読んでから</span></li>
+      <li>インターネットへの送信<span class="d">外に出るものは全部、人が押す</span></li>
+      <li>削除（rm）<span class="d">会社の設定で最初から拒否。承認画面すら出ません</span></li>
+    </div>
+  </div>
+  <div class="foot"><span class="arrow">→</span>困っていないなら「一度だけ許可」のままで構いません
+    <span class="note">押した記録は作業フォルダの中に残ります。「常に許可にしたものを教えて」で、あとから確認・取り消しができます</span>
+  </div>
+  <div class="pnum">20</div>
+</section>
+
+<!-- ========== 21 渡す ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>人に渡す</span></div>
+  <h2 class="title">1人で作って1人で使うと、休んだ日に止まります</h2>
+  <div class="grid2" style="grid-template-columns:1.1fr 0.9fr">
+    <div>
+      <div class="numlist" style="margin-top:8px">
+        <div class="item"><div class="no">1</div><div class="body"><h3 style="font-size:20px">コマンドの入っている場所を、共有フォルダにコピー</h3><p>作業フォルダの中の「.claude/commands」ごと渡します</p></div></div>
+        <div class="item"><div class="no">2</div><div class="body"><h3 style="font-size:20px">受け取った人は、自分の作業フォルダの同じ場所に置く</h3><p>置き場所も「どこに置けばいい?」と聞けば教えてくれます</p></div></div>
+        <div class="item"><div class="no">3</div><div class="body"><h3 style="font-size:20px">「/」を打てば、同じものが出てきます</h3><p>説明は要りません。手順書がそのまま説明書です</p></div></div>
+      </div>
+    </div>
+    <div>
+      <div class="card">
+        <h3>ファイルを自分で探さなくて大丈夫</h3>
+        <div class="ex" style="font-size:16px">作った請求書チェックを、他の人にも渡せる形でまとめてください。どこに置けばいいかも教えて</div>
+      </div>
+      <div class="callout" style="margin-top:20px">
+        <div class="t">「あの人しかできない仕事」が減ります</div>
+        <p>手順書が1枚あれば、引き継ぎの説明そのものが要らなくなります</p>
+      </div>
+    </div>
+  </div>
+  <div class="pnum">21</div>
+</section>
+
+<!-- ========== 22 任せてはいけないこと ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>線引き</span></div>
+  <h2 class="title">コマンドにしていいのは「手が動くだけの工程」です</h2>
+  <div class="split">
+    <div class="okbox">
+      <div class="h">任せてよい</div>
+      <li>読む・数える・並べる<span class="d">PDFやExcelから拾って、順番に並べる</span></li>
+      <li>写す・形にする<span class="d">決まった雛形や表の形に流し込む</span></li>
+      <li>下書きを作る<span class="d">報告文・連絡文・議事メモ。出すのは人</span></li>
+    </div>
+    <div class="ngbox">
+      <div class="h">任せてはいけない</div>
+      <li>金額を決める<span class="d">見積の最終金額、値引きの判断</span></li>
+      <li>お客様への確約<span class="d">工期・納期を約束する文面</span></li>
+      <li>送信ボタン<span class="d">下書きまでAI、送るのは人</span></li>
+      <li>数字の最終確認<span class="d">「要検算」が付いたものは、必ず原本と突き合わせる</span></li>
+    </div>
+  </div>
+  <div class="foot"><span class="arrow">→</span>手順書に「判断」が出てきたら、そこで区切る
+    <span class="note">区切ったところまでをコマンドにして、続きは人がやる。それがいちばん速くて、いちばん安全です</span>
+  </div>
+  <div class="pnum">22</div>
+</section>
+
+<!-- ========== 23 まとめ ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>まとめ</span></div>
+  <h2 class="title">今日持ち帰る3つ</h2>
+  <div class="grid3">
+    <div class="card">
+      <div class="n">01</div>
+      <h3>本当の成果物は、手順書</h3>
+      <p>いつ・何を見て・何をして・何を出して・何を守るか。この5行が書ければ、あとは形になります</p>
+    </div>
+    <div class="card">
+      <div class="n">02</div>
+      <h3>一言で呼べる形にする</h3>
+      <p>打つのは「/」ひとつ。作るのも直すのも、日本語で頼むだけです</p>
+    </div>
+    <div class="card">
+      <div class="n">03</div>
+      <h3>1回で完成させない</h3>
+      <p>3回動かして、2回直す。判断が混ざる工程は、手順書から外す</p>
+    </div>
+  </div>
+  <div class="callout">
+    <div class="t">次回は最終回です</div>
+    <p>今日作ったコマンドを、日常の中で回し続ける形にします。人がやる工程とAIに任せる工程の線引きを、全員で揃えて終わります</p>
+  </div>
+  <div class="pnum">23</div>
+</section>
+
+<!-- ========== 24 宿題 ========== -->
+<section class="slide">
+  <div class="eyebrow"><span class="tag">第5回</span><span class="sep">|</span><span>次回までの宿題</span></div>
+  <h2 class="title">次回までの宿題</h2>
+  <div class="grid2">
+    <div class="card">
+      <h3>今日作ったコマンドを、実際の業務で3回使う</h3>
+      <p>うまくいかなかった回は、その場で直す。直した回数が、そのまま完成度です</p>
+    </div>
+    <div class="card">
+      <h3>コマンドをもう1本増やす（合計2〜3本）</h3>
+      <p>月1回の仕事を1本入れておくと、来月まるごとラクになります</p>
+    </div>
+    <div class="card">
+      <h3>「これは人がやるべき」と思った工程を書き出す</h3>
+      <p>最終回で、人とAIの線引きを全員で揃えます</p>
+    </div>
+    <div class="card">
+      <h3>隣の席の方に、自分のコマンドを1つ見せる</h3>
+      <p>渡せる形になっているかを確かめる、いちばん早い方法です</p>
+    </div>
+  </div>
+  <div class="foot"><span class="arrow">→</span>第6回（最終回）：業務に定着させる／困ったときの調べ方／これから増やしていくもの
+  </div>
+  <div class="pnum">24</div>
+</section>
+
+</body>
+</html>
