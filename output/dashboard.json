@@ -15,27 +15,38 @@
     {
       "no": 1,
       "action_type": "reply",
-      "target_account": "@kensetsunews",
-      "name": "建設通信新聞",
-      "tier": "業界紙",
-      "target_post_url": "https://x.com/kensetsunews/status/2096318510175863280",
-      "target_snippet": "受注環境の悪化傾向続く/主因は公共発注量の減少/全建調査",
-      "engagement": "imp121（リポスト1）（2026-09-06 04:24投稿・約6.8h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "受注環境の悪化、やっぱり公共工事の発注減が一番大きいんですね。同じ全建調査では技術者不足を理由に挙げた会社も46.6%あって、発注が戻っても人がいなくて受けられない会社が増えてる気がします。"
+      "target_account": "@TKG_CraftBank",
+      "name": "髙木健次",
+      "tier": "A",
+      "target_post_url": "https://x.com/TKG_CraftBank/status/2096406240461283607",
+      "target_snippet": "CCUSの問題を①技能者を給料を上げるという本来の目的との乖離、構造的な問題②グリーンサイトとの連携などの使い勝手の問題、この二つに分けて整理しています",
+      "engagement": "imp731・いいね12・リポスト3（2026-09-06 10:12投稿・約9.0h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "CCUSの目的とのズレ、すごく分かります。建設業振興基金の集計で2026年3月末の登録技能者は181万人まで来てますが、3割はまだ簡易型のままで、2027年4月の詳細型一本化で使えなくなる人も出てきそうです。"
     },
     {
       "no": 2,
       "action_type": "reply",
-      "target_account": "@kensetsunews",
-      "name": "建設通信新聞",
-      "tier": "業界紙",
-      "target_post_url": "https://x.com/kensetsunews/status/2096317333434425501",
-      "target_snippet": "申し入れで7割対応/工期設定の猛暑日考慮/国交省調査",
-      "engagement": "imp133（リポスト1）（2026-09-06 04:19投稿・約6.8h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "工期に猛暑日を織り込む発注者が7割まで増えたのは大きい変化ですね。建設業の熱中症死傷者数は厚労省調べで292人、4年連続増加中なので、工期だけでなく休憩の取り方まで踏み込まないと減らなそうです。"
+      "target_account": "@TKG_CraftBank",
+      "name": "髙木健次",
+      "tier": "A",
+      "target_post_url": "https://x.com/TKG_CraftBank/status/2096462193227395199",
+      "target_snippet": "「AI時代私たちはどう働く」反響の大きかったNHK首都圏の番組ですが、AIに負けない教育として放映された世田谷の工業高校に関しては、弊社がNHK様に取材協力をしております",
+      "engagement": "imp369・いいね1（2026-09-06 13:55投稿・約5.3h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "工業高校との連携、いい取り組みですね。全建が9月3日に出した調査だと技術者不足で入札を見送る会社が46.6%もあって、若いうちからの接点は現場にとって大事だなと思いました。"
+    },
+    {
+      "no": 3,
+      "action_type": "quote",
+      "target_account": "@Stoneman_ISHIO",
+      "name": "石男くん",
+      "tier": "A",
+      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2096433177363685422",
+      "target_snippet": "この1カ月の豪雨被害の頻度と規模がやばいです（8/13千葉・8/27石川富山・8/30福井=レベル5特別警報、9/2青森・9/4〜5鹿児島宮崎=線状降水帯、9/6東京八丈島=1時間110ミリ）",
+      "engagement": "imp795・いいね4（2026-09-06 11:59投稿・約7.2h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "この頻度、修繕の現場からするとかなりキツいです。損害保険料率算出機構は2026年10月に火災保険料を全国平均10〜15%引き上げる方向で、水災の多さがそのまま保険料に跳ね返ってきてます。"
     }
   ],
-  "engage_cards_note": "昼枠(2026-09-06): リプ型2枚。output/slack_buzz.json（fetch-slack.ymlの一次ソース、2026-09-06 02:05JST時点スナップショット）から候補を選定し、snowflakeで機械検証（全て24h以内・約6.8h前）。3条件AND判定: (1)24h以内 (2)建設業界に直接関連する内容 (3)いいね50+またはフォロワー2,000+。朝枠使用済みの@karube_sanei/@shinkojuki/@sleeping_fff/@funatomixは同日の重複相手として除外。残った候補のうち@toyoda_noiz（建築理論・学術寄りで業界外寄りと判定）、@monozukuritarou（手荷物ロスト等の私的ネタ）、@daikunosukesan（施工管理募集、いいね31で条件3未達）、@mori_arch_econo（歴史文化ネタで業界外）は除外し、3条件を満たしたのは@kensetsunews（業界紙）の2件のみだったため、無理に埋めず2枚とした。",
+  "engage_cards_note": "夕枠(2026-09-06): リプ型2枚+引用RT型1枚。output/slack_buzz.json（fetch-slack.ymlの一次ソース、2026-09-06 19:13JST時点で最新14:28投稿まで収録）から候補を選定し、snowflakeで機械検証（全て24h以内・約5.3〜9.0h前）。3条件AND判定: (1)24h以内 (2)建設業界に直接関連する内容 (3)いいね50+またはフォロワー2,000+（tier A/Bは条件クリア扱い）。朝枠使用済みの@karube_sanei/@shinkojuki/@sleeping_fff/@funatomixと昼枠使用済みの@kensetsunewsは同日の重複相手として除外。@cogecoge_(私的な食事ネタ)/@KowashiyaGEN(息子との私的なやり取り)/@toyoda_noiz(大学の研究予算構造ネタで建設業と無関係)/@ieiri_lab(建設DX過去事例の振り返りでいいね0・裏取り可能な独自数字を足せる余地が薄い)は除外。残った@TKG_CraftBank(A)の2件と@Stoneman_ISHIO(A)の1件を採用。@Stoneman_ISHIOは相手の投稿に無い「2026年10月の火災保険料参考純率10〜15%引き上げ見込み(損害保険料率算出機構)」という自分しか出せない事実を1個足した引用RT。",
   "generated_at_morning": "2026-09-06T06:44:51.000000+09:00",
   "source_url_morning": "一般社団法人全国建設業協会（全建）「発注関係事務の運用状況等に関するアンケート」調査結果（加盟1,877社回答、2026年9月3日付で日刊建設工業新聞・建設通信新聞が報道。直近1年(2025年6月1日〜2026年5月31日)の受注状況が「悪い・悪化」46.9%、悪化理由は公共工事発注量減少87.0%・価格競争激化47.3%・技術者不足46.6%）。https://www.decn.co.jp/?p=187342",
   "article_url_morning": "https://www.decn.co.jp/?p=187342",
@@ -65,6 +76,45 @@
       "target_snippet": "申し入れで7割対応/工期設定の猛暑日考慮/国交省調査",
       "engagement": "imp133（リポスト1）（2026-09-06 04:19投稿・約6.8h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
       "text": "工期に猛暑日を織り込む発注者が7割まで増えたのは大きい変化ですね。建設業の熱中症死傷者数は厚労省調べで292人、4年連続増加中なので、工期だけでなく休憩の取り方まで踏み込まないと減らなそうです。"
+    }
+  ],
+  "evening_post": "建設業の倒産が増えてるってニュース、半分しか合ってない。\n帝国データバンクが7月14日にまとめた集計で、今年上半期の建設業の倒産・休廃業合計は5,937件、リーマン超えの過去最多だった。\n中身を見ると倒産は前年比5.8%増なのに、休廃業・解散は27.8%増とペースが全然違う。\n資金繰りが尽きたんじゃなく、後継者や気力が先に尽きて自分から畳んだ会社の方が多い。\n後継や出口の相談は、潰れる前提じゃなく元気なうちにやっといたほうがいい。",
+  "generated_at_evening": "2026-09-06T19:15:55.528815+09:00",
+  "source_url_evening": "帝国データバンク「『建設業』の倒産・休廃業解散動向（2026年上半期）」2026年7月14日公表。倒産(負債1000万円以上・法的整理)1,043件(前年同期比+57件・+5.8%)、休廃業・解散4,894件(同+1,064件・+27.8%)、合計「撤退」5,937件は上半期としてリーマン・ショック直後の2009年(5,811件)を上回り過去最多。業態別では木造建築工事が947件で最多(全体の約16%、2017年以来9年ぶりに900件超)。日本経済新聞2026-07-14 https://www.nikkei.com/article/DGXZQOUC147Q20U6A710C2000000/ 、Yahoo!ニュース(帝国データバンク配信) https://news.yahoo.co.jp/articles/9b6b340ff653e5255a6753af0bdc0cba54e224af",
+  "article_url_evening": "https://news.yahoo.co.jp/articles/9b6b340ff653e5255a6753af0bdc0cba54e224af",
+  "engage_pool_evening": [
+    {
+      "no": 1,
+      "action_type": "reply",
+      "target_account": "@TKG_CraftBank",
+      "name": "髙木健次",
+      "tier": "A",
+      "target_post_url": "https://x.com/TKG_CraftBank/status/2096406240461283607",
+      "target_snippet": "CCUSの問題を①技能者を給料を上げるという本来の目的との乖離、構造的な問題②グリーンサイトとの連携などの使い勝手の問題、この二つに分けて整理しています",
+      "engagement": "imp731・いいね12・リポスト3（2026-09-06 10:12投稿・約9.0h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "CCUSの目的とのズレ、すごく分かります。建設業振興基金の集計で2026年3月末の登録技能者は181万人まで来てますが、3割はまだ簡易型のままで、2027年4月の詳細型一本化で使えなくなる人も出てきそうです。"
+    },
+    {
+      "no": 2,
+      "action_type": "reply",
+      "target_account": "@TKG_CraftBank",
+      "name": "髙木健次",
+      "tier": "A",
+      "target_post_url": "https://x.com/TKG_CraftBank/status/2096462193227395199",
+      "target_snippet": "「AI時代私たちはどう働く」反響の大きかったNHK首都圏の番組ですが、AIに負けない教育として放映された世田谷の工業高校に関しては、弊社がNHK様に取材協力をしております",
+      "engagement": "imp369・いいね1（2026-09-06 13:55投稿・約5.3h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "工業高校との連携、いい取り組みですね。全建が9月3日に出した調査だと技術者不足で入札を見送る会社が46.6%もあって、若いうちからの接点は現場にとって大事だなと思いました。"
+    },
+    {
+      "no": 3,
+      "action_type": "quote",
+      "target_account": "@Stoneman_ISHIO",
+      "name": "石男くん",
+      "tier": "A",
+      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2096433177363685422",
+      "target_snippet": "この1カ月の豪雨被害の頻度と規模がやばいです（8/13千葉・8/27石川富山・8/30福井=レベル5特別警報、9/2青森・9/4〜5鹿児島宮崎=線状降水帯、9/6東京八丈島=1時間110ミリ）",
+      "engagement": "imp795・いいね4（2026-09-06 11:59投稿・約7.2h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "この頻度、修繕の現場からするとかなりキツいです。損害保険料率算出機構は2026年10月に火災保険料を全国平均10〜15%引き上げる方向で、水災の多さがそのまま保険料に跳ね返ってきてます。"
     }
   ]
 }
