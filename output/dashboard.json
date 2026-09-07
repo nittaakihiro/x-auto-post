@@ -15,50 +15,28 @@
   "engage_cards": [
     {
       "no": 1,
-      "action_type": "reply",
-      "target_account": "@funatomix",
-      "name": "ふなとみ",
-      "tier": "B",
-      "target_post_url": "https://x.com/funatomix/status/2096733056627601897",
-      "target_snippet": "8月の飲食店倒産は80件。8月として30年間で最多でした。だから出店を止める、ではない。むしろ初出店のお客様ほど、工事費だけでなく、開業後に現金が残る計画まで一緒に考えたい。",
-      "engagement": "imp352・いいね13（2026-09-07 07:51投稿・約3.3h前、B tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "飲食店倒産、8月だけで30年ぶり最多なんですね。工事費だけじゃなく開業後に現金が残る計画まで一緒に考えるという視点、住宅や店舗の工務店ももっと持った方がいい気がします。"
+      "action_type": "quote",
+      "target_account": "@kensetsunews",
+      "name": "建設通信新聞",
+      "tier": "業界紙",
+      "target_post_url": "https://x.com/kensetsunews/status/2096772043035595052",
+      "target_snippet": "明治安田、不動産投資倍増へ　2兆円目指す",
+      "engagement": "imp85（2026-09-07 10:26投稿・約8.9h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "不動産投資を2兆円へ倍増か、規模が大きいですね。生保系オーナーの物件は自社発注で大規模修繕を回すことが多く、この規模だと今後の改修・修繕工事の発注ボリュームにも相応に効いてきそうです。"
     },
     {
       "no": 2,
       "action_type": "reply",
-      "target_account": "@mori_arch_econo",
-      "name": "建築エコノミスト森山高至",
-      "tier": "tier外(建築系インフルエンサー)",
-      "target_post_url": "https://x.com/mori_arch_econo/status/2096740971950354576",
-      "target_snippet": "３千棟が対象になるのか。これは１棟ごとで見れば零細中小企業が強制的に事業停止になるようなもの。１軒あたり３億円の投資として１兆円は溶けることになる。事業収支が破綻して金融機関にも影響があるだろう。",
-      "engagement": "imp1,506・いいね27（2026-09-07 08:22投稿・約2.7h前、フォロワー36,955人でクリア、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "3千棟一斉に事業停止だと、そこにぶら下がってた工事会社の仕事も同時に消えますね。民泊向けの改修を専門にしてた中小の工務店ほど影響が大きそうです。"
-    },
-    {
-      "no": 3,
-      "action_type": "reply",
-      "target_account": "@kenplatz_ed",
-      "name": "日経クロステック 建築・土木",
+      "target_account": "@kensetsunews",
+      "name": "建設通信新聞",
       "tier": "業界紙",
-      "target_post_url": "https://x.com/kenplatz_ed/status/2096716479660277781",
-      "target_snippet": "「旧香川県立体育館」の本体解体直前に県が工事1カ月中断、証拠保全要請で。香川県は解体工事を2026年9月15日から10月14日までの1カ月間中断します。",
-      "engagement": "imp359（2026-09-07 06:45投稿・約4.4h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "証拠保全のための中断、解体業者からすると工程がまるまる潰れますね。東京商工リサーチだと解体工事業の倒産は去年54件で過去最多だったので、こういう急な工期変更の負担はけっこう重いはずです。"
-    },
-    {
-      "no": 4,
-      "action_type": "reply",
-      "target_account": "@nikkenko",
-      "name": "日刊建設工業新聞",
-      "tier": "業界紙",
-      "target_post_url": "https://x.com/nikkenko/status/2096706437665726705",
-      "target_snippet": "西新宿六丁目西・新宿中央公園北西地区再開発／３１年度にビル着工／準備組合",
-      "engagement": "imp340・いいね6・リポスト4（2026-09-07 06:05投稿・約5.0h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "2031年度着工か、まだ先ですね。準備組合の合意形成にこれだけ年数かかると、着工が近づく頃には資材価格も労務費もまた変わってそうです。"
+      "target_post_url": "https://x.com/kensetsunews/status/2096775979956146199",
+      "target_snippet": "香川県、旧香川県立体育館解体工事を一時中断",
+      "engagement": "imp74（2026-09-07 10:42投稿・約8.6h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "証拠保全での中断、解体業者からすると工程がまるまる止まりますね。国交省のガイドラインだと発注者都合の工事中止は増加費用を請求できる建前で、香川県がその協議にちゃんと応じるか見ておきたいところです。"
     }
   ],
-  "engage_cards_note": "昼枠(2026-09-07): リプ型4枚。output/slack_buzz.json(fetch-slack.yml経由の最新スナップショット)から候補を選定し、全件snowflakeで機械検証(24h以内・約2.7〜5.0h前、6h以内優先を満たす)。3条件AND判定: (1)24h以内 (2)建設業界に直接関連 (3)いいね50+またはフォロワー2,000+(@mori_arch_econoはいいね27で50未満だがWebSearchでフォロワー36,955人を確認しクリア。@funatomix/@kenplatz_ed/@nikkenkoはtier/業界紙アカウントとして基準クリア)。朝枠で使用済みの@shinkojuki/@Stoneman_ISHIO/@karube_sanei/@ieiri_labは同日重複のため除外。@TKG_CraftBankのNHK取材協力ポスト(status/2096462193227395199)は2026-09-06夕枠のengage_cardsで既に使用済みのツイートのため今回は除外(2026-09-06 13:55投稿のまま新着なし)。@johyo7(自社スキル商品の宣伝)/@kuso_bukken(私的ネタ・業界外寄り)/@OBAYASHI_JP(会社案内PR)/@monozukuritarou(クラウンのデザイン批評で建設業と無関係)/@toyoda_noiz(大学研究予算ネタで建設業と無関係)/@CRAFTCOM2(私的なつぶやき)/@seko_kamisama(創作漫画の告知)は除外。全カード完成文・自分にしか出せない事実か一次情報を1個追加済み(1: 住宅・店舗工務店への示唆, 2: 民泊改修専門工務店への影響という一次的視点, 3: 東京商工リサーチの解体工事業倒産54件データ, 4: 資材価格・労務費変動という現場目線の示唆)。",
+  "engage_cards_note": "夕枠(2026-09-07): 引用RT型1枚+リプ型1枚の計2枚。output/slack_buzz.json(fetch-slack.yml経由・19:10JST時点の最新スナップショット、収録30件)から候補を選定し、全件snowflakeで機械検証(24h以内・約8.6〜8.9h前。6h以内優先だが本スナップショットに該当なしのため24h以内の直近を採用)。3条件AND判定: (1)24h以内 (2)建設業界に直接関連 (3)業界紙アカウント(@kensetsunews)としてフォロワー2,000+基準クリア。朝枠で使用済みの@shinkojuki/@Stoneman_ISHIO/@karube_sanei/@ieiri_lab、昼枠で使用済みの@funatomix/@mori_arch_econo/@kenplatz_ed/@nikkenkoは同日重複のため除外。スナップショット中の@kuso_bukken(私的ネタ)/@toyoda_noiz(大学ガバナンス・建設業と無関係)/@TKG_CraftBank(マイナンバーカードの話で建設業と無関係)/@KowashiyaGEN(元ポストの文脈不明で裏取り不能のため除外)/@asahicop・@gavugavugavu123(tier外・個人の日記的投稿)/@johyo7・@seko_kamisama(自社商品・創作漫画の告知)/@Otaka_Const(展示会の告知のみで付加価値が作れず)/@cogecoge_(日常投稿で数字・事実を足せず)は除外。kenplatz_edが昼枠で使用した「旧香川県立体育館」解体中断と同一ニュースだが、本カードは昼枠と別の事実(建設業法令遵守ガイドラインの増加費用請求ルール)を追加し重複を回避。本スナップショットは建設業関連の質の高い候補が薄く、無理に3〜4枚に埋めず2枚(質>数)とした。全カード完成文・自分にしか出せない事実を1個追加済み(1: 生保系オーナー物件の自社発注修繕という視点、2: 発注者都合の工事中止時の増加費用請求ルールという一次情報)。",
   "generated_at_morning": "2026-09-07T06:44:00.000000+09:00",
   "source_url_morning": "帝国データバンクプレスリリース(2026年8月20日、主要上場建設会社50社の2025年度売上高21兆4097億円・前年比5.0%増、44社(88%)が売上総利益率改善)、帝国データバンク「建設業」の倒産・休廃業解散動向（2026年上半期）(2026年7月14日、倒産1,043件+休廃業4,894件=合計5,937件、上半期としてリーマン後の2009年を超え過去最多)。https://prtimes.jp/main/html/rd/p/000001413.000043465.html",
   "article_url_morning": "https://prtimes.jp/main/html/rd/p/000001413.000043465.html",
@@ -112,43 +90,32 @@
       "text": "2031年度着工か、まだ先ですね。準備組合の合意形成にこれだけ年数かかると、着工が近づく頃には資材価格も労務費もまた変わってそうです。"
     }
   ],
-  "evening_post": "建設業の倒産が増えてるってニュース、半分しか合ってない。\n帝国データバンクが7月14日にまとめた集計で、今年上半期の建設業の倒産・休廃業合計は5,937件、リーマン超えの過去最多だった。\n中身を見ると倒産は前年比5.8%増なのに、休廃業・解散は27.8%増とペースが全然違う。\n資金繰りが尽きたんじゃなく、後継者や気力が先に尽きて自分から畳んだ会社の方が多い。\n後継や出口の相談は、潰れる前提じゃなく元気なうちにやっといたほうがいい。",
-  "generated_at_evening": "2026-09-06T19:15:55.528815+09:00",
-  "source_url_evening": "帝国データバンク「『建設業』の倒産・休廃業解散動向（2026年上半期）」2026年7月14日公表。倒産(負債1000万円以上・法的整理)1,043件(前年同期比+57件・+5.8%)、休廃業・解散4,894件(同+1,064件・+27.8%)、合計「撤退」5,937件は上半期としてリーマン・ショック直後の2009年(5,811件)を上回り過去最多。業態別では木造建築工事が947件で最多(全体の約16%、2017年以来9年ぶりに900件超)。日本経済新聞2026-07-14 https://www.nikkei.com/article/DGXZQOUC147Q20U6A710C2000000/ 、Yahoo!ニュース(帝国データバンク配信) https://news.yahoo.co.jp/articles/9b6b340ff653e5255a6753af0bdc0cba54e224af",
-  "article_url_evening": "https://news.yahoo.co.jp/articles/9b6b340ff653e5255a6753af0bdc0cba54e224af",
+  "evening_post": "物価高倒産、一番多いのは資材メーカーじゃなく建設業だった。\n帝国データバンクが7月7日に出した集計だと、2026年上半期の物価高倒産は556件で、2018年の統計開始以来いちばん多い。\n業種別トップは建設業の151件、小売や製造を上回ってる。\n上場ゼネコンは値上げ分を乗せられても、業界全体で見ると一番先に潰れてるのはここだ。\n値上げ分を見積りに乗せ切れてるかどうかで、この数字に入るか入らないかが決まってる。",
+  "generated_at_evening": "2026-09-07T19:21:14.075856+09:00",
+  "source_url_evening": "帝国データバンク「『物価高倒産』の動向（2026年上半期）」2026年7月7日公表。物価高倒産(原材料・エネルギー・人件費等のコスト増加を主因とする倒産)は556件(前年同期449件比+107件・+23.8%)、2018年の集計開始以来、半期として過去最多。業種別では建設業が151件で全業種トップ(小売業118件、製造業103件が続く)。建設業の内訳は総合工事72件(うち木造建築工事42件)、職別工事65件(半期として過去最多)。日本経済新聞2026-07-07 https://www.nikkei.com/article/DGXZQOUC0744F0X00C26A7000000/ 、Yahoo!ニュース(帝国データバンク配信) https://news.yahoo.co.jp/articles/4e8c390a68df79373189500b97b17469cf785b99",
+  "article_url_evening": "https://www.tdb.co.jp/report/economic/20260707-inflationbankruptcy2606/",
   "engage_pool_evening": [
     {
       "no": 1,
-      "action_type": "reply",
-      "target_account": "@TKG_CraftBank",
-      "name": "髙木健次",
-      "tier": "A",
-      "target_post_url": "https://x.com/TKG_CraftBank/status/2096406240461283607",
-      "target_snippet": "CCUSの問題を①技能者を給料を上げるという本来の目的との乖離、構造的な問題②グリーンサイトとの連携などの使い勝手の問題、この二つに分けて整理しています",
-      "engagement": "imp731・いいね12・リポスト3（2026-09-06 10:12投稿・約9.0h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "CCUSの目的とのズレ、すごく分かります。建設業振興基金の集計で2026年3月末の登録技能者は181万人まで来てますが、3割はまだ簡易型のままで、2027年4月の詳細型一本化で使えなくなる人も出てきそうです。"
+      "action_type": "quote",
+      "target_account": "@kensetsunews",
+      "name": "建設通信新聞",
+      "tier": "業界紙",
+      "target_post_url": "https://x.com/kensetsunews/status/2096772043035595052",
+      "target_snippet": "明治安田、不動産投資倍増へ　2兆円目指す",
+      "engagement": "imp85（2026-09-07 10:26投稿・約8.9h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "不動産投資を2兆円へ倍増か、規模が大きいですね。生保系オーナーの物件は自社発注で大規模修繕を回すことが多く、この規模だと今後の改修・修繕工事の発注ボリュームにも相応に効いてきそうです。"
     },
     {
       "no": 2,
       "action_type": "reply",
-      "target_account": "@TKG_CraftBank",
-      "name": "髙木健次",
-      "tier": "A",
-      "target_post_url": "https://x.com/TKG_CraftBank/status/2096462193227395199",
-      "target_snippet": "「AI時代私たちはどう働く」反響の大きかったNHK首都圏の番組ですが、AIに負けない教育として放映された世田谷の工業高校に関しては、弊社がNHK様に取材協力をしております",
-      "engagement": "imp369・いいね1（2026-09-06 13:55投稿・約5.3h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "工業高校との連携、いい取り組みですね。全建が9月3日に出した調査だと技術者不足で入札を見送る会社が46.6%もあって、若いうちからの接点は現場にとって大事だなと思いました。"
-    },
-    {
-      "no": 3,
-      "action_type": "quote",
-      "target_account": "@Stoneman_ISHIO",
-      "name": "石男くん",
-      "tier": "A",
-      "target_post_url": "https://x.com/Stoneman_ISHIO/status/2096433177363685422",
-      "target_snippet": "この1カ月の豪雨被害の頻度と規模がやばいです（8/13千葉・8/27石川富山・8/30福井=レベル5特別警報、9/2青森・9/4〜5鹿児島宮崎=線状降水帯、9/6東京八丈島=1時間110ミリ）",
-      "engagement": "imp795・いいね4（2026-09-06 11:59投稿・約7.2h前、Aランク、snowflake検証済み・output/slack_buzz.json一次ソース）",
-      "text": "この頻度、修繕の現場からするとかなりキツいです。損害保険料率算出機構は2026年10月に火災保険料を全国平均10〜15%引き上げる方向で、水災の多さがそのまま保険料に跳ね返ってきてます。"
+      "target_account": "@kensetsunews",
+      "name": "建設通信新聞",
+      "tier": "業界紙",
+      "target_post_url": "https://x.com/kensetsunews/status/2096775979956146199",
+      "target_snippet": "香川県、旧香川県立体育館解体工事を一時中断",
+      "engagement": "imp74（2026-09-07 10:42投稿・約8.6h前、業界紙tier、snowflake検証済み・output/slack_buzz.json一次ソース）",
+      "text": "証拠保全での中断、解体業者からすると工程がまるまる止まりますね。国交省のガイドラインだと発注者都合の工事中止は増加費用を請求できる建前で、香川県がその協議にちゃんと応じるか見ておきたいところです。"
     }
   ],
   "engage_pool_morning": [
