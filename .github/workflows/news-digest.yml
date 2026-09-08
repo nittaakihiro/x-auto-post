@@ -1,0 +1,40 @@
+name: News Digest to Slack
+
+# v5: 海外ニュース（建設・AI）の日本語ダイジェストを朝7時・夕18時（JST）にDMへ。
+# 元データは fetch-news.yml が2時間毎に作る output/news_feed.json（--translate 済み）。
+
+on:
+  schedule:
+    - cron: '5 22 * * *'   # 07:05 JST
+    - cron: '5 9 * * *'    # 18:05 JST
+  workflow_dispatch:
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh feed with translations
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 scripts/fetch_news.py --hours 48 --out output/news_feed.json --translate
+      - name: Send digest DM
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_USER_ID: U01PHHAB887
+        run: python3 scripts/news_digest.py --hours 14
+      - name: Commit feed if changed
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add output/news_feed.json
+          git diff --cached --quiet || git commit -m "update: news feed snapshot (digest)"
+          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main

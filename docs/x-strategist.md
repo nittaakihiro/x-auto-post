@@ -102,10 +102,11 @@ GPT-6 × Codex × Blenderで制作。
 
 | ファイル | 中身 | 更新 |
 |:--|:--|:--|
-| `output/news_feed.json` | RSS 19本（OpenAI／DeepMind／Google AI／NVIDIA／TechCrunch／The Verge／Ars Technica／VentureBeat／MIT TR／The Decoder／Simon Willison／HN 150pt+／ITmedia AI+／GIGAZINE／AINOW／Construction Dive／BuildApp／建設通信／日刊建設工業）。`category` と `ai_related` 付き・48h窓 | 2時間毎（fetch-news.yml） |
+| `output/news_feed.json` | RSS 28本（AI海外: OpenAI／DeepMind／Google AI／NVIDIA／TechCrunch／The Verge／Ars Technica／VentureBeat／MIT TR／The Decoder／Simon Willison／HN 150pt+ ／ AI国内: ITmedia AI+／GIGAZINE／AINOW ／ **建設海外: Construction Dive／Global Construction Review／AEC Magazine／Construction News UK／Construction Enquirer／PBC Today／Construction Executive／ConstructConnect／ArchDaily** ／ 建設国内: BuildApp／建設通信／日刊建設工業）。`category`・`ai_related`・**英語記事は `title_ja`/`summary_ja`（Gemini訳）付き**・48h窓 | 2時間毎（fetch-news.yml） |
 | `output/ai_buzz.json` | X: 海外 @OpenAI @AnthropicAI @GoogleDeepMind @sama @gdb @rowancheung @kimmonismus @testingcatalog @DataChaz @minchoi @AndrewYNg ／ 国内 @masahirochaen @shi3z @kajikent @ochyai @ai_database | 30分毎（fetch-slack.yml・元はローカルx_watcher 2h毎） |
 | `output/slack_buzz.json` | X: 建設系42アカウント＋検索（建設業／施工管理／建設DX／ゼネコン／人手不足） | 同上 |
 | WebSearch / WebFetch | 裏取り・一次ソース確認・補完 | 都度 |
+| Slack DM「🌏 海外ニュース（日本語訳）」 | 新田さん向けの読み物。news_feed.json の海外建設（AI関連を先頭）＋海外AIを日本語見出しで配信 | 朝7:05・夕18:05（news-digest.yml） |
 
 - 鮮度: AIニュースは**24h以内優先・48h上限**。建設ニュースは72h。統計は6ヶ月以内
 - **チャエンが既に出したネタ**は、彼より早いか、建設の角度が付けられる時だけ使う（同じ内容を遅れて出すのが一番ダサい）

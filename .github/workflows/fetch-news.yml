@@ -22,10 +22,12 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch RSS feeds
+      - name: Fetch RSS feeds (+ 日本語訳)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           mkdir -p output
-          python3 scripts/fetch_news.py --hours 48 --out output/news_feed.json
+          python3 scripts/fetch_news.py --hours 48 --out output/news_feed.json --translate
 
       - name: Commit if changed
         continue-on-error: true

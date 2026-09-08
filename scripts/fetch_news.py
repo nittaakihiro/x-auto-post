@@ -8,6 +8,7 @@
 """
 import argparse
 import hashlib
+import os
 import html
 import json
 import re
@@ -38,6 +39,14 @@ FEEDS = [
     {"id": "ainow", "name": "AINOW", "url": "https://ainow.ai/feed/", "category": "ai_japan", "lang": "ja"},
     # --- 建設テック 海外 ---
     {"id": "construction_dive", "name": "Construction Dive", "url": "https://www.constructiondive.com/feeds/news/", "category": "construction_global", "lang": "en"},
+    {"id": "gcr", "name": "Global Construction Review", "url": "https://www.globalconstructionreview.com/feed/", "category": "construction_global", "lang": "en"},
+    {"id": "construction_enquirer", "name": "Construction Enquirer (UK)", "url": "https://www.constructionenquirer.com/feed/", "category": "construction_global", "lang": "en"},
+    {"id": "constructconnect", "name": "ConstructConnect Blog", "url": "https://www.constructconnect.com/blog/rss.xml", "category": "construction_global", "lang": "en"},
+    {"id": "archdaily", "name": "ArchDaily", "url": "https://www.archdaily.com/feed", "category": "construction_global", "lang": "en", "keyword_filter": True},
+    {"id": "aecmag", "name": "AEC Magazine", "url": "https://aecmag.com/feed/", "category": "construction_global", "lang": "en"},
+    {"id": "constructionnews_uk", "name": "Construction News (UK)", "url": "https://www.constructionnews.co.uk/feed/", "category": "construction_global", "lang": "en"},
+    {"id": "pbctoday", "name": "PBC Today (UK)", "url": "https://www.pbctoday.co.uk/news/feed/", "category": "construction_global", "lang": "en", "keyword_filter": True},
+    {"id": "constructionexec", "name": "Construction Executive", "url": "https://www.constructionexec.com/rss", "category": "construction_global", "lang": "en"},
     # --- 建設 国内 ---
     {"id": "buildapp", "name": "BuildApp News", "url": "https://news.build-app.jp/feed", "category": "construction_japan", "lang": "ja"},
     {"id": "kensetsunews", "name": "建設通信新聞", "url": "https://www.kensetsunews.com/feed", "category": "construction_japan", "lang": "ja"},
@@ -95,8 +104,16 @@ def fetch(url: str, timeout: int = 20) -> bytes:
         return r.read()
 
 
+def parse_xml(data: bytes):
+    try:
+        return ET.fromstring(data)
+    except ET.ParseError:
+        cleaned = re.sub(rb"[\x00-\x08\x0b\x0c\x0e-\x1f]", b"", data)
+        return ET.fromstring(cleaned)
+
+
 def parse_feed(feed: dict, data: bytes) -> list[dict]:
-    root = ET.fromstring(data)
+    root = parse_xml(data)
     items = root.findall(".//item")
     is_atom = False
     if not items:
@@ -125,12 +142,62 @@ def parse_feed(feed: dict, data: bytes) -> list[dict]:
     return out
 
 
+GEMINI_MODEL = "gemini-3.5-flash-lite"
+
+
+def translate_batch(items: list[dict]) -> int:
+    """英語記事の title/summary を日本語にする（title_ja / summary_ja）。Gemini 1リクエストで最大20件。失敗しても止めない。"""
+    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not api_key or not items:
+        return 0
+    done = 0
+    for i in range(0, len(items), 20):
+        chunk = items[i:i + 20]
+        lines = "\n".join(f"[{n}] TITLE: {it['title']}\nSUMMARY: {it['summary'][:220]}" for n, it in enumerate(chunk))
+        prompt = (
+            "以下は英語ニュースの見出しと要約です。番号ごとに自然な日本語へ翻訳し、必ずJSON配列だけを出力してください。"
+            "形式: [{\"n\": 0, \"title_ja\": \"...\", \"summary_ja\": \"...\"}, ...]。"
+            "見出しは30字前後で簡潔に、要約は80字以内。固有名詞・製品名・企業名は原語のままでよい。\n\n" + lines
+        )
+        payload = {"contents": [{"parts": [{"text": prompt}]}],
+                   "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}
+        for model in (GEMINI_MODEL, "gemini-2.5-flash"):
+            try:
+                req = urllib.request.Request(
+                    f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}",
+                    data=json.dumps(payload).encode(), headers={"Content-Type": "application/json"}, method="POST")
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    data = json.loads(r.read())
+                text = data["candidates"][0]["content"]["parts"][0]["text"]
+                arr = json.loads(text)
+                for row in arr:
+                    n = int(row.get("n", -1))
+                    if 0 <= n < len(chunk):
+                        chunk[n]["title_ja"] = (row.get("title_ja") or "").strip()
+                        chunk[n]["summary_ja"] = (row.get("summary_ja") or "").strip()
+                        done += 1
+                break
+            except Exception as e:
+                print(f"translate NG ({model}): {type(e).__name__} {str(e)[:80]}", file=sys.stderr)
+    return done
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--hours", type=int, default=48)
     ap.add_argument("--out", default="output/news_feed.json")
     ap.add_argument("--limit", type=int, default=200)
+    ap.add_argument("--translate", action="store_true", help="英語記事に title_ja/summary_ja を付ける（GEMINI_API_KEY 必須）")
     args = ap.parse_args()
+
+    # 前回出力の訳をキャッシュとして引き継ぐ（同じ記事を毎回訳さない）
+    cache = {}
+    try:
+        for it in json.load(open(args.out)).get("items", []):
+            if it.get("title_ja"):
+                cache[it["id"]] = (it["title_ja"], it.get("summary_ja", ""))
+    except Exception:
+        pass
 
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=args.hours)
@@ -172,6 +239,14 @@ def main() -> int:
 
     items.sort(key=lambda x: x["published"] or "", reverse=True)
     items = items[: args.limit]
+
+    for it in items:
+        if it["id"] in cache:
+            it["title_ja"], it["summary_ja"] = cache[it["id"]]
+    if args.translate:
+        todo = [it for it in items if it["lang"] == "en" and not it.get("title_ja")]
+        n = translate_batch(todo)
+        print(f"translated {n}/{len(todo)}", file=sys.stderr)
     counts = {}
     for it in items:
         counts[it["category"]] = counts.get(it["category"], 0) + 1
