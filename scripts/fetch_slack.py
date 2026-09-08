@@ -13,7 +13,7 @@ import sys
 import urllib.request
 
 CHANNEL = "C0ANXKLGC90"
-AI_TAG = "🌐"
+AI_TAGS = ("🌐", ":globe_with_meridians:")  # Slack APIの text は絵文字をショートコードで返す
 
 
 def fetch(limit=150):
@@ -33,7 +33,7 @@ def fetch(limit=150):
 
 def classify(text: str) -> str:
     head = text.split("\n", 1)[0]
-    return "ai" if AI_TAG in head else "construction"
+    return "ai" if any(tag in head for tag in AI_TAGS) else "construction"
 
 
 def to_json(msgs, category=None):
