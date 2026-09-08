@@ -1,29 +1,28 @@
 # X Auto Post System
 
 ## 概要
-X（Twitter, @akionionio）の投稿支援システム。**戦略の正本は `docs/x-strategist.md`（v4.2, 2026-08-03 感情起点の設計転換）**。ルーティン手順は `docs/x-routine-spec.md`。
+X（Twitter, @akionionio）の投稿支援システム。**戦略の正本は `docs/x-strategist.md`（v5, 2026-09-08 チャエン型運用「AIに一番詳しい建設業の人」）**。ルーティン手順は `docs/x-routine-spec.md`。旧版（v3〜v4.2）は `docs/archive/`。
 
-## アーキテクチャ（v4.1: 自動投稿は停止中・下書き運転）
-1. **生成**: Claude Code Routines（x-post-morning 6:30 JST / noon 11:00 / evening 19:00）が**下書き**（`status='draft'` + `hint`=解釈の種）0〜1本+絡みカード3〜4枚（1日10枚目安）を生成し、`output/post_queue.json` / `output/dashboard.json` にcommit+push
-2. **通知**: `slack-dashboard.yml` が下書き＋絡みカードをSlack DMへ
-3. **実投稿**: **新田さんが下書きを自分の言葉にリライトして手動投稿**（枠時刻7:25/12:00/20:00は目安）
-4. （温存）自動投稿系: `auto-post.yml` + ローカルlaunchd dispatch。pendingを積めば従来どおり自動投稿される（draftは無視される）。SKIP_GRACE_HOURS=6h・失敗時Slack DM通知
+## アーキテクチャ（v5: 下書き運転・完成文）
+1. **ネタ収集（自動）**: `fetch-news.yml`（2h毎・RSS19本 → `output/news_feed.json`）＋ `fetch-slack.yml`（30分毎・Slack #x-influencer-watch → `output/slack_buzz.json`=建設系 / `output/ai_buzz.json`=AI系）。X側の監視はローカルMacの `AI-work/scripts/x_watcher.py`（2h毎・建設42＋AI16アカウント・AI系は「🌐 AI」タグ付き）
+2. **生成**: Claude Code Routines（x-post-morning 6:30 JST=柱①AI速報 / noon 11:00=柱②AI×建設 / evening 19:00=柱③建設ニュースAI優先）が**完成文の下書き**（`status='draft'`＋`reply_text`=■補足/■出典＋`article_url`）1本＋絡みカード3〜4枚を生成し、`output/post_queue.json` / `output/dashboard.json` にcommit+push
+3. **通知**: `slack-dashboard.yml` が下書き＋絡みカードをSlack DMへ
+4. **実投稿**: 新田さんが「記事スクショを添付して投稿→■補足を自己リプ」（枠時刻は目安）
+5. （温存）自動投稿系: `auto-post.yml` + ローカルlaunchd dispatch。`pending` を積めば自動投稿され、`image.type='screenshot'` なら `article_url` の記事スクショをPlaywrightで撮って添付する
 
 ## 補助ワークフロー
-- `fetch-slack.yml`: 30分毎にSlack #x-influencer-watch → `output/slack_buzz.json`
-- `slack-dashboard.yml`: `output/dashboard.json` が変わった時だけ（=生成ルーティン直後、1日3回）投稿+絡み候補をSlack DM
-- `fetch-metrics.yml`: 週1（月曜5:30 JST）で自分の直近100投稿のpublic_metricsを `data/analytics/live_metrics.json` へ → x-analytics-weekly ルーティン（月曜6:00 JST）が読んで `data/analytics/weekly_summary.md` を更新
+- `fetch-news.yml`: 2時間毎にRSS → `output/news_feed.json`（category: ai_global/ai_japan/construction_global/construction_japan・`ai_related`・48h窓）
+- `fetch-slack.yml`: 30分毎にSlack → `output/slack_buzz.json` / `output/ai_buzz.json`
+- `slack-dashboard.yml`: `output/dashboard.json` が変わった時だけDM
+- `fetch-metrics.yml`: 週1（月曜5:30 JST）→ `data/analytics/live_metrics.json` → x-analytics-weekly ルーティン（月曜6:00 JST）が `data/analytics/weekly_summary.md` を更新
 
-## 投稿ルールの要点（詳細は docs/x-strategist.md v4.2）
-- 必須要素ゲート: **感情が1個動く（やべえ/マジか/いや違う・v4.2最上位）** / 実名1+ / 数字2〜4個（主役1個） / 新情報1+ / 現場への含意1行。一人称は本文に書かず `hint` へ（リライト運転）
-- 勝ち型4種: 危機直撃 / 暴露 / 通説反論 / 一次体験。制度解説・統計の正確な翻訳は原則没
-- **0〜3本/日（3本義務は廃止）**。感情ゲートを通るネタが無い枠は休載（判定前に5ネタ探索）。週5本（土曜フラッグシップ含む）が下限
-- 土曜朝はフラッグシップ「今週の建設業、数字で3つ」
-- 創作体験談・あるある・気づき独り言は全廃 / **自己リプ全廃**（ソースURLリプも廃止・出典は本文に「機関名＋発表日」）
-- 本文にURL・ハッシュタグ・自社名を入れない。**記事はURLではなくスクショ画像で見せる**（ルーティンが `article_url` を指定 → 新田さんがリライト時に撮って添付。リンク付きはimp中央50 vs 無し183のペナルティ実測）
-- マンネリ対策はジャンルbanではなく「同一の数字×固有名詞ペアの14日間ban」+ 一人称表現のローテ
-- 絡みカードは**各枠3〜4枚・1日10枚目安・完成文形式**（朝昼=リプ、夜=リプ+引用RT最低1枚）。24h以内（snowflakeで機械検証・6h以内優先）×建設業界関連×いいね50+またはフォロワー2,000+ の3条件AND。条件未達で無理に埋めない
-- 引用RT・リプライはキューに入れない（API制限で失敗するため手動投稿）。**絡み実行数はfetch-metricsが週次カウント＝週次KPI**
+## 投稿ルールの要点（詳細は docs/x-strategist.md v5）
+- 型: 【タグ】固有名詞＋結論 → 本音1行 → ・箇条書き3〜5（数字はここ） → 建設への含意1〜2行。**段落ごとに空行**・100〜200字・**画像必須**（記事スクショ）・**■補足の自己リプに出典URL**（本文URLは禁止のまま）
+- 文体: です・ます基調＋ゆるい語尾（。。／笑／〜な気がする）。絵文字なし。攻撃・極論・ハッシュタグ・DM誘導・創作は禁止
+- 3本/日が看板（休載は48h以内のネタが本当にゼロの時だけ）。土曜朝は【🔥今週の建設×AIニュース】
+- 鮮度: AI 48h以内（24h優先）／建設72h。チャエン（@masahirochaen）が既に出したネタは彼より早いか建設の角度がある時だけ
+- 絡みカード: 各枠3〜4枚・完成文。国内AI（@masahirochaen最優先）＋建設A tier。夜は海外AIバズの引用翻訳型を最低1枚。3条件AND（24h以内×AIか建設×いいね50+ orフォロワー2,000+）
+- マンネリ: 同一ニュース14日ban・同じ【タグ】3連続NG
 
 ## 検証ルール
-戦略・ルールを変更したら、必ず2週間後に weekly_summary.md で前後比較する。検証なしの変更継続は禁止（6月の崩壊の再発防止）。
+戦略・ルールを変更したら、必ず2週間後に weekly_summary.md で前後比較する（v5は 2026-09-22）。検証なしの変更継続は禁止。

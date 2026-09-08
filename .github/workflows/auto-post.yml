@@ -34,7 +34,12 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: |
+          pip install -r scripts/requirements.txt
+          # v5: 記事スクショ添付（image.type='screenshot'）用。pendingにscreenshot指定がある時だけブラウザを入れる
+          if python3 -c "import json,sys;q=json.load(open('output/post_queue.json'));sys.exit(0 if any(p.get('status')=='pending' and (p.get('image') or {}).get('type')=='screenshot' and not (p.get('image') or {}).get('path') for p in q) else 1)"; then
+            python -m playwright install --with-deps chromium
+          fi
 
       - name: Run auto_post
         env:

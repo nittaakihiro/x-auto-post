@@ -84,17 +84,19 @@ jobs:
           # --- オリジナル（v4.1: draft=新田さんがリライトして手動投稿 / pending=自動投稿） ---
           if today_posts:
               has_draft = any(p["status"] == "draft" for p in today_posts)
-              label = "*🖊️ 下書き（自分の言葉にリライトして投稿）*" if has_draft else "*🖊️ オリジナル投稿（自動投稿）*"
+              label = "*🖊️ 下書き（v5チャエン型・そのまま投稿OK。画像を付けて→投稿後に■補足を自己リプ）*" if has_draft else "*🖊️ オリジナル投稿（自動投稿）*"
               blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": label}})
               for p in sorted(today_posts, key=lambda x: x["time"]):
                   freshness = "🔒" if p.get("freshness") == "locked" else "🔄"
-                  img = "🖼️" if p.get("image", {}).get("type") == "gemini" else ""
+                  img = "🖼️" if p.get("image", {}).get("type") in ("gemini", "screenshot") else ""
                   if p["status"] == "draft":
                       line = f"*{p['time']}枠（目安。ズレてOK）* {img} — {len(p['text'])}字\n```{p['text']}```"
                       if p.get("hint"):
                           line += f"\n💡 *解釈の種:* {p['hint']}"
+                      if p.get("quote_tweet_id"):
+                          line += f"\n🔁 *引用先:* https://x.com/i/status/{p['quote_tweet_id']}"
                       if p.get("article_url"):
-                          line += f"\n📎 *スクショ用元記事（画像で添付・本文にURLは貼らない）:* {p['article_url']}"
+                          line += f"\n📎 *画像用（この記事の先頭をスクショして添付・本文にURLは貼らない）:* {p['article_url']}"
                   else:
                       line = f"*{p['time']}* {freshness} {img} — {len(p['text'])}字\n\n{p['text']}"
                   blocks.append({
@@ -104,7 +106,7 @@ jobs:
                   if p.get("reply") and p["reply"].get("text"):
                       blocks.append({
                           "type": "context",
-                          "elements": [{"type": "mrkdwn", "text": f"💬 *リプ:* {p['reply']['text']}"}]
+                          "elements": [{"type": "mrkdwn", "text": f"💬 *■補足（投稿後に自己リプ）:*\n{p['reply']['text']}"}]
                       })
                   blocks.append({"type": "divider"})
 

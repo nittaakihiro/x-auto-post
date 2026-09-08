@@ -1,8 +1,11 @@
-name: Fetch Slack Buzz
+name: Fetch News Feed
+
+# v5（チャエン型運用）の一次ソース。AI海外/国内・建設テックのRSSを2時間毎に集めて output/news_feed.json に置く。
+# 生成ルーティン（x-post-morning/noon/evening）はこのファイルを最初に読む。
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '15 */2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -11,7 +14,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
@@ -19,13 +22,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch Slack buzz
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      - name: Fetch RSS feeds
         run: |
           mkdir -p output
-          python3 scripts/fetch_slack.py --json > output/slack_buzz.json
-          python3 scripts/fetch_slack.py --json-ai > output/ai_buzz.json
+          python3 scripts/fetch_news.py --hours 48 --out output/news_feed.json
 
       - name: Commit if changed
         continue-on-error: true
@@ -34,6 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/slack_buzz.json output/ai_buzz.json
-          git diff --cached --quiet || git commit -m "update: slack buzz snapshot"
+          git pull --rebase --autostash origin main || true
+          git add output/news_feed.json
+          git diff --cached --quiet || git commit -m "update: news feed snapshot"
           git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main

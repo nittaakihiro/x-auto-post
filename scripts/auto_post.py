@@ -114,6 +114,33 @@ def fetch_latest_source(search_query: str) -> str | None:
     return None
 
 
+def screenshot_article(url: str, out_path: str) -> str | None:
+    """記事ページの先頭（1200x675）をPlaywrightで撮る。失敗したらNoneを返し、投稿は画像なしで続行する。"""
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        log.warning("playwright未インストール。スクショをスキップ")
+        return None
+    try:
+        Path(out_path).parent.mkdir(parents=True, exist_ok=True)
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            ctx = browser.new_context(viewport={"width": 1200, "height": 675}, locale="ja-JP",
+                                      user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
+            page = ctx.new_page()
+            page.goto(url, timeout=30000, wait_until="domcontentloaded")
+            page.wait_for_timeout(2500)
+            # cookieバナー等の固定要素を隠す（できる範囲で）
+            page.add_style_tag(content="[id*='cookie'],[class*='cookie'],[id*='consent'],[class*='consent']{display:none!important}")
+            page.screenshot(path=out_path, full_page=False)
+            browser.close()
+        log.info(f"記事スクショ保存: {out_path}")
+        return out_path
+    except Exception as e:
+        log.warning(f"記事スクショ失敗: {e}")
+        return None
+
+
 def update_reply_source(post: dict) -> None:
     """
     リプにsource_queryが設定されている場合、投稿直前に最新ソースを検索して
@@ -203,9 +230,25 @@ def run():
                 log.info(f"スキップ（引用RT/quote_tweet_id未設定）: {post['id']} → 手動投稿してください")
                 continue
 
-            # --- 画像生成（Geminiプロンプトがある場合） ---
+            # --- 画像: 記事スクショ（v5 チャエン型・画像必須）。article_url の先頭部分を撮って添付 ---
             media_ids = None
             img_info = post.get("image", {})
+            if isinstance(img_info, dict) and img_info.get("type") == "screenshot" and post.get("article_url"):
+                if not img_info.get("path"):
+                    img_dir = Path(__file__).resolve().parent.parent / "output" / "x-dashboard" / post["date"].replace("-", ".") / "画像"
+                    img_path = str(img_dir / f"{post['id'].replace(':', '-')}.png")
+                    shot = screenshot_article(post["article_url"], img_path)
+                    if shot:
+                        img_info["path"] = shot
+                        save_queue(queue)
+                if img_info.get("path") and Path(img_info["path"]).exists():
+                    try:
+                        media_ids = [poster.upload_media(img_info["path"])]
+                    except Exception as e:  # 画像失敗で投稿を止めない
+                        log.warning(f"スクショ添付失敗（画像なしで投稿）: {e}")
+                        media_ids = None
+
+            # --- 画像生成（Geminiプロンプトがある場合） ---
             if isinstance(img_info, dict) and img_info.get("type") == "gemini" and img_info.get("prompt"):
                 if not img_info.get("path"):
                     # 画像パス: output/x-dashboard/{date}/画像/{post_id}.png
