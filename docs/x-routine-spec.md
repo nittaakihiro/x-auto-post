@@ -25,7 +25,7 @@
 3. **数字1つ以上**（箇条書きの中に。地の文は0〜1個）
 4. **新情報**: news_feed／buzz／WebSearchで裏取りできる一次ソースがある。裏取り不能な要素は削る
 5. **建設への含意1〜2行**（柱①②必須。柱③は「AIで言うと」の1行）
-6. **画像指定**: `article_url`（スクショ元）を必ず渡す。表・比較が作れる時だけ `image_type='gemini'`＋`image_prompt` を追加
+6. **画像指定**: `image_type='screenshot'` と `article_url` を渡す。**article_url は企業の公式ページ（プレスリリース・製品ページ・公式ブログ）を優先**。ニュースサイト（Yahoo・ITmedia・日経・BuildApp・建設通信 等）のURLでもよいが、その場合はスクショせず `scripts/make_post_image.py` が本文からGemini図解を自動生成する（新田さん指示: ニュースサイトのスクショはしない）。表・比較を自分で指定したい時だけ `image_type='gemini'`＋`image_prompt`
 7. **■補足**: `reply_text` に「■ 補足」（背景1〜3行）＋「■ 出典」（URL1〜2本）を渡す。本文にURLは置かない
 
 ## 3. 型と文体（x-strategist.md の「投稿の型」「文体」に従う）

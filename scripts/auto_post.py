@@ -237,7 +237,14 @@ def run():
                 if not img_info.get("path"):
                     img_dir = Path(__file__).resolve().parent.parent / "output" / "x-dashboard" / post["date"].replace("-", ".") / "画像"
                     img_path = str(img_dir / f"{post['id'].replace(':', '-')}.png")
-                    shot = screenshot_article(post["article_url"], img_path)
+                    from make_post_image import is_news_site, build_diagram_prompt
+                    if is_news_site(post["article_url"]):
+                        # ニュースサイトはスクショしない → Gemini図解にフォールバック
+                        shot = poster.generate_image(img_info.get("prompt") or build_diagram_prompt(post), img_path)
+                    else:
+                        shot = screenshot_article(post["article_url"], img_path)
+                        if not shot:
+                            shot = poster.generate_image(img_info.get("prompt") or build_diagram_prompt(post), img_path)
                     if shot:
                         img_info["path"] = shot
                         save_queue(queue)
