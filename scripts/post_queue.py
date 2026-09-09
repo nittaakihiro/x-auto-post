@@ -172,7 +172,8 @@ def add_post(queue: list[dict], date: str, time: str, text: str,
              freshness: str = "locked",
              status: str = "pending",
              hint: str = None,
-             article_url: str = None) -> list[dict]:
+             article_url: str = None,
+             video_url: str = None) -> list[dict]:
     """キューに投稿を追加。
 
     status="draft" は自動投稿されない下書き（v4.1リライト運転。新田さんが
@@ -209,6 +210,7 @@ def add_post(queue: list[dict], date: str, time: str, text: str,
         "status": status,  # "pending"=自動投稿 | "draft"=リライト用下書き（posterは無視）
         "hint": hint,      # 下書きのリライト用「解釈の種」（draft時のみ使用）
         "article_url": article_url,  # スクショ用の元記事URL（本文には貼らない）
+        "video_url": video_url,      # 他人の投稿の動画を埋め込む時の https://x.com/<user>/status/<id>/video/1（投稿時に本文末尾へ付けるとXが動画として埋め込む・チャエン式）
         "tweet_id": None,
         "reply_tweet_id": None,
         "posted_at": None,

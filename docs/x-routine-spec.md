@@ -29,6 +29,7 @@
 5. **建設への含意1〜2行**（柱②必須。柱①は自然に関連する時だけ。柱③に無理なAIの一文を足さない）
 6. **画像指定**: `image_type='screenshot'` と `article_url` を渡す。**article_url は企業の公式ページ（プレスリリース・製品ページ・公式ブログ）を優先**。ニュースサイト（Yahoo・ITmedia・日経・BuildApp・建設通信 等）のURLでもよいが、その場合はスクショせず `scripts/make_post_image.py` が本文からGemini図解を自動生成する（新田さん指示: ニュースサイトのスクショはしない）。表・比較を自分で指定したい時だけ `image_type='gemini'`＋`image_prompt`
 7. **■補足**: `reply_text` に「■ 補足」（背景1〜3行）＋「■ 出典」（URL1〜2本）を渡す。原則は出典を自己リプへ。公式原文を直接読ませる時は本文URLも可
+8. **動画埋め込み（あれば）**: 元の海外投稿（ai_buzz.json の🔗URL）に動画が付いている時は `video_url` に `https://x.com/<user>/status/<id>/video/1` を渡す（本文には書かない。投稿時に末尾へ貼るとXが動画として埋め込み、元アカウントのクレジットが付く）。動画がある時は画像不要
 
 ## 3. 型と文体（x-strategist.md の「投稿の型」「文体」に従う）
 
@@ -125,8 +126,9 @@ q = load_queue()
 q = add_post(q, today, '07:25', '本文（型どおり・空行あり）', freshness='locked',
              status='draft',
              reply_text='■ 補足\n背景1〜3行\n\n■ 出典\nhttps://...',
-             article_url='https://...（スクショ元・見出しが無料で見えるページ）',
-             image_type='screenshot')
+             article_url='https://...（スクショ元・公式ページ優先）',
+             image_type='screenshot',
+             video_url=None)  # 元投稿に動画があれば https://x.com/<user>/status/<id>/video/1
 # 引用RTの時: post_type='quote_rt', quote_tweet_id='<ツイートID>'（本文60〜120字）
 # 表画像を付ける時だけ: image_type='gemini', image_prompt='...'
 ```

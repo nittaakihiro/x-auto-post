@@ -169,6 +169,9 @@ def main() -> int:
     user_id = os.environ.get("SLACK_USER_ID", "U01PHHAB887")
     made = 0
     for post in targets:
+        if post.get("video_url"):
+            print(f"[SKIP] 動画埋め込みのため画像不要: {post['id']}", file=sys.stderr)
+            continue
         img = post.get("image") or {}
         out = ROOT / "output" / "x-dashboard" / post["date"].replace("-", ".") / "画像" / f"{post['id'].replace(':', '-')}.png"
         if out.exists() and not args.force:

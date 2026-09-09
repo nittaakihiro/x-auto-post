@@ -105,6 +105,8 @@ jobs:
                           line += f"\n💡 *解釈の種:* {p['hint']}"
                       if p.get("quote_tweet_id"):
                           line += f"\n🔁 *引用先:* https://x.com/i/status/{p['quote_tweet_id']}"
+                      if p.get("video_url"):
+                          line += f"\n🎬 *動画埋め込み（このURLを本文の最後の行に貼る。画像は不要）:* {p['video_url']}"
                       if p.get("article_url"):
                           line += f"\n📎 *画像用（この記事の先頭をスクショして添付・本文にURLは貼らない）:* {p['article_url']}"
                   else:

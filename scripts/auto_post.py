@@ -270,14 +270,20 @@ def run():
                     mid = poster.upload_media(img_info["path"])
                     media_ids = [mid]
 
+            # --- 動画埋め込み（v5 チャエン式）: video_url があれば本文末尾に付け、画像は付けない ---
+            post_text = post["text"]
+            if post.get("video_url"):
+                post_text = post_text.rstrip() + "\n" + post["video_url"]
+                media_ids = None
+
             # --- 投稿 ---
             if post["type"] == "quote_rt" and post.get("quote_tweet_id"):
-                tweet_id = poster.quote(post["text"], post["quote_tweet_id"])
+                tweet_id = poster.quote(post_text, post["quote_tweet_id"])
             elif post["type"] == "thread" and post.get("thread_texts"):
                 ids = poster.thread(post["thread_texts"], media_ids=media_ids)
                 tweet_id = ids[0] if ids else None
             else:
-                tweet_id = poster.post(post["text"], media_ids=media_ids)
+                tweet_id = poster.post(post_text, media_ids=media_ids)
 
             if tweet_id:
                 mark_posted(queue, post["id"], tweet_id)
