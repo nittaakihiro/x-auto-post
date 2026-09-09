@@ -20,7 +20,7 @@
 |:--|:--|:--|:--|
 | 朝 6:30→07:25 | ① AI速報 | 海外の前夜発表を日本語で最速。建設への含意1行 | ルーティン下書き |
 | 昼 11:00→12:00 | ② AI×建設 | **海外の建設テック（AEC Magazine／Construction Dive 等の英語記事・title_ja付き）を優先**、次に国内の建設向けAIプロダクト／ゼネコンのAI発表／導入事例 | ルーティン下書き |
-| 夕 19:00→20:00 | ③ 建設ニュース | AI絡み最優先。無ければバズ投稿の引用RT、それも無ければ型パクリ（バズ投稿の構成を借りて建設の中身に） | ルーティン下書き |
+| 夕 19:00→20:00 | ③ 建設ニュース | **国内外の建設×AI最優先**（Googleニュース「建設 AI」等・PR TIMES・日経クロステック・ITmedia BUILT）。**AI以外の建設時事は週1〜2本まで、業界全体が話題にしている大ネタ（倒産・法改正・災害・大型受注）だけ**（新田さん「ほんとたまに」）。無ければバズ投稿の引用RT、それも無ければ型パクリ | ルーティン下書き |
 | 夜 20:30→21:00 | ④ 海外翻訳 | **海外のAI・建設テックの投稿や記事を日本語に訳して自分の投稿にする**（新田さん「海外のやつは翻訳して俺の投稿にしたい。リポストでも良い」）。元がX投稿なら引用翻訳型（quote_rt）、記事なら翻訳速報型。建設系優先。リポスト候補2〜3件も出す | ルーティン下書き（x-post-night） |
 | 随時 | 実録 | 自分でAIを触った使用感・自分の業務でAIを回した画面 | 新田さん手動 |
 | 土曜 朝 | 週間まとめ | 【🔥今週の建設×AIニュース】番号付き5本 | ルーティン下書き |
@@ -61,7 +61,7 @@
 - カギカッコ「」は固有名詞・引用・キーワードにはOK。1投稿3個まで
 - 接続詞 ただ／つまり／ちなみに はOK（1投稿1回まで）。「一方で」「しかし」の書き言葉は避ける
 - 伝聞ヘッジ（〜らしい）の連発NG。断言できる事実は断言する
-- 禁止（維持）: ハッシュタグ／DM誘導／「お前」／**「地味に〜」（地味にすごい・地味に効く等。褒めてるのに「地味」がマイナスに響く。「地味な工程」のような形容も1投稿1回まで）**／「人を送ってる」／創作した商談・体験・会話
+- 禁止（維持）: ハッシュタグ／DM誘導／「お前」／**「地味に〜」（地味にすごい・地味に効く等。褒めてるのに「地味」がマイナスに響く。「地味な工程」のような形容も1投稿1回まで）**／「人を送ってる」／「一発で」「1発」／創作した商談・体験・会話
 - 自社: 実録は自社の仕事そのものなのでOK。サービス名の宣伝・講座告知は週1本まで（チャエンも混ぜているが比率は1割以下）
 
 ### 参考文体（チャエン実物・この温度で書く）
@@ -103,7 +103,7 @@ GPT-6 × Codex × Blenderで制作。
 
 | ファイル | 中身 | 更新 |
 |:--|:--|:--|
-| `output/news_feed.json` | RSS 27本（AI海外: OpenAI／DeepMind／Google AI／NVIDIA／TechCrunch／The Verge／Ars Technica／VentureBeat／MIT TR／The Decoder／Simon Willison／HN 150pt+ ／ AI国内: ITmedia AI+／GIGAZINE／AINOW ／ **建設海外: Construction Dive／Global Construction Review／AEC Magazine／Construction News UK／Construction Enquirer／PBC Today／Construction Executive／ConstructConnect／ArchDaily** ／ 建設国内: BuildApp／建設通信／日刊建設工業）。`category`・`ai_related`・**英語記事は `title_ja`/`summary_ja`（Gemini訳）付き**・48h窓 | 30分毎収集・翻訳2時間毎（fetch-news.yml） |
+| `output/news_feed.json` | RSS 27本（AI海外: OpenAI／DeepMind／Google AI／NVIDIA／TechCrunch／The Verge／Ars Technica／VentureBeat／MIT TR／The Decoder／Simon Willison／HN 150pt+ ／ AI国内: ITmedia AI+／GIGAZINE／AINOW ／ **建設海外: Construction Dive／Global Construction Review／AEC Magazine／Construction News UK／Construction Enquirer／PBC Today／Construction Executive／ConstructConnect／ArchDaily** ／ 建設国内: BuildApp／建設通信／日刊建設工業／建設ITワールド／施工の神様／ANDPAD ONE ／ **建設×AI国内: Googleニュース検索RSS 6クエリ（建設 AI／施工管理 AI／BIM AI／ゼネコン 生成AI／積算 AI／建設DX）でPR TIMES・日経クロステック・ITmedia BUILT・digital-construction.jp をまとめて拾う**）。`category`・`ai_related`・**英語記事は `title_ja`/`summary_ja`（Gemini訳）付き**・48h窓 | 30分毎収集・翻訳2時間毎（fetch-news.yml） |
 | `output/ai_buzz.json` | X: 海外 @OpenAI @AnthropicAI @GoogleDeepMind @sama @gdb @rowancheung @kimmonismus @testingcatalog @DataChaz @minchoi @AndrewYNg ／ 国内 @masahirochaen @shi3z @kajikent @ochyai @ai_database | 30分毎（fetch-slack.yml・元はローカルx_watcher 2h毎） |
 | `output/slack_buzz.json` | X: 建設系42アカウント＋検索（建設業／施工管理／建設DX／ゼネコン／人手不足） | 同上 |
 | WebSearch / WebFetch | 裏取り・一次ソース確認・補完 | 都度 |

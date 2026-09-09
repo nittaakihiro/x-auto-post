@@ -60,16 +60,22 @@ def main():
         if len(cons) >= args.max_construction:
             break
     ai = [it for it in fresh if it["category"] == "ai_global"][: args.max_ai]
-    if not cons and not ai:
+    jp = [it for it in fresh if it["category"] == "construction_japan" and it.get("ai_related")][: args.max_construction]
+    if not cons and not ai and not jp:
         print("新着なし", file=sys.stderr)
         return 0
 
     now = datetime.now(JST)
-    head = f"🌏 *海外ニュース（日本語訳）* {now.strftime('%-m/%-d %H:%M')}　直近{args.hours}h"
+    head = f"🌏 *建設×AIニュース（海外は日本語訳）* {now.strftime('%-m/%-d %H:%M')}　直近{args.hours}h"
     blocks = [{"type": "section", "text": {"type": "mrkdwn", "text": head}}]
     if cons:
         blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": f"*🏗️ 海外・建設（{len(cons)}件・🤖=AI関連）*"}})
         for it in cons:
+            blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": fmt(it)}})
+    if jp:
+        blocks.append({"type": "divider"})
+        blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": f"*🇯🇵 国内・建設×AI（{len(jp)}件）*"}})
+        for it in jp:
             blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": fmt(it)}})
     if ai:
         blocks.append({"type": "divider"})
@@ -90,7 +96,7 @@ def main():
         if not r.get("ok"):
             print("Slack error:", r.get("error"), file=sys.stderr)
             return 1
-    print(f"sent: construction {len(cons)} / ai {len(ai)}", file=sys.stderr)
+    print(f"sent: construction {len(cons)} / jp-construction-ai {len(jp)} / ai {len(ai)}", file=sys.stderr)
     return 0
 
 

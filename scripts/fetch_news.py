@@ -49,6 +49,16 @@ FEEDS = [
     {"id": "constructionexec", "name": "Construction Executive", "url": "https://www.constructionexec.com/rss", "category": "construction_global", "lang": "en"},
     # --- 建設 国内 ---
     {"id": "buildapp", "name": "BuildApp News", "url": "https://news.build-app.jp/feed", "category": "construction_japan", "lang": "ja"},
+    {"id": "ken_it_world", "name": "建設ITワールド（家入龍太）", "url": "https://ken-it.world/feed/", "category": "construction_japan", "lang": "ja"},
+    {"id": "sekokan_navi", "name": "施工の神様", "url": "https://sekokan-navi.jp/magazine/feed/", "category": "construction_japan", "lang": "ja"},
+    {"id": "andpad_one", "name": "ANDPAD ONE", "url": "https://one.andpad.jp/feed/", "category": "construction_japan", "lang": "ja"},
+    # --- 建設×AI 国内（Googleニュース検索RSS: PR TIMES・日経クロステック・ITmedia BUILT・digital-construction.jp 等をまとめて拾う） ---
+    {"id": "gnews_kensetsu_ai", "name": "Google News", "url": "https://news.google.com/rss/search?q=%E5%BB%BA%E8%A8%AD%20AI%20when%3A2d&hl=ja&gl=JP&ceid=JP%3Aja", "category": "construction_japan", "lang": "ja", "gnews": True},
+    {"id": "gnews_sekokan_ai", "name": "Google News", "url": "https://news.google.com/rss/search?q=%E6%96%BD%E5%B7%A5%E7%AE%A1%E7%90%86%20AI%20when%3A3d&hl=ja&gl=JP&ceid=JP%3Aja", "category": "construction_japan", "lang": "ja", "gnews": True},
+    {"id": "gnews_bim_ai", "name": "Google News", "url": "https://news.google.com/rss/search?q=BIM%20AI%20when%3A3d&hl=ja&gl=JP&ceid=JP%3Aja", "category": "construction_japan", "lang": "ja", "gnews": True},
+    {"id": "gnews_zenecon_ai", "name": "Google News", "url": "https://news.google.com/rss/search?q=%E3%82%BC%E3%83%8D%E3%82%B3%E3%83%B3%20%E7%94%9F%E6%88%90AI%20when%3A3d&hl=ja&gl=JP&ceid=JP%3Aja", "category": "construction_japan", "lang": "ja", "gnews": True},
+    {"id": "gnews_sekisan_ai", "name": "Google News", "url": "https://news.google.com/rss/search?q=%E7%A9%8D%E7%AE%97%20AI%20when%3A7d&hl=ja&gl=JP&ceid=JP%3Aja", "category": "construction_japan", "lang": "ja", "gnews": True},
+    {"id": "gnews_kensetsu_dx", "name": "Google News", "url": "https://news.google.com/rss/search?q=%E5%BB%BA%E8%A8%ADDX%20when%3A2d&hl=ja&gl=JP&ceid=JP%3Aja", "category": "construction_japan", "lang": "ja", "gnews": True, "keyword_filter": True},
     {"id": "kensetsunews", "name": "建設通信新聞", "url": "https://www.kensetsunews.com/feed", "category": "construction_japan", "lang": "ja"},
     {"id": "decn", "name": "日刊建設工業新聞", "url": "https://www.decn.co.jp/?feed=rss2", "category": "construction_japan", "lang": "ja"},
 ]
@@ -138,7 +148,14 @@ def parse_feed(feed: dict, data: bytes) -> list[dict]:
         title = strip_html(title)
         if not title or not link:
             continue
-        out.append({"title": title, "url": link.strip(), "published": published, "summary": strip_html(summary)[:300]})
+        src_name = None
+        if feed.get("gnews"):
+            src_el = it.find("source")
+            src_name = (src_el.text or "").strip() if src_el is not None else None
+            if src_name and title.endswith(" - " + src_name):
+                title = title[: -len(" - " + src_name)].strip()
+            summary = ""  # Googleニュースのdescriptionは見出しの繰り返しなので捨てる
+        out.append({"title": title, "url": link.strip(), "published": published, "summary": strip_html(summary)[:300], "src_name": src_name})
     return out
 
 
@@ -214,8 +231,9 @@ def main() -> int:
         for p in parsed:
             if p["published"] and p["published"] < cutoff:
                 continue
-            if p["url"] in seen:
+            if p["url"] in seen or ("t:" + p["title"]) in seen:
                 continue
+            seen.add("t:" + p["title"])
             blob = f"{p['title']} {p['summary']}"
             ai_hit = bool(AI_KEYWORDS.search(blob))
             if feed.get("keyword_filter") and not ai_hit:
@@ -223,7 +241,7 @@ def main() -> int:
             seen.add(p["url"])
             items.append({
                 "id": hashlib.sha1(p["url"].encode()).hexdigest()[:12],
-                "source": feed["name"],
+                "source": (p.get("src_name") or feed["name"]) if feed.get("gnews") else feed["name"],
                 "source_id": feed["id"],
                 "category": feed["category"],
                 "lang": feed["lang"],
