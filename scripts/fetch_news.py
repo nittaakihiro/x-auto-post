@@ -69,6 +69,10 @@ AI_KEYWORDS = re.compile(
     r"自律|autonomous|Nvidia|NVIDIA|モデル|model",
     re.IGNORECASE,
 )
+# Googleニュース由来の記事で、建設の文脈が無いもの・株/相場/イベント告知系の媒体は落とす
+CONSTRUCTION_WORDS = re.compile(r"建設|施工|ゼネコン|工事|BIM|CIM|積算|土木|建築|現場|工務店|設計|ビル|住宅|インフラ|解体|測量|重機|建機|構造|配筋|鉄筋|型枠|足場")
+GNEWS_SOURCE_DENY = ("kabu-ir.com", "newscast.jp", "note.com", "ニコニコニュース", "株探", "minkabu", "kabutan", "Yahoo!ファイナンス", "PR TIMES TV", "時事ドットコム",
+                     "みんかぶ", "投資", "モーニングスター", "Reuters", "ロイター", "日本経済新聞 電子版" if False else "___")
 NS = {"atom": "http://www.w3.org/2005/Atom", "dc": "http://purl.org/dc/elements/1.1/", "content": "http://purl.org/rss/1.0/modules/content/"}
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
@@ -238,6 +242,14 @@ def main() -> int:
             ai_hit = bool(AI_KEYWORDS.search(blob))
             if feed.get("keyword_filter") and not ai_hit:
                 continue
+            if feed.get("gnews"):
+                src_lower = (p.get("src_name") or "").lower()
+                if any(d.lower() in src_lower for d in GNEWS_SOURCE_DENY):
+                    continue
+                if not CONSTRUCTION_WORDS.search(p["title"]):
+                    continue
+                if re.search(r"展示会|出展|EXPO|セミナー開催|ウェビナー|市場レポート|市場規模|CAGR|銘柄|株価|上方修正", p["title"]):
+                    continue
             seen.add(p["url"])
             items.append({
                 "id": hashlib.sha1(p["url"].encode()).hexdigest()[:12],

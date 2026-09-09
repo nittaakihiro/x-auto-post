@@ -60,7 +60,10 @@ def main():
         if len(cons) >= args.max_construction:
             break
     ai = [it for it in fresh if it["category"] == "ai_global"][: args.max_ai]
-    jp = [it for it in fresh if it["category"] == "construction_japan" and it.get("ai_related")][: args.max_construction]
+    PRIORITY_JP = {"PR TIMES": 0, "xtech.nikkei.com": 1, "日経クロステック": 1, "built.itmedia.co.jp": 2, "ITmedia": 2, "digital-construction.jp": 3,
+                   "BuildApp News": 4, "建設通信新聞": 5, "日刊建設工業新聞": 5, "建設ITワールド（家入龍太）": 6, "ANDPAD ONE": 7, "施工の神様": 8}
+    jp = sorted([it for it in fresh if it["category"] == "construction_japan" and it.get("ai_related")],
+                key=lambda x: (PRIORITY_JP.get(x["source"], 9), -(datetime.fromisoformat(x["published"]).timestamp())))[: args.max_construction]
     if not cons and not ai and not jp:
         print("新着なし", file=sys.stderr)
         return 0
