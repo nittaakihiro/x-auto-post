@@ -141,7 +141,7 @@ class XPoster:
         resp = self.client.get_users_tweets(
             id=self.user_id,
             max_results=min(count, 100),
-            tweet_fields=["created_at", "public_metrics", "referenced_tweets", "in_reply_to_user_id"],
+            tweet_fields=["created_at", "public_metrics", "referenced_tweets", "in_reply_to_user_id", "note_tweet"],
             exclude=exclude,
             user_auth=True,
         )
@@ -150,9 +150,13 @@ class XPoster:
         tweets = []
         for t in resp.data:
             refs = t.referenced_tweets or []
+            note = t.data.get("note_tweet") or {}
+            full_text = note.get("text") if isinstance(note, dict) else None
             tweets.append({
                 "id": t.id,
-                "text": t.text,
+                "text": full_text or t.text,
+                "text_preview": t.text,
+                "text_source": "note_tweet" if full_text else "text",
                 "created_at": t.created_at.isoformat() if t.created_at else None,
                 "metrics": t.public_metrics,
                 "is_reply": t.in_reply_to_user_id is not None
