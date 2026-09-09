@@ -247,4 +247,12 @@ jobs:
         run: |
           pip install -q google-genai Pillow playwright
           python -m playwright install --with-deps chromium > /dev/null 2>&1 || true
-          python3 scripts/make_post_image.py --date "$(TZ=Asia/Tokyo date +%Y-%m-%d)" --slack-dm
+          python3 - <<'PY'
+          import json, subprocess
+          from datetime import datetime, timezone, timedelta
+          today = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
+          dashboard = json.load(open('output/dashboard.json'))
+          current = dashboard.get('original_post') or {}
+          if dashboard.get('date') == today and current.get('time'):
+              subprocess.run(['python3', 'scripts/make_post_image.py', '--post-id', today + '_' + current['time'], '--slack-dm'], check=True)
+          PY
