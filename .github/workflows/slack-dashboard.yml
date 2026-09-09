@@ -50,11 +50,21 @@ jobs:
               with open(dash_path, "r") as f:
                   dashboard = json.load(f)
 
-          current = dashboard.get("original_post") or {}
+          # 今回の枠 = generated_at_* が一番新しい枠（朝=original_post/07:25, 昼=noon_post/12:00, 夕=evening_post/20:00, 夜=night_post/21:00）。
+          # 旧: original_post 固定だったため昼以降のDMに朝の下書きが再送されていた（2026-09-09修正）
+          SLOTS = {"morning": ("original_post", "07:25"), "noon": ("noon_post", "12:00"), "evening": ("evening_post", "20:00"), "night": ("night_post", "21:00")}
+          latest = max(SLOTS, key=lambda k: dashboard.get(f"generated_at_{k}") or "")
+          if not dashboard.get(f"generated_at_{latest}"):
+              latest = "morning"
+          slot_key, slot_time = SLOTS[latest]
+          current = dashboard.get(slot_key) or {}
+          if isinstance(current, str):
+              current = {"time": slot_time, "text": current}
+          current_time = current.get("time") or slot_time
           if dashboard.get("date") != today:
               print("古いダッシュボードの再送をスキップ")
               exit(0)
-          today_posts = [p for p in today_posts if p.get("time") == current.get("time") and p.get("text") == current.get("text")]
+          today_posts = [p for p in today_posts if p.get("time") == current_time]
           engage_cards = dashboard.get("engage_cards", [])[:2]
           reply_sales = dashboard.get("reply_sales", [])
           repost_morning = dashboard.get("repost_morning", [])
@@ -256,7 +266,9 @@ jobs:
           from datetime import datetime, timezone, timedelta
           today = datetime.now(timezone(timedelta(hours=9))).date().isoformat()
           dashboard = json.load(open('output/dashboard.json'))
-          current = dashboard.get('original_post') or {}
-          if dashboard.get('date') == today and current.get('time'):
-              subprocess.run(['python3', 'scripts/make_post_image.py', '--post-id', today + '_' + current['time'], '--slack-dm'], check=True)
+          SLOTS = {"morning": "07:25", "noon": "12:00", "evening": "20:00", "night": "21:00"}
+          latest = max(SLOTS, key=lambda k: dashboard.get(f"generated_at_{k}") or "")
+          slot_time = SLOTS[latest]
+          if dashboard.get('date') == today:
+              subprocess.run(['python3', 'scripts/make_post_image.py', '--post-id', today + '_' + slot_time, '--slack-dm'], check=True)
           PY
