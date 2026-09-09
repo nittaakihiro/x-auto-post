@@ -60,8 +60,9 @@ jobs:
           repost_morning = dashboard.get("repost_morning", [])
           repost_noon = dashboard.get("repost_noon", [])
           repost_evening = dashboard.get("repost_evening", [])
+          repost_night = dashboard.get("repost_night", [])
 
-          if not today_posts and not engage_cards and not (repost_morning or repost_noon or repost_evening):
+          if not today_posts and not engage_cards and not (repost_morning or repost_noon or repost_evening or repost_night):
               print("今日のコンテンツなし。スキップ。")
               exit(0)
 
@@ -199,6 +200,7 @@ jobs:
           render_reposts("リポスト候補・朝枠", repost_morning)
           render_reposts("リポスト候補・昼枠", repost_noon)
           render_reposts("リポスト候補・夜枠", repost_evening)
+          render_reposts("リポスト候補・海外翻訳枠（そのままRTでOK）", repost_night)
 
           # --- サマリー ---
           summary_parts = []
@@ -212,7 +214,7 @@ jobs:
               summary_parts.append(f"🤝 絡み{len(engage_cards)}本（手動）")
           if reply_sales:
               summary_parts.append(f"📣 リプ営業{len(reply_sales)}件（手動）")
-          repost_total = len(repost_morning) + len(repost_noon) + len(repost_evening)
+          repost_total = len(repost_morning) + len(repost_noon) + len(repost_evening) + len(repost_night)
           if repost_total:
               summary_parts.append(f"🔁 リポスト候補{repost_total}件（手動）")
           blocks.append({

@@ -1,4 +1,4 @@
-# ルーティン共通仕様 v5（x-post-morning / noon / evening）
+# ルーティン共通仕様 v5（x-post-morning / noon / evening / night）
 
 戦略・型・文体・NG表現の正本は `docs/x-strategist.md`（v5 チャエン型）。この文書は**3ルーティン共通の手順**だけを持つ。矛盾したら x-strategist.md が勝つ。旧版は `docs/archive/`。
 
@@ -13,8 +13,10 @@
 | ルーティン | 枠 | 柱 | ネタの取り方 |
 |:--|:--|:--|:--|
 | morning（6:30 JST） | 07:25 | ① AI速報 | `news_feed.json` の ai_global を新しい順に見る → `ai_buzz.json` の海外アカウント → WebSearch。**土曜は週間まとめ**（§5） |
-| noon（11:00 JST） | 12:00 | ② AI×建設 | `news_feed.json` の construction_* で `ai_related=true` ＋ ai_global/ai_japan から建設に直結するもの（CAD/BIM/ロボ/現場/不動産/設計）→ `slack_buzz.json` → WebSearch（建設 AI／ゼネコン 生成AI／construction AI） |
+| noon（11:00 JST） | 12:00 | ② AI×建設 | **まず `news_feed.json` の `construction_global`（英語記事・`title_ja` 付き・`ai_related=true` 優先）**、次に `construction_japan` の `ai_related=true`、次に ai_global/ai_japan から建設に直結するもの（CAD/BIM/ロボ/現場/不動産/設計）→ `slack_buzz.json` → WebSearch |
 | evening（19:00 JST） | 20:00 | ③ 建設ニュース | AI絡み優先（`news_feed.json` construction_* → `slack_buzz.json`）。無ければ `slack_buzz.json`／`ai_buzz.json` のバズ投稿を引用RT（`post_type='quote_rt'`＋`quote_tweet_id`）。それも無ければ型パクリ（バズ投稿の構成を借りて建設の中身に） |
+
+| night（20:30 JST） | 21:00 | ④ 海外翻訳 | `ai_buzz.json` の海外投稿（建設・AEC優先 → 海外AIバズ）→ `news_feed.json` の `construction_global` → `ai_global`。元がX投稿なら**引用翻訳型**（`post_type='quote_rt'`＋`quote_tweet_id`・60〜120字・「＞」要約＋本音1行）、記事なら**翻訳速報型**（【速報】型・100〜200字）。リポスト候補2〜3件を `repost_night` に |
 
 当日の他枠と同じニュース・同じ【タグ】を使わない。
 
