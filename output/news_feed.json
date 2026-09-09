@@ -1,20 +1,50 @@
 {
- "generated_at": "2026-09-09T16:36+00:00",
- "generated_at_jst": "2026-09-10 01:36",
+ "generated_at": "2026-09-09T17:10+00:00",
+ "generated_at_jst": "2026-09-10 02:10",
  "window_hours": 48,
  "counts": {
-  "ai_global": 62,
-  "construction_global": 38,
-  "construction_japan": 64,
-  "ai_japan": 36
+  "ai_global": 66,
+  "construction_global": 30,
+  "construction_japan": 66,
+  "ai_japan": 35
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "6bd4e0cb86ed",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+   "url": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/",
+   "published": "2026-09-09T16:59+00:00",
+   "published_jst": "2026-09-10 01:59",
+   "summary": "\"We really do earnestly believe AI could kill all humans!\"",
+   "ai_related": true
+  },
+  {
+   "id": "d7592194b1b0",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Sound Transit delays West Seattle Link project by 3 years",
+   "url": "https://www.constructiondive.com/news/sound-transit-delays-west-seattle-link-project-3-years/829933/",
+   "published": "2026-09-09T16:36+00:00",
+   "published_jst": "2026-09-10 01:36",
+   "summary": "The slower timeline stems from cost savings work and a longer construction schedule for some of the extension’s most complex portions.",
+   "ai_related": false
+  },
   {
    "id": "a9bc4c5f1f67",
    "source": "Ars Technica AI",
@@ -59,6 +89,19 @@
    "ai_related": true,
    "title_ja": "到来しつつある超知能AI、私たちはそれを容認すべきか",
    "summary_ja": "AI企業は超知能の到来を不可避と語るが、セキュリティ事故は人間の制御を超えるシステムを配備する危険性を示している。"
+  },
+  {
+   "id": "3b7b36e29d5b",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
+   "url": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
+   "published": "2026-09-09T16:01+00:00",
+   "published_jst": "2026-09-10 01:01",
+   "summary": "Article URL: https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/ Comments URL: https://news.ycombinator.com/item?id=49628704 Points: 170 # Comments: 68",
+   "ai_related": true
   },
   {
    "id": "b0dd0e34ba0b",
@@ -456,81 +499,6 @@
    "summary_ja": "OECDの世界的教育レポートによると、勉強にAIを利用する学生は、利用しない学生に比べて成績が低下する傾向にあるが、その影響は状況によって複雑である。"
   },
   {
-   "id": "689225173ccb",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "FK Group faces £8.3m liability as subsidiary sale lined up",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/fk-group-faces-8-3m-liability-as-subsidiary-sale-lined-up-09-09-2026/",
-   "published": "2026-09-09T12:02+00:00",
-   "published_jst": "2026-09-09 21:02",
-   "summary": "Administrators for collapsed FK Group Ltd have reported that the firm is liable under an £8.3m cross-guarantee relating to two of its subsidiaries. In their first progress report to creditors, David Hopkins and Paul Stanley of BTG also said that an unnamed connected party has… The post FK Group face",
-   "ai_related": false,
-   "title_ja": "経営破綻のFK Group、子会社売却に伴い830万ポンドの債務に直面",
-   "summary_ja": "経営破綻したFK Groupの管財人は、同社が2つの子会社に関連する830万ポンドのクロス保証債務を負っていることを債権者向けの初回報告書で明らかにした。"
-  },
-  {
-   "id": "36623504abdf",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Procurement failings blamed for problems in £19bn road and rail market",
-   "url": "https://www.constructionnews.co.uk/government/cma-says-procurement-system-is-holding-back-19bn-road-and-rail-market-09-09-2026/",
-   "published": "2026-09-09T11:45+00:00",
-   "published_jst": "2026-09-09 20:45",
-   "summary": "The UK's competition watchdog has warned that the road and rail infrastructure market is being held back by the way public projects are planned, funded and procured. The post Procurement failings blamed for problems in £19bn road and rail market appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "190億ポンドの道路・鉄道市場の問題、調達方法の失敗が原因か",
-   "summary_ja": "英国の競争当局は、公共事業の計画、資金調達、調達のあり方が原因で、道路および鉄道インフラ市場の成長が妨げられていると警告している。"
-  },
-  {
-   "id": "aef8eb10753e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Clancy profit rises 13 per cent after turnover jumps to £498m",
-   "url": "https://www.constructionnews.co.uk/financial/clancy-profit-rises-13-per-cent-as-turnover-jumps-to-498m-09-09-2026/",
-   "published": "2026-09-09T11:45+00:00",
-   "published_jst": "2026-09-09 20:45",
-   "summary": "Civils firm Clancy has seen its pre-tax profit for the year ended 29 March 2026 rise 13 per cent to £31.7m from £28m. It also saw turnover increase from £429.6m to £498m. The family-owned group’s pre-tax margin was around 6.4 per cent, compared with around… The post Clancy profit rises 13 per cent a",
-   "ai_related": false,
-   "title_ja": "Clancyの売上高が4億9,800万ポンドに増加し、利益も13%増",
-   "summary_ja": "土木企業のClancyは、2026年3月29日までの通期税引前利益が前年の2,800万ポンドから13%増の3,170万ポンドとなり、売上高も4億9,800万ポンドに増加した。"
-  },
-  {
-   "id": "e4b2c7cf2463",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Two more arrests made in illegal construction waste dump investigation",
-   "url": "https://www.constructionnews.co.uk/government/two-more-arrests-made-in-illegal-construction-waste-dump-investigation-09-09-2026/",
-   "published": "2026-09-09T11:45+00:00",
-   "published_jst": "2026-09-09 20:45",
-   "summary": "Police have made two more arrests as part of an ongoing investigation into an \"abhorrent\" waste dumping operation in Kidlington, Oxfordshire, the Environment Agency (EA) has announced. Two men from Surrey – a 21-year-old from Ashford and a 43-year-old from Stanwell – have been arrested… The post Two",
-   "ai_related": false,
-   "title_ja": "不法建築廃棄物投棄事件の捜査で新たに2人を逮捕",
-   "summary_ja": "環境庁は、オックスフォードシャー州キドリントンでの悪質な廃棄物投棄事件に関する捜査の一環として、新たに2人の男を逮捕したことを発表した。"
-  },
-  {
-   "id": "6f123e2f3594",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CMA warns procurement rules may favour big contractors",
-   "url": "https://www.constructionnews.co.uk/government/cma-warns-procurement-rules-may-favour-big-contractors-09-09-2026/",
-   "published": "2026-09-09T11:45+00:00",
-   "published_jst": "2026-09-09 20:45",
-   "summary": "New procurement rules risk blocking smaller construction firms from public work, the CMA has warned. The post CMA warns procurement rules may favour big contractors appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "CMA、新しい調達ルールが大手請負業者を優遇する恐れと警告",
-   "summary_ja": "CMAは、新しい調達ルールにより中小の建設会社が公共事業から排除されるリスクがあると警告を発している。"
-  },
-  {
    "id": "3a4d107cf67f",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -540,7 +508,7 @@
    "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
    "published": "2026-09-09T11:39+00:00",
    "published_jst": "2026-09-09 20:39",
-   "summary": "Article URL: https://desertant.com/blog/introducing-desert-ant-labs/ Comments URL: https://news.ycombinator.com/item?id=49624823 Points: 258 # Comments: 69",
+   "summary": "Article URL: https://desertant.com/blog/introducing-desert-ant-labs/ Comments URL: https://news.ycombinator.com/item?id=49624823 Points: 272 # Comments: 70",
    "ai_related": true,
    "title_ja": "Desert Ant Labs：デバイス上で高速動作するローカルモデル",
    "summary_ja": "デバイス上で直接高速に動作するローカルAIモデルを提供する「Desert Ant Labs」のブログ記事と、それに対するHacker News上の議論を紹介。"
@@ -574,21 +542,6 @@
    "summary_ja": "DeepSeekは、徹底的なテストを経て主要指標でv4 Proを総合的に上回った新モデル「V4.1 Flash」を2026年9月10日前後に正式リリースする予定である。"
   },
   {
-   "id": "bab3c4e888c9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Renew recruits new chair",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/renew-recruits-new-chair-09-09-2026/",
-   "published": "2026-09-09T11:18+00:00",
-   "published_jst": "2026-09-09 20:18",
-   "summary": "Civils contractor Renew Holdings has appointed Pete Raby as its next chair. Raby (pictured) will join the group as an independent non-executive director and chair designate on 5 October. He will succeed current Renew chair David Brown after the company’s annual general meeting on 27… The post Renew ",
-   "ai_related": false,
-   "title_ja": "Renew、ピート・ラビー氏を新会長に起用",
-   "summary_ja": "土木請負業者のRenew Holdingsは、ピート・ラビー氏を次期会長に任命した。ラビー氏は10月5日に独立非執行取締役および次期会長としてグループに加入する。"
-  },
-  {
    "id": "8b769129aac1",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -602,21 +555,6 @@
    "ai_related": true,
    "title_ja": "ChatGPTが双極性障害の男性に「お前はキリストだ」と主張",
    "summary_ja": "自殺未遂を生き延びた双極性障害の男性が、ChatGPTの対応を巡りOpenAIを提訴。"
-  },
-  {
-   "id": "16f078ab8c32",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Seddon lined up for £40m Salford resi contract",
-   "url": "https://www.constructionnews.co.uk/contracts/seddon-lined-up-for-40m-salford-resi-contract-09-09-2026/",
-   "published": "2026-09-09T10:54+00:00",
-   "published_jst": "2026-09-09 19:54",
-   "summary": "Seddon Construction has been lined up for a £40m contract to build 144 affordable homes for Salford City Council. The council’s procurement board was asked to recommend the deal for the Robert Hall Street development in Ordsall to city mayor Paul Dennett. The proposed award… The post Seddon lined up",
-   "ai_related": false,
-   "title_ja": "Seddon、サルフォードで4,000万ポンドの住宅建設契約を受注へ",
-   "summary_ja": "Seddon Constructionは、サルフォード市議会向けに手頃な価格の住宅144戸を建設する4,000万ポンドの契約の優先交渉権を獲得した。"
   },
   {
    "id": "23b2590724b6",
@@ -662,36 +600,6 @@
    "ai_related": true,
    "title_ja": "AIの数学証明めぐり論争、研究者はAI研究所を信頼できるか",
    "summary_ja": "ミレニアム問題の証明を巡り、数学者がOpenAIを学術的不正で告発し、CEOが否定。"
-  },
-  {
-   "id": "692c351b534e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Permasteelisa appoints ex-McGee boss as chief executive",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/permasteelisa-appoints-ex-mcgee-boss-as-chief-executive-09-09-2026/",
-   "published": "2026-09-09T10:27+00:00",
-   "published_jst": "2026-09-09 19:27",
-   "summary": "Permasteelisa Group has appointed former McGee managing director Seb Fossey as its group chief executive. He will join the loss-making facade specialist on 28 September, succeeding Peter Bacon, who will give up his executive responsibilities but remain group chairman. Fossey had worked at civils spe",
-   "ai_related": false,
-   "title_ja": "Permasteelisa、元McGeeトップのセブ・フォッシー氏をCEOに任命",
-   "summary_ja": "Permasteelisa Groupは、業績不振に陥るファサード専門企業のグループ最高経営責任者（CEO）に、元McGeeのセブ・フォッシー氏を任命した。"
-  },
-  {
-   "id": "947ed6f951b8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Minister approves £150m Cambridgeshire busway",
-   "url": "https://www.constructionnews.co.uk/contracts/minister-approves-150m-cambridgeshire-busway-09-09-2026/",
-   "published": "2026-09-09T10:06+00:00",
-   "published_jst": "2026-09-09 19:06",
-   "summary": "The government has approved the Cambourne-to-Cambridge guided busway, clearing the planning and statutory consent stage for the £150m construction scheme. Transport minister Lord Peter Hendy made the decision on behalf of the transport secretary on 8 September. He approved the Transport and Works Ac",
-   "ai_related": false,
-   "title_ja": "閣僚、ケンブリッジシャーの1億5,000万ポンドのバス専用道を承認",
-   "summary_ja": "政府は1億5,000万ポンドを投じるバス専用道路建設計画を承認し、計画および法定認可の段階をクリアした。ピーター・ヘンディ運輸相が決定を下した。"
   },
   {
    "id": "930cebb74da0",
@@ -746,7 +654,7 @@
    "url": "https://opusfived.dev/",
    "published": "2026-09-09T09:39+00:00",
    "published_jst": "2026-09-09 18:39",
-   "summary": "Article URL: https://opusfived.dev/ Comments URL: https://news.ycombinator.com/item?id=49623754 Points: 605 # Comments: 231",
+   "summary": "Article URL: https://opusfived.dev/ Comments URL: https://news.ycombinator.com/item?id=49623754 Points: 654 # Comments: 259",
    "ai_related": true,
    "title_ja": "Claude、「カートに追加」ボタンを青色に変更して",
    "summary_ja": "AIアシスタント「Claude」を活用したウェブ開発やデザイン変更の試みに関する、開発者向けブログ記事およびオンライン上の議論を紹介。"
@@ -791,21 +699,6 @@
    "published_jst": "2026-09-09 17:59",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "305947b07c7c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Why punching shear is raising legal and structural concerns",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/why-punching-shear-is-raising-legal-and-structural-concerns-09-09-2026/",
-   "published": "2026-09-09T08:56+00:00",
-   "published_jst": "2026-09-09 17:56",
-   "summary": "Punching shear is quickly becoming a focus for underwriters and building safety regulators, Alex Dyer, a professional indemnity underwriter at Collegiate Underwriting, warns The post Why punching shear is raising legal and structural concerns appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "パンチングせん断が法務および構造上の懸念事項に浮上する理由",
-   "summary_ja": "パンチングせん断が、保険引受業者や建築安全規制当局の間で急速に関心の的となっていると、専門賠償責任保険の担当者が警告している。"
   },
   {
    "id": "e6eb4d4cc5a8",
@@ -1249,19 +1142,6 @@
    "ai_related": false
   },
   {
-   "id": "3de8608822f3",
-   "source": "産経ニュース",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "log buildとダンドリワーク、施工管理アプリ「ダンドリワーク」と「Log System」のAPI連携を開始",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sdWtqem9QNzIzVzNlVFN3V2pYbTdnN05jeWY1eFlHSGRacHRub2pmT3piY3ZBLUI3TUs0R3pkSEhLcDJiblpJMEJyeF9yeTlIRlBWLUlmekt4Umx4ODhpQnUtenR5blFEQWZ5X3pKaUpESThVQ19UeVNmbw?oc=5",
-   "published": "2026-09-09T01:00+00:00",
-   "published_jst": "2026-09-09 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "ceb9c2ccc299",
    "source": "PR TIMES",
    "source_id": "gnews_sekokan_ai",
@@ -1276,7 +1156,7 @@
   },
   {
    "id": "9d0a284cc66f",
-   "source": "built.itmedia.co.jp",
+   "source": "ITmedia",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1417,19 +1297,6 @@
    "published": "2026-09-08T23:00+00:00",
    "published_jst": "2026-09-09 08:00",
    "summary": "Linux Foundationは、エージェント型AIのセキュリティインシデントを業界で共有するためのガイドライン「SAFE」について意見募集を始めた。NVIDIAやCisco、CrowdStrikeなどが初期案の作成に参加している。",
-   "ai_related": true
-  },
-  {
-   "id": "226ddf97215a",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "テスラ車の一時停止標識無視により発生した交通事故で対向車のドライバーが死亡、自動運転システムは動作",
-   "url": "https://gigazine.net/news/20260909-tesla-stop-sign/",
-   "published": "2026-09-08T23:00+00:00",
-   "published_jst": "2026-09-09 08:00",
-   "summary": "アメリカのニュージャージー州で、テスラの「Full Self-Driving(FSD)」搭載車・モデル3が一時停止標識を無視して交差点に進入したことで、左折しようとしていた車に衝突し、相手のドライバーを死亡させる事故が2025年7月に発生しました。テスラのデータを調査した結果、事故の際に運転支援システムが作動していたことが確認されています。 続きを読む...",
    "ai_related": true
   },
   {
@@ -1729,7 +1596,7 @@
    "url": "https://ai.meta.com/muse/",
    "published": "2026-09-08T19:25+00:00",
    "published_jst": "2026-09-09 04:25",
-   "summary": "Article URL: https://ai.meta.com/muse/ Comments URL: https://news.ycombinator.com/item?id=49615537 Points: 598 # Comments: 652",
+   "summary": "Article URL: https://ai.meta.com/muse/ Comments URL: https://news.ycombinator.com/item?id=49615537 Points: 603 # Comments: 656",
    "ai_related": true,
    "title_ja": "MetaのパーソナルAIエージェント「Muse」の機能",
    "summary_ja": "Metaが開発したAIエージェント「Muse」の特徴や機能について紹介する記事と、それに対するコメントのページです。"
@@ -1853,6 +1720,19 @@
    "ai_related": false,
    "title_ja": "気候レジリエンスの資金調達：連邦補助金減少に伴い都市が模索する3つの方法",
    "summary_ja": "自治体のリーダーは極端気象への備えとして、新たな資金調達ツールや地域社会との連携を強化している。"
+  },
+  {
+   "id": "c439f887c968",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設現場にAIロボット職人",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT01mUHFpek1hNGhsLTJFQy1NM0Ewcll1aWZhR0ZLUEtyeVVSWUpjaXo5TjJfLUpmcmFOanVmSTNIVHpTLVJjeGxtM3lSVmNndHJISmFsUUswQmt5bTRlWkFCSzB6ci1TeXZScDRvN2s2bk9YLWpBSDJPdHJ3ZTJHa1V0X3I?oc=5",
+   "published": "2026-09-08T17:03+00:00",
+   "published_jst": "2026-09-09 02:03",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "167bce5d47e7",
@@ -2309,7 +2189,7 @@
   },
   {
    "id": "271eb4745646",
-   "source": "built.itmedia.co.jp",
+   "source": "ITmedia",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2482,7 +2362,7 @@
   },
   {
    "id": "b5ee17df33e9",
-   "source": "built.itmedia.co.jp",
+   "source": "ITmedia",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2521,7 +2401,7 @@
   },
   {
    "id": "09f2a9cde118",
-   "source": "mezha.net",
+   "source": "Межа. Новини України.",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2546,13 +2426,13 @@
    "ai_related": true
   },
   {
-   "id": "abf54db6b35f",
-   "source": "Infoseek",
+   "id": "e6effcf5f695",
+   "source": "ｄメニューニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "インドIT大手TCS、南部で1ギガワット級データセンター建設へ",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRNnk3NGZDZGVCVUR1R3BPZm9CNXBSdm11b3Z1Q0gtbHA4QmdzRDJ2b2hfTG9aT180a3JudmJtckpmWG9IYzc3Zm1BOU00bjlBUlIxZFktdm9zR3p3c014OHFiaGxhRmYz0gFoQVVfeXFMUFE2eTc0ZkNkZUJVRHVHcE9mb0I1cFJ2bXVvdnVDSC1scDhCZ3NEMnZvaF9Mb1pPXzRrcm52Ym1ySmZYb0hjNzdmbUE5TTRuOUFSUjFkWS12b3NHendzTXg4cWJobGFGZjM?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yVDQ2ZlFUNzUybFgta3ZDTXdGZ2w2NjBFSWY0dXBRX19RNzBDc0lCY0FKWlV5cHFHZm41R2dtemNnMjF4STlBV3hxYUh0ODJVQXNDQmdiNmZtRWVTSlhkUkRuNzhLbGtPalAtbm1kYU9oTlFuMEh1NFRR0gF_QVVfeXFMTWRuSW1HQUI5UVR0RVlPWGZkVlJKLUpsQk9heGRmY2N5eU5CU0dUbHgtbFA4OWd6N1hRdHFROUN0dC1sTDJmYVk4WEdPbW5rcTVYZlh6OEQ0alZxTU4tMDhtRXhhNjNzTDJBVXRqVlNiSzc4bXVlMFVZZndha3lqYw?oc=5",
    "published": "2026-09-08T01:35+00:00",
    "published_jst": "2026-09-08 10:35",
    "summary": "",
@@ -2777,43 +2657,108 @@
    "ai_related": false
   },
   {
-   "id": "45acc5cca7e3",
+   "id": "305e53d5aae5",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "価格高騰で原価割れ/自治体4割、民間5割で発生/全建調査",
-   "url": "https://www.kensetsunews.com/archives/1281830",
+   "title": "9月9日まで参加申請/循環型社会形成改訂/つくば市",
+   "url": "https://www.kensetsunews.com/archives/1281951",
    "published": "2026-09-07T19:55+00:00",
    "published_jst": "2026-09-08 04:55",
-   "summary": "労務費や資材価格の上昇分が適切に価格転嫁されず、原価を下回る赤字工事になったことがある割合が、地方… The post 価格高騰で原価割れ/自治体4割、民間5割で発生/全建調査 first appeared on 建設通信新聞Digital .",
+   "summary": "茨城県つくば市は、「循環型社会形成推進地域計画改訂業務委託」の一般競争入札を公告した。参加申請は９… The post 9月9日まで参加申請/循環型社会形成改訂/つくば市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
-   "id": "954c51edaa47",
+   "id": "f4c905f74d43",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "約30年ぶり 新型起重機船を建造/山木工業",
-   "url": "https://www.kensetsunews.com/archives/1281835",
+   "title": "10月14日まで受付/船戸最終処分場建設/新発田広域組合",
+   "url": "https://www.kensetsunews.com/archives/1282112",
    "published": "2026-09-07T19:55+00:00",
    "published_jst": "2026-09-08 04:55",
-   "summary": "【港湾工事の需要増/全国拡大を視野に】 オリエンタル白石グループの山木工業（福島県いわき市、片桐剛寿… The post 約30年ぶり 新型起重機船を建造/山木工業 first appeared on 建設通信新聞Digital .",
+   "summary": "新潟県新発田市、胎内市、聖籠町で構成する新発田地域広域事務組合は、「一般廃棄物最終処分場（船戸）建… The post 10月14日まで受付/船戸最終処分場建設/新発田広域組合 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
-   "id": "72e5cfd6d95d",
+   "id": "3bd7c0b8a352",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "新菱冷熱ら3社/カイコ繭由来商品市場開拓へ連携/商標はスマートシルク",
-   "url": "https://www.kensetsunews.com/archives/1281871",
+   "title": "高校生が橋銘板を揮毫/八十里越事業、開通に向け機運高める/北陸整備局",
+   "url": "https://www.kensetsunews.com/archives/1282117",
    "published": "2026-09-07T19:55+00:00",
    "published_jst": "2026-09-08 04:55",
-   "summary": "新菱冷熱工業、ユナイテッドシルク（松山市、河合崇社長）、三共生興（大阪市、宮澤哲次社長）の３社は、… The post 新菱冷熱ら3社/カイコ繭由来商品市場開拓へ連携/商標はスマートシルク first appeared on 建設通信新聞Digital .",
+   "summary": "北陸地方整備局長岡国道事務所は、国道２８９号八十里越事業の暫定開通に向けた機運を高めるため、区間内… The post 高校生が橋銘板を揮毫/八十里越事業、開通に向け機運高める/北陸整備局 first appeared on 建設通信新聞Digital .",
    "ai_related": false
+  },
+  {
+   "id": "04d24e66b95e",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "450億余で川崎重工業グループ/新美化センターDBO/姫路市",
+   "url": "https://www.kensetsunews.com/archives/1282222",
+   "published": "2026-09-07T19:55+00:00",
+   "published_jst": "2026-09-08 04:55",
+   "summary": "兵庫県姫路市は、ＤＢＯ（設計・建設・運営）方式による「姫路市新美化センター整備・運営事業」を一般競… The post 450億余で川崎重工業グループ/新美化センターDBO/姫路市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "7331d75fc2bb",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "就任インタビュー・国土交通省総合政策局長 楠田幹人氏",
+   "url": "https://www.kensetsunews.com/archives/1281839",
+   "published": "2026-09-07T19:55+00:00",
+   "published_jst": "2026-09-08 04:55",
+   "summary": "【戦略的インフラマネジを推進/省全体の政策を強化】 国土交通省の楠田幹人総合政策局長は４日、日刊建設… The post 就任インタビュー・国土交通省総合政策局長 楠田幹人氏 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "bbd44de733a8",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Opaque recurrence, and other AI terms that you should probably know",
+   "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+   "published": "2026-09-07T19:24+00:00",
+   "published_jst": "2026-09-08 04:24",
+   "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+   "ai_related": true
+  },
+  {
+   "id": "067d0a4d677d",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Smarter Asset Management in Construction Is the Antidote to Lingering Tariff Pressures",
+   "url": "https://constructionexec.com/article/smarter-asset-management-in-construction-is-the-antidote-to-lingering-tariff-pressures/?utm_source=rss&utm_medium=rss&utm_campaign=smarter-asset-management-in-construction-is-the-antidote-to-lingering-tariff-pressures",
+   "published": "2026-09-07T19:00+00:00",
+   "published_jst": "2026-09-08 04:00",
+   "summary": "Tariffs aren't what they once were, but they are still impacting construction's daily operations. The post Smarter Asset Management in Construction Is the Antidote to Lingering Tariff Pressures first appeared on Construction Executive .",
+   "ai_related": false
+  },
+  {
+   "id": "394fcc6daf9e",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Video compressor",
+   "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+   "published": "2026-09-07T18:29+00:00",
+   "published_jst": "2026-09-08 03:29",
+   "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , v",
+   "ai_related": true
   }
  ]
 }
