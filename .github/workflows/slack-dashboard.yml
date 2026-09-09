@@ -50,7 +50,12 @@ jobs:
               with open(dash_path, "r") as f:
                   dashboard = json.load(f)
 
-          engage_cards = dashboard.get("engage_cards", [])
+          current = dashboard.get("original_post") or {}
+          if dashboard.get("date") != today:
+              print("古いダッシュボードの再送をスキップ")
+              exit(0)
+          today_posts = [p for p in today_posts if p.get("time") == current.get("time") and p.get("text") == current.get("text")]
+          engage_cards = dashboard.get("engage_cards", [])[:2]
           reply_sales = dashboard.get("reply_sales", [])
           repost_morning = dashboard.get("repost_morning", [])
           repost_noon = dashboard.get("repost_noon", [])
@@ -88,7 +93,7 @@ jobs:
           # --- オリジナル（v4.1: draft=新田さんがリライトして手動投稿 / pending=自動投稿） ---
           if today_posts:
               has_draft = any(p["status"] == "draft" for p in today_posts)
-              label = "*🖊️ 下書き（v5チャエン型・そのまま投稿OK。画像を付けて→投稿後に■補足を自己リプ）*" if has_draft else "*🖊️ オリジナル投稿（自動投稿）*"
+              label = "*🖊️ 今回の投稿案（画像・出典を確認して投稿）*" if has_draft else "*🖊️ オリジナル投稿（自動投稿）*"
               blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": label}})
               for p in sorted(today_posts, key=lambda x: x["time"]):
                   freshness = "🔒" if p.get("freshness") == "locked" else "🔄"
@@ -116,7 +121,7 @@ jobs:
 
           # --- 絡みカード（手動投稿・v4: コピペ10秒が目的。完成文を先頭に置く） ---
           if engage_cards:
-              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🤝 絡み（コピペで投稿・早いほど効く）*"}})
+              blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": "*🤝 引用・リプのおすすめ（任意・原投稿を確認）*"}})
               for i, card in enumerate(engage_cards, 1):
                   card_type = card.get("action_type") or card.get("type", "reply")
                   tier = card.get("tier", "")

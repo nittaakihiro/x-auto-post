@@ -4,7 +4,7 @@
 X（Twitter, @akionionio）の投稿支援システム。**戦略の正本は `docs/x-strategist.md`（v5, 2026-09-08 チャエン型運用「AIに一番詳しい建設業の人」）**。ルーティン手順は `docs/x-routine-spec.md`。旧版（v3〜v4.2）は `docs/archive/`。
 
 ## アーキテクチャ（v5: 下書き運転・完成文）
-1. **ネタ収集（自動）**: `fetch-news.yml`（2h毎・RSS19本 → `output/news_feed.json`）＋ `fetch-slack.yml`（30分毎・Slack #x-influencer-watch → `output/slack_buzz.json`=建設系 / `output/ai_buzz.json`=AI系）。X側の監視はローカルMacの `AI-work/scripts/x_watcher.py`（2h毎・建設42＋AI16アカウント・AI系は「🌐 AI」タグ付き）
+1. **ネタ収集（自動）**: `fetch-news.yml`（2h毎・RSS27本 → `output/news_feed.json`）＋ `fetch-slack.yml`（30分毎・Slack #x-influencer-watch → `output/slack_buzz.json`=建設系 / `output/ai_buzz.json`=AI系）。X側の監視はローカルMacの `AI-work/scripts/x_watcher.py`（2h毎・建設42＋AI16アカウント・AI系は「🌐 AI」タグ付き）
 2. **生成**: Claude Code Routines（x-post-morning 6:30 JST=柱①AI速報 / noon 11:00=柱②AI×建設 / evening 19:00=柱③建設ニュースAI優先）が**完成文の下書き**（`status='draft'`＋`reply_text`=■補足/■出典＋`article_url`）1本＋絡みカード3〜4枚を生成し、`output/post_queue.json` / `output/dashboard.json` にcommit+push
 3. **通知**: `slack-dashboard.yml` が下書き＋絡みカードをSlack DMへ
 4. **実投稿**: 新田さんが「記事スクショを添付して投稿→■補足を自己リプ」（枠時刻は目安）
@@ -26,3 +26,5 @@ X（Twitter, @akionionio）の投稿支援システム。**戦略の正本は `d
 
 ## 検証ルール
 戦略・ルールを変更したら、必ず2週間後に weekly_summary.md で前後比較する（v5は 2026-09-22）。検証なしの変更継続は禁止。
+
+2026-09-09 v5.1: 既存27フィードを30分間隔で収集（定期実行は遅延し得る）。翻訳は従来の2時間間隔＋キャッシュを維持。Slackは今回分の下書きと推奨絡みカード。戦略末尾のv5.1補足を適用する。

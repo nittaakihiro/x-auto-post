@@ -6,10 +6,16 @@ name: Fetch News Feed
 on:
   schedule:
     - cron: '15 */2 * * *'
+    - cron: '45 * * * *'
+    - cron: '15 1-23/2 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: fetch-news
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -25,18 +31,23 @@ jobs:
       - name: Fetch RSS feeds (+ 日本語訳)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TRANSLATE_THIS_RUN: ${{ github.event.schedule == '15 */2 * * *' }}
         run: |
           mkdir -p output
-          python3 scripts/fetch_news.py --hours 48 --out output/news_feed.json --translate
+          if [ "$TRANSLATE_THIS_RUN" = "true" ]; then
+            python3 scripts/fetch_news.py --hours 48 --out output/news_feed.json --translate
+          else
+            python3 scripts/fetch_news.py --hours 48 --out output/news_feed.json
+          fi
 
       - name: Commit if changed
-        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin main || true
           git add output/news_feed.json
-          git diff --cached --quiet || git commit -m "update: news feed snapshot"
+          git diff --cached --quiet && exit 0
+          git commit -m "update: news feed snapshot"
+          git pull --rebase origin main
           git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
