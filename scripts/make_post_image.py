@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""下書き投稿の添付画像を作って（任意で）Slack DMに届ける（v5 チャエン型・画像必須）。
+"""下書き投稿の添付画像を作って（任意で）Slack DMに届ける（v6・画像は必要な投稿だけ）。
 
 方針（2026-09-08 新田さん「ニュースサイトのスクショはできない」）:
 - ニュースサイト（Yahoo・ITmedia・日経・BuildApp・建設通信 等）の画面はスクショしない
 - article_url が企業の公式ページ（プレスリリース・製品ページ・公式ブログ）の時だけ先頭をスクショ
-- それ以外は Gemini で「要点の図解」画像を生成する（自前アセットなので権利問題なし）
+- none・動画は生成しない。画像を選択した投稿は必要に応じてGeminiで図解する
 
 使い方:
   python3 scripts/make_post_image.py --date 2026-09-08 --slack-dm     # その日の draft/pending 全部
@@ -173,6 +173,9 @@ def main() -> int:
             print(f"[SKIP] 動画埋め込みのため画像不要: {post['id']}", file=sys.stderr)
             continue
         img = post.get("image") or {}
+        if img.get("type", "none") == "none":
+            print("skip: image_type=none")
+            continue
         out = ROOT / "output" / "x-dashboard" / post["date"].replace("-", ".") / "画像" / f"{post['id'].replace(':', '-')}.png"
         if out.exists() and not args.force:
             path = out

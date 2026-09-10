@@ -9,6 +9,13 @@ on:
     - cron: '5 9 * * *'    # 18:05 JST
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-news
+  cancel-in-progress: false
+
 jobs:
   digest:
     runs-on: ubuntu-latest
@@ -28,13 +35,13 @@ jobs:
           SLACK_USER_ID: U01PHHAB887
         run: python3 scripts/news_digest.py --hours 14
       - name: Commit feed if changed
-        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin main || true
           git add output/news_feed.json
-          git diff --cached --quiet || git commit -m "update: news feed snapshot (digest)"
+          git diff --cached --quiet && exit 0
+          git commit -m "update: news feed snapshot (digest)"
+          git pull --rebase origin main
           git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main

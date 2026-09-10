@@ -56,7 +56,14 @@ jobs:
           latest = max(SLOTS, key=lambda k: dashboard.get(f"generated_at_{k}") or "")
           if not dashboard.get(f"generated_at_{latest}"):
               latest = "morning"
+          if dashboard.get("version") == 6:
+              latest = dashboard["slot"]
           slot_key, slot_time = SLOTS[latest]
+          if dashboard.get("version") == 6:
+              slot_key = "original_post"
+              if dashboard.get("skip_reason"):
+                  print("編集判断による休載:", dashboard["skip_reason"])
+                  exit(0)
           current = dashboard.get(slot_key) or {}
           if isinstance(current, str):
               current = {"time": slot_time, "text": current}
@@ -116,11 +123,16 @@ jobs:
                       if p.get("quote_tweet_id"):
                           line += f"\n🔁 *引用先:* https://x.com/i/status/{p['quote_tweet_id']}"
                       if p.get("video_url"):
-                          line += f"\n🎬 *動画埋め込み（このURLを本文の最後の行に貼る。画像は不要）:* {p['video_url']}"
+                          line += f"\n🎬 *動画素材（権利・表示を投稿画面で確認。画像は不要）:* {p['video_url']}"
                       if p.get("article_url"):
-                          line += f"\n📎 *画像用（この記事の先頭をスクショして添付・本文にURLは貼らない）:* {p['article_url']}"
+                          line += f"\n📎 *出典（内容・利用条件を確認。ニュースサイトのスクショは不要）:* {p['article_url']}"
                   else:
                       line = f"*{p['time']}* {freshness} {img} — {len(p['text'])}字\n\n{p['text']}"
+                  editorial = p.get("editorial") or {}
+                  if editorial.get("selection_reason"):
+                      line += f"\n🧭 *採用理由:* {editorial['selection_reason']}"
+                  if editorial.get("unverified"):
+                      line += f"\n*未確認:* {editorial['unverified']}"
                   blocks.append({
                       "type": "section",
                       "text": {"type": "mrkdwn", "text": line}
@@ -251,7 +263,7 @@ jobs:
           print(f"Slack送信成功: {today_jp}")
           PYEOF
 
-      # v5（2026-09-08）: 画像必須。ニュースサイトはスクショせず、公式ページのみスクショ／それ以外はGemini図解を生成してDMに画像で届ける
+      # v6: 明示的に画像を選んだ今回の投稿だけ生成。none・動画はスキップ。
       - name: Make post images and send to DM
         continue-on-error: true
         env:
@@ -268,6 +280,10 @@ jobs:
           dashboard = json.load(open('output/dashboard.json'))
           SLOTS = {"morning": "07:25", "noon": "12:00", "evening": "20:00", "night": "21:00"}
           latest = max(SLOTS, key=lambda k: dashboard.get(f"generated_at_{k}") or "")
+          if dashboard.get("version") == 6:
+              if dashboard.get("skip_reason"):
+                  exit(0)
+              latest = dashboard["slot"]
           slot_time = SLOTS[latest]
           if dashboard.get('date') == today:
               subprocess.run(['python3', 'scripts/make_post_image.py', '--post-id', today + '_' + slot_time, '--slack-dm'], check=True)
