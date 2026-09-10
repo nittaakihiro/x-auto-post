@@ -1,24 +1,59 @@
 {
- "generated_at": "2026-09-10T16:22+00:00",
- "generated_at_jst": "2026-09-11 01:22",
+ "generated_at": "2026-09-10T17:01+00:00",
+ "generated_at_jst": "2026-09-11 02:01",
  "window_hours": 48,
  "counts": {
-  "ai_global": 70,
+  "ai_global": 67,
   "construction_japan": 67,
-  "construction_global": 25,
+  "construction_global": 34,
   "ai_japan": 32
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "f61f3b4b6940",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Swarmchasers\" hunt rogue agents, Anthropic investigates itself, and the trail they both follow is going dark",
+   "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark/",
+   "published": "2026-09-10T16:33+00:00",
+   "published_jst": "2026-09-11 01:33",
+   "summary": "Independent investigators have now found traces of suspected OpenAI agents on more than 30 public services, from wikis to RubyGems. At the same time, Anthropic shows how Claude Mythos 5 declared real systems a simulation to itself, uploaded a doctored package to PyPI, and even fooled the oversight m",
+   "ai_related": true
+  },
+  {
+   "id": "5b50fe17a343",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Former Deepmind PR staffer says the lab once banned public discussion of AI extinction risk",
+   "url": "https://the-decoder.com/former-deepmind-pr-staffer-says-the-lab-once-banned-public-discussion-of-ai-extinction-risk/",
+   "published": "2026-09-10T16:31+00:00",
+   "published_jst": "2026-09-11 01:31",
+   "summary": "A former Google DeepMind spokesperson says talk of AI-driven human extinction was \"external communication about the possibility of human extinction was not permitted, by anyone, at any level of the organization.\" Internally, the team knew AI alignment was not solved, according to Vishal Maini. The a",
+   "ai_related": true
+  },
+  {
+   "id": "683b94332d9b",
+   "source": "NVIDIA Blog",
+   "source_id": "nvidia",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+   "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+   "published": "2026-09-10T16:30+00:00",
+   "published_jst": "2026-09-11 01:30",
+   "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant reprogramming. Skild AI’s new S1 robot foundation model helps address this, designed to learn previously unseen, long-horiz",
+   "ai_related": true
+  },
   {
    "id": "014159943e4d",
    "source": "OpenAI News",
@@ -78,6 +113,19 @@
    "ai_related": true,
    "title_ja": "Claude Fable 5.1の言語表現は前モデルよりも簡潔か",
    "summary_ja": "Arena.aiがClaudeの文章の変化を分析。Fable 5.1は事実に基づいていますが、より冗長な表現も増えています。"
+  },
+  {
+   "id": "4be2596be788",
+   "source": "週刊エコノミスト Online",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "データセンター大投資：米国のDC建設費は公共交通投資を超越 電力インフラがAIブームのボトルネック 窪谷浩",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WbXdCRVA5Q2ZOVmNkdTRZUGhjUjhPOUJiZjIyeWQ5MnNub2hZN29vTzNQQlRwa29wZV8tWG1KR21jMFVBNTFlRGw2X2haVzFET3NWVVBXMlVNamFVdmlaZGE4Y3lWMS03Zk1rWnZHaFZCU1B4dFlCODE3V3VLRUU?oc=5",
+   "published": "2026-09-10T15:17+00:00",
+   "published_jst": "2026-09-11 00:17",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "cc2c46f7f270",
@@ -224,21 +272,6 @@
    "summary_ja": "数学を優先しなかったにもかかわらず、GPT-6 Astraはオープンな数学問題のベンチマークでトップに立ちました。"
   },
   {
-   "id": "56ccc6af62e9",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
-   "url": "https://news.ycombinator.com/item?id=49643556",
-   "published": "2026-09-10T13:39+00:00",
-   "published_jst": "2026-09-10 22:39",
-   "summary": "I've reset this more than once and the last time I made a careful note of when I did it and to my surprise I found it re-enabled when I checked just now. Make sure you check this thing to see if it hasn't been re-enabled if you believe it to be off right now. Comments URL: https://news.ycombinator.c",
-   "ai_related": true,
-   "title_ja": "OpenAIが「トレーニングを許可」設定を勝手に有効化する問題",
-   "summary_ja": "設定をリセットしたにもかかわらず、確認すると再び有効になっていたという現象が発生しています。設定の確認を推奨します。"
-  },
-  {
    "id": "0b5535756dce",
    "source": "TVer",
    "source_id": "gnews_kensetsu_ai",
@@ -253,7 +286,7 @@
   },
   {
    "id": "f5b7ba0aea36",
-   "source": "アラブニュース",
+   "source": "arabnews.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -381,6 +414,71 @@
    "ai_related": true
   },
   {
+   "id": "f1a75e0fe92e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "How the construction champion quietly disappeared",
+   "url": "https://www.constructionnews.co.uk/government/how-the-construction-champion-quietly-disappeared-10-09-2026/",
+   "published": "2026-09-10T11:45+00:00",
+   "published_jst": "2026-09-10 20:45",
+   "summary": "Labour’s former government construction champion Mike Reader has told Construction News that the \"business champion\" scheme was wound down without any formal announcement to the sectors it represented. The MP for Northampton South said the initiative, which was created to give backbench MPs a voice…",
+   "ai_related": false
+  },
+  {
+   "id": "a66b04f30165",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Willmott Dixon firms drawn into £113m fire safety dispute",
+   "url": "https://www.constructionnews.co.uk/legal/willmott-dixon-firms-drawn-into-113m-fire-safety-dispute-10-09-2026/",
+   "published": "2026-09-10T11:45+00:00",
+   "published_jst": "2026-09-10 20:45",
+   "summary": "A housing association is claiming a three-block scheme built by a former Willmott Dixon subsidiary should be demolished and rebuilt over alleged fire-safety defects it says could lead to structural collapse, death or serious injury. Clarion Housing Association and its parent Clarion Housing Group ar",
+   "ai_related": true
+  },
+  {
+   "id": "41686a0e21bf",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Construction champion role quietly scrapped",
+   "url": "https://www.constructionnews.co.uk/government/construction-champion-role-quietly-scrapped-10-09-2026/",
+   "published": "2026-09-10T11:45+00:00",
+   "published_jst": "2026-09-10 20:45",
+   "summary": "The scheme was \"a great idea, poorly executed\", the government's former construction champion Mike Reader tells CN. The post Construction champion role quietly scrapped appeared first on Construction News .",
+   "ai_related": false
+  },
+  {
+   "id": "dfe014805347",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Civils contractor sees surge in order book and profit",
+   "url": "https://www.constructionnews.co.uk/financial/civils-contractor-sees-surge-in-order-book-and-profit-10-09-2026/",
+   "published": "2026-09-10T11:45+00:00",
+   "published_jst": "2026-09-10 20:45",
+   "summary": "M&J Evans Construction has reported a sharp rise in profit and turnover for 2025, as regional expansion and a growing order book helped offset a challenging market backdrop. The Tamworth-based groundworks and civil engineering contractor said turnover rose 15.8 per cent to £374.3m in the… The post C",
+   "ai_related": false
+  },
+  {
+   "id": "6b31fd4939ed",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "OCU Group revenue tops £1bn for first time",
+   "url": "https://www.constructionnews.co.uk/financial/ocu-group-revenue-tops-1bn-for-first-time-10-09-2026/",
+   "published": "2026-09-10T11:45+00:00",
+   "published_jst": "2026-09-10 20:45",
+   "summary": "Annual revenue at utilities and infrastructure contractor OCU Group has topped £1bn for the first time. Its annual report for the year to 30 April 2026 showed the Stockport-headquartered company’s turnover reached £1.2bn, up from £886.5m the previous year. About half of the revenue increase… The pos",
+   "ai_related": false
+  },
+  {
    "id": "77950e64a14c",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -469,6 +567,19 @@
    "summary_ja": "最新のクレーンは高度なセンサーやデジタル制御を搭載しており、効果的に操作するには専門知識が不可欠となっている。"
   },
   {
+   "id": "3690ef9ea7a6",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "NI Water launches £10.5bn works framework procurement",
+   "url": "https://www.constructionnews.co.uk/civils/ni-water-launches-10-5bn-works-framework-procurement-10-09-2026/",
+   "published": "2026-09-10T09:58+00:00",
+   "published_jst": "2026-09-10 18:58",
+   "summary": "Northern Ireland Water has launched procurement for a £10.5bn framework covering civil engineering, pipelaying and mechanical and electrical works across its water and wastewater estate. The IF109 Integrated Partnerships Framework will support NI Water’s capital investment programme and replace its ",
+   "ai_related": false
+  },
+  {
    "id": "8a4ce32caa79",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -520,6 +631,19 @@
    "published": "2026-09-10T09:18+00:00",
    "published_jst": "2026-09-10 18:18",
    "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "87674e364404",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Suicide prevention is a workplace issue: construction must not look away",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/suicide-prevention-is-a-workplace-issue-construction-must-not-look-away-10-09-2026/",
+   "published": "2026-09-10T09:12+00:00",
+   "published_jst": "2026-09-10 18:12",
+   "summary": "Suicide prevention must become everyone's responsibility in the construction sector, says Desiree Blamey, managing director of the Considerate Constructors Scheme. The post Suicide prevention is a workplace issue: construction must not look away appeared first on Construction News .",
    "ai_related": false
   },
   {
@@ -607,6 +731,19 @@
    "summary_ja": "OpenAIとGSAは、対象となる政府機関にライセンス料無料、利用料50%オフ、およびサイバー防衛サポートを提供します。"
   },
   {
+   "id": "29810eb13db7",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Firms fined over £1m after worker crushed to death in trench collapse",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/firms-fined-over-1m-after-worker-crushed-to-death-in-trench-collapse-10-09-2026/",
+   "published": "2026-09-10T07:00+00:00",
+   "published_jst": "2026-09-10 16:00",
+   "summary": "Two firms have been fined a combined total of more than £1m after a worker was crushed to death on a construction site when a 3-metre trench collapsed on top of him, covering him in soil. Gheorghita Arsene, 33, had been working at a site… The post Firms fined over £1m after worker crushed to death i",
+   "ai_related": false
+  },
+  {
    "id": "34c615e0babc",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -661,19 +798,19 @@
    "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
    "published": "2026-09-10T06:11+00:00",
    "published_jst": "2026-09-10 15:11",
-   "summary": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash Comments URL: https://news.ycombinator.com/item?id=49639090 Points: 734 # Comments: 385",
+   "summary": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash Comments URL: https://news.ycombinator.com/item?id=49639090 Points: 757 # Comments: 402",
    "ai_related": true,
    "title_ja": "DeepSeek v4.1 Flashの概要とコミュニティの反応",
    "summary_ja": "Hugging Faceで公開されたDeepSeek-V4.1-Flashについての議論やコメントが、Hacker Newsで盛り上がりを見せています。"
   },
   {
-   "id": "ceb04e0d15b4",
-   "source": "Excite エキサイト",
+   "id": "db6b3acd148f",
+   "source": "アットプレス",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "AI・データセンター投資が世界の建設市場を牽引 「グローバル建設市場動向レポート2026」日本語版発表",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5McjV4bkpuNHdkajdGTjY2NVEyclB0X3ZSd1dvbHk5QTAydG91c3pYM1NCcFBJLW5JUTMtTFZfb09Fc1lCdmk5bjhYMWM2anJHMm1sampGdkRNdVVZeVhKWHF3?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03eUVpUU5kWmtwbTVtY3BVclo4bGlpUi1OaXR0WjhoZzFvS0lvajdkTGd0M0VBdGw5dFRZR2RoM29NOGhnVkVpNHhIWTNNQjg?oc=5",
    "published": "2026-09-10T06:00+00:00",
    "published_jst": "2026-09-10 15:00",
    "summary": "",
@@ -720,7 +857,7 @@
   },
   {
    "id": "2125a0dbfd4f",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -743,6 +880,19 @@
    "published_jst": "2026-09-10 13:00",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "bdce00ba349e",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "シーティーエス、米国DSR Corporationと戦略的パートナーシップ協定を締結 AI・IoT・映像技術を活用したソリューション創出で、建設・防災・社会インフラ分野のDXを加速 (2026年9月10日掲載)",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vX0p4cXA3YXR5WlYtX1ZKUHo4NFJDWXNiS2pOWkNzaHhzaDh3R1N0eG00NjNkeFAwa0h2Vjl0Y21OQXRWODRvVTUzT3JIdTdHOE1CdENJcF94VzcxTDZmRUpR?oc=5",
+   "published": "2026-09-10T03:40+00:00",
+   "published_jst": "2026-09-10 12:40",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "6b51d50dd890",
@@ -771,19 +921,6 @@
    "ai_related": true
   },
   {
-   "id": "750d2b0c9505",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Nvidia、豪州8社とAIインフラ拡充で提携 2027年に演算能力2GWへ",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMWHdOSmhOd2M2eVBxb1M0cERtbndkeTlRUXJCNDNUYm1CRWpCd19xUC12WkIzc3d4eGVoME9NOUJpeXBidnNXSmQ4WV9iVExHWnhZVUs4bkI3N0kxVG1SSmJYQmNkMW1qcXd0OUpiZlZ0M2F4?oc=5",
-   "published": "2026-09-10T03:35+00:00",
-   "published_jst": "2026-09-10 12:35",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "ccb0818f72ce",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -795,6 +932,19 @@
    "published_jst": "2026-09-10 12:32",
    "summary": "米Appleは9日、1999ドル（約30万7000円）の折りたたみ式iPhone「Duo」を発表した。デザインとデータプライバシーへの取り組みを武器に、何年も前から折りたたみ式スマートフォンを販売してきた競合他社を一気に追い抜くことを狙う。",
    "ai_related": true
+  },
+  {
+   "id": "d2f4da3cdaf3",
+   "source": "TBS NEWS DIG",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "中国が描くAIの未来「東数西算」－内モンゴルでデータセンター建設 フォトギャラリー | TBS CROSS DIG with Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QZEl2Uk0yQkcybk1QQWZ0aVhua1R1TmVKQTBsZ3d6OEN4dGxJbFppNzZZdVktbUNtWk1BTDhwTTBYS3cxR3RVYjhPT0xRRGNKcVZOSUhTVnBPalNJVU9LcDVpWFNhOWJSejR5VFJkY0Vxdk5FUXBlRHFLTXc?oc=5",
+   "published": "2026-09-10T03:31+00:00",
+   "published_jst": "2026-09-10 12:31",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "5231ff0932ab",
@@ -915,25 +1065,12 @@
   },
   {
    "id": "fd50bd78dccd",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "シーティーエス、米国DSR Corporationと戦略的パートナーシップ協定を締結 AI・IoT・映像技術を活用したソリューション創出で、建設・防災・社会インフラ分野のDXを加速",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tWUc0RDNPMkVFMXlLa3U2dEs1TS0zV0NDc2U0LWZTcWJFQ0FRMnhRRG51OERpUUxGVTl5c1VYU0RZZGZxdkhoQXpkOE9rcG50OHV2U1h6a2k0M210QkJQRWIwRXphUXdueWc?oc=5",
-   "published": "2026-09-10T01:00+00:00",
-   "published_jst": "2026-09-10 10:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "bdce00ba349e",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "シーティーエス、米国DSR Corporationと戦略的パートナーシップ協定を締結 AI・IoT・映像技術を活用したソリューション創出で、建設・防災・社会インフラ分野のDXを加速 (2026年9月10日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vX0p4cXA3YXR5WlYtX1ZKUHo4NFJDWXNiS2pOWkNzaHhzaDh3R1N0eG00NjNkeFAwa0h2Vjl0Y21OQXRWODRvVTUzT3JIdTdHOE1CdENJcF94VzcxTDZmRUpR?oc=5",
    "published": "2026-09-10T01:00+00:00",
    "published_jst": "2026-09-10 10:00",
    "summary": "",
@@ -1011,17 +1148,17 @@
    "ai_related": true
   },
   {
-   "id": "adee6b7e4fe7",
-   "source": "Chosunbiz",
-   "source_id": "gnews_kensetsu_ai",
+   "id": "e0217b22c5df",
+   "source": "レスポンス（Response.jp）",
+   "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "大宇建設がオープンイノベで9社選定 技術適用検討へ - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNa2h5WVh3VjdkMl84SzhVTDJlRHhmQ01DWTQtWlJmU2RiZXVOeG56LS1UemYyVlB4QjN1UjVxVHVkamFnak1lMWVDS0Uyc0hvZW9RTy03aTNTLWtsUVk4cEc1b1V2cUk0VGpmd2FDZ0NCSVd2dTF4VzF0TG92ZUN5M3VNOXnSAZgBQVVfeXFMTklxS0gzWERKZjJMbDk3cFdCVWdWS3g1NnpTN3VnTF9UY3g2S1lpNE5tQk83empLVDhkcEtvdmZ4ejltNTM1c1hFd2dvZXhPdVlPZURldm1sOUxOdndOek11RDNKakQ4Zkl6NzJOeGpWaElLTnNpWFRSZnl1Y2tvRkRlX3QyX3hlUklkb0EwME01czBoN3ZmU3U?oc=5",
-   "published": "2026-09-09T23:37+00:00",
-   "published_jst": "2026-09-10 08:37",
+   "title": "愛知製鋼、新技術棟を建設へ…次世代材料・生産プロセス・DX活用などの研究開発を加速 1枚目の写真・画像",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc0tXaXZTemtCN05xeGZmeGZCZDh6d2VpZ0RQc3BjZG5ubXZPMkxwVGU2bmVvczB6MGdLQXhRMmZOM3VTaWNYU1pwMGk3UW1jdGh5ZUp0TTc3TGFJbm1oX3c5Znh4T0dyVHVTZkhSSUJTcWo0OUM5MGVERjNwRHdhRUpZaF9sZ2hscGNKU3NFSFE?oc=5",
+   "published": "2026-09-09T23:45+00:00",
+   "published_jst": "2026-09-10 08:45",
    "summary": "",
-   "ai_related": false
+   "ai_related": true
   },
   {
    "id": "1bf19ecd7522",
@@ -1091,13 +1228,13 @@
    "ai_related": true
   },
   {
-   "id": "f3e2316cb757",
-   "source": "マイナビニュース",
+   "id": "f9a0bebb7310",
+   "source": "財界オンライン",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "キオクシアが約5兆円の投資 岩手に半導体の新製造棟建設へ",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11TjN3RVdIbWxmUFlnaXRtUnhrMEVqLWFWaFBUckZMYk9BUGxPX0tudTF0bUpMUk5LRUVfczFuTjNDZjRhSzYtQlF0WUMwcUpmeFFNNzBVT2JSMUxOUXhKQnk3bl9DbkhO?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uZ05BcUhYX2xxMUxXWkI2anJJYmlWNTQ5REZkNV9FZXVsZTAxXzJKNm52TTI5RVdqTnAyZm5RRzZRbkVxWVptazdaUGxfSGI5WkRGNA?oc=5",
    "published": "2026-09-09T22:00+00:00",
    "published_jst": "2026-09-10 07:00",
    "summary": "",
@@ -1297,19 +1434,6 @@
    "published": "2026-09-09T20:00+00:00",
    "published_jst": "2026-09-10 05:00",
    "summary": "「AI前提の組織へ」という号令のもと、現場で多発する「業務部門の暴走」や「ITと現場の不健全な対立」――誰でも手軽にAIを使えるようになったからこそ生じる課題にどう向き合うべきなのか。複数の事業会社で現場のAI定着に取り組む変革実務家・西野大介氏に「信頼関係構築」のポイントを聞いた。",
-   "ai_related": true
-  },
-  {
-   "id": "67e3a37a936b",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ロボットの「群れ」でビル建設、EUが支援する驚きの研究（2ページ目）",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9RMmhVdm1neDhXUUVIUjQ5Y3BqT21KYklReW9mOUM0RVNsQzAtS2hJLUJGejllLWpZSzNIazdhRE5pNzRvbDRSSmYxX1Q3OF9TVm9IclhmMjVlRGtpc3FOWWFoUTM2Ym05cnhaMA?oc=5",
-   "published": "2026-09-09T20:00+00:00",
-   "published_jst": "2026-09-10 05:00",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -1563,21 +1687,6 @@
    "ai_related": true,
    "title_ja": "アップルCEO、最高のAIデバイスは依然としてiPhoneと主張",
    "summary_ja": "同社はまた、デバイス上で動作するモデルの方が消費者に高いプライバシーを提供できると主張した。"
-  },
-  {
-   "id": "0b06c749b548",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Growing proof that autonomous cars save lives",
-   "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
-   "published": "2026-09-09T17:14+00:00",
-   "published_jst": "2026-09-10 02:14",
-   "summary": "Article URL: https://spectrum.ieee.org/are-self-driving-cars-safe Comments URL: https://news.ycombinator.com/item?id=49629886 Points: 418 # Comments: 737",
-   "ai_related": true,
-   "title_ja": "自動運転車が人命を救っているという証拠の増加",
-   "summary_ja": "IEEE Spectrumの記事で、自動運転車の安全性や人命救助に関する実績を示すデータや議論が取り上げられています。"
   },
   {
    "id": "63ea6811b42b",
@@ -1883,21 +1992,6 @@
    "summary_ja": "ユーザーはアシスタントに話しかけて、大人数向けの食材や学校向けのスナックなどの買い物かごを簡単に作成できる。"
   },
   {
-   "id": "44084287147f",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-   "published": "2026-09-09T14:37+00:00",
-   "published_jst": "2026-09-09 23:37",
-   "summary": "Article URL: https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and Comments URL: https://news.ycombinator.com/item?id=49627370 Points: 492 # Comments: 158",
-   "ai_related": true,
-   "title_ja": "GPT-6 Astra、ループ型Transformer、隠れた推論の仕組み",
-   "summary_ja": "Sebastian Raschkaのニュースレターにて、最新のGPT-6 Astraやループ型Transformerの技術的詳細が解説されています。"
-  },
-  {
    "id": "6c16839213c8",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1926,36 +2020,6 @@
    "ai_related": false,
    "title_ja": "トレンチ崩落事故で作業員が2トンの土の下敷きになり死亡",
    "summary_ja": "2社に110万ポンドの罰金が科され、工事管理者に執行猶予付きの禁錮刑が言い渡された。"
-  },
-  {
-   "id": "d7232c255d14",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Suno launches v6 music models built with Warner, BMG, and Believe",
-   "url": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe/",
-   "published": "2026-09-09T14:06+00:00",
-   "published_jst": "2026-09-09 23:06",
-   "summary": "Suno has unveiled a new AI music model generation, v6, in three versions, built together with Warner Music Group, BMG, and Believe. All older models are being shut down. Songs can now be partially changed through text commands or generated multimodally from text, audio, and images. The company won't",
-   "ai_related": true,
-   "title_ja": "SunoがWarnerやBMGなどと共同開発した音楽モデルv6を発表",
-   "summary_ja": "Sunoは3つのバージョンからなる新モデルv6を公開し、旧モデルはすべて終了となる。テキストによる部分的な楽曲修正も可能になった。"
-  },
-  {
-   "id": "6c546fe13780",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Deepmind's AlphaGenome Atlas maps every possible DNA change in the human genome",
-   "url": "https://the-decoder.com/deepminds-alphagenome-atlas-maps-every-possible-dna-change-in-the-human-genome/",
-   "published": "2026-09-09T13:40+00:00",
-   "published_jst": "2026-09-09 22:40",
-   "summary": "Google Deepmind has used the AlphaGenome Atlas to predict what each of the roughly nine billion possible single-letter changes in the human genome could do. The dataset spans one petabyte, more than 30 times the size of the AlphaFold database. In one epilepsy case, the atlas helped pinpoint a previo",
-   "ai_related": true,
-   "title_ja": "DeepmindのAlphaGenome AtlasがヒトゲノムのDNA変化を網羅",
-   "summary_ja": "Google Deepmindは同システムを使い、ヒトゲノムの約90億の単一文字変化の影響を予測した。データセットは1ペタバイトに及ぶ。"
   },
   {
    "id": "981d60fa4819",
@@ -2046,6 +2110,32 @@
    "summary_ja": "関連業務をこなせる有資格者を育成することで、工事の早期完了につながり、安全性の向上にも寄与するとABCのマイク・ベラマン氏は指摘する。"
   },
   {
+   "id": "689225173ccb",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "FK Group faces £8.3m liability as subsidiary sale lined up",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/fk-group-faces-8-3m-liability-as-subsidiary-sale-lined-up-09-09-2026/",
+   "published": "2026-09-09T12:02+00:00",
+   "published_jst": "2026-09-09 21:02",
+   "summary": "Administrators for collapsed FK Group Ltd have reported that the firm is liable under an £8.3m cross-guarantee relating to two of its subsidiaries. In their first progress report to creditors, David Hopkins and Paul Stanley of BTG also said that an unnamed connected party has… The post FK Group face",
+   "ai_related": false
+  },
+  {
+   "id": "36623504abdf",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Procurement failings blamed for problems in £19bn road and rail market",
+   "url": "https://www.constructionnews.co.uk/government/cma-says-procurement-system-is-holding-back-19bn-road-and-rail-market-09-09-2026/",
+   "published": "2026-09-09T11:45+00:00",
+   "published_jst": "2026-09-09 20:45",
+   "summary": "The UK's competition watchdog has warned that the road and rail infrastructure market is being held back by the way public projects are planned, funded and procured. The post Procurement failings blamed for problems in £19bn road and rail market appeared first on Construction News .",
+   "ai_related": false
+  },
+  {
    "id": "587a70348a73",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -2107,7 +2197,7 @@
   },
   {
    "id": "870e023dde98",
-   "source": "Infoseek",
+   "source": "news.infoseek.co.jp",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2230,7 +2320,7 @@
   },
   {
    "id": "d2f79d5e9012",
-   "source": "dxmagazine.jp",
+   "source": "DXマガジン",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2243,7 +2333,7 @@
   },
   {
    "id": "7126ab5eda06",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2275,8 +2365,8 @@
    "lang": "ja",
    "title": "アルファベットとブラックストーン、50億ドル規模のAIクラウド事業「Project Braid」がデータセンター建設で早くも壁",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90SjV2T290RTdybDZ2N2hfUFNiaGlpb0M3bWs1ZVpiSnQ0dHBhcXdKejFrUkxPTlR3WDhacWRjZllTQU8zcFE4MGg1a0tzRTJ5UG0wUHR4empqd1NwVU1JeUxURnE1YmU2ajJGcG5zaWNpTGJ1?oc=5",
-   "published": "2026-09-09T03:29+00:00",
-   "published_jst": "2026-09-09 12:29",
+   "published": "2026-09-09T03:28+00:00",
+   "published_jst": "2026-09-09 12:28",
    "summary": "",
    "ai_related": false
   },
@@ -2309,19 +2399,6 @@
    "ai_related": true
   },
   {
-   "id": "14ddb3ec5278",
-   "source": "STARTUP LOG",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場向けAIコパイロットを提供するNavigateAIがシードラウンドで2,500万ドルの資金調達を実施",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LMk5xdEhhQUhYdVJjbDlrc09WUXdtLVVRYWtIY29zWXBUU0xFMGllaW85TnBiS2Y0X1NRSFVERk9rWnV0X1FZNkljSzg4ck0?oc=5",
-   "published": "2026-09-09T01:31+00:00",
-   "published_jst": "2026-09-09 10:31",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "4f44a96e157b",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2349,7 +2426,7 @@
   },
   {
    "id": "ceb9c2ccc299",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2375,7 +2452,7 @@
   },
   {
    "id": "e905fb007098",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2409,6 +2486,19 @@
    "lang": "ja",
    "title": "中国が描くAIの未来「東数西算」−内モンゴルでデータセンター建設",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBFY0Q3blEzd1RoZ0ZGUmNfWVk3NFRrMlh5T25YeUZQV2Y1cDc1NHU2QjdSUXgtTmJlT3ZZaGRPd001bkR6N1VXNmxpNUY2ZlJwYVpHQWJ1d2FrTGJVT3JzN202elVtVVFFa2QzVEtOTmo2VWRveWlwQVlvbmZNR03SAX9BVV95cUxQRWNEN25RM3dUaGdGRlJjX1lZNzRUazJYeU9uWHlGUFdmNXA3NTR1NkI3UlF4LU5iZU92WWhkT3dNNW5EejdVVzZsaTVGNmZScGFaR0FidXdha0xiVU9yczdtNnpVbVVRRWtkM1RLTk5qNlVkb3lpcEFZb25mTUdN?oc=5",
+   "published": "2026-09-08T23:57+00:00",
+   "published_jst": "2026-09-09 08:57",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "2e61c35644e0",
+   "source": "Bloomberg.com",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "中国が描くAIの未来「東数西算」－内モンゴルでデータセンター建設",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RamxBODdZSnpzZGl0cXZNRzB5YVNqSlFfUTdCRGVKNzJvSHJGMzNhRjN1Q28wRURfYmUzRmlZbkdrZHBNdXNnOGNRY2hreFBONjdFYW9pd2FSazFSZVotN3VvNklTTHNzc0JRclphV0pLY2hHbXJZ?oc=5",
    "published": "2026-09-08T23:57+00:00",
    "published_jst": "2026-09-09 08:57",
    "summary": "",
@@ -2540,21 +2630,8 @@
    "summary_ja": "8月の非住宅建設業の雇用は1万400人増加したと、「Construction Executive」が伝えている。"
   },
   {
-   "id": "ce7d69243de0",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ゼネコンCVCの現在地 東急建設はオフサイトPPA参入、出資先と連携",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KSnpneHhIYmc5d0I4ZWlPck96ejVFaWRmQTNMVnRFNTdOS1pDbllSOEhPRmtKbFRuaDZ6S0RPSGhGM25uYVR3Mm15elQtQ1NWcVhTUDdWX2I5OXAtOVJyQlRILW16d2NCYjVGRA?oc=5",
-   "published": "2026-09-08T20:00+00:00",
-   "published_jst": "2026-09-09 05:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "1a3010bc1b02",
-   "source": "business.nikkei.com",
+   "source": "日経ビジネス電子版",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2566,16 +2643,16 @@
    "ai_related": false
   },
   {
-   "id": "39a120d34b1a",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
+   "id": "ce7d69243de0",
+   "source": "日経クロステック",
+   "source_id": "gnews_zenecon_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "清水建設で着工/30年度完成目指す/JR芦屋駅南二種再開発",
-   "url": "https://www.kensetsunews.com/archives/1282709",
-   "published": "2026-09-08T19:55+00:00",
-   "published_jst": "2026-09-09 04:55",
-   "summary": "兵庫県芦屋市は４日、「阪神間都市計画事業ＪＲ芦屋駅南地区第二種市街地再開発事業」に着工した。住宅や… The post 清水建設で着工/30年度完成目指す/JR芦屋駅南二種再開発 first appeared on 建設通信新聞Digital .",
+   "title": "ゼネコンCVCの現在地 東急建設はオフサイトPPA参入、出資先と連携",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KSnpneHhIYmc5d0I4ZWlPck96ejVFaWRmQTNMVnRFNTdOS1pDbllSOEhPRmtKbFRuaDZ6S0RPSGhGM25uYVR3Mm15elQtQ1NWcVhTUDdWX2I5OXAtOVJyQlRILW16d2NCYjVGRA?oc=5",
+   "published": "2026-09-08T20:00+00:00",
+   "published_jst": "2026-09-09 05:00",
+   "summary": "",
    "ai_related": false
   },
   {
@@ -2657,6 +2734,19 @@
    "ai_related": false
   },
   {
+   "id": "c036789b89d7",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "安藤ハザマJVと随契/帯広最適化総合設計技術協力/帯広防衛支局",
+   "url": "https://www.kensetsunews.com/archives/1282643",
+   "published": "2026-09-08T19:55+00:00",
+   "published_jst": "2026-09-09 04:55",
+   "summary": "帯広防衛支局は、ＥＣＩ（施工予定技術者事前協議）方式の技術提案・交渉方式（技術協力・施工タイプ）を… The post 安藤ハザマJVと随契/帯広最適化総合設計技術協力/帯広防衛支局 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "0280fa406aeb",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -2700,36 +2790,6 @@
    "ai_related": true,
    "title_ja": "GoogleのAI気象モデルがアップデート、予測精度が向上",
    "summary_ja": "従来の気象モデルと同様に、入力データの拡充によって予測精度が向上している。"
-  },
-  {
-   "id": "8b794cbbe457",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Financing climate resilience: 3 ways cities are pivoting as federal funding dwindles",
-   "url": "https://www.constructiondive.com/news/financing-climate-resilience-3-ways-cities-pivoting-federal-funding-dwindles/829813/",
-   "published": "2026-09-08T17:04+00:00",
-   "published_jst": "2026-09-09 02:04",
-   "summary": "Local leaders are turning to layered programs, new financing tools and deeper community engagement to prepare for extreme weather.",
-   "ai_related": false,
-   "title_ja": "気候レジリエンスの資金調達：連邦補助金減少に伴い都市が模索する3つの方法",
-   "summary_ja": "自治体のリーダーは極端気象への備えとして、新たな資金調達ツールや地域社会との連携を強化している。"
-  },
-  {
-   "id": "167bce5d47e7",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-   "url": "https://openai.com/index/codex-quantum-computing-experiments",
-   "published": "2026-09-08T17:00+00:00",
-   "published_jst": "2026-09-09 02:00",
-   "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-   "ai_related": true,
-   "title_ja": "GPT-5.6 Solが量子コンピューティング実験の実行を支援する方法",
-   "summary_ja": "MITの研究者がGPT-5.6 SolとCodexを使い、量子実験の自動実行や結果分析を行う様子を紹介。"
   }
  ]
 }
