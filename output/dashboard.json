@@ -10,7 +10,7 @@
     "status": "draft",
     "type": "original",
     "article_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
-    "video_url": null,
+    "video_url": "https://x.com/OpenAIDevs/status/2098099269551149398/video/1",
     "reply_text": "■ 出典\nOpenAI「Build more natural voice experiences with GPT-Live-1 in the API」（2026-09-10）\nhttps://openai.com/index/introducing-gpt-live-1-in-the-api/\nモデル仕様 https://developers.openai.com/api/docs/models/gpt-live-1\n\n■ 補足\nOpenAIの公表値では、full-duplex interactivity 80.1%（GPT-Realtime-2.1は45.4%）、ツール呼び出し精度87%（同60%）。いずれも自社ベンチマークで、第三者の検証はまだありません。",
     "editorial": {
       "pillar": "一般AI",
@@ -27,14 +27,14 @@
       "published_at": "2026-09-10",
       "checked_at": "2026-09-11T09:36+09:00",
       "availability": "APIで提供。料金は音声1分0.05ドルの秒単位課金。12音声、電話接続に対応との報道。日本からの利用可否と日本語音声の品質は未確認。",
-      "unverified": "全数値がOpenAIの自社公表値で、第三者検証なし。この実行環境のegress制限でopenai.comを開けず、原文はWeb検索経由の二次情報で確認。日本語対応・提供地域・12音声の言語内訳は未確認。本人の利用実績なし。",
+      "unverified": "全数値がOpenAIの自社公表値で、第三者検証なし。この実行環境のegress制限でopenai.comを開けず、原文はWeb検索経由の二次情報で確認。日本語対応・提供地域・12音声の言語内訳は未確認。本人の利用実績なし。 添付動画（OpenAI Developers投稿2098099269551149398）は本人提供のURLで、内容と埋め込み可否は未確認。",
       "hook_alternative": "音声AIが「聞きながら話す」段階に入りました。",
       "development": "従来は音声認識→推論→音声合成の直列構成で、AIの発話中は入力を受け付けない半二重だった。GPT-Live-1は入力音声と出力音声を同時に処理する全二重で、割り込みと相づちが会話として成立する。",
       "field_change": "電話の一次受け（協力会社からの納期確認、現場からの問い合わせ）。相手が話し終わるのを待つ間がなくなる。金額と工期の確定判断は人に残る。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "v6朝枠（2026-09-11）: 引用・リプ候補は今回なし。GPT-Live-1の公式動画を引用RTする場合はOpenAI DevelopersのツイートIDが必要（この環境からx.comを開けないため未取得）。",
+  "engage_cards_note": "v6朝枠（2026-09-11）: 引用・リプ候補は今回なし。動画はOpenAI Developers公式投稿（https://x.com/OpenAIDevs/status/2098099269551149398）を /video/1 形式で本文末尾に添付。この環境からx.comを開けないため、動画の有無と内容は未確認。投稿前に本人がプレビューで確認する。",
   "skip_reason": null,
   "generated_by": "claude-code (manual, routines unavailable)"
 }
