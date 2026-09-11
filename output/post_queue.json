@@ -10401,5 +10401,53 @@
       "unverified": "削減時間の具体値は公表なし（本文に書いていない）。競合性はNTTソノリティが音声AI製品ベンダーでBPO・AI導入支援の競合ではないと判断。",
       "hook_alternative": "建設現場の朝礼で、紙のKY用紙が音声AIの記録に置き換わり始めました。"
     }
+  },
+  {
+    "id": "2026-09-11_07:25",
+    "date": "2026-09-11",
+    "time": "07:25",
+    "text": "【速報】OpenAIが音声AI「GPT-Live-1」をAPIで公開\n\n・AIが話している最中でも割り込める（聞きながら話せる）\n・返事が始まるまで0.8秒。従来は1.4秒\n・料金は1時間しゃべって3ドル\n\nこれまでの音声AIはトランシーバーでした。電話の一次受けが、保留のない会話になります。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\nOpenAI「Build more natural voice experiences with GPT-Live-1 in the API」（2026-09-10）\nhttps://openai.com/index/introducing-gpt-live-1-in-the-api/\nモデル仕様 https://developers.openai.com/api/docs/models/gpt-live-1\n\n■ 補足\nOpenAIの公表値では、full-duplex interactivity 80.1%（GPT-Realtime-2.1は45.4%）、ツール呼び出し精度87%（同60%）。いずれも自社ベンチマークで、第三者の検証はまだありません。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "短文速報",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 1,
+        "自分の追加価値": 1,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "音声AIの半二重→全二重は前段との差が一文で言えて、電話という誰でも知っている作業に直結する。公式動画があるため短文速報の条件を満たす。競合サービスの紹介には当たらない。",
+      "source_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "published_at": "2026-09-10",
+      "checked_at": "2026-09-11T09:36+09:00",
+      "availability": "APIで提供。料金は音声1分0.05ドルの秒単位課金。12音声、電話接続に対応との報道。日本からの利用可否と日本語音声の品質は未確認。",
+      "unverified": "全数値がOpenAIの自社公表値で、第三者検証なし。この実行環境のegress制限でopenai.comを開けず、原文はWeb検索経由の二次情報で確認。日本語対応・提供地域・12音声の言語内訳は未確認。本人の利用実績なし。",
+      "hook_alternative": "音声AIが「聞きながら話す」段階に入りました。",
+      "development": "従来は音声認識→推論→音声合成の直列構成で、AIの発話中は入力を受け付けない半二重だった。GPT-Live-1は入力音声と出力音声を同時に処理する全二重で、割り込みと相づちが会話として成立する。",
+      "field_change": "電話の一次受け（協力会社からの納期確認、現場からの問い合わせ）。相手が話し終わるのを待つ間がなくなる。金額と工期の確定判断は人に残る。"
+    }
   }
 ]
