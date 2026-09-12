@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-09-12T14:24+00:00",
- "generated_at_jst": "2026-09-12 23:24",
+ "generated_at": "2026-09-12T15:30+00:00",
+ "generated_at_jst": "2026-09-13 00:30",
  "window_hours": 48,
  "counts": {
-  "ai_global": 66,
+  "ai_global": 63,
+  "construction_japan": 36,
   "ai_japan": 29,
-  "construction_japan": 42,
-  "construction_global": 28
+  "construction_global": 27
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
@@ -31,6 +35,51 @@
    "summary_ja": "PerplexityはAstraを活用し、通信文の作成やソフトウェアの変更、本番システムの監視を行っている。以前のモデルに比べ確認頻度も大幅に減少した。"
   },
   {
+   "id": "7551be058fd5",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control",
+   "url": "https://the-decoder.com/anthropic-ceo-amodei-wants-ai-speed-limits-before-self-improvement-outpaces-human-control/",
+   "published": "2026-09-12T15:03+00:00",
+   "published_jst": "2026-09-13 00:03",
+   "summary": "Anthropic CEO Dario Amodei is calling for a controlled slowdown in AI development. He warns that recursive self-improvement could threaten the entire internet within six to twelve months and proposes embedded auditors at AI companies, shared safety standards, and global agreements modeled after the ",
+   "ai_related": true,
+   "title_ja": "AnthropicのCEO、AIの自己改良に警鐘",
+   "summary_ja": "AnthropicのDario Amodei CEOが、AI開発の段階的な減速を訴えている。再帰的な自己改良が人間の制御を超える危険性を警告した。"
+  },
+  {
+   "id": "9e2152d865f0",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Trump is giving data centers a pass to pollute",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+   "published": "2026-09-12T14:41+00:00",
+   "published_jst": "2026-09-12 23:41",
+   "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a",
+   "ai_related": true,
+   "title_ja": "トランプ政権、AIデータセンターの規制緩和へ",
+   "summary_ja": "トランプ大統領がAIデータセンター建設加速のため環境規制を緩和しており、米国の健康リスクを高めると元EPA当局者らが警告した。"
+  },
+  {
+   "id": "5b2063a72604",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
+   "url": "https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/",
+   "published": "2026-09-12T14:26+00:00",
+   "published_jst": "2026-09-12 23:26",
+   "summary": "In a new robotics benchmark, GPT-6 Astra shows major gains in spatial understanding. On StationeryBench, the model completed 7 out of 100 tasks with dual-arm robots, while competitor MolmoAct2 couldn't finish a single one. A researcher calls it a \"step change in spatial reasoning.\" The article GPT-6",
+   "ai_related": true,
+   "title_ja": "GPT-6 Astra、空間推論で劇的な進化を示す",
+   "summary_ja": "新しいロボット工学のベンチマークにおいて、GPT-6 Astraが空間理解で大幅な向上を示し、競合を大きく引き離した。"
+  },
+  {
    "id": "2910bc785484",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -41,7 +90,9 @@
    "published": "2026-09-12T14:05+00:00",
    "published_jst": "2026-09-12 23:05",
    "summary": "Nvidia is in talks to invest up to $10 billion in Anthropic's planned IPO, Reuters reports. At a target valuation of $2 trillion, it would be the largest IPO in history. Most of that money will likely end up right back at Nvidia in chip orders. The article Nvidia wants to pour up to $10 billion into",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Nvidia、Anthropicの巨額IPOに投資検討",
+   "summary_ja": "NvidiaがAnthropicの計画するIPOに最大100億ドルの投資を検討中であると報じられた。評価額は史上最大規模となる見通し。"
   },
   {
    "id": "0635388141c3",
@@ -54,7 +105,9 @@
    "published": "2026-09-12T13:39+00:00",
    "published_jst": "2026-09-12 22:39",
    "summary": "Reasoning steps like calculation, formula retrieval, and deduction are clearly separable in a model's internal states, especially in the middle layers. That matters for AI safety, because models process more than their visible chain of thought reveals. The article AI models' written reasoning steps ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIの推論プロセスと内部パターンの相関が判明",
+   "summary_ja": "計算や演習などの推論ステップがモデルの内部状態で明確に分離可能であることが新研究で判明し、AIの安全性向上に寄与する。"
   },
   {
    "id": "e375f589d674",
@@ -67,7 +120,22 @@
    "published": "2026-09-12T13:10+00:00",
    "published_jst": "2026-09-12 22:10",
    "summary": "Overly long skill descriptions, blanket reading requirements, and rigid approval rules can get in GPT-6 Astra's way, warns OpenAI's Eric Provencher. More capable models need less hand-holding, so developers should tie instructions to specific tasks and spell out when the job is done. The article GPT",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAI、GPT-6 Astraの簡潔なプロンプトを推奨",
+   "summary_ja": "過度に長い説明や厳格なルールはGPT-6 Astraの妨げになるとOpenAIが警告。より強力なモデルにはシンプルな指示が推奨される。"
+  },
+  {
+   "id": "202536a433d4",
+   "source": "47NEWS",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【独自】対米投資、次世代原発が有力 AI覇権争い、インフラを整備",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XMUZSWWd6al85R2Zqak81QzBRaGM4VDhJOFoyUDZ0NkRBaDlNd0s5dl9oYWVHVDVHODZTaktmbzJyb3BwbVQzcnhhbw?oc=5",
+   "published": "2026-09-12T12:01+00:00",
+   "published_jst": "2026-09-12 21:01",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "43166de57ac1",
@@ -80,7 +148,9 @@
    "published": "2026-09-12T11:00+00:00",
    "published_jst": "2026-09-12 20:00",
    "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. In",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAI、数学の難問を解決し大きな成果",
+   "summary_ja": "OpenAIは数学分野の困難な課題に取り組み、今週、伝説的なミレニアム懸賞問題の解決という最大の成果の1つを達成した。"
   },
   {
    "id": "55f997459685",
@@ -169,19 +239,6 @@
    "ai_related": true
   },
   {
-   "id": "11108b0895c7",
-   "source": "Межа. Новини України.",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ソフトバンクがRoze AIを設立へ、ロボットでデータセンター建設を自動化すると発表",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aTGdFZzZvMWs0Wl9xY05xWFpybFU0S0FDZWtZNXlmU1VFUW1QbnUyOEZJaFhSX1ZWUlgxZDV5MDZjV0tWaHlWaWhHa0gwTGFsNzFpY1BoWUVYUmVJd0Jsa1VTRXZ1QQ?oc=5",
-   "published": "2026-09-12T07:24+00:00",
-   "published_jst": "2026-09-12 16:24",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "d39813bc24ff",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -219,7 +276,7 @@
    "url": "https://www.rubyhack.ai/",
    "published": "2026-09-11T23:17+00:00",
    "published_jst": "2026-09-12 08:17",
-   "summary": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 814 # Comments: 471",
+   "summary": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 841 # Comments: 493",
    "ai_related": true,
    "title_ja": "OpenAIエージェントがRubyGemsを攻撃",
    "summary_ja": "Simon Willison氏のブログ記事およびHacker Newsの議論スレッドへのリンクと、コメント数などの詳細情報。"
@@ -457,25 +514,10 @@
    "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
    "published": "2026-09-11T18:24+00:00",
    "published_jst": "2026-09-12 03:24",
-   "summary": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 625 # Comments: 344",
+   "summary": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 645 # Comments: 354",
    "ai_related": true,
    "title_ja": "Google広告に220ドル使ったら6割がボットだった",
    "summary_ja": "Google広告を出稿したところ、インストール数の60%がボットによるものだったというブログ記事。"
-  },
-  {
-   "id": "d35afbac075d",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Litelm: LiteLLM Without the Bloat",
-   "url": "https://github.com/kennethwolters/litelm",
-   "published": "2026-09-11T18:10+00:00",
-   "published_jst": "2026-09-12 03:10",
-   "summary": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 157 # Comments: 52",
-   "ai_related": true,
-   "title_ja": "Litelm：機能を絞り込んだLiteLLM",
-   "summary_ja": "GitHub上で公開されたLiteLLMの軽量版に関する記事とコメントの紹介。"
   },
   {
    "id": "e03a7bc5d933",
@@ -517,7 +559,7 @@
    "url": "https://mathandai.org/",
    "published": "2026-09-11T17:45+00:00",
    "published_jst": "2026-09-12 02:45",
-   "summary": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1052 # Comments: 1012",
+   "summary": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 1082 # Comments: 1031",
    "ai_related": true,
    "title_ja": "数学分野におけるAIの不整合について",
    "summary_ja": "数学分野におけるAIの不整合や挙動のズレに関する最新の議論や関連記事について紹介しています。"
@@ -716,21 +758,6 @@
    "summary_ja": "Procoreの大規模買収やJacobsの水処理事業受注に加え、各社の土木契約や幹部人事の情報を伝える。"
   },
   {
-   "id": "45c1d2f4ee1f",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
-   "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
-   "published": "2026-09-11T13:50+00:00",
-   "published_jst": "2026-09-11 22:50",
-   "summary": "Anthropic's new threat intelligence report documents eight months of Claude abuse. Chinese AI labs like Alibaba's Qwen team, DeepSeek, and Moonshot AI relayed requests en masse or extracted training data, with Qwen alone accounting for more than 151 million exchanges. Actors also used Claude for mis",
-   "ai_related": true,
-   "title_ja": "ハッカーによるClaudeの悪用と中国ラボのデータ収集",
-   "summary_ja": "Anthropicの報告書により、Claudeが悪用された実態や、中国のAI研究機関が学習データに利用していたことが判明した。"
-  },
-  {
    "id": "499c7eee1e27",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -772,21 +799,6 @@
    "published_jst": "2026-09-11 21:00",
    "summary": "AI研究コミュニティのMultimodal Art Projectionが音楽生成AI「YuE2」を2026年9月10日に公開しました。開発チームは「Suno 5に匹敵するオープンな音楽生成モデル」とアピールしています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "d0e24e026fa0",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-   "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
-   "published": "2026-09-11T11:59+00:00",
-   "published_jst": "2026-09-11 20:59",
-   "summary": "OpenAI wants to know from members of Congress whether an industry-wide slowdown in AI development would be legal, according to several people familiar with the matter. The article OpenAI floats a shared AI slowdown, takes it to Congress appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "OpenAI、業界ぐるみのAI開発減速を打診",
-   "summary_ja": "OpenAIが業界全体のAI開発の一時停止の適法性について、議会関係者に確認していることが分かった。"
   },
   {
    "id": "f06b27ca778c",
@@ -1257,7 +1269,7 @@
   },
   {
    "id": "f37d42e83a4c",
-   "source": "Gizmodo",
+   "source": "gizmodo.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1401,19 +1413,6 @@
    "ai_related": true
   },
   {
-   "id": "e703db57acb0",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国土交通省、7月の建設工事受注高は10兆9,346億円で前年比2.9%増、4カ月連続の増加",
-   "url": "https://news.build-app.jp/article/42610/",
-   "published": "2026-09-11T03:00+00:00",
-   "published_jst": "2026-09-11 12:00",
-   "summary": "国土交通省は9月10日、令和8年7月分の建設工事受注動態統計調査報告を公表しました。この調査は、全国の建設業者が公共機関や民間企業から受け取...",
-   "ai_related": false
-  },
-  {
    "id": "0fdcd7296626",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -1544,19 +1543,6 @@
    "published_jst": "2026-09-11 10:03",
    "summary": "Amazon Adsは、OpenAIと提携して「ChatGPT」上での広告配信に対応すると発表した。広告主はAmazon DSPを通じ、会話画面下にテキストや画像広告を出稿できるようになる。まずは米国の成人無料プラン向けパイロットとして開始し、配信面の制御はOpenAIのシステムが担う。",
    "ai_related": true
-  },
-  {
-   "id": "3b95b3f446f9",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国土交通省、リフォーム・リニューアル調査を公表、令和8年度第1四半期受注高は22.8％増",
-   "url": "https://news.build-app.jp/article/42606/",
-   "published": "2026-09-11T01:00+00:00",
-   "published_jst": "2026-09-11 10:00",
-   "summary": "国土交通省は、令和8年度第1四半期に元請けとして受注した建築物のリフォーム・リニューアル工事について、調査結果をまとめて公表しました。 全国...",
-   "ai_related": false
   },
   {
    "id": "4ad3f9be6cd0",
@@ -1798,32 +1784,6 @@
    "published": "2026-09-10T22:00+00:00",
    "published_jst": "2026-09-11 07:00",
    "summary": "AIのトークン利用料金は90％下落しているのに、支出が増加する――こうしたAIコストを巡る議論では「ジェボンズのパラドックス」が注目されている。どのような考え方なのか。",
-   "ai_related": true
-  },
-  {
-   "id": "c0819d1c06a9",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "土量計算の方法を解説｜地山・ほぐし・締固め・残土を実例で計算",
-   "url": "https://news.build-app.jp/article/42622/",
-   "published": "2026-09-10T22:00+00:00",
-   "published_jst": "2026-09-11 07:00",
-   "summary": "土量計算では、掘削前の「地山土量」、掘削後の「ほぐし土量」、転圧後の「締固め土量」を区別して考える必要があります。 たとえ同じ土であっても、...",
-   "ai_related": false
-  },
-  {
-   "id": "64dfbad9d589",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【前編】建設DX展大阪で見えた2026年の建設DXトレンド",
-   "url": "https://news.build-app.jp/article/42516/",
-   "published": "2026-09-10T22:00+00:00",
-   "published_jst": "2026-09-11 07:00",
-   "summary": "2026年8月26日（水）～28日（金）に開催された建設DX展［大阪］は、建設業界のDXをテーマとした専門展示会です。当サイトでは会場を取材...",
    "ai_related": true
   },
   {
@@ -2253,92 +2213,6 @@
    "ai_related": true,
    "title_ja": "ユニバーサル・ミュージック、ElevenLabsとAI音楽プラットフォーム開設",
    "summary_ja": "保有音源カタログを活用して楽曲のリミックスやマッシュアップを作成できるAIプラットフォームを発表した。"
-  },
-  {
-   "id": "cc2c46f7f270",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "藤井電工｜ANDPADで進捗を可視化し、オンタイムでの生産を実現～後編～",
-   "url": "https://one.andpad.jp/magazine/26294/",
-   "published": "2026-09-10T15:04+00:00",
-   "published_jst": "2026-09-11 00:04",
-   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベスト工程表ユーザー賞」で第3位を受賞した、藤井電工株... 投稿 藤井電工｜ANDPADで進捗を可視化し、オンタイムでの生産を実現～後編～ は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "9c80d2dca470",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "藤井電工｜高所作業に従事する人を守るため、愛情を込めてものづくりに向き合う〜前編〜",
-   "url": "https://one.andpad.jp/magazine/26282/",
-   "published": "2026-09-10T15:01+00:00",
-   "published_jst": "2026-09-11 00:01",
-   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベスト工程表ユーザー賞」で第3位を受賞した、藤井電工株... 投稿 藤井電工｜高所作業に従事する人を守るため、愛情を込めてものづくりに向き合う〜前編〜 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "4d4e7920d8a7",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Now everyone can put data to work",
-   "url": "https://openai.com/index/put-data-to-work",
-   "published": "2026-09-10T15:00+00:00",
-   "published_jst": "2026-09-11 00:00",
-   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-   "ai_related": true,
-   "title_ja": "誰もがデータを活用して業務効率化できる時代へ",
-   "summary_ja": "ChatGPT WorkのDataエージェントが登場。自然言語のAIを使い社内データを接続してインサイトやダッシュボードを構築できます。"
-  },
-  {
-   "id": "8b4677a71fac",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Meta’s Muse AI works and creeps me out",
-   "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
-   "published": "2026-09-10T15:00+00:00",
-   "published_jst": "2026-09-11 00:00",
-   "summary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see ho",
-   "ai_related": true,
-   "title_ja": "MetaのAI「Muse」の便利さと不気味さ",
-   "summary_ja": "Metaは新アシスタント「Muse」を投入。オンラインショッピングなどを支援し、雑務を肩代わりすると主張。"
-  },
-  {
-   "id": "9d1ba4999f82",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction Materials Prices Jump Again in August",
-   "url": "https://constructionexec.com/article/construction-materials-prices-jump-again-in-august/?utm_source=rss&utm_medium=rss&utm_campaign=construction-materials-prices-jump-again-in-august",
-   "published": "2026-09-10T14:57+00:00",
-   "published_jst": "2026-09-10 23:57",
-   "summary": "“Construction input prices surged again in August, and the increases were widespread across materials,” said ABC Chief Economist Anirban Basu. The post Construction Materials Prices Jump Again in August first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "8月に建設資材価格が再び急騰",
-   "summary_ja": "エコノミストのアンリバン・バス氏によると、8月は建設資材のインプット価格が再び急上昇し、広範囲に及んだ。"
-  },
-  {
-   "id": "70dbdcfd0be5",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI agents are flooding public services with new requests",
-   "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
-   "published": "2026-09-10T14:53+00:00",
-   "published_jst": "2026-09-10 23:53",
-   "summary": "“The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch.",
-   "ai_related": true,
-   "title_ja": "AIエージェントによる公共サービスへの新規申請が急増",
-   "summary_ja": "研究者はTechCrunchに対し、発見されたケースの大多数は正当な受給資格を持つ人々が申請を行っているものだと語りました。"
   }
  ]
 }
