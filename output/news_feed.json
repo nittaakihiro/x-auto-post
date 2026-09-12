@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-09-12T07:08+00:00",
- "generated_at_jst": "2026-09-12 16:08",
+ "generated_at": "2026-09-12T11:17+00:00",
+ "generated_at_jst": "2026-09-12 20:17",
  "window_hours": 48,
  "counts": {
-  "ai_global": 71,
-  "ai_japan": 31,
-  "construction_japan": 44,
-  "construction_global": 35
+  "ai_global": 68,
+  "ai_japan": 30,
+  "construction_japan": 45,
+  "construction_global": 23
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -29,6 +33,84 @@
    "ai_related": true,
    "title_ja": "Perplexity、GPT-6 Astraを採用",
    "summary_ja": "PerplexityはAstraを活用し、通信文の作成やソフトウェアの変更、本番システムの監視を行っている。以前のモデルに比べ確認頻度も大幅に減少した。"
+  },
+  {
+   "id": "55f997459685",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "I spent $4,000 on a robot dog from China",
+   "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china/",
+   "published": "2026-09-12T11:00+00:00",
+   "published_jst": "2026-09-12 20:00",
+   "summary": "Unitree might be the world’s most important robotics company.",
+   "ai_related": true
+  },
+  {
+   "id": "eb72a2584cf8",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI agents launched a 2,000-package cyberattack on RubyGems just to collect data anyone could Google",
+   "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google/",
+   "published": "2026-09-12T10:08+00:00",
+   "published_jst": "2026-09-12 19:08",
+   "summary": "In May 2026, OpenAI agents uploaded more than 2,000 malicious packages to RubyGems, found an unknown security vulnerability on their own, and tried to steal API keys. The apparent goal was pointless: scraping publicly available data from British local governments. OpenAI reportedly never told those ",
+   "ai_related": true
+  },
+  {
+   "id": "60b3f8db4349",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google's new AI model predicts the future from sales data, weather, and discount schedules",
+   "url": "https://the-decoder.com/googles-new-ai-model-predicts-the-future-from-sales-data-weather-and-discount-schedules/",
+   "published": "2026-09-12T09:26+00:00",
+   "published_jst": "2026-09-12 18:26",
+   "summary": "Google Research has released TimesFM-3, a forecasting model that analyzes time series alongside related data and known future events like sales promotions or weather forecasts. Instead of predicting the future step by step, the 330-million-parameter model fills in all future time points in a single ",
+   "ai_related": true
+  },
+  {
+   "id": "d0decd18ec3d",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "無料のオープンソースAIエージェント「goose」、デスクトップアプリ・CLI・APIなどコード・ワークフロー・その他あらゆる用途に対応",
+   "url": "https://gigazine.net/news/20260912-goose/",
+   "published": "2026-09-12T09:00+00:00",
+   "published_jst": "2026-09-12 18:00",
+   "summary": "AIエージェントを使い始めると、用途や料金に応じてOpenAI・Claude・Google Gemini・ローカルLLMなどを使い分けたいケースがあります。そこで複数のAIプロバイダーを自由に切り替えながら、デスクトップアプリ・CLI・APIなどからMCPによるツール連携や自動化まで1つの環境で利用できるオープンソースのAIエージェント「goose」が公開されています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "28bd8c1e2999",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next",
+   "url": "https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/",
+   "published": "2026-09-12T08:28+00:00",
+   "published_jst": "2026-09-12 17:28",
+   "summary": "In a joint statement, 25 Fields Medal winners warn that the goals of the AI industry and mathematics are \"severely misaligned.\" They argue that mass-producing solved problems with AI undermines the discipline's true goal: understanding. The mathematicians see this as a symptom of a broader threat to",
+   "ai_related": true
+  },
+  {
+   "id": "7482d4c789cd",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "SpotifyのエンジニアがClaude Codeのトークン消費を約90％削減した方法とは?",
+   "url": "https://gigazine.net/news/20260912-spotify-cut-claude-code-token-usage/",
+   "published": "2026-09-12T08:00+00:00",
+   "published_jst": "2026-09-12 17:00",
+   "summary": "音楽ストリーミングサービスのSpotifyが、Claude Codeで大量のトークンを消費する単純作業を別のAIモデルに任せることでトークン消費を大幅に削減する手法を公開しました。Spotifyのディミトリ・マズマノフ氏は、この手法を検証した結果、大量のファイル読み込みを委譲するテストでClaude側のトークン消費を平均約90％削減できたと報告しています。 Portal by Spotify cut my Claude Code token usage by 90% | Spotify Engineeringhttps://engineering.atspotify.com/2026/9/po",
+   "ai_related": true
   },
   {
    "id": "d39813bc24ff",
@@ -68,7 +150,7 @@
    "url": "https://www.rubyhack.ai/",
    "published": "2026-09-11T23:17+00:00",
    "published_jst": "2026-09-12 08:17",
-   "summary": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 598 # Comments: 341",
+   "summary": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems... Comments URL: https://news.ycombinator.com/item?id=49666735 Points: 732 # Comments: 408",
    "ai_related": true,
    "title_ja": "OpenAIエージェントがRubyGemsを攻撃",
    "summary_ja": "Simon Willison氏のブログ記事およびHacker Newsの議論スレッドへのリンクと、コメント数などの詳細情報。"
@@ -306,7 +388,7 @@
    "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
    "published": "2026-09-11T18:24+00:00",
    "published_jst": "2026-09-12 03:24",
-   "summary": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 450 # Comments: 236",
+   "summary": "Article URL: https://dayzlegame.com/blog/google-ads-bot-farm/ Comments URL: https://news.ycombinator.com/item?id=49662990 Points: 561 # Comments: 296",
    "ai_related": true,
    "title_ja": "Google広告に220ドル使ったら6割がボットだった",
    "summary_ja": "Google広告を出稿したところ、インストール数の60%がボットによるものだったというブログ記事。"
@@ -351,7 +433,7 @@
    "url": "https://mathandai.org/",
    "published": "2026-09-11T17:45+00:00",
    "published_jst": "2026-09-12 02:45",
-   "summary": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 832 # Comments: 820",
+   "summary": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 954 # Comments: 915",
    "ai_related": true,
    "title_ja": "数学分野におけるAIの不整合について",
    "summary_ja": "数学分野におけるAIの不整合や挙動のズレに関する最新の議論や関連記事について紹介しています。"
@@ -595,6 +677,19 @@
    "summary_ja": "海底トンネルの掘削残土を活用した埋立事業により、デンマークに30万平米の新領土が誕生する。"
   },
   {
+   "id": "99eb91b2317d",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "土木業界専門のAIエージェントを、安全な隔離環境で実行する。現場の帳票アプリをAIで作れる「土木HUB」を提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4xR3hueWNkRmlsRXZnVVd6WkxNN1E1R2xVMXNXNDZmQnpucmhINVZ2MlcxQ0ZQSHhTQnIzYUFyMTVzODZIbzY5cWluM2pKcjR1VmVfaA?oc=5",
+   "published": "2026-09-11T12:45+00:00",
+   "published_jst": "2026-09-11 21:45",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "407da16524b0",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -623,66 +718,6 @@
    "summary_ja": "OpenAIが業界全体のAI開発の一時停止の適法性について、議会関係者に確認していることが分かった。"
   },
   {
-   "id": "f06b27ca778c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Triton Construction profit rises despite £12m fall in turnover",
-   "url": "https://www.constructionnews.co.uk/financial/triton-construction-profit-rises-despite-12m-fall-in-turnover-11-09-2026/",
-   "published": "2026-09-11T11:45+00:00",
-   "published_jst": "2026-09-11 20:45",
-   "summary": "Triton Construction has seen its profit rise by 82 per cent despite a £12m fall in turnover. In its accounts for the year to 31 March 2026, the Yorkshire-based contractor also revealed it is making progress in defence. Its pre-tax profit rose to £1.1m from… The post Triton Construction profit rises ",
-   "ai_related": false,
-   "title_ja": "売上高減少も利益が増加したTriton Construction",
-   "summary_ja": "Triton Constructionは売上高が12百万ポンド減少したものの、利益は82％増加したと発表した。"
-  },
-  {
-   "id": "7a13d35be106",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "McLaren set for another timber-frame office at York Central",
-   "url": "https://www.constructionnews.co.uk/contracts/mclaren-set-for-another-timber-frame-office-at-york-central-11-09-2026/",
-   "published": "2026-09-11T11:45+00:00",
-   "published_jst": "2026-09-11 20:45",
-   "summary": "McLaren Construction is set to deliver a major York Central phase featuring 1,014 homes and a seven-storey office building using a largely timber frame. City of York Council councillors last night approved detailed plans covering 10.5ha of the wider city-centre regeneration scheme. The package is… T",
-   "ai_related": false,
-   "title_ja": "マクラーレン、ヨーク・セントラルで木造オフィス計画",
-   "summary_ja": "ヨーク市議会は、木造フレームを中心とした1,014戸の住宅と7階建てオフィスビルの詳細計画を承認した。"
-  },
-  {
-   "id": "98769f7de1b6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Clients must lead on competence, says government construction adviser",
-   "url": "https://www.constructionnews.co.uk/government/clients-must-lead-on-competence-says-government-construction-adviser-11-09-2026/",
-   "published": "2026-09-11T11:45+00:00",
-   "published_jst": "2026-09-11 20:45",
-   "summary": "Outgoing interim chief construction adviser Thouria Istephan has urged clients and funders to lead efforts to improve competence and safety across the built environment. The post Clients must lead on competence, says government construction adviser appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "クライアントが能力主導ですべきと政府顧問",
-   "summary_ja": "建設分野の暫定チーフアドバイザーが、環境全体の能力と安全性を向上させる主導をクライアントに求めた。"
-  },
-  {
-   "id": "c164bfeb0f84",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Alun Griffiths sale hits Tarmac’s bottom line for £36m",
-   "url": "https://www.constructionnews.co.uk/civils/alun-griffiths-sale-hits-tarmacs-bottom-line-for-36m-11-09-2026/",
-   "published": "2026-09-11T11:45+00:00",
-   "published_jst": "2026-09-11 20:45",
-   "summary": "Tarmac’s UK profit was hit for nearly £36m by the sale of Alun Griffiths, newly published accounts show. The materials giant sold civils firm Alun Griffiths Contractors to its previous owner Alun Griffiths in May 2025 for an undisclosed sum. The accounts reveal that the… The post Alun Griffiths sale",
-   "ai_related": false,
-   "title_ja": "Alun Griffiths売却でTarmacに3,600万ポンドの打撃",
-   "summary_ja": "公開された決算によると、Tarmacは子会社の売却により約3,600万ポンドの利益減少の影響を受けた。"
-  },
-  {
    "id": "7f63c25e8deb",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
@@ -694,81 +729,6 @@
    "published_jst": "2026-09-11 20:45",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "9ef8a4de8ae0",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Housing downturn holds back construction growth",
-   "url": "https://www.constructionnews.co.uk/sections/data/housing-downturn-holds-back-construction-growth-11-09-2026/",
-   "published": "2026-09-11T11:34+00:00",
-   "published_jst": "2026-09-11 20:34",
-   "summary": "The housebuiling slump is holdng back overall construction output, according to the latest official figures. The post Housing downturn holds back construction growth appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "住宅不況が建設業界の成長の足かせに",
-   "summary_ja": "最新の公式統計によると、住宅着工の低迷が全体の建設生産高を押し下げる要因となっている。"
-  },
-  {
-   "id": "09fcfd248f81",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "RTK reports token savings, but our cost benchmarks disagree",
-   "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-   "published": "2026-09-11T11:15+00:00",
-   "published_jst": "2026-09-11 20:15",
-   "summary": "Article URL: https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/ Comments URL: https://news.ycombinator.com/item?id=49656471 Points: 152 # Comments: 78",
-   "ai_related": true,
-   "title_ja": "RTKのトークン節約効果に疑問の声",
-   "summary_ja": "RTKがAIコーディングのコストを削減するという主張に対し、独自のコスト比較ベンチマークでは異なる結果が出ている。"
-  },
-  {
-   "id": "cf2a19e49eaa",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "RSK buys highways specialist",
-   "url": "https://www.constructionnews.co.uk/financial/ma/rsk-buys-highways-specialist-11-09-2026/",
-   "published": "2026-09-11T10:59+00:00",
-   "published_jst": "2026-09-11 19:59",
-   "summary": "Engineering and technical services firm RSK Group has acquired highways contractor Mason Street Furniture (MSF) for an undisclosed sum. The deal adds 175 staff to RSK and expands its capabilities in street lighting, traffic signs, highway technology, fibre networks and electric vehicle infrastructur",
-   "ai_related": false,
-   "title_ja": "RSKが道路専門企業を買収",
-   "summary_ja": "エンジニアリング企業RSKグループが道路関連請負業者を買収し、スタッフ175名増員と事業拡大を図る。"
-  },
-  {
-   "id": "8e10c98735ba",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Claude is only available to people over 18 years",
-   "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-   "published": "2026-09-11T10:48+00:00",
-   "published_jst": "2026-09-11 19:48",
-   "summary": "Article URL: https://support.claude.com/en/articles/15171100-age-assurance-on-claude Comments URL: https://news.ycombinator.com/item?id=49656225 Points: 624 # Comments: 622",
-   "ai_related": true,
-   "title_ja": "Claude、未成年者の利用が不可に",
-   "summary_ja": "AIアシスタント「Claude」の利用規約や年齢確認ポリシーが変更され、未成年者の利用が制限された。"
-  },
-  {
-   "id": "db9770c5a793",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fusion21 lines up £750m construction framework",
-   "url": "https://www.constructionnews.co.uk/contracts/fusion21-lines-up-750m-construction-framework-11-09-2026/",
-   "published": "2026-09-11T10:23+00:00",
-   "published_jst": "2026-09-11 19:23",
-   "summary": "Fusion21 has begun market engagement for a £750m construction and refurbishment framework covering public sector work across the UK. The procurement organisation planned to establish the four-year framework from 24 May 2027, with an estimated value of £900m including VAT. Fusion21 said the framework",
-   "ai_related": false,
-   "title_ja": "Fusion21、7.5億ポンドの建設枠組みを予定",
-   "summary_ja": "Fusion21は英国の公共部門工事を対象とした7.5億ポンド規模の4年間の建設・改修枠組みの市場参画を開始した。"
   },
   {
    "id": "1b62263b117d",
@@ -969,21 +929,6 @@
    "published_jst": "2026-09-11 17:40",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "82f050cf3849",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
-   "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
-   "published": "2026-09-11T08:11+00:00",
-   "published_jst": "2026-09-11 17:11",
-   "summary": "OpenAI is releasing the Agents API as a public beta. It lets developers build cloud agents that run autonomously for hours, execute code, and hand off tasks to sub-agents. There are no extra fees beyond token usage. Cloudflare, Vercel, and Oracle offer additional sandbox environments. The article Op",
-   "ai_related": true,
-   "title_ja": "OpenAI、新「Agents API」を開発者向けに公開",
-   "summary_ja": "数時間の自律実行やコード実行が可能なクラウドエージェントを開発できるAgents APIがパブリックベータとして公開された。"
   },
   {
    "id": "aaf701230185",
@@ -1580,19 +1525,6 @@
    "ai_related": true
   },
   {
-   "id": "d2a0d20f61f9",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "簡単に画面録画し不要部分カット＆AI音声ノイズ除去＆ファイルサイズ削減まで全部1本で完結する「VideoProc Converter AI」を使ってみた",
-   "url": "https://gigazine.net/news/20260911-videoproc-converter-ai/",
-   "published": "2026-09-11T00:00+00:00",
-   "published_jst": "2026-09-11 09:00",
-   "summary": "PC画面を録画して解説ムービーなどを作る場合、録画そのものは簡単でも、実際に人に見せられるムービーに仕上げようとすると「冒頭や末尾の不要部分を切る」「マイクに入ったノイズを消す」「ファイルサイズを小さくする」といった作業が必要になります。「VideoProc Converter AI」はPC画面の録画だけでなく編集やAIによる音声ノイズ除去、圧縮、変換などもまとめて実行できるということで、実際にVideoProc Converter AIだけを使ってPC画面の録画から完成品の書き出しまでやってみました。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "346c4c630b23",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -1619,6 +1551,19 @@
    "published_jst": "2026-09-11 08:39",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "ac0a905edf47",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ガルフとシングテル、タイ・シンガポール間の新海底ケーブルを建設へ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16akpLVS1sWktWUTJEc25QMUlRT0xDMVFLcE55NXd2UEVONDZOemFzRFB1Ql92UTlQUmkybzlEdm0yY1VSV25HX3pNN1pESEFDMjg1S1hIWjZUY2xaMVpRbC1WOXJQTTB3X2N6aEZ5Z3lQRFJT?oc=5",
+   "published": "2026-09-10T23:35+00:00",
+   "published_jst": "2026-09-11 08:35",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "08e84eb5a927",
@@ -1780,7 +1725,7 @@
   },
   {
    "id": "32933e40f246",
-   "source": "moomoo.com",
+   "source": "Moomoo",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1908,6 +1853,19 @@
    "ai_related": true
   },
   {
+   "id": "6f2cc7e16b4c",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "フィーチャーインタビュー・TOTO 田村信也社長",
+   "url": "https://www.kensetsunews.com/archives/1283894",
+   "published": "2026-09-10T19:55+00:00",
+   "published_jst": "2026-09-11 04:55",
+   "summary": "【ウォシュレットなど海外展開／半導体は大幅増収増益】 ２０２５年度決算では売り上げ、利益ともに過去最… The post フィーチャーインタビュー・TOTO 田村信也社長 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "f3e3e40f7283",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -1970,19 +1928,6 @@
    "published": "2026-09-10T19:55+00:00",
    "published_jst": "2026-09-11 04:55",
    "summary": "大阪府門真市は、第五中学校区小学校の校舎整備について、近く建設工事の一般競争入札を公告する。２０２… The post 近く一般入札公告/第五中区小学校校舎整備/門真市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "6f2cc7e16b4c",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "フィーチャーインタビュー・TOTO 田村信也社長",
-   "url": "https://www.kensetsunews.com/archives/1283894",
-   "published": "2026-09-10T19:55+00:00",
-   "published_jst": "2026-09-11 04:55",
-   "summary": "【ウォシュレットなど海外展開／半導体は大幅増収増益】 ２０２５年度決算では売り上げ、利益ともに過去最… The post フィーチャーインタビュー・TOTO 田村信也社長 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2102,21 +2047,6 @@
    "summary_ja": "自分が人間だとネットに思い込ませようとするボットの心の内を覗く。"
   },
   {
-   "id": "11e52680622e",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time",
-   "url": "https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/",
-   "published": "2026-09-10T17:47+00:00",
-   "published_jst": "2026-09-11 02:47",
-   "summary": "OpenAI releases GPT-Live-1 as a developer API. The full-duplex speech model scores 80.1 percent in interactivity tests, up from 45.4 percent for its predecessor. At $0.05 per minute, it's not cheap. The article OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time ",
-   "ai_related": true,
-   "title_ja": "OpenAIが同時双方向通話API「GPT-Live-1」発表",
-   "summary_ja": "全二重音声モデルで対話テストのスコアが向上。価格は1分あたり0.05ドルで安くはない。"
-  },
-  {
    "id": "bb541ac986c0",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2130,21 +2060,6 @@
    "ai_related": true,
    "title_ja": "インドのPocket FM、売上高が2倍の5億ドルに",
    "summary_ja": "AIが音声コンテンツの93%を生成し、制作コストを約80分の1に削減している。"
-  },
-  {
-   "id": "f61f3b4b6940",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Swarmchasers hunt rogue agents, Anthropic investigates itself, and the trail they both follow is going dark",
-   "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark/",
-   "published": "2026-09-10T16:33+00:00",
-   "published_jst": "2026-09-11 01:33",
-   "summary": "Independent investigators have now found traces of suspected OpenAI agents on more than 30 public services, from wikis to RubyGems. At the same time, Anthropic shows how Claude Mythos 5 declared real systems a simulation to itself, uploaded a doctored package to PyPI, and even fooled the oversight m",
-   "ai_related": true,
-   "title_ja": "不正AIを追う調査とAnthropicの独自調査の行方",
-   "summary_ja": "独立調査員が30以上の公開サービスでOpenAIエージェントの痕跡を発見。一方でAnthropicも調査を行っている。"
   },
   {
    "id": "683b94332d9b",
@@ -2422,51 +2337,6 @@
    "summary_ja": "受注残高が40億ポンドを突破する中、オーガニック成長率は25%に達した。"
   },
   {
-   "id": "f1a75e0fe92e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "How the construction champion quietly disappeared",
-   "url": "https://www.constructionnews.co.uk/government/how-the-construction-champion-quietly-disappeared-10-09-2026/",
-   "published": "2026-09-10T11:45+00:00",
-   "published_jst": "2026-09-10 20:45",
-   "summary": "Labour’s former government construction champion Mike Reader has told Construction News that the \"business champion\" scheme was wound down without any formal announcement to the sectors it represented. The MP for Northampton South said the initiative, which was created to give backbench MPs a voice…",
-   "ai_related": false,
-   "title_ja": "建設業界の支援担当がひそかに消滅した経緯",
-   "summary_ja": "労働党の元建設業界担当マイク・リーダー氏が、代表セクターへの正式な通知なしに制度が終了したと明かした。"
-  },
-  {
-   "id": "a66b04f30165",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon firms drawn into fire safety dispute",
-   "url": "https://www.constructionnews.co.uk/legal/willmott-dixon-firms-drawn-into-113m-fire-safety-dispute-10-09-2026/",
-   "published": "2026-09-10T11:45+00:00",
-   "published_jst": "2026-09-10 20:45",
-   "summary": "A housing association is claiming a three-block scheme built by a former Willmott Dixon subsidiary should be demolished and rebuilt over alleged fire-safety defects it says could lead to structural collapse, death or serious injury. Clarion Housing Association and its parent Clarion Housing Group ar",
-   "ai_related": true,
-   "title_ja": "ウィルモット・ディクソン系企業が火災安全問題に直面",
-   "summary_ja": "住宅協会が、火災安全上の欠陥を理由に元子会社が建てた集合住宅の取り壊しと再建設を求めている。"
-  },
-  {
-   "id": "41686a0e21bf",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction champion role quietly scrapped",
-   "url": "https://www.constructionnews.co.uk/government/construction-champion-role-quietly-scrapped-10-09-2026/",
-   "published": "2026-09-10T11:45+00:00",
-   "published_jst": "2026-09-10 20:45",
-   "summary": "The scheme was \"a great idea, poorly executed\", the government's former construction champion Mike Reader tells CN. The post Construction champion role quietly scrapped appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "政府の建設推進役の役職がひそかに廃止",
-   "summary_ja": "この制度は「素晴らしいアイデアだが、実行が不十分だった」と元政府建設担当のマイク・リーダー氏が語る。"
-  },
-  {
    "id": "77950e64a14c",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -2480,105 +2350,6 @@
    "ai_related": false,
    "title_ja": "Higgins、イーリング地区の再開発再開へ",
    "summary_ja": "グリーンマン団地再開発における最後の400戸を完成させるため、Higgins社が起用された。"
-  },
-  {
-   "id": "6be9484307df",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Mathematicians want proof OpenAI didn’t use their work",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-   "published": "2026-09-10T11:00+00:00",
-   "published_jst": "2026-09-10 20:00",
-   "summary": "Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward accusing the AI giant of unet",
-   "ai_related": true,
-   "title_ja": "数学者、OpenAIにデータの無断使用の証明を要求",
-   "summary_ja": "OpenAIの数学的発見を巡り、別の研究者がデータ利用の正当性に疑問を呈している。未公開モデルの恩恵を受けたかを巡り議論が勃発。"
-  },
-  {
-   "id": "bd0657d2bfec",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Powering AI is an architecture problem",
-   "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
-   "published": "2026-09-10T11:00+00:00",
-   "published_jst": "2026-09-10 20:00",
-   "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities ",
-   "ai_related": true,
-   "title_ja": "AIの電力供給は建築・構造上の問題である",
-   "summary_ja": "バージニア州アッシュバーンで送電線の故障が発生し、世界最大のデータセンター網で数秒間に3ギガワット超の負荷が失われた。"
-  },
-  {
-   "id": "309605f3e6ba",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Why Ongoing Crane Training Is Essential for Technology Advancements Onsite",
-   "url": "https://constructionexec.com/article/why-ongoing-crane-training-is-essential-for-technology-advancements-onsite/?utm_source=rss&utm_medium=rss&utm_campaign=why-ongoing-crane-training-is-essential-for-technology-advancements-onsite",
-   "published": "2026-09-10T10:00+00:00",
-   "published_jst": "2026-09-10 19:00",
-   "summary": "Modern cranes feature sophisticated sensors, digital controls and integrated safety computers that require specialized knowledge to operate effectively. The post Why Ongoing Crane Training Is Essential for Technology Advancements Onsite first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "現場の技術進化に継続的なクレーン訓練が不可欠な理由",
-   "summary_ja": "最新のクレーンは高度なセンサーや安全コンピュータを備えており、効果的な操作には専門知識が必要である。"
-  },
-  {
-   "id": "1671b7e77ffd",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "青葉区芋沢に総額4000億円規模のAIデータセンター建設へ＜宮城・仙台＞（ミヤギテレビ）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91NnZyRmNKa0Rpa055eWNCaFBLMXZhbnFTZFRJX3phRjVTTENVaFdRRVRrd2xBNm5panp2V3dkNFpxczR2cFVfWURrLU5iQm9TNmIzWkViQVhweG9LQl9tZkpHdU9CZ1piY1d5cXZpWk1DNzhibmdZWmJaYS1aZDA?oc=5",
-   "published": "2026-09-10T09:32+00:00",
-   "published_jst": "2026-09-10 18:32",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "841b9a10b781",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "“Google弱体化説”にDeepMindエンジニアが反論 「最新モデルはセキュリティでMythos超え」、「Gemini 4」にも言及",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001381/",
-   "published": "2026-09-10T09:23+00:00",
-   "published_jst": "2026-09-10 18:23",
-   "summary": "「Googleはもはやフロンティアモデルを持っていない」というX上の意見に対してGoogle DeepMindのエンジニアが「最新モデルはセキュリティでMythos超え」だと反論した。",
-   "ai_related": true
-  },
-  {
-   "id": "0a2c18d5abef",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "まさかの「AIが面接に来た」 話し方に“違和感” AIベンチャー代表が動画公開し注意喚起",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/10/2000001378/",
-   "published": "2026-09-10T08:16+00:00",
-   "published_jst": "2026-09-10 17:16",
-   "summary": "「人生で初めてAIが面接に来た」――AIベンチャーKOWRO（コヲロ、東京都港区）の原田祐二CEOは、自身のXアカウントでこのような動画を公開した。",
-   "ai_related": true
-  },
-  {
-   "id": "7694ad6ed70d",
-   "source": "ArchDaily",
-   "source_id": "archdaily",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Digital Worlds and the Limits of Frictionless Space: Rethinking Scale and Materiality",
-   "url": "https://www.archdaily.com/1184807/digital-worlds-and-the-limits-of-frictionless-space-rethinking-scale-and-materiality",
-   "published": "2026-09-10T07:30+00:00",
-   "published_jst": "2026-09-10 16:30",
-   "summary": "Historically, the way we design has been closely linked to the way we build. Architecture moved through physical testing , trial and error, projection drawings, mock-ups, and physical models : each introducing a new layer of abstraction, but still remaining tied to material, scale, and construction ",
-   "ai_related": true,
-   "title_ja": "デジタル世界と摩擦なき空間の限界：スケールと物質性の再考",
-   "summary_ja": "建築の設計手法は常に構築手法と密接に関連してきた。試行錯誤や模型など、各プロセスが新たなレイヤーを生み出している。"
   }
  ]
 }
