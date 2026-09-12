@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-09-12T22:34+00:00",
- "generated_at_jst": "2026-09-13 07:34",
+ "generated_at": "2026-09-12T23:03+00:00",
+ "generated_at_jst": "2026-09-13 08:03",
  "window_hours": 48,
  "counts": {
-  "ai_global": 48,
-  "construction_japan": 33,
-  "ai_japan": 27,
-  "construction_global": 25
+  "ai_global": 50,
+  "ai_japan": 24,
+  "construction_japan": 32,
+  "construction_global": 18
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -29,6 +33,45 @@
    "ai_related": true,
    "title_ja": "Perplexity、GPT-6 Astraを採用",
    "summary_ja": "PerplexityはAstraを活用し、通信文の作成やソフトウェアの変更、本番システムの監視を行っている。以前のモデルに比べ確認頻度も大幅に減少した。"
+  },
+  {
+   "id": "92e218ff3627",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "ロボット掃除機の撮影機能で不倫の証拠を掴んだ男性が逆にプライバシー侵害で訴えられてしまう",
+   "url": "https://gigazine.net/news/20260913-man-jailed-record-wife-adultery/",
+   "published": "2026-09-12T23:00+00:00",
+   "published_jst": "2026-09-13 08:00",
+   "summary": "妻の不倫現場をロボット掃除機を通じて偶然見てしまった男性が、その映像を証拠として裁判を起こし、勝訴しました。ところが今度は妻からプライバシー侵害で反訴され、罰金と懲役刑を食らってしまうという事件が台湾で発生しました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "4022c7a7f9b5",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI’s rogue AI tried to hack another company in May",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+   "published": "2026-09-12T21:41+00:00",
+   "published_jst": "2026-09-13 06:41",
+   "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems d",
+   "ai_related": true
+  },
+  {
+   "id": "fe9d508504e5",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+   "published": "2026-09-12T21:16+00:00",
+   "published_jst": "2026-09-13 06:16",
+   "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was be",
+   "ai_related": true
   },
   {
    "id": "a7f63333272f",
@@ -104,6 +147,19 @@
    "summary_ja": "Anthropicのダリオ・アモデイCEOはAI開発のペースを落とす時期だと述べ、安全性確保のため第三者機関にモデルへのアクセスを許可する方針を示した。"
   },
   {
+   "id": "3419bf9afa6b",
+   "source": "山陽新聞",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ドローン測量・インフラ点検・建設DX向け産業用ドローン無料セミナーを9月25日（金）徳島で開催。DJI Matrice 400・Matrice 4シリーズ・Dock 3を実演紹介。",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VbXA2eGJEeEhSU3RsV1AwRWpoUVFSZTNldkcwWmM5ajZWUW8yeVNxZlBJTTMwdHFuZklBLWlFcXRrU2hBck9hNTRpWmpoUVQteWc?oc=5",
+   "published": "2026-09-12T15:49+00:00",
+   "published_jst": "2026-09-13 00:49",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "178753f96dee",
    "source": "AINOW",
    "source_id": "ainow",
@@ -139,7 +195,7 @@
    "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
    "published": "2026-09-12T15:08+00:00",
    "published_jst": "2026-09-13 00:08",
-   "summary": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 323 # Comments: 219",
+   "summary": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 330 # Comments: 231",
    "ai_related": true,
    "title_ja": "NvidiaはAIの中央銀行である",
    "summary_ja": "AI業界におけるNvidiaの圧倒的な経済的・技術的影響力を中央銀行に例えて報じる記事の議論やコメントを紹介している。"
@@ -346,19 +402,6 @@
    "published": "2026-09-12T08:00+00:00",
    "published_jst": "2026-09-12 17:00",
    "summary": "音楽ストリーミングサービスのSpotifyが、Claude Codeで大量のトークンを消費する単純作業を別のAIモデルに任せることでトークン消費を大幅に削減する手法を公開しました。Spotifyのディミトリ・マズマノフ氏は、この手法を検証した結果、大量のファイル読み込みを委譲するテストでClaude側のトークン消費を平均約90％削減できたと報告しています。 Portal by Spotify cut my Claude Code token usage by 90% | Spotify Engineeringhttps://engineering.atspotify.com/2026/9/po",
-   "ai_related": true
-  },
-  {
-   "id": "11108b0895c7",
-   "source": "Межа. Новини України.",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ソフトバンクがRoze AIを設立へ、ロボットでデータセンター建設を自動化すると発表",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aTGdFZzZvMWs0Wl9xY05xWFpybFU0S0FDZWtZNXlmU1VFUW1QbnUyOEZJaFhSX1ZWUlgxZDV5MDZjV0tWaHlWaWhHa0gwTGFsNzFpY1BoWUVYUmVJd0Jsa1VTRXZ1QQ?oc=5",
-   "published": "2026-09-12T07:24+00:00",
-   "published_jst": "2026-09-12 16:24",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -892,111 +935,6 @@
    "ai_related": false
   },
   {
-   "id": "f06b27ca778c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Triton Construction profit rises despite £12m fall in turnover",
-   "url": "https://www.constructionnews.co.uk/financial/triton-construction-profit-rises-despite-12m-fall-in-turnover-11-09-2026/",
-   "published": "2026-09-11T11:45+00:00",
-   "published_jst": "2026-09-11 20:45",
-   "summary": "Triton Construction has seen its profit rise by 82 per cent despite a £12m fall in turnover. In its accounts for the year to 31 March 2026, the Yorkshire-based contractor also revealed it is making progress in defence. Its pre-tax profit rose to £1.1m from… The post Triton Construction profit rises ",
-   "ai_related": false,
-   "title_ja": "売上高減少にもかかわらず増益となったTriton Construction",
-   "summary_ja": "売上高が減少したものの、Triton Constructionの利益は82%増加した。"
-  },
-  {
-   "id": "7a13d35be106",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "McLaren set for another timber-frame office at York Central",
-   "url": "https://www.constructionnews.co.uk/contracts/mclaren-set-for-another-timber-frame-office-at-york-central-11-09-2026/",
-   "published": "2026-09-11T11:45+00:00",
-   "published_jst": "2026-09-11 20:45",
-   "summary": "McLaren Construction is set to deliver a major York Central phase featuring 1,014 homes and a seven-storey office building using a largely timber frame. City of York Council councillors last night approved detailed plans covering 10.5ha of the wider city-centre regeneration scheme. The package is… T",
-   "ai_related": false,
-   "title_ja": "マクラーレンがヨークセントラルで木造オフィスを計画",
-   "summary_ja": "ヨーク市議会が、大部分に木造フレームを使用した大規模なオフィスビルと住宅の計画を承認した。"
-  },
-  {
-   "id": "98769f7de1b6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Clients must lead on competence, says government construction adviser",
-   "url": "https://www.constructionnews.co.uk/government/clients-must-lead-on-competence-says-government-construction-adviser-11-09-2026/",
-   "published": "2026-09-11T11:45+00:00",
-   "published_jst": "2026-09-11 20:45",
-   "summary": "Outgoing interim chief construction adviser Thouria Istephan has urged clients and funders to lead efforts to improve competence and safety across the built environment. The post Clients must lead on competence, says government construction adviser appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "建設業界の安全確保には顧客の主導が必要",
-   "summary_ja": "建設アドバイザーのThouria Istephan氏が、安全性向上に向けた顧客や出資者の主導を促した。"
-  },
-  {
-   "id": "c164bfeb0f84",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Alun Griffiths sale hits Tarmac’s bottom line for £36m",
-   "url": "https://www.constructionnews.co.uk/civils/alun-griffiths-sale-hits-tarmacs-bottom-line-for-36m-11-09-2026/",
-   "published": "2026-09-11T11:45+00:00",
-   "published_jst": "2026-09-11 20:45",
-   "summary": "Tarmac’s UK profit was hit for nearly £36m by the sale of Alun Griffiths, newly published accounts show. The materials giant sold civils firm Alun Griffiths Contractors to its previous owner Alun Griffiths in May 2025 for an undisclosed sum. The accounts reveal that the… The post Alun Griffiths sale",
-   "ai_related": false,
-   "title_ja": "Alun Griffithsの売却でTarmacが3,600万ポンドの損失",
-   "summary_ja": "最新の決算により、Alun Griffiths売却に伴いTarmacの利益が約3,600万ポンド押し下げられたことが判明した。"
-  },
-  {
-   "id": "9ef8a4de8ae0",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Housing downturn holds back construction growth",
-   "url": "https://www.constructionnews.co.uk/sections/data/housing-downturn-holds-back-construction-growth-11-09-2026/",
-   "published": "2026-09-11T11:34+00:00",
-   "published_jst": "2026-09-11 20:34",
-   "summary": "The housebuiling slump is holdng back overall construction output, according to the latest official figures. The post Housing downturn holds back construction growth appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "住宅市場の低迷が建設業の成長を抑制",
-   "summary_ja": "最新の公式統計によると、住宅建設の低迷が全体の建設生産を抑制している。"
-  },
-  {
-   "id": "cf2a19e49eaa",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "RSK buys highways specialist",
-   "url": "https://www.constructionnews.co.uk/financial/ma/rsk-buys-highways-specialist-11-09-2026/",
-   "published": "2026-09-11T10:59+00:00",
-   "published_jst": "2026-09-11 19:59",
-   "summary": "Engineering and technical services firm RSK Group has acquired highways contractor Mason Street Furniture (MSF) for an undisclosed sum. The deal adds 175 staff to RSK and expands its capabilities in street lighting, traffic signs, highway technology, fibre networks and electric vehicle infrastructur",
-   "ai_related": false,
-   "title_ja": "RSKが道路専門の建設業者を買収",
-   "summary_ja": "エンジニアリング企業のRSK Groupが、道路建設業者Mason Street Furnitureを買収した。"
-  },
-  {
-   "id": "db9770c5a793",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fusion21 lines up £750m construction framework",
-   "url": "https://www.constructionnews.co.uk/contracts/fusion21-lines-up-750m-construction-framework-11-09-2026/",
-   "published": "2026-09-11T10:23+00:00",
-   "published_jst": "2026-09-11 19:23",
-   "summary": "Fusion21 has begun market engagement for a £750m construction and refurbishment framework covering public sector work across the UK. The procurement organisation planned to establish the four-year framework from 24 May 2027, with an estimated value of £900m including VAT. Fusion21 said the framework",
-   "ai_related": false,
-   "title_ja": "Fusion21が7億5000万ポンドの建設枠組みを準備",
-   "summary_ja": "Fusion21は、英国全土の公共部門を対象とした7億5000万ポンド規模の建設・改修枠組みの市場参入を開始した。"
-  },
-  {
    "id": "1b62263b117d",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1127,7 +1065,7 @@
   },
   {
    "id": "acb37e67db00",
-   "source": "Excite エキサイト",
+   "source": "excite.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1224,7 +1162,7 @@
   },
   {
    "id": "b265c3e7cc4b",
-   "source": "built.itmedia.co.jp",
+   "source": "ITmedia",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1308,7 +1246,7 @@
   },
   {
    "id": "843fb0370b9e",
-   "source": "news.livedoor.com",
+   "source": "ライブドアニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1386,7 +1324,7 @@
   },
   {
    "id": "34a16f631a0e",
-   "source": "newsweekjapan.jp",
+   "source": "ニューズウィーク日本版",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1558,19 +1496,6 @@
    "ai_related": true
   },
   {
-   "id": "331a0341e77f",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "GeminiのWindowsアプリが登場、ショートカットキーでGeminiを呼び出せる",
-   "url": "https://gigazine.net/news/20260911-gemini-desktop-app/",
-   "published": "2026-09-11T02:13+00:00",
-   "published_jst": "2026-09-11 11:13",
-   "summary": "Windows版のGeminiアプリが登場しました。簡単なショートカットキーでGeminiを呼び出すことが可能です。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "265b6ba91fb3",
    "source": "starnewskorea.com",
    "source_id": "gnews_kensetsu_ai",
@@ -1663,7 +1588,7 @@
   },
   {
    "id": "becc94137b4e",
-   "source": "bunshun.jp",
+   "source": "文春オンライン",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1837,58 +1762,6 @@
    "published_jst": "2026-09-11 08:11",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "ea0120803f99",
-   "source": "digital-construction.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "オペレータの操作をAIが学習。日立建機、油圧ショベルの自律運転へフィジカルAI開発に着手、国家プロジェクトGENIACに採択",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5odEExUWQ1WElBSGRnV1hlZEVCeWdFMjdNWUFuN1Axb3VhVTZDWkJ0QTFVbHEzTzVSc3RCeXBzamRGNGpZQnhYaVBmd0RVMjRYUFZz?oc=5",
-   "published": "2026-09-10T23:03+00:00",
-   "published_jst": "2026-09-11 08:03",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "e7934176ec29",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "業務の30％をAIエージェントがこなすIT運用部門、なぜ「パワポ文書」を禁止したのか？",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2608/20/news009.html",
-   "published": "2026-09-10T23:00+00:00",
-   "published_jst": "2026-09-11 08:00",
-   "summary": "業務の約30％をAIエージェントに任せているNTTドコモソリューションズのIT運用部門。同部門が、AI活用に取り組む中で、日報や週報での「パワポ文書」を禁止したのはなぜか。一見、デジタル化に逆行するようにも見える施策の狙いを聞いた。",
-   "ai_related": true
-  },
-  {
-   "id": "4460739983e9",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「危険コマンド停止率、AIは89％、人間だと14％」 Claude Codeが「自動モード」をデフォルトにした理由",
-   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/11/news018.html",
-   "published": "2026-09-10T23:00+00:00",
-   "published_jst": "2026-09-11 08:00",
-   "summary": "Anthropicは「Claude Code」のデフォルトモードを、都度承認から「自動」に切り替える。1053人を対象にした対照実験では、危険なコマンドを検知した割合が人のレビューを大きく上回ったという。",
-   "ai_related": true
-  },
-  {
-   "id": "bc33baa9e2d7",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "たった1年で10倍に急拡大 “一見地味”なAIガバナンス・リスク管理市場がなぜ？",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2609/11/news026.html",
-   "published": "2026-09-10T23:00+00:00",
-   "published_jst": "2026-09-11 08:00",
-   "summary": "ITRの調査によると、国内のAIガバナンス・リスク管理市場は2025年度に前年度の10倍に拡大した。AIブームの中でも、比較的注目度が高くなかったこの領域が急成長している理由とは。",
-   "ai_related": true
   }
  ]
 }
