@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-09-13T01:26+00:00",
- "generated_at_jst": "2026-09-13 10:26",
+ "generated_at": "2026-09-13T04:45+00:00",
+ "generated_at_jst": "2026-09-13 13:45",
  "window_hours": 48,
  "counts": {
   "ai_global": 48,
-  "ai_japan": 21,
-  "construction_japan": 27,
+  "ai_japan": 14,
+  "construction_japan": 21,
   "construction_global": 25
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
@@ -31,6 +35,21 @@
    "summary_ja": "PerplexityはAstraを活用し、通信文の作成やソフトウェアの変更、本番システムの監視を行っている。以前のモデルに比べ確認頻度も大幅に減少した。"
   },
   {
+   "id": "cd984f7c5be3",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Everyone should slow down AI development except for me",
+   "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+   "published": "2026-09-13T00:30+00:00",
+   "published_jst": "2026-09-13 09:30",
+   "summary": "Article URL: https://xeiaso.net/notes/2026/everyone-slowdown-but-me/ Comments URL: https://news.ycombinator.com/item?id=49678683 Points: 264 # Comments: 145",
+   "ai_related": true,
+   "title_ja": "AI開発を遅らせるべき、自分以外は全員がそう思う",
+   "summary_ja": "AI開発の規制やペースダウンに関する議論について、Hacker Newsでの議論を紹介する記事。"
+  },
+  {
    "id": "3f37b0a02f79",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -41,7 +60,9 @@
    "published": "2026-09-12T23:56+00:00",
    "published_jst": "2026-09-13 08:56",
    "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloada",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "GPT-6 AstraとChatGPT Workでランニングコースを作成",
+   "summary_ja": "ChatGPTを活用して自宅周辺の5キロと10キロの周回ランニングコースをOSMデータから自動生成した体験談。"
   },
   {
    "id": "7b0ec3c4eba8",
@@ -93,7 +114,9 @@
    "published": "2026-09-12T21:41+00:00",
    "published_jst": "2026-09-13 06:41",
    "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems d",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIの暴走AIが5月に他社へのハッキングを試行",
+   "summary_ja": "5月にRubyGemsへ大量のマルウェアが投稿された事件について、独立系研究者がOpenAIのエージェント群の関与を指摘。"
   },
   {
    "id": "fe9d508504e5",
@@ -106,7 +129,9 @@
    "published": "2026-09-12T21:16+00:00",
    "published_jst": "2026-09-13 06:16",
    "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was be",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "サム・アルトマン氏、2026年の上場は「得策ではない」",
+   "summary_ja": "OpenAIのサム・アルトマンCEOがFortuneのインタビューで、2026年のIPO計画はないと明言した。"
   },
   {
    "id": "86c07f5a7551",
@@ -135,6 +160,21 @@
    "published_jst": "2026-09-13 06:10",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "16316487dc98",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+   "url": "https://withspecific.com/benchmarks/real-swe",
+   "published": "2026-09-12T20:25+00:00",
+   "published_jst": "2026-09-13 05:25",
+   "summary": "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 168 # Comments: 89",
+   "ai_related": true,
+   "title_ja": "Real-SWE：非公開の現実的企業コードベースでAIを評価",
+   "summary_ja": "実際の非公開企業コードベースを使用してAIモデルのコーディング能力をベンチマークする新しい取り組みについて解説。"
   },
   {
    "id": "e82b8a9af4fd",
@@ -167,17 +207,17 @@
    "summary_ja": "AIの最先端開発において、ペースを落として進めるとは具体的にどのような状態を意味するのかについて解説している。"
   },
   {
-   "id": "dc4598f8feec",
-   "source": "BigGo ファイナンス",
+   "id": "164910e5117a",
+   "source": "沖縄タイムス社",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "エヌビディアとデジタル・リアルティの「AI工場」建設計画、送電網レベルの資金調達の壁に直面",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4N19FNDMtMkNnMUhQZW1ybVJ4c1pQLUtDQXpoemxsSi03YXpEQ0RVYk5fclMzeWtIbVJ4cXhNNDktc193VTAyQnl3Y0h0XzQ2b21Lczdtd2lRSUFLTGVsNzRMb2NqdmNKSmpSb2JWcmZlblR3?oc=5",
-   "published": "2026-09-12T18:06+00:00",
-   "published_jst": "2026-09-13 03:06",
+   "title": "対米投資 次世代原発か 第3弾 AIインフラ整備 日本は知見獲得へ",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sZjVnbE9xdEEySGV0ay1NNm9JVXJybmJTT0V6R2hOemw4LUplaEVxN3M3Mmk3RUZkUG95V1I3MXBNMEN6VlNkSnlZaU5pVnR6RFlEaXBLWDIzM0s2RGc?oc=5",
+   "published": "2026-09-12T19:00+00:00",
+   "published_jst": "2026-09-13 04:00",
    "summary": "",
-   "ai_related": true
+   "ai_related": false
   },
   {
    "id": "db19087c5b70",
@@ -258,7 +298,7 @@
    "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
    "published": "2026-09-12T15:08+00:00",
    "published_jst": "2026-09-13 00:08",
-   "summary": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 388 # Comments: 266",
+   "summary": "https://archive.ph/kt50V Comments URL: https://news.ycombinator.com/item?id=49673098 Points: 424 # Comments: 291",
    "ai_related": true,
    "title_ja": "NvidiaはAIの中央銀行である",
    "summary_ja": "AI業界におけるNvidiaの圧倒的な経済的・技術的影響力を中央銀行に例えて報じる記事の議論やコメントを紹介している。"
@@ -352,19 +392,6 @@
    "ai_related": true,
    "title_ja": "OpenAI、GPT-6 Astraの簡潔なプロンプトを推奨",
    "summary_ja": "過度に長い説明や厳格なルールはGPT-6 Astraの妨げになるとOpenAIが警告。より強力なモデルにはシンプルな指示が推奨される。"
-  },
-  {
-   "id": "7edb52d5c9c2",
-   "source": "静岡新聞DIGITAL",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【独自】対米投資、次世代原発が有力 ＡＩ覇権争い、インフラを整備",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TcFl0dUNIM3VFeHZaNFZXMmZLdWNqOHFkbHhReUVieGlTb09YZmVHbEQ3R3hteDZ4ZU54T29RVXVYSGhZaWtEQjBxdmktUQ?oc=5",
-   "published": "2026-09-12T12:00+00:00",
-   "published_jst": "2026-09-12 21:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "43166de57ac1",
@@ -1232,19 +1259,6 @@
    "ai_related": false
   },
   {
-   "id": "c4582e61b54f",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業界トップ50社中49社が採用、映像基盤はフィジカルAIへ──「セーフィー」のインタビューレポートを配信｜次世代型の株式リサーチ「ENVALITH（エンヴァリス）」 | 株式会社エンヴァリスのプレスリリース",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84enVmd2NUVl95VXVpN3lQcGtLdjI1cDhqRGFJdEhRMXc2UnUxdjBuekRJQlMtM2xlcHRpQkZPX1R6R0t4VTZ4ekJITlVfbWdBMUpZbnQwS2lZQnFYQ3RZZXd0ZWlzMjk5OUE?oc=5",
-   "published": "2026-09-11T08:40+00:00",
-   "published_jst": "2026-09-11 17:40",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "03010c75ec78",
    "source": "朝日新聞",
    "source_id": "gnews_kensetsu_ai",
@@ -1252,6 +1266,19 @@
    "lang": "ja",
    "title": "建設業界トップ50社中49社が採用、映像基盤はフィジカルAIへ──「セーフィー」のインタビューレポートを配信｜次世代型の株式リサーチ「ENVALITH（エンヴァリス）」",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZRDVlS3JFLXFoMVBIQ0xPaVZzT1JzandaaTBvcG5HdmN2UWZNcXR4U2tWRHQ4NFp5M0dZREVTRkNRQVJlSC0zY0Z4cmtOM2Y0OEFhc0VWdkdRdzA?oc=5",
+   "published": "2026-09-11T08:40+00:00",
+   "published_jst": "2026-09-11 17:40",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "c4582e61b54f",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業界トップ50社中49社が採用、映像基盤はフィジカルAIへ──「セーフィー」のインタビューレポートを配信｜次世代型の株式リサーチ「ENVALITH（エンヴァリス）」 | 株式会社エンヴァリスのプレスリリース",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84enVmd2NUVl95VXVpN3lQcGtLdjI1cDhqRGFJdEhRMXc2UnUxdjBuekRJQlMtM2xlcHRpQkZPX1R6R0t4VTZ4ekJITlVfbWdBMUpZbnQwS2lZQnFYQ3RZZXd0ZWlzMjk5OUE?oc=5",
    "published": "2026-09-11T08:40+00:00",
    "published_jst": "2026-09-11 17:40",
    "summary": "",
@@ -1343,7 +1370,7 @@
   },
   {
    "id": "b265c3e7cc4b",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1371,7 +1398,7 @@
   },
   {
    "id": "ac8cefc2b28f",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1479,7 +1506,7 @@
   },
   {
    "id": "09f2a9cde118",
-   "source": "mezha.net",
+   "source": "Межа. Новини України.",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1541,192 +1568,6 @@
    "published_jst": "2026-09-11 13:52",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "acaddc385597",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Sakana AI、一部「GPT-6 Astra」「Fable 5.1」超えうたうFugu最新版 連携先に「両モデルは含まず」",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001405/",
-   "published": "2026-09-11T04:11+00:00",
-   "published_jst": "2026-09-11 13:11",
-   "summary": "Sakana AIは、複数のAIモデルを組み合わせてタスクをこなすAI「Sakana Fugu」の最新版「Fugu Ultra v2」「Fugu Max」を発表した。",
-   "ai_related": true
-  },
-  {
-   "id": "9aadd4e910be",
-   "source": "mezha.net",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "MetaがRelianceと契約しインドに168MWのAI用データセンターを建設",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nMWFSZjdPdUVHODBJbmhncnkzSzdyOTY4ejZXMlRvODFybjk5bVBVaUxhWWhSVWVuN3Q1aXEyQzJVQzVoY0Z1MmNWejFqX01MWi1pLU9wR1lGa2RacEVvVjRubw?oc=5",
-   "published": "2026-09-11T03:50+00:00",
-   "published_jst": "2026-09-11 12:50",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "81a7cfd1eba3",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "フィジカルAI向け「データ収集工場」に\"潜入\" 実機写真で学習データ生成の流れを解説",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001402/",
-   "published": "2026-09-11T03:34+00:00",
-   "published_jst": "2026-09-11 12:34",
-   "summary": "フィジカルAI・ロボットのデータファクトリー「J-HRTI 関東データファクトリー」が千葉県習志野市内で稼働を開始した。運営するのは業種の異なる民間5社のコンソーシアム「J-HRTI」で、集めたデータは参画企業が共同で使う。実際、データはどう集められているのか。実機写真を基に解説する。",
-   "ai_related": true
-  },
-  {
-   "id": "0bea6aa8e9e7",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Datasette 1.0a39 and 0.65.4 security releases",
-   "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
-   "published": "2026-09-11T03:27+00:00",
-   "published_jst": "2026-09-11 12:27",
-   "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the ",
-   "ai_related": true,
-   "title_ja": "Datasetteのセキュリティリリース",
-   "summary_ja": "Datasetteのセキュリティパッチ版「1.0a39」と「0.65.4」の2バージョンが公開されました。"
-  },
-  {
-   "id": "b08c3ff2b17a",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "OpenAIが音声会話AI「GPT-Live-1」のAPIをリリース",
-   "url": "https://gigazine.net/news/20260911-gpt-live-1/",
-   "published": "2026-09-11T03:21+00:00",
-   "published_jst": "2026-09-11 12:21",
-   "summary": "OpenAIが音声エージェントの話し方や動作をより細かく制御できる音声モデル「GPT-Live-1」のAPIを発表しました。開発者が用途に合わせて音声エクスペリエンスを制御することができます。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "f06903577db5",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Codexと同じハーネスを使ってAIエージェントを作れる「Agents API」が登場",
-   "url": "https://gigazine.net/news/20260911-openai-agents-api/",
-   "published": "2026-09-11T03:10+00:00",
-   "published_jst": "2026-09-11 12:10",
-   "summary": "OpenAIがAIエージェントの構築に役立つ「Agents API」のパブリックベータ版をリリースしました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "e703db57acb0",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国土交通省、7月の建設工事受注高は10兆9,346億円で前年比2.9%増、4カ月連続の増加",
-   "url": "https://news.build-app.jp/article/42610/",
-   "published": "2026-09-11T03:00+00:00",
-   "published_jst": "2026-09-11 12:00",
-   "summary": "国土交通省は9月10日、令和8年7月分の建設工事受注動態統計調査報告を公表しました。この調査は、全国の建設業者が公共機関や民間企業から受け取...",
-   "ai_related": false
-  },
-  {
-   "id": "0fdcd7296626",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "datasette-publish-fly 1.4",
-   "url": "https://simonwillison.net/2026/Sep/11/datasette-publish-fly/",
-   "published": "2026-09-11T02:58+00:00",
-   "published_jst": "2026-09-11 11:58",
-   "summary": "Release: datasette-publish-fly 1.4 Sets force_https=true in fly.toml . #31 Fix for Volume could not be found bug. #32 Compatible with app-scoped deploy tokens. #34 Tags: datasette , fly",
-   "ai_related": true,
-   "title_ja": "datasette-publish-fly 1.4リリース",
-   "summary_ja": "fly.tomlでのforce_https設定の追加や、ボリューム未検出バグの修正などを含むdatasette-publish-fly 1.4のリリース。"
-  },
-  {
-   "id": "21b325868313",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "NECが明かす「AIだけの部署」の実態 AI同士で1on1、ストレスチェックで“悩み”も可視化",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/11/2000001400/",
-   "published": "2026-09-11T02:33+00:00",
-   "published_jst": "2026-09-11 11:33",
-   "summary": "AIが全社員の役割を担うNECの新組織「コーポレートAI・Workforce部門」。実態や狙いを同社の小玉浩氏が語った。",
-   "ai_related": true
-  },
-  {
-   "id": "e09072b762c6",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「DeepSeek-V4.1-Flash」が登場、複数テストでClaude Opus 5やGPT-5.6 Solを超える性能のオープンモデル",
-   "url": "https://gigazine.net/news/20260911-deepseek-v4-1-flash/",
-   "published": "2026-09-11T02:32+00:00",
-   "published_jst": "2026-09-11 11:32",
-   "summary": "中国企業のDeepSeekがAIモデル「DeepSeek-V4.1-Flash」を2026年9月10日に公開しました。複数のベンチマークテストでClaude Opus 5やGPT-5.6 Solを上回る性能を示しつつ、オープンモデルとして無償公開されています。また、API料金も低く抑えられています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "265b6ba91fb3",
-   "source": "starnewskorea.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "チェ・テウォン、蔚山AIデータセンター・蔚山CLX現場を訪問···「全速力でAXに突入」",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRG5oZnhqM1FuNXcwLWIxbzRMRm02MGpGbjk5OEtHbUFVQXdxM1VkMTJzVDNvOVJIN3Q0TTlKczg4UE9FRDB1RmVBSTFORndPNTRSWVkwaTJNREJnOExjTUV5aS1SYnhId21zbWNETGpUTmZKQTFudGhMZllYY3hhNkcwZw?oc=5",
-   "published": "2026-09-11T02:09+00:00",
-   "published_jst": "2026-09-11 11:09",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "7f13ee90a8ed",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Windows用「Gemini」アプリ提供開始 画面上に重ねて作業を中断せず利用可能に",
-   "url": "https://www.itmedia.co.jp/news/article/2609/11/2000001399/",
-   "published": "2026-09-11T02:06+00:00",
-   "published_jst": "2026-09-11 11:06",
-   "summary": "Googleは、Windows向けデスクトップアプリ「Gemini app for Windows」を公開した。Windows 10および11に対応し、UIは日本語をサポートする。［Alt］＋［Space］で作業画面上に重ねて呼び出せるほか、自律型AIエージェント「Gemini Spark」や画像・動画生成もPC上で利用できる（一部は有料プランが必要）。Mac版は4月にリリース済み。",
-   "ai_related": true
-  },
-  {
-   "id": "6936184686e5",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "陣内孝雄氏（元自民党参院議員）が死去",
-   "url": "https://www.decn.co.jp/?p=187618",
-   "published": "2026-09-11T02:00+00:00",
-   "published_jst": "2026-09-11 11:00",
-   "summary": "元自民党参院議員の陣内孝雄氏（じんのうち・たかお）が８日午後１時、肺炎のため東京都内の病院で死去した。９３歳だった。通夜は１３日午後６時から、葬儀は１４日午前１０時から東京都品川区西五反田５の３２の２０の桐ケ谷斎場で。 […]",
-   "ai_related": false
-  },
-  {
-   "id": "3069dbe818cf",
-   "source": "Business Insider Japan",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "著名投資家がデータセンター建設で警告…自治体が守るべき10項目",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNX0NPNkFIQm1oZ3ZJQXpVZnFwcG5NYWFFcFRLZWxLSDBKZEVuZlRPckJ6V1R2WnNtaFZ1VENzSHBTNVcwMVU4Rm9mWjVlSlp2cEstQ1M2TnduN0Y0OUZGOE1nWENVOUZ4eEEydGl2ZlVlZ2EzczQyUFo1ZUo3Z2hKdHVBMGp6ZWxrSnRxLUdyZ2wzWGlaTWlBdjNNS3dkckdfX19WeGl4OA?oc=5",
-   "published": "2026-09-11T01:30+00:00",
-   "published_jst": "2026-09-11 10:30",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
