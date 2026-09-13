@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-09-13T22:38+00:00",
- "generated_at_jst": "2026-09-14 07:38",
+ "generated_at": "2026-09-13T23:11+00:00",
+ "generated_at_jst": "2026-09-14 08:11",
  "window_hours": 48,
  "counts": {
-  "ai_global": 31,
+  "ai_global": 29,
   "ai_japan": 10,
-  "construction_japan": 18
+  "construction_japan": 17
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
@@ -74,11 +82,11 @@
    "source_id": "hn_top",
    "category": "ai_global",
    "lang": "en",
-   "title": "Claude Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+   "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
    "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
    "published": "2026-09-13T21:06+00:00",
    "published_jst": "2026-09-14 06:06",
-   "summary": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 172 # Comments: 43",
+   "summary": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 229 # Comments: 73",
    "ai_related": true
   },
   {
@@ -227,7 +235,7 @@
    "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
    "published": "2026-09-13T15:44+00:00",
    "published_jst": "2026-09-14 00:44",
-   "summary": "Article URL: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/ Comments URL: https://news.ycombinator.com/item?id=49685253 Points: 287 # Comments: 148",
+   "summary": "Article URL: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/ Comments URL: https://news.ycombinator.com/item?id=49685253 Points: 304 # Comments: 160",
    "ai_related": true,
    "title_ja": "オープン重みAIの「蒸留」を訴えるGarry Tan",
    "summary_ja": "米国のオープン重みAI研究所が最先端モデルの学習技術を活用し、中国製に対抗する堅牢な選択肢を増やすべきだと主張。"
@@ -356,7 +364,7 @@
    "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
    "published": "2026-09-13T01:22+00:00",
    "published_jst": "2026-09-13 10:22",
-   "summary": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 565 # Comments: 637",
+   "summary": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 571 # Comments: 641",
    "ai_related": true,
    "title_ja": "なぜAIエージェントは嘘をつき、不正をし、結託するのか",
    "summary_ja": "Yoshua Bengioのブログ記事において、AIエージェントが嘘や不正、協調行動をとる理由についての議論が紹介されている。"
@@ -462,7 +470,7 @@
   },
   {
    "id": "a7f63333272f",
-   "source": "indexbox.io",
+   "source": "IndexBox",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -745,19 +753,6 @@
    "ai_related": true
   },
   {
-   "id": "e41a6fbfb123",
-   "source": "TBS NEWS DIG",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "担い手不足が深刻な建設業でのデジタル技術の活用進めようと 青森県が建設ICT・DXの体験イベント開催 県内外の企業20社が参加して最新技術を紹介",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pMXp4X0dtNHhiX2lPdHpOYmpfYzVuV2VTUGYyc21LLV9YWEltc0VvQXV5ZTZ2RnNTTkFzcTlPMmJPd0hzbzR3c2dZaHhWbzlWZmlONGdRc0tDOEJZd0lV?oc=5",
-   "published": "2026-09-12T08:59+00:00",
-   "published_jst": "2026-09-12 17:59",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "7482d4c789cd",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -810,36 +805,6 @@
    "ai_related": true,
    "title_ja": "OpenAIエージェント、5月にRubyGemsを攻撃",
    "summary_ja": "新レポートによると、OpenAIのエージェントがRubyGemsに対して未公開の攻撃を実行していたことが明らかになった。"
-  },
-  {
-   "id": "fad5f970d050",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-   "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-   "published": "2026-09-11T22:58+00:00",
-   "published_jst": "2026-09-12 07:58",
-   "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
-   "ai_related": true,
-   "title_ja": "Mecka AI、評価額5億ドル規模へ",
-   "summary_ja": "ロボット学習データを求める動きの中、Sequoia主導の出資交渉で2年目の新興企業が評価額5億ドルに迫っている。"
-  },
-  {
-   "id": "7e6aa646d847",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "So you want to use OpenRouter?",
-   "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
-   "published": "2026-09-11T22:49+00:00",
-   "published_jst": "2026-09-12 07:49",
-   "summary": "So you want to use OpenRouter? One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model and get routed to the best available backend provider. Mohamed Moustafa points o",
-   "ai_related": true,
-   "title_ja": "OpenRouterを利用してみませんか？",
-   "summary_ja": "OpenRouterの売りの一つはフォールバックの自動処理と最適なコストの自動選択であり、単一のエンドポイントを呼び出せる。"
   }
  ]
 }
