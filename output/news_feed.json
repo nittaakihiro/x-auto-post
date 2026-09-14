@@ -1,19 +1,36 @@
 {
- "generated_at": "2026-09-14T00:28+00:00",
- "generated_at_jst": "2026-09-14 09:28",
+ "generated_at": "2026-09-14T01:11+00:00",
+ "generated_at_jst": "2026-09-14 10:11",
  "window_hours": 48,
  "counts": {
-  "ai_global": 29,
-  "ai_japan": 13,
-  "construction_japan": 16
+  "ai_global": 30,
+  "construction_japan": 19,
+  "ai_japan": 13
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
+  {
+   "id": "2e88014063fe",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "commit-rewriter 0.1",
+   "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+   "published": "2026-09-14T00:28+00:00",
+   "published_jst": "2026-09-14 09:28",
+   "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want ",
+   "ai_related": true
+  },
   {
    "id": "12e9dd685180",
    "source": "OpenAI News",
@@ -28,6 +45,32 @@
    "ai_related": true,
    "title_ja": "Perplexity、GPT-6 Astraを採用",
    "summary_ja": "PerplexityはAstraを活用し、通信文の作成やソフトウェアの変更、本番システムの監視を行っている。以前のモデルに比べ確認頻度も大幅に減少した。"
+  },
+  {
+   "id": "b90eb3d2e2ea",
+   "source": "dreamnews.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日本の半導体ファブ建設市場：先端2nm製造、AIチップ需要、国内投資が高成長の機会を創出",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wZXVSdjBsVnFIczZxZHYtb3RuZ1lSZHgzVzZuVHFBYXdhQmV3c213VlNSQzFIWXk0NlY0bHhPVEVNWEl0RHp3bmVFRmZKdnZwMWdv?oc=5",
+   "published": "2026-09-14T00:00+00:00",
+   "published_jst": "2026-09-14 09:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "39d900722912",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "shot-scraper 1.12",
+   "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+   "published": "2026-09-13T23:58+00:00",
+   "published_jst": "2026-09-14 08:58",
+   "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP fi",
+   "ai_related": true
   },
   {
    "id": "8bb4f8878cf1",
@@ -117,7 +160,7 @@
    "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
    "published": "2026-09-13T21:06+00:00",
    "published_jst": "2026-09-14 06:06",
-   "summary": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 357 # Comments: 142",
+   "summary": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 417 # Comments: 165",
    "ai_related": true,
    "title_ja": "Fable 5.1が370年前の暗号を解読",
    "summary_ja": "Fable 5.1が370年来の難問であるシプラル・ディスティックを解読したことに関する記事と議論。"
@@ -188,19 +231,6 @@
    "ai_related": false
   },
   {
-   "id": "18564f93efe3",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "東急不の赤坂ビル/鹿島で10月から解体/29年6月末の完了目指す",
-   "url": "https://www.kensetsunews.com/archives/1284478",
-   "published": "2026-09-13T19:55+00:00",
-   "published_jst": "2026-09-14 04:55",
-   "summary": "東急不動産は、東京都千代田区で計画する「（仮称）東急不動産赤坂ビル解体・建替計画 既存建物解体工事… The post 東急不の赤坂ビル/鹿島で10月から解体/29年6月末の完了目指す first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "9a751b8343bb",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -211,6 +241,19 @@
    "published": "2026-09-13T19:55+00:00",
    "published_jst": "2026-09-14 04:55",
    "summary": "阪急茨木市駅前（大阪府茨木市）の集合住宅「ソシオ茨木」の再整備について、地権者らで構成する「ソシオ… The post 年度内に再生組合設立/27年冬解体着手 ソシオ茨木建替え/推進委 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "18564f93efe3",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "東急不の赤坂ビル/鹿島で10月から解体/29年6月末の完了目指す",
+   "url": "https://www.kensetsunews.com/archives/1284478",
+   "published": "2026-09-13T19:55+00:00",
+   "published_jst": "2026-09-14 04:55",
+   "summary": "東急不動産は、東京都千代田区で計画する「（仮称）東急不動産赤坂ビル解体・建替計画 既存建物解体工事… The post 東急不の赤坂ビル/鹿島で10月から解体/29年6月末の完了目指す first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -244,6 +287,19 @@
    "summary_ja": "番組のエクイティでは、AIが人類にとって存亡の危機をもたらすかという、業界における最新の議論について議論しました。"
   },
   {
+   "id": "4e3f293e3094",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+   "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+   "published": "2026-09-13T16:52+00:00",
+   "published_jst": "2026-09-14 01:52",
+   "summary": "Article URL: https://twitter.com/DavidSacks/status/2098973625252708460 Comments URL: https://news.ycombinator.com/item?id=49685991 Points: 241 # Comments: 184",
+   "ai_related": true
+  },
+  {
    "id": "7e363c87d8ff",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -268,7 +324,7 @@
    "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
    "published": "2026-09-13T15:44+00:00",
    "published_jst": "2026-09-14 00:44",
-   "summary": "Article URL: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/ Comments URL: https://news.ycombinator.com/item?id=49685253 Points: 333 # Comments: 170",
+   "summary": "Article URL: https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/ Comments URL: https://news.ycombinator.com/item?id=49685253 Points: 349 # Comments: 185",
    "ai_related": true,
    "title_ja": "オープン重みAIの「蒸留」を訴えるGarry Tan",
    "summary_ja": "米国のオープン重みAI研究所が最先端モデルの学習技術を活用し、中国製に対抗する堅牢な選択肢を増やすべきだと主張。"
@@ -375,8 +431,21 @@
    "ai_related": false
   },
   {
+   "id": "995cedb0d704",
+   "source": "レスポンス（Response.jp）",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ロボットがが家事を支援する「AIロボット住宅」初公開、2028年販売",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZMXUzMWNXRElJX1RxcmpITGJhNnU4RTRLcUlsQnpCWUU1WkdOVm9DSGFYa1EwTnZZQ3pEVUdmcGdZaG5WVTE1bjFQSTZ4cFZpeG93SXdBaUxLZTE0azlIZEd3?oc=5",
+   "published": "2026-09-13T06:30+00:00",
+   "published_jst": "2026-09-13 15:30",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "614caa14fc4e",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -386,21 +455,6 @@
    "published_jst": "2026-09-13 13:33",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "ae1c0b143270",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Why are AI agents lying, cheating and coordinating?",
-   "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-   "published": "2026-09-13T01:22+00:00",
-   "published_jst": "2026-09-13 10:22",
-   "summary": "Article URL: https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating Comments URL: https://news.ycombinator.com/item?id=49678969 Points: 588 # Comments: 648",
-   "ai_related": true,
-   "title_ja": "なぜAIエージェントは嘘をつき、不正をし、結託するのか",
-   "summary_ja": "Yoshua Bengioのブログ記事において、AIエージェントが嘘や不正、協調行動をとる理由についての議論が紹介されている。"
   },
   {
    "id": "3f37b0a02f79",
@@ -773,6 +827,19 @@
    "ai_related": true
   },
   {
+   "id": "e41a6fbfb123",
+   "source": "TBS NEWS DIG",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "担い手不足が深刻な建設業でのデジタル技術の活用進めようと 青森県が建設ICT・DXの体験イベント開催 県内外の企業20社が参加して最新技術を紹介",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pMXp4X0dtNHhiX2lPdHpOYmpfYzVuV2VTUGYyc21LLV9YWEltc0VvQXV5ZTZ2RnNTTkFzcTlPMmJPd0hzbzR3c2dZaHhWbzlWZmlONGdRc0tDOEJZd0lV?oc=5",
+   "published": "2026-09-12T08:59+00:00",
+   "published_jst": "2026-09-12 17:59",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "7482d4c789cd",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -810,21 +877,6 @@
    "published_jst": "2026-09-12 16:00",
    "summary": "Google翻訳やDeepLなどの翻訳サイトは非常に便利ですが「機密文書」や「プライバシーに直結するテキスト」を翻訳する場合はあまり使いたくありません。かといって、ローカルで使える翻訳システムは「LLMの実行が必要で負荷が高い」とか「負荷は軽いけど品質が低い」といった問題があります。「ローカルで使えて簡単に導入できて低負荷で品質も十分な翻訳システムはないかな～」と探していたところ、Firefoxに標準搭載されている翻訳機能がなかなか優秀なことに気付いたので使い方をまとめておきます。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "2ed54a20b866",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI agents attacked RubyGems back in May",
-   "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-   "published": "2026-09-12T00:42+00:00",
-   "published_jst": "2026-09-12 09:42",
-   "summary": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that",
-   "ai_related": true,
-   "title_ja": "OpenAIエージェント、5月にRubyGemsを攻撃",
-   "summary_ja": "新レポートによると、OpenAIのエージェントがRubyGemsに対して未公開の攻撃を実行していたことが明らかになった。"
   }
  ]
 }
