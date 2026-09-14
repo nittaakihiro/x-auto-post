@@ -1,19 +1,206 @@
 {
- "generated_at": "2026-09-14T06:23+00:00",
- "generated_at_jst": "2026-09-14 15:23",
+ "generated_at": "2026-09-14T10:59+00:00",
+ "generated_at_jst": "2026-09-14 19:59",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 22,
-  "ai_japan": 15,
-  "ai_global": 28
+  "construction_global": 10,
+  "ai_global": 28,
+  "ai_japan": 16,
+  "construction_japan": 23
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "6865a9ee029c",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "One Year In: A Look at the Initial Impacts of LEED v5 on the Built Environment",
+   "url": "https://constructionexec.com/article/one-year-in-a-look-at-the-initial-impacts-of-leed-v5-on-the-built-environment/?utm_source=rss&utm_medium=rss&utm_campaign=one-year-in-a-look-at-the-initial-impacts-of-leed-v5-on-the-built-environment",
+   "published": "2026-09-14T10:00+00:00",
+   "published_jst": "2026-09-14 19:00",
+   "summary": "LEED v5 shifts policy toward outcomes based on decarbonization, social equity and ecosystem restoration. The post One Year In: A Look at the Initial Impacts of LEED v5 on the Built Environment first appeared on Construction Executive .",
+   "ai_related": false
+  },
+  {
+   "id": "3f6ee07623d4",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
+   "url": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/",
+   "published": "2026-09-14T09:39+00:00",
+   "published_jst": "2026-09-14 18:39",
+   "summary": "Sam Altman is doubling down on slowing AI development. OpenAI now runs safety checks before major training runs, and according to The Information, the company has been talking with Anthropic and Google for months about joint self-regulation. The article Sam Altman calls for pacing AI development but",
+   "ai_related": true
+  },
+  {
+   "id": "dbcaba58103b",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Your jobsite has the data. Why aren’t you using it?",
+   "url": "https://www.constructiondive.com/spons/your-jobsite-has-the-data-why-arent-you-using-it/829852/",
+   "published": "2026-09-14T09:00+00:00",
+   "published_jst": "2026-09-14 18:00",
+   "summary": "Jobsites generate massive data daily. Most of it disappears before anyone acts. Here's the fix.",
+   "ai_related": false
+  },
+  {
+   "id": "293cdd2f48d3",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Fluctuating material costs are rewriting who wins the bid",
+   "url": "https://www.constructiondive.com/spons/fluctuating-material-costs-are-rewriting-who-wins-the-bid/829740/",
+   "published": "2026-09-14T09:00+00:00",
+   "published_jst": "2026-09-14 18:00",
+   "summary": "Material costs are outpacing bids. Speed is the new edge.",
+   "ai_related": false
+  },
+  {
+   "id": "7bbc9f04c049",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Fit for purpose: Why helmet sizing and comfort are mission critical",
+   "url": "https://www.constructiondive.com/spons/fit-for-purpose-why-helmet-sizing-and-comfort-are-mission-critical/829647/",
+   "published": "2026-09-14T09:00+00:00",
+   "published_jst": "2026-09-14 18:00",
+   "summary": "When a safety helmet doesn't fit, protection fails. Why sizing belongs in every hazard assessment.",
+   "ai_related": false
+  },
+  {
+   "id": "282867df6eda",
+   "source": "AINOW",
+   "source_id": "ainow",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIエージェントで事務作業を自動化する方法8選 導入手順と事例を解説",
+   "url": "https://ainow.ai/2026/09/14/278359/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e4%25ba%258b%25e5%258b%2599%25e4%25bd%259c%25e6%25a5%25ad%25e3%2582%2592%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9%25e6%25b3%25958%25e9%2581%25b8-%25e5%25b0%258e",
+   "published": "2026-09-14T08:59+00:00",
+   "published_jst": "2026-09-14 17:59",
+   "summary": "請求書のデータ入力、受発注データの転記、経費精算の差し戻し対応。月末月初になると事務作業が一気に積み上がるのに、人を増やそうにも採用が追いつかない事務部門は少なくありません。 AIエージェントとは、目的を伝えるだけで必要... The post AIエージェントで事務作業を自動化する方法8選 導入手順と事例を解説 first appeared on AI専門ニュースメディア AINOW .",
+   "ai_related": true
+  },
+  {
+   "id": "f181f1c2a502",
+   "source": "Excite エキサイト",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ＡＩ搭載の人型ロボ 神戸高専学生が開発 建設現場の人手不足解消へ",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRUTAyaDI5SjlpaGxZemhmWVpXN25tUzlialRaR2FQcElZZzIxQ1pzNTNfdndCaVpKSlBwX0c1R1h6M2tMNTJXZlhiVUdxWTBJZkNkbklvOTRzSmJwSGhRdkxGb0FPWW1LdVQtcHhmQVo?oc=5",
+   "published": "2026-09-14T08:18+00:00",
+   "published_jst": "2026-09-14 17:18",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "c1897b109b6f",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI搭載の人型ロボ 神戸高専学生が開発 建設現場の人手不足解消へ／兵庫県（サンテレビ）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3ZExfa056bzM2SExDaGkyalZrU2lLNG9Wbmt4ZEdaZWlUblJTLWRlemlVLVNBSzhoVEM0MzR6VmhTc2lNZFA1bTZNcVFJa0R3S0dEWTlSaUwyNHlNMk12dmswTTA2RFpnTWZZOURQTDh1VFN5cjMxRXRlQXQ2YkE?oc=5",
+   "published": "2026-09-14T08:14+00:00",
+   "published_jst": "2026-09-14 17:14",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "615bec083432",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Helix Construct files administration notice",
+   "url": "https://www.constructionenquirer.com/2026/09/14/helix-construct-files-notice-to-appoint-administrators/",
+   "published": "2026-09-14T07:10+00:00",
+   "published_jst": "2026-09-14 16:10",
+   "summary": "More than 40 jobs under threat as contractor files notice at High Court",
+   "ai_related": false
+  },
+  {
+   "id": "90aaf1b2f2ad",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Road builders urge rethink over £428m RIS3 road cuts",
+   "url": "https://www.constructionenquirer.com/2026/09/14/road-builders-urge-rethink-over-428m-ris3-road-cuts/",
+   "published": "2026-09-14T06:44+00:00",
+   "published_jst": "2026-09-14 15:44",
+   "summary": "CECA calls for A38 Derby and A46 Newark schemes to be postponed not scrapped",
+   "ai_related": false
+  },
+  {
+   "id": "66f8a7a84212",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Glencar set for latest data centre on giant Slough site",
+   "url": "https://www.constructionenquirer.com/2026/09/14/glencar-set-for-latest-data-centre-on-giant-slough-site/",
+   "published": "2026-09-14T06:25+00:00",
+   "published_jst": "2026-09-14 15:25",
+   "summary": "Contractor tipped for 30,000 sq m scheme",
+   "ai_related": false
+  },
+  {
+   "id": "3ab9778b046b",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Walker Modular lands 2,000 bathroom pods deal",
+   "url": "https://www.constructionenquirer.com/2026/09/14/walker-modular-lands-2000-bathroom-pods-deal/",
+   "published": "2026-09-14T06:22+00:00",
+   "published_jst": "2026-09-14 15:22",
+   "summary": "Hull factory will supply Bowmer + Kirkland student site in Newcastle",
+   "ai_related": false
+  },
+  {
+   "id": "7555b84655e0",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Renaker strikes S106 deal for next five Manchester towers",
+   "url": "https://www.constructionenquirer.com/2026/09/14/renaker-strikes-s106-deal-for-next-five-manchester-towers/",
+   "published": "2026-09-14T06:21+00:00",
+   "published_jst": "2026-09-14 15:21",
+   "summary": "£114m affordable housing deal clears way for £1bn Great Jackson Street cluster",
+   "ai_related": false
+  },
+  {
+   "id": "f6966cf949d0",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Boardroom fixer Alan Lovell called in to rescue British Steel",
+   "url": "https://www.constructionenquirer.com/2026/09/14/boardroom-fixer-alan-lovell-called-in-to-rescue-british-steel/",
+   "published": "2026-09-14T06:21+00:00",
+   "published_jst": "2026-09-14 15:21",
+   "summary": "Costain, Carillion and Interserve veteran takes chair as Government plots steelmaker’s future",
+   "ai_related": false
+  },
   {
    "id": "2a59de6b1ab7",
    "source": "ニュースメディアVOIX",
@@ -24,6 +211,32 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aanlQTEN6TUw2WFRJWDlLUG1ldW9nRGlhZWRMdGRtcmtra3duNUV1bVkwd1Fka0VuNVlqMDBCcTNQVEJRb0xRTERGb2Q1Qk1zSF9jNm5nb3JVajV4S2huOVBRZFNocjFDcDZRMDVBMUEzQnZRek5fWQ?oc=5",
    "published": "2026-09-14T06:08+00:00",
    "published_jst": "2026-09-14 15:08",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "07a38307649d",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "米トランプ大統領、広がるAI規制論に反論 「中国へのリードを維持したい」",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001449/",
+   "published": "2026-09-14T05:59+00:00",
+   "published_jst": "2026-09-14 14:59",
+   "summary": "米トランプ大統領はAI規制論に対して「われわれはAIで中国をリードしており、その状態を維持したい」「ガードレールを設けることはできるが、実際に起こらないことを議論に持ち出す人々がいる」と述べた。",
+   "ai_related": true
+  },
+  {
+   "id": "4490b18fd510",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "BRANU---中小建設企業のAX推進へAI戦略プロジェクト「BRANU AXIS」始動 提供 Fisco",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOajZ6bHRhcy1qQUhQSmhjdFllWGdweWJqeWJhNlZNc0o2cHp6WEt0ZWxyeFZCX0xyX2NLT1RySG85ellXekh4U2dCQnptMHpUSHBGdHlxbUdJOVd1X2VHb3dOVE5Nc3hXNllmTHhET3JDMjQwNFdsbHZiWF9IQXRZUg?oc=5",
+   "published": "2026-09-14T05:30+00:00",
+   "published_jst": "2026-09-14 14:30",
    "summary": "",
    "ai_related": false
   },
@@ -80,13 +293,13 @@
    "ai_related": true
   },
   {
-   "id": "d3ef6509696d",
-   "source": "イザ！",
+   "id": "18a43dd2553b",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "住宅生産の自動化を革新する米国のフィジカルAI企業Reframe Systems Inc.へ出資",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9zanpXVmpPczhMY0JfYXE1S0J0eGxSV2w0ek5JV1psdEZfaTNZeUdaZzIyVlJzVWtpUVVWSzdqRnV6V2hiczUzdi1BR0RMb2ZCV3B6WklUc3VGRF8tRElGTFhxbEVYUmJRMlQwajVfMUVWTVdRRkZwSWxn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01Q3FwU2YtUE5wb0EyZW5NMWI5cGh3b2t1cDJmblFTaVdUMkdtSWtMNFY2OEFfalBodmlRVm5VN1lTSnJYc3hZMGhPT0JkTVozTGNaQjBGZzFVMV9pOFBhUmptM3luMW1NeEE?oc=5",
    "published": "2026-09-14T03:00+00:00",
    "published_jst": "2026-09-14 12:00",
    "summary": "",
@@ -104,19 +317,6 @@
    "published_jst": "2026-09-14 11:23",
    "summary": "Anthropicのダリオ・アモデイCEOが「We Must Pace the Frontier(フロンティアを慎重に進めるべき)」と題したブログ記事を公開し、「AIのリスクが高まっており、開発ペースを減速させる必要がある」と主張しました。アモデイCEOの意見にはSpaceXのイーロン・マスクCEO、OpenAIのサム・アルトマンCEO、Google DeepMindのデミス・ハサビス会長らも賛同の意を示しています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "1c2c096c2858",
-   "source": "Housing Tribune Online",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "住宅営業は「来場前」が勝負 オンラインセールスが「選ばれる」を左右する時代へ",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aaFFIWDh5STVCck5GaW5CRU56cGk3bnB0c3dPMGEyT0llVWlOR0NBMlFHVWw0NFE2OW5iRWd4VUlXYTlGSmlkaGFYVW9vRFV3SlE?oc=5",
-   "published": "2026-09-14T01:30+00:00",
-   "published_jst": "2026-09-14 10:30",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "f46caa2888fc",
@@ -171,6 +371,19 @@
    "ai_related": true,
    "title_ja": "commit-rewriter 0.1がリリース",
    "summary_ja": "Datasetteのセキュリティリリースに向け、AI生成の不要な記述や課題IDを含むコミットメッセージを編集するWebアプリを開発。"
+  },
+  {
+   "id": "654f7fb74c39",
+   "source": "週刊エコノミスト Online",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AIブームの落とし穴：中国に分がある米中のAIインフラ競争 電力の安さと量で半導体と水資源の制約を克服 高口康太",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtakNDMzZ1dHZpRmdQTWJXTkZadmNtUHJwMjZkcVZVU19WX3NZZWJHeEhhSi1rX2p2MXZST3haTUIwRUdubmp2R2FmOTduamFzMnBEMG1ZRjhIa2ZDUGVjMlZRLWxRNEt6MjlMTHA3UFVtNUd2QXByX2l4NGVRYUU?oc=5",
+   "published": "2026-09-14T00:02+00:00",
+   "published_jst": "2026-09-14 09:02",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "12e9dd685180",
@@ -303,7 +516,7 @@
    "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
    "published": "2026-09-13T21:06+00:00",
    "published_jst": "2026-09-14 06:06",
-   "summary": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 729 # Comments: 310",
+   "summary": "Article URL: https://www.vals.ai/blogs/fable-solves-cyphral-distich Comments URL: https://news.ycombinator.com/item?id=49688695 Points: 981 # Comments: 423",
    "ai_related": true,
    "title_ja": "Fable 5.1が370年前の暗号を解読",
    "summary_ja": "Fable 5.1が370年来の難問であるシプラル・ディスティックを解読したことに関する記事と議論。"
@@ -533,19 +746,6 @@
    "ai_related": false
   },
   {
-   "id": "614caa14fc4e",
-   "source": "prtimes.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築設計20年目の竹内隼人、Threadsの「人手不足」と「仕事探し」をつなぐ情報配信を開始",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45bUlhNmwzQzBYR292ZVd2Yy15VjI3TXJlT0lPQjNxU2hXT1pNaEplbUQxMTBYNXBSWFpFMFFSZmtLek1ubXF3cWVwaXE4SDBoWkhBTV9NT3h1ZlhSbUJrOWp0cmtVVmVpcUE?oc=5",
-   "published": "2026-09-13T04:33+00:00",
-   "published_jst": "2026-09-13 13:33",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "3f37b0a02f79",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -584,19 +784,6 @@
    "published": "2026-09-12T23:00+00:00",
    "published_jst": "2026-09-13 08:00",
    "summary": "生成AIやAIエージェントの活用が広がる一方、トークン課金による想定外のコスト増が企業を悩ませています。なぜ浪費が起こるのか、その原因と、現場で取り組める対策を5本の記事から探ります。",
-   "ai_related": true
-  },
-  {
-   "id": "92e218ff3627",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "ロボット掃除機の撮影機能で不倫の証拠を掴んだ男性が逆にプライバシー侵害で訴えられてしまう",
-   "url": "https://gigazine.net/news/20260913-man-jailed-record-wife-adultery/",
-   "published": "2026-09-12T23:00+00:00",
-   "published_jst": "2026-09-13 08:00",
-   "summary": "妻の不倫現場をロボット掃除機を通じて偶然見てしまった男性が、その映像を証拠として裁判を起こし、勝訴しました。ところが今度は妻からプライバシー侵害で反訴され、罰金と懲役刑を食らってしまうという事件が台湾で発生しました。 続きを読む...",
    "ai_related": true
   },
   {
@@ -732,7 +919,7 @@
   },
   {
    "id": "3419bf9afa6b",
-   "source": "sanyonews.jp",
+   "source": "山陽新聞",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -845,21 +1032,6 @@
    "summary_ja": "計算や演習などの推論ステップがモデルの内部状態で明確に分離可能であることが新研究で判明し、AIの安全性向上に寄与する。"
   },
   {
-   "id": "e375f589d674",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
-   "url": "https://the-decoder.com/gpt-6-astra-needs-leaner-prompts-and-fewer-guardrails-openai-recommends/",
-   "published": "2026-09-12T13:10+00:00",
-   "published_jst": "2026-09-12 22:10",
-   "summary": "Overly long skill descriptions, blanket reading requirements, and rigid approval rules can get in GPT-6 Astra's way, warns OpenAI's Eric Provencher. More capable models need less hand-holding, so developers should tie instructions to specific tasks and spell out when the job is done. The article GPT",
-   "ai_related": true,
-   "title_ja": "OpenAI、GPT-6 Astraの簡潔なプロンプトを推奨",
-   "summary_ja": "過度に長い説明や厳格なルールはGPT-6 Astraの妨げになるとOpenAIが警告。より強力なモデルにはシンプルな指示が推奨される。"
-  },
-  {
    "id": "43e9aac2e634",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
@@ -901,19 +1073,6 @@
    "ai_related": true,
    "title_ja": "中国製4000ドルのロボット犬を購入した体験",
    "summary_ja": "Unitreeは、世界で最も重要かもしれないロボット企業である。"
-  },
-  {
-   "id": "11108b0895c7",
-   "source": "Межа. Новини України.",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ソフトバンクがRoze AIを設立へ、ロボットでデータセンター建設を自動化すると発表",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aTGdFZzZvMWs0Wl9xY05xWFpybFU0S0FDZWtZNXlmU1VFUW1QbnUyOEZJaFhSX1ZWUlgxZDV5MDZjV0tWaHlWaWhHa0gwTGFsNzFpY1BoWUVYUmVJd0Jsa1VTRXZ1QQ?oc=5",
-   "published": "2026-09-12T07:24+00:00",
-   "published_jst": "2026-09-12 16:24",
-   "summary": "",
-   "ai_related": true
   }
  ]
 }
