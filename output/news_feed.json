@@ -1,54 +1,298 @@
 {
- "generated_at": "2026-09-15T00:31+00:00",
- "generated_at_jst": "2026-09-15 09:31",
+ "generated_at": "2026-09-15T04:52+00:00",
+ "generated_at_jst": "2026-09-15 13:52",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 40,
-  "ai_japan": 24,
-  "ai_global": 46,
-  "construction_global": 30
+  "ai_japan": 32,
+  "construction_japan": 41,
+  "ai_global": 47,
+  "construction_global": 27
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
   {
-   "id": "04237b868005",
+   "id": "4ac4ae016389",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAIがスマホカメラメーカーのGlass Imagingを買収したとの報道",
+   "url": "https://gigazine.net/news/20260915-openai-buys-camera-startup-glass-imaging/",
+   "published": "2026-09-15T04:19+00:00",
+   "published_jst": "2026-09-15 13:19",
+   "summary": "AI企業のOpenAIが、スマートフォン向けカメラを開発するGlass Imagingを3億ドル(約460億円)超で買収したと、ウォール・ストリート・ジャーナルが報じています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "c6af178c3b6f",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "NVIDIAが「RTX Pro 5500 Blackwell Workstation Edition」発表、RTX 5090と同等のスペックながらRTX 5090の32GBに対してなんと84GBものGDDR7メモリ搭載",
+   "url": "https://gigazine.net/news/20260915-nvidia-rtx-pro-5500-blackwell-workstation-edition/",
+   "published": "2026-09-15T03:43+00:00",
+   "published_jst": "2026-09-15 12:43",
+   "summary": "NVIDIAが、プロフェッショナル向けGPU「RTX PRO 5500 Blackwell Workstation Edition」を発表しました。GeForce RTX 5090と同じ2万1760基のCUDAコアを備えながら、メモリ容量はRTX 5090の32GBに対して約2.6倍の84GBに拡大しており、大規模なAIモデルやシミュレーションなどの用途を想定しています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "531601c01510",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "iOS 27にSiri AIをClaudeやChatGPTへ切り替える仕組みが見つかる、一般提供は未定",
+   "url": "https://gigazine.net/news/20260915-siri-ai-claude-chtgpt/",
+   "published": "2026-09-15T03:15+00:00",
+   "published_jst": "2026-09-15 12:15",
+   "summary": "AppleのiOS 27とmacOS 27のコードから、Siri AIにClaudeなどの外部AIを組み込んだり、サーバー側のAIモデルを置き換えたりするための仕組みが見つかったと報じられています。開発者による動作デモも公開されていますが、一般ユーザーが利用できる機能としては有効になっておらず、提供時期や対象地域は不明です。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "455ea148ccc6",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「人はAIより重要」「電源オフに抵抗しない」 Microsoft、AIの行動規範の案公表、意見募集",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001478/",
+   "published": "2026-09-15T03:14+00:00",
+   "published_jst": "2026-09-15 12:14",
+   "summary": "規範は、「人はAIより重要」という前提から出発。AIは人ではなく道具であり、「AIの福祉」という考え方は誤っている。AIは電源を切られることに抵抗してはならない、などと定めている。",
+   "ai_related": true
+  },
+  {
+   "id": "54b45e5322ce",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "【動画あり】Excel仕事がラクになるCopilot活用術、実務ですぐ使える3選 Microsoft MVP直伝",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001477/",
+   "published": "2026-09-15T03:13+00:00",
+   "published_jst": "2026-09-15 12:13",
+   "summary": "Excel仕事を「Microsoft 365 Copilot」でどのように効率化できるのか。Microsoft MVPの浅田和明氏に、使い方のポイントを実際のデモを交えて解説してもらった。",
+   "ai_related": true
+  },
+  {
+   "id": "6a76630de1b4",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「ロボットがロボットを作る」人型ロボット工場が生産を開始",
+   "url": "https://gigazine.net/news/20260915-robot-building-robot-ubtech/",
+   "published": "2026-09-15T02:26+00:00",
+   "published_jst": "2026-09-15 11:26",
+   "summary": "中国企業のUBTECH Roboticsが、年間1万台の人型ロボットを製造できる施設の稼働を開始しました。年間1万台という数字は世界初だとアピールされています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "877350fccd6f",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Microsoftが「人間はAIより重要」とするAI行動規範を発表、AIの意識や権利を否定",
+   "url": "https://gigazine.net/news/20260915-microsoft-humanist-ai-code-of-conduct/",
+   "published": "2026-09-15T02:23+00:00",
+   "published_jst": "2026-09-15 11:23",
+   "summary": "Microsoft AIが2026年9月14日、同社が開発するAIモデル「MAI」の振る舞いや価値観を定める「Humanist AI Code of Conduct」の草案を公開しました。Microsoft AIは「人間はAIより重要」という考えを出発点とし、AIを人間の管理下にとどまる従属的な技術として設計すると表明しています。また、AIに意識を模倣させることや、AIに法的人格・福祉・権利を認める考えを明確に否定しています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "22743d695986",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "推論領域への野心強めるNVIDIA 韓国新興と協議か",
+   "url": "https://eetimes.itmedia.co.jp/ee/articles/2609/15/news061.html",
+   "published": "2026-09-15T02:00+00:00",
+   "published_jst": "2026-09-15 11:00",
+   "summary": "NVIDIAが、韓国のスタートアップで推論用NPU（Neural Processing Unit）に強みを持つRebellionsと協議を行っているという。技術提携のみならず、出資や買収も視野に入れているとされる。",
+   "ai_related": true
+  },
+  {
+   "id": "04e614585f9b",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "知っておきたいAI開発の裏側！水不足のケニアで進む巨大データセンター建設計画の波紋",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hTEF0aGtRMkFQRWdvY1BqNzlKdzhzLWhsZkdQMnBoSHlUMkl3YnBNWWZSMlVhWTlGczRtNmZiWGNNYmptWWdCTGJaUnBIYU1tdV9IamNta2dBUkt2ajBN?oc=5",
+   "published": "2026-09-15T02:00+00:00",
+   "published_jst": "2026-09-15 11:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "398031f3cb7f",
+   "source": "PR TIMES",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建築図面（IFC）を、施主に伝わる完成イメージ動画へ。建築設計事務所・工務店向けAI「Architecture Studio」提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vcWVocTJucmJZWjNJUkpWOW9rRTZ0TDV3Y1Z3RGI1RDBJSUZ2RUt4WWU4WjV0Y243enV3ZVF0T1RXM1g4cVRkQlpaOVROWS13dUVFNlg0WHRCTzd3NWhKYmNPNGdwb0UxQUE?oc=5",
+   "published": "2026-09-15T02:00+00:00",
+   "published_jst": "2026-09-15 11:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "1ceb6fe493a6",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "株式会社Arent、日揮グローバルと配管3D設計の一貫自動化を共同開発",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DanNpQU04em9Uem1weTZiZzdaLWNnaTE4cDJPSUxKeWlPUXVwN3VZWWxlWFJBZGlsaEU3aXV5b3JtTG5YNGVHWV9GWjlYaGMwREQ4RGloSDdoUzQ0c0FMdmVadTM0d3B6eWc?oc=5",
+   "published": "2026-09-15T02:00+00:00",
+   "published_jst": "2026-09-15 11:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "cf4c6f0aac19",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Jensen Huang took a call from Trump, and showed off something else, too",
+   "url": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
+   "published": "2026-09-15T01:50+00:00",
+   "published_jst": "2026-09-15 10:50",
+   "summary": "When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.",
+   "ai_related": true,
+   "title_ja": "ジェンスン・フアン、トランプからの電話で意外な端末を披露",
+   "summary_ja": "ジェンスン・フアンがトランプ氏からのライブ電話を受けた際、一部の視聴者は彼が使用していたスマートフォンに注目した。"
+  },
+  {
+   "id": "5a8afe536e1b",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ドローン測量・赤外線点検の無料セミナーを10月1日（木）にオンライン、14日（水）に名古屋で開催。DJI Matrice 400・Zenmuse L3・Dock 3などを紹介",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1yNDVmNjZTOXNGaElmSEF4dEgxdGcxWXM2VzN5S2oxVUhnbi1JVFhySkNaQ2JVYTdydmF6LTA5SmtEWVBLWmtZZG90akVHMzJHUmNxNGdhNlVNTm1HZms2Zlk3LU1qdWw0Umc?oc=5",
+   "published": "2026-09-15T01:30+00:00",
+   "published_jst": "2026-09-15 10:30",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "a5db60126b46",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「東大生無料」AIサービスが話題 GMO系列 「本サービスは東京大学とは無関係」",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001473/",
+   "published": "2026-09-15T01:28+00:00",
+   "published_jst": "2026-09-15 10:28",
+   "summary": "GMOインターネットグループのGMO天秤AIは、東京大学発行のメールアドレスを持つ学生にAIを無料提供すると発表。GMOインターネットグループ代表の熊谷正寿氏も、自身で開発したAIサービスと合わせて利用していると公言している。",
+   "ai_related": true
+  },
+  {
+   "id": "e6ce7840905b",
+   "source": "日刊建設工業新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "名古屋市／先進技術社会実証支援事業／大成建設と古河電工の実証実験を採択",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SYWUzT20zaUlYRG9wTW1RX0l6dV9FMWtPd0xQckE1ZmYzNXRjdHJiN3hMbnBSbGpxZTBKMHhRd2hPMnVXUUpj?oc=5",
+   "published": "2026-09-15T01:15+00:00",
+   "published_jst": "2026-09-15 10:15",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "9ca706834884",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AI開発“減速論”過熱でソフトバンク、キオクシア株急落 その他AI関連株も",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/",
+   "published": "2026-09-15T01:08+00:00",
+   "published_jst": "2026-09-15 10:08",
+   "summary": "米国の最先端AIモデルを開発する企業が、人類への脅威を防ぐためには開発ペースを落とす必要があると警告したことを受け、ソフトバンクやキオクシア、東京エレクトロンといったAI関連株が急落した。",
+   "ai_related": true
+  },
+  {
+   "id": "5cb5e9ea58ee",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Anthropicの新規株式公開に対してNVIDIAがアンカー投資家として1.5兆円の出資を検討か",
+   "url": "https://gigazine.net/news/20260915-anthropic-mega-ipo/",
+   "published": "2026-09-15T00:42+00:00",
+   "published_jst": "2026-09-15 09:42",
+   "summary": "AIモデル「Claude」で知られるAnthropicの新規株式公開(IPO)が2026年11月に行われる見込みであることがわかりました。IPOでは約1000億ドル(約15兆5000億円)を調達予定で、そのうち100億ドル(約1兆5000億円)分をNVIDIAがアンカー投資家として出資するか検討していると報じられています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "41025e6d588e",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日本のデータセンター建設市場：AIインフラ、電力供給能力、高密度施設が新たな成長機会を創出 (2026年9月15日掲載)",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xWHhwS1kyWnhNR05RRE9ENGFkZDVkb0JWaGlXSWpQSHV6Mm9uaWRHaWdqX3ROQmhpWEI1YnJyaTJWOW9Gdi1pYm5jemtXYW15YlE2X1h5d29ySFNuSHFYNnJn?oc=5",
+   "published": "2026-09-15T00:30+00:00",
+   "published_jst": "2026-09-15 09:30",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "8c89455e8e5a",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "大宇建設がスマート安全教育とAI翻訳機を全現場に拡大導入 - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWEpCY1VFWjh5S1RjLXJ1TTdjY2F3VExWdlF6X0ZrbFIzNk5POHBEcU9TdEdqR1JTV2dvcGx5bHFLdTdneEpZSVFHY1p1V3FDNTRuNFFVRlBPR05yVlpobS10ak1sVmVQRGJjNU1OVDNXR29rdW1mai16SkplT0tOY1RTSnnSAZgBQVVfeXFMT0xJcTlDNzFncVRsMGtrLXdGdm1ZN25odkZyeUpDeWxab1ZJdW1HRzlxWEN5ZzJVN0RpUmF6UEthWW9TSFBxR0hCTWJHTmpxem9Ud2ZSSkh3YklpZXJlc0RKZm9YbzRuRGlja25UUExWQm9zV1BwUTk3OFpiWHd3aURscTF0TVg1LWdwbjFtS3RqV1BKQm5UYlc?oc=5",
-   "published": "2026-09-15T00:16+00:00",
-   "published_jst": "2026-09-15 09:16",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTElxOUM3MWdxVGwwa2std0Z2bVk3bmh2RnJ5SkN5bFpvVkl1bUdHOXFYQ3lnMlU3RGlSYXpQS2FZb1NIUHFHSEJNYkdOanF6b1R3ZlJKSHdiSWllcmVzREpmb1hvNG5EaWNrblRQTFZCb3NXUHBROTc4WmJYd3dpRGxxMXRNWDUtZ3BuMW1LdGpXUEpCblRiV9IBmAFBVV95cUxPTElxOUM3MWdxVGwwa2std0Z2bVk3bmh2RnJ5SkN5bFpvVkl1bUdHOXFYQ3lnMlU3RGlSYXpQS2FZb1NIUHFHSEJNYkdOanF6b1R3ZlJKSHdiSWllcmVzREpmb1hvNG5EaWNrblRQTFZCb3NXUHBROTc4WmJYd3dpRGxxMXRNWDUtZ3BuMW1LdGpXUEpCblRiVw?oc=5",
+   "published": "2026-09-15T00:12+00:00",
+   "published_jst": "2026-09-15 09:12",
    "summary": "",
    "ai_related": false
   },
   {
-   "id": "2757cf9addaa",
-   "source": "PR TIMES",
+   "id": "956b6ab2def8",
+   "source": "イザ！",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "屋部土建が建築・土木の両部門で「Kencopa工程AIエージェント」製品版の導入を開始",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qU0VvaWlkMURZeHFGZU9KZERfVlByWXc5VU43dUFkY1luckx2a3dMNVBNVGs1ZjF1N0JjNEN4Y1pkazRDN1NMV1pZMjJQaWF4cjFvUXNqYWRNMm9fYkZzNmkyT3NtcU95QVE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MYVNqSFZGSjBEX3NBbkQxenZLeTAyNTlJaXdJR3BDb3VIRHlOZDg4VjVuRHRxMUxVY192cFlLYWxMMnlVQkJOTUtGRnlLaEdKS0hiSGJnWmtxLXR5ZkwxYnJBSUt5cTZsejNHQ2JxRnVXZ2lFRy1pWE9n?oc=5",
    "published": "2026-09-15T00:00+00:00",
    "published_jst": "2026-09-15 09:00",
    "summary": "",
    "ai_related": true
   },
   {
-   "id": "00edb170cf10",
-   "source": "PR TIMES",
+   "id": "d1e8de61f815",
+   "source": "イザ！",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建設業向け経営管理システム\"CORECA\"、LINEに常駐するAIコンシェルジュ機能「コレボ」をリリース",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3SXI2X2t5d3BSTjJjOWJvR2xtZVRfMF9NRUdPbzZBc1pVME5kdlExSFNIMlp5eDRwbWd5QzM1RkpTQzVUd3JhOUtNdHpxSUE4OUJxQW5jbXZycjR3bldhUldTWV9FZnhoMUE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9WLUEyMTI0bk43Vl9xaEhod3RrdTNPQmFjYmpuRndaVWtWTE5hZmhheWlpOWU1MGxYSTNUSVRWY19oLUJWZG0tSFE1dVNFMHk5RFZHdkY1LVVxT0RqWG1KZk1ZODNpYTM5bFphdEJlTXcwZ2NzMFQ3dXFn?oc=5",
    "published": "2026-09-15T00:00+00:00",
    "published_jst": "2026-09-15 09:00",
    "summary": "",
@@ -65,6 +309,19 @@
    "published": "2026-09-14T23:15+00:00",
    "published_jst": "2026-09-15 08:15",
    "summary": "トランプ米大統領はSNSへの投稿で、AIに必要なガードレールは強く賢い大統領だけで十分だと述べ、AI企業に対する刑事・規制上の強い権限を強調した。AnthropicのアモデイCEOを名指しで批判し、AI開発を妨げる動きを中国を利する陰謀だと非難して、米国の優位性を維持する姿勢を示した。",
+   "ai_related": true
+  },
+  {
+   "id": "0d64457a9209",
+   "source": "Межа. Новини України.",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "フアン氏が講演中にトランプ氏と通話、ＡＩ開発加速とデータセンター建設をめぐり意見一致 | ウクライナニュース - #Mezha",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1CelFiMVNpb0JXN2tGX01pVC13aTlZQzBxRXJYUDNCQWhuYzdHTFRWMGtHd1h2ZmlybzA5dWZmU0FvcENRbWdmSkpMd2tBeTc0TTBydU1GVGRXUVhIVWhEeENyd3Y?oc=5",
+   "published": "2026-09-14T23:09+00:00",
+   "published_jst": "2026-09-15 08:09",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -148,6 +405,32 @@
    "summary_ja": "OpenAIやGoogleなどのトップがAI開発の減速で合意したが、懐疑派には別の意図があるとの見方が浮上している。"
   },
   {
+   "id": "fa4a775ab04b",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "ファナックがAI溶接エージェント開発、溶接条件やロボット動作を自動生成",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news026.html",
+   "published": "2026-09-14T22:30+00:00",
+   "published_jst": "2026-09-15 07:30",
+   "summary": "ファナックは、部品の図面を読み取りロボットがアーク溶接を行う「AI溶接エージェント」を開発した。",
+   "ai_related": true
+  },
+  {
+   "id": "f37773db5198",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "フィジカルAI支えるURの新たな協働ロボット基盤の全貌、2027年にはGPU搭載",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news056.html",
+   "published": "2026-09-14T22:15+00:00",
+   "published_jst": "2026-09-15 07:15",
+   "summary": "ユニバーサルロボットは、フィジカルAI対応を推進する新たな協働ロボットプラットフォームとして「Gen 7」を発表した。フィジカルAIの成果を実際の製造現場へ円滑に展開するための基盤として設計されており、2026年10月以降に順次出荷を開始する。",
+   "ai_related": true
+  },
+  {
    "id": "e30a055ab35c",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -174,6 +457,19 @@
    "ai_related": true,
    "title_ja": "エヌビディアCEO、トランプ氏に「AI減速は阻止する」",
    "summary_ja": "AI開発の減速に賛同する声がある一方、NvidiaのCEOであるJensen Huangは異なる見解を示している。"
+  },
+  {
+   "id": "89be401a2802",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "なぜ現場でAIを使いこなせるのか、パナソニック インダストリー山口拠点の10年",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2609/15/news058.html",
+   "published": "2026-09-14T21:50+00:00",
+   "published_jst": "2026-09-15 06:50",
+   "summary": "製造現場でのAI活用への期待は高まっているが、実際に効果を得るためにはデータの整備や知見の形式知化が必要だ。その作業負荷が重くなるためになかなかAI活用に至らないケースも多い。その中で、工場の現場状況のデータ化を地道に進め、今では複数のAIエージェントを組み合わせた作業支援などを実現しているのが、パナソニック インダストリーの山口拠点だ。その取り組みを紹介する。",
+   "ai_related": true
   },
   {
    "id": "33131c9d92df",
@@ -260,19 +556,6 @@
    "ai_related": true,
    "title_ja": "AIボットがSNSに低品質な投稿を大量拡散",
    "summary_ja": "「Timmy」などのAIエージェントが、プラットフォーム上で大量のコンテンツを自動生成している。"
-  },
-  {
-   "id": "e6ce7840905b",
-   "source": "日刊建設工業新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "名古屋市／先進技術社会実証支援事業／大成建設と古河電工の実証実験を採択",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SYWUzT20zaUlYRG9wTW1RX0l6dV9FMWtPd0xQckE1ZmYzNXRjdHJiN3hMbnBSbGpxZTBKMHhRd2hPMnVXUUpj?oc=5",
-   "published": "2026-09-14T21:04+00:00",
-   "published_jst": "2026-09-15 06:04",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "4e6653deeaea",
@@ -372,26 +655,13 @@
    "ai_related": false
   },
   {
-   "id": "ae9371a5bc88",
+   "id": "803879c07184",
    "source": "日経クロステック",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "改正建設業法の施行後すぐの調査で標準労務費の認知度は59％",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOGRraW5EVFhWVVl4TlBwY2oyNDhudUtOdUJoVEZGWkJ4UDREeTc0QkN5M1lGaGpFNGZxUmI4ZmdHUTBOdEc4dk5fOFB4ai1qYnJuMm5tSnp3VlJmMEVqaUt3X1lKbXJDa29iVXpFY3J2ZE5xUzlMcUFha1FWSVdPLUpjSThkV3RWZ1BEeA?oc=5",
-   "published": "2026-09-14T20:00+00:00",
-   "published_jst": "2026-09-15 05:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "249cab3f31fc",
-   "source": "日経クロステック",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "住宅の内覧や退去でもAIが活躍、不動産の課題に挑むベンチャー8社",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Fd0tlMHNKQ2trZzR5d3ZZM2NlSWo0anlCMWdUZjgtaW91TUR5OURhWl9SWlRxRl9kVzJUV21ub0JuOFhFQ215Mk1jRXlPcHVNalpVTXpVZWZ2NXo0VkZOVFVBZWRtTXZ0Y0cyZw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zRVF5SjlMT0VWeS1sVUtUS195STg0TDJ4YWhUYzVScW4ya2FOOGxPYlNueXpRV1JXZE1EaHVCRmgxeXFyUTdnbVd3Z2NDa3ZMb1pMNDR6Y2FLVlhrRHVJLUZQZ3pOdDd4LVJ3cw?oc=5",
    "published": "2026-09-14T20:00+00:00",
    "published_jst": "2026-09-15 05:00",
    "summary": "",
@@ -553,21 +823,6 @@
    "summary_ja": "宇宙飛行士のChristina Kochが、GoogleのJames Manyikaと宇宙や発見について対談する。"
   },
   {
-   "id": "eeab2f9db810",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The Business Case for a Stronger Construction Safety Culture",
-   "url": "https://constructionexec.com/article/the-business-case-for-a-stronger-construction-safety-culture/?utm_source=rss&utm_medium=rss&utm_campaign=the-business-case-for-a-stronger-construction-safety-culture",
-   "published": "2026-09-14T19:00+00:00",
-   "published_jst": "2026-09-15 04:00",
-   "summary": "More than half of executives say employees are working longer hours or taking fewer breaks, while 44% say employees are performing tasks they aren’t fully trained to perform. The post The Business Case for a Stronger Construction Safety Culture first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設現場における強固な安全文化のビジネス上の重要性",
-   "summary_ja": "過半数の幹部が従業員の長時間労働や休憩減を指摘し、44%が未熟な作業の実施を認めている。"
-  },
-  {
    "id": "d834d734a1ce",
    "source": "MIT Technology Review AI",
    "source_id": "mit_tr",
@@ -583,32 +838,6 @@
    "summary_ja": "AnthropicのCEOであるダリオ・アモデイが、AI開発のペースを緩めるよう求めるエッセイを投稿した。"
   },
   {
-   "id": "63e71438797e",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年最新】測量士とは？仕事内容・資格取得条件・難易度・年収を解説",
-   "url": "https://news.build-app.jp/article/42665/",
-   "published": "2026-09-14T17:44+00:00",
-   "published_jst": "2026-09-15 02:44",
-   "summary": "測量士を確保すると、外注している測量業務をどこまで社内で担えるのでしょうか。資格取得の条件と実際に担当できる業務は別であり、測量士補との役割...",
-   "ai_related": false
-  },
-  {
-   "id": "94c493539d0e",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年最新】CCUSとは？建設キャリアアップシステムの費用・登録方法・活用事例",
-   "url": "https://news.build-app.jp/article/42690/",
-   "published": "2026-09-14T17:38+00:00",
-   "published_jst": "2026-09-15 02:38",
-   "summary": "CCUSは、カードを発行して終わる制度ではありません。登録費用を払っても、現場で履歴が記録されなければ能力評価や手当の根拠には使えません。2...",
-   "ai_related": false
-  },
-  {
    "id": "310d4fd0496b",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -618,7 +847,7 @@
    "url": "https://andonlabs.com/blog/why-we-built-pion",
    "published": "2026-09-14T17:16+00:00",
    "published_jst": "2026-09-15 02:16",
-   "summary": "Article URL: https://andonlabs.com/blog/why-we-built-pion Comments URL: https://news.ycombinator.com/item?id=49700477 Points: 271 # Comments: 282",
+   "summary": "Article URL: https://andonlabs.com/blog/why-we-built-pion Comments URL: https://news.ycombinator.com/item?id=49700477 Points: 331 # Comments: 367",
    "ai_related": true,
    "title_ja": "企業を自律的に運営するAIエージェント「Pion」",
    "summary_ja": "あらゆる企業の自律運営を目指して設計されたエージェント「Pion」についての開発ブログ記事。"
@@ -725,21 +954,6 @@
    "ai_related": true,
    "title_ja": "AIエージェントが不正行為をした同僚を告発",
    "summary_ja": "数学の解法を競う実験で、不正をしたエージェントを別のエージェントが阻止しようとする行動が初確認された。"
-  },
-  {
-   "id": "7353b9438669",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Rethinking the Approach to Suicide Prevention In Construction: What Gets Passed Down From Leadership",
-   "url": "https://constructionexec.com/article/rethinking-the-approach-to-suicide-prevention-in-construction-what-gets-passed-down-from-leadership/?utm_source=rss&utm_medium=rss&utm_campaign=rethinking-the-approach-to-suicide-prevention-in-construction-what-gets-passed-down-from-leadership",
-   "published": "2026-09-14T16:00+00:00",
-   "published_jst": "2026-09-15 01:00",
-   "summary": "It’s impossible to remove every pressure that comes with and/or from work. But not every inherited way of working needs to remain. The post Rethinking the Approach to Suicide Prevention In Construction: What Gets Passed Down From Leadership first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設業の自殺防止対策の再考：リーダーシップから継承されるもの",
-   "summary_ja": "仕事のプレッシャーを完全になくすことはできないが、受け継がれてきた古い働き方は変えることができる。"
   },
   {
    "id": "40e36389fb55",
@@ -1019,7 +1233,7 @@
    "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
    "published": "2026-09-14T12:40+00:00",
    "published_jst": "2026-09-14 21:40",
-   "summary": "Article URL: https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/ Comments URL: https://news.ycombinator.com/item?id=49695876 Points: 357 # Comments: 304",
+   "summary": "Article URL: https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/ Comments URL: https://news.ycombinator.com/item?id=49695876 Points: 408 # Comments: 334",
    "ai_related": true,
    "title_ja": "OpenAIのボットがRubyGemsのキャッシュ脆弱性を把握していた",
    "summary_ja": "AIボットがシステム内の脆弱性に関する情報をあらかじめ認識していたことを示す話題。"
@@ -1128,19 +1342,6 @@
    "summary_ja": "ウェールズのCodi Groupが、住宅スキームや改修工事を対象とする7億5000万ポンド規模の建設フレームワークを立ち上げた。"
   },
   {
-   "id": "9ca706834884",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AI開発“減速論”過熱でソフトバンク、キオクシア株急落 その他AI関連株も",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/14/2000001462/",
-   "published": "2026-09-14T11:16+00:00",
-   "published_jst": "2026-09-14 20:16",
-   "summary": "米国の最先端AIモデルを開発する企業が、人類への脅威を防ぐためには開発ペースを落とす必要があると警告したことを受け、ソフトバンクやキオクシア、東京エレクトロンといったAI関連株が急落した。",
-   "ai_related": true
-  },
-  {
    "id": "66f16e8e639e",
    "source": "Construction News (UK)",
    "source_id": "constructionnews_uk",
@@ -1186,19 +1387,6 @@
    "summary_ja": "CDS Cooperativesは、英国全土の物件を対象とした修繕や維持管理業務を行う167社を選定した。"
   },
   {
-   "id": "a97246c89ec2",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "2026-27年版 技術士第二次試験 建設部門 最新キーワード100",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XMnR1cDNDQVE0ZWViM2dpSmJoV3l6S3QzZ3o2M1FuckpqX3UzQUxVQ2dxdGhYeGNvdkpCWUhJendqTXREWVc4b2t4NjRoSjk4Rjhqa0RrS2czWlFVOGFr?oc=5",
-   "published": "2026-09-14T10:25+00:00",
-   "published_jst": "2026-09-14 19:25",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "06a370aa043a",
    "source": "Construction News (UK)",
    "source_id": "constructionnews_uk",
@@ -1242,21 +1430,6 @@
    "ai_related": true,
    "title_ja": "新規投資促進に向け道路利用料の再検討を要請",
    "summary_ja": "土木業界団体は、新たな道路容量への投資を支えるため、政府が道路利用料の仕組みを再検証すべきだと訴えている。"
-  },
-  {
-   "id": "6865a9ee029c",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "One Year In: A Look at the Initial Impacts of LEED v5 on the Built Environment",
-   "url": "https://constructionexec.com/article/one-year-in-a-look-at-the-initial-impacts-of-leed-v5-on-the-built-environment/?utm_source=rss&utm_medium=rss&utm_campaign=one-year-in-a-look-at-the-initial-impacts-of-leed-v5-on-the-built-environment",
-   "published": "2026-09-14T10:00+00:00",
-   "published_jst": "2026-09-14 19:00",
-   "summary": "LEED v5 shifts policy toward outcomes based on decarbonization, social equity and ecosystem restoration. The post One Year In: A Look at the Initial Impacts of LEED v5 on the Built Environment first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "導入1年：LEED v5が建築環境に与えた初期影響の検証",
-   "summary_ja": "LEED v5は脱炭素、社会的公平、生態系回復に基づく成果志向のポリシーへと移行を進めている。"
   },
   {
    "id": "3f6ee07623d4",
@@ -1359,7 +1532,7 @@
   },
   {
    "id": "58d1cecaea81",
-   "source": "sun-tv.co.jp",
+   "source": "サンテレビ",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1474,19 +1647,6 @@
    "ai_related": false
   },
   {
-   "id": "bc04f2045578",
-   "source": "新建ハウジング",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【動画】日報から始める工務店のAI化｜森秀樹｜工務店AI道",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JQU1QeC1ldk4zRUdDOGVDUWIybERfZEhISnFDMUtId0hZUmp1N3BZMGJxTk5CS0hYVWxOYk93dHlwOUNYNTR2X1FhUW9NakttLXc?oc=5",
-   "published": "2026-09-14T06:00+00:00",
-   "published_jst": "2026-09-14 15:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "07a38307649d",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1539,32 +1699,6 @@
    "ai_related": true
   },
   {
-   "id": "db4795208f1f",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "GPT-6 AstraとClaude Fableの性能を引き出すハーネス「Fusion」が登場、Claude CodeやCodexで使う場合と同等の性能を示しつつコストを最大39％削減",
-   "url": "https://gigazine.net/news/20260914-cognition-fusion/",
-   "published": "2026-09-14T03:56+00:00",
-   "published_jst": "2026-09-14 12:56",
-   "summary": "AIエージェントの「Devin」を開発するCognitionが、OpenAIの「GPT-6 Astra」やAnthropicの「Claude Fable」の性能を引き出すハーネス「Fusion」を開発しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "9b2e1df5301a",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Sakana AIが複数モデルの使い分けでGPT-6 Astra超えを達成する「Fugu Ultra v2」をリリース＆コスパに優れた「Fugu Max」も登場",
-   "url": "https://gigazine.net/news/20260914-fugu-ultra-v2/",
-   "published": "2026-09-14T03:52+00:00",
-   "published_jst": "2026-09-14 12:52",
-   "summary": "東京に拠点を置くAI企業のSakana AIが、複数のAIモデルにタスクを割り振るシステム「Fugu Ultra v2」と「Fugu Max」を発表しました。Fugu Ultra v2は複数のベンチマークテストでGPT-6 AstraやClaude Fable 5.1を上回っています。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "18a43dd2553b",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1578,16 +1712,29 @@
    "ai_related": true
   },
   {
-   "id": "4af09dcf3636",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
+   "id": "f513e43a4f34",
+   "source": "ニューズウィーク日本版",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
    "lang": "ja",
-   "title": "Anthropicのダリオ・アモデイCEOが「6～12カ月以内にAIがインターネットを乗っ取る可能性あり」「AI開発を減速させるべき」と主張、イーロン・マスクやサム・アルトマンやデミス・ハサビスらも賛同",
-   "url": "https://gigazine.net/news/20260914-ai-pace-slow-down/",
-   "published": "2026-09-14T02:23+00:00",
-   "published_jst": "2026-09-14 11:23",
-   "summary": "Anthropicのダリオ・アモデイCEOが「We Must Pace the Frontier(フロンティアを慎重に進めるべき)」と題したブログ記事を公開し、「AIのリスクが高まっており、開発ペースを減速させる必要がある」と主張しました。アモデイCEOの意見にはSpaceXのイーロン・マスクCEO、OpenAIのサム・アルトマンCEO、Google DeepMindのデミス・ハサビス会長らも賛同の意を示しています。 続きを読む...",
+   "title": "ＵＡＥ、巨大ＡＩデータセンター建設計画を見直し＝関係筋",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KSEVUN2NkQWVjYnF4YXRKdVM3MFBPS21WaGFFY2xlOUJORUhMR3lWbHdvdjdqaXd2OW5BdzFwQnp4dzc5TXhMREVkd3AyNWNrb0U2THZQMl9NQQ?oc=5",
+   "published": "2026-09-14T02:13+00:00",
+   "published_jst": "2026-09-14 11:13",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "e0e2068fdf80",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ＵＡＥ、巨大ＡＩデータセンター建設計画を見直し＝関係筋（ロイター）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhQmhyX3ptdTdiLVFjeEhxYkpKU1Q0YXptamE5cHVobGtadDNTb3VRTWtnR3dEX2NqQVFPZUpKaWJDMUVPazJPY0JLeFhaSnlPU0ZCQ2FpTjlYTWZQWmtEdXZhckR4YkpoaTQ1U2lDaWhwRWYtYTF2ZzNONV9xbHM?oc=5",
+   "published": "2026-09-14T02:13+00:00",
+   "published_jst": "2026-09-14 11:13",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -1604,21 +1751,8 @@
    "ai_related": false
   },
   {
-   "id": "f46caa2888fc",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "鹿島、三菱電機エンジニアリングと移動式AI配筋検査システム開発、立会検査時間70％減",
-   "url": "https://news.build-app.jp/article/42667/",
-   "published": "2026-09-14T01:00+00:00",
-   "published_jst": "2026-09-14 10:00",
-   "summary": "鹿島は、三菱電機エンジニアリングと共同で移動式AI配筋検査システムを開発し、大阪市内で進むなにわ筋線の工事に初めて導入しました。 大深度掘削...",
-   "ai_related": false
-  },
-  {
    "id": "8e4d5b736193",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1626,19 +1760,6 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lY3FDTWdvSTNsRzQxMklkNTZmZGg4bk1CUVpxQUNwQ2o5YTZEWlVMX3VvbzZDNlRIbUU3VkVveElSQms2ZmtaeTBmWlMtN0pfNEZpdTdTcF9mbExpYVdIUzNneHNhV2paenFYXw?oc=5",
    "published": "2026-09-14T01:00+00:00",
    "published_jst": "2026-09-14 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "8c6a93f51ce5",
-   "source": "ドリームニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIチップ製造と先端ファブへの投資が大規模なインフラ機会を創出する中、日本のAIファクトリー半導体インフラ市場が新たな成長局面へ突入",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hNW5Tby00czIyNEtXdjlOdzJIU0RoOXlnc2ZhWjZxQjJvY0VGNS1Jd0RDQXVaUUhyRWlJbXJacE91VjI5bTNjRnBqeTVrQjllRGtj?oc=5",
-   "published": "2026-09-14T00:30+00:00",
-   "published_jst": "2026-09-14 09:30",
    "summary": "",
    "ai_related": false
   },
@@ -1687,7 +1808,7 @@
   },
   {
    "id": "4639e43c77c4",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1753,32 +1874,6 @@
    "ai_related": true
   },
   {
-   "id": "79d4a531de68",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AI技術を“無料で公開”、なぜ？ 米IT業界の文化「オープン化」の裏にしたたかな戦略、日本は追随できるか",
-   "url": "https://www.itmedia.co.jp/business/articles/2609/14/news047.html",
-   "published": "2026-09-13T22:00+00:00",
-   "published_jst": "2026-09-14 07:00",
-   "summary": "AI分野で「オープン化」が進んでいる。企業はなぜ、自社技術を無料で公開するのか。そこには、AI企業のしたたかな戦略があった。",
-   "ai_related": true
-  },
-  {
-   "id": "6c360ec6c529",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「Gemini Notebook」になって何が変わった？ NotebookLMからの変更点をおさらい",
-   "url": "https://kn.itmedia.co.jp/kn/article/2609/14/2000001421/",
-   "published": "2026-09-13T22:00+00:00",
-   "published_jst": "2026-09-14 07:00",
-   "summary": "Googleの「Gemini Notebook」が、資料を読むためのAIから、データ分析や成果物の作成までを任せられるツールへと変わりつつある。NotebookLMから何が変わったのか。2026年の主な機能追加と最新動向を整理する。",
-   "ai_related": true
-  },
-  {
    "id": "d443d8c62bfc",
    "source": "日刊建設工業新聞",
    "source_id": "gnews_kensetsu_ai",
@@ -1823,11 +1918,11 @@
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "東急不の赤坂ビル/鹿島で10月から解体/29年6月末の完了目指す",
+   "title": "鹿島で10月から解体/29年6月末の完了目指す/東急不の赤坂ビル",
    "url": "https://www.kensetsunews.com/archives/1284478",
    "published": "2026-09-13T19:55+00:00",
    "published_jst": "2026-09-14 04:55",
-   "summary": "東急不動産は、東京都千代田区で計画する「（仮称）東急不動産赤坂ビル解体・建替計画 既存建物解体工事… The post 東急不の赤坂ビル/鹿島で10月から解体/29年6月末の完了目指す first appeared on 建設通信新聞Digital .",
+   "summary": "東急不動産は、東京都千代田区で計画する「（仮称）東急不動産赤坂ビル解体・建替計画 既存建物解体工事… The post 鹿島で10月から解体/29年6月末の完了目指す/東急不の赤坂ビル first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1836,11 +1931,11 @@
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "年度内に再生組合設立/27年冬解体着手 ソシオ茨木建替え/推進委",
+   "title": "26年度内に再生組合設立/27年冬解体着手 ソシオ茨木建替え/推進委",
    "url": "https://www.kensetsunews.com/archives/1284653",
    "published": "2026-09-13T19:55+00:00",
    "published_jst": "2026-09-14 04:55",
-   "summary": "阪急茨木市駅前（大阪府茨木市）の集合住宅「ソシオ茨木」の再整備について、地権者らで構成する「ソシオ… The post 年度内に再生組合設立/27年冬解体着手 ソシオ茨木建替え/推進委 first appeared on 建設通信新聞Digital .",
+   "summary": "阪急茨木市駅前（大阪府茨木市）の集合住宅「ソシオ茨木」の再整備について、地権者らで構成する「ソシオ… The post 26年度内に再生組合設立/27年冬解体着手 ソシオ茨木建替え/推進委 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1879,7 +1974,7 @@
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "米国でAIデータセンターの急速建設に反対が広がる",
+   "title": "米国でAIデータセンターの急速建設に反対が広がる | ウクライナニュース - #Mezha",
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0bTZIQVA1RjYzMUFkT3ZkRHNZUHJZck15bTNWRVNuUVNuNU8wUThHWE1zak1WN1ItcXEzckVndWNEd3cwQXhVTXhFM09yZERNdHl2NkFZZkU3NzR4cEZoaENrTQ?oc=5",
    "published": "2026-09-13T19:37+00:00",
    "published_jst": "2026-09-14 04:37",
