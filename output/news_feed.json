@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-14T23:53+00:00",
- "generated_at_jst": "2026-09-15 08:53",
+ "generated_at": "2026-09-15T00:00+00:00",
+ "generated_at_jst": "2026-09-15 09:00",
  "window_hours": 48,
  "counts": {
   "ai_japan": 24,
-  "construction_japan": 37,
-  "ai_global": 45,
-  "construction_global": 20
+  "construction_japan": 36,
+  "ai_global": 46,
+  "construction_global": 30
  },
  "errors": [
   {
@@ -14,8 +14,8 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "ken_it_world",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
@@ -98,6 +98,19 @@
    "ai_related": false
   },
   {
+   "id": "e4b50f354b69",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+   "published": "2026-09-14T22:59+00:00",
+   "published_jst": "2026-09-15 07:59",
+   "summary": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontie",
+   "ai_related": true
+  },
+  {
    "id": "654f7fb74c39",
    "source": "週刊エコノミスト Online",
    "source_id": "gnews_kensetsu_ai",
@@ -152,6 +165,19 @@
    "ai_related": false,
    "title_ja": "US Steelなどが約20億ドルの設備投資を計画",
    "summary_ja": "Array TechnologiesやSiemens Healthineersなども、新工場の設立や事業拡大を発表した。"
+  },
+  {
+   "id": "fa0bf0a9d2fe",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "What execs and politicians are saying about slowing down AI development",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+   "published": "2026-09-14T21:21+00:00",
+   "published_jst": "2026-09-15 06:21",
+   "summary": "Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"We Must Pace the Frontier\" detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor of or opposing his points, and we've compi",
+   "ai_related": true
   },
   {
    "id": "4a38ad44a899",
@@ -211,7 +237,7 @@
   },
   {
    "id": "e6ce7840905b",
-   "source": "decn.co.jp",
+   "source": "日刊建設工業新聞",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -333,19 +359,6 @@
    "ai_related": false
   },
   {
-   "id": "bc20437b4f34",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日建設計を特定/「創世1・1・1区＋」まちづくり/札幌市",
-   "url": "https://www.kensetsunews.com/archives/1285099",
-   "published": "2026-09-14T19:55+00:00",
-   "published_jst": "2026-09-15 04:55",
-   "summary": "札幌市まちづくり政策局は、公募型プロポーザルを実施した「２０２６年度『創世１・１・１区＋』まちづく… The post 日建設計を特定/「創世1・1・1区＋」まちづくり/札幌市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "194f13c13491",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -395,6 +408,19 @@
    "published": "2026-09-14T19:55+00:00",
    "published_jst": "2026-09-15 04:55",
    "summary": "大阪市は、「夢洲第２期区域記念公園ゾーンの事業構想及び基本計画策定等業務委託」の公募型プロポーザル… The post 電通JVを特定/夢洲記念公園基本計画/大阪市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "bc20437b4f34",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日建設計を特定/「創世1・1・1区＋」まちづくり/札幌市",
+   "url": "https://www.kensetsunews.com/archives/1285099",
+   "published": "2026-09-14T19:55+00:00",
+   "published_jst": "2026-09-15 04:55",
+   "summary": "札幌市まちづくり政策局は、公募型プロポーザルを実施した「２０２６年度『創世１・１・１区＋』まちづく… The post 日建設計を特定/「創世1・1・1区＋」まちづくり/札幌市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1003,6 +1029,58 @@
    "ai_related": true
   },
   {
+   "id": "90693e57347d",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Clean energy grid upgrades facing delays and project risks",
+   "url": "https://www.constructionnews.co.uk/civils/clean-energy-grid-upgrades-facing-delays-and-project-risks-14-09-2026/",
+   "published": "2026-09-14T11:45+00:00",
+   "published_jst": "2026-09-14 20:45",
+   "summary": "More than half of the construction projects underway on the electricity grid to help the UK meet its Clean Power 2030 target are facing major difficulties, a watchdog has warned. The National Audit Office (NAO) said 28 of 56 ongoing and essential upgrade schemes had… The post Clean energy grid upgra",
+   "ai_related": false
+  },
+  {
+   "id": "8d87d0cbbdfc",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Hospital seeks contractor for final part of RAAC failsafe work",
+   "url": "https://www.constructionnews.co.uk/buildings/hospital-seeks-contractor-for-final-part-of-raac-failsafe-work-14-09-2026/",
+   "published": "2026-09-14T11:45+00:00",
+   "published_jst": "2026-09-14 20:45",
+   "summary": "A Norfolk hospital is seeking a contractor for the last phase of its reinforced autoclaved aerated concrete (RAAC) failsafe programme. The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust, part of the Norfolk and Waveney University Hospitals Group, has around 18 months left on a… The post H",
+   "ai_related": false
+  },
+  {
+   "id": "7652fcc77e0e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Lendlease issues £96m remediation claim against Berkeley Group",
+   "url": "https://www.constructionnews.co.uk/legal/lendlease-issues-100m-remediation-claim-against-berkeley-group-14-09-2026/",
+   "published": "2026-09-14T11:45+00:00",
+   "published_jst": "2026-09-14 20:45",
+   "summary": "Lendlease says Berkeley should share liabilities arising from alleged defects at 20 residential developments. The post Lendlease issues £96m remediation claim against Berkeley Group appeared first on Construction News .",
+   "ai_related": false
+  },
+  {
+   "id": "ad8170016eb9",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Codi Group launches £750m Welsh housing procurement",
+   "url": "https://www.constructionnews.co.uk/contracts/codi-group-launches-750m-welsh-housing-procurement-14-09-2026/",
+   "published": "2026-09-14T11:32+00:00",
+   "published_jst": "2026-09-14 20:32",
+   "summary": "Welsh housing provider Codi Group has launched a £750m construction framework covering housing schemes and refurbishment work. The four-year framework will appoint up to 48 principal contractors across six lots, with work scheduled to begin from April 2027. Codi Group will act as the contracting… Th",
+   "ai_related": false
+  },
+  {
    "id": "9ca706834884",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1016,17 +1094,82 @@
    "ai_related": true
   },
   {
-   "id": "a97246c89ec2",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "2026-27年版 技術士第二次試験 建設部門 最新キーワード100",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XMnR1cDNDQVE0ZWViM2dpSmJoV3l6S3QzZ3o2M1FuckpqX3UzQUxVQ2dxdGhYeGNvdkpCWUhJendqTXREWVc4b2t4NjRoSjk4Rjhqa0RrS2czWlFVOGFr?oc=5",
-   "published": "2026-09-14T10:25+00:00",
-   "published_jst": "2026-09-14 19:25",
-   "summary": "",
+   "id": "66f16e8e639e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Chasing paperwork is costing subcontractors more than they think",
+   "url": "https://www.constructionnews.co.uk/sponsored/chasing-paperwork-is-costing-subcontractors-more-than-they-think-14-09-2026/",
+   "published": "2026-09-14T11:10+00:00",
+   "published_jst": "2026-09-14 20:10",
+   "summary": "Margins in subcontracting have been thin for years, but something has shifted. It isn't just materials and labour costs squeezing profit; it's the sheer amount of time going into proving the work was done at all. Ask most subcontractors where their admin time goes and… The post Chasing paperwork is ",
    "ai_related": false
+  },
+  {
+   "id": "0ab621c6b1a8",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Pay up: The 20 highest-paid construction execs",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/features/pay-up-the-20-highest-paid-construction-execs-14-09-2026/",
+   "published": "2026-09-14T10:44+00:00",
+   "published_jst": "2026-09-14 19:44",
+   "summary": "While construction output grew modestly and project starts dropped sharply, the 30 top-paid executives at UK construction firms were handsomely rewarded for their endeavours in the stormy waters of 2025 The post Pay up: The 20 highest-paid construction execs appeared first on Construction News .",
+   "ai_related": false
+  },
+  {
+   "id": "8ad1f99ecc57",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Firms chosen for £2.5bn housing repairs framework",
+   "url": "https://www.constructionnews.co.uk/contracts/firms-chosen-for-2-5bn-housing-repairs-framework-14-09-2026/",
+   "published": "2026-09-14T10:38+00:00",
+   "published_jst": "2026-09-14 19:38",
+   "summary": "CDS Cooperatives has appointed 167 firms to a £2.5bn repairs, maintenance and planned works framework. The housing co-operative appointed suppliers to deliver work on domestic and commercial properties across the UK. Property technology company Plentific will manage the framework through its digital",
+   "ai_related": false
+  },
+  {
+   "id": "06a370aa043a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Berkshire building firm set to appoint administrators",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/berkshire-building-firm-set-to-appoint-administrators-14-09-2026/",
+   "published": "2026-09-14T10:20+00:00",
+   "published_jst": "2026-09-14 19:20",
+   "summary": "Berkshire-based contractor Helix Construct has filed a notice of intention to appoint administrators. The firm, which reported income of £39.5m for the 18 months to 30 June 2025, lodged the notice with the High Court last Thursday (10 September). Helix Construct made a pre-tax loss… The post Berkshi",
+   "ai_related": false
+  },
+  {
+   "id": "ad71ce1808a0",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "NEPO launches £800m building materials framework",
+   "url": "https://www.constructionnews.co.uk/contracts/nepo-launches-800m-building-materials-framework-14-09-2026/",
+   "published": "2026-09-14T10:18+00:00",
+   "published_jst": "2026-09-14 19:18",
+   "summary": "The North East Procurement Organisation (NEPO) has launched an £800m framework covering building materials, managed stores and modular buildings for public sector clients across the UK. The open framework is due to run for eight years from 1 February 2027 until 31 January 2035. NEPO… The post NEPO l",
+   "ai_related": false
+  },
+  {
+   "id": "888033dde79e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Road-user charging rethink urged to support new investment",
+   "url": "https://www.constructionnews.co.uk/civils/road-user-charging-rethink-urged-to-support-new-investment-14-09-2026/",
+   "published": "2026-09-14T10:14+00:00",
+   "published_jst": "2026-09-14 19:14",
+   "summary": "The government should examine road-user charging to support investment in new road capacity, a civils industry body has said. Different road-user charging models should be revisited alongside a review of the tax regime for fuel and vehicles, the Civil Engineering Contractors Association (CECA) added",
+   "ai_related": true
   },
   {
    "id": "6865a9ee029c",
@@ -1260,7 +1403,7 @@
   },
   {
    "id": "bc04f2045578",
-   "source": "s-housing.jp",
+   "source": "新建ハウジング",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1377,7 +1520,7 @@
   },
   {
    "id": "1c2c096c2858",
-   "source": "htonline.sohjusha.co.jp",
+   "source": "Housing Tribune Online",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1403,7 +1546,7 @@
   },
   {
    "id": "8e4d5b736193",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1472,7 +1615,7 @@
   },
   {
    "id": "4639e43c77c4",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1565,7 +1708,7 @@
   },
   {
    "id": "d443d8c62bfc",
-   "source": "decn.co.jp",
+   "source": "日刊建設工業新聞",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1771,21 +1914,6 @@
    "published_jst": "2026-09-13 16:30",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "3f37b0a02f79",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-   "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-   "published": "2026-09-12T23:56+00:00",
-   "published_jst": "2026-09-13 08:56",
-   "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloada",
-   "ai_related": true,
-   "title_ja": "GPT-6 AstraとChatGPT Workでランニングコースを作成",
-   "summary_ja": "ChatGPTを活用して自宅周辺の5キロと10キロの周回ランニングコースをOSMデータから自動生成した体験談。"
   }
  ]
 }
