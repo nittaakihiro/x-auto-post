@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-15T10:28+00:00",
- "generated_at_jst": "2026-09-15 19:28",
+ "generated_at": "2026-09-15T11:42+00:00",
+ "generated_at_jst": "2026-09-15 20:42",
  "window_hours": 48,
  "counts": {
-  "construction_global": 33,
   "ai_global": 49,
-  "construction_japan": 53,
-  "ai_japan": 35
+  "construction_global": 23,
+  "construction_japan": 51,
+  "ai_japan": 34
  },
  "errors": [
   {
@@ -14,23 +14,25 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "ken_it_world",
-   "error": "URLError: <urlopen error timed out>"
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
   {
-   "id": "2acd4a1b3a9e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
+   "id": "c526d8504637",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
    "lang": "en",
-   "title": "Tories blast government over steel policy as nationalisation plan unveiled",
-   "url": "https://www.constructionnews.co.uk/government/tories-blast-government-over-steel-policy-as-nationalisation-plan-unveiled-15-09-2026/",
-   "published": "2026-09-15T10:01+00:00",
-   "published_jst": "2026-09-15 19:01",
-   "summary": "Shadow business secretary Bradley Thomas has warned that more steel manufacturers will fail unless the government provides better support to the ailing sector. The Tory MP hit out at Labour policy as ministers revealed a plan to nationalise Yorkshire-based producer Speciality Steel UK (SSUK), which…",
-   "ai_related": false
+   "title": "Apple brings a fully revamped Siri built on Google's Gemini, but not to the EU",
+   "url": "https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu/",
+   "published": "2026-09-15T10:33+00:00",
+   "published_jst": "2026-09-15 19:33",
+   "summary": "Apple is shipping its rebuilt \"Siri AI\" after years of delay, built on Google's Gemini models and running partly on the device, partly through Private Cloud Compute. Early testers praise multi-step requests and screen context, but report hallucinations and gaps with personal context. In the EU, the ",
+   "ai_related": true,
+   "title_ja": "Apple、GoogleのGemini搭載した新Siriを発表（EU除く）",
+   "summary_ja": "長年の開発遅延を経て刷新されたSiriが登場。GoogleのGeminiを採用し、デバイス内とクラウドを組み合わせて動作する。"
   },
   {
    "id": "c2c660edac22",
@@ -38,12 +40,14 @@
    "source_id": "mit_tr",
    "category": "ai_global",
    "lang": "en",
-   "title": "What must happen for AI’s trillion-dollar gamble to pay off",
+   "title": "What’s at stake in AI’s trillion-dollar gamble",
    "url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
    "published": "2026-09-15T10:00+00:00",
    "published_jst": "2026-09-15 19:00",
    "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in ques",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIへの巨額投資がもたらすリスクと行方",
+   "summary_ja": "ペンシルベニア大学のファイナンス教授が、今後数年間の経済におけるAIの影響と、ビジネス上の膨大な不確実性を評価する。"
   },
   {
    "id": "1d7898cfc869",
@@ -56,20 +60,9 @@
    "published": "2026-09-15T10:00+00:00",
    "published_jst": "2026-09-15 19:00",
    "summary": "If the shoe no longer fits, size up. The same goes for your business strategy when your construction company grows. The post How to Avoid Blind Spots When Scaling Your Construction Business first appeared on Construction Executive .",
-   "ai_related": false
-  },
-  {
-   "id": "79a3de79b51b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Warning to contractors as HMRC targets payroll fraud",
-   "url": "https://www.constructionnews.co.uk/government/warning-to-contractors-as-hmrc-targets-payroll-fraud-15-09-2026/",
-   "published": "2026-09-15T09:37+00:00",
-   "published_jst": "2026-09-15 18:37",
-   "summary": "A legal expert has urged contractors to tighten their checks as HMRC launched a crackdown on illegal payroll activity on construction sites. Rachel Jones, senior tax manager at law firm Addleshaw Goddard, said robust due diligence on labour supply chains was \"no longer optional\". HMRC… The post Warn",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "建設業の規模拡大時に死角を防ぐ方法",
+   "summary_ja": "靴のサイズを合わせるように、建設会社の成長に合わせて事業戦略も調整する必要がある。"
   },
   {
    "id": "a56c8505720e",
@@ -95,7 +88,9 @@
    "published": "2026-09-15T09:04+00:00",
    "published_jst": "2026-09-15 18:04",
    "summary": "OpenAI, Anthropic, and Google want to slow down frontier AI development, citing safety concerns. But critics from across the industry and politics are pushing back. Cohere CEO Aidan Gomez calls the initiative a \"cartel by another name\" designed to shut out competitors, and the White House and Trump ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AI大手の開発ペース一時停止、安全性を疑問視する声も",
+   "summary_ja": "安全性への懸念から開発抑制を訴えるAI企業に対し、業界や政治の批判派は「カルテルのようなもの」と反発している。"
   },
   {
    "id": "1537042228c9",
@@ -108,7 +103,9 @@
    "published": "2026-09-15T09:00+00:00",
    "published_jst": "2026-09-15 18:00",
    "summary": "",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "小児病院が心臓ケアにオープンソースのNVIDIA AIを活用",
+   "summary_ja": "NVIDIAのオープンソースAI技術を活用し、先進的な心臓ケアや医療の質向上に取り組む小児病院の事例を紹介する。"
   },
   {
    "id": "9ceddb99eede",
@@ -202,19 +199,6 @@
    "ai_related": true
   },
   {
-   "id": "3dc44ff67a9d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Universal names contractors for Bedford resort development",
-   "url": "https://www.constructionnews.co.uk/contracts/universal-names-contractors-for-bedford-resort-development-15-09-2026/",
-   "published": "2026-09-15T08:17+00:00",
-   "published_jst": "2026-09-15 17:17",
-   "summary": "Universal has appointed 23 firms to support construction of its planned resort development in Bedford, including contractors Galliford Try, Morgan Sindall, Sir Robert McAlpine, Wates and Winvic. Bovis Construction (Europe) and PJ Carey Contractors also feature on the first supplier list, alongside c",
-   "ai_related": false
-  },
-  {
    "id": "62aadee57c24",
    "source": "매일경제",
    "source_id": "gnews_kensetsu_ai",
@@ -251,7 +235,9 @@
    "published": "2026-09-15T07:53+00:00",
    "published_jst": "2026-09-15 16:53",
    "summary": "McAlpine, Wates, Morgan Sindall and Winvic join first-wave delivery team",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ユニバーサル、50億ポンドのテーマパークで最初の施工業者を発表",
+   "summary_ja": "McAlpine、Wates、Morgan Sindall、Winvicの4社が初期段階のデリバリーチームに参加。"
   },
   {
    "id": "f21804858dde",
@@ -277,7 +263,9 @@
    "published": "2026-09-15T07:19+00:00",
    "published_jst": "2026-09-15 16:19",
    "summary": "Airport expansion skills plan to open routes into construction careers",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ヒースロー第3滑走路、若者の雇用創出でNEET問題に対応",
+   "summary_ja": "空港拡張によるスキル育成計画を通じて、若者が建設業界でのキャリアを築く道を開く。"
   },
   {
    "id": "8144ea5c2116",
@@ -316,7 +304,9 @@
    "published": "2026-09-15T06:41+00:00",
    "published_jst": "2026-09-15 15:41",
    "summary": "Legacy site repairs and restructuring costs wipe out house builder profit",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Gleeson、1400万ポンドの修繕費用計上で赤字転落",
+   "summary_ja": "過去の敷地修繕や事業再編のコストが重なり、住宅メーカーの利益が吹き飛ぶ結果となった。"
   },
   {
    "id": "06d9bafd4b15",
@@ -342,7 +332,9 @@
    "published": "2026-09-15T06:19+00:00",
    "published_jst": "2026-09-15 15:19",
    "summary": "Firm to focus on construction and infrastructure after posting strong set of results",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Kier、不動産投資事業からの撤退へ",
+   "summary_ja": "好調な業績発表を受け、同社は今後は建設およびインフラ事業に注力する方針を示す。"
   },
   {
    "id": "361a7143ba5e",
@@ -355,7 +347,9 @@
    "published": "2026-09-15T06:04+00:00",
    "published_jst": "2026-09-15 15:04",
    "summary": "CEO Mark Wild tells watchdog MPs renegotiated main works deals could save £2bn",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "HS2、最後の土木工事2件の契約見直しが大詰めへ",
+   "summary_ja": "マーク・ワイルドCEOは、主要工事の再交渉により20億ポンドの節約が可能になると議員らに語った。"
   },
   {
    "id": "bfe934a69f49",
@@ -394,7 +388,9 @@
    "published": "2026-09-15T05:59+00:00",
    "published_jst": "2026-09-15 14:59",
    "summary": "Tax man targets bogus payroll companies",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "HMRC、建設業の給与明細詐欺について警告を発令",
+   "summary_ja": "英国歳入関税庁（HMRC）が、不正な給与計算代行企業をターゲットにした取り締まりを実施。"
   },
   {
    "id": "cdf4bd04012b",
@@ -407,11 +403,13 @@
    "published": "2026-09-15T05:55+00:00",
    "published_jst": "2026-09-15 14:55",
    "summary": "Inmates working with main contractor Reds10 on North Yorkshire site",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "受刑者が新しいモジュール式留置所の建設作業を支援",
+   "summary_ja": "ノース・ヨークシャーの現場で、受刑者たちがメインコントラクターのReds10と協力して作業に従事。"
   },
   {
    "id": "0f92b39356a1",
-   "source": "Chosunbiz",
+   "source": "biz.chosun.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -554,7 +552,7 @@
   },
   {
    "id": "04e614585f9b",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -633,19 +631,6 @@
    "ai_related": true
   },
   {
-   "id": "e6ce7840905b",
-   "source": "日刊建設工業新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "名古屋市／先進技術社会実証支援事業／大成建設と古河電工の実証実験を採択",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SYWUzT20zaUlYRG9wTW1RX0l6dV9FMWtPd0xQckE1ZmYzNXRjdHJiN3hMbnBSbGpxZTBKMHhRd2hPMnVXUUpj?oc=5",
-   "published": "2026-09-15T01:15+00:00",
-   "published_jst": "2026-09-15 10:15",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "9ca706834884",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -686,7 +671,7 @@
   },
   {
    "id": "41025e6d588e",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -699,7 +684,7 @@
   },
   {
    "id": "8c89455e8e5a",
-   "source": "Chosunbiz",
+   "source": "biz.chosun.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -725,7 +710,7 @@
   },
   {
    "id": "9e40dd547374",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1094,7 +1079,7 @@
   },
   {
    "id": "6348e83ceaca",
-   "source": "nikkan.co.jp",
+   "source": "日刊工業新聞",
    "source_id": "gnews_zenecon_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1103,6 +1088,32 @@
    "published": "2026-09-14T20:00+00:00",
    "published_jst": "2026-09-15 05:00",
    "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "194f13c13491",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "八戸広域組合の一般廃棄物処理施設/11月にも基本計画案/37年度の供用目指す",
+   "url": "https://www.kensetsunews.com/archives/1285100",
+   "published": "2026-09-14T19:55+00:00",
+   "published_jst": "2026-09-15 04:55",
+   "summary": "八戸地域広域市町村圏事務組合（管理者・熊谷雄一青森県八戸市長）は、１１月にも新たな一般廃棄物処理施… The post 八戸広域組合の一般廃棄物処理施設/11月にも基本計画案/37年度の供用目指す first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "06ea9b8aa703",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "北陸整備局WTO/申請書は10月16日まで/砂防工事6件を一括審査/手取川西川樋門も公告",
+   "url": "https://www.kensetsunews.com/archives/1285140",
+   "published": "2026-09-14T19:55+00:00",
+   "published_jst": "2026-09-15 04:55",
+   "summary": "北陸地方整備局は１５日、ＷＴＯ対象となる「令和８年度曽々木地区特定緊急地すべり対策工事」「令和８年… The post 北陸整備局WTO/申請書は10月16日まで/砂防工事6件を一括審査/手取川西川樋門も公告 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1142,32 +1153,6 @@
    "published": "2026-09-14T19:55+00:00",
    "published_jst": "2026-09-15 04:55",
    "summary": "札幌市まちづくり政策局は、公募型プロポーザルを実施した「２０２６年度『創世１・１・１区＋』まちづく… The post 日建設計を特定/「創世1・1・1区＋」まちづくり/札幌市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "194f13c13491",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "八戸広域組合の一般廃棄物処理施設/11月にも基本計画案/37年度の供用目指す",
-   "url": "https://www.kensetsunews.com/archives/1285100",
-   "published": "2026-09-14T19:55+00:00",
-   "published_jst": "2026-09-15 04:55",
-   "summary": "八戸地域広域市町村圏事務組合（管理者・熊谷雄一青森県八戸市長）は、１１月にも新たな一般廃棄物処理施… The post 八戸広域組合の一般廃棄物処理施設/11月にも基本計画案/37年度の供用目指す first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "06ea9b8aa703",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "北陸整備局WTO/申請書は10月16日まで/砂防工事6件を一括審査/手取川西川樋門も公告",
-   "url": "https://www.kensetsunews.com/archives/1285140",
-   "published": "2026-09-14T19:55+00:00",
-   "published_jst": "2026-09-15 04:55",
-   "summary": "北陸地方整備局は１５日、ＷＴＯ対象となる「令和８年度曽々木地区特定緊急地すべり対策工事」「令和８年… The post 北陸整備局WTO/申請書は10月16日まで/砂防工事6件を一括審査/手取川西川樋門も公告 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1271,7 +1256,9 @@
    "published": "2026-09-14T19:00+00:00",
    "published_jst": "2026-09-15 04:00",
    "summary": "More than half of executives say employees are working longer hours or taking fewer breaks, while 44% say employees are performing tasks they aren’t fully trained to perform. The post The Business Case for a Stronger Construction Safety Culture first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "強力な建設安全文化を築くためのビジネス上の理由",
+   "summary_ja": "半数以上の幹部が従業員の長時間労働や休憩減を認め、44%が未訓練の作業を行っていると回答。"
   },
   {
    "id": "d834d734a1ce",
@@ -1324,7 +1311,7 @@
    "url": "https://andonlabs.com/blog/why-we-built-pion",
    "published": "2026-09-14T17:16+00:00",
    "published_jst": "2026-09-15 02:16",
-   "summary": "Article URL: https://andonlabs.com/blog/why-we-built-pion Comments URL: https://news.ycombinator.com/item?id=49700477 Points: 411 # Comments: 513",
+   "summary": "Article URL: https://andonlabs.com/blog/why-we-built-pion Comments URL: https://news.ycombinator.com/item?id=49700477 Points: 421 # Comments: 520",
    "ai_related": true,
    "title_ja": "企業を自律的に運営するAIエージェント「Pion」",
    "summary_ja": "あらゆる企業の自律運営を目指して設計されたエージェント「Pion」についての開発ブログ記事。"
@@ -1443,7 +1430,9 @@
    "published": "2026-09-14T16:00+00:00",
    "published_jst": "2026-09-15 01:00",
    "summary": "It’s impossible to remove every pressure that comes with and/or from work. But not every inherited way of working needs to remain. The post Rethinking the Approach to Suicide Prevention In Construction: What Gets Passed Down From Leadership first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "建設業における自殺防止アプローチの見直しとリーダーの役割",
+   "summary_ja": "仕事に伴うプレッシャーを完全になくすことは不可能だが、従来の働き方をそのまま続ける必要はない。"
   },
   {
    "id": "40e36389fb55",
@@ -1723,7 +1712,7 @@
    "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
    "published": "2026-09-14T12:40+00:00",
    "published_jst": "2026-09-14 21:40",
-   "summary": "Article URL: https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/ Comments URL: https://news.ycombinator.com/item?id=49695876 Points: 465 # Comments: 373",
+   "summary": "Article URL: https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/ Comments URL: https://news.ycombinator.com/item?id=49695876 Points: 472 # Comments: 380",
    "ai_related": true,
    "title_ja": "OpenAIのボットがRubyGemsのキャッシュ脆弱性を把握していた",
    "summary_ja": "AIボットがシステム内の脆弱性に関する情報をあらかじめ認識していたことを示す話題。"
@@ -1759,137 +1748,6 @@
    "summary_ja": "OpenAIのモデルやユーザーのフィードバックを活用し、個人の口調でメールの整理や下書きを作成する。"
   },
   {
-   "id": "e0f58da0de41",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "なぜAIエージェントはウソをつき不正行為を行い協調するのか？",
-   "url": "https://gigazine.net/news/20260914-why-ai-agents-lying-cheating-coordinating/",
-   "published": "2026-09-14T12:00+00:00",
-   "published_jst": "2026-09-14 21:00",
-   "summary": "AIは時にウソをついたり、不正行為を行ったりします。「なぜAIエージェントはウソをつき、不正行為を行い、協調するのか？」について、2018年にチューリング賞を受賞したAI研究の第一人者であるヨシュア・ベンジオ氏が解説しています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "90693e57347d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Clean energy grid upgrades facing delays and project risks",
-   "url": "https://www.constructionnews.co.uk/civils/clean-energy-grid-upgrades-facing-delays-and-project-risks-14-09-2026/",
-   "published": "2026-09-14T11:45+00:00",
-   "published_jst": "2026-09-14 20:45",
-   "summary": "More than half of the construction projects underway on the electricity grid to help the UK meet its Clean Power 2030 target are facing major difficulties, a watchdog has warned. The National Audit Office (NAO) said 28 of 56 ongoing and essential upgrade schemes had… The post Clean energy grid upgra",
-   "ai_related": false,
-   "title_ja": "英クリーン電力網の近代化、遅延とリスクに直面",
-   "summary_ja": "英国のクリーン電力目標に向けた送電網工事の半数以上が重大な困難に直面していると、国家会計検査院が警告した。"
-  },
-  {
-   "id": "8d87d0cbbdfc",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Hospital seeks contractor for final part of RAAC failsafe work",
-   "url": "https://www.constructionnews.co.uk/buildings/hospital-seeks-contractor-for-final-part-of-raac-failsafe-work-14-09-2026/",
-   "published": "2026-09-14T11:45+00:00",
-   "published_jst": "2026-09-14 20:45",
-   "summary": "A Norfolk hospital is seeking a contractor for the last phase of its reinforced autoclaved aerated concrete (RAAC) failsafe programme. The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust, part of the Norfolk and Waveney University Hospitals Group, has around 18 months left on a… The post H",
-   "ai_related": false,
-   "title_ja": "病院、RAAC対策工事の最終段階で施工業者を募集",
-   "summary_ja": "ノーフォークの病院が、気泡コンクリート（RAAC）に関する安全対策プログラムの最終フェーズを担う施工業者を求めている。"
-  },
-  {
-   "id": "7652fcc77e0e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Lendlease issues £96m remediation claim against Berkeley Group",
-   "url": "https://www.constructionnews.co.uk/legal/lendlease-issues-100m-remediation-claim-against-berkeley-group-14-09-2026/",
-   "published": "2026-09-14T11:45+00:00",
-   "published_jst": "2026-09-14 20:45",
-   "summary": "Lendlease says Berkeley should share liabilities arising from alleged defects at 20 residential developments. The post Lendlease issues £96m remediation claim against Berkeley Group appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "LendleaseがBerkeleyに9,600万ポンドの補修請求",
-   "summary_ja": "Lendleaseは、20件の住宅開発における欠陥をめぐり、Berkeley Groupが責任を分担すべきだと主張している。"
-  },
-  {
-   "id": "ad8170016eb9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Codi Group launches £750m Welsh housing procurement",
-   "url": "https://www.constructionnews.co.uk/contracts/codi-group-launches-750m-welsh-housing-procurement-14-09-2026/",
-   "published": "2026-09-14T11:32+00:00",
-   "published_jst": "2026-09-14 20:32",
-   "summary": "Welsh housing provider Codi Group has launched a £750m construction framework covering housing schemes and refurbishment work. The four-year framework will appoint up to 48 principal contractors across six lots, with work scheduled to begin from April 2027. Codi Group will act as the contracting… Th",
-   "ai_related": false,
-   "title_ja": "Codi Group、ウェールズで7.5億ポンドの住宅調達を開始",
-   "summary_ja": "ウェールズのCodi Groupが、住宅スキームや改修工事を対象とする7億5000万ポンド規模の建設フレームワークを立ち上げた。"
-  },
-  {
-   "id": "66f16e8e639e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Chasing paperwork is costing subcontractors more than they think",
-   "url": "https://www.constructionnews.co.uk/sponsored/chasing-paperwork-is-costing-subcontractors-more-than-they-think-14-09-2026/",
-   "published": "2026-09-14T11:10+00:00",
-   "published_jst": "2026-09-14 20:10",
-   "summary": "Margins in subcontracting have been thin for years, but something has shifted. It isn't just materials and labour costs squeezing profit; it's the sheer amount of time going into proving the work was done at all. Ask most subcontractors where their admin time goes and… The post Chasing paperwork is ",
-   "ai_related": false,
-   "title_ja": "書類作業の負担が下請け企業の収益を圧迫",
-   "summary_ja": "資材や労務費だけでなく、作業証明にかかる膨大な書類作成の時間が、下請け企業の利益を大きく圧迫している。"
-  },
-  {
-   "id": "0ab621c6b1a8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Pay up: The 20 highest-paid construction execs",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/features/pay-up-the-20-highest-paid-construction-execs-14-09-2026/",
-   "published": "2026-09-14T10:44+00:00",
-   "published_jst": "2026-09-14 19:44",
-   "summary": "While construction output grew modestly and project starts dropped sharply, the 30 top-paid executives at UK construction firms were handsomely rewarded for their endeavours in the stormy waters of 2025 The post Pay up: The 20 highest-paid construction execs appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "建設業界の高額報酬トップ20の経営者たち",
-   "summary_ja": "建設生産が伸び悩み着工数が激減する中、英建設企業のトップ経営者たちは2025年も多額の報酬を手にしていた。"
-  },
-  {
-   "id": "8ad1f99ecc57",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Firms chosen for £2.5bn housing repairs framework",
-   "url": "https://www.constructionnews.co.uk/contracts/firms-chosen-for-2-5bn-housing-repairs-framework-14-09-2026/",
-   "published": "2026-09-14T10:38+00:00",
-   "published_jst": "2026-09-14 19:38",
-   "summary": "CDS Cooperatives has appointed 167 firms to a £2.5bn repairs, maintenance and planned works framework. The housing co-operative appointed suppliers to deliver work on domestic and commercial properties across the UK. Property technology company Plentific will manage the framework through its digital",
-   "ai_related": false,
-   "title_ja": "25億ポンドの住宅修繕フレームワークの参画企業決定",
-   "summary_ja": "CDS Cooperativesは、英国全土の物件を対象とした修繕や維持管理業務を行う167社を選定した。"
-  },
-  {
-   "id": "a97246c89ec2",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "2026-27年版 技術士第二次試験 建設部門 最新キーワード100",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XMnR1cDNDQVE0ZWViM2dpSmJoV3l6S3QzZ3o2M1FuckpqX3UzQUxVQ2dxdGhYeGNvdkpCWUhJendqTXREWVc4b2t4NjRoSjk4Rjhqa0RrS2czWlFVOGFr?oc=5",
-   "published": "2026-09-14T10:25+00:00",
-   "published_jst": "2026-09-14 19:25",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "6865a9ee029c",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -1900,7 +1758,9 @@
    "published": "2026-09-14T10:00+00:00",
    "published_jst": "2026-09-14 19:00",
    "summary": "LEED v5 shifts policy toward outcomes based on decarbonization, social equity and ecosystem restoration. The post One Year In: A Look at the Initial Impacts of LEED v5 on the Built Environment first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "LEED v5導入1年目：建築環境への初期影響を振り返る",
+   "summary_ja": "LEED v5は、脱炭素、社会的公平性、生態系の回復に基づく成果重視の政策へとシフトしている。"
   },
   {
    "id": "3f6ee07623d4",
@@ -2343,21 +2203,6 @@
    "ai_related": true,
    "title_ja": "オープンウェイト検索エージェント「Iris」シリーズ登場",
    "summary_ja": "AllSparkチームがQwenモデルをベースにした「Iris-mini」と「Iris-pro」を公開。同クラスのオープンウェイトモデルで最高水準の性能を記録した。"
-  },
-  {
-   "id": "de10968b50af",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "GPT-6 Astra pilots a surveillance drone and runs a business on its own",
-   "url": "https://the-decoder.com/gpt-6-astra-pilots-a-surveillance-drone-and-runs-a-business-on-its-own/",
-   "published": "2026-09-13T10:52+00:00",
-   "published_jst": "2026-09-13 19:52",
-   "summary": "GPT-6 Astra earns nearly three times as much as Claude Fable 5.1 on Andon Labs' Vending-Bench agent benchmark and refuses illegal price-fixing deals that Fable agrees to. On drone control, Astra is the first model to beat the human baseline on all five subtasks, including finding and following indiv",
-   "ai_related": true,
-   "title_ja": "GPT-6 Astraが監視ドローンを操縦し自律的にビジネスを展開",
-   "summary_ja": "GPT-6 AstraはベンチマークでClaudeの約3倍の利益を上げ、違法な価格カルテルを拒否。ドローン制御でも初の最高成績を記録した。"
   }
  ]
 }
