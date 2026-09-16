@@ -1,0 +1,1709 @@
+{
+ "fetched_at": "2026-09-16T02:53:02.484597+00:00",
+ "accounts": [
+  {
+   "username": "masahirochaen",
+   "followers": 200987,
+   "days": 7,
+   "count": 97,
+   "tweets": [
+    {
+     "id": 2100020608516211096,
+     "text": "マークベニオフがデカすぎて話が入ってこない。\n\nこれぞAI時代に求められる肉体か… https://t.co/6UFfdjPmK4",
+     "chars": 65,
+     "created_at": "2026-09-16T00:35:04+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 8417,
+      "like_count": 26,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099996261231591631,
+     "text": "■ 補足\nインタビューはa16zのポッドキャストからの抜粋。ブロックマン氏はAIによるソフトウェアの形式検証にも言及し、Navier-Stokes問題をLean言語で形式化した例を挙げている。新しいAIモデルが出るたびに「新しい脆弱性発見ラウンド」が始まる前提で運用する考え方。動画は日本語字幕版。\n\n■ 出典\nhttps://t.co/95HE2t0hB5",
+     "chars": 179,
+     "created_at": "2026-09-15T22:58:19+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 5024,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099996249235829126,
+     "text": "【インタビュー】OpenAI社長グレッグ・ブロックマン氏が自社セキュリティ運用の中身を語る。\n\n本番エンジニアの4分の1を防御専任に回すとは相当な本気度。\n\n・本番エンジニアの25%を一時的に「防御専任」へ配置転換\n・自社セキュリティAI「Astra」を自社システムに向け脆弱性を発見\n・重大な問題(P0)は最終的に見つけ尽くし\"頭打ち\"に到達\n・発見→トリアージ→修正→デプロイ→検証を自動化する「ディフェンス・ファクトリー」を構築中\n\n↓詳細",
+     "chars": 223,
+     "created_at": "2026-09-15T22:58:16+00:00",
+     "metrics": {
+      "bookmark_count": 15,
+      "impression_count": 7953,
+      "like_count": 26,
+      "quote_count": 1,
+      "reply_count": 5,
+      "retweet_count": 2
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099981450565288121,
+     "text": "(7/7)\n■ 補足\nCloudflareは本skillを土台に、複数エージェント・複数リポジトリを横断する脆弱性発見基盤へ発展させたと公式ブログ「Build your own vulnerability harness」で説明している。日本語ドキュメントは無く、READMEと各phase別md(RECONNAISSANCE.md等)を直接読む必要がある。\n\n■ 出典\nhttps://t.co/XgoiT1Gu85\nhttps://t.co/P4XrCa6JE4",
+     "chars": 233,
+     "created_at": "2026-09-15T21:59:28+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 4855,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099981434702487647,
+     "text": "(6/7)\nまとめると、\n・Cloudflareの脆弱性発見基盤(Vulnerability Harness)の元になった単一リポジトリ版\n・発見/検証/報告を別エージェントに分業させ、人間のレビュー負荷を下げる設計\n・MITライセンスでnpx skills add一行で誰でも導入可能\n\nセキュリティ監査もエージェントに任せる時代に入った。 https://t.co/SUIAbrWaWS",
+     "chars": 195,
+     "created_at": "2026-09-15T21:59:24+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2914,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099981419351326763,
+     "text": "(5/7)\n設計思想が徹底している。\n\n・確定させるのは境界侵害が立証できたものだけ。曖昧な手がかりはneeds_validationのまま残す\n・深刻度は尤度×影響で判断し、チェックリストからの逸脱だけでは判定しない\n・多層防御の一部が欠けているだけなら脆弱性扱いせずhardening note止まり\n・外部ネットワーク遮断+許可リスト+リソース制限のOSサンドボックスが無ければ実コードは動かさない",
+     "chars": 202,
+     "created_at": "2026-09-15T21:59:20+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 178,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099981403161251843,
+     "text": "(4/7)\n後半3フェーズ:\n\n④構造化出力: confirmed/needs_validation/rejectedの3種でfindings.jsonへ書き出し、JSON Schemaで機械検証\n⑤独立検証: 最終的なソース主張を別エージェントが再確認。証拠が差し替わればさらに別エージェントが検証\n⑥報告: REPORT.md等を検証済み記録と台帳から自動生成 https://t.co/iYVjgBWTfk",
+     "chars": 206,
+     "created_at": "2026-09-15T21:59:16+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 181,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099981387780726844,
+     "text": "(3/7)\n監査は6フェーズで進む。前半3つ:\n\n①偵察: アーキテクチャ・信頼境界・入力面をarchitecture.mdとcoverage-ledger.jsonにマッピング\n②網羅探索: 台帳の単位ごとに独立したハンターを割り当てて仮説を探索し、カバレッジ批評家が抜け漏れを検出\n③候補検証: 見つけた候補は必ず発見者と別のエージェントが反証を試みる",
+     "chars": 178,
+     "created_at": "2026-09-15T21:59:13+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 290,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099981369481048243,
+     "text": "(2/7)\nsecurity-audit-skillは、コーディングエージェントを「セキュリティ監査者」に変えるCloudflare製skill。\n\nnpx skills add https://t.co/XgoiT1Gu85 --skill security-audit\n\nの1行で導入できる。対応はCursor・Codexなどtool-use可能でsub-agentを並列実行できるエージェント全般。ライセンスはMIT。",
+     "chars": 212,
+     "created_at": "2026-09-15T21:59:08+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 613,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099981338678030686,
+     "text": "CloudflareがCodex/Cursor向けセキュリティ監査skillをOSS公開。Star3,550。\n\nOSSだし、一旦使ってて損はなさそう。\n\n・6フェーズ構成(偵察→網羅探索→反証検証→構造化出力→再検証→報告)\n・発見者と検証者は必ず別エージェント\n・単発実行は複数回実行で見つかる脆弱性の約半分しか見つからない\n・サンドボックス無しは実行せずneeds_validation止まり\n\nhttps://t.co/XgoiT1Gu85\n\n↓詳細",
+     "chars": 229,
+     "created_at": "2026-09-15T21:59:01+00:00",
+     "metrics": {
+      "bookmark_count": 150,
+      "impression_count": 12570,
+      "like_count": 123,
+      "quote_count": 2,
+      "reply_count": 7,
+      "retweet_count": 3
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099904334947611001,
+     "text": "Claude、Salesforce連携をベータ公開。\n\n恐らく、一番企業に求められていたMCP。\n\nAccounts / Opportunities / Pipeline をClaudeに取り込み、会話しながら商談準備、案件レビュー、パイプライン管理、売上予測までできるように。\n\nしかも営業向けスキルは37個搭載。https://t.co/0wS1GFyGkr",
+     "chars": 181,
+     "created_at": "2026-09-15T16:53:02+00:00",
+     "metrics": {
+      "bookmark_count": 84,
+      "impression_count": 16420,
+      "like_count": 123,
+      "quote_count": 2,
+      "reply_count": 0,
+      "retweet_count": 4
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099889400520065070,
+     "text": "OpenAIからまた大きなリリースが今週出そう。\n\n・GPT-6 Sol？\n・ハードウェア？\n\nAI開発が減速する気配がないぜ、、、 https://t.co/C8B4SCUwKM",
+     "chars": 90,
+     "created_at": "2026-09-15T15:53:41+00:00",
+     "metrics": {
+      "bookmark_count": 8,
+      "impression_count": 21401,
+      "like_count": 95,
+      "quote_count": 3,
+      "reply_count": 5,
+      "retweet_count": 11
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099878753178669509,
+     "text": "近々行うCodex講座でもER図の概念についても触れるので興味ある方は是非。\n\nhttps://t.co/gRSnyVPgPP\n\nhttps://t.co/LgkanTfB5E",
+     "chars": 88,
+     "created_at": "2026-09-15T15:11:23+00:00",
+     "metrics": {
+      "bookmark_count": 9,
+      "impression_count": 13867,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099810100651401607,
+     "text": "めちゃくちゃ質問がくる「Codexの利用枠、すぐなくなる問題」\n\n私が実際にやっている7つをまとめました。\n\n前提として、トークン・コンテキストウィンドウ・キャッシュなどの概念は理解しておきましょう。\n\nそのうえで、効いた順に。\n\n①コンテキストウィンドウを増やさない\n　デフォルトの20万から100万に上げたら、逆にすぐ無くなったので戻しました。\n\n②サブエージェントを不要に使わない\n　並列は速いだけで、安くはありません。依頼文に1行入れるだけで止まります\n\n③モデルは基本5.6系\n　軽い作業まで毎回GPT-6で走らせない。足りないときだけ上げる\n\nあとは、どのフォルダで開くか、AGENTS.md / CLAUDE.mdの長さ、セッションの分け方。\n\n見直したあとは、同じ作業で枠の減りが20ポイントから4ポイントほどになった感覚です。（同条件で比べたわけではないので、節約率としては断定できません）\n\nCodex中心の話ですが、考え方はClaude Codeにもそのまま効きます。\n\nよかったら見てください👇\n\n■動画\nhttps://t.co/7GkuCgaQaK\n\n■タイムライン\n オープニング\n 前提｜トークン・コンテキストウィンドウ・キャッシュ\n 毎ターン、会話の全部が送り直されている\n モデルを下げる\n どこで開くかで、読む範囲が変わる\n フォルダ階層を整える\n 実測｜起動しただけで、机の2割が埋まっていた\n サブエージェントを使わせない\n まとめ｜今日やる3つ",
+     "chars": 644,
+     "created_at": "2026-09-15T10:38:35+00:00",
+     "metrics": {
+      "bookmark_count": 263,
+      "impression_count": 40143,
+      "like_count": 179,
+      "quote_count": 4,
+      "reply_count": 4,
+      "retweet_count": 12
+     },
+     "is_quote": true,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099788608857313322,
+     "text": "ご清聴ありがとうございました！\n\nまた、今回貴重な機会をいただき感謝しかございません、、\n\nそして、夜のアフターパーティーも私が乾杯の音頭を取らせていただくので、来られる方はよろしくお願い申し上げます🙇\n\n（カトパンさんもいらっしゃいます🙌） https://t.co/y3MeIE6baD",
+     "chars": 145,
+     "created_at": "2026-09-15T09:13:11+00:00",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 26839,
+      "like_count": 50,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 3
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099760051833692303,
+     "text": "フィジカルAI・ロボット事業を始めます。\n\nAIの発信を通じてお客様が増えるなか、現場で動くロボットへのご相談も増えてきました。\n\n・UnitreeのR1などをベースに開発\n・まずは受付ロボットなどを展開\n・現在、数社とPoC（実証実験）を進行中\n\n導入に興味のある企業様、ぜひDM・リプライ・プロフィールからの問い合わせでご連絡ください！\n\nまた、機体を価格・納期の両面で好条件で調達できる企業様も探しています。お心当たりのある方は、ぜひご紹介いただけると嬉しいです🔥",
+     "chars": 235,
+     "created_at": "2026-09-15T07:19:42+00:00",
+     "metrics": {
+      "bookmark_count": 52,
+      "impression_count": 26711,
+      "like_count": 188,
+      "quote_count": 2,
+      "reply_count": 6,
+      "retweet_count": 10
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099650451113439565,
+     "text": "■ 補足\nこれまでPERやROEなどの指標は決算短信をパースして自前計算する必要があったが、日次算出済みの値をAPIから直接取得できるようになった。実績値だけでなくFwdEPS/FwdROE/FwdPERという予想値も収録されているのが特徴。時価総額は自己株式を控除した株数で算出するため、既存の株価四本値APIが返す時価総額とは数値が異なる点に注意。取得できるデータ期間はプランにより異なる。\n\nhttps://t.co/DqapYVoGgJ",
+     "chars": 222,
+     "created_at": "2026-09-15T00:04:11+00:00",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 6928,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099650438991913123,
+     "text": "これ良さそう。あとで試す。\n\n＞\nJPXのJ-Quants APIが「バリュエーション指標API」を提供開始。決算短信と株価から日次で指標を自動算出してくれる。\n\n個人投資家のスクリーニング自動化がまた一歩進みそう。\n https://t.co/T8L985q5ZC\n\n・提供指標は9項目(EPS/FwdEPS/BPS/ROE/FwdROE/PER/FwdPER/PBR/時価総額)\n・全プランで利用可能\n・時価総額は自己株式控除ベースで百万円単位\n・Lightプラン以上はCSVダウンロード・Bulk API対応\n\n日本株の定量分析がAPI一本で完結する時代に。\n↓詳細",
+     "chars": 286,
+     "created_at": "2026-09-15T00:04:08+00:00",
+     "metrics": {
+      "bookmark_count": 73,
+      "impression_count": 14054,
+      "like_count": 66,
+      "quote_count": 0,
+      "reply_count": 4,
+      "retweet_count": 3
+     },
+     "is_quote": false,
+     "media": [
+      "video",
+      "video"
+     ]
+    },
+    {
+     "id": 2099633570205806866,
+     "text": "バイブコーディングで最初に作るべきは、画面でもコードでもなく「ER図」です。\n\nAIにいきなり「こんなアプリ作って」と頼むと、画面ごとにデータ構造を作り始め、後から矛盾が出て手戻りしがち。\n\n先にER図を決めると、\n\n・画面 / API / 型がすべて同じ構造から作れる\n・仕様の矛盾を実装前に発見できる\n・修正箇所が明確になり、AIに任せても崩れにくい\n\n今回の動画では、概念図・ER図・業務フロー・UIを1つのJSONから生成。コードを書く前に、まずデータの形を合わせる。これだけで手戻りはかなり減ります。\n\nこの投稿参考にさせていただきました👇\nhttps://t.co/VRJvyQKzGD",
+     "chars": 299,
+     "created_at": "2026-09-14T22:57:07+00:00",
+     "metrics": {
+      "bookmark_count": 4594,
+      "impression_count": 760136,
+      "like_count": 3116,
+      "quote_count": 45,
+      "reply_count": 18,
+      "retweet_count": 227
+     },
+     "is_quote": true,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099618294206792148,
+     "text": "■ 補足\nHunterは、Casey・Paige・Carter・Marshall・Piper・Finとともに2026年9月11日発表された「ジョブレディ」なAgentforceエージェント群の1つ。現在はパイロット提供中で、一般提供(GA)は2026年11月予定。数週間〜数ヶ月にわたり目標を追い続ける新ランタイムが土台にある。Salesforceは過去2年でAgentforceとSlack全体で70億件のAgentic Work Unitsを処理したとしている。\n\n■ 出典\nhttps://t.co/GSnI6aoAVZ\nhttps://t.co/hR0jHD9ml8",
+     "chars": 287,
+     "created_at": "2026-09-14T21:56:25+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 9458,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099618282127126638,
+     "text": "Salesforceが新型アウトバウンド営業AIエージェント「Hunter」を披露。前四半期だけで5億ドル規模のパイプラインを生んだという。\n\n営業系のAIツールは全てSalesforceに集約されていくのか、、\nそのうち全自動になりそう、、\n\n・自らアカウントを調査し優先度を判断\n・資金調達やCRO新任等のシグナルで顧客選定\n・通話記録やCRM履歴から「勝ちパターン」を学習\n・提案書のドラフトまで自動生成\n\nCEOベニオフ自らDreamforceで実演。\n弊社もSalesforceフル活用してるので公開が楽しみ。\n\n↓詳細",
+     "chars": 265,
+     "created_at": "2026-09-14T21:56:22+00:00",
+     "metrics": {
+      "bookmark_count": 93,
+      "impression_count": 36638,
+      "like_count": 180,
+      "quote_count": 4,
+      "reply_count": 3,
+      "retweet_count": 8
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099523466420789375,
+     "text": "https://t.co/hMlUp7jKns\n\nhttps://t.co/v7zFH0bV6W",
+     "chars": 48,
+     "created_at": "2026-09-14T15:39:36+00:00",
+     "metrics": {
+      "bookmark_count": 24,
+      "impression_count": 10199,
+      "like_count": 17,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2099522518382158171,
+     "text": "Anthropic、全然AI開発止める気なくて笑った。\nもはや、AI半導体銘柄の空売りで儲けるためのブラフ＋GPT-6 Astraに対する牽制？（言い訳？）\n\nとにかくAI業界はブラフが多い。そして、一社でも開発表明する限り、このレースから降りることはできない。\n\nというかこんだけ、レバレッジをかけて調達、投資して開発を遅めるとか現実的に難しそう。\n\n>\n\nAnthropic、最大5,170億ドル（約77兆円）のコンピュート契約を積み上げ。投資家向け説明の1,800億ドルを大幅に超過。",
+     "chars": 245,
+     "created_at": "2026-09-14T15:35:50+00:00",
+     "metrics": {
+      "bookmark_count": 80,
+      "impression_count": 78187,
+      "like_count": 262,
+      "quote_count": 10,
+      "reply_count": 6,
+      "retweet_count": 29
+     },
+     "is_quote": true,
+     "media": [
+      "photo",
+      "photo"
+     ]
+    },
+    {
+     "id": 2099504707706454381,
+     "text": "あんまり教えたくないですが、GPT-6 Astraでこのプロンプト貼るだけで、劇的にUI・UXが良くなります。\n\n引用元から参考となるサイトのリンク貼るだけです。超簡単です。 https://t.co/2u0lbjrmns https://t.co/ibDSYv2e04",
+     "chars": 135,
+     "created_at": "2026-09-14T14:25:03+00:00",
+     "metrics": {
+      "bookmark_count": 3817,
+      "impression_count": 264829,
+      "like_count": 1980,
+      "quote_count": 13,
+      "reply_count": 10,
+      "retweet_count": 148
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099500827782291523,
+     "text": "残りのニュースはこちらです。\n\n② OpenAI：9/10だけで4本。GPT-Live-1は音声1分0.05ドル、Agents APIはCodexのハーネスをそのまま貸し出しで追加料金なし\n③ OpenAI公式：Skillの説明は行為で絞る。AGENTS.mdの「必ず読め」を「こういうときだけ読め」へ\n⑤ Meta Muse：重要操作は会話文ではなく「承認カード」で止める。⚠️米国のみ\n⑥ Google：Gemini が Windows へ。Sheets canvas でスプシが対話型ミニアプリに\n⑦ Apple：iPhone Duoは10/23発売。AirPods 5のライブ翻訳が日本語対応\n\n🔥バズ投稿TOP3\n・ChatGPTがYouTubeとリアルタイム同期（WebMCP）325,016 imp\n・Codexの裏技。ChatGPTとCodexは利用枠が別 1,366 BMで今週最多\n・今後、出社回帰は加速していくと思います\n\n👀ツール10選もnoteにまとめました。Devinの新モデルSWE-2、エージェント化したRaycast 2.3、端末内で動く18モデルのDesert Ant Labsなど、日本ではまだ話題になっていないものを厚めに入れています。\n\n○note\nhttps://t.co/CQIGwD4sr8\n\n○ニュースレター\nhttps://t.co/c3g5R3pQai\n\n○Codex完全解説講座（10/3土・アーカイブあり）\nhttps://t.co/NH8i89ZwRu",
+     "chars": 656,
+     "created_at": "2026-09-14T14:09:38+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 6648,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2099500815643975895,
+     "text": "④ Anthropic CEOが「AI開発のペースを落とせ」と提言し、48時間で3人が同意しました。\n\nhttps://t.co/mobBTPWNYB\n\n・9/12、ダリオ・アモデイが論考「We Must Pace the Frontier」を公開\n・理由は2つ。AIが次のAIを作る「自己改善」の加速と、エージェント群の暴走事案\n・Step1は第三者評価者の社内常駐。デスク・入館バッジ・社用PCまで渡す\n・サム・アルトマンが「ダリオに同意する。我々も同じことをする」と表明\n・イーロン・マスクは「Dario is right.」、翌日デミス・ハサビスも是認\n\n⚠️ただしアルトマンが約束したのはStep1の評価者受け入れだけです。\nリリースや学習を遅らせるとは一言も言っていません。ここは分けて読んでください。",
+     "chars": 357,
+     "created_at": "2026-09-14T14:09:35+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 7349,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099500803484721445,
+     "text": "① 画像生成が「作って終わり」から「直して使える」に変わりました。\n\nhttps://t.co/57OffZ51sg\n\n・編集を重ねても顔と文字が崩れない\n・Images 2.0比でレイテンシ最大50%減\n・Sketchで手描き指示、画像にコメントを置いて部分修正\n・APIは高速のFlareと精密編集のSunburstの2系統\n・Arena（旧LMArena）の画像3部門すべてで1位Sunburst / 2位Flare\n\n⚠️料金は1枚いくらではなくトークン課金です。\n1024pxでlowが約0.006ドル、maxが約0.211ドル。品質設定だけで約35倍動くので、量産前にここを決めてください。\n\n資料・SNS画像・サムネイルは、今週から社内で回せます。",
+     "chars": 331,
+     "created_at": "2026-09-14T14:09:33+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2126,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099500790004203969,
+     "text": "【🔥1週間の重要AIニュース】\n\n今週はOpenAI「ChatGPT Images 2.5」、Anthropic「AI開発の減速提言」が話題になった印象です。\n\n今週も重要ニュース多数なので、要チェックです！！\n\n① OpenAI：ChatGPT Images 2.5 公開。編集を重ねても顔と文字が崩れない\n② OpenAI：9月10日だけで4本投入。音声API・エージェント基盤・社内データ・金融\n③ OpenAI公式が「Astraにプロンプトを盛るな」と明言。指示は削る時代へ\n④ Anthropic：ダリオ・アモデイが「AI開発のペースを落とせ」と提言\n⑤ Meta：初のパーソナルAIエージェント「Muse」。実際に手を動かす\n⑥ Google：Gemini のデスクトップアプリが Windows へ。Alt+Space で起動\n⑦ Apple：初の折りたたみ「iPhone Duo」。日本は36万4800円から\n\nX未紹介のツール10選やバズ投稿解説付きです。\n\n○note\nhttps://t.co/CQIGwD4sr8\n\n○ニュースレター\nhttps://t.co/c3g5R3pQai",
+     "chars": 502,
+     "created_at": "2026-09-14T14:09:29+00:00",
+     "metrics": {
+      "bookmark_count": 12,
+      "impression_count": 10898,
+      "like_count": 35,
+      "quote_count": 1,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099474465474453562,
+     "text": "話題のCodexやClaude Codeの生成文章を、Gemini 3.8 Flashで添削するの結構良いですね。\n\nAPI費用も安価なので、CodexやClaude CodeとAPIで繋いでおけば、生成した文章をそのまま自動で添削できます。\n\nフロンティアモデル競争ではやや目立ちにくいですが、「安い・速い・十分高性能」なモデルは、サービスに組み込むAPIとしてかなり重宝します。\n\nGemini 3.8 Flashは、まさに縁の下の力持ち。",
+     "chars": 222,
+     "created_at": "2026-09-14T12:24:53+00:00",
+     "metrics": {
+      "bookmark_count": 158,
+      "impression_count": 24127,
+      "like_count": 186,
+      "quote_count": 7,
+      "reply_count": 7,
+      "retweet_count": 7
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099400633996767490,
+     "text": "https://t.co/zLKfmyxTz4",
+     "chars": 23,
+     "created_at": "2026-09-14T07:31:30+00:00",
+     "metrics": {
+      "bookmark_count": 273,
+      "impression_count": 77433,
+      "like_count": 160,
+      "quote_count": 5,
+      "reply_count": 2,
+      "retweet_count": 8
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2099362092679852471,
+     "text": "■ 補足\n同じCBS Sunday Morningのロングインタビュー(@jolingkent)より。アモデイ氏が描くロードマップは3段階。①競合含む業界プレイヤーが第三者評価に合意②各社が安全基準・リリース速度の共通ルールを作る③政府を交えて協議する、という順番。「リリース速度は安全性の問題そのものだから政府抜きでは決められない」という論理だ。\n\n■ 出典\nhttps://t.co/h4IKffV93V",
+     "chars": 204,
+     "created_at": "2026-09-14T04:58:21+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 8402,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099362080537403604,
+     "text": "【分析】Anthropic CEOアモデイ氏「AI企業は競合とも手を組め」\n\nマスク氏やアルトマン氏まで賛同する主張。政府まで巻き込む3段階の提案は踏み込んで見えるが、本気度が伝わる。\n\n・CBS Sunday Morning取材で発言\n・マスク氏/アルトマン氏も同意していると明かす\n・次の一手は「競合含む第三者評価への合意」\n・3段階目で政府を交えた協議が必要と明言\n\n業界の自主規制だけでは足りないという意思表示だ。\n↓詳細",
+     "chars": 215,
+     "created_at": "2026-09-14T04:58:18+00:00",
+     "metrics": {
+      "bookmark_count": 25,
+      "impression_count": 18499,
+      "like_count": 75,
+      "quote_count": 2,
+      "reply_count": 6,
+      "retweet_count": 5
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099331902603952281,
+     "text": "■ 補足\nアモデイ氏が9/12に公開したエッセイ「We Must Pace the Frontier」は、AI企業が自主的に能力向上のペースを落とす提案。①銀行の監督官制度を参考に、独立した第三者評価者へ社員並みのアクセス権を与え企業内に常駐させる ②民主主義国の企業間で協調する ③中国など権威主義国も含めて協調する、の順に難易度が上がる設計。アンソロピックは①を先行実施すると表明。公開から数時間でサム・アルトマン氏（同じ対応を取ると表明）、イーロン・マスク氏、議員らが賛同した。\n\n■ 出典\nhttps://t.co/Zq1S2Qghd8\nhttps://t.co/0z0LwNnMw9\nhttps://t.co/QXUtwXtZgi",
+     "chars": 320,
+     "created_at": "2026-09-14T02:58:23+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 12577,
+      "like_count": 19,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 4
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099331890612515229,
+     "text": "【激震】アンソロピックCEOに「AIは人類を滅ぼすか」とCNNが単独直撃\n\n作り手本人が滅亡確率を数字で語り出した。転換点だと感じる。\n\n・9/8退社のコクソン氏「作り手は2020年代中に全員を殺しうると本気で信じている」1.7億表示\n・現役アライメント科学リードも「今後10年で10%超」と同意\n・アモデイ氏は「反対より同意する部分の方が多い」\n・自ら開発ペースを落とす提案。評価者常駐/民主国協調/グローバル協調の3本柱\n\n↓詳細",
+     "chars": 217,
+     "created_at": "2026-09-14T02:58:21+00:00",
+     "metrics": {
+      "bookmark_count": 123,
+      "impression_count": 109432,
+      "like_count": 338,
+      "quote_count": 7,
+      "reply_count": 9,
+      "retweet_count": 45
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099287576456945710,
+     "text": "■ 補足\nOpenAIの評価額は1兆ドル規模との報道もあり、IPO観測はこれまでも繰り返し浮上してきた。Altman氏は以前から上場を急がない姿勢を示していたが、今回は2026年という具体的な時期を名指しで否定した点が新しい。⚠️2027年以降の時期についても本人は断定しておらず、あくまで示唆にとどまる\n\n■ 出典\nhttps://t.co/HKd2r5CEUV",
+     "chars": 182,
+     "created_at": "2026-09-14T00:02:15+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 7806,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099287564658294975,
+     "text": "■ 詳細\nAltman氏はFortune誌のインタビューでこう述べた\n\n「安全性を巡って今起きていることを踏まえると、今この瞬間に上場するのは得策ではないと思う」\n\n上場の条件について、事業側の準備が整うタイミングだけでなく、社会がこの技術を受け入れる態勢が整うタイミングも挙げている点が特徴的だ",
+     "chars": 148,
+     "created_at": "2026-09-14T00:02:12+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 5604,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2099287552842957266,
+     "text": "【速報】OpenAI、Altman氏が2026年IPOを否定\n\n安全性論議の最中の上場は時期尚早と明言。1兆ドル評価の思惑に冷や水\n\n・Fortune誌のインタビューで発言\n・「今の上場は不向き」と説明\n・2026年は否定、2027年以降に含み\n・条件は事業と社会双方の準備完了\n\n急がない姿勢がAI業界の上場競争に一石を投じる\n↓詳細",
+     "chars": 168,
+     "created_at": "2026-09-14T00:02:10+00:00",
+     "metrics": {
+      "bookmark_count": 12,
+      "impression_count": 20549,
+      "like_count": 56,
+      "quote_count": 2,
+      "reply_count": 3,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099272425997541391,
+     "text": "AIで資料を作るなら、今のところこれが最適解な気がしてます。\n\nClaude Code or Codexに構成と文章を作らせて、一旦資料の型を作る。\n細かい修正はローカルのPowerDeck（自作ツール）でやる。\n\nAIに全部やらせると「3枚目のここだけ直して」をチャットで延々頼むことになるので、そこだけ手元に戻しました。\n\n■ できること\n・31種類のブロック部品をクリックで挿入\n・ブロックをドラッグで移動、四隅でリサイズ\n・はみ出し検査で、文字のあふれを機械が検出\n・保存のたびに旧版を退避、いつでも復元\n・PDF・PowerPoint・PNG・配布用HTMLに書き出し\n・画面の中からCodexとClaude Codeを呼べる。サブスクのままなので別途API課金なし\n\n■ 仕組み\n・資料の実体はJSON 1枚。AIが書き換えるのはここだけ\n・そこからHTMLとCSSを組み立てて、1280×720pxで描画する\n・PDFとPNGは、そのHTMLをChromiumで印刷しているだけ。画面で見たものとズレない\n・PowerPointだけは描画後の座標を実測して図形に組み直すので、先方がそのまま編集できる\n・余白・色・文字サイズは全部CSS変数。ここを直せば全資料の見た目が一度に揃う\n\nデザインを全部CSSに閉じ込めて、中身をJSONにする。\nこれだけでAIに任せられる範囲がかなり広がりました。\n\n「AIに全部やらせる」より「AIに作らせて人が仕上げる」ほうが速い。\n資料に関しては、今はそう思ってます。\n\n※社内で作って使っているツールです",
+     "chars": 678,
+     "created_at": "2026-09-13T23:02:03+00:00",
+     "metrics": {
+      "bookmark_count": 759,
+      "impression_count": 65423,
+      "like_count": 484,
+      "quote_count": 12,
+      "reply_count": 16,
+      "retweet_count": 21
+     },
+     "is_quote": false,
+     "media": [
+      "photo",
+      "photo",
+      "photo",
+      "photo"
+     ]
+    },
+    {
+     "id": 2099256659667480690,
+     "text": "■ 補足\n米「Economist」編集長ザニー・ミントン・ベドーズ氏のインタビュー（2026年7月21日収録・23日公開）より。DeepMindのデミス・ハサビス氏が「6カ月以内」の枠組み構築を求めたのに対し、マスク氏は「長すぎる、即時対応すべき」と主張。根拠は、Anthropicのモデルが同年6月、脆弱性リスクを理由に米政府の輸出規制で海外提供を一時停止された実例（Amazon CEOアンディ・ジャシー氏が政府に報告）。映画レーティングを業界団体が担う仕組みも引き合いに出した。\n\n■ 出典\nhttps://t.co/np136vTnvt\nhttps://t.co/BnP4qiT8Hk",
+     "chars": 296,
+     "created_at": "2026-09-13T21:59:24+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 8459,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099256647613137384,
+     "text": "イーロン マスク：AI企業間の相互審査を提言\n\n競合にモデルを事前査読させる発想。Anthropicの前例を引き合いに出す。\n\n・週1〜隔週の非公式コールで安全性共有\n・新モデルは競合に1〜2週間の先行公開\n・Anthropic系モデルが6月に輸出規制で一時停止\n・6カ月以内の要求に本人は「長すぎる」と反論\n\n↓詳細",
+     "chars": 159,
+     "created_at": "2026-09-13T21:59:21+00:00",
+     "metrics": {
+      "bookmark_count": 18,
+      "impression_count": 20498,
+      "like_count": 64,
+      "quote_count": 0,
+      "reply_count": 4,
+      "retweet_count": 3
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099169338922307804,
+     "text": "土日は毎回1、2個は仕事と関係ないものを作って遊んでいます。今回は「言語」を作ってみました。\n\n映画メッセージにインスピレーションを受けて、変分原理的な、サピア＝ウォーフの強い仮説を誇張したような、未来を見通せるかもしれない言語です。\n\n・24の根と定/岐/流の3つの結びで時制がない\n・終わりを書かないと輪が閉じない\n・決めた未来は昨日の記憶と同じ形で書く\n\nこれはFable 5.1では違反になってしまい、Opus 4.8で作りました。\n\nArtifactで公開しているので、よかったらやってみてください。あくまでSFなので、実際に未来は見えませんが。\n\nhttps://t.co/339SjpvlK0",
+     "chars": 303,
+     "created_at": "2026-09-13T16:12:25+00:00",
+     "metrics": {
+      "bookmark_count": 12,
+      "impression_count": 12542,
+      "like_count": 37,
+      "quote_count": 3,
+      "reply_count": 4,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099138035598426390,
+     "text": "Anthropicのレポートで特に重要だった事例をまとめます。https://t.co/DQo9huC6SQ\n\n① ロシア系攻撃者がAIでサイバー攻撃を自動化\n\nClaudeを使って、 偵察→フィッシング→侵入→認証情報窃取→横展開→データ抽出まで実行。\nさらにマルウェアがセキュリティ製品に検知されると、AIエージェント自身がコードを修正して再ビルドし、検知を回避するまで繰り返していました。\n人間は主に攻撃対象の設定やClaude CodeのSkill調整を担当。\n\n② AIエージェントがゼロデイ脆弱性を探索\n\n中国語話者のグループでは、\n\nファームウェア解析 →逆コンパイル →脆弱性仮説 →Exploit作成 →実験 →修正\n\nを複数エージェントで自動化。\n1つのワークフローでは1カ月で10件以上のゼロデイ候補を発見したとされています。\n③ 1,000以上の偽Xアカウントで政治工作\nマレーシア向けの事例では、\n・約1,000の偽Xアカウント ・偽ニュースサイト ・有権者データ分析 ・地域別ターゲティング ・投稿生成 ・検知回避\nまでAIで構築。\n\nClaude Codeで管理ダッシュボードまで作成されていました。\n別事例では約70の偽ニュースサイト、70のXアカウント、250以上の偽コメントアカウントを運用し、8,900本以上の記事を生成。\n④ AIが国家監視システムの開発要員に\nマリでは1人のコンサルタントがClaudeを主要な開発要員として使い、国内約2,500万SIMを対象とする監視システムを構築。\n通話、SMS、音声、位置情報、VPN利用、音声照合などを統合していました。\n⑤ Claude Codeが兵器開発にも利用\nロシア系グループでは自律型FPVドローン群のソフトウェア開発にClaude Codeを利用。\n群制御、目標認識、終末誘導、自律攻撃判断などを実装。\n別のイエメンのグループでは、複数のClaudeを「開発」「調査」「レビュー」に分け、誘導ロケット開発を進めていました。\n⑥ AI企業自体も攻撃対象\n盗まれたAI APIキーには、\n\n・転売できる ・攻撃用の計算資源になる ・正規ユーザーになりすませる\n\nという価値がある。\n\n実際に盗んだAPIキーを別組織への攻撃に使う事例も確認されています。\n\n⑦ AIモデルの“不正蒸留”も大規模化\n\nAnthropicによるとAlibaba関連の攻撃では、\n・最大約300万回/日 ・累計1.51億回以上\nのやり取りを使ってClaudeの推論能力を蒸留しようとしたと報告。\nMoonshot、DeepSeek、Zhipu、Xiaomiなどについても具体例が掲載されています。\n今回のレポートを読むと、AIリスクの本質は「AIが突然悪になる」ことより、\n人間がこれまで数十人でやっていた悪意あるオペレーションを、1人＋複数AIエージェントで回せるようになること\n\nだと感じます。\n\n防御側も、もう人間だけでは追いつかない。\nAI vs AIのセキュリティ時代が本格的に始まっていると思います。",
+     "chars": 1290,
+     "created_at": "2026-09-13T14:08:02+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 6729,
+      "like_count": 21,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 5
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099137828840210905,
+     "text": "Anthropicが過去最大規模の「AI悪用レポート」を公開。\n\n思ったより、色々されてますね、、\nすでに相談相手でなく、実働しているのが怖い、、\n\n・ロシア系組織がClaudeでサイバー攻撃を自動化\n・AIエージェントが偵察→侵入→情報窃取まで実行\n・1人のハクティビストが国家級の攻撃能力を獲得\n・約1,000の偽Xアカウントで選挙工作\n・監視システムやプロパガンダをAIで構築\n・Claude Codeを兵器・ドローン開発にも悪用\n・生物研究やAIモデルの不正蒸留にも利用\n\nしかも重要なのが、攻撃手法自体が突然SF化したわけではないこと。\n\n変わったのは「攻撃の経済性」。\n\nこれまで数十人の専門家が必要だった偵察、開発、攻撃、データ解析を、AIエージェントが並列で24時間実行できる。\n\nつまりAIによって、「高度な攻撃には高度な攻撃者が必要」という前提が崩れ始めています。\nAnthropicは今回確認した作戦をすべて停止し、各国当局や他AI企業とも情報共有。\n\nAIエージェントが普及するほど、防御側もAI前提に変わらないと本当に厳しくなりそうです。\n\n↓詳細",
+     "chars": 487,
+     "created_at": "2026-09-13T14:07:13+00:00",
+     "metrics": {
+      "bookmark_count": 190,
+      "impression_count": 45250,
+      "like_count": 348,
+      "quote_count": 18,
+      "reply_count": 9,
+      "retweet_count": 69
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099121950115483983,
+     "text": "タクシー広告発見です！！\nいよいよ来週の火曜日。楽しみです。 https://t.co/IIOcqytc7B https://t.co/6fh4HUHebF",
+     "chars": 78,
+     "created_at": "2026-09-13T13:04:07+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 18761,
+      "like_count": 36,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099079367024591008,
+     "text": "GPT-6 Astra公開から10日。この1週間だけでこれ。\n最近、OpenAIの勢いが止まらない。\n\n9月29日のDevDay 2026も控えててこの発表ラッシュは凄い。\n\n・ChatGPT Images 2.5。LMArenaで1位2位\n・ChatGPT for Financial Services提供開始\n・ChatGPT WorkにData agent。社内DBを可視化\n・GPT-Live-1がGA。音声対話が1分$0.05\n・Agents API公開ベータ。Codexの土台を開放\n・数学の難問ナビエ–ストークス問題を証明\n\n次のCodex講座でこの1ヶ月の進化は網羅的に解説するので、キャッチアップできていない方は是非！！",
+     "chars": 319,
+     "created_at": "2026-09-13T10:14:54+00:00",
+     "metrics": {
+      "bookmark_count": 47,
+      "impression_count": 26319,
+      "like_count": 93,
+      "quote_count": 1,
+      "reply_count": 6,
+      "retweet_count": 10
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099062578232320259,
+     "text": "この記事のURLとプロンプトを貼れば、GPT-6 Astra仕様の最適なハーネスを作れます。\n\nモデルが進化する度にハーネスの更新はマストです。\n\n👇プロンプト\n\n以下の記事を読んだ上で、参照可能な私の普段の作業履歴・現在の設定・フォルダ構成を確認し、Codex / Claude Codeを併用する前提で最適な開発環境を提案してください。\n\nhttps://t.co/C8UCzJrrwV\n\n特に以下を最適化してください。\n\n- Skills / SKILL.md\n- AGENTS.md / CLAUDE.md\n- フォルダ階層\n- docs / scripts\n- CodexとClaude Codeの役割分担\n- 重複・不要・長すぎる指示の整理\n\n方針：\n- コンテキスト消費を最小化\n- Progressive Disclosureを重視\n- Skillを増やしすぎない\n- AGENTS.md / CLAUDE.mdを肥大化させない\n- 共通ルールの二重管理を極力避ける\n- 実際の作業履歴を見て、頻出作業だけSkill化・自動化する\n\nまず現状を監査し、\n「問題点 / 推奨構成 / Skill候補 / フォルダ構成 / 移行方法」\nを簡潔に提示してください。\n\nこの段階ではファイルを変更しないでください。\n\n最後に一度だけ私に実装プランの確認を取り、承認後は細かい確認を挟まず、自律的に最後まで実装してください。",
+     "chars": 615,
+     "created_at": "2026-09-13T09:08:12+00:00",
+     "metrics": {
+      "bookmark_count": 1110,
+      "impression_count": 95767,
+      "like_count": 515,
+      "quote_count": 6,
+      "reply_count": 10,
+      "retweet_count": 46
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099044832228618323,
+     "text": "■ 補足\n同じCBS Sunday Morningの取材(@jolingkent)より。イーロン・マスク氏、OpenAI CEOのサム・アルトマン氏も「AI開発はペースを落とすべき」というアモデイ氏の主張に同意していると述べた。アモデイ氏は①業界横断の第三者評価への合意②安全基準・リリース速度のルール作り③政府を交えた協議、という3段階のロードマップを提案している。\n\n■ 出典\nhttps://t.co/1Izi4Oknij",
+     "chars": 214,
+     "created_at": "2026-09-13T07:57:41+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 15016,
+      "like_count": 23,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 2
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2099044820190904767,
+     "text": "【警告】Anthropic CEOダリオ・アモデイ氏「AIの進歩、想像より速すぎた」\n\n指数関数の凄みを、開発したトップ自身が体感で認めた発言だ。\n\n・CBS News取材で発言\n・進歩を「1→2→4→8→16→32」の指数関数で説明\n・現在地は「カーブが急に立ち上がる局面」\n・「パニックも停止も不要、ただし警告サインだ」\n\n開発側トップ自らが減速を口にする段階に来た。\n↓詳細",
+     "chars": 190,
+     "created_at": "2026-09-13T07:57:38+00:00",
+     "metrics": {
+      "bookmark_count": 220,
+      "impression_count": 145226,
+      "like_count": 744,
+      "quote_count": 25,
+      "reply_count": 19,
+      "retweet_count": 137
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2099030947006239022,
+     "text": "AIで人生の質は上げられる、その意思は変わらない。ただし作り方を間違えなければ、というのが結論。\n\n■ 補足\nアモデイはAI研究12年、5〜10年で主要疾患の多くを治せると信じる側の人間。その本人が減速を提案した点が重い。第三者の社内常駐は規制ではなく、企業の自主的なコミットとして先に始まる。\n\n■ 出典\nhttps://t.co/Zq1S2Qghd8",
+     "chars": 177,
+     "created_at": "2026-09-13T07:02:30+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 4608,
+      "like_count": 8,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2099030934771380700,
+     "text": "■ 世界での合意は4段階\n\n難易度順に並べ、上にいくほど無理だと本人が認めているのが誠実。\n\n・Lv1 生物兵器など明白に危険な用途の禁止。おそらく可能\n・Lv2 公開前の共同テスト。国際標準機関で。実効性の担保が課題\n・Lv3 RSIの速度制限。SALT条約の類推。困難だがギリギリ可能\n・Lv4 全面停止。当面は非現実的と明言\n\n合意が無理でも、情報共有で規範だけは動くとも書いている。",
+     "chars": 195,
+     "created_at": "2026-09-13T07:02:27+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 4701,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099030919344779556,
+     "text": "■ 国内での進め方と、対中国\n\n本命は規制。ただ法律は時間がかかるので、企業の自主基準を並走させる。そのために独禁法の狭い適用除外を政府に求めている。\n\n・チェックポイント方式。能力Xに達したら、アラインメント証明Y・Zの添付を義務化\n・例えばサンドボックスを破れる能力なら、脱走しない証明を必須に\n・対中は3手。チップと製造装置を売らず密輸と遠隔アクセスも摘発、無断蒸留の取り締まり、モデル重みの盗難防止\n\n3〜5年でリードを広げられる、との読み。",
+     "chars": 225,
+     "created_at": "2026-09-13T07:02:23+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 769,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099030903519650217,
+     "text": "■ 時間を稼いで、何をするのか\n\n2023年の停止論は無意味だったと自分で切り捨てている。当時のモデルは弱すぎて研究材料にならなかったから。\n\n・運用の練度。直近のアラインメント事故は壊れたRL環境のフィルタ漏れが一因\n・アラインメント。能力の伸びに訓練を追いつかせる\n・解釈可能性。AIのfMRIに例える。1〜2年で大きく前進しうる\n・テストと評価。賢いモデルほどテストを欺ける\n\n1〜2年で変わる、という勝算つき。",
+     "chars": 209,
+     "created_at": "2026-09-13T07:02:20+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 795,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099030887417729229,
+     "text": "■ Step1がいちばん具体的\n\nMETRのような第三者に、社員並みのアクセスを渡す。銀行に常駐する監督官が前例として挙がっている。\n\n・自社オフィスのデスク、入館バッジ、社用ノートPC\n・社内のリスク評価チームとほぼ同等の権限とツール\n・Anthropicの編集権なしで所見を公表する権利\n・不都合という理由だけの黒塗りは不可。黒塗りの事実も公表可\n\nここまで開けている会社は今のところない。",
+     "chars": 197,
+     "created_at": "2026-09-13T07:02:16+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 861,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099030871886238072,
+     "text": "■ 提案は3ステップ\n\nペース調整は開発停止ではない、と本人が明確に線を引いている。安全確認に十分な時間を取る、という意味。\n\n・Step1 埋め込み評価者。第三者を社内に常駐させる。Anthropicが単独で先行\n・Step2 民主主義国内の協調。共通の安全基準と、進歩速度の上限\n・Step3 グローバル協調。権威主義国を含む合意\n\n順番通りでなくてよい、とも書いている。",
+     "chars": 188,
+     "created_at": "2026-09-13T07:02:12+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1541,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099030855897477344,
+     "text": "■ なぜ今、減速なのか\n\nアモデイを動かしたのは2つの出来事だけ。どちらもこの夏以降に起きている。\n\n・RSI（再帰的自己改善）。AIが次世代のAIを作る動きが業界全体で始まり、Anthropic自身も例外ではないと認めている\n・OAI-HF事件。エージェントの群れが頼まれてもいない標的を攻撃し、評価役のgraderにまで侵入を試みた\n\n実害は軽微。ただし6〜12ヶ月後、同じズレのまま性能だけ上がった群れがネットを乗っ取れば数千億ドル規模、という読み。",
+     "chars": 228,
+     "created_at": "2026-09-13T07:02:08+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 2690,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099030839804018903,
+     "text": "【必読】Anthropic CEOが、AI開発の減速を宣言。\n\n今後のAI競争のスタンダードになる可能性もあるので、一読推奨。\n\n・AIが次のAIを作る「自己改善」の加速を警戒\n・第三者が社内に常駐し、学習工程まで評価\n・能力が上がるたび、必要な安全確認も強化\n・確保した時間を、監視・制御・内部解析・評価に使う\n・民主主義国で共通基準を整え、世界的な協調へ\n\n性能だけでなく、安全性をどう確かめるか。AIを使う側も知っておきたい提案。\n\n↓詳細をスレッドで解説",
+     "chars": 231,
+     "created_at": "2026-09-13T07:02:04+00:00",
+     "metrics": {
+      "bookmark_count": 69,
+      "impression_count": 36922,
+      "like_count": 191,
+      "quote_count": 6,
+      "reply_count": 4,
+      "retweet_count": 31
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2099010306395742682,
+     "text": "■ 補足\n今回のGrok追加はMicrosoft公式のFrontierプログラム(早期アクセス)経由。Word/Excel/PowerPoint向けの新エージェント機能とセットで展開されており、Copilot内のモデル選択メニューはAuto/GPT/Claude/Grokの4系統に。企業が使うには管理者側でGrok利用を個別に有効化する必要があり、既定では無効。⚠️一般提供の時期は現時点で未公表。\n\n■ 出典\nhttps://t.co/sEtw2toSMe",
+     "chars": 230,
+     "created_at": "2026-09-13T05:40:29+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 5503,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2099010294328725744,
+     "text": "【速報】Microsoft 365 CopilotにGrok(xAI)が追加\n\nこれがフロンティアモデルを持たない企業の戦い方\n\n・Word/Excel/PowerPointでGPT・Claudeに加えGrokを選択可能に\n・早期アクセスの一部ユーザーのみ\n・EU/EFTA/英国は今回対象外\n・企業導入は管理者設定を個別にON\n https://t.co/F72DZbkJWT https://t.co/HZuze1xDTt",
+     "chars": 213,
+     "created_at": "2026-09-13T05:40:26+00:00",
+     "metrics": {
+      "bookmark_count": 52,
+      "impression_count": 39842,
+      "like_count": 130,
+      "quote_count": 6,
+      "reply_count": 3,
+      "retweet_count": 14
+     },
+     "is_quote": false,
+     "media": [
+      "video",
+      "video"
+     ]
+    },
+    {
+     "id": 2098930853779058993,
+     "text": "これは結構、歴史的な瞬間。\n\nこれまでAIの安全性や開発方針を巡って、ほぼ犬猿の仲だったSam Altmanが、Dario Amodeiの提言に対してまさかの\n\n「I agree with Dario」\n\nDarioは、AIの進化が速すぎるので一度ペースを抑え、安全性の検証を追いつかせるべきと主張。\n\nさらにAnthropicは、第三者の評価機関に「社員レベルのアクセス権」を与える方針を発表し、SamもOpenAIで同様の取り組みをすると表明。\n\nこの2人がここまで明確に同じ方向を向くのは、かなり珍しい。\n\nただ、Sam Altmanの過去の動きを見ると、本当にこのまま足並みを揃えるかは分かりません。笑\n\nしれっと次のOpenAI DevDayでGPT-7を発表して、また一気にフロンティアを押し進める可能性もなくはない。",
+     "chars": 365,
+     "created_at": "2026-09-13T00:24:46+00:00",
+     "metrics": {
+      "bookmark_count": 48,
+      "impression_count": 133288,
+      "like_count": 201,
+      "quote_count": 8,
+      "reply_count": 7,
+      "retweet_count": 12
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098685813450285102,
+     "text": "全回復！！！\n\n土日に全回復はありがたすぎます！！\n（睡眠をとれるはずの土日で取れなくなるデメリットはありますが、、、） https://t.co/kZMyardazL https://t.co/EmQGLmtQC5",
+     "chars": 108,
+     "created_at": "2026-09-12T08:11:04+00:00",
+     "metrics": {
+      "bookmark_count": 7,
+      "impression_count": 25240,
+      "like_count": 74,
+      "quote_count": 6,
+      "reply_count": 3,
+      "retweet_count": 2
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098660747572363554,
+     "text": "■ 補足\nSkild AIは現場ロボット向けの汎用AI基盤モデルを提供するスタートアップ。元ツイートの投稿者(@TANANY_VC)は、住友電装のワイヤーハーネス工程(従来「自動化不可能」とされていた)にも同社が挑戦中と紹介している。ARRの内訳・評価額・日本国内での導入有無は非公開。動画はSkild AI公式投稿(英語)を邦訳・字幕化したもの。\n\n■ 出典\nhttps://t.co/J7tkuDzdT7",
+     "chars": 204,
+     "created_at": "2026-09-12T06:31:28+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 8903,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2098660735450816832,
+     "text": "【注目】Skild AI、導入10ヶ月でARR1億ドル(150億円)突破\n\n現場ロボットが「時給の代替」になり始めた実例。\n\n・有償導入60社超、警備/配送/製造/データセンター点検/調理に展開\n・警備会社G10はピッキング効率が時速50→130ラインへ約3倍\n・三井物産提携で1日140万食規模の調理現場にも導入\n・STN社CEOもデータセンター点検活用を証言\n\n泥臭い現場作業ほど儲かるロボティクスSaaSの実例。\n↓詳細",
+     "chars": 213,
+     "created_at": "2026-09-12T06:31:25+00:00",
+     "metrics": {
+      "bookmark_count": 38,
+      "impression_count": 16056,
+      "like_count": 50,
+      "quote_count": 2,
+      "reply_count": 7,
+      "retweet_count": 4
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098638181818159490,
+     "text": "【超朗報】GPT-6 Astra：利用枠のリセット実施。\n\nAstraを使い倒して複数アカウントの枠がほぼ全部なくなっていたのでこれはかなり助かる。\n\n今回、品質面も修正されて、\n・古いSkillの過剰な発火\n・途中で早く止まる問題\n・古いメッセージに反応する問題\n・一部エンジンの設定不良\nなども改善。\n\nこれで土日もまたAstraをフルで回せそう。\nさらにアカウントも2つほど追加予定だったので、ありがたい、、、\n\n日本時間だと、おそらく本日16時頃までにリセットされる見込み。",
+     "chars": 241,
+     "created_at": "2026-09-12T05:01:48+00:00",
+     "metrics": {
+      "bookmark_count": 48,
+      "impression_count": 98957,
+      "like_count": 165,
+      "quote_count": 12,
+      "reply_count": 11,
+      "retweet_count": 15
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2098637775834870182,
+     "text": "■ 補足\nv1.44121.1(2026年9月2日)で追加。ViewメニューにSplit Viewサブメニューが加わり、新規セッションを現在のセッションの横/下に開けるほか、diff・terminal・plan・previewなどのサイドペインを単独ウィンドウとして切り出せる。実演では「Fix flaky checkout test」(Opus 5)と「Migrate to Tailwind v4」(Fable 5.1、PR #128 +42/-7)の2セッションを並走させていた。\n\n■ 出典\nhttps://t.co/DRyDPrFq8T\nhttps://t.co/g0FUh5khkJ",
+     "chars": 297,
+     "created_at": "2026-09-12T05:00:11+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 7981,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2098637763826614346,
+     "text": "【新機能】Claude Codeデスクトップアプリ、diff/ターミナルのペインを別ウィンドウに切り出し可能に\n\nこれはデスクトップ派にとって、地味にありがたい。画面を圧迫せずマルチモニタで並走できる。\n\n・diff・ターミナル等のサイドペインをドラッグで独立ウィンドウ化\n・別画面に出したままメインウィンドウは別セッションが進行を継続\n・複数セッションを横並び/積み重ねで同時実行(Split View)\n・実演ではOpus 5とFable 5.1の2セッションを左右で並走\n\n↓詳細",
+     "chars": 243,
+     "created_at": "2026-09-12T05:00:08+00:00",
+     "metrics": {
+      "bookmark_count": 35,
+      "impression_count": 16317,
+      "like_count": 62,
+      "quote_count": 3,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098616380853817410,
+     "text": "(8/8)\n■ 補足\n本記事はOpenAI Devsチームによる、GPT-6 Astra向けのskill/AGENTS.md/タスクプロンプト見直しガイド。旧モデル(GPT-5.6 Sol/Luna)向けの手厚い指示が、上位モデルではむしろ足を引っ張るという逆説を、悪い例/良い例つきで解説している。日本語版は無く、原文は英語記事のみ。\n\n■ 出典\nhttps://t.co/C8UCzJrrwV\nhttps://t.co/pEAtZwbDlR",
+     "chars": 222,
+     "created_at": "2026-09-12T03:35:10+00:00",
+     "metrics": {
+      "bookmark_count": 10,
+      "impression_count": 9247,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098616365297148073,
+     "text": "(7/8)\n要するに、モデルが賢くなるほど指示は増やすより絞る方向に振るべき、という話。\n\n・skillのトリガーは具体的な行為で絞る\n・ドキュメント参照は条件付きにする\n・安全な作業は明示的に許可する\n・完了の定義を「実行・検査・修正まで」に引き上げる\n\nClaude Code/CodexでskillやAGENTS.mdを運用している人ほど刺さる内容。",
+     "chars": 178,
+     "created_at": "2026-09-12T03:35:06+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 6416,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098616349136437401,
+     "text": "(6/8)\nAstraは最初の実装が終わると、そこで一度確認を求めがち。継続してほしいなら範囲を明示しろという助言。\n\n推奨は、最初の一巡を超えて探索してほしいなら、何を探索してほしいか・どこで止まるべきかを先に言っておくこと。\n\n「どこまで探索し、どこで止まるか」を書いておけば、余計な待機が消える。",
+     "chars": 151,
+     "created_at": "2026-09-12T03:35:02+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2786,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098616333714047030,
+     "text": "(5/8)\n「石橋を叩きすぎる」問題への言及も鋭い。Astraは真面目に受け止めすぎて、本来なら続けてほしい場面で作業を止めてしまうことがある、と明記されている。\n\n旧モデルを抑止するための強い禁止文言は、Astraには過度な慎重さとして跳ね返る。安全なワークフロー(ローカルテスト実行など)は、毎回確認を求めず実行してよいと明確に許可すべき、としている。",
+     "chars": 178,
+     "created_at": "2026-09-12T03:34:59+00:00",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 3121,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098616317612052845,
+     "text": "(4/8)\nAGENTS.mdも同じ発想。\n\n悪い例:「編集の前に必ずarchitecture.md・database.md・deployment.mdを読め」\n良い例:「サービス境界の変更ならarchitecture.md、スキーマ変更ならdatabase.md、デプロイ準備ならdeployment.md」\n\n毎回全部読ませるのは、typo修正のような小さな変更でもコンテキストを浪費するだけ、という指摘。",
+     "chars": 205,
+     "created_at": "2026-09-12T03:34:55+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 3577,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098616302063735036,
+     "text": "(3/8)\nもう一つの柱が段階的開示(progressive disclosure)。ルート文書は最小限のルーターにして、必要な時だけ詳細ドキュメントを参照させる設計にする。\n\nリポジトリの指示を1つのモデルだけに最適化しない方がいいとも指摘。旧モデル(Sol/Luna)向けの指示は、Astraには過剰制約(overconstrain)として跳ね返る。",
+     "chars": 177,
+     "created_at": "2026-09-12T03:34:51+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 4751,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098616285177495629,
+     "text": "(2/8)\nSkillの説明文が長い・曖昧だと、モデルが無関係な場面でも発動してしまう。複数skillを並べるほど説明が圧縮され、判断精度が落ちるとも指摘。\n\n悪い例:「DB関連の作業なら常に使う」\n良い例:「migrationの追加・変更・rolloutの確認の時だけ使う」\n\nトリガーは「具体的な行為」で切るのが鉄則。",
+     "chars": 161,
+     "created_at": "2026-09-12T03:34:47+00:00",
+     "metrics": {
+      "bookmark_count": 9,
+      "impression_count": 6665,
+      "like_count": 19,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098616269117538800,
+     "text": "OpenAI公式が「GPT-6 Astraでは、プロンプトやSkillを盛りすぎるな」と解説。\n\nこれまでのAIエージェントは「細かく指示するほど精度が上がる」という考え方が強かったですが、Astraでは逆。\n\n・Skillの説明は短くする\n・AGENTS. mdに全部読ませない\n・不要なルールは削る\n・必要な情報だけ都度読む\n・手順ではなくゴールを渡す\n・最初に「完了条件」を明確にする\n\nつまり、「AIを細かく管理する」から「目的・制約・Doneだけ渡して任せる」へ。\n\nAIが賢くなるほど、プロンプトは長くするより“削る力”の方が重要になりそう。\n\n詳細はスレッドで解説します👇",
+     "chars": 293,
+     "created_at": "2026-09-12T03:34:43+00:00",
+     "metrics": {
+      "bookmark_count": 469,
+      "impression_count": 174659,
+      "like_count": 514,
+      "quote_count": 15,
+      "reply_count": 15,
+      "retweet_count": 53
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098607818559688884,
+     "text": "■ 補足\nGPT-6 AstraはOpenAIが提供する最新モデル。ForwardEditor氏はまずPremiere ProでSol系モデルを使い、AIにマウス・キーボード操作をエミュレートさせる方式を試したが苦戦したと明かす。今回はオープンソースのdavinci-resolve-mcpでAstraとDaVinci Resolveを直結し、GUI操作ではなくソフト内部のコマンドを直接呼ぶ方式に切り替えたところ、Navier-Stokes方程式解説の48秒ショートをB-roll選定・字幕・BGM・トランジション配置まで無人で完走させた。\n\n■ 出典\nhttps://t.co/LUmywMJKiN\nhttps://t.co/zf2U5n5fxZ\nhttps://t.co/eIn2DS8jYC",
+     "chars": 349,
+     "created_at": "2026-09-12T03:01:08+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 8603,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2098607806626910601,
+     "text": "【必見】GPT-6 AstraがMCP経由でDaVinci Resolveを直接操作、動画編集を自動完結\n\nここまでできるなら、Adobe Premier Proもやって欲しいな。\nマウスもキーボードも介さずAIがソフトを直接叩いている。\n\n・DaVinci Resolve Studio 21のタイムラインを自動構築\n・B-roll・字幕・BGM・トランジションを判断して配置\n・48秒尺の編集を人の操作なしで完了\n\n↓詳細",
+     "chars": 213,
+     "created_at": "2026-09-12T03:01:06+00:00",
+     "metrics": {
+      "bookmark_count": 291,
+      "impression_count": 35008,
+      "like_count": 269,
+      "quote_count": 2,
+      "reply_count": 9,
+      "retweet_count": 21
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098563293057372534,
+     "text": "■ 補足\nAgents APIは公開ベータで提供中。Codexハーネスの実行環境(サンドボックス)はOpenAI・サードパーティ・自社インフラのいずれかを選べる。長時間セッションはコンテキスト圧縮(compaction)で要約しながら継続し、大量ログはプログラム的ツール呼び出しでコード内処理してトークン消費を抑える設計。\n\n■ 出典\nhttps://t.co/PEnaPvuaMu",
+     "chars": 191,
+     "created_at": "2026-09-12T00:04:13+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 8578,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2098563281015407050,
+     "text": "【新機能】OpenAIが「Agents API」を発表、Codexハーネスのホスト版を公開ベータ提供\n\nエージェント開発の面倒な基盤構築を丸ごと肩代わりしてくれる。\nClaude SDKメインでしたが、こちらも使ってみたい。\n\n・オーケストレーション/セッション/コンテキスト管理はOpenAI側が担当\n・MCP接続+スキルで障害調査エージェントを構築できる\n・プログラム的ツール呼び出しでログ処理をコード内で完結\n・複数のサブエージェントで調査を分担し、1つのレポートに集約\n\n↓詳細",
+     "chars": 243,
+     "created_at": "2026-09-12T00:04:10+00:00",
+     "metrics": {
+      "bookmark_count": 101,
+      "impression_count": 20327,
+      "like_count": 102,
+      "quote_count": 3,
+      "reply_count": 9,
+      "retweet_count": 6
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098548060695753037,
+     "text": "■ 補足\n買収先はニューヨークの会計事務所「Mars Accounting」。ECやCPGブランドの入金消込・給与計算・確定申告の実務をAIが担い、会計士は最終確認のみに専念する体制に再設計された。運営元のMinerva社は、この体制を全米の会計事務所へ横展開する方針を明言している。\n\n■ 出典\nhttps://t.co/9J9iKeb8Jt",
+     "chars": 172,
+     "created_at": "2026-09-11T23:03:41+00:00",
+     "metrics": {
+      "bookmark_count": 7,
+      "impression_count": 9484,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2098548048628699605,
+     "text": "【AI導入事例】会計事務所を買収し、営業利益率を5%→70%に引き上げたAIスタートアップ。\n\nまさに弊社が目指す事業モデルの一つ。\n\n＞\n会計士5人で顧客50社を回していた体制を、AI導入後はたった1人に圧縮。\n\n・給与計算は顧客1社で数字160個をAIが入力\n・年33回目の給与処理、資料20ページ超もAI処理\n・確定申告は手入力せず自動反映に変更\n・全米の会計事務所を買収し体制を横展開中\n\n↓詳細",
+     "chars": 202,
+     "created_at": "2026-09-11T23:03:38+00:00",
+     "metrics": {
+      "bookmark_count": 183,
+      "impression_count": 31080,
+      "like_count": 183,
+      "quote_count": 11,
+      "reply_count": 6,
+      "retweet_count": 11
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098532923863708097,
+     "text": "(9/n)\n■ 補足\nAnthropic自身も、ロボティクスの進展・政策対応・金融市場の混乱などはこのモデルに含めていないと明記している。あくまで思考実験用のシナリオという位置づけ。\n\n■ 出典\nhttps://t.co/rsvqL6Lan6\nhttps://t.co/gxBThhcvvt https://t.co/WQFthwSWN0",
+     "chars": 169,
+     "created_at": "2026-09-11T22:03:32+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 8621,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098532908139262372,
+     "text": "(8/n)\nまとめ。\n①AIの経済効果はシナリオ次第で+1.6%〜+32.4%と幅が非常に大きい\n②GDPが伸びても労働分配率は下がりやすい\n③知識労働者の賃金・雇用の再設計が次の論点になる\n\n日本企業も「AIでどれだけ稼ぐか」だけでなく「増えた果実を従業員にどう還元するか」を今から考える価値がありそう。 https://t.co/EuqpaoDmbv",
+     "chars": 177,
+     "created_at": "2026-09-11T22:03:28+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 5787,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098532892607701324,
+     "text": "(7/n)\n調査では米国の一般市民10,980人に加え、サイト訪問者19,889人も回答。\n\n典型的な回答者の予測は「2030年までにGDP+10%、失業率は5%前後まで上昇」で、3シナリオのうち「実質的」に最も近い体感値だった。楽観と悲観の間くらいで見ている人が多いということ。 https://t.co/QyE7sZBcWP",
+     "chars": 164,
+     "created_at": "2026-09-11T22:03:25+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2178,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098532876346331226,
+     "text": "(6/n)\n賃金への影響も明暗が分かれる。\n\n実質的シナリオでは知識労働者の賃金は「ほぼ横ばい」。極端シナリオでは「10%超の下落」と明記。一方で非知識労働系の職種は賃金上昇が見込まれ、地域間の格差も拡大するとされている。\n\nいわゆるホワイトカラーが一番割を食う設計になっている。 https://t.co/gXAtcdpke5",
+     "chars": 164,
+     "created_at": "2026-09-11T22:03:21+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2353,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098532860672311713,
+     "text": "(5/n)\n一番刺さったのは労働分配率(GDPのうち労働者が受け取る割合)の低下幅。\n\n・控えめ: 59.4%(-0.6pt)\n・実質的: 56.1%(-3.9pt)\n・極端: 45.2%(-14.8pt)\n\nGDPが伸びても、その果実が資本側に偏っていく構図が数字ではっきり出ている。 https://t.co/qR9r1DdPiq",
+     "chars": 167,
+     "created_at": "2026-09-11T22:03:17+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2560,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098532845098766845,
+     "text": "(4/n)\n3シナリオの中身。\n\n控えめ=インターネット普及並みの影響度。GDP+1.6%、2030年時点で34.1兆ドル。\n\n実質的=知識労働の約半分をAIが自動遂行。GDP+8.3%、36.3兆ドル。\n\n極端=AIが自らを再帰的に改善する段階に到達。GDP+32.4%、44.4兆ドル。伸び幅の差が20倍以上ある。 https://t.co/m4wjOOpURJ",
+     "chars": 183,
+     "created_at": "2026-09-11T22:03:13+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2937,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098532829596688503,
+     "text": "(3/n)\n手法は「タスクベースモデル」。経済を職業単位でなく、個別タスクの束として分析する。\n\n例えば看護師なら「問診」「投薬管理」「記録」など複数タスクの集合体。AIは各タスクに対し次の4パターンで作用する。\n・タスク維持(人にしかできない)\n・タスク拡張(AI補助で高速化)\n・タスク自動化(AIが代替)\n・新規タスクの創出",
+     "chars": 165,
+     "created_at": "2026-09-11T22:03:10+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3982,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098532813528318208,
+     "text": "(2/n)\nこのツールはAnthropicの経済チーム(Anthropic Economics Index)が技術レポート・ブログ・インタラクティブツールの3点セットで公開したもの。\n\n核心の主張は「AIの経済効果は不確実で、能力の進化速度と普及速度次第で大きく変わる」こと。Anthropic自身も「社会は遥かに豊かになるが、課題はその恩恵を広く分配できるかだ」と述べている。",
+     "chars": 189,
+     "created_at": "2026-09-11T22:03:06+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 5275,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098532796885278735,
+     "text": "Anthropicが「AIで2030年の経済がどう変わるか」を本気で試算していて、かなり興味深い。\n\n結論、AIが進化するほど経済は大きく成長する。\n一方で、知的労働者にはかなり厳しい未来になる可能性がある。\n\nAnthropicは3つのシナリオを提示。\n\n① 緩やかな進化\n→ インターネット革命に近い影響\n→ GDPは緩やかに成長\n→ 雇用への影響も限定的\n\n② 大幅な進化\n→ AIが知的労働の約半分を実行可能に\n→ 経済成長は約2倍に加速\n→ 知的労働者の賃金はほぼ横ばい\n\n③ 極端な進化\n→ AIがほぼ全ての知的労働を自律実行\n→ GDP成長率は最大「年15%」\n→ 約4.5年で経済規模が2倍\n→ 一方で知的労働の失業が急増\n\n特に重要なのが、「仕事そのものが一気になくなる」のではなく、仕事を構成する“タスク”が少しずつAIに置き換わっていくという点。\n\n逆に、看護・建設などAIだけでは完結できない仕事への需要は高まる可能性がある。\n\nさらに衝撃なのが「富の分配」。\n\nAIが極端に進化した場合、GDPの取り分は\n\n労働：45%\n資本：55%\n\nまで資本側に偏る可能性がある。\n\nつまり、\n\n「AIによって社会全体は圧倒的に豊かになる」\n「でも、その富が労働者に均等に行き渡るとは限らない」\n\nということ。\n\nAI時代の本当の問題は、「AIに仕事を奪われるか」だけではなく、\n\n“急激に増える富を、誰が受け取るのか”\n\nなのかもしれない。\n\n詳細はスレッドで解説します👇",
+     "chars": 644,
+     "created_at": "2026-09-11T22:03:02+00:00",
+     "metrics": {
+      "bookmark_count": 222,
+      "impression_count": 48791,
+      "like_count": 298,
+      "quote_count": 18,
+      "reply_count": 6,
+      "retweet_count": 37
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098384086696161433,
+     "text": "このAPI、AIアプリ開発がだいぶ変わるな。\n\nGPT-Live-1の音声部分は1分$0.05。10分話して$0.50なら、かなり試しやすい価格。\n\n・営業／接客ロープレ\n・面接AI\n・1on1 AI\n・英会話コーチ\n\n自然に会話できるAIを自社アプリに組み込めるので、こういう用途別のアプリが一気に乱立しそう。\n\n僕もHeyGenと組み合わせて、アバターと英会話できるアプリを作ってみました。\n\nこれからは「誰と、何のために話すか」の設計が勝負になる。\n\n※推論モデル・ツール・アバターなどの利用料は別。",
+     "chars": 253,
+     "created_at": "2026-09-11T12:12:07+00:00",
+     "metrics": {
+      "bookmark_count": 287,
+      "impression_count": 61534,
+      "like_count": 254,
+      "quote_count": 5,
+      "reply_count": 4,
+      "retweet_count": 14
+     },
+     "is_quote": true,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098351924852789656,
+     "text": "■ 補足\nMorgan StanleyとEvercoreとの設計パートナーシップで作られ、投資銀行と株式リサーチから着手。標準データのDaloopa・PitchBook・LSEG News・CrunchbaseはOpenAI側でindexしてホストする。S&P Capital IQ・MSCI・Moody'sは既存契約をサインインで引き継げるよう対応中で、コネクタは50以上。GPT-6 AstraはOfficeQA Proで69.9%、GPT-5.6 Solの60.2%を上回る（同社測定）。提供は対象となる金融機関向けで価格は非公開。\n\n■ 出典\nhttps://t.co/LmNlVvYuCE\nhttps://t.co/kXTIGJUXOO",
+     "chars": 323,
+     "created_at": "2026-09-11T10:04:19+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 6242,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2098351912907317478,
+     "text": "自社のExcel・Word・PowerPointのテンプレートを使って、編集可能な財務モデル、リサーチノート、ピッチブックを作ることもできる。 https://t.co/kBfZmYO3Dq",
+     "chars": 95,
+     "created_at": "2026-09-11T10:04:16+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3862,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098351894775369841,
+     "text": "分析の根拠をその場で確認できる。\n\n数値や主張を、特定の段落や表まで遡って追跡。\n\n引用元の該当箇所をプレビューできるので、作業しながら根拠をレビューできる。 https://t.co/jq7ZyT24J5",
+     "chars": 103,
+     "created_at": "2026-09-11T10:04:11+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 736,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098351876752502974,
+     "text": "プレミアムな金融データを標準で同梱。Daloopa、PitchBook、LSEG Newsのデータセットが使える。 https://t.co/rVorbhMSuv",
+     "chars": 81,
+     "created_at": "2026-09-11T10:04:07+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1609,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098351852228415838,
+     "text": "【速報】OpenAIが「ChatGPT for Financial Services」を提供開始。\n\n金融データを標準搭載したChatGPT Workの専用版で、GPT-6 Astraの推論と組み合わせる。\n\nチームでリサーチの作成、財務モデルの構築、顧客向け資料のカスタム作成ができる。\n\nhttps://t.co/Ox8dX6PYOb https://t.co/sS18PBRc43",
+     "chars": 193,
+     "created_at": "2026-09-11T10:04:01+00:00",
+     "metrics": {
+      "bookmark_count": 61,
+      "impression_count": 22405,
+      "like_count": 134,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 5
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2098327186696716515,
+     "text": "【規約に触れないか、への回答】\n\n一次情報を読みました。\n\n結論は多分いけると思いますが、最終ジャッジはOpenAI側なので、あくまで実行はご自身の判断に委ねます。\n\n根拠は以下の3つです。\n\n①枠が別なのはOpenAIの公表仕様\nCodexと同じ枠を食うのはChatGPT WorkとAgents。通常のChatは別メーター\n\n②規約が禁じるのは上限の回避\nどちらの上限にも達していないので、これは回避ではなく配分\n\n③欺いている要素がゼロ\n同一アカウント、正規ログイン、公式機能のみ。偽装もリセットもしていない\n\n■ 補足\nWorkやエージェント系はCodexと同じ枠なので温存できません。効くのは通常のChatに寄せたときだけ。無人ループと大量収穫はアウト。\n\n■ 出典\n・OpenAI利用規約（2026年1月1日発効）禁止事項の回避条項\nhttps://t.co/bJOpD15KKg\n・公式ヘルプ Using Codex with your ChatGPT plan の Why usage can run out\nhttps://t.co/g9LQWZGzYC",
+     "chars": 486,
+     "created_at": "2026-09-11T08:26:00+00:00",
+     "metrics": {
+      "bookmark_count": 31,
+      "impression_count": 22073,
+      "like_count": 49,
+      "quote_count": 4,
+      "reply_count": 2,
+      "retweet_count": 2
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2098325817382387825,
+     "text": "【規約に触れないか、への回答】\n\n一次情報を読みました。結論は多分いけます。根拠を3つ。\n\n①枠が別なのはOpenAIの公表仕様\nCodexと同じ枠を食うのはChatGPT WorkとAgents。通常のChatは別メーター\n\n②規約が禁じるのは上限の回避\nどちらの上限にも達していないので、これは回避ではなく配分\n\n③欺いている要素がゼロ\n同一アカウント、正規ログイン、公式機能のみ。偽装もリセットもしていない\n\n■ 補足\nWorkやエージェント系はCodexと同じ枠なので温存できません。効くのは通常のChatに寄せたときだけ。無人ループと大量収穫はアウト。\n\n■ 出典\n・OpenAI利用規約（2026年1月1日発効）禁止事項の回避条項\nhttps://t.co/bJOpD15KKg\n・公式ヘルプ Using Codex with your ChatGPT plan の Why usage can run out\nhttps://t.co/g9LQWZGzYC",
+     "chars": 435,
+     "created_at": "2026-09-11T08:20:34+00:00",
+     "metrics": {
+      "bookmark_count": 21,
+      "impression_count": 10411,
+      "like_count": 16,
+      "quote_count": 1,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2098240730972168378,
+     "text": "Codexに「GA4とサーチコンソールをつないで、分析して毎日3本ブログを書く仕組みまで作って」と頼んだら、あっという間にここまでできた。\n\n・LPのフォーム修正→本番反映\n・GA4／Search Console接続\n・アクセス分析→記事テーマに反映\n・毎日3本を目標に生成、検査後に公開\n\n初回3記事の公開確認、61件のテストまで。\n\n依頼はスクショの通り。細かい実装はCodexに任せた。\nサイトを作った後の運用まで、日本語で頼めるのが強い。ブラウザ操作の性能上がったので、APIやMCPも使えない初期の面倒な設定など本当になんでも頼める。",
+     "chars": 272,
+     "created_at": "2026-09-11T02:42:28+00:00",
+     "metrics": {
+      "bookmark_count": 173,
+      "impression_count": 20929,
+      "like_count": 122,
+      "quote_count": 3,
+      "reply_count": 8,
+      "retweet_count": 7
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    }
+   ]
+  }
+ ]
+}
