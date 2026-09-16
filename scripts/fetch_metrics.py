@@ -18,6 +18,54 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "analytics" / "live_metr
 
 HISTORY = OUT.parent / "followers_history.jsonl"
 
+# 比較対象アカウント（週次分析「チャエン比較」用・2026-09-16 追加）
+BENCH_ACCOUNTS = ["masahirochaen"]
+BENCH_OUT = OUT.parent / "benchmark_chaen.json"
+
+
+def fetch_benchmark(poster, username: str, days: int = 7) -> dict:
+    """比較対象の直近投稿（リプ・RT除く）を取得。本文・metrics・media種別・字数を残す。"""
+    from datetime import timedelta
+    u = poster.client.get_user(username=username, user_fields=["public_metrics"], user_auth=True)
+    resp = poster.client.get_users_tweets(
+        id=u.data.id,
+        max_results=100,
+        tweet_fields=["created_at", "public_metrics", "referenced_tweets", "attachments", "note_tweet"],
+        expansions=["attachments.media_keys"],
+        media_fields=["type"],
+        exclude=["replies", "retweets"],
+        user_auth=True,
+    )
+    media_types = {}
+    for m in (resp.includes or {}).get("media", []) or []:
+        media_types[m.media_key] = m.type
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    tweets = []
+    for t in resp.data or []:
+        if t.created_at and t.created_at < cutoff:
+            continue
+        note = t.data.get("note_tweet") or {}
+        full = note.get("text") if isinstance(note, dict) else None
+        keys = (t.data.get("attachments") or {}).get("media_keys") or []
+        text = full or t.text
+        tweets.append({
+            "id": t.id,
+            "text": text,
+            "chars": len(text),
+            "created_at": t.created_at.isoformat() if t.created_at else None,
+            "metrics": t.public_metrics,
+            "is_quote": any(r.type == "quoted" for r in (t.referenced_tweets or [])),
+            "media": [media_types.get(k, "unknown") for k in keys],
+        })
+    pm = dict(u.data.public_metrics or {})
+    return {
+        "username": username,
+        "followers": pm.get("followers_count"),
+        "days": days,
+        "count": len(tweets),
+        "tweets": tweets,
+    }
+
 
 def main():
     poster = XPoster()
@@ -69,6 +117,15 @@ def main():
     except Exception as e:
         print(f"[METRICS] 絡み実行数カウント失敗: {e}")
     OUT.parent.mkdir(parents=True, exist_ok=True)
+    # 比較対象（チャエン @masahirochaen）の直近7日。失敗しても自分の指標は保存する
+    try:
+        bench = {"fetched_at": datetime.now(timezone.utc).isoformat(), "accounts": []}
+        for name in BENCH_ACCOUNTS:
+            bench["accounts"].append(fetch_benchmark(poster, name))
+        BENCH_OUT.write_text(json.dumps(bench, ensure_ascii=False, indent=1))
+        print("[METRICS] ベンチマーク取得: " + ", ".join(f"@{a['username']}={a['count']}件/7日" for a in bench["accounts"]))
+    except Exception as e:
+        print(f"[METRICS] ベンチマーク取得失敗: {e}")
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1))
     if payload.get("account", {}).get("followers") is not None:
         with HISTORY.open("a") as f:
