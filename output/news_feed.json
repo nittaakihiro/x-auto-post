@@ -1,20 +1,63 @@
 {
- "generated_at": "2026-09-16T06:49+00:00",
- "generated_at_jst": "2026-09-16 15:49",
+ "generated_at": "2026-09-16T07:40+00:00",
+ "generated_at_jst": "2026-09-16 16:40",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 59,
+  "construction_japan": 64,
   "ai_japan": 32,
-  "ai_global": 70,
-  "construction_global": 39
+  "ai_global": 71,
+  "construction_global": 33
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "4afe8d041cd7",
+   "source": "ニュースメディアVOIX",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "うるるBPOとスパイダープラスが協業 建設図面をAI活用データへ",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GcHFKNUtyTTZqYlk4UENhSUZIeVR2NHBwVmo5VXA3OGF5UmhNeXFIMEh1bmtjNlRxb09yX05jX25FejZha3F2enVGMnF3ZWVjcnl3?oc=5",
+   "published": "2026-09-16T07:02+00:00",
+   "published_jst": "2026-09-16 16:02",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "5fb436ae7da9",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "スパイダープラス、うるるBPOと協業 紙図面・竣工図書を“AI活用資産化”する建設業向けBPOサービスを提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VMC03em4yeUhkZ19rTVFXVEhqYjRZR1Z1TEdRbmI3MXhrX3RXWnZIZmFiVmdoWDBMV3dSRmFwWjBqLXR1MklRbjljZjdpZENNZjhlWXRSZXVZYmlPdXctbXozc0xLcDA2YWc?oc=5",
+   "published": "2026-09-16T07:00+00:00",
+   "published_jst": "2026-09-16 16:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "17031c155cb2",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "うるるBPO、スパイダープラスと協業 紙図面・竣工図書を“AI活用資産化”する建設業向けBPOサービスを提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYMDdQalM0LTU0SFVuMDBscXJ2WmRVNmtkaTNWeUc4YjFsRkl0cFp0dXU4SHJvYVQ3eXZQWUFqVG1fb0xXMHFVRVdXXzh4WFBTeDhLS3diOUViamZqMWZkN0lxZURkRDlXb1E?oc=5",
+   "published": "2026-09-16T07:00+00:00",
+   "published_jst": "2026-09-16 16:00",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "8d15e4d14321",
    "source": "digital-construction.jp",
@@ -43,7 +86,7 @@
   },
   {
    "id": "229baea81e55",
-   "source": "建通新聞",
+   "source": "digital.kentsu.co.jp",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -65,7 +108,9 @@
    "published": "2026-09-16T05:00+00:00",
    "published_jst": "2026-09-16 14:00",
    "summary": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be r",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "マンチェスター大学、NVIDIA Earth-2で全英の空気汚染を予測",
+   "summary_ja": "大気汚染は深刻な健康リスクであり、英国だけでも昨年の推定3万人超の死因となった。データ駆動型の洞察が役立つが、従来の化学モデルでの計算は困難を伴う。"
   },
   {
    "id": "d3e49f8194a9",
@@ -289,6 +334,19 @@
    "ai_related": false
   },
   {
+   "id": "ad6b54161fb2",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "足場の拾い出しが6～8時間から20分以内に。平面図・立面図をアップロードすると掛面積・スパン割りから部材30品目まで算出する「足場積算AI」を提供開始｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5R2ZxYVdxQkVCY25laEpoSEVRbS1BelNPLW5raVlHc0xFa1BDVFpQUi14blZpSWFaWjZzSGpUdThLcERTamoxcVVCZDZ5WlkxQlBkZjM2TjJ2R2h5azNva3lOdTFmVVRDLWw5ckNrR182UQ?oc=5",
+   "published": "2026-09-16T01:00+00:00",
+   "published_jst": "2026-09-16 10:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "f14f5a45344e",
    "source": "ITmedia",
    "source_id": "gnews_bim_ai",
@@ -325,7 +383,9 @@
    "published": "2026-09-16T00:20+00:00",
    "published_jst": "2026-09-16 09:20",
    "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AI規制は不要、安全性は我々に任せてとNVIDIAのジェンスン・ファン氏",
+   "summary_ja": "ジェンスン・ファン氏によると、AIは未知の存在ではなく、単なるハードウェアとソフトウェアであるため、安全性は各AIメーカーが設計できるという。"
   },
   {
    "id": "4798b9199105",
@@ -343,7 +403,7 @@
   {
    "id": "e89d7574b39d",
    "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "【2026年9月30日(水)開催】“積算”のどこにAIを組み込むか――工務店のための「積算AI」セミナーを建築AI経営研究会がオンライン開催",
@@ -377,7 +437,9 @@
    "published": "2026-09-15T23:34+00:00",
    "published_jst": "2026-09-16 08:34",
    "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIとデータセンターはあらゆる世論調査で極めて不人気",
+   "summary_ja": "ニューヨーク・タイムズ紙とシエナ大学による世論調査データから、AIやデータセンターが非常に不人気であり、政治家もそれに対応している実態が裏付けられた。"
   },
   {
    "id": "b26a2dea09cb",
@@ -491,7 +553,7 @@
   },
   {
    "id": "523838f9371e",
-   "source": "日刊建設工業新聞",
+   "source": "decn.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -571,7 +633,7 @@
   },
   {
    "id": "890250c725c1",
-   "source": "日経クロステック",
+   "source": "xtech.nikkei.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -594,19 +656,6 @@
    "published_jst": "2026-09-16 05:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "6515d0030d32",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "再開発準備組合/10月1日まで申請受付/武蔵ヶ辻A地区基本設計",
-   "url": "https://www.kensetsunews.com/archives/1285727",
-   "published": "2026-09-15T19:55+00:00",
-   "published_jst": "2026-09-16 04:55",
-   "summary": "金沢市の武蔵ヶ辻Ａ地区市街地再開発準備組合は１５日、「武蔵ヶ辻Ａ地区第一種市街地再開発事業施設建築… The post 再開発準備組合/10月1日まで申請受付/武蔵ヶ辻A地区基本設計 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
   },
   {
    "id": "a866ec6036bd",
@@ -687,6 +736,32 @@
    "ai_related": false
   },
   {
+   "id": "6515d0030d32",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "再開発準備組合/10月1日まで申請受付/武蔵ヶ辻A地区基本設計",
+   "url": "https://www.kensetsunews.com/archives/1285727",
+   "published": "2026-09-15T19:55+00:00",
+   "published_jst": "2026-09-16 04:55",
+   "summary": "金沢市の武蔵ヶ辻Ａ地区市街地再開発準備組合は１５日、「武蔵ヶ辻Ａ地区第一種市街地再開発事業施設建築… The post 再開発準備組合/10月1日まで申請受付/武蔵ヶ辻A地区基本設計 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "0cc419aabf10",
+   "source": "digital-construction.jp",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【CSPI 2026 現地レポート】過去最多606社・来場約6万2000人の国際建設・測量展で見た注目ブースを紹介！【9/2更新】",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EOGlMRWlGekg0aXNyMmRSdkVWd0dONUlodkJXZGg0bUtSOWlWZ204bURqX3RiSUVWUWlReHo0dFRwRkJFRENIUnZpNmNKcE9rbDlTSjZR?oc=5",
+   "published": "2026-09-15T19:31+00:00",
+   "published_jst": "2026-09-16 04:31",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "642a1494ec3f",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -696,7 +771,7 @@
    "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
    "published": "2026-09-15T19:25+00:00",
    "published_jst": "2026-09-16 04:25",
-   "summary": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev Comments URL: https://news.ycombinator.com/item?id=49717558 Points: 1153 # Comments: 338",
+   "summary": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev Comments URL: https://news.ycombinator.com/item?id=49717558 Points: 1221 # Comments: 359",
    "ai_related": true,
    "title_ja": "System One ModelsとJevの発表",
    "summary_ja": "新しいAIモデル「System One Models」および「Jev」に関する記事と議論の紹介。"
@@ -727,7 +802,9 @@
    "published": "2026-09-15T19:00+00:00",
    "published_jst": "2026-09-16 04:00",
    "summary": "\"Construction Suicide Prevention Week can be the spark. The real work happens during the other 51 weeks.\" The post Building on Progress: An Interview With the Construction Suicide Prevention Week 2026 Steering Committee first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "進展を築く：建設業自殺防止週間2026運営委員会へのインタビュー",
+   "summary_ja": "「建設業自殺防止週間はきっかけに過ぎず、本当の作業は残りの51週間にこそ行われる」という、2026年運営委員会へのインタビュー記事。"
   },
   {
    "id": "f557dac5230f",
@@ -784,7 +861,7 @@
    "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
    "published": "2026-09-15T18:11+00:00",
    "published_jst": "2026-09-16 03:11",
-   "summary": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover Comments URL: https://news.ycombinator.com/item?id=49716476 Points: 266 # Comments: 142",
+   "summary": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover Comments URL: https://news.ycombinator.com/item?id=49716476 Points: 267 # Comments: 146",
    "ai_related": true,
    "title_ja": "BasetenのGitHubに25分で管理者アクセス",
    "summary_ja": "Baseten社の本番環境GitHubへの不正アクセスに関する脆弱性や経緯についての記事。"
@@ -859,7 +936,7 @@
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
    "published": "2026-09-15T17:38+00:00",
    "published_jst": "2026-09-16 02:38",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ Comments URL: https://news.ycombinator.com/item?id=49715947 Points: 376 # Comments: 244",
+   "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ Comments URL: https://news.ycombinator.com/item?id=49715947 Points: 383 # Comments: 247",
    "ai_related": true,
    "title_ja": "Gemini 3.8 Liveおよび拡張思考モデル",
    "summary_ja": "Google公式ブログによる「Gemini 3.8 Live」シリーズの発表に関する詳細と議論。"
@@ -874,8 +951,10 @@
    "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
    "published": "2026-09-15T17:37+00:00",
    "published_jst": "2026-09-16 02:37",
-   "summary": "Article URL: https://dank.systems/posts/2026-09-15-ai-bear.html Comments URL: https://news.ycombinator.com/item?id=49715927 Points: 166 # Comments: 175",
-   "ai_related": true
+   "summary": "Article URL: https://dank.systems/posts/2026-09-15-ai-bear.html Comments URL: https://news.ycombinator.com/item?id=49715927 Points: 180 # Comments: 199",
+   "ai_related": true,
+   "title_ja": "Navier-Stokes後もLLMに弱気な理由",
+   "summary_ja": "記事のURLとHacker News上のコメントやポイント情報を掲載したページ。"
   },
   {
    "id": "ae9713e8ee00",
@@ -887,7 +966,7 @@
    "url": "https://www.constructiondive.com/news/infrastructure-ppp-georgia-tennessee-contractors-heads/830425/",
    "published": "2026-09-15T17:31+00:00",
    "published_jst": "2026-09-16 02:31",
-   "summary": "Toll lane concession projects in Tennessee and Georgia illustrate how contractors can tap a multidecade revenue stream, an infrastructure consultant says.",
+   "summary": "Toll lane concession projects in Tennessee and Georgia illustrate how contractors can tap a multidecade revenue stream and aren’t limited to big builders, an infrastructure consultant says.",
    "ai_related": false,
    "title_ja": "インフラP3事業が請負業者を引き付ける理由",
    "summary_ja": "テネシーやジョージアの有料車線事業は、大規模事業者でなくても長期的な収益を確保できる例を示している。"
@@ -1160,7 +1239,7 @@
   },
   {
    "id": "f1dea0b727f3",
-   "source": "indexbox.io",
+   "source": "IndexBox",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1182,7 +1261,9 @@
    "published": "2026-09-15T14:37+00:00",
    "published_jst": "2026-09-15 23:37",
    "summary": "ABC's Construction Backlog Indicator rebounds to 8.5 months in August. The post One in Six Members Perform Data Center Work; Backlog Rebounds in August first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "メンバーの6人に1人がデータセンター業務に従事、8月に受注残が回復",
+   "summary_ja": "ABCの建設受注残指数が8月に8.5ヶ月分へと回復した。「Construction Executive」に掲載されたデータセンター関連の動向に関する記事。"
   },
   {
    "id": "a307d30da2bf",
@@ -1434,66 +1515,6 @@
    "summary_ja": "ロボットプリンターにクラウドCAD編集機能とスマートナビゲーションが追加された。"
   },
   {
-   "id": "cb055c0326f2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Henmead grows revenue and profit",
-   "url": "https://www.constructionnews.co.uk/financial/henmead-grows-revenue-and-profit-15-09-2026/",
-   "published": "2026-09-15T11:38+00:00",
-   "published_jst": "2026-09-15 20:38",
-   "summary": "Eric Wright Group's parent company Henmead has grown its revenue and profit in its latest audited accounts. The Lancashire firm, which was ranked 79th in the 2025 CN100, posted turnover of £298.5m for the 12 months to 31 December 2025, up 2.3 per cent from… The post Henmead grows revenue and profit ",
-   "ai_related": false,
-   "title_ja": "Henmeadが売上高と利益を拡大",
-   "summary_ja": "Eric Wright Group傘下のHenmead社が最新の監査済み決算で売上高2億9,850万ポンドを記録し、増収増益に。"
-  },
-  {
-   "id": "73e1a10005c6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "HS2 hopes to seal SCS and BBV contract resets by Christmas",
-   "url": "https://www.constructionnews.co.uk/civils/hs2/hs2-ltd-hopes-to-seal-contract-resets-with-scs-and-bbv-by-december-15-09-2026/",
-   "published": "2026-09-15T11:30+00:00",
-   "published_jst": "2026-09-15 20:30",
-   "summary": "HS2 chief executive Mark Wild told MPs he hopes to reach agreement on two major civils contract resets before Christmas. Speaking to the Public Accounts Committee (PAC) on Monday, he also said a £2bn figure cited by the committee represented ‘an avoidance of risk in… The post HS2 hopes to seal SCS a",
-   "ai_related": false,
-   "title_ja": "HS2、クリスマス前の主要契約見直し合意に期待",
-   "summary_ja": "HS2のマーク・ワイルドCEOは、下院公聴会でクリスマスまでに2件の主要な土木契約見直しで合意したいと表明。"
-  },
-  {
-   "id": "a7df2d326f73",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier drops property investment to maximise options",
-   "url": "https://www.constructionnews.co.uk/financial/kier-drops-property-investment-to-maximise-options-15-09-2026/",
-   "published": "2026-09-15T11:29+00:00",
-   "published_jst": "2026-09-15 20:29",
-   "summary": "Kier is pulling out of property investment to focus on construction and infrastructure, as well as strengthening its balance sheet. Unveiling its full year results to 30 June 2026, the company said from 2027, there will be “no investment in new property development opportunities”. The… The post Kier",
-   "ai_related": false,
-   "title_ja": "Kier、選択肢の最大化へ不動産投資から撤退",
-   "summary_ja": "Kierは財務基盤の強化と建設・インフラ事業への注力のため、不動産投資から撤退すると発表した。"
-  },
-  {
-   "id": "2e58e34e4f6f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Graham lands five-year Oxford flood defence job",
-   "url": "https://www.constructionnews.co.uk/contracts/graham-lands-five-year-oxford-flood-defence-job-15-09-2026/",
-   "published": "2026-09-15T11:08+00:00",
-   "published_jst": "2026-09-15 20:08",
-   "summary": "Graham has been appointed by the Environment Agency to deliver a 5km flood alleviation scheme along the River Thames in Oxford. Construction is expected to begin in 2027, later than the late-2026 start previously indicated by the government, and take up to five years. A… The post Graham lands five-y",
-   "ai_related": false,
-   "title_ja": "Graham、オックスフォードの防潮工事を受注",
-   "summary_ja": "環境庁はGrahamを起用し、オックスフォードのテムズ川沿いで5kmの洪水対策スキームを実施する。"
-  },
-  {
    "id": "c526d8504637",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1507,21 +1528,6 @@
    "ai_related": true,
    "title_ja": "Apple、GoogleのGemini搭載した新Siriを発表（EU除く）",
    "summary_ja": "長年の開発遅延を経て刷新されたSiriが登場。GoogleのGeminiを採用し、デバイス内とクラウドを組み合わせて動作する。"
-  },
-  {
-   "id": "2acd4a1b3a9e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Tories blast government over steel policy as nationalisation plan unveiled",
-   "url": "https://www.constructionnews.co.uk/government/tories-blast-government-over-steel-policy-as-nationalisation-plan-unveiled-15-09-2026/",
-   "published": "2026-09-15T10:01+00:00",
-   "published_jst": "2026-09-15 19:01",
-   "summary": "Shadow business secretary Bradley Thomas has warned that more steel manufacturers will fail unless the government provides better support to the ailing sector. The Tory MP hit out at Labour policy as ministers revealed a plan to nationalise Yorkshire-based producer Speciality Steel UK (SSUK), which…",
-   "ai_related": false,
-   "title_ja": "保守党、国有化計画を巡り政府の鉄鋼政策を批判",
-   "summary_ja": "野党のブラッドリー・トーマス氏は、政府が適切な支援を行わなければ鉄鋼メーカーの破綻が続くと警告した。"
   },
   {
    "id": "c2c660edac22",
@@ -1564,7 +1570,9 @@
    "published": "2026-09-15T10:00+00:00",
    "published_jst": "2026-09-15 19:00",
    "summary": "If the shoe no longer fits, size up. The same goes for your business strategy when your construction company grows. The post How to Avoid Blind Spots When Scaling Your Construction Business first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "建設事業拡大時に「死角」を避ける方法",
+   "summary_ja": "靴が合わなければサイズを上げるように、建設会社が成長する際には事業戦略も同様に見直す必要があるという解説記事。"
   },
   {
    "id": "fa826bd97c69",
@@ -1580,23 +1588,8 @@
    "ai_related": false
   },
   {
-   "id": "79a3de79b51b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Warning to contractors as HMRC targets payroll fraud",
-   "url": "https://www.constructionnews.co.uk/government/warning-to-contractors-as-hmrc-targets-payroll-fraud-15-09-2026/",
-   "published": "2026-09-15T09:37+00:00",
-   "published_jst": "2026-09-15 18:37",
-   "summary": "A legal expert has urged contractors to tighten their checks as HMRC launched a crackdown on illegal payroll activity on construction sites. Rachel Jones, senior tax manager at law firm Addleshaw Goddard, said robust due diligence on labour supply chains was \"no longer optional\". HMRC… The post Warn",
-   "ai_related": false,
-   "title_ja": "HMRCの給与不正摘発を受け、請負業者に警告",
-   "summary_ja": "専門家は、HMRCによる建設現場の給与不正の取り締まりを受け、請負業者に厳格な確認を求めている。"
-  },
-  {
    "id": "a56c8505720e",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1742,21 +1735,6 @@
    "ai_related": true
   },
   {
-   "id": "3dc44ff67a9d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Universal names contractors for Bedford resort development",
-   "url": "https://www.constructionnews.co.uk/contracts/universal-names-contractors-for-bedford-resort-development-15-09-2026/",
-   "published": "2026-09-15T08:17+00:00",
-   "published_jst": "2026-09-15 17:17",
-   "summary": "Universal has appointed 23 firms to support construction of its planned resort development in Bedford, including contractors Galliford Try, Morgan Sindall, Sir Robert McAlpine, Wates and Winvic. Bovis Construction (Europe) and PJ Carey Contractors also feature on the first supplier list, alongside c",
-   "ai_related": false,
-   "title_ja": "Universal、ベッドフォードのリゾート開発で業者選定",
-   "summary_ja": "Universalはベッドフォードのリゾート開発を支援するため、Galliford TryやWatesなど23社を指名した。"
-  },
-  {
    "id": "12c7051dbdf8",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1801,7 +1779,7 @@
   },
   {
    "id": "c2e2eaaa368a",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1814,7 +1792,7 @@
   },
   {
    "id": "f0bb67193ee3",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2059,21 +2037,34 @@
    "ai_related": false
   },
   {
-   "id": "04237b868005",
+   "id": "8c89455e8e5a",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "大宇建設がスマート安全教育とAI翻訳機を全現場に拡大導入 - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWEpCY1VFWjh5S1RjLXJ1TTdjY2F3VExWdlF6X0ZrbFIzNk5POHBEcU9TdEdqR1JTV2dvcGx5bHFLdTdneEpZSVFHY1p1V3FDNTRuNFFVRlBPR05yVlpobS10ak1sVmVQRGJjNU1OVDNXR29rdW1mai16SkplT0tOY1RTSnnSAZgBQVVfeXFMT0xJcTlDNzFncVRsMGtrLXdGdm1ZN25odkZyeUpDeWxab1ZJdW1HRzlxWEN5ZzJVN0RpUmF6UEthWW9TSFBxR0hCTWJHTmpxem9Ud2ZSSkh3YklpZXJlc0RKZm9YbzRuRGlja25UUExWQm9zV1BwUTk3OFpiWHd3aURscTF0TVg1LWdwbjFtS3RqV1BKQm5UYlc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTElxOUM3MWdxVGwwa2std0Z2bVk3bmh2RnJ5SkN5bFpvVkl1bUdHOXFYQ3lnMlU3RGlSYXpQS2FZb1NIUHFHSEJNYkdOanF6b1R3ZlJKSHdiSWllcmVzREpmb1hvNG5EaWNrblRQTFZCb3NXUHBROTc4WmJYd3dpRGxxMXRNWDUtZ3BuMW1LdGpXUEpCblRiV9IBmAFBVV95cUxPTElxOUM3MWdxVGwwa2std0Z2bVk3bmh2RnJ5SkN5bFpvVkl1bUdHOXFYQ3lnMlU3RGlSYXpQS2FZb1NIUHFHSEJNYkdOanF6b1R3ZlJKSHdiSWllcmVzREpmb1hvNG5EaWNrblRQTFZCb3NXUHBROTc4WmJYd3dpRGxxMXRNWDUtZ3BuMW1LdGpXUEpCblRiVw?oc=5",
    "published": "2026-09-15T00:12+00:00",
    "published_jst": "2026-09-15 09:12",
    "summary": "",
    "ai_related": false
   },
   {
+   "id": "00edb170cf10",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業向け経営管理システム\"CORECA\"、LINEに常駐するAIコンシェルジュ機能「コレボ」をリリース",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3SXI2X2t5d3BSTjJjOWJvR2xtZVRfMF9NRUdPbzZBc1pVME5kdlExSFNIMlp5eDRwbWd5QzM1RkpTQzVUd3JhOUtNdHpxSUE4OUJxQW5jbXZycjR3bldhUldTWV9FZnhoMUE?oc=5",
+   "published": "2026-09-15T00:00+00:00",
+   "published_jst": "2026-09-15 09:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "956b6ab2def8",
-   "source": "iza.ne.jp",
+   "source": "イザ！",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2083,19 +2074,6 @@
    "published_jst": "2026-09-15 09:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "d1e8de61f815",
-   "source": "iza.ne.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業向け経営管理システム\"CORECA\"、LINEに常駐するAIコンシェルジュ機能「コレボ」をリリース",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9WLUEyMTI0bk43Vl9xaEhod3RrdTNPQmFjYmpuRndaVWtWTE5hZmhheWlpOWU1MGxYSTNUSVRWY19oLUJWZG0tSFE1dVNFMHk5RFZHdkY1LVVxT0RqWG1KZk1ZODNpYTM5bFphdEJlTXcwZ2NzMFQ3dXFn?oc=5",
-   "published": "2026-09-15T00:00+00:00",
-   "published_jst": "2026-09-15 09:00",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "9e40dd547374",
@@ -2234,7 +2212,7 @@
    "url": "https://www.effort.news/irregular",
    "published": "2026-09-14T21:15+00:00",
    "published_jst": "2026-09-15 06:15",
-   "summary": "Article URL: https://www.effort.news/irregular Comments URL: https://news.ycombinator.com/item?id=49704132 Points: 582 # Comments: 197",
+   "summary": "Article URL: https://www.effort.news/irregular Comments URL: https://news.ycombinator.com/item?id=49704132 Points: 595 # Comments: 203",
    "ai_related": true,
    "title_ja": "ハッキング事件の裏に隠された単一企業",
    "summary_ja": "OpenAI、Anthropic、Metaを狙ったハッキングスキャンダルに関与する企業についての記事。"
@@ -2478,7 +2456,9 @@
    "published": "2026-09-14T19:00+00:00",
    "published_jst": "2026-09-15 04:00",
    "summary": "More than half of executives say employees are working longer hours or taking fewer breaks, while 44% say employees are performing tasks they aren’t fully trained to perform. The post The Business Case for a Stronger Construction Safety Culture first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "より強力な建設安全文化を築くためのビジネス上の意義",
+   "summary_ja": "幹部の半数以上が従業員の長時間労働や休憩減少を認めており、44%は十分な訓練を受けていない作業を行っていると回答している。"
   },
   {
    "id": "65b15f248c51",
@@ -2648,7 +2628,9 @@
    "published": "2026-09-14T16:00+00:00",
    "published_jst": "2026-09-15 01:00",
    "summary": "It’s impossible to remove every pressure that comes with and/or from work. But not every inherited way of working needs to remain. The post Rethinking the Approach to Suicide Prevention In Construction: What Gets Passed Down From Leadership first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "建設業における自殺防止アプローチの再考：リーダーシップから受け継がれるもの",
+   "summary_ja": "仕事に伴うプレッシャーを完全になくすことは不可能だが、受け継がれてきた働き方のすべてをそのまま続ける必要はない。"
   },
   {
    "id": "40e36389fb55",
@@ -2814,6 +2796,36 @@
    "ai_related": true,
    "title_ja": "マイクロソフト、「安全性の懸念」を受け「AIよりも人命が重要」と表明",
    "summary_ja": "AIモデルの急進に対する安全性の懸念が高まる中、マイクロソフトは37ページの「人間中心のAI行動規範」を公開した。"
+  },
+  {
+   "id": "1bc645db54f7",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Buildots raises $130M as data center projects surge",
+   "url": "https://www.constructiondive.com/news/buildots-raises-130m-data-center-projects-surge/830222/",
+   "published": "2026-09-14T12:45+00:00",
+   "published_jst": "2026-09-14 21:45",
+   "summary": "The startup, which works with contractors including JE Dunn, Mortenson and Turner Construction parent Hochtief, noted that seven-figure, multiyear contracts with clients are now the norm.",
+   "ai_related": false,
+   "title_ja": "Buildotsが1億3000万ドルを調達、データセンター案件が急増",
+   "summary_ja": "JE Dunnやモルテンソンなどの施工会社と提携するスタートアップは、数百万ドル規模の数年契約が現在では標準的になっていると指摘した。"
+  },
+  {
+   "id": "296d33defd03",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "How Fyxer built an AI executive assistant people trust",
+   "url": "https://openai.com/index/fyxer",
+   "published": "2026-09-14T12:00+00:00",
+   "published_jst": "2026-09-14 21:00",
+   "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+   "ai_related": true,
+   "title_ja": "Fyxerはいかにして信頼されるAIエグゼクティブアシスタントを構築したか",
+   "summary_ja": "FyxerはOpenAIのモデル、ファインチューニング、記憶機能、ユーザーのフィードバックを活用し、受信トレイの整理や各ユーザーの文体でのメール下書きを行う。"
   }
  ]
 }
