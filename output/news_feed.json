@@ -1,20 +1,63 @@
 {
- "generated_at": "2026-09-16T21:17+00:00",
- "generated_at_jst": "2026-09-17 06:17",
+ "generated_at": "2026-09-16T22:12+00:00",
+ "generated_at_jst": "2026-09-17 07:12",
  "window_hours": 48,
  "counts": {
-  "ai_global": 66,
+  "ai_global": 69,
+  "construction_japan": 60,
   "ai_japan": 33,
-  "construction_japan": 55,
-  "construction_global": 46
+  "construction_global": 36
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "00f56e1b1eec",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+   "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+   "published": "2026-09-16T22:02+00:00",
+   "published_jst": "2026-09-17 07:02",
+   "summary": "Planned 2029 debut could make this Apple’s first enterprise server in decades.",
+   "ai_related": true
+  },
+  {
+   "id": "1049cef1681f",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "危険予知活動（KY活動）とは？｜建設現場での進め方・4ラウンド法・例文を解説",
+   "url": "https://news.build-app.jp/article/42726/",
+   "published": "2026-09-16T22:00+00:00",
+   "published_jst": "2026-09-17 07:00",
+   "summary": "建設現場では、作業内容や天候、使用する重機、周囲の作業員などの条件が日々変化します。昨日は安全だった作業でも、今日も同じとは限りません。 そ...",
+   "ai_related": false
+  },
+  {
+   "id": "dcf3f3c7b193",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "国産汎用ロボットによるフィジカルAIのデータ収集で7社が競う、試作機を披露",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2609/17/news053.html",
+   "published": "2026-09-16T21:45+00:00",
+   "published_jst": "2026-09-17 06:45",
+   "summary": "AIRoA（AIロボット協会）は、「フィジカル AI Summit」において、「国産汎用ロボット開発コンペティション」に参加する7社のロボットの試作機を公開した。",
+   "ai_related": true
+  },
   {
    "id": "8c5a5515609b",
    "source": "TechCrunch AI",
@@ -42,6 +85,19 @@
    "published_jst": "2026-09-17 06:00",
    "summary": "AIモデル「Claude Fable 5.1」が370年以上未解読とされてきた謎の暗号「Cyphral Distich」をわずか1日足らずで解読したというニュースが飛び込んできました。1899年に「Notes and Queries」誌で未解決問題として提示されて以来、「Cyphral Distich」は多くの暗号研究者たちの挑戦を退けてきた難問でした。AIが具体的にどのようにして暗号を解読したかについて、AI研究者のゲビー・ジャフ氏がブログにて語っています。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "879df1033db6",
+   "source": "施工の神様",
+   "source_id": "sekokan_navi",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "適材適所の”構造セレクト”で「木造は高い」を覆す。RC造比で最大35％安く建つ最適化設計とは",
+   "url": "https://sekokan-navi.jp/magazine/87431",
+   "published": "2026-09-16T21:00+00:00",
+   "published_jst": "2026-09-17 06:00",
+   "summary": "建設業界は今、脱炭素社会の実現に向けた「中大規模の木造建築（非住宅木造）」がかつてない注目を集めている。しかし、現場では「木造はRC・S造よりもコストが高くつく」「構造設計の難易度が高すぎる」といった課題が噴出し、普及の... The post 適材適所の”構造セレクト”で「木造は高い」を覆す。RC造比で最大35％安く建つ最適化設計とは first appeared on 施工の神様 .",
+   "ai_related": false
   },
   {
    "id": "c7357f44f499",
@@ -193,7 +249,7 @@
    "url": "https://rohanbansal.com/qorl",
    "published": "2026-09-16T18:50+00:00",
    "published_jst": "2026-09-17 03:50",
-   "summary": "Article URL: https://rohanbansal.com/qorl Comments URL: https://news.ycombinator.com/item?id=49731285 Points: 183 # Comments: 27",
+   "summary": "Article URL: https://rohanbansal.com/qorl Comments URL: https://news.ycombinator.com/item?id=49731285 Points: 249 # Comments: 42",
    "ai_related": true,
    "title_ja": "Postgresより81%高速なクエリ計画を作成する4Bモデルの訓練",
    "summary_ja": "Postgresと比較してクエリ計画を81%高速に生成する4Bモデルの訓練手法についての解説記事。"
@@ -289,6 +345,19 @@
    "summary_ja": "報道によると、AppleはNvidiaと提携してサーバー事業に復帰する計画を進めているという。"
   },
   {
+   "id": "bbe6c30a33c9",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Our framework for reporting model misalignment",
+   "url": "https://openai.com/index/model-misalignment-reporting-framework",
+   "published": "2026-09-16T17:00+00:00",
+   "published_jst": "2026-09-17 02:00",
+   "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+   "ai_related": true
+  },
+  {
    "id": "ffa6cd36bbea",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -380,7 +449,7 @@
   },
   {
    "id": "de6adfd7b412",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -542,6 +611,19 @@
    "summary_ja": "セキュリティ研究者が「Dora」という詐欺アプリを解析中、架空の人物から通報を受けるポップアップが表示された。"
   },
   {
+   "id": "faf270d1ea89",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "A warning about 'model welfare'",
+   "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+   "published": "2026-09-16T14:27+00:00",
+   "published_jst": "2026-09-16 23:27",
+   "summary": "Article URL: https://mustafa-suleyman.ai/a-warning-about-model-welfare Comments URL: https://news.ycombinator.com/item?id=49727580 Points: 166 # Comments: 440",
+   "ai_related": true
+  },
+  {
    "id": "39749b412919",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -616,7 +698,7 @@
   },
   {
    "id": "672b2ff30859",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -659,7 +741,7 @@
   },
   {
    "id": "a8d80b8a66ab",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -806,141 +888,6 @@
    "summary_ja": "制御不能になる前に減速すべきだという意見に、AIで巨額の利益を得る多くの関係者が公に賛同している。"
   },
   {
-   "id": "151f6f8e61a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "High Court enforces £8.7m award over Buckingham overpayments",
-   "url": "https://www.constructionnews.co.uk/legal/high-court-enforces-8-7m-award-over-buckingham-overpayments-16-09-2026/",
-   "published": "2026-09-16T11:45+00:00",
-   "published_jst": "2026-09-16 20:45",
-   "summary": "The High Court has enforced an £8.7m adjudication award against Avison Young over alleged overpayments to collapsed contractor Buckingham Group on a major Coventry earthworks project. Mr Justice Eyre granted summary judgment to Coventry & Warwickshire Development Partnership (CWDP) after rejecting A",
-   "ai_related": false,
-   "title_ja": "コベントリーの工事を巡り、高等法院が870万ポンドの支払命令",
-   "summary_ja": "高等法院は、破綻したバッキンガム・グループへの過払い金を巡り、Avison Youngに裁定額の支払いを命じた。"
-  },
-  {
-   "id": "d56459d442c4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Solicitors chase £413k owed to collapsed groundworks firm, administrators say",
-   "url": "https://www.constructionnews.co.uk/financial/solicitors-chase-413k-owed-to-collapsed-groundworks-firm-administrators-say-16-09-2026/",
-   "published": "2026-09-16T11:45+00:00",
-   "published_jst": "2026-09-16 20:45",
-   "summary": "Administrators for a groundworks, civils and plant-hire firm have said they have engaged solicitors to recover more than £400,000-worth of loans from connected companies. Cheshire-based TPS Plant & Groundwork went into administration in February 2025 after being hit with a winding-up petition by HMR",
-   "ai_related": false,
-   "title_ja": "破綻した基礎工事企業への41万ポンドの回収へ弁護士を起用",
-   "summary_ja": "基礎工事会社の管財人は、関連企業からの40万ポンド超の融資金を回収するため、弁護士を起用したと発表した。"
-  },
-  {
-   "id": "08bbb7c23192",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "One Group profit falls by a quarter despite turnover rise",
-   "url": "https://www.constructionnews.co.uk/financial/one-group-profit-falls-by-a-quarter-despite-turnover-rise-16-09-2026/",
-   "published": "2026-09-16T11:45+00:00",
-   "published_jst": "2026-09-16 20:45",
-   "summary": "Ipswich-based contractor One Group Construction has seen pre-tax profit fall by 24 per cent despite an increase in revenue. Accounts for the year to 31 December 2025 showed pre-tax profit of £9.1m, down from £12m the year before, while turnover rose by 7 per cent… The post One Group profit falls by ",
-   "ai_related": false,
-   "title_ja": "One Group、売上高増加にもかかわらず利益が4分の一減少",
-   "summary_ja": "One Group Constructionの最新の決算では、収益が増加した一方で、税引前利益が24％減少したことが示された。"
-  },
-  {
-   "id": "ab70931f9473",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Contractor-backed thinktank calls for reforms amid £258bn infra black hole",
-   "url": "https://www.constructionnews.co.uk/government/contractor-backed-thinktank-calls-for-reforms-amid-258bn-infra-black-hole-16-09-2026/",
-   "published": "2026-09-16T11:45+00:00",
-   "published_jst": "2026-09-16 20:45",
-   "summary": "A key thinktank has called for reforms to create better conditions for private investment after calculating a £258bn black hole in meeting the country's infrastructure needs. The Public Private Partnership Commission (PPPC), which includes Kier and Laing O'Rourke among its members, set out a series…",
-   "ai_related": false,
-   "title_ja": "インフラ資金の膨大な不足を受け、シンクタンクが改革を要請",
-   "summary_ja": "主要なシンクタンクは、インフラ需要を満たすための巨額の資金不足を解消し、民間投資を促進する改革を求めている。"
-  },
-  {
-   "id": "ad35ec21fa57",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Can contractors cut construction-transport road deaths?",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/features/can-contractors-cut-construction-transport-road-deaths-16-09-2026/",
-   "published": "2026-09-16T11:02+00:00",
-   "published_jst": "2026-09-16 20:02",
-   "summary": "In the space of just three weeks in 2022, two employees of the University of Oxford were killed while cycling. El Len Tham, also known as Ellen Moilanen, died in a collision with a lorry heading to an aggregates facility just outside Oxford on 8… The post Can contractors cut construction-transport r",
-   "ai_related": false,
-   "title_ja": "建設・輸送関連の道路死亡事故はゼネコンによって削減できるか",
-   "summary_ja": "2022年のわずか3週間の間に、オックスフォード大学の職員2名がサイクリング中に大型トラックとの事故で死亡した。"
-  },
-  {
-   "id": "d46535800a7c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New social value rules must avoid becoming a numbers game",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/new-social-value-rules-must-avoid-becoming-a-numbers-game-16-09-2026/",
-   "published": "2026-09-16T10:58+00:00",
-   "published_jst": "2026-09-16 19:58",
-   "summary": "Marie-Claude Hemming is director of Policy at the Association for Consultancy and Engineering (ACE) In one of his first moves as new prime minister, Andy Burnham changed how social value is assessed in public sector contracts, placing greater weight on jobs and local community benefits… The post New",
-   "ai_related": true,
-   "title_ja": "新しい社会的価値の評価ルールは単なる数合わせを避けるべき",
-   "summary_ja": "アンディ・バーナム新首相による公共調達での社会的価値の評価方法の変更について、専門家が警鐘を鳴らす。"
-  },
-  {
-   "id": "8e7635acbb9a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Barratt Redrow recovers £38m from suppliers for legacy defects",
-   "url": "https://www.constructionnews.co.uk/financial/barratt-redrow-recovers-38m-from-suppliers-for-legacy-defects-16-09-2026/",
-   "published": "2026-09-16T10:57+00:00",
-   "published_jst": "2026-09-16 19:57",
-   "summary": "Barratt Redrow has recovered more than £38m from its supply chain over the past year as it continues to pursue third parties over legacy property costs. The housebuilding giant, formed by a merger between Barratt Developments and Redrow in 2024, revealed the sum in its… The post Barratt Redrow recov",
-   "ai_related": false,
-   "title_ja": "Barratt Redrow、過去の欠陥問題でサプライヤーから3800万ポンド回収",
-   "summary_ja": "大手住宅メーカーのBarratt Redrowは、過去の不動産コストに関連し、サプライチェーンから3800万ポンド以上を回収した。"
-  },
-  {
-   "id": "9f321e9878b9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Client fires starting gun on £66m Barbican work packages",
-   "url": "https://www.constructionnews.co.uk/buildings/client-fires-starting-gun-on-66m-barbican-work-packages-16-09-2026/",
-   "published": "2026-09-16T10:57+00:00",
-   "published_jst": "2026-09-16 19:57",
-   "summary": "The City of London Corporation has launched procurement for £66m of mechanical, electrical, demolition and structural works at the Barbican Centre. The two packages form part of the £176m Barbican Renewal Programme, covering refurbishment of the occupied Grade II-listed Brutalist arts complex. BSB C",
-   "ai_related": false,
-   "title_ja": "バービカン・センターの6600万ポンドの工事発注が開始",
-   "summary_ja": "ロンドン・シティ・コーポレーションは、総額1.76億ポンドの改修計画の一環として、バービカンでの各種工事の調達を開始した。"
-  },
-  {
-   "id": "a68d4d30bb3e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Stepnell hires former Lendlease MD to lead construction arm",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/stepnell-hires-former-lendlease-md-to-lead-construction-arm-16-09-2026/",
-   "published": "2026-09-16T10:46+00:00",
-   "published_jst": "2026-09-16 19:46",
-   "summary": "Stepnell has appointed former Lendlease executive Simon Gorski as managing director of its construction business as the contractor targets regional expansion. Gorski joined the Rugby-based contractor after more than 30 years working across construction, defence, justice, healthcare and public-sector",
-   "ai_related": false,
-   "title_ja": "Stepnell、建設部門のトップにLendleaseの元MDを起用",
-   "summary_ja": "Stepnellは地域展開の拡大を目指し、建設事業の新しいマネージング・ディレクターにサイモン・ゴースキー氏を任命した。"
-  },
-  {
    "id": "9ec52daee72f",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -982,21 +929,6 @@
    "ai_related": true,
    "title_ja": "2024年時点でAI研究者の約5人に1人が人類絶滅のシナリオを予想",
    "summary_ja": "AIの存在論的リスクを巡り、研究者たちの間で「時間切れの爆弾」であるとして激しい議論が巻き起こっている。"
-  },
-  {
-   "id": "4b203ab23c73",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Brick deliveries plunge 23% as materials demand weakens",
-   "url": "https://www.constructionnews.co.uk/supply-chain/brick-deliveries-plunge-23-as-materials-demand-weakens-16-09-2026/",
-   "published": "2026-09-16T10:07+00:00",
-   "published_jst": "2026-09-16 19:07",
-   "summary": "Seasonally adjusted brick deliveries in Great Britain slumped 22.8 per cent year on year in July, according to new government figures. Deliveries fell to 95.4 million bricks from 123.5 million in July 2025. They were also 10 per cent lower than in June, extending a… The post Brick deliveries plunge ",
-   "ai_related": false,
-   "title_ja": "材料需要の低迷に伴い、英国のレンガ出荷数が23%急減",
-   "summary_ja": "政府の新しい統計によると、7月の英国における季節調整済みのレンガ出荷数は前年同月比で22.8％減少した。"
   },
   {
    "id": "5a2b19e940b1",
@@ -1107,7 +1039,7 @@
    "url": "https://mistral.ai/news/mistral-x-mozilla/",
    "published": "2026-09-16T08:08+00:00",
    "published_jst": "2026-09-16 17:08",
-   "summary": "Article URL: https://mistral.ai/news/mistral-x-mozilla/ Comments URL: https://news.ycombinator.com/item?id=49723408 Points: 488 # Comments: 172",
+   "summary": "Article URL: https://mistral.ai/news/mistral-x-mozilla/ Comments URL: https://news.ycombinator.com/item?id=49723408 Points: 498 # Comments: 177",
    "ai_related": true,
    "title_ja": "MistralとMozilla：プライベートで多言語なAIブラウジング",
    "summary_ja": "MistralとMozillaによる、プライバシーを重視した多言語対応のAIブラウジング機能に関する記事。"
@@ -1185,7 +1117,7 @@
   },
   {
    "id": "17031c155cb2",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1198,7 +1130,7 @@
   },
   {
    "id": "5fb436ae7da9",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1317,7 +1249,7 @@
   },
   {
    "id": "f6b84c2ab757",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1486,7 +1418,7 @@
   },
   {
    "id": "b9007a76a0a3",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1540,7 +1472,7 @@
   },
   {
    "id": "e89d7574b39d",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1678,7 +1610,7 @@
   },
   {
    "id": "523838f9371e",
-   "source": "日刊建設工業新聞",
+   "source": "decn.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1796,45 +1728,6 @@
    "ai_related": true
   },
   {
-   "id": "a49f1a611e09",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "最多は公営住宅分野/公共施設の集約・再編/政府",
-   "url": "https://www.kensetsunews.com/archives/1285629",
-   "published": "2026-09-15T19:55+00:00",
-   "published_jst": "2026-09-16 04:55",
-   "summary": "政府は、インフラ長寿命化計画に基づく各管理者の取り組み状況に関する最新の調査結果をまとめた。各府省… The post 最多は公営住宅分野/公共施設の集約・再編/政府 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "145bec3a3e35",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "次世代太陽電池・創出支援を大幅拡充/調査から設備導入まで/環境省",
-   "url": "https://www.kensetsunews.com/archives/1285636",
-   "published": "2026-09-15T19:55+00:00",
-   "published_jst": "2026-09-16 04:55",
-   "summary": "環境省は２０２７年度、ペロブスカイト太陽電池（ＰＳＣ）の社会実装モデルの創出支援を大幅に拡充する。… The post 次世代太陽電池・創出支援を大幅拡充/調査から設備導入まで/環境省 first appeared on 建設通信新聞Digital .",
-   "ai_related": true
-  },
-  {
-   "id": "b99876fa3366",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "つくば市/10月19日まで受付/延べ2万㎡の陸上競技場",
-   "url": "https://www.kensetsunews.com/archives/1285683",
-   "published": "2026-09-15T19:55+00:00",
-   "published_jst": "2026-09-16 04:55",
-   "summary": "茨城県つくば市は１５日、「つくば市陸上競技場建設工事」の一般競争入札を事後審査型で公告した。質問は… The post つくば市/10月19日まで受付/延べ2万㎡の陸上競技場 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "d8381b19afb5",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -1872,6 +1765,45 @@
    "published_jst": "2026-09-16 04:55",
    "summary": "金沢市の武蔵ヶ辻Ａ地区市街地再開発準備組合は１５日、「武蔵ヶ辻Ａ地区第一種市街地再開発事業施設建築… The post 再開発準備組合/10月1日まで申請受付/武蔵ヶ辻A地区基本設計 first appeared on 建設通信新聞Digital .",
    "ai_related": false
+  },
+  {
+   "id": "a866ec6036bd",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "東京港埠頭/9月24日から申込受付/中央防波堤コンテナ埠頭Y3バース電気",
+   "url": "https://www.kensetsunews.com/archives/1285608",
+   "published": "2026-09-15T19:55+00:00",
+   "published_jst": "2026-09-16 04:55",
+   "summary": "東京港埠頭は、「令和８年度中央防波堤外側コンテナ埠頭Ｙ３バースヤード内電気設備工事」の指名競争入札… The post 東京港埠頭/9月24日から申込受付/中央防波堤コンテナ埠頭Y3バース電気 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "a49f1a611e09",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "最多は公営住宅分野/公共施設の集約・再編/政府",
+   "url": "https://www.kensetsunews.com/archives/1285629",
+   "published": "2026-09-15T19:55+00:00",
+   "published_jst": "2026-09-16 04:55",
+   "summary": "政府は、インフラ長寿命化計画に基づく各管理者の取り組み状況に関する最新の調査結果をまとめた。各府省… The post 最多は公営住宅分野/公共施設の集約・再編/政府 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "145bec3a3e35",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "次世代太陽電池・創出支援を大幅拡充/調査から設備導入まで/環境省",
+   "url": "https://www.kensetsunews.com/archives/1285636",
+   "published": "2026-09-15T19:55+00:00",
+   "published_jst": "2026-09-16 04:55",
+   "summary": "環境省は２０２７年度、ペロブスカイト太陽電池（ＰＳＣ）の社会実装モデルの創出支援を大幅に拡充する。… The post 次世代太陽電池・創出支援を大幅拡充/調査から設備導入まで/環境省 first appeared on 建設通信新聞Digital .",
+   "ai_related": true
   },
   {
    "id": "0cc419aabf10",
@@ -2545,7 +2477,7 @@
   },
   {
    "id": "866b6aa855f1",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2749,19 +2681,6 @@
    "ai_related": false
   },
   {
-   "id": "1f8a3edba93c",
-   "source": "news.infoseek.co.jp",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "株式会社Arent、日揮グローバルと配管3D設計の一貫自動化を共同開発",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xc3FOWnllZWxBbDFkR2lNT2tPU0pCOXZxcENxMlFaa0NKSkJCcFlnYnZuUXE5ZXBzMUlJWWJfaXEwdDBlcE5Jc1F0N2pycmZiQjhXRzhUOWgxYUloaktPVnhwT1dYR0Y5dHB4ZzhUbU1KUQ?oc=5",
-   "published": "2026-09-15T04:15+00:00",
-   "published_jst": "2026-09-15 13:15",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "455ea148ccc6",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2788,21 +2707,8 @@
    "ai_related": true
   },
   {
-   "id": "22743d695986",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "推論領域への野心強めるNVIDIA 韓国新興と協議か",
-   "url": "https://eetimes.itmedia.co.jp/ee/articles/2609/15/news061.html",
-   "published": "2026-09-15T02:00+00:00",
-   "published_jst": "2026-09-15 11:00",
-   "summary": "NVIDIAが、韓国のスタートアップで推論用NPU（Neural Processing Unit）に強みを持つRebellionsと協議を行っているという。技術提携のみならず、出資や買収も視野に入れているとされる。",
-   "ai_related": true
-  },
-  {
    "id": "398031f3cb7f",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2837,6 +2743,58 @@
    "published": "2026-09-15T01:00+00:00",
    "published_jst": "2026-09-15 10:00",
    "summary": "建設業は労働集約型の産業であり、日々変化する作業環境の中で労働災害の発生件数が全産業の中でも高い水準にあります。とりわけ死亡災害の割合は全体...",
+   "ai_related": false
+  },
+  {
+   "id": "41025e6d588e",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日本のデータセンター建設市場：AIインフラ、電力供給能力、高密度施設が新たな成長機会を創出 (2026年9月15日掲載)",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xWHhwS1kyWnhNR05RRE9ENGFkZDVkb0JWaGlXSWpQSHV6Mm9uaWRHaWdqX3ROQmhpWEI1YnJyaTJWOW9Gdi1pYm5jemtXYW15YlE2X1h5d29ySFNuSHFYNnJn?oc=5",
+   "published": "2026-09-15T00:30+00:00",
+   "published_jst": "2026-09-15 09:30",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "8c89455e8e5a",
+   "source": "Chosunbiz",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大宇建設がスマート安全教育とAI翻訳機を全現場に拡大導入 - CHOSUNBIZ",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTElxOUM3MWdxVGwwa2std0Z2bVk3bmh2RnJ5SkN5bFpvVkl1bUdHOXFYQ3lnMlU3RGlSYXpQS2FZb1NIUHFHSEJNYkdOanF6b1R3ZlJKSHdiSWllcmVzREpmb1hvNG5EaWNrblRQTFZCb3NXUHBROTc4WmJYd3dpRGxxMXRNWDUtZ3BuMW1LdGpXUEpCblRiV9IBmAFBVV95cUxPTElxOUM3MWdxVGwwa2std0Z2bVk3bmh2RnJ5SkN5bFpvVkl1bUdHOXFYQ3lnMlU3RGlSYXpQS2FZb1NIUHFHSEJNYkdOanF6b1R3ZlJKSHdiSWllcmVzREpmb1hvNG5EaWNrblRQTFZCb3NXUHBROTc4WmJYd3dpRGxxMXRNWDUtZ3BuMW1LdGpXUEpCblRiVw?oc=5",
+   "published": "2026-09-15T00:12+00:00",
+   "published_jst": "2026-09-15 09:12",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "00edb170cf10",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業向け経営管理システム\"CORECA\"、LINEに常駐するAIコンシェルジュ機能「コレボ」をリリース",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3SXI2X2t5d3BSTjJjOWJvR2xtZVRfMF9NRUdPbzZBc1pVME5kdlExSFNIMlp5eDRwbWd5QzM1RkpTQzVUd3JhOUtNdHpxSUE4OUJxQW5jbXZycjR3bldhUldTWV9FZnhoMUE?oc=5",
+   "published": "2026-09-15T00:00+00:00",
+   "published_jst": "2026-09-15 09:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "55a96e52683a",
+   "source": "PR TIMES",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "アルダグラム、「KANNA」のAI機能を拡充。4つのAI機能で「現場AIプラットフォーム」としての進化を加速",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WWUw5SzdKRUpHdjVyTDZybmNRQ3NiRWNDUnpLUmdhaXBOMWFUWmhtM1VMckZKOVpjX2dSWkFxc1Bvb2ZSYVVXclUycU1UbHk3SDQtamNVNXh4VFd5NHpZM1JFZnU4bjV1dmc?oc=5",
+   "published": "2026-09-14T23:00+00:00",
+   "published_jst": "2026-09-15 08:00",
+   "summary": "",
    "ai_related": false
   }
  ]
