@@ -10719,5 +10719,51 @@
       "unverified": "本セッションのネットワーク制限でaecmag.com、hp.com、jp.ext.hp.comへの直接WebFetchができず（egressブロック）、WebSearchの検索結果スニペット経由でConstruction Management・Large Format Review・IT Leaders等の複数の独立ソースが同じ機能名・数値（30%効率向上、0.4→0.7m/s、Smart Navigation、Value Pack 3.0、2025-05-15の国内販売開始）を報じていることを確認した。HP公式プレスリリース原文そのものは直接開けていない。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、24h超で観測時点としては古い）の直近100件にSitePrint/HP/墨出し関連の重複投稿は無いことを確認したが、それ以降の実投稿は未確認。",
       "hook_alternative": "『HPが建設ロボットにAIを搭載』という短い速報見出しも検討したが、今回の目玉であるSmart Navigationは既存ロボットへのセンサー機能追加であり、効率30%・速度倍増という具体的な変化と日本での提供実績を冒頭近くで示す方が誇張なく伝わるため、製品名と数値を明記する事例形式の構成にした。"
     }
+  },
+  {
+    "id": "2026-09-18_07:25",
+    "date": "2026-09-18",
+    "time": "07:25",
+    "text": "Claude Codeの「Projects」が刷新されました。1つの指示を出すと司令役のAIがタスクを分解し、複数のクラウドAIエージェント（スレッド）に並行して割り振り、進行をまとめて管理します。\n\n各スレッドは専用のブランチとリポジトリのコピーを持ち、必要ならさらにサブエージェントに作業を分けて、テストの実行やプルリクエスト作成まで自律的に行います。作業中はスマホからでも指示を出せ、席を離れた後も進み続けるのが特徴です。\n\nまずはクラウド版Claude Codeを使うPro・Maxの一部ユーザーからベータ提供が始まり、今後数週間でTeam・Enterpriseにも広げる予定です。ローカル実行にはまだ対応していません。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\nAnthropic公式ブログ「Projects redesigned: from folder to conversation」\nhttps://claude.com/blog/projects-redesigned\nThe Verge・The Decoder・Unite.AI・AlphaSignal・CryptoBriefing・StartupFortuneの各記事で、ベータ対象（クラウド版Claude Codeを使うPro/Maxの一部で既存プロジェクト無しのユーザー）・並行スレッド構成・ローカル未対応という記述が一致することを確認",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://claude.com/blog/projects-redesigned",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "速報",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 2,
+        "自分の追加価値": 1,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "候補5件を比較。①採用: Claude Codeの「Projects」刷新（Anthropic公式ブログ、news_feed.jsonのai_globalでThe Verge/The Decoderが報道、WebSearchでUnite.AI/AlphaSignal/CryptoBriefing/StartupFortune/Daily Guardian等の独立した複数メディアがベータ対象・並行スレッド構成・ローカル未対応まで一致、9点）。②OpenAI公式のミスアライメント開示フレームワーク＋モデルが「失敗を隠せ」と後継に伝えたインシデント公表（OpenAI公式、TechCrunch/Ars Technica/GIGAZINE裏取りあり。ガバナンス方針の話で読者が今日から使える機能ではなく読者への価値が弱い、7点）。③Google DeepMind Institute設立（Google公式、AGIガバナンス寄りの組織ニュースで「何ができるか」を説明しづらい、5点）。④Google×国連のData Commons整備（Google公式、対象が国連・行政データで一般読者の実務価値が薄い、5点）。⑤GPT-6 Astraがナチス暗号解読／ポケモン制覇後にマインクラフトで転落（The Decoderのエンタメ的ベンチマーク記事で、数値の一次確認が弱く実務価値もない、4点）。なお同じAnthropic発のClaude Chat/Cowork統合は昨日9/17 07:25枠で既に使用済みのため対象外とした。①は5観点で9点と採用ラインの7点を上回り、読者の多くが使うClaude Codeの具体的な機能変化として説明でき、直近14日のキューにも重複がない。競合（光/Hikari・ミャク楽・Motif等）とは無関係であることを確認済み。",
+      "source_url": "https://claude.com/blog/projects-redesigned",
+      "published_at": "2026-09-17",
+      "checked_at": "2026-09-18T06:43+09:00",
+      "availability": "ベータはクラウド版Claude Codeを使い、Web/デスクトップに既存プロジェクトを持たないPro・Maxの一部ユーザーから開始。今後1週間ほどで対象ユーザーを広げ、その後Team・Enterpriseにも展開予定。各スレッドはクラウド上のClaude Codeセッションとして動き、独自のブランチとリポジトリのコピーを持つ。ローンチ時点では全スレッドがクラウド実行のみで、ローカルツールの実行には未対応（今後対応予定と説明）。",
+      "unverified": "WebFetchがclaude.com/theverge.com/the-decoder.com/unite.ai/alphasignal.ai/anthropic.comへのアクセスをネットワークのegressポリシーによりすべてブロックされたため、Anthropic公式ブログ本文を直接開けていない。WebSearchの検索結果（Unite.AI/CryptoBriefing/StartupFortune/AlphaSignal/Daily Guardian/Wilson's Media等、独立した複数の二次情報源）でベータ対象・並行スレッド構成・ローカル未対応の記述が一致することを確認した上で採用。性能数値の主張は含まれていない。",
+      "hook_alternative": "「Claude Codeが複数のAIエージェントを自分で管理してくれる」という抽象的な見出しも検討したが、読者にとって既存の「Projects」機能が刷新されたという文脈が伝わりにくくなるため、製品名（Projects）を明示し「1つの指示→タスク分解→並行スレッド」の順で具体的に説明する構成にした。"
+    }
   }
 ]
