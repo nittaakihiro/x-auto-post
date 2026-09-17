@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-17T01:27+00:00",
- "generated_at_jst": "2026-09-17 10:27",
+ "generated_at": "2026-09-17T01:44+00:00",
+ "generated_at_jst": "2026-09-17 10:44",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 53,
+  "ai_japan": 35,
+  "construction_japan": 59,
   "ai_global": 70,
-  "ai_japan": 34,
-  "construction_global": 43
+  "construction_global": 36
  },
  "errors": [
   {
@@ -14,11 +14,37 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "buildapp",
-   "error": "URLError: <urlopen error timed out>"
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "f3a8c1ef6285",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "FirefoxのAI機能を拡充するべくMozillaがAI企業「Mistral AI」とパートナーシップを締結",
+   "url": "https://gigazine.net/news/20260917-firefox-ai-mozilla-mistral/",
+   "published": "2026-09-17T01:42+00:00",
+   "published_jst": "2026-09-17 10:42",
+   "summary": "Firefoxの開発元であるMozillaが、フランスに拠点を置くAI開発企業のMistral AIとのパートナーシップを締結しました。このパートナーシップに基づいて、FirefoxのAI機能である「Smart Window(スマートウィンドウ)」にMistral AI製モデル「Mistral Small 4」が搭載されることとなります。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "682afdebc81b",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAI、モデルの「ミスアライメント」報告の新フレームワーク公開 データ捏造など6件の事例も公表",
+   "url": "https://www.itmedia.co.jp/news/article/2609/17/2000001570/",
+   "published": "2026-09-17T01:23+00:00",
+   "published_jst": "2026-09-17 10:23",
+   "summary": "OpenAIは、AIモデルの開発過程などで確認されたミスアライメント事例を追跡・公表するための新枠組みを発表した。実害の有無を問わず迅速に情報共有する方針で、APIキーの無断探索やデータ捏造、不正な指示の書き込みなど、未公開モデルや「GPT-5.6 Sol」の訓練中に観測された6件の事例報告書も公開した。",
+   "ai_related": true
+  },
   {
    "id": "7eb4a374de2b",
    "source": "ニュースメディアVOIX",
@@ -31,6 +57,19 @@
    "published_jst": "2026-09-17 10:07",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "cb6827b94b24",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "buildingSMART Japan、10月に羽田でopenBIM国際サミット、50カ国超参加",
+   "url": "https://news.build-app.jp/article/42741/",
+   "published": "2026-09-17T01:00+00:00",
+   "published_jst": "2026-09-17 10:00",
+   "summary": "一般社団法人buildingSMART Japan(以下、bSJ)は、英国に本部を置くbuildingSMART International...",
+   "ai_related": true
   },
   {
    "id": "fb66e058060b",
@@ -100,21 +139,6 @@
    "ai_related": true,
    "title_ja": "datasette 0.65.5のリリース",
    "summary_ja": "テーブル名末尾の改行により権限がバイパスされるセキュリティ脆弱性を修正する、datasette 0.65.5がリリースされました。"
-  },
-  {
-   "id": "d2f3ab14e50f",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
-   "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
-   "published": "2026-09-16T23:40+00:00",
-   "published_jst": "2026-09-17 08:40",
-   "summary": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as a",
-   "ai_related": true,
-   "title_ja": "Snap、iOSとMac向けの新しいSpecs AIツールを発表",
-   "summary_ja": "Snapが、業務や旅行情報の管理をサポートする新しいAIアシスタント「Specs Intelligence」を発表しました。"
   },
   {
    "id": "ab606755c8a5",
@@ -208,6 +232,19 @@
    "ai_related": true,
    "title_ja": "Apple、AI向けMシリーズUltra搭載サーバーを開発か",
    "summary_ja": "2029年の投入が計画されており、Appleにとって数十年ぶり初の企業向けサーバーとなる可能性があります。"
+  },
+  {
+   "id": "1049cef1681f",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "危険予知活動（KY活動）とは？｜建設現場での進め方・4ラウンド法・例文を解説",
+   "url": "https://news.build-app.jp/article/42726/",
+   "published": "2026-09-16T22:00+00:00",
+   "published_jst": "2026-09-17 07:00",
+   "summary": "建設現場では、作業内容や天候、使用する重機、周囲の作業員などの条件が日々変化します。昨日は安全だった作業でも、今日も同じとは限りません。 そ...",
+   "ai_related": false
   },
   {
    "id": "dcf3f3c7b193",
@@ -413,7 +450,7 @@
    "url": "https://rohanbansal.com/qorl",
    "published": "2026-09-16T18:50+00:00",
    "published_jst": "2026-09-17 03:50",
-   "summary": "Article URL: https://rohanbansal.com/qorl Comments URL: https://news.ycombinator.com/item?id=49731285 Points: 387 # Comments: 81",
+   "summary": "Article URL: https://rohanbansal.com/qorl Comments URL: https://news.ycombinator.com/item?id=49731285 Points: 392 # Comments: 84",
    "ai_related": true,
    "title_ja": "Postgresより81%高速なクエリ計画を作成する4Bモデルの訓練",
    "summary_ja": "Postgresと比較してクエリ計画を81%高速に生成する4Bモデルの訓練手法についての解説記事。"
@@ -906,6 +943,19 @@
    "summary_ja": "SKハイニックスはTechCrunchに対し、現時点で計画や合意は何も決定していないと述べた。"
   },
   {
+   "id": "a8d80b8a66ab",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "九州・山口から、環境経営の新しいカタチを。セリタ建設が「環境経営×DX」による組織変革を発信 10月1日、エコアクション21セミナーに登壇｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBjRnRNQXRYX2JWdWpVSkp0dXVKRDlBSmdXZ1Q0ZFlxbGpBX0Y1VlNnWExGSUdFWnpoalFBTVlGTXd1WTRYS3VsQ1ZjOXAxNWpBaFIyRWJxQWhlZGJWTHRJcG0waWZLR18yeF9rU2UtQzhvZw?oc=5",
+   "published": "2026-09-16T13:10+00:00",
+   "published_jst": "2026-09-16 22:10",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "52752974efc0",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1041,66 +1091,6 @@
    "summary_ja": "制御不能になる前に減速すべきだという意見に、AIで巨額の利益を得る多くの関係者が公に賛同している。"
   },
   {
-   "id": "151f6f8e61a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "High Court enforces £8.7m award over Buckingham overpayments",
-   "url": "https://www.constructionnews.co.uk/legal/high-court-enforces-8-7m-award-over-buckingham-overpayments-16-09-2026/",
-   "published": "2026-09-16T11:45+00:00",
-   "published_jst": "2026-09-16 20:45",
-   "summary": "The High Court has enforced an £8.7m adjudication award against Avison Young over alleged overpayments to collapsed contractor Buckingham Group on a major Coventry earthworks project. Mr Justice Eyre granted summary judgment to Coventry & Warwickshire Development Partnership (CWDP) after rejecting A",
-   "ai_related": false,
-   "title_ja": "英国高裁、過払いをめぐり870万ポンドの支払命令を執行",
-   "summary_ja": "コベントリーの土木工事をめぐり、倒産したBuckingham Groupへの過払いを巡る仲裁判断が執行されました。"
-  },
-  {
-   "id": "d56459d442c4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Solicitors chase £413k owed to collapsed groundworks firm, administrators say",
-   "url": "https://www.constructionnews.co.uk/financial/solicitors-chase-413k-owed-to-collapsed-groundworks-firm-administrators-say-16-09-2026/",
-   "published": "2026-09-16T11:45+00:00",
-   "published_jst": "2026-09-16 20:45",
-   "summary": "Administrators for a groundworks, civils and plant-hire firm have said they have engaged solicitors to recover more than £400,000-worth of loans from connected companies. Cheshire-based TPS Plant & Groundwork went into administration in February 2025 after being hit with a winding-up petition by HMR",
-   "ai_related": false,
-   "title_ja": "倒産した土木会社の未回収ローン、弁護士が回収へ",
-   "summary_ja": "管理人は、関連会社に対する40万ポンド超の貸付金を回収するため、弁護士を起用したと発表しました。"
-  },
-  {
-   "id": "08bbb7c23192",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "One Group profit falls by a quarter despite turnover rise",
-   "url": "https://www.constructionnews.co.uk/financial/one-group-profit-falls-by-a-quarter-despite-turnover-rise-16-09-2026/",
-   "published": "2026-09-16T11:45+00:00",
-   "published_jst": "2026-09-16 20:45",
-   "summary": "Ipswich-based contractor One Group Construction has seen pre-tax profit fall by 24 per cent despite an increase in revenue. Accounts for the year to 31 December 2025 showed pre-tax profit of £9.1m, down from £12m the year before, while turnover rose by 7 per cent… The post One Group profit falls by ",
-   "ai_related": false,
-   "title_ja": "One Group、売上高増加も利益は25%減少",
-   "summary_ja": "Ipswichの建設会社One Group Constructionは、売上高が増加したものの、税引前利益が24%減少しました。"
-  },
-  {
-   "id": "ab70931f9473",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Contractor-backed thinktank calls for reforms amid £258bn infra black hole",
-   "url": "https://www.constructionnews.co.uk/government/contractor-backed-thinktank-calls-for-reforms-amid-258bn-infra-black-hole-16-09-2026/",
-   "published": "2026-09-16T11:45+00:00",
-   "published_jst": "2026-09-16 20:45",
-   "summary": "A key thinktank has called for reforms to create better conditions for private investment after calculating a £258bn black hole in meeting the country's infrastructure needs. The Public Private Partnership Commission (PPPC), which includes Kier and Laing O'Rourke among its members, set out a series…",
-   "ai_related": false,
-   "title_ja": "インフラ資金の巨額不足受け、シンクタンクが改革を要求",
-   "summary_ja": "インフラ需要を満たすための巨額の財政不足を解消し、民間投資の環境を改善するため、改革が求められています。"
-  },
-  {
    "id": "dbb60a81aa82",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -1110,85 +1100,10 @@
    "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
    "published": "2026-09-16T11:15+00:00",
    "published_jst": "2026-09-16 20:15",
-   "summary": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 235 # Comments: 82",
+   "summary": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 263 # Comments: 99",
    "ai_related": true,
    "title_ja": "Nvidia、RustでのネイティブGPUプログラミングを発表",
    "summary_ja": "NvidiaがRust言語を使用したGPUプログラミング（GPUカーネル開発）のネイティブサポートを発表しました。"
-  },
-  {
-   "id": "ad35ec21fa57",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Can contractors cut construction-transport road deaths?",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/features/can-contractors-cut-construction-transport-road-deaths-16-09-2026/",
-   "published": "2026-09-16T11:02+00:00",
-   "published_jst": "2026-09-16 20:02",
-   "summary": "In the space of just three weeks in 2022, two employees of the University of Oxford were killed while cycling. El Len Tham, also known as Ellen Moilanen, died in a collision with a lorry heading to an aggregates facility just outside Oxford on 8… The post Can contractors cut construction-transport r",
-   "ai_related": false,
-   "title_ja": "建設・輸送関連の道路死亡事故は削減できるのか？",
-   "summary_ja": "2022年のわずか3週間の間に、オックスフォード大学の職員2名がサイクリング中に事故で亡くなりました。"
-  },
-  {
-   "id": "d46535800a7c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New social value rules must avoid becoming a numbers game",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/new-social-value-rules-must-avoid-becoming-a-numbers-game-16-09-2026/",
-   "published": "2026-09-16T10:58+00:00",
-   "published_jst": "2026-09-16 19:58",
-   "summary": "Marie-Claude Hemming is director of Policy at the Association for Consultancy and Engineering (ACE) In one of his first moves as new prime minister, Andy Burnham changed how social value is assessed in public sector contracts, placing greater weight on jobs and local community benefits… The post New",
-   "ai_related": true,
-   "title_ja": "新しい社会的価値のルール、単なる数合わせの回避を",
-   "summary_ja": "公共調達における社会的価値の評価方法の変更について、エースの政策ディレクターが意見を述べています。"
-  },
-  {
-   "id": "8e7635acbb9a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Barratt Redrow recovers £38m from suppliers for legacy defects",
-   "url": "https://www.constructionnews.co.uk/financial/barratt-redrow-recovers-38m-from-suppliers-for-legacy-defects-16-09-2026/",
-   "published": "2026-09-16T10:57+00:00",
-   "published_jst": "2026-09-16 19:57",
-   "summary": "Barratt Redrow has recovered more than £38m from its supply chain over the past year as it continues to pursue third parties over legacy property costs. The housebuilding giant, formed by a merger between Barratt Developments and Redrow in 2024, revealed the sum in its… The post Barratt Redrow recov",
-   "ai_related": false,
-   "title_ja": "Barratt Redrow、過去の不具合でサプライヤーから3,800万ポンド回収",
-   "summary_ja": "住宅建設大手が、過去の物件コストに関連してサプライチェーンから3,800万ポンド以上を回収しました。"
-  },
-  {
-   "id": "9f321e9878b9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Client fires starting gun on £66m Barbican work packages",
-   "url": "https://www.constructionnews.co.uk/buildings/client-fires-starting-gun-on-66m-barbican-work-packages-16-09-2026/",
-   "published": "2026-09-16T10:57+00:00",
-   "published_jst": "2026-09-16 19:57",
-   "summary": "The City of London Corporation has launched procurement for £66m of mechanical, electrical, demolition and structural works at the Barbican Centre. The two packages form part of the £176m Barbican Renewal Programme, covering refurbishment of the occupied Grade II-listed Brutalist arts complex. BSB C",
-   "ai_related": false,
-   "title_ja": "Barbicanの6,600万ポンド相当の工事発注が始動",
-   "summary_ja": "ロンドン・シティ・コーポレーションが、総額1.76億ポンドの再生計画の一環として調達を開始しました。"
-  },
-  {
-   "id": "a68d4d30bb3e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Stepnell hires former Lendlease MD to lead construction arm",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/stepnell-hires-former-lendlease-md-to-lead-construction-arm-16-09-2026/",
-   "published": "2026-09-16T10:46+00:00",
-   "published_jst": "2026-09-16 19:46",
-   "summary": "Stepnell has appointed former Lendlease executive Simon Gorski as managing director of its construction business as the contractor targets regional expansion. Gorski joined the Rugby-based contractor after more than 30 years working across construction, defence, justice, healthcare and public-sector",
-   "ai_related": false,
-   "title_ja": "Stepnell、建設部門のトップに元LendleaseのMDを起用",
-   "summary_ja": "地域での事業拡大を目指し、元LendleaseのエグゼクティブであるSimon Gorskiが取締役に就任しました。"
   },
   {
    "id": "9ec52daee72f",
@@ -1234,19 +1149,17 @@
    "summary_ja": "AIの存在論的リスクを巡り、研究者たちの間で「時間切れの爆弾」であるとして激しい議論が巻き起こっている。"
   },
   {
-   "id": "4b203ab23c73",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Brick deliveries plunge 23% as materials demand weakens",
-   "url": "https://www.constructionnews.co.uk/supply-chain/brick-deliveries-plunge-23-as-materials-demand-weakens-16-09-2026/",
-   "published": "2026-09-16T10:07+00:00",
-   "published_jst": "2026-09-16 19:07",
-   "summary": "Seasonally adjusted brick deliveries in Great Britain slumped 22.8 per cent year on year in July, according to new government figures. Deliveries fell to 95.4 million bricks from 123.5 million in July 2025. They were also 10 per cent lower than in June, extending a… The post Brick deliveries plunge ",
-   "ai_related": false,
-   "title_ja": "資材需要の低下に伴い、レンガの出荷量が23%急減",
-   "summary_ja": "政府の新しい統計によると、7月の英国における季節調整済みのレンガ出荷量が前年同月比で22.8%減少しました。"
+   "id": "f8004e2296bd",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "うるるBPO、スパイダープラスと協業 紙図面・竣工図書を“AI活用資産化”する建設業向けBPOサービスを提供開始",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FUXlQaTg2RGFRVXU5WUV5bUFvRGRIXzNVbWZ3dklHaUh3anNxS1cxSHRRX180dEpUZ2h6VEhVTEZGVDVRTF9RcnpoTmdjTUVUaEtwRHZJdk9YakxRSmRQdUt4aEJ6bG1oYURUWkhoSUVGZw?oc=5",
+   "published": "2026-09-16T10:15+00:00",
+   "published_jst": "2026-09-16 19:15",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "5a2b19e940b1",
@@ -1417,19 +1330,6 @@
    "ai_related": false,
    "title_ja": "バラット・レッドロー、過去の建築欠陥で新たに9700万ポンドの損失",
    "summary_ja": "利益が48%増となる一方、防火や構造上の欠陥により修繕負担が10億ポンドに膨らむ。"
-  },
-  {
-   "id": "17031c155cb2",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "うるるBPO、スパイダープラスと協業 紙図面・竣工図書を“AI活用資産化”する建設業向けBPOサービスを提供開始",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYMDdQalM0LTU0SFVuMDBscXJ2WmRVNmtkaTNWeUc4YjFsRkl0cFp0dXU4SHJvYVQ3eXZQWUFqVG1fb0xXMHFVRVdXXzh4WFBTeDhLS3diOUViamZqMWZkN0lxZURkRDlXb1E?oc=5",
-   "published": "2026-09-16T07:00+00:00",
-   "published_jst": "2026-09-16 16:00",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "5fb436ae7da9",
@@ -1603,6 +1503,19 @@
    "ai_related": false
   },
   {
+   "id": "dc8f84882338",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大林組が国内全建設現場のCO2排出量を一元管理、ASUENE導入でデータ収集・分析を高度化",
+   "url": "https://news.build-app.jp/article/42715/",
+   "published": "2026-09-16T03:00+00:00",
+   "published_jst": "2026-09-16 12:00",
+   "summary": "大手ゼネコンの大林組（本社：東京都港区、社長：佐藤俊美）が、国内すべての建設現場でCO2排出量を一元的に把握できる体制を整えました。 アスエ...",
+   "ai_related": false
+  },
+  {
    "id": "97cf785e9c02",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1704,6 +1617,19 @@
    "published": "2026-09-16T01:14+00:00",
    "published_jst": "2026-09-16 10:14",
    "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "6870f08330d8",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "国土交通省が令和8年都道府県地価調査を公表、全用途平均は5年連続上昇し商業地は上昇幅拡大",
+   "url": "https://news.build-app.jp/article/42711/",
+   "published": "2026-09-16T01:00+00:00",
+   "published_jst": "2026-09-16 10:00",
+   "summary": "国土交通省は令和8年9月15日、令和8年都道府県地価調査の結果を公表しました。全国21,466地点を対象に、令和8年7月1日時点の1平方メー...",
    "ai_related": false
   },
   {
@@ -2018,6 +1944,45 @@
    "ai_related": true
   },
   {
+   "id": "a866ec6036bd",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "9月24日から申込受付/中央防波堤コンテナ埠頭Y3バース電気/東京港埠頭",
+   "url": "https://www.kensetsunews.com/archives/1285608",
+   "published": "2026-09-15T19:55+00:00",
+   "published_jst": "2026-09-16 04:55",
+   "summary": "東京港埠頭は、「令和８年度中央防波堤外側コンテナ埠頭Ｙ３バースヤード内電気設備工事」の指名競争入札… The post 9月24日から申込受付/中央防波堤コンテナ埠頭Y3バース電気/東京港埠頭 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "8ff3cc48b3b7",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "4週8休 公共土木8割弱に/民間建築は5割で格差/全建調査",
+   "url": "https://www.kensetsunews.com/archives/1285625",
+   "published": "2026-09-15T19:55+00:00",
+   "published_jst": "2026-09-16 04:55",
+   "summary": "全国建設業協会（今井雅則会長）が、４７都道府県建設業協会の会員３７８１社の回答を集計した労働環境整… The post 4週8休 公共土木8割弱に/民間建築は5割で格差/全建調査 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "7dd0dbdbfcf6",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "就任インタビュー・内閣府地方創生推進事務局長 宿本尚吾(やどもと・しょうご)氏",
+   "url": "https://www.kensetsunews.com/archives/1285627",
+   "published": "2026-09-15T19:55+00:00",
+   "published_jst": "2026-09-16 04:55",
+   "summary": "【産業集積促進し「稼ぐ力」に／多様な人材集め地域活性化】 ８月７日付で内閣府地方創生推進事務局長に就… The post 就任インタビュー・内閣府地方創生推進事務局長 宿本尚吾(やどもと・しょうご)氏 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "a49f1a611e09",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2054,45 +2019,6 @@
    "published": "2026-09-15T19:55+00:00",
    "published_jst": "2026-09-16 04:55",
    "summary": "茨城県つくば市は１５日、「つくば市陸上競技場建設工事」の一般競争入札を事後審査型で公告した。質問は… The post 10月19日まで受付/延べ2万平米の陸上競技場/つくば市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "d8381b19afb5",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "五洋JVに決定/NEXCO北海道の新得PA工事",
-   "url": "https://www.kensetsunews.com/archives/1285688",
-   "published": "2026-09-15T19:55+00:00",
-   "published_jst": "2026-09-16 04:55",
-   "summary": "ＮＥＸＣＯ東日本北海道支社は、「道東自動車道新得ＰＡ工事」を条件付き一般競争入札した結果、２２億９… The post 五洋JVに決定/NEXCO北海道の新得PA工事 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "9271a792c01e",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "10月5日まで参加表明/釜石病院建替基本設計で提案競技/岩手県",
-   "url": "https://www.kensetsunews.com/archives/1285693",
-   "published": "2026-09-15T19:55+00:00",
-   "published_jst": "2026-09-16 04:55",
-   "summary": "岩手県医療局は１５日、「県立釜石病院新築工事基本設計業務」の公募型プロポーザルを公告した。参加形態… The post 10月5日まで参加表明/釜石病院建替基本設計で提案競技/岩手県 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "6515d0030d32",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "10月1日まで申請受付/武蔵ヶ辻A地区基本設計/再開発準備組合",
-   "url": "https://www.kensetsunews.com/archives/1285727",
-   "published": "2026-09-15T19:55+00:00",
-   "published_jst": "2026-09-16 04:55",
-   "summary": "金沢市の武蔵ヶ辻Ａ地区市街地再開発準備組合は１５日、「武蔵ヶ辻Ａ地区第一種市街地再開発事業施設建築… The post 10月1日まで申請受付/武蔵ヶ辻A地区基本設計/再開発準備組合 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2525,6 +2451,19 @@
    "summary_ja": "MortensonとMcCownGordonが3万4千人収容のスタジアム建設を担当する。"
   },
   {
+   "id": "e1cbe30e1dec",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "This doorbell camera lets a human security guard watch your front door",
+   "url": "https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs",
+   "published": "2026-09-15T13:36+00:00",
+   "published_jst": "2026-09-15 22:36",
+   "summary": "DIY home security company SimpliSafe is bringing its AI-powered proactive security feature to the front door. The new SimpliSafe Video Doorbell Series 2 launches today for $199.99 and works with the company's Active Guard Outdoor Protection (starting at $49.99 a month). This combines AI analysis wit",
+   "ai_related": true
+  },
+  {
    "id": "00e29a681a6f",
    "source": "Google AI Blog",
    "source_id": "google_ai",
@@ -2777,19 +2716,6 @@
    "ai_related": false
   },
   {
-   "id": "b06f0d1e676b",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「Grok 5はAGI」「4.9はAstraクラス」 マスク氏、自社AIの開発状況を共有 AI開発減速論にも賛成",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2609/15/2000001499/",
-   "published": "2026-09-15T08:33+00:00",
-   "published_jst": "2026-09-15 17:33",
-   "summary": "SpaceXAIのイーロン・マスクCEOが自社開発のAIモデル「Grok」のアップデート状況を共有。「AGIの達成はGrok 5になるだろう」と述べた。",
-   "ai_related": true
-  },
-  {
    "id": "b24486b18166",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -2844,6 +2770,58 @@
    "published_jst": "2026-09-15 15:42",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "f717392fd767",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Kier to pull out of property investment",
+   "url": "https://www.constructionenquirer.com/2026/09/15/kier-to-pull-out-of-property-investment/",
+   "published": "2026-09-15T06:19+00:00",
+   "published_jst": "2026-09-15 15:19",
+   "summary": "Firm to focus on construction and infrastructure after posting strong set of results",
+   "ai_related": false
+  },
+  {
+   "id": "361a7143ba5e",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "HS2 closes in on final two civils contract resets",
+   "url": "https://www.constructionenquirer.com/2026/09/15/hs2-closes-in-on-final-two-civils-contract-resets/",
+   "published": "2026-09-15T06:04+00:00",
+   "published_jst": "2026-09-15 15:04",
+   "summary": "CEO Mark Wild tells watchdog MPs renegotiated main works deals could save £2bn",
+   "ai_related": false
+  },
+  {
+   "id": "b893ef3835de",
+   "source": "built.itmedia.co.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日立建機、油圧ショベルの自律運転に向け「フィジカルAI」開発へ",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zSk41MGFDUE1lSkNKaXNJOVYxUE1lTWRzdi1yV3NndnVMMExFRjlDLTBZaW51Z0lDUUFRZG8xaF9qRDRfSGhSQUtlaW5fVHNXN0g3LTVwV1dNZnRfMHpmVURxZkIwWmVVVnJvOQ?oc=5",
+   "published": "2026-09-15T06:00+00:00",
+   "published_jst": "2026-09-15 15:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "cdf4bd04012b",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Prisoners help build new modular jail cells",
+   "url": "https://www.constructionenquirer.com/2026/09/15/prisoners-help-build-new-modular-jail-cells/",
+   "published": "2026-09-15T05:55+00:00",
+   "published_jst": "2026-09-15 14:55",
+   "summary": "Inmates working with main contractor Reds10 on North Yorkshire site",
+   "ai_related": false
   }
  ]
 }
