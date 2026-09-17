@@ -1,40 +1,40 @@
 {
   "version": 6,
-  "slot": "evening",
+  "slot": "night",
   "date": "2026-09-17",
   "post_date": "2026-09-17",
-  "generated_at": "2026-09-17T20:00+09:00",
+  "generated_at": "2026-09-17T20:55+09:00",
   "original_post": {
-    "time": "20:00",
-    "text": "技能工が描いた手書きの加工図を撮影するだけで、AIが加工用CADデータに変換し、そのまま加工機に流せる仕組みだそうです。従来はタブレットでの専用CAD入力が必要で、熟練工でも操作に時間を取られていたとのこと。9月から近畿でこの加工機ごとレンタルが始まります。",
+    "time": "21:00",
+    "text": "HPが建設現場の自動墨出しロボット『SitePrint』を9月15日にアップデートしました。深度センサーで床の障害物を検知し、人が止めなくても自動でルートを引き直す『Smart Navigation』を追加。新パッケージ『Value Pack 3.0』では走行速度が毎秒0.4mから0.7mへほぼ倍増し、作業効率は30%向上したとのことです。併設の図面管理ツール『Build Workspace』も、図面ごとにQRコードを付けて最新版かどうかをその場で確認できるようになりました。SitePrintは日本HPが2025年5月から国内販売済みで、墨出し工程を丸ごと自動化したい現場は導入事例を問い合わせる価値がありそうです。",
     "status": "draft",
-    "type": "quote_rt",
-    "quote_tweet_id": "2100438943736950839",
-    "quote_tweet_url": "https://x.com/nikkei/status/2100438943736950839",
-    "article_url": null,
+    "type": "original",
+    "quote_tweet_id": null,
+    "quote_tweet_url": null,
+    "article_url": "https://aecmag.com/construction/hp-improves-automation-in-siteprint-and-build-workspace/",
     "video_url": null,
-    "reply_text": "■ 出典\n竹中工務店・爽美 プレスリリース（2026-06-06）https://www.takenaka.co.jp/news/2026/06/06/\n日経クロステック https://xtech.nikkei.com/atcl/nxt/column/18/00154/02904/\nBuildApp News https://news.build-app.jp/article/41447/",
+    "reply_text": "■ 出典\nAEC Magazine「HP improves automation in SitePrint and Build Workspace」（2026-09-15）\nhttps://aecmag.com/construction/hp-improves-automation-in-siteprint-and-build-workspace/\nConstruction Management「HP updates SitePrint robot, unveils collaboration platform」\nhttps://constructionmanagement.co.uk/hp-build-workspace-platform/\n日本国内販売：日本HP公式ニュースリリース（2025-05-15）\nhttps://jp.ext.hp.com/info/newsroom/2025/20250515/",
     "editorial": {
       "pillar": "建設AI",
-      "format": "引用",
+      "format": "海外事例",
       "scores": {
-        "新規性": 1,
+        "新規性": 2,
         "読者への価値": 2,
         "見せられる証拠": 2,
         "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "ai_buzz.json/slack_buzz.jsonから候補7件を比較。①採用: @nikkei公式（slack_buzz #0）が投稿した「竹中工務店、AIで手書き図面からCADデータ　技能者の現場作業支援」（49,000表示・450いいね・139RT）。竹中工務店と爽美が共同開発した、技能工の手書き加工図をAIが解析して加工用CADデータへ自動変換するシステムで、2026年9月から近畿地方で加工機ごとレンタルが始まるという『今』の動きがあり、建設会社自身の業務改善（自社実演枠）に該当し、AIベンダーの宣伝でも競合サービス（光/Hikari・ミャく楽・Motif等）の紹介でもない。②Claude/Cowork統合への言及（slack_buzz #33 tetumemo）は今朝07:25枠で同じ話題を既に使用済みのため重複回避で除外。③OpenAI社内のCodex利用率解説（slack_buzz #9 iwashi86）は一次情報ではなく感想記事で証拠点が弱く、建設との接続も薄いため見送り。④SmartHR Tech BlogのClaude Codeハーネス記事（slack_buzz #21）は自社サービスの技術ブログで、建設読者への価値説明が弱いため見送り。⑤ANDPAD公式のイベント登壇告知（slack_buzz #30）は集客告知のみで新規性・証拠に乏しく見送り。⑥Sam Altman個人投稿（ai_buzz #31）は来週リリース予告を匂わせるだけで具体的な証拠がなく見送り。⑦OpenAIのモデル不整合開示フレームワーク（ai_buzz #56）は建設読者への実務的価値提示がしづらく夕枠では見送り。①は5観点9/10点で採用ラインの7点を上回り、今日の朝・昼枠（Anthropic Cowork統合／Suffolk・MIT白書）とも題材・引用元が重複しない。",
-      "source_url": "https://www.takenaka.co.jp/news/2026/06/06/",
-      "published_at": "2026-06-06（プレスリリース）／レンタル開始2026-09〜",
-      "checked_at": "2026-09-17T20:00+09:00",
-      "availability": "竹中工務店と爽美（大阪市）が2026-06-06に共同発表した公式プレスリリース。ボード材加工アシスト機『i-Bow2』向けに、技能工の手書き加工図を撮影するだけでクラウド上のAIが加工用CADデータへ自動変換するアプリ『AI i-Bow』をクラウド基盤『i-Bow Cloud』に実装したもの。従来はタブレット上の専用CAD操作が必要で、熟練工でも操作習熟度や作業負荷が普及の課題だった。爽美が2026年9月から近畿地方で加工機ごとレンタルを順次開始し、2027年6月からは大規模現場向けの加工ステーション展開も計画している。日経クロステック（2026年8月下旬）とBuildApp News、@nikkei公式アカウント（2026-09-17投稿）が同内容を報じており、複数の独立した情報源で数字・内容が一致している。",
-      "unverified": "本セッションのネットワーク制限でtakenaka.co.jp、xtech.nikkei.com、nikkei.com（会員記事）へのWebFetchが直接できず、WebSearchの検索結果スニペット経由で確認した。xtech.nikkei.comの記事の正確な掲載日は検索結果からの推定（2026年8月下旬）で、原文ページを直接開いての確認はできていない。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、24h超で観測時点としては古い）の直近100件に本件と同一トピックの実投稿は無いことを確認したが、それ以降の投稿は未確認。",
-      "hook_alternative": "『竹中工務店がAI CADシステムを発表』という速報型の冒頭も検討したが、発表自体は6月のプレスリリースで新規性が低く、@nikkei公式が改めて取り上げた理由である『9月に近畿でレンタルが始まる』という現在の動きを本題に据えたかったため、原投稿（@nikkeiの見出しツイート）への補足という引用形式を採用した。"
+      "selection_reason": "news_feed.jsonのconstruction_global（48h以内・ai_related=true優先）から候補5件超を比較。①採用: HP『SitePrint改良（Smart Navigation追加・Value Pack 3.0で走行速度ほぼ倍増/効率30%向上）とBuild Workspace改良（QRコード版管理・AIベクトル化強化）』（AEC Magazine 2026-09-15）。既存の建設ロボット製品への具体的な数値付きアップデートで、日本HPが2025年5月から国内販売済みという裏取りができ『日本で試すなら』を明確に書ける点で採用。②HP『ZBook Ultra G3aでRevitにローカルAI（Perplexity MCP・Revit 2027 tech preview）』（同日・同誌）は新規性は高いが対象が高額ワークステーション購入者に限られ提供もtech previewの試験段階で読者への価値・自分の追加価値がやや弱く次点。③Autodesk『AI Transparency CardsをAssistantに追加』（同日・同誌）はAutodesk University 2026の同一発表群で、昨夜21:00枠で既にAssistant次世代機能を扱ったばかりのため重複回避で除外。④『Suffolk・MIT白書のAI活用』（Construction Dive）は本日12:00枠で既に使用済みのため除外。⑤PBC Today『Cyber AI will protect critical infrastructure』は建設×AIというより一般的なサイバーセキュリティ論考で、具体的な製品・数値・提供条件が無く証拠点が低いため見送り。⑥PBC Today『How BIM and laser scanning are improving fire safety』はレーザー測量寄りの解説記事でAIとしての新規性が薄いため見送り。⑦ai_buzz.jsonの海外AIバズ上位（いいね2,000+、OpenAI/Anthropicのモデル関連投稿等）は建設との接続が無く、かつAnthropic Cowork統合は今朝07:25枠と重複するため対象外。①は5観点10/10点で採用ラインの7点を上回り、本日の朝・昼・夕枠（Claude Cowork統合／Suffolk・MIT白書／竹中工務店AI-CAD引用）とも題材が重複しない。",
+      "source_url": "https://aecmag.com/construction/hp-improves-automation-in-siteprint-and-build-workspace/",
+      "published_at": "2026-09-15",
+      "checked_at": "2026-09-17T20:55+09:00",
+      "availability": "AEC Magazineが2026-09-15に報じたHP SitePrint（建設現場の自動墨出しロボット）とBuild Workspace（付随する図面管理プラットフォーム）のアップデート。Smart Navigationは深度カメラ・センサーで床の未マッピング障害物を検知し自律的に経路を再計画する機能。Value Pack 3.0は印字・稼働効率を30%改善し、走行速度は毎秒0.4mから0.7mへほぼ倍増と報じられている（提供開始済みの機能アップデートとして報道、プレビュー扱いの記載なし）。Build Workspace側は最新版かどうかの確認・版比較機能とQRコードによる図面追跡、写真/手書き図面をCADに変換するAIベクトル化技術の強化を追加。SitePrint自体は日本HPが2025-05-15付の公式ニュースリリースで国内販売開始を発表済みで、既に国内建設現場での採用実績がある（IT Leaders、BUILT、robobiz等の独立した複数メディアが同内容を報道）。",
+      "unverified": "本セッションのネットワーク制限でaecmag.com、hp.com、jp.ext.hp.comへの直接WebFetchができず（egressブロック）、WebSearchの検索結果スニペット経由でConstruction Management・Large Format Review・IT Leaders等の複数の独立ソースが同じ機能名・数値（30%効率向上、0.4→0.7m/s、Smart Navigation、Value Pack 3.0、2025-05-15の国内販売開始）を報じていることを確認した。HP公式プレスリリース原文そのものは直接開けていない。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、24h超で観測時点としては古い）の直近100件にSitePrint/HP/墨出し関連の重複投稿は無いことを確認したが、それ以降の実投稿は未確認。",
+      "hook_alternative": "『HPが建設ロボットにAIを搭載』という短い速報見出しも検討したが、今回の目玉であるSmart Navigationは既存ロボットへのセンサー機能追加であり、効率30%・速度倍増という具体的な変化と日本での提供実績を冒頭近くで示す方が誇張なく伝わるため、製品名と数値を明記する事例形式の構成にした。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "v6夕枠（2026-09-17）: ai_buzz.json/slack_buzz.jsonを確認したが、引用本命の竹中工務店i-Bow記事以外で直近6〜24hに価値を足せる建設AI・一般AIの公式・実務家投稿は見当たらず（Sam Altmanの投稿は具体情報なし、OpenAIの不整合開示フレームワークは実務価値の接続が弱い）、推奨引用・リプ候補は0件とした。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、24h超で観測時点としては古い）の直近100件に本件との重複が無いことは確認したが、それ以降の実投稿は未確認。",
+  "engage_cards_note": "v6夜枠（2026-09-17）: ai_buzz.json/slack_buzz.jsonを確認したが、海外の建設・AEC・BIM・現場向けの新規投稿で価値を足せるものは見当たらず（[建設×AI海外]のDrJStrategy投稿は政治的話題で無関係、ENR公式投稿2件はAI要素が無い電力建設・調達の一般ニュース）、推奨引用・リプ候補は0件とした。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、24h超で観測時点としては古い）の直近100件との重複は無いことを確認したが、それ以降の実投稿は未確認。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-evening"
+  "generated_by": "routine:x-post-night"
 }
