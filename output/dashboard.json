@@ -1,22 +1,22 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-09-17",
   "post_date": "2026-09-17",
-  "generated_at": "2026-09-17T06:37+09:00",
+  "generated_at": "2026-09-17T11:06+09:00",
   "original_post": {
-    "time": "07:25",
-    "text": "AnthropicがClaude ChatとCoworkを1つの「Claude」に統合すると発表しました。今までは画面を使い分ける必要がありましたが、これからは同じ画面で、ちょっとした質問にも、レポート作成のような大きな仕事にも対応します。\n\n同時にClaude DocsとClaude Slidesも登場し、会話しながら文書やスライドを作成し、PowerPointやPDFで書き出せるようになりました。\n\nまずはPro・Maxプランから数週間かけてWeb・デスクトップ・モバイルに展開し、Team・Freeプランは追って対応、Enterprise管理者には展開前に30日間の告知があるそうです。",
+    "time": "12:00",
+    "text": "アメリカの大手ゼネコンSuffolkが、MIT不動産センターとMedia Labと共同で白書「Construction in the Age of AI」をまとめました。\n\nサンフランシスコで2024年に完成した約1.8億ドル・18万平方フィートの集合住宅案件を後から分析したところ、設計自動化・オフサイト製造・許認可・スケジューリング・技能労働者と協力会社管理・調達の6領域にAIを組み合わせると、総コストで17〜20%、工期で22〜25%を削減できたはずだという試算が出ています(いずれもSuffolk自身のモデルによる推計)。中でも設計自動化は、他の5領域を支える上流の土台と位置づけられていました。\n\n実プロジェクトへ適用した結果ではなく、既存案件を遡って分析した数字ですが、日本のゼネコンが自社の工程をどの領域から見直すか考える時の切り口として使えそうです。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
     "quote_tweet_url": null,
-    "article_url": "https://claude.com/blog/cowork-is-now-claude",
+    "article_url": "https://www.businesswire.com/news/home/20260916688771/en/MIT-Suffolk-Release-Joint-Study-on-How-Artificial-Intelligence-is-Transforming-the-Construction-Industry",
     "video_url": null,
-    "reply_text": "■ 出典\nAnthropic公式ブログ「Claude Cowork and chat are now one Claude」(2026-09-16)\nhttps://claude.com/blog/cowork-is-now-claude\nTechCrunch・The Verge・The Decoder・Simon Willisonの各記事でロールアウト内容（Pro/Max先行、Team/Free追って、Enterprise30日告知）の記述が一致することを確認",
+    "reply_text": null,
     "editorial": {
-      "pillar": "一般AI",
-      "format": "速報",
+      "pillar": "建設AI",
+      "format": "海外事例",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
@@ -24,17 +24,17 @@
         "自分の追加価値": 1,
         "伝わりやすさ": 2
       },
-      "selection_reason": "候補6件を比較。①Anthropic公式のClaude Chat/Cowork統合＋Claude Docs/Slides発表（news_feed.jsonのai_global、TechCrunch/The Verge/The Decoder/Simon Willisonの複数独立ソースがロールアウト条件まで一致、8点）②Google HomeのMCP早期アクセス（TechCrunch/The Verge、Google公式発表だが対象地域・条件が薄く自分の追加価値が低い、8点）③元OpenAI研究者の新モデル「Jev」（ai_buzz複数投稿はあるが主要メディア裏取りが弱く一次情報未確認、6点）④GIGAZINEのClaude Fable 5.1が370年未解読暗号を解読（研究者個人ブログが主ソースで数値未検証、7点）⑤NVIDIA Vera Rubin NVL72のMLPerf結果（公式ブログはあるがインフラ寄りで読者の日常利用への価値が薄い、5点）⑥Google DeepMind Instituteの設立（組織・ガバナンス寄りで「何ができるか」を説明しにくい、6点）。①を採用したのは、読者の多くが日常的に使うClaude自体のインターフェース変更で「何がどう変わるか」を具体的に説明でき、かつ独立した複数メディアでロールアウト条件（プラン・時期・通知）まで一致しているため。競合（光/Hikari・ミャく楽・Motif等）とは無関係であることを確認済み。",
-      "source_url": "https://claude.com/blog/cowork-is-now-claude",
+      "selection_reason": "news_feed.jsonのconstruction_global（ai_related=true、48h以内、title_ja付き）から、米ゼネコンSuffolkとMIT不動産センター/Media Labの共同白書『Construction in the Age of AI』（2026-09-16発表）を選定。候補は他にpbctoday『BIM and laser scanning are improving fire safety』（AIが主題でなく評価が伸びない）、HPの『SitePrint and Build Workspace』自動化改善（HP自身の製品宣伝色が強く、建設会社/研究の取り組みではない）、Autodesk Assistant次世代機能（昨日09-16 21:00枠で既に使用、重複回避）、国内の日立建機フィジカルAI・油圧ショベル自律運転（構造機メーカー自身のR&D、良い代替候補だが海外事例が使えるため優先度を下げた）、マーキュリーインテリジェンスの建設AIコンサル訴求（建設AI導入支援を掲げる企業で、競合性を判断しきれず候補から除外）を比較。Suffolkは自社が請け負うゼネコンであり、AIベンダーの宣伝ではなく建設会社自身が主導した研究であること、6領域という具体的な切り口と数値があること、今日の朝枠（Claude Cowork統合）や直近の枠と題材が重ならないことから採用した。競合サービス（光/Hikari・ミャく楽・Motif等）の紹介には当たらない。",
+      "source_url": "https://www.businesswire.com/news/home/20260916688771/en/MIT-Suffolk-Release-Joint-Study-on-How-Artificial-Intelligence-is-Transforming-the-Construction-Industry",
       "published_at": "2026-09-16",
-      "checked_at": "2026-09-17T06:37+09:00",
-      "availability": "Pro・Maxプランに先行提供し、今後数週間かけてWeb・デスクトップ・モバイル全体に展開。Team・Freeプランは追って対応予定で提供時期は未定。Enterprise管理者には展開前に30日間の事前告知がある。Claude Docs・Claude Slidesはこの統合と同時に新規追加された機能。",
-      "unverified": "WebFetchがclaude.com/techcrunch.com/theverge.com/the-decoder.com/simonwillison.net/engadget.com/9to5mac.com/unite.aiへのアクセスをネットワークのegressポリシーによりすべてブロックされたため、Anthropic公式ブログ本文を直接開けていない。WebSearchの検索結果要約（Techmeme経由のTechCrunch記述を含む）で複数の独立した二次情報源がロールアウト内容・対象プラン・告知期間について一致することを確認した上で採用。性能数値の主張は含まれていない。",
-      "hook_alternative": "「Claude CoworkがなくなりChatに統合」という短い見出しも検討したが、Coworkという名称に馴染みのない読者には変化が伝わりにくく、また統合の主眼は「画面を選ばずに済むこと」自体の価値なので、冒頭でその利点を具体的に説明する構成にした。"
+      "checked_at": "2026-09-17T11:06+09:00",
+      "availability": "Suffolk・MIT Center for Real Estate・MIT Media Lab City Science groupが2026-09-16に共同発表した白書で、企業の商用製品ではなく研究レポート。プレスリリース経由で無償公開されている。本文中の17-20%/22-25%はSuffolk自身のモデルによる試算であり、実プロジェクトへの適用結果ではない。",
+      "unverified": "businesswire.com・suffolk.com・irei.com・financialcontent.com・constructiondive.com・finance.yahoo.comは本セッションのネットワーク制限（egressブロック）により直接本文取得ができず、WebSearchの検索結果スニペット経由でConstruction Dive、Yahoo Finance転載、Mann Report、IREI、FinancialContentの複数の独立した二次情報源が同じ数字（17-20%コスト削減・22-25%工期短縮、180,000平方フィート・約1.8億ドルのサンフランシスコ案件、2024年完成）を一致して報じていることを確認した。白書のPDF原本や詳細な算出根拠・研究者個人のコメントは直接確認できていない。",
+      "hook_alternative": "「AIで建設コストが2割減る」という数字先出しの速報型冒頭も検討したが、この数字が実測ではなくSuffolk自身のモデルによる遡及的な試算である点を曖昧にすると過大評価を招くため、どの会社が何を発表したかを先に示す海外事例形式を採用した。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "v6朝枠（2026-09-17）: ai_buzz.json/slack_buzzを確認したが、直近6〜24hで価値を足せる公式・実務家の投稿が見当たらず（ENR建設ポストは実質広告、TestingCatalogのGemini速報は未確定情報のみ）、推奨引用・リプ候補は0件とした。data/analytics/live_metrics.jsonはfetched_atが2026-09-16T02:53+00:00で24h超のため古いデータとして扱い、実投稿との重複は本枠の題材については確認できたが直近リアルタイムの重複は未確認。",
+  "engage_cards_note": "v6昼枠（2026-09-17）: ai_buzz.json/slack_buzzを確認したが、直近6〜24hで建設AIに関連し価値を足せる公式・実務家の投稿が見当たらず（ENRの投稿は電力インフラ経済の一般記事や広告枠、slack_buzzの建設アカウントはAI関連が薄い）、推奨引用・リプ候補は0件とした。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、24h超で観測時点としては古い）を確認し、直近100件の実投稿本文にSuffolk/MITの白書との重複が無いことは確認した。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-morning"
+  "generated_by": "routine:x-post-noon"
 }
