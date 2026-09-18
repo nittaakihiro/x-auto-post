@@ -10765,5 +10765,51 @@
       "unverified": "WebFetchがclaude.com/theverge.com/the-decoder.com/unite.ai/alphasignal.ai/anthropic.comへのアクセスをネットワークのegressポリシーによりすべてブロックされたため、Anthropic公式ブログ本文を直接開けていない。WebSearchの検索結果（Unite.AI/CryptoBriefing/StartupFortune/AlphaSignal/Daily Guardian/Wilson's Media等、独立した複数の二次情報源）でベータ対象・並行スレッド構成・ローカル未対応の記述が一致することを確認した上で採用。性能数値の主張は含まれていない。",
       "hook_alternative": "「Claude Codeが複数のAIエージェントを自分で管理してくれる」という抽象的な見出しも検討したが、読者にとって既存の「Projects」機能が刷新されたという文脈が伝わりにくくなるため、製品名（Projects）を明示し「1つの指示→タスク分解→並行スレッド」の順で具体的に説明する構成にした。"
     }
+  },
+  {
+    "id": "2026-09-18_12:00",
+    "date": "2026-09-18",
+    "time": "12:00",
+    "text": "パシフィックコンサルタンツが、クマ検知AIカメラの実証を石川県・秋田県の山間現場など計6台で始めました。赤外線カメラの映像をAIがクマと判定するとクラウド経由でメール通知する仕組みで、IP68準拠・約1.5kg、AC電源と外部バッテリーの両方に対応します。10月にはさらに1カ所を追加し、来春の本運用移行を目指すとのこと。人手が薄い山間部の現場を持つ建設・インフラ会社にとって、目視での見回りをAIの常時監視に置き換える選択肢になりそうです。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "screenshot",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\n日刊建設工業新聞「パシコン／クマ検出にＡＩカメラ活用／複数現場で実証開始」（2026-09-18）\nhttps://x.com/nikkenko/status/2100693907298218266\n（元記事: https://www.decn.co.jp/?p=187751 ）\nWebSearchの検索結果スニペット経由で、6台設置・石川県/秋田県・10月に1カ所追加・来春本運用・IP68準拠・約1.5kgの各記述が独立した2件のサマリで一致することを確認。decn.co.jp本文と同社の公式プレスリリースはネットワークegress制限で直接開けていない。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://www.decn.co.jp/?p=187751",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "建設AI",
+      "format": "速報",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 1,
+        "自分の追加価値": 1,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "ネタ源の順に従い確認。①news_feed.jsonのconstruction_global（ai_related=true・48h以内・title_ja付き）5件のうち、Suffolk/MIT白書は昨日9/17 12:00枠で既に使用済みのため除外。残る『Former Amazon Robotics executives take on house-building』（Reframe Systems、住宅建設ロボット工場に$40M調達、資金調達ニュースのみで性能証拠が薄い、4点）、『Cyber AI will protect critical infrastructure』（PBC Todayのオピニオン記事で建設現場での具体的活用例がない、3点）、『How BIM and laser scanning are improving fire safety』（同オピニオンでAIが主題でない、3点）はいずれも証拠不足で不採用。②ai_buzz.jsonの海外建設アカウント（ENR等）はAI関連の実質的な内容が薄く不採用。③news_feed.jsonのconstruction_japan（ai_related=true）から採用: パシフィックコンサルタンツのクマ検知AIカメラ実証（日刊建設工業新聞、2026-09-18）。他の国内候補として、アセンド社『RecACE plus』（建設業向け電話業務AI DX支援、ツクノビのBPO/導入支援と競合性が判断しづらく候補から除外）、アルダグラム『KANNA』現場AIプラットフォーム化・20億円調達（現場管理SaaSの資金調達ニュースで競合性を判断しきれず除外）、アスムコーポレーションの生成AI経営（施工の神様、講演の伝聞記事でegress制限により一次情報を直接確認できず、具体的なツール名・数値が本文から追えないため証拠不足、5点）を比較。パシコンの事例は建設・インフラ企業自身が主導する安全対策の実証であり、ベンダー宣伝ではなく、設置台数・地域・今後のスケジュールが具体的で、今日の朝枠（Claude Code Projects刷新・一般AI）や直近のキューと題材が重ならないことから採用した。競合サービス（光/Hikari・ミャク楽・Motif等）の紹介には当たらない。",
+      "source_url": "https://x.com/nikkenko/status/2100693907298218266",
+      "published_at": "2026-09-18",
+      "checked_at": "2026-09-18T11:10+09:00",
+      "availability": "パシフィックコンサルタンツが石川県・秋田県の山間部などに計6台のクマ検知AIカメラ（ラズベリーパイ＋赤外線カメラ、AI判定でメール通知、IP68準拠・約1.5kg、AC電源/外部バッテリー対応）を設置し、企業などと共同で性能を検証中。10月にさらに1カ所で実証を開始し、来春の本運用移行を目指す段階で、まだ商用提供中のサービスではない。",
+      "unverified": "decn.co.jp（日刊建設工業新聞本文）、パシフィックコンサルタンツ公式サイトはいずれも本セッションのネットワーク制限（egressブロック）で直接開けていない。同社の公式プレスリリースページも検索したが、本件に該当するリリースは見当たらなかった。WebSearchの2回の検索結果サマリで、設置台数（6台）・設置地域（石川県・秋田県）・10月の追加実証・来春の本運用移行・IP68準拠・約1.5kgという記述が一致することを確認したが、一次の公式文書や画像は未確認。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、本枠生成時点で24h超のため古い観測点として扱う）の直近100件にクマ検知AIカメラに関する投稿はなく、重複は無いと確認したが、それ以降の実投稿は未確認。",
+      "hook_alternative": "『クマ被害が増えている』という社会課題を先に出す構成も検討したが、読者の多くは建設会社の担当者であり、まず製品名（クマ検知AIカメラ）と実施企業（パシフィックコンサルタンツ）を明示したほうが対象と変化が一目で伝わるため、速報形式で製品名を先出しする構成にした。"
+    }
   }
 ]
