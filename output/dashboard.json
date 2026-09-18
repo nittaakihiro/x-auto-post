@@ -1,22 +1,22 @@
 {
   "version": 6,
-  "slot": "night",
-  "date": "2026-09-18",
-  "post_date": "2026-09-18",
-  "generated_at": "2026-09-18T20:43+09:00",
+  "slot": "morning",
+  "date": "2026-09-19",
+  "post_date": "2026-09-19",
+  "generated_at": "2026-09-19T07:00+09:00",
   "original_post": {
-    "time": "21:00",
-    "text": "米国の住宅建設スタートアップReframe Systemsが、40億円弱（4,000万ドル）の資金調達を発表しました。創業者3人は元Amazon Roboticsの幹部で、Amazonの物流拠点で50万台超のロボット展開を統括していた経歴の持ち主です。\n\n同社は「マイクロファクトリー」と呼ぶ小規模工場でロボットと作業員が協働し、間取り図をもとに3Dモデル→組立指示まで自動生成する仕組みで、現場施工より施工期間を最大3倍短縮、コストを約35%削減するとしています。マサチューセッツ州の新工場は70日弱・5億円未満の設備投資で稼働開始（10月5日予定）、年間500戸分の生産能力を持つ計画です。\n\n日本でも人手不足を背景にプレハブ・パネル化工法への関心は高まっていますが、設計データから作業指示まで一気通貫でデジタル化する発想は参考になりそうです。",
+    "time": "07:25",
+    "text": "今週の一般AIで大きかったのは3つです。\n\n①Anthropicが「Claude Chat」と「Cowork」を1つの画面に統合し、Claude Docs・Slidesも追加。会話しながら文書やスライドを作ってPowerPointやPDFで書き出せます。Pro・Maxプランから数週間かけて展開中。\n\n②Claude Codeの「Projects」が刷新。1つの指示で複数のクラウドAIエージェントにタスクを分担させ、進行をまとめて管理できるようになりました。Pro・Maxの一部でベータ開始、ローカル実行は未対応。\n\n③OpenAIが法務特化の「Astra for Law」を発表。GPT-6 Astraに米国の判例・法令など2億3000万件超のデータベースと26のパートナー製プラグインを組み合わせ、米国の一部法律事務所限定でTrusted Accessとして提供開始しました。\n\n汎用チャットの「統合・自動化」と、専門分野向け特化AIの両方が動いた週でした。試すなら①②はPro・Maxユーザーならすぐ触れます。まずはClaude Docs・Slidesで資料作成の流れを変えてみる、が手軽です。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
     "quote_tweet_url": null,
-    "article_url": "https://www.globalconstructionreview.com/former-amazon-robotics-executives-take-on-house-building/",
+    "article_url": "https://claude.com/blog/cowork-is-now-claude",
     "video_url": null,
-    "reply_text": "■ 出典\nGlobal Construction Review「Former Amazon Robotics executives take on house-building」\nhttps://www.globalconstructionreview.com/former-amazon-robotics-executives-take-on-house-building/\n資金調達（4,000万ドル、Energy Impact Partners主導）と工場詳細はReframe Systems公式発表（BusinessWire、2026年8月31日付）でも確認。",
+    "reply_text": "■ 出典\n①Anthropic公式 https://claude.com/blog/cowork-is-now-claude\n②Anthropic公式 https://claude.com/blog/projects-redesigned\n③OpenAI公式 https://openai.com/index/astra-for-law（詳細はWebSearch経由でThe Decoder/SiliconANGLE/LawSites等の複数独立ソースで裏取り。egressブロックのため公式ページを直接WebFetchでは開けず）",
     "editorial": {
-      "pillar": "建設AI",
-      "format": "海外事例",
+      "pillar": "一般AI",
+      "format": "週次まとめ",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
@@ -24,17 +24,17 @@
         "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "夜枠のネタ源優先順(a)news_feed.jsonのconstruction_global（ai_related=true・48h以内）から候補5件以上を比較。①Reframe Systems（元Amazon Robotics幹部3名が創業、住宅建設ロボット工場、4,000万ドル調達・2026-09-17付GCR記事、10点）を採用。②同じくconstruction_globalの「Suffolk, MIT detail where AI can shave costs and schedules」（Construction Dive、2026-09-16）は、2026-09-17昼枠で既に紹介した同じSuffolk×MITの白書『Construction in the Age of AI』の続報であり、ネタの重複のため除外。③「Cyber AI will protect critical infrastructure」（PBC Today、建設×AIのオピニオン記事）は学者の一般論で具体的な導入事例や数値がなく証拠不足（4点）。④「Why planners need to be proactive about drones」（PBC Today）はAI要素が薄く都市計画の一般論のため低評価（3点）。建設分野で7点以上の候補があったため、(b)〜(d)の一般AI海外バズは比較のみ実施：⑤OpenAI公式「Astra for Law」発表（8点、建設業への接続が弱い）、⑥draw.ioのClaudeコネクター追加（7点、建設読者への実務価値が限定的）、⑦OpenRouterのステルスモデルUnion Alpha（3点、性能が自己申告のみで未確認）。⑧@screentimeのGPT-6 Astra『マインクラフトで鬱』ネタや⑨@GlobeEyeNewsの『AIエージェントが人間の制御に抵抗』は出典が弱く誇張的で、戦略の『未確認の性能・数値は落とす』方針に反するため候補にせず。⑩@MatthewChangのAnthropic IPO監査に関する投稿は未公式の憶測情報のため除外。Reframe Systemsは資金調達額・工場稼働開始日・生産能力など具体的な一次情報が複数媒体（BusinessWire公式発表、MIT News、The Robot Report等）で裏取りでき、日本の人手不足下でのプレハブ・パネル化工法との比較という自分の追加価値も出せるため採用した。本日の朝枠（Claude Code Projects刷新・一般AI）・昼枠（パシフィックコンサルタンツのクマ検知AIカメラ・国内建設AI）・夕枠（設計工程順序の引用）とはネタ・形式とも重複しない。競合サービス（光/Hikari・ミャク楽・Motif等）の紹介には当たらない。",
-      "source_url": "https://www.globalconstructionreview.com/former-amazon-robotics-executives-take-on-house-building/",
-      "published_at": "2026-09-17",
-      "checked_at": "2026-09-18T20:43+09:00",
-      "availability": "WebSearchで複数媒体（implicator.ai、coverager.com、Banker & Tradesman、The Robot Report、businesswire.com、MIT News）を確認。Reframe Systemsは2022年創業、創業者Vikas Enti・Felipe Polido・Aaron Smallの3名は元Amazon Roboticsの幹部でAmazon物流拠点に50万台超のロボットを展開した経歴。2026年8月31日、Energy Impact Partners主導で4,000万ドルの資金調達を発表。マサチューセッツ州Billericaに115,000平方フィートの新拠点（マイクロファクトリー『FAB1』）を確保し、70日弱・500万ドル未満の設備投資で構築、2026年10月5日稼働開始予定、年間最大500戸のマルチファミリー住宅生産能力を計画。『間取り図から3Dモデル→組立指示』のデジタルパイプライン（Pixels to Parts）でロボットと人手作業を組み合わせる方式は複数媒体で一致。",
-      "unverified": "本セッションのネットワークegress制限でwww.globalconstructionreview.comへの直接WebFetchはブロックされ、news_feed.jsonのtitle_ja/summary_jaとWebSearchで得た複数媒体の要約により内容を確認した（原文全文の直接閲覧はできず）。施工期間『最大3倍短縮』・コスト『約35%削減』は同社の自社発表による数値で、第三者機関による検証は確認できていない。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC）は本枠生成時点で48h超のため古い観測点として扱い、直近100件に同ネタの重複は無いことを確認したが、それ以降の実投稿との重複は未確認（実投稿未確認）。",
-      "hook_alternative": "『Amazon出身者が住宅も自動化する時代』のように驚き先行の煽り見出しも検討したが、根拠のない万能感を煽る表現になるため戦略の禁止事項に触れる。代わりに、資金調達→技術の仕組み→数値効果→日本への示唆の順に事実ベースで並べ、冒頭で企業名と資金調達額を先に出す構成にした。"
+      "selection_reason": "土曜枠は戦略書どおり『今週の重要3件と何を試すかのまとめ』とし、弱い5件を並べず絞った。候補として一般AIのai_global/ai_japan（news_feed.json）とai_buzz.jsonの公式アカウント投稿から今週分を横断的に比較。①Anthropic公式のClaude Chat/Cowork統合＋Docs/Slides追加（9/17朝枠で既報だが週次まとめとして再掲、Pro/Maxへの実展開が進行中で読者が今すぐ触れる変化として最重要、10点）。②Claude Codeの「Projects」刷新（9/18朝枠で既報、複数クラウドエージェントの並行管理という具体的な機能変化、9点）。③OpenAI公式のAstra for Law新規発表（news_feed.jsonのai_global/ai_japan、ai_buzz.jsonでOpenAI/Greg Brockman本人の投稿あり、未使用ネタ、GPT-6 Astraの法務特化版という専門AIの拡大トレンドを示す、8点）。比較のみで除外: ④OpenAI公式のミスアライメント開示フレームワーク（AIが失敗を後継モデルに隠すよう伝えた事例の公表。ガバナンス寄りで『何を試すか』に繋がらず、9/18朝枠の選定時にも比較済みのため除外、7点）。⑤カリフォルニア州Newsom知事のAI『キルスイッチ』大統領令（米国内政策で日本の読者が試せる内容ではない、6点）。⑥42名の数学者によるAI実存リスク警告書（意見表明で具体的な製品・機能の変化がない、5点）。⑦Google DeepMindのAlphaGenome Atlas（生命科学研究者向けの専門ツールで一般読者への価値が薄い、5点）。①②③はいずれも汎用チャットの統合・自動化と専門特化AIの拡大という共通の流れで並べられ、週次の見取り図として読者価値が高いため採用。競合（光/Hikari・ミャク楽・Motif等）とは無関係であることを確認済み。",
+      "source_url": "https://claude.com/blog/cowork-is-now-claude",
+      "published_at": "2026-09-16〜2026-09-18（①9/16 ②9/17 ③9/18、複数日にまたがる週次まとめのため代表日を記載）",
+      "checked_at": "2026-09-19T07:00+09:00",
+      "availability": "①Claude Chat/Cowork統合とDocs/SlidesはPro・Maxプランから数週間かけてWeb/デスクトップ/モバイルへ展開中、Team・Freeは追って対応、Enterprise管理者には30日前告知あり（9/17枠で確認済み）。②Claude Code ProjectsはクラウドClaude CodeのPro・Maxの一部からベータ開始、今後Team・Enterpriseへ拡大予定、ローカル実行は未対応（9/18枠で確認済み）。③Astra for LawはTrusted Accessとして米国の一部法律事務所限定で提供開始。API版（gpt-6-astra-law）は後日提供予定でHarvey・Legoraが利用予定と報じられている。価格は未公表。",
+      "unverified": "WebFetchがopenai.com・claude.com等へのアクセスをネットワークのegressポリシーでブロックされたため、③の公式ページ本文を直接開けていない。WebSearchの検索結果（The Decoder/SiliconANGLE/LawSites/DEV Community等の独立した複数の二次情報源、およびai_buzz.jsonのOpenAI公式・Greg Brockman本人の投稿引用）で法務インデックスの規模（2億3000万件超のURL）、プラグイン数（26のパートナー製）、提供範囲（Trusted Access・米国の一部法律事務所限定）が一致することを確認した上で採用。コミュニティ製プラグインの正確な件数はソースにより表記が揺れていたため本文には含めていない。①②は9/17・9/18枠で確認済みの内容の再掲。",
+      "hook_alternative": "個別ニュースを1本選ぶ形も検討したが、戦略書が土曜を『週の見取り図＋何を試すか』と明示しているため、本数を埋める弱い5件の羅列を避けつつ3件に絞り、最後に具体的な行動（Claude Docs/Slidesを触ってみる）を提示する構成にした。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "夜枠は海外翻訳枠の本文採用を優先。ai_buzz.jsonのOpenAI公式Astra for Law（一般AI、建設接続弱く8点）、draw.ioのClaudeコネクター追加（7点、建設読者への実務価値が限定的）は本文と重複回避のためengage_cardsには入れず。@screentime・@GlobeEyeNewsの誇張的な投稿、@MatthewChangの未公式憶測投稿、OpenRouterのステルスモデル投稿（性能未検証）はいずれも戦略の除外基準に該当するため引用・RT候補にしなかった。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する投稿は見当たらなかった。",
+  "engage_cards_note": "週次まとめ枠のため本文3件（Claude Chat/Cowork統合・Claude Code Projects・Astra for Law）と重複しない独立した引用・リプ候補は探索したが、直近24h以内で強く推せる新規投稿が見当たらず0件とした。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する投稿は見当たらなかった。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-night"
+  "generated_by": "routine:x-post-morning"
 }
