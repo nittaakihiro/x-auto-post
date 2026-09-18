@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-09-18T00:08+00:00",
- "generated_at_jst": "2026-09-18 09:08",
+ "generated_at": "2026-09-18T00:16+00:00",
+ "generated_at_jst": "2026-09-18 09:16",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 55,
+  "construction_japan": 62,
   "ai_global": 71,
   "ai_japan": 33,
-  "construction_global": 41
+  "construction_global": 31
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -30,7 +34,7 @@
   },
   {
    "id": "2ad1ed49b4d8",
-   "source": "gifu-np.co.jp",
+   "source": "岐阜新聞デジタル",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -165,21 +169,6 @@
    "published_jst": "2026-09-18 08:00",
    "summary": "工場建設ゲーム「Factorio」の拡張コンテンツ「Factorio: Space Age」には、製造したアイテムの性能がランダムで上昇する「品質」という仕組みがあります。コンピューター科学を専攻する大学院生のGegell氏はFactorioが使う疑似乱数生成器をリバースエンジニアリングし、ゲーム内の回路だけで乱数の内部状態を割り出して将来どのタイミングで高品質アイテムが完成するのかを予測する仕組みを構築しました。さらに不利な乱数を意図的に消費し、最高品質の「レジェンド」が出るタイミングまで乱数列を進める自動化にも成功したとのことです。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "9a4cc49ad541",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon brings back Wates director to lead £58m North East workload",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/willmott-dixon-brings-back-wates-director-to-lead-58m-north-east-workload-17-09-2026/",
-   "published": "2026-09-17T22:36+00:00",
-   "published_jst": "2026-09-18 07:36",
-   "summary": "Willmott Dixon has appointed former Wates operations director Mark Wolverson to lead delivery of £58m of projects across the North East. Wolverson has returned to the contractor after spending 14 of his 16 years in construction with the business, most recently running its North East… The post Willmo",
-   "ai_related": true,
-   "title_ja": "Willmott Dixon、北東部の5,800万ポンド規模の事業を統括へ",
-   "summary_ja": "ウィルモット・ディクソンは、元Watesのマーク・ウルヴァーソン氏を起用し、北東部での5,800万ポンド規模のプロジェクトを指揮させると発表。"
   },
   {
    "id": "7d43b8ef46fd",
@@ -344,23 +333,8 @@
    "ai_related": true
   },
   {
-   "id": "829f7191993a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Cardo pre-tax profit rises 88% as turnover hits £239m",
-   "url": "https://www.constructionnews.co.uk/financial/cardo-pre-tax-profit-rises-88-as-turnover-hits-239m-17-09-2026/",
-   "published": "2026-09-17T21:21+00:00",
-   "published_jst": "2026-09-18 06:21",
-   "summary": "Cardo Group has nearly doubled pre-tax profit in a year when a string of acquisitions helped lift turnover by 65% to £239m. The social housing maintenance contractor posted statutory pre-tax profit of £9.5m for the year to 28 February 2026, up 88% from £5.0m a… The post Cardo pre-tax profit rises 88",
-   "ai_related": false,
-   "title_ja": "Cardo、売上高2億3900万ポンドで税引前利益が88%増",
-   "summary_ja": "Cardo Groupは、相次ぐ買収により売上高が65%増の2億3900万ポンドとなり、1年で税引前利益をほぼ倍増させた。"
-  },
-  {
    "id": "2e5ce4245e0c",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1096,51 +1070,6 @@
    "summary_ja": "CooleyはChatGPT Workを活用した「GO Public」を構築し、IPOプロセスの効率化と弁護士の重要な判断への集中を支援している。"
   },
   {
-   "id": "a611c4652b90",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Torsion creditors set to lose out on £20m",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/torsion-creditors-set-to-lose-out-on-20m-17-09-2026/",
-   "published": "2026-09-17T11:45+00:00",
-   "published_jst": "2026-09-17 20:45",
-   "summary": "Torsion Construction collapsed owing £20m to unsecured creditors, according to administrators. The Leeds-headquartered contractor went under in July, blaming challenging trading conditions. A new report published on Companies House by administrators at Interpath revealed that it owed £20m to unsecur",
-   "ai_related": false,
-   "title_ja": "Torsionの債権者、2000万ポンドの損失見込み",
-   "summary_ja": "経営破綻したTorsion Constructionが無担保債権者に対して2000万ポンドの負債を抱えていることが判明。"
-  },
-  {
-   "id": "bd3879e07a86",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction starts plunge 49% but contract awards soar",
-   "url": "https://www.constructionnews.co.uk/sections/data/construction-starts-plunge-49-as-contract-awards-soar-17-09-2026/",
-   "published": "2026-09-17T11:45+00:00",
-   "published_jst": "2026-09-17 20:45",
-   "summary": "The value of project starts plummeted by 49 per cent between June and August compared with the previous three months, according to new data. Industry analyst Glenigan’s September Construction Review said starts were also down 28 per cent compared with 2025 levels. However, main contract… The post Co",
-   "ai_related": false,
-   "title_ja": "建設着工件数は49%急減も、契約受注は急増",
-   "summary_ja": "直近3ヶ月間のプロジェクト着工額が前年同期比で49%急減した一方、契約受注は大幅に増加。"
-  },
-  {
-   "id": "d21a58802e52",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sub-inflation bid prices expected as orders shrink",
-   "url": "https://www.constructionnews.co.uk/sections/data/sub-inflation-bid-prices-expected-as-orders-shrink-17-09-2026/",
-   "published": "2026-09-17T11:45+00:00",
-   "published_jst": "2026-09-17 20:45",
-   "summary": "Many contractors will be working at sub-inflation prices for some time as shrinking work volumes intensify competition, a report has warned. Consultancy Arcadis kept its tender forecasts unchanged in its Market View Autumn 2026 study – despite growing cost-of-living pressures. It said private sector",
-   "ai_related": false,
-   "title_ja": "受注縮小に伴いインフレ率を下回る入札価格を予想",
-   "summary_ja": "工事量の減少による競争激化により、多くの建設会社が当面は低価格での施工を強いられると警告。"
-  },
-  {
    "id": "41b021268bbc",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1171,21 +1100,6 @@
    "summary_ja": "Reframe Systemsが4,000万ドルを調達し、マサチューセッツ州に2つ目の自動化部品工場を建設へ。"
   },
   {
-   "id": "73c1ee292fb8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction director jailed after trench collapse killed worker",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/construction-director-jailed-after-trench-collapse-killed-worker-17-09-2026/",
-   "published": "2026-09-17T11:16+00:00",
-   "published_jst": "2026-09-17 20:16",
-   "summary": "The director of a construction firm has been jailed for more than eight years following the death of a worker who was killed when a trench collapsed. Peter Clifford, 63, had pleaded guilty at Ipswich Crown Court to gross negligence manslaughter in connection with the… The post Construction director ",
-   "ai_related": false,
-   "title_ja": "トレンチ崩落で作業員死亡、建設会社取締役に実刑判決",
-   "summary_ja": "作業員が死亡した事故をめぐり、過失致死罪等で起訴された建設会社取締役に8年超の禁錮刑。"
-  },
-  {
    "id": "a1513bf83f47",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1202,7 +1116,7 @@
   },
   {
    "id": "f7bc6b0e8bdd",
-   "source": "home-tv.co.jp",
+   "source": "HOME広島ホームテレビ",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1300,21 +1214,6 @@
    "summary_ja": "GPT-6 Astraを使用し、1941年のドイツ国防軍のエニグマ暗号をわずか10時間で解読したとの報告。"
   },
   {
-   "id": "69dd99fea2c3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Winners announced at Inspiring Women in Construction & Engineering Awards 2026",
-   "url": "https://www.constructionnews.co.uk/inspire-me/winners-announced-at-inspiring-women-in-construction-engineering-awards-2026-17-09-2026/",
-   "published": "2026-09-17T09:37+00:00",
-   "published_jst": "2026-09-17 18:37",
-   "summary": "The winners of this year’s Inspiring Women in Construction & Engineering Awards were revealed yesterday in a gala evening ceremony at the London Hilton Park Lane. An audience of more than 700 saw 21 awards handed out, ranging from rising stars to inspirational leaders in… The post Winners announced ",
-   "ai_related": false,
-   "title_ja": "建設・エンジニアリング界の女性表彰式、受賞者発表",
-   "summary_ja": "ロンドンで開催された授賞式にて、今年の受賞者21名が発表され、多くの参加者が功績を称えた。"
-  },
-  {
    "id": "49c3a992366a",
    "source": "AEC Magazine",
    "source_id": "aecmag",
@@ -1328,36 +1227,6 @@
    "ai_related": false,
    "title_ja": "ビジネスにRenda 4U Serverが最適な理由",
    "summary_ja": "ビジネス向けに構築され、パフォーマンスと信頼性を重視して設計されたRenda 4U Serverの魅力を紹介。"
-  },
-  {
-   "id": "5d8c1de1c794",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Early involvement ‘as a norm’ spurs Galliford Try profit",
-   "url": "https://www.constructionnews.co.uk/financial/early-involvement-as-a-norm-spurs-galliford-try-profit-17-09-2026/",
-   "published": "2026-09-17T08:38+00:00",
-   "published_jst": "2026-09-17 17:38",
-   "summary": "Early contractor involvement (ECI) and operational improvements helped Galliford Try’s annual pre-tax profit grow by a quarter, its chief executive Bill Hocking has said. Statutory pre-tax profit rose by 24.7 per cent to £55m in the year to 30 June 2026, from £44.1m, while the… The post Early involv",
-   "ai_related": false,
-   "title_ja": "早期参画の定着がGalliford Tryの利益を押し上げ",
-   "summary_ja": "施工者の早期参画と業務改善により、Galliford Tryの年間税引前利益が四分の一増加。"
-  },
-  {
-   "id": "0c44ec455d85",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "109 firms appointed to £4.3bn civils framework",
-   "url": "https://www.constructionnews.co.uk/contracts/109-firms-appointed-to-4-3bn-civils-framework-17-09-2026/",
-   "published": "2026-09-17T08:29+00:00",
-   "published_jst": "2026-09-17 17:29",
-   "summary": "More than 100 contractors including Costain, Galliford Try, Graham, Kier, Morgan Sindall and Skanska have been appointed to a £4.3bn national civil engineering and enabling works framework. The four-year framework, run by Pagabo on behalf of public procurement organisation YPO, names 109 suppliers a",
-   "ai_related": false,
-   "title_ja": "土木分野の43億ポンド規模の枠組みに109社が選定",
-   "summary_ja": "CostainやKierなど100社超の建設会社が、40億ポンド超の国家土木インフラ枠組みに参画。"
   },
   {
    "id": "96e95b323f03",
@@ -1403,21 +1272,6 @@
    "ai_related": true,
    "title_ja": "CCCが「40C3」イベントへモデル市民を招待",
    "summary_ja": "CCCが開催するイベントの案内ページおよびオンラインコミュニティの議論スレッド。"
-  },
-  {
-   "id": "64b7e5dcd8de",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Major tier ones among winners on £1.3bn West Midlands framework",
-   "url": "https://www.constructionnews.co.uk/contracts/galliford-try-and-kier-among-winners-on-1-3bn-west-midlands-framework-17-09-2026/",
-   "published": "2026-09-17T07:55+00:00",
-   "published_jst": "2026-09-17 16:55",
-   "summary": "Galliford Try, Kier and Morgan Sindall are among six contractors selected for the £1.3bn major works lot of a new West Midlands construction framework. Acivico Design, Construction and Facilities Management named the contractors on its Constructing West Midlands 3 framework following an open procure",
-   "ai_related": false,
-   "title_ja": "大手ゼネコンが西ミッドランドの13億ポンド枠組みに選出",
-   "summary_ja": "Galliford TryやKierなど6社が、新設された西ミッドランドの大型工事向け枠組みの施工者に選定。"
   },
   {
    "id": "add66f3aab79",
@@ -1544,7 +1398,7 @@
   },
   {
    "id": "933698098567",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1730,7 +1584,7 @@
   },
   {
    "id": "1fca6156a6d1",
-   "source": "Vietnam.vn",
+   "source": "vietnam.vn",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1795,7 +1649,7 @@
   },
   {
    "id": "7eb4a374de2b",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1821,7 +1675,7 @@
   },
   {
    "id": "a4acbeb72839",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1862,7 +1716,7 @@
   },
   {
    "id": "99464a9ffd22",
-   "source": "biz.chosun.com",
+   "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2355,7 +2209,7 @@
   },
   {
    "id": "de6adfd7b412",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2471,7 +2325,7 @@
   },
   {
    "id": "672b2ff30859",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2707,7 +2561,7 @@
   },
   {
    "id": "4afe8d041cd7",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2838,6 +2692,97 @@
    "published_jst": "2026-09-16 13:00",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "dc8f84882338",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大林組が国内全建設現場のCO2排出量を一元管理、ASUENE導入でデータ収集・分析を高度化",
+   "url": "https://news.build-app.jp/article/42715/",
+   "published": "2026-09-16T03:00+00:00",
+   "published_jst": "2026-09-16 12:00",
+   "summary": "大手ゼネコンの大林組（本社：東京都港区、社長：佐藤俊美）が、国内すべての建設現場でCO2排出量を一元的に把握できる体制を整えました。 アスエ...",
+   "ai_related": false
+  },
+  {
+   "id": "7c4c2c79c8e4",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "「規制して」都心の住宅街にデータセンター続々建設 自治体は「制度に課題」指摘も 不安抱える住民【スポットライト】",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tbUt4SnFsOEd0QWY5bkxZZVk4b0hSY0ZyQ1drTUlkenFSeWVNcjMzdkRSN3cxSDdtYkFxNE40X1VYbDR2a295QUlINUZBanJxekQ0YVN2S0NCSE5SRkhOSm5Nbjl0RWVVa2FJTnYzczRDM25jbml1dHpjbElyNkE?oc=5",
+   "published": "2026-09-16T02:47+00:00",
+   "published_jst": "2026-09-16 11:47",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "32b0b4b7aa5e",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米国のデータセンター建設費は公共交通投資を超越 電力インフラがAIブームのボトルネック 窪谷浩",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xWk9IXzh3MzBUM2xfNEtlczZGZ0JCU05FemxzYXA3TTFHRFFLek9vUVJwcjQ5UC1ZZ05IS0J6MnVzMTV2YlV0TERDUXRiNF9DeEtRQUVkaHpFcl82VjVxM2lMSzFCOHRmUmZXa3pNOTdzSjRWRFgzd21DVVdBbDg?oc=5",
+   "published": "2026-09-16T01:14+00:00",
+   "published_jst": "2026-09-16 10:14",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "6870f08330d8",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "国土交通省が令和8年都道府県地価調査を公表、全用途平均は5年連続上昇し商業地は上昇幅拡大",
+   "url": "https://news.build-app.jp/article/42711/",
+   "published": "2026-09-16T01:00+00:00",
+   "published_jst": "2026-09-16 10:00",
+   "summary": "国土交通省は令和8年9月15日、令和8年都道府県地価調査の結果を公表しました。全国21,466地点を対象に、令和8年7月1日時点の1平方メー...",
+   "ai_related": false
+  },
+  {
+   "id": "f14f5a45344e",
+   "source": "ITmedia",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "清水建設が大規模データ活用基盤を大幅刷新 ジールの支援で現場DX加速：AX戦略",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlbGhkajNGb1JzVmlCZWN0X3NZaUFNT01XcWxkNjIweVl1MFNlbWN3S25LXzFQQTI5YWpNY2V5eXJDdjFXRmh6LU16T2g3SWdWdnZOREJRaS15NHFWVXlhYlhzdm5GYU9mTk8tcQ?oc=5",
+   "published": "2026-09-16T01:00+00:00",
+   "published_jst": "2026-09-16 10:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "b9007a76a0a3",
+   "source": "PR TIMES",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "足場の拾い出しが6〜8時間から20分以内に。平面図・立面図をアップロードすると掛面積・スパン割りから部材30品目まで算出する「足場積算AI」を提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lcWFnUUxJUjRQcm9idm1WbkF2WTRrcHl0dVA2SHp3X2EtTTZhR2tEbDlxczVkYzZDbXRjQnVqWFhvYTBfalFMSkxQUVYwTU5Sb1RDM1N1eF9jT01WOG01SlNUbWt0QkVtMkE?oc=5",
+   "published": "2026-09-16T01:00+00:00",
+   "published_jst": "2026-09-16 10:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "1eca9e19bd6a",
+   "source": "財経新聞",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "九州・山口から、環境経営の新しいカタチを。セリタ建設が「環境経営×DX」によ..（株式会社セリタ建設 プレスリリース）",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKWFE5MDBVVzJfRXIta1BNQkY4R0VZVWtzbWNTZzlMbGdXWEppaVNFbllScjBoRGdQT3FNQ0tVb3UtRUt3YUNNdGZPX2RTTWlJUHNPbQ?oc=5",
+   "published": "2026-09-16T01:00+00:00",
+   "published_jst": "2026-09-16 10:00",
+   "summary": "",
+   "ai_related": true
   }
  ]
 }
