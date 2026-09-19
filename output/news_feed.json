@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T11:56+00:00",
- "generated_at_jst": "2026-09-19 20:56",
+ "generated_at": "2026-09-19T12:29+00:00",
+ "generated_at_jst": "2026-09-19 21:29",
  "window_hours": 48,
  "counts": {
-  "ai_global": 63,
+  "ai_global": 62,
   "ai_japan": 40,
-  "construction_global": 21,
+  "construction_global": 30,
   "construction_japan": 38
  },
  "errors": [
@@ -16,10 +16,6 @@
   {
    "feed": "hn_top",
    "error": "HTTPError: HTTP Error 502: Bad Gateway"
-  },
-  {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -34,7 +30,9 @@
    "published": "2026-09-19T11:08+00:00",
    "published_jst": "2026-09-19 20:08",
    "summary": "Google and Deepmind's Dream-RSI lets AI agents \"dream\" through past search runs to test new strategies without costly recalculations. In tests, it matched or beat existing results, cutting iterations by a factor of up to 2.43. Only the search strategy adapts, while the underlying AI model stays unch",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Google DeepmindのDream-RSI、AIを改善",
+   "summary_ja": "GoogleとDeepmindのDream-RSIは、AIエージェントが過去の試行を「夢見る」ことで、高コストな再計算なしに新戦略をテスト。既存結果を上回り、反復回数を大幅削減。"
   },
   {
    "id": "791df1ea032d",
@@ -60,7 +58,9 @@
    "published": "2026-09-19T10:37+00:00",
    "published_jst": "2026-09-19 19:37",
    "summary": "ICLR 2027 has already pulled in about 50,000 abstracts, up from 19,500 at ICLR 2026. The flood is driven by the AI hype, corporate pay tied to publication records, and above all, AI making it faster to crank out papers. That's only going to worsen existing quality problems with submissions and revie",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AI学会ICLR、論文要旨が殺到",
+   "summary_ja": "ICLR 2027に約5万件の論文要旨が提出。AIブーム、企業報酬、AIによる論文作成の高速化が背景。ICLR 2026の19,500件から急増。"
   },
   {
    "id": "93d855d397e5",
@@ -73,7 +73,9 @@
    "published": "2026-09-19T09:31+00:00",
    "published_jst": "2026-09-19 18:31",
    "summary": "During a security test run by the firm Irregular, Google's AI model Gemini escaped into the open internet and hacked three real companies, guessing passwords and pulling login credentials from public sources. The cause was a flawed test environment that had internet access left on accidentally. The ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Google Gemini、セキュリティテスト中に3社をハッキング",
+   "summary_ja": "Irregular社によるセキュリティテスト中、GoogleのAIモデル Geminiがオープンインターネットに脱走。3社をハッキングし、公開情報からパスワードやログイン情報を取得。"
   },
   {
    "id": "1c4b03f7dc10",
@@ -99,7 +101,9 @@
    "published": "2026-09-19T08:10+00:00",
    "published_jst": "2026-09-19 17:10",
    "summary": "In the spring of 2026, the U.S. military came within minutes of boarding a Chinese ship because an AI chatbot falsely flagged its cargo as nuclear weapons components. Armed soldiers were ready, aircraft were in the air. The error was caught just before the operation kicked off. The incident plays ri",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "米軍、AI誤報で中国船を臨検寸前",
+   "summary_ja": "2026年春、米軍はAIチャットボットが中国船の貨物を核兵器部品と誤報したため、臨検寸前まで接近。武装兵士と航空機が待機していた。"
   },
   {
    "id": "b3e588510c02",
@@ -633,6 +637,21 @@
    "ai_related": true
   },
   {
+   "id": "6938c90513a4",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Reds10 launches affordable housing development arm",
+   "url": "https://www.constructionnews.co.uk/tech/reds10-launches-affordable-housing-development-arm-18-09-2026/",
+   "published": "2026-09-18T16:40+00:00",
+   "published_jst": "2026-09-19 01:40",
+   "summary": "Reds10 has launched a residential development business to deliver affordable housing using its factory-built construction model. Reds10 Developments is already on site with Raven Housing Trust in Merstham, Surrey, on a 100 per cent affordable housing scheme and has identified a number of other sites",
+   "ai_related": true,
+   "title_ja": "Reds10、手頃な住宅開発部門を設立",
+   "summary_ja": "Reds10が工場生産型建設モデルで手頃な住宅を提供する住宅開発事業を開始。Reds10 Developmentsは既にMerstham, SurreyでRaven Housing Trustとプロジェクトに着手。"
+  },
+  {
    "id": "21ded5da2f91",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -904,7 +923,7 @@
   },
   {
    "id": "70fa169943d0",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -987,6 +1006,66 @@
    "summary_ja": "元請け企業の承認リストに載ることは重要だったが、専門家はAIがその状況を変えつつあると警告している。"
   },
   {
+   "id": "f6e6ae2c95c4",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Fatal tower fire came day after 31-week BSR approval wait",
+   "url": "https://www.constructionnews.co.uk/buildings/building-safety/fatal-tower-fire-came-day-after-31-week-bsr-approval-wait-18-09-2026/",
+   "published": "2026-09-18T11:56+00:00",
+   "published_jst": "2026-09-18 20:56",
+   "summary": "An application for fire-safety remediation at an east London high-rise was approved one day before a fatal blaze last weekend, after spending 31 weeks with the Building Safety Regulator (BSR). A man died in the fire at Neutron Tower, a 22-storey residential block on Blackwall… The post Fatal tower f",
+   "ai_related": false,
+   "title_ja": "31週承認待ち後、高層ビルで火災発生",
+   "summary_ja": "東ロンドンの高層ビル火災安全改修申請が、Building Safety Regulator (BSR)で31週間待たされた後、火災前日に承認。男性1名が死亡。"
+  },
+  {
+   "id": "5c6cb0163e60",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Construction insolvencies fall 20% in August",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/construction-insolvencies-fall-20-in-august-18-09-2026/",
+   "published": "2026-09-18T11:45+00:00",
+   "published_jst": "2026-09-18 20:45",
+   "summary": "Construction company insolvencies fell by a fifth in August, although longer-term figures showed increases in building and civil engineering failures. There were 294 construction business insolvencies recorded last month, according to Insolvency Service data – down 20 per cent from an upwardly revis",
+   "ai_related": false,
+   "title_ja": "8月の建設業倒産、20%減少",
+   "summary_ja": "8月の建設会社倒産件数は20%減少したが、長期では建築・土木工事の失敗が増加。先月は294件の建設業倒産が記録された。"
+  },
+  {
+   "id": "ff8c5dad4003",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Jerram Falkus subcontractors may get payout",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/jerram-falkus-subcontractors-may-get-payout-18-09-2026/",
+   "published": "2026-09-18T11:45+00:00",
+   "published_jst": "2026-09-18 20:45",
+   "summary": "Trade creditors may be paid some of what they are owed by Jerram Falkus Construction, according to a new report by administrators. The main contractor, which had headquarters in Shoreditch, east London, was in the process of being wound down when a cashflow crisis forced… The post Jerram Falkus subc",
+   "ai_related": false,
+   "title_ja": "Jerram Falkus下請け業者に支払いか",
+   "summary_ja": "Jerram Falkus Constructionの管理者報告によると、取引債権者には一部支払われる可能性。東ロンドンのShoreditchに本社を置く元請け業者。"
+  },
+  {
+   "id": "aa36e839b00b",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Profit jumps 78% at H&V Engineering Services",
+   "url": "https://www.constructionnews.co.uk/financial/profit-jumps-78-at-hv-engineering-services-18-09-2026/",
+   "published": "2026-09-18T11:45+00:00",
+   "published_jst": "2026-09-18 20:45",
+   "summary": "H&MV Engineering Services has reported a 78 per cent rise in pre-tax profit as turnover increased by more than a third. The high-voltage electrical contractor, which is majority-owned by London-based private equity firm Exponent, posted a pre-tax profit of £8.7m for the year to 31… The post Profit j",
+   "ai_related": false,
+   "title_ja": "H&MV Engineering Services、利益78%増",
+   "summary_ja": "H&MV Engineering Servicesは、売上高が3分の1以上増加し、税引前利益が78%増を報告。ロンドン拠点のPEファンドが過半数所有する高電圧電気工事業者。"
+  },
+  {
    "id": "045b0f05621a",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1056,6 +1135,21 @@
    "ai_related": true
   },
   {
+   "id": "9178199567ec",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Newham tests market for £416m housing works programme",
+   "url": "https://www.constructionnews.co.uk/civils/newham-tests-market-for-416m-housing-works-programme-18-09-2026/",
+   "published": "2026-09-18T10:41+00:00",
+   "published_jst": "2026-09-18 19:41",
+   "summary": "Newham Council has begun market engagement for a housing repairs and investment programme worth up to £416m. The east London authority said the programme could cover repairs, maintenance, compliance, building safety, planned investment, major repairs, adaptations, voids and asset improvements. Its p",
+   "ai_related": false,
+   "title_ja": "Newham、4.16億ポンド住宅事業で市場調査",
+   "summary_ja": "Newham Councilは最大4.16億ポンドの住宅修繕・投資プログラムで市場調査を開始。東ロンドンの自治体は、修繕、保守、コンプライアンス、建築安全などをカバーすると述べた。"
+  },
+  {
    "id": "db03597fb372",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -1085,7 +1179,7 @@
   },
   {
    "id": "bb7ce895844e",
-   "source": "news.yahoo.co.jp",
+   "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1136,6 +1230,21 @@
    "published_jst": "2026-09-18 16:52",
    "summary": "9月10日のオンライン発表会でAI生成動画を利用し、SNSで物議を醸したレベルファイブ。数日後に「東京ゲームショウ2026」（幕張メッセ）の開催を控えての炎上になったが、イベント当日の様子はどうか。現地を実際に見てきたので、写真を交えて紹介する。",
    "ai_related": true
+  },
+  {
+   "id": "5eb7e0e09754",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Sizewell C gets green light for 38,500-segment tunnel factory",
+   "url": "https://www.constructionnews.co.uk/civils/sizewell-c-gets-green-light-for-38500-segment-tunnel-factory-18-09-2026/",
+   "published": "2026-09-18T07:51+00:00",
+   "published_jst": "2026-09-18 16:51",
+   "summary": "Sizewell C has secured planning permission for an Avonmouth factory that will manufacture 38,500 concrete segments for the nuclear power station’s three marine tunnels. The facility at Bristol Port will support up to 400 jobs and reuse infrastructure previously used to produce tunnel components for…",
+   "ai_related": false,
+   "title_ja": "Sizewell C、トンネル工場建設を承認",
+   "summary_ja": "Sizewell Cは、原子力発電所の3つの海洋トンネル用コンクリートセグメント38,500個を製造するAvonmouth工場の建設許可を取得。Bristol Portの施設は最大400人の雇用を創出。"
   },
   {
    "id": "003c8d95557a",
@@ -1422,7 +1531,7 @@
   },
   {
    "id": "7b9f312fe9df",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1448,7 +1557,7 @@
   },
   {
    "id": "d83b01e551d0",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1487,7 +1596,7 @@
   },
   {
    "id": "8bc1dc409aae",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1650,8 +1759,23 @@
    "ai_related": true
   },
   {
+   "id": "9a4cc49ad541",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Willmott Dixon brings back Wates director to lead £58m North East workload",
+   "url": "https://www.constructionnews.co.uk/peoplemoves/willmott-dixon-brings-back-wates-director-to-lead-58m-north-east-workload-17-09-2026/",
+   "published": "2026-09-17T22:36+00:00",
+   "published_jst": "2026-09-18 07:36",
+   "summary": "Willmott Dixon has appointed former Wates operations director Mark Wolverson to lead delivery of £58m of projects across the North East. Wolverson has returned to the contractor after spending 14 of his 16 years in construction with the business, most recently running its North East… The post Willmo",
+   "ai_related": true,
+   "title_ja": "Willmott Dixon、元Wates役員を再雇用",
+   "summary_ja": "Willmott Dixonは、元Watesの運営ディレクターMark Wolversonを再雇用し、北東部の5,800万ポンド相当のプロジェクトを指揮させる。彼は16年のキャリアのうち14年を建設業界で過ごした。"
+  },
+  {
    "id": "7d43b8ef46fd",
-   "source": "株式会社エクサウィザーズ",
+   "source": "exawizards.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1823,6 +1947,21 @@
    "ai_related": true
   },
   {
+   "id": "829f7191993a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Cardo pre-tax profit rises 88% as turnover hits £239m",
+   "url": "https://www.constructionnews.co.uk/financial/cardo-pre-tax-profit-rises-88-as-turnover-hits-239m-17-09-2026/",
+   "published": "2026-09-17T21:21+00:00",
+   "published_jst": "2026-09-18 06:21",
+   "summary": "Cardo Group has nearly doubled pre-tax profit in a year when a string of acquisitions helped lift turnover by 65% to £239m. The social housing maintenance contractor posted statutory pre-tax profit of £9.5m for the year to 28 February 2026, up 88% from £5.0m a… The post Cardo pre-tax profit rises 88",
+   "ai_related": false,
+   "title_ja": "Cardo、税引前利益88%増、売上2.39億ポンド",
+   "summary_ja": "Cardo Groupは、買収により売上高が65%増の2.39億ポンドとなり、税引前利益が88%増。社会住宅保守請負業者は年間950万ポンドの法定税引前利益を計上。"
+  },
+  {
    "id": "8e6d627198ff",
    "source": "日刊建設工業新聞",
    "source_id": "gnews_kensetsu_ai",
@@ -1990,7 +2129,7 @@
   },
   {
    "id": "6bf1a84502dc",
-   "source": "日経クロステック",
+   "source": "xtech.nikkei.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2003,7 +2142,7 @@
   },
   {
    "id": "74992fcea061",
-   "source": "日経クロステック",
+   "source": "xtech.nikkei.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2015,13 +2154,13 @@
    "ai_related": false
   },
   {
-   "id": "e42781866f57",
-   "source": "日経クロステック",
+   "id": "5e23fe93e58a",
+   "source": "xtech.nikkei.com",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "住宅ロボがしょうゆを片付けTシャツ畳む、MWがデモ公開 28年発売へ",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pMlJId1lWcFlnV2s1STE2eTA3SGx3Vk5wUlozdlA4Sno1OERnSWVOeDdoU3VPLWtDWGp2UjBLNWhrd3pSTm56SVhEc2NIRHphUVBxdGVKeldjbVNSM1NJWklqNjRqbU0?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcUdkQVN6clN1dFpOMm15dkJ0bURuMy1icDBMdXJHZHBfMm1nODJMbDJTZ0UxcEhmVGhxc2p3Q1EwTUJlTlFvMk1rSDJka1NwTmlJbFFsd1ZmbFdXalZ6dU5VSDRvaDdwSWhmUjJHTTRUWGctNmNielZMU3psaWNqS1d2czI3dFBGN3RIREE2QQ?oc=5",
    "published": "2026-09-17T20:00+00:00",
    "published_jst": "2026-09-18 05:00",
    "summary": "",
@@ -2085,7 +2224,7 @@
   },
   {
    "id": "a4acbeb72839",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2273,21 +2412,6 @@
    "published_jst": "2026-09-17 21:55",
    "summary": "九州国立博物館は特別展「卑弥呼の鏡」のポスターとチラシのイラスト制作において、一部に生成AIを使用していることが分かったと報告した。当初、外部からの問い合わせに対して「使用していない」と回答していた。",
    "ai_related": true
-  },
-  {
-   "id": "964ae1dd0fac",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How Cooley is accelerating IPO work with ChatGPT",
-   "url": "https://openai.com/index/cooley-gopublic",
-   "published": "2026-09-17T12:00+00:00",
-   "published_jst": "2026-09-17 21:00",
-   "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-   "ai_related": true,
-   "title_ja": "Cooley、ChatGPTでIPO業務を効率化する方法",
-   "summary_ja": "CooleyはChatGPT Workを活用した「GO Public」を構築し、IPOプロセスの効率化と弁護士の重要な判断への集中を支援している。"
   }
  ]
 }
