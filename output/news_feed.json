@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-09-19T00:19+00:00",
- "generated_at_jst": "2026-09-19 09:19",
+ "generated_at": "2026-09-19T00:40+00:00",
+ "generated_at_jst": "2026-09-19 09:40",
  "window_hours": 48,
  "counts": {
   "ai_global": 66,
   "ai_japan": 42,
-  "construction_global": 38,
+  "construction_global": 28,
   "construction_japan": 53
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -167,7 +171,7 @@
    "url": "https://code.claude.com/docs/en/changelog",
    "published": "2026-09-18T21:00+00:00",
    "published_jst": "2026-09-19 06:00",
-   "summary": "Article URL: https://code.claude.com/docs/en/changelog Comments URL: https://news.ycombinator.com/item?id=49760187 Points: 453 # Comments: 164",
+   "summary": "Article URL: https://code.claude.com/docs/en/changelog Comments URL: https://news.ycombinator.com/item?id=49760187 Points: 472 # Comments: 172",
    "ai_related": true,
    "title_ja": "Claude CodeがAGENTS.mdの読み込みに対応",
    "summary_ja": "Claude.mdが存在しない場合、Claude CodeがAGENTS.mdを読み込む機能の追加に関する記事とコメント。"
@@ -347,7 +351,7 @@
    "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
    "published": "2026-09-18T17:28+00:00",
    "published_jst": "2026-09-19 02:28",
-   "summary": "Article URL: https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship Comments URL: https://news.ycombinator.com/item?id=49757520 Points: 372 # Comments: 291",
+   "summary": "Article URL: https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship Comments URL: https://news.ycombinator.com/item?id=49757520 Points: 378 # Comments: 297",
    "ai_related": true,
    "title_ja": "米軍、AIの虚偽情報で一触即発の事態に",
    "summary_ja": ""
@@ -439,21 +443,6 @@
    "published_jst": "2026-09-19 01:49",
    "summary": "AIエージェントの検証を始めたものの、半年経っても本番導入に進めず、難しいと感じている方は少なくないでしょう。 AIエージェントが難しいのは技術が未熟だからではなく、難しさが導入・開発・運用の3段階に分かれていて、自社が... The post AIエージェントが難しい理由と難易度を下げる導入ステップを解説 first appeared on AI専門ニュースメディア AINOW .",
    "ai_related": true
-  },
-  {
-   "id": "6938c90513a4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Reds10 launches affordable housing development arm",
-   "url": "https://www.constructionnews.co.uk/tech/reds10-launches-affordable-housing-development-arm-18-09-2026/",
-   "published": "2026-09-18T16:40+00:00",
-   "published_jst": "2026-09-19 01:40",
-   "summary": "Reds10 has launched a residential development business to deliver affordable housing using its factory-built construction model. Reds10 Developments is already on site with Raven Housing Trust in Merstham, Surrey, on a 100 per cent affordable housing scheme and has identified a number of other sites",
-   "ai_related": true,
-   "title_ja": "Reds10、工場建築モデルを活用した手頃な住宅開発部門を設立",
-   "summary_ja": "Reds10は、工場建築モデルによる手頃な住宅供給を目指す住宅開発事業を立ち上げ、すでにサリー州でプロジェクトを開始している。"
   },
   {
    "id": "21ded5da2f91",
@@ -795,66 +784,6 @@
    "summary_ja": "元請け企業の承認リストに載ることは重要だったが、専門家はAIがその状況を変えつつあると警告している。"
   },
   {
-   "id": "f6e6ae2c95c4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fatal tower fire came day after 31-week BSR approval wait",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/fatal-tower-fire-came-day-after-31-week-bsr-approval-wait-18-09-2026/",
-   "published": "2026-09-18T11:56+00:00",
-   "published_jst": "2026-09-18 20:56",
-   "summary": "An application for fire-safety remediation at an east London high-rise was approved one day before a fatal blaze last weekend, after spending 31 weeks with the Building Safety Regulator (BSR). A man died in the fire at Neutron Tower, a 22-storey residential block on Blackwall… The post Fatal tower f",
-   "ai_related": false,
-   "title_ja": "安全規制当局の31週に及ぶ承認待ちの翌日に火災発生",
-   "summary_ja": "ロンドン東部の高層ビルで防火改修の申請が承認された翌日、致命的な火災が発生し1人が死亡した。申請は安全規制当局で31週間審査されていた。"
-  },
-  {
-   "id": "5c6cb0163e60",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction insolvencies fall 20% in August",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/construction-insolvencies-fall-20-in-august-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "Construction company insolvencies fell by a fifth in August, although longer-term figures showed increases in building and civil engineering failures. There were 294 construction business insolvencies recorded last month, according to Insolvency Service data – down 20 per cent from an upwardly revis",
-   "ai_related": false,
-   "title_ja": "8月の建設業倒産件数が20%減少",
-   "summary_ja": "8月の建設会社の倒産件数は5分の1減少したが、長期的な統計では建築や土木の倒産増加を示している。先月の倒産件数は294件だった。"
-  },
-  {
-   "id": "ff8c5dad4003",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Jerram Falkus subcontractors may get payout",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/jerram-falkus-subcontractors-may-get-payout-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "Trade creditors may be paid some of what they are owed by Jerram Falkus Construction, according to a new report by administrators. The main contractor, which had headquarters in Shoreditch, east London, was in the process of being wound down when a cashflow crisis forced… The post Jerram Falkus subc",
-   "ai_related": false,
-   "title_ja": "ジェラム・ファルカス社の下請け業者に支払いの可能性",
-   "summary_ja": "管理職の新しい報告書によると、破綻したジェラム・ファルカス建設の一般債権者に対し、未払い金の一部が支払われる可能性があるという。"
-  },
-  {
-   "id": "aa36e839b00b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Profit jumps 78% at H&V Engineering Services",
-   "url": "https://www.constructionnews.co.uk/financial/profit-jumps-78-at-hv-engineering-services-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "H&MV Engineering Services has reported a 78 per cent rise in pre-tax profit as turnover increased by more than a third. The high-voltage electrical contractor, which is majority-owned by London-based private equity firm Exponent, posted a pre-tax profit of £8.7m for the year to 31… The post Profit j",
-   "ai_related": false,
-   "title_ja": "H&MVエンジニアリングの利益が78%急増",
-   "summary_ja": "H&MVエンジニアリングは、売上高が3分の1以上増加し、税引前利益が78%増加したと発表した。ロンドンの投資会社が過半数を出資している。"
-  },
-  {
    "id": "d99322965c47",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -939,21 +868,6 @@
    "ai_related": true
   },
   {
-   "id": "9178199567ec",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Newham tests market for £416m housing works programme",
-   "url": "https://www.constructionnews.co.uk/civils/newham-tests-market-for-416m-housing-works-programme-18-09-2026/",
-   "published": "2026-09-18T10:41+00:00",
-   "published_jst": "2026-09-18 19:41",
-   "summary": "Newham Council has begun market engagement for a housing repairs and investment programme worth up to £416m. The east London authority said the programme could cover repairs, maintenance, compliance, building safety, planned investment, major repairs, adaptations, voids and asset improvements. Its p",
-   "ai_related": false,
-   "title_ja": "ニューハム区、4億1600万ポンドの住宅改修で市場調査",
-   "summary_ja": "ロンドンのニューハム区議会は、最大4億1600万ポンド規模の住宅修理・投資プログラムに向けた市場対話を開始したと発表した。"
-  },
-  {
    "id": "db03597fb372",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -998,7 +912,7 @@
   },
   {
    "id": "da61dea54188",
-   "source": "FNNプライムオンライン",
+   "source": "fnn.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1049,21 +963,6 @@
    "published_jst": "2026-09-18 16:52",
    "summary": "9月10日のオンライン発表会でAI生成動画を利用し、SNSで物議を醸したレベルファイブ。数日後に「東京ゲームショウ2026」（幕張メッセ）の開催を控えての炎上になったが、イベント当日の様子はどうか。現地を実際に見てきたので、写真を交えて紹介する。",
    "ai_related": true
-  },
-  {
-   "id": "5eb7e0e09754",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sizewell C gets green light for 38,500-segment tunnel factory",
-   "url": "https://www.constructionnews.co.uk/civils/sizewell-c-gets-green-light-for-38500-segment-tunnel-factory-18-09-2026/",
-   "published": "2026-09-18T07:51+00:00",
-   "published_jst": "2026-09-18 16:51",
-   "summary": "Sizewell C has secured planning permission for an Avonmouth factory that will manufacture 38,500 concrete segments for the nuclear power station’s three marine tunnels. The facility at Bristol Port will support up to 400 jobs and reuse infrastructure previously used to produce tunnel components for…",
-   "ai_related": false,
-   "title_ja": "サイズウェルC、トンネル用セグメント工場が承認",
-   "summary_ja": "原子力発電所の3つの海底トンネル向けにコンクリートセグメントを製造するエイボンマウスの工場建設計画が承認された。"
   },
   {
    "id": "ea7dc6eec3b5",
@@ -1480,7 +1379,7 @@
   },
   {
    "id": "0d471f7ea4f5",
-   "source": "毎日新聞",
+   "source": "mainichi.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1519,7 +1418,7 @@
   },
   {
    "id": "f647e6ec44b6",
-   "source": "dime.jp",
+   "source": "@DIME アットダイム",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1684,21 +1583,6 @@
    "ai_related": true
   },
   {
-   "id": "9a4cc49ad541",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon brings back Wates director to lead £58m North East workload",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/willmott-dixon-brings-back-wates-director-to-lead-58m-north-east-workload-17-09-2026/",
-   "published": "2026-09-17T22:36+00:00",
-   "published_jst": "2026-09-18 07:36",
-   "summary": "Willmott Dixon has appointed former Wates operations director Mark Wolverson to lead delivery of £58m of projects across the North East. Wolverson has returned to the contractor after spending 14 of his 16 years in construction with the business, most recently running its North East… The post Willmo",
-   "ai_related": true,
-   "title_ja": "Willmott Dixon、北東部の事業責任者に元Watesの取締役を起用",
-   "summary_ja": "Willmott Dixonが、北東部での5,800万ポンド規模のプロジェクトを統括するため、マーク・ウォルバーソン氏を起用した。"
-  },
-  {
    "id": "7d43b8ef46fd",
    "source": "株式会社エクサウィザーズ",
    "source_id": "gnews_kensetsu_ai",
@@ -1857,7 +1741,7 @@
    "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
    "published": "2026-09-17T21:48+00:00",
    "published_jst": "2026-09-18 06:48",
-   "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 367 # Comments: 258",
+   "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 370 # Comments: 262",
    "ai_related": true,
    "title_ja": "LLMを使った文章の書き方",
    "summary_ja": "大規模言語モデル（LLM）を活用して効率的かつ効果的に文章を執筆するための手法を紹介。"
@@ -1889,21 +1773,6 @@
    "published_jst": "2026-09-18 06:46",
    "summary": "NVIDIAとGoogleは新興企業Emerald AIとともに、電力網の状況に応じて消費電力を動的に制御する「柔軟なデータセンター」の普及を目指す新団体「AEMA」を設立した。送電網の容量不足や住民の電気料金高騰懸念がAIインフラ拡充の壁となる中、計算処理の分散や専用ソフトを活用し、既存電力網の効率運用と接続期間の短縮を図る。",
    "ai_related": true
-  },
-  {
-   "id": "829f7191993a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Cardo pre-tax profit rises 88% as turnover hits £239m",
-   "url": "https://www.constructionnews.co.uk/financial/cardo-pre-tax-profit-rises-88-as-turnover-hits-239m-17-09-2026/",
-   "published": "2026-09-17T21:21+00:00",
-   "published_jst": "2026-09-18 06:21",
-   "summary": "Cardo Group has nearly doubled pre-tax profit in a year when a string of acquisitions helped lift turnover by 65% to £239m. The social housing maintenance contractor posted statutory pre-tax profit of £9.5m for the year to 28 February 2026, up 88% from £5.0m a… The post Cardo pre-tax profit rises 88",
-   "ai_related": false,
-   "title_ja": "Cardoの税引前利益が88%増、売上高は2億3,900万ポンドに",
-   "summary_ja": "Cardo Groupは、相次ぐ買収により売上高が65%増の2億3,900万ポンドとなり、税引前利益がほぼ倍増した。"
   },
   {
    "id": "2e5ce4245e0c",
@@ -2086,7 +1955,7 @@
   },
   {
    "id": "e42781866f57",
-   "source": "日経クロステック",
+   "source": "xtech.nikkei.com",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2390,21 +2259,6 @@
    "summary_ja": "CooleyはChatGPT Workを活用した「GO Public」を構築し、IPOプロセスの効率化と弁護士の重要な判断への集中を支援している。"
   },
   {
-   "id": "a611c4652b90",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Torsion creditors set to lose out on £20m",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/torsion-creditors-set-to-lose-out-on-20m-17-09-2026/",
-   "published": "2026-09-17T11:45+00:00",
-   "published_jst": "2026-09-17 20:45",
-   "summary": "Torsion Construction collapsed owing £20m to unsecured creditors, according to administrators. The Leeds-headquartered contractor went under in July, blaming challenging trading conditions. A new report published on Companies House by administrators at Interpath revealed that it owed £20m to unsecur",
-   "ai_related": false,
-   "title_ja": "Torsionの債権者、2,000万ポンドの損失見込み",
-   "summary_ja": "経営破綻したTorsion Constructionは、無担保債権者に対して2,000万ポンドの負債を抱えていたことが判明した。"
-  },
-  {
    "id": "a885a0643b1c",
    "source": "Global Construction Review",
    "source_id": "gcr",
@@ -2447,7 +2301,7 @@
   },
   {
    "id": "eb5ac4c29d80",
-   "source": "topics.smt.docomo.ne.jp",
+   "source": "ｄメニューニュース",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2656,7 +2510,7 @@
   },
   {
    "id": "933698098567",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2695,7 +2549,7 @@
   },
   {
    "id": "cbc554ef0fd4",
-   "source": "news.livedoor.com",
+   "source": "ライブドアニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2760,7 +2614,7 @@
   },
   {
    "id": "7eb4a374de2b",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
