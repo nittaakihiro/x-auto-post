@@ -1,20 +1,67 @@
 {
- "generated_at": "2026-09-19T09:44+00:00",
- "generated_at_jst": "2026-09-19 18:44",
+ "generated_at": "2026-09-19T11:56+00:00",
+ "generated_at_jst": "2026-09-19 20:56",
  "window_hours": 48,
  "counts": {
-  "ai_global": 65,
+  "ai_global": 63,
   "ai_japan": 40,
-  "construction_global": 34,
-  "construction_japan": 40
+  "construction_global": 21,
+  "construction_japan": 38
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "hn_top",
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "b91e65ab2a8b",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google Deepmind's Dream-RSI helps AI agents improve by “dreaming” about past attempts",
+   "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts/",
+   "published": "2026-09-19T11:08+00:00",
+   "published_jst": "2026-09-19 20:08",
+   "summary": "Google and Deepmind's Dream-RSI lets AI agents \"dream\" through past search runs to test new strategies without costly recalculations. In tests, it matched or beat existing results, cutting iterations by a factor of up to 2.43. Only the search strategy adapts, while the underlying AI model stays unch",
+   "ai_related": true
+  },
+  {
+   "id": "791df1ea032d",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "VRAM容量32GBで30万円未満なIntelグラボ「Intel Arc Pro B70 Creator 32GB」でローカルLLM「Qwen3.8 27B」や動画生成AI「MiniMax H3」を実行して生成速度を確かめてみた",
+   "url": "https://gigazine.net/news/20260919-arc-pro-b70-llm-review/",
+   "published": "2026-09-19T11:00+00:00",
+   "published_jst": "2026-09-19 20:00",
+   "summary": "大規模言語モデル(LLM)や画像・動画生成AIを高速実行するにはモデル全体を高速なVRAMに収める必要があります。しかし、AI需要に伴うグラフィックボードの価格高騰によって、VRAM容量32GBのNVIDIA GeForce RTX 5090は100万円を超えるようになってしまいました。一方で、Intel製GPU「Intel Arc Pro B70」を搭載したVRAM容量32GBのASRock製グラフィックボード「Intel Arc Pro B70 Creator 32GB」は30万円以下で購入可能。そんなIntel Arc Pro B70 Creator 32GBを実際に購入したので、LLM",
+   "ai_related": true
+  },
+  {
+   "id": "b7b83994b4c2",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI conference ICLR is drowning in abstracts, with roughly 50,000 submissions before the deadline",
+   "url": "https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/",
+   "published": "2026-09-19T10:37+00:00",
+   "published_jst": "2026-09-19 19:37",
+   "summary": "ICLR 2027 has already pulled in about 50,000 abstracts, up from 19,500 at ICLR 2026. The flood is driven by the AI hype, corporate pay tied to publication records, and above all, AI making it faster to crank out papers. That's only going to worsen existing quality problems with submissions and revie",
+   "ai_related": true
+  },
   {
    "id": "93d855d397e5",
    "source": "The Decoder",
@@ -337,6 +384,19 @@
    "summary_ja": "資金と話題性に満ちるワールドモデル業界だが、関係者は開発内容について一切語ろうとしない。"
   },
   {
+   "id": "2b5569390278",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米国で300件超のデータセンター建設凍結、実際に遅延したのはわずか3件——SemiAnalysis調査",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrdlRqc3JBQXNub2FsVXhOZThJVndHUkNIeFFoUHBvdGdibFJMZFlLV2tEekpOSU5lbEp6QWxyVXlVdXRTSnViN2pTLWp5NlVhTkRSVW9ManFpdw?oc=5",
+   "published": "2026-09-18T20:08+00:00",
+   "published_jst": "2026-09-19 05:08",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "e3a679911242",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -410,6 +470,19 @@
    "ai_related": true,
    "title_ja": "バージニア州知事がAIタスクフォースを設立しデータセンターを規制",
    "summary_ja": "スパングラスバーグ知事は、地元住民がデータセンター開発に関与しやすくし、承認手続きを遅らせる措置を命じた。"
+  },
+  {
+   "id": "f21c3f3fbc7e",
+   "source": "Excite エキサイト",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【開催報告】何にAIを使い、何に既存システム（SaaS）を使うか--現役工務店LIFEFUNDとSaaS企業ダイテックが本音で対談。建築業の答えは「対立」ではなく「二刀流の共存」",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FWGd1bzBYYkRYbUNnb2htNjVhcU0ySGdDeDl5WUdPZy1nZkdNOHBnODltVUZBZHVGWHE0LVdybHBwVjlQTTFvTHlGemR0X1RFUUdXSTZ4U0c0cUJmOVVXR3hpNl9kLW1ETDN2MnFHYjcteUx1SHc?oc=5",
+   "published": "2026-09-18T18:10+00:00",
+   "published_jst": "2026-09-19 03:10",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "13515f2f4514",
@@ -558,21 +631,6 @@
    "published_jst": "2026-09-19 01:49",
    "summary": "AIエージェントの検証を始めたものの、半年経っても本番導入に進めず、難しいと感じている方は少なくないでしょう。 AIエージェントが難しいのは技術が未熟だからではなく、難しさが導入・開発・運用の3段階に分かれていて、自社が... The post AIエージェントが難しい理由と難易度を下げる導入ステップを解説 first appeared on AI専門ニュースメディア AINOW .",
    "ai_related": true
-  },
-  {
-   "id": "6938c90513a4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Reds10 launches affordable housing development arm",
-   "url": "https://www.constructionnews.co.uk/tech/reds10-launches-affordable-housing-development-arm-18-09-2026/",
-   "published": "2026-09-18T16:40+00:00",
-   "published_jst": "2026-09-19 01:40",
-   "summary": "Reds10 has launched a residential development business to deliver affordable housing using its factory-built construction model. Reds10 Developments is already on site with Raven Housing Trust in Merstham, Surrey, on a 100 per cent affordable housing scheme and has identified a number of other sites",
-   "ai_related": true,
-   "title_ja": "Reds10が手頃な価格の住宅開発部門を設立",
-   "summary_ja": "工場生産の建築モデルを活用し、手頃な価格の住宅を供給する住宅開発事業を新たに立ち上げました。"
   },
   {
    "id": "21ded5da2f91",
@@ -846,8 +904,8 @@
   },
   {
    "id": "70fa169943d0",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
+   "source": "news.infoseek.co.jp",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "【開催報告】何にAIを使い、何に既存システム（SaaS）を使うか--現役工務店LIFEFUNDとSaaS企業ダイテックが本音で対談。建築業の答えは「対立」ではなく「二刀流の共存」｜Infoseekニュース",
@@ -929,81 +987,6 @@
    "summary_ja": "元請け企業の承認リストに載ることは重要だったが、専門家はAIがその状況を変えつつあると警告している。"
   },
   {
-   "id": "f6e6ae2c95c4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fatal tower fire came day after 31-week BSR approval wait",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/fatal-tower-fire-came-day-after-31-week-bsr-approval-wait-18-09-2026/",
-   "published": "2026-09-18T11:56+00:00",
-   "published_jst": "2026-09-18 20:56",
-   "summary": "An application for fire-safety remediation at an east London high-rise was approved one day before a fatal blaze last weekend, after spending 31 weeks with the Building Safety Regulator (BSR). A man died in the fire at Neutron Tower, a 22-storey residential block on Blackwall… The post Fatal tower f",
-   "ai_related": false,
-   "title_ja": "高層ビルの火災、安全規制当局の承認待ちの翌日に発生",
-   "summary_ja": "東ロンドンの高層ビルで、建築安全規制当局に31週間係属した後、火災対策が承認された翌日に致命的な火災が発生しました。"
-  },
-  {
-   "id": "5c6cb0163e60",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction insolvencies fall 20% in August",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/construction-insolvencies-fall-20-in-august-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "Construction company insolvencies fell by a fifth in August, although longer-term figures showed increases in building and civil engineering failures. There were 294 construction business insolvencies recorded last month, according to Insolvency Service data – down 20 per cent from an upwardly revis",
-   "ai_related": false,
-   "title_ja": "8月の建設業倒産件数が20%減少",
-   "summary_ja": "8月の建設会社の倒産件数は2割減少したものの、長期的な統計では建築および土木分野の倒産増加が示されています。"
-  },
-  {
-   "id": "ff8c5dad4003",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Jerram Falkus subcontractors may get payout",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/jerram-falkus-subcontractors-may-get-payout-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "Trade creditors may be paid some of what they are owed by Jerram Falkus Construction, according to a new report by administrators. The main contractor, which had headquarters in Shoreditch, east London, was in the process of being wound down when a cashflow crisis forced… The post Jerram Falkus subc",
-   "ai_related": false,
-   "title_ja": "Jerram Falkusの下請け業者に支払いの可能性",
-   "summary_ja": "管理職の新しい報告書によると、一般債権者は未払金の一部を受け取れる可能性があるとのことです。"
-  },
-  {
-   "id": "aa36e839b00b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Profit jumps 78% at H&V Engineering Services",
-   "url": "https://www.constructionnews.co.uk/financial/profit-jumps-78-at-hv-engineering-services-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "H&MV Engineering Services has reported a 78 per cent rise in pre-tax profit as turnover increased by more than a third. The high-voltage electrical contractor, which is majority-owned by London-based private equity firm Exponent, posted a pre-tax profit of £8.7m for the year to 31… The post Profit j",
-   "ai_related": false,
-   "title_ja": "H&V Engineering Servicesの利益が78%増",
-   "summary_ja": "売上高が3分の1以上増加し、税引前利益が78%増となったことを発表しました。"
-  },
-  {
-   "id": "d99322965c47",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "42 leading mathematicians warn that AI existential risk is real and urgent",
-   "url": "https://the-decoder.com/42-leading-mathematicians-warn-that-ai-existential-risk-is-real-and-urgent/",
-   "published": "2026-09-18T11:41+00:00",
-   "published_jst": "2026-09-18 20:41",
-   "summary": "42 Fellows of the Royal Society, including Fields Medal winners Martin Hairer and Peter Scholze, warn of existential AI risks in an open letter. Leading models have solved open research problems within months, and these capabilities could be just as effective in cyberweapons or bioweapons. By the ti",
-   "ai_related": true,
-   "title_ja": "一流数学者42人がAIの存亡に関わるリスクを警告",
-   "summary_ja": "フィールズ賞受賞者を含む王立協会フェロー42人が公開書簡でAIの存亡リスクを警告。AIモデルは数か月で難問を解決しており、そのリスクは差し迫っている。"
-  },
-  {
    "id": "045b0f05621a",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1073,21 +1056,6 @@
    "ai_related": true
   },
   {
-   "id": "9178199567ec",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Newham tests market for £416m housing works programme",
-   "url": "https://www.constructionnews.co.uk/civils/newham-tests-market-for-416m-housing-works-programme-18-09-2026/",
-   "published": "2026-09-18T10:41+00:00",
-   "published_jst": "2026-09-18 19:41",
-   "summary": "Newham Council has begun market engagement for a housing repairs and investment programme worth up to £416m. The east London authority said the programme could cover repairs, maintenance, compliance, building safety, planned investment, major repairs, adaptations, voids and asset improvements. Its p",
-   "ai_related": false,
-   "title_ja": "Newham、4億1600万ポンドの住宅工事計画で市場調査",
-   "summary_ja": "最大4億1600万ポンド規模の住宅修理・投資計画に向けて、市場との対話を開始したと発表しました。"
-  },
-  {
    "id": "db03597fb372",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -1105,7 +1073,7 @@
   {
    "id": "5088ca3f741c",
    "source": "liv-plus.jp",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建築確認のBIMデータ審査へ基本構想策定、2029年春導入とAI活用視野に効率化目指す",
@@ -1116,23 +1084,8 @@
    "ai_related": true
   },
   {
-   "id": "01661ddef7cd",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "US and China experts push for shared rules banning AI control over nuclear weapons",
-   "url": "https://the-decoder.com/us-and-china-experts-push-for-shared-rules-banning-ai-control-over-nuclear-weapons/",
-   "published": "2026-09-18T09:37+00:00",
-   "published_jst": "2026-09-18 18:37",
-   "summary": "Experts from the US and China want to prevent AI systems from making autonomous decisions about deploying nuclear weapons. The article US and China experts push for shared rules banning AI control over nuclear weapons appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "米中専門家、核兵器のAI制御禁止で共通ルール要請",
-   "summary_ja": "米中の専門家らは、AIシステムが核兵器の配備に関して自律的な決定を下すことを防ぎたいと考えている。"
-  },
-  {
    "id": "bb7ce895844e",
-   "source": "Yahoo!ニュース",
+   "source": "news.yahoo.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1185,19 +1138,17 @@
    "ai_related": true
   },
   {
-   "id": "5eb7e0e09754",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sizewell C gets green light for 38,500-segment tunnel factory",
-   "url": "https://www.constructionnews.co.uk/civils/sizewell-c-gets-green-light-for-38500-segment-tunnel-factory-18-09-2026/",
-   "published": "2026-09-18T07:51+00:00",
-   "published_jst": "2026-09-18 16:51",
-   "summary": "Sizewell C has secured planning permission for an Avonmouth factory that will manufacture 38,500 concrete segments for the nuclear power station’s three marine tunnels. The facility at Bristol Port will support up to 400 jobs and reuse infrastructure previously used to produce tunnel components for…",
-   "ai_related": false,
-   "title_ja": "Sizewell C、海底トンネル用工場計画が承認",
-   "summary_ja": "原子力発電所の3本の海底トンネル向けコンクリートセグメントを製造する工場の計画が承認されました。"
+   "id": "003c8d95557a",
+   "source": "ｄメニューニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "リコー、インクジェット事業強化へ厚木に新棟建設",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQakVkVU1RamRiZ0pVX2R2TnhpNzBZNHNTcTA5SFVPWl9ncE9aWFduSkhIVTlsOS1CSzhUSjZqaXh4X0gwMFZIbFBINFhpRFM2dkhtS19aN212RnVBWmdIRlpPMXhTY1RYelFlZHF1bzkwSWJPTjVMbTRCXzd1RUJtTGlScTBmNXB0VkxrZWlvU3dpWVE3bmhJQnhhMk1XanpiQVRoX3EwMVpFU3hqdFQ3WF9qNzYyRmRUeTdJdGdCQ1hVNTg0Z3JGUHptakR5VHZ50gGAAUFVX3lxTFBCdHNUNUg2UHRSOHdCSnNHdmZZR0hNXzRLUkFrTUZmVldvTGIzbWFMQU1aR0FEN2JDRWMxTUprNkFzdi1NSV9XWVA1VzFCcl9ydTFFaUhqbk5MdGtsSmEyM3gxVm8tOU1RQnpfMlliSDVjQktBUlk2OV85VDdWNkJI?oc=5",
+   "published": "2026-09-18T07:48+00:00",
+   "published_jst": "2026-09-18 16:48",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "ea7dc6eec3b5",
@@ -1240,7 +1191,7 @@
   },
   {
    "id": "6c89dcdcf1ba",
-   "source": "biz.chosun.com",
+   "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1323,6 +1274,19 @@
    "summary_ja": "マーク・ウォルバーソン氏が北東部における建設デリバリーを率いることに。"
   },
   {
+   "id": "c6a12bd7a774",
+   "source": "ｄメニューニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "JPモルガン・アセット・マネジメント株式会社が五洋建設株式会社＜1893＞株式の大量保有報告書を提出",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTmwyWTZoeldLUUdRRk5pTTlPcEd3cm96ck13aWRmODBIODlqclliTzNhUzRRMUhxRm4yN1hVZzd1ODNUY0xPOERFMllqSEZJRmdDY09acjdValdaYVpMS09NYWtob1Q5bXdrZG1vYmplUC1tT3JEdGR1S1V2a254aWlUenVhU1hod0HSAYoBQVVfeXFMT05sMlk2aHpXS1FHUUZOaU05T3BHd3JvenJNd2lkZjgwSDg5anJZYk8zYVM0UTFIcUZuMjdYVWc3dTgzVGNMTzhERTJZakhGSUZnQ2NPWnI3VWpXWmFaTEtPTWFraG9UOW13a2Rtb2JqZVAtbU9yRHRkdUtVdmtueGlpVHp1YVNYaHdB?oc=5",
+   "published": "2026-09-18T06:35+00:00",
+   "published_jst": "2026-09-18 15:35",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "3ab4ee933b3d",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1379,32 +1343,6 @@
    "ai_related": true
   },
   {
-   "id": "ffc6cc826396",
-   "source": "biz.chosun.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "GSがトンヘでAIデータセンター建設 石炭火力稼働率上昇見込む - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd0E0SFBUd2lNc1JqX0dwdVJleFMxbmdaYUVJZFNWUjFfQUE0R2FGRWZwMkdtbHpkb2JUMWhLMW5PNTNwUnBBWUg1NWhyTW1jSHlaeUNBUDVKeXAtMTR2YURHOGNRTnFVNldBeVFpNHNwSDQtR3BuMUJ6bnNoVmFiWmx30gGWAUFVX3lxTE5OYmVlZ1IzbGlQUUlIM3doRXNyejRJTHk4SzFLSi1Ibk5WZFk0aTBsNDJkeGJqY2k1aml5UTFZMHJxSXF4Q25WOEhoSG9ERkg4QmVkMTJaUnYyOUF2SDhSaTVndEtBRElsY2p2SU9wNlNENmtpcEpMbnhldXZSYWN1RTNPOGgzRUxoSVYxRDAwZUY3X3hVZw?oc=5",
-   "published": "2026-09-18T05:40+00:00",
-   "published_jst": "2026-09-18 14:40",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "a4a8a0ebbb64",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【JPIセミナー】大成建設（株）「BIM・データ活用をDXからAXへつなぐ建築生産プロセス変革の実践」10月13日(火)開催",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12NndMTktydzB1Ni13NXMzQTB3WmhhSm1RZVMwem1pYzFHYjNqXy1ZSThDMTVySS1NenR3dWlNOS1SUzN0RTlWdWNKVnRIdmR0bXZpS216bGtTbFlvNWU1YUpnT0pxZmh0RWc?oc=5",
-   "published": "2026-09-18T05:40+00:00",
-   "published_jst": "2026-09-18 14:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "2064348f09c3",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1419,7 +1357,7 @@
   },
   {
    "id": "d297d5546533",
-   "source": "biz.chosun.com",
+   "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1483,17 +1421,17 @@
    "ai_related": true
   },
   {
-   "id": "244642d3c69a",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
+   "id": "7b9f312fe9df",
+   "source": "news.infoseek.co.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
    "lang": "ja",
-   "title": "Apple Watch Ultra 4速攻フォトレビュー、ヘルスケアセンサーが刷新された上位モデルの外観をチェック",
-   "url": "https://gigazine.net/news/20260918-apple-watch-ultra-4-appearances/",
-   "published": "2026-09-18T03:25+00:00",
-   "published_jst": "2026-09-18 12:25",
-   "summary": "Apple Watchのアウトドア特化型上位モデル「Apple Watch Ultra」シリーズから、センサーが刷新されてAIによる音声認識「Audio Intelligence」にも対応した「Apple Watch Ultra 4」が2026年9月18日(金)に登場したので、さっそく購入してまずはその外見をチェックしてみました。 続きを読む...",
-   "ai_related": true
+   "title": "リコー、インクジェット事業の成長加速に向け、厚木事業所に新棟を建設｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SMDdkZFcxRDhmMmJlZWZwWlU4MUpxMDBhMnpjYzdaQ2xKVHBXV2FxdXIxXzdhaTNrcGpzd0FENTdlM3hieFdXaUl4STdhWC11LUJzeFBUNHZQWEp1dzJ0a01VVGdHVFRNdjFiZTRn?oc=5",
+   "published": "2026-09-18T04:00+00:00",
+   "published_jst": "2026-09-18 13:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "a677e13023be",
@@ -1574,21 +1512,6 @@
    "ai_related": false
   },
   {
-   "id": "635b267ac04d",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
-   "url": "https://cactuscompute.com/needle",
-   "published": "2026-09-18T00:11+00:00",
-   "published_jst": "2026-09-18 09:11",
-   "summary": "Hey HN, Henry from Cactus here. We submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to move quickly to release Needle 3 and I'd love to hear what you think again. The key features: 1) Auto",
-   "ai_related": true,
-   "title_ja": "Show HN: 軽量な自動化モデルCactus Needle 3が登場",
-   "summary_ja": "8〜29MBの自動化モデルでDeepSeek V4 Flashに匹敵する性能を持つ「Cactus Needle 3」を発表。"
-  },
-  {
    "id": "0e2847526113",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1613,19 +1536,6 @@
    "published_jst": "2026-09-18 09:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "f727456c65c4",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【開催報告】何にAIを使い、何に既存システム（SaaS）を使うか——現役工務店LIFEFUNDとSaaS企業ダイテックが本音で対談。建築業の答えは「対立」ではなく「二刀流の共存」 | 株式会社LIFEFUNDのプレスリリース",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03ZTRTT1o4SGZQOHlNOEYtS0Z0akY2Um1PdkpxT3YyeWJZenUzbUpDeWY2VGFkal9sa24zdERpX1A3Ry1UVzlzQ3djY0Rsak5oeG8tV3pLUTY3azZLWTNZWnZ2QXF5SEUzVkE?oc=5",
-   "published": "2026-09-18T00:00+00:00",
-   "published_jst": "2026-09-18 09:00",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "acc67ef32e42",
@@ -1738,21 +1648,6 @@
    "published_jst": "2026-09-18 08:00",
    "summary": "資生堂ジャパンは研究開発領域にAIエージェントを導入し、膨大な候補から有望な原料を見極める研究員の「目利き」を再現した。探索時間が縮んだだけでなく、提案される原料の数も増えた。同社はエージェントを「誰が作るか」でも作り分けている。",
    "ai_related": true
-  },
-  {
-   "id": "9a4cc49ad541",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon brings back Wates director to lead £58m North East workload",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/willmott-dixon-brings-back-wates-director-to-lead-58m-north-east-workload-17-09-2026/",
-   "published": "2026-09-17T22:36+00:00",
-   "published_jst": "2026-09-18 07:36",
-   "summary": "Willmott Dixon has appointed former Wates operations director Mark Wolverson to lead delivery of £58m of projects across the North East. Wolverson has returned to the contractor after spending 14 of his 16 years in construction with the business, most recently running its North East… The post Willmo",
-   "ai_related": true,
-   "title_ja": "Willmott Dixon、元Watesのディレクターを起用",
-   "summary_ja": "北東部における5800万ポンド規模のプロジェクトを統括するため、Mark Wolversonを起用しました。"
   },
   {
    "id": "7d43b8ef46fd",
@@ -1887,21 +1782,6 @@
    "ai_related": true
   },
   {
-   "id": "92da7fae00b8",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How to Write with an LLM",
-   "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-   "published": "2026-09-17T21:48+00:00",
-   "published_jst": "2026-09-18 06:48",
-   "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 486 # Comments: 325",
-   "ai_related": true,
-   "title_ja": "LLMを使った文章の書き方",
-   "summary_ja": "大規模言語モデル（LLM）を活用して効率的かつ効果的に文章を執筆するための手法を紹介。"
-  },
-  {
    "id": "d35312f84a65",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1941,21 +1821,6 @@
    "published_jst": "2026-09-18 06:44",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "829f7191993a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Cardo pre-tax profit rises 88% as turnover hits £239m",
-   "url": "https://www.constructionnews.co.uk/financial/cardo-pre-tax-profit-rises-88-as-turnover-hits-239m-17-09-2026/",
-   "published": "2026-09-17T21:21+00:00",
-   "published_jst": "2026-09-18 06:21",
-   "summary": "Cardo Group has nearly doubled pre-tax profit in a year when a string of acquisitions helped lift turnover by 65% to £239m. The social housing maintenance contractor posted statutory pre-tax profit of £9.5m for the year to 28 February 2026, up 88% from £5.0m a… The post Cardo pre-tax profit rises 88",
-   "ai_related": false,
-   "title_ja": "Cardoの税引前利益が88%増、売上高は2億3900万ポンド",
-   "summary_ja": "買収の効果により売上高が65%増加し、税引前利益がほぼ倍増しました。"
   },
   {
    "id": "8e6d627198ff",
@@ -2150,13 +2015,13 @@
    "ai_related": false
   },
   {
-   "id": "5e23fe93e58a",
+   "id": "e42781866f57",
    "source": "日経クロステック",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "住宅ロボがしょうゆを片付けTシャツ畳む、MWがデモ公開 28年発売へ",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcUdkQVN6clN1dFpOMm15dkJ0bURuMy1icDBMdXJHZHBfMm1nODJMbDJTZ0UxcEhmVGhxc2p3Q1EwTUJlTlFvMk1rSDJka1NwTmlJbFFsd1ZmbFdXalZ6dU5VSDRvaDdwSWhmUjJHTTRUWGctNmNielZMU3psaWNqS1d2czI3dFBGN3RIREE2QQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pMlJId1lWcFlnV2s1STE2eTA3SGx3Vk5wUlozdlA4Sno1OERnSWVOeDdoU3VPLWtDWGp2UjBLNWhrd3pSTm56SVhEc2NIRHphUVBxdGVKeldjbVNSM1NJWklqNjRqbU0?oc=5",
    "published": "2026-09-17T20:00+00:00",
    "published_jst": "2026-09-18 05:00",
    "summary": "",
@@ -2220,7 +2085,7 @@
   },
   {
    "id": "a4acbeb72839",
-   "source": "Infoseek",
+   "source": "news.infoseek.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2423,118 +2288,6 @@
    "ai_related": true,
    "title_ja": "Cooley、ChatGPTでIPO業務を効率化する方法",
    "summary_ja": "CooleyはChatGPT Workを活用した「GO Public」を構築し、IPOプロセスの効率化と弁護士の重要な判断への集中を支援している。"
-  },
-  {
-   "id": "a611c4652b90",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Torsion creditors set to lose out on £20m",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/torsion-creditors-set-to-lose-out-on-20m-17-09-2026/",
-   "published": "2026-09-17T11:45+00:00",
-   "published_jst": "2026-09-17 20:45",
-   "summary": "Torsion Construction collapsed owing £20m to unsecured creditors, according to administrators. The Leeds-headquartered contractor went under in July, blaming challenging trading conditions. A new report published on Companies House by administrators at Interpath revealed that it owed £20m to unsecur",
-   "ai_related": false,
-   "title_ja": "Torsionの債権者が2万ポンドの損失見込み",
-   "summary_ja": "管理職の報告によると、破綻したTorsion Constructionの無担保債権者が多額の負債を抱える見通しです。"
-  },
-  {
-   "id": "a885a0643b1c",
-   "source": "Global Construction Review",
-   "source_id": "gcr",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Former Amazon Robotics executives take on house-building",
-   "url": "https://www.globalconstructionreview.com/former-amazon-robotics-executives-take-on-house-building/",
-   "published": "2026-09-17T11:27+00:00",
-   "published_jst": "2026-09-17 20:27",
-   "summary": "Robotic home-builder Reframe Systems, a company founded by former Amazon Robotics executives, will use a new $40m tranche of equity financing to build a second automated component factory in Massachusetts.… The post Former Amazon Robotics executives take on house-building appeared first on Global Co",
-   "ai_related": true,
-   "title_ja": "元Amazonロボティクス幹部が住宅建設に参入",
-   "summary_ja": "Reframe Systemsが4,000万ドルを調達し、マサチューセッツ州に2つ目の自動化部品工場を建設へ。"
-  },
-  {
-   "id": "f7bc6b0e8bdd",
-   "source": "HOME広島ホームテレビ",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "高校生が最新の無人施工技術を見学 AI活用で重機2台を遠隔操作",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tekM2SDdxRU5hZ3gyOEtlODlfbndBc0JicXFpTjA2VEN2TFNHdE5oRnJEaEpNWUR6cEk5ZHVfdmlOZmRyd0ZvSHYyV3dwUjhRbVdyREdsTy1mREJnckVuVzlOVjFPRVdyMW1JcTNEUQ?oc=5",
-   "published": "2026-09-17T10:45+00:00",
-   "published_jst": "2026-09-17 19:45",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "6c13d27f8909",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "高校生が最新の無人施工技術を見学 AI活用で重機2台を遠隔操作（HOME広島ホームテレビ）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wSEp5Y1lwTzBfNWk5TkJZNWJ0RVViTHd6eXhhLW5EM1E4bHplVk43VFV3R2tPQzFCSjFhcFRydzVnSFotNG1rNi1sbTF2OEs0bExXejY5LWxnQWd6TEs1VDRWV0xhVnd5OEFzZXIzRFhGLWRwR01lTS1oTk00RDg?oc=5",
-   "published": "2026-09-17T10:45+00:00",
-   "published_jst": "2026-09-17 19:45",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "b97707112b71",
-   "source": "Global Construction Review",
-   "source_id": "gcr",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bouygues subsidiary overhauls major Ivory Coast hospital",
-   "url": "https://www.globalconstructionreview.com/bouygues-subsidiary-overhauls-major-ivory-coast-hospital/",
-   "published": "2026-09-17T10:32+00:00",
-   "published_jst": "2026-09-17 19:32",
-   "summary": "Setao, a local subsidiary of Bouygues Construction, has won a €95m, second-stage contract from the Ivory Coast’s ministry of public hygiene to overhaul Yopougon University Hospital in Abidjan. In July,… The post Bouygues subsidiary overhauls major Ivory Coast hospital appeared first on Global Constr",
-   "ai_related": false,
-   "title_ja": "ブイグ子会社、コートジボワールの巨大病院を改修",
-   "summary_ja": "ブイグ・コンストラクションの現地子会社Setaoが、アビジャンの大学病院改修に向けた9,500万ユーロの契約を獲得。"
-  },
-  {
-   "id": "0d2e962d2ff2",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Two-Way Smart Radios for Every Construction Worker on a Jobsite Advances Communication Practices and Productivity",
-   "url": "https://constructionexec.com/article/two-way-smart-radios-for-every-construction-worker-on-a-jobsite-advances-communication-practices-and-productivity/?utm_source=rss&utm_medium=rss&utm_campaign=two-way-smart-radios-for-every-construction-worker-on-a-jobsite-advances-communication-practices-and-productivity",
-   "published": "2026-09-17T10:00+00:00",
-   "published_jst": "2026-09-17 19:00",
-   "summary": "Contractors who move to a universal communication device strategy have described the impact the same way: they finally see a version of their projects they never had access to before. The post Two-Way Smart Radios for Every Construction Worker on a Jobsite Advances Communication Practices and Produc",
-   "ai_related": false,
-   "title_ja": "スマート無線機が建設現場のコミュニケーションを改善",
-   "summary_ja": "汎用通信デバイスへの移行により、施工管理者はかつてないプロジェクトの全体像を把握できるようになっている。"
-  },
-  {
-   "id": "94ff91546db1",
-   "source": "biz.chosun.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "DL建設の内浦新都市工事で作業員死亡 - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMC1ON0hadjNWTXVFWGhlbGxyWkxvek13bkxUbWdsZDhhSWh1c0tlb042SExmTnByNVgwVV9sRWhrWjVzLTdqb2VYU1FtaGFIWU12eW45T2thNDBYbHZkTkpfNURuWldmNjdBZEphTzRwMHJsZFZfT18waFB2ZVJmUWRuYVDSAZgBQVVfeXFMUF9RaWp0LXNkaDctd3Q3VXhuZEoxYXJqelNFdUJuaFRDeVpQVUlRNWhmZzByOVIxdnBLWW1ZNThjUVF4RlcyanNfak44b1Zjc1dUUXdzUG5CTzNUWmNLOXlFU1NHVzhpYnZwSmJ6MUFTNGZlT2EtT19nSjY5ZHZ3bElYekVPSUJDd01jOFA1a0x4dzJmanZXcWk?oc=5",
-   "published": "2026-09-17T09:52+00:00",
-   "published_jst": "2026-09-17 18:52",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "be45f3bb58bf",
-   "source": "au Webポータル",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "《2028年秋開業予定》外資系ホテル「マリオット高知」建設が本格化【高知】",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xR0NMQXJ5U05QV2d3bUljdHd2MjBvdjVLU2taUzZxblBzcklhTDlOTnpHVkJNT1gtbnEtei1zd1VvdFBOZWFoYlN4ZHdEcEpRWWt6bnRhZFduU0JIb01pa1ZhemNYd2EySTBya1IxN3d1RDBKeUNGcg?oc=5",
-   "published": "2026-09-17T09:52+00:00",
-   "published_jst": "2026-09-17 18:52",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
