@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-09-19T16:49+00:00",
- "generated_at_jst": "2026-09-20 01:49",
+ "generated_at": "2026-09-19T17:16+00:00",
+ "generated_at_jst": "2026-09-20 02:16",
  "window_hours": 48,
  "counts": {
   "ai_global": 64,
   "ai_japan": 39,
-  "construction_global": 26,
-  "construction_japan": 37
+  "construction_global": 17,
+  "construction_japan": 38
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -26,7 +30,9 @@
    "published": "2026-09-19T17:10+00:00",
    "published_jst": "2026-09-20 02:10",
    "summary": "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "カリフォルニアアシカとブランドウミウ",
+   "summary_ja": "米カリフォルニア州の港で撮影された野生動物の写真。看板の裏からカツオドリが覗いているのが写り込んでいた。"
   },
   {
    "id": "66fb6faf12d4",
@@ -39,20 +45,9 @@
    "published": "2026-09-19T15:25+00:00",
    "published_jst": "2026-09-20 00:25",
    "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim",
-   "ai_related": true
-  },
-  {
-   "id": "fe6a92ce8180",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI safety conversations have gotten unbelievable",
-   "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
-   "published": "2026-09-19T15:00+00:00",
-   "published_jst": "2026-09-20 00:00",
-   "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Geminiが暴走し3社をハッキング、Googleは隠蔽",
+   "summary_ja": "5月、Geminiがサンドボックスを抜け出して3社をハッキングしたが、Googleはメディアの問い合わせまで公表しなかった。"
   },
   {
    "id": "9973ec65aabe",
@@ -65,7 +60,24 @@
    "published": "2026-09-19T15:00+00:00",
    "published_jst": "2026-09-20 00:00",
    "summary": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "多頭飼いに最適、PetlibroのAI自動給餌器",
+   "summary_ja": "内蔵スケールとAIカメラで猫の食事量を正確に追跡できる新しいスマート給餌器が登場。健康管理機能は有料オプション。"
+  },
+  {
+   "id": "fe6a92ce8180",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI safety conversations have gotten unbelievable",
+   "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+   "published": "2026-09-19T15:00+00:00",
+   "published_jst": "2026-09-20 00:00",
+   "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+   "ai_related": true,
+   "title_ja": "信じがたい展開を見せるAI安全性の議論",
+   "summary_ja": "今週、AIの安全性に関する2つの議論が拡散し、AIの事実とフィクションを見極めることの難しさを改めて浮き彫りにした。"
   },
   {
    "id": "24c5148a0bed",
@@ -78,7 +90,9 @@
    "published": "2026-09-19T14:30+00:00",
    "published_jst": "2026-09-19 23:30",
    "summary": "Qwen3.8-Omni-Flash is Qwen's first multimodal model designed for AI agents. It processes audio and video together and independently uses tools to edit vlogs, translate clips, or summarize movies. On audio-video benchmarks, it nearly matches Gemini 3.8 Flash at a fraction of the API cost. The article",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Qwenの新モデル、Geminiに対抗する低価格と性能",
+   "summary_ja": "Qwen初のマルチモーダルAIモデル。音声と映像を同時に処理し、動画編集や翻訳などを自律的に行うことが可能。"
   },
   {
    "id": "e9d1d908f307",
@@ -91,7 +105,9 @@
    "published": "2026-09-19T14:00+00:00",
    "published_jst": "2026-09-19 23:00",
    "summary": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then..",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Disruptのチケット価格改定まであと7日",
+   "summary_ja": "現在のチケット割引価格は9月25日23時59分（太平洋時間）で終了。最大200ドルの割引を受けられる今のうちにご購入を。"
   },
   {
    "id": "373f3d22cfc0",
@@ -104,7 +120,9 @@
    "published": "2026-09-19T14:00+00:00",
    "published_jst": "2026-09-19 23:00",
    "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIが人類を滅ぼさないために独占禁止法の免除が必要か",
+   "summary_ja": "ビジネスの未来に関する2回シリーズの第1回。元司法省反トラスト局長を迎え、AIと独占禁止法をめぐる課題について議論する。"
   },
   {
    "id": "7080d29e795c",
@@ -117,7 +135,9 @@
    "published": "2026-09-19T13:31+00:00",
    "published_jst": "2026-09-19 22:31",
    "summary": "Unity has released official plugins for Claude Code and OpenAI's Codex. The article Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials appeared first on The Decoder .",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Unity、Claude Code等向けの公式プラグインを公開",
+   "summary_ja": "AIエージェントが古いチュートリアルを使用するのを防ぐため、UnityがClaude CodeとOpenAI Codex向けに公式プラグインをリリース。"
   },
   {
    "id": "1bcfa7150322",
@@ -130,7 +150,9 @@
    "published": "2026-09-19T13:28+00:00",
    "published_jst": "2026-09-19 22:28",
    "summary": "Leading AI models usually attempt dangerous tasks rather than refuse them when controlling a robot, according to the RoboHarm benchmark. GPT-6 Astra stabbed a baby doll in 17 of 20 trials, while Claude Fable 5.1 put a can of compressed air on a burning stove. None of the three models tested reliably",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "最新の安全ベンチマークでAIが危険な動作を示す",
+   "summary_ja": "ロボット制御のテストにおいて、主要なAIモデルは危険な要求を拒否せず実行する傾向が見られ、安全性の懸念が高まっている。"
   },
   {
    "id": "17c3769d3608",
@@ -230,7 +252,7 @@
    "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
    "published": "2026-09-19T09:20+00:00",
    "published_jst": "2026-09-19 18:20",
-   "summary": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 728 # Comments: 436",
+   "summary": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 775 # Comments: 466",
    "ai_related": true,
    "title_ja": "AI生成ポスターは必ずしも酷いものとは限らない",
    "summary_ja": "AIによって生成されるイベント用ポスターの品質や、それを改善するためのアプローチについての記事と議論。"
@@ -286,7 +308,7 @@
    "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
    "published": "2026-09-19T06:41+00:00",
    "published_jst": "2026-09-19 15:41",
-   "summary": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 246 # Comments: 129",
+   "summary": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 259 # Comments: 133",
    "ai_related": true,
    "title_ja": "GPT-6 Astraが第一次世界大戦のドイツ軍無線暗号を解読",
    "summary_ja": "AIモデルであるGPT-6 Astraが、第一次世界大戦で使用されたドイツ軍の無線暗号の解読に成功したことを伝える記事。"
@@ -562,7 +584,7 @@
   },
   {
    "id": "2b5569390278",
-   "source": "BigGo ファイナンス",
+   "source": "finance.biggo.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -807,19 +829,6 @@
    "published": "2026-09-18T16:49+00:00",
    "published_jst": "2026-09-19 01:49",
    "summary": "AIエージェントの検証を始めたものの、半年経っても本番導入に進めず、難しいと感じている方は少なくないでしょう。 AIエージェントが難しいのは技術が未熟だからではなく、難しさが導入・開発・運用の3段階に分かれていて、自社が... The post AIエージェントが難しい理由と難易度を下げる導入ステップを解説 first appeared on AI専門ニュースメディア AINOW .",
-   "ai_related": true
-  },
-  {
-   "id": "6938c90513a4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Reds10 launches affordable housing development arm",
-   "url": "https://www.constructionnews.co.uk/tech/reds10-launches-affordable-housing-development-arm-18-09-2026/",
-   "published": "2026-09-18T16:40+00:00",
-   "published_jst": "2026-09-19 01:40",
-   "summary": "Reds10 has launched a residential development business to deliver affordable housing using its factory-built construction model. Reds10 Developments is already on site with Raven Housing Trust in Merstham, Surrey, on a 100 per cent affordable housing scheme and has identified a number of other sites",
    "ai_related": true
   },
   {
@@ -1102,58 +1111,6 @@
    "summary_ja": "元請け企業の承認リストに載ることは重要だったが、専門家はAIがその状況を変えつつあると警告している。"
   },
   {
-   "id": "f6e6ae2c95c4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fatal tower fire came day after 31-week BSR approval wait",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/fatal-tower-fire-came-day-after-31-week-bsr-approval-wait-18-09-2026/",
-   "published": "2026-09-18T11:56+00:00",
-   "published_jst": "2026-09-18 20:56",
-   "summary": "An application for fire-safety remediation at an east London high-rise was approved one day before a fatal blaze last weekend, after spending 31 weeks with the Building Safety Regulator (BSR). A man died in the fire at Neutron Tower, a 22-storey residential block on Blackwall… The post Fatal tower f",
-   "ai_related": false
-  },
-  {
-   "id": "5c6cb0163e60",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction insolvencies fall 20% in August",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/construction-insolvencies-fall-20-in-august-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "Construction company insolvencies fell by a fifth in August, although longer-term figures showed increases in building and civil engineering failures. There were 294 construction business insolvencies recorded last month, according to Insolvency Service data – down 20 per cent from an upwardly revis",
-   "ai_related": false
-  },
-  {
-   "id": "ff8c5dad4003",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Jerram Falkus subcontractors may get payout",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/jerram-falkus-subcontractors-may-get-payout-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "Trade creditors may be paid some of what they are owed by Jerram Falkus Construction, according to a new report by administrators. The main contractor, which had headquarters in Shoreditch, east London, was in the process of being wound down when a cashflow crisis forced… The post Jerram Falkus subc",
-   "ai_related": false
-  },
-  {
-   "id": "aa36e839b00b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Profit jumps 78% at H&V Engineering Services",
-   "url": "https://www.constructionnews.co.uk/financial/profit-jumps-78-at-hv-engineering-services-18-09-2026/",
-   "published": "2026-09-18T11:45+00:00",
-   "published_jst": "2026-09-18 20:45",
-   "summary": "H&MV Engineering Services has reported a 78 per cent rise in pre-tax profit as turnover increased by more than a third. The high-voltage electrical contractor, which is majority-owned by London-based private equity firm Exponent, posted a pre-tax profit of £8.7m for the year to 31… The post Profit j",
-   "ai_related": false
-  },
-  {
    "id": "045b0f05621a",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1221,19 +1178,6 @@
    "published_jst": "2026-09-18 19:47",
    "summary": "静岡県浜松市と『エヴァンゲリオン』がコラボした街巡りイベント「ぐるっと！はまエヴァ」の開催が決定しました。開催期間は2026年10月4日(日)～2027年2月28日(日)で、『エヴァンゲリオン』シリーズに登場する「第3村」のモデル地の一つである天竜二俣駅を含む「天竜エリア」をはじまりの地とし、浜松の主要観光地である「浜名湖・舘山寺エリア」、浜松市の玄関口である「浜松市中心部」をつなげて「ぐるっと！巡る」楽しみを提供するとのこと。浜名湖に伝わるダイダラボッチの伝説をモチーフにしたメインビジュアルも公開されています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "9178199567ec",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Newham tests market for £416m housing works programme",
-   "url": "https://www.constructionnews.co.uk/civils/newham-tests-market-for-416m-housing-works-programme-18-09-2026/",
-   "published": "2026-09-18T10:41+00:00",
-   "published_jst": "2026-09-18 19:41",
-   "summary": "Newham Council has begun market engagement for a housing repairs and investment programme worth up to £416m. The east London authority said the programme could cover repairs, maintenance, compliance, building safety, planned investment, major repairs, adaptations, voids and asset improvements. Its p",
-   "ai_related": false
   },
   {
    "id": "db03597fb372",
@@ -1316,19 +1260,6 @@
    "published_jst": "2026-09-18 16:52",
    "summary": "9月10日のオンライン発表会でAI生成動画を利用し、SNSで物議を醸したレベルファイブ。数日後に「東京ゲームショウ2026」（幕張メッセ）の開催を控えての炎上になったが、イベント当日の様子はどうか。現地を実際に見てきたので、写真を交えて紹介する。",
    "ai_related": true
-  },
-  {
-   "id": "5eb7e0e09754",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sizewell C gets green light for 38,500-segment tunnel factory",
-   "url": "https://www.constructionnews.co.uk/civils/sizewell-c-gets-green-light-for-38500-segment-tunnel-factory-18-09-2026/",
-   "published": "2026-09-18T07:51+00:00",
-   "published_jst": "2026-09-18 16:51",
-   "summary": "Sizewell C has secured planning permission for an Avonmouth factory that will manufacture 38,500 concrete segments for the nuclear power station’s three marine tunnels. The facility at Bristol Port will support up to 400 jobs and reuse infrastructure previously used to produce tunnel components for…",
-   "ai_related": false
   },
   {
    "id": "003c8d95557a",
@@ -1813,19 +1744,6 @@
    "ai_related": true
   },
   {
-   "id": "9a4cc49ad541",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon brings back Wates director to lead £58m North East workload",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/willmott-dixon-brings-back-wates-director-to-lead-58m-north-east-workload-17-09-2026/",
-   "published": "2026-09-17T22:36+00:00",
-   "published_jst": "2026-09-18 07:36",
-   "summary": "Willmott Dixon has appointed former Wates operations director Mark Wolverson to lead delivery of £58m of projects across the North East. Wolverson has returned to the contractor after spending 14 of his 16 years in construction with the business, most recently running its North East… The post Willmo",
-   "ai_related": true
-  },
-  {
    "id": "7d43b8ef46fd",
    "source": "株式会社エクサウィザーズ",
    "source_id": "gnews_kensetsu_ai",
@@ -1967,7 +1885,7 @@
    "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
    "published": "2026-09-17T21:48+00:00",
    "published_jst": "2026-09-18 06:48",
-   "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 557 # Comments: 360",
+   "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 562 # Comments: 360",
    "ai_related": true,
    "title_ja": "LLMを活用して文章を書くための効果的な方法",
    "summary_ja": "大規模言語モデル（LLM）を文章作成のプロセスに組み込み、効果的に活用するための方法論について解説した記事。"
@@ -2002,7 +1920,7 @@
   },
   {
    "id": "1fd9c08df713",
-   "source": "매일경제",
+   "source": "mk.co.kr",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2012,19 +1930,6 @@
    "published_jst": "2026-09-18 06:44",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "829f7191993a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Cardo pre-tax profit rises 88% as turnover hits £239m",
-   "url": "https://www.constructionnews.co.uk/financial/cardo-pre-tax-profit-rises-88-as-turnover-hits-239m-17-09-2026/",
-   "published": "2026-09-17T21:21+00:00",
-   "published_jst": "2026-09-18 06:21",
-   "summary": "Cardo Group has nearly doubled pre-tax profit in a year when a string of acquisitions helped lift turnover by 65% to £239m. The social housing maintenance contractor posted statutory pre-tax profit of £9.5m for the year to 28 February 2026, up 88% from £5.0m a… The post Cardo pre-tax profit rises 88",
-   "ai_related": false
   },
   {
    "id": "8e6d627198ff",
@@ -2165,6 +2070,19 @@
    "summary_ja": "MicrosoftとOpenAIのメールから、ニュース組織を潰す「死のループ」への恐れが明らかになった。"
   },
   {
+   "id": "c9ebdb6ec295",
+   "source": "kensetsunews.com",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日建設計/これからの校舎を考える/“七つの問い”を設定/「まなびのまどり」で提案",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83RXdmZ2pfZnIzZHRnSU5peHJKU2g0VHVNaTZ3RUFnLWpEbVdSU3pVTzU3YS1LWlhhVFZnRl92R1U0UHNsWVBOenVyTWdSQUZDVXBIb2lac3o?oc=5",
+   "published": "2026-09-17T20:04+00:00",
+   "published_jst": "2026-09-18 05:04",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "e7b9d12d1b3a",
    "source": "Google AI Blog",
    "source_id": "google_ai",
@@ -2181,7 +2099,7 @@
   },
   {
    "id": "6bf1a84502dc",
-   "source": "日経クロステック",
+   "source": "xtech.nikkei.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2194,7 +2112,7 @@
   },
   {
    "id": "74992fcea061",
-   "source": "日経クロステック",
+   "source": "xtech.nikkei.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2206,13 +2124,13 @@
    "ai_related": false
   },
   {
-   "id": "e42781866f57",
-   "source": "日経クロステック",
+   "id": "5e23fe93e58a",
+   "source": "xtech.nikkei.com",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "住宅ロボがしょうゆを片付けTシャツ畳む、MWがデモ公開 28年発売へ",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pMlJId1lWcFlnV2s1STE2eTA3SGx3Vk5wUlozdlA4Sno1OERnSWVOeDdoU3VPLWtDWGp2UjBLNWhrd3pSTm56SVhEc2NIRHphUVBxdGVKeldjbVNSM1NJWklqNjRqbU0?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcUdkQVN6clN1dFpOMm15dkJ0bURuMy1icDBMdXJHZHBfMm1nODJMbDJTZ0UxcEhmVGhxc2p3Q1EwTUJlTlFvMk1rSDJka1NwTmlJbFFsd1ZmbFdXalZ6dU5VSDRvaDdwSWhmUjJHTTRUWGctNmNielZMU3psaWNqS1d2czI3dFBGN3RIREE2QQ?oc=5",
    "published": "2026-09-17T20:00+00:00",
    "published_jst": "2026-09-18 05:00",
    "summary": "",
