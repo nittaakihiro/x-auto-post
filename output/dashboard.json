@@ -1,40 +1,40 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-09-19",
   "post_date": "2026-09-19",
-  "generated_at": "2026-09-19T07:00+09:00",
+  "generated_at": "2026-09-19T11:10+09:00",
   "original_post": {
-    "time": "07:25",
-    "text": "今週の一般AIで大きかったのは3つです。\n\n①Anthropicが「Claude Chat」と「Cowork」を1つの画面に統合し、Claude Docs・Slidesも追加。会話しながら文書やスライドを作ってPowerPointやPDFで書き出せます。Pro・Maxプランから数週間かけて展開中。\n\n②Claude Codeの「Projects」が刷新。1つの指示で複数のクラウドAIエージェントにタスクを分担させ、進行をまとめて管理できるようになりました。Pro・Maxの一部でベータ開始、ローカル実行は未対応。\n\n③OpenAIが法務特化の「Astra for Law」を発表。GPT-6 Astraに米国の判例・法令など2億3000万件超のデータベースと26のパートナー製プラグインを組み合わせ、米国の一部法律事務所限定でTrusted Accessとして提供開始しました。\n\n汎用チャットの「統合・自動化」と、専門分野向け特化AIの両方が動いた週でした。試すなら①②はPro・Maxユーザーならすぐ触れます。まずはClaude Docs・Slidesで資料作成の流れを変えてみる、が手軽です。",
+    "time": "12:00",
+    "text": "米Plantedが、太陽光発電所の建設を「個別プロジェクト」ではなく「量産するモノ」として扱う発想で、31.8億円（3,180万ドル）を調達しました。出資はPiva CapitalとRA Capital Management Planetary Health主導で、GoogleやKhosla Venturesも参加しています。\n\n同社はロボット群で2025年に10MW分を施工し、2026年は100MWを目標にしています。年内投入予定の新型ロボット「Sage」は、既存機の2倍超の生産性を見込むとのこと。CEOのEric Brown氏は、データセンターなどで電力需要が急増する一方、人手・土地・系統接続の制約で太陽光の導入ペースが追いついていないと説明しています。\n\n日本の再エネ・データセンター建設も人手不足の構図は同じです。設計から施工までロボットに一気通貫で任せる発想は、太陽光EPCに限らず、人手が薄い建設現場全般への応用としても見ておきたい事例です。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
     "quote_tweet_url": null,
-    "article_url": "https://claude.com/blog/cowork-is-now-claude",
+    "article_url": "https://www.businesswire.com/news/home/20260915863223/en/Planted-Raises-$31.8-Million-to-Accelerate-Autonomous-Power-Deployment",
     "video_url": null,
-    "reply_text": "■ 出典\n①Anthropic公式 https://claude.com/blog/cowork-is-now-claude\n②Anthropic公式 https://claude.com/blog/projects-redesigned\n③OpenAI公式 https://openai.com/index/astra-for-law（詳細はWebSearch経由でThe Decoder/SiliconANGLE/LawSites等の複数独立ソースで裏取り。egressブロックのため公式ページを直接WebFetchでは開けず）",
+    "reply_text": "■ 出典\nBusiness Wire「Planted Raises $31.8 Million to Accelerate Autonomous Power Deployment」（2026-09-15）\nhttps://www.businesswire.com/news/home/20260915863223/en/Planted-Raises-$31.8-Million-to-Accelerate-Autonomous-Power-Deployment\nCNET Japan紹介記事（news_feed.json、2026-09-17付）とWebSearchの複数媒体（PowerMag、ESG Today、Yahoo Finance、American Entrepreneurship Today等）で調達額・投資家・生産目標の数字が一致することを確認。",
     "editorial": {
-      "pillar": "一般AI",
-      "format": "週次まとめ",
+      "pillar": "建設AI",
+      "format": "海外事例",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
         "見せられる証拠": 2,
-        "自分の追加価値": 2,
+        "自分の追加価値": 1,
         "伝わりやすさ": 2
       },
-      "selection_reason": "土曜枠は戦略書どおり『今週の重要3件と何を試すかのまとめ』とし、弱い5件を並べず絞った。候補として一般AIのai_global/ai_japan（news_feed.json）とai_buzz.jsonの公式アカウント投稿から今週分を横断的に比較。①Anthropic公式のClaude Chat/Cowork統合＋Docs/Slides追加（9/17朝枠で既報だが週次まとめとして再掲、Pro/Maxへの実展開が進行中で読者が今すぐ触れる変化として最重要、10点）。②Claude Codeの「Projects」刷新（9/18朝枠で既報、複数クラウドエージェントの並行管理という具体的な機能変化、9点）。③OpenAI公式のAstra for Law新規発表（news_feed.jsonのai_global/ai_japan、ai_buzz.jsonでOpenAI/Greg Brockman本人の投稿あり、未使用ネタ、GPT-6 Astraの法務特化版という専門AIの拡大トレンドを示す、8点）。比較のみで除外: ④OpenAI公式のミスアライメント開示フレームワーク（AIが失敗を後継モデルに隠すよう伝えた事例の公表。ガバナンス寄りで『何を試すか』に繋がらず、9/18朝枠の選定時にも比較済みのため除外、7点）。⑤カリフォルニア州Newsom知事のAI『キルスイッチ』大統領令（米国内政策で日本の読者が試せる内容ではない、6点）。⑥42名の数学者によるAI実存リスク警告書（意見表明で具体的な製品・機能の変化がない、5点）。⑦Google DeepMindのAlphaGenome Atlas（生命科学研究者向けの専門ツールで一般読者への価値が薄い、5点）。①②③はいずれも汎用チャットの統合・自動化と専門特化AIの拡大という共通の流れで並べられ、週次の見取り図として読者価値が高いため採用。競合（光/Hikari・ミャク楽・Motif等）とは無関係であることを確認済み。",
-      "source_url": "https://claude.com/blog/cowork-is-now-claude",
-      "published_at": "2026-09-16〜2026-09-18（①9/16 ②9/17 ③9/18、複数日にまたがる週次まとめのため代表日を記載）",
-      "checked_at": "2026-09-19T07:00+09:00",
-      "availability": "①Claude Chat/Cowork統合とDocs/SlidesはPro・Maxプランから数週間かけてWeb/デスクトップ/モバイルへ展開中、Team・Freeは追って対応、Enterprise管理者には30日前告知あり（9/17枠で確認済み）。②Claude Code ProjectsはクラウドClaude CodeのPro・Maxの一部からベータ開始、今後Team・Enterpriseへ拡大予定、ローカル実行は未対応（9/18枠で確認済み）。③Astra for LawはTrusted Accessとして米国の一部法律事務所限定で提供開始。API版（gpt-6-astra-law）は後日提供予定でHarvey・Legoraが利用予定と報じられている。価格は未公表。",
-      "unverified": "WebFetchがopenai.com・claude.com等へのアクセスをネットワークのegressポリシーでブロックされたため、③の公式ページ本文を直接開けていない。WebSearchの検索結果（The Decoder/SiliconANGLE/LawSites/DEV Community等の独立した複数の二次情報源、およびai_buzz.jsonのOpenAI公式・Greg Brockman本人の投稿引用）で法務インデックスの規模（2億3000万件超のURL）、プラグイン数（26のパートナー製）、提供範囲（Trusted Access・米国の一部法律事務所限定）が一致することを確認した上で採用。コミュニティ製プラグインの正確な件数はソースにより表記が揺れていたため本文には含めていない。①②は9/17・9/18枠で確認済みの内容の再掲。",
-      "hook_alternative": "個別ニュースを1本選ぶ形も検討したが、戦略書が土曜を『週の見取り図＋何を試すか』と明示しているため、本数を埋める弱い5件の羅列を避けつつ3件に絞り、最後に具体的な行動（Claude Docs/Slidesを触ってみる）を提示する構成にした。"
+      "selection_reason": "ネタ源の順に従い確認。①news_feed.jsonのconstruction_global（ai_related=true・48h以内）9件のうち、『Former Amazon Robotics executives take on house-building』（Reframe Systems）は9/18夜枠で使用済みのため除外。『Has AI killed the approved supplier list?』（PBC Today、AI支援リサーチが調達業務を変えるという意見記事で具体的な企業事例がない、4点）、『Vectorworks 2027 delivers what designers need』（BIM/CADソフトの新版リリースでAIが主題でない、4点）、『Why pumps need to become part of a building's digital DNA』『Why planners need to be proactive about drones』（いずれもAI要素が薄い一般論、3点）は証拠不足で不採用。②construction_japan（ai_related=true）から、建築確認BIMデータ審査へのAI活用（まだ基本構想策定段階で仕組み・数値が本文にない、5点）、현대건설×서울대병院・서울대의 AI健康住居MOU（2026-09-16締結だがMOU段階で実証団地は未着工、具体的な技術・数値が薄い、6点）と比較。③construction_japanタグだが内容は米国発、CNET Japan『ロボットが自律的に太陽光発電所を建設、Googleも出資』（2026-09-17付）を採用。原文（Business Wire、米Planted、2026-09-15発表）を特定し、調達額・投資家・生産目標（2025年10MW→2026年100MW）・新型ロボット『Sage』の効果見込みを複数媒体で確認できた。データセンター向け電力需要急増という背景は、日本の再エネ・建設業界の人手不足とも重ねられる。9/16昼枠(比較/富士通)、9/17昼枠(海外事例/Suffolk)、9/18昼枠(速報/パシコン)、9/18夜枠(海外事例/Reframe)、9/19朝枠(週次まとめ/一般AI)とはネタ・企業・形式とも重複しない。競合サービス（光/Hikari・ミャク楽・Motif等）の紹介には当たらない。",
+      "source_url": "https://www.businesswire.com/news/home/20260915863223/en/Planted-Raises-$31.8-Million-to-Accelerate-Autonomous-Power-Deployment",
+      "published_at": "2026-09-15",
+      "checked_at": "2026-09-19T11:10+09:00",
+      "availability": "Plantedは2025年にロボット群で10MW分を施工済み、2026年は100MWを目標。新型ロボット『Sage』は2026年内に投入予定で、既存機の2倍超の生産性を見込むと発表（2026-09-15、Business Wire）。商用の外部販売ではなく自社の施工能力拡大が目的で、日本向けの提供計画は言及なし。",
+      "unverified": "本セッションのネットワークegress制限でbusinesswire.com・powermag.com・esgtoday.com等への直接WebFetchができず、WebSearchの検索結果スニペット経由で確認した。PowerMag、ESG Today、Yahoo Finance、American Entrepreneurship Today等の複数の独立した二次情報源で調達額（3,180万ドル）・投資家（Piva Capital、RA Capital Management Planetary Health主導、Google・Khosla Ventures等）・生産目標（2025年10MW→2026年100MW）・Sageの投入時期（2026年内）が一致することを確認したが、原文全文・CEOコメントの一次確認はできていない。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC）は本枠生成時点で72時間超のため古い観測点として扱い、直近100件に『Planted』『太陽光』『ソーラー』『ロボット』の重複投稿は無いことを確認したが、それ以降の実投稿は未確認。",
+      "hook_alternative": "『太陽光発電所がロボットで量産される時代』のように驚き先行の冒頭も検討したが、根拠のない万能感を煽る戦略の禁止事項に触れるおそれがあるため、企業名と調達額を先に出し、生産目標→新型ロボットの効果見込み→背景説明→日本への示唆の順に事実ベースで並べる海外事例形式にした。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "週次まとめ枠のため本文3件（Claude Chat/Cowork統合・Claude Code Projects・Astra for Law）と重複しない独立した引用・リプ候補は探索したが、直近24h以内で強く推せる新規投稿が見当たらず0件とした。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する投稿は見当たらなかった。",
+  "engage_cards_note": "ai_buzz.json/slack_buzz.jsonを確認したが、価値を足せる候補が見当たらず0件とした。The B1M（@TheB1M）[Global-建設]の投稿はイベント告知・過去写真・スタジアム広場計画でAIとの関連が薄いため見送り。Koara氏（@kokaraka）の『#Jev』への言及やfladdict氏のjev活用ポストは、Jevという製品の実体・提供元・競合性を確認しきれなかったため候補にしなかった。ANDPAD・スパイダープラス・アルダグラムなど建設現場管理SaaS各社関連の投稿は、ツクノビと競合性を判断しきれないため見送り。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、本枠生成時点で72時間超のため古い観測点として扱う）の直近100件との重複は無いことを確認したが、それ以降の実投稿は未確認。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-morning"
+  "generated_by": "routine:x-post-noon"
 }
