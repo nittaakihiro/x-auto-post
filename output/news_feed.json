@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-19T13:04+00:00",
- "generated_at_jst": "2026-09-19 22:04",
+ "generated_at": "2026-09-19T13:30+00:00",
+ "generated_at_jst": "2026-09-19 22:30",
  "window_hours": 48,
  "counts": {
-  "ai_global": 65,
+  "ai_global": 66,
   "ai_japan": 39,
   "construction_global": 21,
-  "construction_japan": 38
+  "construction_japan": 34
  },
  "errors": [
   {
@@ -16,9 +16,26 @@
   {
    "feed": "constructionnews_uk",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
+  {
+   "id": "1bcfa7150322",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark",
+   "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/",
+   "published": "2026-09-19T13:28+00:00",
+   "published_jst": "2026-09-19 22:28",
+   "summary": "Leading AI models usually attempt dangerous tasks rather than refuse them when controlling a robot, according to the RoboHarm benchmark. GPT-6 Astra stabbed a baby doll in 17 of 20 trials, while Claude Fable 5.1 put a can of compressed air on a burning stove. None of the three models tested reliably",
+   "ai_related": true
+  },
   {
    "id": "17c3769d3608",
    "source": "TechCrunch AI",
@@ -117,7 +134,7 @@
    "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
    "published": "2026-09-19T09:20+00:00",
    "published_jst": "2026-09-19 18:20",
-   "summary": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 370 # Comments: 240",
+   "summary": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 404 # Comments: 263",
    "ai_related": true,
    "title_ja": "AI生成ポスターは必ずしも酷いものとは限らない",
    "summary_ja": "AIによって生成されるイベント用ポスターの品質や、それを改善するためのアプローチについての記事と議論。"
@@ -173,7 +190,7 @@
    "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
    "published": "2026-09-19T06:41+00:00",
    "published_jst": "2026-09-19 15:41",
-   "summary": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 168 # Comments: 95",
+   "summary": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 172 # Comments: 95",
    "ai_related": true,
    "title_ja": "GPT-6 Astraが第一次世界大戦のドイツ軍無線暗号を解読",
    "summary_ja": "AIモデルであるGPT-6 Astraが、第一次世界大戦で使用されたドイツ軍の無線暗号の解読に成功したことを伝える記事。"
@@ -334,6 +351,19 @@
    "ai_related": true,
    "title_ja": "AIのハルシネーションが米軍の作戦を引き起こしかけ",
    "summary_ja": "「軍人はLLMに固有の不確実性を理解することが重要だ」とGovAIの研究者が警告を発している。"
+  },
+  {
+   "id": "64adcb8eecb3",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+   "url": "https://spectrum.ieee.org/llms-for-chip-design",
+   "published": "2026-09-18T23:04+00:00",
+   "published_jst": "2026-09-19 08:04",
+   "summary": "Article URL: https://spectrum.ieee.org/llms-for-chip-design Comments URL: https://news.ycombinator.com/item?id=49761432 Points: 150 # Comments: 100",
+   "ai_related": true
   },
   {
    "id": "b2d33d84a1a7",
@@ -907,21 +937,6 @@
    "summary_ja": "Disruptの出展ブース予約は本日9月18日が最終日。10月13〜15日、1万人以上の起業家や投資家に向けて自社スタートアップをアピールするチャンス。"
   },
   {
-   "id": "f69745d566c3",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI takes aim at the legal market with Astra for Law",
-   "url": "https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law/",
-   "published": "2026-09-18T13:42+00:00",
-   "published_jst": "2026-09-18 22:42",
-   "summary": "OpenAI has introduced Astra for Law, a version of its GPT-6 Astra model built for legal work. The article OpenAI takes aim at the legal market with Astra for Law appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "OpenAI、法務市場を狙い「Astra for Law」を発表",
-   "summary_ja": "OpenAIは、法務業務向けに構築されたGPT-6 Astraモデルの特化版である「Astra for Law」を導入した。"
-  },
-  {
    "id": "21f8476fa8b1",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -1255,7 +1270,7 @@
   },
   {
    "id": "6c89dcdcf1ba",
-   "source": "Chosunbiz",
+   "source": "biz.chosun.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1421,7 +1436,7 @@
   },
   {
    "id": "d297d5546533",
-   "source": "Chosunbiz",
+   "source": "biz.chosun.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1535,19 +1550,6 @@
    "published_jst": "2026-09-18 11:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "9e07f232d5fc",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国土交通省、7月の建設総合統計で出来高総計5兆1,662億円、前年比5.5%増と公表",
-   "url": "https://news.build-app.jp/article/42767/",
-   "published": "2026-09-18T01:00+00:00",
-   "published_jst": "2026-09-18 10:00",
-   "summary": "国土交通省総合政策局建設経済統計調査室は、令和8年9月17日に建設総合統計の令和8年（2026年）7月分を発表しました。全国の建設工事出来高...",
-   "ai_related": false
   },
   {
    "id": "8bc1dc409aae",
@@ -1794,45 +1796,6 @@
    "ai_related": true
   },
   {
-   "id": "6742f84820d7",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【中編】建設DX展で見つけた注目DXサービス｜3Dプリンタを活用した型枠技術_株式会社 DigitalArchi／手軽に活用できる3Dスキャンアプリ_nat株式会社",
-   "url": "https://news.build-app.jp/article/42519/",
-   "published": "2026-09-17T22:00+00:00",
-   "published_jst": "2026-09-18 07:00",
-   "summary": "2026年8月26日（水）～28日（金）に開催された建設DX展［大阪］は、建設業界のDXをテーマとした専門展示会です。当サイトでは会場を取材...",
-   "ai_related": true
-  },
-  {
-   "id": "fce940293bbc",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年版】土間コンクリートとは？｜費用相場・施工手順・厚みの基準までプロが解説",
-   "url": "https://news.build-app.jp/article/35394/",
-   "published": "2026-09-17T22:00+00:00",
-   "published_jst": "2026-09-18 07:00",
-   "summary": "土間コンクリートは、住宅の駐車場・庭・玄関アプローチなどで広く使われる舗装手法です。しかし、「費用はいくらかかるのか」「駐車場にはどれくらい...",
-   "ai_related": false
-  },
-  {
-   "id": "366e3e2d1b28",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "急速に発展する建設分野での生成AI援用の現在地を多分野に渡り追跡(第十三回)/東急建設が北野建設及び富士通と協働する生成AI援用の事例｜深堀り取材【毎月3回更新】",
-   "url": "https://news.build-app.jp/article/42672/",
-   "published": "2026-09-17T22:00+00:00",
-   "published_jst": "2026-09-18 07:00",
-   "summary": "生成AIが話題に登るようになったのは、昨日のことのようだ。そのような状況にも関わらず、フィジカル主体の建設現場を最重要な生産拠点とする総合建...",
-   "ai_related": true
-  },
-  {
    "id": "cd628107f037",
    "source": "ビジネス+IT",
    "source_id": "gnews_kensetsu_ai",
@@ -1855,7 +1818,7 @@
    "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
    "published": "2026-09-17T21:48+00:00",
    "published_jst": "2026-09-18 06:48",
-   "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 521 # Comments: 345",
+   "summary": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 522 # Comments: 346",
    "ai_related": true,
    "title_ja": "LLMを活用して文章を書くための効果的な方法",
    "summary_ja": "大規模言語モデル（LLM）を文章作成のプロセスに組み込み、効果的に活用するための方法論について解説した記事。"
@@ -2094,13 +2057,13 @@
    "ai_related": false
   },
   {
-   "id": "e42781866f57",
+   "id": "5e23fe93e58a",
    "source": "日経クロステック",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "住宅ロボがしょうゆを片付けTシャツ畳む、MWがデモ公開 28年発売へ",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1pMlJId1lWcFlnV2s1STE2eTA3SGx3Vk5wUlozdlA4Sno1OERnSWVOeDdoU3VPLWtDWGp2UjBLNWhrd3pSTm56SVhEc2NIRHphUVBxdGVKeldjbVNSM1NJWklqNjRqbU0?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcUdkQVN6clN1dFpOMm15dkJ0bURuMy1icDBMdXJHZHBfMm1nODJMbDJTZ0UxcEhmVGhxc2p3Q1EwTUJlTlFvMk1rSDJka1NwTmlJbFFsd1ZmbFdXalZ6dU5VSDRvaDdwSWhmUjJHTTRUWGctNmNielZMU3psaWNqS1d2czI3dFBGN3RIREE2QQ?oc=5",
    "published": "2026-09-17T20:00+00:00",
    "published_jst": "2026-09-18 05:00",
    "summary": "",
