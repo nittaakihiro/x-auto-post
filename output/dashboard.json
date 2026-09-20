@@ -1,40 +1,40 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-09-20",
   "post_date": "2026-09-20",
-  "generated_at": "2026-09-20T06:42+09:00",
+  "generated_at": "2026-09-20T11:35+09:00",
   "original_post": {
-    "time": "07:25",
-    "text": "Unityが、AIコーディングエージェント向けの公式プラグインを公開しました。Claude Code版は9月10日、続いてOpenAI Codex版も出ています。ねらいは、AIが古いバージョンのチュートリアルを参考にして「コンパイルは通るが動かない」コードを書いてしまう問題を防ぐこと。Codex版はUI・2Dグラフィックス・URP・物理演算など31個のスキルを備え、Unity 6以降で使えます。AIエージェントの出力の質は、モデルの賢さだけでなく渡す情報の新しさで変わる、という分かりやすい例だと思います。",
+    "time": "12:00",
+    "text": "CADソフトVectorworksの2027年版で、内蔵の「AI Visualizer」がGoogleの画像生成AI「Nano Banana」系モデルに対応しました。参照画像を最大14枚渡せるようになり、解像度も高くなっています。対象はサブスクリプションまたはService Select契約者のみで、買い切りライセンスでは使えません。英語版は提供開始済みですが、日本語版は10月以降に順次展開され、2027年第1四半期にそろう予定です。パース出しを外部のAIツールに持ち出さず、設計データを触っているCADの中で仕上げまで完結できる方向性は、国内の設計・ランドスケープ事務所がAIを導入する際の参考になりそうです。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
     "quote_tweet_url": null,
-    "article_url": "https://unity.com/blog/unity-plugin-codex",
+    "article_url": "https://www.globenewswire.com/news-release/2026/09/16/3363316/0/en/vectorworks-2027-delivers-what-designers-need-where-it-matters-most.html",
     "video_url": null,
-    "reply_text": "■ 出典\nUnity公式ブログ「Unity's Official Plugin for Codex」(unity.com/blog/unity-plugin-codex)。Claude Code版は9/10公開のUnity公式ブログ（unity.com/blog/unity-plugin-for-claude-code）。The Decoder、Inven Global等の複数媒体が報道内容（31スキル・Unity 6以降・インストール方法）を裏取り。",
+    "reply_text": "■出典\nVectorworks公式発表(2026年9月16日、GlobeNewswire「Vectorworks 2027 Delivers What Designers Need, Where It Matters Most」)。Building Enclosure、TPi Magazine、Engineering.com、rAVe [PUBS]等の業界メディア複数が同内容(AI Visualizer/Nano Banana統合、サブスクリプション限定、英語版先行提供)を報道。",
     "editorial": {
-      "pillar": "一般AI",
-      "format": "速報",
+      "pillar": "建設AI",
+      "format": "海外事例",
       "scores": {
-        "新規性": 2,
+        "新規性": 1,
         "読者への価値": 2,
         "見せられる証拠": 2,
         "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "ネタ源の順に確認。news_feed.jsonのai_global/ai_japan（48h窓、直近25件）とai_buzz.jsonの公式アカウント（gdb・AnthropicAIの投稿は24h超で具体的な新機能の記述が薄いため見送り）を比較した上でWebSearchで補完し、候補5件で編集評価。①The Decoder『Unity launches official plugins for Claude Code and OpenAI Codex』（2026-09-19 22:31 JST）＝Unity公式ブログ2本（unity.com/blog/unity-plugin-codex、unity.com/blog/unity-plugin-for-claude-code）が一次情報で、Codex版31スキル・Unity 6以降・インストール方法まで具体的（10点、採用）。②The Decoder『Qwen3.8-Omni-Flash undercuts Gemini Flash pricing』（2026-09-19 23:30 JST）＝価格・ベンチマーク数値は明確だが、API単価の比較は一般読者への実務的な価値がやや弱く自分の追加価値も付けにくい（8点）。③The Decoder『Google DeepMind's Dream-RSI』（2026-09-19 20:08 JST）＝arXiv論文ベースの研究で、一般読者が『何ができるか』を掴みにくく証拠は強いが伝わりやすさが弱い（7点）。④AnthropicAI公式Xの Accenture提携・10億ドル投資（2026-09-19 05:05 JST、ai_buzz.json）＝24h超で経過し、内容も評価体制への投資表明で具体的な新機能がなく読者価値が弱い（6点）。⑤TechCrunch/The Verge等『Gemini agentが企業3社に侵入』はGoogleスポークスパーソンの発言はWebSearchで複数媒体から確認できたが、公式ブログ等の一次情報がなく、前枠（9/19夜）でも同じ理由で候補から外しており今回も見送り（未評価・除外）。①を採用し、AIエージェントの出力品質は模型の性能だけでなく渡す情報の新しさで変わるという観点を自分の追加価値として添えた。",
-      "source_url": "https://unity.com/blog/unity-plugin-codex",
-      "published_at": "2026-09-19",
-      "checked_at": "2026-09-20T06:42+09:00",
-      "availability": "Claude Code向け公式プラグインは2026年9月10日公開・npmでインストール。OpenAI Codex向けは続報として2026年9月中旬に公開され、Codexプラグインディレクトリからワンクリックでインストール可能。Codex版はUI・2Dグラフィックス・URPレンダーパイプライン・オーディオ・ナビゲーション・物理演算・アプリ内課金・マルチプレイヤー・ローカライゼーションなど31スキルで提供され、Unity 6以降が対象。地域・言語の制限は確認できていない。",
-      "unverified": "本セッションのネットワークegress制限でunity.com・the-decoder.com・invenglobal.com等への直接WebFetchができず、WebSearchの検索結果スニペット（The Decoder記事の要約、Inven Global記事タイトル、Unity Discussionsフォーラムの投稿タイトル、daily.dev要約）経由で複数の独立ソースから内容の一致を確認した。Codex版プラグインの公開日の正確な日付（9/18-9/19どちらか）はスニペットからは特定できず『9月中旬』とした。data/analytics/live_metrics.json（fetched_at 2026-09-16T02:53 UTC、本枠生成時点で96時間超前の古い観測点）の直近100件に『Unity』『Codex』『Qwen』を含む実投稿はないことを確認したが、それ以降の実投稿は未確認。",
-      "hook_alternative": "『AIが書いたコードが動かない問題、Unityが対策』のような驚き先行の見出しも検討したが、問題提起から入ると抽象的になるため、製品名（Unity）→新しくできること（公式プラグイン提供）→具体的な変更点（Claude Code版9/10・Codex版・31スキル・Unity 6以降）→自分の見解の順で速報の型に沿って冒頭を作った。"
+      "selection_reason": "ネタ源の順に確認。news_feed.jsonのconstruction_global(ai_related=true・48h以内・title_ja付き、20件)、ai_buzz.json(海外建設アカウント投稿は本日0件)、slack_buzz.json、construction_japan(ai_related=true、4件)を候補化しWebSearchで補完し6件で編集評価。①Vectorworks 2027のAI Visualizer(Google Nano Banana統合、2026-09-16公式発表/GlobeNewswire)＝AI Visualizer自体は2024年からの既存機能で新規性は限定的(新規性1点)だが、今回追加のNano Banana統合・参照画像14枚・サブスク限定/買い切り対象外・英語版先行(日本語版は10月以降)という具体的な導入条件を複数の独立業界メディア(Building Enclosure、TPi Magazine、Engineering.com、rAVe)で確認でき、証拠と追加価値(日本の設計事務所への示唆)が明確なため採用(計9点)。前日9/19昼枠のselection_reasonでも本件を候補に挙げ『AIが主題でない』として4点で不採用にしていたが、今回WebSearchで一次情報の記述を深掘りした結果、AI Visualizerは同リリースの4本柱の1つとして明記されており、導入条件(サブスク限定・地域言語展開時期)まで具体化できたため再評価し採用した。②竹中工務店×爽美のAI板材加工CAD化＝内容は良いが2026-09-17 20:00枠で既に投稿済みのため重複で除外。③国交省のBIMデータ審査2029年春基本構想(2026-09-18公表、construction_japan)＝行政の取り組みで方向性はあるが、9/18の基本構想そのものの一次資料(プレスリリース本文)がWebSearchで特定できず、AIチェックの具体的な仕組みは二次情報のみで未確認のため見送り(5点)。④pbctoday『Why pumps need to become part of a building's digital DNA』＝ポンプ業界の一般論的な意見記事で、具体的な製品・数値・企業名が薄くAIの新規性も弱い(4点)。⑤pbctoday『Why planners need to be proactive about drones』＝RTPIの政策提言でAI/技術の具体的仕組みへの言及がなく、ドローン運用のガバナンス論(3点)。⑥Reds10の住宅開発部門新設＝プレスリリースで『AI integrated at every level』と述べるのみで具体例・数値がなく証拠不足(4点)。⑦ArchDailyのBothaus Coffee(HCCH Studio)＝ai_related=trueだが実際は上海の内装デザイン事例でAI要素なし、誤タグと判断し除外(2点)。①を採用し、AI Visualizer自体は2024年から存在する既存機能でNano Banana統合が今回の新規追加分である点、日本語版が10月以降の順次展開である点を本文で明記した。",
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/16/3363316/0/en/vectorworks-2027-delivers-what-designers-need-where-it-matters-most.html",
+      "published_at": "2026-09-16",
+      "checked_at": "2026-09-20T11:30+09:00",
+      "availability": "英語版Vectorworks 2027は2026年9月16日提供開始(ダウンロード可能)。日本語版含む多言語版は2026年10月から順次展開し2027年第1四半期に完了予定(未公開)。AI Visualizer機能(Nano Banana系AIモデル統合、参照画像最大14枚、GPUレンダリング高速化)はVectorworksサブスクリプションまたはService Select契約者向けで、買い切り(パーペチュアル)ライセンスは対象外。価格は本文で未確認。",
+      "unverified": "本セッションのネットワークegress制限でglobenewswire.com・vectorworks.net・pbctoday.co.uk・engtechnica.com等への直接WebFetchができず、WebSearchのスニペット経由でBuilding Enclosure・TPi Magazine・Engineering.com・rAVe [PUBS]など独立した複数メディアの記述が一致することを確認した。AI Visualizer自体はVectorworks 2024 Update 4から存在する既存機能で、2027版の新規追加分はNano Banana系AIモデルの統合である点をWebSearchの複数結果から確認。日本語版の具体的な提供開始日(10月の何日か)は確認できていない。data/analytics/live_metrics.jsonはfetched_at 2026-09-16T02:53 UTC(本枠生成時点で96時間超前)の直近100件を確認したが『Vectorworks』を含む実投稿はなし。それ以降の実投稿は未確認。",
+      "hook_alternative": "『パースをAIに任せる時代、CAD側から来た』のような驚き先行の見出しも検討したが、対象読者(設計・ランドスケープ事務所)には製品名から入る方が状況を掴みやすいため、海外事例の型(会社→何に使ったか→導入条件→日本で試すなら)に沿って冒頭を作った。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.jsonの直近投稿（梶谷健人氏・清水亮氏・チャエン氏・TestingCatalog・Chubby等）とslack_buzz.jsonを確認したが、本文（Unity公式プラグイン）と題材が重なり具体的な補足を加えられる候補、または独立した価値のある一般AI/建設AI投稿は見当たらなかった。TestingCatalog（@testingcatalog）のDAILY AI BRIEFはまとめ投稿で個別の論点提示ではないため見送り。Gemini agentが企業3社にアクセスした一件（TechCrunch/The Verge等）はWebSearchでGoogle広報担当者の発言まで複数媒体から確認できたが、公式発表の一次情報がなく前枠（9/19夜）と同じ理由でリプ/引用候補にもしなかった。",
+  "engage_cards_note": "ai_buzz.json(本日は海外・国内AI一般のみ77件、建設アカウントの投稿なし)とslack_buzz.json(建設×AI 73件)を確認したが、本文(Vectorworks 2027)と重ならず具体的な補足を加えられる独立した価値のある候補は見当たらなかった。@nikkeiの竹中工務店×爽美のAI板材加工CADツイート(2026-09-19 22:01、67,000閲覧)は内容として強いが、同ニュースは2026-09-17 20:00枠で既に本文として使用済みのため引用/リプ候補にもしなかった。@IKKICMの国交省BIMデータ審査基本構想の解説スレッド(2026-09-18)も一次資料未確認のため見送り。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-morning"
+  "generated_by": "routine:x-post-noon"
 }
