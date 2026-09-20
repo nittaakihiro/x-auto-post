@@ -1,20 +1,54 @@
 {
- "generated_at": "2026-09-20T22:42+00:00",
- "generated_at_jst": "2026-09-21 07:42",
+ "generated_at": "2026-09-20T23:16+00:00",
+ "generated_at_jst": "2026-09-21 08:16",
  "window_hours": 48,
  "counts": {
   "ai_japan": 18,
-  "ai_global": 43,
-  "construction_japan": 8,
+  "construction_japan": 9,
+  "ai_global": 41,
   "construction_global": 1
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
+  {
+   "id": "c0c2b6a0446b",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Geminiが使えるスマートウォッチ「Google Pixel Watch 5」を使ってみた",
+   "url": "https://gigazine.net/news/20260921-google-pixel-watch-review/",
+   "published": "2026-09-20T23:00+00:00",
+   "published_jst": "2026-09-21 08:00",
+   "summary": "外観レビューに続いて「Google Pixel Watch 5」を実際に使ってみました。ワークアウトや睡眠測定を行っています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "68ffbe6fb202",
+   "source": "finance.biggo.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日本生命、米データセンター向け融資を2兆円に拡大へ…日本の金融界で「AIインフラの資金供給源」として浮上",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nM0t1N2FpWFpPTzdBZG1HeU9GMXRNcVBnRWdjaGJwT2xVMkowb2QxZ3pUREJVMUZIbXM0WGI1cm42OWs3Z1Q0N0dNWFJRWVVWMmhDY2RnNUpsNkdKZ3JYSnhieG1vS244NGZVLTFjS1NiUDVq?oc=5",
+   "published": "2026-09-20T22:25+00:00",
+   "published_jst": "2026-09-21 07:25",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "0d52d08b6e2d",
    "source": "ITmedia AI+",
@@ -268,7 +302,7 @@
    "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
    "published": "2026-09-20T15:18+00:00",
    "published_jst": "2026-09-21 00:18",
-   "summary": "Article URL: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/ Comments URL: https://news.ycombinator.com/item?id=49776729 Points: 489 # Comments: 280",
+   "summary": "Article URL: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/ Comments URL: https://news.ycombinator.com/item?id=49776729 Points: 506 # Comments: 293",
    "ai_related": true,
    "title_ja": "ChatGPTが広告収集機能で他サイトの行動を把握",
    "summary_ja": "ChatGPTが広告コレクターを介して、ユーザーが他のウェブサイトで行った活動を把握するようになったことについての議論。"
@@ -283,7 +317,7 @@
    "url": "https://pirateface.co/",
    "published": "2026-09-20T15:16+00:00",
    "published_jst": "2026-09-21 00:16",
-   "summary": "Article URL: https://pirateface.co/ Comments URL: https://news.ycombinator.com/item?id=49776699 Points: 378 # Comments: 121",
+   "summary": "Article URL: https://pirateface.co/ Comments URL: https://news.ycombinator.com/item?id=49776699 Points: 396 # Comments: 124",
    "ai_related": true,
    "title_ja": "Pirate FaceがLLMモデルの削除を防ぐ",
    "summary_ja": "LLMモデルが削除されるのを防ぐための取り組みやサービス「Pirate Face」についての情報とそれに対する議論。"
@@ -298,7 +332,7 @@
    "url": "https://qwen.ai/blog?id=qwen-image-2.1",
    "published": "2026-09-20T13:09+00:00",
    "published_jst": "2026-09-20 22:09",
-   "summary": "Article URL: https://qwen.ai/blog?id=qwen-image-2.1 Comments URL: https://news.ycombinator.com/item?id=49775499 Points: 428 # Comments: 145",
+   "summary": "Article URL: https://qwen.ai/blog?id=qwen-image-2.1 Comments URL: https://news.ycombinator.com/item?id=49775499 Points: 442 # Comments: 146",
    "ai_related": true,
    "title_ja": "Qwen Image 2.1が発表",
    "summary_ja": "新しい画像生成AIモデル「Qwen Image 2.1」の公開に伴う公式ブログの案内と、それに関するHacker Newsの議論。"
@@ -598,7 +632,7 @@
   },
   {
    "id": "fbf5508efcc1",
-   "source": "BigGo ファイナンス",
+   "source": "finance.biggo.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -967,49 +1001,6 @@
    "ai_related": true,
    "title_ja": "スタートアップを量産する企業が1億ドルを調達",
    "summary_ja": "Vantoraに社名を変更したUP.Labsは、産業向け企業のために新たなスタートアップの構築を進めている。"
-  },
-  {
-   "id": "7eae20442af3",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic is operating a lab that conducts biology experiments",
-   "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-   "published": "2026-09-18T23:13+00:00",
-   "published_jst": "2026-09-19 08:13",
-   "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
-   "ai_related": true,
-   "title_ja": "Anthropicが生物学実験を行う研究所を運営",
-   "summary_ja": "AIが病気治療の鍵になると期待される一方、Anthropicの研究者はAIが人類滅亡の脅威になる可能性も警告している。"
-  },
-  {
-   "id": "450940319d1d",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI hallucination nearly triggers US military operation",
-   "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
-   "published": "2026-09-18T23:12+00:00",
-   "published_jst": "2026-09-19 08:12",
-   "summary": "“It’s important for service members to understand the uncertainty inherent to LLMs,\" a GovAI research scholar warns.",
-   "ai_related": true,
-   "title_ja": "AIのハルシネーションが米軍の作戦を引き起こしかけ",
-   "summary_ja": "「軍人はLLMに固有の不確実性を理解することが重要だ」とGovAIの研究者が警告を発している。"
-  },
-  {
-   "id": "b2d33d84a1a7",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "パナソニック・サムスン撤退の裏で「中国勢5割」 独IT見本市「IFA」トップが明かす舞台裏",
-   "url": "https://www.itmedia.co.jp/business/articles/2609/19/news010.html",
-   "published": "2026-09-18T23:00+00:00",
-   "published_jst": "2026-09-19 08:00",
-   "summary": "出展2000社超の過半数が中国勢、そして長年メイン会場の“顔”だったサムスン電子の電撃的な撤退──。欧州最大の家電見本市「IFA」の会場には、中国勢の巨大ブースと50モデルものヒューマノイドなど地殻変動の熱気が渦巻いていた。主役の交代と「脱・家電」シフトが加速する中、IFA運営トップのライフ・リントナーCEOを現地ベルリンで単独直撃。サムスン離脱の本当の理由から、パナソニックがブースを壁で覆った真相など、グローバルハイテク市場の今に迫る。",
-   "ai_related": true
   }
  ]
 }
