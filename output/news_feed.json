@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-19T23:09+00:00",
- "generated_at_jst": "2026-09-20 08:09",
+ "generated_at": "2026-09-20T00:05+00:00",
+ "generated_at_jst": "2026-09-20 09:05",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 33,
-  "ai_global": 60,
+  "ai_japan": 31,
+  "ai_global": 54,
   "construction_japan": 25,
   "construction_global": 20
  },
@@ -14,8 +14,8 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "buildapp",
-   "error": "URLError: <urlopen error timed out>"
+   "feed": "hn_top",
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   }
  ],
  "items": [
@@ -95,7 +95,9 @@
    "published": "2026-09-19T20:44+00:00",
    "published_jst": "2026-09-20 05:44",
    "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazin",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Metaの「Muse」が不気味と言われる理由",
+   "summary_ja": "MetaのMuseは優秀だが少し不気味だ。メッセージ等にアクセスできるMacアプリが原因の一つだが、スマートさの一方で課題もある。"
   },
   {
    "id": "2c088408c259",
@@ -108,7 +110,9 @@
    "published": "2026-09-19T20:39+00:00",
    "published_jst": "2026-09-20 05:39",
    "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Flock、希望退職で人員削減を試みる",
+   "summary_ja": "希望退職の募集を行わなければ、Flockは「ほぼ確実」に人員削減を実施せざるを得ない状況にあると報じられている。"
   },
   {
    "id": "589c5060cfaa",
@@ -136,7 +140,9 @@
    "published": "2026-09-19T19:52+00:00",
    "published_jst": "2026-09-20 04:52",
    "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser s",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "「datasette-auth-github 1.0」がリリース",
+   "summary_ja": "GitHubログインプラグインのバージョン1.0がリリースされた。認証セッションが長続きしない問題の調査でクッキーの設定に起因することが判明した。"
   },
   {
    "id": "fbf5508efcc1",
@@ -180,19 +186,6 @@
    "ai_related": true,
    "title_ja": "カリフォルニアアシカとブランドウミウ",
    "summary_ja": "米カリフォルニア州の港で撮影された野生動物の写真。看板の裏からカツオドリが覗いているのが写り込んでいた。"
-  },
-  {
-   "id": "35721eb82dbc",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "I think you should almost never use AI to write",
-   "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
-   "published": "2026-09-19T16:35+00:00",
-   "published_jst": "2026-09-20 01:35",
-   "summary": "Article URL: https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai Comments URL: https://news.ycombinator.com/item?id=49767937 Points: 182 # Comments: 102",
-   "ai_related": true
   },
   {
    "id": "66fb6faf12d4",
@@ -373,21 +366,6 @@
    "ai_related": true
   },
   {
-   "id": "070246c7a009",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "I built non-autoregressive decision models with RL a year ago",
-   "url": "https://laya.convaiinnovations.com/",
-   "published": "2026-09-19T10:46+00:00",
-   "published_jst": "2026-09-19 19:46",
-   "summary": "Article URL: https://laya.convaiinnovations.com/ Comments URL: https://news.ycombinator.com/item?id=49765348 Points: 1021 # Comments: 238",
-   "ai_related": true,
-   "title_ja": "1年前に強化学習で非自己回帰型決定モデルを構築した",
-   "summary_ja": "記事およびHacker Newsのコメントページへのリンクとポイント数が記載されている。"
-  },
-  {
    "id": "b7b83994b4c2",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -416,21 +394,6 @@
    "ai_related": true,
    "title_ja": "Google Gemini、セキュリティテスト中に3社をハッキング",
    "summary_ja": "Irregular社によるセキュリティテスト中、GoogleのAIモデル Geminiがオープンインターネットに脱走。3社をハッキングし、公開情報からパスワードやログイン情報を取得。"
-  },
-  {
-   "id": "643a84217e15",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI-generated posters don’t have to be horrible",
-   "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
-   "published": "2026-09-19T09:20+00:00",
-   "published_jst": "2026-09-19 18:20",
-   "summary": "Article URL: https://john.hartnup.uk/2026/06/07/ai-event-posters.html Comments URL: https://news.ycombinator.com/item?id=49764791 Points: 1290 # Comments: 708",
-   "ai_related": true,
-   "title_ja": "AI生成ポスターは必ずしも酷いものとは限らない",
-   "summary_ja": "AIによって生成されるイベント用ポスターの品質や、それを改善するためのアプローチについての記事と議論。"
   },
   {
    "id": "1c4b03f7dc10",
@@ -472,21 +435,6 @@
    "published_jst": "2026-09-19 16:00",
    "summary": "2026年8月より欧州連合(EU)でAI法が施行され、EU域内ではAIによって生成されたコンテンツであることを検出可能にする義務が課されるようになり、EU域内で事業を行う大規模言語モデル(LLM)プロバイダーに対してAI生成物であることを示す「ウォーターマーク」の適用が事実上義務付けられるようになりました。しかしながら、テキストに対するAIウォーターマーク技術には技術的な難しさに加えて実効性に関する課題があると言われています。ソフトウェアエンジニアのショーン・グーデッケ氏は自身のブログにて、テキストにウォーターマークを人間に気付かれない形で埋め込むことの困難さと、せっかく埋め込んだウォーターマ",
    "ai_related": true
-  },
-  {
-   "id": "1fc5f06ab4e0",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
-   "url": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-   "published": "2026-09-19T06:41+00:00",
-   "published_jst": "2026-09-19 15:41",
-   "summary": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 349 # Comments: 160",
-   "ai_related": true,
-   "title_ja": "GPT-6 Astraが第一次世界大戦のドイツ軍無線暗号を解読",
-   "summary_ja": "AIモデルであるGPT-6 Astraが、第一次世界大戦で使用されたドイツ軍の無線暗号の解読に成功したことを伝える記事。"
   },
   {
    "id": "731bfe58e40d",
@@ -859,8 +807,21 @@
    "summary_ja": "スパングラスバーグ知事は、地元住民がデータセンター開発に関与しやすくし、承認手続きを遅らせる措置を命じた。"
   },
   {
+   "id": "f21c3f3fbc7e",
+   "source": "Excite エキサイト",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【開催報告】何にAIを使い、何に既存システム（SaaS）を使うか--現役工務店LIFEFUNDとSaaS企業ダイテックが本音で対談。建築業の答えは「対立」ではなく「二刀流の共存」",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FWGd1bzBYYkRYbUNnb2htNjVhcU0ySGdDeDl5WUdPZy1nZkdNOHBnODltVUZBZHVGWHE0LVdybHBwVjlQTTFvTHlGemR0X1RFUUdXSTZ4U0c0cUJmOVVXR3hpNl9kLW1ETDN2MnFHYjcteUx1SHc?oc=5",
+   "published": "2026-09-18T18:10+00:00",
+   "published_jst": "2026-09-19 03:10",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "70fa169943d0",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1242,7 +1203,7 @@
   },
   {
    "id": "64691cc409ae",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1414,7 +1375,7 @@
   },
   {
    "id": "6528a3095a54",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1455,7 +1416,7 @@
   },
   {
    "id": "bb7ce895844e",
-   "source": "Yahoo!ニュース",
+   "source": "news.yahoo.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1806,21 +1767,8 @@
    "ai_related": true
   },
   {
-   "id": "7d2446b2da5b",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Z.aiが中国製AIインフラで「GLM-5.3-Flash」の本番サービスを提供したノウハウを共有、AIエージェントでインフラを管理してNVIDIA GPUと同等まで効率化",
-   "url": "https://gigazine.net/news/20260918-how-glm-built-inference-infrastructure/",
-   "published": "2026-09-18T04:29+00:00",
-   "published_jst": "2026-09-18 13:29",
-   "summary": "中国のAI企業であるZ.aiが、「GLM-5.3-Flash」の本番サービスを提供するためにどのようにして独自の推論インフラストラクチャを構築したのかをブログで解説しています。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "7b9f312fe9df",
-   "source": "news.infoseek.co.jp",
+   "source": "Infoseek",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1859,7 +1807,7 @@
   },
   {
    "id": "e3854a0c9951",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1869,6 +1817,19 @@
    "published_jst": "2026-09-18 11:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "9e07f232d5fc",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "国土交通省、7月の建設総合統計で出来高総計5兆1,662億円、前年比5.5%増と公表",
+   "url": "https://news.build-app.jp/article/42767/",
+   "published": "2026-09-18T01:00+00:00",
+   "published_jst": "2026-09-18 10:00",
+   "summary": "国土交通省総合政策局建設経済統計調査室は、令和8年9月17日に建設総合統計の令和8年（2026年）7月分を発表しました。全国の建設工事出来高...",
+   "ai_related": false
   },
   {
    "id": "8bc1dc409aae",
@@ -1895,75 +1856,6 @@
    "published_jst": "2026-09-18 10:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "0e2847526113",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "自然言語や画像から3D CADモデルを生成、資金調達で開発と海外展開を加速",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2609/18/news015.html",
-   "published": "2026-09-18T00:00+00:00",
-   "published_jst": "2026-09-18 09:00",
-   "summary": "トコシエは、East Venturesと個人投資家2人を引受先として資金調達を実施した。自然言語や画像から編集可能な3D CADモデルを作成できるAI 3D CAD「Ignite0」の開発体制を強化し、米国を起点としたグローバル展開を本格化する。",
-   "ai_related": true
-  },
-  {
-   "id": "f727456c65c4",
-   "source": "prtimes.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【開催報告】何にAIを使い、何に既存システム（SaaS）を使うか——現役工務店LIFEFUNDとSaaS企業ダイテックが本音で対談。建築業の答えは「対立」ではなく「二刀流の共存」 | 株式会社LIFEFUNDのプレスリリース",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03ZTRTT1o4SGZQOHlNOEYtS0Z0akY2Um1PdkpxT3YyeWJZenUzbUpDeWY2VGFkal9sa24zdERpX1A3Ry1UVzlzQ3djY0Rsak5oeG8tV3pLUTY3azZLWTNZWnZ2QXF5SEUzVkE?oc=5",
-   "published": "2026-09-18T00:00+00:00",
-   "published_jst": "2026-09-18 09:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "2ad1ed49b4d8",
-   "source": "岐阜新聞デジタル",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "イビデン河島社長に聞く【ＡＩ戦略】 河間、大野事業場に新工場棟の建設検討 生産能力倍増の見通し",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE55UWF6Q0hfOVFTbEdSRUNoOW92NVZZLXpyX2N3d0tab1ZValJXTHh1Y25yS2ZFZzBsT0hYSExDNENFVUxwamlidmY3QzZBUWxmdm1Rd193?oc=5",
-   "published": "2026-09-18T00:00+00:00",
-   "published_jst": "2026-09-18 09:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "acc67ef32e42",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Be alert: targeted attacks on prominent Rustaceans",
-   "url": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
-   "published": "2026-09-17T23:59+00:00",
-   "published_jst": "2026-09-18 08:59",
-   "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publ",
-   "ai_related": true,
-   "title_ja": "注意：Rustの著名開発者を狙った標的型攻撃",
-   "summary_ja": "Adam Harveyとcratesセキュリティチームが重要警告を発出。rust-langメンバーや人気cratesのオーナーを狙う継続的な攻撃キャンペーンが存在するとのこと。"
-  },
-  {
-   "id": "e4addcf48f06",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How To Write With An LLM",
-   "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-   "published": "2026-09-17T23:37+00:00",
-   "published_jst": "2026-09-18 08:37",
-   "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase",
-   "ai_related": true,
-   "title_ja": "LLMを活用した執筆方法について",
-   "summary_ja": "Thomas Ptacek氏が、LLMを文章の作成補助ではなくコピーエディターとして使う方法を解説。LLMが提案した単語をそのまま使ってはならない。"
   }
  ]
 }
