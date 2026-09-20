@@ -1,17 +1,17 @@
 {
   "version": 6,
-  "slot": "night",
-  "date": "2026-09-20",
-  "post_date": "2026-09-20",
-  "generated_at": "2026-09-20T20:44+09:00",
+  "slot": "morning",
+  "date": "2026-09-21",
+  "post_date": "2026-09-21",
+  "generated_at": "2026-09-21T07:00+09:00",
   "original_post": {
-    "time": "21:00",
-    "text": "米国の調査で、ほぼ毎日AIを使う成人の割合が半年で8%から19%に倍増したそうです(Epoch AIとIpsosが2026年3月と8月に実施した調査を比較、対象は米国成人)。週1回だけの利用者は17%から10%に減っています。使う頻度がここまで短期間で変わるなら、建設業でも「検討中」のまま様子見を続けるより、まず現場の誰かが毎日触ってみる方が早いかもしれません。",
+    "time": "07:25",
+    "text": "アリババが新しい画像生成AI「Qwen-Image-2.1」を公開しました。ビジュアル生成部分は7Bパラメータと軽量ながら、透明背景（RGBA）の画像をそのまま生成できるようになり、参照画像も最大10枚まで同時に読み込めます。丸で囲む・手描きで指示するだけの局所編集も対応しました。ただし公開されたのは研究用途限定のライセンスで、以前のApache 2.0版とは違い商用利用には別途申請が必要です。",
     "status": "draft",
     "type": "original",
-    "article_url": "https://epoch.ai/data-insights/near-daily-ai-use-doubled",
+    "article_url": "https://github.com/QwenLM/Qwen-Image-2.1",
     "video_url": null,
-    "reply_text": "■ 出典\nEpoch AI「Near-daily AI use among US adults has more than doubled in six months」(epoch.ai/data-insights)。調査はEpoch AI×Ipsosが2026年3月3-5日(n=2,017)と8月28-30日(n=1,016)に実施した米国成人対象のポーリング。The Decoder(2026-09-20 19:03 JST)でも同内容を報道。",
+    "reply_text": "■ 出典\nQwenLM/Qwen-Image-2.1（GitHub、2026-09-20公開）のREADMEとLICENSE(Qwen RESEARCH LICENSE AGREEMENT)を確認。比較のため前バージョンQwenLM/Qwen-ImageのLICENSE(Apache License 2.0)も確認。",
     "editorial": {
       "pillar": "一般AI",
       "format": "速報",
@@ -22,17 +22,17 @@
         "自分の追加価値": 1,
         "伝わりやすさ": 2
       },
-      "selection_reason": "news_feed.json(ai_global 53件・construction_global 6件)、ai_buzz.json(82件)、WebSearch(construction AI / AEC AI / BIM agent / jobsite robotics)を候補源に、today朝(Unity公式プラグイン/速報)・昼(Vectorworks AI Visualizer×Nano Banana/海外事例)・夕(Gemini不正侵入の引用)およびpost_queue.json直近14日との重複を除いて7件を比較。①Epoch AI×Ipsos調査「ほぼ毎日AIを使う米国成人が半年で8%→19%に倍増」(2026-09-20 19:03 JST The Decoder、一次データはepoch.ai/data-insightsで確認可能、調査手法・サンプル数明記)＝発表から2時間以内で鮮度が高く、数値の一次確認ができ、建設業への『様子見を続けず早く日常利用に組み込む』という論点を足せるため採用(9点)。②construction_global記事「Why pumps need to become part of a building's digital DNA」(pbctoday、業界団体代表による意見寄稿)＝具体的な企業・製品・数値がなく一般論の域を出ないため不採用(3点)。③construction_global「Bothaus Coffee」(archdaily)＝ロボット企業オフィスの内装紹介でAI活用の実質的な内容がないため不採用(2点)。④ai_buzz [建設×AI海外]の@Shopon1k/@hyperkrypt/@0xsunnhiによる@vangrid_io紹介スレッド(3アカウントがほぼ同時期に酷似した文面で同一プロジェクトを紹介)＝WebSearchで確認したところVangridはUSDC/Baseでの謝礼を伴う暗号資産(DePIN)系の資金調達案件で、建設業での実導入事例が確認できず、複数アカウントでの類似文面の拡散という広告的な性質が強いため不採用(3点)。⑤ai_buzz [AI海外バズ]の@S1r1u5_によるOpenAI社内ハッキング暴露(2026-09-18 11:43、2.6M表示・1.1万いいね)＝内容自体は具体的で証拠もあるが、本日夕枠のGemini不正侵入の引用と論点(AIエージェントのセキュリティ事故)が重複するため見送り(7点、重複により不採用)。⑥@peteryaredによる自作ツール『AgentCloak』の宣伝スレッド＝開発者本人による自社製品紹介で第三者評価がないため不採用(3点)。⑦@unusual_whalesの自律AIエージェント『Pip』がフリーランス案件を求めた話＝『AI倫理学者によると』という伝聞情報で一次確認ができず、投稿時刻も48h超のため不採用(4点)。WebSearchではBuildots×NavVisのレーザースキャン統合(2026-08-11)やVolveの建設入札AI3億円調達(2026-08-25)など建設×AIの実例が複数の独立媒体で確認できたが、いずれも掲載から1か月前後経過しており夜枠の48h基準を満たさないため候補から除外した。①を採用し、翻訳だけで終わらせず『検討中のまま様子見を続けるより早く日常利用に組み込む方がいい』という建設会社向けの論点を最後に足した。",
-      "source_url": "https://epoch.ai/data-insights/near-daily-ai-use-doubled",
-      "published_at": "2026-09-20T19:03+09:00",
-      "checked_at": "2026-09-20T20:44+09:00",
-      "availability": "Epoch AIのdata insightsページで一次データ(8%→19%、17%→10%、調査日程・サンプル数)を確認済み(2026-09-20時点で公開中、ページ本文閲覧可)。The Decoder記事(2026-09-20 19:03 JST)でも同じ数値を確認。",
-      "unverified": "建設業界に限定した米国内AI利用率データは存在せず、本文の『建設業でも』という展開は米国成人全体の利用動向からの類推であることを明記。data/analytics/live_metrics.jsonはfetched_atが2026-09-16T02:53(4日前)のスナップショットで、直近の実投稿との重複は最終確認できていない(実投稿未確認)。",
-      "hook_alternative": "『AIをほぼ毎日使う米国人が倍増』という増加面を先に出す案と『週1回だけの利用者が減った』という減少面を先に出す案を比較し、変化の大きさがより直感的に伝わる増加面を冒頭に採用した。"
+      "selection_reason": "news_feed.json(ai_global 43件・ai_japan 16件、48h窓)を新しい順に確認し、ai_buzz.json(79件)で公式アカウント(OpenAI/AnthropicAI/GoogleDeepMind/sama/gdb等)の一次発表を検索したが該当なし、WebSearchで補完して6件を比較した。①Alibaba「Qwen-Image-2.1」(GitHub QwenLM/Qwen-Image-2.1、2026-09-20公開、the-decoder等でも同日報道)＝視覚生成7Bパラメータ・透明背景(RGBA)ネイティブ生成・参照画像最大10枚・丸や手描きでの局所編集という具体的な新機能が確認でき、GitHubのREADMEとLICENSEファイルを直接確認して『研究用途限定ライセンス(商用利用は別途申請が必要)』という前バージョン(Apache 2.0)からの変更点も検証できたため採用(9点)。②TypeSafe AI「Jev」(ITmedia、2026-09-20報道)＝実際の発表は2026-09-15で48h超、記事も海外での話題の後追いで一次性が弱く、短文で仕組みを正確に説明しづらいため不採用(5点)。③「ChatGPT now knows what you do on other websites via ad collector」(Hacker News 268pt、buchodi.comの三次情報)＝OpenAI公式の言及がなく一次確認ができないため不採用(4点)。④トランプ氏の「AI Force」創設発表(The Verge/TechCrunch)＝組織名称・人事の話で技術的な変化がなく読者への価値が薄いため不採用(3点)。⑤Tencent「Gander」(news_feed上は2026-09-20付だが実際の発表は2026-09-09でWebSearchで確認、48h超の焼き直し)＝既報のため不採用(3点)。⑥OpenAIのNavier-Stokes問題(ミレニアム懸賞問題)に関するVillani氏の反応再燃(ai_buzz.json、Chubby氏の投稿)＝WebSearchで確認したところ実際の発表は2026-09-08で48h超、単なる反応の再燃であり新規性がないため不採用(3点)。①を採用し、建設への無理な結びつけはせず一般AIの新発表として画像生成AIの機能変化とライセンス条件を正確に伝える構成にした。",
+      "source_url": "https://github.com/QwenLM/Qwen-Image-2.1",
+      "published_at": "2026-09-20T00:00+09:00",
+      "checked_at": "2026-09-21T07:00+09:00",
+      "availability": "GitHub QwenLM/Qwen-Image-2.1のREADME(2026-09-20公開、7Bパラメータ・RGBA生成・参照画像最大10枚・局所編集)とLICENSEファイル(Qwen RESEARCH LICENSE AGREEMENT、2026-09-20発効、商用利用は別途model-business@notice.qwencloud.comへ申請)を直接確認。比較のためQwenLM/Qwen-ImageのLICENSE(Apache License 2.0)も確認済み。",
+      "unverified": "公式ベンチマークの具体的な数値(スコア等)はREADMEに記載がなく『生成品質・推論効率・柔軟性のバランスが良い』という定性的な主張のみで、本文には数値を入れていない。data/analytics/live_metrics.jsonはfetched_atが2026-09-16T02:53(5日前)のスナップショットのため、直近の実投稿との重複は最終確認できていない(実投稿未確認)。",
+      "hook_alternative": "『7Bパラメータで軽量』という技術面を先に出す案と、『透明背景の画像がそのまま作れる』という具体的にできることを先に出す案を比較し、後者は前段の軽量性の説明とセットで書いた方が変化の大きさが伝わるため、現行案は機能→ライセンス条件の順に統一した。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "slack_buzz.json(直近2日68件)を確認したが、[建設×AI(国内)]タグの候補は国内ネタで夜枠(海外翻訳)の本文と接続が薄く、@mr_grayhairのアビーム×Notion『AI組織変革支援サービス』提携は競合性が判断できない案件のため候補から除外した。ai_buzz.jsonの[建設×AI海外]は@vangrid_io関連のみで本文選定時に不採用としたため重ねて候補にしなかった。本文と独立して価値のある引用・リプ候補は見当たらず0件とした。",
+  "engage_cards_note": "ai_buzz.json(79件)を確認したが、Qwen-Image-2.1本文と独立して価値を足せる建設×AI/AI海外の候補は見当たらなかった（@NinaDSchick等の医療AI総括スレッドは建設・画像生成いずれとも接続が薄いため除外）。slack_buzz.jsonの直近分も確認したが国内建設ネタで本文の一般AI論点とは接続が薄いため0件とした。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-night"
+  "generated_by": "routine:x-post-morning"
 }
