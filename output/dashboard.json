@@ -1,38 +1,11 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-09-21",
   "post_date": "2026-09-21",
-  "generated_at": "2026-09-21T07:00+09:00",
-  "original_post": {
-    "time": "07:25",
-    "text": "アリババが新しい画像生成AI「Qwen-Image-2.1」を公開しました。ビジュアル生成部分は7Bパラメータと軽量ながら、透明背景（RGBA）の画像をそのまま生成できるようになり、参照画像も最大10枚まで同時に読み込めます。丸で囲む・手描きで指示するだけの局所編集も対応しました。ただし公開されたのは研究用途限定のライセンスで、以前のApache 2.0版とは違い商用利用には別途申請が必要です。",
-    "status": "draft",
-    "type": "original",
-    "article_url": "https://github.com/QwenLM/Qwen-Image-2.1",
-    "video_url": null,
-    "reply_text": "■ 出典\nQwenLM/Qwen-Image-2.1（GitHub、2026-09-20公開）のREADMEとLICENSE(Qwen RESEARCH LICENSE AGREEMENT)を確認。比較のため前バージョンQwenLM/Qwen-ImageのLICENSE(Apache License 2.0)も確認。",
-    "editorial": {
-      "pillar": "一般AI",
-      "format": "速報",
-      "scores": {
-        "新規性": 2,
-        "読者への価値": 2,
-        "見せられる証拠": 2,
-        "自分の追加価値": 1,
-        "伝わりやすさ": 2
-      },
-      "selection_reason": "news_feed.json(ai_global 43件・ai_japan 16件、48h窓)を新しい順に確認し、ai_buzz.json(79件)で公式アカウント(OpenAI/AnthropicAI/GoogleDeepMind/sama/gdb等)の一次発表を検索したが該当なし、WebSearchで補完して6件を比較した。①Alibaba「Qwen-Image-2.1」(GitHub QwenLM/Qwen-Image-2.1、2026-09-20公開、the-decoder等でも同日報道)＝視覚生成7Bパラメータ・透明背景(RGBA)ネイティブ生成・参照画像最大10枚・丸や手描きでの局所編集という具体的な新機能が確認でき、GitHubのREADMEとLICENSEファイルを直接確認して『研究用途限定ライセンス(商用利用は別途申請が必要)』という前バージョン(Apache 2.0)からの変更点も検証できたため採用(9点)。②TypeSafe AI「Jev」(ITmedia、2026-09-20報道)＝実際の発表は2026-09-15で48h超、記事も海外での話題の後追いで一次性が弱く、短文で仕組みを正確に説明しづらいため不採用(5点)。③「ChatGPT now knows what you do on other websites via ad collector」(Hacker News 268pt、buchodi.comの三次情報)＝OpenAI公式の言及がなく一次確認ができないため不採用(4点)。④トランプ氏の「AI Force」創設発表(The Verge/TechCrunch)＝組織名称・人事の話で技術的な変化がなく読者への価値が薄いため不採用(3点)。⑤Tencent「Gander」(news_feed上は2026-09-20付だが実際の発表は2026-09-09でWebSearchで確認、48h超の焼き直し)＝既報のため不採用(3点)。⑥OpenAIのNavier-Stokes問題(ミレニアム懸賞問題)に関するVillani氏の反応再燃(ai_buzz.json、Chubby氏の投稿)＝WebSearchで確認したところ実際の発表は2026-09-08で48h超、単なる反応の再燃であり新規性がないため不採用(3点)。①を採用し、建設への無理な結びつけはせず一般AIの新発表として画像生成AIの機能変化とライセンス条件を正確に伝える構成にした。",
-      "source_url": "https://github.com/QwenLM/Qwen-Image-2.1",
-      "published_at": "2026-09-20T00:00+09:00",
-      "checked_at": "2026-09-21T07:00+09:00",
-      "availability": "GitHub QwenLM/Qwen-Image-2.1のREADME(2026-09-20公開、7Bパラメータ・RGBA生成・参照画像最大10枚・局所編集)とLICENSEファイル(Qwen RESEARCH LICENSE AGREEMENT、2026-09-20発効、商用利用は別途model-business@notice.qwencloud.comへ申請)を直接確認。比較のためQwenLM/Qwen-ImageのLICENSE(Apache License 2.0)も確認済み。",
-      "unverified": "公式ベンチマークの具体的な数値(スコア等)はREADMEに記載がなく『生成品質・推論効率・柔軟性のバランスが良い』という定性的な主張のみで、本文には数値を入れていない。data/analytics/live_metrics.jsonはfetched_atが2026-09-16T02:53(5日前)のスナップショットのため、直近の実投稿との重複は最終確認できていない(実投稿未確認)。",
-      "hook_alternative": "『7Bパラメータで軽量』という技術面を先に出す案と、『透明背景の画像がそのまま作れる』という具体的にできることを先に出す案を比較し、後者は前段の軽量性の説明とセットで書いた方が変化の大きさが伝わるため、現行案は機能→ライセンス条件の順に統一した。"
-    }
-  },
+  "generated_at": "2026-09-21T11:08+09:00",
+  "original_post": null,
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.json(79件)を確認したが、Qwen-Image-2.1本文と独立して価値を足せる建設×AI/AI海外の候補は見当たらなかった（@NinaDSchick等の医療AI総括スレッドは建設・画像生成いずれとも接続が薄いため除外）。slack_buzz.jsonの直近分も確認したが国内建設ネタで本文の一般AI論点とは接続が薄いため0件とした。",
-  "skip_reason": null,
-  "generated_by": "routine:x-post-morning"
+  "skip_reason": "建設AI（海外・国内事例/比較/実演）の候補を8件比較したが、7点以上の採用基準を満たすものがなかったため休載（収集障害ではなく編集判断）。①news_feed.json construction_global(48h窓)は1件のみでArchDaily『Bothaus Coffee』（ロボット企業オフィスの内装デザイン記事、ai_related=trueタグは誤検出でAI内容なし）＝2点。②ai_buzz.jpの[建設×AI海外]タグ3投稿(@Shopon1k/@hyperkrypt/@0xsunnhi、2026-09-18〜19)はいずれも新興企業Vangrid(クラウドソース型リアルタイム地図データ+バウンティ)の宣伝的スレッドで、公式一次情報・提供条件が確認できず数字も未検証＝3点で不採用。③news_feed construction_japan ai_related=trueの『ANDPAD AWARD 2026 グリーンエナジー・ライフ受賞』は本文空で具体的なAI機能が確認できず、ANDPAD(vendor)の表彰イベント宣伝色が強い＝2点。④同『第58回建設未来フォーラム』は政策論議のイベント告知で具体的なAI実演・数字がない＝2点。⑤slack_buzz.jpの日経『竹中工務店、AIで手書き図面からCADデータ』(2026-09-19 22:01投稿、一次情報はtakenaka.co.jp 2026-06-06プレスリリース、レンタル開始2026-09-01近畿)＝本文8-9点相当だが、同じネタが2026-09-17 20:00枠(夜枠)で既出のため重複により不採用。⑥WebSearchで確認した米SuffolkとMIT共同白書(コスト17-20%減・工期22-25%短縮、2026-09-09発表)＝同じネタが2026-09-17 12:00枠(昼枠)で既出のため重複により不採用。⑦大林組×スキルアップNeXtの『BIM問い合わせ対応AIエージェント』(年間約19,000時間削減、PR TIMES 2026-09発表)は大林組自身の業務改善に見えるが、プレスリリース発信元がAI受託開発会社スキルアップNeXt自身であり、建設業向けAI開発支援サービスの自社実績PRに実質該当するため『競合紹介の除外』方針により不採用(判断できないものは候補にしないルールを適用)。⑧清水建設『AIロボット』研究開発(Torch Tower実証)は2026-07-08発表で48h・続報のいずれにも該当せず古すぎ、かつ技術支援ベンダーProx Industriesの受託PRを伴うため同様に見送り(2点)。今日の朝枠(Qwen-Image-2.1・一般AI)とは重複なし。data/analytics/live_metrics.json(fetched_at 2026-09-20T22:36 UTC)で実投稿100件も確認し、上記候補との重複なし。明日以降、竹中工務店・大林組ネタは既出につき別題材で再検索する。",
+  "generated_by": "routine:x-post-noon"
 }
