@@ -1,11 +1,40 @@
 {
   "version": 6,
-  "slot": "noon",
+  "slot": "evening",
   "date": "2026-09-21",
   "post_date": "2026-09-21",
-  "generated_at": "2026-09-21T11:08+09:00",
-  "original_post": null,
+  "generated_at": "2026-09-21T19:12+09:00",
+  "original_post": {
+    "time": "20:00",
+    "text": "LangChainの検証によると、Jevは天気エージェントの合否判定500回すべてで正解と一致し、判定のブレはClaudeの約1/92、コストは1回0.00035ドルだったそうです。ただし固定した5パターンを100回ずつ回した限定的な検証なので、本番の多様なタスクでも同じ精度が保てるかはまだ分かりません。",
+    "status": "draft",
+    "type": "quote_rt",
+    "quote_tweet_id": "2101454284927959080",
+    "quote_tweet_url": "https://x.com/LangChain/status/2101454284927959080",
+    "article_url": null,
+    "video_url": null,
+    "reply_text": "■ 出典\nLangChain公式ブログ「Can Jev Be a Better Agent Evaluator?」(langchain.com/blog/jev-agent-evals-langsmith、2026-09-20公開)と同社X投稿(2026-09-20 08:31)を確認。天気エージェントの実行ログ5パターンを100回ずつ再生し、判定の正解一致率(500/500)・分散(Jev 0.0000149、Claudeの約92倍・Lunaの約433倍・Terraの約913倍)・コスト(1回0.00035ドル)・レイテンシ(0.44秒)をJev/Claude/Luna/Terra(GPT-5.6)で比較した検証。WebFetchがlangchain.comへの直接アクセスを遮断したため、WebSearchの要約とSuperpowerdaily等の独立記事の記述一致で数値を確認した。",
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "引用",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 2,
+        "自分の追加価値": 2,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "ai_buzz.json(79件、48h窓中心)とslack_buzz.json(73件)を候補源に、post_queue.json直近14日・今日の朝枠(Qwen-Image-2.1/一般AI/速報、アリババ)・昼枠(建設AI休載)との重複を除いた上で6件を比較した。①LangChain公式による「Jevはより良いエージェント評価者になれるか」ベンチマーク(X投稿2026-09-20 08:31、公式ブログlangchain.com/blog/jev-agent-evals-langsmith)＝天気エージェントの固定5パターンを100回ずつ再生し、正解一致率500/500・分散がClaude比約92倍/Luna比約433倍/Terra比約913倍小さい・コスト1回0.00035ドル・レイテンシ0.44秒という具体的な検証手法と数値が確認でき、LangChain自身も『固定5パターンの再現に留まり本番ワークフローでの再現性は未確認』と限界を明記していたため、その留保を本文にそのまま足せる（翻訳だけで終わらせない）ことから採用(10点)。なお同じJev関連でも、複数アカウントで拡散していた『193倍高速・444倍安価』という触れ込みは前日(9/20)夕枠で一次検証不能として不採用にしており、今回はベンダー自身の宣伝文句ではなく第三者(LangChain)が方法論を開示した検証という点で性質が異なると判断した。②Vangrid宣伝スレッド(@Shopon1k/@hyperkrypt/@0xsunnhi、建設×AI海外、2026-09-18〜19)＝前日昼枠で一次情報・提供条件未確認として不採用済みで、48h超に加え再検討しても評価は変わらないため不採用(3点)。③Andrew Ngの「agentic knowledge graphs」1時間コース公開(@ZaneOnAI、2026-09-20 06:01)＝公式で確認できるが建設との接点がなく、コース目次の紹介に留まり具体的な補足を加えにくいため不採用(5点)。④@rakyll(Google在籍者、個人アカウント)による「エージェント向けKubernetes再発明・オープンエージェントオーケストレーター」予告(2026-09-20 15:28)＝製品名も詳細も未定の予告段階で一次確認ができないため不採用(4点)。⑤Microsoft「Frontier Playbook」の紹介(@uemura_HR、2026-09-20 08:50)＝投稿者による二次要約で一次資料を直接確認できず、内容も一般的なAI導入の留意点の再掲で新規性が弱いため不採用(6点)。⑥大林組×スキルアップNeXtのBIM問い合わせAIエージェント事例＝今日の昼枠skip_reasonで競合紹介の除外方針により候補外と既に判断済みのため再考せず。今日の朝枠・昼枠(休載)とはネタ・引用元とも重複なし。",
+      "source_url": "https://x.com/LangChain/status/2101454284927959080",
+      "published_at": "2026-09-20T08:31+09:00",
+      "checked_at": "2026-09-21T19:10+09:00",
+      "availability": "LangChain公式ブログ(langchain.com/blog/jev-agent-evals-langsmith)は2026-09-20公開で現在も閲覧可能(WebFetchは遮断されたためWebSearch経由で確認)。検証対象のTypeSafe Jevは2026-09-15に早期アクセス公開、2026-09-21にウェイトリストを解除しconsole.typesafe.aiで利用可能になったことをDataChaz(@DataChaz)の投稿(ai_buzz.json内)で確認した。",
+      "unverified": "LangChainのブログ本文はWebFetchがlangchain.comを遮断したため直接確認できず、WebSearchの要約およびSuperpowerdaily等の独立記事の記述一致で数値を代替確認した。ベンチマークは天気エージェントの固定5パターンを100回ずつ再生した限定検証であり、LangChain自身も本番の多様なワークフローでの再現性は未確認と明記している。TypeSafe社自身のコメントは確認していない。data/analytics/live_metrics.json(fetched_at 2026-09-20T22:36 UTC、約20時間前・24h以内)で実投稿100件を確認し、Jev/TypeSafe/LangChain関連の重複投稿は無かった。",
+      "hook_alternative": "『Jevが評価役として最速・最安』という数字先行の見出しも検討したが、検証条件(固定5パターン×100回)を明示しないと過大評価につながるため、事実(数値)→限界(本番での再現性は未確認)の順で構成し、読者が数字を鵜呑みにしないよう論点を添える案を採用した。"
+    }
+  },
   "engage_cards": [],
-  "skip_reason": "建設AI（海外・国内事例/比較/実演）の候補を8件比較したが、7点以上の採用基準を満たすものがなかったため休載（収集障害ではなく編集判断）。①news_feed.json construction_global(48h窓)は1件のみでArchDaily『Bothaus Coffee』（ロボット企業オフィスの内装デザイン記事、ai_related=trueタグは誤検出でAI内容なし）＝2点。②ai_buzz.jpの[建設×AI海外]タグ3投稿(@Shopon1k/@hyperkrypt/@0xsunnhi、2026-09-18〜19)はいずれも新興企業Vangrid(クラウドソース型リアルタイム地図データ+バウンティ)の宣伝的スレッドで、公式一次情報・提供条件が確認できず数字も未検証＝3点で不採用。③news_feed construction_japan ai_related=trueの『ANDPAD AWARD 2026 グリーンエナジー・ライフ受賞』は本文空で具体的なAI機能が確認できず、ANDPAD(vendor)の表彰イベント宣伝色が強い＝2点。④同『第58回建設未来フォーラム』は政策論議のイベント告知で具体的なAI実演・数字がない＝2点。⑤slack_buzz.jpの日経『竹中工務店、AIで手書き図面からCADデータ』(2026-09-19 22:01投稿、一次情報はtakenaka.co.jp 2026-06-06プレスリリース、レンタル開始2026-09-01近畿)＝本文8-9点相当だが、同じネタが2026-09-17 20:00枠(夜枠)で既出のため重複により不採用。⑥WebSearchで確認した米SuffolkとMIT共同白書(コスト17-20%減・工期22-25%短縮、2026-09-09発表)＝同じネタが2026-09-17 12:00枠(昼枠)で既出のため重複により不採用。⑦大林組×スキルアップNeXtの『BIM問い合わせ対応AIエージェント』(年間約19,000時間削減、PR TIMES 2026-09発表)は大林組自身の業務改善に見えるが、プレスリリース発信元がAI受託開発会社スキルアップNeXt自身であり、建設業向けAI開発支援サービスの自社実績PRに実質該当するため『競合紹介の除外』方針により不採用(判断できないものは候補にしないルールを適用)。⑧清水建設『AIロボット』研究開発(Torch Tower実証)は2026-07-08発表で48h・続報のいずれにも該当せず古すぎ、かつ技術支援ベンダーProx Industriesの受託PRを伴うため同様に見送り(2点)。今日の朝枠(Qwen-Image-2.1・一般AI)とは重複なし。data/analytics/live_metrics.json(fetched_at 2026-09-20T22:36 UTC)で実投稿100件も確認し、上記候補との重複なし。明日以降、竹中工務店・大林組ネタは既出につき別題材で再検索する。",
-  "generated_by": "routine:x-post-noon"
+  "engage_cards_note": "ai_buzz.json/slack_buzz.jsonを確認したが、本文の引用元(LangChainのJevベンチマーク)と重ならず、かつ一次確認・競合非該当の両方を満たす独立した価値のある候補は見当たらなかった。Vangrid宣伝スレッド(@Shopon1k/@hyperkrypt/@0xsunnhi)は一次情報・提供条件未確認のため見送り、@uemura_HRのMicrosoft Frontier Playbook紹介は二次要約で一次資料未確認のため見送った。",
+  "skip_reason": null,
+  "generated_by": "routine:x-post-evening"
 }
