@@ -11397,5 +11397,51 @@
       "unverified": "robocurve.org本体とthe-decoder.comはWebFetchが遮断されたため直接閲覧できず、WebSearchの要約と複数の独立記事(mixed-news.com、analyticsinsight.net等)の数値一致で代替確認した。Ai2 MolmoAct2の結果(拒否0・完了6)は本文に含めていない。data/analytics/live_metrics.jsonは本ルーティンでは未確認のため実投稿との重複は確認できていない。",
       "hook_alternative": "「AIがロボットを暴走させた」という煽り見出しも検討したが、根拠のない煽りを禁じる方針に反するため、具体的な試行回数・拒否回数を先に提示し、建設現場での安全設計という実務的な示唆で締める構成を採用した。"
     }
+  },
+  {
+    "id": "2026-09-22_07:25",
+    "date": "2026-09-22",
+    "time": "07:25",
+    "text": "OpenAIが、数学とAIの成果を評価する独立の諮問委員会を発表しました。拠点はプリンストン高等研究所、数学者9人が参加します。きっかけは先週の「ナビエ・ストークス方程式のミレニアム賞問題を解いた」という発表です。この証明はまだ査読や第三者検証を終えておらず、手法が他の数学者の未発表研究と似ているとの指摘も出ています。フィールズ賞受賞者らがAI企業の性急な発表競争に懸念を示していたことも背景にあるようです。ただし委員会は社内の研究ペース自体には関与しないとのこと。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "screenshot",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\nOpenAI公式発表「Advisory Group on Mathematics and Artificial Intelligence」(openai.com/index/advisory-group-on-mathematics-and-ai、2026-09-21 21:00頃公開)。委員会設置のきっかけとなった「ナビエ・ストークス方程式を解いた」という主張はOpenAI公式の別記事(openai.com/index/navier-stokes-solution/)。査読前・独立検証未了で、数学者から手法の類似を指摘する声も出ている状況をCNBC・Axios・Science誌・Quanta Magazine等の報道で確認した。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "速報",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 2,
+        "自分の追加価値": 2,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "news_feed.json(ai_global 57件・ai_japan 17件・construction_global 24件・construction_japan 17件、window_hours=48、生成2026-09-22 06:14 JST)を軸に、ai_buzz.json(94件)でOpenAI/AnthropicAI/GoogleDeepMind/sama/gdb等の公式アカウント投稿を確認したが該当窓内に一次発表は無く、WebSearchで補完した。post_queue.json直近14日・data/analytics/live_metrics.json(fetched_at 2026-09-20T22:36 UTC、直近実投稿は9/16まで)と重複なしを確認。候補5件を比較した。①OpenAI「数学とAIに関する諮問委員会」設置(採用、10点)。openai.com公式発表(2026-09-21 21:00 JST)で新規性が高く、先週発表された『ナビエ・ストークス方程式のミレニアム賞問題を解いた』という主張が査読前・独立検証未了かつ他の数学者の未発表研究との類似を指摘されている状況（CNBC・Axios・Science誌・NBC News・Quanta Magazine等で確認）への組織的対応という点で、AIの性能主張を鵜呑みにしないという読者への実務的な価値を明確に足せるため採用。②xAI「Grok 4.7」公式ローンチ(x.ai公式発表、2026-09-22 00:50 JST。8点、次点)。価格は前世代Grok 4.6と同水準だがArtificial Analysis Intelligence Index等の第三者ベンチマークでClaude Fable 5.1・GPT-6に総合スコアで見劣りする結果が出ており事実として正確だが、単純な新製品比較でOpenAI枠ほどの追加価値(読者の情報リテラシー面)を出しにくく見送り。③Google「Geminiモデルが5月に実在企業3社に侵入」(arstechnica、2026-09-22 01:57 JST）は9/20 20:00枠(一般AI・引用)で同じGemini社内侵入テストの話題を既に扱っており重複のため不採用。④Meta「AIエージェントMuseがAmazon.comの利用をブロックされた」(techcrunch、2026-09-22 02:55 JST）はプラットフォーム間の利用制限を巡る話で、読者が『何ができるようになったか』を得にくく見送り(6点)。⑤国連科学パネル「AIエージェントの制御維持に保証はない」(the-decoder、2026-09-22 02:44 JST）は具体的な変化点や利用条件を欠き、根拠のない煽りに近づくリスクがあるため見送り(5点)。本日は朝枠のみの生成のため他枠との重複なし。",
+      "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "published_at": "2026-09-21T21:00+09:00",
+      "checked_at": "2026-09-22T06:45+09:00",
+      "availability": "openai.com・techcrunch.com・x.aiはいずれもWebFetchが環境のegressプロキシで遮断されたため直接閲覧できず、WebSearchの要約とCNBC・Axios・Science誌(AAAS)・NBC News・CNN・Quanta Magazineなど複数の独立報道の一致で内容を確認した(諮問委員会の設置・プリンストン高等研究所を拠点とする9人の数学者構成・内部の研究ペースには関与しないという役割、いずれも複数ソースで一致)。",
+      "unverified": "openai.com公式ページ本文はWebFetchが遮断され直接確認できていないため、WebSearchの要約と複数の独立報道の一致で代替確認した。委員9人のうちフィールズ賞受賞者の公開書簡に署名したのは1人のみ、という詳細は情報源が単一に近く裏取りが弱いため本文・補足には含めていない。ナビエ・ストークス方程式の証明そのものが真に正しいかどうかは本記事執筆時点で未決着であり、本文でも「まだ査読や第三者検証を終えておらず」と明記し解決済みと断定していない。data/analytics/live_metrics.jsonはfetched_at 2026-09-20T22:36 UTCとやや古く、直近の実投稿は9/16までしか確認できないため、それ以降の実投稿との重複は完全には確認できていない。",
+      "hook_alternative": "『AIがまた数学の超難問を解いた』という前振りも検討したが、実際には査読前・独立検証未了の主張であり根拠のない断定を禁じる方針に反するため採用しなかった。代わりに『諮問委員会の設置』という確定した事実を起点に、その背景にある未検証の主張と数学者からの懸念を後段で説明する構成にした。"
+    }
   }
 ]
