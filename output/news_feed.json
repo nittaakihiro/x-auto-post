@@ -1,24 +1,33 @@
 {
- "generated_at": "2026-09-21T19:26+00:00",
- "generated_at_jst": "2026-09-22 04:26",
+ "generated_at": "2026-09-21T19:59+00:00",
+ "generated_at_jst": "2026-09-22 04:59",
  "window_hours": 48,
  "counts": {
-  "ai_global": 59,
+  "construction_global": 23,
+  "ai_global": 57,
   "construction_japan": 16,
-  "construction_global": 13,
   "ai_japan": 17
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "385c82c692bc",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Construction groundbreakings tumbled 25%, megaproject starts slowed",
+   "url": "https://www.constructiondive.com/news/construction-groundbreakings-plunge-August-2026/830940/",
+   "published": "2026-09-21T19:54+00:00",
+   "published_jst": "2026-09-22 04:54",
+   "summary": "Activity through the first eight months of 2026 still outpaced levels at this time last year, according to Dodge Construction Network.",
+   "ai_related": false
+  },
   {
    "id": "66ce002dbe90",
    "source": "TechCrunch AI",
@@ -74,7 +83,7 @@
    "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
    "published": "2026-09-21T17:55+00:00",
    "published_jst": "2026-09-22 02:55",
-   "summary": "Muse isn't welcome as a shopper anymore.",
+   "summary": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
    "ai_related": true,
    "title_ja": "MetaのAIエージェント、Amazon.comでの利用がブロック",
    "summary_ja": "AIエージェント「Muse」の買い物客としてのアクセスが拒否されるようになった。"
@@ -220,7 +229,7 @@
    "url": "https://x.ai/news/grok-4-7",
    "published": "2026-09-21T15:50+00:00",
    "published_jst": "2026-09-22 00:50",
-   "summary": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 324 # Comments: 266",
+   "summary": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 355 # Comments: 300",
    "ai_related": true,
    "title_ja": "Grok 4.7の発表",
    "summary_ja": "xAIが公開した最新モデル「Grok 4.7」に関する公式ニュースページと、Hacker Newsでの議論を紹介する記事。"
@@ -374,6 +383,19 @@
    "summary_ja": "Startup Battlefield 200の候補者を審査する次世代のVC陣がメインステージに集結する。"
   },
   {
+   "id": "f77d182c064f",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+   "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+   "published": "2026-09-21T14:10+00:00",
+   "published_jst": "2026-09-21 23:10",
+   "summary": "Article URL: https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/ Comments URL: https://news.ycombinator.com/item?id=49787535 Points: 156 # Comments: 74",
+   "ai_related": true
+  },
+  {
    "id": "14943be3c819",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -413,7 +435,7 @@
    "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
    "published": "2026-09-21T13:53+00:00",
    "published_jst": "2026-09-21 22:53",
-   "summary": "Article URL: https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49787313 Points: 185 # Comments: 158",
+   "summary": "Article URL: https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49787313 Points: 189 # Comments: 173",
    "ai_related": true,
    "title_ja": "M5 Ultra搭載Mac Studioレビュー",
    "summary_ja": "ローカルAIエージェントを実行する「夢のMac」として、M5 Ultraを搭載したMac Studioを評価するレビュー記事。"
@@ -494,6 +516,19 @@
    "summary_ja": "OpenAIは、AIの新たな成果の検証や情報発信を指導するため、独立した専門グループと協力して取り組んでいる。"
   },
   {
+   "id": "d37f5b2c5927",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+   "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+   "published": "2026-09-21T12:00+00:00",
+   "published_jst": "2026-09-21 21:00",
+   "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+   "ai_related": true
+  },
+  {
    "id": "f8c4e8d06db8",
    "source": "MIT Technology Review AI",
    "source_id": "mit_tr",
@@ -552,6 +587,123 @@
    "ai_related": true,
    "title_ja": "監視カメラのすぐそばで、国境付近で亡くなった女性",
    "summary_ja": "サンディエゴ近郊の国境を越えた女性が、わずか数時間後に道に迷い命を落とした悲劇を伝える。"
+  },
+  {
+   "id": "fcf10dccf501",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Tolent administrators preparing legal claim against supplier",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/tolent-administrators-preparing-legal-claim-against-supplier-21-09-2026/",
+   "published": "2026-09-21T11:58+00:00",
+   "published_jst": "2026-09-21 20:58",
+   "summary": "Administrators for collapsed contractor Tolent are pursuing a “complex legal claim” against an unnamed subcontractor. Interpath Advisory’s latest progress report says the administrators incurred £43,200 in costs for assistance from law firm Clyde & Co in pursuing the claim. Some of those costs relat",
+   "ai_related": false
+  },
+  {
+   "id": "0238de96e3e1",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Torsion replaced on £8.4m Stoke job after contractor’s collapse",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/torsion-replaced-on-8-4m-stoke-job-after-contractors-collapse-21-09-2026/",
+   "published": "2026-09-21T11:53+00:00",
+   "published_jst": "2026-09-21 20:53",
+   "summary": "Torsion Construction has been replaced on an £8.4m job to rebuild a housing estate, two months after the contractor appointed administrators. On Friday (18 September), Stoke-on-Trent City Council appointed Telford-based McPhillips (Wellington) Ltd to build Doris Robinson Court, according to a tender",
+   "ai_related": false
+  },
+  {
+   "id": "41efbfd96b53",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "CN100 2026: top contractors grow revenue to £84.9bn",
+   "url": "https://www.constructionnews.co.uk/financial/cn100-2026-top-contractors-grow-revenue-to-84-9bn-21-09-2026/",
+   "published": "2026-09-21T11:45+00:00",
+   "published_jst": "2026-09-21 20:45",
+   "summary": "The UK’s largest contractors have increased their combined revenue to £84.88bn in the latest CN100, up almost 8 per cent on last year’s rankings. Aggregate pre-tax profit among the firms also rose from £1.93bn to £2.46bn, while total cash holdings increased to £14.43bn. Ninety of… The post CN100 202",
+   "ai_related": false
+  },
+  {
+   "id": "54e479893585",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Clegg says contracting arm’s turnover will top £100m",
+   "url": "https://www.constructionnews.co.uk/financial/clegg-says-contracting-arms-turnover-will-top-100m-21-09-2026/",
+   "published": "2026-09-21T11:45+00:00",
+   "published_jst": "2026-09-21 20:45",
+   "summary": "Clegg Group has said its main contracting business is on course to turn over more than £100m for the first time. The company said Clegg Construction’s revenue will top the landmark figure in 2026, with pre-tax profit in the first half of the year set… The post Clegg says contracting arm’s turnover w",
+   "ai_related": false
+  },
+  {
+   "id": "fd8f205f1d39",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Acheson administrators recover £36k of construction debts",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/acheson-administrators-recover-36k-of-construction-debts-21-09-2026/",
+   "published": "2026-09-21T11:45+00:00",
+   "published_jst": "2026-09-21 20:45",
+   "summary": "Administrators for Acheson Construction recovered more than £36,000 in construction debts in six months to 17 August this year, according to their latest progress report. Richard Lewis and Alistair Wardell of Grant Thornton had said earlier this year that construction contract debt recovery was “the",
+   "ai_related": false
+  },
+  {
+   "id": "a93f1475c23f",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Bechtel plunges £10m into the red",
+   "url": "https://www.constructionnews.co.uk/financial/bechtel-plunges-10m-into-the-red-21-09-2026/",
+   "published": "2026-09-21T11:45+00:00",
+   "published_jst": "2026-09-21 20:45",
+   "summary": "Bechtel Ltd has swung from a £34.8m pre-tax profit to a £9.7m loss in its latest annual accounts. The UK arm of the US engineering firm’s turnover also plummeted by 39 per cent to £129m in the 12 months to 31 December 2025. Directors said… The post Bechtel plunges £10m into the red appeared first on",
+   "ai_related": false
+  },
+  {
+   "id": "d9e8d4303f68",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Morgan Sindall lands £35m Sellafield roof job",
+   "url": "https://www.constructionnews.co.uk/buildings/morgan-sindall-lands-35m-sellafield-roof-job-21-09-2026/",
+   "published": "2026-09-21T11:33+00:00",
+   "published_jst": "2026-09-21 20:33",
+   "summary": "Morgan Sindall has been awarded a £35m contract to replace roofing across two buildings at the Sellafield nuclear site in Cumbria. Client Sellafield awarded the job to Morgan Sindall Construction and Infrastructure through the Pagabo Major Works Framework. The project will replace about 28,500 squar",
+   "ai_related": false
+  },
+  {
+   "id": "1654d6b2edd5",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "McLaren appoints new construction management division director",
+   "url": "https://www.constructionnews.co.uk/peoplemoves/mclaren-appoints-new-construction-management-division-director-21-09-2026/",
+   "published": "2026-09-21T11:28+00:00",
+   "published_jst": "2026-09-21 20:28",
+   "summary": "McLaren Construction has appointed Martin Ewing as divisional director for construction management and specialist projects. Ewing joined the contractor with more than 40 years of experience in construction management and project delivery, McLaren said. He has spent more than half of his career - 22…",
+   "ai_related": false
+  },
+  {
+   "id": "a80e12fdf829",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Shepherding a contractor towards £500m",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/shepherding-a-contractor-towards-500m-21-09-2026/",
+   "published": "2026-09-21T11:16+00:00",
+   "published_jst": "2026-09-21 20:16",
+   "summary": "Running a farm helps Jon Dunwell switch off from construction. When the Morris & Spottiswood executive chairman is not overseeing the fast-growing contractor, he tends sheep and cattle with his wife and son. “It makes me relax,” he says. “I stop thinking about work and… The post Shepherding a contra",
+   "ai_related": false
   },
   {
    "id": "94d0db2af44a",
@@ -701,7 +853,7 @@
   },
   {
    "id": "553e9a32ac77",
-   "source": "BigGo ファイナンス",
+   "source": "finance.biggo.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -735,7 +887,7 @@
    "url": "https://github.com/jaredpalmer/kev/tree/main",
    "published": "2026-09-21T07:11+00:00",
    "published_jst": "2026-09-21 16:11",
-   "summary": "Article URL: https://github.com/jaredpalmer/kev/tree/main Comments URL: https://news.ycombinator.com/item?id=49783999 Points: 331 # Comments: 154",
+   "summary": "Article URL: https://github.com/jaredpalmer/kev/tree/main Comments URL: https://news.ycombinator.com/item?id=49783999 Points: 338 # Comments: 159",
    "ai_related": true,
    "title_ja": "Qwen3.5ベースの小型決定モデルKevが登場",
    "summary_ja": "Qwen3.5を基盤とした小型のJev系決定モデルに関するGitHubリポジトリとHacker Newsの議論。"
@@ -860,7 +1012,7 @@
   },
   {
    "id": "8dc3594ee1c0",
-   "source": "毎日新聞",
+   "source": "mainichi.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -872,38 +1024,8 @@
    "ai_related": false
   },
   {
-   "id": "d1b27e26fd9f",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
-   "url": "https://github.com/volotat/mini-AGI/",
-   "published": "2026-09-21T04:42+00:00",
-   "published_jst": "2026-09-21 13:42",
-   "summary": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation. Before throwing rocks at me, please take a glance at the Readme, and I hope it will cover your mood a little bit. So, first of all it does work ",
-   "ai_related": true,
-   "title_ja": "Show HN: 8GB VRAMで訓練可能な動的継続学習モデル",
-   "summary_ja": "AGIモデルに必要な要素を詰め込んだミニAGI。作者がReadmeを読むよう呼びかけている。"
-  },
-  {
-   "id": "d344b714c684",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Heretic removes restrictions from language models",
-   "url": "https://heretic-project.org/",
-   "published": "2026-09-21T04:35+00:00",
-   "published_jst": "2026-09-21 13:35",
-   "summary": "Article URL: https://heretic-project.org/ Comments URL: https://news.ycombinator.com/item?id=49783101 Points: 187 # Comments: 74",
-   "ai_related": true,
-   "title_ja": "Hereticが言語モデルから制限を解除",
-   "summary_ja": "言語モデルにかけられた制限や制約を取り除くプロジェクト「Heretic」に関する公式情報と議論へのリンク。"
-  },
-  {
    "id": "6380ec2005ce",
-   "source": "BigGo ファイナンス",
+   "source": "finance.biggo.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -913,19 +1035,6 @@
    "published_jst": "2026-09-21 13:06",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "321dd6221cd9",
-   "source": "山陽新聞",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設DX支援サービス「ソクプロ」、累計支援件数10件を突破",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QYjFfN2dYNUVFMWZ5YWotWnZSQ0hoSndVQkE1ZmlDSThzZjlJTHhrc3hnQmFhNHUxYTBWTVlZMDlOdzFlbzJxVzlJVlFISExod2c?oc=5",
-   "published": "2026-09-21T03:22+00:00",
-   "published_jst": "2026-09-21 12:22",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "b133e8bfff2b",
@@ -1069,14 +1178,14 @@
    "url": "https://agentexecutor.io",
    "published": "2026-09-20T22:32+00:00",
    "published_jst": "2026-09-21 07:32",
-   "summary": "Article URL: https://agentexecutor.io Comments URL: https://news.ycombinator.com/item?id=49780797 Points: 620 # Comments: 284",
+   "summary": "Article URL: https://agentexecutor.io Comments URL: https://news.ycombinator.com/item?id=49780797 Points: 625 # Comments: 284",
    "ai_related": true,
    "title_ja": "AX：Googleのオープンなエージェント型オーケストレーター",
    "summary_ja": "Googleが開発したオープンなエージェント型オーケストレーター「AX」に関するHacker Newsの議論や記事。"
   },
   {
    "id": "68ffbe6fb202",
-   "source": "BigGo ファイナンス",
+   "source": "finance.biggo.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1389,6 +1498,19 @@
    "ai_related": true
   },
   {
+   "id": "eb1ea8e2cfc8",
+   "source": "バロンズ・ダイジェスト",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日本マネーが変える米AI電力インフラ",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85d1lOcVlWenZ5UVUyMk1uVExQS0tPczVVVGVLRXNLVjlZS084UTNCRjNWdGk5ZTFZbmJjUFBrM1pNUTNGa3ppUFJMWUhnZw?oc=5",
+   "published": "2026-09-20T01:48+00:00",
+   "published_jst": "2026-09-20 10:48",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "69497bfa343c",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -1497,36 +1619,6 @@
    "ai_related": true,
    "title_ja": "Flock、希望退職で人員削減を試みる",
    "summary_ja": "希望退職の募集を行わなければ、Flockは「ほぼ確実」に人員削減を実施せざるを得ない状況にあると報じられている。"
-  },
-  {
-   "id": "589c5060cfaa",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
-   "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
-   "published": "2026-09-19T19:57+00:00",
-   "published_jst": "2026-09-20 04:57",
-   "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
-   "ai_related": true,
-   "title_ja": "トランプ氏、AIの名称変更と「AIフォース」創設を提案",
-   "summary_ja": "トランプ氏は、AIへの反発は民主党のデマであると根拠を示さずに主張した。"
-  },
-  {
-   "id": "35fff0c66d51",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "datasette-auth-github 1.0",
-   "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-   "published": "2026-09-19T19:52+00:00",
-   "published_jst": "2026-09-20 04:52",
-   "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser s",
-   "ai_related": true,
-   "title_ja": "「datasette-auth-github 1.0」がリリース",
-   "summary_ja": "GitHubログインプラグインのバージョン1.0がリリースされた。認証セッションが長続きしない問題の調査でクッキーの設定に起因することが判明した。"
   }
  ]
 }
