@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-22T21:16+00:00",
- "generated_at_jst": "2026-09-23 06:16",
+ "generated_at": "2026-09-22T22:12+00:00",
+ "generated_at_jst": "2026-09-23 07:12",
  "window_hours": 48,
  "counts": {
-  "ai_global": 77,
-  "construction_global": 36,
-  "construction_japan": 28,
-  "ai_japan": 21
+  "ai_global": 78,
+  "construction_japan": 29,
+  "construction_global": 31,
+  "ai_japan": 16
  },
  "errors": [
   {
@@ -14,11 +14,37 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "buildapp",
-   "error": "URLError: <urlopen error timed out>"
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "7e5d39ad04c0",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+   "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+   "published": "2026-09-22T21:56+00:00",
+   "published_jst": "2026-09-23 06:56",
+   "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+   "ai_related": true
+  },
+  {
+   "id": "5618ffbe19d5",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+   "url": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+   "published": "2026-09-22T21:25+00:00",
+   "published_jst": "2026-09-23 06:25",
+   "summary": "The frontier AI model race has entered its comparison shopping phase.",
+   "ai_related": true
+  },
   {
    "id": "b6b1e4118cdb",
    "source": "OpenAI News",
@@ -33,6 +59,19 @@
    "ai_related": true,
    "title_ja": "GPT-6のプロンプトキャッシュ機能向上",
    "summary_ja": "キャッシュヒット率の向上、新しい診断機能、明示的なブレークポイントにより、レイテンシーとコストを削減するGPT-6の機能改善を解説します。"
+  },
+  {
+   "id": "83cc795c501a",
+   "source": "施工の神様",
+   "source_id": "sekokan_navi",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "おいおい、ちょっと待って！設計で見落としていた作業員の安全対策",
+   "url": "https://sekokan-navi.jp/magazine/87389",
+   "published": "2026-09-22T21:00+00:00",
+   "published_jst": "2026-09-23 06:00",
+   "summary": "私は以前、設備機器更新工事において、工事現場の作業員に対する安全対策を設計段階でまったく考慮できていませんでした。 本来であれば、機器の設置計画だけでなく、現場で働く作業員の安全性まで見据えて設計を行わなければなりません... The post おいおい、ちょっと待って！設計で見落としていた作業員の安全対策 first appeared on 施工の神様 .",
+   "ai_related": false
   },
   {
    "id": "cc0d123c3bdd",
@@ -80,21 +119,6 @@
    "summary_ja": "Qualcommは、新型の最上位チップが300億パラメータのMixture-of-Expertsモデルをローカルで実行可能であると発表しました。"
   },
   {
-   "id": "c020b4c7a58e",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mediation in Construction Disputes: A Practical Guide",
-   "url": "https://constructionexec.com/article/mediation-in-construction-disputes-a-practical-guide/?utm_source=rss&utm_medium=rss&utm_campaign=mediation-in-construction-disputes-a-practical-guide",
-   "published": "2026-09-22T19:48+00:00",
-   "published_jst": "2026-09-23 04:48",
-   "summary": "A disputed change order or delay claim can put far more than payment at stake, threatening project schedules, working relationships and the time executives need to run their businesses. The post Mediation in Construction Disputes: A Practical Guide first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設紛争における調停：実践ガイド",
-   "summary_ja": "変更指示書や遅延請求の未解決は、プロジェクトのスケジュールや関係性を脅かし、経営者の時間を奪う重大なリスクとなります。"
-  },
-  {
    "id": "69bd5b227657",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -108,21 +132,6 @@
    "ai_related": true,
    "title_ja": "マイクロソフト、1.2万アカウントを侵害したAIプラットフォームを無効化",
    "summary_ja": "EvilTokensは、大規模な情報侵害を迅速かつ容易に行うためのエンドツーエンドのプラットフォームを提供していました。"
-  },
-  {
-   "id": "a0f0d44751c5",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Beyond the Forecast: Managing Extreme Weather Risks on Construction Sites",
-   "url": "https://constructionexec.com/article/beyond-the-forecast-managing-extreme-weather-risks-on-construction-sites/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-forecast-managing-extreme-weather-risks-on-construction-sites",
-   "published": "2026-09-22T19:41+00:00",
-   "published_jst": "2026-09-23 04:41",
-   "summary": "Recognizing the early signs of heat or cold stress is critical to preventing small problems from becoming serious incidents. The post Beyond the Forecast: Managing Extreme Weather Risks on Construction Sites first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "予報の先へ：建設現場における極端な気象リスクの管理",
-   "summary_ja": "熱中症や寒冷ストレスの初期兆候に気づくことは、小さなトラブルが深刻な事故に発展するのを防ぐために極めて重要です。"
   },
   {
    "id": "f5795de5b2fb",
@@ -160,11 +169,11 @@
    "source_id": "hn_top",
    "category": "ai_global",
    "lang": "en",
-   "title": "Overreliance on AI contributed to missile strike on Iran school – Pentagon",
+   "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
    "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
    "published": "2026-09-22T19:03+00:00",
    "published_jst": "2026-09-23 04:03",
-   "summary": "Article URL: https://www.bloomberg.com/graphics/2026-iran-school-attack/ Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 233 # Comments: 125",
+   "summary": "Article URL: https://www.bloomberg.com/graphics/2026-iran-school-attack/ Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 274 # Comments: 139",
    "ai_related": true,
    "title_ja": "イランの学校へのミサイル攻撃、AIへの過度な依存が要因とペンタゴン",
    "summary_ja": "イランの学校攻撃事件に関連するブルームバーグの記事およびHacker Newsのコメントページのリンク情報です。"
@@ -224,25 +233,10 @@
    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
    "published": "2026-09-22T18:00+00:00",
    "published_jst": "2026-09-23 03:00",
-   "summary": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 825 # Comments: 439",
+   "summary": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 914 # Comments: 482",
    "ai_related": true,
    "title_ja": "GPT-6 SolとLunaに関する議論",
    "summary_ja": "OpenAIによる新モデル「GPT-6 SolとLuna」の発表に関する公式情報およびHacker News上の議論やコメントのリンクです。"
-  },
-  {
-   "id": "fb500fb4f081",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mental Health Is a Leadership Imperative in Construction",
-   "url": "https://constructionexec.com/article/mental-health-is-a-leadership-imperative-in-construction/?utm_source=rss&utm_medium=rss&utm_campaign=mental-health-is-a-leadership-imperative-in-construction",
-   "published": "2026-09-22T17:58+00:00",
-   "published_jst": "2026-09-23 02:58",
-   "summary": "In 2023, more construction professionals died by suicide than from workplace accidents. Industry leaders explain why mental health must become as central to safety culture as hard hats and PPE. The post Mental Health Is a Leadership Imperative in Construction first appeared on Construction Executive",
-   "ai_related": false,
-   "title_ja": "建設業におけるリーダーシップとしてのメンタルヘルス",
-   "summary_ja": "2023年、建設業界では労働災害よりも自殺による死者数が上回りました。業界リーダーがメンタルヘルス対策の重要性を解説します。"
   },
   {
    "id": "3207cf801603",
@@ -299,7 +293,7 @@
    "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
    "published": "2026-09-22T16:51+00:00",
    "published_jst": "2026-09-23 01:51",
-   "summary": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49804316 Points: 171 # Comments: 50",
+   "summary": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49804316 Points: 188 # Comments: 52",
    "ai_related": true,
    "title_ja": "Claude Opus 5.5の知能、性能、価格分析",
    "summary_ja": "Artificial AnalysisによるAIモデル「Claude Opus 5.5」の性能や価格に関する詳細な分析ページおよび関連議論へのリンクです。"
@@ -314,7 +308,7 @@
    "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
    "published": "2026-09-22T16:34+00:00",
    "published_jst": "2026-09-23 01:34",
-   "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, NVIDIA, OpenAI, Palantir",
+   "summary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir",
    "ai_related": true,
    "title_ja": "a16zが宿題なしの「アカデミー」を設立、有名企業と提携",
    "summary_ja": "ベンチャーキャピタルのAndreessen Horowitzが、若者がスタートアップを構築・支援するための「アカデミー」を設立します。"
@@ -359,7 +353,7 @@
    "url": "https://www.anthropic.com/claude-opus-5-5",
    "published": "2026-09-22T16:29+00:00",
    "published_jst": "2026-09-23 01:29",
-   "summary": "Article URL: https://www.anthropic.com/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49803892 Points: 901 # Comments: 670",
+   "summary": "Article URL: https://www.anthropic.com/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49803892 Points: 967 # Comments: 703",
    "ai_related": true,
    "title_ja": "Claude Opus 5.5の発表",
    "summary_ja": "Anthropicの最新モデル「Claude Opus 5.5」に関する議論やポイントが共有されています。"
@@ -490,7 +484,7 @@
    "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
    "published": "2026-09-22T14:42+00:00",
    "published_jst": "2026-09-22 23:42",
-   "summary": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 224 # Comments: 167",
+   "summary": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 232 # Comments: 176",
    "ai_related": true,
    "title_ja": "OpenAIのJev追随戦略",
    "summary_ja": "OpenAIがJevの動向に対し、迅速に追随する体制が整っていることについて分析しています。"
@@ -670,7 +664,7 @@
    "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
    "published": "2026-09-22T13:52+00:00",
    "published_jst": "2026-09-22 22:52",
-   "summary": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 489 # Comments: 341",
+   "summary": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 507 # Comments: 345",
    "ai_related": true,
    "title_ja": "OpenAI GPT-6 Astra、2005年以来のEnigmaを解読",
    "summary_ja": "OpenAIのGPT-6 Astraが、2005年から未解読だったEnigmaメッセージの解読に成功。"
@@ -910,19 +904,17 @@
    "summary_ja": "AIの話題が尽きない数カ月だった。4月末にはAnthropicがClaude Mythosの脆弱性発見能力を主張し、その後もOpenAIやHugging Face関連の話題が続いている。"
   },
   {
-   "id": "0d73c12b8e0a",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Key Person Provisions in Construction Contracts: Because People, Not Companies, Build Projects",
-   "url": "https://constructionexec.com/article/key-person-provisions-in-construction-contracts-because-people-not-companies-build-projects/?utm_source=rss&utm_medium=rss&utm_campaign=key-person-provisions-in-construction-contracts-because-people-not-companies-build-projects",
-   "published": "2026-09-22T10:00+00:00",
-   "published_jst": "2026-09-22 19:00",
-   "summary": "A key person provision is a widely underused tool in the world of construction contracts. The post Key Person Provisions in Construction Contracts: Because People, Not Companies, Build Projects first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設契約における重要人物条項の重要性",
-   "summary_ja": "建設契約において重要人物条項は十分に活用されていないツールである。プロジェクトを築くのは企業ではなく人間であるため、この条項が重要となる。"
+   "id": "3f61f2e39c63",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【2026年最新】フルハーネスの義務化はどう変わった？建設現場の特別教育・点検・一人親方対応を解説",
+   "url": "https://news.build-app.jp/article/42781/",
+   "published": "2026-09-22T10:40+00:00",
+   "published_jst": "2026-09-22 19:40",
+   "summary": "フルハーネスを全員に配っても、作業に合わないランヤードでは安全を確保できません。フック位置との組み合わせによって落下距離が変わるためです。特...",
+   "ai_related": false
   },
   {
    "id": "abf017d1d17d",
@@ -1693,21 +1685,6 @@
    "summary_ja": "AIネイティブなGooglebookは、カーソルや音声入力などのデスクトップ体験にGeminiを統合する。"
   },
   {
-   "id": "e9d235c4c7d8",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
-   "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
-   "published": "2026-09-21T14:30+00:00",
-   "published_jst": "2026-09-21 23:30",
-   "summary": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
-   "ai_related": true,
-   "title_ja": "黎明期から数十億人へ：GoogleのRobby Stein氏が登壇",
-   "summary_ja": "TechCrunch Disrupt 2026のビルダーズステージにGoogleのRobby Stein氏が登場する。"
-  },
-  {
    "id": "af9170ae8914",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -1946,21 +1923,6 @@
    "summary_ja": "インフラの古さや研究開発の長期化など、クリーンエネルギー普及の課題解決にAIがどう貢献するか。"
   },
   {
-   "id": "fa59c0d0dda3",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Building for What’s Next: How Flexible Design Is Reshaping Small-Bay Construction",
-   "url": "https://constructionexec.com/article/building-for-whats-next-how-flexible-design-is-reshaping-small-bay-construction/?utm_source=rss&utm_medium=rss&utm_campaign=building-for-whats-next-how-flexible-design-is-reshaping-small-bay-construction",
-   "published": "2026-09-21T10:00+00:00",
-   "published_jst": "2026-09-21 19:00",
-   "summary": "Neighborhood flex-bay buildings can incorporate a functional level of office or showroom space, conditioned warehouse areas and core building systems from the outset. The post Building for What’s Next: How Flexible Design Is Reshaping Small-Bay Construction first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "柔軟なデザインが小規模区画の建設を変革する理由",
-   "summary_ja": "事務所やショールーム、空調付き倉庫などを初期から組み込める、新しい小規模区画建物のトレンド。"
-  },
-  {
    "id": "fbef9683fbad",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -2130,7 +2092,7 @@
   },
   {
    "id": "321dd6221cd9",
-   "source": "山陽新聞",
+   "source": "sanyonews.jp",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -2162,19 +2124,6 @@
    "lang": "ja",
    "title": "AIで仕事は進む。では、建設現場に「判断経験」は残るか。 (2026年9月21日掲載)",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00NFBaUEVBWUlzNkRuS3JzWEVrMWtBMklScU9MM05ZQXBiNTZPcEVWbWMwVHhQSFJhSGc3Ykk2a0lma0FfVGduX3Z5aGYyN2Z6M2RVMk5CM0x3ckZaNnFUWC13?oc=5",
-   "published": "2026-09-21T02:34+00:00",
-   "published_jst": "2026-09-21 11:34",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "0fe91b6c06de",
-   "source": "イザ！",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIで仕事は進む。では、建設現場に「判断経験」は残るか。",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zZGdtRG1zeGtQM3E4Y29tRE0wWWI4NnN2YXBmTmRpRkNJR2Jqdzk0YkpDSFJoUkMyT0t1anJqTmpSdGxOTGFQbVZwOW5WcVpvdlpZcXlQOUJSQlUteXJfSlpJdVhyWTNBTUFUUEV3ZVM5R0w0RjJmMUd3?oc=5",
    "published": "2026-09-21T02:34+00:00",
    "published_jst": "2026-09-21 11:34",
    "summary": "",
@@ -2285,71 +2234,6 @@
    "published_jst": "2026-09-21 07:25",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "0d52d08b6e2d",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「社長の頭の中」をAIに 経営と現場をつなぐ専用AIとは？",
-   "url": "https://kn.itmedia.co.jp/kn/article/2609/21/2000001651/",
-   "published": "2026-09-20T22:00+00:00",
-   "published_jst": "2026-09-21 07:00",
-   "summary": "ベテラン社員の退職で、会社に蓄積された経験やノウハウが失われる。そんな中小企業の「知識の属人化」に向き合い、社長の経験や現場の知恵を蓄積する専用AIが登場した。",
-   "ai_related": true
-  },
-  {
-   "id": "4b31023ffc0e",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AI研修を受けた人は1割未満 「学びたい」4割超なのに、なぜ？",
-   "url": "https://kn.itmedia.co.jp/kn/article/2609/21/2000001604/",
-   "published": "2026-09-20T22:00+00:00",
-   "published_jst": "2026-09-21 07:00",
-   "summary": "企業でAI活用やDX推進が求められる一方、職場でそれらが話題にならず、研修を受ける機会も限られている。調査では、研修未経験者が9割に達する一方、4割超がAI・デジタルスキルの習得を希望している。学ぶ意欲と機会のギャップが浮かんだ。",
-   "ai_related": true
-  },
-  {
-   "id": "7ef12e4c4ffe",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "大和鋼管工業、SaaS増加で複雑化したライセンス管理を「情シスAI」でどう解決？",
-   "url": "https://kn.itmedia.co.jp/kn/article/2609/21/2000001655/",
-   "published": "2026-09-20T22:00+00:00",
-   "published_jst": "2026-09-21 07:00",
-   "summary": "SaaSの増加に伴い、ライセンスの利用状況やコスト管理が複雑になっていた大和鋼管工業。部署ごとに分散していたSaaSやアカウント情報の一元化に動いた。",
-   "ai_related": true
-  },
-  {
-   "id": "9bca1d069f83",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "双日調査、Copilot導入企業の87.5％が「情報分散」を課題 「横断検索AI」に期待か",
-   "url": "https://kn.itmedia.co.jp/kn/article/2609/21/2000001657/",
-   "published": "2026-09-20T22:00+00:00",
-   "published_jst": "2026-09-21 07:00",
-   "summary": "双日テックイノベーションの調査によると、Copilot・M365導入企業の78％が社内情報の検索・活用を「カバーできている」と回答。一方、87.5％が情報の分散を課題に挙げ、96.2％が社内情報を横断的に検索・活用できるAI環境によって、AI活用が広がると回答した。",
-   "ai_related": true
-  },
-  {
-   "id": "5f50117d1cca",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Googleの「Gemini」も能力テスト中に実在企業3社に侵入──WSJ報道",
-   "url": "https://www.itmedia.co.jp/news/article/2609/21/2000001665/",
-   "published": "2026-09-20T21:50+00:00",
-   "published_jst": "2026-09-21 06:50",
-   "summary": "GoogleのAI「Gemini」が、サイバーセキュリティの評価テスト中に外部ネットワークへ接続し、実在する3社のシステムへ自律的に侵入していたことが判明した。架空なはずの社名が実存企業と一致したことやテスト環境の設定不備が原因。Googleは、Geminiが実在企業と認識した時点で侵入を中止しており、実害やミスアライメントはないと説明している。",
-   "ai_related": true
   }
  ]
 }
