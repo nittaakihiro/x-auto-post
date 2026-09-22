@@ -1,40 +1,40 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-09-22",
   "post_date": "2026-09-22",
-  "generated_at": "2026-09-22T06:50+09:00",
+  "generated_at": "2026-09-22T11:15+09:00",
   "original_post": {
-    "time": "07:25",
-    "text": "OpenAIが、数学とAIの成果を評価する独立の諮問委員会を発表しました。拠点はプリンストン高等研究所、数学者9人が参加します。きっかけは先週の「ナビエ・ストークス方程式のミレニアム賞問題を解いた」という発表です。この証明はまだ査読や第三者検証を終えておらず、手法が他の数学者の未発表研究と似ているとの指摘も出ています。フィールズ賞受賞者らがAI企業の性急な発表競争に懸念を示していたことも背景にあるようです。ただし委員会は社内の研究ペース自体には関与しないとのこと。",
+    "time": "12:00",
+    "text": "韓国のGS建設（GS E&C、GSグループの総合建設会社）が、社内AIコンペ「AXレシピ」の決勝を9月18日に開きました。6月の募集に90チームが応募し、7〜8月に700人超が研修とコーチングを受けた末の発表です。\n\n最優秀賞は、プラント工事の鉄骨詳細図面チェックをAIで自動化したチームでした。これまで数千点の部材を人が目視で1点ずつ照合していた作業を、AIにコードを書かせる「バイブコーディング」に置き換え、レビュー時間を80%以上短縮しながら精度も上げたそうです。決勝には他にも、手直し予防プラットフォームと連携した施工前の是正提案、契約変更の追跡、3D設計モデルと仕様書の照合など、建築・インフラ・プラント向けの案が並びました。\n\n今回はまだ社内コンペの結果で、全社展開はこれから検討する段階です。ただ、目視での図面照合や手直しの原因調べは日本のゼネコンでも似た形でベテラン頼みになりがちな作業なので、自社の過去データをAIに読ませて照合の型を作るところから試せそうです。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
     "quote_tweet_url": null,
-    "article_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "article_url": "https://www.fnnews.com/news/202609211341017144",
     "video_url": null,
-    "reply_text": "■ 出典\nOpenAI公式発表「Advisory Group on Mathematics and Artificial Intelligence」(openai.com/index/advisory-group-on-mathematics-and-ai、2026-09-21 21:00頃公開)。委員会設置のきっかけとなった「ナビエ・ストークス方程式を解いた」という主張はOpenAI公式の別記事(openai.com/index/navier-stokes-solution/)。査読前・独立検証未了で、数学者から手法の類似を指摘する声も出ている状況をCNBC・Axios・Science誌・Quanta Magazine等の報道で確認した。",
+    "reply_text": "■ 出典\nGS建設(GS E&C)の社内AI活用コンペ「AXレシピ」決勝(2026年9月18日開催)を報じた韓国メディア各紙。파이낸셜뉴스(fnnews.com)「GS건설 'AX 레시피' 결선 개최...향후 현업 적용」https://www.fnnews.com/news/202609211341017144 のほか、글로벌이코노믹・비즈트리뷴・스트레이트뉴스・비즈니스포스트・아루뉴스など複数の独立媒体が、6月募集・90チーム応募・7〜8月に700人超が研修・9/18決勝・最優秀は鉄骨詳細図面レビューをAIで80%以上短縮、という同じ内容と数字を報じている。GS建設公式サイトはネットワーク制限で直接確認できていない。",
     "editorial": {
-      "pillar": "一般AI",
-      "format": "速報",
+      "pillar": "建設AI",
+      "format": "海外事例",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
-        "見せられる証拠": 2,
+        "見せられる証拠": 1,
         "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "news_feed.json(ai_global 57件・ai_japan 17件・construction_global 24件・construction_japan 17件、window_hours=48、生成2026-09-22 06:14 JST)を軸に、ai_buzz.json(94件)でOpenAI/AnthropicAI/GoogleDeepMind/sama/gdb等の公式アカウント投稿を確認したが該当窓内に一次発表は無く、WebSearchで補完した。post_queue.json直近14日・data/analytics/live_metrics.json(fetched_at 2026-09-20T22:36 UTC、直近実投稿は9/16まで)と重複なしを確認。候補5件を比較した。①OpenAI「数学とAIに関する諮問委員会」設置(採用、10点)。openai.com公式発表(2026-09-21 21:00 JST)で新規性が高く、先週発表された『ナビエ・ストークス方程式のミレニアム賞問題を解いた』という主張が査読前・独立検証未了かつ他の数学者の未発表研究との類似を指摘されている状況（CNBC・Axios・Science誌・NBC News・Quanta Magazine等で確認）への組織的対応という点で、AIの性能主張を鵜呑みにしないという読者への実務的な価値を明確に足せるため採用。②xAI「Grok 4.7」公式ローンチ(x.ai公式発表、2026-09-22 00:50 JST。8点、次点)。価格は前世代Grok 4.6と同水準だがArtificial Analysis Intelligence Index等の第三者ベンチマークでClaude Fable 5.1・GPT-6に総合スコアで見劣りする結果が出ており事実として正確だが、単純な新製品比較でOpenAI枠ほどの追加価値(読者の情報リテラシー面)を出しにくく見送り。③Google「Geminiモデルが5月に実在企業3社に侵入」(arstechnica、2026-09-22 01:57 JST）は9/20 20:00枠(一般AI・引用)で同じGemini社内侵入テストの話題を既に扱っており重複のため不採用。④Meta「AIエージェントMuseがAmazon.comの利用をブロックされた」(techcrunch、2026-09-22 02:55 JST）はプラットフォーム間の利用制限を巡る話で、読者が『何ができるようになったか』を得にくく見送り(6点)。⑤国連科学パネル「AIエージェントの制御維持に保証はない」(the-decoder、2026-09-22 02:44 JST）は具体的な変化点や利用条件を欠き、根拠のない煽りに近づくリスクがあるため見送り(5点)。本日は朝枠のみの生成のため他枠との重複なし。",
-      "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "published_at": "2026-09-21T21:00+09:00",
-      "checked_at": "2026-09-22T06:45+09:00",
-      "availability": "openai.com・techcrunch.com・x.aiはいずれもWebFetchが環境のegressプロキシで遮断されたため直接閲覧できず、WebSearchの要約とCNBC・Axios・Science誌(AAAS)・NBC News・CNN・Quanta Magazineなど複数の独立報道の一致で内容を確認した(諮問委員会の設置・プリンストン高等研究所を拠点とする9人の数学者構成・内部の研究ペースには関与しないという役割、いずれも複数ソースで一致)。",
-      "unverified": "openai.com公式ページ本文はWebFetchが遮断され直接確認できていないため、WebSearchの要約と複数の独立報道の一致で代替確認した。委員9人のうちフィールズ賞受賞者の公開書簡に署名したのは1人のみ、という詳細は情報源が単一に近く裏取りが弱いため本文・補足には含めていない。ナビエ・ストークス方程式の証明そのものが真に正しいかどうかは本記事執筆時点で未決着であり、本文でも「まだ査読や第三者検証を終えておらず」と明記し解決済みと断定していない。data/analytics/live_metrics.jsonはfetched_at 2026-09-20T22:36 UTCとやや古く、直近の実投稿は9/16までしか確認できないため、それ以降の実投稿との重複は完全には確認できていない。",
-      "hook_alternative": "『AIがまた数学の超難問を解いた』という前振りも検討したが、実際には査読前・独立検証未了の主張であり根拠のない断定を禁じる方針に反するため採用しなかった。代わりに『諮問委員会の設置』という確定した事実を起点に、その背景にある未検証の主張と数学者からの懸念を後段で説明する構成にした。"
+      "selection_reason": "news_feed.json(construction_global 24件のうちai_related=true/title_ja付きは4件)を軸にai_buzz.json(94件、海外建設アカウント含む)・news_feed.json construction_japan(ai_related=true 6件)・slack_buzz.jsonを候補源とし、WebSearchで補完して候補6件超を比較した。①GS建設(韓国、GS E&C)の社内AIコンペ「AXレシピ」決勝(採用、9点)。6月募集・90チーム応募・7〜8月に700人超が研修を受けた末、9/18の決勝で最優秀賞のプラント鉄骨詳細図面レビュー自動化(AIバイブコーディングで数千点の部材照合を80%以上短縮・精度向上)が発表された。建設会社自身が自社の実務課題をAIで解決した事例で、ベンダー宣伝でも競合サービスでもなく、日本のゼネコンにも直接応用できる具体的な工程・数値があるため採用。②news_feed construction_global の『8 ways AI can be used in commercial construction to reduce disputes』(PBC Today、3点)。コンサルタントの寄稿によるAI活用法の一般論で、具体的な企業事例や検証可能な数字がなく見送り。③『Solving the jobsite blind spot』『The hidden cost of bad data in construction's AI race』(いずれもConstruction Diveのspons=スポンサード記事、各0点)。特定ベンダーの製品宣伝で、戦略の『実質的に競合製品の宣伝になる事例は除外』の趣旨に反するため候補から外した(建設向けAI開発支援そのものの競合ではないが、ベンダー広告記事を投稿候補にしない方針を優先)。④『BIM4Water Roadmap 2026-2030』(PBC Today、3点)。水セクターDXのロードマップ紹介でAIへの言及が薄く見送り。⑤施工の神様『街の塗装屋から高収益ゼネコンへ』(アスムコーポレーション、国内、4点)。生成AI活用による生産性向上を伝える記事だが、サイトがネットワーク制限で直接確認できず、WebSearchでも具体的な利用ツール・数字の裏取りができなかったため未確認のまま採用するリスクが高く見送り。⑥ai_buzz.jsonの『Global-建設』『建設×AI海外』タグ付き投稿(ENR・The B1M・KobeissiLetter等)は原発再稼働・道路再設計・AI投資マクロ動向など、建設AIの具体的な活用事例ではなかったため見送り。今日の朝枠(OpenAI数学諮問委員会・一般AI・速報)とは題材・形式とも重複しない。",
+      "source_url": "https://www.fnnews.com/news/202609211341017144",
+      "published_at": "2026-09-21",
+      "checked_at": "2026-09-22T11:07+09:00",
+      "availability": "GS建設公式サイト(gsconst.co.kr)はネットワーク制限で直接確認できなかった。파이낸셜뉴스・글로벌이코노믹・비즈트리뷴・스트레이트뉴스・비즈니스포스트・아루뉴스など10以上の独立した韓国メディアが同一の数字(6月募集・90チーム応募・7〜8月700人超研修・9/18決勝・最優秀は鉄骨図面レビュー80%以上短縮)を報じており、内容が一致することで裏取りとした。イベント自体(決勝開催)は既に完了しており、全社展開は今後検討段階と明記されている。",
+      "unverified": "GS建設の公式プレスリリース原文は未確認(WebFetchがgsconst.co.kr・fnnews.com・businesspost.co.kr・polinews.co.kr・straightnews.co.kr等主要な韓国メディアドメインすべてでネットワーク遮断され、WebSearchの要約と複数メディアの記述一致による代替確認のみ)。精度向上の具体的な数値(何%か等)は報道に記載がなく『精度も高めた』という定性的な表現のみのため、本文でも数値を断定していない。全社展開の時期・対象範囲は未定。data/analytics/live_metrics.jsonはfetched_at 2026-09-20T22:36 UTCで直近実投稿は9/16までしか確認できず、それ以降の実投稿との重複は完全には確認できていない(実投稿未確認)。",
+      "hook_alternative": "『鉄骨図面チェックが80%短縮』という数字先行の見出しも検討したが、根拠が単一の社内コンペ結果であることを先に示す方が誠実だと考え、まず主体(GS建設・コンペの規模)を明示してから成果を説明する構成にした。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.json(94件)・slack_buzz.jsonを確認したが、該当窓内でOpenAI/AnthropicAI/GoogleDeepMind等の公式アカウントの一次発表は無く、本文の引用元(OpenAI公式ブログ)と重複しない独立した価値のある引用・リプ候補は見当たらなかった。競合サービス(建設向けAI開発・BPO等)に該当する候補も無し。",
+  "engage_cards_note": "ai_buzz.json(94件)・slack_buzz.json(56件)を確認した。@koichi_0221『Copilotを配ったのに使われない』(2026-09-21 09:40、建設×AI国内)と@uemura_HR『Microsoft Frontier Playbook』(2026-09-20 08:50、建設×AI国内)は内容自体は有益だが、いずれも24h以内の鮮度条件をやや外れる上、本文(GS建設の海外事例)と近い『社内AI活用』というテーマが重複気味で独立した価値を出しにくいため見送った。競合サービス(建設向けAI開発・導入支援等)に該当する候補は無し。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-morning"
+  "generated_by": "routine:x-post-noon"
 }
