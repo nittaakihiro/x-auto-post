@@ -1,40 +1,39 @@
 {
   "version": 6,
-  "slot": "evening",
+  "slot": "night",
   "date": "2026-09-22",
   "post_date": "2026-09-22",
-  "generated_at": "2026-09-22T19:10+09:00",
+  "generated_at": "2026-09-22T20:52:00+09:00",
   "original_post": {
-    "time": "20:00",
-    "text": "40年前の手書きと当時の電算で作った構造計算書を、Claude Codeに読み取らせて今のSS3で再現したという話。古い建物ほど元データが紙しか残っておらず、耐震診断や増改築の検討でここが詰まりがちです。読み取った数値をどう検算したのか気になります。",
+    "time": "21:00",
+    "text": "米建設専門メディアConstruction Diveに掲載された記事（会計ソフトのFOUNDATION提供、9/21付）によると、米国でAI活用に投資している・する予定の建設会社は61%まで増え、2025年の44%から急増したそうです。ただし論調は逆説的で、「AIは悪いデータを直してくれない。無視するコストを高くするだけだ」という指摘が中心です。現場・原価・工程のデータがバラバラのままAIを入れると、間違った判断がより速く、より自信満々に下されてしまう、という話でした。日本の建設会社でも、AIを入れる前にまず原価・工程のデータを一本化できているか、確認する価値がありそうです。",
     "status": "draft",
-    "type": "quote_rt",
-    "quote_tweet_id": "2102075977333612559",
-    "quote_tweet_url": "https://x.com/nakagomeco/status/2102075977333612559",
-    "article_url": null,
+    "type": "original",
+    "quote_tweet_id": null,
+    "article_url": "https://www.constructiondive.com/spons/the-hidden-cost-of-bad-data-in-constructions-ai-race/830364/",
     "video_url": null,
-    "reply_text": null,
+    "reply_text": "■ 出典\nConstruction Dive（提供: FOUNDATION、スポンサー記事）2026-09-21\nhttps://www.constructiondive.com/spons/the-hidden-cost-of-bad-data-in-constructions-ai-race/830364/\n※記事本文はネットワーク制限で直接確認できずWebSearchの要約で内容を確認。61%/44%の一次調査元は記事内で明示されておらず未確認。",
     "editorial": {
       "pillar": "建設AI",
-      "format": "引用",
+      "format": "速報",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
         "見せられる証拠": 1,
-        "自分の追加価値": 2,
+        "自分の追加価値": 1,
         "伝わりやすさ": 2
       },
-      "selection_reason": "ai_buzz.json(97件)・slack_buzz.json(53件、construction タグ)を候補源に、post_queue.json直近14日・今日の朝枠(OpenAI数学諮問委員会/一般AI/速報)・昼枠(GS建設AIコンペ/建設AI/海外事例)との重複を除いた上で候補5件を比較した。①@nakagomeco「40年前の手書きと当時の電算で作った構造計算書をClaude Codeに読み取らせ、今のSS3で再現した」(採用、9点)。国内の構造設計実務者自身の実演投稿(2026-09-22 01:42、同日で鮮度良好)で、古い建物の紙しか残っていない構造データを最新の構造計算ソフトで再利用可能にするという具体的な実務価値があり、朝・昼枠と題材・引用元とも重複しない。②同じ@nakagomecoの鉄骨階段の吊り角度計算(建方の据付角度をAIで検討、2026-09-21)は内容が鳶工の専門技術に寄りすぎて一般読者への伝わりやすさが弱く、①と同一アカウント・同時期の投稿でもあるため見送り(6点)。③軽部治『積算はAIとExcelだけで十分、市販ソフトは使わない』(2026-09-21)は実務者の実感として面白いが、検証可能な数字や具体的な手順がなく単なる感想の域を出ないため見送り(5点)。④Andrew Ng『AIの危険性を煽る声がここ2週間で勢いを増しているのは組織立ったPRキャンペーンに見える』(2026-09-22)は著名人の時事的な意見として興味深いが、建設現場への具体的な追加価値を出しにくく、本文中で断定できる事実が乏しいため見送り(6点)。⑤OpenAI公式『数学とAIに関する諮問グループ』発表への引用は編集評価は高いが、今朝の朝枠で全く同じ発表を詳しく扱っているため題材重複により候補から除外した。なお@Kalshi_Financeの『OpenAIとAnthropicがセキュリティ脅威を誇張して政府に働きかけた』という投稿は一次確認できない伝聞情報で、Anthropic自身にも関わる内容のため候補にしなかった。",
-      "source_url": "https://x.com/nakagomeco/status/2102075977333612559",
-      "published_at": "2026-09-22T01:42:00+09:00",
-      "checked_at": "2026-09-22T19:05:00+09:00",
-      "availability": "本人(@nakagomeco)の実演投稿。X本文へのWebFetchはネットワーク遮断(x.comブロック)で直接確認できず、WebSearchでも該当ツイートのスレッド全文は見つからなかったため、slack_buzz.jsonに取得された抜粋(冒頭部分)の範囲でのみ内容を確認した。data/analytics/live_metrics.jsonは直近実投稿が9/16までしか反映されておらず、それ以降の実投稿との重複は完全には確認できていない(実投稿未確認)。",
-      "unverified": "読み取った数値の検算方法・誤り率、投稿の全文(抜粋のみ確認、続きの詳細は未確認)",
-      "hook_alternative": "『古い建物の構造計算書が紙でしか残っていない、という悩みは多いはず』と一般的な課題から書き出す案も検討したが、まず本人が実際にやったこと(手書き資料→Claude Code→SS3再現)を先に示す方が具体性が高く誇張もないため、そちらを採用した。"
+      "selection_reason": "news_feed.json construction_global(ai_related=true, 48h窓)4件・ai_buzz.json(487件、建設×AI海外/Global-建設タグ)・slack_buzz.json(53件、国内建設タグのみで海外候補なし)を候補源に、今日の朝枠(OpenAI数学諮問委員会/一般AI/速報)・昼枠(GS建設AXレシピ/建設AI/海外事例)・夕枠(nakagomeco構造計算書/建設AI/引用)との重複を除いた上で候補5件を比較した。①Construction Dive『The hidden cost of bad data in construction's AI race』(2026-09-21 18:00 JST、採用、8点)。米国建設業でAI活用に投資する企業が61%(2025年44%から急増)という統計を示しつつ、『AIは悪いデータを直さない、無視するコストを高くするだけ』という逆説的な警句を展開しており、AI導入前のデータ整備という具体的な行動指針を提示できる点で読者への価値が高い。会計ソフトFOUNDATION提供のスポンサー記事のため統計の一次調査元が本文で確認できず見せられる証拠は1点に留めた。②pbctoday『8 ways AI can be used in commercial construction to reduce disputes and litigation』(2026-09-21 18:13、4点、見送り)。契約分析・見積もり等AIの一般的活用領域を列挙する記事だが、具体的な会社事例や入出力が無く、同種の記事(HKA/FTI Consulting/Alvarez & Marsal等)が既に多数存在する一般論のため新規性・証拠に乏しい。③pbctoday『BIM4Water Roadmap 2026-2030』(2026-09-21 22:33、2点、見送り)。英国水道セクターのBIMロードマップでAIとの関連が薄く、日本の建設読者への価値・伝わりやすさが低い。④ai_buzz @EnergyChinaCEEC『ウズベキスタンの砂漠でソーラーパネル設置ロボットを投入』(2026-09-20 18:28、6点、見送り)。現場の過酷環境を自動化で解決する事例として面白いが投稿から約50時間経過し48h基準をやや超えており、AIというよりロボット・自動化寄りで日本の建設会社への具体的な追加価値を出しにくい。⑤ai_buzz @KobeissiLetter『中国のAIインフラ構築加速、データセンター投資は2030年に3兆ドル超』(2026-09-22 03:12、6点、見送り)。マクロなAI投資動向で建設との接続が間接的、新規性も既視感が強い。なお、同じくConstruction Diveの『Solving the jobsite blind spot: Why buying drones is not always the solution』(spons)はスポンサー企業がジョブサイト監視・現場モニタリング製品のベンダーとみられ、競合性の有無を本文だけでは判断できなかったため、戦略の『判断できないものは候補にしない』に従い候補から外した。",
+      "source_url": "https://www.constructiondive.com/spons/the-hidden-cost-of-bad-data-in-constructions-ai-race/830364/",
+      "published_at": "2026-09-21T18:00:00+09:00",
+      "checked_at": "2026-09-22T20:50:00+09:00",
+      "availability": "Construction Dive(www.constructiondive.com)は本セッションのネットワーク遮断(EGRESS_BLOCKED)でWebFetch直接確認ができず、WebSearchで得られた要約・引用抜粋の範囲でのみ内容を確認した。pbctoday.co.ukも同様に遮断されておりWebSearchで代替確認した。data/analytics/live_metrics.jsonは直近実投稿が9/16までしか反映されておらず、それ以降の実投稿との重複は完全には確認できていない(実投稿未確認)。",
+      "unverified": "61%/44%という統計の一次調査元(調査機関名・母数・時期)は本文で明示されておらず未確認。スポンサー記事(FOUNDATION提供)であるため、統計の切り取り方に売り手側のバイアスがある可能性がある。",
+      "hook_alternative": "『日本の建設会社もAI導入前にデータ整備を』と日本側の課題から書き出す案も検討したが、まず米国の具体的な統計(61%→44%)と記事の逆説的な警句を先に示す方が具体性が高く誇張もないため、そちらを採用した。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.json(97件)・slack_buzz.json(53件)を確認した。本枠の引用元(@nakagomeco)以外で追加のリプ・引用候補としては、軽部治(積算はAI+Excelで十分)・Andrew Ng(AI危険煽り批判)を検討したが、いずれも本文と近い時期の同種テーマ(建設×AIの実務論、AI言説批判)で独立したカードとして出す価値が薄く、見送った。競合サービス(建設向けAI開発・導入支援等)に該当する候補は無し。",
+  "engage_cards_note": "ai_buzz.json・slack_buzz.jsonを確認したが、本枠の題材(Construction Dive記事)に関連する海外の引用・リプ候補は見つからなかった。国内建設タグの投稿はあったが夕枠のnakagomeco引用と近い時期・カテゴリのため見送り。競合サービス(建設向けAI開発・導入支援等)に該当する候補は無し。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-evening"
+  "generated_by": "routine:x-post-night"
 }
