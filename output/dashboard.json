@@ -1,39 +1,39 @@
 {
   "version": 6,
-  "slot": "night",
-  "date": "2026-09-22",
-  "post_date": "2026-09-22",
-  "generated_at": "2026-09-22T20:52:00+09:00",
+  "slot": "morning",
+  "date": "2026-09-23",
+  "post_date": "2026-09-23",
+  "generated_at": "2026-09-23T06:35:31+09:00",
   "original_post": {
-    "time": "21:00",
-    "text": "米建設専門メディアConstruction Diveに掲載された記事（会計ソフトのFOUNDATION提供、9/21付）によると、米国でAI活用に投資している・する予定の建設会社は61%まで増え、2025年の44%から急増したそうです。ただし論調は逆説的で、「AIは悪いデータを直してくれない。無視するコストを高くするだけだ」という指摘が中心です。現場・原価・工程のデータがバラバラのままAIを入れると、間違った判断がより速く、より自信満々に下されてしまう、という話でした。日本の建設会社でも、AIを入れる前にまず原価・工程のデータを一本化できているか、確認する価値がありそうです。",
+    "time": "07:25",
+    "text": "今日、OpenAIとAnthropicが同じタイミングで新しいモデルを出しました。AnthropicのOpus 5.5は、旧モデルのOpus 5より価格を全体で約40%下げながら、コーディング系のTerminal-Bench 4.0で52.3%から66.4%まで性能を伸ばしています。一方OpenAIのGPT-6 Solは、前世代のGPT-5.6 Sol比で価格をちょうど半額（入力$2・出力$10）にしましたが、DeepSWEやOSWorld 2.0のベンチマークでは前世代や既存のOpus 5より低いスコアが出ています。同じ「値下げ」でも、性能を伸ばした上での値下げか、性能を据え置いたままの値下げかで意味が変わります。AIツールを選ぶときは、価格表の数字だけでなく、どのベンチマークがどう動いたかまで見る価値がありそうです。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
-    "article_url": "https://www.constructiondive.com/spons/the-hidden-cost-of-bad-data-in-constructions-ai-race/830364/",
+    "article_url": "https://www.anthropic.com/claude-opus-5-5",
     "video_url": null,
-    "reply_text": "■ 出典\nConstruction Dive（提供: FOUNDATION、スポンサー記事）2026-09-21\nhttps://www.constructiondive.com/spons/the-hidden-cost-of-bad-data-in-constructions-ai-race/830364/\n※記事本文はネットワーク制限で直接確認できずWebSearchの要約で内容を確認。61%/44%の一次調査元は記事内で明示されておらず未確認。",
+    "reply_text": "■ 出典\nAnthropic公式: Claude Opus 5.5 発表（2026-09-22、WebFetchで直接確認）\nhttps://www.anthropic.com/claude-opus-5-5\nOpenAI: GPT-6 Sol/Luna 発表（2026-09-22）\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna\n※OpenAI公式ページ・The Decoder等は本セッションのネットワーク遮断で直接確認できず、WebSearchで複数メディア（TechCrunch/The Next Web/The Rundown等）を横断し価格($2/$10、前世代比50%減)の一致を確認。DeepSWE/OSWorld 2.0のベンチマーク数値は第三者ブログ経由で、OpenAI公式本文は未確認。",
     "editorial": {
-      "pillar": "建設AI",
-      "format": "速報",
+      "pillar": "一般AI",
+      "format": "比較",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
-        "見せられる証拠": 1,
+        "見せられる証拠": 2,
         "自分の追加価値": 1,
         "伝わりやすさ": 2
       },
-      "selection_reason": "news_feed.json construction_global(ai_related=true, 48h窓)4件・ai_buzz.json(487件、建設×AI海外/Global-建設タグ)・slack_buzz.json(53件、国内建設タグのみで海外候補なし)を候補源に、今日の朝枠(OpenAI数学諮問委員会/一般AI/速報)・昼枠(GS建設AXレシピ/建設AI/海外事例)・夕枠(nakagomeco構造計算書/建設AI/引用)との重複を除いた上で候補5件を比較した。①Construction Dive『The hidden cost of bad data in construction's AI race』(2026-09-21 18:00 JST、採用、8点)。米国建設業でAI活用に投資する企業が61%(2025年44%から急増)という統計を示しつつ、『AIは悪いデータを直さない、無視するコストを高くするだけ』という逆説的な警句を展開しており、AI導入前のデータ整備という具体的な行動指針を提示できる点で読者への価値が高い。会計ソフトFOUNDATION提供のスポンサー記事のため統計の一次調査元が本文で確認できず見せられる証拠は1点に留めた。②pbctoday『8 ways AI can be used in commercial construction to reduce disputes and litigation』(2026-09-21 18:13、4点、見送り)。契約分析・見積もり等AIの一般的活用領域を列挙する記事だが、具体的な会社事例や入出力が無く、同種の記事(HKA/FTI Consulting/Alvarez & Marsal等)が既に多数存在する一般論のため新規性・証拠に乏しい。③pbctoday『BIM4Water Roadmap 2026-2030』(2026-09-21 22:33、2点、見送り)。英国水道セクターのBIMロードマップでAIとの関連が薄く、日本の建設読者への価値・伝わりやすさが低い。④ai_buzz @EnergyChinaCEEC『ウズベキスタンの砂漠でソーラーパネル設置ロボットを投入』(2026-09-20 18:28、6点、見送り)。現場の過酷環境を自動化で解決する事例として面白いが投稿から約50時間経過し48h基準をやや超えており、AIというよりロボット・自動化寄りで日本の建設会社への具体的な追加価値を出しにくい。⑤ai_buzz @KobeissiLetter『中国のAIインフラ構築加速、データセンター投資は2030年に3兆ドル超』(2026-09-22 03:12、6点、見送り)。マクロなAI投資動向で建設との接続が間接的、新規性も既視感が強い。なお、同じくConstruction Diveの『Solving the jobsite blind spot: Why buying drones is not always the solution』(spons)はスポンサー企業がジョブサイト監視・現場モニタリング製品のベンダーとみられ、競合性の有無を本文だけでは判断できなかったため、戦略の『判断できないものは候補にしない』に従い候補から外した。",
-      "source_url": "https://www.constructiondive.com/spons/the-hidden-cost-of-bad-data-in-constructions-ai-race/830364/",
-      "published_at": "2026-09-21T18:00:00+09:00",
-      "checked_at": "2026-09-22T20:50:00+09:00",
-      "availability": "Construction Dive(www.constructiondive.com)は本セッションのネットワーク遮断(EGRESS_BLOCKED)でWebFetch直接確認ができず、WebSearchで得られた要約・引用抜粋の範囲でのみ内容を確認した。pbctoday.co.ukも同様に遮断されておりWebSearchで代替確認した。data/analytics/live_metrics.jsonは直近実投稿が9/16までしか反映されておらず、それ以降の実投稿との重複は完全には確認できていない(実投稿未確認)。",
-      "unverified": "61%/44%という統計の一次調査元(調査機関名・母数・時期)は本文で明示されておらず未確認。スポンサー記事(FOUNDATION提供)であるため、統計の切り取り方に売り手側のバイアスがある可能性がある。",
-      "hook_alternative": "『日本の建設会社もAI導入前にデータ整備を』と日本側の課題から書き出す案も検討したが、まず米国の具体的な統計(61%→44%)と記事の逆説的な警句を先に示す方が具体性が高く誇張もないため、そちらを採用した。"
+      "selection_reason": "news_feed.json ai_global(77件、48h窓)・ai_japan(21件)を中心に、ai_buzz.json(海外AIバズ、OpenAI/Anthropicの同日発表を示唆する投稿複数)を候補源に、直近14日のキュー(9/19週次まとめでClaude Chat/Coworkに言及済み、9/21 21:00でFable 5.1×GPT-6 Astraのロボット操作比較を掲載済み)との重複を除いた上で候補5件を比較した。①Anthropic『Claude Opus 5.5』とOpenAI『GPT-6 Sol/Luna』の同日発表比較(採用、9点)。両社が2026-09-22に新モデルを発表し、Anthropicは公式ページ(WebFetchで直接確認、価格全体で約40%減・Terminal-Bench 4.0が52.3%→66.4%に向上)、OpenAIはGPT-6 Sol/Lunaを前世代比50%値下げ(入力$2・出力$10)としつつ、DeepSWE・OSWorld 2.0ではGPT-5.6 SolやClaude Opus 5より低いスコアという対照的な結果が出ており、『値下げの中身』を具体的な数字で見せられる点で新規性・読者価値が高い。②Claude Opus 5.5単独の速報(8点、見送り)。公式ページで即日利用可能・価格40%減・ベンチマーク向上まで確認できたが、単独では他アカウントも同様に取り上げやすく差別化がやや弱い。③GPT-6 Sol/Luna単独の速報(6点、見送り)。openai.com本体はネットワーク遮断で直接確認できず、WebSearchでの複数メディア横断確認に留まり証拠が単独記事より弱い。④The Verge『Rabbitの新AIエージェント、専用端末不要』(2026-09-23 05:52 JST、5点、見送り)。R1端末で知られるRabbitがクラウド常駐のOS3エージェントを展開する話で目新しいが、日本の読者への実務的な価値や建設への接続が弱く、一次ソース(Rabbit公式)も未確認。⑤TechCrunch『Qualcomm、AI重視の新型スマホチップ2種を発表』(2026-09-23 05:00 JST、5点、見送り)。300億パラメータMoEをローカル実行できる点は具体的だが、スマホチップの話で一般AIニュースとしてのインパクト・読者の行動につながる価値がやや弱い。なおArs Technica『マイクロソフト、1.2万アカウントを侵害したAIプラットフォームを無効化』はセキュリティインシデントで『新しくできること』を伝える速報の趣旨に合わないため候補に含めなかった。",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "published_at": "2026-09-23T01:29:00+09:00",
+      "checked_at": "2026-09-23T06:35:31+09:00",
+      "availability": "Anthropic公式ページ(anthropic.com/claude-opus-5-5)はWebFetchで直接確認し、\"now available on all platforms\"(Claude Platform/Claude.ai Pro・Max・Team・座席制Enterprise/AWS・GCP・Azure)と明記されているのを確認。地域制限の記載なし。OpenAI公式ページ(openai.com)とThe Decoder/TechCrunch/officechai/digitalapplied/benzingaは本セッションのネットワーク遮断(EGRESS_BLOCKED)で直接確認できず、WebSearchによる複数メディア横断(TechCrunch記事見出し・The Next Web・The Rundown等)で価格($2/$10、前世代比50%減)の一致を確認した。data/analytics/live_metrics.jsonのfetched_atは2026-09-20 22:36 UTC(2026-09-21 07:36 JST)までで直近の実投稿との重複は確認できておらず、実投稿未確認。",
+      "unverified": "GPT-6 SolのDeepSWE・OSWorld 2.0のベンチマーク数値(68.8%/64.4%、前世代GPT-5.6 Sol 72.7%/66.2%、Claude Opus 5 73.7%/70.2%)はkingy.ai・digitalapplied.com等の第三者AIニュースブログがOpenAI公式発表を転載・要約したもので、OpenAI公式ページ本文を直接確認できていない。AnthropicのGDPval-AA Elo値・Terminal-Bench等は同社発表のベンチマークで、第三者による再現確認はない。",
+      "hook_alternative": "Opus 5.5単独の速報(『Anthropicが新モデルOpus5.5、価格40%減で性能向上』)から書き出す案も検討したが、同日にOpenAIも新モデルを出し、しかも『値下げ』の中身が対照的(Anthropicは性能向上、OpenAIは一部後退)という比較の方が具体的な判断材料になり誇張なく伝わるため、比較形式を採用した。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.json・slack_buzz.jsonを確認したが、本枠の題材(Construction Dive記事)に関連する海外の引用・リプ候補は見つからなかった。国内建設タグの投稿はあったが夕枠のnakagomeco引用と近い時期・カテゴリのため見送り。競合サービス(建設向けAI開発・導入支援等)に該当する候補は無し。",
+  "engage_cards_note": "ai_buzz.jsonでOpus 5.5/GPT-6 Sol関連の投稿を確認したが、いずれも前日までの発表前の噂・予想ツイートで、発表後の一次反応として引用・リプに足せる具体的な補足を持つものは見つからなかった。@masahirochaen(競合分析対象アカウント)の投稿はGrok 4.7についてで本枠の題材と異なるため対象外。競合サービス(建設向けAI開発・導入支援等)に該当する候補は無し。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-night"
+  "generated_by": "routine:x-post-morning"
 }

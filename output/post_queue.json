@@ -11577,5 +11577,51 @@
       "unverified": "61%/44%という統計の一次調査元(調査機関名・母数・時期)は本文で明示されておらず未確認。スポンサー記事(FOUNDATION提供)であるため、統計の切り取り方に売り手側のバイアスがある可能性がある。",
       "hook_alternative": "『日本の建設会社もAI導入前にデータ整備を』と日本側の課題から書き出す案も検討したが、まず米国の具体的な統計(61%→44%)と記事の逆説的な警句を先に示す方が具体性が高く誇張もないため、そちらを採用した。"
     }
+  },
+  {
+    "id": "2026-09-23_07:25",
+    "date": "2026-09-23",
+    "time": "07:25",
+    "text": "今日、OpenAIとAnthropicが同じタイミングで新しいモデルを出しました。AnthropicのOpus 5.5は、旧モデルのOpus 5より価格を全体で約40%下げながら、コーディング系のTerminal-Bench 4.0で52.3%から66.4%まで性能を伸ばしています。一方OpenAIのGPT-6 Solは、前世代のGPT-5.6 Sol比で価格をちょうど半額（入力$2・出力$10）にしましたが、DeepSWEやOSWorld 2.0のベンチマークでは前世代や既存のOpus 5より低いスコアが出ています。同じ「値下げ」でも、性能を伸ばした上での値下げか、性能を据え置いたままの値下げかで意味が変わります。AIツールを選ぶときは、価格表の数字だけでなく、どのベンチマークがどう動いたかまで見る価値がありそうです。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\nAnthropic公式: Claude Opus 5.5 発表（2026-09-22、WebFetchで直接確認）\nhttps://www.anthropic.com/claude-opus-5-5\nOpenAI: GPT-6 Sol/Luna 発表（2026-09-22）\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna\n※OpenAI公式ページ・The Decoder等は本セッションのネットワーク遮断で直接確認できず、WebSearchで複数メディア（TechCrunch/The Next Web/The Rundown等）を横断し価格($2/$10、前世代比50%減)の一致を確認。DeepSWE/OSWorld 2.0のベンチマーク数値は第三者ブログ経由で、OpenAI公式本文は未確認。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://www.anthropic.com/claude-opus-5-5",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "比較",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 2,
+        "自分の追加価値": 1,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "news_feed.json ai_global(77件、48h窓)・ai_japan(21件)を中心に、ai_buzz.json(海外AIバズ、OpenAI/Anthropicの同日発表を示唆する投稿複数)を候補源に、直近14日のキュー(9/19週次まとめでClaude Chat/Coworkに言及済み、9/21 21:00でFable 5.1×GPT-6 Astraのロボット操作比較を掲載済み)との重複を除いた上で候補5件を比較した。①Anthropic『Claude Opus 5.5』とOpenAI『GPT-6 Sol/Luna』の同日発表比較(採用、9点)。両社が2026-09-22に新モデルを発表し、Anthropicは公式ページ(WebFetchで直接確認、価格全体で約40%減・Terminal-Bench 4.0が52.3%→66.4%に向上)、OpenAIはGPT-6 Sol/Lunaを前世代比50%値下げ(入力$2・出力$10)としつつ、DeepSWE・OSWorld 2.0ではGPT-5.6 SolやClaude Opus 5より低いスコアという対照的な結果が出ており、『値下げの中身』を具体的な数字で見せられる点で新規性・読者価値が高い。②Claude Opus 5.5単独の速報(8点、見送り)。公式ページで即日利用可能・価格40%減・ベンチマーク向上まで確認できたが、単独では他アカウントも同様に取り上げやすく差別化がやや弱い。③GPT-6 Sol/Luna単独の速報(6点、見送り)。openai.com本体はネットワーク遮断で直接確認できず、WebSearchでの複数メディア横断確認に留まり証拠が単独記事より弱い。④The Verge『Rabbitの新AIエージェント、専用端末不要』(2026-09-23 05:52 JST、5点、見送り)。R1端末で知られるRabbitがクラウド常駐のOS3エージェントを展開する話で目新しいが、日本の読者への実務的な価値や建設への接続が弱く、一次ソース(Rabbit公式)も未確認。⑤TechCrunch『Qualcomm、AI重視の新型スマホチップ2種を発表』(2026-09-23 05:00 JST、5点、見送り)。300億パラメータMoEをローカル実行できる点は具体的だが、スマホチップの話で一般AIニュースとしてのインパクト・読者の行動につながる価値がやや弱い。なおArs Technica『マイクロソフト、1.2万アカウントを侵害したAIプラットフォームを無効化』はセキュリティインシデントで『新しくできること』を伝える速報の趣旨に合わないため候補に含めなかった。",
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "published_at": "2026-09-23T01:29:00+09:00",
+      "checked_at": "2026-09-23T06:35:31+09:00",
+      "availability": "Anthropic公式ページ(anthropic.com/claude-opus-5-5)はWebFetchで直接確認し、\"now available on all platforms\"(Claude Platform/Claude.ai Pro・Max・Team・座席制Enterprise/AWS・GCP・Azure)と明記されているのを確認。地域制限の記載なし。OpenAI公式ページ(openai.com)とThe Decoder/TechCrunch/officechai/digitalapplied/benzingaは本セッションのネットワーク遮断(EGRESS_BLOCKED)で直接確認できず、WebSearchによる複数メディア横断(TechCrunch記事見出し・The Next Web・The Rundown等)で価格($2/$10、前世代比50%減)の一致を確認した。data/analytics/live_metrics.jsonのfetched_atは2026-09-20 22:36 UTC(2026-09-21 07:36 JST)までで直近の実投稿との重複は確認できておらず、実投稿未確認。",
+      "unverified": "GPT-6 SolのDeepSWE・OSWorld 2.0のベンチマーク数値(68.8%/64.4%、前世代GPT-5.6 Sol 72.7%/66.2%、Claude Opus 5 73.7%/70.2%)はkingy.ai・digitalapplied.com等の第三者AIニュースブログがOpenAI公式発表を転載・要約したもので、OpenAI公式ページ本文を直接確認できていない。AnthropicのGDPval-AA Elo値・Terminal-Bench等は同社発表のベンチマークで、第三者による再現確認はない。",
+      "hook_alternative": "Opus 5.5単独の速報(『Anthropicが新モデルOpus5.5、価格40%減で性能向上』)から書き出す案も検討したが、同日にOpenAIも新モデルを出し、しかも『値下げ』の中身が対照的(Anthropicは性能向上、OpenAIは一部後退)という比較の方が具体的な判断材料になり誇張なく伝わるため、比較形式を採用した。"
+    }
   }
 ]
