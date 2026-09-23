@@ -11623,5 +11623,47 @@
       "unverified": "GPT-6 SolのDeepSWE・OSWorld 2.0のベンチマーク数値(68.8%/64.4%、前世代GPT-5.6 Sol 72.7%/66.2%、Claude Opus 5 73.7%/70.2%)はkingy.ai・digitalapplied.com等の第三者AIニュースブログがOpenAI公式発表を転載・要約したもので、OpenAI公式ページ本文を直接確認できていない。AnthropicのGDPval-AA Elo値・Terminal-Bench等は同社発表のベンチマークで、第三者による再現確認はない。",
       "hook_alternative": "Opus 5.5単独の速報(『Anthropicが新モデルOpus5.5、価格40%減で性能向上』)から書き出す案も検討したが、同日にOpenAIも新モデルを出し、しかも『値下げ』の中身が対照的(Anthropicは性能向上、OpenAIは一部後退)という比較の方が具体的な判断材料になり誇張なく伝わるため、比較形式を採用した。"
     }
+  },
+  {
+    "id": "2026-09-23_12:00",
+    "date": "2026-09-23",
+    "time": "12:00",
+    "text": "土木の実務者が、2Dの施工計画図をもとに、ClaudeとBlenderで4Dモデルの動画を作っていました。既設堰堤の改築工事で、掘削→既設堰堤の取り壊し→コンクリートのリフト割までを時系列で見せる内容です。紙の施工計画図だけでは伝わりにくい「いつ・どこを・どう壊して・どう打つか」を動画で見せられると、発注者への説明や現場の安全教育にも使えそうです。AIが図面を読み取って3Dにするだけでなく、時間軸まで足せる段階に来ているのがわかる投稿でした。",
+    "type": "quote_rt",
+    "quote_tweet_id": "2102289412201828770",
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": null,
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": null,
+    "video_url": "https://x.com/dobokuya77/status/2102289412201828770/video/1",
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "建設AI",
+      "format": "実演",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 1,
+        "自分の追加価値": 2,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "news_feed.jsonのconstruction_global(26件・48h窓)のうちai_related=trueは4件のみ（BIM4Water Roadmap 2026-2030/8 ways AI can be used in commercial construction to reduce disputes and litigation/Solving the jobsite blind spot(spons)/The hidden cost of bad data in construction's AI race(spons)）。うち「hidden cost of bad data」は本日9/22 21:00枠で既出、drones記事はスポンサード記事で特定ベンダー宣伝色が強く除外、BIM4Waterは英国水道インフラのBIM政策ロードマップで企業固有の事例がなく証拠薄弱、8 waysは総論的リストで一次事例なし。ai_buzz.json(92件)は[建設×AI海外]タグ2件・[Global-建設]タグ3件を確認した。[Global-建設]のENR(Engineering News-Record)3件はAIと無関係の一般建設ニュース（メガプロジェクトの契約保証、アリゾナの人工湖、データセンターの電力負担）で対象外。[建設×AI海外]の2件は候補として比較した。noon枠は直近9/19・9/20・9/22と3回連続で海外事例形式が続いていたため、形式の分散という観点も踏まえ、国内候補と合わせて計6件を比較した。①@dobokuya77『Claudeで2Dの施工計画図からBlenderで4Dモデルの動画を作成、既設堰堤の改築で掘削・取り壊し・コンクリートのリフト割まで表現』（採用、9点）。土木実務者自身の実演投稿(2026-09-22 15:50)で、朝枠(一般AI比較)・9/22 20:00枠(@nakagomecoの構造計算書再現)・9/22 21:00枠(Construction Dive記事)のいずれとも題材が重複しない。②@GauzillaPro『Gaussian SplattingベースのSpatial AIが3Dセグメンテーション機能を強化、建築の梁や産業機械にも対応』(2026-09-21、6点、見送り)。WebSearchで提供元Waldek Technologiesの実在は確認できたが、本文は自社製品の機能アップデートを伝える宣伝投稿で、実際に建設会社が導入・活用した一次事例ではなく証拠が弱い。デモ請求制の商用製品で価格・日本提供条件も不明。海外建設テック『ツール』の紹介は自社実演・建設会社の業務改善を優先する方針と比べて編集価値が一段落ちるため見送った。③@EnergyChinaCEEC『ウズベキスタン・ナヴォイの砂漠で太陽光パネル設置ロボットを導入』(2026-09-20、4点、見送り)。WebSearchで同社のウズベキスタン1GW太陽光案件自体は複数の業界メディアで裏取りできたが、パネル設置に使われているのはArctechの追尾システムという情報のみで、『設置ロボット』の詳細やAI要素を独立した一次情報で確認できず、原文未確認の数値・性能を断定しない方針により見送った。④大林組『生成AIエージェントTektomeで設計初期の法令・条例調査時間を週4.3時間→1.4時間(67%減)』はPR TIMES公式発表で裏取りも取れたが、Tektomeは建設特化のAI開発企業が提供する法令調査AIプラットフォームで、ツクノビと同じ『建設向けAI導入支援』領域の競合製品にあたると判断し、事例化するとTektomeの宣伝になるため候補から除外した。⑤@nakagomeco『狭い階段室への鉄骨階段の落とし込み建方で、吊りピース位置をAI(Claude)で検討』(2026-09-21)は技術的に興味深いが、昨日9/22 20:00枠の選定理由で専門性が高すぎ伝わりやすさに欠けるとして一度見送り済み(6点)であり、かつ同一アカウントを2枠連続で使うことになるため今回も見送った。⑥大高建設×富山県立大学の共同研究『対話型AIの安全性を高める「思いやり」ルール』(北日本新聞、2026-09-23)は建設会社自身の研究で方向性は合うが、記事が有料会員限定でWebSearchでも見出しと1段落の要約しか確認できず、具体的な手法・対象・公開時期が裏取りできないため証拠不足で見送った(5点)。",
+      "source_url": "https://x.com/dobokuya77/status/2102289412201828770",
+      "published_at": "2026-09-22T15:50:00+09:00",
+      "checked_at": "2026-09-23T11:06:53+09:00",
+      "availability": "slack_buzz.jsonに取得された投稿抜粋（本文2行、いいね46・RT2・表示1,400）で内容を確認。x.comはネットワーク遮断(EGRESS_BLOCKED)のためWebFetchで本文・動画を直接確認できず、WebSearchでも該当ツイートの詳細は見つからなかった。data/analytics/live_metrics.jsonはfetched_at 2026-09-20T22:36 UTCまでのデータで、直近100件に「堰堤」「Blender」「4D」の該当なしを確認したが、9/21以降の実投稿との重複は完全には確認できていない(実投稿一部未確認)。",
+      "unverified": "Claudeが具体的に何を生成・変換したか(座標計算・スクリプト生成等の詳細)、動画の完成度や人による手直しの有無、既設堰堤改築工事の発注者・所在地。動画そのものは本文からの伝聞情報であり、本ポストでは実際の映像を確認できていない。",
+      "hook_alternative": "『紙の施工計画図だけでは工程が伝わりにくい』という一般的な課題から書き出す案も検討したが、誇張なく具体性を出すため、実際に投稿されたやったこと(2D施工計画図→Claude→Blenderで4D動画化)を先に示す案を採用した。"
+    }
   }
 ]
