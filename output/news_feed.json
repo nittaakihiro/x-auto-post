@@ -1,20 +1,37 @@
 {
- "generated_at": "2026-09-23T06:44+00:00",
- "generated_at_jst": "2026-09-23 15:44",
+ "generated_at": "2026-09-23T07:44+00:00",
+ "generated_at_jst": "2026-09-23 16:44",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 21,
   "construction_japan": 24,
-  "ai_global": 84,
-  "construction_global": 35
+  "ai_japan": 21,
+  "ai_global": 83,
+  "construction_global": 25
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "faf446ac0985",
+   "source": "AFPBB News",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国・李在明大統領、ホルムズ海峡・紅海封鎖に対応する「建設的貢献国連帯」を提案",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiQ3VKdWEwTnA5bGE4b2NQR0hNdnp0cFJUaFoyRGpBSlA0al9aamFmLU9YM09heGtoOGdWTjAtYXAyRWNZODNNc3hlOVRlbThGY2fSAVRBVV95cUxNWUc0UkxSTWlpX2plVFFKTzF6bElLX01yMXNhUTIwNHVKa29lTnlNS194VVcxMGFfY0V4SnNWbTNMak9Cd0F6S0R1TV9vQ2lBZlE5b1Q?oc=5",
+   "published": "2026-09-23T07:43+00:00",
+   "published_jst": "2026-09-23 16:43",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "b60681350602",
    "source": "GIGAZINE",
@@ -65,7 +82,9 @@
    "published": "2026-09-23T04:59+00:00",
    "published_jst": "2026-09-23 13:59",
    "summary": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ギリシャ首相「AIへの備えはまだできていない」",
+   "summary_ja": "貿易使節団のリーダーが前向きな発言をする中、ギリシャのミツタキス首相は、どの政府もAIの急速な進化に対応できていないと率直に認めた。"
   },
   {
    "id": "0457912cd18e",
@@ -91,7 +110,9 @@
    "published": "2026-09-23T02:53+00:00",
    "published_jst": "2026-09-23 11:53",
    "summary": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "サンフランシスコで10月14日にエージェント工学のセッション開催",
+   "summary_ja": "10月14日水曜日にサンフランシスコで、ジェシー・ビンセント氏と共に、ユニークで面白いものを開発している人々を対象とした夜のイベントを開催します。"
   },
   {
    "id": "301ba2c6df75",
@@ -104,7 +125,9 @@
    "published": "2026-09-23T02:30+00:00",
    "published_jst": "2026-09-23 11:30",
    "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partn",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "NVIDIAとパートナー、シンガポールのAI Dayで最新成果を発表",
+   "summary_ja": "9月22〜23日に開催されるNVIDIA AI Dayシンガポールでは、実践的なトレーニングや専門家によるセッションを通じて、AIの活用を加速させる最新ツールを紹介する。"
   },
   {
    "id": "57b841c6641e",
@@ -118,6 +141,21 @@
    "published_jst": "2026-09-23 10:36",
    "summary": "トランプ米大統領は国連総会の一般討論演説で、AIの呼称を「Super Intelligence（SI）」に変更すると表明した。米国の全公文書で採用し、他国にも同調を促す。国際的なAI管理の枠組みを拒否し、地球温暖化論争になぞらえて脅威論を一蹴した上で、成長を支援して開発競争をリードする姿勢を強調した。",
    "ai_related": true
+  },
+  {
+   "id": "0ab4ac60a8fb",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+   "published": "2026-09-23T00:17+00:00",
+   "published_jst": "2026-09-23 09:17",
+   "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI compa",
+   "ai_related": true,
+   "title_ja": "OpenAI、失態回避に向け一流数学者への相談を検討",
+   "summary_ja": "数学分野での成果が評判の危機を招いたOpenAIは、より安全で確実な道筋を見出すため、人間の数学者に助言を求めている。同社は月曜日に新たな取り組みを発表した。"
   },
   {
    "id": "f2d108214ea5",
@@ -428,7 +466,7 @@
    "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
    "published": "2026-09-22T19:03+00:00",
    "published_jst": "2026-09-23 04:03",
-   "summary": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 575 # Comments: 282",
+   "summary": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 601 # Comments: 298",
    "ai_related": true,
    "title_ja": "イランの学校へのミサイル攻撃、AIへの過度な依存が要因とペンタゴン",
    "summary_ja": "イランの学校攻撃事件に関連するブルームバーグの記事およびHacker Newsのコメントページのリンク情報です。"
@@ -458,8 +496,10 @@
    "url": "https://unreallabs.ai/blog/unreal-agent/",
    "published": "2026-09-22T18:15+00:00",
    "published_jst": "2026-09-23 03:15",
-   "summary": "https://github.com/unreallabsai/unreal-agent Comments URL: https://news.ycombinator.com/item?id=49805748 Points: 162 # Comments: 95",
-   "ai_related": true
+   "summary": "https://github.com/unreallabsai/unreal-agent Comments URL: https://news.ycombinator.com/item?id=49805748 Points: 171 # Comments: 99",
+   "ai_related": true,
+   "title_ja": "Unreal Agent",
+   "summary_ja": "https://github.com/unreallabsai/unreal-agent コメントURL: https://news.ycombinator.com/item?id=49805748 ポイント: 171 コメント数: 99"
   },
   {
    "id": "df9ee5d27afc",
@@ -516,7 +556,7 @@
    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
    "published": "2026-09-22T18:00+00:00",
    "published_jst": "2026-09-23 03:00",
-   "summary": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 1404 # Comments: 680",
+   "summary": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 1459 # Comments: 698",
    "ai_related": true,
    "title_ja": "GPT-6 SolとLunaに関する議論",
    "summary_ja": "OpenAIによる新モデル「GPT-6 SolとLuna」の発表に関する公式情報およびHacker News上の議論やコメントのリンクです。"
@@ -606,7 +646,7 @@
    "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
    "published": "2026-09-22T16:51+00:00",
    "published_jst": "2026-09-23 01:51",
-   "summary": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49804316 Points: 269 # Comments: 80",
+   "summary": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49804316 Points: 276 # Comments: 84",
    "ai_related": true,
    "title_ja": "Claude Opus 5.5の知能、性能、価格分析",
    "summary_ja": "Artificial AnalysisによるAIモデル「Claude Opus 5.5」の性能や価格に関する詳細な分析ページおよび関連議論へのリンクです。"
@@ -666,7 +706,7 @@
    "url": "https://www.anthropic.com/claude-opus-5-5",
    "published": "2026-09-22T16:29+00:00",
    "published_jst": "2026-09-23 01:29",
-   "summary": "Article URL: https://www.anthropic.com/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49803892 Points: 1421 # Comments: 897",
+   "summary": "Article URL: https://www.anthropic.com/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49803892 Points: 1471 # Comments: 917",
    "ai_related": true,
    "title_ja": "Claude Opus 5.5の発表",
    "summary_ja": "Anthropicの最新モデル「Claude Opus 5.5」に関する議論やポイントが共有されています。"
@@ -797,7 +837,7 @@
    "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
    "published": "2026-09-22T14:42+00:00",
    "published_jst": "2026-09-22 23:42",
-   "summary": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 282 # Comments: 204",
+   "summary": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 286 # Comments: 205",
    "ai_related": true,
    "title_ja": "OpenAIのJev追随戦略",
    "summary_ja": "OpenAIがJevの動向に対し、迅速に追随する体制が整っていることについて分析しています。"
@@ -848,84 +888,6 @@
    "summary_ja": "TechCrunch Disrupt 2026の出展プログラムが1週間再開。9月30日までにブースを予約し、スタートアップを披露。"
   },
   {
-   "id": "13eb9cb89aed",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN100 interview: ‘£1bn isn’t what it used to be’ – is bigger better?",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/interviews/cn100-interview-1bn-isnt-what-it-used-to-be-is-bigger-better-22-09-2026/",
-   "published": "2026-09-22T14:11+00:00",
-   "published_jst": "2026-09-22 23:11",
-   "summary": "The ranks of construction firms turning over more than £1bn may be swelling, but Jonathan Boys cautions against reading too much into the milestone. “£1bn isn’t what it used to be,” he says. So sharp was the surge in inflation after the pandemic that, by… The post CN100 interview: ‘£1bn isn’t what i",
-   "ai_related": false
-  },
-  {
-   "id": "de43966872de",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN100 interview: ‘We haven’t seen the peak’, Larkin warns",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/interviews/cn100-interview-we-havent-seen-the-peak-larkin-warns-22-09-2026/",
-   "published": "2026-09-22T14:11+00:00",
-   "published_jst": "2026-09-22 23:11",
-   "summary": "The financial health of the UK’s biggest contractors may be improving, but Rebecca Larkin sees plenty of reasons for caution. The latest CN100 shows stronger revenue, profit and cash generation among the country’s leading contractors for a second successive year. But Larkin, who leads construction… ",
-   "ai_related": false
-  },
-  {
-   "id": "5d8b0d69ea05",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN100 interview: ‘If we get there too quick, it will hurt’, says Red boss",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/interviews/cn100-interview-if-we-get-there-too-quick-it-will-hurt-says-red-boss-22-09-2026/",
-   "published": "2026-09-22T14:10+00:00",
-   "published_jst": "2026-09-22 23:10",
-   "summary": "A rapid recovery in construction workload could push more firms into administration as contractors are squeezed by rising labour costs and greater demands on cash, Red Construction chief executive Graham Sturge warns. Sturge expects work volumes to increase but believes the next 12-18 months could… ",
-   "ai_related": false
-  },
-  {
-   "id": "65074ab2ccef",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN100 interview: ‘Undercutting stores up trouble’ says Wates boss",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/interviews/cn100-interview-undercutting-stores-up-trouble-says-wates-boss-22-09-2026/",
-   "published": "2026-09-22T14:09+00:00",
-   "published_jst": "2026-09-22 23:09",
-   "summary": "Wates has warned contractors against chasing turnover at the expense of sustainable margins, arguing that undercutting the market for short-term gain only creates problems later. The contractor's chief executive Eoghan O'Lionaird says margin discipline has become increasingly important as geopolitic",
-   "ai_related": false
-  },
-  {
-   "id": "cff6ae94aa8d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN100 interview: Willmott Dixon puts resilience before growth",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/interviews/cn100-interview-willmott-dixon-puts-resilience-before-growth-22-09-2026/",
-   "published": "2026-09-22T14:09+00:00",
-   "published_jst": "2026-09-22 23:09",
-   "summary": "Willmott Dixon will not “chase turnover” as it looks to grow, arguing that financial resilience and margin discipline are becoming increasingly important to clients. The debt-free contractor ended 2025 with record cash of £127.3m and 81 per cent of turnover secured through frameworks. It says… The p",
-   "ai_related": true
-  },
-  {
-   "id": "aea5ecfb36a2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN100 interview: ‘You simply can’t do that as a small company’, says M Group boss",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/interviews/cn100-interview-you-simply-cant-do-that-as-a-small-company-says-m-group-boss-22-09-2026/",
-   "published": "2026-09-22T14:09+00:00",
-   "published_jst": "2026-09-22 23:09",
-   "summary": "M Group chief executive Andrew Findlay believes scale is increasingly giving larger contractors an advantage – not simply through stronger balance sheets, but through the breadth of work they can offer clients. The infrastructure services group has expanded its capabilities in areas including digita",
-   "ai_related": false
-  },
-  {
    "id": "172ea0168db5",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -965,7 +927,7 @@
    "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
    "published": "2026-09-22T13:52+00:00",
    "published_jst": "2026-09-22 22:52",
-   "summary": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 634 # Comments: 381",
+   "summary": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 645 # Comments: 383",
    "ai_related": true,
    "title_ja": "OpenAI GPT-6 Astra、2005年以来のEnigmaを解読",
    "summary_ja": "OpenAIのGPT-6 Astraが、2005年から未解読だったEnigmaメッセージの解読に成功。"
@@ -1100,58 +1062,6 @@
    "ai_related": true,
    "title_ja": "Meta、AIエージェント制御のMuse脆弱性を修正",
    "summary_ja": "Metaは、AIエージェントを制御できるMuse macOSアプリのゼロデイ脆弱性に対しパッチを公開。"
-  },
-  {
-   "id": "9338698b5357",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Hill lands £219m Maidstone housing scheme",
-   "url": "https://www.constructionnews.co.uk/contracts/hill-lands-219m-maidstone-housing-scheme-22-09-2026/",
-   "published": "2026-09-22T11:47+00:00",
-   "published_jst": "2026-09-22 20:47",
-   "summary": "Hill Partnerships has won a £219.1m contract from Maidstone Borough Council to deliver 103 homes on the former Springfield Library site. The appointment followed a two-stage procurement, with Hill having been selected in July 2025 for the preconstruction services agreement (PCSA) stage in 2025. Main",
-   "ai_related": false
-  },
-  {
-   "id": "5491a89cd37a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN100 breaks 3% margin barrier",
-   "url": "https://www.constructionnews.co.uk/financial/cn100-breaks-3-margin-barrier-22-09-2026/",
-   "published": "2026-09-22T11:46+00:00",
-   "published_jst": "2026-09-22 20:46",
-   "summary": "The 2026 edition of the CN100 shows average pre-tax margins among the UK’s largest contractors have topped 3 per cent, with two-thirds of firms improving on last year. The unweighted average rose to 3.4 per cent from 2.7 per cent last year and 2.1 per… The post CN100 breaks 3% margin barrier appeare",
-   "ai_related": false
-  },
-  {
-   "id": "49296dbdd165",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bidding appetite grows despite cost pressures",
-   "url": "https://www.constructionnews.co.uk/sections/data/bidding-appetite-grows-despite-cost-pressures-22-09-2026/",
-   "published": "2026-09-22T11:45+00:00",
-   "published_jst": "2026-09-22 20:45",
-   "summary": "Contractors are showing greater appetite for work despite continued pressure from rising costs. The Building Cost Information Service (BCIS) Tender Price Index Panel, comprising cost consultants from firms involved in multiple tenders each quarter, estimated that tender prices rose by 0.7 per cent b",
-   "ai_related": false
-  },
-  {
-   "id": "8c6aa51ed8a1",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN100 2026: Three is the magic number",
-   "url": "https://www.constructionnews.co.uk/sections/data/cn100-2026-three-is-the-magic-number-22-09-2026/",
-   "published": "2026-09-22T11:45+00:00",
-   "published_jst": "2026-09-22 20:45",
-   "summary": "The UK’s top 100 contractors have finally cracked the 3 per cent margin barrier. But with taxes on jobs rising, it may prove a difficult trick to repeat The post CN100 2026: Three is the magic number appeared first on Construction News .",
-   "ai_related": false
   },
   {
    "id": "90123ad6fa65",
@@ -1294,6 +1204,19 @@
    "ai_related": false,
    "title_ja": "BBV、HS2でM42の橋梁3基を連続架設",
    "summary_ja": "エンジニアチームが週末の集中工事により、高速道路を跨ぐ3つの橋梁架設を見事に完遂させた。"
+  },
+  {
+   "id": "c3ad16afcce4",
+   "source": "毎日新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "バンコクで異臭騒ぎ 原因は日本でも建設ラッシュのあの施設? [写真特集1/5]",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mYjhHRDVIcWp0SmdjRXlzZ0pQSWZ5YTBOb1ZmZzRDTEJBWUlna3NOYVh1SHlnbjZCdWcteWJqNU9CblhSaURaR29VLTlJa3FNYkhhUmt6eHFBYWJ2elhZRzJRZUJrUQ?oc=5",
+   "published": "2026-09-22T06:29+00:00",
+   "published_jst": "2026-09-22 15:29",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "5d5363e77d42",
@@ -1803,7 +1726,7 @@
   },
   {
    "id": "4d95a700bda7",
-   "source": "nikkei.com",
+   "source": "日本経済新聞",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2244,19 +2167,6 @@
    "summary_ja": "地域のフレキシブルベイ建築は、オフィスやショールーム、空調付き倉庫スペースなどを当初から組み込めます。"
   },
   {
-   "id": "fbef9683fbad",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Amazon blocks Meta’s Muse AI agent",
-   "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-   "published": "2026-09-21T09:21+00:00",
-   "published_jst": "2026-09-21 18:21",
-   "summary": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" Accordin",
-   "ai_related": true
-  },
-  {
    "id": "04257056b1cf",
    "source": "PBC Today (UK)",
    "source_id": "pbctoday",
@@ -2285,17 +2195,19 @@
    "ai_related": true
   },
   {
-   "id": "48cec85f3df4",
+   "id": "d6416749c51a",
    "source": "Construction Dive",
    "source_id": "construction_dive",
    "category": "construction_global",
    "lang": "en",
-   "title": "Why build a drone program when you can rent one?",
-   "url": "https://www.constructiondive.com/spons/why-build-a-drone-program-when-you-can-rent-one/830239/",
+   "title": "Solving the jobsite blind spot: Why buying drones is not always the solution",
+   "url": "https://www.constructiondive.com/spons/solving-the-jobsite-blind-spot-why-buying-drones-is-not-always-the-solutio-1/830239/",
    "published": "2026-09-21T09:00+00:00",
    "published_jst": "2026-09-21 18:00",
    "summary": "Contractors see the value in drones but struggle to own them. Meet Drone as a Service.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "建設現場の死角を解消：ドローン購入が常に解決策とは限らない理由",
+   "summary_ja": "請負業者はドローンの価値を認める一方で、その所有には苦労している。そこで「ドローン・アズ・ア・サービス」という選択肢が注目されている。"
   },
   {
    "id": "23e5b7fb1b6b",
@@ -2311,47 +2223,6 @@
    "ai_related": true,
    "title_ja": "建設業界のAI競争における「質の低いデータ」の隠れたコスト",
    "summary_ja": "AI導入の競争が激化する中、ツール増加のプレッシャーとデータ品質に関する課題が浮き彫りになっている。"
-  },
-  {
-   "id": "553e9a32ac77",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米企業のAI投資が初めて住宅投資を上回る データセンター支出が経済構造を塗り替え",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qNDZma25BRWZ1SG4tNFVTQ0FpOTRHYmVKdWZubC1ULWJPaVl3TDYyU3BETEh5MnUwcG5aeFZPY0FvZUJEWHVCRFlIMzB2MDMxQ0EwNHdWeTYydTB0cWVoaWJfODhSTG1sR0xhMEtTY25vUnhD?oc=5",
-   "published": "2026-09-21T07:35+00:00",
-   "published_jst": "2026-09-21 16:35",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "b3c1112a0180",
-   "source": "jp.ajunews.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "金호建設、サムスン電子プラックト韓国工場の着工式を開催",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1td0NNa1AtbHdyRDd0Z050OVNEM2VxWlllVS1pRXB0dTMwdjhfTS1rbzhEZmxsTXZoWTlKVS05Wmk5UXlUUlNtQS1Kd0tFRDROYnhYMm42NDZDRUE?oc=5",
-   "published": "2026-09-21T07:32+00:00",
-   "published_jst": "2026-09-21 16:32",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "530db518a73a",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Expanding OpenAI Academy with new learning paths",
-   "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-   "published": "2026-09-21T07:00+00:00",
-   "published_jst": "2026-09-21 16:00",
-   "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-   "ai_related": true,
-   "title_ja": "「OpenAI Academy」に新たな学習パスを追加",
-   "summary_ja": "従業員、開発者、リーダー、教育者、学生を対象に、実践的なAIスキルを身につけて証明するための新しい学習コースを開設。"
   }
  ]
 }
