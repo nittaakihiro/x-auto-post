@@ -11711,5 +11711,47 @@
       "unverified": "経済産業省が掲げるとされる『2040年にAIロボット産業で世界シェア3割超・20兆円規模』という政府目標、および一部報道にあった『2028年をめどに中小製造業へ提供』という時期は、一次資料の全文を確認できなかったため本文には含めなかった。建設機械の稼働ログにも同じ発想が使えるはずという記述は投稿者(本人)の推測であり、実際にそうした計画が存在するとは一次情報から確認していない。",
       "hook_alternative": "『建設機械にもマイナンバーができる日が来るかもしれません』という煽り口調で始める案も検討したが、建設機械への適用は現時点で存在しない推測にすぎないため誇張を避け、@sasakitoshinao本人の論点(LLMとフィジカルAIで重要になるデータの違い)を先に立てて事実を補足する構成を採用した。"
     }
+  },
+  {
+    "id": "2026-09-23_21:00",
+    "date": "2026-09-23",
+    "time": "21:00",
+    "text": "米国でAIデータセンターの建設計画が、住民の反対で止まる例が増えています。Data & Societyが2024〜2026年の18カ月間、ペンシルベニア州民44人に聞き取った調査によると、反対理由は一つではなく、電気料金や不動産価値への不安、水や電力を大量に使う環境負荷、業者が秘密保持契約を使って進める不透明さへの不信が絡み合っています。今年2月にはMontour郡で住民団体が郡に再ゾーニング申請を退けさせました。AIインフラ投資を歓迎してきたペンシルベニア州も、今年に入り新規のデータセンター案件に追加要件を課す方向へ転じたそうです。日本でもデータセンターは建設各社の稼ぎ頭になっていますが、着工の可否を左右するのは技術や資金より地元への説明かもしれません。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": null,
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "建設AI",
+      "format": "海外事例",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 2,
+        "自分の追加価値": 2,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "候補6件を比較。(a)news_feed.json construction_global(ai_related=true,48h窓)からWillmott Dixon記事2件はAIタグの誤判定（内容はスクール改築・経営インタビューでAI要素なし）で除外。PBC Today『8 ways AI can be used in commercial construction to reduce disputes and litigation』は9/21付・一般論の列挙で新規性と証拠に乏しく前日評価と同様に除外。Construction Dive『Solving the jobsite blind spot』はドローンAsAサービス業者のスポンサー記事で競合性が本文だけでは判断できないため戦略の除外ルールに従い候補にしなかった。(b)ai_buzz.jsonの建設×AI海外タグでは@GauzillaProのSpatial AI 3Dセグメンテーション更新(9/21 16:48JST)が唯一の実質候補だったが48h窓を超過（51時間経過）し、具体的な企業導入事例もなく証拠が弱いため見送り。他の建設×AI海外・Global-建設タグ投稿はデータセンター送電網や入札動向などAI要素のない投稿のみだった。(c)ai_buzz.jsonの海外AIバズはOpus5.5/GPT-6 Sol・Luna関連が中心で今日07:25枠と重複、Grok4.7やdhh/Omarchyなど建設接続が作れないハイプ投稿のみ。(d)news_feed.json ai_globalから採用したTechCrunch『Everyone can find a reason to dislike data center construction』(9/22 22:00JST)は、AI主導のデータセンター建設ブームが招く住民反対という建設業界に直結する社会的リスクを、Data & Societyの18カ月・44人の実地調査という一次報告に基づいて具体的に示しており、今日の朝・昼・夕枠（Opus5.5発表／Claude×Blender4Dモデル／産総研フィジカルAI）とも重複しない新しい角度のため採用。",
+      "source_url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+      "published_at": "2026-09-22T22:00:00+09:00",
+      "checked_at": "2026-09-23T20:37:00+09:00",
+      "availability": "techcrunch.com本体はEGRESS_BLOCKEDでWebFetch直接確認不可。同じくyahoo.com、jingletree.com、hyper.aiも遮断されWebFetch代替不可だったため、WebSearchのスニペットと、記事内容を転記・要約した第三者アグリゲータ（github.com/hanzhad/squelch-news-engine issue #1039、daily.dev要約、Spotlight PA/Inside Climate Newsの関連記事）を突き合わせ、Data & Society・18カ月・44人・Montour郡・$68B・PA州の規制転換という中核事実の一致を複数ソースで確認した。",
+      "unverified": "米国民60%超が新規建設制限を支持という全国調査の実施主体・母数、全米での停止案件の集計金額（2026年Q2）、Data Center Coalitionの州ロビー支出額は、TechCrunch本文を直接確認できず第三者アグリゲータ経由の数値のため本文からは外し、Data & Societyの調査規模・Montour郡の事例・州の規制転換という複数の独立記事（Spotlight PA、Inside Climate News）でも触れられている中核事実のみを採用した。",
+      "hook_alternative": "全米の停止金額（$680億など）を先に出す案も検討したが、その数値は第三者アグリゲータ経由でしか確認できず戦略の『未確認の数値は落とす』原則に反するため、本文からは外し、確実性の高いMontour郡の具体事例と調査の規模を軸にする構成にした。"
+    }
   }
 ]
