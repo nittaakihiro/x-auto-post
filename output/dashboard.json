@@ -1,21 +1,21 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-09-24",
   "post_date": "2026-09-24",
-  "generated_at": "2026-09-24T07:15:00+09:00",
+  "generated_at": "2026-09-24T11:07:48+09:00",
   "original_post": {
-    "time": "07:25",
-    "text": "Googleが新しい音声生成モデル「Gemini 3.8 Flash TTS」を発表しました。あらかじめ用意された声を選ぶだけだったこれまでと違い、声の年齢や性格、話し方の特徴を言葉で説明するだけで、まったく新しい声を一から作れるのが今回のポイントです。対応言語は100以上、用意済みの声も2000種類超で、方言違いの声も選べます。Google AI StudioとGemini APIですでに使えます。ポッドキャストや多言語のナレーションを作っている人には試す価値がありそうです。",
+    "time": "12:00",
+    "text": "西松建設が9月17日、建設重機の自動運転を外部ベンダー任せにせず、社内で強化学習を扱えるようにする研修を実施したと発表しました。支援したのはDX企業アジアクエストです。\n\n研修では、受講者自身が報酬関数を試行錯誤で設計し、実機特有の照明のムラや摩擦、バッテリー切れといった「現実のノイズ」にモデルをどう対応させるかを体験しています。最終発表では精度ではなく「コース逸脱率」「衝突回避数」といった安全性の指標で評価しました。\n\n西松建設はトンネル工事向けにホイールローダーや吹付け機を遠隔操作する「Tunnel RemOS」を進めており、今回の内製化はその自動運転化に向けた足がかりです。建機AIを外部委託だけに頼ると、現場ごとの細かい調整のたびに追加コストがかかります。社内に強化学習の知見を持つ人を置く選択は、他の建設会社にとっても参考になりそうです。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
-    "article_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+    "article_url": "https://www.asia-quest.jp/information/20260917",
     "video_url": null,
-    "reply_text": "■ 出典\nGoogle公式ブログ「Gemini 3.8 text-to-speech says hello」\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\nGoogle DeepMind公式ブログでも同内容を確認\nhttps://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/\n※blog.google/deepmind.googleは本セッションのネットワーク制限でWebFetch直接確認不可。WebSearchでUnite.AI、Google公式X（@OfficialLoganK 投稿）、Google AI for Developers公式ドキュメント（ai.google.dev/gemini-api/docs/speech-generation）を横断し、対応言語100以上・用意済みの声2000種類超・Google AI StudioとGemini APIで提供開始という内容の一致を確認した。",
+    "reply_text": "■ 出典\nアジアクエスト株式会社 公式リリース「西松建設の建設重機AI内製化に向けた人材育成プログラムを支援」（2026-09-17付）\nhttps://www.asia-quest.jp/information/20260917\n※本セッションのネットワーク制限でWebFetch直接確認不可（EGRESS_BLOCKED）。WebSearchでPR TIMES掲載の同内容（プレスリリース配信サービス経由）、jp.headtopics.com転載記事を横断し、報酬関数設計・実機ノイズ対応・評価指標（コース逸脱率／衝突回避数）、既存プロジェクト「Tunnel RemOS」との接続という内容の一致を確認した。研修の対象人数・実機への適用時期は公式本文未確認。",
     "editorial": {
-      "pillar": "一般AI",
-      "format": "速報",
+      "pillar": "建設AI",
+      "format": "事例",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
@@ -23,17 +23,17 @@
         "自分の追加価値": 1,
         "伝わりやすさ": 2
       },
-      "selection_reason": "候補6件を比較。(a)news_feed.json ai_global/ai_japanから、Claude Opus 5.5／GPT-6 Sol・Luna関連（gigazine/itmedia/techcrunch等多数、2026-09-22 16:29〜18:00 UTC発表）は9/23朝枠で既に採用済みのため焼き直しとして除外。(b)ChatGPT Voiceがメール・カレンダー・Slack連携を強化という話（the-decoder、2026-09-23 17:57 UTC）はOpenAI公式一次ソースを確認できず二次情報のみのため見送り。(c)Anthropic公式「Claude discovers a novel enzyme system with CRISPR-like repeats」（2026-09-23 18:06 UTC、一次情報あり）は自社Claudeの科学的成果で専門性が高く、読者への実務価値や伝わりやすさの点でGemini TTSに劣るため見送り。(d)Alibaba Qwen Audio 3.1の音声API値下げ95%（the-decoder、2026-09-23 12:31 UTC）は開発者向けで一般読者への価値がやや弱く、同じ音声テーマが重複するため見送り。(e)Google Beamの対応地域拡大（blog.google、2026-09-23 18:00 UTC）は法人向けで一般性が低く見送り。(f)Geta.Team（AI従業員サービス、gigazine、2026-09-23 09:00 UTC）はサービス紹介色が強く一次確認が不十分なため見送り。採用したGemini 3.8 Flash TTS（Google/Google DeepMind公式、2026-09-23 15:25/15:29 UTC発表、生成時点で約6〜7時間経過）は、公式一次情報があり、『声を言葉で一から作れる』という具体的にできることと対応言語100以上・声2000種類超という数字が明確で、今日07:25枠として初出で他アカウントの既出ネタとも重複しないため採用。",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-      "published_at": "2026-09-24T00:25:00+09:00",
-      "checked_at": "2026-09-24T07:10:00+09:00",
-      "availability": "blog.google、deepmind.googleとも本セッションのネットワーク制限でWebFetch直接確認不可（EGRESS_BLOCKED）。WebSearchでUnite.AI「Google Rolls Out Gemini 3.8 Speech Models In API And AI Studio」、Google公式アカウント運用者Logan Kilpatrick氏のX投稿（@OfficialLoganK）、Google AI for Developers公式ドキュメント（ai.google.dev/gemini-api/docs/speech-generation）を横断し、モデル名・対応言語100以上・声2000種類超・Google AI StudioとGemini APIで提供開始という内容の一致を確認した。",
-      "unverified": "Hume AIのベンチマークでの具体的な順位・スコア、価格の詳細（無料枠の有無、従量課金の単価）は公式本文を直接確認できずWebSearchのスニペット経由のため本文には書かず、対応言語数・声の種類数・提供開始という複数ソースで一致した事実のみを本文に採用した。",
-      "hook_alternative": "『Hume AIのベンチマークで世界1位』を冒頭に出す案も検討したが、順位の一次情報を直接確認できず戦略の『未確認の性能・数値は落とす』原則に反するため、確実に複数ソースで一致した『声を言葉で一から作れる』という機能面を軸にする構成にした。"
+      "selection_reason": "候補5件超を比較。海外は入口（news_feed.json construction_global 29件、ai_buzz.json）を確認したが、ai_related=true付きの4件（ArchDaily/PBC Today/Construction News UK/Construction Enquirer）はいずれも学校再建・保健センター等の一般工事案件でAI要素が実質なく（ai_relatedフラグの誤検知と判断）、他のconstruction_global項目もAI無関係の一般建設ニュースのみで採用可能な海外AI事例が無かった。ai_buzz.jsonのGlobal-建設枠(ENR)はスポンサー付きウェビナー告知で一次情報として不適格のため除外。WebSearchで海外の直近ニュースも追加調査したが、Bechtel/SkanskaのAI安全監視事例はServiceTitanレポートの集計情報で発表日・一次ソースを確認できず見送り。戦略の『海外が無い日は国内』に従い国内へ。国内候補: (a)西松建設×アジアクエストの建機AI内製化研修（採用）、(b)大高建設×富山県立大学の対話型AI「思いやり」ルール共同研究（webun.jpがWebFetch遮断で本文未確認、建設現場への具体的応用も不明瞭なため証拠不足で見送り）、(c)建設業特化型AIエージェント『SAPマインド』10/1提供開始（建設向けAIプロダクトの新機能リリースで競合性を判断できず候補外）、(d)dobokuya77氏のOpus5.5+Blender続報（9/23昼枠と同一テーマ・同一投稿者のため重複で除外）、(e)GS建設AXレシピ等は9/22までに既出のため除外。(a)は外部ベンダー依存からの脱却という建設会社自身の判断が主題で、報酬関数設計や安全性指標など具体的な証拠があり、他の建設会社が内製化を検討する際の判断材料になるため採用。アジアクエストは建設特化ではない汎用DXインテグレーター（IoT/AI/Cloud/Web、建設・通信・小売・自治体等に導入実績）であり、戦略の競合除外対象（光/Hikari・ミャク楽・Motif等の建設業向けAI導入支援/BPO/営業代行）には該当しないと判断した。",
+      "source_url": "https://www.asia-quest.jp/information/20260917",
+      "published_at": "2026-09-17",
+      "checked_at": "2026-09-24T11:07:00+09:00",
+      "availability": "asia-quest.jp、prtimes.jpともWebFetch直接確認不可（EGRESS_BLOCKED、本セッションのネットワーク制限）。WebSearchでPR TIMES掲載の同内容要約、jp.headtopics.com転載記事、アジアクエスト社の事業内容（企業サイト・採用資料等）を横断し、発表日2026-09-17、研修内容（報酬関数設計・実機ノイズ対応・評価指標）、Tunnel RemOSプロジェクトとの関係、アジアクエストが建設特化ではない汎用DX企業であることの一致を確認した。",
+      "unverified": "研修の対象人数・具体的な実施期間、研修成果を実機へ適用する具体的な時期は公式本文を直接確認できず本文に書いていない。ken-it.world（家入龍太氏のブログ、本日9/24投稿）もWebFetch遮断で本文未確認。",
+      "hook_alternative": "『重機が自動で動く日が近づく』という将来性を煽る冒頭案も検討したが、今回発表されたのは内製化のための人材育成研修であり実機の自動運転そのものではないため誇張になると判断し、『外部ベンダー任せにせず社内で強化学習を扱えるようにした』という実際に発表された内容を軸にする構成を採用した。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.jsonを確認したが、上位はOpus 5.5/GPT-6 Sol関連（本枠のGemini TTSとは無関係、9/23朝枠で既出）とサーフィンなど無関係な投稿のみで、本枠題材（Gemini 3.8 Flash TTS）に関連する海外の引用・リプ候補は見つからなかった。競合サービス（建設向けAI開発/導入支援・BPO・営業代行）に該当する候補は無し。",
+  "engage_cards_note": "slack_buzz.json（65件）とai_buzz.jsonを確認。建設×AI関連の話題ポストは日常投稿（人手不足・現場愚痴等）が中心でAI要素なし。ieiri_lab氏の西松建設AI内製化に関する投稿は本枠の本文と同一題材のため引用候補からは除外。競合サービス（建設向けAI開発/導入支援・BPO・営業代行）に該当する候補は無し。有益な引用・リプ候補は見つからなかった。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-morning"
+  "generated_by": "routine:x-post-noon"
 }
