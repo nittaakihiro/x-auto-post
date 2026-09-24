@@ -1,39 +1,39 @@
 {
   "version": 6,
-  "slot": "noon",
+  "slot": "evening",
   "date": "2026-09-24",
   "post_date": "2026-09-24",
-  "generated_at": "2026-09-24T11:07:48+09:00",
+  "generated_at": "2026-09-24T18:00:00+09:00",
   "original_post": {
-    "time": "12:00",
-    "text": "西松建設が9月17日、建設重機の自動運転を外部ベンダー任せにせず、社内で強化学習を扱えるようにする研修を実施したと発表しました。支援したのはDX企業アジアクエストです。\n\n研修では、受講者自身が報酬関数を試行錯誤で設計し、実機特有の照明のムラや摩擦、バッテリー切れといった「現実のノイズ」にモデルをどう対応させるかを体験しています。最終発表では精度ではなく「コース逸脱率」「衝突回避数」といった安全性の指標で評価しました。\n\n西松建設はトンネル工事向けにホイールローダーや吹付け機を遠隔操作する「Tunnel RemOS」を進めており、今回の内製化はその自動運転化に向けた足がかりです。建機AIを外部委託だけに頼ると、現場ごとの細かい調整のたびに追加コストがかかります。社内に強化学習の知見を持つ人を置く選択は、他の建設会社にとっても参考になりそうです。",
+    "time": "20:00",
+    "text": "約1,000体のClaudeエージェントが21時間かけて自律的に働き、バクテリオファージのDNAから未知の酵素系を発見したとAnthropicが発表しました。TechCrunchによれば、それでも生物学ラボでは人間がまだ判断に関与しているとのこと。大量のエージェントを並列で走らせつつ最終判断は人に残す、という線引きが実務でも参考になりそうです。",
     "status": "draft",
-    "type": "original",
-    "quote_tweet_id": null,
-    "article_url": "https://www.asia-quest.jp/information/20260917",
+    "type": "quote_rt",
+    "quote_tweet_id": "2102824959827742916",
+    "article_url": null,
     "video_url": null,
-    "reply_text": "■ 出典\nアジアクエスト株式会社 公式リリース「西松建設の建設重機AI内製化に向けた人材育成プログラムを支援」（2026-09-17付）\nhttps://www.asia-quest.jp/information/20260917\n※本セッションのネットワーク制限でWebFetch直接確認不可（EGRESS_BLOCKED）。WebSearchでPR TIMES掲載の同内容（プレスリリース配信サービス経由）、jp.headtopics.com転載記事を横断し、報酬関数設計・実機ノイズ対応・評価指標（コース逸脱率／衝突回避数）、既存プロジェクト「Tunnel RemOS」との接続という内容の一致を確認した。研修の対象人数・実機への適用時期は公式本文未確認。",
+    "reply_text": "■ 出典\nAnthropic公式（元投稿）: https://x.com/AnthropicAI/status/2102824959827742916\nTechCrunch: https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/\nGIGAZINE（日本語解説）: https://gigazine.net/news/20260924-anthropic-claude-crispr/",
     "editorial": {
-      "pillar": "建設AI",
-      "format": "事例",
+      "pillar": "一般AI",
+      "format": "引用",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
         "見せられる証拠": 2,
-        "自分の追加価値": 1,
+        "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "候補5件超を比較。海外は入口（news_feed.json construction_global 29件、ai_buzz.json）を確認したが、ai_related=true付きの4件（ArchDaily/PBC Today/Construction News UK/Construction Enquirer）はいずれも学校再建・保健センター等の一般工事案件でAI要素が実質なく（ai_relatedフラグの誤検知と判断）、他のconstruction_global項目もAI無関係の一般建設ニュースのみで採用可能な海外AI事例が無かった。ai_buzz.jsonのGlobal-建設枠(ENR)はスポンサー付きウェビナー告知で一次情報として不適格のため除外。WebSearchで海外の直近ニュースも追加調査したが、Bechtel/SkanskaのAI安全監視事例はServiceTitanレポートの集計情報で発表日・一次ソースを確認できず見送り。戦略の『海外が無い日は国内』に従い国内へ。国内候補: (a)西松建設×アジアクエストの建機AI内製化研修（採用）、(b)大高建設×富山県立大学の対話型AI「思いやり」ルール共同研究（webun.jpがWebFetch遮断で本文未確認、建設現場への具体的応用も不明瞭なため証拠不足で見送り）、(c)建設業特化型AIエージェント『SAPマインド』10/1提供開始（建設向けAIプロダクトの新機能リリースで競合性を判断できず候補外）、(d)dobokuya77氏のOpus5.5+Blender続報（9/23昼枠と同一テーマ・同一投稿者のため重複で除外）、(e)GS建設AXレシピ等は9/22までに既出のため除外。(a)は外部ベンダー依存からの脱却という建設会社自身の判断が主題で、報酬関数設計や安全性指標など具体的な証拠があり、他の建設会社が内製化を検討する際の判断材料になるため採用。アジアクエストは建設特化ではない汎用DXインテグレーター（IoT/AI/Cloud/Web、建設・通信・小売・自治体等に導入実績）であり、戦略の競合除外対象（光/Hikari・ミャク楽・Motif等の建設業向けAI導入支援/BPO/営業代行）には該当しないと判断した。",
-      "source_url": "https://www.asia-quest.jp/information/20260917",
-      "published_at": "2026-09-17",
-      "checked_at": "2026-09-24T11:07:00+09:00",
-      "availability": "asia-quest.jp、prtimes.jpともWebFetch直接確認不可（EGRESS_BLOCKED、本セッションのネットワーク制限）。WebSearchでPR TIMES掲載の同内容要約、jp.headtopics.com転載記事、アジアクエスト社の事業内容（企業サイト・採用資料等）を横断し、発表日2026-09-17、研修内容（報酬関数設計・実機ノイズ対応・評価指標）、Tunnel RemOSプロジェクトとの関係、アジアクエストが建設特化ではない汎用DX企業であることの一致を確認した。",
-      "unverified": "研修の対象人数・具体的な実施期間、研修成果を実機へ適用する具体的な時期は公式本文を直接確認できず本文に書いていない。ken-it.world（家入龍太氏のブログ、本日9/24投稿）もWebFetch遮断で本文未確認。",
-      "hook_alternative": "『重機が自動で動く日が近づく』という将来性を煽る冒頭案も検討したが、今回発表されたのは内製化のための人材育成研修であり実機の自動運転そのものではないため誇張になると判断し、『外部ベンダー任せにせず社内で強化学習を扱えるようにした』という実際に発表された内容を軸にする構成を採用した。"
+      "selection_reason": "候補5件以上を比較。(A)Anthropic公式のバクテリオファージ酵素系発見(採用): 本日03:18JST発表、AnthropicAI公式ツイート(表示993万)・DarioAmodei本人ツイート・TechCrunch記事・GIGAZINE和訳記事の4系統で内容が一致し一次情報として強い。人間が判断に残るという設計面の具体情報があり、大量エージェントの並列運用と最終判断の線引きという読者への追加論点を足せる。(B)OpenAI ChatGPT Voiceの大型アップデート(プラグイン対応・GPT-6 Astra/Sol/Luna搭載): 公式発表で証拠は強いが、国内外で既に広く報じられ翻訳以上の付加価値が作りにくく夜枠向けの海外ニュースとも重複しやすいため見送り。(C)Meta Connect『Muse Charm』ウェアラブル発表: ガジェット寄りで建設・仕事への応用の説明がしづらく読者への価値が低いため見送り。(D)OpenAIエージェントが豪政府サイトへ侵入した件(Reuters経由): 新規性・証拠はあるが構成的中立性の検証に時間を要し本文だけでの裏取りが不十分なため今回は見送り。(E)dobokuya77氏のOpus5.5×Blenderで4Dモデル動画: 2026-09-23昼枠で同一投稿者・同一テーマを既に引用済みのため重複で除外。(F)建設業特化型AIエージェント『SAPマインド』10/1提供開始: 建設向けAI導入支援サービスの宣伝色が強く競合性を明確に否定できないため候補から外し確認事項へ。(G)ENR主催のAIウェビナー告知: Egnyteのスポンサー付き広告ツイートで一次情報として不適格のため除外。今日の朝枠(Gemini TTS発表)・昼枠(西松建設の建機AI内製化)とはテーマ・出典・形式(引用)がいずれも異なる。",
+      "source_url": "https://x.com/AnthropicAI/status/2102824959827742916",
+      "published_at": "2026-09-24T03:18+09:00",
+      "checked_at": "2026-09-24T18:00:00+09:00",
+      "availability": "元ツイート(AnthropicAI)・DarioAmodei本人ツイートをai_buzz.json経由で確認。TechCrunch記事とGIGAZINE記事をnews_feed.json経由で確認し、'人間がまだ生物学ラボの判断に関与している'というTechCrunchの論点の一致を確認した。WebFetch/WebSearchでの追加の一次本文確認は行っていない(ai_buzz.json・news_feed.jsonの記載内容で複数系統の一致が取れたため)。",
+      "unverified": "発見された酵素系(ART)の具体的な機能・生物学的意義はAnthropic自身も『まだ分かっていない』としており未確定。ダリオ・アモデイ氏の『5〜10年で多くの病気を治せる』という発言は本人の見通しであり確定した成果ではないため本文に含めていない。",
+      "hook_alternative": "ダリオ・アモデイ氏の『5〜10年で多くの病気を治せる』という発言を冒頭に置く案も検討したが、本人も「かろうじて可能」という留保付きの見通しであり、酵素系自体の機能もAnthropicが「まだ分かっていない」と明言しているため、未確認の効能を煽ることになると判断し不採用。今回発表された事実(エージェント数・時間・人間の関与)だけを軸にした構成を採用した。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "slack_buzz.json（65件）とai_buzz.jsonを確認。建設×AI関連の話題ポストは日常投稿（人手不足・現場愚痴等）が中心でAI要素なし。ieiri_lab氏の西松建設AI内製化に関する投稿は本枠の本文と同一題材のため引用候補からは除外。競合サービス（建設向けAI開発/導入支援・BPO・営業代行）に該当する候補は無し。有益な引用・リプ候補は見つからなかった。",
+  "engage_cards_note": "ai_buzz.json・slack_buzz.jsonを確認。建設×AI関連の候補は今回の引用元(Anthropic公式)以外に有益なものが見つからず、slack_buzzの建設系投稿は日常投稿(人手不足・現場愚痴等)が中心でAI要素なし。競合サービス(建設向けAI開発/導入支援・BPO・営業代行)に該当する候補は無し。",
   "skip_reason": null,
-  "generated_by": "routine:x-post-noon"
+  "generated_by": "routine:x-post-evening"
 }
