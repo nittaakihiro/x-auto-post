@@ -1,17 +1,25 @@
 {
- "generated_at": "2026-09-24T01:26+00:00",
- "generated_at_jst": "2026-09-24 10:26",
+ "generated_at": "2026-09-24T01:40+00:00",
+ "generated_at_jst": "2026-09-24 10:40",
  "window_hours": 48,
  "counts": {
-  "ai_global": 82,
-  "construction_japan": 42,
+  "ai_global": 80,
+  "construction_japan": 41,
   "ai_japan": 22,
-  "construction_global": 35
+  "construction_global": 29
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -120,17 +128,30 @@
    "ai_related": true
   },
   {
-   "id": "21035776ee1f",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築AI経営研究会、建築実務のAI活用動画12本を追加 設計・営業の実演事例を拡充",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fR1I0dEQ0bXo2c0ZjQk03b0NTWmh1YXdtNy1leVMzbkh0WVJEN29oZG8wVDdya3dGMS1JczV6TEpDMy1XZmtZcWpxbHRnd3MxVnhSRlducFBPQVFrRDFYMWdlMldEczdpUWc?oc=5",
-   "published": "2026-09-24T00:00+00:00",
-   "published_jst": "2026-09-24 09:00",
-   "summary": "",
-   "ai_related": false
+   "id": "6330e9855670",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta is making a standalone Muse AI gadget",
+   "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+   "published": "2026-09-24T00:15+00:00",
+   "published_jst": "2026-09-24 09:15",
+   "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the strap - just a big screen, plus a little l",
+   "ai_related": true
+  },
+  {
+   "id": "14d2985af419",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Muse is coming to Meta smart glasses",
+   "url": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features",
+   "published": "2026-09-23T23:40+00:00",
+   "published_jst": "2026-09-24 08:40",
+   "summary": "Just a couple of weeks after launching Muse, Meta announced that it's \"working on\" bringing the agent to its smart glasses, including the new glasses it unveiled at Meta Connect. Users will be able to activate Muse from their glasses by saying its name and ask it to handle tasks like guiding a worko",
+   "ai_related": true
   },
   {
    "id": "b8569e46aaee",
@@ -146,6 +167,32 @@
    "ai_related": true,
    "title_ja": "Meta、カメラ非搭載のAIグラスを発表",
    "summary_ja": "Metaによると、カメラ非搭載の新型スマートグラスはより軽量になり、最大12時間のバッテリー寿命を実現しているとのことです。"
+  },
+  {
+   "id": "a5a216ee8f8e",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta ditches the camera on its newest smart glasses",
+   "url": "https://www.theverge.com/tech/999281/ray-ban-meta-audio-glasses-meta-connect-2026",
+   "published": "2026-09-23T23:37+00:00",
+   "published_jst": "2026-09-24 08:37",
+   "summary": "Walking around Meta Connect 2026, everyone's sporting smart glasses in all sorts of shapes, colors, and sizes. It's a marked difference here, a tech bubble where \"pervert glasses\" are not a concern. Outside Connect, the public backlash against wearable surveillance tech - a catchall term that encomp",
+   "ai_related": true
+  },
+  {
+   "id": "395f29300605",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta is making Muse more powerful and will let you video chat with it, too",
+   "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+   "published": "2026-09-23T23:19+00:00",
+   "published_jst": "2026-09-24 08:19",
+   "summary": "Meta is quickly iterating on its new Muse AI agent, announcing a bunch of updates today that make the bot more capable and able to chat with you in more ways. Muse agents are getting their own email addresses that they can use for accomplishing tasks. You'll also be able to communicate with your Mus",
+   "ai_related": true
   },
   {
    "id": "5bd3cefe70c4",
@@ -542,7 +589,7 @@
   },
   {
    "id": "07367c07201a",
-   "source": "finance.biggo.jp",
+   "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -771,21 +818,6 @@
    "summary_ja": "利用頻度が上がっても技術への懸念や規制支持の声は減少しないことが示された。"
   },
   {
-   "id": "c48a5527366e",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New Names and Faces: September 2026",
-   "url": "https://constructionexec.com/article/new-names-and-faces-september-2026/?utm_source=rss&utm_medium=rss&utm_campaign=new-names-and-faces-september-2026",
-   "published": "2026-09-23T16:49+00:00",
-   "published_jst": "2026-09-24 01:49",
-   "summary": "Two new Skanska hires, and ABC National office addition, a new engineering practice, and ESOP announcement and more among ABC member companies in September. The post New Names and Faces: September 2026 first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "人事ニュース：2026年9月",
-   "summary_ja": "Skanskaの人事やABCの動向など、会員企業における9月の主な人事情報。"
-  },
-  {
    "id": "6bc3ccccb6eb",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -846,21 +878,6 @@
    "summary_ja": "AIスキルをより多くのコミュニティへ届ける取り組みの2周年を記念。"
   },
   {
-   "id": "4c4abcff4acd",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "published": "2026-09-23T16:00+00:00",
-   "published_jst": "2026-09-24 01:00",
-   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "ai_related": true,
-   "title_ja": "セキュアなサーバーサイドメモリでプライベートAI計算を推進",
-   "summary_ja": "個人向けAIのプライベートAI計算に、サーバーサイドの安全なメモリを導入。"
-  },
-  {
    "id": "2bbd4da8914b",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -874,21 +891,6 @@
    "ai_related": true,
    "title_ja": "Gemini 3.8 テキスト読み上げ機能について",
    "summary_ja": "Google公式ブログにおける最新のGemini音声合成モデルに関する記事およびコミュニティでの議論を紹介。"
-  },
-  {
-   "id": "be2314c62992",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "published": "2026-09-23T15:25+00:00",
-   "published_jst": "2026-09-24 00:25",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "Gemini 3.8のテキスト読み上げ機能が登場",
-   "summary_ja": "新モデルによる音声合成機能の提供が開始される。"
   },
   {
    "id": "8138d300d9ea",
@@ -981,21 +983,6 @@
    "summary_ja": "ユーザーが見たい動画を言葉で説明すると、Geminiがその要望に合わせたパーソナライズフィードを作成します。"
   },
   {
-   "id": "33d4153d9366",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "YouTube releases new AI features for creators within its Studio app",
-   "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
-   "published": "2026-09-23T14:30+00:00",
-   "published_jst": "2026-09-23 23:30",
-   "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
-   "ai_related": true,
-   "title_ja": "YouTube、Studioアプリにクリエイター向けの新AI機能を導入",
-   "summary_ja": "アイデアの生成やサムネイルのパフォーマンス監視を支援する新機能がYouTubeに追加されます。"
-  },
-  {
    "id": "3fbc62c6d1b2",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1011,17 +998,19 @@
    "summary_ja": "AIによるベンチャーキャピタル業界の変化について議論。9月25日までの早期割引パスをご利用ください。"
   },
   {
-   "id": "5ef7b4daed87",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
+   "id": "33d4153d9366",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
    "category": "ai_global",
    "lang": "en",
-   "title": "YouTube is building AI creator tools that do almost everything for them",
-   "url": "https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests",
+   "title": "YouTube releases new AI features for creators within its Studio app",
+   "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
    "published": "2026-09-23T14:30+00:00",
    "published_jst": "2026-09-23 23:30",
-   "summary": "Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingly simply telling creators what they should do. At the annual creator-focused Mad",
-   "ai_related": true
+   "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+   "ai_related": true,
+   "title_ja": "YouTube、Studioアプリにクリエイター向けの新AI機能を導入",
+   "summary_ja": "アイデアの生成やサムネイルのパフォーマンス監視を支援する新機能がYouTubeに追加されます。"
   },
   {
    "id": "bed8eeca800d",
@@ -1070,7 +1059,7 @@
   },
   {
    "id": "fe5b7e060655",
-   "source": "finance.biggo.jp",
+   "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1327,19 +1316,6 @@
    "ai_related": false
   },
   {
-   "id": "6fd27f051637",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
-   "published": "2026-09-23T11:02+00:00",
-   "published_jst": "2026-09-23 20:02",
-   "summary": "OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, cofounder and technology chief Sam Yam announced on X that he's joining OpenAI to lead Creator Product. He's also bringing Patreon's former product ",
-   "ai_related": true
-  },
-  {
    "id": "d6b631c60355",
    "source": "Construction News (UK)",
    "source_id": "constructionnews_uk",
@@ -1437,21 +1413,6 @@
    "summary_ja": "医療分野が大きく変化する中、建築も従来の孤立した診察室モデルからの脱却が求められています。"
   },
   {
-   "id": "c273bb1bd71e",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The Construction Talent Problem Starts Before the Job Posting",
-   "url": "https://constructionexec.com/article/the-construction-talent-problem-starts-before-the-job-posting/?utm_source=rss&utm_medium=rss&utm_campaign=the-construction-talent-problem-starts-before-the-job-posting",
-   "published": "2026-09-23T10:00+00:00",
-   "published_jst": "2026-09-23 19:00",
-   "summary": "The best onboarding teaches people how the business thinks. The post The Construction Talent Problem Starts Before the Job Posting first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設業界の人材問題は求人広告の前に始まる",
-   "summary_ja": "優れたオンボーディング（初期研修）では、企業の思考プロセスを新メンバーに教えることが重要です。"
-  },
-  {
    "id": "700ad16bddf5",
    "source": "PBC Today (UK)",
    "source_id": "pbctoday",
@@ -1496,7 +1457,7 @@
   },
   {
    "id": "9e2d7d237685",
-   "source": "Yahoo!ニュース",
+   "source": "news.yahoo.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1747,19 +1708,6 @@
    "ai_related": false
   },
   {
-   "id": "0ab4ac60a8fb",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-   "published": "2026-09-23T00:17+00:00",
-   "published_jst": "2026-09-23 09:17",
-   "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI compa",
-   "ai_related": true
-  },
-  {
    "id": "f2d108214ea5",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1941,19 +1889,6 @@
    "ai_related": false
   },
   {
-   "id": "cc0d123c3bdd",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
-   "published": "2026-09-22T20:52+00:00",
-   "published_jst": "2026-09-23 05:52",
-   "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices. A",
-   "ai_related": true
-  },
-  {
    "id": "d313dd087325",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1997,21 +1932,6 @@
    "ai_related": true
   },
   {
-   "id": "c020b4c7a58e",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mediation in Construction Disputes: A Practical Guide",
-   "url": "https://constructionexec.com/article/mediation-in-construction-disputes-a-practical-guide/?utm_source=rss&utm_medium=rss&utm_campaign=mediation-in-construction-disputes-a-practical-guide",
-   "published": "2026-09-22T19:48+00:00",
-   "published_jst": "2026-09-23 04:48",
-   "summary": "A disputed change order or delay claim can put far more than payment at stake, threatening project schedules, working relationships and the time executives need to run their businesses. The post Mediation in Construction Disputes: A Practical Guide first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設紛争における調停：実践ガイド",
-   "summary_ja": "変更指示や遅延請求の紛争は、支払だけでなく工程や信頼関係、経営者の時間も脅かします。"
-  },
-  {
    "id": "69bd5b227657",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2025,21 +1945,6 @@
    "ai_related": true,
    "title_ja": "マイクロソフト、1.2万アカウントを侵害したAIプラットフォームを無効化",
    "summary_ja": "EvilTokensは、大規模な情報侵害を迅速かつ容易に行うためのエンドツーエンドのプラットフォームを提供していました。"
-  },
-  {
-   "id": "a0f0d44751c5",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Beyond the Forecast: Managing Extreme Weather Risks on Construction Sites",
-   "url": "https://constructionexec.com/article/beyond-the-forecast-managing-extreme-weather-risks-on-construction-sites/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-forecast-managing-extreme-weather-risks-on-construction-sites",
-   "published": "2026-09-22T19:41+00:00",
-   "published_jst": "2026-09-23 04:41",
-   "summary": "Recognizing the early signs of heat or cold stress is critical to preventing small problems from becoming serious incidents. The post Beyond the Forecast: Managing Extreme Weather Risks on Construction Sites first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "予報を超えて：建設現場の極端気象リスク管理",
-   "summary_ja": "熱中症や寒冷ストレスの初期兆候を把握することは、軽微な問題が重大事故に発展するのを防ぐために不可欠です。"
   },
   {
    "id": "f5795de5b2fb",
@@ -2130,21 +2035,6 @@
    "ai_related": true,
    "title_ja": "OpenAI、低コストでミスを減らしたGPT-6 SolとLunaを発表",
    "summary_ja": "OpenAIは、Astraの流れを汲むとする2つの新しいモデルの提供を開始したと発表しました。"
-  },
-  {
-   "id": "fb500fb4f081",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mental Health Is a Leadership Imperative in Construction",
-   "url": "https://constructionexec.com/article/mental-health-is-a-leadership-imperative-in-construction/?utm_source=rss&utm_medium=rss&utm_campaign=mental-health-is-a-leadership-imperative-in-construction",
-   "published": "2026-09-22T17:58+00:00",
-   "published_jst": "2026-09-23 02:58",
-   "summary": "In 2023, more construction professionals died by suicide than from workplace accidents. Industry leaders explain why mental health must become as central to safety culture as hard hats and PPE. The post Mental Health Is a Leadership Imperative in Construction first appeared on Construction Executive",
-   "ai_related": false,
-   "title_ja": "建設業におけるリーダーの必須課題としてのメンタルヘルス",
-   "summary_ja": "2023年、労災事故よりも多くの建設従事者が自殺しました。安全文化においてメンタルヘルスがなぜ不可欠なのか業界リーダーが解説します。"
   },
   {
    "id": "3207cf801603",
@@ -2416,21 +2306,6 @@
    "published_jst": "2026-09-22 19:40",
    "summary": "フルハーネスを全員に配っても、作業に合わないランヤードでは安全を確保できません。フック位置との組み合わせによって落下距離が変わるためです。特...",
    "ai_related": false
-  },
-  {
-   "id": "0d73c12b8e0a",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Key Person Provisions in Construction Contracts: Because People, Not Companies, Build Projects",
-   "url": "https://constructionexec.com/article/key-person-provisions-in-construction-contracts-because-people-not-companies-build-projects/?utm_source=rss&utm_medium=rss&utm_campaign=key-person-provisions-in-construction-contracts-because-people-not-companies-build-projects",
-   "published": "2026-09-22T10:00+00:00",
-   "published_jst": "2026-09-22 19:00",
-   "summary": "A key person provision is a widely underused tool in the world of construction contracts. The post Key Person Provisions in Construction Contracts: Because People, Not Companies, Build Projects first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設契約における重要人物条項の重要性",
-   "summary_ja": "重要人物条項は、建設契約の世界において十分に活用されていない極めて有効なツールです。"
   },
   {
    "id": "fcd18be2e1f3",
