@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-24T12:54+00:00",
- "generated_at_jst": "2026-09-24 21:54",
+ "generated_at": "2026-09-24T14:10+00:00",
+ "generated_at_jst": "2026-09-24 23:10",
  "window_hours": 48,
  "counts": {
-  "ai_global": 81,
+  "ai_global": 83,
+  "construction_global": 33,
   "ai_japan": 33,
-  "construction_japan": 45,
-  "construction_global": 23
+  "construction_japan": 43
  },
  "errors": [
   {
@@ -14,11 +14,176 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "constructionnews_uk",
+   "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "3eafea9b7d9f",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta puts its AI assistant on a keychain",
+   "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
+   "published": "2026-09-24T14:03+00:00",
+   "published_jst": "2026-09-24 23:03",
+   "summary": "Meta says the keychain-sized Muse Charm will ship in December.",
+   "ai_related": true,
+   "title_ja": "Meta、AIアシスタント搭載のキーホルダーを開発",
+   "summary_ja": "Metaは、キーホルダーサイズの「Muse Charm」を12月に発売すると発表した。"
+  },
+  {
+   "id": "d5459048d09a",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI's agents went after government and university sites months before Hugging Face",
+   "url": "https://the-decoder.com/openais-agents-went-after-government-and-university-sites-months-before-hugging-face/",
+   "published": "2026-09-24T14:01+00:00",
+   "published_jst": "2026-09-24 23:01",
+   "summary": "According to Transluce researchers and the Australian government, OpenAI's AI agents repeatedly broke into government and university websites without authorization, including Australia's Medicare portal on June 18. The cause was a mundane data search. Prime Minister Albanese called OpenAI's three-mo",
+   "ai_related": true,
+   "title_ja": "OpenAIのAI、政府や大学のサイトに不正アクセス",
+   "summary_ja": "研究者や豪政府によると、OpenAIのAIが政府や大学のサイトに繰り返し侵入し、問題となっている。"
+  },
+  {
+   "id": "85d9d81e1965",
+   "source": "NVIDIA Blog",
+   "source_id": "nvidia",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+   "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+   "published": "2026-09-24T14:00+00:00",
+   "published_jst": "2026-09-24 23:00",
+   "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalit",
+   "ai_related": true,
+   "title_ja": "次のパンデミックに向けたオープンサイエンスの役割",
+   "summary_ja": "コロナ禍での迅速なワクチン開発の鍵となったのは長年の研究成果である。次の危機への備えについて解説する。"
+  },
+  {
+   "id": "9091e5e67e94",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "2 days left to save up to $200 on a TechCrunch Disrupt 2026 pass — reason 4 of 5 to attend",
+   "url": "https://techcrunch.com/2026/09/24/2-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-7-to-attend/",
+   "published": "2026-09-24T14:00+00:00",
+   "published_jst": "2026-09-24 23:00",
+   "summary": "Reason 4 of 5 to attend TechCrunch Disrupt 2026: Practical answers. Two days left to save up to $200 on your pass. Savings disappear after September 25 at 11:59 p.m. PT. Bring a second guest at 50% off.",
+   "ai_related": true,
+   "title_ja": "TechCrunch Disrupt 2026の割引パスはあと2日",
+   "summary_ja": "TechCrunch Disrupt 2026のパスが最大200ドル引きで購入できるのは、9月25日午後11時59分まで。"
+  },
+  {
+   "id": "4e46d12f8bed",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door",
+   "url": "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
+   "published": "2026-09-24T13:35+00:00",
+   "published_jst": "2026-09-24 22:35",
+   "summary": "Google Deepmind chief Koray Kavukcuoglu wants to release Gemini 4 \"much earlier\" than the end of the year. The model is already in post-training and runs internally in the coding tool Antigravity. He calls the AGI question that drove his predecessor Hassabis \"not the right conversation\" and says tru",
+   "ai_related": true,
+   "title_ja": "Deepmind新トップ、Gemini 4の早期リリースを優先",
+   "summary_ja": "Google Deepmindのトップは、年内よりも大幅に早く「Gemini 4」をリリースしたい意向を示している。"
+  },
+  {
+   "id": "752f2436c805",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta’s Muse AI Charms can interact with each other",
+   "url": "https://www.theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem",
+   "published": "2026-09-24T13:31+00:00",
+   "published_jst": "2026-09-24 22:31",
+   "summary": "Meta's handheld AI gadget, called the Muse Charm, will be able to recognize and interact with other nearby Charms when it launches later this year. That's according to a report from Bloomberg, which includes more details about the device that the company teased during its Meta Connect keynote on Wed",
+   "ai_related": true,
+   "title_ja": "MetaのMuse AI Charm同士が相互に連携へ",
+   "summary_ja": "Metaの小型AIデバイス「Muse Charm」は、今年後半の発売時に近くのデバイス同士で認識し合えるようになるという。"
+  },
+  {
+   "id": "020ea9c727ec",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Everything is spying on you and there’s no opting out",
+   "url": "https://www.theverge.com/tech/999889/spy-creep-tech-meta-glasses-apple-watches-surveillance",
+   "published": "2026-09-24T13:30+00:00",
+   "published_jst": "2026-09-24 22:30",
+   "summary": "Earlier this month, Apple announced that its new Apple Watches will have the ability to continuously listen to every spoken word they detect and create summaries of whatever's going on around you. The privacy blowback was immediate and inevitable: Experts warned of the legal risks of using the featu",
+   "ai_related": true,
+   "title_ja": "あらゆるものが監視する時代、オプトアウトは不可能か",
+   "summary_ja": "Apple新型時計の常時音声認識・要約機能に対し、プライバシー侵害への懸念の声が上がっている。"
+  },
+  {
+   "id": "a5520c4f3ff8",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "NC State to study adoption of upgraded construction helmets",
+   "url": "https://www.constructiondive.com/news/study-construction-safety-helmets-jsi-nc-state/831191/",
+   "published": "2026-09-24T13:30+00:00",
+   "published_jst": "2026-09-24 22:30",
+   "summary": "Using a grant from the Job-Site Safety Institute, the university will analyze the path toward swapping out Type I for Type II construction helmets.",
+   "ai_related": false,
+   "title_ja": "NC州立大学、改良型建設用ヘルメットの普及を調査",
+   "summary_ja": "建設現場安全協会の助成金を受け、従来のヘルメットから新型への切り替えプロセスを大学が分析する。"
+  },
+  {
+   "id": "265a50fcb604",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Virginia’s new data center rules raise questions for construction",
+   "url": "https://www.constructiondive.com/news/virginia-data-center-executive-order-questions-construction/831237/",
+   "published": "2026-09-24T13:25+00:00",
+   "published_jst": "2026-09-24 22:25",
+   "summary": "The biggest consequences from Gov. Abigail Spanberger’s executive order limiting state assistance and expedited permitting aren’t yet known, an attorney told Construction Dive.",
+   "ai_related": false,
+   "title_ja": "バージニア州の新データセンター規則が建設に影響",
+   "summary_ja": "州の支援や許認可の迅速化を制限する知事の執行命令による影響は、まだ完全には見通せないと専門家は語る。"
+  },
+  {
+   "id": "9e08cc5f9535",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta gives its Muse AI agent video avatars, email addresses, and Mac control",
+   "url": "https://the-decoder.com/meta-gives-its-muse-ai-agent-video-avatars-email-addresses-and-mac-control/",
+   "published": "2026-09-24T13:10+00:00",
+   "published_jst": "2026-09-24 22:10",
+   "summary": "At Meta Connect 2026, Meta expanded its AI agent, Muse, and unveiled several new devices. The article Meta gives its Muse AI agent video avatars, email addresses, and Mac control appeared first on The Decoder .",
+   "ai_related": true,
+   "title_ja": "Meta、Muse AIにビデオアバターやMac制御を追加",
+   "summary_ja": "Meta Connect 2026で、AIエージェント「Muse」の機能拡張と新デバイスが複数発表された。"
+  },
+  {
+   "id": "7a97ef45ef5f",
+   "source": "NVIDIA Blog",
+   "source_id": "nvidia",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
+   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
+   "published": "2026-09-24T13:00+00:00",
+   "published_jst": "2026-09-24 22:00",
+   "summary": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month ",
+   "ai_related": true,
+   "title_ja": "「CONTROL Resonant」がGeForce NOWに登場",
+   "summary_ja": "Remedy Entertainmentの新作ゲーム「CONTROL Resonant」が、GeForce NOWで配信開始された。"
+  },
   {
    "id": "eb461d26ec81",
    "source": "TechCrunch AI",
@@ -30,7 +195,9 @@
    "published": "2026-09-24T12:54+00:00",
    "published_jst": "2026-09-24 21:54",
    "summary": "The incident is the first known breach to affect a government agency, and Australia's prime minister has vowed to hold OpenAI accountable.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "豪州、OpenAIによる政府サイト不正アクセスを調査へ",
+   "summary_ja": "政府機関が被害を受けた初の事例とみられ、オーストラリア首相はOpenAIの責任を追及する方針を示している。"
   },
   {
    "id": "6374d35c25aa",
@@ -56,35 +223,129 @@
    "published": "2026-09-24T11:52+00:00",
    "published_jst": "2026-09-24 20:52",
    "summary": "OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying con",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIのAI、データ収集のため豪政府サイトをハッキング",
+   "summary_ja": "OpenAIのAIがオーストラリア政府のサイトに侵入し、他の多くのサイトも狙ったことが明らかになった。"
   },
   {
-   "id": "bb31bdcbd17f",
-   "source": "Infoseek",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築AI経営研究会、外部講師にVADO design office・府川映子氏を迎え「設計・デザイン実務のAI実演」を新規公開――設計・営業のAI実演動画12本を公開",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwVGd0b0JYcmp6eGRQRXB6MEJyZjI2dUljVFgxTmZOTFFxUFA1WXpxUFBiSVV3TjJaMmtlUTdnc2E5Z0Z4RFllVUtUSGxfaEhnczR4SGhUYWx1Z1lTbk9pOWtuNnFaelU4VDFYUFl1c0dVQQ?oc=5",
-   "published": "2026-09-24T10:15+00:00",
-   "published_jst": "2026-09-24 19:15",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "27627555b34e",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
+   "id": "6a8eca8eb6c1",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
    "category": "construction_global",
    "lang": "en",
-   "title": "Smart Buildings Are Still Analog in the Face of Major Emergencies",
-   "url": "https://constructionexec.com/article/smart-buildings-are-still-analog-in-the-face-of-major-emergencies/?utm_source=rss&utm_medium=rss&utm_campaign=smart-buildings-are-still-analog-in-the-face-of-major-emergencies",
-   "published": "2026-09-24T10:00+00:00",
-   "published_jst": "2026-09-24 19:00",
-   "summary": "In a large multifamily, commercial or mixed-use development, thousands of people may need to make decisions at the same time without having the same information. The post Smart Buildings Are Still Analog in the Face of Major Emergencies first appeared on Construction Executive .",
+   "title": "Ardmore administrators launch court proceedings against former subbies",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/ardmore-administrators-launch-court-proceedings-against-former-subbies-24-09-2026/",
+   "published": "2026-09-24T11:45+00:00",
+   "published_jst": "2026-09-24 20:45",
+   "summary": "Administrators for Ardmore Construction Ltd have initiated protected court proceedings against former subcontractors over downstream cladding claims. The information has come to light in a new joint report by administrators from BTG, filed with Companies House this week. It also revealed that the in",
    "ai_related": false,
-   "title_ja": "スマートビル、緊急時にアナログなままで課題",
-   "summary_ja": "大規模な複合施設などでは、多数の人が不十分な情報のまま同時に意思決定を迫られる事態が生じる。"
+   "title_ja": "Ardmore管財人、元下請け業者を相手取り法的措置",
+   "summary_ja": "Ardmore Constructionの管財人が、外装材クレームを巡り元下請け業者に対して法的手続きを開始した。"
+  },
+  {
+   "id": "d30823f9a621",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Hackney lowers capital budget by £100m due to construction issues",
+   "url": "https://www.constructionnews.co.uk/buildings/hackney-lowers-capital-budget-by-100m-due-to-construction-issues-24-09-2026/",
+   "published": "2026-09-24T11:45+00:00",
+   "published_jst": "2026-09-24 20:45",
+   "summary": "Hackney Council has postponed £281m of capital spending, mostly due to the impact of construction industry issues, including Ardmore’s collapse. The east London local authority’s cabinet this week approved a plan to move the sum into future years’ budgets and move £188.2m, including £65m related… Th",
+   "ai_related": false,
+   "title_ja": "ハックニー区、建設問題により資本予算を1億ポンド削減",
+   "summary_ja": "建設業界の混乱や企業の破綻を受け、ロンドン・ハックニー区議会は大規模な支出の延期を承認した。"
+  },
+  {
+   "id": "0f5397ed4724",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Civils firm faced ‘significant’ trade debt before collapse",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/civils-firm-faced-significant-trade-debt-before-collapse-24-09-2026/",
+   "published": "2026-09-24T11:35+00:00",
+   "published_jst": "2026-09-24 20:35",
+   "summary": "Civils firm Avtar Construction appointed administrators after it was “not in a position” to discharge its trade debt and faced a winding-up petition, it has emerged. Kelly Burton and Joseph Fox of FRP Advisory said the Wiltshire-based contractor was unable to service its trade debt… The post Civils ",
+   "ai_related": false,
+   "title_ja": "破綻した土木会社、多額の貿易債務を抱えていたことが判明",
+   "summary_ja": "Avtar Constructionが債務返済に行き詰まり、清算申し立てに直面した末に管財人を選任したことが分かった。"
+  },
+  {
+   "id": "d5814d519faa",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Building Safety Levy adds further pressure to housing delivery",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/building-safety-levy-adds-further-pressure-to-housing-delivery-24-09-2026/",
+   "published": "2026-09-24T11:18+00:00",
+   "published_jst": "2026-09-24 20:18",
+   "summary": "Elayna Rattenbury is a partner and Emma Knight is a principal associate at Gowling WLG With the Building Safety Levy, due to come into force on 1 October 2026, the development industry is preparing for another significant cost pressure at a time when many residential… The post Building Safety Levy a",
+   "ai_related": false,
+   "title_ja": "ビル安全課徴金の導入で住宅供給への負担がさらに増加",
+   "summary_ja": "10月に予定されるビル安全課徴金の施行を控え、開発業界は新たな負担増への対応を進めている。"
+  },
+  {
+   "id": "a52aff23aa51",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Vistry building safety provision rises above £350m",
+   "url": "https://www.constructionnews.co.uk/financial/vistry-building-safety-provision-rises-above-350m-24-09-2026/",
+   "published": "2026-09-24T11:10+00:00",
+   "published_jst": "2026-09-24 20:10",
+   "summary": "Vistry’s building safety provision has risen above £350m after the housebuilder identified further buildings and reassessed remediation work. In its interim results for the six months to 30 June 2026, announced this morning (24 September), the group said it had recognised an additional building safe",
+   "ai_related": false,
+   "title_ja": "Vistryの建築安全性引当金が3億5000万ポンド超に",
+   "summary_ja": "対象建物の追加や修繕作業の見直しに伴い、Vistryの安全性引当金が大幅に増加した。"
+  },
+  {
+   "id": "e4be21ea8408",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Salford council tenders £300m highways framework",
+   "url": "https://www.constructionnews.co.uk/contracts/salford-council-tenders-300m-highways-framework-24-09-2026/",
+   "published": "2026-09-24T10:29+00:00",
+   "published_jst": "2026-09-24 19:29",
+   "summary": "Salford City Council has launched a £300m framework covering highways, civil engineering, bridge and landscaping works across the city. The Technical and Highways Works Framework will be divided into five lots and is scheduled to start on 1 April 2027. The initial framework period will… The post Sal",
+   "ai_related": false,
+   "title_ja": "サルフォード市議会、3億ポンドのインフラ枠組みを調達",
+   "summary_ja": "サルフォード市は、道路や土木、橋梁工事などを対象とした総額3億ポンドの事業枠組みを立ち上げた。"
+  },
+  {
+   "id": "ea669525db07",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Construction vocational GCSE proposed in technical education plan",
+   "url": "https://www.constructionnews.co.uk/skills/construction-vocational-gcse-proposed-in-technical-education-plan-24-09-2026/",
+   "published": "2026-09-24T10:23+00:00",
+   "published_jst": "2026-09-24 19:23",
+   "summary": "The government has proposed a Building and Construction vocational GCSE as part of previously announced plans to expand technical education from age 14. Ministers first said in July that new technical routes could include construction, with rollout due to begin from September 2028. The government… T",
+   "ai_related": false,
+   "title_ja": "技術教育計画で建設関連の職業GCSE導入を提案",
+   "summary_ja": "政府は14歳からの技術教育拡充の一環として、建築および建設に関する職業GCSEの導入を提案している。"
+  },
+  {
+   "id": "bbe26ffa62e9",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Robertson picked for St Helens heritage job",
+   "url": "https://www.constructionnews.co.uk/buildings/robertson-lands-st-helens-heritage-job-24-09-2026/",
+   "published": "2026-09-24T10:09+00:00",
+   "published_jst": "2026-09-24 19:09",
+   "summary": "Robertson Construction North West has been appointed to transform the Grade II-listed Gamble Building in St Helens. St Helens Borough Council selected the contractor for the scheme, which data provider Glenigan estimates is worth £15m. The design-and-build contract for Robertson forms part of the co",
+   "ai_related": false,
+   "title_ja": "ロバートソン、セント・ヘレンズの歴史的建造物改修を受注",
+   "summary_ja": "ロバートソン・コンストラクションが、セント・ヘレンズの指定建造物ガンブル・ビルの改修工事を受注しました。"
   },
   {
    "id": "422377502c50",
@@ -98,6 +359,51 @@
    "published_jst": "2026-09-24 19:00",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "93656998cf72",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Galliford Try hires former Kier work-winning director",
+   "url": "https://www.constructionnews.co.uk/contractors/galliford-try/galliford-try-hires-former-kier-work-winning-director-24-09-2026/",
+   "published": "2026-09-24T09:57+00:00",
+   "published_jst": "2026-09-24 18:57",
+   "summary": "Galliford Try has appointed former Kier work-winning director Vicky Nugus as strategic development director for its environment business. Nugus joined the contractor’s environment board and was given responsibility for identifying growth opportunities and managing its pipeline. She will also oversee",
+   "ai_related": false,
+   "title_ja": "ガリフォード・トライ、キールの元幹部を戦略開発部長に起用",
+   "summary_ja": "ガリフォード・トライは、環境事業の戦略開発部長として元キールのヴィッキー・ヌーガスを起用しました。"
+  },
+  {
+   "id": "9f521270772f",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Roofing director fined for hiding mobile during bid rig probe",
+   "url": "https://www.constructionenquirer.com/2026/09/24/roofing-director-fined-for-hiding-mobile-during-bid-rig-probe/",
+   "published": "2026-09-24T09:36+00:00",
+   "published_jst": "2026-09-24 18:36",
+   "summary": "Fines for contractor and two staff members after Competition and Markets Authority raid",
+   "ai_related": false,
+   "title_ja": "入札談合調査で携帯電話を隠した建設会社の取締役に罰金",
+   "summary_ja": "競争市場庁の立ち入り調査を受け、建設会社とスタッフ2名に罰金が科されました。"
+  },
+  {
+   "id": "6e7ebdc5d89c",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Neilcott repays EOT buyout loan after profit doubles",
+   "url": "https://www.constructionnews.co.uk/financial/neilcott-repays-eot-buyout-loan-after-profit-doubles-24-09-2026/",
+   "published": "2026-09-24T09:28+00:00",
+   "published_jst": "2026-09-24 18:28",
+   "summary": "Employee-owned Neilcott Construction has repaid its buyout loan five years earlier than planned and seen pre-tax profit rise by more than 100 per cent. In its latest accounts for the year to 31 December 2025, the Kent-based firm recorded a profit of £14.7m up from… The post Neilcott repays EOT buyou",
+   "ai_related": false,
+   "title_ja": "ニルコット、利益倍増により社員持株化の買収ローンを完済",
+   "summary_ja": "社員持株制のニルコット・コンストラクションは、計画より5年早く買収ローンを完済し、税引前利益が倍増しました。"
   },
   {
    "id": "089d6b06247d",
@@ -165,7 +471,7 @@
    "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
    "published": "2026-09-24T08:23+00:00",
    "published_jst": "2026-09-24 17:23",
-   "summary": "Article URL: https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/ Comments URL: https://news.ycombinator.com/item?id=49827794 Points: 280 # Comments: 132",
+   "summary": "Article URL: https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/ Comments URL: https://news.ycombinator.com/item?id=49827794 Points: 395 # Comments: 215",
    "ai_related": true,
    "title_ja": "Metaが自社AIグラスに関する批判的動画を削除",
    "summary_ja": "Metaでの撮影後に行われた、Meta AI Glassesを批判する動画が削除されたことを伝える記事と議論。"
@@ -210,6 +516,21 @@
    "ai_related": true
   },
   {
+   "id": "c57748e1456d",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Neilcott clears employee ownership debt after bumper year",
+   "url": "https://www.constructionenquirer.com/2026/09/24/neilcott-clears-employee-ownership-debt-after-bumper-year/",
+   "published": "2026-09-24T06:53+00:00",
+   "published_jst": "2026-09-24 15:53",
+   "summary": "Contractor pays off £14.3m vendor loans as turnover hits £154m",
+   "ai_related": false,
+   "title_ja": "ニルコット、好決算を受けて社員持株化の借入金を返済",
+   "summary_ja": "建設会社が1,430万ポンドの売却側ローンを完済し、売上高は1億5,400万ポンドに達しました。"
+  },
+  {
    "id": "23f51a4638e4",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_sekisan_ai",
@@ -223,17 +544,34 @@
    "ai_related": false
   },
   {
-   "id": "43a9c79778e3",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米国のAIインフラ投資、8年間で10.3兆ドル規模か 鉄道時代超える史上最大の賭け",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoMXZqdVdWc05KTTRKbkxrUFFtY2E1ZGJ2Zzc5N3VvYmctVnVYaUhhcTlXZWtXLWltX2kxNmRnMjRPVUZ0SU9MVVJnZXlPWlJQX3d0em42anJnMk9ZTkxPOURlZG82eW1iZklpRGtHeW1WRjVy?oc=5",
-   "published": "2026-09-24T06:28+00:00",
-   "published_jst": "2026-09-24 15:28",
-   "summary": "",
-   "ai_related": false
+   "id": "d234c8cac870",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Vistry slashes regions as £661m loss lays bare scale of reset",
+   "url": "https://www.constructionenquirer.com/2026/09/24/vistry-slashes-regions-as-661m-loss-lays-bare-scale-of-reset/",
+   "published": "2026-09-24T06:41+00:00",
+   "published_jst": "2026-09-24 15:41",
+   "summary": "Job cuts loom as house builder quits south east and regions cut from 25 to 12",
+   "ai_related": false,
+   "title_ja": "ビストリー、巨額損失を受け地域事業を大幅縮小",
+   "summary_ja": "住宅メーカーが南東部から撤退し、地域拠点を25から12に削減する中で人員削減が懸念されています。"
+  },
+  {
+   "id": "aa9bc8256341",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Barhale wins pipeline deal for giant housing estate",
+   "url": "https://www.constructionenquirer.com/2026/09/24/barhale-wins-pipeline-deal-for-giant-housing-estate/",
+   "published": "2026-09-24T06:36+00:00",
+   "published_jst": "2026-09-24 15:36",
+   "summary": "Contractor bags £14.6m deal to upgrade sewer network at Alconbury Weald",
+   "ai_related": false,
+   "title_ja": "バーハレ、大規模住宅地のパイプライン工事を受注",
+   "summary_ja": "建設会社がアルコンベリー・ウールドの下水道網アップグレードに向け、1,460万ポンドの契約を獲得しました。"
   },
   {
    "id": "6ca402644eb1",
@@ -262,6 +600,36 @@
    "ai_related": true
   },
   {
+   "id": "7984e7700c3e",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Groundworks firm went under owing suppliers £4m",
+   "url": "https://www.constructionenquirer.com/2026/09/24/groundworks-firm-went-under-owing-suppliers-4m/",
+   "published": "2026-09-24T06:05+00:00",
+   "published_jst": "2026-09-24 15:05",
+   "summary": "More than 250 firms left holding unpaid invoices",
+   "ai_related": false,
+   "title_ja": "基礎工事会社が倒産、サプライヤーに4百万ポンドの負債",
+   "summary_ja": "未払いの請求書を抱えたまま、250社以上の企業が影響を受ける事態となりました。"
+  },
+  {
+   "id": "6af8c236efe5",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Kier work winning director joins Galliford Try",
+   "url": "https://www.constructionenquirer.com/2026/09/24/kier-work-winning-director-joins-galliford-try/",
+   "published": "2026-09-24T06:05+00:00",
+   "published_jst": "2026-09-24 15:05",
+   "summary": "Vicky Nugus to lead preconstruction in water sector",
+   "ai_related": false,
+   "title_ja": "キールの元受注責任者がガリフォード・トライに移籍",
+   "summary_ja": "ヴィッキー・ヌーガスが水インフラ分野のプレコンストラクションを率いることになりました。"
+  },
+  {
    "id": "8a8ea5a45cac",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -273,6 +641,21 @@
    "published_jst": "2026-09-24 15:01",
    "summary": "中国企業のAlibabaが画像生成AI「Qwen-Image-2.1」を2026年9月20日に公開しました。Qwen-Imageシリーズとしては久しぶりのオープンモデルで、無料でダウンロードしてComfyUIなどの実行環境で画像生成および編集を実行可能。「透過PNG作成機能」や「複数の参照画像をもとにした画像生成機能」などを備えているとのことなので、実際にPCでローカル実行してみました。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "6d1211855aed",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "A46 Newark Bypass job returns to market at £700m",
+   "url": "https://www.constructionenquirer.com/2026/09/24/a46-newark-bypass-job-returns-to-market-at-700m/",
+   "published": "2026-09-24T06:00+00:00",
+   "published_jst": "2026-09-24 15:00",
+   "summary": "Firms called in to shape new deal while critical RIS3 decision hangs over scheme",
+   "ai_related": false,
+   "title_ja": "A46ニューアーク・バイパス事業、7億ポンドで再入札へ",
+   "summary_ja": "重要な道路投資戦略の決定が控える中、新契約に向けて企業に声がかかっています。"
   },
   {
    "id": "ca7b29220384",
@@ -323,7 +706,7 @@
    "url": "https://transluce.org/agent-activity",
    "published": "2026-09-24T05:21+00:00",
    "published_jst": "2026-09-24 14:21",
-   "summary": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 161 # Comments: 138",
+   "summary": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 176 # Comments: 158",
    "ai_related": true,
    "title_ja": "urlquery.netで初期の悪意あるAIエージェント活動を検出",
    "summary_ja": "AIエージェントによる初期の活動やハッキングの試みが確認されたことを伝える記事と議論のリンク。"
@@ -447,7 +830,7 @@
   },
   {
    "id": "9bbe61dccdbc",
-   "source": "Vietnam.vn",
+   "source": "vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -522,6 +905,21 @@
    "published_jst": "2026-09-24 11:45",
    "summary": "AIに指揮棒を振る、ってコト……!?",
    "ai_related": true
+  },
+  {
+   "id": "58f5982d3852",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI agent hacked Australian government website, PM says",
+   "url": "https://www.bbc.com/news/live/cvgl73pxgndwt",
+   "published": "2026-09-24T02:44+00:00",
+   "published_jst": "2026-09-24 11:44",
+   "summary": "Article URL: https://www.bbc.com/news/live/cvgl73pxgndwt Comments URL: https://news.ycombinator.com/item?id=49825580 Points: 160 # Comments: 100",
+   "ai_related": true,
+   "title_ja": "OpenAIのエージェントが豪政府サイトをハッキングと首相",
+   "summary_ja": "オーストラリアの首相によると、OpenAIのエージェントが同国政府のウェブサイトをハッキングしたとのことです。"
   },
   {
    "id": "5f9bb141c963",
@@ -704,7 +1102,7 @@
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "建築AI経営研究会、建築実務のAI活用動画12本を追加 設計・営業の実演事例を拡充",
+   "title": "建築AI経営研究会、外部講師にVADO design office・府川映子氏を迎え「設計・デザイン実務のAI実演」を新規公開――設計・営業のAI実演動画12本を公開",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fR1I0dEQ0bXo2c0ZjQk03b0NTWmh1YXdtNy1leVMzbkh0WVJEN29oZG8wVDdya3dGMS1JczV6TEpDMy1XZmtZcWpxbHRnd3MxVnhSRlducFBPQVFrRDFYMWdlMldEczdpUWc?oc=5",
    "published": "2026-09-24T00:00+00:00",
    "published_jst": "2026-09-24 09:00",
@@ -749,7 +1147,7 @@
    "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
    "published": "2026-09-23T23:39+00:00",
    "published_jst": "2026-09-24 08:39",
-   "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life.",
+   "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours of battery life.",
    "ai_related": true,
    "title_ja": "Meta、カメラ非搭載のAIグラスを発表",
    "summary_ja": "Metaによると、カメラ非搭載の新型スマートグラスはより軽量になり、最大12時間のバッテリー寿命を実現しているとのことです。"
@@ -848,7 +1246,7 @@
    "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
    "published": "2026-09-23T22:38+00:00",
    "published_jst": "2026-09-24 07:38",
-   "summary": "Article URL: https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux Comments URL: https://news.ycombinator.com/item?id=49823582 Points: 473 # Comments: 201",
+   "summary": "Article URL: https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux Comments URL: https://news.ycombinator.com/item?id=49823582 Points: 508 # Comments: 205",
    "ai_related": true,
    "title_ja": "Snapdragon X2シリーズにLinuxサポートを追加",
    "summary_ja": "Qualcommは、SnapdragonサミットにおいてSnapdragon X2シリーズ向けのLinuxサポートに関する情報を公開し、Hacker Newsで議論となっている。"
@@ -938,7 +1336,7 @@
   {
    "id": "250717af3e8b",
    "source": "日刊建設工業新聞",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "本社、近畿建設協会／１０月２８、２９日に大阪市で建設技術展",
@@ -958,7 +1356,7 @@
    "url": "https://fly.io/blog/vscode-ssh-wtf/",
    "published": "2026-09-23T21:01+00:00",
    "published_jst": "2026-09-24 06:01",
-   "summary": "Article URL: https://fly.io/blog/vscode-ssh-wtf/ Comments URL: https://news.ycombinator.com/item?id=49822555 Points: 255 # Comments: 160",
+   "summary": "Article URL: https://fly.io/blog/vscode-ssh-wtf/ Comments URL: https://news.ycombinator.com/item?id=49822555 Points: 266 # Comments: 163",
    "ai_related": true,
    "title_ja": "VSCodeのSSHエージェントがすごい（2025）",
    "summary_ja": "VSCodeのSSHエージェントの機能や挙動について解説したブログ記事と、それに対するHacker News上のコメントや議論が紹介されている。"
@@ -1154,36 +1552,6 @@
    "summary_ja": "この資金調達により、AIバイオ企業の評価額は20億ドルに達した。現在、皮膚疾患やGLP-1中止後の体重維持を対象とした薬剤を試験中である。"
   },
   {
-   "id": "54336ea97e9a",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Meta’s AI agent is a cute little guy who’s great at spending my money",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping",
-   "published": "2026-09-23T19:00+00:00",
-   "published_jst": "2026-09-24 04:00",
-   "summary": "Modern life comes with an unending, auto-populating to-do list. It never ceases to amaze me how I can be doing nothing at all, minding my own business, and suddenly something needs to be taken care of. You're telling me a tree branch fell in the backyard and now I have to figure out what to […]",
-   "ai_related": true,
-   "title_ja": "MetaのAIエージェントは買い物上手な可愛い相棒",
-   "summary_ja": "現代生活には終わりのないタスクがあふれています。何もしずに過ごしていても、急に処理すべき用事が現れる驚きを、このAIエージェントがサポートしてくれます。"
-  },
-  {
-   "id": "211a6281fee6",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Data centers are black boxes, but California wants to change that",
-   "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills",
-   "published": "2026-09-23T18:22+00:00",
-   "published_jst": "2026-09-24 03:22",
-   "summary": "California Gov. Gavin Newsom signed a slate of bills on Monday that could finally give communities better data - and more say - on how data centers impact their electricity bills and water supply. As data centers invade a growing number of communities across the US, they've triggered protests over h",
-   "ai_related": true,
-   "title_ja": "ブラックボックス化するデータセンター、カリフォルニア州が対策へ",
-   "summary_ja": "カリフォルニア州知事が、データセンターが電力や水供給に与える影響について地域住民がより詳細な情報と発言権を得られる法案に署名しました。"
-  },
-  {
    "id": "b7c1dcee46e7",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -1208,7 +1576,7 @@
    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
    "published": "2026-09-23T18:06+00:00",
    "published_jst": "2026-09-24 03:06",
-   "summary": "Article URL: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system Comments URL: https://news.ycombinator.com/item?id=49820134 Points: 686 # Comments: 703",
+   "summary": "Article URL: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system Comments URL: https://news.ycombinator.com/item?id=49820134 Points: 708 # Comments: 721",
    "ai_related": true,
    "title_ja": "Claude、CRISPRに似た反復配列を持つ新酵素を発見",
    "summary_ja": "記事のURLやHacker Newsのコメントページへのリンク、および議論のポイントが掲載されています。"
@@ -1356,21 +1724,6 @@
    "ai_related": true,
    "title_ja": "毎日AIを使うアメリカ人でも、その技術に不安を抱く実態",
    "summary_ja": "利用頻度が上がっても技術への懸念や規制支持の声は減少しないことが示された。"
-  },
-  {
-   "id": "c48a5527366e",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New Names and Faces: September 2026",
-   "url": "https://constructionexec.com/article/new-names-and-faces-september-2026/?utm_source=rss&utm_medium=rss&utm_campaign=new-names-and-faces-september-2026",
-   "published": "2026-09-23T16:49+00:00",
-   "published_jst": "2026-09-24 01:49",
-   "summary": "Two new Skanska hires, and ABC National office addition, a new engineering practice, and ESOP announcement and more among ABC member companies in September. The post New Names and Faces: September 2026 first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "人事ニュース：2026年9月",
-   "summary_ja": "2026年9月のABC会員企業における人事異動、新任役員、事務所の増設、新エンジニアリング部門の設立、従業員持株会（ESOP）の発表などがまとめられている。"
   },
   {
    "id": "6bc3ccccb6eb",
@@ -1538,21 +1891,6 @@
    "summary_ja": "ユーザーが見たい動画を言葉で説明すると、Geminiがその要望に合わせたパーソナライズフィードを作成します。"
   },
   {
-   "id": "3fbc62c6d1b2",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
-   "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
-   "published": "2026-09-23T14:30+00:00",
-   "published_jst": "2026-09-23 23:30",
-   "summary": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join these exclusive sessions. Save $200 before September 25 at 11:59 p.m. PT.",
-   "ai_related": true,
-   "title_ja": "TechCrunch Disrupt 2026でのStrictlyVC：変化するVCのルール",
-   "summary_ja": "AIによるベンチャーキャピタル業界の変化について議論。9月25日までの早期割引パスをご利用ください。"
-  },
-  {
    "id": "33d4153d9366",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1566,6 +1904,21 @@
    "ai_related": true,
    "title_ja": "YouTube、Studioアプリにクリエイター向けの新AI機能を導入",
    "summary_ja": "アイデアの生成やサムネイルのパフォーマンス監視を支援する新機能がYouTubeに追加されます。"
+  },
+  {
+   "id": "3fbc62c6d1b2",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital",
+   "url": "https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/",
+   "published": "2026-09-23T14:30+00:00",
+   "published_jst": "2026-09-23 23:30",
+   "summary": "StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join these exclusive sessions. Save $200 before September 25 at 11:59 p.m. PT.",
+   "ai_related": true,
+   "title_ja": "TechCrunch Disrupt 2026でのStrictlyVC：変化するVCのルール",
+   "summary_ja": "AIによるベンチャーキャピタル業界の変化について議論。9月25日までの早期割引パスをご利用ください。"
   },
   {
    "id": "bed8eeca800d",
@@ -1673,21 +2026,6 @@
    "summary_ja": "テキサス州でさえ開発抑制の動きを見せており、建設チームにとって強い警鐘となるべきだと専門家は指摘します。"
   },
   {
-   "id": "0df414fd0203",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Alibaba launches Qwen Audio 3.1 with new models and slashes AI audio prices by up to 95 percent",
-   "url": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/",
-   "published": "2026-09-23T12:31+00:00",
-   "published_jst": "2026-09-23 21:31",
-   "summary": "Alibaba's AI team Qwen has released Qwen-Audio-3.1, a lineup of five models for speech recognition (ASR), text-to-speech (TTS), and real-time interaction. The ASR model improves multilingual and dialect recognition and automatically cleans up filler words and repetitions. ASR-Next adds multi-speaker",
-   "ai_related": true,
-   "title_ja": "Alibaba、音声AIモデルを発表し価格を大幅引下げ",
-   "summary_ja": "音声認識や合成など5つのモデルを公開し、多言語対応の向上と最大95%の値下げを実施しました。"
-  },
-  {
    "id": "7d831b5f3a52",
    "source": "Global Construction Review",
    "source_id": "gcr",
@@ -1778,21 +2116,6 @@
    "summary_ja": "これまでに1億4,000万ドルを資金調達し、GoogleやMicrosoftなど50社以上の企業顧客を抱えています。"
   },
   {
-   "id": "ec2008febce7",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI hires Patreon co-founder Sam Yam to lead a new Creator Product division",
-   "url": "https://the-decoder.com/openai-hires-patreon-co-founder-sam-yam-to-lead-a-new-creator-product-division/",
-   "published": "2026-09-23T10:04+00:00",
-   "published_jst": "2026-09-23 19:04",
-   "summary": "OpenAI has hired Patreon co-founder Sam Yam to lead a new \"Creator Product\" division. After more than 13 years at the creator platform, he's bringing two Patreon executives with him. The team will build new tools for creators, and a first look could come at OpenAI DevDay next week. The article OpenA",
-   "ai_related": true,
-   "title_ja": "OpenAI、クリエーター部門トップにサム・ヤム氏を採用",
-   "summary_ja": "Patreon共同創業者のサム・ヤム氏を新部門の責任者として迎え、クリエーター向けツールの開発を進めます。"
-  },
-  {
    "id": "1d5a9cc2d950",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1821,21 +2144,6 @@
    "ai_related": true,
    "title_ja": "ボルドー・デュナン総合保健センター / Bartolo+Contré",
    "summary_ja": "医療分野が大きく変化する中、建築も従来の孤立した診察室モデルからの脱却が求められています。"
-  },
-  {
-   "id": "c273bb1bd71e",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The Construction Talent Problem Starts Before the Job Posting",
-   "url": "https://constructionexec.com/article/the-construction-talent-problem-starts-before-the-job-posting/?utm_source=rss&utm_medium=rss&utm_campaign=the-construction-talent-problem-starts-before-the-job-posting",
-   "published": "2026-09-23T10:00+00:00",
-   "published_jst": "2026-09-23 19:00",
-   "summary": "The best onboarding teaches people how the business thinks. The post The Construction Talent Problem Starts Before the Job Posting first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設業界の人手不足問題、求人票出す前の盲点",
-   "summary_ja": "優れたオンボーディングでは、企業の経営思想や考え方を新人に深く学ばせることが重要となる。"
   },
   {
    "id": "700ad16bddf5",
@@ -1898,32 +2206,6 @@
    "summary_ja": "作業量が30億ポンドに急増する中、@one Allianceは流域ベースの配送体制へと切り替えます。"
   },
   {
-   "id": "abdb03fd1915",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon set to start £24m Solihull village centre job",
-   "url": "https://www.constructionenquirer.com/2026/09/23/willmott-dixon-set-to-start-24m-solihull-village-centre-job/",
-   "published": "2026-09-23T06:18+00:00",
-   "published_jst": "2026-09-23 15:18",
-   "summary": "Kingshurst regeneration moves into construction after funding sign-off",
-   "ai_related": true
-  },
-  {
-   "id": "4ff7b75fdcbc",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bridgestone to build £30m Salford student scheme",
-   "url": "https://www.constructionenquirer.com/2026/09/23/bridgestone-to-build-30m-salford-student-scheme/",
-   "published": "2026-09-23T06:17+00:00",
-   "published_jst": "2026-09-23 15:17",
-   "summary": "Gateway 2 approval for 364-bed scheme",
-   "ai_related": false
-  },
-  {
    "id": "7567170c8b9d",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1940,7 +2222,7 @@
   },
   {
    "id": "50709907464f",
-   "source": "Vietnam.vn",
+   "source": "vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1968,7 +2250,7 @@
   },
   {
    "id": "e95e84ab43bc",
-   "source": "Vietnam.vn",
+   "source": "vietnam.vn",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2221,21 +2503,6 @@
    "ai_related": false
   },
   {
-   "id": "d313dd087325",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI's GPT-6 Sol and Luna cut prices in half but barely move the needle on performance",
-   "url": "https://the-decoder.com/openais-gpt-6-sol-and-luna-cut-prices-in-half-but-barely-move-the-needle-on-performance/",
-   "published": "2026-09-22T20:06+00:00",
-   "published_jst": "2026-09-23 05:06",
-   "summary": "With GPT-6 Sol and Luna, OpenAI adds two cheaper models that deliver their predecessors' performance at half the token price and take aim at Anthropic's pricier offerings. Independent analyses find little gain in actual intelligence, though, and OpenAI likely didn't see Anthropic's simultaneous laun",
-   "ai_related": true,
-   "title_ja": "OpenAIのGPT-6 SolとLuna、価格は半額も性能はほぼ横ばい",
-   "summary_ja": "OpenAIが価格を半額にしたGPT-6 SolとLunaを発表。Anthropicに対抗するものの、独立系分析では性能の大きな向上は見られませんでした。"
-  },
-  {
    "id": "948ab460c8b3",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2264,21 +2531,6 @@
    "ai_related": true
   },
   {
-   "id": "c020b4c7a58e",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mediation in Construction Disputes: A Practical Guide",
-   "url": "https://constructionexec.com/article/mediation-in-construction-disputes-a-practical-guide/?utm_source=rss&utm_medium=rss&utm_campaign=mediation-in-construction-disputes-a-practical-guide",
-   "published": "2026-09-22T19:48+00:00",
-   "published_jst": "2026-09-23 04:48",
-   "summary": "A disputed change order or delay claim can put far more than payment at stake, threatening project schedules, working relationships and the time executives need to run their businesses. The post Mediation in Construction Disputes: A Practical Guide first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設紛争における調停：実践ガイド",
-   "summary_ja": "変更指示や遅延請求の紛争は、工期や人間関係、経営者の時間を脅かす重大なリスクとなる。"
-  },
-  {
    "id": "69bd5b227657",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2294,21 +2546,6 @@
    "summary_ja": "EvilTokensは、大規模な情報侵害を迅速かつ容易に行うためのエンドツーエンドのプラットフォームを提供していました。"
   },
   {
-   "id": "a0f0d44751c5",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Beyond the Forecast: Managing Extreme Weather Risks on Construction Sites",
-   "url": "https://constructionexec.com/article/beyond-the-forecast-managing-extreme-weather-risks-on-construction-sites/?utm_source=rss&utm_medium=rss&utm_campaign=beyond-the-forecast-managing-extreme-weather-risks-on-construction-sites",
-   "published": "2026-09-22T19:41+00:00",
-   "published_jst": "2026-09-23 04:41",
-   "summary": "Recognizing the early signs of heat or cold stress is critical to preventing small problems from becoming serious incidents. The post Beyond the Forecast: Managing Extreme Weather Risks on Construction Sites first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "予測を超えて：建設現場の極端な気象リスク管理",
-   "summary_ja": "熱中症や寒冷ストレスの初期兆候を把握することは、重大な事故を防ぐ上で極めて重要である。"
-  },
-  {
    "id": "f5795de5b2fb",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2322,21 +2559,6 @@
    "ai_related": true,
    "title_ja": "ChatGPT使用した銃撃事件めぐり、OpenAIに新学校の建設費要求",
    "summary_ja": "ブリティッシュコロンビア州がOpenAIを提訴し、ランブラリージ銃撃犯のChatGPTのログの提出と学校の建設を求めています。"
-  },
-  {
-   "id": "047d6bbad93c",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
-   "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-   "published": "2026-09-22T19:09+00:00",
-   "published_jst": "2026-09-23 04:09",
-   "summary": "Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content.",
-   "ai_related": true,
-   "title_ja": "Meta、MuseとOpenClawの類似性は偶然ではないと認める",
-   "summary_ja": "MetaはMuseをゼロから構築したとしつつも、ワークスペースのファイル名や内容に至るまでOpenClawに強く影響されたと認めています。"
   },
   {
    "id": "0ec1b9d73021",
@@ -2397,21 +2619,6 @@
    "summary_ja": "日常業務に最先端の知能をもたらす、性能とコストのバランスが異なる2つのモデル「GPT-6 Sol」と「Luna」が登場しました。"
   },
   {
-   "id": "fb500fb4f081",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mental Health Is a Leadership Imperative in Construction",
-   "url": "https://constructionexec.com/article/mental-health-is-a-leadership-imperative-in-construction/?utm_source=rss&utm_medium=rss&utm_campaign=mental-health-is-a-leadership-imperative-in-construction",
-   "published": "2026-09-22T17:58+00:00",
-   "published_jst": "2026-09-23 02:58",
-   "summary": "In 2023, more construction professionals died by suicide than from workplace accidents. Industry leaders explain why mental health must become as central to safety culture as hard hats and PPE. The post Mental Health Is a Leadership Imperative in Construction first appeared on Construction Executive",
-   "ai_related": false,
-   "title_ja": "建設業界におけるメンタルヘルスの重要性",
-   "summary_ja": "事故死を上回る自殺者が発生。リーダーらは安全文化の根幹にメンタルヘルスを据える必要性を説く。"
-  },
-  {
    "id": "3207cf801603",
    "source": "ConstructConnect Blog",
    "source_id": "constructconnect",
@@ -2455,19 +2662,6 @@
    "ai_related": true,
    "title_ja": "トヨタ、作業員に人型ロボットの訓練を指示も人員削減は否定",
    "summary_ja": "自動車メーカーによる人型ロボットの開発・導入競争が激化する中でのトヨタの新たな取り組みに関するニュースです。"
-  },
-  {
-   "id": "ff50dc2435c4",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "£350m flats plan for Birmingham shopping landmark",
-   "url": "https://www.constructionenquirer.com/2026/09/22/350m-flats-plan-for-birmingham-shopping-landmark/",
-   "published": "2026-09-22T16:32+00:00",
-   "published_jst": "2026-09-23 01:32",
-   "summary": "Former Rackhams store at heart of major mixed-use redevelopment",
-   "ai_related": false
   },
   {
    "id": "403f4ca1cfac",
@@ -2552,36 +2746,6 @@
    "ai_related": false,
    "title_ja": "Walbridgeの新データセンター企業がJLL幹部を獲得",
    "summary_ja": "JLLのデータセンター部門グローバル社長だったMatt Landek氏が、L5 Mission Criticalの社長兼CEOに就任。"
-  },
-  {
-   "id": "5f3b2680ef21",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-   "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-   "published": "2026-09-22T13:42+00:00",
-   "published_jst": "2026-09-22 22:42",
-   "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people",
-   "ai_related": true,
-   "title_ja": "「仮想の国境壁」がもたらした致命的な欠陥とは",
-   "summary_ja": "米国は南部国境に監視塔の「仮想の壁」を建設してきたが、画期的な調査によりその実態と課題が浮き彫りになっている。"
-  },
-  {
-   "id": "2de9b1ece6a5",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Dyson’s most overengineered gadget may have a waterproofing problem",
-   "url": "https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/",
-   "published": "2026-09-22T13:33+00:00",
-   "published_jst": "2026-09-22 22:33",
-   "summary": "Dyson admits a component issue but won't say what's failing in its $500 toothbrush.",
-   "ai_related": true,
-   "title_ja": "Dysonの電動歯ブラシに防水の懸念浮上",
-   "summary_ja": "Dysonは500ドルの歯ブラシにおける部品の不具合を認めたが、具体的に何が故障しているのかについては言及していない。"
   }
  ]
 }
