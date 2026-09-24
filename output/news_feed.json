@@ -1,20 +1,37 @@
 {
- "generated_at": "2026-09-24T21:29+00:00",
- "generated_at_jst": "2026-09-25 06:29",
+ "generated_at": "2026-09-24T21:50+00:00",
+ "generated_at_jst": "2026-09-25 06:50",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 47,
-  "ai_global": 74,
-  "construction_global": 37,
-  "ai_japan": 34
+  "ai_japan": 35,
+  "construction_japan": 45,
+  "ai_global": 71,
+  "construction_global": 37
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "9f2565a99871",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIと人の共創で進化する「G-SHOCK」 デザイナーが語る製品化の舞台裏",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news009.html",
+   "published": "2026-09-24T21:00+00:00",
+   "published_jst": "2026-09-25 06:00",
+   "summary": "カシオ計算機は、G-SHOCKの「MTG-B4000」「GMW-BZ5000」のデザイン開発にAIを活用した。従来の発想を超えるスタイリングを、どのように製品へと落とし込んだのか。導入の背景や具体的な活用方法、設計部門との連携、デザイナーに求められる役割について、同社のGデザイン室長である赤城貴康氏に聞いた。",
+   "ai_related": true
+  },
   {
    "id": "13c0871d301b",
    "source": "日刊建設工業新聞",
@@ -70,6 +87,19 @@
    "summary_ja": "デフォルトブランチ以外のサポートを追加。uvx commit-rewriter --branch otherで別ブランチを対象に実行可能。"
   },
   {
+   "id": "ee9698a7fdb9",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+   "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+   "published": "2026-09-24T19:59+00:00",
+   "published_jst": "2026-09-25 04:59",
+   "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. A",
+   "ai_related": true
+  },
+  {
    "id": "61e3ef19f7d5",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -122,19 +152,6 @@
    "ai_related": false,
    "title_ja": "イーライ・リリー、ヒューストンに工場を着工",
    "summary_ja": "バージョンのゼネコンであるベクテル社の事業部門がプロジェクトを支援している。"
-  },
-  {
-   "id": "f5b327e8db9f",
-   "source": "STRAIGHT PRESS",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【開催報告】AIがあれば、既存システムはいらない？-バーティカルSaaS企業ダイテックと現役工務店LIFEFUNDが本音で対談。",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53S1pDbmpPMzV6MVA5QTZxQXdyb3lreVVzeGM5VFVwQW1hS210cERELWVVNDhwd2NKSlhwWUo4TXBpVkl2NlNaNEJFSVZTRG91UG9nZXZXQWthNWg4T2R3UmlidEh5SVlId2dEQlZrclhKMFlpbEE?oc=5",
-   "published": "2026-09-24T19:23+00:00",
-   "published_jst": "2026-09-25 04:23",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "f38a6b52fc4b",
@@ -474,21 +491,6 @@
    "ai_related": true
   },
   {
-   "id": "e7107d9a76d9",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "published": "2026-09-24T16:20+00:00",
-   "published_jst": "2026-09-25 01:20",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "Gemini 3.8 Live with Live Avatarを発表",
-   "summary_ja": ""
-  },
-  {
    "id": "cd729cf3bb43",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -772,21 +774,6 @@
    "summary_ja": "Flock社はAI監視ネットワークに関する公聴会で批判の的となり、CEOは水曜日の聴聞会への出席を辞退した。"
   },
   {
-   "id": "6fb7e6887717",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "I have some questions for Mark Zuckerberg",
-   "url": "https://www.theverge.com/podcast/999383/mark-zuckerberg-meta-glasses-ai-teen-safety-surveillance-data-centers",
-   "published": "2026-09-24T14:15+00:00",
-   "published_jst": "2026-09-24 23:15",
-   "summary": "It’s a big week for Meta. The company just kicked off its big Connect conference on Wednesday, and the new Muse AI agent appears to be an early hit. I’ve been using it — it is surprisingly good. CEO Mark Zuckerberg has obviously been out there taking a victory lap and participating in a lot […]",
-   "ai_related": true,
-   "title_ja": "マーク・ザッカーバーグにいくつか質問がある",
-   "summary_ja": "Metaにとって重要な週となり、大規模イベントConnectが開催され、新AIエージェントMuseが早くも好評を得ている。"
-  },
-  {
    "id": "3eafea9b7d9f",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -1066,19 +1053,6 @@
    "ai_related": false,
    "title_ja": "技術教育計画で建設関連の職業GCSE導入を提案",
    "summary_ja": "政府は14歳からの技術教育拡充の一環として、建築および建設に関する職業GCSEの導入を提案している。"
-  },
-  {
-   "id": "31869747565f",
-   "source": "財経新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築AI経営研究会、外部講師にVADO design office・府川映子..（株式会社LIFEFUND プレスリリース）",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Fb0Q2akJfZ1VuZ3B6RDF2TDFtclI1R296QXp3Nm9lU21nU01BeS1rQ1hNdTZ2UjVqT0xWM0dzZi1ZcGpBY05kakJFZXFoMll3VUE5Mg?oc=5",
-   "published": "2026-09-24T10:15+00:00",
-   "published_jst": "2026-09-24 19:15",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "bbe26ffa62e9",
@@ -1424,7 +1398,7 @@
    "url": "https://transluce.org/agent-activity",
    "published": "2026-09-24T05:21+00:00",
    "published_jst": "2026-09-24 14:21",
-   "summary": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 219 # Comments: 198",
+   "summary": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 223 # Comments: 199",
    "ai_related": true,
    "title_ja": "urlquery.netで不正AIエージェントの活動を確認",
    "summary_ja": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 219 # Comments: 198"
@@ -1505,19 +1479,6 @@
    "published": "2026-09-24T03:20+00:00",
    "published_jst": "2026-09-24 12:20",
    "summary": "中国の大手テクノロジー企業であるXiaomiがAIモデル「MiMo-V2.6-Pro」および「MiMo-V2.6-Flash」を日本時間の2026年9月22日にリリースしました。両モデルはオープンモデルとして無償公開されており、MiMo-V2.6-Proはオープンモデルの中で最高性能と評価されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "e66f4e490ece",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "深刻化する建設業の人手不足、生産性向上へ 建設業特化型AIエージェント「SAP マインド」を10月1日より提供開始",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zZFpnWVhuRXYyR0x1OFpFV181YThKUUpyUmU2Z1VWYnRKQk81N1VsbDhIWTh4T2hsMG5ROXpQVnNjSTZjdi1Ha3pubVFXM2I3LUZ2WGRRd0tOZmk1bWlpbF9TMm1nVTNuSnhYck02c1NaQQ?oc=5",
-   "published": "2026-09-24T03:15+00:00",
-   "published_jst": "2026-09-24 12:15",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -1728,6 +1689,19 @@
    "published": "2026-09-24T01:00+00:00",
    "published_jst": "2026-09-24 10:00",
    "summary": "国土交通省は、2029年春の導入を目指す「BIMデータ審査」について、基本構想を取りまとめました。BIMデータ審査は、2026年4月に始まっ...",
+   "ai_related": true
+  },
+  {
+   "id": "cadbb7fa7583",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "深刻化する建設業の人手不足、生産性向上へ 建設業特化型AIエージェント「SAP マインド」を10月1日より提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3LTNwNjJaUFZJWWFFZjlsbkFuMHJJZWQ5TFR4d1dtWDQ1eTFrTTQ2cmNWSjhXY01RNElNQ01rdEdkU2p1SGdUcEVOYi1Cbk9lRHkxVTJNbEdiY0hFSUFQbTFCa3YxUTNkNGc?oc=5",
+   "published": "2026-09-24T01:00+00:00",
+   "published_jst": "2026-09-24 10:00",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -1963,7 +1937,7 @@
   },
   {
    "id": "014bd7eff35b",
-   "source": "kensetsunews.com",
+   "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1976,7 +1950,7 @@
   },
   {
    "id": "26a8f236371c",
-   "source": "kensetsunews.com",
+   "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2238,36 +2212,6 @@
    "ai_related": true,
    "title_ja": "OpenAI Academyが設立2周年を迎える",
    "summary_ja": "AIスキルをより多くのコミュニティへ届ける取り組みの2周年を記念。"
-  },
-  {
-   "id": "4c4abcff4acd",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "published": "2026-09-23T16:00+00:00",
-   "published_jst": "2026-09-24 01:00",
-   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "ai_related": true,
-   "title_ja": "セキュアなサーバー側メモリでプライベートAI計算を推進",
-   "summary_ja": "パーソナルAI向けのプライベートAI計算に、セキュアなサーバー側メモリを導入。"
-  },
-  {
-   "id": "be2314c62992",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "published": "2026-09-23T15:25+00:00",
-   "published_jst": "2026-09-24 00:25",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "「Gemini 3.8」の音声合成機能が登場",
-   "summary_ja": "テキストから音声への変換機能を持つ新しい「Gemini 3.8」を発表。"
   },
   {
    "id": "a1700d1f6b37",
