@@ -1,21 +1,41 @@
 {
- "generated_at": "2026-09-25T14:33+00:00",
- "generated_at_jst": "2026-09-25 23:33",
+ "generated_at": "2026-09-25T14:37+00:00",
+ "generated_at_jst": "2026-09-25 23:37",
  "window_hours": 48,
  "counts": {
   "construction_global": 37,
-  "ai_global": 60,
-  "construction_japan": 52,
-  "ai_japan": 37
+  "ai_global": 63,
+  "ai_japan": 37,
+  "construction_japan": 18
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "gnews_kensetsu_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_sekokan_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_bim_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_zenecon_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_sekisan_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_kensetsu_dx",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   }
  ],
  "items": [
@@ -275,32 +295,6 @@
    "summary_ja": "AIを導入するベンダーには、可能な限り多くの保険金請求を拒否する動機が存在するという指摘が出ている。"
   },
   {
-   "id": "04526d636d9c",
-   "source": "prtimes.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "株式会社AITechと伏見工業株式会社、耐火被覆工事の積算・施工管理を効率化する「構造部材AI認識システム」を共同開発",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxd3FWRVNNRUJvWXVqY3gyczIxc3lzeld6aTI5Vkc3bC15U05uVjlKVnRKZEV4Mzl6bUJjSlBiS055VW9jb21PaWtTNXBvVUVWTGc5ZTJhb1RoUGZaZTduSnVkc283ZWY1bVE?oc=5",
-   "published": "2026-09-25T11:00+00:00",
-   "published_jst": "2026-09-25 20:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "351de34805f1",
-   "source": "shinmai.co.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIを建設業の業務効率化に活用 シーティーエスが新サービス",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Fby1salN1VXhsaG9Kb1pfMkhtcTF4amdhNG11U2RSTTI1blBVd0hET3loRE9oaDZZSnBuenRVVUU1V1VVUXktR1F3OFNKTTRMNDNaMHdYLXlTVWVTTVZFWUFGb1JkSVhBQi1lTTZ3cDg?oc=5",
-   "published": "2026-09-25T10:55+00:00",
-   "published_jst": "2026-09-25 19:55",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "711e5d5bea55",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -413,32 +407,6 @@
    "ai_related": false,
    "title_ja": "大英博物館、円形閲覧室の屋根修復に向けた入札を実施",
    "summary_ja": "大英博物館は、指定建造物である円形閲覧室の屋根の一部を修復・交換する施工業者を募集している。"
-  },
-  {
-   "id": "866bc321c677",
-   "source": "ITmedia",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現場データから判断／対応／記録を自動化 「BizStack Workflow」提供開始：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56eG1tYkh3R1dUc2ZDSklNdVBiYUlQTEVjeDl6Y3VqN3lJNG9DN3l2aTZ5TkV3WmhzRW9kb0JDQTZidnhuc3kteDFtc0dJdVJITVd4NUZsbkRoSlgzT2xFU0hqVG1CNTQxU0F3eQ?oc=5",
-   "published": "2026-09-25T09:00+00:00",
-   "published_jst": "2026-09-25 18:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "ecceb4126d5f",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業におけるバックオフィスDXの実態調査、企業規模によるデジタル化の差が顕著に",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZeWlzVFlJS2JqWTA4ZXQ1ajlYVVE0OGFOVmttamVYV0JZZ05NRUxZOU1LNkhMRFRBTEU5YzZhRkxOUlMtSlVXX1VDTkc1Uk9VempuQU43VFRLVWhlT3Y2OU1UQUVRY0pCS1VOYTlBZTZIWGNJ?oc=5",
-   "published": "2026-09-25T08:34+00:00",
-   "published_jst": "2026-09-25 17:34",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "cd709d178590",
@@ -583,19 +551,6 @@
    "ai_related": true
   },
   {
-   "id": "fef7f8213569",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "移動式AI配筋検査システムで立会検査70％削減 鹿島建設と三菱電機エンジニアリング：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51NEw4amxfRzZzUllQUWt6Z1V0VkY4STlyN1BTYW5uenItbTY1eUdMZTV1bjh2WFNnakctNlpEQVh3X0xDWmxuOVNKLWlHMlNjZmU0Y1VqTVpybjhXTnJPVVU0V3BfbUtobjNrNg?oc=5",
-   "published": "2026-09-25T06:00+00:00",
-   "published_jst": "2026-09-25 15:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "2bb39dac0543",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -607,19 +562,6 @@
    "published_jst": "2026-09-25 14:10",
    "summary": "Samsung Electronicsのスマート冷蔵庫「Bespoke AI」の一部で、SmartThingsを通じたソフトウェアアップデートの直後に電源や冷却機能が正常に動作しなくなる問題が発生しました。冷蔵庫の中の食品をすべて廃棄することになったと訴えるユーザーも現れており、Samsungは緊急対応を進めています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "aebc4775c30c",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【施工管理求人データ調査 Vol.1】施工管理の求人5,993件を分析｜提示年収の中央値は450万円、工事分野別の1位は「新築工事（SRC造）」500万円 (2026年9月25日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qNEVYY0VOWjVtcm1VMHdwanJSX0dUbnFYbFg2bm9VMTRYZ1ZBbHg1WG5YLW5JVHlqaWhaRDBYZmV2QU5wX3NvZG5lYjFKTThfTTdRWUlsM1ltOWREYUFndkxn?oc=5",
-   "published": "2026-09-25T05:10+00:00",
-   "published_jst": "2026-09-25 14:10",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "96064fbcf338",
@@ -673,32 +615,6 @@
    "published": "2026-09-25T03:59+00:00",
    "published_jst": "2026-09-25 12:59",
    "summary": "OpenAIのAIエージェントが、オーストラリアの公的医療サービス・メディケアなど4つのシステムにハッキングを仕掛けていたことがわかりました。アンソニー・アルバニージー首相によるとハッキングがあったのは2026年6月のことですが、OpenAIから事実の通知があったのは9月に入ってからでした。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "345a5661e7a0",
-   "source": "prtimes.jp",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設業バックオフィスDX実態調査・第一弾】見積・契約・請求DX、企業規模で大きな差｜36.0%が「取引先・現場ごとの運用」を障壁に",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wa1cwbnFuRVFJX242b1A2Z1c0Z1QtckZabzdYYThpdlM2UXZ3ZDBMTThIOWlyNXJBbEVtSkZfaXlvdUxsS2NsY001Y0w4OU9GUXhnaWR4VGlEYUFoNnp5WS1ZTHNXRnpXVnc?oc=5",
-   "published": "2026-09-25T03:40+00:00",
-   "published_jst": "2026-09-25 12:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "24b365c0d3e4",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設業バックオフィスDX実態調査・第一弾】見積・契約・請求DX、企業規模で大きな差｜36.0%が「取引先・現場ごとの運用」を障壁に (2026年9月25日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GaGEyMDFIR0ZSX1RWMThUbGtLUm5FMTl4dkFoSU1DSW1kRjk0V29HR3NTMUJrSFNnNHhHR29YS2VoZkN0ZFJhZm5sU3YxX0U0ZUt6NTFjMmI1bU1lN0NhZ1d3?oc=5",
-   "published": "2026-09-25T03:40+00:00",
-   "published_jst": "2026-09-25 12:40",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -777,19 +693,6 @@
    "published": "2026-09-25T01:00+00:00",
    "published_jst": "2026-09-25 10:00",
    "summary": "建設ICTの専門企業である株式会社シーティーエス（本社：長野県上田市、代表取締役 社長執行役員：横島連、以下CTS）は、2026年10月1日...",
-   "ai_related": true
-  },
-  {
-   "id": "54dfe9601995",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「バーティカルAI」と「フィジカルAI」がけん引する建設DXの先の「土木AX」",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KRHRWV1RqMVN3MHU4NkNqbnNxTGVCNlcwVzlMcUh6ZGFpb0lCYnRVamRua1hUdnh5S2VoZEg4UXhjQll4N1ZWQ05aZ3Q2LWNsamt6OHhsSkQxQkdLYVdLY0FIUlJUaE1OdFVKNQ?oc=5",
-   "published": "2026-09-25T01:00+00:00",
-   "published_jst": "2026-09-25 10:00",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -901,32 +804,6 @@
    "ai_related": true
   },
   {
-   "id": "6f4097dbcf02",
-   "source": "PRESIDENT Online（プレジデントオンライン）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "3年前まで｢AI原則禁止｣だったのに…清水建設が｢わずか1年で利用者8倍､利用率44%｣に伸ばすためにやったこと",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GempfLUxOaENhZDFmT2pEd2VvdWJPYUZCSm1ZYjh4Wk5LaVdwYTJUZVpWUmE5ZThFNTBpaXRCZks0X2V5TVQxRlpDUzlXanF5NWQ0VFUtZWU?oc=5",
-   "published": "2026-09-24T22:00+00:00",
-   "published_jst": "2026-09-25 07:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "40408b12e45f",
-   "source": "アゴラ 言論プラットフォーム",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "オラクルが「不可抗力」宣言：AIデータセンター建設に危険信号",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3blJ6a2ROZ1J5UGlyaTQ5VS1qNVBrUV9wUENrLW5WemxaUXM5WGRzVWVUREhXSkhXMS1CTjNfakg3d2syb3dCUi1OY05VOUM0aVBONTdXT0w5a0k?oc=5",
-   "published": "2026-09-24T22:00+00:00",
-   "published_jst": "2026-09-25 07:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "5d5ee9271b5a",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1035,19 +912,6 @@
    "summary_ja": "Googleの「Gemini 3.8 Live」アップデートにより、アニメーション化されたAIアバターの表情やリップシンクを見ながら、リアルタイムで会話ができるようになります。"
   },
   {
-   "id": "111b49b1bc67",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "約31億の淺沼組JV/多賀城市の西庁舎大規模改修",
-   "url": "https://www.kensetsunews.com/archives/1288255",
-   "published": "2026-09-24T19:55+00:00",
-   "published_jst": "2026-09-25 04:55",
-   "summary": "宮城県多賀城市は、「２０２６年度多賀城市庁舎耐震対策等事業西庁舎大規模改修工事（建築・設備一括）」… The post 約31億の淺沼組JV/多賀城市の西庁舎大規模改修 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "61e3ef19f7d5",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -1071,6 +935,19 @@
    "published": "2026-09-24T19:55+00:00",
    "published_jst": "2026-09-25 04:55",
    "summary": "当別町は、「新役場庁舎建設事業」の公募型プロポーザルを公告した。参加表明書を１０月２３日まで受け付… The post 参加表明10月23日まで/提案上限額は80億円/当別町の新役場庁舎 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "111b49b1bc67",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "約31億の淺沼組JV/多賀城市の西庁舎大規模改修",
+   "url": "https://www.kensetsunews.com/archives/1288255",
+   "published": "2026-09-24T19:55+00:00",
+   "published_jst": "2026-09-25 04:55",
+   "summary": "宮城県多賀城市は、「２０２６年度多賀城市庁舎耐震対策等事業西庁舎大規模改修工事（建築・設備一括）」… The post 約31億の淺沼組JV/多賀城市の西庁舎大規模改修 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1149,19 +1026,6 @@
    "summary_ja": "プレミアムサービスの重視により面積対座席比率が上昇。ファンやチームの要望に応えるため改築や建て直しが検討されている。"
   },
   {
-   "id": "ead0de76ca7a",
-   "source": "ニュープリネット",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "リコー 神奈川・厚木事業所にインクジェットヘッド生産の新棟を建設 AIと自動化を融合した次世代工場で生産能力を２倍以上に拡大",
-   "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPWmJNWlR3bjVrS2tNVFU1WHJoMUdSMm1yeS1rSmY3dVo2dzRyM0dGWlNaTVFRZi1wTG9aMFR3ajRBaXdwQ05YRF91TnVUc3N0MmgwWV9QekpxNGstRW9KeXk5XzZfdnktYXdjTzRNOENDMUVtRWxWQ0ZCRTNSeDhyMlBOSGoxQ2dkZlBwSG01TG5QS3NDOUVyTXlqRjNPMTFxbnROS3ZxMmFjZ2puVXp4OHR3dnpSRFZ0clpiekUzVURXVERwbGc3eUw0ODJkWmI4dERCd185ZEUzUDBlRk1TXzlJVlRka2g1RmpKeXJqNk5raDd0N3ZWVDd3UDE2cFpXY0c4OE93R3JxUG91ZjlwOTFwcDZFSmk4UFBERHlpYnRrV2g5TG5FWVdoZWhYQm9jeC1jUzFjV2w1NVJYSFJ2bkN2UFVEN1FaWHc?oc=5",
-   "published": "2026-09-24T19:05+00:00",
-   "published_jst": "2026-09-25 04:05",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "9ef4a7c3c631",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1190,19 +1054,6 @@
    "ai_related": true,
    "title_ja": "ニュージャージー州、データセンターに罰金",
    "summary_ja": "ドローン撮影で62基のガス発電機が露見した後、州が110万ドルの罰金を科した。住民からは懸念の声も。"
-  },
-  {
-   "id": "66a43038a8c8",
-   "source": "Infoseek",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【開催報告】AIがあれば、既存システムはいらない？-バーティカルSaaS企業ダイテックと現役工務店LIFEFUNDが本音で対談。",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RVGVxbFF0OG5IdHR2SEhBSTE4QVA4RjVxbHcySjh1M3Z0T2ZBZi03b1QyOUFCUUpkeFFvMXN5MjByYUhiRU95MEctUklIUEJOaFJoMnItV1ZsLVNIU1FRVWVPcVVra0J5Zm9hSVI3bUVqQQ?oc=5",
-   "published": "2026-09-24T18:15+00:00",
-   "published_jst": "2026-09-25 03:15",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "57d9461ca601",
@@ -1441,15 +1292,15 @@
    "summary_ja": "カスタマーサービスの音声AIを手がける同社のCEOが、企業はAIであることを事前に伝えるべきだと語った。"
   },
   {
-   "id": "5a19f9cd8e98",
-   "source": "pando.life",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業における人工知能メーカーランキング",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9yMnB5enFuLTNrTW9ORDJiS0FGRDFKZDRaSTBrWlBQbFVtcnkyaFdnMG5jcWR0M3FlMTY2eHE3S1NsM0l4dUlLT2pR?oc=5",
-   "published": "2026-09-24T16:25+00:00",
-   "published_jst": "2026-09-25 01:25",
+   "id": "e7107d9a76d9",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "published": "2026-09-24T16:20+00:00",
+   "published_jst": "2026-09-25 01:20",
    "summary": "",
    "ai_related": true
   },
@@ -1799,19 +1650,6 @@
    "summary_ja": "Avtar Constructionは商業債務の返済ができず、清算申し立てに直面して管財人を任命しました。"
   },
   {
-   "id": "f2281a9c751b",
-   "source": "Межа. Новини України.",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Grittが建設現場でロボットとAIを使い太陽光パネル設置を加速",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85RkE4c1VZRzkwX2QtaEN6WkVQeVZQYWRweDZYSDgzX2V6SkE3OGJ3NGFDOHh4aUZlVUt0WVlCS2R2dkMydW13NXRCOUlCckpkUWRQLXU3NUYxX0R5QU8wa3ZYVQ?oc=5",
-   "published": "2026-09-24T11:24+00:00",
-   "published_jst": "2026-09-24 20:24",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "d5814d519faa",
    "source": "Construction News (UK)",
    "source_id": "constructionnews_uk",
@@ -1956,110 +1794,6 @@
    "summary_ja": "重要な道路投資戦略の決定が控える中、新契約に向けて企業に声がかかっています。"
   },
   {
-   "id": "1f015ea8c9d0",
-   "source": "prtimes.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【開催報告】AIがあれば、既存システムはいらない？—バーティカルSaaS企業ダイテックと現役工務店LIFEFUNDが本音で対談。",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93RWw2STVITk9yOG8xd0VKWlZITnZWSTY1TThLTVlIRlZ6MUtJQ0NvUzZwNWwxLXF4blBjTTZnSnFHSmVtRUUxV2FkSzJLT2dRTjNwUXlOME5YYlNaaTNLSDVGdDlTWEZxVmc?oc=5",
-   "published": "2026-09-24T06:00+00:00",
-   "published_jst": "2026-09-24 15:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "ca7b29220384",
-   "source": "ITmedia",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ダンドリワークとLog SystemがAPI連携、現場情報の二重入力を解消：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SNTZhVlpXdHZvSlA1RlVXNktxa0hqSS00bDV6Mi1RSk5YcldSVTdZWHh5WVdCbUwwai1KRkdYSi1Dbl9YTkNVNzhBeUxzOEY5MXZVZTlYOHYtLVdNNzh3NG10MGw0STJ3VVBVeg?oc=5",
-   "published": "2026-09-24T06:00+00:00",
-   "published_jst": "2026-09-24 15:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "649eb74fc42f",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "シーティーエスが提供する建設業特化型AIエージェント「SAP マインド」の魅力と効果",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IOFN1VDlsblYyLVRkMUV0MWVnbXZ4RFVwalg4c2Qwc0JUYmc2eFVnZDAxUzZ6YlF0cDM4ejRyWEFMOGIxc21ENi0zbm44ZzlscXAybU9pMW5VNzNTWU5LSQ?oc=5",
-   "published": "2026-09-24T05:26+00:00",
-   "published_jst": "2026-09-24 14:26",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "a29d110942b6",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIデータ社が提供する建設業界の未来を変える最適化AI「AI孔明 on IDX」の全貌",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Sc2FGVk9oc1hmTXhReFBBTDNYcHh6cllVSVN3bzkyRW1FbWg4MmZRV21CVjREVUpzQzhCUE0wdWNLZnZoZzY2c00wazVIMFVMd2h5TmtGX2VGY1NOUjUwOFp2eWlaM2tobVE?oc=5",
-   "published": "2026-09-24T05:13+00:00",
-   "published_jst": "2026-09-24 14:13",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "48fbfb39c1fa",
-   "source": "topics.smt.docomo.ne.jp",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "リブワーク Research Memo（6）：3DP住宅事業、Housing OS事業へ展開（2）",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPekVSMkJnT3p3SklVWi1sS204c1ZnXzhBT3E4eDZ1M0NTU0Z0NlFjNkpvdzlKdUlyOERCYlBWQWl2OXpWVmxaX0VUbTR1VXdVenNLTlJXMDZqX3pyOXo4U1B0dFZYT2RVNDIxWDFLZVZPcnZkZUI3RERvMmVHY2hIT0FCOFNJV09ldlBJcNIBjAFBVV95cUxPekVSMkJnT3p3SklVWi1sS204c1ZnXzhBT3E4eDZ1M0NTU0Z0NlFjNkpvdzlKdUlyOERCYlBWQWl2OXpWVmxaX0VUbTR1VXdVenNLTlJXMDZqX3pyOXo4U1B0dFZYT2RVNDIxWDFLZVZPcnZkZUI3RERvMmVHY2hIT0FCOFNJV09ldlBJcA?oc=5",
-   "published": "2026-09-24T04:48+00:00",
-   "published_jst": "2026-09-24 13:48",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "8ecd0a8e398f",
-   "source": "BBC",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "農地にデータセンターを次々建設……中国のAIブーム支える内モンゴルの遠隔地",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVcUlKalVGTHZtdGhJNkNWa1lPMUlYV2pCd0lKQWhsb21hVUQ0ckdXc1dxYWdNQV9ERURkTjVMV2MyOTdIdjNYRzRPTWh2bUc0aUZsWjl6OWl1Mkg3aE0xZ9IBZkFVX3lxTE11X2d5NjE1bUpoTWFiUnh3VDIxaDhGZ3RzT2VkZDA0bXlFMV9Dc1d1aVZyQnUzNHlKOGNiQWcwMldYOHNnNVBOY0ZQcjNvUi1WVDRxdk02UGdGZ0k3bU5mSHdJUWVkUQ?oc=5",
-   "published": "2026-09-24T04:40+00:00",
-   "published_jst": "2026-09-24 13:40",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "8fca262bd6be",
-   "source": "ニューズウィーク日本版",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIブームに「待った」──世界で広がるデータセンター建設規制「モラトリアム」とは | ニューズウィーク日本版 オフィシャルサイト",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpSG9OUjZPbVp2ZTh4Mm9YS0czQUxDZkQ3ckExNWJSTTZuYUlaZzJGc2ZjTGphTC1vTzF6TEpMZWt3NXlIRFVVdDF4ekVxaDJIYzRDc0hTZ1BUWVdra1Mxd3hIeng3RW8?oc=5",
-   "published": "2026-09-24T04:35+00:00",
-   "published_jst": "2026-09-24 13:35",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "9bbe61dccdbc",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "USKOLOR AIは、実際の建設現場のシナリオに基づいた塗料ソリューションの開発におけるパイオニアです。",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSVdyNVViMnlYbVhyalBtRHdTcnc5Smx0SlZlVG5sZ3NVNFJyVVZGUE9Qa3gzbnkyTlY0RFhDMkFSbjRvS2JoTW9RT1BaSUdZeHo0YkRlR3pBcy1GNkRuY0lyYm5obEdGOUI0NUNLMU9nTEdncDV3S3NnYlJ4V3FoSzY4aEZoNUQyZDZKZi1XZms4TF83UF9VUF9va0JXTjll?oc=5",
-   "published": "2026-09-24T03:03+00:00",
-   "published_jst": "2026-09-24 12:03",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "7114a1c7bd43",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2099,19 +1833,6 @@
    "ai_related": true
   },
   {
-   "id": "d1e65b0eb8f4",
-   "source": "prtimes.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "最適化できる建設会社だけが勝つ時代へ —AI孔明 on IDXが実現する“工程・資源最適化OS”を発表",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95Y29ZQ1MwajN2bGludnB2RDI4VHZVUURhblNId2tmeS1VZi1jMnlrZGpLUHhwTHhvWWpGbHI2aDh1UDVDY0Q3NWFnOFBMUV9OYTJfeDlUTXhvMlRnWWFsQkczdm5yOG52cHc?oc=5",
-   "published": "2026-09-24T02:00+00:00",
-   "published_jst": "2026-09-24 11:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "5f9b2dff770e",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2127,32 +1848,6 @@
    "summary_ja": "マーク・ザッカーバーグCEOは年次イベント「Connect」で基調講演を行い、Metaが「Muse」に全力で取り組む姿勢を鮮明にした。AIグラスへの搭載も予定されている。"
   },
   {
-   "id": "1c69014fa0b4",
-   "source": "prtimes.jp",
-   "source_id": "gnews_zenecon_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大手ゼネコン企業より、管理業務の効率化を支援する運用改善プロジェクトを受注",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LV21VQ1JpX3d4NFNVS01uNUJnbm56eGZRNzJvMUVuSld6MHZCRlFZMUF6Z2hRTUJLemk2WXpzazhobWYzSXdQNzAzOGlUZXpGMTY0elBPSUllTFNLZmRjWXdSRXdlWnFZcnc?oc=5",
-   "published": "2026-09-24T01:10+00:00",
-   "published_jst": "2026-09-24 10:10",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "9b9ca0c42603",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "シーティーエス、建設業特化AI「SAP マインド」を10月開始",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XUWE2QVoxcXRqM2h3UkJCVzJkcmpmUkRNMENBMEE4OEc1LU84U2UwRXlEV0V6ZnlqZGZXcDh2dDFkMUQ0Q2Y3dFFwdzNGa05SQnNv?oc=5",
-   "published": "2026-09-24T01:03+00:00",
-   "published_jst": "2026-09-24 10:03",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "8497165438c8",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2163,19 +1858,6 @@
    "published": "2026-09-24T01:00+00:00",
    "published_jst": "2026-09-24 10:00",
    "summary": "国土交通省は、2029年春の導入を目指す「BIMデータ審査」について、基本構想を取りまとめました。BIMデータ審査は、2026年4月に始まっ...",
-   "ai_related": true
-  },
-  {
-   "id": "cadbb7fa7583",
-   "source": "prtimes.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "深刻化する建設業の人手不足、生産性向上へ 建設業特化型AIエージェント「SAP マインド」を10月1日より提供開始",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3LTNwNjJaUFZJWWFFZjlsbkFuMHJJZWQ5TFR4d1dtWDQ1eTFrTTQ2cmNWSjhXY01RNElNQ01rdEdkU2p1SGdUcEVOYi1Cbk9lRHkxVTJNbEdiY0hFSUFQbTFCa3YxUTNkNGc?oc=5",
-   "published": "2026-09-24T01:00+00:00",
-   "published_jst": "2026-09-24 10:00",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -2205,32 +1887,6 @@
    "ai_related": true,
    "title_ja": "Meta、Muse向けたまごっち風ウェアラブルを開発",
    "summary_ja": "AIエージェント「Muse」のために小型ハードウェアデバイスが開発され、新たな活動拠点が生まれる。"
-  },
-  {
-   "id": "21035776ee1f",
-   "source": "prtimes.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築AI経営研究会、外部講師にVADO design office・府川映子氏を迎え「設計・デザイン実務のAI実演」を新規公開――設計・営業のAI実演動画12本を公開",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fR1I0dEQ0bXo2c0ZjQk03b0NTWmh1YXdtNy1leVMzbkh0WVJEN29oZG8wVDdya3dGMS1JczV6TEpDMy1XZmtZcWpxbHRnd3MxVnhSRlducFBPQVFrRDFYMWdlMldEczdpUWc?oc=5",
-   "published": "2026-09-24T00:00+00:00",
-   "published_jst": "2026-09-24 09:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "8ac37b99d734",
-   "source": "ITmedia",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Autodesk Revit用「自動配筋」アドインの英語版をリリース、Arent：BIM",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qRVk3VkJQd1pfVVZpNmV3UHFPcGFvd1YwcVNaQVFkaFNrZVMzbVIwVGpuQlBNUVJpckpBanB3c2NmV0JxVE1XRTBhQk00S0xuX19zcV94TmFhVUxSeWxXVUJWMlBWNWVHdkwwbg?oc=5",
-   "published": "2026-09-24T00:00+00:00",
-   "published_jst": "2026-09-24 09:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "5bd3cefe70c4",
@@ -2311,19 +1967,6 @@
    "ai_related": true
   },
   {
-   "id": "0bce624d7167",
-   "source": "newspicks.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "なぜ今Physical AIが注目されているのか -AI×ロボティクスへの期待と建設現場のリアリティ-",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwNTczZmFtdEVpOGE3U1Y3OXJxbGVIZUNWMVo0RmIxQldZUlVLektxT1NWMEp3ZUk4NHpOa1Z6TFZxM25ZVlhOMzRMdXpCc19VbU43cDlYcUxhc0phTmlaT1d2MTdPOGlIVVdPbQ?oc=5",
-   "published": "2026-09-23T21:00+00:00",
-   "published_jst": "2026-09-24 06:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "c1c97de161b0",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2354,69 +1997,17 @@
    "summary_ja": "1100万ドルの賞金がかかったコンテストから、山火事の検知は進んだものの、消火は依然として困難であることが浮き彫りになった。"
   },
   {
-   "id": "014bd7eff35b",
-   "source": "建設通信新聞Digital",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "連載・中国インフラDX推進計画2026(10)",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sTjJpWWJxancwS1duaGdzeFByMXBuNjM2R3dUYmZIOVg0M29OcDJDU1JYRXNkelVaVzFGZXk4OEpla0pfUk1BU2tPSjFaNmZMQ2FYckdaWkc?oc=5",
-   "published": "2026-09-23T20:03+00:00",
-   "published_jst": "2026-09-24 05:03",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "26a8f236371c",
-   "source": "建設通信新聞Digital",
-   "source_id": "gnews_kensetsu_ai",
+   "id": "b3b45862dd8c",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
    "title": "「建設業事業承継DX/AIコース」第2期開講/東京都市大とクラフトバンク",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RWVlOMG1KNGlrMWVkX0xxczJXMENUYkg0WGsxRGFnMmJBSXkxampVRmRYTEdzaFRuRjZoQXNPbVpGN0hjMzdnWGthcW9taDZC?oc=5",
-   "published": "2026-09-23T20:00+00:00",
-   "published_jst": "2026-09-24 05:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "c04ca71199f5",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築計画概要書の廃止へ意見公募、8書類の重複提出を解消 建築確認のDX",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tTHhxV0ZFYXJ1V3VVZHVUODI4TTZBVlF6QnlXd28wMi1mUmlSRXlmY0o4aUREM2haRXlBZG5nSUduUDFhT3ZiMXItUnRrNzl0V05tUE9USjhtLUNxd1oydmt0NV81MzQ?oc=5",
-   "published": "2026-09-23T20:00+00:00",
-   "published_jst": "2026-09-24 05:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "4c7a74a09d97",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "全建 26年度地域懇・ブロック会議/新たな当初予算像に注目/中国皮切り10月2日スタート",
-   "url": "https://www.kensetsunews.com/archives/1287642",
+   "url": "https://www.kensetsunews.com/archives/1287501",
    "published": "2026-09-23T19:55+00:00",
    "published_jst": "2026-09-24 04:55",
-   "summary": "【業界の総意届ける】 全国建設業協会（今井雅則会長）は、国土交通省や地方自治体などの公共発注機関と現… The post 全建 26年度地域懇・ブロック会議/新たな当初予算像に注目/中国皮切り10月2日スタート first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "576be62f3091",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "旧北鹿浜小跡地、月面開発の拠点に/東大から活用申し出/足立区",
-   "url": "https://www.kensetsunews.com/archives/1287461",
-   "published": "2026-09-23T19:55+00:00",
-   "published_jst": "2026-09-24 04:55",
-   "summary": "東京都足立区は、活用方針を検討している旧北鹿浜小学校跡地について、東京大学から活用の申し出があった… The post 旧北鹿浜小跡地、月面開発の拠点に/東大から活用申し出/足立区 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
+   "summary": "【次世代経営者、後継候補8人が参加】 東京都市大学とクラフトバンク（東京都中央区、韓英志社長）は１８… The post 「建設業事業承継DX/AIコース」第2期開講/東京都市大とクラフトバンク first appeared on 建設通信新聞Digital .",
+   "ai_related": true
   },
   {
    "id": "f8986f4af638",
@@ -2468,6 +2059,32 @@
    "published": "2026-09-23T19:55+00:00",
    "published_jst": "2026-09-24 04:55",
    "summary": "日本建設業連合会（押味至一会長）は、週休二日実現行動計画の最終期となる２０２５年度通期のフォローア… The post 4週8閉所土木75%、建築も60%に/この3年間で飛躍的改善/日建連 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "1e27a1800b5b",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "災害対応に万全期す/国土強靱化を推進/井林国交相が就任会見",
+   "url": "https://www.kensetsunews.com/archives/1287647",
+   "published": "2026-09-23T19:55+00:00",
+   "published_jst": "2026-09-24 04:55",
+   "summary": "第２次高市早苗改造内閣で国土交通相に就任した井林辰憲氏は１８日、就任会見を開き、「国交省は国民の暮… The post 災害対応に万全期す/国土強靱化を推進/井林国交相が就任会見 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "4c7a74a09d97",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "全建 26年度地域懇・ブロック会議/新たな当初予算像に注目/中国皮切り10月2日スタート",
+   "url": "https://www.kensetsunews.com/archives/1287642",
+   "published": "2026-09-23T19:55+00:00",
+   "published_jst": "2026-09-24 04:55",
+   "summary": "【業界の総意届ける】 全国建設業協会（今井雅則会長）は、国土交通省や地方自治体などの公共発注機関と現… The post 全建 26年度地域懇・ブロック会議/新たな当初予算像に注目/中国皮切り10月2日スタート first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2546,32 +2163,6 @@
    "summary_ja": "Googleが2つの新しい音声合成モデルを発表。2,000以上の音声ライブラリに加え、独自の声を作成する機能も備えている。"
   },
   {
-   "id": "b725c3ca7b96",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "BIM/CIMの認知度は高水準維持、生成AIは9割に",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IMTNsSnowSUVrbmxIaVJxYW5YaUxxZHdQVzQ1TGU1QTd0X3FLcklfM1h1WTZXSmI2QklRVnN4QWRYTS1kam1UOFdHZC1nMjdHSy1KWGJKcy1tRVNGTnRQSGlzeUxqU2lSZjBzSU13?oc=5",
-   "published": "2026-09-23T17:03+00:00",
-   "published_jst": "2026-09-24 02:03",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "9b992f05682c",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "高い認知度の建設3Dプリンター、i-Conとi-Con2.0「目指すところ同じ」",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8tcmxpWGw1MHFuYmdWRTY4UEJwVWN3c2t0YThOQ3A0MWJ3MkRnM0RESEJWRmhiQ1FQaC1EX2c4UGY3RTllOF9zZjJZV3RwZ0Y5T3pES2MwRVpuYUx0WjhWaWQ4cGFLNzFMYzE1dktn?oc=5",
-   "published": "2026-09-23T17:02+00:00",
-   "published_jst": "2026-09-24 02:02",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "c48a5527366e",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -2615,6 +2206,32 @@
    "ai_related": true,
    "title_ja": "OpenAI Academyが設立2周年を迎える",
    "summary_ja": "AIスキルをより多くのコミュニティへ届ける取り組みの2周年を記念。"
+  },
+  {
+   "id": "4c4abcff4acd",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "published": "2026-09-23T16:00+00:00",
+   "published_jst": "2026-09-24 01:00",
+   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "ai_related": true
+  },
+  {
+   "id": "be2314c62992",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "published": "2026-09-23T15:25+00:00",
+   "published_jst": "2026-09-24 00:25",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "a1700d1f6b37",
