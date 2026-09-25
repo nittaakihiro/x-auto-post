@@ -1,24 +1,37 @@
 {
- "generated_at": "2026-09-25T00:32+00:00",
- "generated_at_jst": "2026-09-25 09:32",
+ "generated_at": "2026-09-25T00:53+00:00",
+ "generated_at_jst": "2026-09-25 09:53",
  "window_hours": 48,
  "counts": {
   "ai_japan": 36,
   "construction_japan": 46,
-  "ai_global": 73,
-  "construction_global": 27
+  "ai_global": 70,
+  "construction_global": 37
  },
  "errors": [
   {
-   "feed": "venturebeat_ai",
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "15f3bf92e42d",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Google、リアルタイムで表情豊かに話すAIアバター「Gemini 3.8 Live with Live Avatar」提供開始 画像1枚で独自アバターも",
+   "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001730/",
+   "published": "2026-09-25T00:10+00:00",
+   "published_jst": "2026-09-25 09:10",
+   "summary": "Googleは、リアルタイム音声対話と動画生成アバターを組み合わせた「Gemini 3.8 Live with Live Avatar」をGemini Enterpriseで提供を開始した。写真1枚から自然に応答するアバターを生成し、多言語や非同期ツール実行に対応。顧客対応や店頭端末などの商用展開を見込む。",
+   "ai_related": true
+  },
   {
    "id": "7ec94e51762f",
    "source": "ITmedia AI+",
@@ -44,6 +57,19 @@
    "published_jst": "2026-09-25 08:00",
    "summary": "TWOSTONE&Sonsが、企業のAI内製化に関する実態調査の結果を公表。AI内製化の推進責任者の9割以上が競合との差に危機感を抱き、社内主導プロジェクトの停滞や頓挫を経験している実態が明らかとなった。",
    "ai_related": true
+  },
+  {
+   "id": "e2a44ffbc044",
+   "source": "日本経済新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "NY株ハイライト オラクル下落、データセンター建設の遅れ危惧 金利高もAI構築の障壁に",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zLUNpdFFZU3NYcE9SNFp1NHVzLWhmUjFXaE1GTzRBSU8wTHJiN1ljZjZVOTQ1TWVIY0JoT3FZVmhjdDNQYklWY0g4SW9qcEozQjJlUzUxVGs4ZzZCVkdTZEhqUlRla2NYTTgyQQ?oc=5",
+   "published": "2026-09-24T22:35+00:00",
+   "published_jst": "2026-09-25 07:35",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "952c49964688",
@@ -99,7 +125,7 @@
   },
   {
    "id": "40408b12e45f",
-   "source": "アゴラ 言論プラットフォーム",
+   "source": "agora-web.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -638,21 +664,6 @@
    "ai_related": true
   },
   {
-   "id": "e7107d9a76d9",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "published": "2026-09-24T16:20+00:00",
-   "published_jst": "2026-09-25 01:20",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "ライブアバター搭載のGemini 3.8 Liveを発表",
-   "summary_ja": ""
-  },
-  {
    "id": "cd729cf3bb43",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -711,6 +722,19 @@
    "ai_related": true,
    "title_ja": "TechCrunch Disrupt 2026の審査員を務める次世代VCを紹介",
    "summary_ja": "メインステージでコンテストの出場者を審査するVCを紹介。9月25日までの登録で割引や特等席の特典も。"
+  },
+  {
+   "id": "ff8569eb08d1",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Firm in construction bid-rigging inquiry fined after exec removed evidence",
+   "url": "https://www.constructionnews.co.uk/government/firm-in-construction-bid-rigging-inquiry-fined-after-exec-removed-evidence-24-09-2026/",
+   "published": "2026-09-24T16:03+00:00",
+   "published_jst": "2026-09-25 01:03",
+   "summary": "A firm being investigated as part of an inquiry into bid-rigging has been fined after a senior employee ordered a work mobile phone and paperwork to be hidden from officials. The Competition and Markets Authority (CMA) had named M&J Group as one of a dozen… The post Firm in construction bid-rigging ",
+   "ai_related": false
   },
   {
    "id": "fe13b3d5a5fd",
@@ -1071,17 +1095,108 @@
    "ai_related": true
   },
   {
-   "id": "f2281a9c751b",
-   "source": "Межа. Новини України.",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Grittが建設現場でロボットとAIを使い太陽光パネル設置を加速",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85RkE4c1VZRzkwX2QtaEN6WkVQeVZQYWRweDZYSDgzX2V6SkE3OGJ3NGFDOHh4aUZlVUt0WVlCS2R2dkMydW13NXRCOUlCckpkUWRQLXU3NUYxX0R5QU8wa3ZYVQ?oc=5",
-   "published": "2026-09-24T11:24+00:00",
-   "published_jst": "2026-09-24 20:24",
-   "summary": "",
-   "ai_related": true
+   "id": "6a8eca8eb6c1",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Ardmore administrators launch court proceedings against former subbies",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/ardmore-administrators-launch-court-proceedings-against-former-subbies-24-09-2026/",
+   "published": "2026-09-24T11:45+00:00",
+   "published_jst": "2026-09-24 20:45",
+   "summary": "Administrators for Ardmore Construction Ltd have initiated protected court proceedings against former subcontractors over downstream cladding claims. The information has come to light in a new joint report by administrators from BTG, filed with Companies House this week. It also revealed that the in",
+   "ai_related": false
+  },
+  {
+   "id": "d30823f9a621",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Hackney lowers capital budget by £100m due to construction issues",
+   "url": "https://www.constructionnews.co.uk/buildings/hackney-lowers-capital-budget-by-100m-due-to-construction-issues-24-09-2026/",
+   "published": "2026-09-24T11:45+00:00",
+   "published_jst": "2026-09-24 20:45",
+   "summary": "Hackney Council has postponed £281m of capital spending, mostly due to the impact of construction industry issues, including Ardmore’s collapse. The east London local authority’s cabinet this week approved a plan to move the sum into future years’ budgets and move £188.2m, including £65m related… Th",
+   "ai_related": false
+  },
+  {
+   "id": "0f5397ed4724",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Civils firm faced ‘significant’ trade debt before collapse",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/civils-firm-faced-significant-trade-debt-before-collapse-24-09-2026/",
+   "published": "2026-09-24T11:35+00:00",
+   "published_jst": "2026-09-24 20:35",
+   "summary": "Civils firm Avtar Construction appointed administrators after it was “not in a position” to discharge its trade debt and faced a winding-up petition, it has emerged. Kelly Burton and Joseph Fox of FRP Advisory said the Wiltshire-based contractor was unable to service its trade debt… The post Civils ",
+   "ai_related": false
+  },
+  {
+   "id": "d5814d519faa",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Building Safety Levy adds further pressure to housing delivery",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/building-safety-levy-adds-further-pressure-to-housing-delivery-24-09-2026/",
+   "published": "2026-09-24T11:18+00:00",
+   "published_jst": "2026-09-24 20:18",
+   "summary": "Elayna Rattenbury is a partner and Emma Knight is a principal associate at Gowling WLG With the Building Safety Levy, due to come into force on 1 October 2026, the development industry is preparing for another significant cost pressure at a time when many residential… The post Building Safety Levy a",
+   "ai_related": false
+  },
+  {
+   "id": "a52aff23aa51",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Vistry building safety provision rises above £350m",
+   "url": "https://www.constructionnews.co.uk/financial/vistry-building-safety-provision-rises-above-350m-24-09-2026/",
+   "published": "2026-09-24T11:10+00:00",
+   "published_jst": "2026-09-24 20:10",
+   "summary": "Vistry’s building safety provision has risen above £350m after the housebuilder identified further buildings and reassessed remediation work. In its interim results for the six months to 30 June 2026, announced this morning (24 September), the group said it had recognised an additional building safe",
+   "ai_related": false
+  },
+  {
+   "id": "e4be21ea8408",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Salford council tenders £300m highways framework",
+   "url": "https://www.constructionnews.co.uk/contracts/salford-council-tenders-300m-highways-framework-24-09-2026/",
+   "published": "2026-09-24T10:29+00:00",
+   "published_jst": "2026-09-24 19:29",
+   "summary": "Salford City Council has launched a £300m framework covering highways, civil engineering, bridge and landscaping works across the city. The Technical and Highways Works Framework will be divided into five lots and is scheduled to start on 1 April 2027. The initial framework period will… The post Sal",
+   "ai_related": false
+  },
+  {
+   "id": "ea669525db07",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Construction vocational GCSE proposed in technical education plan",
+   "url": "https://www.constructionnews.co.uk/skills/construction-vocational-gcse-proposed-in-technical-education-plan-24-09-2026/",
+   "published": "2026-09-24T10:23+00:00",
+   "published_jst": "2026-09-24 19:23",
+   "summary": "The government has proposed a Building and Construction vocational GCSE as part of previously announced plans to expand technical education from age 14. Ministers first said in July that new technical routes could include construction, with rollout due to begin from September 2028. The government… T",
+   "ai_related": false
+  },
+  {
+   "id": "bbe26ffa62e9",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Robertson picked for St Helens heritage job",
+   "url": "https://www.constructionnews.co.uk/buildings/robertson-lands-st-helens-heritage-job-24-09-2026/",
+   "published": "2026-09-24T10:09+00:00",
+   "published_jst": "2026-09-24 19:09",
+   "summary": "Robertson Construction North West has been appointed to transform the Grade II-listed Gamble Building in St Helens. St Helens Borough Council selected the contractor for the scheme, which data provider Glenigan estimates is worth £15m. The design-and-build contract for Robertson forms part of the co",
+   "ai_related": false
   },
   {
    "id": "27627555b34e",
@@ -1109,6 +1224,19 @@
    "published": "2026-09-24T10:00+00:00",
    "published_jst": "2026-09-24 19:00",
    "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "93656998cf72",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Galliford Try hires former Kier work-winning director",
+   "url": "https://www.constructionnews.co.uk/contractors/galliford-try/galliford-try-hires-former-kier-work-winning-director-24-09-2026/",
+   "published": "2026-09-24T09:57+00:00",
+   "published_jst": "2026-09-24 18:57",
+   "summary": "Galliford Try has appointed former Kier work-winning director Vicky Nugus as strategic development director for its environment business. Nugus joined the contractor’s environment board and was given responsibility for identifying growth opportunities and managing its pipeline. She will also oversee",
    "ai_related": false
   },
   {
@@ -1410,7 +1538,7 @@
    "url": "https://transluce.org/agent-activity",
    "published": "2026-09-24T05:21+00:00",
    "published_jst": "2026-09-24 14:21",
-   "summary": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 236 # Comments: 227",
+   "summary": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 242 # Comments: 229",
    "ai_related": true,
    "title_ja": "urlquery.netで不正AIエージェントの活動を確認",
    "summary_ja": "Article URL: https://transluce.org/agent-activity Comments URL: https://news.ycombinator.com/item?id=49826565 Points: 219 # Comments: 198"
@@ -1456,7 +1584,7 @@
   },
   {
    "id": "8ecd0a8e398f",
-   "source": "BBC",
+   "source": "bbc.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1666,7 +1794,7 @@
   },
   {
    "id": "d8c795753bc0",
-   "source": "Laodong.vn",
+   "source": "ja.laodong.vn",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1867,7 +1995,7 @@
   },
   {
    "id": "250717af3e8b",
-   "source": "日刊建設工業新聞",
+   "source": "decn.co.jp",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2185,36 +2313,6 @@
    "ai_related": true,
    "title_ja": "OpenAI Academyが設立2周年を迎える",
    "summary_ja": "AIスキルをより多くのコミュニティへ届ける取り組みの2周年を記念。"
-  },
-  {
-   "id": "4c4abcff4acd",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Advancing Private AI Compute with secure, server-side memory",
-   "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "published": "2026-09-23T16:00+00:00",
-   "published_jst": "2026-09-24 01:00",
-   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-   "ai_related": true,
-   "title_ja": "セキュアなサーバー側メモリでプライベートAIを推進",
-   "summary_ja": "パーソナルAI向けプライベートAIコンピュートに、セキュアなサーバー側メモリを導入します。"
-  },
-  {
-   "id": "be2314c62992",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini 3.8 text-to-speech says hello",
-   "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-   "published": "2026-09-23T15:25+00:00",
-   "published_jst": "2026-09-24 00:25",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "Gemini 3.8のテキスト読み上げ機能が登場",
-   "summary_ja": ""
   },
   {
    "id": "a1700d1f6b37",
@@ -2556,19 +2654,6 @@
    "ai_related": true,
    "title_ja": "ChatGPT広告、東南アジアと台湾へ展開拡大",
    "summary_ja": "ChatGPT広告の対象地域が拡大し、60カ国以上で企業が新たな顧客層へアプローチ可能に。"
-  },
-  {
-   "id": "57b841c6641e",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "トランプ大統領、国連演説で「AI」を「Super Intelligence」に改称すると表明",
-   "url": "https://www.itmedia.co.jp/news/article/2609/23/2000001676/",
-   "published": "2026-09-23T01:36+00:00",
-   "published_jst": "2026-09-23 10:36",
-   "summary": "トランプ米大統領は国連総会の一般討論演説で、AIの呼称を「Super Intelligence（SI）」に変更すると表明した。米国の全公文書で採用し、他国にも同調を促す。国際的なAI管理の枠組みを拒否し、地球温暖化論争になぞらえて脅威論を一蹴した上で、成長を支援して開発競争をリードする姿勢を強調した。",
-   "ai_related": true
   },
   {
    "id": "73fafdf6f45f",
