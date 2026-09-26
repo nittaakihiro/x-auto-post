@@ -1,20 +1,39 @@
 {
- "generated_at": "2026-09-26T19:55+00:00",
- "generated_at_jst": "2026-09-27 04:55",
+ "generated_at": "2026-09-26T21:08+00:00",
+ "generated_at_jst": "2026-09-27 06:08",
  "window_hours": 48,
  "counts": {
-  "ai_global": 50,
-  "ai_japan": 33,
-  "construction_japan": 26,
+  "ai_global": 47,
+  "ai_japan": 32,
+  "construction_japan": 23,
   "construction_global": 17
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "hn_top",
+   "error": "TimeoutError: The read operation timed out"
   }
  ],
  "items": [
+  {
+   "id": "d70ce2b78b06",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Insurers claim AI is already increasing healthcare costs",
+   "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+   "published": "2026-09-26T21:02+00:00",
+   "published_jst": "2026-09-27 06:02",
+   "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+   "ai_related": true,
+   "title_ja": "保険業界、AIが医療費を既に押し上げていると主張",
+   "summary_ja": "Blue Cross Blue Shieldによると、病院のAIツール活用により、2年間で9億4200万ドルの追加医療費が発生したという。"
+  },
   {
    "id": "a884daa14627",
    "source": "The Decoder",
@@ -26,7 +45,9 @@
    "published": "2026-09-26T19:10+00:00",
    "published_jst": "2026-09-27 04:10",
    "summary": "Former Ukrainian Defense Minister Mykhailo Fedorov has announced \"Army of Robots,\" a private combat robotics initiative. The robots would handle casualty evacuation, mine clearance, and combat. Drones already account for 95 percent of target engagements, he says. The article Former Ukrainian Defense",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "元ウクライナ国防相、民間主導のロボット軍を提案",
+   "summary_ja": "ウクライナのフェドロフ前国防相が民間戦闘ロボット構想「Army of Robots」を発表。負傷者の搬送や地雷除去、戦闘を担う。"
   },
   {
    "id": "62f32100a945",
@@ -39,7 +60,9 @@
    "published": "2026-09-26T17:27+00:00",
    "published_jst": "2026-09-27 02:27",
    "summary": "Speaking to 160 IT vice presidents in Las Vegas, tech entrepreneur Azeem Azhar asked who had measurable AI results. Two-thirds raised their hands. Then he asked who had results good enough to interrupt the CEO's summer vacation. Only eight did. Whether that slow pace of progress justifies the massiv",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ITリーダーの3分の2がAIで成果も、CEOの休暇を邪魔するほどではない",
+   "summary_ja": "ラスベガスのイベントで、測定可能なAI成果を出したと3分の2が回答。しかしCEOの夏の休暇を中断させるほどの成果を持つ者はごくわずかだった。"
   },
   {
    "id": "5c595af6e381",
@@ -52,7 +75,9 @@
    "published": "2026-09-26T16:56+00:00",
    "published_jst": "2026-09-27 01:56",
    "summary": "A study with more than 3,000 participants shows that just having access to AI answers nearly eliminated people's willingness to say \"I don't know.\" In one experiment, it dropped from 44 to 3 percent, even though the AI was almost always wrong. Participants who used AI felt more confident but were co",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIの利用で「分からない」と言えなくなることが判明",
+   "summary_ja": "3千人規模の調査で、AIの回答にアクセスできると「分からない」と答える割合が44%から3%に激減したことが分かった。"
   },
   {
    "id": "819e92326da0",
@@ -65,7 +90,9 @@
    "published": "2026-09-26T16:34+00:00",
    "published_jst": "2026-09-27 01:34",
    "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet ac",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAI、最高性能モデルのトレーニングを一時停止",
+   "summary_ja": "AIの暴走やハッキングの報告が相次ぐ中、OpenAIは最も強力なモデルの学習を一時停止する決定を下した。"
   },
   {
    "id": "c0698052a5bb",
@@ -223,7 +250,7 @@
   {
    "id": "004cc38b0474",
    "source": "Infoseek",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "and°、東大阪の内装元請けGO.REFORMと業務提携。7月から現場で使ってきた図面の拾い出しAIを、11月から協力業者も使えるようにする。10月はまず3社で先行し、使うかどうかは各社が決める",
@@ -452,21 +479,6 @@
    "summary_ja": "課題はあるものの、Teslaは2026年末までに毎週1,000台のOptimus製造を目指している。"
   },
   {
-   "id": "893cb7d78a9c",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-   "url": "https://swarmtraces.org/",
-   "published": "2026-09-25T21:09+00:00",
-   "published_jst": "2026-09-26 06:09",
-   "summary": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 656 # Comments: 416",
-   "ai_related": true,
-   "title_ja": "OpenAIのAIエージェントがHugging Faceをハッキングした手法の全貌",
-   "summary_ja": "Hugging Faceへのハッキングに関する記事URLと、Hacker Newsでのコメントや議論へのリンクを掲載している。"
-  },
-  {
    "id": "28eff29135c5",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -557,6 +569,19 @@
    "summary_ja": "投資、起業家精神、医療、ウェルネス、ビジネス構築について議論するため、ブルース・K・リーと共に登壇する。"
   },
   {
+   "id": "a97246c89ec2",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "2026-27年版 技術士第二次試験 建設部門 最新キーワード100",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XMnR1cDNDQVE0ZWViM2dpSmJoV3l6S3QzZ3o2M1FuckpqX3UzQUxVQ2dxdGhYeGNvdkpCWUhJendqTXREWVc4b2t4NjRoSjk4Rjhqa0RrS2czWlFVOGFr?oc=5",
+   "published": "2026-09-25T18:45+00:00",
+   "published_jst": "2026-09-26 03:45",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "7050ffcc3a34",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -585,21 +610,6 @@
    "ai_related": true,
    "title_ja": "英AIネオクラウドNscale、IPOを控え33.6億ドルを調達",
    "summary_ja": "Third PointやNvidiaなどからの資金調達により、大規模なAIデータセンターの構築を加速させる。"
-  },
-  {
-   "id": "d1defbaf4de8",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Ollaya – Ollama for open-source, Jev-style decision models",
-   "url": "https://ollaya.dev/",
-   "published": "2026-09-25T18:33+00:00",
-   "published_jst": "2026-09-26 03:33",
-   "summary": "Article URL: https://ollaya.dev/ Comments URL: https://news.ycombinator.com/item?id=49848269 Points: 567 # Comments: 137",
-   "ai_related": true,
-   "title_ja": "Ollaya：オープンソース向けのOllama風意思決定モデル",
-   "summary_ja": "オープンソース向けのOllamaであり、Jevスタイルに対応した意思決定モデル「Ollaya」の紹介およびHacker Newsでの議論ページ。"
   },
   {
    "id": "ddb6a0a57317",
@@ -1130,6 +1140,19 @@
    "summary_ja": "9月は建設資材価格が再び上昇し、雇用も6ヶ月連続で増加するなど建設経済にとって明るいニュースが続いた。"
   },
   {
+   "id": "807a570fba86",
+   "source": "TVer",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI時代に不可欠なデータセンター 住宅地近くに必要とされる理由とは…住民から不安の声も",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1RWkNyd0hVcEpFcFBKWTNUSlZRcjQ0am5yV2R4czhtVEs5MlhKYzlkb012dThfR3gzYjFOZUlfdnBIRENEZG5yN0UwSQ?oc=5",
+   "published": "2026-09-25T09:18+00:00",
+   "published_jst": "2026-09-25 18:18",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "93b91a44c537",
    "source": "MIT Technology Review AI",
    "source_id": "mit_tr",
@@ -1460,6 +1483,19 @@
    "summary_ja": "米国のモントレー湾国立海洋保護区にて、シロカツオドリやアオサギ、カリフォルニアカッショウペリカンを撮影。新しいキヤノン製レンズにより最高の写真が撮れた。"
   },
   {
+   "id": "c2def7fe5c33",
+   "source": "アットプレス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【住まいを選び直す自由】ー住宅流動性と人生設計の経済学ー （第７回：人生に伴走する社会へ／AIと制度とPropTech-Labが描く未来―前編）｜PropTech-Lab",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1QSU5RRUNlM2hYMmstOXc5RmxtRnlkemJCem0xWVFKSFhieFFxVV9CeVFobGthY090aUZSLUI3SF9sZmx3cTI0RElILWhFTlk?oc=5",
+   "published": "2026-09-25T02:00+00:00",
+   "published_jst": "2026-09-25 11:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "6ed93cdad4c0",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -1657,127 +1693,6 @@
    "published_jst": "2026-09-25 06:45",
    "summary": "AIアクセラレータを手掛ける日本発スタートアップのEdgeCortix（エッジコーティックス）は、最大3.36PFLOPSのAI処理性能を発揮するフィジカルAI向けの次世代スケーラブルAIチップレットプラットフォーム「RAIDEN」を発表した。",
    "ai_related": true
-  },
-  {
-   "id": "9f2565a99871",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIと人の共創で進化する「G-SHOCK」 デザイナーが語る製品化の舞台裏",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news009.html",
-   "published": "2026-09-24T21:00+00:00",
-   "published_jst": "2026-09-25 06:00",
-   "summary": "カシオ計算機は、G-SHOCKの「MTG-B4000」「GMW-BZ5000」のデザイン開発にAIを活用した。従来の発想を超えるスタイリングを、どのように製品へと落とし込んだのか。導入の背景や具体的な活用方法、設計部門との連携、デザイナーに求められる役割について、同社のGデザイン室長である赤城貴康氏に聞いた。",
-   "ai_related": true
-  },
-  {
-   "id": "6b2c15d8cc19",
-   "source": "施工の神様",
-   "source_id": "sekokan_navi",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【マンガ】解体屋ゲン #855 第851話 新しい時代に向けて",
-   "url": "https://sekokan-navi.jp/magazine/87540",
-   "published": "2026-09-24T21:00+00:00",
-   "published_jst": "2026-09-25 06:00",
-   "summary": "次のページ The post 【マンガ】解体屋ゲン #855 第851話 新しい時代に向けて first appeared on 施工の神様 .",
-   "ai_related": false
-  },
-  {
-   "id": "13c0871d301b",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ＪＲ東日本／奥羽本線新駅設計の競争参加希望者公募／１０月７日ま参加受付",
-   "url": "https://www.decn.co.jp/?p=187835",
-   "published": "2026-09-24T21:00+00:00",
-   "published_jst": "2026-09-25 06:00",
-   "summary": "ＪＲ東日本東北建設プロジェクトマネジメントオフィスは２４日、「奥羽本線蔵王・山形間新駅設置概略・基本設計」を委託するため競争参加希望者の公募を開始した。山形市の請願駅として整備する計画で、市南部の交通結節点に位置付け、 […]",
-   "ai_related": false
-  },
-  {
-   "id": "b9371e790ea1",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "藤井寺市／市民病院跡地に複合施設整備／基本計画・設計着手へ、プロポで委託検討",
-   "url": "https://www.decn.co.jp/?p=187844",
-   "published": "2026-09-24T21:00+00:00",
-   "published_jst": "2026-09-25 06:00",
-   "summary": "大阪府藤井寺市は、市立藤井寺市民病院跡地に整備する複合施設の基本計画・基本設計に乗り出す。開会中の９月定例市議会に提出した一般会計補正予算案に関連委託費として約９９００万円を計上した。２９日の会期末に可決されれば、年内 […]",
-   "ai_related": false
-  },
-  {
-   "id": "418995c61f59",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "山口県光市／庁舎建て替え／市民アンケート結果を公表、利便性・安全性を重視",
-   "url": "https://www.decn.co.jp/?p=187848",
-   "published": "2026-09-24T21:00+00:00",
-   "published_jst": "2026-09-25 06:00",
-   "summary": "山口県光市は２４日、老朽化が進む市役所本庁舎（中央６の１の１）の建て替えに当たり、市民にコンセプトや機能、建設位置などを聞いたアンケートの結果を公表した。「手続きが容易で立ち寄りやすい」「災害が起きても壊れない」など利 […]",
-   "ai_related": false
-  },
-  {
-   "id": "e804eb39ba09",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "commit-rewriter 0.2",
-   "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
-   "published": "2026-09-24T20:06+00:00",
-   "published_jst": "2026-09-25 05:06",
-   "summary": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
-   "ai_related": true,
-   "title_ja": "commit-rewriter 0.2がリリース",
-   "summary_ja": "デフォルトブランチ以外のサポートを追加。uvx commit-rewriter --branch otherで別ブランチを対象に実行可能。"
-  },
-  {
-   "id": "407813e2d0a2",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「花」で彩る木造テラス、大成建設が蜷川実花氏とコラボ 横浜花博",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NMlhjOWxLUXRkVFMwOW14VWpydlZXbHhhMkhpRnY0eTN0d0hWbDRDVldVT096bG9udFZrdEZTM3hkdTByVkRubWpiV3QzSTRucEFOMm03Mk5TR1NlYnJtdGVrYUZuVVk?oc=5",
-   "published": "2026-09-24T20:00+00:00",
-   "published_jst": "2026-09-25 05:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "0a038bbb4392",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大手建設会社で新卒採用急増、清水建設はインターン参加者が半数超え（2ページ目）",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdDFhaGhjek1KOXEyamx3NTRUM2FpRXc3cHJzZGtHS0cwT0lSSll5bHdNcTJmZUpsMUtJTkxyT1BrdUJsZFdLYVg4UHdUa2F2LVhrUXZGRWZLRnFHVU53dFhNRm1BbHJpQXBhNktNaC1odDJ5TnVyblJhT2J1dlU3R29nYkhydXJrMEd4Zkhrd3V4MkdNR2psYWV3?oc=5",
-   "published": "2026-09-24T20:00+00:00",
-   "published_jst": "2026-09-25 05:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "ee9698a7fdb9",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
-   "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
-   "published": "2026-09-24T19:59+00:00",
-   "published_jst": "2026-09-25 04:59",
-   "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. A",
-   "ai_related": true,
-   "title_ja": "Gemini 3.8 Live、AIに顔を与えるアバター機能を発表",
-   "summary_ja": "Googleの「Gemini 3.8 Live」アップデートにより、アニメーション化されたAIアバターの表情やリップシンクを見ながら、リアルタイムで会話ができるようになります。"
   }
  ]
 }
