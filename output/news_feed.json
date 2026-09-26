@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-09-26T00:10+00:00",
- "generated_at_jst": "2026-09-26 09:10",
+ "generated_at": "2026-09-26T00:33+00:00",
+ "generated_at_jst": "2026-09-26 09:33",
  "window_hours": 48,
  "counts": {
-  "ai_global": 60,
+  "ai_global": 61,
   "ai_japan": 37,
-  "construction_global": 35,
+  "construction_global": 25,
   "construction_japan": 40
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -261,7 +261,7 @@
    "url": "https://ollaya.dev/",
    "published": "2026-09-25T18:33+00:00",
    "published_jst": "2026-09-26 03:33",
-   "summary": "Article URL: https://ollaya.dev/ Comments URL: https://news.ycombinator.com/item?id=49848269 Points: 298 # Comments: 88",
+   "summary": "Article URL: https://ollaya.dev/ Comments URL: https://news.ycombinator.com/item?id=49848269 Points: 313 # Comments: 93",
    "ai_related": true,
    "title_ja": "Ollaya – オープンソースおよびJev型決定モデル向けのOllama",
    "summary_ja": "記事のURLとHacker Newsでの議論やポイント数、コメント数が記載されている。"
@@ -499,7 +499,7 @@
    "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
    "published": "2026-09-25T15:29+00:00",
    "published_jst": "2026-09-26 00:29",
-   "summary": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 356 # Comments: 661",
+   "summary": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 366 # Comments: 675",
    "ai_related": true,
    "title_ja": "米控訴裁、Anthropicのサプライチェーンリスク指定を支持",
    "summary_ja": "ペンタゴンによるAnthropicのAIリスク認定をめぐる訴訟で、米控訴裁判所が指定を支持する判断を下した。"
@@ -700,66 +700,6 @@
    "summary_ja": "グーグルは、Geminiがユーザーの代わりに企業へ電話をかけてくれる新機能「Call for Me」をテストしている。"
   },
   {
-   "id": "93495ef7f585",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Portakabin revises healthcare strategy as profit dips",
-   "url": "https://www.constructionnews.co.uk/financial/portakabin-revises-healthcare-strategy-as-profit-dips-25-09-2026/",
-   "published": "2026-09-25T11:45+00:00",
-   "published_jst": "2026-09-25 20:45",
-   "summary": "Portakabin’s financial performance has taken a hit after problems with its construction of large permanent healthcare buildings. The modular hire and construction firm’s turnover fell to £516m in the year to 31 December 2025, newly published accounts show. This was down from £619m in the… The post P",
-   "ai_related": false,
-   "title_ja": "Portakabin、利益減少に伴い医療戦略を見直し",
-   "summary_ja": "大型常設医療施設の建設における問題により、Portakabinの業績が悪化。売上高は5億1,600万ポンドに減少した。"
-  },
-  {
-   "id": "4b5b3816e5d3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Berkeley subsidiary and Lindner Prater fined £1.3m over death of passerby",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/berkeley-subsidiary-and-lindner-prater-fined-1-3m-over-death-of-passerby-25-09-2026/",
-   "published": "2026-09-25T11:45+00:00",
-   "published_jst": "2026-09-25 20:45",
-   "summary": "A Berkeley Group subsidiary and Lindner Prater have been fined a combined £1.3m after a window unit fell from the 26th floor of a luxury development in London, killing a man walking below. On 2 October 2018, father and grandfather Mick Ferris, 53, was on… The post Berkeley subsidiary and Lindner Pra",
-   "ai_related": false,
-   "title_ja": "バークレー子会社とLindner Prater、通行人死亡事故で130万ポンドの罰金",
-   "summary_ja": "ロンドンの高級開発ビルの26階から窓ガラスが落下し男性が死亡した事故で、計130万ポンドの罰金が科された。"
-  },
-  {
-   "id": "2a44e810d147",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolders’ body set to leave CSCS card scheme",
-   "url": "https://www.constructionnews.co.uk/skills/scaffolders-body-set-to-leave-cscs-card-scheme-25-09-2026/",
-   "published": "2026-09-25T11:45+00:00",
-   "published_jst": "2026-09-25 20:45",
-   "summary": "The Construction Industry Scaffolders Record Scheme (CISRS) is set to leave the Construction Skills Certification Scheme (CSCS). The scaffolding training body has given notice that it will withdraw from the CSCS card scheme on 1 June 2027, because of potential legal issues if it remains.… The post S",
-   "ai_related": false,
-   "title_ja": "足場工団体、CSCSカード制度からの離脱を表明",
-   "summary_ja": "建設産業足場記録スキーム（CISRS）は、建設技能認定スキーム（CSCS）から離脱する通知を行った。"
-  },
-  {
-   "id": "d3a8f83e27f0",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Ex-employees of liquidated window supplier win redundancy claims",
-   "url": "https://www.constructionnews.co.uk/financial/ex-employees-of-liquidated-window-supplier-win-redundancy-claims-25-09-2026/",
-   "published": "2026-09-25T11:45+00:00",
-   "published_jst": "2026-09-25 20:45",
-   "summary": "Former employees of a liquidated uPVC window and door supplier have won an employment tribunal case over a failure to consult them before they were made redundant. The 65 ex-staff members of ERV Group, which traded as Evoframes, won the case, which claimed that the… The post Ex-employees of liquidat",
-   "ai_related": false,
-   "title_ja": "清算された窓サッシ供給業者の元従業員らが解雇訴訟で勝訴",
-   "summary_ja": "解雇前の協議を怠ったとして、破産したuPVC窓・ドア供給業者の元従業員65名が労働審判で勝訴した。"
-  },
-  {
    "id": "42742cbbb3a8",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -776,7 +716,7 @@
   },
   {
    "id": "04526d636d9c",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -898,21 +838,6 @@
    "ai_related": true,
    "title_ja": "アメリカ国防総省、AIを活用した嘘発見器の開発に3000万ドルを要望",
    "summary_ja": "米国防総省の予算要求によると、今後5年間で高度な新型嘘発見器の開発に3030万ドルを投じる計画である。"
-  },
-  {
-   "id": "e6ff52cde82d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "British Museum tenders Reading Room roof repairs",
-   "url": "https://www.constructionnews.co.uk/contracts/british-museum-tenders-reading-room-roof-repairs-25-09-2026/",
-   "published": "2026-09-25T09:07+00:00",
-   "published_jst": "2026-09-25 18:07",
-   "summary": "The British Museum is seeking a contractor to repair and replace parts of the roof over its Grade I-listed Round Reading Room. The contract is valued at £9m excluding VAT and £10.8m including VAT. The museum sought a principal contractor to carry out roof, glazing,… The post British Museum tenders R",
-   "ai_related": false,
-   "title_ja": "大英博物館、閲覧室の屋根修繕に向けて入札を実施",
-   "summary_ja": "第1級指定建造物の円形閲覧室の屋根の修理・交換を行う請負業者を募集している。契約価値はVAT抜きで900万ポンド。"
   },
   {
    "id": "866bc321c677",
@@ -1177,7 +1102,7 @@
   },
   {
    "id": "345a5661e7a0",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1834,6 +1759,21 @@
    "ai_related": true
   },
   {
+   "id": "e7107d9a76d9",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "published": "2026-09-24T16:20+00:00",
+   "published_jst": "2026-09-25 01:20",
+   "summary": "",
+   "ai_related": true,
+   "title_ja": "Gemini 3.8 Live：新機能「Live Avatar」を発表",
+   "summary_ja": "Googleは、リアルタイムアバター機能を搭載した最新のAIアシスタント「Gemini 3.8 Live」を発表した。"
+  },
+  {
    "id": "cd729cf3bb43",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -1847,21 +1787,6 @@
    "ai_related": true,
    "title_ja": "Google、初の軌道上データセンター「Suncatcher」を10月1日に打ち上げ",
    "summary_ja": "Googleの実験的な軌道上データセンターには4基のTPUが搭載され、一度に15分間のみ稼働する予定。"
-  },
-  {
-   "id": "ff8569eb08d1",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Firm in construction bid-rigging inquiry fined after exec removed evidence",
-   "url": "https://www.constructionnews.co.uk/government/firm-in-construction-bid-rigging-inquiry-fined-after-exec-removed-evidence-24-09-2026/",
-   "published": "2026-09-24T16:03+00:00",
-   "published_jst": "2026-09-25 01:03",
-   "summary": "A firm being investigated as part of an inquiry into bid-rigging has been fined after a senior employee ordered a work mobile phone and paperwork to be hidden from officials. The Competition and Markets Authority (CMA) had named M&J Group as one of a dozen… The post Firm in construction bid-rigging ",
-   "ai_related": false,
-   "title_ja": "入札談合調査対象の企業、幹部が証拠隠滅を行い罰金処分",
-   "summary_ja": "上級従業員に業務用の携帯電話と書類を隠すよう命じた談合調査中の企業に対し、競争市場庁（CMA）が罰金を科した。"
   },
   {
    "id": "fe13b3d5a5fd",
@@ -1984,51 +1909,6 @@
    "summary_ja": "Remedy Entertainmentの新作ゲーム「CONTROL Resonant」が、GeForce NOWで配信開始された。"
   },
   {
-   "id": "6a8eca8eb6c1",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Ardmore administrators launch court proceedings against former subbies",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/ardmore-administrators-launch-court-proceedings-against-former-subbies-24-09-2026/",
-   "published": "2026-09-24T11:45+00:00",
-   "published_jst": "2026-09-24 20:45",
-   "summary": "Administrators for Ardmore Construction Ltd have initiated protected court proceedings against former subcontractors over downstream cladding claims. The information has come to light in a new joint report by administrators from BTG, filed with Companies House this week. It also revealed that the in",
-   "ai_related": false,
-   "title_ja": "Ardmoreの管財人、元下請け業者を相手取り法的手続きを開始",
-   "summary_ja": "Ardmore Constructionの管財人が、下流の外装材の請求をめぐり元下請け業者に対する法的手続きを開始した。"
-  },
-  {
-   "id": "d30823f9a621",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Hackney lowers capital budget by £100m due to construction issues",
-   "url": "https://www.constructionnews.co.uk/buildings/hackney-lowers-capital-budget-by-100m-due-to-construction-issues-24-09-2026/",
-   "published": "2026-09-24T11:45+00:00",
-   "published_jst": "2026-09-24 20:45",
-   "summary": "Hackney Council has postponed £281m of capital spending, mostly due to the impact of construction industry issues, including Ardmore’s collapse. The east London local authority’s cabinet this week approved a plan to move the sum into future years’ budgets and move £188.2m, including £65m related… Th",
-   "ai_related": false,
-   "title_ja": "ハックニー区、建設業の問題により資本予算を1億ポンド削減",
-   "summary_ja": "ハックニー区議会は、主に Ardmore の破綻など建設業界の問題の影響により、2億8,100万ポンドの支出を延期した。"
-  },
-  {
-   "id": "0f5397ed4724",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Civils firm faced ‘significant’ trade debt before collapse",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/civils-firm-faced-significant-trade-debt-before-collapse-24-09-2026/",
-   "published": "2026-09-24T11:35+00:00",
-   "published_jst": "2026-09-24 20:35",
-   "summary": "Civils firm Avtar Construction appointed administrators after it was “not in a position” to discharge its trade debt and faced a winding-up petition, it has emerged. Kelly Burton and Joseph Fox of FRP Advisory said the Wiltshire-based contractor was unable to service its trade debt… The post Civils ",
-   "ai_related": false,
-   "title_ja": "土木会社、経営破綻前に「重大な」取引先債務に直面",
-   "summary_ja": "Avtar Constructionは、取引先債務の返済が不可能な状態となり清算申し立てに直面したため、管財人を選任した。"
-  },
-  {
    "id": "f2281a9c751b",
    "source": "Межа. Новини України.",
    "source_id": "gnews_kensetsu_ai",
@@ -2040,21 +1920,6 @@
    "published_jst": "2026-09-24 20:24",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "d5814d519faa",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Building Safety Levy adds further pressure to housing delivery",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/building-safety-levy-adds-further-pressure-to-housing-delivery-24-09-2026/",
-   "published": "2026-09-24T11:18+00:00",
-   "published_jst": "2026-09-24 20:18",
-   "summary": "Elayna Rattenbury is a partner and Emma Knight is a principal associate at Gowling WLG With the Building Safety Levy, due to come into force on 1 October 2026, the development industry is preparing for another significant cost pressure at a time when many residential… The post Building Safety Levy a",
-   "ai_related": false,
-   "title_ja": "建築安全性課徴金が住宅供給に追加の負担",
-   "summary_ja": "2026年10月1日に導入予定の建築安全性課徴金により、住宅開発業界はさらなる大きな負担への備えを進めている。"
   },
   {
    "id": "bb31bdcbd17f",
@@ -2213,7 +2078,7 @@
   },
   {
    "id": "1f015ea8c9d0",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2356,7 +2221,7 @@
   },
   {
    "id": "d1e65b0eb8f4",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2369,7 +2234,7 @@
   },
   {
    "id": "1c69014fa0b4",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_zenecon_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2408,7 +2273,7 @@
   },
   {
    "id": "cadbb7fa7583",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
