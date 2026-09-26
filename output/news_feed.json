@@ -1,25 +1,21 @@
 {
- "generated_at": "2026-09-26T23:38+00:00",
- "generated_at_jst": "2026-09-27 08:38",
+ "generated_at": "2026-09-26T23:55+00:00",
+ "generated_at_jst": "2026-09-27 08:55",
  "window_hours": 48,
  "counts": {
   "ai_japan": 27,
   "ai_global": 46,
-  "construction_japan": 25,
-  "construction_global": 15
+  "construction_japan": 26,
+  "construction_global": 11
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "constructionexec",
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -220,6 +216,19 @@
    "published_jst": "2026-09-26 19:05",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "e2c38b41a19c",
+   "source": "朝日放送",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トランプ大統領、建設予定の凱旋門を軍事施設化へドローンと狙撃兵配置大量弾薬も",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EWmxWU2dtU0JENGtyTmV5aHc0VUxId1pXOHZ6bEFiYU1aRTJWZ2FiQ09RVkRFcE80NTU1VHFielVudDlHLW82SFRTX2hkQnB5aWNfQXI5U3VnOWgwdGNMUjhFU21ZYUk?oc=5",
+   "published": "2026-09-26T09:48+00:00",
+   "published_jst": "2026-09-26 18:48",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "ffb43e9b99cf",
@@ -1028,66 +1037,6 @@
    "summary_ja": "マイクロソフトはチャット、コーディング、エージェント機能を統合した新しい「Copilot」を発表した。"
   },
   {
-   "id": "93495ef7f585",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Portakabin revises healthcare strategy as profit dips",
-   "url": "https://www.constructionnews.co.uk/financial/portakabin-revises-healthcare-strategy-as-profit-dips-25-09-2026/",
-   "published": "2026-09-25T11:45+00:00",
-   "published_jst": "2026-09-25 20:45",
-   "summary": "Portakabin’s financial performance has taken a hit after problems with its construction of large permanent healthcare buildings. The modular hire and construction firm’s turnover fell to £516m in the year to 31 December 2025, newly published accounts show. This was down from £619m in the… The post P",
-   "ai_related": false,
-   "title_ja": "利益減少を受け医療戦略を見直すPortakabin",
-   "summary_ja": "大型医療施設の建設における問題でPortakabinの業績が悪化。モジュール建築を手がける同社の売上高は5億1,600万ポンドに落ち込んだ。"
-  },
-  {
-   "id": "4b5b3816e5d3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Berkeley subsidiary and Lindner Prater fined £1.3m over death of passerby",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/berkeley-subsidiary-and-lindner-prater-fined-1-3m-over-death-of-passerby-25-09-2026/",
-   "published": "2026-09-25T11:45+00:00",
-   "published_jst": "2026-09-25 20:45",
-   "summary": "A Berkeley Group subsidiary and Lindner Prater have been fined a combined £1.3m after a window unit fell from the 26th floor of a luxury development in London, killing a man walking below. On 2 October 2018, father and grandfather Mick Ferris, 53, was on… The post Berkeley subsidiary and Lindner Pra",
-   "ai_related": false,
-   "title_ja": "歩行者死亡事故でBerkeley子会社などに130万ポンドの罰金",
-   "summary_ja": "ロンドンの高級開発物件の26階から窓が落下し歩行中の男性が死亡した事故をめぐり、関連企業に総額130万ポンドの罰金が科された。"
-  },
-  {
-   "id": "2a44e810d147",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolders’ body set to leave CSCS card scheme",
-   "url": "https://www.constructionnews.co.uk/skills/scaffolders-body-set-to-leave-cscs-card-scheme-25-09-2026/",
-   "published": "2026-09-25T11:45+00:00",
-   "published_jst": "2026-09-25 20:45",
-   "summary": "The Construction Industry Scaffolders Record Scheme (CISRS) is set to leave the Construction Skills Certification Scheme (CSCS). The scaffolding training body has given notice that it will withdraw from the CSCS card scheme on 1 June 2027, because of potential legal issues if it remains.… The post S",
-   "ai_related": false,
-   "title_ja": "足場工事業界団体がCSCSカード制度からの離脱を表明",
-   "summary_ja": "足場工事訓練機構（CISRS）は、建設技能認定制度（CSCS）からの離脱を通知し、同カード制度の枠組みから撤退する方針を固めた。"
-  },
-  {
-   "id": "d3a8f83e27f0",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Ex-employees of liquidated window supplier win redundancy claims",
-   "url": "https://www.constructionnews.co.uk/financial/ex-employees-of-liquidated-window-supplier-win-redundancy-claims-25-09-2026/",
-   "published": "2026-09-25T11:45+00:00",
-   "published_jst": "2026-09-25 20:45",
-   "summary": "Former employees of a liquidated uPVC window and door supplier have won an employment tribunal case over a failure to consult them before they were made redundant. The 65 ex-staff members of ERV Group, which traded as Evoframes, won the case, which claimed that the… The post Ex-employees of liquidat",
-   "ai_related": false,
-   "title_ja": "清算された窓メーカーの元従業員らが解雇補償の訴えで勝訴",
-   "summary_ja": "解雇前の事前協議を怠ったとして、清算されたuPVC窓・ドア供給会社の元従業員65名が雇用審判で勝訴した。"
-  },
-  {
    "id": "6c45d717ee35",
    "source": "下野新聞社",
    "source_id": "gnews_kensetsu_ai",
@@ -1181,6 +1130,19 @@
    "ai_related": true
   },
   {
+   "id": "50499c79e9f2",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Construction Futures: September 2026 Economic Roundup",
+   "url": "https://constructionexec.com/article/construction-futures-september-2026-economic-roundup/?utm_source=rss&utm_medium=rss&utm_campaign=construction-futures-september-2026-economic-roundup",
+   "published": "2026-09-25T10:00+00:00",
+   "published_jst": "2026-09-25 19:00",
+   "summary": "Construction input prices jumped up again, jobs were added for the sixth month in a row and more positive news for the construction economy in September. The post Construction Futures: September 2026 Economic Roundup first appeared on Construction Executive .",
+   "ai_related": false
+  },
+  {
    "id": "807a570fba86",
    "source": "TVer",
    "source_id": "gnews_kensetsu_ai",
@@ -1207,21 +1169,6 @@
    "ai_related": true,
    "title_ja": "アメリカ国防総省、AIを活用した嘘発見器の開発に3000万ドルを要望",
    "summary_ja": "米国防総省の予算要求によると、今後5年間で高度な新型嘘発見器の開発に3030万ドルを投じる計画である。"
-  },
-  {
-   "id": "e6ff52cde82d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "British Museum tenders Reading Room roof repairs",
-   "url": "https://www.constructionnews.co.uk/contracts/british-museum-tenders-reading-room-roof-repairs-25-09-2026/",
-   "published": "2026-09-25T09:07+00:00",
-   "published_jst": "2026-09-25 18:07",
-   "summary": "The British Museum is seeking a contractor to repair and replace parts of the roof over its Grade I-listed Round Reading Room. The contract is valued at £9m excluding VAT and £10.8m including VAT. The museum sought a principal contractor to carry out roof, glazing,… The post British Museum tenders R",
-   "ai_related": false,
-   "title_ja": "大英博物館が閲覧室の屋根修復工事に向けた入札を実施",
-   "summary_ja": "大英博物館は、登録建造物である円形閲覧室の屋根の修復・一部交換を行う施工業者を募集している。契約価値は数百万ポンド規模に及ぶ。"
   },
   {
    "id": "866bc321c677",
