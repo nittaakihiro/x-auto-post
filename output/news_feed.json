@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-09-25T23:57+00:00",
- "generated_at_jst": "2026-09-26 08:57",
+ "generated_at": "2026-09-26T00:10+00:00",
+ "generated_at_jst": "2026-09-26 09:10",
  "window_hours": 48,
  "counts": {
-  "ai_global": 62,
+  "ai_global": 60,
   "ai_japan": 37,
   "construction_global": 35,
-  "construction_japan": 41
+  "construction_japan": 40
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -257,7 +261,7 @@
    "url": "https://ollaya.dev/",
    "published": "2026-09-25T18:33+00:00",
    "published_jst": "2026-09-26 03:33",
-   "summary": "Article URL: https://ollaya.dev/ Comments URL: https://news.ycombinator.com/item?id=49848269 Points: 288 # Comments: 86",
+   "summary": "Article URL: https://ollaya.dev/ Comments URL: https://news.ycombinator.com/item?id=49848269 Points: 298 # Comments: 88",
    "ai_related": true,
    "title_ja": "Ollaya – オープンソースおよびJev型決定モデル向けのOllama",
    "summary_ja": "記事のURLとHacker Newsでの議論やポイント数、コメント数が記載されている。"
@@ -495,7 +499,7 @@
    "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
    "published": "2026-09-25T15:29+00:00",
    "published_jst": "2026-09-26 00:29",
-   "summary": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 353 # Comments: 653",
+   "summary": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 356 # Comments: 661",
    "ai_related": true,
    "title_ja": "米控訴裁、Anthropicのサプライチェーンリスク指定を支持",
    "summary_ja": "ペンタゴンによるAnthropicのAIリスク認定をめぐる訴訟で、米控訴裁判所が指定を支持する判断を下した。"
@@ -772,7 +776,7 @@
   },
   {
    "id": "04526d636d9c",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1173,7 +1177,7 @@
   },
   {
    "id": "345a5661e7a0",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1439,7 +1443,7 @@
   },
   {
    "id": "40408b12e45f",
-   "source": "agora-web.jp",
+   "source": "アゴラ 言論プラットフォーム",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1774,21 +1778,6 @@
    "ai_related": true
   },
   {
-   "id": "185ddb0abcfc",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-   "url": "https://github.com/devdotfast/whiteboard",
-   "published": "2026-09-24T17:21+00:00",
-   "published_jst": "2026-09-25 02:21",
-   "summary": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https://whiteboard.dev.fast/ ), an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo: https://github.com/devdotfast/whiteboard . We were missing the feeling of a",
-   "ai_related": true,
-   "title_ja": "人間とAIが共に設計するオープンソースIDE「Whiteboard」",
-   "summary_ja": "人間とAIエージェントが共通のワークスペースでソフトウェアを共同設計できる、オープンソースのデスクトップ向けIDEアプリです。"
-  },
-  {
    "id": "cb7e0a0370f0",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1843,21 +1832,6 @@
    "published_jst": "2026-09-25 01:25",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "e7107d9a76d9",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Introducing Gemini 3.8 Live with Live Avatar",
-   "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-   "published": "2026-09-24T16:20+00:00",
-   "published_jst": "2026-09-25 01:20",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "ライブアバター機能を備えた「Gemini 3.8 Live」の発表",
-   "summary_ja": "ライブアバター機能を搭載した新しい「Gemini 3.8 Live」の登場に関する情報。"
   },
   {
    "id": "cd729cf3bb43",
@@ -2083,6 +2057,19 @@
    "summary_ja": "2026年10月1日に導入予定の建築安全性課徴金により、住宅開発業界はさらなる大きな負担への備えを進めている。"
   },
   {
+   "id": "bb31bdcbd17f",
+   "source": "Infoseek",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建築AI経営研究会、外部講師にVADO design office・府川映子氏を迎え「設計・デザイン実務のAI実演」を新規公開――設計・営業のAI実演動画12本を公開",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwVGd0b0JYcmp6eGRQRXB6MEJyZjI2dUljVFgxTmZOTFFxUFA1WXpxUFBiSVV3TjJaMmtlUTdnc2E5Z0Z4RFllVUtUSGxfaEhnczR4SGhUYWx1Z1lTbk9pOWtuNnFaelU4VDFYUFl1c0dVQQ?oc=5",
+   "published": "2026-09-24T10:15+00:00",
+   "published_jst": "2026-09-24 19:15",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "27627555b34e",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -2226,7 +2213,7 @@
   },
   {
    "id": "1f015ea8c9d0",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2369,7 +2356,7 @@
   },
   {
    "id": "d1e65b0eb8f4",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2382,7 +2369,7 @@
   },
   {
    "id": "1c69014fa0b4",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_zenecon_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2421,7 +2408,7 @@
   },
   {
    "id": "cadbb7fa7583",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2456,32 +2443,6 @@
    "published": "2026-09-24T00:47+00:00",
    "published_jst": "2026-09-24 09:47",
    "summary": "Googleは「Google AI」の各プランに、「Google Colab」の有料特典を組み込むと発表した。",
-   "ai_related": true
-  },
-  {
-   "id": "21035776ee1f",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築AI経営研究会、外部講師にVADO design office・府川映子氏を迎え「設計・デザイン実務のAI実演」を新規公開――設計・営業のAI実演動画12本を公開",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fR1I0dEQ0bXo2c0ZjQk03b0NTWmh1YXdtNy1leVMzbkh0WVJEN29oZG8wVDdya3dGMS1JczV6TEpDMy1XZmtZcWpxbHRnd3MxVnhSRlducFBPQVFrRDFYMWdlMldEczdpUWc?oc=5",
-   "published": "2026-09-24T00:00+00:00",
-   "published_jst": "2026-09-24 09:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "8ac37b99d734",
-   "source": "ITmedia",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Autodesk Revit用「自動配筋」アドインの英語版をリリース、Arent：BIM",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qRVk3VkJQd1pfVVZpNmV3UHFPcGFvd1YwcVNaQVFkaFNrZVMzbVIwVGpuQlBNUVJpckpBanB3c2NmV0JxVE1XRTBhQk00S0xuX19zcV94TmFhVUxSeWxXVUJWMlBWNWVHdkwwbg?oc=5",
-   "published": "2026-09-24T00:00+00:00",
-   "published_jst": "2026-09-24 09:00",
-   "summary": "",
    "ai_related": true
   }
  ]
