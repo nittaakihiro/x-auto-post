@@ -1,11 +1,10 @@
 {
- "generated_at": "2026-09-26T21:08+00:00",
- "generated_at_jst": "2026-09-27 06:08",
+ "generated_at": "2026-09-26T21:36+00:00",
+ "generated_at_jst": "2026-09-27 06:36",
  "window_hours": 48,
  "counts": {
-  "ai_global": 47,
+  "ai_global": 49,
   "ai_japan": 32,
-  "construction_japan": 23,
   "construction_global": 17
  },
  "errors": [
@@ -14,8 +13,32 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "hn_top",
-   "error": "TimeoutError: The read operation timed out"
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
+  },
+  {
+   "feed": "gnews_kensetsu_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_sekokan_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_bim_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_zenecon_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_sekisan_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_kensetsu_dx",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   }
  ],
  "items": [
@@ -179,19 +202,6 @@
    "summary_ja": "NvidiaのSoL-Piは、モデルと環境間の制御層を最適化し、性能を落とさずにコーディングAIのトークン消費量を最大49%削減する。"
   },
   {
-   "id": "9167db3b22e9",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "250名以上の建築家が、インテリアデザインにおけるAI活用動向に関する最新情報を受け取った。",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcURTUlFGQkg0Y1ZWZmNBMjUtdHk0cUZzV05FLVFQOVo5MkxVNWUzSmxJS0FIQkxlczBCOW0xVXlLc3hKY2did0hjQUZReG0tX3ZQRnRzTTR0dFplcW1jeG9hQmo0emJSNzM3QW43bk1XZmh0bDF1XzR1U2tHbGRkU05OSVJNWW9CVlI0cWlMZW5kQTd2STJEdG1aR0VMc1ZfM2c?oc=5",
-   "published": "2026-09-26T10:05+00:00",
-   "published_jst": "2026-09-26 19:05",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "ffb43e9b99cf",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -248,32 +258,6 @@
    "ai_related": true
   },
   {
-   "id": "004cc38b0474",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "and°、東大阪の内装元請けGO.REFORMと業務提携。7月から現場で使ってきた図面の拾い出しAIを、11月から協力業者も使えるようにする。10月はまず3社で先行し、使うかどうかは各社が決める",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXQkFob0ppNTR0TE5DYjdPdnRLVzdOOVhMT3JDUEM0SmxJYldEZkdCNlpTUGdyY2V2Szd2aTVvajRYdHZBa0cydGZlakRreGZKWXFvLUtPNzd4WERva1FZQ2hTbmRDUW01OHRrc3dGWnJWZw?oc=5",
-   "published": "2026-09-26T03:15+00:00",
-   "published_jst": "2026-09-26 12:15",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "ff2c3f966a95",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "東急建設やアイシンも活用、AIが変える新たな現場／3時間で開発、熊本地震で掲示板サイト",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOOWZXMG1lam1RRlZZVGVST3pVa2hkVUczSnFTcjFGNFFxTERCYUdUVEZXUUJfd2dvSmVrWE1JbTBMY2pRcHpuLWQ4U0NVU2J1cS1xdm9nWFUtWEhodFQ3Nm1jakVkVWo5Tnc?oc=5",
-   "published": "2026-09-26T03:01+00:00",
-   "published_jst": "2026-09-26 12:01",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "bef0f73dbd86",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -285,32 +269,6 @@
    "published_jst": "2026-09-26 12:00",
    "summary": "「BirdNET-Go」は家庭用セキュリティカメラのマイクを活用し、鳥類やコウモリの鳴き声をリアルタイムで検出・識別するツールです。AIモデルをローカル環境で実行するため、プライバシーが漏洩する心配はなく月額料金も不要です。ロサンゼルス在住のIT技術者であるジェイソン・タッカー氏はBirdNET-Goと自宅の防犯カメラを利用して自動鳥類識別システムを構築し、日常生活がどう変化したかについて述懐しています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "5753cab758c9",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "規制緩和で加速、建設3Dプリンター革命 ロボットと共に支える未来の建築現場／建設3Dプリンターの認知度が83",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wb0puby1ldUVqY1VGbHdnSmt2dWg1ZUtTX3l4RWQxcXVSSDBLVnk3Z2NaZ0RPRi1jQVZTdXVvVE1JRURIc0FlLUVqekdrX2cxS2t0U1pzb0xxb3pBMExHYXpUa1VoM25DQXc?oc=5",
-   "published": "2026-09-26T03:00+00:00",
-   "published_jst": "2026-09-26 12:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "d6c021668d62",
-   "source": "朝日新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "愛媛の新アリーナ建設、伊予市は「相当有力」 サイボウズ社長が言及 [愛媛県]",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xUnRHZm4wWWhFWE1MNmthWnhfNWUzaXdGWHNYVXBOSWFVVWVCNHVOVFhpOWtwVnFjdXhBLXNyZFZ2bi1mcU52NkpwbmlxUzE1M1FYeHc1NTRqYlNQQVZ0bmdKTENDbTA?oc=5",
-   "published": "2026-09-26T01:30+00:00",
-   "published_jst": "2026-09-26 10:30",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "0c4d4bbe398e",
@@ -351,19 +309,6 @@
    "published": "2026-09-26T01:00+00:00",
    "published_jst": "2026-09-26 10:00",
    "summary": "勉強中に分からないところを気軽に聞ける家庭教師がいれば心強いものの、人間の専門家に1対1で教わるには高い指導料がかかります。AI家庭教師でも同じだけ学べるのかを調べるため、Handshake AI Researchのカーティス・ノースカット氏らはアメリカの大学院進学に使われる試験「GRE」の対策で学習効果と費用を比較しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "4b543d6a70e9",
-   "source": "EnterpriseZine",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Autodesk、建築・製造・メディア＆エンタメ向けの次世代エージェント型AIをプレビュー公開",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ndU9hOWFpb1Y5WXVGRmdTdnZ6Q0QwcFp1VjF3TnBWdk95VFdPdmF4aHFMY0ZJYnEtZ0tSQVF3WTNNM2dSMDUtMXFNdWdYSWxFWGZONVVQNzVZQQ?oc=5",
-   "published": "2026-09-26T00:00+00:00",
-   "published_jst": "2026-09-26 09:00",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -479,6 +424,19 @@
    "summary_ja": "課題はあるものの、Teslaは2026年末までに毎週1,000台のOptimus製造を目指している。"
   },
   {
+   "id": "893cb7d78a9c",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+   "url": "https://swarmtraces.org/",
+   "published": "2026-09-25T21:09+00:00",
+   "published_jst": "2026-09-26 06:09",
+   "summary": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 686 # Comments: 435",
+   "ai_related": true
+  },
+  {
    "id": "28eff29135c5",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -569,19 +527,6 @@
    "summary_ja": "投資、起業家精神、医療、ウェルネス、ビジネス構築について議論するため、ブルース・K・リーと共に登壇する。"
   },
   {
-   "id": "a97246c89ec2",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "2026-27年版 技術士第二次試験 建設部門 最新キーワード100",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XMnR1cDNDQVE0ZWViM2dpSmJoV3l6S3QzZ3o2M1FuckpqX3UzQUxVQ2dxdGhYeGNvdkpCWUhJendqTXREWVc4b2t4NjRoSjk4Rjhqa0RrS2czWlFVOGFr?oc=5",
-   "published": "2026-09-25T18:45+00:00",
-   "published_jst": "2026-09-26 03:45",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "7050ffcc3a34",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -610,6 +555,19 @@
    "ai_related": true,
    "title_ja": "英AIネオクラウドNscale、IPOを控え33.6億ドルを調達",
    "summary_ja": "Third PointやNvidiaなどからの資金調達により、大規模なAIデータセンターの構築を加速させる。"
+  },
+  {
+   "id": "d1defbaf4de8",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+   "url": "https://ollaya.dev/",
+   "published": "2026-09-25T18:33+00:00",
+   "published_jst": "2026-09-26 03:33",
+   "summary": "Article URL: https://ollaya.dev/ Comments URL: https://news.ycombinator.com/item?id=49848269 Points: 579 # Comments: 139",
+   "ai_related": true
   },
   {
    "id": "ddb6a0a57317",
@@ -700,19 +658,6 @@
    "ai_related": true,
    "title_ja": "ジョン・グルーバーのコメントを引用",
    "summary_ja": "Museは技術的な画期性と使いやすさの面で、非常に大きな注目を集めている。"
-  },
-  {
-   "id": "a865540be9bd",
-   "source": "pando.life",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "グローバル建設業界における人工知能市場：規模、シェア、成長要因、産業動向の包括的分析（",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zaVJJSkxGRVlpamVBMzBhR05kZ1NHbjNuczFXWjNDSjBsUkdfVGJfV0lfaGNLdmc0NVBhQUZEWnI0alIyQ2hoN3RR?oc=5",
-   "published": "2026-09-25T16:57+00:00",
-   "published_jst": "2026-09-26 01:57",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "e84d98e81ae7",
@@ -1060,32 +1005,6 @@
    "summary_ja": "AIを導入するベンダーには、可能な限り多くの保険金請求を拒否する動機が存在するという指摘が出ている。"
   },
   {
-   "id": "04526d636d9c",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "株式会社AITechと伏見工業株式会社、耐火被覆工事の積算・施工管理を効率化する「構造部材AI認識システム」を共同開発",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxd3FWRVNNRUJvWXVqY3gyczIxc3lzeld6aTI5Vkc3bC15U05uVjlKVnRKZEV4Mzl6bUJjSlBiS055VW9jb21PaWtTNXBvVUVWTGc5ZTJhb1RoUGZaZTduSnVkc283ZWY1bVE?oc=5",
-   "published": "2026-09-25T11:00+00:00",
-   "published_jst": "2026-09-25 20:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "351de34805f1",
-   "source": "信濃毎日新聞デジタル",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIを建設業の業務効率化に活用 シーティーエスが新サービス",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Fby1salN1VXhsaG9Kb1pfMkhtcTF4amdhNG11U2RSTTI1blBVd0hET3loRE9oaDZZSnBuenRVVUU1V1VVUXktR1F3OFNKTTRMNDNaMHdYLXlTVWVTTVZFWUFGb1JkSVhBQi1lTTZ3cDg?oc=5",
-   "published": "2026-09-25T10:55+00:00",
-   "published_jst": "2026-09-25 19:55",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "711e5d5bea55",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1140,19 +1059,6 @@
    "summary_ja": "9月は建設資材価格が再び上昇し、雇用も6ヶ月連続で増加するなど建設経済にとって明るいニュースが続いた。"
   },
   {
-   "id": "807a570fba86",
-   "source": "TVer",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI時代に不可欠なデータセンター 住宅地近くに必要とされる理由とは…住民から不安の声も",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1RWkNyd0hVcEpFcFBKWTNUSlZRcjQ0am5yV2R4czhtVEs5MlhKYzlkb012dThfR3gzYjFOZUlfdnBIRENEZG5yN0UwSQ?oc=5",
-   "published": "2026-09-25T09:18+00:00",
-   "published_jst": "2026-09-25 18:18",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "93b91a44c537",
    "source": "MIT Technology Review AI",
    "source_id": "mit_tr",
@@ -1183,19 +1089,6 @@
    "summary_ja": "大英博物館は、登録建造物である円形閲覧室の屋根の修復・一部交換を行う施工業者を募集している。契約価値は数百万ポンド規模に及ぶ。"
   },
   {
-   "id": "866bc321c677",
-   "source": "ITmedia",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現場データから判断／対応／記録を自動化 「BizStack Workflow」提供開始：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56eG1tYkh3R1dUc2ZDSklNdVBiYUlQTEVjeDl6Y3VqN3lJNG9DN3l2aTZ5TkV3WmhzRW9kb0JDQTZidnhuc3kteDFtc0dJdVJITVd4NUZsbkRoSlgzT2xFU0hqVG1CNTQxU0F3eQ?oc=5",
-   "published": "2026-09-25T09:00+00:00",
-   "published_jst": "2026-09-25 18:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "cd709d178590",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1207,19 +1100,6 @@
    "published_jst": "2026-09-25 17:20",
    "summary": "Black Forest LabsのマルチモーダルAIモデル「FLUX 3」から派生した、ロボット制御向けの世界行動モデル「FLUX 3 Action」が公開されました。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "7d0151d1b83a",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Proud Partners、建設特定技能コンソへの加盟を通じて建設業界の発展に寄与する",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTjVzMlFGNUI4bHEteno5YWFRVldRT1NuTmZfVmJnWTlhZXBqX2REZUZ6cEh3OHVmVXZEY3dMOVVVNnlEQk5ZaVJCLXg5T205MGxBeXowMVk4SG5XSWNYNnM5YUY2VmI5bktDSTdrcC1nUmtjUFdKbUhDdXhKaHM?oc=5",
-   "published": "2026-09-25T08:05+00:00",
-   "published_jst": "2026-09-25 17:05",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "7dd8943de4b6",
@@ -1336,19 +1216,6 @@
    "ai_related": true
   },
   {
-   "id": "fef7f8213569",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "移動式AI配筋検査システムで立会検査70％削減 鹿島建設と三菱電機エンジニアリング：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51NEw4amxfRzZzUllQUWt6Z1V0VkY4STlyN1BTYW5uenItbTY1eUdMZTV1bjh2WFNnakctNlpEQVh3X0xDWmxuOVNKLWlHMlNjZmU0Y1VqTVpybjhXTnJPVVU0V3BfbUtobjNrNg?oc=5",
-   "published": "2026-09-25T06:00+00:00",
-   "published_jst": "2026-09-25 15:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "2bb39dac0543",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1416,32 +1283,6 @@
    "ai_related": true
   },
   {
-   "id": "345a5661e7a0",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設業バックオフィスDX実態調査・第一弾】見積・契約・請求DX、企業規模で大きな差｜36.0%が「取引先・現場ごとの運用」を障壁に",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wa1cwbnFuRVFJX242b1A2Z1c0Z1QtckZabzdYYThpdlM2UXZ3ZDBMTThIOWlyNXJBbEVtSkZfaXlvdUxsS2NsY001Y0w4OU9GUXhnaWR4VGlEYUFoNnp5WS1ZTHNXRnpXVnc?oc=5",
-   "published": "2026-09-25T03:40+00:00",
-   "published_jst": "2026-09-25 12:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "24b365c0d3e4",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設業バックオフィスDX実態調査・第一弾】見積・契約・請求DX、企業規模で大きな差｜36.0%が「取引先・現場ごとの運用」を障壁に (2026年9月25日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GaGEyMDFIR0ZSX1RWMThUbGtLUm5FMTl4dkFoSU1DSW1kRjk0V29HR3NTMUJrSFNnNHhHR29YS2VoZkN0ZFJhZm5sU3YxX0U0ZUt6NTFjMmI1bU1lN0NhZ1d3?oc=5",
-   "published": "2026-09-25T03:40+00:00",
-   "published_jst": "2026-09-25 12:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "81bb03b58687",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1483,45 +1324,6 @@
    "summary_ja": "米国のモントレー湾国立海洋保護区にて、シロカツオドリやアオサギ、カリフォルニアカッショウペリカンを撮影。新しいキヤノン製レンズにより最高の写真が撮れた。"
   },
   {
-   "id": "c2def7fe5c33",
-   "source": "アットプレス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【住まいを選び直す自由】ー住宅流動性と人生設計の経済学ー （第７回：人生に伴走する社会へ／AIと制度とPropTech-Labが描く未来―前編）｜PropTech-Lab",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1QSU5RRUNlM2hYMmstOXc5RmxtRnlkemJCem0xWVFKSFhieFFxVV9CeVFobGthY090aUZSLUI3SF9sZmx3cTI0RElILWhFTlk?oc=5",
-   "published": "2026-09-25T02:00+00:00",
-   "published_jst": "2026-09-25 11:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "6ed93cdad4c0",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "シーティーエス、担い手不足の建設現場向けにAIエージェント「SAPマインド」提供開始",
-   "url": "https://news.build-app.jp/article/42816/",
-   "published": "2026-09-25T01:00+00:00",
-   "published_jst": "2026-09-25 10:00",
-   "summary": "建設ICTの専門企業である株式会社シーティーエス（本社：長野県上田市、代表取締役 社長執行役員：横島連、以下CTS）は、2026年10月1日...",
-   "ai_related": true
-  },
-  {
-   "id": "54dfe9601995",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「バーティカルAI」と「フィジカルAI」がけん引する建設DXの先の「土木AX」",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KRHRWV1RqMVN3MHU4NkNqbnNxTGVCNlcwVzlMcUh6ZGFpb0lCYnRVamRua1hUdnh5S2VoZEg4UXhjQll4N1ZWQ05aZ3Q2LWNsamt6OHhsSkQxQkdLYVdLY0FIUlJUaE1OdFVKNQ?oc=5",
-   "published": "2026-09-25T01:00+00:00",
-   "published_jst": "2026-09-25 10:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "15f3bf92e42d",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1548,19 +1350,6 @@
    "ai_related": true,
    "title_ja": "2026年9月24日のノート",
    "summary_ja": "コーディングエージェントと働く時間が長くなるほど、ソフトウェアエンジニアリングがより困難になっていると確信している。その潜在能力を引き出すには異例の自制心が必要だ。"
-  },
-  {
-   "id": "4c3640874a3e",
-   "source": "PRESIDENT Online（プレジデントオンライン）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "画像 | 3年前まで｢AI原則禁止｣だったのに…清水建設が｢わずか1年で利用者8倍､利用率44%｣に伸ばすためにやったこと",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1pYjJTM09yRnF2Y05VRDk5eXFqcEt5VzNsRk40d3RMVGFMQTBTclZ2TG1CWVRfZWw0Rk91QmFLOXYxWllJakk2R21PUkJYelMxUG40ZQ?oc=5",
-   "published": "2026-09-24T23:24+00:00",
-   "published_jst": "2026-09-25 08:24",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "7ec94e51762f",
@@ -1617,19 +1406,6 @@
    "ai_related": true
   },
   {
-   "id": "e9529596cc9d",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【画像】3年前まで｢AI原則禁止｣だったのに…清水建設が｢わずか1年で利用者8倍､利用率44%｣に伸ばすためにやったこと 3/4",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95TjRTbjN5RWlMR3VTbkNKYXBYRWd1WjQ5UDk2VWFXN0M5MGRFZHZ4VmVZd0oyVFhDN2l0T2NmTVp4blVEdjFVSnNzQUpsdzA4YjhlYUU3U0RnTzVrMkVZVXE3TzlFU0NWMzVDaDZqUDFJYWM1RXJBZmdlMkQ?oc=5",
-   "published": "2026-09-24T22:15+00:00",
-   "published_jst": "2026-09-25 07:15",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "daa191c7fd3e",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1654,32 +1430,6 @@
    "published_jst": "2026-09-25 07:00",
    "summary": "多言語を扱う業務では、翻訳のたびにAIと翻訳サービスを行き来する手間がある。DeepLはMCPに対応し、ChatGPTやMicrosoft Copilotなどから直接翻訳できる仕組みを提供する。",
    "ai_related": true
-  },
-  {
-   "id": "6f4097dbcf02",
-   "source": "PRESIDENT Online（プレジデントオンライン）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "3年前まで｢AI原則禁止｣だったのに…清水建設が｢わずか1年で利用者8倍､利用率44%｣に伸ばすためにやったこと",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GempfLUxOaENhZDFmT2pEd2VvdWJPYUZCSm1ZYjh4Wk5LaVdwYTJUZVpWUmE5ZThFNTBpaXRCZks0X2V5TVQxRlpDUzlXanF5NWQ0VFUtZWU?oc=5",
-   "published": "2026-09-24T22:00+00:00",
-   "published_jst": "2026-09-25 07:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "40408b12e45f",
-   "source": "アゴラ 言論プラットフォーム",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "オラクルが「不可抗力」宣言：AIデータセンター建設に危険信号",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3blJ6a2ROZ1J5UGlyaTQ5VS1qNVBrUV9wUENrLW5WemxaUXM5WGRzVWVUREhXSkhXMS1CTjNfakg3d2syb3dCUi1OY05VOUM0aVBONTdXT0w5a0k?oc=5",
-   "published": "2026-09-24T22:00+00:00",
-   "published_jst": "2026-09-25 07:00",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "5d5ee9271b5a",
