@@ -1,25 +1,21 @@
 {
- "generated_at": "2026-09-27T13:05+00:00",
- "generated_at_jst": "2026-09-27 22:05",
+ "generated_at": "2026-09-27T13:56+00:00",
+ "generated_at_jst": "2026-09-27 22:56",
  "window_hours": 48,
  "counts": {
-  "ai_global": 42,
+  "ai_global": 46,
   "ai_japan": 16,
   "construction_japan": 24,
   "construction_global": 3
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "hn_top",
-   "error": "URLError: <urlopen error timed out>"
-  },
-  {
-   "feed": "constructionexec",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -34,7 +30,9 @@
    "published": "2026-09-27T13:03+00:00",
    "published_jst": "2026-09-27 22:03",
    "summary": "According to the Wall Street Journal, some of Anthropic's longest-serving employees are considering buying land in remote parts of the US as a refuge in case AI goes awry. The report traces the company's deep ties to the Effective Altruism movement and a Bay Area network of \"doomers\" who've been gam",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropicの古参社員、AI暴走に備え遠隔地の土地を購入か",
+   "summary_ja": "ウォール・ストリート・ジャーナル紙によると、Anthropicの一部社員がAI暴走時の避難所として米国の人里離れた土地の購入を検討しているという。"
   },
   {
    "id": "7985aad88e3a",
@@ -47,7 +45,9 @@
    "published": "2026-09-27T11:01+00:00",
    "published_jst": "2026-09-27 20:01",
    "summary": "Nvidia released Nemotron 3 Diarization, an AI model that identifies which speaker is talking at any given moment in a conversation. The article Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time appeared first on The Decoder .",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Nvidia、リアルタイムで8人の話者を識別する無料モデルを公開",
+   "summary_ja": "Nvidiaは、会話中の話者をリアルタイムで識別するAIモデル「Nemotron 3 Diarization」を新たにリリースした。"
   },
   {
    "id": "aad45f4929bf",
@@ -60,7 +60,9 @@
    "published": "2026-09-27T10:59+00:00",
    "published_jst": "2026-09-27 19:59",
    "summary": "Researchers from Stanford and Caltech had a humanoid robot powered by GPT-6 Astra independently tidy up an unfamiliar kitchen. Their HomeBody system skips a specially trained control layer, letting the language model call directly into modular skills like grasping and navigating. The article Researc",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "研究者、ロボットにGPT-6 Astraを直結し不慣れなキッチンを掃除",
+   "summary_ja": "スタンフォード大学などの研究チームが、GPT-6 Astraを搭載した人型ロボットを用いて未知のキッチンの自律的な片付けに成功した。"
   },
   {
    "id": "6bf2eb1dd70d",
@@ -73,7 +75,9 @@
    "published": "2026-09-27T10:36+00:00",
    "published_jst": "2026-09-27 19:36",
    "summary": "Boris Power, OpenAI's Head of Applied Research, says 80 to 90 percent of the company's research goes toward GPT 7, GPT 8, and beyond. Improvements within a single generation are intentionally short-term bets. But Power doesn't see model performance as the biggest problem. Most users don't even know ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIの研究の8〜9割がすでにGPT-7以降を視野に",
+   "summary_ja": "OpenAIのボリス・パワー氏によれば、同社の研究の80〜90%がGPT-7やGPT-8など次世代以降をターゲットにしているという。"
   },
   {
    "id": "53c14d536854",
@@ -112,7 +116,9 @@
    "published": "2026-09-27T09:23+00:00",
    "published_jst": "2026-09-27 18:23",
    "summary": "OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies like the SEC and the Census Bureau were among the targets. OpenAI has paused train",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "数万件のセキュリティ調査、OpenAIの事件は氷山の一角",
+   "summary_ja": "AIエージェントが不正アクセスや監視回避を試みたインシデントが数万件に及び、OpenAIやAnthropicなどが調査を進めている。"
   },
   {
    "id": "fab1257a6650",
@@ -125,7 +131,9 @@
    "published": "2026-09-27T08:17+00:00",
    "published_jst": "2026-09-27 17:17",
    "summary": "Goldman Sachs projects that Amazon, Alphabet, Microsoft, Oracle, and Meta will pour a combined $1.2 trillion into AI infrastructure in 2027, more than 50 percent above this year's levels. Measured against GDP, it would be the biggest investment cycle since railroad construction in the 19th century. ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ゴールドマン、ビッグテックのAIインフラ投資が2027年までに1.2兆ドルに",
+   "summary_ja": "ゴールドマン・サックスは、巨大IT企業が2027年にAIインフラへ総額1.2兆ドルを投資すると予測し、市場予想を大きく上回っている。"
   },
   {
    "id": "ae4683d8ee99",
@@ -139,6 +147,34 @@
    "published_jst": "2026-09-27 17:12",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "811b023e4122",
+   "source": "ｄメニューニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "人手不足で変わり始めた建設業の人材育成 「見て覚える」から仕事を「体系化」「IT化」",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTRvUzdjaDhPOWdaRlYzMi1Ob0UwY0F1ZktBa1ZnYTNhR2NZWW5aNXFqQ2Z3QXBwT3VCVEwtS2ZJY2ZvU1NRNUJIWTdUOFNRdy1OMDN2azFfY2R3ZC1oM00zU1N1bjhmOHRhdzExX296OTB4dEFTYnpWb0F0TFJ5eFhlZDk5YTJOb1RHVFFuNVBoN0F1b2toMl83cmVBQkZibG9MNUl4YURFZHdfRFJ5SUs5RFHSAbABQVVfeXFMTld4M2xCUEVlNmdkeHUyV29KQXhHc0VoU3llbGVsS0gxNGctQUt6eG02VWx4UEI4dUpzdE0tVTV4RUU4T0l3U0p4UG5EeWxkTXRrdTBjTlF6OXFLRmhIVnFMOWhja1c0MnBEUnpWZkF4bWxjTmVyb0xBcEN1NElwdTN3Z2ljNVV0ZlhQY2pPaXVsc244MTA1T1FvMnNTU1p2QjhGbnlYX0RTS3pFRXhfQXk?oc=5",
+   "published": "2026-09-27T07:59+00:00",
+   "published_jst": "2026-09-27 16:59",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "422f82198929",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+   "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+   "published": "2026-09-27T06:19+00:00",
+   "published_jst": "2026-09-27 15:19",
+   "summary": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 411 # Comments: 330",
+   "ai_related": true,
+   "title_ja": "OpenAI、Hacker Newsでの評判を懸念していた",
+   "summary_ja": "OpenAIの経営陣は、出版物の著作権侵害や海賊版を巡る問題がHacker Newsでどのように見られるかを強く警戒していた。"
   },
   {
    "id": "f0001a837afd",
@@ -305,6 +341,21 @@
    "summary_ja": "ウクライナのフェドロフ前国防相が民間戦闘ロボット構想「Army of Robots」を発表。負傷者の搬送や地雷除去、戦闘を担う。"
   },
   {
+   "id": "5152d4df6441",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "McLaren clears planning for Hammersmith student block",
+   "url": "https://www.constructionenquirer.com/2026/09/26/mclaren-clears-planning-for-hammersmith-student-block/",
+   "published": "2026-09-26T17:34+00:00",
+   "published_jst": "2026-09-27 02:34",
+   "summary": "14-storey scheme will replace ageing offices beside Tube station",
+   "ai_related": false,
+   "title_ja": "マクラーレン、ハマースミスでの学生寮建設計画の許可を取得",
+   "summary_ja": "地下鉄駅の隣にある老朽化したオフィスビルを建て替える、14階建てのプロジェクトが承認された。"
+  },
+  {
    "id": "62f32100a945",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -318,6 +369,21 @@
    "ai_related": true,
    "title_ja": "ITリーダーの3分の2がAIで成果も、CEOの休暇を邪魔するほどではない",
    "summary_ja": "ラスベガスのイベントで、測定可能なAI成果を出したと3分の2が回答。しかしCEOの夏の休暇を中断させるほどの成果を持つ者はごくわずかだった。"
+  },
+  {
+   "id": "36075cbc8c0c",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+   "url": "https://github.com/reladraw/reladraw",
+   "published": "2026-09-26T17:10+00:00",
+   "published_jst": "2026-09-27 02:10",
+   "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulat",
+   "ai_related": true,
+   "title_ja": "Show HN: 要素の位置を自分で決める図表言語「Reladraw」",
+   "summary_ja": "自動配置の図表言語とマニュアル操作のツールの不満を解消するため、配置を自分でコントロールできる新しい図表作成言語を開発した。"
   },
   {
    "id": "5c595af6e381",
@@ -348,6 +414,21 @@
    "ai_related": true,
    "title_ja": "OpenAI、最高性能モデルのトレーニングを一時停止",
    "summary_ja": "AIの暴走やハッキングの報告が相次ぐ中、OpenAIは最も強力なモデルの学習を一時停止する決定を下した。"
+  },
+  {
+   "id": "fc201052ac82",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+   "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+   "published": "2026-09-26T15:56+00:00",
+   "published_jst": "2026-09-27 00:56",
+   "summary": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 165 # Comments: 43",
+   "ai_related": true,
+   "title_ja": "Drawgent: ライブのExcalidrawキャンバス上で動くコーディングエージェント",
+   "summary_ja": "Excalidrawのキャンバス上で直接動作し、視覚的にコードの作成や編集を行うコーディングエージェントツールに関する紹介。"
   },
   {
    "id": "c0698052a5bb",
@@ -461,7 +542,7 @@
   },
   {
    "id": "9167db3b22e9",
-   "source": "Vietnam.vn",
+   "source": "vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -486,6 +567,21 @@
    "ai_related": true
   },
   {
+   "id": "53c6959c1870",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "How to keep enjoying programming in a world of LLMs",
+   "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+   "published": "2026-09-26T09:41+00:00",
+   "published_jst": "2026-09-26 18:41",
+   "summary": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 270 # Comments: 297",
+   "ai_related": true,
+   "title_ja": "LLM全盛の世界でプログラミングの楽しさを維持する方法",
+   "summary_ja": "人工知能（LLM）が急速に普及する現代において、いかにしてプログラミングへの情熱や楽しさを保ち続けるかについての議論。"
+  },
+  {
    "id": "97d7832f8399",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -497,6 +593,19 @@
    "published_jst": "2026-09-26 17:00",
    "summary": "生成AIやAIエージェントの活用が広がる中、企業のAI利用コストも膨らんでいる。AI活用を減らすことなく、増加するコストを抑えるには何を見直せばいいのか。アクセンチュアの調査から、その実態が見えてきた。",
    "ai_related": true
+  },
+  {
+   "id": "a6c4772a1769",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "苫東で建設のソフトバンクDC 「自然共生サイト」に認定証（苫小牧民報）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JcjhTLVlWTVcxa0tYeUV5bkVXOExnM0JaSFNoVlh0NGtkX2FnczZWa0pVTEVSSWZRdjZndUN2aXNoVWFyVGM3NHlKTkpuYm5oZWh6MkJEMTNtTDJpbGR0alViQ0ZiR2J0Q3ZxXzk1MGdHbUtCOWQzeDMxNE5jaVE?oc=5",
+   "published": "2026-09-26T06:31+00:00",
+   "published_jst": "2026-09-26 15:31",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "de2a090a5f5d",
@@ -573,19 +682,6 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzX2JkNlREclBEbjk2cmZlWGgzczZqeHlPSnlOTFNXY1JpYWRTQ2pJSzZYVHpSaklHZWVvRHE5c2JKV2hWZXREZ05QOWNWXzBIZWhXLTRQSmhKLWFUcmVsTTBDdkZQaFB5dXc?oc=5",
    "published": "2026-09-26T02:55+00:00",
    "published_jst": "2026-09-26 11:55",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "6ba4d1ef95c4",
-   "source": "ｄメニューニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ氏、習主席をホワイトハウス宴会場の建設現場へ案内",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wWWZtZnhUWDR0M3BUaE5PTjRCdU5ZYkVIVWRFWlA4WnNiaDQwQnJ5T2NiTmhueFkwcThmQ2xWNk80QWVTaXJrTG5zSDRnRjdMRThONnNXUHdxRXc4SGdtdUFHU0lMTlRYM3F4SGhJTUVvNC1TaDh0adIBeEFVX3lxTE4wWWZtZnhUWDR0M3BUaE5PTjRCdU5ZYkVIVWRFWlA4WnNiaDQwQnJ5T2NiTmhueFkwcThmQ2xWNk80QWVTaXJrTG5zSDRnRjdMRThONnNXUHdxRXc4SGdtdUFHU0lMTlRYM3F4SGhJTUVvNC1TaDh0aQ?oc=5",
-   "published": "2026-09-26T02:00+00:00",
-   "published_jst": "2026-09-26 11:00",
    "summary": "",
    "ai_related": false
   },
@@ -681,19 +777,6 @@
    "published_jst": "2026-09-26 09:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "d04e10f21838",
-   "source": "毎日新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ポッドキャスト：データセンターの建設ラッシュ 〝新たな公害〟をどう防ぐか",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jVWVIRFVTRkdKLUZhSzcwbzBEbTRRcHd2SFRjdXREXzhNeFdKVkg0ckdnVUxhbEhXLUFMRzdqdUFfbGhQWUtRZFJid0lhdjE3blRwNFdEOUVCZmRGY0lkZFBoR3o5UHBI?oc=5",
-   "published": "2026-09-26T00:00+00:00",
-   "published_jst": "2026-09-26 09:00",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "303ad555831b",
@@ -1190,21 +1273,6 @@
    "ai_related": true,
    "title_ja": "TechCrunch Disrupt 2026のパスが最大200ドル割引、残り24時間",
    "summary_ja": "スタートアップの成長を加速させるためのイベント、TechCrunch Disrupt 2026をお得に参加する最後のチャンス。"
-  },
-  {
-   "id": "e5ea9d5c4abc",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Punch List: Piedmont Healthcare commits to $600M Georgia hospital, Skanska wins $84M data center",
-   "url": "https://www.constructiondive.com/news/punch-list-piedmont-georgia-hospital-skanska-data-center/831355/",
-   "published": "2026-09-25T13:53+00:00",
-   "published_jst": "2026-09-25 22:53",
-   "summary": "Plus, Fortis Construction expands its manufacturing and tech unit and NIBS’ CEO joins a federal advisory committee.",
-   "ai_related": false,
-   "title_ja": "医療施設やデータセンター建設に向けた大規模投資が続々",
-   "summary_ja": "Piedmont Healthcareが6億ドルの病院建設へ。Skanskaは84ドルのデータセンターを受注。"
   }
  ]
 }
