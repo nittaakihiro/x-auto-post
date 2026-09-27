@@ -1,24 +1,52 @@
 {
- "generated_at": "2026-09-26T23:55+00:00",
- "generated_at_jst": "2026-09-27 08:55",
+ "generated_at": "2026-09-27T00:29+00:00",
+ "generated_at_jst": "2026-09-27 09:29",
  "window_hours": 48,
  "counts": {
   "ai_japan": 27,
-  "ai_global": 46,
+  "ai_global": 48,
   "construction_japan": 26,
-  "construction_global": 11
+  "construction_global": 16
  },
  "errors": [
   {
-   "feed": "venturebeat_ai",
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "8b10b3a42295",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「Apple Watch Ultra 4」使ってみたレビュー、重いしデカイけどバッテリー持ちはバツグンでiPhoneなしでも高精度",
+   "url": "https://gigazine.net/news/20260927-apple-watch-ultra-4-review/",
+   "published": "2026-09-27T00:00+00:00",
+   "published_jst": "2026-09-27 09:00",
+   "summary": "2026年9月18日(金)、Apple Watchの最上位モデルとなる「Apple Watch Ultra 4」が発売されました。ハイエンドモデルのApple Watch Ultra 4の性能やいかにということで、普段Apple Watch Series 3を使っているGIGAZINE編集部員が、実際にいろいろ使ってみました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "ffc80d14a58c",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Kākāpō Party",
+   "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+   "published": "2026-09-26T23:39+00:00",
+   "published_jst": "2026-09-27 08:39",
+   "summary": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz a",
+   "ai_related": true,
+   "title_ja": "カカポ・パーティでの基調講演",
+   "summary_ja": "WeAreDevelopersの北米大会で閉会基調講演を行い、記録的なカカポの繁殖シーズンについて言及しました。"
+  },
   {
    "id": "29d206825656",
    "source": "GIGAZINE",
@@ -89,6 +117,21 @@
    "ai_related": true,
    "title_ja": "ITリーダーの3分の2がAIで成果も、CEOの休暇を邪魔するほどではない",
    "summary_ja": "ラスベガスのイベントで、測定可能なAI成果を出したと3分の2が回答。しかしCEOの夏の休暇を中断させるほどの成果を持つ者はごくわずかだった。"
+  },
+  {
+   "id": "36075cbc8c0c",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+   "url": "https://github.com/reladraw/reladraw",
+   "published": "2026-09-26T17:10+00:00",
+   "published_jst": "2026-09-27 02:10",
+   "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulat",
+   "ai_related": true,
+   "title_ja": "配置を自分で決める図作成言語Reladraw",
+   "summary_ja": "自動配置のMermaidや手動のDraw.ioの不満を解消する、自分で要素の配置を決定できる図作成言語です。"
   },
   {
    "id": "5c595af6e381",
@@ -1037,6 +1080,66 @@
    "summary_ja": "マイクロソフトはチャット、コーディング、エージェント機能を統合した新しい「Copilot」を発表した。"
   },
   {
+   "id": "93495ef7f585",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Portakabin revises healthcare strategy as profit dips",
+   "url": "https://www.constructionnews.co.uk/financial/portakabin-revises-healthcare-strategy-as-profit-dips-25-09-2026/",
+   "published": "2026-09-25T11:45+00:00",
+   "published_jst": "2026-09-25 20:45",
+   "summary": "Portakabin’s financial performance has taken a hit after problems with its construction of large permanent healthcare buildings. The modular hire and construction firm’s turnover fell to £516m in the year to 31 December 2025, newly published accounts show. This was down from £619m in the… The post P",
+   "ai_related": false,
+   "title_ja": "Portakabinが医療戦略を修正、利益減少",
+   "summary_ja": "医療用大型建物の建設における問題から業績が低迷し、売上高が減少しました。"
+  },
+  {
+   "id": "4b5b3816e5d3",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Berkeley subsidiary and Lindner Prater fined £1.3m over death of passerby",
+   "url": "https://www.constructionnews.co.uk/buildings/building-safety/berkeley-subsidiary-and-lindner-prater-fined-1-3m-over-death-of-passerby-25-09-2026/",
+   "published": "2026-09-25T11:45+00:00",
+   "published_jst": "2026-09-25 20:45",
+   "summary": "A Berkeley Group subsidiary and Lindner Prater have been fined a combined £1.3m after a window unit fell from the 26th floor of a luxury development in London, killing a man walking below. On 2 October 2018, father and grandfather Mick Ferris, 53, was on… The post Berkeley subsidiary and Lindner Pra",
+   "ai_related": false,
+   "title_ja": "歩行者死亡事故で企業2社に130万ポンドの罰金",
+   "summary_ja": "ロンドンの高級開発物件の26階から窓が落下し歩行者が死亡した事故で、関連企業2社に罰金が科されました。"
+  },
+  {
+   "id": "2a44e810d147",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Scaffolders’ body set to leave CSCS card scheme",
+   "url": "https://www.constructionnews.co.uk/skills/scaffolders-body-set-to-leave-cscs-card-scheme-25-09-2026/",
+   "published": "2026-09-25T11:45+00:00",
+   "published_jst": "2026-09-25 20:45",
+   "summary": "The Construction Industry Scaffolders Record Scheme (CISRS) is set to leave the Construction Skills Certification Scheme (CSCS). The scaffolding training body has given notice that it will withdraw from the CSCS card scheme on 1 June 2027, because of potential legal issues if it remains.… The post S",
+   "ai_related": false,
+   "title_ja": "足場工事業団体がCSCSカードスキームから離脱へ",
+   "summary_ja": "CISRSは、建設スキル認証スキーム（CSCS）からの離脱を通知し、カード制度から撤退する方針です。"
+  },
+  {
+   "id": "d3a8f83e27f0",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Ex-employees of liquidated window supplier win redundancy claims",
+   "url": "https://www.constructionnews.co.uk/financial/ex-employees-of-liquidated-window-supplier-win-redundancy-claims-25-09-2026/",
+   "published": "2026-09-25T11:45+00:00",
+   "published_jst": "2026-09-25 20:45",
+   "summary": "Former employees of a liquidated uPVC window and door supplier have won an employment tribunal case over a failure to consult them before they were made redundant. The 65 ex-staff members of ERV Group, which traded as Evoframes, won the case, which claimed that the… The post Ex-employees of liquidat",
+   "ai_related": false,
+   "title_ja": "清算された窓供給業者の元従業員が解雇補償を獲得",
+   "summary_ja": "事前協議なしで解雇された元従業員65名が、労働審判で勝訴し解雇補償を獲得しました。"
+  },
+  {
    "id": "6c45d717ee35",
    "source": "下野新聞社",
    "source_id": "gnews_kensetsu_ai",
@@ -1140,7 +1243,9 @@
    "published": "2026-09-25T10:00+00:00",
    "published_jst": "2026-09-25 19:00",
    "summary": "Construction input prices jumped up again, jobs were added for the sixth month in a row and more positive news for the construction economy in September. The post Construction Futures: September 2026 Economic Roundup first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "建設業界の未来：2026年9月経済動向まとめ",
+   "summary_ja": "9月は建設資材価格が再び上昇し、雇用は6カ月連続で増加するなど建設経済にとって前向きなニュースが見られました。"
   },
   {
    "id": "807a570fba86",
@@ -1171,8 +1276,23 @@
    "summary_ja": "米国防総省の予算要求によると、今後5年間で高度な新型嘘発見器の開発に3030万ドルを投じる計画である。"
   },
   {
+   "id": "e6ff52cde82d",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "British Museum tenders Reading Room roof repairs",
+   "url": "https://www.constructionnews.co.uk/contracts/british-museum-tenders-reading-room-roof-repairs-25-09-2026/",
+   "published": "2026-09-25T09:07+00:00",
+   "published_jst": "2026-09-25 18:07",
+   "summary": "The British Museum is seeking a contractor to repair and replace parts of the roof over its Grade I-listed Round Reading Room. The contract is valued at £9m excluding VAT and £10.8m including VAT. The museum sought a principal contractor to carry out roof, glazing,… The post British Museum tenders R",
+   "ai_related": false,
+   "title_ja": "大英博物館が閲覧室の屋根修繕工事を公募",
+   "summary_ja": "大英博物館は、指定建造物の円形閲覧室の屋根の修理・交換を行う施工業者を募集しています。契約価値は約900万ポンドです。"
+  },
+  {
    "id": "866bc321c677",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1377,7 +1497,7 @@
   },
   {
    "id": "fef7f8213569",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1511,7 +1631,7 @@
   },
   {
    "id": "c2def7fe5c33",
-   "source": "アットプレス",
+   "source": "atpress.ne.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1537,7 +1657,7 @@
   },
   {
    "id": "54dfe9601995",
-   "source": "ITmedia",
+   "source": "built.itmedia.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1546,19 +1666,6 @@
    "published": "2026-09-25T01:00+00:00",
    "published_jst": "2026-09-25 10:00",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "15f3bf92e42d",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Google、リアルタイムで表情豊かに話すAIアバター「Gemini 3.8 Live with Live Avatar」提供開始 画像1枚で独自アバターも",
-   "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001730/",
-   "published": "2026-09-25T00:10+00:00",
-   "published_jst": "2026-09-25 09:10",
-   "summary": "Googleは、リアルタイム音声対話と動画生成アバターを組み合わせた「Gemini 3.8 Live with Live Avatar」をGemini Enterpriseで提供を開始した。写真1枚から自然に応答するアバターを生成し、多言語や非同期ツール実行に対応。顧客対応や店頭端末などの商用展開を見込む。",
    "ai_related": true
   }
  ]
