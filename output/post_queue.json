@@ -12393,5 +12393,51 @@
       "unverified": "本セッションのネットワーク制限でthe-decoder.comおよびepoch.ai(一次ベンチマーク公開元)へのWebFetchがブロックされ、直接の原文確認はできなかった。WebSearchで得た複数の独立した二次情報(whattheai.tech, hermes-ai.net, alphasignal.ai, aiandtech.news, techmeridian.news等)がGPT-6 Astra 80%・Claude Opus 4.5 28%・Claude Fable 5.1 70%・Claude Opus 5 61%・判定時間中央値3分の数値で一致しており、これらの一致をもって内容の裏付けとした。post_queue.jsonの直近14日・今日のmorning/noon/evening枠と重複がないことは確認済み。data/analytics/live_metrics.jsonは前回確認時点でfetched_atが7日超のため実投稿との重複は未確認(実投稿未確認)。",
       "hook_alternative": "案A(採用): ベンチマークの数値更新(28%→80%)を軸にした比較形式。案B: Axios発のAIエージェント大量インシデント調査ニュースを速報として採用する案も検討したが、朝枠と主題が重なり、数字も伝聞ベースで一次確認ができないため見送った。"
     }
+  },
+  {
+    "id": "2026-09-28_07:25",
+    "date": "2026-09-28",
+    "time": "07:25",
+    "text": "NVIDIAが、会話中の発言を「誰が話したか」まで自動で聞き分けるAIモデル「Nemotron 3 Diarization」を公開しました。パラメータ数は1億とコンパクトながら、重なって話す声も含め最大8人まで識別でき、ストリーミングでも録音音声でも使えます。第三者ベンチマーク「VoiceArena」の話者分離部門では誤り率14.72%で1位となり、NVIDIA自身の従来モデルより約10ポイント改善したとのこと。重みはHugging Faceで公開され、既存の音声認識モデルと組み合わせて使う設計です。複数人が同時に話す打ち合わせや会議の議事録を、発言者ごとに自動で仕分けられるようになりそうです。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "screenshot",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\nNVIDIA公式ブログ（Hugging Face掲載）「Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization」\nhttps://huggingface.co/blog/nvidia/nemotron-diarization\nモデルカード: https://huggingface.co/nvidia/Nemotron-3-Diarization\n公式X（@NVIDIAAI, 2026-09-23）: https://x.com/NVIDIAAI/status/2102775666366435450\nライブデモ: https://huggingface.co/spaces/nvidia/nemotron-diarization\n※本セッションの通信制限でhuggingface.co・the-decoder.comへ直接アクセスできず、検索結果に表示された公式ページの引用・GIGAZINE/HackerNoon等の複数独立媒体の一致で内容を確認。DER・latency等の数値は公式ページからの二次的な引用のため、投稿前に一次ページを直接確認できると尚良い。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "速報",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 1,
+        "自分の追加価値": 1,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "news_feed.jsonのai_global(新しい順27件)とai_buzz.jsonの[AI-global]/[AI海外バズ]計29件を確認したが、公式アカウント(OpenAI/AnthropicAI/GoogleDeepMind/sama/gdb)の一次発表は本日分に含まれず。候補比較: ①採用: NVIDIA「Nemotron 3 Diarization」公開(9/23、news_feed the-decoder経由9/27検出)—無料・オープンライセンスの話者分離モデル、8人まで識別、VoiceArenaベンチマーク1位という具体的な新規性と、会議・打ち合わせの議事録という分かりやすい用途がある(9点相当)。②除外: OpenAI「GPT-6 Astra」をロボットに接続しキッチン片付け実演(the-decoder, 9/27)—同一プロダクトを9/27夜枠(家具組み立てベンチマーク)で直前に扱ったばかりで連続になるため見送り。③除外: OpenAI研究者が『研究の8-9割はGPT-7以降』とコメント(the-decoder)—新製品・新機能の発表ではなく方針コメントで、読者への実利がはっきりしない(5点相当)。④除外: Fireworks AI「Ember-1」推論トークン削減モデル(HN 172pt, 9/23)—本セッションでegress制限によりfireworks.aiへ直接アクセスできず、数値(削減率35-40%等)が二次情報のみで裏取り不足(6点相当、要再検証)。⑤除外: Meta「Muse」の信頼性を論じるTechCrunchのオピニオン記事(9/27)—9/26朝枠の週次まとめで既出のMuseの話題を分析視点で繰り返すのみで一次発表がない(4点相当)。⑥除外: Microsoft/Qualcomm「Copilot+ PC」ブランドの実質消滅(GIGAZINE, 9/27)—新しくできることの発表ではなくブランド終了のニュースで朝枠の趣旨に合わない(4点相当)。⑦確認: 自社と競合する建設AIサービス(光/Hikari・ミャク楽・Motif等)に該当する候補なし。朝枠は一般AI中心のため建設への無理な接続はせず、事実関係を淡々と伝える構成にした。",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "published_at": "モデル公開2026-09-23。news_feed.json記録のThe Decoder記事検出は2026-09-27 20:01 JST。",
+      "checked_at": "2026-09-28T06:30+09:00",
+      "availability": "Hugging Face上でオープンウェイト(openmdw-1.1ライセンス)として一般提供中。パラメータ数約1億、ストリーミング・オフライン双方の推論に対応し、既存のASR(音声認識)モデルと組み合わせて使う設計。価格は無料の重み公開であり、サードパーティのホスティング価格(Baseten等)は公式レートではないため本文に含めていない。",
+      "unverified": "本セッションのネットワーク制限でhuggingface.co・the-decoder.comへの直接WebFetchがEGRESS_BLOCKEDとなり、公式ページ本文を直接開けなかった。WebSearchのスニペットで公式モデルカード・公式ブログの引用文、および@NVIDIAAIの公式X投稿の引用、GIGAZINE/HackerNoon/Unite.AI等の複数独立媒体の記述が一致することで内容を確認した。DER14.72%・改善幅約10ポイントなどの数値は上記の二次引用に基づく。post_queue.jsonの直近14日およびlive_metrics.json(fetched_at 2026-09-20、8日前のデータで古い)を確認したが、本ネタ・NVIDIA関連の重複投稿はなし(実投稿はfetched_at古さのため断定不可)。",
+      "hook_alternative": "案A(採用): モデル名を先に出し、できること(話者分離)→性能(8人・ベンチマーク1位)→用途(議事録)の順で伝える速報の型。案B: 『会議の議事録が変わるかもしれません』と読者価値を先に出す案も検討したが、具体的な製品名・数値が先に来る方が他の速報と違いが伝わりやすいため案Aを採用。"
+    }
   }
 ]
