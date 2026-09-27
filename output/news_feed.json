@@ -1,24 +1,41 @@
 {
- "generated_at": "2026-09-27T12:29+00:00",
- "generated_at_jst": "2026-09-27 21:29",
+ "generated_at": "2026-09-27T13:05+00:00",
+ "generated_at_jst": "2026-09-27 22:05",
  "window_hours": 48,
  "counts": {
-  "ai_global": 48,
+  "ai_global": 42,
   "ai_japan": 16,
   "construction_japan": 24,
-  "construction_global": 4
+  "construction_global": 3
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "hn_top",
+   "error": "URLError: <urlopen error timed out>"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "acac335c7b1b",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Some Anthropic veterans are reportedly buying remote land in case \"AI goes awry\"",
+   "url": "https://the-decoder.com/some-anthropic-veterans-are-reportedly-buying-remote-land-in-case-ai-goes-awry/",
+   "published": "2026-09-27T13:03+00:00",
+   "published_jst": "2026-09-27 22:03",
+   "summary": "According to the Wall Street Journal, some of Anthropic's longest-serving employees are considering buying land in remote parts of the US as a refuge in case AI goes awry. The report traces the company's deep ties to the Effective Altruism movement and a Bay Area network of \"doomers\" who've been gam",
+   "ai_related": true
+  },
   {
    "id": "7985aad88e3a",
    "source": "The Decoder",
@@ -124,19 +141,6 @@
    "ai_related": false
   },
   {
-   "id": "422f82198929",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
-   "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-   "published": "2026-09-27T06:19+00:00",
-   "published_jst": "2026-09-27 15:19",
-   "summary": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 302 # Comments: 253",
-   "ai_related": true
-  },
-  {
    "id": "f0001a837afd",
    "source": "Межа. Новини України.",
    "source_id": "gnews_kensetsu_ai",
@@ -164,7 +168,7 @@
   },
   {
    "id": "c35245295b06",
-   "source": "ja.laodong.vn",
+   "source": "Laodong.vn",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -190,7 +194,7 @@
   },
   {
    "id": "7750d54d4b48",
-   "source": "ja.laodong.vn",
+   "source": "Laodong.vn",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -316,21 +320,6 @@
    "summary_ja": "ラスベガスのイベントで、測定可能なAI成果を出したと3分の2が回答。しかしCEOの夏の休暇を中断させるほどの成果を持つ者はごくわずかだった。"
   },
   {
-   "id": "36075cbc8c0c",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-   "url": "https://github.com/reladraw/reladraw",
-   "published": "2026-09-26T17:10+00:00",
-   "published_jst": "2026-09-27 02:10",
-   "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulat",
-   "ai_related": true,
-   "title_ja": "配置を自分で決める図作成言語Reladraw",
-   "summary_ja": "自動配置のMermaidや手動のDraw.ioの不満を解消する、自分で要素の配置を決定できる図作成言語です。"
-  },
-  {
    "id": "5c595af6e381",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -359,19 +348,6 @@
    "ai_related": true,
    "title_ja": "OpenAI、最高性能モデルのトレーニングを一時停止",
    "summary_ja": "AIの暴走やハッキングの報告が相次ぐ中、OpenAIは最も強力なモデルの学習を一時停止する決定を下した。"
-  },
-  {
-   "id": "fc201052ac82",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Drawgent: Coding agent on a live Excalidraw canvas",
-   "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-   "published": "2026-09-26T15:56+00:00",
-   "published_jst": "2026-09-27 00:56",
-   "summary": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 158 # Comments: 42",
-   "ai_related": true
   },
   {
    "id": "c0698052a5bb",
@@ -508,36 +484,6 @@
    "published_jst": "2026-09-26 18:48",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "ffb43e9b99cf",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf",
-   "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
-   "published": "2026-09-26T09:44+00:00",
-   "published_jst": "2026-09-26 18:44",
-   "summary": "OpenAI's GPT-6 Astra can look at a photo and tell whether an IKEA furniture piece was assembled incorrectly, hitting an 80 percent accuracy rate. Back in November 2025, the best model managed just 28 percent. According to Epoch AI, the speed isn't quite fast enough yet for real-time assembly guidanc",
-   "ai_related": true,
-   "title_ja": "OpenAIのGPT-6 Astra、IKEAの家具組み立てミスを指摘",
-   "summary_ja": "OpenAIのGPT-6 Astraは写真からIKEA家具の組み立てミスを80%の精度で指摘できる。2025年11月時点の最高モデルはわずか28%だった。"
-  },
-  {
-   "id": "53c6959c1870",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How to keep enjoying programming in a world of LLMs",
-   "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-   "published": "2026-09-26T09:41+00:00",
-   "published_jst": "2026-09-26 18:41",
-   "summary": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 250 # Comments: 280",
-   "ai_related": true,
-   "title_ja": "LLM時代においてもプログラミングを楽しむ方法",
-   "summary_ja": "HaskellコミュニティおよびHacker Newsにおける、AI全盛期のプログラミングの楽しみ方に関する議論のリンクとコメント数。"
   },
   {
    "id": "97d7832f8399",
@@ -1259,51 +1205,6 @@
    "ai_related": false,
    "title_ja": "医療施設やデータセンター建設に向けた大規模投資が続々",
    "summary_ja": "Piedmont Healthcareが6億ドルの病院建設へ。Skanskaは84ドルのデータセンターを受注。"
-  },
-  {
-   "id": "78ecb1011f97",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Does Georgism work? Five years later",
-   "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
-   "published": "2026-09-25T13:48+00:00",
-   "published_jst": "2026-09-25 22:48",
-   "summary": "Article URL: https://www.astralcodexten.com/p/does-georgism-work-five-years-later Comments URL: https://news.ycombinator.com/item?id=49844657 Points: 378 # Comments: 272",
-   "ai_related": true,
-   "title_ja": "ジョージ主義は機能するのか？5年後の検証",
-   "summary_ja": "土地価値税などを提唱するジョージ主義の有効性について、5年経過時点での検証を行った記事と議論へのリンク。"
-  },
-  {
-   "id": "f5e0462c8aed",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
-   "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
-   "published": "2026-09-25T13:00+00:00",
-   "published_jst": "2026-09-25 22:00",
-   "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion detected\" notification from my security camera. \"",
-   "ai_related": true,
-   "title_ja": "Apple HomeのAIカメラは他社より優れているか？検証してみた",
-   "summary_ja": "ビーチで子供たちのイースターエッグ探しを見守る中、ポケットのスマホが何度も振動した。"
-  },
-  {
-   "id": "0faf755eb4a4",
-   "source": "Global Construction Review",
-   "source_id": "gcr",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Museum co-founded by Star Wars creator opens in Los Angeles",
-   "url": "https://www.globalconstructionreview.com/museum-co-founded-by-star-wars-creator-opens-in-los-angeles/",
-   "published": "2026-09-25T12:32+00:00",
-   "published_jst": "2026-09-25 21:32",
-   "summary": "The Lucas Museum of Narrative Art, co-founded by director George Lucas who created the Star Wars and Indiana Jones franchises, has opened to the public in Los Angeles’ Exposition Park.… The post Museum co-founded by Star Wars creator opens in Los Angeles appeared first on Global Construction Review ",
-   "ai_related": false,
-   "title_ja": "スター・ウォーズの生みの親が共同設立した美術館が開館",
-   "summary_ja": "ジョージ・ルーカスが共同設立したルーカス・叙事詩・アート美術館がロサンゼルスに一般公開された。"
   }
  ]
 }
