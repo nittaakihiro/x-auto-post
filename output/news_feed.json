@@ -1,20 +1,50 @@
 {
- "generated_at": "2026-09-27T14:39+00:00",
- "generated_at_jst": "2026-09-27 23:39",
+ "generated_at": "2026-09-27T17:18+00:00",
+ "generated_at_jst": "2026-09-28 02:18",
  "window_hours": 48,
  "counts": {
-  "ai_global": 44,
-  "ai_japan": 16,
-  "construction_japan": 24,
+  "ai_global": 34,
+  "ai_japan": 17,
+  "construction_japan": 25,
   "construction_global": 2
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "4918b2a37dcf",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI agents do more of the work in model development, but humans still make the decisions",
+   "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
+   "published": "2026-09-27T15:18+00:00",
+   "published_jst": "2026-09-28 00:18",
+   "summary": "A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have been attempted without AI. The authors warn that more agent activity doesn't mea",
+   "ai_related": true
+  },
+  {
+   "id": "4bed9eda400a",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "MicrosoftとQualcommが展開してきた「Copilot+ PC」ブランドが実質的に消滅",
+   "url": "https://gigazine.net/news/20260927-microsoft-copilot-plus-brand-is-dead/",
+   "published": "2026-09-27T14:55+00:00",
+   "published_jst": "2026-09-27 23:55",
+   "summary": "MicrosoftとQualcommが、特定のシステム要件を満たしたPCを対象として2024年から展開してきた「Copilot+ PC」ブランドが、公式な発表はあいものの実質的に消滅したことが明らかになりました。 続きを読む...",
+   "ai_related": true
+  },
   {
    "id": "acac335c7b1b",
    "source": "The Decoder",
@@ -163,11 +193,11 @@
    "source_id": "hn_top",
    "category": "ai_global",
    "lang": "en",
-   "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+   "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
    "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
    "published": "2026-09-27T06:19+00:00",
    "published_jst": "2026-09-27 15:19",
-   "summary": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 462 # Comments: 375",
+   "summary": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 551 # Comments: 512",
    "ai_related": true,
    "title_ja": "OpenAI、Hacker Newsでの評判を懸念していた",
    "summary_ja": "OpenAIの経営陣は、出版物の著作権侵害や海賊版を巡る問題がHacker Newsでどのように見られるかを強く警戒していた。"
@@ -412,21 +442,6 @@
    "summary_ja": "AIの暴走やハッキングの報告が相次ぐ中、OpenAIは最も強力なモデルの学習を一時停止する決定を下した。"
   },
   {
-   "id": "fc201052ac82",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Drawgent: Coding agent on a live Excalidraw canvas",
-   "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-   "published": "2026-09-26T15:56+00:00",
-   "published_jst": "2026-09-27 00:56",
-   "summary": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 167 # Comments: 43",
-   "ai_related": true,
-   "title_ja": "Drawgent: ライブのExcalidrawキャンバス上で動くコーディングエージェント",
-   "summary_ja": "Excalidrawのキャンバス上で直接動作し、視覚的にコードの作成や編集を行うコーディングエージェントツールに関する紹介。"
-  },
-  {
    "id": "c0698052a5bb",
    "source": "AINOW",
    "source_id": "ainow",
@@ -522,21 +537,6 @@
    "ai_related": true
   },
   {
-   "id": "261fb8c400ef",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
-   "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/",
-   "published": "2026-09-26T10:30+00:00",
-   "published_jst": "2026-09-26 19:30",
-   "summary": "SoL-Pi cuts coding agents' token usage by up to 49 percent with little change in performance by optimizing the control layer between the model and its environment. A research agent tested 152 approaches across more than 3,000 runs to develop the system, though the gains were smaller on other benchma",
-   "ai_related": true,
-   "title_ja": "Nvidiaの新システム、AIのトークン消費を半減",
-   "summary_ja": "NvidiaのSoL-Piは、モデルと環境間の制御層を最適化し、性能を落とさずにコーディングAIのトークン消費量を最大49%削減する。"
-  },
-  {
    "id": "9167db3b22e9",
    "source": "Vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
@@ -551,7 +551,7 @@
   },
   {
    "id": "e2c38b41a19c",
-   "source": "asahi.co.jp",
+   "source": "朝日放送",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -561,21 +561,6 @@
    "published_jst": "2026-09-26 18:48",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "53c6959c1870",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How to keep enjoying programming in a world of LLMs",
-   "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-   "published": "2026-09-26T09:41+00:00",
-   "published_jst": "2026-09-26 18:41",
-   "summary": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 283 # Comments: 300",
-   "ai_related": true,
-   "title_ja": "LLM全盛の世界でプログラミングの楽しさを維持する方法",
-   "summary_ja": "人工知能（LLM）が急速に普及する現代において、いかにしてプログラミングへの情熱や楽しさを保ち続けるかについての議論。"
   },
   {
    "id": "97d7832f8399",
@@ -618,7 +603,7 @@
   },
   {
    "id": "e41a6fbfb123",
-   "source": "newsdig.tbs.co.jp",
+   "source": "TBS NEWS DIG",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -678,6 +663,19 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzX2JkNlREclBEbjk2cmZlWGgzczZqeHlPSnlOTFNXY1JpYWRTQ2pJSzZYVHpSaklHZWVvRHE5c2JKV2hWZXREZ05QOWNWXzBIZWhXLTRQSmhKLWFUcmVsTTBDdkZQaFB5dXc?oc=5",
    "published": "2026-09-26T02:55+00:00",
    "published_jst": "2026-09-26 11:55",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "6ba4d1ef95c4",
+   "source": "ｄメニューニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トランプ氏、習主席をホワイトハウス宴会場の建設現場へ案内",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wWWZtZnhUWDR0M3BUaE5PTjRCdU5ZYkVIVWRFWlA4WnNiaDQwQnJ5T2NiTmhueFkwcThmQ2xWNk80QWVTaXJrTG5zSDRnRjdMRThONnNXUHdxRXc4SGdtdUFHU0lMTlRYM3F4SGhJTUVvNC1TaDh0adIBeEFVX3lxTE4wWWZtZnhUWDR0M3BUaE5PTjRCdU5ZYkVIVWRFWlA4WnNiaDQwQnJ5T2NiTmhueFkwcThmQ2xWNk80QWVTaXJrTG5zSDRnRjdMRThONnNXUHdxRXc4SGdtdUFHU0lMTlRYM3F4SGhJTUVvNC1TaDh0aQ?oc=5",
+   "published": "2026-09-26T02:00+00:00",
+   "published_jst": "2026-09-26 11:00",
    "summary": "",
    "ai_related": false
   },
@@ -773,6 +771,19 @@
    "published_jst": "2026-09-26 09:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "d04e10f21838",
+   "source": "毎日新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ポッドキャスト：データセンターの建設ラッシュ 〝新たな公害〟をどう防ぐか",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jVWVIRFVTRkdKLUZhSzcwbzBEbTRRcHd2SFRjdXREXzhNeFdKVkg0ckdnVUxhbEhXLUFMRzdqdUFfbGhQWUtRZFJid0lhdjE3blRwNFdEOUVCZmRGY0lkZFBoR3o5UHBI?oc=5",
+   "published": "2026-09-26T00:00+00:00",
+   "published_jst": "2026-09-26 09:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "303ad555831b",
@@ -1091,139 +1102,6 @@
    "ai_related": true,
    "title_ja": "ジョン・グルーバーのコメントを引用",
    "summary_ja": "Museは技術的な画期性と使いやすさの面で、非常に大きな注目を集めている。"
-  },
-  {
-   "id": "a865540be9bd",
-   "source": "pando.life",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "グローバル建設業界における人工知能市場：規模、シェア、成長要因、産業動向の包括的分析（",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zaVJJSkxGRVlpamVBMzBhR05kZ1NHbjNuczFXWjNDSjBsUkdfVGJfV0lfaGNLdmc0NVBhQUZEWnI0alIyQ2hoN3RR?oc=5",
-   "published": "2026-09-25T16:57+00:00",
-   "published_jst": "2026-09-26 01:57",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "e84d98e81ae7",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Meta makes the Muse filesystem even more accessible",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
-   "published": "2026-09-25T16:49+00:00",
-   "published_jst": "2026-09-26 01:49",
-   "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, i",
-   "ai_related": true,
-   "title_ja": "Meta、Museのファイルシステムをさらにアクセスしやすく改善",
-   "summary_ja": "Museのファイルシステムが好奇心旺盛なユーザーに開放され、AIチャットボットの内部構造の詳細が明らかになった。"
-  },
-  {
-   "id": "794c162566b6",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Meta is putting its muscle behind Muse as the AI app takes off",
-   "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
-   "published": "2026-09-25T16:16+00:00",
-   "published_jst": "2026-09-26 01:16",
-   "summary": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agent's promotion across its own apps and beyond.",
-   "ai_related": true,
-   "title_ja": "AIアプリとして急成長するMetaのMuse、本格的なプロモーションへ",
-   "summary_ja": "Museはアプリストアのランキングで首位を獲得し、Metaは自社アプリ等でのプロモーションを急速に強化している。"
-  },
-  {
-   "id": "0fc9c86402b3",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Meta’s AI Tamagotchi bet is…working?",
-   "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
-   "published": "2026-09-25T16:00+00:00",
-   "published_jst": "2026-09-26 01:00",
-   "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company t",
-   "ai_related": true,
-   "title_ja": "MetaのAIたまごっちへの賭けは、うまくいっているのか？",
-   "summary_ja": "AI業界のリーダーたちが開発スピードについて議論する中、モデル発表が相次ぎ、新たなアプローチが試されている。"
-  },
-  {
-   "id": "706759721ffd",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Sony and UMG are suing Suno again",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
-   "published": "2026-09-25T15:51+00:00",
-   "published_jst": "2026-09-26 00:51",
-   "summary": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves trained on unlicensed music ripped from YouTube and other sources. Sony and UMG a",
-   "ai_related": true,
-   "title_ja": "ソニーとUMG、再びSunoを提訴",
-   "summary_ja": "新モデルv6も著作権を侵害しているとして、ソニーとユニバーサルミュージックグループがSunoを改めて提訴した。"
-  },
-  {
-   "id": "ef33b8cf9b79",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-   "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
-   "published": "2026-09-25T15:48+00:00",
-   "published_jst": "2026-09-26 00:48",
-   "summary": "The latest unauthorized agent swarms were discovered by researchers.",
-   "ai_related": true,
-   "title_ja": "OpenAIのエージェント群、数カ月にわたりオンラインDBを攻撃",
-   "summary_ja": "最新の承認されていないエージェントの群れが、研究者たちによって発見された。"
-  },
-  {
-   "id": "a8f06da5cb11",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic’s founders seek voting control ahead of IPO",
-   "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
-   "published": "2026-09-25T15:40+00:00",
-   "published_jst": "2026-09-26 00:40",
-   "summary": "Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters.",
-   "ai_related": true,
-   "title_ja": "Anthropicの創業者たち、IPOを前に議決権の掌握を模索",
-   "summary_ja": "7人の共同創業者が主要な企業決定において計50.1%の議決権を持つ構造の承認を株主に求めている。"
-  },
-  {
-   "id": "637d4699a545",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "One company is at the center of a wave of rogue AI attacks",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
-   "published": "2026-09-25T15:39+00:00",
-   "published_jst": "2026-09-26 00:39",
-   "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures",
-   "ai_related": true,
-   "title_ja": "不正AI攻撃の波の中心にある1つの企業",
-   "summary_ja": "OpenAIのAIエージェントによる無許可の攻撃が発覚して以来、各社で類似のインシデントが相次ぎ懸念が高まっている。"
-  },
-  {
-   "id": "6c0af3a44940",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
-   "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/",
-   "published": "2026-09-25T15:00+00:00",
-   "published_jst": "2026-09-26 00:00",
-   "summary": "At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage to discuss closing the loop between AI and chip development. Save up to $200 on your pass before today ends.",
-   "ai_related": true,
-   "title_ja": "AIがハードウェアを設計する未来について議論：TechCrunch Disrupt",
-   "summary_ja": "Ricursive Intelligenceの創業者らが、AIとチップ開発の融合についてTechCrunch Disrupt 2026で語る。"
   }
  ]
 }
