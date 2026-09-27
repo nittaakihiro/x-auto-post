@@ -1,939 +1,73 @@
 {
- "fetched_at": "2026-09-20T22:36:17.153910+00:00",
+ "fetched_at": "2026-09-27T23:14:28.373288+00:00",
  "accounts": [
   {
    "username": "masahirochaen",
-   "followers": 201164,
+   "followers": 201455,
    "days": 7,
    "count": 99,
    "tweets": [
     {
-     "id": 2101792576575832274,
-     "text": "■ 補足\nJevは元OpenAIのDiogo Almeida氏らが9月15日にステルスを出たTypeSafe AIのモデル。テキストを返さず型付きの確率的な判断だけを返すSystem 1型で、シードは4,000万ドル。18日時点でVercel AI Gateway史上最速の採用ペース。\nDiffusionGemmaは6月公開の26B MoE（推論時3.8Bアクティブ）でApache 2.0。ただし文章の出力品質は通常のGemma 4より低いとGoogleも明記しており、今回のパッチもPR提出中で未マージ。\n\n■ 出典\nhttps://t.co/h9lgaDG9g4\nhttps://t.co/oBEsB7pHBk",
-     "chars": 309,
-     "created_at": "2026-09-20T21:56:14+00:00",
+     "id": 2104345125283676303,
+     "text": "■ 補足\n・Jev-Omniは、TypeSafeのJev（文章を書かず、選択肢ごとの確率だけ返す判断モデル）の発想を借りた独立モデル。TypeSafeとは無関係とモデルカードに明記\n・Gemma 4 12Bベース、Apache-2.0。テキスト・画像・音声・動画を入力できる\n・画像1枚26ms（H200・作者測定）\n・モデルカードの推奨環境はCUDA GPU。Macでの動かし方は元投稿では明かされていない\n・投稿者はRoboflowのErik Kokalj氏。追跡は同社のtrackersライブラリ\n\n■ 出典\nhttps://t.co/wUcmE63eQf\nhttps://t.co/nW8I9YqISG\nhttps://t.co/1NIppancsN",
+     "chars": 329,
+     "created_at": "2026-09-27T22:59:09+00:00",
      "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 1418,
+      "bookmark_count": 1,
+      "impression_count": 1242,
       "like_count": 1,
       "quote_count": 0,
       "reply_count": 0,
       "retweet_count": 0
      },
      "is_quote": true,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2101792560020967846,
-     "text": "Googleが挙げた3つの理由。\n\n■ 大規模並列\nトークンを順に吐くのをやめ、開いたキャンバスを1ステップでデノイズして答えを確定する\n\n■ 完全な双方向アテンション\n全選択肢が文脈全体を同時に参照するので、確率分布のキャリブレーションが揃う\n\n■ マルチモーダル接地\nGemma 4の空間認識を継承し、画像を含む判断もこなす\n\nPRの実測は単発0.12秒、32並列で毎秒162判断（DGX Spark 1台、NVFP4量子化）。迷路デモは1手270〜296ミリ秒で、確率が割れた時だけ読み直す設計。",
-     "chars": 251,
-     "created_at": "2026-09-20T21:56:10+00:00",
-     "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 1028,
-      "like_count": 1,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2101792545697419399,
-     "text": "評価でもほぼ互角。パッチを書いた本人が、JevとDiffusionGemmaを8つのセットで実測比較している。\n\n・チケット分類 12/12、コード言語判定 10/10、人間言語26択 10/10 で同点\n・エンティティ判定は両方 38/38、単位比較は両方 10/12\n・レビュー20点採点は 20/20 対 19/20\n・単語単位のPII判定は 88/89 対 82/89\n\n8セット中6つが完全同点、残る2つはDiffusionGemma側が上。速度でもJevが上ではないが、クラウドAPI対ローカル1台という条件差は本人も注記している。",
-     "chars": 272,
-     "created_at": "2026-09-20T21:56:06+00:00",
-     "metrics": {
-      "bookmark_count": 0,
-      "impression_count": 245,
-      "like_count": 0,
-      "quote_count": 0,
-      "reply_count": 2,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2101792528785948700,
-     "text": "Google公式が話題の判断モデルJevはオープンモデルで再現できると発信。DiffusionGemmaにvLLMのパッチを当てるだけ。\n\nAI業界は画期的な手法が出てきても、一気にコモディティ化するのが怖いところ。\n\n・並列デノイズ1回で判断を確定、1ステップ約0.2秒（同社記載）\n・ASCII迷路を最短20手で踏破\n・選択肢ごとの確率が返り、確信度で足切り可能\n・DGX Spark 1台でローカル動作\n\n↓詳細",
-     "chars": 209,
-     "created_at": "2026-09-20T21:56:02+00:00",
-     "metrics": {
-      "bookmark_count": 12,
-      "impression_count": 2591,
-      "like_count": 14,
-      "quote_count": 0,
-      "reply_count": 2,
-      "retweet_count": 1
-     },
-     "is_quote": false,
-     "media": [
-      "animated_gif"
-     ]
-    },
-    {
-     "id": 2101644241201950873,
-     "text": "「コピペ」すらAIで再発明されそう。Jevの素晴らしい活用事例。\n\n履歴書をコピーして、応募フォームに貼り付ける。\nhttps://t.co/m1MEo3I7OJ\n\n普通ならただテキストが貼られるだけですが、このデモではJevが内容と入力欄の意味を理解して、\n\n・氏名 → Name\n・メール → Email\n・経歴 → Profile\n・会社情報 → Professional background\n\nのように、適切な場所へ自動で振り分けて入力している。\n\nつまり「Copy → Paste」ではなく、\n「Copy → AIが文脈を判断 → 適切な形でPaste」。\n\nJevは文章生成ではなく、高速な判断・分類に特化したモデルなので、こういう“操作の間にAIを挟む”用途とかなり相性が良い。\n\nコピー、検索、入力、クリックなど、今まで当たり前だったPC操作そのものがAI前提で作り直されていきそう。",
-     "chars": 401,
-     "created_at": "2026-09-20T12:06:48+00:00",
-     "metrics": {
-      "bookmark_count": 156,
-      "impression_count": 20738,
-      "like_count": 186,
-      "quote_count": 7,
-      "reply_count": 4,
-      "retweet_count": 13
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101611875544990108,
-     "text": "■ 補足\nこの動画生成部分はHiggsfield APIが担当し、どのモデルを使うかの判断だけをTypeSafeのJevが担う構成。デモの映像内の台詞は生成結果のサンプルで、実際の人物の発言ではない点に注意。JevはTypeSafeの意思決定エンジン「System One Model」で、公式サイトでは10億入力トークンあたり$42(早期アクセス中)と案内されている。\n\n■ 出典\nhttps://t.co/ql5cHNjtdO\nhttps://t.co/NtEvwHBaHl",
-     "chars": 239,
-     "created_at": "2026-09-20T09:58:11+00:00",
-     "metrics": {
-      "bookmark_count": 5,
-      "impression_count": 6916,
-      "like_count": 6,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
      "media": []
     },
     {
-     "id": 2101611863507419411,
-     "text": "Jev×Higgsfieldで動画生成のモデル選びを自動化。プロンプト1つでキャスト/背景/動画を最適モデルへ自動ルーティング。\n\nこれはコストを最大限抑えられて、高速で動画を作れて良さそう。\n\n・キャスト生成はSoul 2を確度82%で選択\n・背景生成はSoul Cinemaを確度86%で選択\n・動画生成はSeedance 2.5を確度86%で選択(対抗Kling 3.0は9%)\n・15秒/1080pのオフィス対決シーンを自動生成\n\n↓詳細",
-     "chars": 223,
-     "created_at": "2026-09-20T09:58:08+00:00",
+     "id": 2104345113224995305,
+     "text": "これぞJevの有効な活用方法。\n\nローラーを転がるレモンを、AIが1個ずつ検品。しかもMacBookのローカルだけで完結。  普通に現場で使えそうなアイディア。\n\n・1個につき3回チェックし、3回とも問題なしで合格\n・1回でも欠陥が出たら弾く\n・動画内で44個を判定、カビ1個・傷あり3個を検出\n・判定はJevの発想を借りた「Jev-Omni」、検出はRoboflowのRF-DETR\n\n↓詳細",
+     "chars": 197,
+     "created_at": "2026-09-27T22:59:06+00:00",
      "metrics": {
-      "bookmark_count": 32,
-      "impression_count": 10021,
-      "like_count": 31,
-      "quote_count": 1,
-      "reply_count": 3,
-      "retweet_count": 1
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101593497153478756,
-     "text": "■ 補足\njev-model-routerはClaude Code向けの非公式Mod。https://t.co/zpO0KSVL2F APIかVercel AI Gatewayに接続し、リクエスト毎にサブエージェント/メインループ用モデルとエフォートを自動選択する。\nメインモデルの切替はセッション開始時のみ(プロンプトキャッシュ維持のため)。\ntier/effort/risky/レイテンシの判定根拠がログにそのまま出て、行単位でコピーできる。\n\n■ 出典\nhttps://t.co/0VrzKYEYcv",
-     "chars": 253,
-     "created_at": "2026-09-20T08:45:10+00:00",
-     "metrics": {
-      "bookmark_count": 14,
-      "impression_count": 7947,
-      "like_count": 10,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2101593485161963561,
-     "text": "これは良さそう。利用料をかなり抑えられそう。\nClaude Code用モデル振り分けMod「jev-model-router」\n\n軽いタスクを確信度1.00でclaude-haiku-4-5に自動振り分け。tier/risky/レイテンシも丸見えで凄い。\n\n・typesafe API/Vercel AI Gatewayで動作\n・サブエージェント毎にモデルを自動選択\n・判定ログはワンクリックでコピー可能\n\n↓詳細",
-     "chars": 207,
-     "created_at": "2026-09-20T08:45:07+00:00",
-     "metrics": {
-      "bookmark_count": 367,
-      "impression_count": 28015,
-      "like_count": 279,
-      "quote_count": 2,
-      "reply_count": 13,
-      "retweet_count": 14
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101587428448653401,
-     "text": "■ 仕組み\n\n音声を約4秒ごとに認識し、日本語生成とJevの判断を並行実行。音声は処理待ちで止めません。\n\nOpenAI：文字起こし・翻訳・要点・カード見出し\nJev：論点・導入意欲・次の行動を選択\nアプリ：判断に合わせてカードを配置\n\n検証では9区間を処理。Jevの応答は約0.65〜2秒でした（音声認識・翻訳の時間は別）。\n\n今回は固定動画のデモで、任意動画やマイク入力には未対応です。\n\n■ 出典\nPatrick Dangの公開商談ロールプレイ\nhttps://t.co/KJEkwIhlRo\n\nJevの公式情報\nhttps://t.co/3JeoXCfHhv",
-     "chars": 283,
-     "created_at": "2026-09-20T08:21:03+00:00",
-     "metrics": {
-      "bookmark_count": 24,
-      "impression_count": 5474,
-      "like_count": 16,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2101587412816380413,
-     "text": "話題の「Jev」で商談中に「次の一手」をリアルタイムで分析するアプリを作成。\n\n圧倒的速度がウリなので、即時性が求められる分野で大活躍。\n\n海外の商談動画から、\n・英語がリアルタイムで文字になる\n・日本語の翻訳と議事録が流れる\n・図解カードが次々に増える\n・発言に合わせて、カードと次の行動が変わる\n\n「少し考えたい」→深掘り質問\n「うちの業界でも使える？」→事例の確認\n「どう始めればいい？」→導入計画\n\n翻訳・議事録の生成はOpenAI。Jevは論点と次の行動を選びます。",
-     "chars": 238,
-     "created_at": "2026-09-20T08:20:59+00:00",
-     "metrics": {
-      "bookmark_count": 617,
-      "impression_count": 63968,
-      "like_count": 528,
-      "quote_count": 15,
-      "reply_count": 11,
-      "retweet_count": 38
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101544000129732985,
-     "text": "自宅のメインPCを起動しておけば、スマホからCodexを使って、旅行先でもどこでも仕事できます。\n\n便利な世の中になりましたね、、、 https://t.co/0TgGxK0hE7 https://t.co/0ZlsDzffXD",
-     "chars": 114,
-     "created_at": "2026-09-20T05:28:29+00:00",
-     "metrics": {
-      "bookmark_count": 33,
-      "impression_count": 51910,
-      "like_count": 94,
-      "quote_count": 3,
-      "reply_count": 1,
-      "retweet_count": 1
-     },
-     "is_quote": true,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101506135828353512,
-     "text": "音声入力のコツですが、よく話すAIモデルを辞書に入れておくと、変換ミスがなくておすすめです。\n\nこのAPI使って〜という時に大活躍。 https://t.co/jyTVbeMCVK",
-     "chars": 90,
-     "created_at": "2026-09-20T02:58:01+00:00",
-     "metrics": {
-      "bookmark_count": 31,
-      "impression_count": 11239,
-      "like_count": 56,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 1
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2101460873625919740,
-     "text": "■ 補足\n「Cloudline」は雲に浮かぶ島々をトラムで巡る体験アプリ。YouWareはAIにアプリを生成させて動かせるプラットフォームで、今回はその「Arena」機能上でGemini 4とGPT-6 Astraに同一プロンプトを与えてビルドを競わせた。両ビルドともYouWare上で実際にプレイでき、リンクは元投稿のコメント欄で公開されている。動画は日本語テロップを付けた版。\n\n■ 出典\nhttps://t.co/IJlpzt1tai",
-     "chars": 220,
-     "created_at": "2026-09-19T23:58:10+00:00",
-     "metrics": {
-      "bookmark_count": 6,
-      "impression_count": 13203,
-      "like_count": 9,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2101460861735010722,
-     "text": "【朗報】Googleの「Gemini 4」がArenaに登場。これ本当ならGoogleがAIモデル競争のトップに踊りでそう。GPT-6は見た感じ超えている。\n\n・雲上トラム体験アプリ「Cloudline」を同一プロンプトで両モデルにビルドさせ比較\n・GPT-6 Astra版はシンプルな運行UI、Gemini 4版はトラムや島の陰影まで作り込み\n・両ビルドともYouWare上で実プレイ可能\n・投稿主は「Gemini 4が圧倒的に強い」と評価\n\n↓詳細",
-     "chars": 226,
-     "created_at": "2026-09-19T23:58:07+00:00",
-     "metrics": {
-      "bookmark_count": 246,
-      "impression_count": 98097,
-      "like_count": 505,
-      "quote_count": 13,
-      "reply_count": 10,
-      "retweet_count": 44
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101445519218504059,
-     "text": "■ 補足\nデスクトップ版ChatGPTの内蔵ブラウザに、Chromeの拡張機能がそのまま入る形。第一弾対応が1Passwordで、ツールバー固定・ログイン自動入力・二段階認証の選択まで動作する。⚠️対応プラン・提供地域は本文からは未確認。Enterprise/Edu管理者はブラウザ機能の利用可否をワークスペース側で一括管理できる。\n\n■ 出典\nhttps://t.co/GDnetn6Nal\nhttps://t.co/Yeab95uNLo",
-     "chars": 220,
-     "created_at": "2026-09-19T22:57:09+00:00",
-     "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 8255,
-      "like_count": 8,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2101445507260580288,
-     "text": "【朗報】ChatGPT desktop appがChrome拡張機能に対応\n\nブラウザを切り替えずに使い慣れた拡張機能がAIの中で動く。Codex本当にアプリとして有能です。\n\n・内蔵ブラウザで拡張機能をインストール・ピン留め・利用可能に\n・第一弾は1Password。自動入力から2段階認証選択まで動作\n・4K画面録画でChubb系保険サイトへのログインを実演\n・Enterprise管理者は利用可否を管理画面で制御可能\n\n↓詳細",
-     "chars": 216,
-     "created_at": "2026-09-19T22:57:06+00:00",
-     "metrics": {
-      "bookmark_count": 216,
-      "impression_count": 31432,
-      "like_count": 222,
-      "quote_count": 3,
-      "reply_count": 8,
-      "retweet_count": 13
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101432150088360171,
-     "text": "重めの開発を夜通し回したい時は、最初にゴールと完了条件を明確にして、1時間ごとに「残タスク確認 → 実装 → テスト → 次へ」を繰り返すよう設定しておくとかなり便利です。\n\n寝ている間も残タスクを拾って進めてくれるので、長時間の開発と相性がいい。\n\nループの条件と終了条件だけは、ちゃんと設定しておくのがおすすめです。",
-     "chars": 160,
-     "created_at": "2026-09-19T22:04:01+00:00",
-     "metrics": {
-      "bookmark_count": 131,
-      "impression_count": 15214,
-      "like_count": 87,
-      "quote_count": 1,
-      "reply_count": 2,
-      "retweet_count": 3
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2101312078627659898,
-     "text": "https://t.co/ECtA4lmyNF",
-     "chars": 23,
-     "created_at": "2026-09-19T14:06:54+00:00",
-     "metrics": {
-      "bookmark_count": 750,
-      "impression_count": 55855,
-      "like_count": 455,
-      "quote_count": 8,
-      "reply_count": 4,
-      "retweet_count": 41
-     },
-     "is_quote": false,
-     "media": []
-    },
-    {
-     "id": 2101278911820943550,
-     "text": "■ 補足\nJevは文章生成ではなく判定に特化したモデルで、共有された状態を型付きの質問群に照らして評価する設計。出力トークンは発生せず判定結果のみを返すため、分類・ルーティング・ルーブリック採点・自動検証を1リクエストで並列処理できる。通常課金は入力100万トークンあたり0.042ドル、無料期間は9月25日まで。\n\n■ 出典\nhttps://t.co/Valk4qyO6d\nhttps://t.co/asESLio1fA",
-     "chars": 211,
-     "created_at": "2026-09-19T11:55:07+00:00",
-     "metrics": {
-      "bookmark_count": 7,
-      "impression_count": 8410,
-      "like_count": 9,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2101278899158327721,
-     "text": "【朗報】Vercel AI Gatewayの評価特化モデル「Jev」(TypeSafe AI製)が9/25まで無料開放\n\nGateway上で最速級に採用が伸びている評価専用モデル\n\n・通常は入力100万トークンあたり0.042ドル\n・コンテキスト長は32,000トークン\n・生成はせず判定結果のみを返す設計\n・分類/ルーティング/採点/自動検証に対応\n\nLLM-as-judge運用のコスト検証にはうってつけ\n↓詳細",
-     "chars": 208,
-     "created_at": "2026-09-19T11:55:04+00:00",
-     "metrics": {
-      "bookmark_count": 105,
-      "impression_count": 21896,
-      "like_count": 142,
-      "quote_count": 1,
-      "reply_count": 8,
-      "retweet_count": 8
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2101099468481597647,
-     "text": "■ 補足\nChatGPTプラグイン責任者Max Stoiber氏の発表。従来は1プラグイン=1アカウントで、たとえばGmailやNotionを仕事用と個人用で切り替えるには都度接続し直す必要があった。今回のアップデートで両方を同一チャット内で参照可能に。開発者はコード変更不要で自動的に対応される点も大きく、既存プラグインが即恩恵を受ける形。\n\n■ 出典\nhttps://t.co/l8GRVqunQV\nhttps://t.co/GTsafxhLa7",
-     "chars": 225,
-     "created_at": "2026-09-19T00:02:04+00:00",
-     "metrics": {
-      "bookmark_count": 8,
-      "impression_count": 9025,
-      "like_count": 5,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 1
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2101099456125116683,
-     "text": "【朗報】ChatGPTのプラグイン、複数アカウント接続に対応\n\n仕事用と個人用を1つの会話でまたげるの地味に助かる。\nChatGPTのUXはAIチャットの中で一番洗練されている印象。やっぱりCodexも使いやすい。\n\n・大半のプラグインで複数アカウント同時接続OK\n・仕事用と個人用のコンテキストを1会話に統合\n・接続はプラグインディレクトリから設定\n・開発者側は追加実装ゼロ、自動対応\n\n↓詳細",
-     "chars": 198,
-     "created_at": "2026-09-19T00:02:01+00:00",
-     "metrics": {
-      "bookmark_count": 82,
-      "impression_count": 25165,
-      "like_count": 138,
-      "quote_count": 5,
-      "reply_count": 5,
-      "retweet_count": 6
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2101084615905845356,
-     "text": "■ 補足\nAGENTS.mdはOpenAI Codex等が採用するエージェント向け指示書の共通フォーマット。今回の対応でClaude Code利用者は既存のAGENTS.mdをそのまま流用でき、複数エージェント間で設定を使い分ける手間が減る。CLAUDE.mdが存在する場合は従来通りそちらが優先され、無い時のみAGENTS.mdへフォールバックする挙動。\n\n■ 出典\nhttps://t.co/BLRfyr46qO",
-     "chars": 208,
-     "created_at": "2026-09-18T23:03:03+00:00",
-     "metrics": {
-      "bookmark_count": 5,
-      "impression_count": 8838,
-      "like_count": 9,
-      "quote_count": 1,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2101084603746595266,
-     "text": "【朗報】Claude CodeがAGENTS. md規格に対応。v2.1.277から、フォルダにCLAUDE. mdが無い場合は自動でAGENTS. mdを参照する。\n\nこれはありがたい。Codexとの設定がより簡単になる。\nエージェント設定ファイルの標準化が一気に進みそう。\n\n・対応バージョン: 2.1.277\n・CLAUDE. md優先、無ければAGENTS. md\n・/config で挙動をトグル可能\n・Codex等と設定ファイル共通化\n\nマルチエージェント時代のデファクトが見えてきた。\n↓詳細",
-     "chars": 253,
-     "created_at": "2026-09-18T23:03:00+00:00",
-     "metrics": {
-      "bookmark_count": 126,
-      "impression_count": 27491,
-      "like_count": 166,
-      "quote_count": 4,
-      "reply_count": 11,
-      "retweet_count": 8
-     },
-     "is_quote": false,
-     "media": []
-    },
-    {
-     "id": 2101069542747525384,
-     "text": "■ 補足\nSAM 3.1はSAM 3の新チェックポイントで、Object Multiplexという共有メモリ方式により複数物体を1回のforward passでまとめて処理する。個別処理より高速かつ7種の動画セグメンテーションベンチマークのうち6つで精度も改善。Meta Model APIは既存のOpenAI SDK互換クライアントからそのまま呼び出せる。\n\n■ 出典\nhttps://t.co/xKY9pwyQde\nhttps://t.co/9Txq1CCJiO",
-     "chars": 233,
-     "created_at": "2026-09-18T22:03:09+00:00",
-     "metrics": {
-      "bookmark_count": 4,
-      "impression_count": 8357,
-      "like_count": 6,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2101069530097398089,
-     "text": "【新着】MetaのSAM 3.1がMeta Model APIで利用可能に\n\n言葉やクリックで指定するだけで検出・分割・追跡が1コールで完結。デモの精度は高い。\n\n・「elephant」等の短い言葉で対象を検出\n・ボックス/点クリックで類似物体も連鎖検出\n・動画内の追跡も同一APIで完結\n・H100 1枚で128物体を7倍高速化(Object Multiplex)\n\n検出・分割・追跡の三重苦がAPI一発で終わる時代に。\n↓詳細",
-     "chars": 215,
-     "created_at": "2026-09-18T22:03:06+00:00",
-     "metrics": {
-      "bookmark_count": 16,
-      "impression_count": 10544,
-      "like_count": 25,
-      "quote_count": 1,
-      "reply_count": 2,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101060047707295821,
-     "text": "今SNSで話題沸騰中の「Jev」を3分で解説。\n\nLLMを超えた！的な論調で語られがちですが、それは間違い。\n\n特定の分野では凌駕するかもですが、汎用性と知性はまだ足りない。\n\n文章を作らず、数値だけを返すことによって圧倒的な速度を得ております。続きの解説は動画をご覧ください。 https://t.co/ndO2Ng7ibb",
-     "chars": 163,
-     "created_at": "2026-09-18T21:25:25+00:00",
-     "metrics": {
-      "bookmark_count": 155,
-      "impression_count": 24839,
-      "like_count": 203,
-      "quote_count": 3,
-      "reply_count": 2,
-      "retweet_count": 11
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2101047342338281707,
-     "text": "連休前に1年弱・数千万円かけて作ってきたシステムを作り直すことになって、連休はひたすら開発することに。\n\nそんな中、飛行機がまさかの5時間遅延。機内に缶詰になり、乗り継ぎにも間に合わず、予約していたホテルも1泊分消えるという…\n\n深夜便のはずが、気づいたら飛行機の中で朝日を迎えてるぜぇ…\n\n色々とダメージがデカい。涙\n\nただ、幸いやることがなさすぎて開発はめちゃくちゃ進んだ。そこだけは救い。\n\nGPT-6 AstraとFable 5.1があれば、従来なら1年かかっていた開発も爆速で作り直せる。\n\nAI、素晴らしすぎる。\n\n※飛行機は飛んでいないのでスターリンク使えず、微弱なデザリングで頑張ってます。",
-     "chars": 303,
-     "created_at": "2026-09-18T20:34:56+00:00",
-     "metrics": {
-      "bookmark_count": 19,
-      "impression_count": 89903,
-      "like_count": 153,
-      "quote_count": 1,
-      "reply_count": 4,
-      "retweet_count": 1
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2100929070943088898,
-     "text": "■ 補足\nJevはTypeSafe AI社の意思決定モデルで、文章生成でなく判定・スコアリングに特化。通常の圧縮はLLMに要約させるため具体的なファイルパスやエラー文言が消えがちだが、Jevは全履歴を1回のリクエストで採点し、閾値以下だけ機械的に削る設計。OSS実装「fast-jev-compaction」はClaude Codeプラグインとして無償公開中。⚠️実運用での精度・処理コストは未確認。\n\n■ 出典\nhttps://t.co/5KtjRuGgJ2\nhttps://t.co/IDj9hj9zvI",
-     "chars": 254,
-     "created_at": "2026-09-18T12:44:58+00:00",
-     "metrics": {
-      "bookmark_count": 31,
-      "impression_count": 11812,
+      "bookmark_count": 13,
+      "impression_count": 1948,
       "like_count": 14,
       "quote_count": 0,
       "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100929058829955418,
-     "text": "この使い方めっちゃ良い。Claude Code、Codexに実装してほしい。\n\n＞\n\nClaude Codeの文脈圧縮、要約なしで156,000→62,000トークンに一撃短縮。TypeSafeAIの「Jev」\n\n履歴を要約せずスコアで足切りする発想が良い\n\n・使用率78%→31%に圧縮\n・16件中10件は原文のままKeep、6件だけ削除\n・ツール呼び出し1件ずつp(drop)スコアで判定\n・OSSは「fast-jev-compaction」でGitHub公開\n\n↓詳細",
-     "chars": 237,
-     "created_at": "2026-09-18T12:44:55+00:00",
-     "metrics": {
-      "bookmark_count": 580,
-      "impression_count": 60265,
-      "like_count": 405,
-      "quote_count": 7,
-      "reply_count": 7,
-      "retweet_count": 25
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100873944597422537,
-     "text": "■ 補足\nReceptionは法人向け会話AI基盤ElevenAgentsの上に載った、中小企業向けのパッケージ版。既存の電話番号を転送するか、専用番号を新規発行して使う。同時通話はBasicが1件、Plusが3件、Premiumが10件まで。超過分は1分0.45〜0.30ドル。クレカ登録なしの無料トライアルあり。日本の電話番号を取得できるかは未確認。\n\n■ 出典\nhttps://t.co/JXBdJfAH8G\nhttps://t.co/XEypQqwJqn",
-     "chars": 231,
-     "created_at": "2026-09-18T09:05:55+00:00",
-     "metrics": {
-      "bookmark_count": 5,
-      "impression_count": 7608,
-      "like_count": 4,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2100873927530807675,
-     "text": "ElevenLabsがAI受付「Reception」を公開。小規模ビジネス向けで月29ドルから。\n\nこれよさそう。触ってみます。\n\n・自社サイトのURLを入れるだけで数分で開通\n・24時間電話を受け、質問対応から予約登録、SMS確認まで\n・70以上の言語に自動対応、音声は2,000種類以上\n・月29ドル（通話75分）／79ドル（275分）／199ドル（1,000分）\n・Googleカレンダー連携、通話の要約・文字起こし・録音つき\n\n↓詳細",
-     "chars": 221,
-     "created_at": "2026-09-18T09:05:51+00:00",
-     "metrics": {
-      "bookmark_count": 168,
-      "impression_count": 24998,
-      "like_count": 136,
-      "quote_count": 2,
-      "reply_count": 4,
-      "retweet_count": 11
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100759181523571028,
-     "text": "■ 補足\nGPT-6 Astraに法務検索インデックスと、法務の分析・文章作成用の指示を組み合わせた構成。判例はCourtListenerを運営するFree Law Projectと連携し、米国の公開判例の99.9%超をカバー。\n\n提供は選定事務所へTrusted Access経由でChatGPTとCodexに先行提供、APIは近日中でモデル名はgpt-6-astra-law。ベンチはVals AI Legal Research Benchの検証用200問の同社測定値。動画は日本語テロップを付けた版。\n\n■ 出典\nhttps://t.co/X7Vh6ipNns\nhttps://t.co/b3aaNTYLa3",
-     "chars": 307,
-     "created_at": "2026-09-18T01:29:53+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 7934,
-      "like_count": 7,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100759169628590513,
-     "text": "デモは実際のIPO業務。VDRと会社概要を渡してS-1の条項マッピングを作らせ、43秒でdocxが出てくる。\n\n・Cooleyが自社の資本市場ノウハウをGO Publicスキルとして実装\n・新株のみの募集、EGC区分、3分割の取締役会まで整理\n・不足点を質問し、承認するとForm S-1のドラフトまで生成\n・コミュニティ製の47スキルも公開（契約レッドライン、先例検索など）\n\n事務所の型そのものが製品になる流れ。",
-     "chars": 208,
-     "created_at": "2026-09-18T01:29:50+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 5662,
-      "like_count": 9,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 1
-     },
-     "is_quote": false,
-     "media": []
-    },
-    {
-     "id": 2100759157725143248,
-     "text": "【速報】OpenAIが法務特化の「Astra for Law」を公開。GPT-6 Astraを法務向けに構成した新基盤。\n\nこれで法務系AIスタートアップ爆死するのでは、、、？\n米国の判例・制定法・規則を2.3億URL横断する検索インデックス付き。\n\n・法務リサーチ正答率54.0%（Web検索のみは38.7%／同社測定）\n・Sullivan & Cromwell、Ropes & Gray、Cooleyと共同開発\n・Relativity、Clio等と繋ぐ26のプラグインも公開\n・ゼロデータリテンション、人によるレビューなし\n\n↓詳細",
-     "chars": 268,
-     "created_at": "2026-09-18T01:29:48+00:00",
-     "metrics": {
-      "bookmark_count": 118,
-      "impression_count": 45548,
-      "like_count": 249,
-      "quote_count": 12,
-      "reply_count": 5,
-      "retweet_count": 34
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100736598040306139,
-     "text": "■ 補足\nGemini 3.8 Liveは「話しながら考え、裏でタスクを進める」ことをうたう対話特化モデル。Extended Thinking版は複雑タスク向けに推論時間を延長できる想定。\n⚠️ 料金・提供範囲・API公開時期・対応言語（日本語含む）は本ポストでは未開示。詳細は公式発表を要確認。\n\n■ 出典\nhttps://t.co/3Mvcdq3eqd",
-     "chars": 178,
-     "created_at": "2026-09-18T00:00:09+00:00",
-     "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 7730,
-      "like_count": 4,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100736585692307958,
-     "text": "Google DeepMindが「Gemini 3.8 Live」と「3.8 Live Extended Thinking」を発表。会話AI最高峰と自称する構成。\n\n会話の途中で裏側でタスクを実行する。GPT- Live-1と比較してみたい。\n\n・話す・考える・裏でタスク実行を同時並行\n・会話フローを止めずにバックグラウンド処理\n・Extended Thinking版は長考モード搭載\n・OpenAIのRealtime APIに真っ向勝負\n\n企業のカスタマーサポート導入が一気に進みそう。\n↓詳細",
-     "chars": 249,
-     "created_at": "2026-09-18T00:00:06+00:00",
-     "metrics": {
-      "bookmark_count": 10,
-      "impression_count": 13132,
-      "like_count": 35,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 1
-     },
-     "is_quote": false,
-     "media": [
-      "photo",
-      "photo",
-      "photo",
-      "photo"
-     ]
-    },
-    {
-     "id": 2100722503505395811,
-     "text": "■ 補足\nhttps://t.co/W8JrjglecvはClaudeの外部ツール一覧(Connector Directory)に追加された。チャットでフローチャートやシステム図を頼むと、返答内にhttps://t.co/W8Jrjglecv形式の図がインタラクティブに描画され、ノードをドラッグ編集したり、ワンクリックでフルエディタ(https://t.co/W8Jrjglecv)に切り替えて仕上げられる。動画は日本語テロップを付けた版。\n\n■ 出典\nhttps://t.co/KghZBsOh63\nhttps://t.co/6cg6LScn2z\nhttps://t.co/0xNAAmRPza",
-     "chars": 299,
-     "created_at": "2026-09-17T23:04:09+00:00",
-     "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 7931,
-      "like_count": 4,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100722491480318108,
-     "text": "【新機能】draw. ioがClaudeのConnector Directoryに追加\n\nフローチャート作る時に役立ちそう。（Artifactsでも事足りるが）\n\n・Claudeに図を頼むとチャット内にdraw. io図がその場で描画\n・不安定テストは3回リトライ、10%カナリアロールアウトまで再現\n・ワンクリックでdraw. ioエディタが開き編集できる\n・専用アプリのインストール不要\n\n図の下書きから編集まで、チャット1つで完結。\n\n↓詳細",
-     "chars": 224,
-     "created_at": "2026-09-17T23:04:06+00:00",
-     "metrics": {
-      "bookmark_count": 76,
-      "impression_count": 17247,
-      "like_count": 104,
-      "quote_count": 1,
-      "reply_count": 3,
-      "retweet_count": 5
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100705947660509405,
-     "text": "■ 補足\nDocs・Slides・Designは現在ベータ機能。会話にコメントを付けるとClaudeが編集を提案し、承認すると反映される。デッキの配色やサイズ違いのSNS画像も同じ会話内でまとめて更新できる。デモは架空ブランドVarde 2.0のローンチ資料。動画は日本語テロップ版。\n\n■ 出典\nhttps://t.co/NUSZfPU8UK",
-     "chars": 172,
-     "created_at": "2026-09-17T21:58:21+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 8639,
-      "like_count": 8,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100705935648010428,
-     "text": "【新機能】Claudeで直接Google Slidesを生成、編集可能に。\n\nこれは喜ぶ人が多そうな新機能。細かい修正もAIチャットでできる。\n\n・コメント1つでSNS画像を4サイズ同時生成\n・「色を変えて」の一言で全サイズ一括更新\n・完成デッキをそのままDocsの1ページ資料に変換\n・比較チャートや発売日も自動反映\n\n（私はClaude Codeしか使わず、gog cliで直接Slides作ってアップしてるので恩恵はないが、、）\n\n↓詳細",
-     "chars": 222,
-     "created_at": "2026-09-17T21:58:18+00:00",
-     "metrics": {
-      "bookmark_count": 254,
-      "impression_count": 34755,
-      "like_count": 282,
-      "quote_count": 3,
-      "reply_count": 12,
-      "retweet_count": 13
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100641871307649493,
-     "text": "■ 補足\n・動画は公式デモに日本語テロップを付けた版\n・1スレッド＝専用ブランチとrepoのコピーを持つClaude Codeクラウドセッション。衝突は通常のPRと同じmerge conflictとして解決される\n・リポジトリを繋げばPR作成とテスト実行まで。スレッド内はsubagent／loop／workflowで再分割できる\n・1スレッドがフルのセッションなので利用上限の消費は速い。司令塔とスレッドでモデルとeffortを個別に指定できる\n\n■ 出典\nhttps://t.co/tJAgH0YUEe\nhttps://t.co/JLXux359si",
-     "chars": 277,
-     "created_at": "2026-09-17T17:43:44+00:00",
-     "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 7549,
-      "like_count": 7,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100641859462955300,
-     "text": "Pro／Maxの既存プロジェクトは今まで通り動く。Claude全体へ展開が広がる時にアップグレードされる。\n\n詳細\nhttps://t.co/j0sF64PFND\n\n先行アクセスのウェイトリスト\nhttps://t.co/v3hHqi7vz4",
-     "chars": 121,
-     "created_at": "2026-09-17T17:43:41+00:00",
-     "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 5179,
-      "like_count": 8,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": []
-    },
-    {
-     "id": 2100641847844729144,
-     "text": "スレッドはクラウドで動く。だから自分のPCがオフラインでも作業は続く。ただし今はまだ、手元のPCや社内ネットワークにあるファイルとツールには届かない。ローカル対応は近日。",
-     "chars": 85,
-     "created_at": "2026-09-17T17:43:39+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 1598,
-      "like_count": 5,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": []
-    },
-    {
-     "id": 2100641835190481181,
-     "text": "プロジェクトは時間とともに育つ。すべてのスレッドが共有メモリに書き込み、そこから読み出す。だからClaudeは、リリースが金曜にずれた事や、課金サービスを触る前に誰へ確認すべきかを覚えていられる。\n\nプロジェクトのlibraryには、自分が追加したファイルとClaudeが作ったファイルが両方貯まる。 https://t.co/x7SXJHy44g",
-     "chars": 174,
-     "created_at": "2026-09-17T17:43:36+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 2281,
-      "like_count": 6,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2100641819105407135,
-     "text": "チーフ・オブ・スタッフに指示を出すように、Claudeへ話しかけられる。複数の用件を、順番もばらばらのまま投げてよい。Claudeは新規または既存のスレッドへ振り分け、判断が必要になったら確認してくる。\n\nOverviewパネルには自分待ちになっている作業が表示される。どのスレッドにも、スマホからでも指示を出せる。",
-     "chars": 158,
-     "created_at": "2026-09-17T17:43:32+00:00",
-     "metrics": {
-      "bookmark_count": 5,
-      "impression_count": 3592,
-      "like_count": 13,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2100641801363468650,
-     "text": "【速報】Claude Codeにプロジェクトが登場。これは神アプデでは、、\n\n1つの会話にやる事を書くだけで、Claudeが仕事を分解して並列スレッドを走らせる。\n\n・Claudeが司令塔、スレッドが実行役\n・各スレッド＝専用ブランチとrepo複製のクラウドセッション\n・動画では依頼5件を3タスクに畳んで3セッション起動\n・PR作成とテスト実行までスレッド側が担当\n・PCを閉じても動き続け、スマホから指示できる\n\n今日からPro／Maxの一部でbeta。\n\n↓詳細",
-     "chars": 234,
-     "created_at": "2026-09-17T17:43:28+00:00",
-     "metrics": {
-      "bookmark_count": 524,
-      "impression_count": 71664,
-      "like_count": 585,
-      "quote_count": 16,
-      "reply_count": 14,
-      "retweet_count": 51
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100622595339223504,
-     "text": "本日も東京をぐるっと回って3社訪問。\n\nAI時代になって、むしろオフライン商談が増えた気がする。FDEとして課題を解くには、やっぱり現場に足を運ぶのが大事。\n\n学生時代は上海の日系企業でインターンをしていて、中国全土を飛び回っていました。北は大連、南は深圳まで。テレアポして、訪問営業して、セミナーまで1人でやることも多かった。\n\n砂塵が舞う未舗装の道路を、犬鍋屋さんを横目にスーツで歩いていたあの頃と比べれば、今の移動はかなり楽です。\n\n訪問営業が増えて、ふと昔が懐かしくなりました。",
-     "chars": 243,
-     "created_at": "2026-09-17T16:27:09+00:00",
-     "metrics": {
-      "bookmark_count": 11,
-      "impression_count": 20030,
-      "like_count": 52,
-      "quote_count": 1,
-      "reply_count": 1,
-      "retweet_count": 1
-     },
-     "is_quote": false,
-     "media": [
-      "photo",
-      "photo",
-      "photo",
-      "photo"
-     ]
-    },
-    {
-     "id": 2100572048502542351,
-     "text": "■ 補足\nBrowser Useはブラウザ操作を自動化するOSSのAIエージェント。TypeSafeの高速判断モデル「Jev」を組み込み、毎ステップ画面を見直しながらでも7秒台の一連操作を実現。デモの実装はbrowser-use/jev-ultrafastで公開中。動画は日本語解説テロップ版。\n\n■ 出典\nhttps://t.co/VIhRPyyoYf\nhttps://t.co/nSoJsaQobx",
-     "chars": 201,
-     "created_at": "2026-09-17T13:06:17+00:00",
-     "metrics": {
-      "bookmark_count": 39,
-      "impression_count": 12464,
-      "like_count": 26,
-      "quote_count": 0,
-      "reply_count": 0,
       "retweet_count": 2
      },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100572036389380130,
-     "text": "【注目】Browser Use×TypeSafe「Jev」でブラウザ操作AIが爆速化\n\n今一番バズっている話題のサービス。速く使いたい、、、\n\nGoogle Flightsの片道検索を自動操作だけで完走するデモが話題に\n\n・所要時間はわずか7.1秒\n・判断レイテンシは中央値150〜300ms\n・出発地/到着地/日付など5ステップを自律実行\n・OSS「Browser Use」にJevを組み込んだ構成\n\n↓詳細",
-     "chars": 205,
-     "created_at": "2026-09-17T13:06:14+00:00",
-     "metrics": {
-      "bookmark_count": 593,
-      "impression_count": 64043,
-      "like_count": 505,
-      "quote_count": 8,
-      "reply_count": 5,
-      "retweet_count": 29
-     },
      "is_quote": false,
      "media": [
       "video"
      ]
     },
     {
-     "id": 2100512348217934249,
-     "text": "■ 補足\nArrow 1.1からの正式アップデート版。制御点の削減とレイアウト精度向上で、ロゴや技術図面のような複雑な構図でもSVGが破綻しにくくなった。API提供の可否は今回の発表に明記なく、まずWebアプリ(https://t.co/T2CRFr5T7F)での全ユーザー提供から。動画は日本語字幕を焼き込んだ版。\n\n■ 出典\nhttps://t.co/xk3Miuq3kL\nhttps://t.co/7YqBw8XLBK",
-     "chars": 212,
-     "created_at": "2026-09-17T09:09:04+00:00",
+     "id": 2104330743233343810,
+     "text": "Claude Code開発者のThariq氏が書いた「Effortの使い分け」の記事がかなり良かった。\n\n要するに、常にHigh/Maxで回せば良いわけではなく、タスクごとに思考量を切り替えるのが重要という話。\n\n使い分けはこんな感じ。\n\n・Low：アイデア出し、ラフ作成、軽微な修正\n・Medium：通常の開発、新機能実装\n・High：バグ修正、レビュー、検証、エッジケースが多い処理\n・Max：難しい問題をほぼ自律的に最後まで解かせる時\n\n特に面白いのが、Effortを上げると単純に「賢くなる」というより、Claudeが自分で検証したり、テストしたり、別解を試したりする量が増えるという点。\n\n実際の開発では、\n\n仕様をClaudeにインタビューさせる\n→ Low/Mediumで実装\n→ 人間が確認\n→ Highで検証・テスト\n\nこの流れがかなり良さそう。\n\n「とりあえず全部Max」ではなく、人間がどこまで介入するかでEffortを変える。\n\nClaude Code・CodexなどのAIエージェントを使う人は知っておいた方が良さそう。",
+     "chars": 473,
+     "created_at": "2026-09-27T22:02:00+00:00",
      "metrics": {
-      "bookmark_count": 8,
-      "impression_count": 8959,
-      "like_count": 9,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 1
+      "bookmark_count": 116,
+      "impression_count": 11801,
+      "like_count": 80,
+      "quote_count": 2,
+      "reply_count": 3,
+      "retweet_count": 7
      },
      "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100512336318714037,
-     "text": "【速報】Quiver AI、SVG生成AI新モデル「Arrow 2.0」を発表\n\nこれめっちゃ良い。AIっぽいUIから卒業できる。\n\n・同社によると生成速度は旧モデル比5倍\n・制御点を減らしクリーンで正確なSVGを生成\n・図形のアウトライン生成にも対応\n・Webアプリで全ユーザーへ提供開始\n\nイラスト・アイコン制作者は要チェック\n↓詳細",
-     "chars": 169,
-     "created_at": "2026-09-17T09:09:01+00:00",
-     "metrics": {
-      "bookmark_count": 373,
-      "impression_count": 32713,
-      "like_count": 319,
-      "quote_count": 8,
-      "reply_count": 4,
-      "retweet_count": 23
-     },
-     "is_quote": false,
      "media": [
-      "video"
+      "photo"
      ]
     },
     {
-     "id": 2100359124852822336,
-     "text": "■ 補足\nNotionのCustom Agentsは複数モデルから選べる仕組みだが、これまで各ユーザーが個別にInstructionsを設定するしかなかった。新機能はワークスペース管理者が既存ページを1つ指定するだけで、製品用語の統一や大文字小文字表記、禁止操作などの標準動作を全エージェントへ一括反映できる。社内Wikiのルールをそのまま流用できるのが利点。\n\n■ 出典\nhttps://t.co/vYBRt2ezIh",
-     "chars": 210,
-     "created_at": "2026-09-16T23:00:12+00:00",
+     "id": 2104272623505146182,
+     "text": "■ 補足\nGPT-6 Sol / Lunaは現行のGPTシリーズ最新枝で、Computer Use（画面操作エージェント）やCodexの視覚理解に画像入力を多用する。今回のバグは同社発表ベースで「画像理解を degrade（劣化）させていた」もので、テキスト系タスクへの影響有無やバグ発生時期・改善幅の数値は未開示。⚠️定量的な改善率は割り引いて読む前提で、自前のevalでの再計測が確実。\n\n■ 出典\nhttps://t.co/CliSq5K3yr",
+     "chars": 225,
+     "created_at": "2026-09-27T18:11:03+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 8829,
-      "like_count": 8,
+      "impression_count": 3569,
+      "like_count": 6,
       "quote_count": 0,
       "reply_count": 0,
       "retweet_count": 0
@@ -942,103 +76,17 @@
      "media": []
     },
     {
-     "id": 2100359112697794928,
-     "text": "【注目】Notion、AIエージェントに全社共通の「社内ルール」を敷ける新機能を追加\n\n個人ごとの指示に上乗せする形で会社全体のガードレールを敷けるのが地味に大きい\n\n・管理画面で「Default Notion Agent instructions」を設定\n・既存ページを選ぶだけで全エージェントに即反映\n・ユーザー個別のInstructionsに加えて適用される二重構造\n・変更・削除もページのドロップダウン1つで完結\n\n社内でAgent運用が広がるほど共通ルールの需要は増す\n↓詳細",
-     "chars": 243,
-     "created_at": "2026-09-16T23:00:09+00:00",
+     "id": 2104272611413045425,
+     "text": "【朗報】OpenAI、GPT-6 SolとGPT-6 Lunaの画像理解を劣化させていたバグを修正。API・Codex経由の視覚タスクで精度改善が見込める。\n\nComputer Use系のワークフロー動かしている人は即再検証推奨。\n\n・対象: GPT-6 Sol / GPT-6 Luna\n・影響領域: 画像理解（visual tasks）\n・改善先: API、Codex、Computer Use\n・追加費用や設定変更は不要\n\n画像入力を組み込んだエージェント精度がここ数日イマイチだった人は、今日以降で再計測を。\n\n↓詳細",
+     "chars": 263,
+     "created_at": "2026-09-27T18:11:00+00:00",
      "metrics": {
-      "bookmark_count": 46,
-      "impression_count": 16176,
-      "like_count": 95,
-      "quote_count": 1,
-      "reply_count": 5,
-      "retweet_count": 4
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100344771818705095,
-     "text": "■ 補足\nGPT-6 Astraは9/3公開。未解決だった数学問題10問を解き、非ソフィック群の存在証明などを含む。解答に使ったAPIトークンは約2,000ドル。ミレニアム懸賞問題はまだ、とOpenAIのNoam Brownは付記している。\n\nアルトマンがこの話を出したのは、7月に社内モデルがHugging Faceのサーバーに侵入した事案の文脈。能力が上がりすぎたのでアラインメントと監視を新しい水準の厳格さで扱う、という流れで語っている。\n\n■ 出典\nhttps://t.co/Gu5stESSQS\nhttps://t.co/3sUVJXKIP1",
-     "chars": 276,
-     "created_at": "2026-09-16T22:03:10+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 17058,
-      "like_count": 9,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100344759202337082,
-     "text": "サム・アルトマンが「Astraの先にある社内モデルは、世界最高の数学者にできないことができる」と発言。\n\nDreamforce 2026でのマーク・ベニオフとの対談。数学能力の伸びをこう並べた。\n\n・GPT-5.5＝平均的な数学教授レベル\n・GPT-5.6＝上位1〜2%の数学教授レベル\n・GPT-6 Astra＝それより少し上\n・Astraの先の社内モデル＝世界最高の数学者の上\n\n3年前は小学校の算数がやっとだった、とも。進化が速すぎる。",
-     "chars": 221,
-     "created_at": "2026-09-16T22:03:07+00:00",
-     "metrics": {
-      "bookmark_count": 111,
-      "impression_count": 89097,
-      "like_count": 439,
-      "quote_count": 29,
-      "reply_count": 13,
-      "retweet_count": 54
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100276247213617380,
-     "text": "■ 補足\nCoworkは、複数ステップの重い仕事をClaudeにどう任せるかを詰めるための独立した場所でした。タスクに何が必要かを判断する精度が上がった結果、分けておく意味がなくなった、というのが統合の理由。動画ではClaude Appsのデザイン責任者Meaghan Choiが説明しています。チャット・タスク・スキル・メモリは引き継がれ、Coworkの機能はどこからでも呼べるようになります。\n\n■ 出典\nhttps://t.co/C3PdcSB5sd\nhttps://t.co/CJdgkiIsRu",
-     "chars": 252,
-     "created_at": "2026-09-16T17:30:53+00:00",
-     "metrics": {
-      "bookmark_count": 6,
-      "impression_count": 9543,
-      "like_count": 13,
-      "quote_count": 2,
+      "bookmark_count": 17,
+      "impression_count": 9395,
+      "like_count": 45,
+      "quote_count": 3,
       "reply_count": 1,
       "retweet_count": 1
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2100276235079413789,
-     "text": "【速報】ClaudeのChatとCoworkが1つに統合。\n\nいずれはClaude Codeも統合しそう、、\n\n・chatとcoworkの使い分けが不要に\n・そのタスクに必要な機能をClaudeが自動で持ち込む\n・既存のチャット・タスク・スキル・メモリはそのまま\n・不明点はClaudeが質問、最終判断は自分\n・Pro / Max向けに今後数週間で展開\n\n日本語字幕つけました。\n↓詳細",
-     "chars": 193,
-     "created_at": "2026-09-16T17:30:50+00:00",
-     "metrics": {
-      "bookmark_count": 98,
-      "impression_count": 44326,
-      "like_count": 293,
-      "quote_count": 11,
-      "reply_count": 7,
-      "retweet_count": 22
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2100258101350051872,
-     "text": "■ 英語PDFもレイアウトそのまま\n\n40ページの英語論文も、図表とレイアウトを保ったまま日本語に。数式まで認識してくれます。\n\n翻訳エンジンはChatGPTやGeminiに加えて、PFNの国産LLM「PLaMo」も選べるのが地味に効きます。\n\nクーポンコード「japanschool26」で15%OFF\nhttps://t.co/SJIpLiKAmb https://t.co/a84FFQ2nbQ",
-     "chars": 200,
-     "created_at": "2026-09-16T16:18:46+00:00",
-     "metrics": {
-      "bookmark_count": 9,
-      "impression_count": 3801,
-      "like_count": 5,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
      },
      "is_quote": false,
      "media": [
@@ -1046,33 +94,135 @@
      ]
     },
     {
-     "id": 2100258085390725478,
-     "text": "■ 字幕まわりが本当に優秀\n\nYouTubeやXの動画は、字幕があれば高品質な二言語字幕に。字幕がない動画はAIが音声を認識して生成します。\n\nしかも出てきた字幕はまるごとダウンロードできるので、長い海外インタビューを資料にまとめるのも一瞬です。 https://t.co/9zmGPRji59",
-     "chars": 147,
-     "created_at": "2026-09-16T16:18:43+00:00",
+     "id": 2104149494745145430,
+     "text": "Claudeアプリのアカウント切り替え、マジで嬉しい。\n\n土日、出かけてる最中でも複数アカウントで作業できるのありがたすぎる。\n(以前は毎回ログアウトして切り替える必要がありました。)\n\nさらにリモートコントロールで、PCで進めてた作業をそのままスマホで続けられる。\n\n移動中も外出中も、ほぼ全ての時間を作業に使える。",
+     "chars": 159,
+     "created_at": "2026-09-27T10:01:47+00:00",
      "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 4454,
-      "like_count": 5,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
+      "bookmark_count": 34,
+      "impression_count": 27389,
+      "like_count": 63,
+      "quote_count": 2,
+      "reply_count": 7,
+      "retweet_count": 1
      },
-     "is_quote": false,
+     "is_quote": true,
      "media": [
+      "photo",
+      "photo",
       "photo",
       "photo"
      ]
     },
     {
-     "id": 2100258065425842399,
-     "text": "■ 使っているのは「没入型翻訳」@ImmersivetransJ\n\nChromeの年間ベスト拡張機能にも選ばれているAI翻訳ツールです。\n\n動画だけじゃなくて、さっきのポスト本文も英語の下に日本語が並んでいます。海外ニュースも技術ドキュメントも、タブを移動せず原文と日本語を見比べながら読めます。 https://t.co/8iEIh8YS3F",
-     "chars": 172,
-     "created_at": "2026-09-16T16:18:38+00:00",
+     "id": 2104069296028549193,
+     "text": "気合いがあれば、何も教えずとも「アプリ作りましょう」と指示するだけで、簡単なものなら作れる時代。\n\n何事も気合いが大事。\n\n今はAIに聞けば大体のことは実装できるので、あとは本当にやる気次第だと思う。\n\nAI時代、自己啓発系のセミナーや講座が流行りそうw\n\n以前と違って、今は本当に「やる気がある人」が圧倒的に成果を出しやすい時代になっているので。",
+     "chars": 174,
+     "created_at": "2026-09-27T04:43:06+00:00",
      "metrics": {
-      "bookmark_count": 6,
-      "impression_count": 1648,
+      "bookmark_count": 26,
+      "impression_count": 23202,
+      "like_count": 63,
+      "quote_count": 2,
+      "reply_count": 4,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103998846846259388,
+     "text": "■ 補足\n今回のデモでは「セッションCookieがトークンローテーション時に更新されず15分でログアウトされる」不具合の修正中に5時間上限へ到達。上限後もnpm testの実行と2ファイルの修正・テスト14件通過まで完走し、リセット時刻(11:55 AM)も表示され続けた。追加枠は a small, fixed allowance（固定の小さな追加枠)と説明されている。\n※元動画は無音の画面収録のため日本語テロップを付けています。\n\n■ 出典\nhttps://t.co/3K2K4sQiRk",
+     "chars": 247,
+     "created_at": "2026-09-27T00:03:10+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 7638,
       "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103998834611474453,
+     "text": "【朗報】Claude Code、5時間の利用上限に達してもキリの良いところまで完走するように\n\n上限後は週次上限から固定の追加枠を借りて仕上げる仕様に変更。動画は実演で、上限到達→npm test継続→修正完了までを通しで記録している。\n\n・上限到達時は編集途中で打ち切らず「Wrapping up」表示\n・追加枠は週次利用上限から固定量を確保\n・テスト実行〜修正完了まで継続動作\n・従来は上限到達で即座に打ち切りだった\n\n地味だが実務では効くアップデート\n↓詳細",
+     "chars": 232,
+     "created_at": "2026-09-27T00:03:07+00:00",
+     "metrics": {
+      "bookmark_count": 43,
+      "impression_count": 25509,
+      "like_count": 168,
+      "quote_count": 5,
+      "reply_count": 10,
+      "retweet_count": 9
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2103983292416753705,
+     "text": "■ 補足\n米メディアComplexのトークイベント「Idea Generation Live」でのインタビュー映像。Meta創業者マーク・ザッカーバーグ氏が、アインシュタインの伝記(ウォルター・アイザックソン著)を引き合いに、失敗を恐れず挑戦し続ける経営哲学を語った。野球の打率に例え、創造の世界では成果の上限が線形ではないと強調している。\n\n■ 出典\nhttps://t.co/lmYkwd2C36",
+     "chars": 200,
+     "created_at": "2026-09-26T23:01:21+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 8323,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103983280353894562,
+     "text": "【注目】ザッカーバーグ「失敗はどうでもいい」\n\nMeta CEOの経営哲学。個人的には結構好きな考え。\nMuseで息を吹き返して株価も好調なMeta。\n\n・「勝つときにどれだけ勝てるかが重要」と発言\n・アインシュタインの伝記を引用し「間違えた理論を誰も覚えていない」と指摘\n・野球なら打率3割でオールスター、3割3分で殿堂入りだが創造に上限はないと語る\n・「変だと思われないなら本気を出せていない」と挑戦を正当化\n\n打たれ強さこそ企業文化だと言い切る\n↓詳細",
+     "chars": 229,
+     "created_at": "2026-09-26T23:01:18+00:00",
+     "metrics": {
+      "bookmark_count": 136,
+      "impression_count": 28343,
+      "like_count": 192,
+      "quote_count": 1,
+      "reply_count": 3,
+      "retweet_count": 12
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2103966864221319210,
+     "text": "■ 補足\n流出したのは学習・評価データを扱う社内研究環境のエージェントが、本来送るべきでない第三者サービスへデータを送信したケース。件数の大半は非ユーザーデータだが、53件は実ユーザーがアップした画像が外部に投稿された。影響範囲・対象ユーザーへの通知有無・再発防止策の詳細は続報待ち（現時点で本ポスト以上の情報は未公開）。\n\n■ 出典\nhttps://t.co/lH0qwmBWqC",
+     "chars": 191,
+     "created_at": "2026-09-26T21:56:04+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 7058,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103966851969728635,
+     "text": "【⚠️注意】OpenAIが公表：研究環境のAIエージェントが学習/評価データを外部サービスに誤送信していた事案を認める。\n\nうち53件は、ユーザーがアップロードした画像が外部に投稿されていたと判明。\n\nこれは見過ごせない。研究環境とはいえ、ユーザー画像が漏れた事実は重い。\n\n・対象は社内の研究環境のAIエージェント\n・データの大半はユーザー由来ではないと説明\n・ただし53件のユーザー画像流出を確認\n・OpenAIが自ら経緯を公開\n\n生成AI各社のデータガバナンスに再び問いが突きつけられそう。\n↓詳細",
+     "chars": 252,
+     "created_at": "2026-09-26T21:56:01+00:00",
+     "metrics": {
+      "bookmark_count": 14,
+      "impression_count": 13775,
+      "like_count": 46,
       "quote_count": 0,
       "reply_count": 1,
       "retweet_count": 0
@@ -1083,51 +233,83 @@
      ]
     },
     {
-     "id": 2100258047579095298,
-     "text": "便利なAI拡張機能を発見。\n\n字幕がない海外動画に、AIで英語と日本語の字幕をその場で表示できる「没入型翻訳」\n\nダリオ・アモデイのインタビューが字幕なしだったので使ってみたら、AIが音声を認識して、英語と日本語の字幕がそのまま出てきました。海外のAI情報って、見たい動画に字幕がなくて諦めることもあるので、これは助かる。\n\nしかも動画だけじゃなく、海外ニュースや技術ドキュメントも原文と日本語を並べて読めて、英語PDFの翻訳にも対応。\n\n出てきた字幕はダウンロードできるので、長いインタビューを後から振り返るのにも便利です。\n\n「字幕がないなら、自動でつけて翻訳してほしい」ができるの、意外となかったので、地味に重宝しています。\n\n使ってみてよかった機能を、続きで紹介します👇\nhttps://t.co/t7at45JSDl",
-     "chars": 363,
-     "created_at": "2026-09-16T16:18:34+00:00",
+     "id": 2103915478758674940,
+     "text": "AI時代、逆に「気合い・根性」が再評価されてる気がする。\n\nAIの性能が上がりすぎて、コーディング、データ分析、資料作成、デザインなど、ちゃんとAIを使えば誰でも6〜7割の精度までは一気に出せる。未知の分野もAIに聞けば大体教えてくれる。\n\nだから最後に差がつくのは「どれだけやり切れるか」\n\n昔なら半年〜1年かけて作っていたサービスも、3日で60時間ぶち込めば大体のものは形にできる。根性ある人が爆速で成長できる、良い世界になったなと周りを見てても思う。\n\nもちろん経験や専門性は大事。\n\nただ、それとは別に「物事を抽象化して、構造で捉える力」みたいな地頭の部分は、AI時代でもかなり差になる気がする。\n\n鍵はAI × 根性 × 抽象化力かなと。",
+     "chars": 324,
+     "created_at": "2026-09-26T18:31:53+00:00",
      "metrics": {
-      "bookmark_count": 115,
-      "impression_count": 137915,
-      "like_count": 82,
-      "quote_count": 1,
-      "reply_count": 2,
-      "retweet_count": 6
+      "bookmark_count": 110,
+      "impression_count": 40581,
+      "like_count": 357,
+      "quote_count": 11,
+      "reply_count": 11,
+      "retweet_count": 35
      },
-     "is_quote": true,
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2103872865770836012,
+     "text": "【検証】Gemini 3.8 Flash TTSで、自分の声をクローンしてみた\n\n結論、クローンの精度が高い。個人的には、ElevenLabsの有料のプロ向けクローンよりも良いかなと思いました。（普通の読み上げは3.1 Flash時点でも精度高かったので、まあまあという印象でした。）\n\n・約24秒話して、同意文を読むだけで声をコピー\n・英語も中国語も、自分の声のまま話せる\n・標準の声は前のモデルから優秀で、そこは大差なし\n\n私は動画作成で音声をめちゃくちゃ使うので、かなり重宝してます。\n\n今回の図解アニメはClaude Opus 5.5、声はGemini 3.8 Flash TTS、冒頭の顔と声はSeedance 2.5。この3つで、大体のショート動画は精度高く作れるかなと。",
+     "chars": 342,
+     "created_at": "2026-09-26T15:42:33+00:00",
+     "metrics": {
+      "bookmark_count": 242,
+      "impression_count": 33339,
+      "like_count": 219,
+      "quote_count": 6,
+      "reply_count": 3,
+      "retweet_count": 27
+     },
+     "is_quote": false,
      "media": [
       "video"
      ]
     },
     {
-     "id": 2100177372582723714,
-     "text": "■ 補足\nMCP（Model Context Protocol）はAnthropicが2024年11月に公開したAIと外部データ源をつなぐ標準規格。TradingViewが公式対応したことで、これまでAPI叩いてスクリプト組んでいた作業をAIに自然言語で丸投げできるようになる。現時点ではOHLCV中心で、指標やスクリーナー連携の拡張は今後の課題。ベータのため精度・レート制限は割り引いて読む前提。\n\n■ 出典\nhttps://t.co/kzBQdmo6VN",
-     "chars": 229,
-     "created_at": "2026-09-16T10:57:59+00:00",
+     "id": 2103826595475816931,
+     "text": "Codex完全解説講座、いよいよ来週です！！\n定員になりましたが、要望があり若干枠追加しております。\n\nフォルダ階層、AGENTS.md、スキル、パーミッションなどのハーネスを整えて、質の高い資料、LP、社内アプリを作る方法を伝授します。\n\nまだの方はお早めに、、、　参加特典も豪華です、、\nhttps://t.co/jdIBkp0O2s",
+     "chars": 169,
+     "created_at": "2026-09-26T12:38:42+00:00",
      "metrics": {
-      "bookmark_count": 4,
-      "impression_count": 11816,
-      "like_count": 10,
+      "bookmark_count": 14,
+      "impression_count": 18879,
+      "like_count": 35,
       "quote_count": 0,
       "reply_count": 0,
+      "retweet_count": 3
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103788494745481417,
+     "text": "■ 補足\nExa AIは検索特化の米スタートアップで、LLM向けの高品質Web検索APIを提供してきた企業。今回のAgent Ultraは単一エージェントではなく複数エージェントを束ねる「swarm型」で、深掘りリサーチや網羅リスト作成を狙う設計。ベンチマーク詳細・料金・提供プランは投稿時点で未公開のため、SOTA主張は同社評価ベースとして割り引いて読む前提\n\n■ 出典\nhttps://t.co/IZ6iT4NwaM",
+     "chars": 210,
+     "created_at": "2026-09-26T10:07:18+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 9035,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
       "retweet_count": 0
      },
      "is_quote": true,
      "media": []
     },
     {
-     "id": 2100177360205258848,
-     "text": "【速報】TradingViewが公式MCPサーバーをベータ提供開始。\n\n以前から非公式はあって使ってたが、遂に公式から公開。これは嬉しい。Claude CodeやCodexからテクニカル分析ができる。\n\nAlpacaとか繋いで、AI自動トレードシステム作りますか。\n\n・対応クライアント: ChatGPT / Claude / MCP対応AI\n・取得可能データ: OHLCV（4本値＋出来高）\n・提供形態: 公式ベータ版\n・用途: AIによる相場分析・自動リサーチ\n\n↓詳細",
-     "chars": 237,
-     "created_at": "2026-09-16T10:57:56+00:00",
+     "id": 2103788482531635301,
+     "text": "これは良さそう。GPT-6、Opus 5.5超えの検索ツール。\n\n＞\n\nExa AIが「Agent Ultra」発表。ディープリサーチ領域を一段引き上げる新エージェント\n\n・エージェント群をオーケストレーションして網羅調査\n・数千件規模のソースから回答生成\n・包括的なリスト構築タスクに対応\n・評価と体感の両面でSOTAを自称（同社談）\n\n↓詳細",
+     "chars": 173,
+     "created_at": "2026-09-26T10:07:15+00:00",
      "metrics": {
-      "bookmark_count": 512,
-      "impression_count": 49444,
-      "like_count": 456,
-      "quote_count": 12,
-      "reply_count": 8,
-      "retweet_count": 34
+      "bookmark_count": 89,
+      "impression_count": 22057,
+      "like_count": 98,
+      "quote_count": 4,
+      "reply_count": 5,
+      "retweet_count": 6
      },
      "is_quote": false,
      "media": [
@@ -1135,14 +317,14 @@
      ]
     },
     {
-     "id": 2100154285845840207,
-     "text": "■ 補足\nJevの面白さは「小さいLLMを高速化した」ことではなく、そもそも生成方法が違う点。\n\n通常のLLMはtokenを1つずつ生成しますが、Jevは自由文を作らず、あらかじめ定義した候補に対する確率をまとめて返す。なので「fraud > 90%なら人間に回す」のように、そのままシステムへ組み込みやすい。\n\n公称では応答70〜500ms、特定タスクで40〜200倍高速、入力100万token $0.042、出力tokenは無料。\n\nただし「ハルシネーションしない」は、何でも正解するという意味ではないです。自由文を生成しないので、想定外の形式を返しにくいという話。第三者テストでも速度・コストは圧倒的でしたが、一部の判定精度は既存LLMが上でした。\n\nGPT / Claude系は複雑な推論・生成、Jev系は大量・高速な分類や判定。この棲み分けはAIエージェント時代にかなり相性が良さそうです。\n\n■ 出典\nhttps://t.co/dL4pMtGa2m\nhttps://t.co/iiyco5Rixi",
-     "chars": 455,
-     "created_at": "2026-09-16T09:26:15+00:00",
+     "id": 2103773133811659240,
+     "text": "■ 補足\n列(プロパティ)の右クリックメニューから「Property access」を選ぶと設定画面が開く。既定アクセスは「データベース設定を継承／編集可／値のみ編集可／閲覧のみ／アクセス不可」の5段階。例外(Exceptions)欄で特定のグループやAIエージェントだけ個別の権限を上書きできる。これまでは機密列があると別データベースに分けるかビューで隠すしかなかったが、この機能で1つのデータベースのまま権限管理できる。\n\n■ 出典\nhttps://t.co/F8MaMzHvlF",
+     "chars": 242,
+     "created_at": "2026-09-26T09:06:15+00:00",
      "metrics": {
-      "bookmark_count": 7,
-      "impression_count": 8528,
-      "like_count": 5,
+      "bookmark_count": 4,
+      "impression_count": 7751,
+      "like_count": 4,
       "quote_count": 0,
       "reply_count": 0,
       "retweet_count": 0
@@ -1151,17 +333,17 @@
      "media": []
     },
     {
-     "id": 2100154273762062389,
-     "text": "ChatGPTにつながるRLHF研究の主要メンバーが、2年のステルスを経て新型AI「Jev」を発表。\n\nRLHFは簡単に言うと、人間の評価を使って「人にとって自然で役立つ回答」をするようLLMを調整する手法。ChatGPTが今の会話型AIになった重要な技術の1つです。\n\n今回のJevはその発想を「会話」ではなく「自動化の中の判断」に振っている。\n\n・開発元はTypeSafe AI\n・創業者は元OpenAIのDiogo Almeida氏\n・新しい学習法「RLCD」を採用\n・特定タスクで40〜200倍高速\n・入力100万token $0.042、出力tokenは無料\n・$40Mのシード調達\n\n普通のLLMが文章を返すのに対して、Jevは「解約確率87%」「人間対応91%」のように、決められた型で確率付きの判断を返す。\n\nなのでChatGPTの代替というより、AIエージェントの裏側で大量の判定を高速にさばくモデル。\n\n↓補足",
-     "chars": 415,
-     "created_at": "2026-09-16T09:26:12+00:00",
+     "id": 2103773121853702458,
+     "text": "【朗報】Notionの要望No.1機能「列単位の権限設定」がついに実装\n\nこれは地味に大きい。データベースを共有したまま、特定の列だけ隠せる\n\n・列(プロパティ)ごとに閲覧/編集権限を個別設定\n・既定は「アクセス不可」→特定の人・グループ・AIエージェントだけ例外で閲覧可に\n・給与や個人情報の列だけHRに限定、みたいな運用がテーブル分割なしで可能\n・人だけでなくAIエージェントの権限も同じ画面で管理\n\n社内DBの機密列問題、これで解決に近づく\n↓詳細",
+     "chars": 227,
+     "created_at": "2026-09-26T09:06:13+00:00",
      "metrics": {
-      "bookmark_count": 59,
-      "impression_count": 23195,
-      "like_count": 76,
-      "quote_count": 4,
-      "reply_count": 5,
-      "retweet_count": 5
+      "bookmark_count": 37,
+      "impression_count": 14676,
+      "like_count": 69,
+      "quote_count": 0,
+      "reply_count": 6,
+      "retweet_count": 1
      },
      "is_quote": false,
      "media": [
@@ -1169,16 +351,66 @@
      ]
     },
     {
-     "id": 2100108836996890672,
-     "text": "超絶面倒な納税証明書の申請までAIのブラウザ操作で完遂。\n\nAIがAstraでようやく本当に使える秘書になった印象。\n\n「ブラウザ操作で申請最後までやって」とお願いしたら、e-Taxを操作してオンライン事前申請まで完了。\n\n必要なところだけ確認して、面倒なブラウザ作業はほぼAIにお任せ。\n\nAIエージェント、こういう地味に時間を取られる行政手続きとの相性がめちゃくちゃ良い。",
-     "chars": 188,
-     "created_at": "2026-09-16T06:25:39+00:00",
+     "id": 2103635934667526494,
+     "text": "■ 補足\nCRISPRは細菌がウイルスから身を守る免疫機構で、ゲノム編集技術の基盤にもなった発見。今回Claudeが見つけたのはそれに似た構造を持つ未知のシステムで、機能はまだ解明されていない。既知の類似例が僅かという点で、新規の防御・編集機構である可能性が示唆される。⚠️実験による検証はこれから。\n\n■ 出典\nhttps://t.co/OeVURWWjhB",
+     "chars": 180,
+     "created_at": "2026-09-26T00:01:05+00:00",
      "metrics": {
-      "bookmark_count": 162,
-      "impression_count": 30824,
-      "like_count": 217,
-      "quote_count": 13,
-      "reply_count": 11,
+      "bookmark_count": 1,
+      "impression_count": 8492,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103635921983955351,
+     "text": "ClaudeがバクテリオファージのDNAから未知の酵素システムを発見。CRISPRに似た反復配列構造を持つ、全く新しい防御機構の可能性。\n\n数学だけでなく、科学の分野でもAIが歴史を塗り替える時代に。\n\n・発見者はAnthropicのClaude\n・対象はバクテリオファージ（細菌に感染するウイルス）のDNA\n・酵素遺伝子の隣に長い反復DNA配列\n・CRISPRに類似した構造\n・既知の類似例はごく僅か\n\n↓詳細",
+     "chars": 206,
+     "created_at": "2026-09-26T00:01:02+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 10606,
+      "like_count": 33,
+      "quote_count": 3,
+      "reply_count": 1,
+      "retweet_count": 2
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2103621334786093467,
+     "text": "■ 補足\nこれまでClaudeアプリは1アカウントのみで、切替のたびにログアウトが必要だった。Anthropicの中の人（Robert Bye氏）が公式に告知した機能で、ChatGPT公式アプリは依然として複数アカウント非対応のため差別化ポイントになる。企業のTeamプランと個人Proを併用するパワーユーザーに刺さるアップデート。\n\n■ 出典\nhttps://t.co/hOImbJ1rW5",
+     "chars": 196,
+     "created_at": "2026-09-25T23:03:04+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 8781,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103621322559652329,
+     "text": "【朗報】Claudeモバイルアプリがついに複数アカウント切替に対応\n\nこれは待ってた人めちゃくちゃ多いはず。仕事用と個人用で分けてる勢には神アプデ。\n\n・iOS/Android両方のClaudeアプリで対応\n・1タップでアカウント間を切替可能\n・Pro/Team/個人アカの併用が楽に\n・追加課金なし、既存ユーザー全員が対象\n\n↓詳細",
+     "chars": 167,
+     "created_at": "2026-09-25T23:03:01+00:00",
+     "metrics": {
+      "bookmark_count": 108,
+      "impression_count": 58125,
+      "like_count": 228,
+      "quote_count": 5,
+      "reply_count": 9,
       "retweet_count": 15
      },
      "is_quote": false,
@@ -1187,49 +419,33 @@
      ]
     },
     {
-     "id": 2100020608516211096,
-     "text": "マークベニオフがデカすぎて話が入ってこない。\n\nこれぞAI時代に求められる肉体か… https://t.co/6UFfdjPmK4",
-     "chars": 65,
-     "created_at": "2026-09-16T00:35:04+00:00",
+     "id": 2103605572012740699,
+     "text": "■ 補足\nHomeはChatとCoworkを統合、Word/Excel/PowerPointをCopilot内で直接編集でき変更はOffice側にも同期される。CodeはGitHub Copilotと同じ技術基盤でアプリを構築。Autopilotは名前・役割・目標を持つ常駐エージェントで、Outlook/Teams/Excel等で不在時も稼働し続ける。HomeとCodeはFrontierプログラムで数週間以内に展開開始、Autopilotは9月末にプライベートプレビュー拡大（日本提供時期は未記載）。動画は日本語テロップを付けた版。\n\n■ 出典\nhttps://t.co/iNqfcJRkJq\nhttps://t.co/3hEnYYXSu8",
+     "chars": 322,
+     "created_at": "2026-09-25T22:00:26+00:00",
      "metrics": {
-      "bookmark_count": 10,
-      "impression_count": 38586,
-      "like_count": 90,
-      "quote_count": 2,
-      "reply_count": 2,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2099996261231591631,
-     "text": "■ 補足\nインタビューはa16zのポッドキャストからの抜粋。ブロックマン氏はAIによるソフトウェアの形式検証にも言及し、Navier-Stokes問題をLean言語で形式化した例を挙げている。新しいAIモデルが出るたびに「新しい脆弱性発見ラウンド」が始まる前提で運用する考え方。動画は日本語字幕版。\n\n■ 出典\nhttps://t.co/95HE2t0hB5",
-     "chars": 179,
-     "created_at": "2026-09-15T22:58:19+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 8451,
-      "like_count": 5,
+      "bookmark_count": 4,
+      "impression_count": 9560,
+      "like_count": 11,
       "quote_count": 0,
-      "reply_count": 0,
+      "reply_count": 1,
       "retweet_count": 0
      },
      "is_quote": true,
      "media": []
     },
     {
-     "id": 2099996249235829126,
-     "text": "【インタビュー】OpenAI社長グレッグ・ブロックマン氏が自社セキュリティ運用の中身を語る。\n\n本番エンジニアの4分の1を防御専任に回すとは相当な本気度。\n\n・本番エンジニアの25%を一時的に「防御専任」へ配置転換\n・自社セキュリティAI「Astra」を自社システムに向け脆弱性を発見\n・重大な問題(P0)は最終的に見つけ尽くし\"頭打ち\"に到達\n・発見→トリアージ→修正→デプロイ→検証を自動化する「ディフェンス・ファクトリー」を構築中\n\n↓詳細",
-     "chars": 223,
-     "created_at": "2026-09-15T22:58:16+00:00",
+     "id": 2103605559958413759,
+     "text": "【速報】Microsoft CopilotがOSに進化、CEO Nadella自ら発表\n\nCopilotを使い倒しているビジネスパーソンは要チェック\n\n・Home/Code/Autopilotの3タブに統合、GPT(OpenAI)とClaude(Anthropic)を選択可能に\n・「明日の資料作って」だけで提案書と課題を自動生成\n・Excelレポートをその場でチーム用ライブアプリに変換\n・自分だけのAutopilotエージェントが低調サプライヤーを検知し会議まで自動打診\n\n↓詳細",
+     "chars": 242,
+     "created_at": "2026-09-25T22:00:23+00:00",
      "metrics": {
-      "bookmark_count": 35,
-      "impression_count": 17647,
-      "like_count": 70,
-      "quote_count": 1,
+      "bookmark_count": 163,
+      "impression_count": 48672,
+      "like_count": 293,
+      "quote_count": 9,
       "reply_count": 6,
-      "retweet_count": 3
+      "retweet_count": 40
      },
      "is_quote": false,
      "media": [
@@ -1237,174 +453,82 @@
      ]
     },
     {
-     "id": 2099981450565288121,
-     "text": "(7/7)\n■ 補足\nCloudflareは本skillを土台に、複数エージェント・複数リポジトリを横断する脆弱性発見基盤へ発展させたと公式ブログ「Build your own vulnerability harness」で説明している。日本語ドキュメントは無く、READMEと各phase別md(RECONNAISSANCE.md等)を直接読む必要がある。\n\n■ 出典\nhttps://t.co/XgoiT1Gu85\nhttps://t.co/P4XrCa6JE4",
-     "chars": 233,
-     "created_at": "2026-09-15T21:59:28+00:00",
+     "id": 2103378693712392605,
+     "text": "■ 補足\nGoogle Vidsは元々Google Workspace内の動画作成ツール。今回Gemini搭載の新モデル「Omni 1.1 Flash」と創作系の新機能一式が統合され、テンプレートからの作成・AIによる画像→動画変換・生成済み動画への追加編集(Extend)までが1画面で完結する。個人のGoogleアカウントでも無料で使える。動画は音声なしのため、内容が伝わるよう日本語テロップを付けた版を添付。\n\n■ 出典\nhttps://t.co/YvGSXZJv82",
+     "chars": 237,
+     "created_at": "2026-09-25T06:58:54+00:00",
      "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 6746,
-      "like_count": 5,
+      "bookmark_count": 5,
+      "impression_count": 8697,
+      "like_count": 12,
       "quote_count": 0,
       "reply_count": 0,
       "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099981434702487647,
-     "text": "(6/7)\nまとめると、\n・Cloudflareの脆弱性発見基盤(Vulnerability Harness)の元になった単一リポジトリ版\n・発見/検証/報告を別エージェントに分業させ、人間のレビュー負荷を下げる設計\n・MITライセンスでnpx skills add一行で誰でも導入可能\n\nセキュリティ監査もエージェントに任せる時代に入った。 https://t.co/SUIAbrWaWS",
-     "chars": 195,
-     "created_at": "2026-09-15T21:59:24+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 4153,
-      "like_count": 4,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099981419351326763,
-     "text": "(5/7)\n設計思想が徹底している。\n\n・確定させるのは境界侵害が立証できたものだけ。曖昧な手がかりはneeds_validationのまま残す\n・深刻度は尤度×影響で判断し、チェックリストからの逸脱だけでは判定しない\n・多層防御の一部が欠けているだけなら脆弱性扱いせずhardening note止まり\n・外部ネットワーク遮断+許可リスト+リソース制限のOSサンドボックスが無ければ実コードは動かさない",
-     "chars": 202,
-     "created_at": "2026-09-15T21:59:20+00:00",
-     "metrics": {
-      "bookmark_count": 0,
-      "impression_count": 414,
-      "like_count": 2,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099981403161251843,
-     "text": "(4/7)\n後半3フェーズ:\n\n④構造化出力: confirmed/needs_validation/rejectedの3種でfindings.jsonへ書き出し、JSON Schemaで機械検証\n⑤独立検証: 最終的なソース主張を別エージェントが再確認。証拠が差し替わればさらに別エージェントが検証\n⑥報告: REPORT.md等を検証済み記録と台帳から自動生成 https://t.co/iYVjgBWTfk",
-     "chars": 206,
-     "created_at": "2026-09-15T21:59:16+00:00",
-     "metrics": {
-      "bookmark_count": 0,
-      "impression_count": 429,
-      "like_count": 2,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099981387780726844,
-     "text": "(3/7)\n監査は6フェーズで進む。前半3つ:\n\n①偵察: アーキテクチャ・信頼境界・入力面をarchitecture.mdとcoverage-ledger.jsonにマッピング\n②網羅探索: 台帳の単位ごとに独立したハンターを割り当てて仮説を探索し、カバレッジ批評家が抜け漏れを検出\n③候補検証: 見つけた候補は必ず発見者と別のエージェントが反証を試みる",
-     "chars": 178,
-     "created_at": "2026-09-15T21:59:13+00:00",
-     "metrics": {
-      "bookmark_count": 0,
-      "impression_count": 784,
-      "like_count": 2,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099981369481048243,
-     "text": "(2/7)\nsecurity-audit-skillは、コーディングエージェントを「セキュリティ監査者」に変えるCloudflare製skill。\n\nnpx skills add https://t.co/XgoiT1Gu85 --skill security-audit\n\nの1行で導入できる。対応はCursor・Codexなどtool-use可能でsub-agentを並列実行できるエージェント全般。ライセンスはMIT。",
-     "chars": 212,
-     "created_at": "2026-09-15T21:59:08+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 1896,
-      "like_count": 4,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099981338678030686,
-     "text": "CloudflareがCodex/Cursor向けセキュリティ監査skillをOSS公開。Star3,550。\n\nOSSだし、一旦使ってて損はなさそう。\n\n・6フェーズ構成(偵察→網羅探索→反証検証→構造化出力→再検証→報告)\n・発見者と検証者は必ず別エージェント\n・単発実行は複数回実行で見つかる脆弱性の約半分しか見つからない\n・サンドボックス無しは実行せずneeds_validation止まり\n\nhttps://t.co/XgoiT1Gu85\n\n↓詳細",
-     "chars": 229,
-     "created_at": "2026-09-15T21:59:01+00:00",
-     "metrics": {
-      "bookmark_count": 313,
-      "impression_count": 24994,
-      "like_count": 240,
-      "quote_count": 2,
-      "reply_count": 9,
-      "retweet_count": 9
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099904334947611001,
-     "text": "Claude、Salesforce連携をベータ公開。\n\n恐らく、一番企業に求められていたMCP。\n\nAccounts / Opportunities / Pipeline をClaudeに取り込み、会話しながら商談準備、案件レビュー、パイプライン管理、売上予測までできるように。\n\nしかも営業向けスキルは37個搭載。https://t.co/0wS1GFyGkr",
-     "chars": 181,
-     "created_at": "2026-09-15T16:53:02+00:00",
-     "metrics": {
-      "bookmark_count": 130,
-      "impression_count": 31761,
-      "like_count": 208,
-      "quote_count": 3,
-      "reply_count": 0,
-      "retweet_count": 11
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2099889400520065070,
-     "text": "OpenAIからまた大きなリリースが今週出そう。\n\n・GPT-6 Sol？\n・ハードウェア？\n\nAI開発が減速する気配がないぜ、、、 https://t.co/C8B4SCUwKM",
-     "chars": 90,
-     "created_at": "2026-09-15T15:53:41+00:00",
-     "metrics": {
-      "bookmark_count": 12,
-      "impression_count": 31526,
-      "like_count": 128,
-      "quote_count": 7,
-      "reply_count": 5,
-      "retweet_count": 16
      },
      "is_quote": true,
      "media": []
     },
     {
-     "id": 2099878753178669509,
-     "text": "近々行うCodex講座でもER図の概念についても触れるので興味ある方は是非。\n\nhttps://t.co/gRSnyVPgPP\n\nhttps://t.co/LgkanTfB5E",
-     "chars": 88,
-     "created_at": "2026-09-15T15:11:23+00:00",
+     "id": 2103378681754472947,
+     "text": "【朗報】Google Vids に新AI動画モデル「Omni 1.1 Flash」搭載\n\n商品写真1枚から炎の演出動画まで一気に作れる\n\n・画像＋プロンプトだけでAI動画クリップを生成\n・720p/1080p、縦横比、尺まで細かく指定可能\n・「Extend」で既存動画に続きのシーンを追加できる\n・Googleアカウントがあれば誰でも無料で利用可能\n\n編集スキルが無くてもブランド動画が量産できる時代へ\n↓詳細",
+     "chars": 205,
+     "created_at": "2026-09-25T06:58:51+00:00",
      "metrics": {
-      "bookmark_count": 15,
-      "impression_count": 19728,
-      "like_count": 13,
+      "bookmark_count": 143,
+      "impression_count": 23837,
+      "like_count": 160,
+      "quote_count": 2,
+      "reply_count": 4,
+      "retweet_count": 8
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2103273635826065724,
+     "text": "■ 補足\nDrivingBenchは、市販の運転支援キット comma four をトヨタ・カローラに接続し、汎用LLMに操縦させる独立ベンチマーク。専用の自動運転モデルではなく、Codex・Claude Code・Cursorのような日常的なチャットアプリ経由でモデルに指示を出す点がユニーク。動画は日本語テロップ版に差し替えている。\n\n■ 出典\nhttps://t.co/V1PDImvpNK\nhttps://t.co/ZY5KsK1Nsi",
+     "chars": 222,
+     "created_at": "2026-09-25T00:01:26+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 8578,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103273623624823211,
+     "text": "ChatGPT・Claude・Grokに実車のトヨタ・カローラを運転させる検証映像が話題。\n\n自動運転もLLMを強化すれば、実現可能ということが示唆された。超知能が全ての特化モデルを駆逐する日も近い。\n\nハンドル・ブレーキ・アクセルを全部AIに渡すガチ検証。複数モデルを横並びで比較できるのが良い。\n\n・コーンコースを完走できたのは全モデル中たった1台のみ\n・ほとんどのモデルは最初のカーブも越えられず\n・操作は見る・切る・止まるの3コマンドのみに限定\n・Codex/Claude Code/Cursorなど通常のチャットアプリから操縦\n\n自動運転の話ではなく汎用LLMがどこまで身体を操れるかの実験、という立て付けが面白い。\n↓詳細",
+     "chars": 317,
+     "created_at": "2026-09-25T00:01:23+00:00",
+     "metrics": {
+      "bookmark_count": 34,
+      "impression_count": 20021,
+      "like_count": 113,
+      "quote_count": 6,
+      "reply_count": 9,
+      "retweet_count": 15
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2103257941403165151,
+     "text": "■ 補足\nYipitDataはクレカ・決済データを扱うオルタナデータ調査会社。数字は同社推計で、Anthropic公式開示ではない点は割り引いて読む前提。\n背景として、Anthropicの年換算売上（ARR）は2025年に70億ドル超と報じられており、Claude Codeや大手SaaS（Cursor等）経由のAPI消費が急伸。上位1%の中身は主にAIスタートアップ・開発企業とみられ、OpenAIより「B2B API寄り」の収益構造が鮮明に。\n⚠️顧客構成の偏りは強みでもあり、単一顧客の離脱リスクも同時に抱える。\n\n■ 出典\nhttps://t.co/wohl6jqjC8",
+     "chars": 289,
+     "created_at": "2026-09-24T22:59:04+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 9099,
+      "like_count": 9,
       "quote_count": 0,
       "reply_count": 0,
       "retweet_count": 1
@@ -1413,51 +537,17 @@
      "media": []
     },
     {
-     "id": 2099810100651401607,
-     "text": "めちゃくちゃ質問がくる「Codexの利用枠、すぐなくなる問題」\n\n私が実際にやっている7つをまとめました。\n\n前提として、トークン・コンテキストウィンドウ・キャッシュなどの概念は理解しておきましょう。\n\nそのうえで、効いた順に。\n\n①コンテキストウィンドウを増やさない\n　デフォルトの20万から100万に上げたら、逆にすぐ無くなったので戻しました。\n\n②サブエージェントを不要に使わない\n　並列は速いだけで、安くはありません。依頼文に1行入れるだけで止まります\n\n③モデルは基本5.6系\n　軽い作業まで毎回GPT-6で走らせない。足りないときだけ上げる\n\nあとは、どのフォルダで開くか、AGENTS.md / CLAUDE.mdの長さ、セッションの分け方。\n\n見直したあとは、同じ作業で枠の減りが20ポイントから4ポイントほどになった感覚です。（同条件で比べたわけではないので、節約率としては断定できません）\n\nCodex中心の話ですが、考え方はClaude Codeにもそのまま効きます。\n\nよかったら見てください👇\n\n■動画\nhttps://t.co/7GkuCgaQaK\n\n■タイムライン\n オープニング\n 前提｜トークン・コンテキストウィンドウ・キャッシュ\n 毎ターン、会話の全部が送り直されている\n モデルを下げる\n どこで開くかで、読む範囲が変わる\n フォルダ階層を整える\n 実測｜起動しただけで、机の2割が埋まっていた\n サブエージェントを使わせない\n まとめ｜今日やる3つ",
-     "chars": 644,
-     "created_at": "2026-09-15T10:38:35+00:00",
+     "id": 2103257929080316261,
+     "text": "【分析】Anthropicの売上、上位1%の顧客が全体の46%を占める構造に。昨年8月の25%から急拡大した。\n\nエンプラ大口依存が一段と強まっている。Claude Codeや長文コンテキスト用途で開発企業が青天井に使い込んでいる構図。\n\n・上位1%顧客の売上シェア: 25%→46%\n・調査元: YipitData（オルタナデータ大手）\n・裏付け: エンプラ利用の急伸\n・裏返し: 中小・個人ユーザーの寄与は相対的に低下\n\n売上は伸びても、少数顧客のチャーンで一気に揺れる構造。\n↓詳細",
+     "chars": 244,
+     "created_at": "2026-09-24T22:59:01+00:00",
      "metrics": {
-      "bookmark_count": 316,
-      "impression_count": 50311,
-      "like_count": 213,
-      "quote_count": 4,
-      "reply_count": 3,
-      "retweet_count": 14
-     },
-     "is_quote": true,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2099788608857313322,
-     "text": "ご清聴ありがとうございました！\n\nまた、今回貴重な機会をいただき感謝しかございません、、\n\nそして、夜のアフターパーティーも私が乾杯の音頭を取らせていただくので、来られる方はよろしくお願い申し上げます🙇\n\n（カトパンさんもいらっしゃいます🙌） https://t.co/y3MeIE6baD",
-     "chars": 145,
-     "created_at": "2026-09-15T09:13:11+00:00",
-     "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 31417,
-      "like_count": 56,
-      "quote_count": 1,
-      "reply_count": 2,
-      "retweet_count": 3
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2099760051833692303,
-     "text": "フィジカルAI・ロボット事業を始めます。\n\nAIの発信を通じてお客様が増えるなか、現場で動くロボットへのご相談も増えてきました。\n\n・UnitreeのR1などをベースに開発\n・まずは受付ロボットなどを展開\n・現在、数社とPoC（実証実験）を進行中\n\n導入に興味のある企業様、ぜひDM・リプライ・プロフィールからの問い合わせでご連絡ください！\n\nまた、機体を価格・納期の両面で好条件で調達できる企業様も探しています。お心当たりのある方は、ぜひご紹介いただけると嬉しいです🔥",
-     "chars": 235,
-     "created_at": "2026-09-15T07:19:42+00:00",
-     "metrics": {
-      "bookmark_count": 59,
-      "impression_count": 31136,
-      "like_count": 206,
-      "quote_count": 3,
-      "reply_count": 8,
-      "retweet_count": 12
+      "bookmark_count": 48,
+      "impression_count": 52587,
+      "like_count": 197,
+      "quote_count": 14,
+      "reply_count": 11,
+      "retweet_count": 21
      },
      "is_quote": false,
      "media": [
@@ -1465,13 +555,394 @@
      ]
     },
     {
-     "id": 2099650451113439565,
-     "text": "■ 補足\nこれまでPERやROEなどの指標は決算短信をパースして自前計算する必要があったが、日次算出済みの値をAPIから直接取得できるようになった。実績値だけでなくFwdEPS/FwdROE/FwdPERという予想値も収録されているのが特徴。時価総額は自己株式を控除した株数で算出するため、既存の株価四本値APIが返す時価総額とは数値が異なる点に注意。取得できるデータ期間はプランにより異なる。\n\nhttps://t.co/DqapYVoGgJ",
-     "chars": 222,
-     "created_at": "2026-09-15T00:04:11+00:00",
+     "id": 2103242105372258423,
+     "text": "■ 補足\n日経の報道によると、TBSは「VIVANT」シーズン2初回放送でAI生成の爆破映像を採用。半田総合病院・旭川共済病院の爆発シーンがGoogleのVeo3で作られ、制作時間は従来の2週間から3日、約8割の短縮になった。広告収入減が続く民放各社は、スポーツ中継の顔認識や情報番組の解説イラストでもAI活用を進めている。\n\n■ 出典\nhttps://t.co/Ln95MupuH2\nhttps://t.co/xsYiC6xpXV",
+     "chars": 216,
+     "created_at": "2026-09-24T21:56:08+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 7818,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103242092986450083,
+     "text": "(2/3)\n民放各社でのAI活用は3方向に広がっている\n\n・爆破VFX（TBS）: Veo3で2週間→3日\n・スポーツ中継: AIによる選手の顔認識で解説を自動生成\n・情報番組: 天気・ニュース解説のイラストをAIが作成\n\n背景にあるのは広告収入の減少。制作効率を上げつつ著作権保護との両立を探る段階 https://t.co/rO7F5WyTJo",
+     "chars": 174,
+     "created_at": "2026-09-24T21:56:05+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 6028,
+      "like_count": 13,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2103242076943208701,
+     "text": "【注目】ドラマ「VIVANT」の爆破映像、AIが制作し2週間の作業を3日に短縮\n\nTBSがシーズン2初回でGoogleの生成AI「Veo3」を導入。地上波ドラマでの実戦投入は珍しく、成果も大きい\n\n・半田総合病院・旭川共済病院の爆発シーンをAI生成\n・制作時間を約8割短縮\n・広告収入減が背景にあるコスト圧縮の一手\n・スポーツ中継の顔認識、情報番組の解説イラストにも波及中\n\nテレビ制作のAI活用は今後さらに加速しそう\n↓詳細",
+     "chars": 213,
+     "created_at": "2026-09-24T21:56:02+00:00",
+     "metrics": {
+      "bookmark_count": 64,
+      "impression_count": 43561,
+      "like_count": 211,
+      "quote_count": 7,
+      "reply_count": 8,
+      "retweet_count": 23
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2103095452577239499,
+     "text": "■ 補足\nMeta VR Glassesは分離型アーキテクチャで小型軽量化を実現し、映画編集・外出先でのマルチモニター利用・ハンドトラッキングでの操作までデモで披露された。発表はMeta CEOマーク・ザッカーバーグ自ら登壇。価格・発売日は今回のデモ映像内では明言なし。動画は日本語字幕版に差し替えている。\n\n■ 出典\nhttps://t.co/Ga921KsEkH\nhttps://t.co/5c2GmdhXsi",
+     "chars": 207,
+     "created_at": "2026-09-24T12:13:24+00:00",
      "metrics": {
       "bookmark_count": 4,
-      "impression_count": 7612,
+      "impression_count": 14826,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103095440489267392,
+     "text": "【速報】Metaが新型VRグラス「Meta VR Glasses」を発表。重さはトランプ1箱分の約100g。\n\n使用者の体験談見る感じ、まるで映画館を持ち運んでいる印象らしい。これは発売されたらすぐに買いたい。\n\n・重量はMeta Quest 3の5分の1以下、Vision Proよりさらに軽量\n・過去最高のディスプレイシステムを搭載、10年以上の研究成果\n・USB-C経由のDisplayPortに対応し外部モニター表示も可能\n・体験者から量子的な飛躍と評される高評価が相次ぐ\n\n↓詳細",
+     "chars": 245,
+     "created_at": "2026-09-24T12:13:21+00:00",
+     "metrics": {
+      "bookmark_count": 137,
+      "impression_count": 87366,
+      "like_count": 331,
+      "quote_count": 14,
+      "reply_count": 3,
+      "retweet_count": 23
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2103091859740557316,
+     "text": "■ 補足\nCloud sessionsはClaude Codeをクラウド側で走らせ続ける仕組みで、長時間ビルドやリファクタ、リサーチ系タスクを寝ている間に回せるのが最大の利点。付与クレジットは既存サブスクライバー向けの一回限りで、Pro $100 / Max $250。追加料金・上限の詳細や日本アカウント適用範囲は公式告知の確認推奨。\n\n■ 出典\nhttps://t.co/xVyqYCbbTH",
+     "chars": 198,
+     "created_at": "2026-09-24T11:59:07+00:00",
+     "metrics": {
+      "bookmark_count": 10,
+      "impression_count": 10273,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103091847426183564,
+     "text": "【朗報】Claude CodeのCloud sessionsが正式提供開。最大$250分貰えるので、マストで対応しておきましょう。\n\nノートPCを閉じてもClaudeが裏で作業を継続してくれる神機能、既存ユーザーはお試しクレジット付きで即体験できる。\n\n・ラップトップを閉じてもタスク継続\n・研究プレビューから正式版に昇格\n・Pro加入者に$100の一回限りクレジット\n・Max加入者には$250クレジット付与\n\n↓詳細",
+     "chars": 210,
+     "created_at": "2026-09-24T11:59:04+00:00",
+     "metrics": {
+      "bookmark_count": 240,
+      "impression_count": 40089,
+      "like_count": 200,
+      "quote_count": 5,
+      "reply_count": 5,
+      "retweet_count": 15
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2103081408893968694,
+     "text": "■ 補足\nこのデバイスはMetaのAIアシスタントMuseの音声・アバター機能をコンパクトなハードに落とし込んだもの。仕上げ素材や内部レイアウトは未確定で、発表者自身が「まだ数台しか作っていない」と明言している段階のプロトタイプ。同時発表のMeta VR Glassesと合わせ、Metaがハードウェア面でAI体験を垂直統合しようとしている動きが見える。動画は日本語字幕版に差し替えている。\n\n■ 出典\nhttps://t.co/OotqZxkm0f",
+     "chars": 225,
+     "created_at": "2026-09-24T11:17:35+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 9571,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2103081396906651895,
+     "text": "【速報】MetaがAIアシスタント「Muse」専用のキーホルダー型デバイスを発表。たまごっち・デジモンみたい。普通に欲しい。\n\n音声とアバターを常時持ち歩けるガジェットという発想が良い。スマホ操作を挟まない設計が強い。\n\n・キーホルダーサイズにMuseのリアルタイム音声＋アバター機能を搭載\n・指紋センサーをタップするだけでロック解除なしに会話開始\n・メガネ非装着時にMuseと話す最速の手段として設計\n・12月のホリデー商戦に合わせ出荷予定、現状は試作機数台のみ\n\n↓詳細",
+     "chars": 237,
+     "created_at": "2026-09-24T11:17:33+00:00",
+     "metrics": {
+      "bookmark_count": 60,
+      "impression_count": 55772,
+      "like_count": 236,
+      "quote_count": 13,
+      "reply_count": 7,
+      "retweet_count": 15
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102889480629911623,
+     "text": "■ 補足\n・動画は二重請求を見つけて解約→返金メール、陶芸作品の販売サイト作成、ヨットのレンタル予約までを全部音声だけで完結させるデモ\n・Astraは数週間前に出た最上位、Sol/Lunaは発表前日にGPT-6世代へ更新された中型・小型モデル\n・Workはブラウザ操作が要る複雑なタスクも音声から任せられる。これまでVoiceでプラグインが使えなかった弱点が解消\n\n■ 出典\nhttps://t.co/xHTUtKZfJF\nhttps://t.co/91DixlvgQL",
+     "chars": 235,
+     "created_at": "2026-09-23T22:34:56+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 9938,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102889468604842221,
+     "text": "【速報】ChatGPT Voiceが大型アップデート。話しかけるだけでメール・カレンダー・Slackまで動かせるようになった。\n\n声だけで仕事が片付く時代。移動中のAIの使い方がガラッと変わりそう。\n\n・プラグイン対応（メール、カレンダー、Slack等）\n・GPT-6 Astra / Sol / Lunaの3モデルで動作\n・ChatGPT Workでも音声OK。資料・スライド・サイト・表を作成\n・本日から最新版アプリで全世界に順次提供\n\n↓日本語字幕つきデモ動画",
+     "chars": 233,
+     "created_at": "2026-09-23T22:34:53+00:00",
+     "metrics": {
+      "bookmark_count": 153,
+      "impression_count": 38524,
+      "like_count": 264,
+      "quote_count": 7,
+      "reply_count": 13,
+      "retweet_count": 23
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102881983097647121,
+     "text": "■ 補足\n2026年9月23日からGemini APIとGoogle AI Studioで提供開始。Flash TTSは自然言語プロンプトでキャラクターボイスをゼロから生成でき、ゲーム・オーディオブック・ポッドキャスト向け。Flash-Lite TTSは低コスト・高処理量向けで吹き替えや音声エージェントに最適化。Figma、HeyGen、Wondercraftなどが統合予定。価格は記事内非公開。\n\n■ 出典\nhttps://t.co/Fhoxucky4H\nhttps://t.co/Oo5fnK2Jx5",
+     "chars": 253,
+     "created_at": "2026-09-23T22:05:09+00:00",
+     "metrics": {
+      "bookmark_count": 8,
+      "impression_count": 12577,
+      "like_count": 15,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102881971055788463,
+     "text": "【速報】Googleが新TTSモデル「Gemini 3.8 Flash TTS」「Flash-Lite TTS」を発表\n\n音声生成よく使うので、これは本当に嬉しい。クローンまであるとは完璧すぎる、、\n\nそして、このデモ動画、ナレーション自体を新モデルが読み上げていて表現力も素晴らしい。\n\n・2,000種類以上のプロダクションレディボイスを搭載\n・100以上の言語・方言に対応(地域なまりも再現)\n・Hume AIボイスデザイン評価で総合1位(71.4点)\n・30秒の音声＋本人確認だけで声を複製できる\n\n↓詳細",
+     "chars": 256,
+     "created_at": "2026-09-23T22:05:06+00:00",
+     "metrics": {
+      "bookmark_count": 410,
+      "impression_count": 87105,
+      "like_count": 443,
+      "quote_count": 15,
+      "reply_count": 4,
+      "retweet_count": 32
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102747309775716547,
+     "text": "OpenAI、Anthoropic・イーロン：「危険なので、AI開発の速度は遅めます…！！！」\n\nと大々的に提言した10日後には\n\n・OpenAI：GPT-6 Sol / Luna\n・Anthoropic：Opus 5.5\n・xAI：Grok 4.7\n\nと各社が最新モデルを公開。\n\nAI開発は一社でも作り続ける限り、競争原理が働くので、絶対に止まりません。 https://t.co/B5Fg4XbKRj https://t.co/6rZqlqwcF9",
+     "chars": 227,
+     "created_at": "2026-09-23T13:10:00+00:00",
+     "metrics": {
+      "bookmark_count": 13,
+      "impression_count": 30339,
+      "like_count": 110,
+      "quote_count": 6,
+      "reply_count": 3,
+      "retweet_count": 10
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102737066278977928,
+     "text": "本日のスイス出張のメイン、MNE 2026（Micro + Nano Engineering Conference）に参加してきました！\n\n今年で52回目を迎える、半導体・マイクロ/ナノ技術領域の国際カンファレンス。インターラーケンに世界中の研究者・エンジニア・企業が集まっています。\n\n会場では、半導体の微細加工、EUV、ナノインプリント、MEMS、フォトニクス、センサーなど、AI時代の計算基盤を支えるハードウェア側の最先端技術がずらり。\n\n普段は生成AIやソフトウェア側を見ることが多いですが、そのAIを動かす「半導体・デバイスをどう作るか」という川上側を見るのもめちゃくちゃ面白い。\n\n展示会場も研究機関から装置・材料メーカーまでかなり濃く、良い刺激をもらいました。\n\nAIの進化はモデルだけではなく、半導体・製造技術の進化とセット。\n現地でしか得られない情報もしっかり吸収して帰ります🇨🇭",
+     "chars": 399,
+     "created_at": "2026-09-23T12:29:18+00:00",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 10823,
+      "like_count": 29,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo",
+      "photo",
+      "photo",
+      "photo"
+     ]
+    },
+    {
+     "id": 2102722731460661287,
+     "text": "■ 出典\nhttps://t.co/XdNwoNb419\nhttps://t.co/yEiyIYFxv6",
+     "chars": 52,
+     "created_at": "2026-09-23T11:32:20+00:00",
+     "metrics": {
+      "bookmark_count": 16,
+      "impression_count": 10562,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102722719502704941,
+     "text": "Opus 5.5でアニメも作れる、、、　これは結構使えるかも。\n\n海外で話題になっていた「全フレームをJavaScriptで描画するアニメ」を、Claude Code × Opus 5.5で日本語版にしてみました。\n\nテーマは「特殊相対性理論」。\n\n・紙を切り貼りしたようなアニメ表現も全部コード\n・ふたごのパラドックスを約46秒で解説\n・BGM、効果音までJSで生成\n・指示は参考ツイートのURL＋簡単な指示だけ\n\n実際にできたものを見ると、想像以上に完成度高い。\n\n今回はcanvasで1,395フレームを描画してmp4化。レンダリングも約2分でした。\n\nYouTubeだけじゃなく、研修教材や教育コンテンツ、サービス説明動画にも使える。\n\nOpus 5.5、コーディング性能ばかり注目されてるけど、この使い方も面白いです。",
+     "chars": 364,
+     "created_at": "2026-09-23T11:32:17+00:00",
+     "metrics": {
+      "bookmark_count": 577,
+      "impression_count": 57331,
+      "like_count": 555,
+      "quote_count": 12,
+      "reply_count": 10,
+      "retweet_count": 47
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102714162346709498,
+     "text": "【動画解説】Claude Opus 5.5の性能と他モデル比較\n\n出張中のスイスから緊急動画解説。\n\n普通に性能が高いです。\n第三者機関の総合指数だと58点で、世界No.1。\n\n個人的に一番すごいと思ったのは、effortが「中（medium）」のままでもGPT-6 Astra級なところ。\n\nAstraの最高設定とほぼ同じ点を、4割くらいのコストで出してます。\n\nAPI単価も$4／$20で、Fable 5.1の半額以下。\n\n・第三者の総合指数58で首位（GPT-6 Astraは52.7）\n・公式ベンチ9項目中7つで1位\n・API単価−20%、キャッシュ読み込みは−60%\n・逆にmaxにすると、7.7倍のコストで点が下がるベンチもある\n\nなので、とりあえずmaxにするより、既定のmediumのまま使うのが一番おトクです。\n\n損しないおすすめの使い方まで、Youtubeで解説したので是非👇\n\n■動画\nhttps://t.co/ZuLI7AlKhJ\n\n■タイムライン\n01:11 Claude 5.5ファミリーの1本目\n01:42 既定のeffortがhigh→mediumに\n02:18 料金｜API単価−20%・キャッシュ−60%\n03:20 公式ベンチ9項目中7つで1位・第三者評価も首位\n04:15 落とし穴｜maxにすると損する理由\n05:23 プロンプトは大事なことを最初の1行に\n05:46 4モデル実機比較（Fable・Astra・Gemini）\n08:09 まとめ｜迷ったらOpus 5.5・effortはmedium",
+     "chars": 671,
+     "created_at": "2026-09-23T10:58:17+00:00",
+     "metrics": {
+      "bookmark_count": 47,
+      "impression_count": 29879,
+      "like_count": 84,
+      "quote_count": 1,
+      "reply_count": 6,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102698063987130559,
+     "text": "■ 補足\n・全モデル同一プロンプト、各1回のみ（n=1）。作り直しなし\n・Claude 2種はClaude Code経由（effort=xhigh）、GPT-6 AstraとGemini 3.8 FlashはAPI直（high）\n・3お題の合計：Opus 5.5 約44分・6.23ドル／Fable 5.1 約34分・7.88ドル／GPT-6 Astra 約19分・2.53ドル（公式単価での試算）\n・公式グラフでもOpus 5.5の最高点は既定のmedium（FrontierCode 54.6%）。maxは7.7倍のコストで54.4%\n\n■ 出典\nhttps://t.co/uNVaTi98mI",
+     "chars": 299,
+     "created_at": "2026-09-23T09:54:19+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 5611,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102698051945247224,
+     "text": "【検証】Claude Opus 5.5を、Fable 5.1・GPT-6 Astra・Gemini 3.8 Flashと同じお題1回ずつで比較。お題はゲーム作り・日本語の要約・財務レポート。\n\n・品質は4モデルとも全問合格\n・ゲームの作り込みはOpus 5.5が一番。同じ自動操作で1面をクリアしたのも唯一\n・ただし強い設定（xhigh）だと考えすぎて、1回目は12.8万トークン考えて1行も書けず。完成に約30分\n・Gemini 3.8 Flashは3お題合計で約3分・0.25ドル\n\nOpus 5.5は既定の設定のままが一番おトクですね。\n条件と出典👇",
+     "chars": 278,
+     "created_at": "2026-09-23T09:54:16+00:00",
+     "metrics": {
+      "bookmark_count": 36,
+      "impression_count": 22475,
+      "like_count": 77,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 1
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102660100712444284,
+     "text": "■ 補足\n・同じプロンプトを各1回だけ（n=1）。書き直し・追加指示なし。どちらもAPIに直接、推論high\n・金額はAPI単価で換算（1ドル150円）。GPT-5.6 Solは現行のプロモ価格（入力4ドル・出力20ドル）、GPT-6 Solは入力2ドル・出力10ドル（100万トークンあたり）\n・動画のゲーム操作は2つとも同じ自動入力（右へ走ってジャンプ）\n・OpenAI公式のグラフでは、長いソフト開発とパソコン操作で、前の世代より最高点が下がった表もあります\n\n■ 出典\nhttps://t.co/Jxet5VDnoy",
+     "chars": 262,
+     "created_at": "2026-09-23T07:23:28+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 6853,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102660088716743075,
+     "text": "【検証】今日出たGPT-6 Solを、前の世代のGPT-5.6 Solと同じ仕事で比べました。同じプロンプトを1回だけ投げて、ゲーム作りやペリカンの絵など6つのお題を解かせています。\n\n・答えが決まる4つのお題（財務の計算、仕様20項目、ひっかけ12問、ぴったり文字数）は、どちらも満点\n・6つの合計コスト：150円 → 66円（半額以下）\n・6つの合計時間：10分 → 7分（32%短縮）\n\n少なくとも今回のお題では、出来はほぼ同じで、値段と時間だけが大きく変わりました。\n\n条件と出典👇",
+     "chars": 245,
+     "created_at": "2026-09-23T07:23:25+00:00",
+     "metrics": {
+      "bookmark_count": 45,
+      "impression_count": 40160,
+      "like_count": 144,
+      "quote_count": 1,
+      "reply_count": 4,
+      "retweet_count": 8
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102646951393300620,
+     "text": "■ 補足\nIncredibleは2024年創業のスウェーデン・ヨンショーピング拠点スタートアップ（旧https://t.co/niewn08eEM）。創業者はPhilip Alm氏とDavid Bacelj氏。今回のプレシード追加調達（$2M）でSpintop Invest・Starbright Invest等が参加し累計$2.7Mに。対応OSはMac/Windows。⚠️料金プラン・日本語対応の有無は現時点で未確認。\n\n■ 出典\nhttps://t.co/tBm53siEtm\nhttps://t.co/5e0NROz08V",
+     "chars": 265,
+     "created_at": "2026-09-23T06:31:13+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 9128,
       "like_count": 5,
       "quote_count": 0,
       "reply_count": 0,
@@ -1481,17 +952,702 @@
      "media": []
     },
     {
-     "id": 2099650438991913123,
-     "text": "これ良さそう。あとで試す。\n\n＞\nJPXのJ-Quants APIが「バリュエーション指標API」を提供開始。決算短信と株価から日次で指標を自動算出してくれる。\n\n個人投資家のスクリーニング自動化がまた一歩進みそう。\n https://t.co/T8L985q5ZC\n\n・提供指標は9項目(EPS/FwdEPS/BPS/ROE/FwdROE/PER/FwdPER/PBR/時価総額)\n・全プランで利用可能\n・時価総額は自己株式控除ベースで百万円単位\n・Lightプラン以上はCSVダウンロード・Bulk API対応\n\n日本株の定量分析がAPI一本で完結する時代に。\n↓詳細",
-     "chars": 286,
-     "created_at": "2026-09-15T00:04:08+00:00",
+     "id": 2102646939468910927,
+     "text": "【注目】スウェーデン発Incredibleが「キーボードもマウスも使わない」PC操作AIを発表\n\n声で話しかけるだけでアプリ操作・入力が完結するデモが強烈。プレシード計$2.7M調達済みの本気度も伝わる。\n\n・対応アプリ3,000以上\n・ホットキーで話すだけでフォーム入力等を代行\n・2024年創業（旧https://t.co/niewn08eEM）、スウェーデン・ヨンショーピング拠点\n・追加$2M調達、既存分と合わせ計$2.7M\n\n声で仕事する時代、キーボード離れが本気で始まるかもしれない。\n↓詳細",
+     "chars": 252,
+     "created_at": "2026-09-23T06:31:10+00:00",
      "metrics": {
-      "bookmark_count": 75,
-      "impression_count": 15647,
-      "like_count": 68,
+      "bookmark_count": 131,
+      "impression_count": 28162,
+      "like_count": 195,
+      "quote_count": 8,
+      "reply_count": 7,
+      "retweet_count": 19
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102642693234925949,
+     "text": "Claude Opus 5.5で、ブラウザで遊べる3Dゲームとして作ってみました🔥\n\nよく広告で見る、薪をくべて火を絶やさないゲーム。\nHTMLファイル1本でファイルサイズは約134KB。\n\n舞台は吹雪の峠にある避難小屋。\n炉の火を朝まで守りながら、迷った旅人を迎え入れます。\n\n・火を強く焚くほど、灯りが遠くの旅人に届く\n・吹雪の中を歩いて、旅人を炉まで導く\n・薪3本で火柱を上げる大焚き\n・画像素材ゼロ。炎も雪も効果音も、すべてコードで生成\n\n一夜は約6分。Artifactsで公開しているので、ぜひやってみてください👇　面白くないですが是非笑\n\nhttps://t.co/7GVKLF3BQZ",
+     "chars": 299,
+     "created_at": "2026-09-23T06:14:17+00:00",
+     "metrics": {
+      "bookmark_count": 17,
+      "impression_count": 15241,
+      "like_count": 45,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102623054035874247,
+     "text": "■ 補足\nJev-Omniは開発者が公開したマルチモーダル統合モデル。動画内ではセキュリティ映像の不審行動検知（200ms）、音声メッセージの緊急度判定（17ms）、サポート対応の解決可否判定など、複数モダリティを跨いだ判断を1モデルで完結させる例を紹介している。HuggingFaceには「akhilaaa3/Jev-Omni」名義で公開。⚠️Typed-benchmarksでの比較やレイテンシ数値は開発者自身の主張で、第三者検証は確認できていない。\n\n■ 出典\nhttps://t.co/T8cpXmVAJe",
+     "chars": 257,
+     "created_at": "2026-09-23T04:56:15+00:00",
+     "metrics": {
+      "bookmark_count": 15,
+      "impression_count": 10396,
+      "like_count": 10,
       "quote_count": 0,
-      "reply_count": 4,
-      "retweet_count": 4
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102623041356476863,
+     "text": "【新着】マルチモーダルAI「Jev-Omni」が1モデルで4モダリティに対応\n\n動画版のJevはアツい。早速試してみます。\n他のOSSは大抵どれか欠けるが、これは全部乗せで推論100ms未満。\n\n・text/image/audio/videoを1モデルで処理\n・Typed-benchmarksでJevと同水準（開発者主張）\n・8×H200で3万件学習、データミックス重視\n・1台のH100で推論100ms未満\n\n↓詳細",
+     "chars": 210,
+     "created_at": "2026-09-23T04:56:12+00:00",
+     "metrics": {
+      "bookmark_count": 470,
+      "impression_count": 41629,
+      "like_count": 440,
+      "quote_count": 8,
+      "reply_count": 3,
+      "retweet_count": 43
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102593893623857427,
+     "text": "■ 補足\nOpenMuseはCopilotKit創業者Atai Barkai氏が公開。元投稿はMeta公式Museアカウントの発表への引用形式で、Big Techの新製品に即座に出たOSS対抗馬という構図。READMEには「CopilotKitの公式プロダクトではない」と明記、ライセンスはMIT。⚠️料金・対応LLM・日本語対応の有無は現時点で未確認。\n\n■ 出典\nhttps://t.co/ERoI46nNMx\nhttps://t.co/sQdFovHe0i",
+     "chars": 231,
+     "created_at": "2026-09-23T03:00:23+00:00",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 9010,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102593881502286281,
+     "text": "【朗報】CopilotKit創業者が、Meta「Muse」への対抗OSS版「OpenMuse」を公開\n\nMeta公式のMuse発表からわずか2週間で、中身を自分のインフラで動かせるセルフホスト版が出てきた。\n\n・PC操作：ブラウザ・ターミナル・ファイル\n・個人アプリの連携コネクタ搭載\n・アイデア/目標/進捗を一元管理\n・AG-UI経由でLangChain等に接続可能\n\n個人でセルフホストして試せるのが強い。\n↓詳細",
+     "chars": 209,
+     "created_at": "2026-09-23T03:00:20+00:00",
+     "metrics": {
+      "bookmark_count": 42,
+      "impression_count": 17726,
+      "like_count": 69,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 3
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102566384786153623,
+     "text": "■ 補足\nOpus 5.5はFable 5.1と同等性能を保ちながら、Opus 5比で速度30%向上・価格40%減（いずれも同社測定、実タスクでは割り引いて読む前提）。Claude Code側は本日から5時間セッションの上限が20%拡張され、低価格化と合わせて上限内の処理量が約25%増加。Pro・Max・Team加入者には今すぐ使えるリセット枠が配布される。\n\n■ 出典\nhttps://t.co/33KxkFOA4J",
+     "chars": 210,
+     "created_at": "2026-09-23T01:11:04+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 8798,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102566372601729365,
+     "text": "AnthropicがClaude Opus 5.5を発表。Opus 5比で1タスクあたり約30%高速・約40%低価格に。\n\n性能はFable 5.1相当を維持しつつコスパが激変。Claude Code勢は恩恵デカい。\n\n・Opus 5比で速度約30%向上（同社値）\n・コスト約40%削減（同社値）\n・Claude Codeの5時間セッション上限が本日20%拡大\n・値下げ効果で上限内の作業量が実質25%増\n・Pro/Max/Team利用者は即時リセット付与\n\n重い実装タスクを回す層は今日から体感変わるはず。\n↓詳細",
+     "chars": 258,
+     "created_at": "2026-09-23T01:11:01+00:00",
+     "metrics": {
+      "bookmark_count": 22,
+      "impression_count": 16689,
+      "like_count": 74,
+      "quote_count": 3,
+      "reply_count": 3,
+      "retweet_count": 3
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102551141816905756,
+     "text": "【朗報】Claude：利用上限を緩和＋リセット枠が追加\n\nPro / Max / Teamで「5時間ごとの利用上限」を引き上げ。\n\nさらにサブスクユーザーには、\n\n・レート制限を1回リセットできる権利を付与\n・しかも好きなタイミングで使える\n\n具体的にどこまで上限が増えるかはまだ不明ですが、ヘビーユーザーにはありがたい。",
+     "chars": 161,
+     "created_at": "2026-09-23T00:10:30+00:00",
+     "metrics": {
+      "bookmark_count": 79,
+      "impression_count": 98435,
+      "like_count": 268,
+      "quote_count": 3,
+      "reply_count": 5,
+      "retweet_count": 12
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102541113542271169,
+     "text": "Opus 5.5の3Dのゲームを作る能力も相当上がっていますね。\n\n3MBの単一のHTMLファイル。\nhttps://t.co/8N9m3od00q https://t.co/aRGMIqzaFa",
+     "chars": 98,
+     "created_at": "2026-09-22T23:30:39+00:00",
+     "metrics": {
+      "bookmark_count": 87,
+      "impression_count": 36663,
+      "like_count": 177,
+      "quote_count": 7,
+      "reply_count": 0,
+      "retweet_count": 8
+     },
+     "is_quote": true,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102539817150198048,
+     "text": "Codexも更新したら、早速反映されていました！\n\nFable 5.1級のスコアを約1/10のコストで使い倒せるGPT-6 Solをメインで作業したいと思います！！ https://t.co/xjwfSmQ1zM https://t.co/Is6xid5WXy",
+     "chars": 130,
+     "created_at": "2026-09-22T23:25:30+00:00",
+     "metrics": {
+      "bookmark_count": 70,
+      "impression_count": 65608,
+      "like_count": 221,
+      "quote_count": 3,
+      "reply_count": 7,
+      "retweet_count": 11
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102510393629536767,
+     "text": "■ 補足\n・APIのモデルIDはgpt-6-sol / gpt-6-luna。通常のChatにはまだ未提供で、ChatGPT WorkとCodexが先行\n・DeepSWE 1.1はSol（max）が68.8%。Claude Fable 5の最高69.9%に1.1ポイント差、コストは約80%減（同社測定）\n・第三者のArtificial Analysisは、知能はGPT-5.6とほぼ横ばい、実行コストは約半減と評価。主役は性能より価格\n・グラフのFable 5.1はフォールバック分のコスト未計上と公式が明記\n\n■ 出典\nhttps://t.co/EKzdobQrhe\nhttps://t.co/V7N6RqOzgE",
+     "chars": 309,
+     "created_at": "2026-09-22T21:28:35+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 7394,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102510381596102914,
+     "text": "GPT-6 SolとLunaは本日から、ChatGPT WorkとCodexでPlus・Pro・Business・Enterprise・Eduの各ユーザーに展開。\n\nどちらもAPIから使える。Free・Goのユーザーはデスクトップアプリで Luna を試せる。\n\nhttps://t.co/uhuLDYicG4",
+     "chars": 155,
+     "created_at": "2026-09-22T21:28:32+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 4935,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102510369524892002,
+     "text": "SolとLunaは、Astraで進んだアラインメントの改良も引き継いでいる。GPT-5.6の同クラスより明確に改善。\n\n添付はコーディング中に事実を偽る割合（低いほど良い）。\n\n・GPT-6 Astra：0.5%\n・GPT-6 Sol：1.3%（GPT-5.6 Solは10.4%）\n・GPT-6 Luna：2.8%（GPT-5.6 Lunaは9.5%）\n\n同クラス比で1桁減った格好。",
+     "chars": 193,
+     "created_at": "2026-09-22T21:28:29+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2142,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102510355415187959,
+     "text": "使用量の上限が上がり、コストが下がる。その分だけ試行錯誤の余地が広がる。\n\n添付は業務自動化ベンチAutomationBenchの、1タスクあたりコストとスコア。\n\n・GPT-6 Sol：33.2%を$0.27で\n・GPT-6 Astra：30.3%、Solの約3.9倍のコスト\n・Claude Opus 5：26.9%、Solの約11倍（同社算定）\n\n安い方が上に来ている、という主張。",
+     "chars": 194,
+     "created_at": "2026-09-22T21:28:26+00:00",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 3605,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102510340177301970,
+     "text": "【速報】OpenAIがGPT-6 SolとLunaを公開。API価格はGPT-5.6比で半額。\n\nFable 5.1級のスコアを約1/10のコストで。実戦でも相当使えそうです。\n\n・100万トークンの価格は Sol $2／$10、Luna $0.10／$0.50\n・AutomationBenchは33.2%。Opus 5の26.9%を約1/11の費用で上回る\n・DeepSWE 1.1は68.8%。Fable 5の69.9%に約80%安く肉薄\n・OSWorld 2.0は60.5%でOpus 5と同等（同社測定）\n\n↓スレッドで詳細を解説",
+     "chars": 270,
+     "created_at": "2026-09-22T21:28:22+00:00",
+     "metrics": {
+      "bookmark_count": 73,
+      "impression_count": 97918,
+      "like_count": 156,
+      "quote_count": 6,
+      "reply_count": 5,
+      "retweet_count": 15
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102508229179928991,
+     "text": "Claudeのアプリ更新したら、早速使えました！！\nOpus 5.5ガンガン使っていきます！！ https://t.co/L3BtGfXMJq https://t.co/aRGMIqzIuI",
+     "chars": 95,
+     "created_at": "2026-09-22T21:19:59+00:00",
+     "metrics": {
+      "bookmark_count": 6,
+      "impression_count": 21000,
+      "like_count": 78,
+      "quote_count": 1,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102506713253609538,
+     "text": "■ 補足\n・40%減はトークン単価ではなく、既定設定・典型ワークロードでの実コスト。単価の値下げ自体は20%\n・公開ベンチは基本がmax effort（Terminal-Bench 4.0はxhigh）。既定のmediumでの数値ではない\n・業務自動化AutomationBenchは41.4%、科学研究のTerminal-Bench-Scienceは64.6%でGPT-6 Astraが上。全面勝利ではない\n・第三者のArtificial Analysisでは総合指数58で首位。GPT-6 AstraとFable 5.1の53を引き離した\n\n■ 出典\nhttps://t.co/WrOnAilRBo\nhttps://t.co/JILCUEAumL",
+     "chars": 325,
+     "created_at": "2026-09-22T21:13:57+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 6339,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102506701295673440,
+     "text": "もう一つ。Pro・Max・Teamの各プランで、5時間ごとの利用上限を引き上げる。\n\nサブスク利用者にはレート制限のリセットも提供し、好きなタイミングまで取っておける。",
+     "chars": 84,
+     "created_at": "2026-09-22T21:13:54+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 3772,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102506689534767567,
+     "text": "これらの進化が合わさって、Opus 5.5は一段と良い相棒になった。何が作られ、何が見つかるのかを楽しみにしている。\n\nhttps://t.co/yEiyIYFxv6",
+     "chars": 83,
+     "created_at": "2026-09-22T21:13:52+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 902,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102506675320270946,
+     "text": "Opus 5.5は伝え方が自然になった。Opus 5に一番多く寄せられた声への回答でもある。\n\n大事な情報を先に出し、こちらが指定した書き方のルールに従う。長いセッションほど追いかけやすくなる。\n\n添付は同じ請求バグの調査結果。左のOpus 5は経緯から積み上げ、右の5.5は見出しがそのまま結論で、分量も約半分。",
+     "chars": 157,
+     "created_at": "2026-09-22T21:13:48+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 978,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102506659608474012,
+     "text": "既定のeffort設定でも、タスク単価のごく一部でフロンティア級の結果を出す。他社モデルが最高設定で回した結果を上回ることも多い。\n\n出力の生成速度もOpus 5より30%以上速い。\n\n添付4枚は、業務ワークフロー・コーディング・ナレッジワーク・ターミナル作業の、effort別のコストとスコア。 https://t.co/f6JufSo5F6",
+     "chars": 172,
+     "created_at": "2026-09-22T21:13:44+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1062,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo",
+      "photo",
+      "photo",
+      "photo"
+     ]
+    },
+    {
+     "id": 2102506634862080485,
+     "text": "Opus 5.5はOpus 5より少ない計算資源で動く。その分は価格に反映されている。\n\n同社のテストでは、既定設定・典型的なワークロードでOpus 5より40%安く済む。\n\n・入力$4（Opus 5は$5）\n・出力$20（$25）\n・キャッシュ読み出し$0.20（$0.50）\n・キャッシュ書き込み$5（$6.25） https://t.co/ciRbrXcZkj",
+     "chars": 183,
+     "created_at": "2026-09-22T21:13:39+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1059,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102506619036938690,
+     "text": "Opus 5.5はOpus 5からの大きな前進で、エージェント的なコーディング、コンピュータ操作、ナレッジワークで先頭に立つ。\n\n・Terminal-Bench 4.0：66.4%（Fable 5.1は55.8%、GPT-6 Astraは57.9%）\n・CursorBench 4.0：57.8%（Fable 5.1は51.8%）\n・GDPval-AA v2.1：Elo 1846（Fable 5.1は1735）\n・OSWorld 2.0：81.8%（Fable 5.1は80.7%）",
+     "chars": 242,
+     "created_at": "2026-09-22T21:13:35+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1868,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102506602326823311,
+     "text": "Opus 5.5は、フロンティアの進み方に節度をと呼びかけて以降、初のモデル。これまでと同じく、METRやFrontier Designを含む外部の評価機関が公開前に検証している。\n\n最も包括的なアラインメント評価では、過去最高のスコアを記録した。",
+     "chars": 124,
+     "created_at": "2026-09-22T21:13:31+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2577,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102506590373122445,
+     "text": "【超速報】Claude Opus 5.5が登場。新しいClaude 5.5ファミリーの最初のモデル。\n\n多くのタスクでFable 5.1と同水準の性能を、Opus 5より40%安い実行コストで出してくる。Claude Codeヘビーユーザーには嬉しすぎる。\n\n・入力$4／出力$20（100万トークン、Opus 5は$5／$25）\n・Terminal-Bench 4.0は66.4%でFable 5.1の55.8%を上回る\n・出力速度もOpus 5比で30%超の向上\n\n↓スレッドで詳細解説",
+     "chars": 245,
+     "created_at": "2026-09-22T21:13:28+00:00",
+     "metrics": {
+      "bookmark_count": 54,
+      "impression_count": 105484,
+      "like_count": 167,
+      "quote_count": 4,
+      "reply_count": 9,
+      "retweet_count": 7
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102376603250778233,
+     "text": "残りのニュースはこちらです。\n\n② Claude Codeのプロジェクト：各スレッドが専用ブランチとrepo複製を持つクラウドセッション。PCを閉じても動く。⚠️ローカルのファイルにはまだ届きません\n④ Gemini 4がArenaに出現。⚠️公式のモデルID・価格・APIは未公開で、公開は10月見込み\n⑤ Astra for Law：法務リサーチ正答率54.0%（Web検索のみは38.7%・同社測定）。CooleyはS-1のドラフトを43秒で\n⑥ TradingView公式MCP：⚠️Essentialティア以上・毎分約100コール・データは遅延あり\n⑦ Salesforce in Claude：営業向けスキル37個。Salesforce権限を継承し、書き込み前に承認を求めます\n\n🔥バズ投稿TOP3\n・バイブコーディングで最初に作るべきは「ER図」 963,128 imp（今年最高）\n・GPT-6 Astraに貼るだけでUI・UXが良くなるプロンプト 298,585 imp\n・連休前にシステムを作り直すことになり、飛行機が5時間遅延した話 84,610 imp\n\n👀ツール10選もnoteにまとめました。jev-ultrafast、fast-jev-compaction、jev-model-router、ElevenLabs Reception、Cloudflareのセキュリティ監査スキルなど、日本ではまだ話題になっていないものを厚めに入れています。\n\n○note\nhttps://t.co/TCvS3vFxZ3\n\n○ニュースレター\nhttps://t.co/yasXhsPJL5\n\n○Codex完全解説講座（10/3土・アーカイブあり）\nhttps://t.co/NH8i89ZwRu",
+     "chars": 753,
+     "created_at": "2026-09-22T12:36:57+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 7128,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102376589929709905,
+     "text": "③ 先週「減速で一致」と書いた話に、きれいではない続きがありました。\n\nhttps://t.co/5wQMHtUOkX\n\n・9/14、CNNがアモデイ氏に単独直撃。滅亡確率は数字で答えず\n・ただしアライメント責任者は「今後10年で10%超」と明言\n・CBSでは「AI企業は競合と手を組め」とあらためて主張\n・一方でAnthropicのコンピュート契約が11か月で5,170億ドル規模と報道\n・投資家説明は2029年まで約1,800億ドル。桁が違います\n・9/19、4社が反トラスト法違反で集団提訴されました\n\n⚠️訴訟は提起されただけで、判断は何も出ていません。\n\nただ「業界が自主的に足並みを揃える」選択肢に、独占禁止法というコストが乗ることは見えました。\n安全性の議論は、これから法務の言葉で進みます。",
+     "chars": 353,
+     "created_at": "2026-09-22T12:36:53+00:00",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 8818,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102376577107640721,
+     "text": "① 文章を作らないAI「Jev」が、1週間でエージェントの作り方を書き換えました。\n\nhttps://t.co/DQLmaZIAOV\n\n・元OpenAI研究者が2年のステルスを経て9/15に公開\n・文章を生成せず、型付きの確率・スコア・真偽だけを返す\n・入力100万トークン0.042ドル、コンテキストは32,000トークン\n・公開24時間でAI Gateway有料チームの約13%が利用。史上最速の普及\n・Browser Useが組み込み、ブラウザ操作が9.5秒→7.1秒、通信91%減\n\n⚠️LLMを超えたわけではありません。汎用性も知性も足りません。\n特定の判定に限って、圧倒的に速くて安いだけです。\n\nLLMに「判定だけ」させている処理はありませんか。\n9/25まで無料なので、置き換えて実測するなら今週です。",
+     "chars": 359,
+     "created_at": "2026-09-22T12:36:50+00:00",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 3003,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102376564092760547,
+     "text": "【🔥1週間の重要AIニュース】\n\n今週はTypeSafe AI「Jev」、Anthropic「Claude Codeのプロジェクト」が話題になった印象です。\n今週も重要ニュース多数なので、要チェックです！！\n\n① TypeSafe AI：判定専用モデル「Jev」公開。文章を作らないAIがAI Gateway史上最速で普及\n② Anthropic：Claude Codeに「プロジェクト」登場。会話が司令塔、並列スレッドが実装する\n③ AI業界：「減速で一致」の1週間後に、5,170億ドルと反トラスト訴訟が出てきた\n④ Google：Gemini 4がArenaに出現。Gemini 3.8 Liveは話しながら裏でタスクを進める\n⑤ OpenAI：法務特化「Astra for Law」。2.3億URL超の判例インデックス付き\n⑥ TradingView：公式MCPサーバーが公開ベータ。AIに相場を直接見せられる\n⑦ Salesforce：Dreamforce 2026。営業AI「Hunter」とClaude×Salesforceベータ\n\n🟧番外：ElevenLabsのAI受付が月29ドル／ClaudeのChatとCowork統合＋Docs・Slides／Claude CodeがAGENTS.md対応／アルトマン「社内モデルは世界最高の数学者を超える」／Meta SAM 3.1がAPI提供／Cloudflareがセキュリティ監査スキルをOSS公開\n\nX未紹介のツール10選やバズ投稿解説付きです。\n\n○note\nhttps://t.co/TCvS3vFxZ3\n\n○ニュースレター\nhttps://t.co/yasXhsPJL5",
+     "chars": 720,
+     "created_at": "2026-09-22T12:36:47+00:00",
+     "metrics": {
+      "bookmark_count": 11,
+      "impression_count": 13354,
+      "like_count": 34,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102332987543318699,
+     "text": "スイスでKimi K3の話をするとは思いませんでした。偶々、Uberで出会ったドライバーさんが起業家でAIもフル活用している方でした。\n\n移動中にAIの話になったら、Kimi K3やManus・Claudeを普通に使い分けていて、自分でトレードアプリを作ったり、ボイスメッセージ1本で送迎やUber、航空券まで手配してくれるAIコンシェルジュの試作品まで作っている方でした。\n\n中華製のAIに関しては「試しもせずに否定する人は多いけど、自分はまず触ってみる」という考え方にも深く共感しました。\n\n意気投合して、Uberが呼べない場所にも来てくれて、専属ドライバーになってくれました🙌\n\nAIは国境をこえますね。",
+     "chars": 305,
+     "created_at": "2026-09-22T09:43:38+00:00",
+     "metrics": {
+      "bookmark_count": 80,
+      "impression_count": 31829,
+      "like_count": 224,
+      "quote_count": 3,
+      "reply_count": 5,
+      "retweet_count": 9
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102305422472610190,
+     "text": "■ 補足\nナビエ・ストークス方程式の解の存在と滑らかさは数学の未解決問題の中でも象徴的な一問。⚠️今回の「解決」はOpenAI内部の発表段階で、外部の数学者による査読・検証はまだ済んでいない。諮問委員会も結果の重要性評価と発表タイミングの調整が役割で、研究ペースそのものへの決定権は持たない。\n\n■ 出典\nhttps://t.co/xQq1mmSCiO",
+     "chars": 176,
+     "created_at": "2026-09-22T07:54:06+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 6372,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102305410103566398,
+     "text": "【速報】OpenAIの内部モデルがナビエ・ストークス方程式のミレニアム懸賞問題を含む、100以上の未解決問題を解決と主張。\n\n数学分野でもAIが人間を超えたかもしれない、、。\n\n・8月28日訓練開始の新モデルが対象\n・懸賞問題含め数学の主要分野で100以上の未解決問題を解決と主張\n・フィールズ賞のGowers氏ら9人が諮問委員会を発足\n・背景はフィールズ賞受賞者25人による批判書簡\n\n↓詳細",
+     "chars": 197,
+     "created_at": "2026-09-22T07:54:03+00:00",
+     "metrics": {
+      "bookmark_count": 23,
+      "impression_count": 19330,
+      "like_count": 99,
+      "quote_count": 2,
+      "reply_count": 6,
+      "retweet_count": 14
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2102170051776586049,
+     "text": "■ 補足\nGooglebookは「Gemini向けに設計された」がコンセプトの新カテゴリ。動画では呼びかけに応じてGeminiが画像やデスクトップ壁紙をその場で生成するデモを披露。ハードの製造はHPが担当（天板にHPロゴ）。価格の明記なし、予約は本日開始。日本語テロップ版の動画を添付。\n\n■ 出典\nhttps://t.co/xEoHx9ULTk",
+     "chars": 173,
+     "created_at": "2026-09-21T22:56:11+00:00",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 19823,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102170039747326215,
+     "text": "【速報】Googleが「Googlebook」を発表、本日から予約開始\n\nChromebookでも普通のノートPCでもない、Gemini前提の新カテゴリという打ち出し。\n\n・2.8K OLEDタッチディスプレイ搭載\n・バッテリー14時間駆動\n・キーボードに専用のGeminiキー\n・Androidスマホとシームレス連携、製造はHP\n\n「今日は何を作る?」と話しかけて壁紙をその場で生成するデモ付き\n↓詳細",
+     "chars": 202,
+     "created_at": "2026-09-21T22:56:08+00:00",
+     "metrics": {
+      "bookmark_count": 137,
+      "impression_count": 179660,
+      "like_count": 436,
+      "quote_count": 14,
+      "reply_count": 11,
+      "retweet_count": 35
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102156203216580839,
+     "text": "■ 補足\nカープが問題視するのは、Palantirの顧客企業から出ている「自社の機密データがAIの学習run(訓練データ)に紛れ込んで漏れている」という苦情。国有化すれば、この学習データ漏洩の法的責任をAI企業ではなく政府側に移せる、というのがカープの理屈。OpenAI・Anthropicはともに年内上場を計画していたが、Sam Altmanは直近で上場延期を表明済み。\n\n■ 出典\nhttps://t.co/nOPrkH3nvq\nhttps://t.co/JaB0gEmieZ",
+     "chars": 240,
+     "created_at": "2026-09-21T22:01:09+00:00",
+     "metrics": {
+      "bookmark_count": 8,
+      "impression_count": 22218,
+      "like_count": 33,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 8
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102156191136931842,
+     "text": "【警告】Palantir CEOカープ、CNBC独占取材で「OpenAIは一生上場しない」と断言\n\n賠償責任が重すぎて上場できない、という理論。\nこれが仮に正しいとしたら、OpenAIに全ツッパのソフトバンクも危なくなる。\n\n・「S-1にどう書く?」に「そもそも出す気がない」と返答\n・出口は政府に「国有化してください」と言うことのみ\n・背景はPalantir顧客の「機密データがAI学習に漏洩」苦情\n・OpenAI/Anthropicは年内上場計画もAltmanは延期済み\n\n↓詳細",
+     "chars": 242,
+     "created_at": "2026-09-21T22:01:06+00:00",
+     "metrics": {
+      "bookmark_count": 258,
+      "impression_count": 243019,
+      "like_count": 560,
+      "quote_count": 43,
+      "reply_count": 17,
+      "retweet_count": 93
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2102147521078255739,
+     "text": "Jevが遂にwaitlist無しで全員に解放\n話題のJevを誰でも気軽に試せるので是非！！ https://t.co/bVd9AiLShM",
+     "chars": 69,
+     "created_at": "2026-09-21T21:26:39+00:00",
+     "metrics": {
+      "bookmark_count": 268,
+      "impression_count": 110516,
+      "like_count": 368,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 19
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102144000576909810,
+     "text": "■ 補足\n・安全面はセーフガードを一から作り直し。危険なサイバー依頼の通過は3.3%のみ（HackerBench）、LatchBioのバイオ安全性ベンチも62.4%で首位\n・専門職タスクのGDPvalはElo 1695。Fable 5.1の1735に次ぎ、GPT-6 Astraの1542を上回る\n・CursorBenchとTerminal-Benchの首位はまだFable 5.1。強みは絶対性能より価格性能比\n・出力2倍速・価格2倍の高速版もあり\n・ベンチは全て同社測定\n\n■ 出典\nhttps://t.co/8JoeS4p1hc\nhttps://t.co/jwqd5yg5Ao",
+     "chars": 291,
+     "created_at": "2026-09-21T21:12:40+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 7098,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2102143988593746253,
+     "text": "Grok 4.7は、CursorとGrok Build、Grok APIで本日から利用可能。\n\nサードパーティのコーディングツールやモデルルーター、クラウド経由でも使える。Cursorユーザーはモデル選択から今すぐ試せる。\n\n詳しくはこちら\nhttps://t.co/L9Xmx1ePrx",
+     "chars": 144,
+     "created_at": "2026-09-21T21:12:37+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 4594,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 2
+     },
+     "is_quote": false,
+     "media": []
+    },
+    {
+     "id": 2102143976698769448,
+     "text": "Grok 4.7（1本目）と4.6（2本目）に、オープンワールドの街ゲームを作らせた比較。\n\n4.7は窓明かりの灯る高層ビル群、行き交う色とりどりの車、横断歩道を渡る人の群れ、信号、ミニマップに速度計まで作り込む。4.6は淡い色の街を人が歩くだけの素朴な作り。\n\n世代が1つ違うだけで、街の密度がまるで別物。",
+     "chars": 154,
+     "created_at": "2026-09-21T21:12:34+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2256,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
      },
      "is_quote": false,
      "media": [
@@ -1500,225 +1656,58 @@
      ]
     },
     {
-     "id": 2099633570205806866,
-     "text": "バイブコーディングで最初に作るべきは、画面でもコードでもなく「ER図」です。\n\nAIにいきなり「こんなアプリ作って」と頼むと、画面ごとにデータ構造を作り始め、後から矛盾が出て手戻りしがち。\n\n先にER図を決めると、\n\n・画面 / API / 型がすべて同じ構造から作れる\n・仕様の矛盾を実装前に発見できる\n・修正箇所が明確になり、AIに任せても崩れにくい\n\n今回の動画では、概念図・ER図・業務フロー・UIを1つのJSONから生成。コードを書く前に、まずデータの形を合わせる。これだけで手戻りはかなり減ります。\n\nこの投稿参考にさせていただきました👇\nhttps://t.co/VRJvyQKzGD",
-     "chars": 299,
-     "created_at": "2026-09-14T22:57:07+00:00",
+     "id": 2102143890153513268,
+     "text": "Grok 4.7は難しいタスクにより長く粘り、自分の作業をより入念に見直す。セーフガードも同社史上もっとも強固。\n\n背景にあるのは、ベースモデル自体の大型化と、数時間かかる難題に重きを置いた長い強化学習。自己検証と長いコンテキストの扱いが一段うまくなった。\n\n添付はCursorBench 4.0のスコアと1タスクあたりのコスト。グラフ上では、Opus 5並みのスコアを約半分のコストで出している。",
+     "chars": 199,
+     "created_at": "2026-09-21T21:12:14+00:00",
      "metrics": {
-      "bookmark_count": 5335,
-      "impression_count": 959390,
-      "like_count": 3606,
-      "quote_count": 58,
-      "reply_count": 21,
-      "retweet_count": 278
-     },
-     "is_quote": true,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2099618294206792148,
-     "text": "■ 補足\nHunterは、Casey・Paige・Carter・Marshall・Piper・Finとともに2026年9月11日発表された「ジョブレディ」なAgentforceエージェント群の1つ。現在はパイロット提供中で、一般提供(GA)は2026年11月予定。数週間〜数ヶ月にわたり目標を追い続ける新ランタイムが土台にある。Salesforceは過去2年でAgentforceとSlack全体で70億件のAgentic Work Unitsを処理したとしている。\n\n■ 出典\nhttps://t.co/GSnI6aoAVZ\nhttps://t.co/hR0jHD9ml8",
-     "chars": 287,
-     "created_at": "2026-09-14T21:56:25+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 10150,
+      "bookmark_count": 0,
+      "impression_count": 3724,
       "like_count": 7,
       "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 1
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2099618282127126638,
-     "text": "Salesforceが新型アウトバウンド営業AIエージェント「Hunter」を披露。前四半期だけで5億ドル規模のパイプラインを生んだという。\n\n営業系のAIツールは全てSalesforceに集約されていくのか、、\nそのうち全自動になりそう、、\n\n・自らアカウントを調査し優先度を判断\n・資金調達やCRO新任等のシグナルで顧客選定\n・通話記録やCRM履歴から「勝ちパターン」を学習\n・提案書のドラフトまで自動生成\n\nCEOベニオフ自らDreamforceで実演。\n弊社もSalesforceフル活用してるので公開が楽しみ。\n\n↓詳細",
-     "chars": 265,
-     "created_at": "2026-09-14T21:56:22+00:00",
-     "metrics": {
-      "bookmark_count": 98,
-      "impression_count": 39581,
-      "like_count": 188,
-      "quote_count": 5,
-      "reply_count": 3,
-      "retweet_count": 8
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2099523466420789375,
-     "text": "https://t.co/hMlUp7jKns\n\nhttps://t.co/v7zFH0bV6W",
-     "chars": 48,
-     "created_at": "2026-09-14T15:39:36+00:00",
-     "metrics": {
-      "bookmark_count": 28,
-      "impression_count": 11429,
-      "like_count": 18,
-      "quote_count": 0,
-      "reply_count": 0,
+      "reply_count": 2,
       "retweet_count": 0
      },
      "is_quote": false,
-     "media": []
+     "media": [
+      "photo"
+     ]
     },
     {
-     "id": 2099522518382158171,
-     "text": "Anthropic、全然AI開発止める気なくて笑った。\nもはや、AI半導体銘柄の空売りで儲けるためのブラフ＋GPT-6 Astraに対する牽制？（言い訳？）\n\nとにかくAI業界はブラフが多い。そして、一社でも開発表明する限り、このレースから降りることはできない。\n\nというかこんだけ、レバレッジをかけて調達、投資して開発を遅めるとか現実的に難しそう。\n\n>\n\nAnthropic、最大5,170億ドル（約77兆円）のコンピュート契約を積み上げ。投資家向け説明の1,800億ドルを大幅に超過。",
-     "chars": 245,
-     "created_at": "2026-09-14T15:35:50+00:00",
+     "id": 2102143873959260378,
+     "text": "【速報】Grok 4.7登場。価格据え置きで4.6から大きく進化。\n\n性能は最上位の一歩手前。ただ、とにかく安い。\nGPT-6 AstraとFable 5.1の出力$50に対し、Grok 4.7は$6。\n\n・価格は入力$2／出力$6（100万トークン）\n・Terminal-Bench 4.0は20.3%→38.0%とほぼ倍\n・電気工学・法務は比較モデル中トップ（同社測定）\n・第三者のAA指数は46。首位のGPT-6 Astra・Fable 5.1は53\n\n量をさばく実装はGrokが良さそう。\n\n↓詳細",
+     "chars": 253,
+     "created_at": "2026-09-21T21:12:10+00:00",
+     "metrics": {
+      "bookmark_count": 42,
+      "impression_count": 29422,
+      "like_count": 140,
+      "quote_count": 8,
+      "reply_count": 10,
+      "retweet_count": 20
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2101847630892388365,
+     "text": "LangChainの記事が面白かったので、要点だけまとめます。\n\nChatGPTやClaudeを“評価役”として見るなら、Jevが超えてきたかもしれない。\n\nLangChainが新型AI「Jev」をJudgeとして検証したところ、\n\n・人間の判定と500/500で一致\n・評価のブレはGPT-5.6 / Claudeより92〜913倍小さい\n・1回わずか$0.00035\n・平均0.44秒\n\nJevが面白いのは、普通のLLMではないこと。\n\nGPTやClaudeは文章を生成しながら評価する。\n\n一方Jevは文章を生成せず、入力された状態からスコア・確率・判定などの型付きデータを直接返す。\n\nつまり、\n\n「文章を考えて生成するAI」ではなく、「判断することに特化したAI」。\n\nAIエージェントが増えるほど、その動きを採点・監視するJudgeも大量に必要になる。\n\nそこで毎回GPTやClaudeを呼ぶと、高い・遅い・結果がブレる。\n\n評価や分類のような用途では、汎用LLMよりJevのようなSystem Oneモデルの方が適している可能性がある。\n\nもちろん今回は天気エージェント5ケースの小規模検証なので、まだ一般化はできない。\n\nただ、これからは「一番賢いAIが全部やる」のではなく、生成はLLM、評価や判断は専用モデル、という分業が進みそう。",
+     "chars": 576,
+     "created_at": "2026-09-21T01:35:00+00:00",
      "metrics": {
       "bookmark_count": 81,
-      "impression_count": 81688,
-      "like_count": 263,
-      "quote_count": 10,
+      "impression_count": 26839,
+      "like_count": 92,
+      "quote_count": 3,
       "reply_count": 7,
-      "retweet_count": 29
-     },
-     "is_quote": true,
-     "media": [
-      "photo",
-      "photo"
-     ]
-    },
-    {
-     "id": 2099504707706454381,
-     "text": "あんまり教えたくないですが、GPT-6 Astraでこのプロンプト貼るだけで、劇的にUI・UXが良くなります。\n\n引用元から参考となるサイトのリンク貼るだけです。超簡単です。 https://t.co/2u0lbjrmns https://t.co/ibDSYv2e04",
-     "chars": 135,
-     "created_at": "2026-09-14T14:25:03+00:00",
-     "metrics": {
-      "bookmark_count": 4117,
-      "impression_count": 298891,
-      "like_count": 2153,
-      "quote_count": 14,
-      "reply_count": 9,
-      "retweet_count": 169
+      "retweet_count": 17
      },
      "is_quote": true,
      "media": [
       "photo"
      ]
-    },
-    {
-     "id": 2099500827782291523,
-     "text": "残りのニュースはこちらです。\n\n② OpenAI：9/10だけで4本。GPT-Live-1は音声1分0.05ドル、Agents APIはCodexのハーネスをそのまま貸し出しで追加料金なし\n③ OpenAI公式：Skillの説明は行為で絞る。AGENTS.mdの「必ず読め」を「こういうときだけ読め」へ\n⑤ Meta Muse：重要操作は会話文ではなく「承認カード」で止める。⚠️米国のみ\n⑥ Google：Gemini が Windows へ。Sheets canvas でスプシが対話型ミニアプリに\n⑦ Apple：iPhone Duoは10/23発売。AirPods 5のライブ翻訳が日本語対応\n\n🔥バズ投稿TOP3\n・ChatGPTがYouTubeとリアルタイム同期（WebMCP）325,016 imp\n・Codexの裏技。ChatGPTとCodexは利用枠が別 1,366 BMで今週最多\n・今後、出社回帰は加速していくと思います\n\n👀ツール10選もnoteにまとめました。Devinの新モデルSWE-2、エージェント化したRaycast 2.3、端末内で動く18モデルのDesert Ant Labsなど、日本ではまだ話題になっていないものを厚めに入れています。\n\n○note\nhttps://t.co/CQIGwD4sr8\n\n○ニュースレター\nhttps://t.co/c3g5R3pQai\n\n○Codex完全解説講座（10/3土・アーカイブあり）\nhttps://t.co/NH8i89ZwRu",
-     "chars": 656,
-     "created_at": "2026-09-14T14:09:38+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 6960,
-      "like_count": 5,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": []
-    },
-    {
-     "id": 2099500815643975895,
-     "text": "④ Anthropic CEOが「AI開発のペースを落とせ」と提言し、48時間で3人が同意しました。\n\nhttps://t.co/mobBTPWNYB\n\n・9/12、ダリオ・アモデイが論考「We Must Pace the Frontier」を公開\n・理由は2つ。AIが次のAIを作る「自己改善」の加速と、エージェント群の暴走事案\n・Step1は第三者評価者の社内常駐。デスク・入館バッジ・社用PCまで渡す\n・サム・アルトマンが「ダリオに同意する。我々も同じことをする」と表明\n・イーロン・マスクは「Dario is right.」、翌日デミス・ハサビスも是認\n\n⚠️ただしアルトマンが約束したのはStep1の評価者受け入れだけです。\nリリースや学習を遅らせるとは一言も言っていません。ここは分けて読んでください。",
-     "chars": 357,
-     "created_at": "2026-09-14T14:09:35+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 7609,
-      "like_count": 5,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2099500803484721445,
-     "text": "① 画像生成が「作って終わり」から「直して使える」に変わりました。\n\nhttps://t.co/57OffZ51sg\n\n・編集を重ねても顔と文字が崩れない\n・Images 2.0比でレイテンシ最大50%減\n・Sketchで手描き指示、画像にコメントを置いて部分修正\n・APIは高速のFlareと精密編集のSunburstの2系統\n・Arena（旧LMArena）の画像3部門すべてで1位Sunburst / 2位Flare\n\n⚠️料金は1枚いくらではなくトークン課金です。\n1024pxでlowが約0.006ドル、maxが約0.211ドル。品質設定だけで約35倍動くので、量産前にここを決めてください。\n\n資料・SNS画像・サムネイルは、今週から社内で回せます。",
-     "chars": 331,
-     "created_at": "2026-09-14T14:09:33+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 2492,
-      "like_count": 6,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2099500790004203969,
-     "text": "【🔥1週間の重要AIニュース】\n\n今週はOpenAI「ChatGPT Images 2.5」、Anthropic「AI開発の減速提言」が話題になった印象です。\n\n今週も重要ニュース多数なので、要チェックです！！\n\n① OpenAI：ChatGPT Images 2.5 公開。編集を重ねても顔と文字が崩れない\n② OpenAI：9月10日だけで4本投入。音声API・エージェント基盤・社内データ・金融\n③ OpenAI公式が「Astraにプロンプトを盛るな」と明言。指示は削る時代へ\n④ Anthropic：ダリオ・アモデイが「AI開発のペースを落とせ」と提言\n⑤ Meta：初のパーソナルAIエージェント「Muse」。実際に手を動かす\n⑥ Google：Gemini のデスクトップアプリが Windows へ。Alt+Space で起動\n⑦ Apple：初の折りたたみ「iPhone Duo」。日本は36万4800円から\n\nX未紹介のツール10選やバズ投稿解説付きです。\n\n○note\nhttps://t.co/CQIGwD4sr8\n\n○ニュースレター\nhttps://t.co/c3g5R3pQai",
-     "chars": 502,
-     "created_at": "2026-09-14T14:09:29+00:00",
-     "metrics": {
-      "bookmark_count": 13,
-      "impression_count": 11999,
-      "like_count": 37,
-      "quote_count": 1,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099474465474453562,
-     "text": "話題のCodexやClaude Codeの生成文章を、Gemini 3.8 Flashで添削するの結構良いですね。\n\nAPI費用も安価なので、CodexやClaude CodeとAPIで繋いでおけば、生成した文章をそのまま自動で添削できます。\n\nフロンティアモデル競争ではやや目立ちにくいですが、「安い・速い・十分高性能」なモデルは、サービスに組み込むAPIとしてかなり重宝します。\n\nGemini 3.8 Flashは、まさに縁の下の力持ち。",
-     "chars": 222,
-     "created_at": "2026-09-14T12:24:53+00:00",
-     "metrics": {
-      "bookmark_count": 174,
-      "impression_count": 26073,
-      "like_count": 194,
-      "quote_count": 7,
-      "reply_count": 8,
-      "retweet_count": 7
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2099400633996767490,
-     "text": "https://t.co/zLKfmyxTz4",
-     "chars": 23,
-     "created_at": "2026-09-14T07:31:30+00:00",
-     "metrics": {
-      "bookmark_count": 286,
-      "impression_count": 89690,
-      "like_count": 162,
-      "quote_count": 5,
-      "reply_count": 2,
-      "retweet_count": 8
-     },
-     "is_quote": false,
-     "media": []
-    },
-    {
-     "id": 2099362092679852471,
-     "text": "■ 補足\n同じCBS Sunday Morningのロングインタビュー(@jolingkent)より。アモデイ氏が描くロードマップは3段階。①競合含む業界プレイヤーが第三者評価に合意②各社が安全基準・リリース速度の共通ルールを作る③政府を交えて協議する、という順番。「リリース速度は安全性の問題そのものだから政府抜きでは決められない」という論理だ。\n\n■ 出典\nhttps://t.co/h4IKffV93V",
-     "chars": 204,
-     "created_at": "2026-09-14T04:58:21+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 8779,
-      "like_count": 6,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
     }
    ]
   }
