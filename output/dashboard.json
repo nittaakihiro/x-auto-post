@@ -1,22 +1,22 @@
 {
   "version": 6,
-  "slot": "evening",
+  "slot": "night",
   "date": "2026-09-27",
   "post_date": "2026-09-27",
-  "generated_at": "2026-09-27T19:09:45+09:00",
-  "generated_by": "routine:x-post-evening",
+  "generated_at": "2026-09-27T21:00:00+09:00",
+  "generated_by": "routine:x-post-night",
   "original_post": {
-    "time": "20:00",
-    "text": "施工シミュレーションのアプリ自体はAIに作らせても、検証は人がやるものでした。今回は初期検証までAIが行い、人はタタキ台を直す側に回っています。段取りを組む主役が人からAIに移りつつある変化だと思います。検証にかかった時間がどれだけ縮んだのか気になります。",
+    "time": "21:00",
+    "text": "OpenAIのGPT-6 Astraが、家具の組み立てミスを写真から見抜く精度で最高記録を更新しました。研究機関Epoch AIの検証ベンチマークで、IKEA家具3種・60枚の写真から意図的な組み立てミスを言い当てる課題に取り組み、正答率は80%。2025年11月時点の最高記録だったAnthropicのClaude Opus 4.5(28%)を大きく上回り、Claude Fable 5.1が70%、Claude Opus 5が61%で続いています。ただし判定に1枚あたり中央値3分かかり、その場での組み立て支援にはまだ遅いとのこと。手順書と写真を突き合わせて差分を見つけるこの仕組みは、施工写真を図面と照らし合わせる検査業務にも応用の余地があると思いますが、速度と精度が実務で使える水準に届くかはこれからです。",
     "status": "draft",
-    "type": "quote_rt",
-    "quote_tweet_id": "2104055414522351841",
-    "article_url": null,
+    "type": "original",
+    "quote_tweet_id": null,
+    "article_url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
     "video_url": null,
-    "reply_text": null,
+    "reply_text": "■ 出典\nThe Decoder「OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf」(2026-09-26)\nhttps://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/\n元ベンチマーク: Epoch AI「Furniture Assembly Benchmark(FAB)」",
     "editorial": {
-      "pillar": "建設AI",
-      "format": "引用",
+      "pillar": "一般AI（建設への応用示唆つき）",
+      "format": "比較",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
@@ -24,16 +24,16 @@
         "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "夕枠の候補を5件以上比較（各0〜2点、計10点満点）。①採用: @nakagomeco「施工シミュレーションアプリの初期検証までAIが実施」(2026-09-27 12:47、eye 9,900)。建設実務者自身の一次報告で、AIに作らせる→人が検証、から初期検証もAIが行う→人がタタキ台を直す、への具体的な役割変化を語っており新規性・証拠・追加価値とも高い（10点）。②次点: 同アカウントの屋上鉄骨クレーン施工の投稿(2026-09-27 02:06)は具体的だが本文が転記途中で切れており全文未確認のため見送り（伝わりやすさ減点、7点相当）。③一般AI: kimmonismus発「OpenAI/Anthropicが数万件のインシデントを調査」(Axios発、2026-09-27 15:33)は速報性が高いが、インシデントの具体的内容が非公開で数字が独り歩きするリスクがあり、夜枠の海外ニュース翻訳と役割が重なるため見送り（8点）。④AIDB「Jev検証論文」(2026-09-27 14:33)は数値検証として新規性があるが読者（建設会社）への価値が間接的で数字の説明負担が重い（7点）。⑤dennotai「AI万能論と教育」への意見(2026-09-27 11:09)は具体的証拠がなく一般論（5点）で除外。⑥Qkn3R「AIを経営チームとして組む」マルチエージェント運用ポスト(2026-09-26 19:42)は建設への接続が弱く、個別AI製品名の羅列で焦点がぼやけるため見送り（6点）。⑦SyqkvoIWnrTVNeK「ボリューム検討ツール」更新告知(2026-09-26 10:14)は特定ツールの機能改修告知で、競合性は低いが自社サービスの宣伝色が強く、引用による波及が実質的な販促になりかねないため見送り（5点）。朝(一般AI/速報：OpenAI学習一時停止)・昼(建設AI/比較：MODE BizStack Workflow)と題材・引用元が重複せず、直近7日の非AI建設時事は0本のため今回のAI引用の優先方針にも合致する。",
-      "source_url": "https://x.com/nakagomeco/status/2104055414522351841",
-      "published_at": "2026-09-27T12:47+09:00（slack_buzz.json検出時刻。@nakagomeco本人のX投稿）",
-      "checked_at": "2026-09-27T19:09+09:00",
-      "availability": "特定製品・サービスの提供告知ではなく、建設実務者本人によるAI活用の実践報告。競合サービス（光/Hikari・ミャク楽・Motif等）への言及なし、ツクノビと競合する事業の宣伝でもないため戦略の除外ルールに抵触しない。",
-      "unverified": "本文はai_buzz.json（Slack転記、ai_buzz.jsonのconstruction/AI話題枠）経由で全文取得。本セッションのネットワーク制限でX本体へのWebFetch直接確認は不可、WebSearchでも@nakagomeco本人の追加情報は見つからず、一次ポストそのものを出典として扱った。data/analytics/live_metrics.jsonのfetched_atは2026-09-20T22:36 UTCで7日超のため実投稿との重複は確認できていない（実投稿未確認）。post_queue.jsonの直近14日を確認し、同ネタ・同引用元の重複投稿はなし。",
-      "hook_alternative": "案A（採用）: 原投稿の「AIに作らせる→人が検証」から「AIが初期検証まで→人がタタキ台を直す」への役割変化を軸にした引用。案B: kimmonismus発のOpenAI数万件インシデント調査ニュースを一般AI引用として採用する案も検討したが、詳細非公開で数字が独り歩きするリスクがあり、かつ夜枠の海外ニュース翻訳と役割が重複するため見送った。"
+      "selection_reason": "夜枠の候補を入口(a)〜(e)の順で確認。(a) news_feed.jsonのconstruction_global(48h以内・11件)はai_related=trueが0件で候補なし。(b) ai_buzz.jsonの[建設×AI海外]タグ4件(@MarioNawfal・@_The_Prophet__・@xavriseteritory・@LeoNelissen)はいずれもAI投資規模やロボット推論の一般論で、具体的な会社名・導入条件・数値の一次情報が薄く(4〜5点相当)不採用。[Global-建設]のENR投稿(ポーランド原発EPC契約)はAI要素がなく対象外。(c) ai_buzz.jsonの海外AIバズ(いいね2,000+)からAxios発「OpenAI/Anthropicが数万件のインシデントを調査」(@MadisonMills22 1,000,000imp/@kimmonismus)を検討したが、朝枠(OpenAIの学習一時停止)と同じ『AIエージェントの問題行動』というテーマが重なり、数字も未公開の伝聞情報で一次確認ができないため見送り(6点相当)。採用: OpenAI GPT-6 AstraがEpoch AIの家具組み立てベンチマーク(FAB)で正答率80%を記録し、2025年11月の最高記録だったClaude Opus 4.5(28%)を大きく更新したニュース(The Decoder、2026-09-26 18:44 JST検出/news_feed.json ai_global)。定量的なベンチマーク結果で新規性・証拠性が高く、手順書と写真を照合してミスを検知する仕組みは施工写真と図面を突き合わせる検査業務への応用可能性を具体的に示せるため採用(10点)。朝(OpenAI学習一時停止)・昼(MODE BizStack Workflow)・夕(施工シミュレーション引用)のいずれとも題材・引用元が重複しない。",
+      "source_url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
+      "published_at": "2026-09-26T18:44+09:00（news_feed.json検出時刻。The Decoder記事）",
+      "checked_at": "2026-09-27T21:00+09:00",
+      "availability": "OpenAIおよびEpoch AIの研究発表・ベンチマーク結果の紹介であり、建設向けAI開発/導入支援・BPO・営業代行等の競合サービス(光/Hikari・ミャク楽・Motif等)への言及・宣伝は含まない。戦略の競合紹介除外ルールに抵触しない。",
+      "unverified": "本セッションのネットワーク制限でthe-decoder.comおよびepoch.ai(一次ベンチマーク公開元)へのWebFetchがブロックされ、直接の原文確認はできなかった。WebSearchで得た複数の独立した二次情報(whattheai.tech, hermes-ai.net, alphasignal.ai, aiandtech.news, techmeridian.news等)がGPT-6 Astra 80%・Claude Opus 4.5 28%・Claude Fable 5.1 70%・Claude Opus 5 61%・判定時間中央値3分の数値で一致しており、これらの一致をもって内容の裏付けとした。post_queue.jsonの直近14日・今日のmorning/noon/evening枠と重複がないことは確認済み。data/analytics/live_metrics.jsonは前回確認時点でfetched_atが7日超のため実投稿との重複は未確認(実投稿未確認)。",
+      "hook_alternative": "案A(採用): ベンチマークの数値更新(28%→80%)を軸にした比較形式。案B: Axios発のAIエージェント大量インシデント調査ニュースを速報として採用する案も検討したが、朝枠と主題が重なり、数字も伝聞ベースで一次確認ができないため見送った。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.json・slack_buzz.jsonの直近投稿を確認したが、今回採用の@nakagomeco投稿・朝(OpenAI学習一時停止)・昼(MODE BizStack Workflow)と重複せず、かつ引用/リプに値する新規性の高い候補は見当たらなかったため0件。競合サービス（建設向けAI開発/導入支援・BPO・営業代行、光/Hikari・ミャク楽・Motif等）に該当する候補もなし。",
+  "engage_cards_note": "ai_buzz.json・slack_buzz.jsonの直近投稿・news_feed.jsonのconstruction_globalを確認したが、今回採用の題材や今日のmorning/noon/evening枠と重複せず、かつ引用/リプに値する新規性の高い候補は見当たらなかったため0件。競合サービス(光/Hikari・ミャク楽・Motif等)に該当する候補もなし。",
   "skip_reason": null
 }

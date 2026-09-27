@@ -12347,5 +12347,51 @@
       "unverified": "本文はai_buzz.json（Slack転記、ai_buzz.jsonのconstruction/AI話題枠）経由で全文取得。本セッションのネットワーク制限でX本体へのWebFetch直接確認は不可、WebSearchでも@nakagomeco本人の追加情報は見つからず、一次ポストそのものを出典として扱った。data/analytics/live_metrics.jsonのfetched_atは2026-09-20T22:36 UTCで7日超のため実投稿との重複は確認できていない（実投稿未確認）。post_queue.jsonの直近14日を確認し、同ネタ・同引用元の重複投稿はなし。",
       "hook_alternative": "案A（採用）: 原投稿の「AIに作らせる→人が検証」から「AIが初期検証まで→人がタタキ台を直す」への役割変化を軸にした引用。案B: kimmonismus発のOpenAI数万件インシデント調査ニュースを一般AI引用として採用する案も検討したが、詳細非公開で数字が独り歩きするリスクがあり、かつ夜枠の海外ニュース翻訳と役割が重複するため見送った。"
     }
+  },
+  {
+    "id": "2026-09-27_21:00",
+    "date": "2026-09-27",
+    "time": "21:00",
+    "text": "OpenAIのGPT-6 Astraが、家具の組み立てミスを写真から見抜く精度で最高記録を更新しました。研究機関Epoch AIの検証ベンチマークで、IKEA家具3種・60枚の写真から意図的な組み立てミスを言い当てる課題に取り組み、正答率は80%。2025年11月時点の最高記録だったAnthropicのClaude Opus 4.5(28%)を大きく上回り、Claude Fable 5.1が70%、Claude Opus 5が61%で続いています。ただし判定に1枚あたり中央値3分かかり、その場での組み立て支援にはまだ遅いとのこと。手順書と写真を突き合わせて差分を見つけるこの仕組みは、施工写真を図面と照らし合わせる検査業務にも応用の余地があると思いますが、速度と精度が実務で使える水準に届くかはこれからです。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\nThe Decoder「OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf」(2026-09-26)\nhttps://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/\n元ベンチマーク: Epoch AI「Furniture Assembly Benchmark(FAB)」",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI（建設への応用示唆つき）",
+      "format": "比較",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 2,
+        "自分の追加価値": 2,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "夜枠の候補を入口(a)〜(e)の順で確認。(a) news_feed.jsonのconstruction_global(48h以内・11件)はai_related=trueが0件で候補なし。(b) ai_buzz.jsonの[建設×AI海外]タグ4件(@MarioNawfal・@_The_Prophet__・@xavriseteritory・@LeoNelissen)はいずれもAI投資規模やロボット推論の一般論で、具体的な会社名・導入条件・数値の一次情報が薄く(4〜5点相当)不採用。[Global-建設]のENR投稿(ポーランド原発EPC契約)はAI要素がなく対象外。(c) ai_buzz.jsonの海外AIバズ(いいね2,000+)からAxios発「OpenAI/Anthropicが数万件のインシデントを調査」(@MadisonMills22 1,000,000imp/@kimmonismus)を検討したが、朝枠(OpenAIの学習一時停止)と同じ『AIエージェントの問題行動』というテーマが重なり、数字も未公開の伝聞情報で一次確認ができないため見送り(6点相当)。採用: OpenAI GPT-6 AstraがEpoch AIの家具組み立てベンチマーク(FAB)で正答率80%を記録し、2025年11月の最高記録だったClaude Opus 4.5(28%)を大きく更新したニュース(The Decoder、2026-09-26 18:44 JST検出/news_feed.json ai_global)。定量的なベンチマーク結果で新規性・証拠性が高く、手順書と写真を照合してミスを検知する仕組みは施工写真と図面を突き合わせる検査業務への応用可能性を具体的に示せるため採用(10点)。朝(OpenAI学習一時停止)・昼(MODE BizStack Workflow)・夕(施工シミュレーション引用)のいずれとも題材・引用元が重複しない。",
+      "source_url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
+      "published_at": "2026-09-26T18:44+09:00（news_feed.json検出時刻。The Decoder記事）",
+      "checked_at": "2026-09-27T21:00+09:00",
+      "availability": "OpenAIおよびEpoch AIの研究発表・ベンチマーク結果の紹介であり、建設向けAI開発/導入支援・BPO・営業代行等の競合サービス(光/Hikari・ミャク楽・Motif等)への言及・宣伝は含まない。戦略の競合紹介除外ルールに抵触しない。",
+      "unverified": "本セッションのネットワーク制限でthe-decoder.comおよびepoch.ai(一次ベンチマーク公開元)へのWebFetchがブロックされ、直接の原文確認はできなかった。WebSearchで得た複数の独立した二次情報(whattheai.tech, hermes-ai.net, alphasignal.ai, aiandtech.news, techmeridian.news等)がGPT-6 Astra 80%・Claude Opus 4.5 28%・Claude Fable 5.1 70%・Claude Opus 5 61%・判定時間中央値3分の数値で一致しており、これらの一致をもって内容の裏付けとした。post_queue.jsonの直近14日・今日のmorning/noon/evening枠と重複がないことは確認済み。data/analytics/live_metrics.jsonは前回確認時点でfetched_atが7日超のため実投稿との重複は未確認(実投稿未確認)。",
+      "hook_alternative": "案A(採用): ベンチマークの数値更新(28%→80%)を軸にした比較形式。案B: Axios発のAIエージェント大量インシデント調査ニュースを速報として採用する案も検討したが、朝枠と主題が重なり、数字も伝聞ベースで一次確認ができないため見送った。"
+    }
   }
 ]
