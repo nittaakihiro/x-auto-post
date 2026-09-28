@@ -12531,5 +12531,51 @@
       "unverified": "AIDB投稿内の『コードの変更回数180%増・リリース30%増』という具体的数値の出典（原論文・調査レポート）は本セッションでは特定できず未確認。本文では『という投稿です』『本当なら』と明示的に留保した。post_queue.jsonの直近14日は確認済みで重複なし。data/analytics/live_metrics.json（fetched_at 2026-09-27T23:14 UTC、実投稿100件）も確認し、同テーマ・同引用元の重複は無いことを確認した（NITACO関連の別候補は09-16投稿と構成重複のため不採用とした点は選定理由に記載）。",
       "hook_alternative": "案A(採用)：AIDBの数値を先に出し『書くから検証へ』というボトルネック移動を示した上で、建設現場での確認工程の重さに接続する。案B：先に建設現場の確認作業の大変さを出してから一般AIの話に振る案も検討したが、元投稿の具体的な数値を活かして先に示した方が伝わりやすいため案Aを採用。"
     }
+  },
+  {
+    "id": "2026-09-28_21:00",
+    "date": "2026-09-28",
+    "time": "21:00",
+    "text": "9月24日、米Oracleが、OpenAI「Stargate」向けデータセンター「Project Jupiter」（ニューメキシコ州ドーニャアナ郡、30年間で最大1,650億ドル規模の投資計画）について、開発・資金調達を担うBlue Owl Capitalに不可抗力（フォースマジュール）を通知したと報じられました。原因は電源用ガスパイプラインの許認可です。州土地局が水使用量やCO2排出、州への収入の少なさ（一時金約3.2万ドル・年間4.3万ドル程度）を理由に州有地での通行権を却下し、稼働目標は2026年8月から2027年2月にずれ込んでいます。建設進捗は全体26%、電力を担う燃料電池マイクログリッドは10%にとどまり、関連ローンは額面の89〜91セントで取引されているそうです。日本のデータセンター建設ラッシュも、用地取得だけでなく送電網や燃料調達の許認可が工期を左右する局面に近づいているのかもしれません。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\n・DataCenterDynamics「Oracle issues force majeure notice to Blue Owl following series of setbacks at Project Jupiter data center campus」(2026-09-24)\nhttps://www.datacenterdynamics.com/en/news/oracle-issues-force-majeure-notice-to-blue-owl-following-series-of-setbacks-at-project-jupiter-data-center-campus-report/\n・TechCrunch「Oracle sends force majeure notice on its New Mexico Stargate data center」(2026-09-24)\nhttps://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/\n・Source New Mexico「New Mexico land commissioner blocks Project Jupiter-related pipeline from building on state land」\nhttps://sourcenm.com/2026/07/16/new-mexico-land-commissioner-blocks-project-jupiter-related-pipeline-from-building-on-state-land/",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://www.datacenterdynamics.com/en/news/oracle-issues-force-majeure-notice-to-blue-owl-following-series-of-setbacks-at-project-jupiter-data-center-campus-report/",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "建設AI",
+      "format": "海外事例",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 2,
+        "自分の追加価値": 1,
+        "伝わりやすさ": 1
+      },
+      "selection_reason": "夜枠の候補を(a)〜(e)の順で確認。(a) news_feed.json construction_global(48h窓)は2件のみで、『The coordination problem most interior projects still haven't solved』(Construction Dive)と『McLaren clears planning for Hammersmith student block』(Construction Enquirer)はいずれもai_related=falseでAI要素なし、候補外。(b) ai_buzz.jsonの[建設×AI海外]/[Global-建設]タグは4件。@tanphung000の世界モデル×現場ロボット投稿(@vangrid_io言及、9/27 12:03、8,300imp)は着眼点は良いが具体的な企業導入事例や数値が無く一般論の域を出ないため本採用は見送り、交流候補としてengage_cardsへ。@TheB1M『Strait of Union』はAI要素が無く対象外。ENR投稿は@procoretechスポンサーのウェビナー告知で内容が薄く、実質的にPropTechベンダーの宣伝に近いため除外。@trevornoren(Alphaville引用)はチップ需給とデータセンター完成件数のマクロ予測で、建設実務への具体的示唆が乏しく除外。(c) ai_buzz.jsonの海外AIバズ(いいね2,000+)から@HedgieMarkets発『Oracle Project Jupiter force majeure』(9/25 00:27検出、315,000imp)を精査。ツイート単体は数値が粗いため、WebSearchでTechCrunch/DataCenterDynamics/CNBC/SiliconANGLE/Yahoo Finance/El Paso Matters/Santa Fe New Mexican/Source New Mexico/Public Citizen/naturalgasintel/Construction Review Online/Daily Lobo等8件以上の独立記事を突き合わせ、9/24のBlue Owl Capitalへのforce majeure通知、17マイル『Green Chile』ガスパイプライン(Energy Transfer LP)の州有地通行権をニューメキシコ州土地局が却下(水使用量・CO2排出・州への収入不足を理由)、稼働目標が2026年8月→2027年2月へ後ずれ、建設進捗が全体26%・燃料電池マイクログリッド10%、関連ローンが額面89〜91セントで取引、という中核事実の一致を確認した。AI主導のデータセンター建設が電力インフラの許認可でつまずく具体的な進捗数値付き事例で、9/23夜枠(ペンシルベニア州の住民反対・ゾーニングという社会的合意形成の切り口)とはつまずきの構造(土地の通行権・ガス供給契約という許認可メカニズム)が異なり、今日の朝(NVIDIA診断モデル)・昼(Bedrock Roboticsの自律ショベル)・夕(AIコード変更とレビュー負荷の引用)とも題材が重複しないため採用。(d)news_feed.json ai_globalは今日26件確認したが建設との接続を作れる候補は無し。(e)WebSearchは(c)の裏取りに使用したが、(c)で7点以上が確保できたため追加の英語キーワード探索は行わなかった。",
+      "source_url": "https://www.datacenterdynamics.com/en/news/oracle-issues-force-majeure-notice-to-blue-owl-following-series-of-setbacks-at-project-jupiter-data-center-campus-report/",
+      "published_at": "2026-09-24T00:00:00+09:00(米国時間9/24付。日本時間での正確な報道時刻は未確認)",
+      "checked_at": "2026-09-28T20:30:00+09:00",
+      "availability": "techcrunch.com, datacenterdynamics.com, cnbc.com, siliconangle.com, finance.yahoo.com, elpasomatters.org, www.santafenewmexican.com, pivot-to-ai.comはいずれもWebFetchでEGRESS_BLOCKEDとなり直接の原文確認はできなかった。WebSearchのスニペット経由で、DataCenterDynamics/TechCrunch/CNBC/SiliconANGLE/Yahoo Finance/El Paso Matters/Santa Fe New Mexican/Source New Mexico/Public Citizen/naturalgasintel.com/Construction Review Online/Daily Loboという独立した8件以上の記事を突き合わせ、force majeure通知の宛先(Blue Owl Capital)、パイプライン名(Green Chile)・距離(17マイル)・事業者(Energy Transfer LP)、州土地局の却下理由、稼働目標の後ずれ時期(2026年8月→2027年2月)、建設進捗(26%/10%)、ローン価格(89〜91セント)という中核事実が複数の独立記事で一致することを確認した。競合サービス(建設向けAI開発/導入支援・BPO・営業代行。光/Hikari・ミャク楽・Motif等)への言及・宣伝は本文・補足に含まれない。",
+      "unverified": "元のHedgieMarketsツイートにあった『4,000億ドル規模のStargate契約』という数字は、Project Jupiter単体の投資規模(30年で最大1,650億ドル)と混同している可能性が高く本文からは外した。ローン残高『約180億ドル』はsourcetrail.com等の二次アグリゲータでのみ言及されており信頼度の高い一次報道での確認ができなかったため本文には含めず、価格(89〜91セント)のみ複数記事で一致した数値として採用した。州土地局の却下日(3月20日)は検索スニペット上の言及にとどまり原文で日付を直接確認できていないため本文には具体的日付を書かず『州土地局が…却下し』とだけ記載した。Oracle・Blue Owl双方の公式コメント(『計画通り』『財務コミットメントに変更なし』)は本文の分量上割愛した。",
+      "hook_alternative": "案A(採用): 建設進捗の具体数値(26%/10%)と許認可の詳細から入り、日本のDC建設への示唆で締める構成。案B: 『$165億ドルのプロジェクトが不可抗力に』という金額訴求の速報型冒頭も検討したが、金額の大きさだけでは9/23夜枠と同じ『AIデータセンター建設が止まる』という印象の焼き直しに見えるリスクがあるため、つまずきの具体的メカニズム(ガスパイプラインの通行権却下)を先に出す構成にした。"
+    }
   }
 ]
