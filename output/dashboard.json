@@ -1,39 +1,39 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-09-28",
   "post_date": "2026-09-28",
-  "generated_at": "2026-09-28T06:30:00+09:00",
-  "generated_by": "routine:x-post-morning",
+  "generated_at": "2026-09-28T11:09:00+09:00",
+  "generated_by": "routine:x-post-noon",
   "original_post": {
-    "time": "07:25",
-    "text": "NVIDIAが、会話中の発言を「誰が話したか」まで自動で聞き分けるAIモデル「Nemotron 3 Diarization」を公開しました。パラメータ数は1億とコンパクトながら、重なって話す声も含め最大8人まで識別でき、ストリーミングでも録音音声でも使えます。第三者ベンチマーク「VoiceArena」の話者分離部門では誤り率14.72%で1位となり、NVIDIA自身の従来モデルより約10ポイント改善したとのこと。重みはHugging Faceで公開され、既存の音声認識モデルと組み合わせて使う設計です。複数人が同時に話す打ち合わせや会議の議事録を、発言者ごとに自動で仕分けられるようになりそうです。",
+    "time": "12:00",
+    "text": "米Bedrock Robotics（元Waymoの自動運転エンジニアが創業）が、オペレーターの乗らない完全自律の油圧ショベルを、米国の実際の土木現場で稼働させています。新造機ではなく、既存の20〜80トン級ショベルにLiDARとGPSベースの後付けキットを装着する方式で、Zachry Construction社の120万立方ヤード規模の土木工事では8月から完全無人で稼働中、先行するSundt Construction社のアリゾナ州フェニックス現場でも監視付き自動化で6万5000立方ヤード以上の土砂をすでに掘削・搬送済みだそうです。日本の土木現場もオペレーター不足は同じですが、無人重機の運用や労働安全衛生上の扱いは米国と制度が異なるため、そのまま導入できるかは別途確認が必要です。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
-    "article_url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+    "article_url": "https://www.globenewswire.com/news-release/2026/08/17/3346247/0/en/bedrock-robotics-launches-first-fully-autonomous-excavator-deployments-on-critical-u-s-infrastructure-projects.html",
     "video_url": null,
-    "reply_text": "■ 出典\nNVIDIA公式ブログ（Hugging Face掲載）「Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization」\nhttps://huggingface.co/blog/nvidia/nemotron-diarization\nモデルカード: https://huggingface.co/nvidia/Nemotron-3-Diarization\n公式X（@NVIDIAAI, 2026-09-23）: https://x.com/NVIDIAAI/status/2102775666366435450\nライブデモ: https://huggingface.co/spaces/nvidia/nemotron-diarization\n※本セッションの通信制限でhuggingface.co・the-decoder.comへ直接アクセスできず、検索結果に表示された公式ページの引用・GIGAZINE/HackerNoon等の複数独立媒体の一致で内容を確認。DER・latency等の数値は公式ページからの二次的な引用のため、投稿前に一次ページを直接確認できると尚良い。",
+    "reply_text": "■ 出典\nBedrock Robotics公式発表（GlobeNewswire, 2026-08-17）「Bedrock Robotics Launches First Fully Autonomous Excavator Deployments on Critical U.S. Infrastructure Projects」\nhttps://www.globenewswire.com/news-release/2026/08/17/3346247/0/en/bedrock-robotics-launches-first-fully-autonomous-excavator-deployments-on-critical-u-s-infrastructure-projects.html\nEngineering News-Record「Bedrock Robotics Moves Earth with Autonomous Excavators」(2025-12-15)\nhttps://www.enr.com/articles/62211-bedrock-robotics-moves-earth-with-autonomous-excavators\nTechCrunch「Ex-Waymo engineers launch Bedrock Robotics with $80M to automate construction」(2025-07-16)\nhttps://techcrunch.com/2025/07/16/ex-waymo-engineers-launch-bedrock-robotics-with-80m-to-automate-construction\n※本セッションの通信制限でglobenewswire.com・enr.com・techcrunch.comへ直接アクセスできず（EGRESS_BLOCKED）、WebSearchの検索結果スニペット経由で確認。ENR、The Robot Report、Yahoo Finance、Fox News、Construction Dive、Building Design+Construction、Intelligent Build.techなど複数の独立媒体が同じ数字（6万5000立方ヤード、120万立方ヤード、20〜80トン級、LiDAR/GPS）を報じており内容は一致。ただし公式一次ページの本文は直接確認できていないため、投稿前に手元でglobenewswire.comの原文を開けると尚良い。",
     "editorial": {
-      "pillar": "一般AI",
-      "format": "速報",
+      "pillar": "建設AI",
+      "format": "海外事例",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
-        "見せられる証拠": 1,
+        "見せられる証拠": 2,
         "自分の追加価値": 1,
         "伝わりやすさ": 2
       },
-      "selection_reason": "news_feed.jsonのai_global(新しい順27件)とai_buzz.jsonの[AI-global]/[AI海外バズ]計29件を確認したが、公式アカウント(OpenAI/AnthropicAI/GoogleDeepMind/sama/gdb)の一次発表は本日分に含まれず。候補比較: ①採用: NVIDIA「Nemotron 3 Diarization」公開(9/23、news_feed the-decoder経由9/27検出)—無料・オープンライセンスの話者分離モデル、8人まで識別、VoiceArenaベンチマーク1位という具体的な新規性と、会議・打ち合わせの議事録という分かりやすい用途がある(9点相当)。②除外: OpenAI「GPT-6 Astra」をロボットに接続しキッチン片付け実演(the-decoder, 9/27)—同一プロダクトを9/27夜枠(家具組み立てベンチマーク)で直前に扱ったばかりで連続になるため見送り。③除外: OpenAI研究者が『研究の8-9割はGPT-7以降』とコメント(the-decoder)—新製品・新機能の発表ではなく方針コメントで、読者への実利がはっきりしない(5点相当)。④除外: Fireworks AI「Ember-1」推論トークン削減モデル(HN 172pt, 9/23)—本セッションでegress制限によりfireworks.aiへ直接アクセスできず、数値(削減率35-40%等)が二次情報のみで裏取り不足(6点相当、要再検証)。⑤除外: Meta「Muse」の信頼性を論じるTechCrunchのオピニオン記事(9/27)—9/26朝枠の週次まとめで既出のMuseの話題を分析視点で繰り返すのみで一次発表がない(4点相当)。⑥除外: Microsoft/Qualcomm「Copilot+ PC」ブランドの実質消滅(GIGAZINE, 9/27)—新しくできることの発表ではなくブランド終了のニュースで朝枠の趣旨に合わない(4点相当)。⑦確認: 自社と競合する建設AIサービス(光/Hikari・ミャク楽・Motif等)に該当する候補なし。朝枠は一般AI中心のため建設への無理な接続はせず、事実関係を淡々と伝える構成にした。",
-      "source_url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "published_at": "モデル公開2026-09-23。news_feed.json記録のThe Decoder記事検出は2026-09-27 20:01 JST。",
-      "checked_at": "2026-09-28T06:30+09:00",
-      "availability": "Hugging Face上でオープンウェイト(openmdw-1.1ライセンス)として一般提供中。パラメータ数約1億、ストリーミング・オフライン双方の推論に対応し、既存のASR(音声認識)モデルと組み合わせて使う設計。価格は無料の重み公開であり、サードパーティのホスティング価格(Baseten等)は公式レートではないため本文に含めていない。",
-      "unverified": "本セッションのネットワーク制限でhuggingface.co・the-decoder.comへの直接WebFetchがEGRESS_BLOCKEDとなり、公式ページ本文を直接開けなかった。WebSearchのスニペットで公式モデルカード・公式ブログの引用文、および@NVIDIAAIの公式X投稿の引用、GIGAZINE/HackerNoon/Unite.AI等の複数独立媒体の記述が一致することで内容を確認した。DER14.72%・改善幅約10ポイントなどの数値は上記の二次引用に基づく。post_queue.jsonの直近14日およびlive_metrics.json(fetched_at 2026-09-20、8日前のデータで古い)を確認したが、本ネタ・NVIDIA関連の重複投稿はなし(実投稿はfetched_at古さのため断定不可)。",
-      "hook_alternative": "案A(採用): モデル名を先に出し、できること(話者分離)→性能(8人・ベンチマーク1位)→用途(議事録)の順で伝える速報の型。案B: 『会議の議事録が変わるかもしれません』と読者価値を先に出す案も検討したが、具体的な製品名・数値が先に来る方が他の速報と違いが伝わりやすいため案Aを採用。"
+      "selection_reason": "news_feed.jsonのconstruction_global（ai_related付き・48h以内）はMcLarenの学生寮計画1件のみでai_related=false のため該当なし。ai_buzz.jsonの[建設×AI海外]7件を確認したが、@tanphung000/@xavriseteritory等はworld modelsやphysical AIについての一般論・所感の連投で、具体的な企業名・現場・数字を伴う一次報告ではなく採用不可（3〜4点）。news_feed.jsonのconstruction_japan（ai_related=true）8件から、①日本ピーエス「Tours」空間DXツールの橋梁工事現場見学案内活用（PR TIMES、AIかどうか本文で確認できず、案内ツールとしての用途で建設AI実務の価値が薄いため5点で除外）、②エアロセンスのドローン測量機の補助金カタログ登録（行政手続きニュースでAI関連性薄く3点で除外）、③現場DXサービス「KANNA」10万社突破（提供元ベンダー自身のマイルストーン発表で、事例ではなく宣伝にあたるため戦略の「提供元ベンダーの宣伝にならないもの」の方針により4点で除外）、④建設不況下の大手建設会社採用方針（AI・安全は重点分野の一つという言及のみで具体的な活用事例ではないため4点で除外）を確認したが、いずれも7点未満。ai_global/ai_japanのうち建設に直結する候補として安川電機・ファナックのAI溶接ロボット実演記事（monoist.itmedia.co.jp）があったが、記事の文脈は製造業（工場の溶接ライン）向けで建設現場の一次報告ではなく、建設への接続は推測になるため除外（8点相当だが対象読者とのミスマッチで見送り）。slack_buzz.jsonにも該当なし。以上より国内・海外の一次フィード経由では7点以上の候補が無かったためWebSearchで補完し、⑤採用：米Bedrock Robotics（元Waymoの自動運転エンジニアが2025年7月に8000万ドル調達で創業）が、既存の20〜80トン級油圧ショベルにLiDAR/GPSベースの後付けキットを装着し、Zachry Construction社の120万立方ヤード規模の土木工事で2026年8月17日付の公式発表として完全無人稼働を開始、先行するSundt Construction社のフェニックス現場でも監視付き自動化で6万5000立方ヤード以上を実際に処理済みという、企業名・数字・技術方式が揃った一次発表ベースの海外事例（10点相当だが、globenewswire.com等の一次ページを直接開けず複数媒体経由の確認に留まるため自分の追加価値を1点とし合計9点）。⑥比較検討：米Buildroid AI（UAEでブロック積みロボットのパイロット、1日30㎡ vs手作業5㎡）も海外事例として成立するが、現場名・稼働量など独立検証できる数字がBuildroid社発表のみでBedrockより薄く、次点として見送り。⑤は9/17海外事例（HP SitePrint）、9/18海外事例（Reframe Systems）、9/19海外事例（Planted）、9/20海外事例（Vectorworks）、9/22海外事例（GS建設）、9/23実演、9/24国内事例（西松建設・自動運転重機の社内研修）、9/26海外事例（Burns & McDonnell×Gritt・太陽光パネル設置ロボット）とは題材・企業とも重複しない。9/24の西松建設（重機自動運転の社内研修）とはテーマが近いが、国・企業・角度（自社研修 vs 米スタートアップの商用後付けキット導入）が異なり許容範囲と判断。本日朝枠（NVIDIA音声分離モデル）とも重複しない。直近3枠の形式は比較→海外事例→比較のため、本枠を海外事例としても同一形式が3本連続にはならない。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する候補は今回の比較対象に含まれていない。",
+      "source_url": "https://www.globenewswire.com/news-release/2026/08/17/3346247/0/en/bedrock-robotics-launches-first-fully-autonomous-excavator-deployments-on-critical-u-s-infrastructure-projects.html",
+      "published_at": "Bedrock Robotics公式発表2026-08-17（Zachry Construction現場の完全無人稼働）。先行するSundt Construction現場（6万5000立方ヤード実績）の詳報はEngineering News-Record 2025-12-15付記事。",
+      "checked_at": "2026-09-28T11:09+09:00",
+      "availability": "米国内で商業展開中。新規機材ではなく既存の20〜80トン級油圧ショベルへの後付けキット（LiDAR・GPSベース）として提供され、Sundt Construction・Zachry Constructionのほか、Austin Bridge & Road、Maverick Constructors、Haydon Cos.、Champion Site Prep、Capitol Aggregatesが検証・導入段階のパートナーとしてENR記事に名前が挙がっている。運用段階は「監視付き自動化」から「完全無人（オペレーターなし）」へ移行中で、現場によって段階が異なる。日本国内での提供・提携の情報は確認できていない。",
+      "unverified": "本セッションのネットワーク制限でglobenewswire.com、enr.com、techcrunch.com、prnewswire.com、constructiondive.com、equipmentworld.com、therobotreport.com、archinect.com、prtimes.jp等へのWebFetchが軒並みEGRESS_BLOCKEDとなり、一次ページの本文を直接開けなかった。WebSearchのスニペットで、Bedrock Robotics公式発表（GlobeNewswire）の引用文および、ENR・The Robot Report・Yahoo Finance・Fox News・Construction Dive・Building Design+Construction・Intelligent Build.tech等の複数独立媒体が同一の数字（6万5000立方ヤード、120万立方ヤード、20〜80トン級、LiDAR/GPS）を報じていることを確認し内容の一致を確認した。ただし一次ページを直接確認できていないため、投稿前に手元でglobenewswire.comまたはbedrockrobotics.comの原文を開いて数字・日付を再確認できると尚良い。post_queue.jsonの直近14日を確認し重複なし。data/analytics/live_metrics.jsonは未確認のため実投稿との重複は確認できていない（実投稿未確認）。",
+      "hook_alternative": "案A(採用)：企業名（Bedrock Robotics）と「オペレーターの乗らない完全自律の油圧ショベル」という具体的な変化を先に出し、後付けキットという導入方式→実際の現場と数字→日本への示唆の順で伝える海外事例の型。案B：「重機オペレーター不足」という読者の課題を先に出す案も検討したが、建設AI枠では既に人手不足を切り口にした投稿が複数あり、今回は技術と企業の具体性を先に出す案Aの方が新規性が伝わりやすいと判断した。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.jsonの[建設×AI海外][AIエージェント海外][Global-建設]タグ計7件・slack_buzz.jsonを確認したが、AI投資規模の煽り・仮想通貨トレーディング・原発EPC契約(AI要素なし)などで、朝枠の題材や引用/リプに値する新規性の高い候補は見当たらなかったため0件。競合サービス(光/Hikari・ミャク楽・Motif等)に該当する候補もなし。",
+  "engage_cards_note": "ai_buzz.jsonの[建設×AI海外]7件を確認したが、world models/physical AIについての一般論的な所感の連投で、具体的な引用・リプ候補になる新しい価値ある投稿は見当たらなかったため0件。slack_buzz.jsonにも該当なし。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する候補もなし。",
   "skip_reason": null
 }
