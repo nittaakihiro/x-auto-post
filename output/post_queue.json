@@ -12577,5 +12577,51 @@
       "unverified": "元のHedgieMarketsツイートにあった『4,000億ドル規模のStargate契約』という数字は、Project Jupiter単体の投資規模(30年で最大1,650億ドル)と混同している可能性が高く本文からは外した。ローン残高『約180億ドル』はsourcetrail.com等の二次アグリゲータでのみ言及されており信頼度の高い一次報道での確認ができなかったため本文には含めず、価格(89〜91セント)のみ複数記事で一致した数値として採用した。州土地局の却下日(3月20日)は検索スニペット上の言及にとどまり原文で日付を直接確認できていないため本文には具体的日付を書かず『州土地局が…却下し』とだけ記載した。Oracle・Blue Owl双方の公式コメント(『計画通り』『財務コミットメントに変更なし』)は本文の分量上割愛した。",
       "hook_alternative": "案A(採用): 建設進捗の具体数値(26%/10%)と許認可の詳細から入り、日本のDC建設への示唆で締める構成。案B: 『$165億ドルのプロジェクトが不可抗力に』という金額訴求の速報型冒頭も検討したが、金額の大きさだけでは9/23夜枠と同じ『AIデータセンター建設が止まる』という印象の焼き直しに見えるリスクがあるため、つまずきの具体的メカニズム(ガスパイプラインの通行権却下)を先に出す構成にした。"
     }
+  },
+  {
+    "id": "2026-09-29_07:25",
+    "date": "2026-09-29",
+    "time": "07:25",
+    "text": "Anthropicが新モデル「Claude Sonnet 5.5」を発表しました。出力は前モデル比30%以上速く、タスクあたりのコストも最大30%下がっています。それでいてコーディング系のTerminal-Bench 4.0は70.6%で、上位モデルのOpus 5.5(66.4%)を上回りました。価格は入力$2・出力$10（100万トークンあたり）と据え置きで、Claude.aiとAPI、AWS/GCP/Azureで即日利用できます。上位モデルと使い分ける判断がしやすくなりそうです。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "screenshot",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\nAnthropic公式「Claude Sonnet 5.5」発表ページ（2026-09-28）\nhttps://www.anthropic.com/claude-sonnet-5-5\n参考: The Decoder「Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task」(2026-09-28)\nhttps://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/\n\n補足: 本文で挙げたTerminal-Bench(コーディング)はSonnet 5.5がOpus 5.5を上回りましたが、FrontierCode・CursorBench・Computer use(OSWorld)など他の指標では逆にOpus 5.5が上回っています。全指標で上位互換というわけではなく、タスクによって使い分けるのが良さそうです。対象地域の記載は公式ページにありませんでした。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://www.anthropic.com/claude-sonnet-5-5",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "速報",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 2,
+        "自分の追加価値": 1,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "朝枠の候補をa〜gの順で確認。(a) ai_buzz.jsonの公式アカウント(OpenAI/AnthropicAI/GoogleDeepMind/sama/gdb)の投稿を全65件からハンドル抽出して確認したが本日分の一次発表は無し(掲載アカウントはdhh/higgsfield_ai/kimmonismus/testingcatalog等の第三者のみ)。(b) news_feed.json ai_global(48h窓・新しい順50件)の先頭付近にThe Decoder/TechCrunch AI/Hacker News(361pt)の3媒体が独立して報じるAnthropic「Claude Sonnet 5.5」公式発表(2026-09-28、news_feed検出2026-09-29 02:58〜03:02 JST)を確認、本採用。(c) 除外: Google「Gemini's Gems→'skills'」への機能名称変更(TechCrunch, 09-29 02:29)—新しい能力の追加ではなく既存機能の呼称変更で、ベンチマークや利用条件の変化も無く見せられる証拠が弱い(推定5点)。(d) 除外: NVIDIAの「rogue AI agentsをミリ秒で封じ込める」エージェント安全プラットフォーム(TechCrunch/The Verge, 09-28〜29)—公式発表だが安全インフラの売り込みで読者が今日から使える変化ではなく、100+パートナーの具体的中身を本セッションで裏取りできていない(推定6点)。(e) 除外: OpenAIの学習一時停止・エージェント誤動作系の一連の報道(09-27〜29に複数媒体で継続報道)—同テーマは9/27朝枠(学習一時停止)・9/25夜枠(Medicareポータルへのアクセス)・9/28夕枠(国連サイトへの干渉)で既出のため、続報の域を出ず朝枠での再採用は焼き直しリスクが高いと判断し見送り。(f) 除外: 損保ジャパンのGemini Enterprise従業員2万人展開(ITmedia, 09-28)—国内企業の具体的な導入事例で価値はあるが、新製品・新機能の発表ではなく採用事例であり、保険業でありAI基盤の新発表という朝枠の趣旨とはややずれる(推定6点、昼枠系の候補として保留)。(g) 除外: Gemini・ClaudeとAdobeの連携機能(ITmedia, 09-28)—具体的な対応時期・提供範囲が本文からは不明瞭で見せられる証拠が弱い(推定5点)。競合サービス(建設向けAI開発/導入支援・BPO・営業代行。光/Hikari・ミャク楽・Motif等)への言及・宣伝に該当する候補は無し。",
+      "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "published_at": "公式発表2026-09-28（news_feed.json検出は2026-09-29 02:58〜03:02 JST、The Decoder/TechCrunch AI/Hacker News経由）",
+      "checked_at": "2026-09-29T06:40+09:00",
+      "availability": "Claude.ai(Medium努力レベルがデフォルト)、Claude Platform API(High努力レベルがデフォルト)、AWS/GCP/Azureで即日提供中。ゼロデータ保持オプションあり。価格は入力$2・出力$10・キャッシュ読み取り$0.20(いずれも100万トークンあたり、Sonnet 5と同額)。対象地域の記載は公式ページに無し。techcrunch.com・the-decoder.comは本セッションのegress制限で直接WebFetch不可(EGRESS_BLOCKED)。anthropic.com公式ページを2回WebFetchし、Terminal-Bench 4.0(70.6% vs 66.4%)ほかベンチマーク数値の再現一致を確認した。",
+      "unverified": "対象地域は公式ページに記載なし、日本からの利用可否は個別確認していない。ベンチマークはTerminal-Bench(コーディング)でSonnet 5.5が上回る一方、FrontierCode 1.1(46.2% vs 54.4%)・CursorBench 4.0(55.5% vs 57.8%)・Computer use OSWorld 2.1(80.1% vs 81.8%、いずれも部分データ)ではOpus 5.5が上回っており、本文はTerminal-Benchのみを取り上げているため全指標での優位ではない旨を補足リプに明記した。techcrunch.com/the-decoder.comの本文は直接WebFetchできず、news_feed.jsonの要約とanthropic.com公式ページの内容の一致で裏取りした。",
+      "hook_alternative": "案A(採用): 製品名→速度とコストの変化→具体的ベンチマーク数値(Terminal-Bench)→価格・提供範囲の順で伝える速報の型。案B: 「上位モデルに迫る性能」という要約的な煽りを先に出す案も検討したが、具体的な数値(30%速く・30%安く・Terminal-Bench 70.6%)を先に出す方が誇張なく伝わり他の速報とも重複しないため案Aを採用。"
+    }
   }
 ]
