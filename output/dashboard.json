@@ -1,39 +1,45 @@
 {
   "version": 6,
-  "slot": "noon",
+  "slot": "evening",
   "date": "2026-09-28",
   "post_date": "2026-09-28",
-  "generated_at": "2026-09-28T11:09:00+09:00",
-  "generated_by": "routine:x-post-noon",
+  "generated_at": "2026-09-28T20:00:00+09:00",
+  "generated_by": "routine:x-post-evening",
   "original_post": {
-    "time": "12:00",
-    "text": "米Bedrock Robotics（元Waymoの自動運転エンジニアが創業）が、オペレーターの乗らない完全自律の油圧ショベルを、米国の実際の土木現場で稼働させています。新造機ではなく、既存の20〜80トン級ショベルにLiDARとGPSベースの後付けキットを装着する方式で、Zachry Construction社の120万立方ヤード規模の土木工事では8月から完全無人で稼働中、先行するSundt Construction社のアリゾナ州フェニックス現場でも監視付き自動化で6万5000立方ヤード以上の土砂をすでに掘削・搬送済みだそうです。日本の土木現場もオペレーター不足は同じですが、無人重機の運用や労働安全衛生上の扱いは米国と制度が異なるため、そのまま導入できるかは別途確認が必要です。",
+    "time": "20:00",
+    "text": "AIでコードの変更回数が180%増えても、リリースは30%増止まりという投稿です。本当なら、詰まっているのは「書く」ではなく「レビューと検証」だと分かります。建設現場でAIに図面や積算を任せる時も同じ場所で詰まりやすく、確認体制の設計が鍵になりそうです。",
     "status": "draft",
-    "type": "original",
-    "quote_tweet_id": null,
-    "article_url": "https://www.globenewswire.com/news-release/2026/08/17/3346247/0/en/bedrock-robotics-launches-first-fully-autonomous-excavator-deployments-on-critical-u-s-infrastructure-projects.html",
+    "type": "quote_rt",
+    "quote_tweet_id": "2104416611189088483",
+    "article_url": null,
     "video_url": null,
-    "reply_text": "■ 出典\nBedrock Robotics公式発表（GlobeNewswire, 2026-08-17）「Bedrock Robotics Launches First Fully Autonomous Excavator Deployments on Critical U.S. Infrastructure Projects」\nhttps://www.globenewswire.com/news-release/2026/08/17/3346247/0/en/bedrock-robotics-launches-first-fully-autonomous-excavator-deployments-on-critical-u-s-infrastructure-projects.html\nEngineering News-Record「Bedrock Robotics Moves Earth with Autonomous Excavators」(2025-12-15)\nhttps://www.enr.com/articles/62211-bedrock-robotics-moves-earth-with-autonomous-excavators\nTechCrunch「Ex-Waymo engineers launch Bedrock Robotics with $80M to automate construction」(2025-07-16)\nhttps://techcrunch.com/2025/07/16/ex-waymo-engineers-launch-bedrock-robotics-with-80m-to-automate-construction\n※本セッションの通信制限でglobenewswire.com・enr.com・techcrunch.comへ直接アクセスできず（EGRESS_BLOCKED）、WebSearchの検索結果スニペット経由で確認。ENR、The Robot Report、Yahoo Finance、Fox News、Construction Dive、Building Design+Construction、Intelligent Build.techなど複数の独立媒体が同じ数字（6万5000立方ヤード、120万立方ヤード、20〜80トン級、LiDAR/GPS）を報じており内容は一致。ただし公式一次ページの本文は直接確認できていないため、投稿前に手元でglobenewswire.comの原文を開けると尚良い。",
+    "reply_text": "■ 出典\n元投稿: AIDB (@ai_database) https://x.com/ai_database/status/2104416611189088483 （2026-09-28 12:43 JST）\n※180%/30%という数値は元投稿内の記述で、根拠論文・レポートへの直接リンクは本文中に見当たらず一次資料は未確認。",
     "editorial": {
-      "pillar": "建設AI",
-      "format": "海外事例",
+      "pillar": "一般AI（建設への応用示唆つき）",
+      "format": "引用",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
-        "見せられる証拠": 2,
-        "自分の追加価値": 1,
+        "見せられる証拠": 1,
+        "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "news_feed.jsonのconstruction_global（ai_related付き・48h以内）はMcLarenの学生寮計画1件のみでai_related=false のため該当なし。ai_buzz.jsonの[建設×AI海外]7件を確認したが、@tanphung000/@xavriseteritory等はworld modelsやphysical AIについての一般論・所感の連投で、具体的な企業名・現場・数字を伴う一次報告ではなく採用不可（3〜4点）。news_feed.jsonのconstruction_japan（ai_related=true）8件から、①日本ピーエス「Tours」空間DXツールの橋梁工事現場見学案内活用（PR TIMES、AIかどうか本文で確認できず、案内ツールとしての用途で建設AI実務の価値が薄いため5点で除外）、②エアロセンスのドローン測量機の補助金カタログ登録（行政手続きニュースでAI関連性薄く3点で除外）、③現場DXサービス「KANNA」10万社突破（提供元ベンダー自身のマイルストーン発表で、事例ではなく宣伝にあたるため戦略の「提供元ベンダーの宣伝にならないもの」の方針により4点で除外）、④建設不況下の大手建設会社採用方針（AI・安全は重点分野の一つという言及のみで具体的な活用事例ではないため4点で除外）を確認したが、いずれも7点未満。ai_global/ai_japanのうち建設に直結する候補として安川電機・ファナックのAI溶接ロボット実演記事（monoist.itmedia.co.jp）があったが、記事の文脈は製造業（工場の溶接ライン）向けで建設現場の一次報告ではなく、建設への接続は推測になるため除外（8点相当だが対象読者とのミスマッチで見送り）。slack_buzz.jsonにも該当なし。以上より国内・海外の一次フィード経由では7点以上の候補が無かったためWebSearchで補完し、⑤採用：米Bedrock Robotics（元Waymoの自動運転エンジニアが2025年7月に8000万ドル調達で創業）が、既存の20〜80トン級油圧ショベルにLiDAR/GPSベースの後付けキットを装着し、Zachry Construction社の120万立方ヤード規模の土木工事で2026年8月17日付の公式発表として完全無人稼働を開始、先行するSundt Construction社のフェニックス現場でも監視付き自動化で6万5000立方ヤード以上を実際に処理済みという、企業名・数字・技術方式が揃った一次発表ベースの海外事例（10点相当だが、globenewswire.com等の一次ページを直接開けず複数媒体経由の確認に留まるため自分の追加価値を1点とし合計9点）。⑥比較検討：米Buildroid AI（UAEでブロック積みロボットのパイロット、1日30㎡ vs手作業5㎡）も海外事例として成立するが、現場名・稼働量など独立検証できる数字がBuildroid社発表のみでBedrockより薄く、次点として見送り。⑤は9/17海外事例（HP SitePrint）、9/18海外事例（Reframe Systems）、9/19海外事例（Planted）、9/20海外事例（Vectorworks）、9/22海外事例（GS建設）、9/23実演、9/24国内事例（西松建設・自動運転重機の社内研修）、9/26海外事例（Burns & McDonnell×Gritt・太陽光パネル設置ロボット）とは題材・企業とも重複しない。9/24の西松建設（重機自動運転の社内研修）とはテーマが近いが、国・企業・角度（自社研修 vs 米スタートアップの商用後付けキット導入）が異なり許容範囲と判断。本日朝枠（NVIDIA音声分離モデル）とも重複しない。直近3枠の形式は比較→海外事例→比較のため、本枠を海外事例としても同一形式が3本連続にはならない。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する候補は今回の比較対象に含まれていない。",
-      "source_url": "https://www.globenewswire.com/news-release/2026/08/17/3346247/0/en/bedrock-robotics-launches-first-fully-autonomous-excavator-deployments-on-critical-u-s-infrastructure-projects.html",
-      "published_at": "Bedrock Robotics公式発表2026-08-17（Zachry Construction現場の完全無人稼働）。先行するSundt Construction現場（6万5000立方ヤード実績）の詳報はEngineering News-Record 2025-12-15付記事。",
-      "checked_at": "2026-09-28T11:09+09:00",
-      "availability": "米国内で商業展開中。新規機材ではなく既存の20〜80トン級油圧ショベルへの後付けキット（LiDAR・GPSベース）として提供され、Sundt Construction・Zachry Constructionのほか、Austin Bridge & Road、Maverick Constructors、Haydon Cos.、Champion Site Prep、Capitol Aggregatesが検証・導入段階のパートナーとしてENR記事に名前が挙がっている。運用段階は「監視付き自動化」から「完全無人（オペレーターなし）」へ移行中で、現場によって段階が異なる。日本国内での提供・提携の情報は確認できていない。",
-      "unverified": "本セッションのネットワーク制限でglobenewswire.com、enr.com、techcrunch.com、prnewswire.com、constructiondive.com、equipmentworld.com、therobotreport.com、archinect.com、prtimes.jp等へのWebFetchが軒並みEGRESS_BLOCKEDとなり、一次ページの本文を直接開けなかった。WebSearchのスニペットで、Bedrock Robotics公式発表（GlobeNewswire）の引用文および、ENR・The Robot Report・Yahoo Finance・Fox News・Construction Dive・Building Design+Construction・Intelligent Build.tech等の複数独立媒体が同一の数字（6万5000立方ヤード、120万立方ヤード、20〜80トン級、LiDAR/GPS）を報じていることを確認し内容の一致を確認した。ただし一次ページを直接確認できていないため、投稿前に手元でglobenewswire.comまたはbedrockrobotics.comの原文を開いて数字・日付を再確認できると尚良い。post_queue.jsonの直近14日を確認し重複なし。data/analytics/live_metrics.jsonは未確認のため実投稿との重複は確認できていない（実投稿未確認）。",
-      "hook_alternative": "案A(採用)：企業名（Bedrock Robotics）と「オペレーターの乗らない完全自律の油圧ショベル」という具体的な変化を先に出し、後付けキットという導入方式→実際の現場と数字→日本への示唆の順で伝える海外事例の型。案B：「重機オペレーター不足」という読者の課題を先に出す案も検討したが、建設AI枠では既に人手不足を切り口にした投稿が複数あり、今回は技術と企業の具体性を先に出す案Aの方が新規性が伝わりやすいと判断した。"
+      "selection_reason": "候補比較（5件、各0〜2点）: ①採用：AIDB(@ai_database)「AIコーディングでコード変更180%増でもリリース30%増止まり」（本日12:43投稿・24h以内、根拠論文へのリンクは無いため証拠1点とし合計9点。レビュー/検証がボトルネックという指摘に、建設現場でAIに図面・積算を任せる際も同じ場所（確認工程）で詰まるという建設AIへの接続を自分の追加価値として加えた）。②slack_buzz.jsonのieiri_lab(@ieiri_lab)「NITACO内装積算AI、拾い出し6〜8時間→45分」はPR TIMES/ken-it.world記事で一次裏取りでき点数は10点相当だったが、(a)本人の自社サービスの一次情報で、引用に足を加えるとX戦略の「引用・リプ」節が禁じる『元投稿の言い換え・宣伝』に該当するリスクが高いこと、(b)data/analytics/live_metrics.jsonの実投稿を確認したところ2026-09-16に『足場の拾い出しが6〜8時間から20分以内に』という同一構成（工種違いの拾い出し時間短縮）の投稿を既に実施済みで焼き直しになること、の2点から見送った。③ai_buzz.jsonのhashimoto_no14「賃貸図面→CAD→パース→Web共有が一気に」（個人体験談で検証可能な画像等が無く証拠1点、8点）。④ai_buzz.jsonのnakagomeco「屋上鉄骨、クレーンが届かずClaude Opus 5.5で検討」（本文が feed内で途中で切れ詳細不明、前日20:00枠で同アカウントの別投稿を既に引用済みのため見送り、6点）。⑤ai_buzz.jsonのmasahirochaen「DHHがコードを書かなくなった」（既に広く知られた話で新規性が低く伝聞ベース、6点）。⑥slack_buzz.jsonのdaken_in_market「企業ニュース・プレスリリースが業績を示唆する」（一般論で具体性に欠け5点）。以上より①を採用。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する候補は無し。本日朝枠（NVIDIA音声分離モデル・速報）・昼枠（Bedrock Robotics無人重機・海外事例）とはネタ・引用元とも重複しない。直近3枠の形式は速報→海外事例→引用で3連続にはならない。非AIの建設時事は直近7日間で2本未満（AI関連の投稿が中心）のため今回のAI引用枠の選択に影響なし。",
+      "source_url": "https://x.com/ai_database/status/2104416611189088483",
+      "published_at": "2026-09-28T12:43+09:00（AIDB投稿）",
+      "checked_at": "2026-09-28T20:00+09:00",
+      "availability": "Xの公開投稿。引用元の180%/30%という数値の一次資料（論文・レポート）は本文中にリンクがなく特定できていない。",
+      "unverified": "AIDB投稿内の『コードの変更回数180%増・リリース30%増』という具体的数値の出典（原論文・調査レポート）は本セッションでは特定できず未確認。本文では『という投稿です』『本当なら』と明示的に留保した。post_queue.jsonの直近14日は確認済みで重複なし。data/analytics/live_metrics.json（fetched_at 2026-09-27T23:14 UTC、実投稿100件）も確認し、同テーマ・同引用元の重複は無いことを確認した（NITACO関連の別候補は09-16投稿と構成重複のため不採用とした点は選定理由に記載）。",
+      "hook_alternative": "案A(採用)：AIDBの数値を先に出し『書くから検証へ』というボトルネック移動を示した上で、建設現場での確認工程の重さに接続する。案B：先に建設現場の確認作業の大変さを出してから一般AIの話に振る案も検討したが、元投稿の具体的な数値を活かして先に示した方が伝わりやすいため案Aを採用。"
     }
   },
-  "engage_cards": [],
-  "engage_cards_note": "ai_buzz.jsonの[建設×AI海外]7件を確認したが、world models/physical AIについての一般論的な所感の連投で、具体的な引用・リプ候補になる新しい価値ある投稿は見当たらなかったため0件。slack_buzz.jsonにも該当なし。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する候補もなし。",
+  "engage_cards": [
+    {
+      "type": "quote",
+      "url": "https://x.com/hashimoto_no14/status/2104199889207038132",
+      "note": "hashimoto_no14「ClaudeCode Opus5.5で賃貸図面→CAD(JWW/DXF)→パース(Blender)→Web共有まで一気通貫」。建設AIの実演系リプ候補（8点、個人体験談で検証可能な証跡は無いため今回のメイン引用としては見送り、交流候補として提示）。"
+    }
+  ],
+  "engage_cards_note": "ai_buzz.json / slack_buzz.jsonを確認。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する候補は無し。上記1件のみ提示（0〜2件の範囲内）。",
   "skip_reason": null
 }

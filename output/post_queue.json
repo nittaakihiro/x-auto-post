@@ -12485,5 +12485,51 @@
       "unverified": "本セッションのネットワーク制限でglobenewswire.com、enr.com、techcrunch.com、prnewswire.com、constructiondive.com、equipmentworld.com、therobotreport.com、archinect.com、prtimes.jp等へのWebFetchが軒並みEGRESS_BLOCKEDとなり、一次ページの本文を直接開けなかった。WebSearchのスニペットで、Bedrock Robotics公式発表（GlobeNewswire）の引用文および、ENR・The Robot Report・Yahoo Finance・Fox News・Construction Dive・Building Design+Construction・Intelligent Build.tech等の複数独立媒体が同一の数字（6万5000立方ヤード、120万立方ヤード、20〜80トン級、LiDAR/GPS）を報じていることを確認し内容の一致を確認した。ただし一次ページを直接確認できていないため、投稿前に手元でglobenewswire.comまたはbedrockrobotics.comの原文を開いて数字・日付を再確認できると尚良い。post_queue.jsonの直近14日を確認し重複なし。data/analytics/live_metrics.jsonは未確認のため実投稿との重複は確認できていない（実投稿未確認）。",
       "hook_alternative": "案A(採用)：企業名（Bedrock Robotics）と「オペレーターの乗らない完全自律の油圧ショベル」という具体的な変化を先に出し、後付けキットという導入方式→実際の現場と数字→日本への示唆の順で伝える海外事例の型。案B：「重機オペレーター不足」という読者の課題を先に出す案も検討したが、建設AI枠では既に人手不足を切り口にした投稿が複数あり、今回は技術と企業の具体性を先に出す案Aの方が新規性が伝わりやすいと判断した。"
     }
+  },
+  {
+    "id": "2026-09-28_20:00",
+    "date": "2026-09-28",
+    "time": "20:00",
+    "text": "AIでコードの変更回数が180%増えても、リリースは30%増止まりという投稿です。本当なら、詰まっているのは「書く」ではなく「レビューと検証」だと分かります。建設現場でAIに図面や積算を任せる時も同じ場所で詰まりやすく、確認体制の設計が鍵になりそうです。",
+    "type": "quote_rt",
+    "quote_tweet_id": "2104416611189088483",
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\n元投稿: AIDB (@ai_database) https://x.com/ai_database/status/2104416611189088483 （2026-09-28 12:43 JST）\n※180%/30%という数値は元投稿内の記述で、根拠論文・レポートへの直接リンクは本文中に見当たらず一次資料は未確認。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": null,
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI（建設への応用示唆つき）",
+      "format": "引用",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 1,
+        "自分の追加価値": 2,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "候補比較（5件、各0〜2点）: ①採用：AIDB(@ai_database)「AIコーディングでコード変更180%増でもリリース30%増止まり」（本日12:43投稿・24h以内、根拠論文へのリンクは無いため証拠1点とし合計9点。レビュー/検証がボトルネックという指摘に、建設現場でAIに図面・積算を任せる際も同じ場所（確認工程）で詰まるという建設AIへの接続を自分の追加価値として加えた）。②slack_buzz.jsonのieiri_lab(@ieiri_lab)「NITACO内装積算AI、拾い出し6〜8時間→45分」はPR TIMES/ken-it.world記事で一次裏取りでき点数は10点相当だったが、(a)本人の自社サービスの一次情報で、引用に足を加えるとX戦略の「引用・リプ」節が禁じる『元投稿の言い換え・宣伝』に該当するリスクが高いこと、(b)data/analytics/live_metrics.jsonの実投稿を確認したところ2026-09-16に『足場の拾い出しが6〜8時間から20分以内に』という同一構成（工種違いの拾い出し時間短縮）の投稿を既に実施済みで焼き直しになること、の2点から見送った。③ai_buzz.jsonのhashimoto_no14「賃貸図面→CAD→パース→Web共有が一気に」（個人体験談で検証可能な画像等が無く証拠1点、8点）。④ai_buzz.jsonのnakagomeco「屋上鉄骨、クレーンが届かずClaude Opus 5.5で検討」（本文が feed内で途中で切れ詳細不明、前日20:00枠で同アカウントの別投稿を既に引用済みのため見送り、6点）。⑤ai_buzz.jsonのmasahirochaen「DHHがコードを書かなくなった」（既に広く知られた話で新規性が低く伝聞ベース、6点）。⑥slack_buzz.jsonのdaken_in_market「企業ニュース・プレスリリースが業績を示唆する」（一般論で具体性に欠け5点）。以上より①を採用。競合サービス（光/Hikari・ミャク楽・Motif等）に該当する候補は無し。本日朝枠（NVIDIA音声分離モデル・速報）・昼枠（Bedrock Robotics無人重機・海外事例）とはネタ・引用元とも重複しない。直近3枠の形式は速報→海外事例→引用で3連続にはならない。非AIの建設時事は直近7日間で2本未満（AI関連の投稿が中心）のため今回のAI引用枠の選択に影響なし。",
+      "source_url": "https://x.com/ai_database/status/2104416611189088483",
+      "published_at": "2026-09-28T12:43+09:00（AIDB投稿）",
+      "checked_at": "2026-09-28T20:00+09:00",
+      "availability": "Xの公開投稿。引用元の180%/30%という数値の一次資料（論文・レポート）は本文中にリンクがなく特定できていない。",
+      "unverified": "AIDB投稿内の『コードの変更回数180%増・リリース30%増』という具体的数値の出典（原論文・調査レポート）は本セッションでは特定できず未確認。本文では『という投稿です』『本当なら』と明示的に留保した。post_queue.jsonの直近14日は確認済みで重複なし。data/analytics/live_metrics.json（fetched_at 2026-09-27T23:14 UTC、実投稿100件）も確認し、同テーマ・同引用元の重複は無いことを確認した（NITACO関連の別候補は09-16投稿と構成重複のため不採用とした点は選定理由に記載）。",
+      "hook_alternative": "案A(採用)：AIDBの数値を先に出し『書くから検証へ』というボトルネック移動を示した上で、建設現場での確認工程の重さに接続する。案B：先に建設現場の確認作業の大変さを出してから一般AIの話に振る案も検討したが、元投稿の具体的な数値を活かして先に示した方が伝わりやすいため案Aを採用。"
+    }
   }
 ]
