@@ -1,39 +1,39 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-09-29",
   "post_date": "2026-09-29",
-  "generated_at": "2026-09-29T06:45:00+09:00",
-  "generated_by": "routine:x-post-morning",
+  "generated_at": "2026-09-29T11:11:00+09:00",
+  "generated_by": "routine:x-post-noon",
   "original_post": {
-    "time": "07:25",
-    "text": "Anthropicが新モデル「Claude Sonnet 5.5」を発表しました。出力は前モデル比30%以上速く、タスクあたりのコストも最大30%下がっています。それでいてコーディング系のTerminal-Bench 4.0は70.6%で、上位モデルのOpus 5.5(66.4%)を上回りました。価格は入力$2・出力$10（100万トークンあたり）と据え置きで、Claude.aiとAPI、AWS/GCP/Azureで即日利用できます。上位モデルと使い分ける判断がしやすくなりそうです。",
+    "time": "12:00",
+    "text": "能登半島地震で隆起した国道249号の本復旧工事で、大林組JVが盛り土作業をバックホウ・ダンプトラック・ブルドーザー・振動ローラーの自動連携で進めていると報じられました。余震などの二次災害リスクがある現場で、ほぼ無人での施工を目指す取り組みです。ベースになっているのは大林組が2024年4月に岐阜県の新丸山ダムで実証した「統合施工管理システム」で、施工計画を自動作成するCMSと建機FMS、AIで熟練技能者の操縦を再現したバックホウの自律運転などを組み合わせ、1日当たりの施工量285m3は土木工事積算基準の標準260m3を上回り、施工管理者1人が監視室から管理して施工計画業務を約88%減らしました。全現場への一律導入ではなく、大林組は2030年までに年10件程度のペースで広げる計画です。危険な現場から人を離しながら生産性を落とさない方向性は、他のゼネコンにとっても参考になりそうです。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
-    "article_url": "https://www.anthropic.com/claude-sonnet-5-5",
+    "article_url": "https://www.obayashi.co.jp/news/detail/news20240411_2.html",
     "video_url": null,
-    "reply_text": "■ 出典\nAnthropic公式「Claude Sonnet 5.5」発表ページ（2026-09-28）\nhttps://www.anthropic.com/claude-sonnet-5-5\n参考: The Decoder「Anthropic's Claude Sonnet 5.5 nearly matches Opus 5.5 on benchmarks while costing up to 30 percent less per task」(2026-09-28)\nhttps://the-decoder.com/anthropics-claude-sonnet-5-5-nearly-matches-opus-5-5-on-benchmarks-while-costing-up-to-30-percent-less-per-task/\n\n補足: 本文で挙げたTerminal-Bench(コーディング)はSonnet 5.5がOpus 5.5を上回りましたが、FrontierCode・CursorBench・Computer use(OSWorld)など他の指標では逆にOpus 5.5が上回っています。全指標で上位互換というわけではなく、タスクによって使い分けるのが良さそうです。対象地域の記載は公式ページにありませんでした。",
+    "reply_text": "■ 出典\n大林組公式ニュースリリース「新丸山ダム建設工事における盛土工事で『統合施工管理システム』の実証施工に成功」(2024-04-11)\nhttps://www.obayashi.co.jp/news/detail/news20240411_2.html\n参考: 日野自動車ニュースリリース「新丸山ダムにおける自動自律建機等と自動運転ダンプトラックのDX施工に向けた実証実験を実施」(2024-02-27)\nhttps://www.hino.co.jp/corp/news/2024/20240227-003668.html\n\n補足: 能登半島地震の国道249号本復旧工事への適用は、日経クロステック建築・土木(@kenplatz_ed)が2026-09-29 06:29検出のX投稿「能登半島地震で隆起した海岸沿いの国道249号　大林組、本復旧へ盛り土自動化」で報じています。一次記事(xtech.nikkei.com)は有料会員限定かつ本セッションのegress制限で直接確認できず(EGRESS_BLOCKED)、本文中の数値(285m3/260m3・計画業務88%減)は国道249号現場固有の実績ではなく、2024年の新丸山ダム実証時点のものです。国道249号現場で使われている建機の台数・機種の内訳、AIの関与範囲は同記事のタイトルからの推定で、本文未確認です。",
     "editorial": {
-      "pillar": "一般AI",
-      "format": "速報",
+      "pillar": "建設AI",
+      "format": "比較",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
         "見せられる証拠": 2,
-        "自分の追加価値": 1,
+        "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "朝枠の候補をa〜gの順で確認。(a) ai_buzz.jsonの公式アカウント(OpenAI/AnthropicAI/GoogleDeepMind/sama/gdb)の投稿を全65件からハンドル抽出して確認したが本日分の一次発表は無し(掲載アカウントはdhh/higgsfield_ai/kimmonismus/testingcatalog等の第三者のみ)。(b) news_feed.json ai_global(48h窓・新しい順50件)の先頭付近にThe Decoder/TechCrunch AI/Hacker News(361pt)の3媒体が独立して報じるAnthropic「Claude Sonnet 5.5」公式発表(2026-09-28、news_feed検出2026-09-29 02:58〜03:02 JST)を確認、本採用。(c) 除外: Google「Gemini's Gems→'skills'」への機能名称変更(TechCrunch, 09-29 02:29)—新しい能力の追加ではなく既存機能の呼称変更で、ベンチマークや利用条件の変化も無く見せられる証拠が弱い(推定5点)。(d) 除外: NVIDIAの「rogue AI agentsをミリ秒で封じ込める」エージェント安全プラットフォーム(TechCrunch/The Verge, 09-28〜29)—公式発表だが安全インフラの売り込みで読者が今日から使える変化ではなく、100+パートナーの具体的中身を本セッションで裏取りできていない(推定6点)。(e) 除外: OpenAIの学習一時停止・エージェント誤動作系の一連の報道(09-27〜29に複数媒体で継続報道)—同テーマは9/27朝枠(学習一時停止)・9/25夜枠(Medicareポータルへのアクセス)・9/28夕枠(国連サイトへの干渉)で既出のため、続報の域を出ず朝枠での再採用は焼き直しリスクが高いと判断し見送り。(f) 除外: 損保ジャパンのGemini Enterprise従業員2万人展開(ITmedia, 09-28)—国内企業の具体的な導入事例で価値はあるが、新製品・新機能の発表ではなく採用事例であり、保険業でありAI基盤の新発表という朝枠の趣旨とはややずれる(推定6点、昼枠系の候補として保留)。(g) 除外: Gemini・ClaudeとAdobeの連携機能(ITmedia, 09-28)—具体的な対応時期・提供範囲が本文からは不明瞭で見せられる証拠が弱い(推定5点)。競合サービス(建設向けAI開発/導入支援・BPO・営業代行。光/Hikari・ミャク楽・Motif等)への言及・宣伝に該当する候補は無し。",
-      "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "published_at": "公式発表2026-09-28（news_feed.json検出は2026-09-29 02:58〜03:02 JST、The Decoder/TechCrunch AI/Hacker News経由）",
-      "checked_at": "2026-09-29T06:40+09:00",
-      "availability": "Claude.ai(Medium努力レベルがデフォルト)、Claude Platform API(High努力レベルがデフォルト)、AWS/GCP/Azureで即日提供中。ゼロデータ保持オプションあり。価格は入力$2・出力$10・キャッシュ読み取り$0.20(いずれも100万トークンあたり、Sonnet 5と同額)。対象地域の記載は公式ページに無し。techcrunch.com・the-decoder.comは本セッションのegress制限で直接WebFetch不可(EGRESS_BLOCKED)。anthropic.com公式ページを2回WebFetchし、Terminal-Bench 4.0(70.6% vs 66.4%)ほかベンチマーク数値の再現一致を確認した。",
-      "unverified": "対象地域は公式ページに記載なし、日本からの利用可否は個別確認していない。ベンチマークはTerminal-Bench(コーディング)でSonnet 5.5が上回る一方、FrontierCode 1.1(46.2% vs 54.4%)・CursorBench 4.0(55.5% vs 57.8%)・Computer use OSWorld 2.1(80.1% vs 81.8%、いずれも部分データ)ではOpus 5.5が上回っており、本文はTerminal-Benchのみを取り上げているため全指標での優位ではない旨を補足リプに明記した。techcrunch.com/the-decoder.comの本文は直接WebFetchできず、news_feed.jsonの要約とanthropic.com公式ページの内容の一致で裏取りした。",
-      "hook_alternative": "案A(採用): 製品名→速度とコストの変化→具体的ベンチマーク数値(Terminal-Bench)→価格・提供範囲の順で伝える速報の型。案B: 「上位モデルに迫る性能」という要約的な煽りを先に出す案も検討したが、具体的な数値(30%速く・30%安く・Terminal-Bench 70.6%)を先に出す方が誇張なく伝わり他の速報とも重複しないため案Aを採用。"
+      "selection_reason": "昼枠の候補をa〜gの順で確認。(a) news_feed.json construction_global(48h窓・24件)を全件確認したが、ai_related=trueは2件のみ: ArchDaily「AI x Gaudi: Architecture Competition + AI Course」(2026-09-28)はArchademy.aiという第三者AI講座プラットフォームの受講案内で、実際の建設業務改善の証拠が薄く、商用講座の宣伝的性格が強いため見送り。もう1件「Zanine Caldas – Creating Worlds」はブラジルの建築家の回顧展でAIタグは誤検出と判断し除外。(b) ai_buzz.jsonの海外建設アカウント([Global-建設][建設×AI海外])を確認。ENR(@ENRnews)の210億→2000億ドル超の米海軍基地近代化計画はAI要素がなく除外。@sandeep_PTのインドのデータセンター建設と干ばつの投稿、@trevornorenのデータセンター電力不足の投稿はいずれも建設AI活用事例ではなく除外。@rpnicksonの「AGENT WARS」(5つのAIモデルに橋の設計・3Dプリントを競わせる企画)は面白いが、実在の建設会社の取り組みではなく個人の余興企画で証拠(実測荷重結果等)も本文だけでは不明のため保留。(c) news_feed.json construction_japan(ai_related=true)は1件: 清水建設「建設物流DXシステム」(BuildApp News, 2026-09-29検出)。有力候補として調査したが、news.build-app.jpとshimz.co.jpの双方が本セッションのegress制限で直接確認不可(EGRESS_BLOCKED)、WebSearchでも該当記事の本文・公式プレスリリースを特定できず、AI活用の有無・具体的な数値・運用開始日を裏取りできなかったため採用を見送り(確認事項に記録)。(d) slack_buzz.jsonで日経クロステック建築・土木(@kenplatz_ed)の本日投稿「能登半島地震で隆起した国道249号　大林組、本復旧へ盛り土自動化」を確認。同アカウントの別投稿「揚重の予約が電話と紙から画面に」（清水建設トーチタワー）も見たが、こちらは(c)と同じく一次確認ができず不採用。大林組の投稿はWebSearchで大林組公式サイト・日本経済新聞・BUILT(itmedia)・ニュースイッチ・PR TIMES(大林組プレスリリース転載)など複数の独立ソースが同一の数値(1日285m3/標準260m3、施工計画業務88%減、バックホウ・ダンプトラック・ブルドーザー・振動ローラーの4機種無人化)を一致して報じている2024年4月11日の新丸山ダム実証発表を特定でき、今回の国道249号への適用はその技術の実運用展開と判断できたため本採用。(e) 競合サービス(建設向けAI開発/導入支援・BPO・営業代行。光/Hikari・ミャク楽・Motif等)に該当する候補は無し。大林組・清水建設はいずれも自社施工の業務改善であり競合には当たらない。(f) 本日朝枠(Claude Sonnet 5.5)とは題材が異なり重複なし。直近14日のpost_queue.jsonも確認し、大林組の建機自動化ネタは初出。",
+      "source_url": "https://www.obayashi.co.jp/news/detail/news20240411_2.html",
+      "published_at": "大林組公式発表2024-04-11(新丸山ダム統合施工管理システム実証成功)。能登半島国道249号への適用は日経クロステック建築・土木(@kenplatz_ed)が2026-09-29 06:29 JST検出のX投稿で報道。",
+      "checked_at": "2026-09-29T11:11+09:00",
+      "availability": "大林組公式ニュースリリース(news20240411_2.html)は2024-04-11付。同URLへの直接WebFetchは本セッションのegress制限でブロックされたため、WebSearchのスニペット経由で本文相当の記述(日本経済新聞・BUILT/itmedia・ニュースイッチ・ken-it.world・PR TIMES転載)を複数照合し、数値・構成要素(CMS/AtlasX/建機FMS/現場ダッシュボード)・4機種無人化・施工管理者1人体制の一致を確認した。国道249号の権限代行区間(約53km)は2029年春までに本復旧完了予定(国交省北陸地方整備局、2025-03-26方針決定)。大林組は自社施工者(JV)としてこの技術を展開しており、他社への外販製品ではない。2030年までに年10件程度のペースで実装拡大予定。",
+      "unverified": "国道249号現場そのものの一次発表・具体的な機種内訳や施工量の数値は、本セッションのegress制限でxtech.nikkei.com等に直接アクセスできず未確認。本文の285m3/260m3・88%減は2024年の新丸山ダム実証時点の数値であり、国道249号現場固有の実績として断定していない(reply_textに明記)。バックホウの自律運転がAIで熟練技能者の操縦を再現するという説明は2019年発表の技術に基づくもので、2024年の統合施工管理システム内でのAIモデルの詳細(学習方法・適用範囲)までは裏取りできていない。",
+      "hook_alternative": "案A(採用): 能登半島地震の復旧現場という具体的な場所と二次災害リスクの緊張感から入り、背景にある実証済み技術の数値的根拠を示す事例の型。案B: 「大林組の盛り土工事、標準の1割増しの生産性」と数値を先に出す速報寄りの案も検討したが、数値は2024年時点のもので今回の国道249号の文脈から離れてしまい誤解を招きやすいため、現場の状況を先に説明する案Aを採用。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.jsonの[AI-global]/[AI海外バズ]/[AIエージェント海外]を確認。@dhhのOpus 5.5称賛投稿(9/28 03:14検出、323,000imp)は24h超(約27.5h)で鮮度基準からやや外れ、内容も同意的な称賛のみで具体例・検証事実・意味のある質問を加えられる余地が薄いため見送り。@higgsfield_aiのAfter Effects連携投稿は9/27 00:52検出で48h超のため対象外。競合サービス(光/Hikari・ミャク楽・Motif等)に該当する候補はなし。今回は無理に候補を立てず0件とした。",
+  "engage_cards_note": "ai_buzz.json/slack_buzz.jsonの建設×AI系タグ([Global-建設][建設×AI海外][建設×AI（国内）])を確認。@hashimoto_no14の「図面をスクショするだけで」投稿は建設会社向けAI研修の告知で、本人が有償のAI導入支援・研修サービスを提供している可能性があり競合性を判断しきれないため候補にしなかった。@johyo7の配筋図3Dモデル化スキル投稿も有償スキル販売の宣伝性が強く見送り。@rpnicksonの「AGENT WARS」橋梁3Dプリント企画は24h以内で話題性もあるが、建設会社の実務ではない余興企画で、同意・言い換え以上の具体的な検証や質問を加えにくいため見送り、今回は0件とした。",
   "skip_reason": null
 }
