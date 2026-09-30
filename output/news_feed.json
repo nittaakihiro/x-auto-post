@@ -1,20 +1,133 @@
 {
- "generated_at": "2026-09-30T07:30+00:00",
- "generated_at_jst": "2026-09-30 16:30",
+ "generated_at": "2026-09-30T08:32+00:00",
+ "generated_at_jst": "2026-09-30 17:32",
  "window_hours": 48,
  "counts": {
   "ai_japan": 35,
-  "construction_japan": 72,
-  "ai_global": 64,
-  "construction_global": 29
+  "construction_global": 33,
+  "construction_japan": 68,
+  "ai_global": 64
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
+  {
+   "id": "8bfb93833f57",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "トランプ政権が連邦政府のデジタルポータル「America.gov」を開設",
+   "url": "https://gigazine.net/news/20260930-america-gov/",
+   "published": "2026-09-30T08:12+00:00",
+   "published_jst": "2026-09-30 17:12",
+   "summary": "アメリカ国民が公共リリースに簡単にアクセスできるようにするための入口として、トランプ大統領が「America.gov」の立ち上げを発表しました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "ff9b12bdcd14",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Aggregates firm fined £24k after worker dies from crush injuries",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/aggregates-firm-fined-24k-after-worker-dies-from-crush-injuries-30-09-2026/",
+   "published": "2026-09-30T08:11+00:00",
+   "published_jst": "2026-09-30 17:11",
+   "summary": "Building material supplier Gill Aggregates has been fined £24,000 after a worker suffered fatal crush injuries from machinery at its depot. Production operative Manjit Kumar, 34, was working for Kent firm Gill Aggregates at its depot on Halyard Street, Dagenham, on 24 June 2020 when… The post Aggreg",
+   "ai_related": false,
+   "title_ja": "骨材会社、作業員の死亡事故で2万4千ポンドの罰金",
+   "summary_ja": "建材サプライヤーのGill Aggregatesは、作業所内の機械事故で作業員が死亡した件で2万4千ポンドの罰金を科された。"
+  },
+  {
+   "id": "cee4544d2e19",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "ChatGPTなどの汎用AIに本物の車を運転させたら「実車では？」と気付いて運転を拒否、最終的に走らせた方法とは",
+   "url": "https://gigazine.net/news/20260930-chatgpt-drive-car/",
+   "published": "2026-09-30T08:10+00:00",
+   "published_jst": "2026-09-30 17:10",
+   "summary": "ChatGPTなどに使われる汎用(はんよう)AIモデルに本物の自動車のハンドル・アクセル・ブレーキを任せてみる実験を、サンフランシスコ・ベイエリアの技術者3人によるプロジェクト「DrivingBench」が実施しました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "d3840efa21f4",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Steelwork firm J&D Pierce powers back with £6.8m profit",
+   "url": "https://www.constructionenquirer.com/2026/09/30/steelwork-specialist-jd-pierce-powers-back-with-6-8m-profit/",
+   "published": "2026-09-30T07:20+00:00",
+   "published_jst": "2026-09-30 16:20",
+   "summary": "Investment in fabrication capacity pays off as revenue jumps 23%",
+   "ai_related": false,
+   "title_ja": "鉄骨大手J&D Pierce、680万ポンドの利益で業績回復",
+   "summary_ja": "製造能力への投資が功を奏し、売上高が23%増加した。"
+  },
+  {
+   "id": "dbc005151975",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Planning approvals for new homes crash to 14-year low",
+   "url": "https://www.constructionenquirer.com/2026/09/30/planning-approvals-for-new-homes-crash-to-14-year-low/",
+   "published": "2026-09-30T06:46+00:00",
+   "published_jst": "2026-09-30 15:46",
+   "summary": "Approvals slump 21% as Government prepares first-time buyer rescue scheme",
+   "ai_related": false,
+   "title_ja": "新築住宅の計画承認、過去14年で最低に落ち込む",
+   "summary_ja": "政府が初密購入者支援策を準備する中、承認件数は21%急減した。"
+  },
+  {
+   "id": "2eb4a069bf58",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Aggregates firm fined after worker crushed to death",
+   "url": "https://www.constructionenquirer.com/2026/09/30/aggregates-firm-fined-after-worked-crushed-to-death/",
+   "published": "2026-09-30T06:25+00:00",
+   "published_jst": "2026-09-30 15:25",
+   "summary": "Court hands out £24,000 fine after worker drawn into compression conveyor",
+   "ai_related": false,
+   "title_ja": "作業員の死亡事故で骨材会社に罰金命令",
+   "summary_ja": "作業員が圧縮コンベアに巻き込まれて死亡した事故を受け、裁判所が2万4千ポンドの罰金を科した。"
+  },
+  {
+   "id": "edf631ba5c7a",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "BAM in frame as £25m Teesside flood job gets go-ahead",
+   "url": "https://www.constructionenquirer.com/2026/09/30/bam-in-frame-as-25m-teesside-flood-job-gets-go-ahead/",
+   "published": "2026-09-30T06:21+00:00",
+   "published_jst": "2026-09-30 15:21",
+   "summary": "Work to start in early 2027 on 1.5km embankment scheme at Greatham",
+   "ai_related": false,
+   "title_ja": "BAMが有力、2500万ポンドのティーズサイド治水事業が承認",
+   "summary_ja": "グリーサムでの1.5kmの堤防建設計画に向け、2027年早々に着工予定。"
+  },
   {
    "id": "e925a63e9198",
    "source": "ITmedia AI+",
@@ -159,19 +272,6 @@
    "ai_related": true
   },
   {
-   "id": "4f14695757f9",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Malme、お弁当注文アプリ「もぐぽち」で大成建設の現場事務の負担を軽減した事例を公開",
-   "url": "https://news.build-app.jp/article/42870/",
-   "published": "2026-09-30T03:00+00:00",
-   "published_jst": "2026-09-30 12:00",
-   "summary": "土木分野のITサービスを手がけるMalme（東京都新宿区、代表取締役：高取佑）は、大成建設のお弁当注文アプリ「もぐぽち」の導入事例を公開しま...",
-   "ai_related": false
-  },
-  {
    "id": "8a5607f11814",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -211,15 +311,15 @@
    "ai_related": true
   },
   {
-   "id": "0d0cce2ca36c",
-   "source": "au Webポータル",
+   "id": "80c246e778ae",
+   "source": "ロボスタ",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "ヒューマノイドUnitree R1に360度カメラを持たせ建設現場で実証 Nossa・守屋建設・yasstyle",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45aE9mYjVXQkxqamo1ZGMxUDhvOHVRMGFaYTczR28yQTNUNHBhampUMng3T2FZYlVZdUN0QVFpOUcxU3IwWEx2bHNTOW4xeFhPU05wV2k4TEZjWGViMWZpTzZUbXBQZmhYUFZYQjl3?oc=5",
-   "published": "2026-09-30T02:18+00:00",
-   "published_jst": "2026-09-30 11:18",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xd3M4dl9CQnJHSjZfbnhXMElsTVhCU3FkejlkQnVUM1puUmFOVHBWN04xTVRJQnU0Zi1nUWlvdVhJSS1SLXFNeTNFNjF4bFRzcWc1X0tfR1lMVFFDcFRpVVNneTM?oc=5",
+   "published": "2026-09-30T02:10+00:00",
+   "published_jst": "2026-09-30 11:10",
    "summary": "",
    "ai_related": false
   },
@@ -261,19 +361,6 @@
    "published_jst": "2026-09-30 10:45",
    "summary": "OpenAIが「GPT-6.1 Sol」を現地時間の2026年9月29日にリリースしました。前モデル「GPT-6 Sol」の登場からわずか1週間でのアップデートです。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "11c8681011ad",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "住友林業、工期を半分に短縮できる見込みの移設・再利用可能な木造ユニット建築KIBLOを開発",
-   "url": "https://news.build-app.jp/article/42866/",
-   "published": "2026-09-30T01:00+00:00",
-   "published_jst": "2026-09-30 10:00",
-   "summary": "住友林業は、資源循環の推進や施工人材の不足といった課題に対応するため、木造ユニット建築「（仮称）KIBLO /キブロ」を開発しました。対象は...",
-   "ai_related": false
   },
   {
    "id": "c865a1652335",
@@ -365,6 +452,19 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oUnB4b1BqYjNCeEF2eU0ydGItQ1BxMkVWZW95a0VjdDFmU2NTbXVuaEpnTTFjZ3pTNHNYSEtkQ1hFaF9oQm5tTnk2TldSMHJFQnllODJVZWJpbGpTYU1GcklEUzVwUlFfSld5QUQ2M1lObTZnMlE?oc=5",
    "published": "2026-09-30T00:13+00:00",
    "published_jst": "2026-09-30 09:13",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "99a79d196f6c",
+   "source": "ITmedia",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI音声認識の建築検査アプリに新機能、ゼネコンと協力会社の是正状況を視覚化：現場管理",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wbFJjVjdoUmtqaEFpTEJUVzNxNFhuSFJiVnNza0pMdzI1S3M2b2RXblhPNXlxVGtzRVFsdFpWXzl1bmExYW9SY2dKcG1xS3h3TWJIWEZsQUFoejlHRDFPYXhiTkRXQnJzRTNGcA?oc=5",
+   "published": "2026-09-30T00:00+00:00",
+   "published_jst": "2026-09-30 09:00",
    "summary": "",
    "ai_related": false
   },
@@ -546,32 +646,6 @@
    "ai_related": true
   },
   {
-   "id": "159f4558dc94",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【後編】ゼネコン目線で見る注目展示3選｜専用アプリ不要のDX化サービス_株式会社 Arch／図面特化AI技術_株式会社KK Generation／暗黙知や業務ノウハウをデジタル化_株式会社Arent",
-   "url": "https://news.build-app.jp/article/42521/",
-   "published": "2026-09-29T22:00+00:00",
-   "published_jst": "2026-09-30 07:00",
-   "summary": "2026年8月26日（水）～28日（金）に開催された建設DX展［大阪］は、建設業界のDXをテーマとした専門展示会です。当サイトでは会場を取材...",
-   "ai_related": true
-  },
-  {
-   "id": "c57e511e8bf8",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "急速に発展する建設分野での生成AI援用の現在地を多分野に渡り追跡(第十四回)/技能継承にAIを活用する大和ハウス工業と設計初期業務を効率化する大林組の事例｜深堀り取材【毎月3回更新】",
-   "url": "https://news.build-app.jp/article/42804/",
-   "published": "2026-09-29T22:00+00:00",
-   "published_jst": "2026-09-30 07:00",
-   "summary": "建設業における生成AIの援用が加速化しているのと合わせて援用の高度化が進行している。当初は、人手の削減や作業効率の改善を目的としていたが、直...",
-   "ai_related": true
-  },
-  {
    "id": "f8e7c3348cfc",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -695,21 +769,6 @@
    "ai_related": false
   },
   {
-   "id": "7987afc59e09",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction Layoffs Fall to All-Time Low in August",
-   "url": "https://constructionexec.com/article/construction-layoffs-fall-to-all-time-low-in-august/?utm_source=rss&utm_medium=rss&utm_campaign=construction-layoffs-fall-to-all-time-low-in-august",
-   "published": "2026-09-29T20:27+00:00",
-   "published_jst": "2026-09-30 05:27",
-   "summary": "Layoffs are on pause, which may signal a net increase to come for overall construction staffing levels. The post Construction Layoffs Fall to All-Time Low in August first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "8月の建設業レイオフが過去最低を記録",
-   "summary_ja": "一時的な減少にとどまっており、今後の人員全体の純増を示唆している可能性がある。"
-  },
-  {
    "id": "6421ca855574",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -748,32 +807,6 @@
    "published": "2026-09-29T20:00+00:00",
    "published_jst": "2026-09-30 05:00",
    "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "480287ecca65",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "非上場株式の評価方式変更/中小建設業「事業承継が崩壊」/全建 見直しの凍結求める",
-   "url": "https://www.kensetsunews.com/archives/1290193",
-   "published": "2026-09-29T19:55+00:00",
-   "published_jst": "2026-09-30 04:55",
-   "summary": "寝耳に水だ－－。国税庁が進めている取引相場のない株式（非上場株式）の評価方式変更を巡る議論に対し、… The post 非上場株式の評価方式変更/中小建設業「事業承継が崩壊」/全建 見直しの凍結求める first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "732c72c604cd",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "予定価格は239億/横浜国際プール再整備WTO受付11月4日から",
-   "url": "https://www.kensetsunews.com/archives/1290215",
-   "published": "2026-09-29T19:55+00:00",
-   "published_jst": "2026-09-30 04:55",
-   "summary": "横浜市は、ＷＴＯ対象となる「横浜国際プール再整備事業」の総合評価一般競争入札を公告した。参加資格審… The post 予定価格は239億/横浜国際プール再整備WTO受付11月4日から first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -826,6 +859,32 @@
    "published": "2026-09-29T19:55+00:00",
    "published_jst": "2026-09-30 04:55",
    "summary": "兵庫県三木市は、吉川地域小中一貫校の設置に向け、基本・実施設計委託の公募型プロポーザルを、早ければ… The post 近く提案競技公告/吉川地域小中一貫校設計/三木市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "480287ecca65",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "非上場株式の評価方式変更/中小建設業「事業承継が崩壊」/全建 見直しの凍結求める",
+   "url": "https://www.kensetsunews.com/archives/1290193",
+   "published": "2026-09-29T19:55+00:00",
+   "published_jst": "2026-09-30 04:55",
+   "summary": "寝耳に水だ－－。国税庁が進めている取引相場のない株式（非上場株式）の評価方式変更を巡る議論に対し、… The post 非上場株式の評価方式変更/中小建設業「事業承継が崩壊」/全建 見直しの凍結求める first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "732c72c604cd",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "予定価格は239億/横浜国際プール再整備WTO受付11月4日から",
+   "url": "https://www.kensetsunews.com/archives/1290215",
+   "published": "2026-09-29T19:55+00:00",
+   "published_jst": "2026-09-30 04:55",
+   "summary": "横浜市は、ＷＴＯ対象となる「横浜国際プール再整備事業」の総合評価一般競争入札を公告した。参加資格審… The post 予定価格は239億/横浜国際プール再整備WTO受付11月4日から first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1220,7 +1279,7 @@
    "url": "https://openai.com/index/introducing-dots/",
    "published": "2026-09-29T17:07+00:00",
    "published_jst": "2026-09-30 02:07",
-   "summary": "Article URL: https://openai.com/index/introducing-dots/ Comments URL: https://news.ycombinator.com/item?id=49896604 Points: 558 # Comments: 422",
+   "summary": "Article URL: https://openai.com/index/introducing-dots/ Comments URL: https://news.ycombinator.com/item?id=49896604 Points: 580 # Comments: 442",
    "ai_related": true,
    "title_ja": "Dots：常時稼働型エージェントの登場",
    "summary_ja": "OpenAIの新機能である常時稼働型AIエージェント「Dots」の紹介記事とコミュニティでの議論。"
@@ -1301,6 +1360,36 @@
    "summary_ja": "サンフランシスコで開催されているOpenAI DevDayの会場から、基調講演やその他の情報をリアルタイムで伝える。"
   },
   {
+   "id": "68beb41e0f22",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Developers to get power to build own grid connections",
+   "url": "https://www.constructionenquirer.com/2026/09/29/developers-to-get-power-to-build-own-grid-connections/",
+   "published": "2026-09-29T15:30+00:00",
+   "published_jst": "2026-09-30 00:30",
+   "summary": "Great British Grid launch opens new market for contractors to tackle connection logjam",
+   "ai_related": false,
+   "title_ja": "開発業者に自前の送電網接続を構築する権限を付与へ",
+   "summary_ja": "Great British Gridの始動により、接続の渋滞解消を目指す新たな市場が業者向けに開放される。"
+  },
+  {
+   "id": "c57adc8b37c6",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "AC1 signs deal to finish Torsion’s Manchester apartment job",
+   "url": "https://www.constructionenquirer.com/2026/09/29/ac1-signs-deal-to-finish-torsions-manchester-apartment-job/",
+   "published": "2026-09-29T15:25+00:00",
+   "published_jst": "2026-09-30 00:25",
+   "summary": "Replacement contractor targets December finish at £39m One Victoria scheme",
+   "ai_related": false,
+   "title_ja": "AC1、Torsionのマンチェスターマンション工事引き継ぎで契約",
+   "summary_ja": "後継の施工業者が、3900万ポンド規模のOne Victoria計画において12月の完工を目指す。"
+  },
+  {
    "id": "8be5080985a2",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1340,6 +1429,21 @@
    "published_jst": "2026-09-30 00:05",
    "summary": "ANDPADを利用してDXを実現する先進的な企業や、ANDPADの利用度の高いユーザーを表彰する「ANDPAD AWARD」。前回に続いて、6度目となる「ANDPAD AWARD 2027」、DXカン... 投稿 ANDPAD AWARD 2027 DXプロジェクト部門 エントリーシート記入方法ガイド は ANDPAD ONE に最初に表示されました。",
    "ai_related": true
+  },
+  {
+   "id": "251930f2ad2a",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Construction set to start on stalled Liverpool site",
+   "url": "https://www.constructionenquirer.com/2026/09/29/construction-set-to-start-on-stalled-liverpool-site/",
+   "published": "2026-09-29T15:03+00:00",
+   "published_jst": "2026-09-30 00:03",
+   "summary": "Developer Bentry Capital to use in-house contractor Mellior Construction",
+   "ai_related": false,
+   "title_ja": "リバプールの中断していた敷地で建設再開へ",
+   "summary_ja": "開発業者のBentry Capitalは、自社グループの施工業者Mellior Constructionを起用する方針。"
   },
   {
    "id": "352a632cbda2",
@@ -1452,7 +1556,7 @@
    "source_id": "construction_dive",
    "category": "construction_global",
    "lang": "en",
-   "title": "Dotted Line: Not if, when: How construction is dealing with cybersecurity in the age of AI",
+   "title": "Dotted Line: How construction is dealing with cybersecurity in the age of AI",
    "url": "https://www.constructiondive.com/news/not-if-when-how-construction-is-dealing-with-cybersecurity-in-the-age-of/831567/",
    "published": "2026-09-29T13:41+00:00",
    "published_jst": "2026-09-29 22:41",
@@ -1460,6 +1564,19 @@
    "ai_related": true,
    "title_ja": "AI時代の建設業界におけるサイバーセキュリティへの向き合い方",
    "summary_ja": "優先順位は低いが、不可避な侵害に備えることが極めて重要だと専門家は指摘している。"
+  },
+  {
+   "id": "b3132d3b9fbf",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "「その事務、社長がやらなくていい仕事です」建設・土木向けAI「AI番頭」が10月1日に正式提供 下請の見積書10年保存にも対応",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4bklrUUdjRC1BVmpMQ3pQV3hRbFhVOFhFVWJmMlo5aG5KMWEtT2hUSFFTNFdZSHUwQXc3ZHFjelJEdjBFMTJ0S1R3bjJaWWwwUGNtNmUyQ2pHRHhJdUFXLUtpR2FDVU5uRndfUzB2YU9EQQ?oc=5",
+   "published": "2026-09-29T13:40+00:00",
+   "published_jst": "2026-09-29 22:40",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "1b42fb3f22be",
@@ -1486,7 +1603,7 @@
    "url": "https://www.constructiondive.com/news/contractors-winning-us-infrastructure-projects/831485/",
    "published": "2026-09-29T13:25+00:00",
    "published_jst": "2026-09-29 22:25",
-   "summary": "Builders reported project wins for roads, highways, airports, rail jobs and water facilities in the infrastructure sector to close the summer.",
+   "summary": "Builders reported project wins for roads, highways, airports, rail projects and water facilities in the infrastructure sector to close the summer.",
    "ai_related": false,
    "title_ja": "建設シーズン締めくくりに向け、インフラ案件を相次ぎ獲得",
    "summary_ja": "夏の終わりに向け、道路や空港、鉄道、水処理施設などのインフラ建設案件の受注が相次いだ。"
@@ -1838,32 +1955,6 @@
    "ai_related": true
   },
   {
-   "id": "a014367c02c1",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIエージェント「Manus 2.0」リリース、さらにパーソナルAIエージェント向けアプリ「Cue」やプロフェッショナルなAIワークスペースを実現するデスクトップアプリ「Manus Studio」も",
-   "url": "https://gigazine.net/news/20260929-manus-2-0/",
-   "published": "2026-09-29T10:11+00:00",
-   "published_jst": "2026-09-29 19:11",
-   "summary": "アジア圏を中心にサービスを展開し、一度Metaとの買収合意に至った後に再び独立したという異色の経歴を持つAI起業のManusが、AIエージェントの「Manus 2.0」を発表しました。独立後初の大型アップデートということで、「ただのバージョンアップではない」とアピールされています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "f41163b6aa48",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「GPT-6 Astraは旧世代モデルよりサイバー攻撃を実行しやすい傾向にある」というイギリス政府機関の分析結果が公開される",
-   "url": "https://gigazine.net/news/20260929-gpt-6-astra-aisi-report/",
-   "published": "2026-09-29T10:02+00:00",
-   "published_jst": "2026-09-29 19:02",
-   "summary": "OpenAIはAIの開発中に「国連の統計サイト」「オーストラリアの公的医療サービス」「アメリカの教育省・商務省・証券取引委員会」といった重要サービスに対する攻撃を実行してしまったことが明らかになっています。新たに、イギリスの政府機関であるAI Security Institute(AISI)が「GPT-6 Astraで攻撃シミュレーションを実行した結果、前世代モデルより拒否率が低下した」という分析結果を公開しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "dd66acaed2a0",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1892,21 +1983,6 @@
    "ai_related": true,
    "title_ja": "DevDay 2026の主な発表まとめ",
    "summary_ja": "GPT-6 AstraやChatGPT、APIなど、OpenAI DevDay 2026での20以上の発表を紹介します。"
-  },
-  {
-   "id": "b020339d4dca",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "From Claim to Courtroom: How Documentation Shapes Construction Disputes",
-   "url": "https://constructionexec.com/article/from-claim-to-courtroom-how-documentation-shapes-construction-disputes/?utm_source=rss&utm_medium=rss&utm_campaign=from-claim-to-courtroom-how-documentation-shapes-construction-disputes",
-   "published": "2026-09-29T10:00+00:00",
-   "published_jst": "2026-09-29 19:00",
-   "summary": "Scheduling an inspection of the property should be one of your first tasks once a claim or potential claim is identified. The post From Claim to Courtroom: How Documentation Shapes Construction Disputes first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設紛争を防ぐ適切な記録管理の重要性",
-   "summary_ja": "クレーム発生時は、まず物件の調査スケジュールを組むことが最初の重要な作業となります。"
   },
   {
    "id": "2f36d6484d53",
@@ -2118,21 +2194,6 @@
    "summary_ja": "高速道路の工事規制区域に突っ込み作業員を死亡させた事故で、10年の禁錮刑が言い渡された。"
   },
   {
-   "id": "c2cc05994b46",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Why theme parks demand an integrated approach to risk",
-   "url": "https://www.constructionnews.co.uk/sponsored/why-theme-parks-demand-an-integrated-approach-to-risk-29-09-2026/",
-   "published": "2026-09-29T06:03+00:00",
-   "published_jst": "2026-09-29 15:03",
-   "summary": "Theme parks and destination resorts are among the more complex assets the construction sector delivers. As such, they require the industry to focus beyond materials, labour and design, towards the experience those buildings must create. They’re big business too, with the upcoming £5bn Universal Unit",
-   "ai_related": false,
-   "title_ja": "テーマパーク建設に不可欠な統合的リスク管理",
-   "summary_ja": "複雑なテーマパーク建設では、素材や設計だけでなく、来場者が得られる体験への配慮が求められます。"
-  },
-  {
    "id": "c27281ec861f",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2155,6 +2216,19 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVYll3cllldXNUbVNERC1Zcmw0b1hVUFptMVZsMVdFX2I5TVRQa0RYTUJNTzFHQ2xtT0pNU3NOajBqd29PRHdHQkNlcER1TVBVTHVkaWgwWWQzekV0Rm9XbU1hbXVZR096SHFqWUhvcG9LYkdT?oc=5",
    "published": "2026-09-29T05:56+00:00",
    "published_jst": "2026-09-29 14:56",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "adfb14ff4355",
+   "source": "ギズモード・ジャパン",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "著名投資家がデータセンター建設で警告…自治体が守れる10項目",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVjlNem85Nmxlb2F6OVJVTWhpVElSRVdXTW1kd0x5aVZfZ3BkYU5GOVpjZFlQUmZjTFd6QkVUcGZPQ2NTMm02MlBXbWFjSU01RS1JeFNLMHQ3NHVqNmxfTGN4MTVJLTdfclVxSk9pYlpzb0phd2lQeDYxVEtLSzlyQ3JzMHlaTWE2b2xFTVNRRTF2QXlOOFZ1VEZvNVAweGhLbGc?oc=5",
+   "published": "2026-09-29T05:35+00:00",
+   "published_jst": "2026-09-29 14:35",
    "summary": "",
    "ai_related": false
   },
@@ -2253,7 +2327,7 @@
   },
   {
    "id": "fc3319291a03",
-   "source": "ascii.jp",
+   "source": "ASCII.jp",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -2314,19 +2388,6 @@
    "published": "2026-09-29T01:10+00:00",
    "published_jst": "2026-09-29 10:10",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "40695888aa43",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設、現場内物流のムダをデジタル化で排除する建設物流DXシステムを開発・運用開始",
-   "url": "https://news.build-app.jp/article/42859/",
-   "published": "2026-09-29T01:00+00:00",
-   "published_jst": "2026-09-29 10:00",
-   "summary": "清水建設は、建設現場の中で生じる物流のムダをデジタル化とクラウド化によって取り除く「建設物流DXシステム」を開発しました。資機材を運ぶ車両の...",
    "ai_related": true
   },
   {
@@ -2496,19 +2557,6 @@
    "summary_ja": "処理速度が30%以上向上し、コストも最大30%削減。各種ベンチマークで前モデルを上回る性能を発揮する。"
   },
   {
-   "id": "4fde61f56d81",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年最新版】建設業法第2条第1項とは？｜建設工事の定義・別表第一29業種・修繕工事の扱いをわかりやすく解説",
-   "url": "https://news.build-app.jp/article/38489/",
-   "published": "2026-09-28T22:00+00:00",
-   "published_jst": "2026-09-29 07:00",
-   "summary": "建設業に関わる実務で、必ず登場するのが「建設業法第2条第1項」です。しかし、「どこまでが建設工事に当たるのか」「修繕工事は対象なのか」「許可...",
-   "ai_related": false
-  },
-  {
    "id": "ce7b13e0f7aa",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2632,32 +2680,6 @@
    "ai_related": true
   },
   {
-   "id": "7cc2eee735ec",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設会社の分野別売上高ランキング、「推進」「海洋」で増収見通し多い",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rX0JsTW5BNk92cWhVSzZ1elQtYVA4UE45dG1fYUVRWDFEV2owNFBLZUdBV2wyZEdQVHBLOWRMTHh6TTNscVJLV2R2RUQ1YmkzUE1hT2NDZ3JtaGFJd2NjUExybTlxdWlOQV9Fcw?oc=5",
-   "published": "2026-09-28T20:00+00:00",
-   "published_jst": "2026-09-29 05:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "dc59c8c43a95",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日建設計JVを特定/大阪駅前公共空間検討/大阪市",
-   "url": "https://www.kensetsunews.com/archives/1289705",
-   "published": "2026-09-28T19:55+00:00",
-   "published_jst": "2026-09-29 04:55",
-   "summary": "大阪市は、「令和８年度大阪駅前における人中心の公共空間形成にかかる検討調査業務委託」の公募型プロポ… The post 日建設計JVを特定/大阪駅前公共空間検討/大阪市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "636e3f990f35",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2694,6 +2716,19 @@
    "published": "2026-09-28T19:55+00:00",
    "published_jst": "2026-09-29 04:55",
    "summary": "【未経験のインフラに挑戦】 ＪＲ東日本コンサルタンツの新社長に小山宏氏が就任した。ＪＲ東日本グループ… The post 新社長・JR東日本コンサルタンツ 小山宏氏 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "0dceadfc3a78",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "労務単価の政策的引上げを/生産性向上へ支援要望/建設業主要4団体",
+   "url": "https://www.kensetsunews.com/archives/1289420",
+   "published": "2026-09-28T19:55+00:00",
+   "published_jst": "2026-09-29 04:55",
+   "summary": "日本建設業連合会、全国建設業協会、全国中小建設業協会、建設産業専門団体連合会の建設業主要４団体は、… The post 労務単価の政策的引上げを/生産性向上へ支援要望/建設業主要4団体 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2785,21 +2820,6 @@
    "ai_related": true,
    "title_ja": "OpenAI、アライメント不全を受け最先端モデルの学習を一時停止",
    "summary_ja": "OpenAIが最近通知を行った「多数のサードパーティ」の中には、米国政府のウェブサイトも含まれている。"
-  },
-  {
-   "id": "9a3fd988b0e8",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier lands £60m London Holborn office retrofit",
-   "url": "https://www.constructionenquirer.com/2026/09/28/kier-lands-60m-london-holborn-office-retrofit/",
-   "published": "2026-09-28T14:35+00:00",
-   "published_jst": "2026-09-28 23:35",
-   "summary": "Railpen picks contractor for two-year Red Lion Square retrofit",
-   "ai_related": false,
-   "title_ja": "Kier、ロンドンのホルボーンオフィス改修を6,000万ポンドで受注",
-   "summary_ja": "Railpenがレッド・ライオン・スクエアの2年間にわたる改修工事の施工業者に選定した。"
   }
  ]
 }
