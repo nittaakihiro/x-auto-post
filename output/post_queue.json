@@ -12853,5 +12853,51 @@
       "unverified": "www.taisei.co.jp・built.itmedia.co.jp・saleszine.jpへの直接WebFetchは本セッションのegress制限でブロックされ(EGRESS_BLOCKED)、WebSearchのスニペット経由での間接確認にとどまる。一部情報源で見かけた『導入プロジェクト20件超』『2026年に作業所の半数へ普及』という数値は、出典URLを1件に特定できずWebSearch要約の合成である可能性を排除できないため本文・補足に含めていない。122部署という数字はSalesZine記事の要約で言及されているが、原文の直接確認はできていない。",
       "hook_alternative": "案A(採用): システム名『建設承認メタバース(C2QUEST)』と主体・目的を先に示し、従来手順→AI連携→現場定着という比較の骨格で見せる型。案B: 『合意形成の議事録、紙とにらめっこでした』という体験的な書き出しも検討したが、本人の実体験ではなく他社事例であるため誇張・擬似体験の誤解を避け、客観的にシステム名から入る案Aを採用。"
     }
+  },
+  {
+    "id": "2026-09-30_20:00",
+    "date": "2026-09-30",
+    "time": "20:00",
+    "text": "構造図をAIに読ませて3DモデルをIFCで出力し、TREND COREで確認する流れです。IFCまで出せれば他のBIMソフトとも繋がるので、意匠・構造間のデータ受け渡しにどこまで使えるか気になります。どの構造CADから読み込んだのか知りたいです。",
+    "type": "quote_rt",
+    "quote_tweet_id": "2105108609554338108",
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 補足\nIFC(Industry Foundation Classes)はBIMデータの国際標準フォーマットで、異なるBIMソフト間でモデルをやり取りする際の共通言語として使われます。TREND COREは福井コンピュータアーキテクト社のBIMビューワです。\n\n■ 出典\n元投稿: 沖山達哉(CRAFTCOM代表) (@CRAFTCOM2) https://x.com/CRAFTCOM2/status/2105108609554338108 (2026-09-30 10:32)\n※IFC出力・3Dモデルの精度は元投稿の記述に基づくもので、添付画像そのものの内容までは確認できていません。CRAFTCOM社の正式な業務プロセスとしての採用有無は不明で、あくまで代表個人の試行的な投稿です。",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": null,
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "建設AI",
+      "format": "引用",
+      "scores": {
+        "新規性": 2,
+        "読者への価値": 2,
+        "見せられる証拠": 1,
+        "自分の追加価値": 2,
+        "伝わりやすさ": 2
+      },
+      "selection_reason": "夕枠の候補を7件比較した。(1)沖山達哉(CRAFTCOM代表, @CRAFTCOM2)「Claude Fable5.1で構造図から3Dモデル生成しIFCで出力→TREND COREで確認」(本採用)。slack_buzz.json [建設×AI] タグで検出(2026-09-30 10:32、18いいね・3RT)。ニュースの焼き直しではなく建設会社代表個人による実演投稿で、構造図→AI生成3Dモデル→IFC出力→BIMビューワ確認という具体的なワークフローが読める点、Claude(Anthropic)を実務で使った例である点を評価した。IFC出力までできれば他のBIMソフトとの連携に道が開けるという論点と、どの構造CADから読み込んだのかという疑問を追加価値として付けた。(2)Drafted社のAI間取り図生成Revitプラグイン(ai_buzz.json、TestingCatalog経由、海外)は footprint+部屋リストから45秒で5案生成という具体性はあるが、海外プロダクトの機能紹介で一次情報(公式ブログ等)への到達ができておらず証拠が弱いため見送り(推定5点)。(3)OpenAI『dots』エージェント発表(ai_buzz.json、OpenAI公式・Sam Altman等の複数投稿)は最大の話題だが、本日朝枠(GPT-6.1 Sol)と同じOpenAI DevDay 2026の一連発表であり、『同じネタ・同じ引用元を使わない』方針に反するため見送り。(4)ChatGPT Space・Decisions API・Codexクラウド環境・Ultrafastも同様に本日のOpenAI DevDay関連で朝枠と題材が重複するため除外。(5)Anthropicの2025年純損失420億ドル報道(Ross Hendricksの引用ツイート経由)は『人類を滅ぼす』という煽り口調の二次的な引用で、一次のReuters記事に本セッションから到達できず、感情的な誇張表現も戦略の禁止事項に触れるため不採用(推定3点)。(6)Google Gemini 4 ProがAstra/Opus 5.5を圧倒との投稿は『if true』付きの未確認の性能主張で、鮮度・ファクトチェックの方針により未確認の数値は採用しない(推定2点)。(7)ENR『経験豊富な現場監督が不足』という投稿は本文にAI要素がなく#ArtificialIntelligenceのハッシュタグのみで、AIとの関連が薄いため除外(推定3点)。非AIの建設時事(大型倒産・法改正・災害・大型受注級)は本日候補になく、直近7日の建設AI/一般AI本数も基準内のため、建設AI×引用のCRAFTCOM案を採用した。同じ構成の連続を避けるため、昼枠(比較)とは異なる引用形式を選んだ。",
+      "source_url": "https://x.com/CRAFTCOM2/status/2105108609554338108",
+      "published_at": "2026-09-30T10:32(JST)、元ツイート投稿時刻",
+      "checked_at": "2026-09-30T19:10+09:00",
+      "availability": "元投稿(2026-09-30 10:32、18いいね・3RT)と同アカウントの続報投稿(11:15、AI生成モデルをVision ProのTerra scopeで確認)の2件を確認。投稿者はCRAFTCOM株式会社代表としてプロフィールに明記されたアカウントで、建設業界の実在企業アカウントとして扱った。IFC出力・TREND COREでの確認・Vision Proでの確認は本文記述のみで、添付画像自体の内容(モデルの精度・整合性)は本セッションから直接確認できていない。",
+      "unverified": "添付画像の3Dモデル・IFC出力の実際の精度・整合性は未確認(本文記述のみに基づく)。どの構造CAD/構造計算ソフトから構造図を読み込んだかは投稿に記載がなく不明。CRAFTCOM社の正式な業務プロセスとしての採用可否・社内展開状況は不明で、あくまで代表個人の試行的な投稿である可能性がある。",
+      "hook_alternative": "案A(採用): 元投稿のワークフロー(構造図→3Dモデル→IFC出力→TREND CORE確認)をそのまま起点に、IFC出力の意義(BIMソフト間連携)という論点を追加する型。案B: 『Claudeが構造図を読めるようになった』という驚き先行の書き出しも検討したが、性能の断定や誇張になりかねないため、ワークフローの中身と一次情報にない疑問点(読み込み元CAD)を先に立てる案Aを採用した。"
+    }
   }
 ]
