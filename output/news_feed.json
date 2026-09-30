@@ -1,20 +1,50 @@
 {
- "generated_at": "2026-09-30T13:47+00:00",
- "generated_at_jst": "2026-09-30 22:47",
+ "generated_at": "2026-09-30T14:15+00:00",
+ "generated_at_jst": "2026-09-30 23:15",
  "window_hours": 48,
  "counts": {
-  "construction_global": 35,
+  "construction_global": 32,
+  "ai_global": 61,
   "ai_japan": 38,
-  "ai_global": 59,
-  "construction_japan": 68
+  "construction_japan": 69
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "e70668733c8c",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "The data center boom continues apace, but projects face mounting obstacles",
+   "url": "https://www.constructiondive.com/news/data-center-boom-continues-projects-face-obstacles/831742/",
+   "published": "2026-09-30T14:10+00:00",
+   "published_jst": "2026-09-30 23:10",
+   "summary": "Developers are responding to hurdles by embracing flexibility and alternative technologies once considered too unwieldy.",
+   "ai_related": false
+  },
+  {
+   "id": "c5683a0ff456",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI delays IPO over AI safety concerns",
+   "url": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/",
+   "published": "2026-09-30T14:06+00:00",
+   "published_jst": "2026-09-30 23:06",
+   "summary": "OpenAI is seeking another $30 billion privately as its IPO plans slip.",
+   "ai_related": true
+  },
   {
    "id": "20123371ed15",
    "source": "AEC Magazine",
@@ -51,7 +81,33 @@
    "url": "https://www.constructiondive.com/news/fluor-jgc-win-contracts-lng-canada-phase-2-expansion/831739/",
    "published": "2026-09-30T13:40+00:00",
    "published_jst": "2026-09-30 22:40",
-   "summary": "The contractors will add two liquefaction units and an LNG storage tank during its second phase of work at the site.",
+   "summary": "The joint venture will add two liquefaction units and an LNG storage tank during the second phase of work at the site.",
+   "ai_related": false
+  },
+  {
+   "id": "24687ef26576",
+   "source": "AINOW",
+   "source_id": "ainow",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIエージェントの10大リスクと事故事例から学ぶ管理の進め方",
+   "url": "https://ainow.ai/2026/09/30/278404/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae10%25e5%25a4%25a7%25e3%2583%25aa%25e3%2582%25b9%25e3%2582%25af%25e3%2581%25a8%25e4%25ba%258b%25e6%2595%2585%25e4%25ba%258b%25e4%25be%258b%25e3%2581%258b%25e3%2582%2589%25e5%25ad%25a6%25e3%2581%25b6%25e7%25ae%25a1",
+   "published": "2026-09-30T13:24+00:00",
+   "published_jst": "2026-09-30 22:24",
+   "summary": "AIエージェントを導入したいものの、暴走や情報漏えいのリスクを経営層や法務部門にどう説明すればよいか悩んでいる推進担当者は少なくないでしょう。 AIエージェントのリスクは、生成AIのリスクが「行動」と「権限」によって増幅... The post AIエージェントの10大リスクと事故事例から学ぶ管理の進め方 first appeared on AI専門ニュースメディア AINOW .",
+   "ai_related": true
+  },
+  {
+   "id": "025a6dd169d6",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Bridgestone starts building first Trafford Waters high rise",
+   "url": "https://www.constructionenquirer.com/2026/09/30/bridgestone-starts-building-first-trafford-waters-high-rise/",
+   "published": "2026-09-30T13:12+00:00",
+   "published_jst": "2026-09-30 22:12",
+   "summary": "Construction underway after Gateway 2 approval secured",
    "ai_related": false
   },
   {
@@ -120,6 +176,19 @@
    "ai_related": true
   },
   {
+   "id": "7f9fa975e907",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Police hand over Grenfell files for charging decisions",
+   "url": "https://www.constructionenquirer.com/2026/09/30/police-hand-over-grenfell-files-for-charging-decision/",
+   "published": "2026-09-30T12:10+00:00",
+   "published_jst": "2026-09-30 21:10",
+   "summary": "Twenty companies and 54 individuals face possible charges",
+   "ai_related": false
+  },
+  {
    "id": "ff26d4a382ed",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -146,45 +215,6 @@
    "ai_related": true
   },
   {
-   "id": "29cb76e271da",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Police ask CPS to consider Grenfell manslaughter charges",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/cps-asked-to-consider-grenfell-manslaughter-charges-30-09-2026/",
-   "published": "2026-09-30T11:45+00:00",
-   "published_jst": "2026-09-30 20:45",
-   "summary": "The Metropolitan Police has asked prosecutors to consider charges including corporate manslaughter and gross negligence manslaughter in relation to the Grenfell Tower fire in June 2017. The force said in a statement this morning (30 September) that it had submitted 20 files relating to 20… The post ",
-   "ai_related": false
-  },
-  {
-   "id": "2f720fc926a3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Builder regulation could boost apprenticeship numbers",
-   "url": "https://www.constructionnews.co.uk/skills/builder-regulation-could-boost-apprenticeship-numbers-30-09-2026/",
-   "published": "2026-09-30T11:45+00:00",
-   "published_jst": "2026-09-30 20:45",
-   "summary": "Regulating builders could help tackle the skills shortage in the construction industry by adding a quality mark to qualifications, according to an industry expert. Brian Berry, chief executive of the Federation of Master Builders (FMB), said regulating builders and other construction professionals w",
-   "ai_related": false
-  },
-  {
-   "id": "cabae3f33a69",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "More ex-timber firm workers win tribunal claims",
-   "url": "https://www.constructionnews.co.uk/legal/more-ex-timber-firm-workers-win-tribunal-claims-30-09-2026/",
-   "published": "2026-09-30T11:45+00:00",
-   "published_jst": "2026-09-30 20:45",
-   "summary": "Former workers of a timber supplier in administration have won a 90-day protective award at an employment tribunal. The 13 ex-employees of the National Timber Group Scotland won claims that the company failed to ensure employee representatives were elected and then consult them as required… The post",
-   "ai_related": false
-  },
-  {
    "id": "cc4ccb8b9d13",
    "source": "Infoseek",
    "source_id": "gnews_sekokan_ai",
@@ -196,19 +226,6 @@
    "published_jst": "2026-09-30 20:45",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "5c204aa4a03e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "J&D Pierce profit bounces back after ‘significantly brighter year’",
-   "url": "https://www.constructionnews.co.uk/financial/jd-pierce-profit-bounces-back-after-significantly-brighter-year-30-09-2026/",
-   "published": "2026-09-30T11:33+00:00",
-   "published_jst": "2026-09-30 20:33",
-   "summary": "Scottish structural steelwork contractor J&D Pierce nearly tripled its profit in 2025 following a strong second half of the year. The firm’s pre-tax profit for the year to 31 December 2025 grew from £2.3m to £6.8m, according to its latest results, published on Wednesday (30… The post J&D Pierce prof",
-   "ai_related": false
   },
   {
    "id": "59bab676e2a8",
@@ -235,32 +252,6 @@
    "published_jst": "2026-09-30 19:40",
    "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised s",
    "ai_related": true
-  },
-  {
-   "id": "e44ac89b24d5",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Burnham confirms plans for Great British Grid",
-   "url": "https://www.constructionnews.co.uk/government/burnham-confirms-plans-for-great-british-grid-30-09-2026/",
-   "published": "2026-09-30T10:36+00:00",
-   "published_jst": "2026-09-30 19:36",
-   "summary": "Prime minister Andy Burnham has confirmed the creation of Great British Grid (GB Grid) as a new publicly owned network company to invest in grid infrastructure projects across the country. GB Grid, which will sit within Great British Energy, will help accelerate the delivery of… The post Burnham con",
-   "ai_related": false
-  },
-  {
-   "id": "4a70a04d69b5",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "M Group targets 42% emissions cut by 2030",
-   "url": "https://www.constructionnews.co.uk/sustainability/m-group-targets-42-emissions-cut-by-2030-30-09-2026/",
-   "published": "2026-09-30T10:31+00:00",
-   "published_jst": "2026-09-30 19:31",
-   "summary": "Infrastructure contractor M Group has set a target to cut its Scope 1 and 2 carbon emissions by 42 per cent from 2022 levels by 2030. The infrastructure contractor set out the commitment in its 2027-32 sustainability strategy, alongside a 52 per cent reduction target… The post M Group targets 42% em",
-   "ai_related": false
   },
   {
    "id": "fc7b7c3d3693",
@@ -419,21 +410,6 @@
    "ai_related": true
   },
   {
-   "id": "ff9b12bdcd14",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Aggregates firm fined £24k after worker dies from crush injuries",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/aggregates-firm-fined-24k-after-worker-dies-from-crush-injuries-30-09-2026/",
-   "published": "2026-09-30T08:11+00:00",
-   "published_jst": "2026-09-30 17:11",
-   "summary": "Building material supplier Gill Aggregates has been fined £24,000 after a worker suffered fatal crush injuries from machinery at its depot. Production operative Manjit Kumar, 34, was working for Kent firm Gill Aggregates at its depot on Halyard Street, Dagenham, on 24 June 2020 when… The post Aggreg",
-   "ai_related": false,
-   "title_ja": "骨材会社、作業員の死亡事故で2万4千ポンドの罰金",
-   "summary_ja": "建材サプライヤーのGill Aggregatesは、作業所内の機械事故で作業員が死亡した件で2万4千ポンドの罰金を科された。"
-  },
-  {
    "id": "cee4544d2e19",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -447,6 +423,32 @@
    "ai_related": true
   },
   {
+   "id": "d3840efa21f4",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Steelwork firm J&D Pierce powers back with £6.8m profit",
+   "url": "https://www.constructionenquirer.com/2026/09/30/steelwork-specialist-jd-pierce-powers-back-with-6-8m-profit/",
+   "published": "2026-09-30T07:20+00:00",
+   "published_jst": "2026-09-30 16:20",
+   "summary": "Investment in fabrication capacity pays off as revenue jumps 23%",
+   "ai_related": false
+  },
+  {
+   "id": "dbc005151975",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Planning approvals for new homes crash to 14-year low",
+   "url": "https://www.constructionenquirer.com/2026/09/30/planning-approvals-for-new-homes-crash-to-14-year-low/",
+   "published": "2026-09-30T06:46+00:00",
+   "published_jst": "2026-09-30 15:46",
+   "summary": "Approvals slump 21% as Government prepares first-time buyer rescue scheme",
+   "ai_related": false
+  },
+  {
    "id": "4bad275663a4",
    "source": "ArchDaily",
    "source_id": "archdaily",
@@ -458,6 +460,32 @@
    "published_jst": "2026-09-30 15:45",
    "summary": "The office chair has evolved alongside changing workplaces over time. In each office era, the chair has reflected the way people work. Early office seating was built for clerical work: fixed wooden chairs arranged in rows across large administrative offices, where paperwork followed standardized rou",
    "ai_related": true
+  },
+  {
+   "id": "2eb4a069bf58",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Aggregates firm fined after worker crushed to death",
+   "url": "https://www.constructionenquirer.com/2026/09/30/aggregates-firm-fined-after-worked-crushed-to-death/",
+   "published": "2026-09-30T06:25+00:00",
+   "published_jst": "2026-09-30 15:25",
+   "summary": "Court hands out £24,000 fine after worker drawn into compression conveyor",
+   "ai_related": false
+  },
+  {
+   "id": "edf631ba5c7a",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "BAM in frame as £25m Teesside flood job gets go-ahead",
+   "url": "https://www.constructionenquirer.com/2026/09/30/bam-in-frame-as-25m-teesside-flood-job-gets-go-ahead/",
+   "published": "2026-09-30T06:21+00:00",
+   "published_jst": "2026-09-30 15:21",
+   "summary": "Work to start in early 2027 on 1.5km embankment scheme at Greatham",
+   "ai_related": false
   },
   {
    "id": "e925a63e9198",
@@ -760,7 +788,7 @@
   },
   {
    "id": "370ab22b5639",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -773,7 +801,7 @@
   },
   {
    "id": "0ba51eb5f5f4",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -868,7 +896,7 @@
   },
   {
    "id": "079ceea2c17c",
-   "source": "매일경제",
+   "source": "mk.co.kr",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -881,7 +909,7 @@
   },
   {
    "id": "dcfb99da4d89",
-   "source": "kensetsunews.com",
+   "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -987,19 +1015,6 @@
    "published": "2026-09-29T22:00+00:00",
    "published_jst": "2026-09-30 07:00",
    "summary": "社内チャットの使い方の変化から、従業員の退職の兆候を捉えられるのか。SlackやTeamsの利用ログと勤怠データから、従業員の変化を捉えるAIサービスが登場した。アンケートの回答ではなく、日々の行動に着目する仕組みとは。",
-   "ai_related": true
-  },
-  {
-   "id": "e3d48f056d7a",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "アメリカ政府による大規模監視を暴いた機密資料「スノーデン文書」はどうなったのか？",
-   "url": "https://gigazine.net/news/20260930-snowden-archive-what-happened/",
-   "published": "2026-09-29T22:00+00:00",
-   "published_jst": "2026-09-30 07:00",
-   "summary": "2013年、アメリカ中央情報局(CIA)の元職員で、国家安全保障局(NSA)の契約職員だったエドワード・スノーデン氏が記者に託した機密文書(スノーデン文書)によって、政府による大規模な通信監視の実態が明らかになりました。告発から13年を経た2026年9月、デジタル監視に対抗するための調査やツール開発を行う団体「Libroot」が、報道機関に渡った膨大な文書の公開と保管の経緯を調べています。 続きを読む...",
    "ai_related": true
   },
   {
@@ -1181,7 +1196,7 @@
   },
   {
    "id": "9a1c10e52424",
-   "source": "kensetsunews.com",
+   "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1675,7 +1690,7 @@
    "url": "https://openai.com/index/introducing-dots/",
    "published": "2026-09-29T17:07+00:00",
    "published_jst": "2026-09-30 02:07",
-   "summary": "Article URL: https://openai.com/index/introducing-dots/ Comments URL: https://news.ycombinator.com/item?id=49896604 Points: 676 # Comments: 532",
+   "summary": "Article URL: https://openai.com/index/introducing-dots/ Comments URL: https://news.ycombinator.com/item?id=49896604 Points: 689 # Comments: 547",
    "ai_related": true,
    "title_ja": "Dots：常時稼働型エージェントの登場",
    "summary_ja": "OpenAIの新機能である常時稼働型AIエージェント「Dots」の紹介記事とコミュニティでの議論。"
@@ -1694,6 +1709,19 @@
    "ai_related": true,
    "title_ja": "チャットボットで行政の複雑さは解消できるか",
    "summary_ja": "アメリカの行政手続きを簡素化するAmerica.govだが、LLM特有のハルシネーションによる懸念も残る。"
+  },
+  {
+   "id": "afe6a29f2671",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Photo Scrubber — local face blur & metadata removal",
+   "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+   "published": "2026-09-29T16:45+00:00",
+   "published_jst": "2026-09-30 01:45",
+   "summary": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build this experimental tool that would identify faces and automatically blur them out. It",
+   "ai_related": true
   },
   {
    "id": "e1ddef0baef3",
@@ -1739,6 +1767,32 @@
    "ai_related": true,
    "title_ja": "OpenAI DevDay 2026 ライブブログ",
    "summary_ja": "サンフランシスコで開催されているOpenAI DevDayの会場から、基調講演やその他の情報をリアルタイムで伝える。"
+  },
+  {
+   "id": "68beb41e0f22",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Developers to get power to build own grid connections",
+   "url": "https://www.constructionenquirer.com/2026/09/29/developers-to-get-power-to-build-own-grid-connections/",
+   "published": "2026-09-29T15:30+00:00",
+   "published_jst": "2026-09-30 00:30",
+   "summary": "Great British Grid launch opens new market for contractors to tackle connection logjam",
+   "ai_related": false
+  },
+  {
+   "id": "c57adc8b37c6",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "AC1 signs deal to finish Torsion’s Manchester apartment job",
+   "url": "https://www.constructionenquirer.com/2026/09/29/ac1-signs-deal-to-finish-torsions-manchester-apartment-job/",
+   "published": "2026-09-29T15:25+00:00",
+   "published_jst": "2026-09-30 00:25",
+   "summary": "Replacement contractor targets December finish at £39m One Victoria scheme",
+   "ai_related": false
   },
   {
    "id": "8be5080985a2",
@@ -2005,51 +2059,6 @@
    "summary_ja": "AIが世界に混乱をもたらすのを防ぐため、米中間の条約締結を求める声が上がっている。"
   },
   {
-   "id": "f279497bbe91",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "‘Consult with industry’ before major project cancellation, Amey MD says",
-   "url": "https://www.constructionnews.co.uk/contractors/amey/consult-with-industry-before-major-project-cancellation-amey-md-says-29-09-2026/",
-   "published": "2026-09-29T11:45+00:00",
-   "published_jst": "2026-09-29 20:45",
-   "summary": "Government leaders should consult with industry before cancelling any major infrastructure projects, according to a director at Amey. Colin Wood, the contractor’s managing director for consulting, said any consultation would allow industry to consider alternatives to axing large civils programmes. W",
-   "ai_related": false,
-   "title_ja": "大型プロジェクト中止時は業界と協議を、Amey幹部が主張",
-   "summary_ja": "インフラ計画の中止にあたっては、政府指導者は事前に業界関係者と協議を行うべきだとAmeyの幹部が訴えた。"
-  },
-  {
-   "id": "c860b34995fc",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "£45m Hereford bypass scheme faces fresh tender over costs",
-   "url": "https://www.constructionnews.co.uk/civils/45m-hereford-bypass-scheme-faces-fresh-tender-over-costs-29-09-2026/",
-   "published": "2026-09-29T11:45+00:00",
-   "published_jst": "2026-09-29 20:45",
-   "summary": "A local authority has agreed to retender a £45m road project if corrective action with Graham does not produce a main construction contract within the £45.3m approved budget. Herefordshire Council's cabinet approved a proposal to conduct a fresh procurement process for delivery of the Western… The p",
-   "ai_related": false,
-   "title_ja": "4,500万ポンドのヘレフォードバイパス計画、コスト問題で再入札へ",
-   "summary_ja": "予算内での契約合意に至らず、地方自治体が道路建設プロジェクトの再入札を行うことで合意した。"
-  },
-  {
-   "id": "d0eeb7f8cf3e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "AC1 to complete £26m former Torsion Manchester job",
-   "url": "https://www.constructionnews.co.uk/buildings/ac1-to-complete-26m-former-torsion-manchester-job-29-09-2026/",
-   "published": "2026-09-29T11:45+00:00",
-   "published_jst": "2026-09-29 20:45",
-   "summary": "North London contractor AC1 has picked up a job to complete a £26m residential tower started by collapsed Torsion Construction. Developer Zentra Great Ducie Street (ZGDS) said it had appointed the Harrow-based firm to finish off One Victoria in Manchester. The 129-apartment scheme is expected… The p",
-   "ai_related": false,
-   "title_ja": "AC1、破綻したTorsionのマンチェスター案件を2,600万ポンドで引き継ぎ",
-   "summary_ja": "ロンドンの建設会社AC1が、経営破綻したTorsion Constructionのタワー建設プロジェクトを引き継ぐ。"
-  },
-  {
    "id": "f819ebc77174",
    "source": "AEC Magazine",
    "source_id": "aecmag",
@@ -2089,7 +2098,7 @@
    "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
    "published": "2026-09-29T11:06+00:00",
    "published_jst": "2026-09-29 20:06",
-   "summary": "Article URL: https://magazine.sebastianraschka.com/p/classifier-history-and-jev Comments URL: https://news.ycombinator.com/item?id=49891203 Points: 155 # Comments: 7",
+   "summary": "Article URL: https://magazine.sebastianraschka.com/p/classifier-history-and-jev Comments URL: https://news.ycombinator.com/item?id=49891203 Points: 161 # Comments: 7",
    "ai_related": true
   },
   {
@@ -2273,7 +2282,7 @@
   },
   {
    "id": "a4bcd530aaab",
-   "source": "Vietnam.vn",
+   "source": "vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2328,21 +2337,6 @@
    "summary_ja": "燃料費が42%高騰する中、プラントリース企業は経営危機に陥る恐れがあると警告している。"
   },
   {
-   "id": "164872bdd853",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Billington boss to retire after 42-year steel career",
-   "url": "https://www.constructionenquirer.com/2026/09/29/billington-boss-to-retire-after-42-year-steel-career/",
-   "published": "2026-09-29T07:04+00:00",
-   "published_jst": "2026-09-29 16:04",
-   "summary": "Mark Smith to hand over to Trevor Taylor with record workload stretching into 2028",
-   "ai_related": false,
-   "title_ja": "Billingtonのトップ、42年の鉄鋼キャリアを経て引退へ",
-   "summary_ja": "マーク・スミスはトレヴァー・テイラーに引き継ぎ、2028年まで豊富な案件が控えている。"
-  },
-  {
    "id": "c3f0b3897be5",
    "source": "日経クロステック（xTECH）",
    "source_id": "gnews_kensetsu_ai",
@@ -2380,21 +2374,6 @@
    "published_jst": "2026-09-29 15:42",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "fb379e8986ad",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Drink driving builder jailed for killing highways worker",
-   "url": "https://www.constructionenquirer.com/2026/09/29/drink-driving-builder-jailed-for-killing-highways-worker/",
-   "published": "2026-09-29T06:41+00:00",
-   "published_jst": "2026-09-29 15:41",
-   "summary": "Ten-year sentence after driving into coned-off section of motorway",
-   "ai_related": false,
-   "title_ja": "飲酒運転で道路作業員を死亡させた建設作業員に実刑判決",
-   "summary_ja": "高速道路の工事規制区域に突っ込み作業員を死亡させた事故で、10年の禁錮刑が言い渡された。"
   },
   {
    "id": "c27281ec861f",
@@ -2478,7 +2457,7 @@
   },
   {
    "id": "db3ea82c2b43",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2748,7 +2727,7 @@
   },
   {
    "id": "a1d14a7a098f",
-   "source": "kensetsunews.com",
+   "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -2758,6 +2737,19 @@
    "published_jst": "2026-09-29 06:35",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "8e56a3fc065a",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ロジスタ京都伏見、淺沼組で完成／ロジスタ北伊丹、大和ハウス工業で完成",
+   "url": "https://www.decn.co.jp/?p=187932",
+   "published": "2026-09-28T21:20+00:00",
+   "published_jst": "2026-09-29 06:20",
+   "summary": "阪急阪神不動産（大阪市北区、福井康樹社長）が関西エリアに開発した二つの物流施設「ロジスタ京都伏見」（京都市伏見区）と「ロジスタ北伊丹」（兵庫県川西市）が完成した。高速道路へのアクセスに優れた立地環境などを生かした広域配 […]",
+   "ai_related": false
   }
  ]
 }
