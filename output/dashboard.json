@@ -1,45 +1,39 @@
 {
   "version": 6,
-  "slot": "night",
-  "date": "2026-09-30",
-  "post_date": "2026-09-30",
-  "generated_at": "2026-09-30T21:00+09:00",
-  "generated_by": "routine:x-post-night",
+  "slot": "morning",
+  "date": "2026-10-01",
+  "post_date": "2026-10-01",
+  "generated_at": "2026-10-01T06:34+09:00",
+  "generated_by": "routine:x-post-morning",
   "original_post": {
-    "time": "21:00",
-    "text": "HPが10月に出荷する新型ワークステーション「ZBook Ultra G3a」は、AMDの新チップRyzen AI Max+ PRO 495を積み、192GBの統合メモリのうち160GBをGPU用に割り当てられます。AEC Magazineの取材では、Revitや3Dビジュアライゼーションを動かしながら、クラウドを使わず手元だけで最大3000億パラメータ級のAIモデルを動かせると紹介されていました。図面や現場データを社外に出したくない建設会社にとって、社内完結のAI活用を試せる選択肢が一つ増えたという話です。価格は7449ドルから。",
+    "time": "07:25",
+    "text": "Googleが新しいAIモデル「Gemini 4 Argon」を発表しました。出力できるトークン数の上限を64Kから1Mへ大幅に広げ、ソフトウェア開発・知識労働・サイバー防御といった複雑な作業で、自社ベンチマーク上最高水準の性能を主張しています（開発力を測るDeepSWE v1.1で77.9%、Opus 5.5・GPT-6 Astraの74%台を上回る値とのこと）。ただし現時点で使えるのは、同社のサイバー防御者向けプログラム「Fairwind」に参加する初期グループだけです。開発者・企業・一般ユーザー向けの提供は『できるだけ早く』としか案内されておらず、まだ先の話になります。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
-    "article_url": "https://aecmag.com/workstations/ai-and-the-bim-workstation-what-if-the-llm-lives-on-your-laptop/",
+    "article_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
     "video_url": null,
-    "reply_text": "■ 出典\n・AEC Magazine「AI and the BIM workstation: what if the LLM lives on your laptop?」(2026-09-29、Autodesk University 2026でのAMD David McAfee氏取材): https://aecmag.com/workstations/ai-and-the-bim-workstation-what-if-the-llm-lives-on-your-laptop/\n・HP公式製品ページ: https://www.hp.com/us-en/workstations/mobile-workstation-pc/zbook-ultra-g3.html\n・仕様・価格の独立確認: StorageReview, TechRadar, HotHardware, TechPowerUp各紙",
+    "reply_text": "■ 出典\n・Google DeepMind公式ブログ: https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\n・Google公式X(発表): https://x.com/Google/status/2105388146665890056\n・Google公式X(詳細): https://x.com/Google/status/2105388143902175529\n・Google公式X(Fairwind提供条件): https://x.com/Google/status/2105388148729553195\n・Sundar Pichai氏: https://x.com/sundarpichai/status/2105387952478277979\n・Logan Kilpatrick氏(価格情報): https://x.com/OfficialLoganK/status/2105388054274080946\n・9to5Google: https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
     "editorial": {
-      "pillar": "建設AI",
+      "pillar": "一般AI",
       "format": "速報",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
         "見せられる証拠": 2,
-        "自分の追加価値": 2,
+        "自分の追加価値": 1,
         "伝わりやすさ": 2
       },
-      "selection_reason": "夜枠の候補を6件比較した。(1)AEC Magazine『AI and the BIM workstation: what if the LLM lives on your laptop?』(2026-09-29公開、construction_global・ai_related=true)を本採用。Autodesk University 2026でAMDのDavid McAfee氏に取材した記事で、HPの新型ワークステーション『ZBook Ultra G3a』(AMD Ryzen AI Max+ PRO 495、192GB統合メモリ・うち160GBをGPUに割当可能、最大3000億パラメータ級のAIモデルをローカル実行)がRevit等のBIMソフトと同時稼働できる点を扱っている。aecmag.com本文はネットワーク遮断で直接WebFetchできなかったため、WebSearchでStorageReview/TechRadar/HotHardware/TechPowerUp/videocardz等の独立したハードウェア専門メディア複数を突き合わせ、192GB/160GB・価格7449ドル(512GBモデル)・10月出荷という数字を相互確認した。クラウドに図面や現場データを出したくない建設会社という具体的な読者価値と、日本での検討材料(社内完結のAI運用)を追加できる点を評価し、7点以上(実質満点)で採用。(2)AEC Magazine『Rayon raises €10m for 3D and agentic AI』はパリの室内設計向けブラウザCADのSeries A(Partech主導、既存投資家Northzone等)で、資金調達自体は複数メディア(dealroom/tech.eu/eu-startups/Partech公式)で強く裏取りできたが、対象が室内設計SaaSで建設・BIM実務への接続が弱く、自分の追加価値・読者価値が伸びないため見送り(推定7点未満)。(3)ai_buzz.jsonのTestingCatalog『Drafted社のAI間取り図生成ツールがAutodesk Revitのプラグインとして利用可能に』(9/30 05:31、海外)は、今日の夕枠dashboardで既に交流候補(engage_cards)として検討済みで『公式一次情報に到達できず証拠が弱い』と評価されており、本枠でも同じ理由(drafted.aiが遮断されWebSearchでも公式発表日を特定できず)で本文採用は見送り、重複を避けた。(4)PBC Today『AI data centres are going up fast – but can they deliver?』はAIデータセンター建設ブームに関する記事だが、サイトが遮断され本文を確認できず、WebSearchでも独立した一次情報での裏取りが本セッションの時間内にできなかったため見送り。(5)ConstructConnect Blog『The 5 Best AI Prompts for Reviewing Construction Specs and Bid Docs』は具体的な新規性・証拠に乏しいノウハウ系ブログ記事で見送り(推定4点)。(6)AEC Magazine『Accenture forms Accenture Construct』は建設向けAI導入支援を掲げる新事業で、昨夜(2026-09-29 21:00枠)と同じ理由により競合紹介除外ルール(建設業向けAI開発・導入支援サービス)に抵触する疑いがあり判断できないため候補から除外。本日の朝枠(GPT-6.1 Sol)・昼枠(大成建設C2QUESTのBIMメタバース)・夕枠(CRAFTCOM代表のClaude Fable構造図→IFC変換の引用)とは題材・出典とも重複しない。競合サービス(建設向けAI開発・導入支援・BPO・営業代行)の紹介には該当しない。",
-      "source_url": "https://aecmag.com/workstations/ai-and-the-bim-workstation-what-if-the-llm-lives-on-your-laptop/",
-      "published_at": "AEC Magazine記事公開: 2026-09-29。HP ZBook Ultra G3a発表: 2026年9月中旬(複数ハードウェア専門メディアの報道日ベース)。10月出荷予定。",
-      "checked_at": "2026-09-30T21:00+09:00",
-      "availability": "aecmag.com本文はネットワーク遮断で本セッションから直接WebFetchできず、WebSearchの検索結果要約(AMDのDavid McAfee氏取材、Autodesk University 2026、Revit/MCP Serverでのローカルワークフロー言及)に基づく。192GB統合メモリ・160GBのGPU割当・最大3000億パラメータ級モデル対応・価格7449ドル(512GBモデル)・10月出荷は、StorageReview/TechRadar/HotHardware/TechPowerUp/videocardz/jonpeddieなど独立したハードウェア専門メディア複数で一致しており、AMD Ryzen AI Max+ PRO 495・HP ZBook Ultra G3aという製品・型番自体の実在は確度が高い。",
-      "unverified": "AEC Magazine記事本文の正確な文言・見出しの取り方、David McAfee氏の肩書きの正確な表記、RevitでのMCP Server連携の具体的な設定手順は一次記事に本セッションから到達できず未確認。実機でのRevit同時稼働時の性能(記事が論じている『AIモデルと競合した際の速度低下』の具体的な数値)も本セッションからは未確認。",
-      "hook_alternative": "案A(採用): ハードウェアの具体スペック(192GB/160GB/価格)を先に置き、その意味(クラウド不要でBIMと同時にAIを動かせる)を続け、最後に建設会社にとっての意味(データを外に出さない選択肢)を置く型。案B: 『建設会社がAIをクラウドに預けなくてよくなるかもしれない』という含意を冒頭に置く案も検討したが、断定的すぎて誇張になりかねないため、具体的なスペックを先に示す案Aを採用した。"
+      "selection_reason": "朝枠の候補を6件比較した。(1)Google「Gemini 4 Argon」発表(本採用)。news_feed.jsonのai_global(Google DeepMind Blog、2026-10-01 05:01 JST=発見時点でほぼ即時)を起点に、deepmind.google本文はネットワーク遮断でWebFetch不可だったためWebSearchでGoogle公式X(@Google/@sundarpichai/@OfficialLoganK)の複数投稿と9to5google/thenextwebの報道を突き合わせ、出力上限64K→1M・DeepSWE v1.1 77.9%(Opus 5.5比74.2%・GPT-6 Astra比74.1%)・Fairwind Program経由のサイバー防御者限定ロールアウトという提供条件を相互確認した。『発表済みだが一般提供はまだ先』という区別が明確で、ai_buzz.jsonの@rynorhn投稿(未確認の噂として『Gemini 4 ProがAstra/Opus 5.5を圧倒』と拡散、いいね3,000超)より正確な一次情報を出せる点を評価した。(2)OpenAI×Synopsysのチップ設計AI提携(The Decoder)は一次ページ未確認・二次メディアのみで証拠が弱く、読者層にも専門的すぎるため見送り(推定5点)。(3)Google「Gems→Skills」のエージェント向けプロンプト形式移行(The Decoder)は開発者向け機能変更で一次未確認、一般読者への価値提示が弱いため見送り(推定5点)。(4)GPT-6 Astraの高速化『Ultrafast』モード(8倍速)とPro 500プラン(月8.4万円、GIGAZINE経由)は数字は分かりやすいが一次情報(OpenAI公式)に未到達で証拠が弱く、ボーダーライン(推定6点)のため見送り。(5)FTCによるOpenAI・Anthropic等への消費者保護調査(The Decoder)は規制動向として関心はあるが『何ができるか』という価値提示に乏しく見送り(推定5点)。(6)意思決定モデル『d1』がJev超えとするベンチマーク主張(GIGAZINE経由)は一次未確認・モデルの位置づけも分かりにくく見送り(推定5点)。競合サービス(建設向けAI開発・導入支援・BPO・営業代行)の紹介には該当しない。直近14日のキュー・dashboardと重複なし(9/24朝枠のGemini 3.8 Flash TTS、9/25朝枠のPixel×Gemini通話は別トピック)。",
+      "source_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "published_at": "2026-09-30(米国太平洋時間、Google公式X/DeepMindブログで発表)。日本時間では2026-10-01未明にかけて拡散・報道。",
+      "checked_at": "2026-10-01T06:34+09:00",
+      "availability": "一般提供前。現時点でGemini 4 ArgonはGoogleのFairwind Program経由でサイバー防御担当者の初期グループのみに展開中。開発者・企業・一般ユーザー向けは『できるだけ早く(as soon as possible)』としか案内されておらず提供開始日は未定。Logan Kilpatrick氏(Google)のポストでは導入価格として入力$2・出力$10(100万トークンあたり)を先出ししているが、これは将来のAPI提供時の価格観測であり確定した一般提供条件ではない。対応地域・言語の明記は確認できず。",
+      "unverified": "deepmind.google本文への直接WebFetchがネットワーク遮断(EGRESS_BLOCKED)で失敗したため、本文はWebSearchが返したGoogle公式X投稿の引用・9to5google/thenextwebの報道要約に基づく間接確認にとどまる。DeepSWE v1.1やCWE-benchの数値はGoogle自社公表のベンチマークであり、第三者による独立検証は確認できていない(本文では『自社ベンチマーク上』『主張』と明示し断定を避けた)。一般提供の具体的な時期、日本からの利用可否、価格が一般提供時にも維持されるかは未確認。",
+      "hook_alternative": "案A(採用): 製品名→新しくできること(出力上限1M・分野別の性能)→対象ユーザー(Fairwind限定)の順で、速報の型どおりに事実を積み上げる構成。案B: ai_buzz.jsonで拡散していた『GeminiがAstra/Opus 5.5を圧倒』という未確認の噂を先に置き、公式発表でその実態(ただし限定提供)を明かす対比構成も検討したが、噂自体の出典が下品な言い回しを含む個人アカウントで本アカウントの引用には適さず、冒頭で未確認情報を扱うと誤解を招きかねないため見送り、案Aを採用。"
     }
   },
-  "engage_cards": [
-    {
-      "type": "article",
-      "url": "https://aecmag.com/cad/rayon-raises-e10m-for-3d-and-agentic-ai/",
-      "note": "AEC Magazine「Rayon raises €10m for 3D and agentic AI」。パリの室内設計向けブラウザCAD Rayonが Partech主導でSeries A(€10M)調達、年末までにAI+3D協調編集のV4をリリース予定。建設・BIM実務への接続は弱く本文候補としては見送ったが、agentic AI×CADの動向として交流候補に提示。"
-    }
-  ],
-  "engage_cards_note": "ai_buzz.json/news_feed.jsonのconstruction_global・海外AIタグを確認。TestingCatalogのDrafted社Revitプラグインは夕枠と同一候補のため重複を避けて今回は engage_cards に含めなかった。PBC Todayのデータセンター建設記事はサイト遮断で一次情報の裏取りが本セッション内で完了せず、交流候補としても保留した。",
+  "engage_cards": [],
+  "engage_cards_note": "ai_buzz.jsonの直近投稿はOpenAI DevDay関連(dots/GPT-6.1 Sol、既に9/30朝枠で本文採用済み)や落合陽一氏らの私的投稿が中心で、Gemini 4 Argonに直接関係し引用/リプに足る公式・実務家投稿は見つからなかった。@rynorhn氏の『Gemini 4 ProがAstra/Opus 5.5を圧倒』という投稿(いいね3,000超)は話題性はあるが未確認の噂かつ下品な言い回しを含み、本採用の本文で正確な一次情報として上書きしたため交流候補にも採用しなかった。slack_buzz.jsonにも本トピックに関連する建設×AI投稿は見当たらず。競合サービス(建設向けAI開発・導入支援・BPO・営業代行)に該当する投稿はいずれのソースにも見当たらなかった。",
   "skip_reason": null
 }
