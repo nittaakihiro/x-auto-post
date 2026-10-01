@@ -1,39 +1,39 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-10-01",
   "post_date": "2026-10-01",
-  "generated_at": "2026-10-01T06:34+09:00",
-  "generated_by": "routine:x-post-morning",
+  "generated_at": "2026-10-01T11:45+09:00",
+  "generated_by": "routine:x-post-noon",
   "original_post": {
-    "time": "07:25",
-    "text": "Googleが新しいAIモデル「Gemini 4 Argon」を発表しました。出力できるトークン数の上限を64Kから1Mへ大幅に広げ、ソフトウェア開発・知識労働・サイバー防御といった複雑な作業で、自社ベンチマーク上最高水準の性能を主張しています（開発力を測るDeepSWE v1.1で77.9%、Opus 5.5・GPT-6 Astraの74%台を上回る値とのこと）。ただし現時点で使えるのは、同社のサイバー防御者向けプログラム「Fairwind」に参加する初期グループだけです。開発者・企業・一般ユーザー向けの提供は『できるだけ早く』としか案内されておらず、まだ先の話になります。",
+    "time": "12:00",
+    "text": "宮崎県都城市のゼネコン、丸宮建設は社内にプログラマーがいません。それでも現場監督や管理部の社員がAIエージェントと対話しながら工程表や工事検査用のアプリを自分たちで作り、今では社内で動く業務システムが20本を超えているそうです。\n\nきっかけは副社長の河野一歩さんが2年半前、会議の議事録をクラウドで共有することから着手したこと。当時は社内連絡が電話と口頭、申請は紙とハンコが中心だったといいます。そこから業務基盤をクラウド化し、休日拡大や評価制度の見直し、現場の書類業務を本社に集約する体制づくりも並行して進めてきました。\n\n専任のエンジニアがいない地場ゼネコンでも、現場の人がAIエージェントと対話しながら必要なアプリを増やしていける、という一つのモデルケースだと思います。",
     "status": "draft",
     "type": "original",
     "quote_tweet_id": null,
-    "article_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+    "article_url": "https://built.itmedia.co.jp/bt/articles/2609/28/news091.html",
     "video_url": null,
-    "reply_text": "■ 出典\n・Google DeepMind公式ブログ: https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\n・Google公式X(発表): https://x.com/Google/status/2105388146665890056\n・Google公式X(詳細): https://x.com/Google/status/2105388143902175529\n・Google公式X(Fairwind提供条件): https://x.com/Google/status/2105388148729553195\n・Sundar Pichai氏: https://x.com/sundarpichai/status/2105387952478277979\n・Logan Kilpatrick氏(価格情報): https://x.com/OfficialLoganK/status/2105388054274080946\n・9to5Google: https://9to5google.com/2026/09/30/gemini-4-argon-announcement/",
+    "reply_text": "■ 出典\nITmedia BUILT「『紙とハンコ』文化から2年半でAIエージェント駆動へ 宮崎の地場ゼネコン、改革の軌跡」\nhttps://built.itmedia.co.jp/bt/articles/2609/28/news091.html\n（built.itmedia.co.jpは本セッションのegressブロックで直接確認できず、WebSearch経由の要約で内容を確認。丸宮建設の元社員によるnote記事 https://note.com/marumiyanote/n/nf805612f86a5 でも同社の組織改革（元電通・Google出身者が入社）に触れており、会社の実在と改革の方向性は複数ソースで一致。ただしAIエージェントの具体的な利用ツール名・20本の内訳・数値の算出根拠はitmedia記事1本のみに依拠しており、原文を直接開いて確認できていない）",
     "editorial": {
-      "pillar": "一般AI",
-      "format": "速報",
+      "pillar": "建設AI",
+      "format": "事例",
       "scores": {
         "新規性": 2,
         "読者への価値": 2,
-        "見せられる証拠": 2,
-        "自分の追加価値": 1,
+        "見せられる証拠": 1,
+        "自分の追加価値": 2,
         "伝わりやすさ": 2
       },
-      "selection_reason": "朝枠の候補を6件比較した。(1)Google「Gemini 4 Argon」発表(本採用)。news_feed.jsonのai_global(Google DeepMind Blog、2026-10-01 05:01 JST=発見時点でほぼ即時)を起点に、deepmind.google本文はネットワーク遮断でWebFetch不可だったためWebSearchでGoogle公式X(@Google/@sundarpichai/@OfficialLoganK)の複数投稿と9to5google/thenextwebの報道を突き合わせ、出力上限64K→1M・DeepSWE v1.1 77.9%(Opus 5.5比74.2%・GPT-6 Astra比74.1%)・Fairwind Program経由のサイバー防御者限定ロールアウトという提供条件を相互確認した。『発表済みだが一般提供はまだ先』という区別が明確で、ai_buzz.jsonの@rynorhn投稿(未確認の噂として『Gemini 4 ProがAstra/Opus 5.5を圧倒』と拡散、いいね3,000超)より正確な一次情報を出せる点を評価した。(2)OpenAI×Synopsysのチップ設計AI提携(The Decoder)は一次ページ未確認・二次メディアのみで証拠が弱く、読者層にも専門的すぎるため見送り(推定5点)。(3)Google「Gems→Skills」のエージェント向けプロンプト形式移行(The Decoder)は開発者向け機能変更で一次未確認、一般読者への価値提示が弱いため見送り(推定5点)。(4)GPT-6 Astraの高速化『Ultrafast』モード(8倍速)とPro 500プラン(月8.4万円、GIGAZINE経由)は数字は分かりやすいが一次情報(OpenAI公式)に未到達で証拠が弱く、ボーダーライン(推定6点)のため見送り。(5)FTCによるOpenAI・Anthropic等への消費者保護調査(The Decoder)は規制動向として関心はあるが『何ができるか』という価値提示に乏しく見送り(推定5点)。(6)意思決定モデル『d1』がJev超えとするベンチマーク主張(GIGAZINE経由)は一次未確認・モデルの位置づけも分かりにくく見送り(推定5点)。競合サービス(建設向けAI開発・導入支援・BPO・営業代行)の紹介には該当しない。直近14日のキュー・dashboardと重複なし(9/24朝枠のGemini 3.8 Flash TTS、9/25朝枠のPixel×Gemini通話は別トピック)。",
-      "source_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "published_at": "2026-09-30(米国太平洋時間、Google公式X/DeepMindブログで発表)。日本時間では2026-10-01未明にかけて拡散・報道。",
-      "checked_at": "2026-10-01T06:34+09:00",
-      "availability": "一般提供前。現時点でGemini 4 ArgonはGoogleのFairwind Program経由でサイバー防御担当者の初期グループのみに展開中。開発者・企業・一般ユーザー向けは『できるだけ早く(as soon as possible)』としか案内されておらず提供開始日は未定。Logan Kilpatrick氏(Google)のポストでは導入価格として入力$2・出力$10(100万トークンあたり)を先出ししているが、これは将来のAPI提供時の価格観測であり確定した一般提供条件ではない。対応地域・言語の明記は確認できず。",
-      "unverified": "deepmind.google本文への直接WebFetchがネットワーク遮断(EGRESS_BLOCKED)で失敗したため、本文はWebSearchが返したGoogle公式X投稿の引用・9to5google/thenextwebの報道要約に基づく間接確認にとどまる。DeepSWE v1.1やCWE-benchの数値はGoogle自社公表のベンチマークであり、第三者による独立検証は確認できていない(本文では『自社ベンチマーク上』『主張』と明示し断定を避けた)。一般提供の具体的な時期、日本からの利用可否、価格が一般提供時にも維持されるかは未確認。",
-      "hook_alternative": "案A(採用): 製品名→新しくできること(出力上限1M・分野別の性能)→対象ユーザー(Fairwind限定)の順で、速報の型どおりに事実を積み上げる構成。案B: ai_buzz.jsonで拡散していた『GeminiがAstra/Opus 5.5を圧倒』という未確認の噂を先に置き、公式発表でその実態(ただし限定提供)を明かす対比構成も検討したが、噂自体の出典が下品な言い回しを含む個人アカウントで本アカウントの引用には適さず、冒頭で未確認情報を扱うと誤解を招きかねないため見送り、案Aを採用。"
+      "selection_reason": "ネタ源の順に従い、まずnews_feed.jsonのconstruction_global（ai_related=true・48h以内・title_ja付き）9件を確認。①『AIはデータ問題を解決せず、むしろ露呈させた』(constructiondive)は匿名の『ある土木・海洋請負会社のデータディレクター』による所感記事で、社名・固有の事実がなく証拠薄弱のため5点で除外。②『AIの活用が最も期待される建設分野の6領域』(globalconstructionreview)はSuffolk ConstructionとMITの白書『Construction in the Age of AI』の紹介記事だが、post_queue.jsonを確認したところ同じ白書を2026-09-17の昼枠で既に詳しく投稿済み(article_url: businesswire.com)で再掲になるため除外。③『Vectorworksが6部門にノミネート』は賞レースの告知で実質ベンダー宣伝のため4点、④ConstructConnectブログの『AIプロンプト5選』は自社ブログの一般的なプロンプト集でベンダーコンテンツマーケティングの色が強く、実行した証拠もないため5点、⑤AEC Magazine『BIMワークステームにLLMが載ったら』はハードウェアの可能性を論じる思考実験記事で実際の導入事例ではないため5点、⑥Rayonの10億円調達は3D CAD+エージェントAIスタートアップの資金調達告知で活用事例ではなく製品宣伝に近いため4点、でいずれも7点未満。ai_buzz.jsonの[建設×AI海外]・[Global-建設]勢もGrenfell火災の警察資料引き渡し、NY鉄道橋の架け替え(Procoretechへの言及あり、AI活用事例ではない)、巨大望遠鏡建設、Gateway Programの着工、連邦補助金の消失など、いずれもAI活用事例に該当せず対象外。海外側に7点以上の新規候補が無かったため、方針(海外が無い日は国内)に従いnews_feed.jsonのconstruction_japan（ai_related=true）20件を確認。⑦採用: 宮崎県都城市の地場ゼネコン・丸宮建設が、社内にプログラマーがいない中で現場監督・管理部の社員がAIエージェントと対話しながら工程表や検査アプリを内製し、運用システムが20本超に達した事例(ITmedia BUILT)。2年半前は電話・紙とハンコ中心だったという具体的な変化の起点、副社長・河野一歩氏という実名、クラウド化と並行した休日拡大・評価制度見直し・書類業務の本社集約という組織改革の広がりがあり、建設会社自身の業務改善という戦略の優先条件に合致(9点相当とするが、built.itmedia.co.jpが直接確認できず複数独立ソースでの相互検証が1件のnote記事に留まるため見せられる証拠を1点とし合計9点)。⑧比較落選: 同じconstruction_japanの『AIで紙図面を一瞬でCAD化』(日本HPのプリンタ新機能)は提供元ベンダー自身の新機能発表で宣伝色が強く6点、『Tektome、建設業界を変革するエージェント知能基盤』は建設向けAI導入支援ツールの新製品発表で競合性(ツクノビ事業との重複)を判断できず戦略の『判断できなければ候補にしない』に従い候補から除外、『WellAgentのFDE型DX支援』も同様に建設向けAI導入支援サービスの告知で競合性未判定のため除外、国交省の供給力強化事業は人手不足対策で具体的なAI活用事例ではなく5点。本日朝枠(Gemini 4 Argon)、直近の海外事例枠(9/17 Suffolk、9/18 HP SitePrint、9/19 Planted、9/20 Vectorworks、9/22 GS建設、9/26 Burns & McDonnell×Gritt、9/28 Bedrock Robotics)、直近の事例枠(9/24 西松建設の重機自動運転研修)とも企業・題材が重複しない。直近3枠の形式は比較(9/27)→海外事例(9/28)→比較(9/29)→比較(9/30)のため、本枠を事例とすることで同一形式の連続も回避できる。競合サービス(光/Hikari・ミャク楽・Motif)に該当する候補は比較対象に含まれていない。",
+      "source_url": "https://built.itmedia.co.jp/bt/articles/2609/28/news091.html",
+      "published_at": "2026-09-28(ITmedia BUILT掲載日。丸宮建設の改革自体は約2年半前に開始と記事内で言及)",
+      "checked_at": "2026-10-01T11:40+09:00",
+      "availability": "宮崎県都城市の丸宮建設が自社の業務として既に20本超の社内システムを運用中(提供中のサービスではなく自社利用)。日本国内の一事例であり、海外展開や外部提供の情報はない。",
+      "unverified": "built.itmedia.co.jpは本セッションのnetwork egress proxyでWebFetch不可(EGRESS_BLOCKED)のため、WebSearchのスニペット経由で内容を確認した。丸宮建設の元社員によるnote記事(組織改革・人材面)は独立した周辺情報として会社の実在と改革の方向性を補強するが、AIエージェントの具体的な利用ツール名、業務システム20本の内訳、河野氏の『2年半前』という起点の正確な時期はitmedia記事1本への依拠に留まる。data/analytics/live_metrics.jsonはfetched_at 2026-09-27T23:14 UTCで3日以上前のデータだが、同ファイル内に『丸宮』『都城』『河野一歩』『紙とハンコ』のキーワード一致は無く、直近の実投稿との重複は無いと判断した(完全な実投稿未確認ではないが、取得後の日数差は明記する)。",
+      "hook_alternative": "案A(採用): 『社内にプログラマーがいない』という制約を先に出し、それでも20本超のシステムを内製している具体的な変化を見せてから経緯を語る事例の型。案B: 『2年半前は紙とハンコだった』という変化前の状態を先に出すBefore/After型も検討したが、建設AI枠で繰り返し使われがちな『昔は大変だった』の定型に寄りやすいため、A案の『プログラマー不在でもここまでできる』という具体的な驚きを先に出す構成を採用した。"
     }
   },
   "engage_cards": [],
-  "engage_cards_note": "ai_buzz.jsonの直近投稿はOpenAI DevDay関連(dots/GPT-6.1 Sol、既に9/30朝枠で本文採用済み)や落合陽一氏らの私的投稿が中心で、Gemini 4 Argonに直接関係し引用/リプに足る公式・実務家投稿は見つからなかった。@rynorhn氏の『Gemini 4 ProがAstra/Opus 5.5を圧倒』という投稿(いいね3,000超)は話題性はあるが未確認の噂かつ下品な言い回しを含み、本採用の本文で正確な一次情報として上書きしたため交流候補にも採用しなかった。slack_buzz.jsonにも本トピックに関連する建設×AI投稿は見当たらず。競合サービス(建設向けAI開発・導入支援・BPO・営業代行)に該当する投稿はいずれのソースにも見当たらなかった。",
+  "engage_cards_note": "ai_buzz.jsonの[建設×AI海外]・[Global-建設]勢(The B1M、ENRnews等)はGrenfell火災の資料引き渡し、NY鉄道橋の架け替え、巨大望遠鏡建設、Gateway Programの着工、連邦補助金の消失など、AI活用との関連が薄い一般建設ニュースが中心で、引用/リプに足る候補は見つからなかった。slack_buzz.jsonにも本トピック(丸宮建設・建設AIの内製化)に直接関連する投稿は見当たらず。競合サービス(光/Hikari・ミャク楽・Motif等)に該当する投稿はいずれのソースにも見当たらなかった。",
   "skip_reason": null
 }
