@@ -1,12 +1,12 @@
-# ルーティン仕様 v7（morning/noon/evening/night）
-戦略の正本 docs/x-strategist.md（v7・2026-10-01）を必ず全文読む。型・口調・配分は v7 が最優先。dashboard と editorial のスキーマは v6 のまま（version=6・validate_editorial.py も変更なし）。
+# ルーティン仕様 v6（morning/noon/evening/night）
+戦略の正本 docs/x-strategist.md を必ず読む。旧プロンプトの固定型・画像必須・数字ノルマよりv6を優先。
 既存4枠のスケジュール・認証・Slack宛先は保持。Xは手動公開、status='draft'。
 
 1. 最新mainを取得。news_feed、ai_buzz、slack_buzz、直近14日のキュー、最新dashboardを読む。前枠だけでなく実投稿の重複も確認。取得できなければ実投稿未確認と記す。
-2. 朝＝一般AIの大ネタ速報（小ネタしかなければ休載）、昼＝海外の建設AIのすげーニュース1本目、夕＝建設AI/AIの動画付き投稿への引用、夜＝海外の建設AIのすげーニュース2本目（昼と別ネタ。無ければ海外AIの驚くデモ動画。48h以内に候補ゼロの日だけ休載）。解説記事・調査・市場予測は採用しない。国内外を検索し候補5件を比較。競合サービスの紹介は戦略の除外ルールに従い、本文・補足・引用・リプ・RT候補から外す。
-3. 戦略の5観点（驚き・絵・鮮度・建設との距離・確かさ）各0〜2点で評価。一次本文を開いて利用条件と日付を確認。採用ネタに編集上の理由を一文でつける。スコアは主観的な編集基準でありバズ予測ではない。
-4. 戦略の型（速報型／作ってみた型／引用型）をチャエンの見本どおりに使う。速報型は【速報】等の見出し→本音1〜2行→数字入りの箇条3〜4つ→「↓詳細」、自己リプに■ 補足と■ 出典。口調はです・ますとタメ口の混在。冒頭を2案作り、驚きが一瞬で伝わる方を採用。
-5. 完成文＋出典＋素材URLを作り、セルフレビュー。原文と数字・提供条件の一致、未確認体験の不在（ルーティンは作ってみたを書かない）、重複をチェック。速報タグは鮮度がある時だけ。
+2. 朝＝一般AI、昼＝建設AI/実演、夕＝AI/建設の引用、夜＝海外AI/建設テックのニュースか投稿の日本語化を毎日1本（48h以内に海外候補ゼロの日だけ休載）。国内外を検索し候補5件を比較。競合サービスの紹介は戦略の除外ルールに従い、本文・補足・引用・リプ・RT候補から外す。
+3. 戦略の5観点各0〜2点で評価。一次本文を開いて利用条件と日付を確認。採用ネタに編集上の理由を一文でつける。スコアは主観的な編集基準でありバズ予測ではない。
+4. 速報・実演・比較・海外事例・引用から形式を選ぶ。冒頭を2案作り、具体性が高く誇張のない方を採用。段落数、感想、箇条書き、建設への接続を機械的に強制しない。
+5. 完成文＋出典＋素材URLを作り、セルフレビュー。原文と数字・提供条件の一致、未確認体験の不在、重複、同じ型の連続をチェック。速報タグは鮮度がある時だけ。
 6. post_queue.add_postで今回枠を追加。時刻は07:25/12:00/20:00/21:00。status='draft'必須。引用ならpost_type='quote_rt', quote_tweet_id。画像なしはimage_type='none'。video_urlがあれば画像不要。reply_textは追加説明/出典が必要な時だけ。
 7. 追加したentryにeditorial={pillar, format, scores, selection_reason, source_url, published_at, checked_at, availability, unverified, hook_alternative}を追加し、save_queueでキューを保存。既存フィールドは壊さない。
 8. dashboardはversion=6, slot（morning/noon/evening/night）を必ず設定し、既存互換のdate/post_date/generated_at/original_post/engage_cardsを維持。過去のnoon_post/evening_post/night_postやrepost_*は持ち越さない。original_postは今回分だけ、time/text/status/article_url/video_url/reply_text/editorialを入れる。推奨引用・リプは0〜2件、既存カード形式を使う。追加のRT候補は任意。
