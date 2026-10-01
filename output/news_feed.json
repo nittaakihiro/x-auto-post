@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-10-01T08:54+00:00",
- "generated_at_jst": "2026-10-01 17:54",
+ "generated_at": "2026-10-01T09:26+00:00",
+ "generated_at_jst": "2026-10-01 18:26",
  "window_hours": 48,
  "counts": {
   "construction_japan": 64,
   "ai_japan": 38,
-  "construction_global": 35,
-  "ai_global": 63
+  "construction_global": 36,
+  "ai_global": 62
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "hn_top",
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
   }
  ],
  "items": [
@@ -58,7 +62,7 @@
   },
   {
    "id": "82224386adf5",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -68,21 +72,6 @@
    "published_jst": "2026-10-01 16:17",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "ef285933deb5",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Graham lands final Gateway 2 approvals at £530m Fallowfield",
-   "url": "https://www.constructionenquirer.com/2026/10/01/graham-lands-final-gateway-2-approvals-at-530m-fallowfield/",
-   "published": "2026-10-01T06:34+00:00",
-   "published_jst": "2026-10-01 15:34",
-   "summary": "Regulator clears seven high-rise and 22 lower-rise blocks",
-   "ai_related": false,
-   "title_ja": "グラハム、総額5億3000万ポンドの計画で承認獲得",
-   "summary_ja": "規制当局が7棟の高層棟と22棟の低層棟の建設を許可しました。"
   },
   {
    "id": "91c08d9d4e57",
@@ -111,21 +100,6 @@
    "ai_related": true,
    "title_ja": "マシュー・グリーン氏の引用について",
    "summary_ja": "エージェントを乗っ取るペイロードと、それを次へと運ぶエージェントという、ワームの2つの側面について述べています。"
-  },
-  {
-   "id": "52514f241263",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New right-to-work rules and safety levy hit construction today",
-   "url": "https://www.constructionenquirer.com/2026/10/01/new-right-to-work-rules-and-safety-levy-hit-construction-today/",
-   "published": "2026-10-01T06:28+00:00",
-   "published_jst": "2026-10-01 15:28",
-   "summary": "Contractors face fines of up to £60,000 for each illegal worker",
-   "ai_related": false,
-   "title_ja": "新たな就労資格規則と安全課徴金が施行",
-   "summary_ja": "建設業者は不法労働者1人につき最大6万ポンドの罰金に直面します。"
   },
   {
    "id": "bbb7c21212bc",
@@ -170,7 +144,7 @@
   },
   {
    "id": "45c01d884bd4",
-   "source": "イザ！",
+   "source": "iza.ne.jp",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -209,7 +183,7 @@
   },
   {
    "id": "bd7235110c66",
-   "source": "AT PARTNERS",
+   "source": "atpartners.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -283,6 +257,19 @@
    "published": "2026-10-01T04:07+00:00",
    "published_jst": "2026-10-01 13:07",
    "summary": "引退した人型ロボットが“溶けた鋼の海”に沈む――ロボット開発企業の米Figureは、こんな動画を公開した。同社のブレット・アドコックCEOと俳優のアーノルド・シュワルツェネッガー氏のやりとりがきっかけになったという。",
+   "ai_related": true
+  },
+  {
+   "id": "14f20e86ac4b",
+   "source": "ArchDaily",
+   "source_id": "archdaily",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Ornamentation in the Age of Algorithms: Can Technology Bring Back Architectural Detail?",
+   "url": "https://www.archdaily.com/1036298/ornamentation-in-the-age-of-algorithms-and-robotics-can-technology-bring-back-architectural-detail",
+   "published": "2026-10-01T04:00+00:00",
+   "published_jst": "2026-10-01 13:00",
+   "summary": "Architectural ornamentation has been a recurrent subject of debate across the industry for decades. A practice that was largely abandoned during the Modernist movement could now be standing on a platform that might, again, allow its resurgence, due to the current convergence of robotics, artificial ",
    "ai_related": true
   },
   {
@@ -755,21 +742,6 @@
    "summary_ja": "Gemini 3.5 Proの次はこれだが、まだ一般には公開されていない。"
   },
   {
-   "id": "975f57653267",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini 4 Argon",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-   "published": "2026-09-30T20:04+00:00",
-   "published_jst": "2026-10-01 05:04",
-   "summary": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 Comments URL: https://news.ycombinator.com/item?id=49913571 Points: 1349 # Comments: 862",
-   "ai_related": true,
-   "title_ja": "Gemini 4 Argonの発表と議論",
-   "summary_ja": "Googleの公式ブログで発表された新モデル「Gemini 4 Argon」に関する技術情報とHacker Newsでの議論リンク。"
-  },
-  {
    "id": "15e70ee5e4a7",
    "source": "Google DeepMind Blog",
    "source_id": "deepmind",
@@ -799,7 +771,7 @@
   },
   {
    "id": "77124cccbad3",
-   "source": "xtech.nikkei.com",
+   "source": "日経クロステック（xTECH）",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -822,6 +794,32 @@
    "published_jst": "2026-10-01 05:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "b402050e5850",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "昭島セントラルロジスティック特定目的会社/佐藤工業JVで11月着工/ALFALINK東京昭島2",
+   "url": "https://www.kensetsunews.com/archives/1290955",
+   "published": "2026-09-30T19:55+00:00",
+   "published_jst": "2026-10-01 04:55",
+   "summary": "日本ＧＬＰが設立した昭島セントラルロジスティック特定目的会社は、物流施設「ＡＬＦＡＬＩＮＫ東京昭島… The post 昭島セントラルロジスティック特定目的会社/佐藤工業JVで11月着工/ALFALINK東京昭島2 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "c6eab2686e76",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "神奈川県/10月18日まで受付/湘南国際村活用調査",
+   "url": "https://www.kensetsunews.com/archives/1290968",
+   "published": "2026-09-30T19:55+00:00",
+   "published_jst": "2026-10-01 04:55",
+   "summary": "神奈川県は、横須賀市にある湘南国際村と湘南国際村センターの在り方や活用方策の検討に向け、サウンディ… The post 神奈川県/10月18日まで受付/湘南国際村活用調査 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
   },
   {
    "id": "42d05b15a74b",
@@ -860,32 +858,6 @@
    "published": "2026-09-30T19:55+00:00",
    "published_jst": "2026-10-01 04:55",
    "summary": "大阪市は、柴島浄水場再構築事業の見直しに着手する。上系エリアにある既存４系の耐震補強と同エリアでの… The post 柴島浄水場再構築事業/耐震補強と新設 比較検討/27年秋に方針決定/大阪市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "b402050e5850",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "昭島セントラルロジスティック特定目的会社/佐藤工業JVで11月着工/ALFALINK東京昭島2",
-   "url": "https://www.kensetsunews.com/archives/1290955",
-   "published": "2026-09-30T19:55+00:00",
-   "published_jst": "2026-10-01 04:55",
-   "summary": "日本ＧＬＰが設立した昭島セントラルロジスティック特定目的会社は、物流施設「ＡＬＦＡＬＩＮＫ東京昭島… The post 昭島セントラルロジスティック特定目的会社/佐藤工業JVで11月着工/ALFALINK東京昭島2 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "c6eab2686e76",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "神奈川県/10月18日まで受付/湘南国際村活用調査",
-   "url": "https://www.kensetsunews.com/archives/1290968",
-   "published": "2026-09-30T19:55+00:00",
-   "published_jst": "2026-10-01 04:55",
-   "summary": "神奈川県は、横須賀市にある湘南国際村と湘南国際村センターの在り方や活用方策の検討に向け、サウンディ… The post 神奈川県/10月18日まで受付/湘南国際村活用調査 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -964,6 +936,19 @@
    "summary_ja": "トランプ氏が数十社のAI企業と合意し、自主的な安全性テストを実施する方針。"
   },
   {
+   "id": "f2281a9c751b",
+   "source": "Межа. Новини України.",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Grittが建設現場でロボットとAIを使い太陽光パネル設置を加速",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85RkE4c1VZRzkwX2QtaEN6WkVQeVZQYWRweDZYSDgzX2V6SkE3OGJ3NGFDOHh4aUZlVUt0WVlCS2R2dkMydW13NXRCOUlCckpkUWRQLXU3NUYxX0R5QU8wa3ZYVQ?oc=5",
+   "published": "2026-09-30T18:41+00:00",
+   "published_jst": "2026-10-01 03:41",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "7cdb83130a45",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -1039,21 +1024,6 @@
    "summary_ja": "ユーザー生成コンテンツへのアクセス制限を強化するため、RedditはRSSフィードのサポートを終了する。"
   },
   {
-   "id": "20b52029e360",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
-   "url": "https://github.com/magnitudedev/magnitude",
-   "published": "2026-09-30T17:37+00:00",
-   "published_jst": "2026-10-01 02:37",
-   "summary": "Hey HN, Anders and Tom here. We're building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp. We're both software engineers and previously built an op",
-   "ai_related": true,
-   "title_ja": "Magnitude：エージェント向け最適化エンジン",
-   "summary_ja": "ハードウェアに合わせて最高速で動作するよう自己最適化を行う、エージェント向け推論エンジンを開発しました。"
-  },
-  {
    "id": "04acd56abe80",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1085,7 +1055,7 @@
   },
   {
    "id": "5db2b558c6f7",
-   "source": "unite.ai",
+   "source": "Unite.AI",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1344,6 +1314,19 @@
    "lang": "ja",
    "title": "建設業界、地域にAIを 市内塗装会社 勉強会で広める",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5hdUhOcVgyMDJuSjNHajlENm5jRVd3UEgwNk1iR2lQRktOSktBLXlaUnl1TFN1YXg4UmFPeXZwYWpkRWgzWjZtdFVyNTM0bG9wM3Y1T3Zkb3pzNjRCX0xJRXRRQjg?oc=5",
+   "published": "2026-09-30T15:00+00:00",
+   "published_jst": "2026-10-01 00:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "917e1a00cc0c",
+   "source": "日経クロステック Active",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "IT化は進んでいますか？ 建設業向け施工管理ツールの利用状況に関する実態調査",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXU3RKa3psck1hUFVhNEwyQUZVVGNWVTd5WG5vNHRJa3A1VjRiTjlpRG16OFh1Um8wYU5Hdk0ybTBxSWNTZE11M3Q5Ujh1OWc1aFJXQ2lhNkpZNGs?oc=5",
    "published": "2026-09-30T15:00+00:00",
    "published_jst": "2026-10-01 00:00",
    "summary": "",
@@ -1909,7 +1892,7 @@
   },
   {
    "id": "33c6b46fd6f0",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2007,6 +1990,19 @@
    "summary_ja": "オフィスチェアは時代の変化や働き方とともに進化を遂げ、各時代の労働環境を反映してきた。"
   },
   {
+   "id": "2eb4a069bf58",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Aggregates firm fined after worker crushed to death",
+   "url": "https://www.constructionenquirer.com/2026/09/30/aggregates-firm-fined-after-worked-crushed-to-death/",
+   "published": "2026-09-30T06:25+00:00",
+   "published_jst": "2026-09-30 15:25",
+   "summary": "Court hands out £24,000 fine after worker drawn into compression conveyor",
+   "ai_related": false
+  },
+  {
    "id": "edf631ba5c7a",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -2062,7 +2058,7 @@
   },
   {
    "id": "9b50aac56b82",
-   "source": "イザ！",
+   "source": "iza.ne.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2179,7 +2175,7 @@
   },
   {
    "id": "ae7dd6b3c76b",
-   "source": "atpress.ne.jp",
+   "source": "アットプレス",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2192,7 +2188,7 @@
   },
   {
    "id": "0ba51eb5f5f4",
-   "source": "news.livedoor.com",
+   "source": "ライブドアニュース",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2233,7 +2229,7 @@
   },
   {
    "id": "6a08d1219162",
-   "source": "産経ニュース",
+   "source": "sankei.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2241,19 +2237,6 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oUnB4b1BqYjNCeEF2eU0ydGItQ1BxMkVWZW95a0VjdDFmU2NTbXVuaEpnTTFjZ3pTNHNYSEtkQ1hFaF9oQm5tTnk2TldSMHJFQnllODJVZWJpbGpTYU1GcklEUzVwUlFfSld5QUQ2M1lObTZnMlE?oc=5",
    "published": "2026-09-30T00:13+00:00",
    "published_jst": "2026-09-30 09:13",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "99a79d196f6c",
-   "source": "ITmedia",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI音声認識の建築検査アプリに新機能、ゼネコンと協力会社の是正状況を視覚化：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wbFJjVjdoUmtqaEFpTEJUVzNxNFhuSFJiVnNza0pMdzI1S3M2b2RXblhPNXlxVGtzRVFsdFpWXzl1bmExYW9SY2dKcG1xS3h3TWJIWEZsQUFoejlHRDFPYXhiTkRXQnJzRTNGcA?oc=5",
-   "published": "2026-09-30T00:00+00:00",
-   "published_jst": "2026-09-30 09:00",
    "summary": "",
    "ai_related": false
   },
@@ -2586,13 +2569,13 @@
    "ai_related": false
   },
   {
-   "id": "11108e906ca7",
-   "source": "xtech.nikkei.com",
-   "source_id": "gnews_sekokan_ai",
+   "id": "f27dd0368d6d",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建設会社の2025年度決算ランキング、182社のデータ一挙公開",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUHh5UlFTV0FiN1pkQXI2cy1SeVVFVE81bnVGQ2NFNmNHWW5LMUJPNEdja2M2UTRIQ3psYXg3WTNMR2hoRkR2ZEtZZE0xZFp1Y3FsamhiT3pfQlRiZ1JfNGdFS09pZExPMlJBTVBFSmpGaG1PVnlxWHFJUVV1U1Q4WXBuSFN5cGVoS0d2TA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82aFh5TFJtZEIxeFBHUkxNYXU2QU1VMkhyVTk3VTI1OWtTNkVwVlNtakF6SUNuYnhxaE9vcFlob08teVpKMUNVa2pLOUFCczhTdER4bG0tYTRJVHVtRlZabUtGZ21qSjVlN016cA?oc=5",
    "published": "2026-09-29T20:00+00:00",
    "published_jst": "2026-09-30 05:00",
    "summary": "",
@@ -2769,19 +2752,6 @@
    "summary_ja": "十分な安全対策がない状態のなか、エージェントがシステム情報やソースコードにアクセスした。"
   },
   {
-   "id": "f2281a9c751b",
-   "source": "Межа. Новини України.",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Grittが建設現場でロボットとAIを使い太陽光パネル設置を加速",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85RkE4c1VZRzkwX2QtaEN6WkVQeVZQYWRweDZYSDgzX2V6SkE3OGJ3NGFDOHh4aUZlVUt0WVlCS2R2dkMydW13NXRCOUlCckpkUWRQLXU3NUYxX0R5QU8wa3ZYVQ?oc=5",
-   "published": "2026-09-29T17:13+00:00",
-   "published_jst": "2026-09-30 02:13",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "afe6a29f2671",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -2810,6 +2780,32 @@
    "ai_related": false,
    "title_ja": "ポーランド初の原発でEPC契約締結",
    "summary_ja": "BechtelとWestinghouseのコンソーシアムが、国営企業PEJから同国初の原発建設に向けたEPC契約を受注しました。"
+  },
+  {
+   "id": "3bd3ec89a48c",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI DevDay 2026 live blog",
+   "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+   "published": "2026-09-29T15:55+00:00",
+   "published_jst": "2026-09-30 00:55",
+   "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agents , live-blog , ope",
+   "ai_related": true
+  },
+  {
+   "id": "68beb41e0f22",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Developers to get power to build own grid connections",
+   "url": "https://www.constructionenquirer.com/2026/09/29/developers-to-get-power-to-build-own-grid-connections/",
+   "published": "2026-09-29T15:30+00:00",
+   "published_jst": "2026-09-30 00:30",
+   "summary": "Great British Grid launch opens new market for contractors to tackle connection logjam",
+   "ai_related": false
   }
  ]
 }
