@@ -13125,5 +13125,51 @@
       "unverified": "data/analytics/live_metrics.jsonはfetched_at 2026-09-27T23:14 UTCと古く、本日(10/01)までの実投稿との完全な重複確認はできていない（同ファイル内にDyna Robotics/Taku/Dyna-2.1への言及は無し）。Dyna-2.1公式X投稿のMTBI(平均連続稼働時間)の具体的な分数は一次情報内に数値の記載が見当たらず、本文・補足では『工程数(約79ステップ)』と『前モデルの24時間稼働・成功率99.4%』という確認済み数字のみを使用し、未確認の分数は創作していない。",
       "hook_alternative": "案A(採用): 1行目を【速報】+社名+『Taku』発表+何をしたか、という戦略の速報型見本どおりの構文に。案B: 1行目を『洗濯を丸ごと自律でこなすロボット、もう普通にヤバい、、』という驚き先行の口語型にする案も検討したが、社名・製品名が1行目に無いと自己リプの出典との対応が弱くなるため、見本に忠実な案Aを採用した。"
     }
+  },
+  {
+    "id": "2026-10-02_07:25",
+    "date": "2026-10-02",
+    "time": "07:25",
+    "text": "【速報】OpenAIがChatGPTに\"バーチャル試着\"機能を追加、本日からグローバル展開開始\n\n自分の写真をアップするだけで服の着用イメージが出るの、地味に嬉しい。試着してから買うがチャットで完結する感じ。\n\n・自撮り/全身写真→服・小物のバーチャル試着プレビューを生成\n・服のスクショを渡して「これ着たらどう見える?」もOK\n・画像生成はImages 2.5、旧Images 2.0比で生成速度最大50%向上\n・試着画像や気になった商品は「お気に入り」に保存して後で見返せる\n\n↓詳細",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "screenshot",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 補足\n・自撮り/全身写真をアップロードするか、服・小物のスクショを渡すと「Try On」ボタンでプレビュー生成\n・OpenAIは「サイズ・フィット感を保証するものではない」と明記\n・試着画像やお気に入り登録した商品はライブラリに保存され、あとから参照できる\n・対象プラン(無料/有料)や地域ごとの詳細は一次ページ(openai.com)がネットワーク制限で直接確認できず、複数の海外メディアが『グローバル展開』と報じている内容に基づく\n\n■ 出典\n・OpenAI公式: https://openai.com/index/introducing-chatgpt-images-2-5/\n・TechCrunch: https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/\n・Techmeme(まとめ): https://www.techmeme.com/261001/p37",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": null,
+    "article_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "速報",
+      "scores": {
+        "驚き": 2,
+        "絵": 1,
+        "鮮度": 2,
+        "AI大ネタ度": 2,
+        "確かさ": 2
+      },
+      "selection_reason": "朝枠(一般AIの大ネタ速報)の候補を6件比較した。(1)OpenAI「ChatGPTバーチャル試着+Images 2.5の新ショッピング機能」(本採用)。news_feed.json ai_global(TechCrunch AI、2026-10-02 04:21 JST=検出約2時間前)を起点に、WebSearchでDigital Trends・SERoundTable・Techmeme・WWD・CryptoBriefingの独立した複数メディアが同内容(自撮り/全身写真または商品画像から試着プレビューを生成、新画像モデルImages 2.5採用・Images 2.0比最大50%高速化、お気に入り保存機能、本日グローバル展開)を一致して報じていることを確認した。OpenAI公式ページ(openai.com)・TechCrunch本文ともWebFetchがネットワーク遮断(EGRESS_BLOCKED)で直接確認はできなかったが、複数独立メディアの内容一致を裏取りとした。(2)Google DeepMind「SynthID Bio」(タンパク質配列への透かし技術、2026-10-01 20:43 JST発表)は公式X投稿だが閲覧数4千〜1.2万と低く、題材もバイオセキュリティ向けで一般読者への『すげー』訴求が弱いため見送り(推定5点)。(3)OpenAIの新エージェント『Dots』(The Verge、Sam AltmanがDevDayで発表)はDevDay本体が2026-09-29発表で検出時点で48h超過、かつ同じDevDayのGPT-6.1 Sol発表は既に9/30朝枠で使用済みのため鮮度・重複の両面で見送り(推定5点)。(4)Amazon Strand Labsの意思決定モデル「Strands Decider 2B」(Jevクローン)は開発者向けで実演映像がなく絵=0のため見送り(推定4点)。(5)Shopify「Canvas」(AIとの対話でネットショップを構築)は法人の業務ツールで一般読者が一目で驚く絵に乏しいため見送り(推定5点)。(6)「OpenAIが安全チームの研究者3名との契約を終了」(WSJ経由)は人事・ガバナンスの話題で速報型の『何をしたか→箇条→詳細』という型に合わず、製品発表でもないため見送り(対象外)。競合サービス(建設向けAI開発・導入支援・BPO・営業代行)の紹介には該当しない。直近14日のキュー・dashboardを確認し、2026-09-09朝枠で『ChatGPT Images 2.5』のSketch機能発表は既出だが、今回は同モデルを使った新しい『バーチャル試着+お気に入り』という別機能の発表であり重複ではない(本文では『新画像生成モデル』という表現を避け、既存モデルの応用として記述した)。2026-10-01朝枠のGemini 4 Argonとも別トピックで重複なし。",
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "published_at": "2026-10-01(米国時間、OpenAI公式発表)。日本時間では2026-10-02未明にかけてTechCrunch等が報道。",
+      "checked_at": "2026-10-02T06:37+09:00",
+      "availability": "本日(2026-10-01、米国時間)よりChatGPTでグローバル展開開始とTechCrunch等が報道。対象プラン(無料/Plus/Pro/Business等)や地域ごとの利用可否の一次公式記載はopenai.com直接閲覧がネットワーク制限で確認できず特定できていない。OpenAIは生成画像について「サイズ・フィット感を保証するものではない」と明記している。",
+      "unverified": "openai.com・techcrunch.comへのWebFetchがネットワーク遮断(EGRESS_BLOCKED)で失敗したため、本文の数字(Images 2.0比最大50%高速化等)はWebSearchが返した複数独立メディア(TechCrunch/Digital Trends/SERoundTable/Techmeme/WWD/CryptoBriefing)の内容一致による間接確認にとどまる。data/analytics/live_metrics.jsonはfetched_at 2026-09-27T23:14 UTCと古く、本日までの実投稿との重複確認はできていない(実投稿未確認)。対象プラン・地域の詳細、試着精度(フィット感の実際の再現度)は未確認。",
+      "hook_alternative": "案A(採用): 1行目を【速報】+社名(OpenAI)+製品名の無い機能名+『本日からグローバル展開開始』という戦略の速報型見本どおりの構文にし、2行目で『自分の写真で試着イメージが出る』という体験価値を素直な本音で一言添えた。案B: 『服を試着せずに買う時代、ついに終わるかも』という変化を煽る書き出しも検討したが、実際はまだ試着自体は要らなくなるわけではなく誇張になるため見送り、事実ベースの案Aを採用した。"
+    }
   }
 ]
