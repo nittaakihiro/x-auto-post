@@ -1,20 +1,76 @@
 {
- "generated_at": "2026-10-02T12:31+00:00",
- "generated_at_jst": "2026-10-02 21:31",
+ "generated_at": "2026-10-02T13:53+00:00",
+ "generated_at_jst": "2026-10-02 22:53",
  "window_hours": 48,
  "counts": {
-  "construction_global": 43,
-  "ai_global": 65,
+  "construction_global": 34,
+  "ai_global": 66,
   "ai_japan": 28,
-  "construction_japan": 64
+  "construction_japan": 63
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "09d43c788b6f",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Data center construction spending raced further ahead in August",
+   "url": "https://www.constructiondive.com/news/data-center-construction-spending-august/831954/",
+   "published": "2026-10-02T13:38+00:00",
+   "published_jst": "2026-10-02 22:38",
+   "summary": "“Frankly, it’s becoming difficult to contextualize the size and speed of this boom,” said Anirban Basu, ABC chief economist.",
+   "ai_related": false
+  },
+  {
+   "id": "0e0e78e03a43",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Punch List: $750M biotech project breaks ground, Nvidia taps Jacobs for data center digital twin",
+   "url": "https://www.constructiondive.com/news/punch-list-750m-biotech-project-breaks-ground-nvidia-taps-jacobs-for-dat/831991/",
+   "published": "2026-10-02T13:18+00:00",
+   "published_jst": "2026-10-02 22:18",
+   "summary": "Plus, Turner delivers a $29 million substance use treatment center, CMAA names a new CEO and a British engineering firm crosses the pond.",
+   "ai_related": true
+  },
+  {
+   "id": "1f284fec3a90",
+   "source": "NVIDIA Blog",
+   "source_id": "nvidia",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+   "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+   "published": "2026-10-02T13:00+00:00",
+   "published_jst": "2026-10-02 22:00",
+   "summary": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory f",
+   "ai_related": true
+  },
+  {
+   "id": "6a00b2f8a40d",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Three firings and a fourth departure shake up OpenAI's safety team",
+   "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+   "published": "2026-10-02T12:51+00:00",
+   "published_jst": "2026-10-02 21:51",
+   "summary": "OpenAI has parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization, according to the Wall Street Journal. The article Three firings and a fourth departure shake up OpenAI's safety team appeared first on The Decoder .",
+   "ai_related": true
+  },
   {
    "id": "39d50a5f5c2f",
    "source": "Global Construction Review",
@@ -59,6 +115,45 @@
    "ai_related": false,
    "title_ja": "ブルックリンのコミュニティセンターが予算未満で早期開業",
    "summary_ja": "ニューヨーク州ブルックリンにある4階建て、延床面積6万平方フィートの施設が、予定より2年早く、予算を1000万ドル下回る形で完成した。"
+  },
+  {
+   "id": "b3a9a516e91b",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI hallucinations are making entitled customers even worse",
+   "url": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+   "published": "2026-10-02T12:00+00:00",
+   "published_jst": "2026-10-02 21:00",
+   "summary": "Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked that her last name ",
+   "ai_related": true
+  },
+  {
+   "id": "f829ccaecea0",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "If a data center is camouflaged in the woods, will anyone hate it?",
+   "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+   "published": "2026-10-02T12:00+00:00",
+   "published_jst": "2026-10-02 21:00",
+   "summary": "San Antonio City Councilmember Ric Galvan remembers when data centers first arrived in his city in the 2000s, looking like relatively unassuming office buildings. But that's changed in recent years, as data centers have grown into massive \"hyperscale\" facilities spanning millions of square feet and ",
+   "ai_related": true
+  },
+  {
+   "id": "78ffcfd0a288",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Amazon writes scary blog warning communities not to block data centers",
+   "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+   "published": "2026-10-02T11:52+00:00",
+   "published_jst": "2026-10-02 20:52",
+   "summary": "Amazon is calling for people to support AI data center projects, or risk irreparable harm to the US economy and national security. In a more than 3,000 word blog posted today, Amazon web services CEO Matt Garman pushed back on public concerns around the impact that data centers may have on jobs, pow",
+   "ai_related": true
   },
   {
    "id": "7770ad3081c4",
@@ -162,6 +257,19 @@
    "summary_ja": "役立つBIM引き継ぎ情報は建物の運用者のニーズから始まり、完成前のギャップ解消に役立つ。"
   },
   {
+   "id": "b7dd82503263",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI music maker Suno now generates spoken words",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+   "published": "2026-10-02T09:42+00:00",
+   "published_jst": "2026-10-02 18:42",
+   "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platforms, and allows you to simultaneously generate voiceovers and background music t",
+   "ai_related": true
+  },
+  {
    "id": "7caefce381fd",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -203,21 +311,6 @@
    "ai_related": true,
    "title_ja": "企業のAI利用拡大の一方でコストは低下、Ramp調査",
    "summary_ja": "最新のRamp AI指数によると、米企業はAIへの支出を減らしており、効率的な利用が進んでいる。"
-  },
-  {
-   "id": "57be12b65818",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Link Group launches £840m Scottish housing framework",
-   "url": "https://www.constructionnews.co.uk/contracts/link-group-launches-840m-scottish-housing-framework-02-10-2026/",
-   "published": "2026-10-02T08:52+00:00",
-   "published_jst": "2026-10-02 17:52",
-   "summary": "Link Group has launched procurement for an £840m framework covering housing construction work across Scotland. The housing association said the framework would run for four years, with an option to extend it for a further year. It will primarily cover housing schemes but could also… The post Link Gr",
-   "ai_related": false,
-   "title_ja": "Link Group、8億4000万ポンドの住宅事業枠組みを発足",
-   "summary_ja": "Link Groupは、スコットランド全域の住宅建設を対象とする8億4000万ポンド規模の調達枠組みを開始した。期間は4年間。"
   },
   {
    "id": "13b1555e10a0",
@@ -559,19 +652,6 @@
    "ai_related": false
   },
   {
-   "id": "b3f5a66255cd",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SHE、ホワイトかブルーかではない「グラデーションなキャリア選択」を提案！ 第1弾として建設・まちづくり領域の新しい働き方を知るイベントを10/20(火)開催",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03Z2tqZ1lZUTBzUjJ2VHlMeEFjRGROVldmNlk2NG03ZXlrSWFKc1R0ZzBOOVAtdXpybWVKM05vOW05YkhKb3hmS0JRV1FhcmtaV0UzMDRaQmsydVBOMkxtX3V6VUJKem5LeFE?oc=5",
-   "published": "2026-10-02T01:00+00:00",
-   "published_jst": "2026-10-02 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "50a51b2ee06b",
    "source": "TBS NEWS DIG",
    "source_id": "gnews_kensetsu_ai",
@@ -613,6 +693,19 @@
    "summary_ja": "NVIDIA Blackwell GPUで稼働するGPT-6 Astra Ultrafastが、APIおよび対象ユーザー向けに提供開始。"
   },
   {
+   "id": "f2281a9c751b",
+   "source": "mezha.net",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Grittが建設現場でロボットとAIを使い太陽光パネル設置を加速",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85RkE4c1VZRzkwX2QtaEN6WkVQeVZQYWRweDZYSDgzX2V6SkE3OGJ3NGFDOHh4aUZlVUt0WVlCS2R2dkMydW13NXRCOUlCckpkUWRQLXU3NUYxX0R5QU8wa3ZYVQ?oc=5",
+   "published": "2026-10-01T23:06+00:00",
+   "published_jst": "2026-10-02 08:06",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "3a9be36e9ae0",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -648,7 +741,7 @@
    "url": "https://www.frogandtoad.ai/",
    "published": "2026-10-01T22:23+00:00",
    "published_jst": "2026-10-02 07:23",
-   "summary": "Article URL: https://www.frogandtoad.ai/ Comments URL: https://news.ycombinator.com/item?id=49927760 Points: 229 # Comments: 54",
+   "summary": "Article URL: https://www.frogandtoad.ai/ Comments URL: https://news.ycombinator.com/item?id=49927760 Points: 290 # Comments: 70",
    "ai_related": true,
    "title_ja": "フロッグとトード、そして高度化する機械",
    "summary_ja": "技術の急速な進化とAIの能力向上に関する記事および議論の紹介。"
@@ -1062,7 +1155,7 @@
    "url": "https://stoppels.ch/goalposts/",
    "published": "2026-10-01T17:32+00:00",
    "published_jst": "2026-10-02 02:32",
-   "summary": "Article URL: https://stoppels.ch/goalposts/ Comments URL: https://news.ycombinator.com/item?id=49924618 Points: 163 # Comments: 190",
+   "summary": "Article URL: https://stoppels.ch/goalposts/ Comments URL: https://news.ycombinator.com/item?id=49924618 Points: 172 # Comments: 201",
    "ai_related": true,
    "title_ja": "AIに関するHacker Newsの課題達成度を投票で検証",
    "summary_ja": "Hacker Newsで議論されているAIの課題について、どれが達成されたかを投票で決める企画の紹介。"
@@ -1167,7 +1260,7 @@
    "url": "https://blog.cloudflare.com/clef-decision-models/",
    "published": "2026-10-01T16:18+00:00",
    "published_jst": "2026-10-02 01:18",
-   "summary": "Article URL: https://blog.cloudflare.com/clef-decision-models/ Comments URL: https://news.ycombinator.com/item?id=49923692 Points: 542 # Comments: 189",
+   "summary": "Article URL: https://blog.cloudflare.com/clef-decision-models/ Comments URL: https://news.ycombinator.com/item?id=49923692 Points: 551 # Comments: 197",
    "ai_related": true,
    "title_ja": "Clef：オープンソースの決定モデルと新しいRL微調整プラットフォーム",
    "summary_ja": "Cloudflareが公開した決定モデルと強化学習の微調整に関する最新情報についての解説。"
@@ -1203,21 +1296,6 @@
    "summary_ja": "Endraの「Power Studio」により、電気設計の作業時間が1週間から約3時間に短縮されると報じられています。"
   },
   {
-   "id": "edb3914f200e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mace Construct to depart £184m Oxford labs project",
-   "url": "https://www.constructionnews.co.uk/brexit/mace-construct-to-depart-184m-oxford-labs-project-01-10-2026/",
-   "published": "2026-10-01T15:16+00:00",
-   "published_jst": "2026-10-02 00:16",
-   "summary": "Mace Construct is to exit a £184m laboratory project in Oxford. The contractor said it would complete its part of the Daubeny Buildings scheme by the end of this year before handing over to a new contractor. Mace Construct was initially appointed to the project… The post Mace Construct to depart £18",
-   "ai_related": false,
-   "title_ja": "Mace Construct、1.8億ポンドのオックスフォード研究所事業から撤退",
-   "summary_ja": "年内に自身の作業を完了させ、新受託業者へ引き継いだ上でプロジェクトから離脱する予定。"
-  },
-  {
    "id": "fdadf99fae2b",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1242,7 +1320,7 @@
    "url": "https://arxiv.org/abs/2609.37725",
    "published": "2026-10-01T14:51+00:00",
    "published_jst": "2026-10-01 23:51",
-   "summary": "Article URL: https://arxiv.org/abs/2609.37725 Comments URL: https://news.ycombinator.com/item?id=49922437 Points: 152 # Comments: 39",
+   "summary": "Article URL: https://arxiv.org/abs/2609.37725 Comments URL: https://news.ycombinator.com/item?id=49922437 Points: 156 # Comments: 42",
    "ai_related": true,
    "title_ja": "コンテキスト言語モデルに関する最新の研究論文",
    "summary_ja": "ArXivに投稿されたコンテキスト言語モデル（Context Language Models）に関する論文の紹介。"
@@ -1313,25 +1391,10 @@
    "url": "https://www.constructiondive.com/news/office-to-housing-conversion-chicago-downtown/831867/",
    "published": "2026-10-01T14:13+00:00",
    "published_jst": "2026-10-01 23:13",
-   "summary": "The adaptive reuse project in the city's Loop has 117 mixed-income residential units. More conversions are in the pipeline.",
+   "summary": "The adaptive reuse project in the city’s Loop has 117 mixed-income residential units. More conversions are in the pipeline.",
    "ai_related": false,
    "title_ja": "シカゴ、初のオフィス住宅転換プロジェクトを完了し街の中心部を刷新",
    "summary_ja": "ループ地区での用途変更プロジェクトにより117戸の手頃な住宅が誕生し、今後もさらなる転換が計画されています。"
-  },
-  {
-   "id": "8f98d6809607",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Finning buys John F Hunt power business",
-   "url": "https://www.constructionnews.co.uk/financial/ma/finning-buys-john-f-hunt-power-business-01-10-2026/",
-   "published": "2026-10-01T14:08+00:00",
-   "published_jst": "2026-10-01 23:08",
-   "summary": "Finning UK & Ireland has acquired John F Hunt Power Group, including temporary-power specialist John F Hunt Power and equipment manufacturer Morris Machinery. The value of the deal was not disclosed. The acquisition does not include John F Hunt Group Ltd, the construction business that… The post Fin",
-   "ai_related": false,
-   "title_ja": "Finning、John F Huntの電力事業を買収",
-   "summary_ja": "Finning UK & Irelandが仮設電力専門の同社グループを買収した。買収額は非公開。"
   },
   {
    "id": "2be59ecee0ce",
@@ -1484,19 +1547,17 @@
    "summary_ja": "非営利団体が提供する新ツール「CraftPro」により、場所を問わず作業員の訓練が可能になり、業界の人手不足解消を目指します。"
   },
   {
-   "id": "20bd8350b45a",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
+   "id": "fbfb34ccced8",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
    "lang": "en",
-   "title": "OpenAI says it stopped a campaign to steal its models' reasoning, but the trick still worked on Azure",
-   "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
-   "published": "2026-10-01T12:05+00:00",
-   "published_jst": "2026-10-01 21:05",
-   "summary": "OpenAI says it stopped a coordinated campaign in which more than 15,000 accounts tried to copy the hidden reasoning of its models. The company ties part of the activity to people connected to Moonshot AI. But researchers found that the same attack kept working on Microsoft Azure for weeks, even agai",
-   "ai_related": true,
-   "title_ja": "OpenAI、推論モデルの模倣工作を阻止したと発表も、Azureでは手口が通用",
-   "summary_ja": "モデルの隠れた推論プロセスを盗もうとする1万5000アカウント以上の組織的活動を阻止したと発表されました。"
+   "title": "Gilbane, Marvel complete $128M sustainable NYC job",
+   "url": "https://www.constructiondive.com/news/gilbane-marvel-complete-sustainable-nyc-job-design-build/831943/",
+   "published": "2026-10-01T12:20+00:00",
+   "published_jst": "2026-10-01 21:20",
+   "summary": "The team delivered the job $10 million under budget and two years ahead of schedule, which an NYC construction commissioner said demonstrates another “feather in the cap” for design-build.",
+   "ai_related": false
   },
   {
    "id": "de11222dc23d",
@@ -1512,96 +1573,6 @@
    "ai_related": true,
    "title_ja": "元Google/SpaceX幹部が設立したSatlyt、衛星AIで800万ドル調達",
    "summary_ja": "Satlytは軌道コンピューティングのAndroidを目指し、多くの衛星で動くオープンなソフトウェアを提供。SpaceXの閉鎖的なアプローチとは対照的。"
-  },
-  {
-   "id": "c978462d5c9f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Ground engineering giant’s revenue drops 36%",
-   "url": "https://www.constructionnews.co.uk/supply-chain/ground-engineering-giants-revenue-drops-36-01-10-2026/",
-   "published": "2026-10-01T11:45+00:00",
-   "published_jst": "2026-10-01 20:45",
-   "summary": "Turnover at ground engineering group Bachy Soletanche slumped to its lowest level since 2020 in its latest financial year. Newly released results for the year to 31 December 2025 showed that revenue was £91.1m in the period, down from £143.2m. Pre-tax profit was up in… The post Ground engineering gi",
-   "ai_related": false,
-   "title_ja": "地盤工学大手の売上高が36%減少",
-   "summary_ja": "Bachy Soletancheの売上高は2020年以降で最低水準に落ち込み、最新の決算で9110万ポンドとなった。"
-  },
-  {
-   "id": "881d37d76ef1",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Errigal Contracts boosts turnover and profit",
-   "url": "https://www.constructionnews.co.uk/financial/errigal-contracts-boosts-turnover-and-profit-01-10-2026/",
-   "published": "2026-10-01T11:45+00:00",
-   "published_jst": "2026-10-01 20:45",
-   "summary": "South London contractor Errigal Contracts has increased its turnover and pre-tax profit. The fit-out group reported a 4 per cent hike in revenue to £138m from £132.6m in its latest accounts for the 2025 calendar year. It also saw its pre-tax profit jump, by 12… The post Errigal Contracts boosts turn",
-   "ai_related": false,
-   "title_ja": "Errigal Contracts、売上高と利益をともに伸ばす",
-   "summary_ja": "ロンドンの内装施工会社Errigal Contractsが最新決算で売上高と税引前利益の増加を発表した。"
-  },
-  {
-   "id": "4ffc544f35f6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "RGCM profit jumps almost 60% despite BSR issues",
-   "url": "https://www.constructionnews.co.uk/financial/rgcm-profit-jumps-almost-60-despite-bsr-issues-01-10-2026/",
-   "published": "2026-10-01T11:45+00:00",
-   "published_jst": "2026-10-01 20:45",
-   "summary": "Kent-based RGCM has recorded a 59 per cent rise in pre-tax profit despite being hit by delays at the Building Safety Regulator (BSR). In its latest accounts for the year to 31 December 2025, the construction specialist, which ranked 58th in the latest CN100, saw… The post RGCM profit jumps almost 60",
-   "ai_related": false,
-   "title_ja": "RGCM、規制上の遅延を乗り越え利益が約60%増",
-   "summary_ja": "建築安全規制当局の遅延の影響を受けたものの、ケント州の専門業者が税引前利益の大幅増を記録した。"
-  },
-  {
-   "id": "5f4122ab4d93",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Renew targets record full-year financial performance",
-   "url": "https://www.constructionnews.co.uk/financial/renew-targets-record-full-year-financial-performance-01-10-2026/",
-   "published": "2026-10-01T11:45+00:00",
-   "published_jst": "2026-10-01 20:45",
-   "summary": "Renew Holdings has said it expects to beat last year’s £1.12bn turnover and deliver record full-year revenue and operating profit. The AIM-listed civils contractor – ranked 20th in the latest CN100 index – said trading for the year to 30 September 2026 was in line… The post Renew targets record full",
-   "ai_related": false,
-   "title_ja": "Renew、過去最高の通期業績を予想",
-   "summary_ja": "Renew Holdingsは売上高と営業利益で過去最高を更新し、昨年の記録を上回る見込みであると発表した。"
-  },
-  {
-   "id": "29e3655f8475",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Accountant view on CN100: ‘Clients are paying closer attention to financial resilience’",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/interviews/accountant-view-on-cn100-clients-are-paying-closer-attention-to-financial-resilience-01-10-2026/",
-   "published": "2026-10-01T11:33+00:00",
-   "published_jst": "2026-10-01 20:33",
-   "summary": "Construction’s growing cash reserves reflect a sector still wary of insolvency risk, cost pressures and uncertainty, according to Darren Jordan, partner and head of construction at accountancy firm Moore Kingston Smith. Aggregate cash held by the CN100 has risen by 52 per cent over four… The post Ac",
-   "ai_related": false,
-   "title_ja": "建設業における財務レジリエンスの重要性",
-   "summary_ja": "倒産リスクやコスト負担への懸念から、建設業界では手元資金を厚くする動きが強まっていると専門家が指摘している。"
-  },
-  {
-   "id": "f45a76b331d7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Breedon appoints new CEO from within",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/breedon-appoints-new-ceo-from-within-01-10-2026/",
-   "published": "2026-10-01T11:14+00:00",
-   "published_jst": "2026-10-01 20:14",
-   "summary": "FTSE 250-listed materials group Breedon has promoted chief financial officer (CFO) James Brotherton to become its next chief executive, succeeding Rob Wood. Brotherton (pictured) will take over on 1 January 2027, with Wood stepping down from the board and retiring as an executive director on… The po",
-   "ai_related": false,
-   "title_ja": "Breedon、CFOのJames Brothertonが新CEOに就任へ",
-   "summary_ja": "FTSE 250上場のBreedonは、Rob Woodの後任としてCFOのJames Brothertonを次期CEOに昇格させると発表した。"
   },
   {
    "id": "a74484044cb7",
@@ -1708,21 +1679,6 @@
    "ai_related": true,
    "title_ja": "中堅建設業向けの実用的なAI活用法",
    "summary_ja": "AI市場の急成長が見込まれる中、中堅施工会社がどのように投資対効果（ROI）を生み出すべきか解説する。"
-  },
-  {
-   "id": "4bb7d0fd2c17",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Housing ministry referred to prosecutors over Grenfell",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/housing-ministry-referred-to-prosecutors-over-grenfell-01-10-2026/",
-   "published": "2026-10-01T09:42+00:00",
-   "published_jst": "2026-10-01 18:42",
-   "summary": "The Metropolitan Police has referred the housing ministry to prosecutors over a potential health and safety offence linked to the Grenfell Tower fire. Housing secretary Angela Rayner (pictured) said in a statement that the Crown Prosecution Service (CPS) would review evidence relating to the Ministr",
-   "ai_related": false,
-   "title_ja": "住宅省、グレングフェル火災で検察送致",
-   "summary_ja": "ロンドン警視庁は、グレングフェル・タワー火災に関連する安全衛生上の違反の疑いで住宅省を検察に送致した。"
   },
   {
    "id": "13489d8bc8ea",
@@ -2195,7 +2151,7 @@
   },
   {
    "id": "f34dc0e9049d",
-   "source": "매일경제",
+   "source": "mk.co.kr",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2420,19 +2376,6 @@
    "summary_ja": "トランプ氏が数十社のAI企業と合意し、自主的な安全性テストを実施する方針。"
   },
   {
-   "id": "f2281a9c751b",
-   "source": "Межа. Новини України.",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Grittが建設現場でロボットとAIを使い太陽光パネル設置を加速",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85RkE4c1VZRzkwX2QtaEN6WkVQeVZQYWRweDZYSDgzX2V6SkE3OGJ3NGFDOHh4aUZlVUt0WVlCS2R2dkMydW13NXRCOUlCckpkUWRQLXU3NUYxX0R5QU8wa3ZYVQ?oc=5",
-   "published": "2026-09-30T18:41+00:00",
-   "published_jst": "2026-10-01 03:41",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "7cdb83130a45",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2461,21 +2404,6 @@
    "ai_related": true,
    "title_ja": "AI音声のElevenLabs、企業評価額が220億ドルと倍増",
    "summary_ja": "3億ドルの従業員向け株式公開買付は、WellingtonとT. Rowe Priceが共同主導した。"
-  },
-  {
-   "id": "940c49f7ad52",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "The AI Tamagotchis are coming",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
-   "published": "2026-09-30T18:07+00:00",
-   "published_jst": "2026-10-01 03:07",
-   "summary": "While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with",
-   "ai_related": true,
-   "title_ja": "AI版たまごっちの時代が到来へ",
-   "summary_ja": "AIはPCやスマホに浸透した一方、専用デバイスでは苦戦してきた。しかし今後、MetaとOpenAIが専用端末で市場に挑む。"
   },
   {
    "id": "8b112c5c2190",
@@ -2521,21 +2449,6 @@
    "ai_related": false
   },
   {
-   "id": "b3707029996a",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Here’s what AI leaders are saying about Trump’s new safety plan",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
-   "published": "2026-09-30T17:15+00:00",
-   "published_jst": "2026-10-01 02:15",
-   "summary": "After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now t",
-   "ai_related": true,
-   "title_ja": "トランプ新安全計画、AI指導者らの見解",
-   "summary_ja": "トランプ大統領はIT大手首脳らと会談後、自身のAI関連の発表について記者からの質問にいつもの調子で回答しました。"
-  },
-  {
    "id": "f9faccd416c4",
    "source": "NVIDIA Blog",
    "source_id": "nvidia",
@@ -2573,7 +2486,7 @@
    "url": "https://www.constructiondive.com/news/ai-doesnt-fix-data-problem-construction-need-unified-language/831774/",
    "published": "2026-09-30T16:33+00:00",
    "published_jst": "2026-10-01 01:33",
-   "summary": "One contractor's data director has documentation tips for construction firms adopting artificial intelligence tools.",
+   "summary": "One contractor’s data director has documentation tips for construction firms adopting artificial intelligence tools.",
    "ai_related": true,
    "title_ja": "AIはデータ問題を解決せず、むしろ露呈させた",
    "summary_ja": "AI導入の難しさはモデル自体ではなく、統一されたフォルダ命名規則の欠如にあると土木・海洋請負会社のデータディレクターが指摘しています。"
@@ -2637,21 +2550,6 @@
    "ai_related": true,
    "title_ja": "Google、AI設計のタンパク質に透かし技術を開発",
    "summary_ja": "バイオセキュリティー対策を目的とし、人気のAIタンパク質設計ツールに対応する仕組みを開発した。"
-  },
-  {
-   "id": "1c9685f8d86d",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "All the latest news on Meta’s cute, creepy Muse AI agent",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-   "published": "2026-09-30T15:18+00:00",
-   "published_jst": "2026-10-01 00:18",
-   "summary": "Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also an",
-   "ai_related": true,
-   "title_ja": "Metaのキュートで不気味なAI「Muse」の最新情報",
-   "summary_ja": "Metaが発表したAIエージェント「Muse」はメール送信や買い物代行などに対応。Metaを信頼するなら非常に有効なツールだ。"
   },
   {
    "id": "526ba7442ca8",
@@ -2742,21 +2640,6 @@
    "ai_related": false
   },
   {
-   "id": "445d1099f679",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google reportedly tests paying publishers for AI search results",
-   "url": "https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
-   "published": "2026-09-30T14:51+00:00",
-   "published_jst": "2026-09-30 23:51",
-   "summary": "Google has launched a pilot program that pays publishers for their contributions to its AI-powered search features, according to a report from The Information. The pilot program reportedly includes around 100 publishers and comes as Google faces scrutiny over the impact of its AI features on web tra",
-   "ai_related": true,
-   "title_ja": "Google、AI検索結果の対価としてパブリッシャーへの支払いをテストか",
-   "summary_ja": "報道によると、Googleは約100社のパブリッシャーを対象に、AI検索機能への貢献度に応じた支払いテストを実施している。"
-  },
-  {
    "id": "0422b1447400",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -2800,36 +2683,6 @@
    "ai_related": true,
    "title_ja": "OpenAI、安全性への懸念からIPOを延期",
    "summary_ja": "OpenAIはIPO計画が遅れる中、非公開でさらに300億ドルの資金調達を進めている。"
-  },
-  {
-   "id": "20123371ed15",
-   "source": "AEC Magazine",
-   "source_id": "aecmag",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Maxon automates Cinema 4D with MCP Server",
-   "url": "https://aecmag.com/visualisation/maxon-automates-cinema-4d-with-mcp-server/",
-   "published": "2026-09-30T13:43+00:00",
-   "published_jst": "2026-09-30 22:43",
-   "summary": "Enables artists to hand off repetitive, procedural, and iterative tasks The post Maxon automates Cinema 4D with MCP Server appeared first on AEC Magazine .",
-   "ai_related": false,
-   "title_ja": "Maxon、MCPサーバーでCinema 4Dを自動化",
-   "summary_ja": "アーティストが定型や繰り返しの反復作業を効率的に手放せるようになる機能を提供。"
-  },
-  {
-   "id": "d054a3c33473",
-   "source": "PBC Today (UK)",
-   "source_id": "pbctoday",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Vectorworks nominated for 6 Annual Construction Computing Awards",
-   "url": "https://www.pbctoday.co.uk/news/digital-construction-news/vectorworks-nominated-6-annual-construction-computing-awards/166190/",
-   "published": "2026-09-30T13:43+00:00",
-   "published_jst": "2026-09-30 22:43",
-   "summary": "Global design and BIM software provider Vectorworks, Inc., is a finalist for six categories at the 2026 Construction Computing Awards. The post Vectorworks nominated for 6 Annual Construction Computing Awards appeared first on Planning, Building & Construction Today .",
-   "ai_related": true,
-   "title_ja": "Vectorworksが建設コンピュート賞の6部門にノミネート",
-   "summary_ja": "BIMソフト大手のVectorworksが、2026年建設コンピュート賞の6部門でファイナリストに選出された。"
   }
  ]
 }
