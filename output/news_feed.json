@@ -1,20 +1,106 @@
 {
- "generated_at": "2026-10-02T19:58+00:00",
- "generated_at_jst": "2026-10-03 04:58",
+ "generated_at": "2026-10-02T23:17+00:00",
+ "generated_at_jst": "2026-10-03 08:17",
  "window_hours": 48,
  "counts": {
-  "ai_global": 61,
-  "construction_global": 40,
-  "ai_japan": 30,
-  "construction_japan": 61
+  "ai_global": 62,
+  "construction_global": 35,
+  "ai_japan": 27,
+  "construction_japan": 59
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "6ee8ae0821d3",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+   "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+   "published": "2026-10-02T23:03+00:00",
+   "published_jst": "2026-10-03 08:03",
+   "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+   "ai_related": true
+  },
+  {
+   "id": "3cc6542c47eb",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Sean Parker is rebuilding Stability AI around music",
+   "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+   "published": "2026-10-02T21:09+00:00",
+   "published_jst": "2026-10-03 06:09",
+   "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
+   "ai_related": true
+  },
+  {
+   "id": "c0a74765cc53",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta open sources code to let you make Muse AI gadgets",
+   "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+   "published": "2026-10-02T21:08+00:00",
+   "published_jst": "2026-10-03 06:08",
+   "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]",
+   "ai_related": true
+  },
+  {
+   "id": "f10ac2fa6ec2",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+   "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+   "published": "2026-10-02T20:30+00:00",
+   "published_jst": "2026-10-03 05:30",
+   "summary": "Amazon praised for ending NDAs but slammed for downplaying data center pollution.",
+   "ai_related": true
+  },
+  {
+   "id": "e148a12b4219",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+   "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+   "published": "2026-10-02T20:08+00:00",
+   "published_jst": "2026-10-03 05:08",
+   "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do",
+   "ai_related": true
+  },
+  {
+   "id": "1605fd5c896b",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI music generator Suno can now create spoken audio with matching background music",
+   "url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+   "published": "2026-10-02T20:07+00:00",
+   "published_jst": "2026-10-03 05:07",
+   "summary": "Suno is adding a feature called \"Speech\" to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it's built for things like poems, meditations, and bedtime stories. Suno hasn't said how the model was trained. The article AI music ge",
+   "ai_related": true
+  },
   {
    "id": "3928d44caa1b",
    "source": "The Decoder",
@@ -265,21 +351,6 @@
    "published_jst": "2026-10-03 00:29",
    "summary": "AIエージェントの導入課題は、導入前は「目的・データ・人材」、導入後は「連携・精度・定着」と、段階によって中身が変わります。 経営層から検討を任されたものの、どこでつまずくのかが見えず計画を立てられない担当者は少なくあり... The post AIエージェントの導入課題10個を調査データで解説！導入前後の壁と解決策 first appeared on AI専門ニュースメディア AINOW .",
    "ai_related": true
-  },
-  {
-   "id": "333ab07d97b5",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Data Centers Power Construction Job Growth in September",
-   "url": "https://constructionexec.com/article/data-centers-power-construction-job-growth-in-september/?utm_source=rss&utm_medium=rss&utm_campaign=data-centers-power-construction-job-growth-in-september",
-   "published": "2026-10-02T15:22+00:00",
-   "published_jst": "2026-10-03 00:22",
-   "summary": "WASHINGTON, Oct. 2—The construction industry added 11,000 jobs on net in September, according to an Associated Builders and Contractors analysis of data released by the U.S. Bureau of Labor Statistics. On a year-over-year basis, industry employment has increased by 109,000 jobs, or 1.3%. Nonresident",
-   "ai_related": false,
-   "title_ja": "9月の米建設業、データセンター需要で雇用増",
-   "summary_ja": "米労働統計局のデータによると、9月の建設業の雇用は純増で1万1,000人増加した。"
   },
   {
    "id": "55814ec631f9",
@@ -677,21 +748,6 @@
    "summary_ja": "総額7億ポンドに及ぶ海洋保護対策における最新の建設マイルストーンが達成された。"
   },
   {
-   "id": "3cb27f77b653",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Attracting and Retaining Talent: How to Create a Workplace Where Women Can Thrive",
-   "url": "https://constructionexec.com/article/attracting-and-retaining-talent-how-to-create-a-workplace-where-women-can-thrive/?utm_source=rss&utm_medium=rss&utm_campaign=attracting-and-retaining-talent-how-to-create-a-workplace-where-women-can-thrive",
-   "published": "2026-10-02T10:00+00:00",
-   "published_jst": "2026-10-02 19:00",
-   "summary": "Attracting women to a construction site can add important new skills and perspective, and will require new recruiting tactics. The post Attracting and Retaining Talent: How to Create a Workplace Where Women Can Thrive first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "女性が活躍できる職場環境の作り方",
-   "summary_ja": "建設現場への女性採用は新たなスキルや視点をもたらし、新たな採用戦略が必要となる。"
-  },
-  {
    "id": "82d69ee84e84",
    "source": "PBC Today (UK)",
    "source_id": "pbctoday",
@@ -852,7 +908,7 @@
   },
   {
    "id": "5a835dd5af26",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -865,7 +921,7 @@
   },
   {
    "id": "4249ade464f1",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -903,6 +959,32 @@
    "published_jst": "2026-10-02 16:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "ef21b1bc06d4",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "レバジョブ、大阪支店にて施工管理技士の転職支援を開始",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3M0RWWXpPbjhKQk1pbDNnRW9hdWEyME5yN2JsbGY5eGVrbmd6TEZIS3Z1Q0hUSDlNcVhvWC1jbGs4OWxzNnJ5UWR6QTdqMlB4WjBRdGNWVXJpemV4NGFJZko1dWpaQzh3Yk1GYnJrUnZMNmV4dlhqWXlPTQ?oc=5",
+   "published": "2026-10-02T06:45+00:00",
+   "published_jst": "2026-10-02 15:45",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "12599c657996",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "フツパー、現場向け安全管理AIプラットフォーム「OwloX」の先行提供を開始",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDbFdCRllWUmJoYURTeHMydEhDZ1ZCcjZZS0F2TERtczNaZmlOWUFxMnpzUGc1Q3BfcnllSWRIZmh1RFJxaEd4cU5NN0FlbUNJSVJiRnQwa05GVGpHYjVaU1VWU2ktOWxyYWpOeFo4ZHYxYXVfRmc?oc=5",
+   "published": "2026-10-02T06:15+00:00",
+   "published_jst": "2026-10-02 15:15",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "55e22446601b",
@@ -948,6 +1030,19 @@
    "ai_related": false,
    "title_ja": "Mace、2億ポンドのオックスフォード研究所計画から交代へ",
    "summary_ja": "建設途中の複合施設の根本的な再設計に伴い、施工業者が変更されることになった。"
+  },
+  {
+   "id": "35abea196b5d",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "bestatとかんでんエンジニアリング、地中送電工事の図面作成で共同実証",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QZHRtQWFxbjdwcmhqRklfM1EydGRiaTFVenptRGRfTnhyTFhTMXAxLUhSeEFPck1aWHFHRVJDNmVfOXphS0trMG8xd3BIRWh2REtSQQ?oc=5",
+   "published": "2026-10-02T04:21+00:00",
+   "published_jst": "2026-10-02 13:21",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "48554a5537db",
@@ -1025,6 +1120,32 @@
    "published": "2026-10-02T03:17+00:00",
    "published_jst": "2026-10-02 12:17",
    "summary": "Googleが新AIモデル「Gemini 4 Argon」を発表。自社評価ではAstraやFable 5.1、Opus 5.5を多くの項目で上回るとうたう。当面はサイバー防御組織などに限定提供し、一般提供は「できるだけ早く」とする。",
+   "ai_related": true
+  },
+  {
+   "id": "87a7234dae36",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+   "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+   "published": "2026-10-02T02:51+00:00",
+   "published_jst": "2026-10-02 11:51",
+   "summary": "Article URL: https://www.youtube.com/watch?v=NnV_cWeoo5Q Comments URL: https://news.ycombinator.com/item?id=49929391 Points: 151 # Comments: 33",
+   "ai_related": true
+  },
+  {
+   "id": "9ad21ce3b81b",
+   "source": "千葉テレビ放送株式会社",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "NTTドコモビジネス、竹中工務店と清水建設の日本国内の建築現場へ建設業向けクラウド型工程アプリ「GaNett(R)」を展開 ～建築現場における施工管理DX基盤の展開を推進～",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Gcy1uUDk0eGllTi1Ba2RyOTdKWHJOR3BWWHZvUDZBM1Fuc3RaeFN4V0hLQ1pIdDdXVFY2SExkUWlwdGVVN1FqQjdUOU94Z09BNlpxb0hra1Y3Ri1WTFIw?oc=5",
+   "published": "2026-10-02T02:10+00:00",
+   "published_jst": "2026-10-02 11:10",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -1132,15 +1253,15 @@
    "ai_related": false
   },
   {
-   "id": "b82be5a944e5",
-   "source": "Bloomberg.com",
+   "id": "50a51b2ee06b",
+   "source": "TBS NEWS DIG",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "TSMC、AI半導体増産で米テキサス州に拠点建設検討－数百億ドル規模",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBDNy1OTnBwTDU3dUtVREZoNloySDI0VnpCOFUzM3lUdVBGQUJsbEpmZzZ0T2tacWVRQnNhdTJnRWdqLWZoRE5zV0RWdUs4S1phTnNQdmZVeTUtVlg2T0ZCZGZqU19RM2lka0p3bUxQR3RoVDhObURj?oc=5",
-   "published": "2026-10-02T00:20+00:00",
-   "published_jst": "2026-10-02 09:20",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56aFpsYmRaS2JFYzYtV25nOEMyWnY1VFlqZUZTOXBjNXE4ZzZSRDdGTGljVWRaZUJCVVpablN1WExSSG9PaHgybEwtdGp2eWZJSnZJeFVESmdiZjRUdjV3MXFtUFdHMm9ZT0tjaHFtcEJlYXdN?oc=5",
+   "published": "2026-10-02T00:52+00:00",
+   "published_jst": "2026-10-02 09:52",
    "summary": "",
    "ai_related": false
   },
@@ -1188,6 +1309,19 @@
    "summary_ja": "NVIDIA Blackwell GPUで稼働するGPT-6 Astra Ultrafastが、APIおよび対象ユーザー向けに提供開始。"
   },
   {
+   "id": "59d2d53538ac",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業に特化したAIエージェント「現場Hub AI」を提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOLU5vd09qZ294Ul9kcTdhZEwyLVJ3eXhvUVJfS084YlpRR3NPRnpHbmRJTHdTRk5ydnh3VldsWFpBY05QeC1ZTmdvRHVUZ01CeXItSQ?oc=5",
+   "published": "2026-10-01T23:21+00:00",
+   "published_jst": "2026-10-02 08:21",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "f2281a9c751b",
    "source": "Межа. Новини України.",
    "source_id": "gnews_kensetsu_ai",
@@ -1224,6 +1358,19 @@
    "published": "2026-10-01T23:00+00:00",
    "published_jst": "2026-10-02 08:00",
    "summary": "Anthropicは、人間とAIエージェントによる効果的なチームを構築するためのベストプラクティスをまとめたブログ記事を公開した。Slack社の最高製品責任者（CPO）へのインタビューに基づいている。",
+   "ai_related": true
+  },
+  {
+   "id": "2ac8db000e71",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Sites in ChatGPT",
+   "url": "https://chatgpt.com/features/sites/",
+   "published": "2026-10-01T22:22+00:00",
+   "published_jst": "2026-10-02 07:22",
+   "summary": "Article URL: https://chatgpt.com/features/sites/ Comments URL: https://news.ycombinator.com/item?id=49927747 Points: 176 # Comments: 200",
    "ai_related": true
   },
   {
@@ -1351,7 +1498,7 @@
   },
   {
    "id": "d7268d3044c8",
-   "source": "毎日新聞",
+   "source": "mainichi.jp",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1517,7 +1664,7 @@
    "url": "https://bfl.ai/models/flux-3-image",
    "published": "2026-10-01T19:24+00:00",
    "published_jst": "2026-10-02 04:24",
-   "summary": "Article URL: https://bfl.ai/models/flux-3-image Comments URL: https://news.ycombinator.com/item?id=49925974 Points: 196 # Comments: 44",
+   "summary": "Article URL: https://bfl.ai/models/flux-3-image Comments URL: https://news.ycombinator.com/item?id=49925974 Points: 246 # Comments: 54",
    "ai_related": true,
    "title_ja": "FLUX 3 Imageに関する最新情報と議論",
    "summary_ja": "FLUX 3 Imageのモデル詳細ページと、Hacker Newsでのコメントや評価を紹介。"
@@ -1551,21 +1698,6 @@
    "ai_related": true,
    "title_ja": "スペースデータセンター実現にはStarshipの1800回打ち上げが必要か",
    "summary_ja": "Googleは宇宙データセンターの実現に向け、初の高性能チップを軌道上に打ち上げた。"
-  },
-  {
-   "id": "72e4787ffb84",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Data Center Construction Spending Growing at 149% Annualized Pace Since March",
-   "url": "https://constructionexec.com/article/data-center-construction-spending-growing-at-149-annualized-pace-since-march/?utm_source=rss&utm_medium=rss&utm_campaign=data-center-construction-spending-growing-at-149-annualized-pace-since-march",
-   "published": "2026-10-01T18:46+00:00",
-   "published_jst": "2026-10-02 03:46",
-   "summary": "“Frankly, it’s becoming difficult to contextualize the size and speed of this boom,\" says Anirban Basu. \"Data center construction spending leapt another 7.5% in August.\" The post Data Center Construction Spending Growing at 149% Annualized Pace Since March first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "データセンター建設費が年率149%で急増",
-   "summary_ja": "ブームの規模とスピードを表現するのが難しくなっており、8月も建設支出がさらに7.5%急増した。"
   },
   {
    "id": "2badf9642d90",
@@ -1804,36 +1936,6 @@
    "ai_related": false
   },
   {
-   "id": "9c6f1560c622",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-   "published": "2026-10-01T14:36+00:00",
-   "published_jst": "2026-10-01 23:36",
-   "summary": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by",
-   "ai_related": true,
-   "title_ja": "OpenAIの新エージェント、Metaに対抗できるか",
-   "summary_ja": "年次カンファレンスDevDayでOpenAIは、初期から成功を収めるMetaのMuseなどライバルに対抗する新機能を多数発表した。"
-  },
-  {
-   "id": "82308453aa30",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
-   "url": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
-   "published": "2026-10-01T14:26+00:00",
-   "published_jst": "2026-10-01 23:26",
-   "summary": "Anthropic is now offering Claude for Government to US federal and state agencies. The platform runs in a FedRAMP High environment, the strictest US security level for cloud services. Agencies get the same features as enterprise customers, pay for what they use with fixed spending caps, and can set b",
-   "ai_related": true,
-   "title_ja": "Anthropic、国防総省との対立が続く中、政府機関向けにClaudeを提供開始",
-   "summary_ja": "Anthropicは米政府機関向けに「Claude for Government」の提供を開始。最高レベルのクラウドセキュリティ環境で稼働します。"
-  },
-  {
    "id": "252195962d3b",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -1877,36 +1979,6 @@
    "ai_related": true,
    "title_ja": "Photonがモバイルアプリの「葬儀」を挙行、エージェント置き換えへ450万ドルを調達",
    "summary_ja": "メッセージアプリ上で動作するAIエージェントの開発支援を手がけ、アプリに代わる将来の需要を見据えています。"
-  },
-  {
-   "id": "adb45e048c1d",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
-   "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
-   "published": "2026-10-01T14:00+00:00",
-   "published_jst": "2026-10-01 23:00",
-   "summary": "Today I’m talking with Josh Dzieza, a longtime features writer here at The Verge, about Kevin O’Leary’s plans to build a massive data center in Utah. The idea was to build the world’s biggest data center — a 40,000-acre AI campus with nine gigawatts of power, or more than double the average power us",
-   "ai_related": true,
-   "title_ja": "ケヴィン・オレアリーのユタ州データセンター計画の舞台裏",
-   "summary_ja": "The Vergeの記者ジョシュ・ジジーアが、ユタ州に世界最大規模の4万エーカーのデータセンターを建設する計画の調査について語る。"
-  },
-  {
-   "id": "833429551e09",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "ABC Applauds Senate for Confirming Keith Sonderling as Secretary of Labor",
-   "url": "https://constructionexec.com/article/abc-applauds-senate-for-confirming-keith-sonderling-as-secretary-of-labor/?utm_source=rss&utm_medium=rss&utm_campaign=abc-applauds-senate-for-confirming-keith-sonderling-as-secretary-of-labor",
-   "published": "2026-10-01T13:53+00:00",
-   "published_jst": "2026-10-01 22:53",
-   "summary": "Keith Sonderling was confirmed as the Secretary of Labor. The post ABC Applauds Senate for Confirming Keith Sonderling as Secretary of Labor first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "ABC、キース・ソンダリングの労働長官就任を歓迎",
-   "summary_ja": "キース・ソンダリングが労働長官に承認されたことに対し、ABCが上院の決定を称賛した。"
   },
   {
    "id": "fb771b7bca9e",
@@ -1997,21 +2069,6 @@
    "ai_related": false,
    "title_ja": "Gilbaneらが1.28億ドルのNYコミュニティ建設を完了",
    "summary_ja": "予算を1,000万ドル下回り、予定より2年早くプロジェクトを完了し、設計施工の成果を示した。"
-  },
-  {
-   "id": "de11222dc23d",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
-   "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
-   "published": "2026-10-01T12:00+00:00",
-   "published_jst": "2026-10-01 21:00",
-   "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-   "ai_related": true,
-   "title_ja": "元Google/SpaceX幹部が設立したSatlyt、衛星AIで800万ドル調達",
-   "summary_ja": "Satlytは軌道コンピューティングのAndroidを目指し、多くの衛星で動くオープンなソフトウェアを提供。SpaceXの閉鎖的なアプローチとは対照的。"
   },
   {
    "id": "c978462d5c9f",
@@ -2135,21 +2192,6 @@
    "published_jst": "2026-10-01 19:26",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "b1d2980a7469",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Turning Hype Into ROI: Practical AI Applications for Midsized Contractors",
-   "url": "https://constructionexec.com/article/turning-hype-into-roi-practical-ai-applications-for-midsized-contractors/?utm_source=rss&utm_medium=rss&utm_campaign=turning-hype-into-roi-practical-ai-applications-for-midsized-contractors",
-   "published": "2026-10-01T10:00+00:00",
-   "published_jst": "2026-10-01 19:00",
-   "summary": "The AI adoption market is set to near $40 billion in the next eight years; and North America already accounts for close to half of that sum. The post Turning Hype Into ROI: Practical AI Applications for Midsized Contractors first appeared on Construction Executive .",
-   "ai_related": true,
-   "title_ja": "AIの実用化：中堅建設会社に向けたROI向上策",
-   "summary_ja": "AI導入市場は今後8年間で400億ドルに迫る見込みで、北米がその約半分を占めている。"
   },
   {
    "id": "13489d8bc8ea",
@@ -2302,7 +2344,7 @@
   },
   {
    "id": "bd7235110c66",
-   "source": "AT PARTNERS",
+   "source": "atpartners.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2380,7 +2422,7 @@
   },
   {
    "id": "b5c9157884ba",
-   "source": "ライブドアニュース",
+   "source": "news.livedoor.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2457,6 +2499,19 @@
    "ai_related": false
   },
   {
+   "id": "ae9ce398da27",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "WellAgent、土木会社の利益率・施工能力向上を目指す「FDE型DX支援」の相談受付を開始",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xYzdzSXhqaW45dEhpN0RfYVlFYXVTalBFZVR2MUpuZ0RITE5IUEc0LWE3ZGdORHozUV9XYjJhaENYM2lIZ0JtSFpXS2g3RXhDVW9QR0ljS3N5NXNZWGpNMHUyZTV2cC11?oc=5",
+   "published": "2026-10-01T01:45+00:00",
+   "published_jst": "2026-10-01 10:45",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "9282d034c3b2",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2521,192 +2576,6 @@
    "published": "2026-10-01T00:00+00:00",
    "published_jst": "2026-10-01 09:00",
    "summary": "ANDPADを利用してDXを推進する先進的な企業や、ANDPADの利用度の高いユーザーを表彰する「ANDPAD AWARD」。6度目となる「ANDPAD AWARD 2027」の、DXカンパニー部門・... 投稿 ANDPAD AWARD エントリーを機に見えた「現場の熱量と新たな目標」 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "5913fefd1e35",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AI主権はなぜ「切実な経営課題」になったのか モデル“禁輸”問題が示した「選択肢を持つこと」の重要性",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/01/2000001909/",
-   "published": "2026-09-30T23:00+00:00",
-   "published_jst": "2026-10-01 08:00",
-   "summary": "AIの活用が進むほど、企業は外部のサービスやインフラへの依存を深める。データやモデルへのコントロールを保ち、自らの意思で選択できる状態を守る「AI主権」はなぜ経営課題になったのか、4つの観点から解説する。",
-   "ai_related": true
-  },
-  {
-   "id": "05fb3a8397f3",
-   "source": "Infoseek",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "東京都市大学リカレントプログラムの講師に専務取締役の宮崎隆司が就任 次世代経営者のための建設業DX/AI変革リーダー育成コースを担当",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fZEFZRHVScEU4YmVYUFpDWGZKS3E0MjBaX0pETGRFNzRiT2JwcnljTHc2YW1fMTBxUG5qYXZOUm1CdGdtSkhFS2pxb1pXVzRfd0Q2Y0hjb3hPaUdZRldDUXhaZGFXRlFjM3U2YmJFVFZaZw?oc=5",
-   "published": "2026-09-30T22:40+00:00",
-   "published_jst": "2026-10-01 07:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "3081ab8821aa",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIで紙図面を一瞬でCAD化 日本HPが「建設図面の最新版が分かる」プリンタ新機能を発表：設計×AI（1/3 ページ）",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rcWY4NGNwdXByUDBDRUhGX0hUUk15SEpZWGM1UGRHZHZJUjV3YTlKb09Ua0dJNDRLc0RZTVFzRE9fVW14ckk3OU9MOVhSYnUzVDVzMDZsc19Ta0I2ekJCSHE5MldYNFRlc0s3TQ?oc=5",
-   "published": "2026-09-30T22:33+00:00",
-   "published_jst": "2026-10-01 07:33",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "c9246ce01248",
-   "source": "ITmedia",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIで紙図面を一瞬でCAD化 日本HPが「建設図面の最新版が分かる」プリンタ新機能を発表：設計×AI（3/3 ページ）",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NNXZ5bWlxWmhUejA5M3h4bGRVNFM2cHJOZWgtZWx0cHk1WjhxTXRkcExEQm9XdU1sdHdLWFdHUmc2bHZjcHJreXRla1hiMXBPaWc5WHk1MFNKbWtidVJFMlluQmkybk94Y2JWU1ZzYw?oc=5",
-   "published": "2026-09-30T22:33+00:00",
-   "published_jst": "2026-10-01 07:33",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "8247ec0c4975",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "日立とファナックがフィジカルAI協業 日立エッジAI×ファナックロボ有効性も検証",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news031.html",
-   "published": "2026-09-30T22:30+00:00",
-   "published_jst": "2026-10-01 07:30",
-   "summary": "日立製作所とファナックはフィジカルAI（人工知能）実装の共同事業化に向けた戦略的パートナーシップを締結した。日立のAI技術とファナックの産業用ロボットを組み合わせたフィジカルAIの共同実証と共同展開を推進する。共同実証で得られたフィジカルAIの実装／運用ノウハウを生かして、2027年度からグローバルなインストールベースを活用して展開する。",
-   "ai_related": true
-  },
-  {
-   "id": "f34dc0e9049d",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "人工知能(AI)データセンター建設競争がメモリー半導体市場を熱くし、米国マイクロンの四半期売上が1年ぶりに約4倍に跳ね上がった。 AIサーバーに入る高帯域幅メモリー(HBM)の需要が供給を大幅に上回り..",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8tUlVPOVhVaGY2LXVpOFBzUmphYm9ZbG9yRFZha040SnNlOE4zMm0tWG1FanFfUWxRN0hjQkRVS1lHQ0N0ZUNxU1o0TQ?oc=5",
-   "published": "2026-09-30T22:26+00:00",
-   "published_jst": "2026-10-01 07:26",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "f604b1b11102",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「デジタルスレッドとAIで動かす」 富士ソフトがスマート工場で10％成長狙う",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news034.html",
-   "published": "2026-09-30T22:15+00:00",
-   "published_jst": "2026-10-01 07:15",
-   "summary": "富士ソフトは経営体制「富士ソフト Gen.2」に基づく、製造業向けスマート工場事業戦略を発表した。既存設備を生かし、データをデジタルスレッドで統合しフィジカルAIで現場を動かす4つのオファリングを展開する。同事業で10％以上の成長を目指す。",
-   "ai_related": true
-  },
-  {
-   "id": "6b8fbf1d9e44",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "コンクリート打設とは？｜手順・時間制限・注意点を建設コンサルタントが解説",
-   "url": "https://news.build-app.jp/article/42901/",
-   "published": "2026-09-30T22:00+00:00",
-   "published_jst": "2026-10-01 07:00",
-   "summary": "コンクリート打設は、構造物の強度と耐久性を決める、やり直しのきかない工程です。 そこでこの記事では、JASS 5（建築工事標準仕様書）と土木...",
-   "ai_related": false
-  },
-  {
-   "id": "562470c22e28",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "He Built This City",
-   "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-   "published": "2026-09-30T21:54+00:00",
-   "published_jst": "2026-10-01 06:54",
-   "summary": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model , the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. It exceeded my already high expectations. The exhibition closes on 12th October so you should absolu",
-   "ai_related": true,
-   "title_ja": "彼はこの街を築いた：Joe Mackenの巨大なニューヨーク模型",
-   "summary_ja": "ニューヨーク市立博物館で、21年かけてバルサ材と段ボールで作られた50x27フィートの巨大な街の模型を鑑賞した。"
-  },
-  {
-   "id": "fc12fb4d7051",
-   "source": "施工の神様",
-   "source_id": "sekokan_navi",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "つい、うっかり！トップライト踏み抜き未遂",
-   "url": "https://sekokan-navi.jp/magazine/87690",
-   "published": "2026-09-30T21:00+00:00",
-   "published_jst": "2026-10-01 06:00",
-   "summary": "屋上で写真を撮っていた、その足元が、突然沈んだ。 気づいたときには、アクリル製のトップライトの上に乗っていた。ミシミシと不穏な音が鳴り始め、5m下のコンクリートが頭をよぎった——。これは、私が経験した「踏み抜き未遂」の話... The post つい、うっかり！トップライト踏み抜き未遂 first appeared on 施工の神様 .",
-   "ai_related": false
-  },
-  {
-   "id": "90f0b1c14a7a",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ＭＳＣ、佐藤渡辺／プラごみを道路舗装に活用／建設業界初、リサイクル地産地消へ",
-   "url": "https://www.decn.co.jp/?p=188061",
-   "published": "2026-09-30T21:00+00:00",
-   "published_jst": "2026-10-01 06:00",
-   "summary": "プラスチックごみのリサイクルを手がけるＭＳＣ（仙台市太白区、麦谷貴司社長）と佐藤渡辺は、リサイクル過程で発生する残りかすを道路舗装材に使う技術を開発した。ＭＳＣ独自の微粉化技術で残りかすを加工したアスファルト改質添加剤 […]",
-   "ai_related": false
-  },
-  {
-   "id": "556e1e4b03fe",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
-   "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
-   "published": "2026-09-30T20:11+00:00",
-   "published_jst": "2026-10-01 05:11",
-   "summary": "So much for Gemini 3.5 Pro.",
-   "ai_related": true,
-   "title_ja": "Googleが新AI「Gemini 4 Argon」を発表、ただし現在は利用不可",
-   "summary_ja": "Gemini 3.5 Proの次はこれだが、まだ一般には公開されていない。"
-  },
-  {
-   "id": "15e70ee5e4a7",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini 4 Argon: our next era of frontier intelligence",
-   "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-   "published": "2026-09-30T20:01+00:00",
-   "published_jst": "2026-10-01 05:01",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "28507400e2f6",
-   "source": "日本経済新聞",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国土交通省、建設業の供給力強化へ新事業 処遇改善やDX推進を支援",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KRU9mZUlHSXdQa0VWYU0wT2JRMFRBQUxDTEFXNURKX1ZtTHNBMEVCOGZ3SWx1ZWxTS1d1ZURRSXUxejhTOEY2QXV2VUxaVXY1ck1zbHZHdElCU2Y4cUZ1enc0TEFHc09nSm05NQ?oc=5",
-   "published": "2026-09-30T20:00+00:00",
-   "published_jst": "2026-10-01 05:00",
-   "summary": "",
    "ai_related": true
   }
  ]
