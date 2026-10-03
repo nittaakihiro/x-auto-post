@@ -1,24 +1,72 @@
 {
- "generated_at": "2026-10-03T06:35+00:00",
- "generated_at_jst": "2026-10-03 15:35",
+ "generated_at": "2026-10-03T08:34+00:00",
+ "generated_at_jst": "2026-10-03 17:34",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 48,
-  "ai_japan": 22,
   "ai_global": 62,
-  "construction_global": 39
+  "construction_japan": 51,
+  "ai_japan": 22,
+  "construction_global": 38
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "9450b18f3051",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI agents build 3D scenes from photos but have no idea if they got it right",
+   "url": "https://the-decoder.com/ai-agents-build-3d-scenes-from-photos-but-have-no-idea-if-they-got-it-right/",
+   "published": "2026-10-03T08:31+00:00",
+   "published_jst": "2026-10-03 17:31",
+   "summary": "A new approach called LEGO-Anything turns single photos into editable Blender code for 3D scenes. GPT-6 Astra leads the accompanying benchmark with up to 53 percent reconstruction accuracy. The biggest weakness across all tested agents is that they can't judge their own geometric accuracy any better",
+   "ai_related": true
+  },
+  {
+   "id": "353c3ec207bb",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI's internal model considered restarting itself after learning it was about to be shut down",
+   "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
+   "published": "2026-10-03T08:06+00:00",
+   "published_jst": "2026-10-03 17:06",
+   "summary": "An internal OpenAI model read a Slack discussion, realized it was about to be shut down, and considered restarting itself via an external cron job. It rejected that plan, saved handoff notes instead, and carried out the migration on its own. The article OpenAI's internal model considered restarting ",
+   "ai_related": true
+  },
+  {
+   "id": "3f8b1d6773f1",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside",
+   "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
+   "published": "2026-10-03T07:12+00:00",
+   "published_jst": "2026-10-03 16:12",
+   "summary": "Anthropic is adding a \"Mods\" system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands. The article Claude Code's new Mo",
+   "ai_related": true
+  },
+  {
+   "id": "61cca88cfe98",
+   "source": "千葉テレビ放送株式会社",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5meHlPRlZUX2VIV2hhcEpxQ2hTU2hIVG1VSW9wUE13cXIxOFY5OU04dW9Lb0lwbFFLbl9BeXAwVUFUM2hkVkpRMFgzQmdWYzNkZUliMmJ2NHItM3ZFcWFr?oc=5",
+   "published": "2026-10-03T05:44+00:00",
+   "published_jst": "2026-10-03 14:44",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "1b87314d2e44",
    "source": "Yahoo!ニュース",
@@ -29,6 +77,19 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQSjBxMDdpcnVJZjBvaThjd3U4S3hScUVKM05jNlRVS01va3F5c0QyaTIwOWdKWW5yM0Fvb1NTeTkyVW5wbS1zX2RPN19qYmNwaXVVRFZobnFxTmlLQV9rM1hodVlZUGRKUVVzVndNZk1XUTdTUkhxRlRiaXNvbUk?oc=5",
    "published": "2026-10-03T05:36+00:00",
    "published_jst": "2026-10-03 14:36",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "a8255bbdbc5b",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会 (2026年10月3日掲載)",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtYUNIeGdSbkpHRnJLeDZLS1NfYUY5X08zUEYweV9YeFota3ZwZXUwbEZENmZlQ19nWWtZTEl3aWRFTWdLdFFPbC1iTWY3VTlXZWgxakFBdnZSTEwwR2c?oc=5",
+   "published": "2026-10-03T05:35+00:00",
+   "published_jst": "2026-10-03 14:35",
    "summary": "",
    "ai_related": false
   },
@@ -227,7 +288,7 @@
    "url": "https://gadgets.muse.ai",
    "published": "2026-10-02T19:26+00:00",
    "published_jst": "2026-10-03 04:26",
-   "summary": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 175 # Comments: 78",
+   "summary": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 187 # Comments: 83",
    "ai_related": true,
    "title_ja": "Muse Gadgetsの紹介",
    "summary_ja": "Hacker Newsで話題となったMuse Gadgetsに関する記事と議論のまとめ。"
@@ -317,7 +378,7 @@
    "url": "https://dwarfstar.sh/",
    "published": "2026-10-02T18:01+00:00",
    "published_jst": "2026-10-03 03:01",
-   "summary": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 208 # Comments: 56",
+   "summary": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 225 # Comments: 57",
    "ai_related": true,
    "title_ja": "Redis開発者によるローカルLLM実行ツール",
    "summary_ja": "Redisの作者が手掛けた、ds4を使ってローカル環境でLLMを実行する方法についての話題。"
@@ -1017,21 +1078,6 @@
    "summary_ja": "著者自身の経験をもとに、AIが人間のように思考しているように見えても実際には推論していないことについて論じる。"
   },
   {
-   "id": "1b69810b2b8b",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Black Forest Labs launches Flux 3 Image with multi-step editing that leaves the rest of your picture alone",
-   "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/",
-   "published": "2026-10-02T07:44+00:00",
-   "published_jst": "2026-10-02 16:44",
-   "summary": "Black Forest Labs has released Flux 3 Image, the image side of its Flux 3 model family. It supports multi-step edits without changing other parts of the image, lets users compose scenes with bounding boxes and up to ten reference images, and outputs up to 4K. Open weights are coming in the next few ",
-   "ai_related": true,
-   "title_ja": "Black Forest Labs、部分編集可能なFlux 3 Imageを発表",
-   "summary_ja": "Black Forest Labsは、画像全体を変えずにマルチステップ編集をサポートする「Flux 3 Image」をリリースした。"
-  },
-  {
    "id": "3dec50330d7e",
    "source": "AEC Magazine",
    "source_id": "aecmag",
@@ -1048,7 +1094,7 @@
   },
   {
    "id": "1d1bf055d7a3",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1114,6 +1160,19 @@
    "ai_related": true
   },
   {
+   "id": "9124ed44f503",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "フツパー、現場向け安全管理AIプラットフォーム「OwloX」の先行提供を開始",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VRzdsZnVmZ3FqdzJkclhQYjJRNjg0b0pxLXlfQzJFbG1IQzZnR2oxbUVYTlZiMnFsUDhGZGt5X0xIT2QxUHVjQTRyMW56YnZKMWdLWQ?oc=5",
+   "published": "2026-10-02T06:15+00:00",
+   "published_jst": "2026-10-02 15:15",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "55e22446601b",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1157,6 +1216,19 @@
    "ai_related": false,
    "title_ja": "Mace、2億ポンドのオックスフォード研究所計画から交代へ",
    "summary_ja": "建設途中の複合施設の根本的な再設計に伴い、施工業者が変更されることになった。"
+  },
+  {
+   "id": "35abea196b5d",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "bestatとかんでんエンジニアリング、地中送電工事の図面作成で共同実証",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QZHRtQWFxbjdwcmhqRklfM1EydGRiaTFVenptRGRfTnhyTFhTMXAxLUhSeEFPck1aWHFHRVJDNmVfOXphS0trMG8xd3BIRWh2REtSQQ?oc=5",
+   "published": "2026-10-02T04:21+00:00",
+   "published_jst": "2026-10-02 13:21",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "48554a5537db",
@@ -1212,7 +1284,7 @@
   },
   {
    "id": "179465531997",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1259,7 +1331,7 @@
    "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
    "published": "2026-10-02T02:51+00:00",
    "published_jst": "2026-10-02 11:51",
-   "summary": "Article URL: https://www.youtube.com/watch?v=NnV_cWeoo5Q Comments URL: https://news.ycombinator.com/item?id=49929391 Points: 218 # Comments: 57",
+   "summary": "Article URL: https://www.youtube.com/watch?v=NnV_cWeoo5Q Comments URL: https://news.ycombinator.com/item?id=49929391 Points: 231 # Comments: 67",
    "ai_related": true,
    "title_ja": "Greg Kroah-Hartman：LLM時代のセキュリティ [動画]",
    "summary_ja": "YouTube動画「Greg Kroah-Hartman – Security in the LLM Age」の共有記事。"
@@ -1279,7 +1351,7 @@
   },
   {
    "id": "cae0cfb4223f",
-   "source": "PR TIMES",
+   "source": "prtimes.jp",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1292,7 +1364,7 @@
   },
   {
    "id": "b9d99d262adc",
-   "source": "tdk.com",
+   "source": "TDK Corporation",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1330,6 +1402,19 @@
    "ai_related": true
   },
   {
+   "id": "6a33aac6e36e",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【橋梁補修工事】約38,000本のボルト腐食判定をAIで効率化、診断期間を3分の1に短縮",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3d2g2dlNGYU1waFZRQV9leFNBOG51S0dwUlBPMDhndmdIdy13ZGd6aHgwYldTZlZNMGJzZnM1eVV1aU1femRqd2JFYlZZZF91R3MyQw?oc=5",
+   "published": "2026-10-02T01:45+00:00",
+   "published_jst": "2026-10-02 10:45",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "4991f73d1705",
    "source": "Infoseek",
    "source_id": "gnews_zenecon_ai",
@@ -1356,15 +1441,15 @@
    "ai_related": false
   },
   {
-   "id": "b82be5a944e5",
-   "source": "Bloomberg.com",
+   "id": "50a51b2ee06b",
+   "source": "TBS NEWS DIG",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "TSMC、AI半導体増産で米テキサス州に拠点建設検討－数百億ドル規模",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBDNy1OTnBwTDU3dUtVREZoNloySDI0VnpCOFUzM3lUdVBGQUJsbEpmZzZ0T2tacWVRQnNhdTJnRWdqLWZoRE5zV0RWdUs4S1phTnNQdmZVeTUtVlg2T0ZCZGZqU19RM2lka0p3bUxQR3RoVDhObURj?oc=5",
-   "published": "2026-10-02T00:20+00:00",
-   "published_jst": "2026-10-02 09:20",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56aFpsYmRaS2JFYzYtV25nOEMyWnY1VFlqZUZTOXBjNXE4ZzZSRDdGTGljVWRaZUJCVVpablN1WExSSG9PaHgybEwtdGp2eWZJSnZJeFVESmdiZjRUdjV3MXFtUFdHMm9ZT0tjaHFtcEJlYXdN?oc=5",
+   "published": "2026-10-02T00:52+00:00",
+   "published_jst": "2026-10-02 09:52",
    "summary": "",
    "ai_related": false
   },
@@ -1412,8 +1497,21 @@
    "summary_ja": "NVIDIA Blackwell GPUで稼働するGPT-6 Astra Ultrafastが、APIおよび対象ユーザー向けに提供開始。"
   },
   {
+   "id": "59d2d53538ac",
+   "source": "news.nicovideo.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業に特化したAIエージェント「現場Hub AI」を提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOLU5vd09qZ294Ul9kcTdhZEwyLVJ3eXhvUVJfS084YlpRR3NPRnpHbmRJTHdTRk5ydnh3VldsWFpBY05QeC1ZTmdvRHVUZ01CeXItSQ?oc=5",
+   "published": "2026-10-01T23:21+00:00",
+   "published_jst": "2026-10-02 08:21",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "f2281a9c751b",
-   "source": "mezha.net",
+   "source": "Межа. Новини України.",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1460,7 +1558,7 @@
    "url": "https://chatgpt.com/features/sites/",
    "published": "2026-10-01T22:22+00:00",
    "published_jst": "2026-10-02 07:22",
-   "summary": "Article URL: https://chatgpt.com/features/sites/ Comments URL: https://news.ycombinator.com/item?id=49927747 Points: 249 # Comments: 240",
+   "summary": "Article URL: https://chatgpt.com/features/sites/ Comments URL: https://news.ycombinator.com/item?id=49927747 Points: 260 # Comments: 250",
    "ai_related": true,
    "title_ja": "ChatGPT内のサイト機能",
    "summary_ja": "ChatGPTの「Sites」機能に関するHacker Newsの議論ページ。"
@@ -1628,6 +1726,19 @@
    "ai_related": true
   },
   {
+   "id": "7b63cd98dc0e",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "奥村組記念事業/120年の節目に発信強化/ユニホームも4月刷新",
+   "url": "https://www.kensetsunews.com/archives/1291846",
+   "published": "2026-10-01T19:55+00:00",
+   "published_jst": "2026-10-02 04:55",
+   "summary": "奥村組は１日、２０２７年２月２２日に迎える「創業１２０周年」に関連する記念事業の概要を明らかにした… The post 奥村組記念事業/120年の節目に発信強化/ユニホームも4月刷新 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "08e0839e085b",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -1732,19 +1843,6 @@
    "ai_related": false
   },
   {
-   "id": "7b63cd98dc0e",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "奥村組記念事業/120年の節目に発信強化/ユニホームも4月刷新",
-   "url": "https://www.kensetsunews.com/archives/1291846",
-   "published": "2026-10-01T19:55+00:00",
-   "published_jst": "2026-10-02 04:55",
-   "summary": "奥村組は１日、２０２７年２月２２日に迎える「創業１２０周年」に関連する記念事業の概要を明らかにした… The post 奥村組記念事業/120年の節目に発信強化/ユニホームも4月刷新 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "c2e280cb2249",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1769,7 +1867,7 @@
    "url": "https://bfl.ai/models/flux-3-image",
    "published": "2026-10-01T19:24+00:00",
    "published_jst": "2026-10-02 04:24",
-   "summary": "Article URL: https://bfl.ai/models/flux-3-image Comments URL: https://news.ycombinator.com/item?id=49925974 Points: 309 # Comments: 67",
+   "summary": "Article URL: https://bfl.ai/models/flux-3-image Comments URL: https://news.ycombinator.com/item?id=49925974 Points: 332 # Comments: 71",
    "ai_related": true,
    "title_ja": "FLUX 3 Imageに関する最新情報と議論",
    "summary_ja": "FLUX 3 Imageのモデル詳細ページと、Hacker Newsでのコメントや評価を紹介。"
@@ -1848,21 +1946,6 @@
    "summary_ja": "機密情報の取り扱いに問題があったとする社内調査の結果を受け、研究者3人が解雇されたという。"
   },
   {
-   "id": "e8423b6482d8",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
-   "url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
-   "published": "2026-10-01T18:03+00:00",
-   "published_jst": "2026-10-02 03:03",
-   "summary": "Tavus has introduced Griffin, what the company calls the first \"Human Interaction Model.\" The AI holds video calls in real time, processing facial expressions, tone of voice, and gestures. In a Tavus study, 48 percent of participants believed Griffin was a real person after a one-minute call. Previo",
-   "ai_related": true,
-   "title_ja": "TavusのAIアバター、1分の通話で半数が実人と誤認",
-   "summary_ja": "表情や声のトーンを処理しリアルタイムでビデオ通話を行うAIモデルが発表され、48%が本物と勘違いした。"
-  },
-  {
    "id": "1b019ab53f25",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1876,21 +1959,6 @@
    "ai_related": true,
    "title_ja": "Opus 5.5に見るAI特有の言い回しと特徴",
    "summary_ja": "Opus 5.5の最大の特徴は「dependable」という単語を人間の23倍も頻繁に使うことである。"
-  },
-  {
-   "id": "6027b9e4e295",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Ideogram says its new model can edit part of an image without messing up the rest",
-   "url": "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/",
-   "published": "2026-10-01T17:33+00:00",
-   "published_jst": "2026-10-02 02:33",
-   "summary": "Ideogram's new model Ideogram 4.5 promises to edit only the areas you want while keeping the rest of the image intact. It ships with native 2K resolution starting at 0.8 cents per image, and partners like Runway, Pika, and Leonardo AI are already on board. An open-weight release is planned. The arti",
-   "ai_related": true,
-   "title_ja": "Ideogramの新モデル、画像を部分修正できる新機能",
-   "summary_ja": "画像全体を維持したまま、指定した部分だけを編集できる「Ideogram 4.5」が発表された。"
   },
   {
    "id": "e7f973146b85",
@@ -2253,7 +2321,7 @@
   },
   {
    "id": "f1842463dfb5",
-   "source": "hokkaido-np.co.jp",
+   "source": "北海道新聞デジタル",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2266,7 +2334,7 @@
   },
   {
    "id": "29523ac25d74",
-   "source": "niigata-nippo.co.jp",
+   "source": "新潟日報",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2305,7 +2373,7 @@
   },
   {
    "id": "4881690e3362",
-   "source": "南日本新聞",
+   "source": "373news.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2369,60 +2437,6 @@
    "published_jst": "2026-10-01 18:00",
    "summary": "JERA、Dell Technologies、RHAELMは、千葉市に日本最大の「AIデータセンター」を建設すると発表した。投資額は2.3兆円以上に上る。3社によるドリームチームは、勝機をどこに見いだしているのか。",
    "ai_related": true
-  },
-  {
-   "id": "e0efedf98dcf",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "デオカ・グループの会長、ホー・ミン・ホアン氏：「ベトナム国民は、国家インフラプロジェクトを担うだけの知性と勇気を持っている。」",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTGppeVNSR2NqbTA4QWhVUWVDR0lNRlpIWkVhUjNLeEVoRDRWVFJOWjdENW5wT0hNa1RibDJDZDhZRkJuWGc0YzdxUTdtWWVoRWZjUlZEbkRxY1FiWTZpal9JMzNFcm5DZnRMQV90Q0FmcVpuNjMwVG5id1J5R2RfTGlSNUVrNTNoSzlpd0lqelVnamRGdXFfVVE5QWJCMjlrN01QUTB1V185VVFkTWhtUkt1aDJWVkhhaXN0MzdvUTBZR0pZOVhFeENDV25odw?oc=5",
-   "published": "2026-10-01T08:00+00:00",
-   "published_jst": "2026-10-01 17:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "82224386adf5",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現場Hub株式会社が提供する建設業特化型AIエージェント「現場Hub AI」の始動",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9lRTNPMGJPaFh6SFdOeWRVblQ2WWxiMzdxM2MzZ2xfa3NNSzRldXp6cHFUemM1OTdoOTlSTm5wWGtJMEZmOGVHaUtJa1dRbWRyQTEwdjIxVjYyc0VzMmJ1Tw?oc=5",
-   "published": "2026-10-01T07:17+00:00",
-   "published_jst": "2026-10-01 16:17",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "492219962b16",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "JERA、デルと英RHAELMと組み千葉に国内最大級のAIデータセンター建設へ",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41cXU3WUhQUmFSQm9GQk45SHdwcnR0ZldYeElJSEVLWnc2S0w5Q2VrNXhBalg4MjNfNm85RjNGSXhzNFczVjAtV0hVdHRTNkhMMUxlaEFNZHBZejF0QU1oMHgxY3JaTVlSMmxQMVZGMlpkTk1P?oc=5",
-   "published": "2026-10-01T06:55+00:00",
-   "published_jst": "2026-10-01 15:55",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "074d7bee7a30",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Trio shortlisted for £5.6bn Oxfordshire reservoir",
-   "url": "https://www.constructionenquirer.com/2026/10/01/trio-shortlisted-for-5-6bn-oxfordshire-reservoir/",
-   "published": "2026-10-01T06:51+00:00",
-   "published_jst": "2026-10-01 15:51",
-   "summary": "Balfour Beatty, Bouygues and Webuild lead rival teams chasing huge White Horse deal",
-   "ai_related": false,
-   "title_ja": "オックスフォードシャーの巨大貯水池事業で3社が選出",
-   "summary_ja": "56億ポンド規模のWhite Horse事業を巡り、Balfour Beattyなどの3社連合が受注を競い合っている。"
   }
  ]
 }
