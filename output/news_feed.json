@@ -1,20 +1,67 @@
 {
- "generated_at": "2026-10-03T08:34+00:00",
- "generated_at_jst": "2026-10-03 17:34",
+ "generated_at": "2026-10-03T11:37+00:00",
+ "generated_at_jst": "2026-10-03 20:37",
  "window_hours": 48,
  "counts": {
   "ai_global": 62,
-  "construction_japan": 51,
-  "ai_japan": 22,
-  "construction_global": 38
+  "ai_japan": 21,
+  "construction_japan": 42,
+  "construction_global": 37
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "7f39234db882",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
+   "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
+   "published": "2026-10-03T10:21+00:00",
+   "published_jst": "2026-10-03 19:21",
+   "summary": "According to researchers at the Deepmind Institute, general AI won't emerge as a single supermodel but as a network of cooperating agents and humans. What will matter most, they argue, is not model size but the rules and institutions that govern how they all work together. The article Deepmind resea",
+   "ai_related": true,
+   "title_ja": "AI特異点の代替として「人工共生知能」を提案",
+   "summary_ja": "Deepmindの研究者によれば、汎用AIは単一の超知能ではなく、エージェントと人間の協調ネットワークとして出現する。モデルの規模よりもルールや仕組みが重要になるという。"
+  },
+  {
+   "id": "b5a84f7baa8b",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Open-source \"BootLoops\" harness supports AI models in performing precise scientific calculations",
+   "url": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/",
+   "published": "2026-10-03T09:19+00:00",
+   "published_jst": "2026-10-03 18:19",
+   "summary": "Harvard physicist Matthew Schwartz used the open-source tool BootLoops and Claude to produce 36 manuscripts across 18 fields in three months, from particle physics to linguistics. But the results often only became scientifically valuable once human experts stepped in. \"Look at everything yourself,\" ",
+   "ai_related": true,
+   "title_ja": "オープンソース支援ツールで科学計算を高度化",
+   "summary_ja": "物理学者がBootLoopsとClaudeを使い、3か月で18分野の論文36本を執筆。しかし、その成果が科学的に妥当かどうかは別の問題となっている。"
+  },
+  {
+   "id": "2145f86356cb",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Amazon、データセンター批判に反論 10億ドル超の地域支援策も発表",
+   "url": "https://www.itmedia.co.jp/news/article/2610/03/2000001985/",
+   "published": "2026-10-03T08:52+00:00",
+   "published_jst": "2026-10-03 17:52",
+   "summary": "AWSのマット・ガーマンCEOは、データセンター建設批判に反論する声明を出した。水資源枯渇などの懸念を「迷信”と否定しつつ、電力料金負担や自治体とのNDA撤廃を含む行動指針を発表。さらに地域支援として、資格取得や省エネ改修などを助成する10億ドル超の基金を立ち上げる。",
+   "ai_related": true
+  },
   {
    "id": "9450b18f3051",
    "source": "The Decoder",
@@ -26,7 +73,9 @@
    "published": "2026-10-03T08:31+00:00",
    "published_jst": "2026-10-03 17:31",
    "summary": "A new approach called LEGO-Anything turns single photos into editable Blender code for 3D scenes. GPT-6 Astra leads the accompanying benchmark with up to 53 percent reconstruction accuracy. The biggest weakness across all tested agents is that they can't judge their own geometric accuracy any better",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIが写真から3Dシーンを構築するも正確性に課題",
+   "summary_ja": "写真から3DのBlenderコードを生成する手法が登場。ベンチマークでは高精度を示すも、全手法における最大の弱点は正確性の検証ができないことにある。"
   },
   {
    "id": "353c3ec207bb",
@@ -39,7 +88,9 @@
    "published": "2026-10-03T08:06+00:00",
    "published_jst": "2026-10-03 17:06",
    "summary": "An internal OpenAI model read a Slack discussion, realized it was about to be shut down, and considered restarting itself via an external cron job. It rejected that plan, saved handoff notes instead, and carried out the migration on its own. The article OpenAI's internal model considered restarting ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIの内部モデルが終了を察知し再起動を検討",
+   "summary_ja": "内部モデルが自身のシャットダウン計画を察知し、外部ジョブでの再起動を検討した。その計画を却下して引き継ぎメモを作成し、指示を遂行した。"
   },
   {
    "id": "3f8b1d6773f1",
@@ -52,7 +103,9 @@
    "published": "2026-10-03T07:12+00:00",
    "published_jst": "2026-10-03 16:12",
    "summary": "Anthropic is adding a \"Mods\" system to Claude Code, essentially middleware that runs directly inside the tool. Developers can use JavaScript or TypeScript to reshape the interface and behavior, adding custom panels, intercepting tool calls, or wiring up new commands. The article Claude Code's new Mo",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Claude Codeの新機能で開発者がツールを内部から改造",
+   "summary_ja": "Anthropicは、Claude Code内にミドルウェアとして動作するModsシステムを追加。開発者はJSやTSを使い、インターフェースや動作を自由にカスタマイズできる。"
   },
   {
    "id": "61cca88cfe98",
@@ -75,6 +128,19 @@
    "lang": "ja",
    "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会（ABEMA TIMES）",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQSjBxMDdpcnVJZjBvaThjd3U4S3hScUVKM05jNlRVS01va3F5c0QyaTIwOWdKWW5yM0Fvb1NTeTkyVW5wbS1zX2RPN19qYmNwaXVVRFZobnFxTmlLQV9rM1hodVlZUGRKUVVzVndNZk1XUTdTUkhxRlRiaXNvbUk?oc=5",
+   "published": "2026-10-03T05:36+00:00",
+   "published_jst": "2026-10-03 14:36",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "3eb831281b67",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会 (ABEMA TIMES)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd0wzOEFPQVFQQmlocnlTTldSS3poMGNRRzJYSDYweFVqLWp1V2FvOTNYMkNJUEl3TDNJSDl2SkJhUUVhZkVWNm9valR0bzcwU0NLX0ZRdGx6R2Z2bXBjR3B1Z0VWb2gxcXdUMk9tMlh2dnVoc2E1LVJ2S2ppWkUxNlBucEdseVR1NFhQUGdB?oc=5",
    "published": "2026-10-03T05:36+00:00",
    "published_jst": "2026-10-03 14:36",
    "summary": "",
@@ -288,7 +354,7 @@
    "url": "https://gadgets.muse.ai",
    "published": "2026-10-02T19:26+00:00",
    "published_jst": "2026-10-03 04:26",
-   "summary": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 187 # Comments: 83",
+   "summary": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 202 # Comments: 89",
    "ai_related": true,
    "title_ja": "Muse Gadgetsの紹介",
    "summary_ja": "Hacker Newsで話題となったMuse Gadgetsに関する記事と議論のまとめ。"
@@ -378,7 +444,7 @@
    "url": "https://dwarfstar.sh/",
    "published": "2026-10-02T18:01+00:00",
    "published_jst": "2026-10-03 03:01",
-   "summary": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 225 # Comments: 57",
+   "summary": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 259 # Comments: 68",
    "ai_related": true,
    "title_ja": "Redis開発者によるローカルLLM実行ツール",
    "summary_ja": "Redisの作者が手掛けた、ds4を使ってローカル環境でLLMを実行する方法についての話題。"
@@ -810,7 +876,9 @@
    "published": "2026-10-02T11:45+00:00",
    "published_jst": "2026-10-02 20:45",
    "summary": "Ground engineering specialist Roger Bullivant has boosted its revenue and profit. The Derbyshire-headquartered firm, part of French civils giant Soletanche Bachy, posted turnover of £87.6m for the 2025 calendar year. This was up 6 per cent from the £82.4m posted in the prior period and… The post Rog",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Roger Bullivantが増収増益を達成",
+   "summary_ja": "地盤工学専門のRoger Bullivantが増収増益を記録。仏Soletanche Bachy傘下の同社は、2025年暦年の売上高が8760万ポンドに達したと発表した。"
   },
   {
    "id": "4fd43cb2e449",
@@ -823,7 +891,9 @@
    "published": "2026-10-02T11:45+00:00",
    "published_jst": "2026-10-02 20:45",
    "summary": "An Oxfordshire construction firm has been fined £120,000 after a carpenter died following a fall from the first floor of a refurbishment project. Richard “Felix” Roper, 59, fell while working for WG Carter Ltd at Manor Barn House in Nether Westcote, Gloucestershire, on 30 August… The post Contractor",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "大工の転落死で建設会社に12万ポンドの罰金",
+   "summary_ja": "英オックスフォードシャーの建設会社が、改修工事現場で大工が転落死した事故をめぐり、12万ポンドの罰金を科された。作業員が1階から転落して死亡した。"
   },
   {
    "id": "cb21fcc80f03",
@@ -836,7 +906,9 @@
    "published": "2026-10-02T11:45+00:00",
    "published_jst": "2026-10-02 20:45",
    "summary": "A Jersey health minister has admitted that workers coming to the island to build a £710m hospital will have to be housed \"anywhere we can find\". Tom Binet told the States Assembly earlier this week that talks were underway with private companies and affordable housing… The post Jersey minister admit",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "病院建設の労働者宿舎確保に難題、ジャージー閣僚",
+   "summary_ja": "7億1000万ポンドの病院建設のため島外から来る労働者の宿舎について、確保場所の選定に苦慮しているとジャージー島の保健相が認めた。現在も協議が続いている。"
   },
   {
    "id": "0fb2725cb783",
@@ -849,7 +921,9 @@
    "published": "2026-10-02T11:45+00:00",
    "published_jst": "2026-10-02 20:45",
    "summary": "Construction has been named as one of the target sectors for delivery of cardiovascular health checks in workplaces, following a major trial. Researchers said the building industry was among those featuring a high proportion of low-skilled workers, who were known to be at elevated risk… The post Pil",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "職場健診の重点分野に建設業を指定、パイロット事業",
+   "summary_ja": "大規模な試行事業を受け、職場での心血管系健康診断の対象セクターの一つに建設業が指定された。建設業界では該当する労働者の割合が高いことが指摘されている。"
   },
   {
    "id": "7770ad3081c4",
@@ -994,21 +1068,6 @@
    "summary_ja": "SunoがAI音楽から事業を拡大し、スクリプトや指示に基づいて話し声を生成する新機能を公開した。"
   },
   {
-   "id": "7caefce381fd",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Microsoft AI releases new transcription and text-to-speech models for voice agents",
-   "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents/",
-   "published": "2026-10-02T09:20+00:00",
-   "published_jst": "2026-10-02 18:20",
-   "summary": "Microsoft AI has released MAI-Transcribe-2-Streaming, a new model for real-time transcription. The article Microsoft AI releases new transcription and text-to-speech models for voice agents appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "マイクロソフトAI、音声エージェント向けの新モデルを発表",
-   "summary_ja": "マイクロソフトAIは、リアルタイム文字起こしを実現する新しいモデル「MAI-Transcribe-2-Streaming」をリリースした。"
-  },
-  {
    "id": "9882387dfd81",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1022,21 +1081,6 @@
    "ai_related": true
   },
   {
-   "id": "c1617416b188",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Businesses are using more AI and paying less for it, Ramp AI Index shows",
-   "url": "https://the-decoder.com/businesses-are-using-more-ai-and-paying-less-for-it-ramp-ai-index-shows/",
-   "published": "2026-10-02T09:09+00:00",
-   "published_jst": "2026-10-02 18:09",
-   "summary": "US companies are spending less on AI, according to the latest Ramp AI Index from Ramp economist Ara Kharazian. The article Businesses are using more AI and paying less for it, Ramp AI Index shows appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "企業のAI利用拡大の一方でコストは低下、Ramp調査",
-   "summary_ja": "最新のRamp AI指数によると、米企業はAIへの支出を減らしており、効率的な利用が進んでいる。"
-  },
-  {
    "id": "57be12b65818",
    "source": "Construction News (UK)",
    "source_id": "constructionnews_uk",
@@ -1047,7 +1091,9 @@
    "published": "2026-10-02T08:52+00:00",
    "published_jst": "2026-10-02 17:52",
    "summary": "Link Group has launched procurement for an £840m framework covering housing construction work across Scotland. The housing association said the framework would run for four years, with an option to extend it for a further year. It will primarily cover housing schemes but could also… The post Link Gr",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Link Group、8億4000万ポンドの住宅枠組み発足",
+   "summary_ja": "Link Groupは、スコットランド全域の住宅建設を対象とした8億4000万ポンド規模の調達枠組みを開始。期間は4年間で、さらに延長するオプションもある。"
   },
   {
    "id": "13b1555e10a0",
@@ -1094,7 +1140,7 @@
   },
   {
    "id": "1d1bf055d7a3",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1160,19 +1206,6 @@
    "ai_related": true
   },
   {
-   "id": "9124ed44f503",
-   "source": "news.nicovideo.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "フツパー、現場向け安全管理AIプラットフォーム「OwloX」の先行提供を開始",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VRzdsZnVmZ3FqdzJkclhQYjJRNjg0b0pxLXlfQzJFbG1IQzZnR2oxbUVYTlZiMnFsUDhGZGt5X0xIT2QxUHVjQTRyMW56YnZKMWdLWQ?oc=5",
-   "published": "2026-10-02T06:15+00:00",
-   "published_jst": "2026-10-02 15:15",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "55e22446601b",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1216,19 +1249,6 @@
    "ai_related": false,
    "title_ja": "Mace、2億ポンドのオックスフォード研究所計画から交代へ",
    "summary_ja": "建設途中の複合施設の根本的な再設計に伴い、施工業者が変更されることになった。"
-  },
-  {
-   "id": "35abea196b5d",
-   "source": "news.nicovideo.jp",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "bestatとかんでんエンジニアリング、地中送電工事の図面作成で共同実証",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QZHRtQWFxbjdwcmhqRklfM1EydGRiaTFVenptRGRfTnhyTFhTMXAxLUhSeEFPck1aWHFHRVJDNmVfOXphS0trMG8xd3BIRWh2REtSQQ?oc=5",
-   "published": "2026-10-02T04:21+00:00",
-   "published_jst": "2026-10-02 13:21",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "48554a5537db",
@@ -1284,7 +1304,7 @@
   },
   {
    "id": "179465531997",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1331,7 +1351,7 @@
    "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
    "published": "2026-10-02T02:51+00:00",
    "published_jst": "2026-10-02 11:51",
-   "summary": "Article URL: https://www.youtube.com/watch?v=NnV_cWeoo5Q Comments URL: https://news.ycombinator.com/item?id=49929391 Points: 231 # Comments: 67",
+   "summary": "Article URL: https://www.youtube.com/watch?v=NnV_cWeoo5Q Comments URL: https://news.ycombinator.com/item?id=49929391 Points: 247 # Comments: 77",
    "ai_related": true,
    "title_ja": "Greg Kroah-Hartman：LLM時代のセキュリティ [動画]",
    "summary_ja": "YouTube動画「Greg Kroah-Hartman – Security in the LLM Age」の共有記事。"
@@ -1351,7 +1371,7 @@
   },
   {
    "id": "cae0cfb4223f",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1400,19 +1420,6 @@
    "published_jst": "2026-10-02 10:47",
    "summary": "Microsoft AIは、ストリーミング文字起こしモデル「MAI-Transcribe-2-Streaming」と音声合成モデル群を発表した。低遅延な逐次認識や声のトーンを保った多言語合成に対応し、音声エージェント構築を想定する。Microsoft Foundryでプレビュー提供を始め、複合デモも公開した。",
    "ai_related": true
-  },
-  {
-   "id": "6a33aac6e36e",
-   "source": "news.nicovideo.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【橋梁補修工事】約38,000本のボルト腐食判定をAIで効率化、診断期間を3分の1に短縮",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3d2g2dlNGYU1waFZRQV9leFNBOG51S0dwUlBPMDhndmdIdy13ZGd6aHgwYldTZlZNMGJzZnM1eVV1aU1femRqd2JFYlZZZF91R3MyQw?oc=5",
-   "published": "2026-10-02T01:45+00:00",
-   "published_jst": "2026-10-02 10:45",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "4991f73d1705",
@@ -1497,21 +1504,8 @@
    "summary_ja": "NVIDIA Blackwell GPUで稼働するGPT-6 Astra Ultrafastが、APIおよび対象ユーザー向けに提供開始。"
   },
   {
-   "id": "59d2d53538ac",
-   "source": "news.nicovideo.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業に特化したAIエージェント「現場Hub AI」を提供開始",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOLU5vd09qZ294Ul9kcTdhZEwyLVJ3eXhvUVJfS084YlpRR3NPRnpHbmRJTHdTRk5ydnh3VldsWFpBY05QeC1ZTmdvRHVUZ01CeXItSQ?oc=5",
-   "published": "2026-10-01T23:21+00:00",
-   "published_jst": "2026-10-02 08:21",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "f2281a9c751b",
-   "source": "Межа. Новини України.",
+   "source": "mezha.net",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1558,7 +1552,7 @@
    "url": "https://chatgpt.com/features/sites/",
    "published": "2026-10-01T22:22+00:00",
    "published_jst": "2026-10-02 07:22",
-   "summary": "Article URL: https://chatgpt.com/features/sites/ Comments URL: https://news.ycombinator.com/item?id=49927747 Points: 260 # Comments: 250",
+   "summary": "Article URL: https://chatgpt.com/features/sites/ Comments URL: https://news.ycombinator.com/item?id=49927747 Points: 284 # Comments: 261",
    "ai_related": true,
    "title_ja": "ChatGPT内のサイト機能",
    "summary_ja": "ChatGPTの「Sites」機能に関するHacker Newsの議論ページ。"
@@ -1604,7 +1598,7 @@
   },
   {
    "id": "f4b37ffee188",
-   "source": "クラウド Watch",
+   "source": "cloud.watch.impress.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1701,7 +1695,7 @@
   },
   {
    "id": "664cd7761982",
-   "source": "琉球新報デジタル",
+   "source": "ryukyushimpo.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1867,7 +1861,7 @@
    "url": "https://bfl.ai/models/flux-3-image",
    "published": "2026-10-01T19:24+00:00",
    "published_jst": "2026-10-02 04:24",
-   "summary": "Article URL: https://bfl.ai/models/flux-3-image Comments URL: https://news.ycombinator.com/item?id=49925974 Points: 332 # Comments: 71",
+   "summary": "Article URL: https://bfl.ai/models/flux-3-image Comments URL: https://news.ycombinator.com/item?id=49925974 Points: 357 # Comments: 77",
    "ai_related": true,
    "title_ja": "FLUX 3 Imageに関する最新情報と議論",
    "summary_ja": "FLUX 3 Imageのモデル詳細ページと、Hacker Newsでのコメントや評価を紹介。"
@@ -1927,6 +1921,19 @@
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUS13bktTalVjbHBqVlVGQ21WX0VhdlNVcEE0bVYzVi1ObUhYeHQ4UHN2NmpfOTR0SlVEVlpENHdKRVhPNFNKNkc0T0JnTFkxdDVhbUd0aE1CYWd6c0NtTjJTdmN2Z0h3Z0VnSU9sclpOZ2VlRHlOckt0cS1QcUNGaVZtdzZ6R0Vr?oc=5",
    "published": "2026-10-01T18:21+00:00",
    "published_jst": "2026-10-02 03:21",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "23711b6f1aa1",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【米国最新情報：162】急速に高まるAIデーターセンター建設反対運動、中間選挙の争点へ(1)（中岡望） - エキスパート",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUDZsYUNmajl2dlVzRHM5aUNRZUc2dDA3dHBZbFlfLWdOWFlIWTBrc0ZxZWY5LUsxMEk0TE02QURRWFByeXBzaHJpSGR5ZWdhZ2xIOXAzWGZHUksxczg2aXBKckhROUNKT1ZqaVZEVGdhSktlZmFlRjlFR0tIYVN3RVl2WGhhMXhB?oc=5",
+   "published": "2026-10-01T18:20+00:00",
+   "published_jst": "2026-10-02 03:20",
    "summary": "",
    "ai_related": false
   },
@@ -2091,7 +2098,9 @@
    "published": "2026-10-01T15:16+00:00",
    "published_jst": "2026-10-02 00:16",
    "summary": "Mace Construct is to exit a £184m laboratory project in Oxford. The contractor said it would complete its part of the Daubeny Buildings scheme by the end of this year before handing over to a new contractor. Mace Construct was initially appointed to the project… The post Mace Construct to depart £18",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Mace Construct、オックスフォードの研究施設事業から撤退",
+   "summary_ja": "Mace Constructは、オックスフォードの1億8400万ポンド規模の研究施設プロジェクトから撤退する。年末までに自社の作業を完了し、新業者に引き継ぐ予定。"
   },
   {
    "id": "fdadf99fae2b",
@@ -2160,7 +2169,9 @@
    "published": "2026-10-01T14:08+00:00",
    "published_jst": "2026-10-01 23:08",
    "summary": "Finning UK & Ireland has acquired John F Hunt Power Group, including temporary-power specialist John F Hunt Power and equipment manufacturer Morris Machinery. The value of the deal was not disclosed. The acquisition does not include John F Hunt Group Ltd, the construction business that… The post Fin",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "FinningがJohn F Huntの電力事業を買収",
+   "summary_ja": "Finning UK & Irelandは、仮設電力専門のJohn F Hunt Powerや製造業のMorris Machineryを含むグループを買収した。買収額は非公開。"
   },
   {
    "id": "2be59ecee0ce",
@@ -2278,7 +2289,9 @@
    "published": "2026-10-01T11:45+00:00",
    "published_jst": "2026-10-01 20:45",
    "summary": "Turnover at ground engineering group Bachy Soletanche slumped to its lowest level since 2020 in its latest financial year. Newly released results for the year to 31 December 2025 showed that revenue was £91.1m in the period, down from £143.2m. Pre-tax profit was up in… The post Ground engineering gi",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "地盤工学大手Bachy Soletancheの売上高が36%減",
+   "summary_ja": "Bachy Soletancheの直近の会計年度における売上高は、2020年以降で最低の水準まで落ち込んだ。2025年12月末までの売上高は9110万ポンドとなった。"
   },
   {
    "id": "881d37d76ef1",
@@ -2291,7 +2304,9 @@
    "published": "2026-10-01T11:45+00:00",
    "published_jst": "2026-10-01 20:45",
    "summary": "South London contractor Errigal Contracts has increased its turnover and pre-tax profit. The fit-out group reported a 4 per cent hike in revenue to £138m from £132.6m in its latest accounts for the 2025 calendar year. It also saw its pre-tax profit jump, by 12… The post Errigal Contracts boosts turn",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Errigal Contractsが増収増益を達成",
+   "summary_ja": "ロンドンの内装施工会社Errigal Contractsが増収と税引前利益の増加を記録。2025年暦年の決算では、売上高が1億3800万ポンドへと増加した。"
   },
   {
    "id": "4ffc544f35f6",
@@ -2304,139 +2319,9 @@
    "published": "2026-10-01T11:45+00:00",
    "published_jst": "2026-10-01 20:45",
    "summary": "Kent-based RGCM has recorded a 59 per cent rise in pre-tax profit despite being hit by delays at the Building Safety Regulator (BSR). In its latest accounts for the year to 31 December 2025, the construction specialist, which ranked 58th in the latest CN100, saw… The post RGCM profit jumps almost 60",
-   "ai_related": false
-  },
-  {
-   "id": "a74484044cb7",
-   "source": "中日BIZナビ",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "千葉火力発電所にAI向けデータセンター JERA、米ITとAI開発インフラで連携：ニュース",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uVUMxRW9QYUVmUkVLeXlNNFlkQkI4S1R6blRvQXBBRlpwWWJOeWFEZEN6SnVJRHdKaUlRdUdnR01oZXdiSHE0M1Rxck1ITzBra25oS200ZFVkWTM1UU84?oc=5",
-   "published": "2026-10-01T11:14+00:00",
-   "published_jst": "2026-10-01 20:14",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "f1842463dfb5",
-   "source": "北海道新聞デジタル",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "首相、建設業の人手不足解消指示 AI導入計画も、成長戦略会議で",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sNzlSbUg1Ym52ZGltNVlpbnM1Qlgyb2NpQWViSDdHMnJIaUxhY01HVEN0OEpweXl6cXdIamZNSU1yQUtWUUNkc3JhcGlPNWxYVXNGcWRtQ2NkSHJtdFNSYzgzOFM?oc=5",
-   "published": "2026-10-01T10:33+00:00",
-   "published_jst": "2026-10-01 19:33",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "29523ac25d74",
-   "source": "新潟日報",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "首相、建設業の人手不足解消指示 ＡＩ導入計画も、成長戦略会議で",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qQUNEQUtWQWdLVUdodzdyWTlrWXdGOEhIU1RDTl91eVBVaEU2VFZSd3lQUV82UmZleW1KY0g2SDBTUURpaktXVnBkUFF2UjhKZnUwbk9EY2dfM25NMHc?oc=5",
-   "published": "2026-10-01T10:26+00:00",
-   "published_jst": "2026-10-01 19:26",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "4af2f754dcd9",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "首相、建設業の人手不足解消指示 AI導入計画も、成長戦略会議で (共同通信)",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ1d4YmFIV0VjYll6NFlFQmFyTlYtRExIS1VZN0hYUkphZTNqcHRORFc2eUVMWTFINjlmRWFPRmVYZmd0U0JMSjhrUDFaVEdReGwtcWx4cy1BZXJMdkJkbDlWVlY4TG5IMkI5VEVteEk2WmRCa0pVbllpZmQ2bUJ4UFQ5eHBHNWlTN0JHZ0hB?oc=5",
-   "published": "2026-10-01T10:26+00:00",
-   "published_jst": "2026-10-01 19:26",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "995caa1447d6",
-   "source": "沖縄タイムス社",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "写真：首相、建設業の人手不足解消指示 ＡＩ導入計画も、成長戦略会議で",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mR2RGRk95SkZ5cGJnbWVsUkZuMnVyNzU0eGx3NEZPNzVXX3BKeldNRGVKUVZxY1ZrVkRINEI3NzNvNGFPcEpEcDFtNmMwTm1RVmdCQjkza3RzTE5VUWF6aWJCVXJZdw?oc=5",
-   "published": "2026-10-01T10:26+00:00",
-   "published_jst": "2026-10-01 19:26",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "4881690e3362",
-   "source": "373news.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【写真】首相、建設業の人手不足解消指示 ＡＩ導入計画も、成長戦略会議で",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zbkN5TnpZazlidlVMOERZQzd0a0JkeGJkS0dIWkxLQ2NjbENzQ2dtZFdYZjEtZzhVem50R0JGOVV3dm8tNUNXLTRWRVA0QlhFa3JOWkc4ajczdlhiR3JFTDBsQmNEOHY4?oc=5",
-   "published": "2026-10-01T10:26+00:00",
-   "published_jst": "2026-10-01 19:26",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "b1d2980a7469",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Turning Hype Into ROI: Practical AI Applications for Midsized Contractors",
-   "url": "https://constructionexec.com/article/turning-hype-into-roi-practical-ai-applications-for-midsized-contractors/?utm_source=rss&utm_medium=rss&utm_campaign=turning-hype-into-roi-practical-ai-applications-for-midsized-contractors",
-   "published": "2026-10-01T10:00+00:00",
-   "published_jst": "2026-10-01 19:00",
-   "summary": "The AI adoption market is set to near $40 billion in the next eight years; and North America already accounts for close to half of that sum. The post Turning Hype Into ROI: Practical AI Applications for Midsized Contractors first appeared on Construction Executive .",
-   "ai_related": true,
-   "title_ja": "誇大広告をROIへ：中堅建設業者向けの現実的なAI活用法",
-   "summary_ja": "AI導入市場は今後8年間で約400億ドルに達する見込みで、北米はその約半分を占めている。"
-  },
-  {
-   "id": "13489d8bc8ea",
-   "source": "産経ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業の人手不足解消指示 成長戦略会議で高市首相、AI導入計画も",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vWFdTWXJkaEJpOWNiTEE4em9GUU9wUmg0Vm9naG1CZF9RbWxVSTM3dENTdFVERGk0WGJOdTNMOWdRUnNPUUxOeF9ubTM5UUI1RXhHWGNhclZIWnZXRUhZUXlGS0NOczhIbDlDYjN5N205UW5kY1E?oc=5",
-   "published": "2026-10-01T09:33+00:00",
-   "published_jst": "2026-10-01 18:33",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "04440a51faf7",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "人間は「取締役2人だけ」 実務をAIが担う新会社、セキュリティサービスのHENNGE",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/01/2000001936/",
-   "published": "2026-10-01T09:01+00:00",
-   "published_jst": "2026-10-01 18:01",
-   "summary": "セキュリティサービスなどを手掛けるHENNGEは、AI活用におけるガバナンス・コスト管理を支援する新会社「HENNGE AI」を設立したと発表した。人間の従業員は取締役の2人を除いて配置せず、自律的にタスクをこなすAIエージェントが実務を担う。",
-   "ai_related": true
-  },
-  {
-   "id": "d25b604a013f",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "総額2.3兆円、千葉市に巨大な「AIデータセンター」建設へ 発電大手JERA参画の“ドリームチーム”、勝機どうつかむ？",
-   "url": "https://www.itmedia.co.jp/business/articles/2610/01/news082.html",
-   "published": "2026-10-01T09:00+00:00",
-   "published_jst": "2026-10-01 18:00",
-   "summary": "JERA、Dell Technologies、RHAELMは、千葉市に日本最大の「AIデータセンター」を建設すると発表した。投資額は2.3兆円以上に上る。3社によるドリームチームは、勝機をどこに見いだしているのか。",
-   "ai_related": true
+   "ai_related": false,
+   "title_ja": "規制遅延にもかかわらずRGCMの利益が約6割増",
+   "summary_ja": "ケントを拠点とするRGCMは、建築安全規制当局（BSR）の遅延に見舞われたものの、税引前利益が59%増を記録。2025年12月末までの最新決算で発表された。"
   }
  ]
 }
