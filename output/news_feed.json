@@ -1,24 +1,37 @@
 {
- "generated_at": "2026-10-03T05:16+00:00",
- "generated_at_jst": "2026-10-03 14:16",
+ "generated_at": "2026-10-03T06:35+00:00",
+ "generated_at_jst": "2026-10-03 15:35",
  "window_hours": 48,
  "counts": {
   "construction_japan": 48,
-  "ai_japan": 23,
-  "ai_global": 63,
-  "construction_global": 30
+  "ai_japan": 22,
+  "ai_global": 62,
+  "construction_global": 39
  },
  "errors": [
   {
-   "feed": "venturebeat_ai",
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "1b87314d2e44",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会（ABEMA TIMES）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQSjBxMDdpcnVJZjBvaThjd3U4S3hScUVKM05jNlRVS01va3F5c0QyaTIwOWdKWW5yM0Fvb1NTeTkyVW5wbS1zX2RPN19qYmNwaXVVRFZobnFxTmlLQV9rM1hodVlZUGRKUVVzVndNZk1XUTdTUkhxRlRiaXNvbUk?oc=5",
+   "published": "2026-10-03T05:36+00:00",
+   "published_jst": "2026-10-03 14:36",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "16f3b6a48955",
    "source": "テレ朝NEWS",
@@ -214,7 +227,7 @@
    "url": "https://gadgets.muse.ai",
    "published": "2026-10-02T19:26+00:00",
    "published_jst": "2026-10-03 04:26",
-   "summary": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 165 # Comments: 76",
+   "summary": "Article URL: https://gadgets.muse.ai Comments URL: https://news.ycombinator.com/item?id=49937504 Points: 175 # Comments: 78",
    "ai_related": true,
    "title_ja": "Muse Gadgetsの紹介",
    "summary_ja": "Hacker Newsで話題となったMuse Gadgetsに関する記事と議論のまとめ。"
@@ -304,7 +317,7 @@
    "url": "https://dwarfstar.sh/",
    "published": "2026-10-02T18:01+00:00",
    "published_jst": "2026-10-03 03:01",
-   "summary": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 191 # Comments: 56",
+   "summary": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 208 # Comments: 56",
    "ai_related": true,
    "title_ja": "Redis開発者によるローカルLLM実行ツール",
    "summary_ja": "Redisの作者が手掛けた、ds4を使ってローカル環境でLLMを実行する方法についての話題。"
@@ -726,6 +739,58 @@
    "summary_ja": "AIデータセンター計画を支持しなければ、経済や安全保障に回復不能な打撃を与えるとアマゾンが警告している。"
   },
   {
+   "id": "5f413388f2d9",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Roger Bullivant grows revenue and profit",
+   "url": "https://www.constructionnews.co.uk/financial/roger-bullivant-grows-revenue-and-profit-02-10-2026/",
+   "published": "2026-10-02T11:45+00:00",
+   "published_jst": "2026-10-02 20:45",
+   "summary": "Ground engineering specialist Roger Bullivant has boosted its revenue and profit. The Derbyshire-headquartered firm, part of French civils giant Soletanche Bachy, posted turnover of £87.6m for the 2025 calendar year. This was up 6 per cent from the £82.4m posted in the prior period and… The post Rog",
+   "ai_related": false
+  },
+  {
+   "id": "4fd43cb2e449",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Contractor fined £120,000 after carpenter dies in fall",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/contractor-fined-120000-after-carpenter-dies-in-fall-02-10-2026/",
+   "published": "2026-10-02T11:45+00:00",
+   "published_jst": "2026-10-02 20:45",
+   "summary": "An Oxfordshire construction firm has been fined £120,000 after a carpenter died following a fall from the first floor of a refurbishment project. Richard “Felix” Roper, 59, fell while working for WG Carter Ltd at Manor Barn House in Nether Westcote, Gloucestershire, on 30 August… The post Contractor",
+   "ai_related": false
+  },
+  {
+   "id": "cb21fcc80f03",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Jersey minister admits challenges of housing workers for £710m build",
+   "url": "https://www.constructionnews.co.uk/buildings/jersey-minister-admits-challenges-of-housing-workers-for-710m-build-02-10-2026/",
+   "published": "2026-10-02T11:45+00:00",
+   "published_jst": "2026-10-02 20:45",
+   "summary": "A Jersey health minister has admitted that workers coming to the island to build a £710m hospital will have to be housed \"anywhere we can find\". Tom Binet told the States Assembly earlier this week that talks were underway with private companies and affordable housing… The post Jersey minister admit",
+   "ai_related": false
+  },
+  {
+   "id": "0fb2725cb783",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Pilot identifies construction as key sector for workplace health checks",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/pilot-identifies-construction-as-key-sector-for-workplace-health-checks-02-10-2026/",
+   "published": "2026-10-02T11:45+00:00",
+   "published_jst": "2026-10-02 20:45",
+   "summary": "Construction has been named as one of the target sectors for delivery of cardiovascular health checks in workplaces, following a major trial. Researchers said the building industry was among those featuring a high proportion of low-skilled workers, who were known to be at elevated risk… The post Pil",
+   "ai_related": false
+  },
+  {
    "id": "7770ad3081c4",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -911,6 +976,19 @@
    "summary_ja": "最新のRamp AI指数によると、米企業はAIへの支出を減らしており、効率的な利用が進んでいる。"
   },
   {
+   "id": "57be12b65818",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Link Group launches £840m Scottish housing framework",
+   "url": "https://www.constructionnews.co.uk/contracts/link-group-launches-840m-scottish-housing-framework-02-10-2026/",
+   "published": "2026-10-02T08:52+00:00",
+   "published_jst": "2026-10-02 17:52",
+   "summary": "Link Group has launched procurement for an £840m framework covering housing construction work across Scotland. The housing association said the framework would run for four years, with an option to extend it for a further year. It will primarily cover housing schemes but could also… The post Link Gr",
+   "ai_related": false
+  },
+  {
    "id": "13b1555e10a0",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -970,7 +1048,7 @@
   },
   {
    "id": "1d1bf055d7a3",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1134,7 +1212,7 @@
   },
   {
    "id": "179465531997",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1181,7 +1259,7 @@
    "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
    "published": "2026-10-02T02:51+00:00",
    "published_jst": "2026-10-02 11:51",
-   "summary": "Article URL: https://www.youtube.com/watch?v=NnV_cWeoo5Q Comments URL: https://news.ycombinator.com/item?id=49929391 Points: 202 # Comments: 53",
+   "summary": "Article URL: https://www.youtube.com/watch?v=NnV_cWeoo5Q Comments URL: https://news.ycombinator.com/item?id=49929391 Points: 218 # Comments: 57",
    "ai_related": true,
    "title_ja": "Greg Kroah-Hartman：LLM時代のセキュリティ [動画]",
    "summary_ja": "YouTube動画「Greg Kroah-Hartman – Security in the LLM Age」の共有記事。"
@@ -1201,7 +1279,7 @@
   },
   {
    "id": "cae0cfb4223f",
-   "source": "prtimes.jp",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1214,7 +1292,7 @@
   },
   {
    "id": "b9d99d262adc",
-   "source": "TDK Corporation",
+   "source": "tdk.com",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1278,15 +1356,15 @@
    "ai_related": false
   },
   {
-   "id": "50a51b2ee06b",
-   "source": "TBS NEWS DIG",
+   "id": "b82be5a944e5",
+   "source": "Bloomberg.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "TSMC、AI半導体増産で米テキサス州に拠点建設検討－数百億ドル規模",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56aFpsYmRaS2JFYzYtV25nOEMyWnY1VFlqZUZTOXBjNXE4ZzZSRDdGTGljVWRaZUJCVVpablN1WExSSG9PaHgybEwtdGp2eWZJSnZJeFVESmdiZjRUdjV3MXFtUFdHMm9ZT0tjaHFtcEJlYXdN?oc=5",
-   "published": "2026-10-02T00:52+00:00",
-   "published_jst": "2026-10-02 09:52",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBDNy1OTnBwTDU3dUtVREZoNloySDI0VnpCOFUzM3lUdVBGQUJsbEpmZzZ0T2tacWVRQnNhdTJnRWdqLWZoRE5zV0RWdUs4S1phTnNQdmZVeTUtVlg2T0ZCZGZqU19RM2lka0p3bUxQR3RoVDhObURj?oc=5",
+   "published": "2026-10-02T00:20+00:00",
+   "published_jst": "2026-10-02 09:20",
    "summary": "",
    "ai_related": false
   },
@@ -1382,7 +1460,7 @@
    "url": "https://chatgpt.com/features/sites/",
    "published": "2026-10-01T22:22+00:00",
    "published_jst": "2026-10-02 07:22",
-   "summary": "Article URL: https://chatgpt.com/features/sites/ Comments URL: https://news.ycombinator.com/item?id=49927747 Points: 239 # Comments: 229",
+   "summary": "Article URL: https://chatgpt.com/features/sites/ Comments URL: https://news.ycombinator.com/item?id=49927747 Points: 249 # Comments: 240",
    "ai_related": true,
    "title_ja": "ChatGPT内のサイト機能",
    "summary_ja": "ChatGPTの「Sites」機能に関するHacker Newsの議論ページ。"
@@ -1525,7 +1603,7 @@
   },
   {
    "id": "664cd7761982",
-   "source": "ryukyushimpo.jp",
+   "source": "琉球新報デジタル",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1548,58 +1626,6 @@
    "published_jst": "2026-10-02 05:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "15eee4f18d81",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "三重・大台町/1月に提案競技を公告/町立小学校集約構想・計画",
-   "url": "https://www.kensetsunews.com/archives/1291741",
-   "published": "2026-10-01T19:55+00:00",
-   "published_jst": "2026-10-02 04:55",
-   "summary": "三重県大台町は、「町立小中学校の適正規模及び適正配置に関する基本方針案」を公表した。町内にある４小… The post 三重・大台町/1月に提案競技を公告/町立小学校集約構想・計画 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "73536b24442e",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "北陸整備局WTO/大河津掘削は10月30日まで/七海橋上部工も公告",
-   "url": "https://www.kensetsunews.com/archives/1291756",
-   "published": "2026-10-01T19:55+00:00",
-   "published_jst": "2026-10-02 04:55",
-   "summary": "北陸地方整備局は２日、ＷＴＯ対象となる「大河津分水路山地部掘削その２８工事」と「Ｒ８－１０能越道七… The post 北陸整備局WTO/大河津掘削は10月30日まで/七海橋上部工も公告 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "3cb04396495f",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "創業120周年で本社ビル増築/奥村組が記念事業",
-   "url": "https://www.kensetsunews.com/archives/1291811",
-   "published": "2026-10-01T19:55+00:00",
-   "published_jst": "2026-10-02 04:55",
-   "summary": "奥村組は、２０２７年２月２２日の「創業１２０周年」の一環で、記念事業を展開する。１２０周年を記念す… The post 創業120周年で本社ビル増築/奥村組が記念事業 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "7b63cd98dc0e",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "奥村組記念事業/120年の節目に発信強化/ユニホームも4月刷新",
-   "url": "https://www.kensetsunews.com/archives/1291846",
-   "published": "2026-10-01T19:55+00:00",
-   "published_jst": "2026-10-02 04:55",
-   "summary": "奥村組は１日、２０２７年２月２２日に迎える「創業１２０周年」に関連する記念事業の概要を明らかにした… The post 奥村組記念事業/120年の節目に発信強化/ユニホームも4月刷新 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
   },
   {
    "id": "08e0839e085b",
@@ -1667,6 +1693,58 @@
    "ai_related": false
   },
   {
+   "id": "15eee4f18d81",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "三重・大台町/1月に提案競技を公告/町立小学校集約構想・計画",
+   "url": "https://www.kensetsunews.com/archives/1291741",
+   "published": "2026-10-01T19:55+00:00",
+   "published_jst": "2026-10-02 04:55",
+   "summary": "三重県大台町は、「町立小中学校の適正規模及び適正配置に関する基本方針案」を公表した。町内にある４小… The post 三重・大台町/1月に提案競技を公告/町立小学校集約構想・計画 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "73536b24442e",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "北陸整備局WTO/大河津掘削は10月30日まで/七海橋上部工も公告",
+   "url": "https://www.kensetsunews.com/archives/1291756",
+   "published": "2026-10-01T19:55+00:00",
+   "published_jst": "2026-10-02 04:55",
+   "summary": "北陸地方整備局は２日、ＷＴＯ対象となる「大河津分水路山地部掘削その２８工事」と「Ｒ８－１０能越道七… The post 北陸整備局WTO/大河津掘削は10月30日まで/七海橋上部工も公告 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "3cb04396495f",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "創業120周年で本社ビル増築/奥村組が記念事業",
+   "url": "https://www.kensetsunews.com/archives/1291811",
+   "published": "2026-10-01T19:55+00:00",
+   "published_jst": "2026-10-02 04:55",
+   "summary": "奥村組は、２０２７年２月２２日の「創業１２０周年」の一環で、記念事業を展開する。１２０周年を記念す… The post 創業120周年で本社ビル増築/奥村組が記念事業 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "7b63cd98dc0e",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "奥村組記念事業/120年の節目に発信強化/ユニホームも4月刷新",
+   "url": "https://www.kensetsunews.com/archives/1291846",
+   "published": "2026-10-01T19:55+00:00",
+   "published_jst": "2026-10-02 04:55",
+   "summary": "奥村組は１日、２０２７年２月２２日に迎える「創業１２０周年」に関連する記念事業の概要を明らかにした… The post 奥村組記念事業/120年の節目に発信強化/ユニホームも4月刷新 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "c2e280cb2249",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1691,7 +1769,7 @@
    "url": "https://bfl.ai/models/flux-3-image",
    "published": "2026-10-01T19:24+00:00",
    "published_jst": "2026-10-02 04:24",
-   "summary": "Article URL: https://bfl.ai/models/flux-3-image Comments URL: https://news.ycombinator.com/item?id=49925974 Points: 299 # Comments: 62",
+   "summary": "Article URL: https://bfl.ai/models/flux-3-image Comments URL: https://news.ycombinator.com/item?id=49925974 Points: 309 # Comments: 67",
    "ai_related": true,
    "title_ja": "FLUX 3 Imageに関する最新情報と議論",
    "summary_ja": "FLUX 3 Imageのモデル詳細ページと、Hacker Newsでのコメントや評価を紹介。"
@@ -1935,6 +2013,19 @@
    "summary_ja": "Endraの「Power Studio」により、電気設計の作業時間が1週間から約3時間に短縮されると報じられています。"
   },
   {
+   "id": "edb3914f200e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Mace Construct to depart £184m Oxford labs project",
+   "url": "https://www.constructionnews.co.uk/brexit/mace-construct-to-depart-184m-oxford-labs-project-01-10-2026/",
+   "published": "2026-10-01T15:16+00:00",
+   "published_jst": "2026-10-02 00:16",
+   "summary": "Mace Construct is to exit a £184m laboratory project in Oxford. The contractor said it would complete its part of the Daubeny Buildings scheme by the end of this year before handing over to a new contractor. Mace Construct was initially appointed to the project… The post Mace Construct to depart £18",
+   "ai_related": false
+  },
+  {
    "id": "fdadf99fae2b",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1989,6 +2080,19 @@
    "ai_related": false,
    "title_ja": "シカゴ、初のオフィス住宅転換プロジェクトを完了し街の中心部を刷新",
    "summary_ja": "ループ地区での用途変更プロジェクトにより117戸の手頃な住宅が誕生し、今後もさらなる転換が計画されています。"
+  },
+  {
+   "id": "8f98d6809607",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Finning buys John F Hunt power business",
+   "url": "https://www.constructionnews.co.uk/financial/ma/finning-buys-john-f-hunt-power-business-01-10-2026/",
+   "published": "2026-10-01T14:08+00:00",
+   "published_jst": "2026-10-01 23:08",
+   "summary": "Finning UK & Ireland has acquired John F Hunt Power Group, including temporary-power specialist John F Hunt Power and equipment manufacturer Morris Machinery. The value of the deal was not disclosed. The acquisition does not include John F Hunt Group Ltd, the construction business that… The post Fin",
+   "ai_related": false
   },
   {
    "id": "2be59ecee0ce",
@@ -2096,6 +2200,45 @@
    "summary_ja": "予算を1,000万ドル下回り、予定より2年早くプロジェクトを完了し、設計施工の成果を示した。"
   },
   {
+   "id": "c978462d5c9f",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Ground engineering giant’s revenue drops 36%",
+   "url": "https://www.constructionnews.co.uk/supply-chain/ground-engineering-giants-revenue-drops-36-01-10-2026/",
+   "published": "2026-10-01T11:45+00:00",
+   "published_jst": "2026-10-01 20:45",
+   "summary": "Turnover at ground engineering group Bachy Soletanche slumped to its lowest level since 2020 in its latest financial year. Newly released results for the year to 31 December 2025 showed that revenue was £91.1m in the period, down from £143.2m. Pre-tax profit was up in… The post Ground engineering gi",
+   "ai_related": false
+  },
+  {
+   "id": "881d37d76ef1",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Errigal Contracts boosts turnover and profit",
+   "url": "https://www.constructionnews.co.uk/financial/errigal-contracts-boosts-turnover-and-profit-01-10-2026/",
+   "published": "2026-10-01T11:45+00:00",
+   "published_jst": "2026-10-01 20:45",
+   "summary": "South London contractor Errigal Contracts has increased its turnover and pre-tax profit. The fit-out group reported a 4 per cent hike in revenue to £138m from £132.6m in its latest accounts for the 2025 calendar year. It also saw its pre-tax profit jump, by 12… The post Errigal Contracts boosts turn",
+   "ai_related": false
+  },
+  {
+   "id": "4ffc544f35f6",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "RGCM profit jumps almost 60% despite BSR issues",
+   "url": "https://www.constructionnews.co.uk/financial/rgcm-profit-jumps-almost-60-despite-bsr-issues-01-10-2026/",
+   "published": "2026-10-01T11:45+00:00",
+   "published_jst": "2026-10-01 20:45",
+   "summary": "Kent-based RGCM has recorded a 59 per cent rise in pre-tax profit despite being hit by delays at the Building Safety Regulator (BSR). In its latest accounts for the year to 31 December 2025, the construction specialist, which ranked 58th in the latest CN100, saw… The post RGCM profit jumps almost 60",
+   "ai_related": false
+  },
+  {
    "id": "a74484044cb7",
    "source": "中日BIZナビ",
    "source_id": "gnews_kensetsu_ai",
@@ -2110,7 +2253,7 @@
   },
   {
    "id": "f1842463dfb5",
-   "source": "北海道新聞デジタル",
+   "source": "hokkaido-np.co.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2190,7 +2333,7 @@
   },
   {
    "id": "13489d8bc8ea",
-   "source": "sankei.com",
+   "source": "産経ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2280,62 +2423,6 @@
    "ai_related": false,
    "title_ja": "オックスフォードシャーの巨大貯水池事業で3社が選出",
    "summary_ja": "56億ポンド規模のWhite Horse事業を巡り、Balfour Beattyなどの3社連合が受注を競い合っている。"
-  },
-  {
-   "id": "4fb3caa1bad2",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Quoting Matthew Green",
-   "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
-   "published": "2026-10-01T06:29+00:00",
-   "published_jst": "2026-10-01 15:29",
-   "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and tho",
-   "ai_related": true,
-   "title_ja": "マシュー・グリーン氏の引用について",
-   "summary_ja": "エージェントを乗っ取るペイロードと、それを次へと運ぶエージェントという、ワームの2つの側面について述べています。"
-  },
-  {
-   "id": "52514f241263",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New right-to-work rules and safety levy hit construction today",
-   "url": "https://www.constructionenquirer.com/2026/10/01/new-right-to-work-rules-and-safety-levy-hit-construction-today/",
-   "published": "2026-10-01T06:28+00:00",
-   "published_jst": "2026-10-01 15:28",
-   "summary": "Contractors face fines of up to £60,000 for each illegal worker",
-   "ai_related": false,
-   "title_ja": "新労働適格規則と安全衛生賦課金が建設業界に導入",
-   "summary_ja": "建設業者は不法労働者1人あたり最大6万ポンドの罰金に直面するリスクを抱えることになった。"
-  },
-  {
-   "id": "bbb7c21212bc",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "OpenAI、推論過程を狙った組織的な“蒸留”行為を阻止 「Kimi」開発元の関係者が関与と主張",
-   "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001929/",
-   "published": "2026-10-01T06:06+00:00",
-   "published_jst": "2026-10-01 15:06",
-   "summary": "OpenAIは、モデルの推論過程を抜き出す組織的な“敵対的蒸留”を特定し、阻止したと発表した。活動の中核には中国Moonshot AIの関係者が関与したと分析。暗号化された推論を悪用する新たな手口に対し、アカウント停止や推論保護の強化を実施し、業界や政府機関との脅威情報共有を進めている。",
-   "ai_related": true
-  },
-  {
-   "id": "128003e09b18",
-   "source": "prtimes.jp",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "レバジョブ、大阪支店にて施工管理技士の転職支援を開始",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JRTdfTVZsTHF3UUw5cE1vTTJiRUtQb0NBOVhfMkV5VFhKdDAtWTBOVmFISW9xcld3R2hidWVYUTQyU3lURF9oVnQ4emdFQVJUSkJtcTVJX0lVNmpka0JkMUxZeTNrdTdjcmc?oc=5",
-   "published": "2026-10-01T06:00+00:00",
-   "published_jst": "2026-10-01 15:00",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
