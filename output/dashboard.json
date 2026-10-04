@@ -1,11 +1,11 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-10-04",
   "post_date": "2026-10-04",
-  "generated_at": "2026-10-04T06:33+09:00",
-  "generated_by": "routine:x-post-morning",
+  "generated_at": "2026-10-04T11:05+09:00",
+  "generated_by": "routine:x-post-noon",
   "original_post": null,
   "engage_cards": [],
-  "skip_reason": "朝枠（一般AIの大ネタ速報・動く素材必須）は候補ゼロのため休載。確認した候補: (1) ChatGPTの\"バーチャル試着\"グローバル展開（OpenAI公式、ai_buzz/news_feed両方で10-01〜02に確認）—本ルーティンの2026-10-02 07:25枠で既に採用済みのため重複で不採用。(2) 「Gemini 4 Argon」発表—同じく2026-10-01 07:25枠で採用済みのため重複で不採用。(3) Meta「Muse Gadgets」「Muse Home Link」オープンソースSDK発表（testingcatalog/The Decoder、10-02 05:18・14:28）—発表から48hを超過（生成時点2026-10-04 06:33 JSTから見て10-02 05:18は約49h前）に加え、文章のみの発表でデモ映像の存在が本文・一次ソースで確認できずvideo_urlが取れないため不採用。(4) kimmonismus等の噂ベースの投稿（GPT-6.1 Astra/Fable 5.5が来週登場かも等、10-03 05:17〜19:04）—WebSearchで裏取りした結果、GPT-6.1 Astraは安全性懸念で延期されたまま未発表（憶測の域を出ない）で、確かさ・鮮度の要件を満たさず不採用。(5) Utopai Xのtext-to-videoリーダーボード2位獲得（kimmonismus経由、10-03 07:18）—映像モデルの話題だが公式デモ動画の一次ソースリンクが無く、誰もが驚く規模の発表とは言えないため不採用。(6) sama本人のポスト2件（Cerebras提携の噂否定・dotの感想、10-03 03:16/07:19/10:09）—いずれも新モデル・新デバイスの発表ではなく、デモ動画も無いため不採用。(7) news_feed.jsonのai_global/ai_japan（48h窓・計68件）を全件確認したが、OpenAIの安全担当者退職報道、Apple macOSアクセス権限強化、Amazonデータセンター批判対応など、文字ベースの分析・論評記事のみで、公式デモ動画付きの大型発表は無かった。(8) WebSearchで英語の一般ワード（\"new model announcement demo video\" 等）を追加検索したが、GPT-6.1 Astraは安全性懸念で10月リリース見送り、Gemini 4は年内未定、Meta \"Hatch\"も未発表段階で、24〜48h以内の動く素材つき大ネタは確認できなかった。data/analytics/live_metrics.jsonは読み込み可能だったが、本枠は不採用のため実投稿との重複確認は対象外。"
+  "skip_reason": "昼枠（海外の建設AIのすげーニュース1本目・video_url必須）は、動画付きで裏取りできる候補ゼロのため休載。確認した候補: (1) Figure AI「F.02人型ロボットがフィンランド・イマトラの鋳造所で溶鋼へ自律的に飛び込む訓練をされ、知財保護のため破壊された」（@IntEngineering、ai_buzz idx42、10-02 05:00、[建設すげー動画（海外）]タグ付き、imp32,000）—WebSearchで裏取りしたところ、確認できるFigure AIの実際の報道はBMW社サウスカロライナ工場でF.02が11か月稼働し車両組立・部品搭載を行ったというもののみで、イマトラの鋳造所・溶鋼・ロボット破壊・シュワルツェネッガーの関与を裏付ける一次ソースが一切見つからず、内容が不自然（ロボットを溶鋼に飛び込ませて送り出すという筋立てが他のどの報道にも出てこない）。創作・風刺の疑いが強く、確かさの観点を満たさないため不採用。(2) text-to-cadプラグインがCodexで公開（@earthtojake、ai_buzz idx52、10-03 05:33、[設計・施工の作ってみた（海外）]タグ）—ソフトウェア機能発表でCAD生成のデモ映像がX投稿内に確認できず、絵の観点（動画2点）を満たさないため不採用。(3) SteveRattner氏のNYT論評チャート（AIの勝者は建設作業員・電気工事士、ai_buzz idx53、10-03 04:24）—意見記事の図表のみで現場映像なし、不採用。(4) ENRnews/TheB1Mの投稿（ai_buzz idx18,65-68。Heathrow滑走路、インフラ損壊統計、BIM AIツール記事等）—いずれも文字・静止画のみで動画なし、不採用。(5) output/news_feed.jsonのconstruction_global（48h窓23件。Formas.AIのエージェント型3Dモデラー発表、Lumion「Axogram」発売、各社の受注・決算・人事ニュース等）—全件確認したが、契約・製品発表の文字記事のみでデモ動画を伴うものは無く、解説記事の域を出ないため不採用。(6) output/slack_buzz.json（建設カテゴリ65件）—すべて国内アカウント（森山高至・軽部治・星野茂樹等）で、海外建設AI候補（🌐タグ）は0件。(7) WebSearchで英語検索（construction robot video／autonomous excavator／3D printed house／AI jobsite／BIM AI agent／drone survey、直近48h）を実施。Bedrock Roboticsの自律掘削（8月発表で鮮度切れ）、Boston Dynamics Atlasの建設現場デモ（2023年の動画で鮮度切れ）、ICON/COBODの3Dプリント住宅（直近48hの新規動画が確認できず）、Dusty Robotics等のレイアウトロボット（最新動画の発表情報なし）のみで、24〜48h以内かつX投稿に動画が確認できる一次ソースは見つからなかった。x.com への直接アクセスは本セッションのネットワークポリシーでブロックされており(EGRESS_BLOCKED)、候補の動画有無を直接確認する手段が無いため、未確認のまま採用することもしなかった。今日の朝枠は候補ゼロで休載（本枠と重複なし）。data/analytics/live_metrics.jsonは読み込み可能だが、本枠は不採用のため実投稿との重複確認は対象外。"
 }
