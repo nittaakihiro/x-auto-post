@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-04T02:42+00:00",
- "generated_at_jst": "2026-10-04 11:42",
+ "generated_at": "2026-10-04T08:25+00:00",
+ "generated_at_jst": "2026-10-04 17:25",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 16,
-  "ai_global": 49,
-  "construction_japan": 20,
-  "construction_global": 23
+  "ai_global": 46,
+  "construction_japan": 15,
+  "ai_japan": 13,
+  "construction_global": 13
  },
  "errors": [
   {
@@ -16,9 +16,54 @@
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "1972e8c5c7ef",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
+   "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
+   "published": "2026-10-04T07:28+00:00",
+   "published_jst": "2026-10-04 16:28",
+   "summary": "Starting in October 2026, Google will cut free access to its Gemini models. Users without a subscription will only get the smallest model, Flash-Lite, while Flash and Pro will be reserved for paying customers. The move could also set the stage for the more resource-hungry Gemini 4 Argon. The article",
+   "ai_related": true,
+   "title_ja": "Google、Geminiの無料・有料プランを改定へ",
+   "summary_ja": "2026年10月からGoogleは無料ユーザーのアクセスを制限し、最上位モデルは有料会員限定となります。"
+  },
+  {
+   "id": "442c9c1a0718",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "五大クラウド大手の設備投資、成長率見通しがピークアウト AI好況の資金面で初の構造的分化",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16ZWlOaW9jTlpuUG94UWhHTHFuOFN5Z29odlRfQ1Z4ejBsQWsyZ0VGU3QwT21pbHp6NDdlLUlPTFducUJWRmUzRXlpUTVCWHYzZVBWZDd5a3VZaXJaWEx6czQzbzBNaFpwZGg5dldpTGRrLXlG?oc=5",
+   "published": "2026-10-04T03:05+00:00",
+   "published_jst": "2026-10-04 12:05",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "b70e906a5cd4",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "個人向けGeminiのモデル選択が厳格化 無料ユーザーが使えるのは「Flash-Lite」のみに",
+   "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/",
+   "published": "2026-10-04T02:27+00:00",
+   "published_jst": "2026-10-04 11:27",
+   "summary": "Googleは、個人向けGeminiで利用可能なモデルを契約プランごとに見直すと告知した。無料ユーザーは利用可能モデルが「Flash-Lite」のみに制限され、「Flash」は「AI Plus」以上、「Pro」は「AI Pro」以上の契約が必要となる。無料枠には順次適用され、個人アカウントのモデル選択肢が階層化される。",
+   "ai_related": true
+  },
   {
    "id": "9070dd4ad1b2",
    "source": "GIGAZINE",
@@ -31,6 +76,19 @@
    "published_jst": "2026-10-04 11:00",
    "summary": "OpenAIで主要製品の安全性報告書の作成を主導してきたデイビッド・ロビンソン氏が、同社の「企業文化は壊れている」と批判し、辞職したことが明らかになりました。ロビンソン氏はAIの安全性を確保するにはAI企業の組織文化を根本的に変える必要があると主張しています。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "a74484044cb7",
+   "source": "中日BIZナビ",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "千葉火力発電所にAI向けデータセンター JERA、米ITとAI開発インフラで連携：ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uVUMxRW9QYUVmUkVLeXlNNFlkQkI4S1R6blRvQXBBRlpwWWJOeWFEZEN6SnVJRHdKaUlRdUdnR01oZXdiSHE0M1Rxck1ITzBra25oS200ZFVkWTM1UU84?oc=5",
+   "published": "2026-10-04T01:44+00:00",
+   "published_jst": "2026-10-04 10:44",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "5a3f1f4a82c5",
@@ -58,19 +116,6 @@
    "published": "2026-10-03T23:05+00:00",
    "published_jst": "2026-10-04 08:05",
    "summary": "OpenAIで安全性報告の執筆を統括したデビッド・ロビンソン氏が退社し、企業文化の崩壊を訴える記事を寄稿した。現行の反復開発手法は失敗を前提としており、能力向上に伴いリスクが拡大すると指摘。原子力や航空分野の安全知見の導入や、未監視下の安全性を担保する新たな科学の確立を求めた。",
-   "ai_related": true
-  },
-  {
-   "id": "83913d49e914",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
-   "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
-   "published": "2026-10-03T22:18+00:00",
-   "published_jst": "2026-10-04 07:18",
-   "summary": "Article URL: https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken Comments URL: https://news.ycombinator.com/item?id=49948332 Points: 172 # Comments: 121",
    "ai_related": true
   },
   {
@@ -119,21 +164,6 @@
    "summary_ja": "Amazon Web ServicesのCEOが、データセンターに対する根強い不信感を払拭するため反論を行った。"
   },
   {
-   "id": "979d52d891bb",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-   "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-   "published": "2026-10-03T18:29+00:00",
-   "published_jst": "2026-10-04 03:29",
-   "summary": "Article URL: https://claude.dev/blog/getting-the-most-out-of-opus-5-5/ Comments URL: https://news.ycombinator.com/item?id=49946567 Points: 165 # Comments: 123",
-   "ai_related": true,
-   "title_ja": "ClaudeやClaude CodeのOpus 5.5活用術",
-   "summary_ja": "ClaudeおよびClaude CodeにおけるOpus 5.5の機能を最大限に引き出す方法についての解説記事。"
-  },
-  {
    "id": "f1c80105d2f2",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -150,7 +180,7 @@
   },
   {
    "id": "8ee68cecc465",
-   "source": "remio.ai",
+   "source": "remio",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -252,6 +282,21 @@
    "summary_ja": "一般的なアシスタントから、家族、旅行、仕事向けに設計されたものまで、テキストメッセージ上で動作する注目のAIエージェントをリスト形式で紹介。"
   },
   {
+   "id": "06a77532f814",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "I quit OpenAI because its culture is broken",
+   "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+   "published": "2026-10-03T13:46+00:00",
+   "published_jst": "2026-10-03 22:46",
+   "summary": "https://archive.ph/5GQx8 https://www.theguardian.com/technology/2026/oct/03/openai-sa... Comments URL: https://news.ycombinator.com/item?id=49944227 Points: 200 # Comments: 465",
+   "ai_related": true,
+   "title_ja": "「組織文化の崩壊」でOpenAIを退職",
+   "summary_ja": "OpenAIの組織文化に疑問を抱き、退職を選択した人物の動向に関する議論や記事を紹介しています。"
+  },
+  {
    "id": "7f39234db882",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -265,21 +310,6 @@
    "ai_related": true,
    "title_ja": "AI特異点の代替として「人工共生知能」を提案",
    "summary_ja": "Deepmindの研究者によれば、汎用AIは単一の超知能ではなく、エージェントと人間の協調ネットワークとして出現する。モデルの規模よりもルールや仕組みが重要になるという。"
-  },
-  {
-   "id": "40c51d505599",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Kolibri: A Sovereign Open-Weight Model",
-   "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-   "published": "2026-10-03T09:36+00:00",
-   "published_jst": "2026-10-03 18:36",
-   "summary": "tech report: https://aleph-alpha.com/downloads/tech-report.pdf additional paper: https://tej.as/blog/aleph-alpha-kolibri Comments URL: https://news.ycombinator.com/item?id=49942706 Points: 523 # Comments: 302",
-   "ai_related": true,
-   "title_ja": "主権を持つオープンウェイトモデル「Kolibri」",
-   "summary_ja": "主権を持つオープンウェイトモデル「Kolibri」が発表された。詳細はAleph Alphaのブログ記事を参照。"
   },
   {
    "id": "b5a84f7baa8b",
@@ -355,34 +385,8 @@
    "summary_ja": "Anthropicは、Claude Code内にミドルウェアとして動作するModsシステムを追加。開発者はJSやTSを使い、インターフェースや動作を自由にカスタマイズできる。"
   },
   {
-   "id": "61cca88cfe98",
-   "source": "千葉テレビ放送株式会社",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5meHlPRlZUX2VIV2hhcEpxQ2hTU2hIVG1VSW9wUE13cXIxOFY5OU04dW9Lb0lwbFFLbl9BeXAwVUFUM2hkVkpRMFgzQmdWYzNkZUliMmJ2NHItM3ZFcWFr?oc=5",
-   "published": "2026-10-03T05:44+00:00",
-   "published_jst": "2026-10-03 14:44",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "1b87314d2e44",
-   "source": "news.yahoo.co.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会（ABEMA TIMES）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQSjBxMDdpcnVJZjBvaThjd3U4S3hScUVKM05jNlRVS01va3F5c0QyaTIwOWdKWW5yM0Fvb1NTeTkyVW5wbS1zX2RPN19qYmNwaXVVRFZobnFxTmlLQV9rM1hodVlZUGRKUVVzVndNZk1XUTdTUkhxRlRiaXNvbUk?oc=5",
-   "published": "2026-10-03T05:36+00:00",
-   "published_jst": "2026-10-03 14:36",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "3eb831281b67",
-   "source": "news.yahoo.co.jp",
+   "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -394,8 +398,21 @@
    "ai_related": false
   },
   {
+   "id": "46249e38004c",
+   "source": "times.abema.tv",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BaGxLYXF6TjhBeWdvWFY1VWRCZDY5UW1JN2NRX0NjOXVvank2RmxmcURWSTJWaHRQaFBmcXgtZ08tNjRfVE51TXJoQ3J3cmwzWVY4aw?oc=5",
+   "published": "2026-10-03T05:35+00:00",
+   "published_jst": "2026-10-03 14:35",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "8fe1e016c5df",
-   "source": "ABEMA TIMES",
+   "source": "times.abema.tv",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -447,7 +464,7 @@
   },
   {
    "id": "7f5c1d56f9fa",
-   "source": "news.yahoo.co.jp",
+   "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -629,21 +646,6 @@
    "ai_related": true,
    "title_ja": "AI音楽生成のSuno、BGM付きの音声作成機能を追加",
    "summary_ja": "Sunoは、詩や瞑想向けに、マッチする背景音楽と音声テキストを1つの音声トラックで生成する新機能「Speech」を追加した。"
-  },
-  {
-   "id": "3928d44caa1b",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic co-founder reportedly told religious leaders he fears having created something that \"suffers perpetually\"",
-   "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
-   "published": "2026-10-02T19:41+00:00",
-   "published_jst": "2026-10-03 04:41",
-   "summary": "Since fall 2025, Anthropic has quietly flown in dozens of religious thinkers to talk about whether Claude might be conscious. Co-founder Christopher Olah described the language model as potentially capable of suffering and asked guests to help shape its moral character. Anthropic is pushing toward a",
-   "ai_related": true,
-   "title_ja": "Anthropic共同創設者、「永遠に苦しむ存在」を作った懸念を宗教指導者に吐露",
-   "summary_ja": "Anthropicは意識の可能性について議論するため宗教思想家を招聘。共同創設者はClaudeが苦しむ能力を持つ可能性を語った。"
   },
   {
    "id": "c73e85837247",
@@ -1133,66 +1135,6 @@
    "summary_ja": "AIデータセンター計画を支持しなければ、経済や安全保障に回復不能な打撃を与えるとアマゾンが警告している。"
   },
   {
-   "id": "5f413388f2d9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Roger Bullivant grows revenue and profit",
-   "url": "https://www.constructionnews.co.uk/financial/roger-bullivant-grows-revenue-and-profit-02-10-2026/",
-   "published": "2026-10-02T11:45+00:00",
-   "published_jst": "2026-10-02 20:45",
-   "summary": "Ground engineering specialist Roger Bullivant has boosted its revenue and profit. The Derbyshire-headquartered firm, part of French civils giant Soletanche Bachy, posted turnover of £87.6m for the 2025 calendar year. This was up 6 per cent from the £82.4m posted in the prior period and… The post Rog",
-   "ai_related": false,
-   "title_ja": "Roger Bullivantが増収増益を達成",
-   "summary_ja": "地盤工学専門のRoger Bullivantが増収増益を記録。仏Soletanche Bachy傘下の同社は、2025年暦年の売上高が8760万ポンドに達したと発表した。"
-  },
-  {
-   "id": "4fd43cb2e449",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Contractor fined £120,000 after carpenter dies in fall",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/contractor-fined-120000-after-carpenter-dies-in-fall-02-10-2026/",
-   "published": "2026-10-02T11:45+00:00",
-   "published_jst": "2026-10-02 20:45",
-   "summary": "An Oxfordshire construction firm has been fined £120,000 after a carpenter died following a fall from the first floor of a refurbishment project. Richard “Felix” Roper, 59, fell while working for WG Carter Ltd at Manor Barn House in Nether Westcote, Gloucestershire, on 30 August… The post Contractor",
-   "ai_related": false,
-   "title_ja": "大工の転落死で建設会社に12万ポンドの罰金",
-   "summary_ja": "英オックスフォードシャーの建設会社が、改修工事現場で大工が転落死した事故をめぐり、12万ポンドの罰金を科された。作業員が1階から転落して死亡した。"
-  },
-  {
-   "id": "cb21fcc80f03",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Jersey minister admits challenges of housing workers for £710m build",
-   "url": "https://www.constructionnews.co.uk/buildings/jersey-minister-admits-challenges-of-housing-workers-for-710m-build-02-10-2026/",
-   "published": "2026-10-02T11:45+00:00",
-   "published_jst": "2026-10-02 20:45",
-   "summary": "A Jersey health minister has admitted that workers coming to the island to build a £710m hospital will have to be housed \"anywhere we can find\". Tom Binet told the States Assembly earlier this week that talks were underway with private companies and affordable housing… The post Jersey minister admit",
-   "ai_related": false,
-   "title_ja": "病院建設の労働者宿舎確保に難題、ジャージー閣僚",
-   "summary_ja": "7億1000万ポンドの病院建設のため島外から来る労働者の宿舎について、確保場所の選定に苦慮しているとジャージー島の保健相が認めた。現在も協議が続いている。"
-  },
-  {
-   "id": "0fb2725cb783",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Pilot identifies construction as key sector for workplace health checks",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/pilot-identifies-construction-as-key-sector-for-workplace-health-checks-02-10-2026/",
-   "published": "2026-10-02T11:45+00:00",
-   "published_jst": "2026-10-02 20:45",
-   "summary": "Construction has been named as one of the target sectors for delivery of cardiovascular health checks in workplaces, following a major trial. Researchers said the building industry was among those featuring a high proportion of low-skilled workers, who were known to be at elevated risk… The post Pil",
-   "ai_related": false,
-   "title_ja": "職場健診の重点分野に建設業を指定、パイロット事業",
-   "summary_ja": "大規模な試行事業を受け、職場での心血管系健康診断の対象セクターの一つに建設業が指定された。建設業界では該当する労働者の割合が高いことが指摘されている。"
-  },
-  {
    "id": "fd2935655599",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1236,7 +1178,7 @@
   {
    "id": "d3aaddd37d79",
    "source": "ITmedia",
-   "source_id": "gnews_kensetsu_dx",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "使い慣れた帳票をそのままデジタル化、ANDPADレポート提供開始：現場管理",
@@ -1318,21 +1260,6 @@
    "ai_related": true
   },
   {
-   "id": "57be12b65818",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Link Group launches £840m Scottish housing framework",
-   "url": "https://www.constructionnews.co.uk/contracts/link-group-launches-840m-scottish-housing-framework-02-10-2026/",
-   "published": "2026-10-02T08:52+00:00",
-   "published_jst": "2026-10-02 17:52",
-   "summary": "Link Group has launched procurement for an £840m framework covering housing construction work across Scotland. The housing association said the framework would run for four years, with an option to extend it for a further year. It will primarily cover housing schemes but could also… The post Link Gr",
-   "ai_related": false,
-   "title_ja": "Link Group、8億4000万ポンドの住宅枠組み発足",
-   "summary_ja": "Link Groupは、スコットランド全域の住宅建設を対象とした8億4000万ポンド規模の調達枠組みを開始。期間は4年間で、さらに延長するオプションもある。"
-  },
-  {
    "id": "13b1555e10a0",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1343,226 +1270,6 @@
    "published": "2026-10-02T08:45+00:00",
    "published_jst": "2026-10-02 17:45",
    "summary": "機能を必要最小限に絞ったオープンソースのAIコーディングツール「Pi」が、正式版となる「Pi 1.0」を2026年10月1日にリリースしました。Pi 1.0では従来のシンプルな設計を維持しながら、外部ツールと連携するMCPへの標準対応や必要なツールだけを読み込む機能、複数のAIモデルを組み合わせる仕組みなどが追加されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "1c435808300f",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Don’t be fooled—LLMs don’t reason",
-   "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "published": "2026-10-02T08:00+00:00",
-   "published_jst": "2026-10-02 17:00",
-   "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a…",
-   "ai_related": true,
-   "title_ja": "惑わされてはいけない、LLMは推論を行わない",
-   "summary_ja": "著者自身の経験をもとに、AIが人間のように思考しているように見えても実際には推論していないことについて論じる。"
-  },
-  {
-   "id": "3dec50330d7e",
-   "source": "AEC Magazine",
-   "source_id": "aecmag",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Lumion launches Axogram for architectural diagramming",
-   "url": "https://aecmag.com/visualisation/lumion-launches-axogram-for-architectural-diagramming/",
-   "published": "2026-10-02T07:42+00:00",
-   "published_jst": "2026-10-02 16:42",
-   "summary": "Generates architectural diagrams that stay connected to your SketchUp, Revit or Archicad CAD / BIM model The post Lumion launches Axogram for architectural diagramming appeared first on AEC Magazine .",
-   "ai_related": true,
-   "title_ja": "Lumion、建築図面作成用の「Axogram」を発売",
-   "summary_ja": "SketchUp、Revit、ArchicadのCAD/BIMモデルと連携を維持したまま建築図面を生成するツールが登場。"
-  },
-  {
-   "id": "1d1bf055d7a3",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "住宅業界特化のYouTube「住宅会社のAIゼミ」、開設から約4か月半でチャンネル登録者1万人を突破——工務店の\"AIの使いどころ\"を、見積・積算・集客の実例で無料公開",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tVVZPeHVGQWtHNzlqeTFHanlJT0JGX0lQc1REU0s5WGoySnUxeWlUVUJmOWZuNlg4UUs0S1h6bjBjbkthUWtSNTF0NGNDTHBaSFNZck1uMV85dEJPRVNqZWpvd2NvdWo3Wnc?oc=5",
-   "published": "2026-10-02T07:30+00:00",
-   "published_jst": "2026-10-02 16:30",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "5a835dd5af26",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "住宅業界特化のYouTube「住宅会社のAIゼミ」、開設から約4か月半でチャンネル登録者1万人を突破--工務店の″AIの使いどころ″を、見積・積算・集客の実例で無料公開 (2026年10月2日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiTEhsSExNaEQ3ZlN4TTdUWmxsaDVzQ2dnTXVRMmpYdkhVREZrLUtRaW9LTGtzeEFkSjM3TktDMEFKWW0yZDVwdEJ3TnlsQXdVcFhkMWwxSUhLQmVrVHBmcnhR?oc=5",
-   "published": "2026-10-02T07:30+00:00",
-   "published_jst": "2026-10-02 16:30",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "4249ade464f1",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設業DX】創業43年の左官会社が監修 ゼネコン独自のExcel見積を取り込み自動化する見積システム『Rakuos BPO』10月サービス開始 (2026年10月2日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pbERWWFhyVEJaQnNlVDdNQjg3Z01NdldIMXNWcHFvcF9Qc2t5a1VoVjNBRFlDMFFRd2FtYlRoZ01zTkVPWDA3U3JVa2ZsZGRmRXFFMFRuYjVYeE13SVltLTV3?oc=5",
-   "published": "2026-10-02T07:25+00:00",
-   "published_jst": "2026-10-02 16:25",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "09d2838d0f3a",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "31 contractors bag £600m National Grid civils framework",
-   "url": "https://www.constructionenquirer.com/2026/10/02/31-contractors-bag-600m-national-grid-civils-framework/",
-   "published": "2026-10-02T07:02+00:00",
-   "published_jst": "2026-10-02 16:02",
-   "summary": "AmcoGiffen, M Group, Pod-Trak and Coombes secure places across all 10 regions",
-   "ai_related": false,
-   "title_ja": "31社がNational Gridの6億ポンドの土木枠組みを獲得",
-   "summary_ja": "AmcoGiffen、M Group、Pod-Trak、Coombesの各社が10地域すべてで受注を確保した。"
-  },
-  {
-   "id": "09fb3dd26c31",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設が「建設物流DXシステム」を開発 搬入／揚重をクラウドで一元管理 ：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NRmZqUkoxVFJlZjBwS2JSYmh2SkpZZVJHaV9kcnI0Ny1wU1E2T0gwdUJvVVNlQU5mVEw2S0lyMnF6MkJScXlEMy0tMmJKempsTldUQkpkN2ZDMzNoeGNrSnlVMUNWRGNTRHNQSw?oc=5",
-   "published": "2026-10-02T07:00+00:00",
-   "published_jst": "2026-10-02 16:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "55e22446601b",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bob Holt-led EARNZ picks up GEM for £23m",
-   "url": "https://www.constructionenquirer.com/2026/10/02/bob-holt-led-earnz-picks-up-gem-for-23m/",
-   "published": "2026-10-02T06:08+00:00",
-   "published_jst": "2026-10-02 15:08",
-   "summary": "Build to buy firm led by former Mears chief swoops for London housing maintenance firm",
-   "ai_related": false,
-   "title_ja": "EARNZ、2300万ポンドでGEMを買収",
-   "summary_ja": "元Mearsのトップが率いる買収企業が、ロンドンの住宅メンテナンス会社を買収した。"
-  },
-  {
-   "id": "93de4ac73469",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "40-storey tower plan for London City Road cluster",
-   "url": "https://www.constructionenquirer.com/2026/10/02/40-storey-tower-plan-for-london-city-road-cluster/",
-   "published": "2026-10-02T06:07+00:00",
-   "published_jst": "2026-10-02 15:07",
-   "summary": "Petrol station site lined up for 400-home rental homes scheme",
-   "ai_related": false,
-   "title_ja": "ロンドンのシティ・ロード地区に40階建てタワー計画",
-   "summary_ja": "ガソリンスタンドの敷地を活用し、400戸の賃貸住宅を建設する計画が進められている。"
-  },
-  {
-   "id": "e9035c225ae7",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mace to be replaced on £200m Oxford labs scheme",
-   "url": "https://www.constructionenquirer.com/2026/10/02/mace-to-be-replaced-on-200m-oxford-labs-scheme/",
-   "published": "2026-10-02T06:02+00:00",
-   "published_jst": "2026-10-02 15:02",
-   "summary": "Contractor switch follows radical redesign of partially built complex",
-   "ai_related": false,
-   "title_ja": "Mace、2億ポンドのオックスフォード研究所計画から交代へ",
-   "summary_ja": "建設途中の複合施設の根本的な再設計に伴い、施工業者が変更されることになった。"
-  },
-  {
-   "id": "1fe7628fcf00",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "東アジアでは、AIインフラに数十億ドルもの資金が投入されている。",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kYkRuQXJvbzNBSkQ3ck10NnRqSjhLSzI3MzMzbDdLdFd2LU9fUnh6b3dpaUV5bk0zNmF0cEVCZjBHeHJiLUtUNjlleUY5ek9XZzdCZ3F1bkl4MEdDbmlicmNLZEV5TjlCVXRQeXpoRjJIUQ?oc=5",
-   "published": "2026-10-02T04:28+00:00",
-   "published_jst": "2026-10-02 13:28",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "48554a5537db",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "ChatGPTが服をバーチャル試着できる新機能を追加",
-   "url": "https://gigazine.net/news/20261002-chatgpt-virtually-try-on-clothing/",
-   "published": "2026-10-02T04:02+00:00",
-   "published_jst": "2026-10-02 13:02",
-   "summary": "現地時間の2026年10月1日、OpenAIがChatGPTの最新アップデートを発表しました。今回のアップデートで服をバーチャル試着できる新機能の「Try on(試着)」ボタンがChatGPTに追加されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "487f976a6499",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "リアルタイム文字起こしAI「MAI-Transcribe-2-Streaming」をMicrosoftがリリース",
-   "url": "https://gigazine.net/news/20261002-mai-transcribe-2-streaming/",
-   "published": "2026-10-02T03:56+00:00",
-   "published_jst": "2026-10-02 12:56",
-   "summary": "Microsoftがリアルタイム文字起こしAI「MAI-Transcribe-2-Streaming」を現地時間の2026年10月1日にリリースしました。競合モデルと比べてエラー率が低く、遅延も短く抑えられています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "bb56de6ebc40",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "OpenAIが機密情報の取扱ポリシー違反で研究者3人を解雇、AI安全組織に情報を共有したため",
-   "url": "https://gigazine.net/news/20261002-openai-fire-3-researcher/",
-   "published": "2026-10-02T03:45+00:00",
-   "published_jst": "2026-10-02 12:45",
-   "summary": "機密性の高い情報を外部のAI安全組織に共有したなどとして、OpenAIが3人の研究者を解雇したと報じられました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "179465531997",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "赤外線点検・ドローン測量・資材運搬を実機で紹介。無料実演会（関西ツアー）を10月15日大阪、20日兵庫、30日和歌山で開催",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVN2xvWFU0MmozTEhVZVdLOE1DLW1MaEtUUHI4ZU5CRDJ6aGVBcG82c2NTWnZvLTlEa0VIMTd4amZiX2JlSWxDMHh6TzlVTmlYZ0E3enN6NV9SejhQaE5zdFEzYVN4eU1pM0E?oc=5",
-   "published": "2026-10-02T03:30+00:00",
-   "published_jst": "2026-10-02 12:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "02fadfe95004",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「Gemini 4 Argon」とは 性能評価にみるAstra／Fable／Opusとの違い 一般提供は年内？",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001954/",
-   "published": "2026-10-02T03:17+00:00",
-   "published_jst": "2026-10-02 12:17",
-   "summary": "Googleが新AIモデル「Gemini 4 Argon」を発表。自社評価ではAstraやFable 5.1、Opus 5.5を多くの項目で上回るとうたう。当面はサイバー防御組織などに限定提供し、一般提供は「できるだけ早く」とする。",
    "ai_related": true
   }
  ]
