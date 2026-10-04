@@ -1,20 +1,37 @@
 {
- "generated_at": "2026-10-04T00:36+00:00",
- "generated_at_jst": "2026-10-04 09:36",
+ "generated_at": "2026-10-04T02:00+00:00",
+ "generated_at_jst": "2026-10-04 11:00",
  "window_hours": 48,
  "counts": {
-  "ai_global": 48,
-  "ai_japan": 17,
-  "construction_japan": 28,
+  "ai_japan": 16,
+  "ai_global": 49,
+  "construction_japan": 21,
   "construction_global": 23
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "9070dd4ad1b2",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAIの安全担当従業員が辞職、「会社の文化が崩壊している」と主張",
+   "url": "https://gigazine.net/news/20261004-openai-safety-employee-resigns-culture-broken/",
+   "published": "2026-10-04T02:00+00:00",
+   "published_jst": "2026-10-04 11:00",
+   "summary": "OpenAIで主要製品の安全性報告書の作成を主導してきたデイビッド・ロビンソン氏が、同社の「企業文化は壊れている」と批判し、辞職したことが明らかになりました。ロビンソン氏はAIの安全性を確保するにはAI企業の組織文化を根本的に変える必要があると主張しています。 続きを読む...",
+   "ai_related": true
+  },
   {
    "id": "5a3f1f4a82c5",
    "source": "Simon Willison",
@@ -41,6 +58,19 @@
    "published": "2026-10-03T23:05+00:00",
    "published_jst": "2026-10-04 08:05",
    "summary": "OpenAIで安全性報告の執筆を統括したデビッド・ロビンソン氏が退社し、企業文化の崩壊を訴える記事を寄稿した。現行の反復開発手法は失敗を前提としており、能力向上に伴いリスクが拡大すると指摘。原子力や航空分野の安全知見の導入や、未監視下の安全性を担保する新たな科学の確立を求めた。",
+   "ai_related": true
+  },
+  {
+   "id": "83913d49e914",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+   "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+   "published": "2026-10-03T22:18+00:00",
+   "published_jst": "2026-10-04 07:18",
+   "summary": "Article URL: https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken Comments URL: https://news.ycombinator.com/item?id=49948332 Points: 151 # Comments: 101",
    "ai_related": true
   },
   {
@@ -98,7 +128,7 @@
    "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
    "published": "2026-10-03T18:29+00:00",
    "published_jst": "2026-10-04 03:29",
-   "summary": "Article URL: https://claude.dev/blog/getting-the-most-out-of-opus-5-5/ Comments URL: https://news.ycombinator.com/item?id=49946567 Points: 150 # Comments: 108",
+   "summary": "Article URL: https://claude.dev/blog/getting-the-most-out-of-opus-5-5/ Comments URL: https://news.ycombinator.com/item?id=49946567 Points: 160 # Comments: 119",
    "ai_related": true,
    "title_ja": "ClaudeやClaude CodeのOpus 5.5活用術",
    "summary_ja": "ClaudeおよびClaude CodeにおけるOpus 5.5の機能を最大限に引き出す方法についての解説記事。"
@@ -246,7 +276,7 @@
    "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
    "published": "2026-10-03T09:36+00:00",
    "published_jst": "2026-10-03 18:36",
-   "summary": "tech report: https://aleph-alpha.com/downloads/tech-report.pdf additional paper: https://tej.as/blog/aleph-alpha-kolibri Comments URL: https://news.ycombinator.com/item?id=49942706 Points: 486 # Comments: 296",
+   "summary": "tech report: https://aleph-alpha.com/downloads/tech-report.pdf additional paper: https://tej.as/blog/aleph-alpha-kolibri Comments URL: https://news.ycombinator.com/item?id=49942706 Points: 515 # Comments: 300",
    "ai_related": true,
    "title_ja": "主権を持つオープンウェイトモデル「Kolibri」",
    "summary_ja": "主権を持つオープンウェイトモデル「Kolibri」が発表された。詳細はAleph Alphaのブログ記事を参照。"
@@ -325,32 +355,6 @@
    "summary_ja": "Anthropicは、Claude Code内にミドルウェアとして動作するModsシステムを追加。開発者はJSやTSを使い、インターフェースや動作を自由にカスタマイズできる。"
   },
   {
-   "id": "61cca88cfe98",
-   "source": "chiba-tv.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5meHlPRlZUX2VIV2hhcEpxQ2hTU2hIVG1VSW9wUE13cXIxOFY5OU04dW9Lb0lwbFFLbl9BeXAwVUFUM2hkVkpRMFgzQmdWYzNkZUliMmJ2NHItM3ZFcWFr?oc=5",
-   "published": "2026-10-03T05:44+00:00",
-   "published_jst": "2026-10-03 14:44",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "1b87314d2e44",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会（ABEMA TIMES）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQSjBxMDdpcnVJZjBvaThjd3U4S3hScUVKM05jNlRVS01va3F5c0QyaTIwOWdKWW5yM0Fvb1NTeTkyVW5wbS1zX2RPN19qYmNwaXVVRFZobnFxTmlLQV9rM1hodVlZUGRKUVVzVndNZk1XUTdTUkhxRlRiaXNvbUk?oc=5",
-   "published": "2026-10-03T05:36+00:00",
-   "published_jst": "2026-10-03 14:36",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "3eb831281b67",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
@@ -364,8 +368,21 @@
    "ai_related": false
   },
   {
+   "id": "46249e38004c",
+   "source": "ABEMA TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米AIデータセンター建設をめぐり トランプ氏支持者が反対集会",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BaGxLYXF6TjhBeWdvWFY1VWRCZDY5UW1JN2NRX0NjOXVvank2RmxmcURWSTJWaHRQaFBmcXgtZ08tNjRfVE51TXJoQ3J3cmwzWVY4aw?oc=5",
+   "published": "2026-10-03T05:35+00:00",
+   "published_jst": "2026-10-03 14:35",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "8fe1e016c5df",
-   "source": "times.abema.tv",
+   "source": "ABEMA TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1193,7 +1210,7 @@
   {
    "id": "d3aaddd37d79",
    "source": "ITmedia",
-   "source_id": "gnews_kensetsu_dx",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "使い慣れた帳票をそのままデジタル化、ANDPADレポート提供開始：現場管理",
@@ -1510,19 +1527,6 @@
    "ai_related": true
   },
   {
-   "id": "4dadfa5aac28",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Claude Codeを自分好みにカスタムできるMod機能が登場",
-   "url": "https://gigazine.net/news/20261002-claude-code-customize-mod/",
-   "published": "2026-10-02T03:19+00:00",
-   "published_jst": "2026-10-02 12:19",
-   "summary": "AIコーディングエージェントのClaude Codeに、動作やUIを自分好みにカスタムできるMod機能が追加されました。ModはTypeScriptで記述可能で、Claude Code自身にModの作成を依頼することもできます。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "02fadfe95004",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1537,7 +1541,7 @@
   },
   {
    "id": "9ad21ce3b81b",
-   "source": "chiba-tv.com",
+   "source": "千葉テレビ放送株式会社",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1573,97 +1577,6 @@
    "published_jst": "2026-10-02 11:01",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "a497474ded60",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "NTTドコモビジネス、竹中工務店と清水建設の日本国内の建築現場へ建設業向けクラウド型工程アプリ「GaNett(R)」を展開",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42RDN0c2Nqbm10ZWtiVTBYZkVGTFhjcjhGcV9IZ2JXcklHVTdveWpXR3JGNmw0czE5TUQyMk1ZNUctWF8tQmRJYjQ3ckE5RkpOaWVKc202TWRuZGhlVTlLYQ?oc=5",
-   "published": "2026-10-02T02:00+00:00",
-   "published_jst": "2026-10-02 11:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "8b377831f2ad",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Microsoft、初のストリーミング文字起こしモデル「MAI-Transcribe-2-Streaming」公開 音声合成「MAI-Voice-2.1」と高速版も",
-   "url": "https://www.itmedia.co.jp/news/article/2610/02/2000001950/",
-   "published": "2026-10-02T01:47+00:00",
-   "published_jst": "2026-10-02 10:47",
-   "summary": "Microsoft AIは、ストリーミング文字起こしモデル「MAI-Transcribe-2-Streaming」と音声合成モデル群を発表した。低遅延な逐次認識や声のトーンを保った多言語合成に対応し、音声エージェント構築を想定する。Microsoft Foundryでプレビュー提供を始め、複合デモも公開した。",
-   "ai_related": true
-  },
-  {
-   "id": "272d4ed485a9",
-   "source": "Cryptopolitan",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "JERA、Dell、RHAELM が日本に 150 億ドルの AI インフラプロジェクトを計画",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeWpvRGM4VVBjenU4dmlNTG9hWXVocDE3RHV5NkZaWVhmejR5bUVCQWZiR3Y5NTZPOEN1bXpOWTgyODN5TDBPTDhwYjlIek52c1U4VUVXZ0NuN0F5Nmt0SWdrNUFhVjZTQ2M2emtqRWlOak5WcTJHX3NrRzRGMXBBZGIzdUowdzA4ckJyaHZQdU1RVW5icEQxTWVWM3dzRGc?oc=5",
-   "published": "2026-10-02T01:37+00:00",
-   "published_jst": "2026-10-02 10:37",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "4991f73d1705",
-   "source": "Infoseek",
-   "source_id": "gnews_zenecon_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設業DX】創業43年の左官会社が監修 ゼネコン独自のExcel見積を取り込み自動化する見積システム『Rakuos BPO』10月サービス開始",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SQzRCek40bndTbDlfaVRhbkJKTUJUQ1VTcVhXWFVUMElEdHd2Ny02SFBWa0VUenVEaFo1bkplTGV3dFV5Nm1aeUxXcS1hTDhTcHU4UUZ1ejNSMHVINVB1dWxQVkY1aDBiVmhMbEtoSmwtdw?oc=5",
-   "published": "2026-10-02T01:30+00:00",
-   "published_jst": "2026-10-02 10:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "2d879de4696f",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "奥村組が日本初の実用免震ビルを揺らす、竣工40年で積層ゴムの性能を実測し長期変化を検証",
-   "url": "https://news.build-app.jp/article/42926/",
-   "published": "2026-10-02T01:00+00:00",
-   "published_jst": "2026-10-02 10:00",
-   "summary": "奥村組は、1986年に竣工した日本初の実用免震ビル「奥村組技術研究所管理棟」を実際に揺らし、免震装置の性能変化を調べる「自由振動実験」を20...",
-   "ai_related": false
-  },
-  {
-   "id": "b3f5a66255cd",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SHE、ホワイトかブルーかではない「グラデーションなキャリア選択」を提案！ 第1弾として建設・まちづくり領域の新しい働き方を知るイベントを10/20(火)開催",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03Z2tqZ1lZUTBzUjJ2VHlMeEFjRGROVldmNlk2NG03ZXlrSWFKc1R0ZzBOOVAtdXpybWVKM05vOW05YkhKb3hmS0JRV1FhcmtaV0UzMDRaQmsydVBOMkxtX3V6VUJKem5LeFE?oc=5",
-   "published": "2026-10-02T01:00+00:00",
-   "published_jst": "2026-10-02 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "50a51b2ee06b",
-   "source": "TBS NEWS DIG",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "TSMC、AI半導体増産で米テキサス州に拠点建設検討－数百億ドル規模",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56aFpsYmRaS2JFYzYtV25nOEMyWnY1VFlqZUZTOXBjNXE4ZzZSRDdGTGljVWRaZUJCVVpablN1WExSSG9PaHgybEwtdGp2eWZJSnZJeFVESmdiZjRUdjV3MXFtUFdHMm9ZT0tjaHFtcEJlYXdN?oc=5",
-   "published": "2026-10-02T00:52+00:00",
-   "published_jst": "2026-10-02 09:52",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
