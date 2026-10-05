@@ -1,11 +1,11 @@
 {
   "version": 6,
-  "slot": "night",
-  "date": "2026-10-05",
-  "post_date": "2026-10-05",
-  "generated_at": "2026-10-05T20:35+09:00",
-  "generated_by": "routine:x-post-night",
+  "slot": "morning",
+  "date": "2026-10-06",
+  "post_date": "2026-10-06",
+  "generated_at": "2026-10-06T06:34+09:00",
+  "generated_by": "routine:x-post-morning",
   "original_post": null,
   "engage_cards": [],
-  "skip_reason": "夜枠（海外の建設AIのすげーニュース2本目・video_url必須、昼とは別ネタ）は、48h以内かつX投稿に動画が確認できる候補がゼロのため休載。確認した候補・検索: (1) output/ai_buzz.json を全件確認——[建設×AI海外]タグは@Miaavswpv(テスラOptimus/宇宙経済の仮想通貨宣伝、建設ロボット映像なし)と@jmwind(ソフトウェア人員削減についての私見、映像なし)の2件のみで、🌐海外建設アカウント（ConstructionDive/ENRnews/TheB1M/Procore/BentleySystems/Trimble/Autodesk等）や🎬建設すげー動画（海外）/🎬設計・施工の作ってみた（海外）タグの投稿は本日0件。(2) output/slack_buzz.json のconstruction分類を全件確認——すべて国内アカウント（施工の神様・グリップ君・森山高至・建設アップデート・日刊建設工業新聞・石男くん等）で海外建設アカウントのタグ付き投稿は0件。[CAD/BIM×AI（国内）]の@Solvaix(Claudeでホテル階のMEP分解)は個人の作ってみた系かつ動画の確認ができずルーティンの『作ってみた禁止』にも抵触するため不採用。(3) output/news_feed.json は construction_global が本日1件のみ（中国の中学校の建築設計紹介記事、AI/ロボット要素なしのため不採用）。(4) WebSearch（英語、直近48h条件）を複数ラウンド実施——autonomous excavator／construction robot video／3D printed house／jobsite robotics demo／BIM AI agent／autonomous crane・bulldozer・paver／robot dog construction inspection／construction drone survey AI 等。ヒットしたのはBedrock Roboticsの完全自律掘削機稼働(2026-08-17発表、鮮度切れ)、Komatsu×AIM Intelligent Machinesの自律化パートナーシップ(2026-08-03発表、鮮度切れ)、Hitachi×Gravis RoboticsのConExpoブース展示(2026年4月の展示会、鮮度切れ)、NVIDIA GTC TaipeiでのJensen HuangによるRTX Spark上のAIエージェントがRhino→Blenderで住宅を設計するデモ(2026-06-01、鮮度切れ)、Boston Dynamics Spotの建設現場点検(恒常的な事例紹介で初出日不明、48h以内の新規発表なし)、DroneDeploy Progress AI/Bectel×Cyberhawkのドローン提携(2026年9月、鮮度切れ)のみで、いずれも直近48h以内の新規発表ではなく、X上で動画付きの一次投稿も確認できなかった。x.comの直接閲覧はこの環境ではWebFetchがJS描画非対応のため実質できず、ai_buzz/slack_buzz/news_feedのスナップショットとWebSearchの範囲で判断した。本日の朝枠・昼枠も同じ理由（動く素材なし）で休載・確定済みのため、本枠と重複する既存ネタは無い。data/analytics/live_metrics.jsonは2026-09-27時点で停止しており10月の実投稿を含まないため、実投稿との重複は未確認。"
+  "skip_reason": "朝枠（一般AIの大ネタ速報・公式のデモ動画など動く素材があるものだけ）は、直近24〜48h（生成時刻2026-10-06 06:34 JST時点）に該当する公式一次発表がゼロのため休載。確認した候補: (1) output/ai_buzz.json を全件確認——OpenAI/AnthropicAI/GoogleDeepMind/sama/gdb等の公式アカウントの投稿は本日0件（[AI-global]/[AI-jp]タグは@DataChaz・@kimmonismus・@testingcatalog・梶谷健人・清水亮・AIDB・チャエン等の個人アカウントの所感・ニュースまとめのみ）。チャエン(@masahirochaen)の『1週間の重要AIニュース』でOpenAI「dots」(専用クラウドPCで先回り動作するエージェント)とGoogle「Gemini 4 Argon」に言及していたが、どちらも二次的な週次まとめ投稿で動画添付なし、かつGemini 4 Argonは2026-10-01朝枠で既出、dots自体も先週発表済みで鮮度切れ(絵0・鮮度0)。(2) output/news_feed.json のai_global/ai_japanを全件確認(直近48h・計63件)——OpenAI Newsの『EU text provenance rules』『ChatGPT新広告フォーマット』、The DecoderのAleph Alpha「Kolibri」オープンウェイトモデル公開、GIGAZINEの「Qwen3.8-Flash-Next」ローカル実行アプリ「Strata」、AI「Ataraxos」のストラテゴ15勝、Google Geminiの無料/有料プラン階層変更など、いずれもテキスト発表・価格/UI変更・ベンチマーク戦績の記事でデモ動画の存在を確認できず(絵0)。新モデル・新デバイスの発表でもない、または『誰もが驚く』規模に届かない。(3) WebSearchを複数ラウンド実施(OpenAI/Anthropic/Google 新モデル 発表 動画、site:x.com OpenAI announcement video 等)——ヒットは記事公開時点が古いもの(Veo関連・Claude 4関連など)か、具体的な本日該当の一次発表は確認できず。x.comの直接閲覧はこの環境ではWebFetchがJS描画非対応のため実質できず、ai_buzz/news_feedのスナップショットとWebSearchの範囲で判断した。data/analytics/live_metrics.jsonは2026-09-27時点で停止しており10月の実投稿を含まないため、実投稿との重複は未確認。"
 }
