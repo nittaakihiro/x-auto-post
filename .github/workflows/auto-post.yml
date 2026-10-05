@@ -67,12 +67,21 @@ jobs:
           now = datetime.now(JST)
           today = now.strftime("%Y-%m-%d")
           queue = json.load(open("output/post_queue.json"))
+          # ルーティンが意図的に休載した枠（v7.1: 動く素材なしは休載）は欠落扱いしない。
+          # 休載は post_queue に残らず "skip: YYYY-MM-DD 朝枠 ..." のコミットだけが残るので、それを見る。
+          import subprocess
+          subprocess.run(["git", "fetch", "-q", "--shallow-since=2 days ago", "origin", "main"],
+                         capture_output=True)
+          skip_log = subprocess.run(["git", "log", "origin/main", "--since=2 days ago", "--format=%s"],
+                                    capture_output=True, text=True).stdout
+          SLOT_NAME = {"07:25": "朝枠", "12:00": "昼枠", "20:00": "夕枠"}
           missing = []
           for slot in ("07:25", "12:00", "20:00"):
               sched = datetime.strptime(f"{today} {slot}", "%Y-%m-%d %H:%M").replace(tzinfo=JST)
               recently_due = timedelta(0) <= now - sched <= timedelta(minutes=90)
               exists = any(p.get("date") == today and p.get("time") == slot for p in queue)
-              if recently_due and not exists:
+              skipped = f"skip: {today} {SLOT_NAME[slot]}" in skip_log
+              if recently_due and not exists and not skipped:
                   missing.append(slot)
           STATE = "output/alert_state.json"
           try:
