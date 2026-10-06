@@ -64,6 +64,7 @@
 **v7.3（10-06 本人）**：「国内でも海外でも建設×AIネタは拾っておいてくれな」。
 - 柱2を「海外の」から「国内外の」建設AIのすげーニュースに広げる。国内ネタ（ゼネコンのロボット・自動施工の実証、メーカーの新製品デモなど）も同じ基準（動く素材必須・直近48h・5観点）で候補に入れ、国内外を並べて一番すげーものを採る
 - 国内ネタは日本語なので解説段落は不要。社名・数字は公式発表どおり
+- **建設×フィジカルAIを重点ネタにする**（10-06 本人「建設×フィジカルAIネタもほしい」）。人型ロボット・四足歩行ロボット・ロボットアーム・自律で動く重機・ロボット向け基盤モデルが、現場の作業（溶接・鉄筋・内装・巡回・資材運搬・掘削など）を実際にやっている映像。国内外とも対象で、同点ならフィジカルAIを優先する。工場や家庭のロボットでも、建設の作業に置き換えられるなら夜枠の代替候補にしてよい（置き換え先を本文に書く）
 - 競合除外はそのまま（国内の建設向けAI開発/導入支援・BPO・営業代行は不可。ゼネコン・メーカー・研究機関は競合に当たらない）
 - きっかけ：10-06 は朝・昼とも休載。昼枠は清水建設の人型ロボット実証を「国内企業で柱の対象外」として落としていた
 
@@ -141,6 +142,7 @@ Opus 5.5でアニメも作れる、、、　これは結構使えるかも。
 editorial の scores はこの5つのキー（claim / mechanism / concrete / construction_only / decision）で入れる。8点未満なら引用に切り替える。
 
 ## ネタの取り方
+- 建設×フィジカルAI：ai_buzz.json の「🤖建設×フィジカルAI（海外）」「🤖建設×フィジカルAI（国内）」（x_watcher の動画検索）。WebSearch は日本語（フィジカルAI 建設／人型ロボット 現場／四足歩行ロボット 巡回／ロボットアーム 溶接 鉄筋）と英語（physical AI construction／humanoid robot jobsite／robot dog construction site／embodied AI construction）
 - 国内の建設AI：X の動画付き投稿（output/slack_buzz.json の国内建設アカウント＝ゼネコン公式・建設DX系・施工管理系、ai_buzz.json の国内建設×AI）と、WebSearch 日本語で直近48h（建設 ロボット 動画／自動施工／無人化施工／遠隔操作 重機／建設 AI 実証／BIM AI／ドローン 測量 など）。見つけたら企業の公式X・YouTubeに映像があるか確認する
 - 海外の建設AI：X の動画付き投稿が主（output/slack_buzz.json と output/ai_buzz.json の「🌐」海外建設アカウント・英語検索。ConstructionDive / ENRnews / TheB1M / Procore / BentleySystems / Trimble / Autodesk ほか）。WebSearch で「construction robot」「autonomous excavator」「3D printed house」「AI construction site video」など英語で直近48hを追加検索する
 - RSS（output/news_feed.json の construction_global）は補助。解説記事しかなければ採用しない
