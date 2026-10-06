@@ -1,18 +1,14 @@
 {
- "generated_at": "2026-10-06T06:17+00:00",
- "generated_at_jst": "2026-10-06 15:17",
+ "generated_at": "2026-10-06T10:23+00:00",
+ "generated_at_jst": "2026-10-06 19:23",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 68,
-  "ai_japan": 29,
-  "ai_global": 51,
-  "construction_global": 31
+  "construction_global": 31,
+  "construction_japan": 61,
+  "ai_japan": 30,
+  "ai_global": 50
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,34 +16,129 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
   {
-   "id": "19668d995dc5",
-   "source": "PR TIMES",
+   "id": "c067c7010340",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Concertus launches £1bn construction framework",
+   "url": "https://www.constructionnews.co.uk/contracts/concertus-launches-1bn-construction-framework-06-10-2026/",
+   "published": "2026-10-06T09:23+00:00",
+   "published_jst": "2026-10-06 18:23",
+   "summary": "Concertus Suffolk has launched procurement for a £1bn construction and building services framework covering four English regions. The Link14 Construction & Building Services Framework will run for four years from June 2027 to May 2031. It will cover construction, refurbishment, demolition, civil eng",
+   "ai_related": false
+  },
+  {
+   "id": "c6e79d8ee920",
+   "source": "ITmedia",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設特化型AIエージェントをCTSが提供 「RAG」搭載で施工計画書を15分で作成",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnaGhvbEVFYi1POE4yQ2IwSExmbHBwa1NVZWZlYk4xTVpGVFRaTUVjR05TNUdnOTFjc1BCRUR4bVJlNjlzZVVldDhrVUlTR21pM2ZQRVNpQ3MxS2FDdGpQUXo4eUVFNzQzai15bw?oc=5",
+   "published": "2026-10-06T09:00+00:00",
+   "published_jst": "2026-10-06 18:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "4be4fb3c6225",
+   "source": "AEC Magazine",
+   "source_id": "aecmag",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "QA/QC platform links BIM models and drawing sets",
+   "url": "https://aecmag.com/bim/qa-qc-platform-links-bim-models-and-drawing-sets/",
+   "published": "2026-10-06T08:15+00:00",
+   "published_jst": "2026-10-06 17:15",
+   "summary": "In Structured AI, a problem found on a drawing can now be traced to the element in the Revit model The post QA/QC platform links BIM models and drawing sets appeared first on AEC Magazine .",
+   "ai_related": true
+  },
+  {
+   "id": "a3c5262d69d0",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "オフィスの休憩エリア「心は休まらず」？ イトーキと松尾研、行動ログから忙しさの正体に迫るAIモデルを構築",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2610/06/2000002053/",
+   "published": "2026-10-06T08:11+00:00",
+   "published_jst": "2026-10-06 17:11",
+   "summary": "イトーキと松尾研究所が、従業員854人分の行動データを分析し、会議やメール、チャットといった日々の行動が、働く人の心身や人間関係の状態にどう影響するのかを探るAIモデルを構築した。会議の長さや数、メール・チャットの送受信数、休憩エリアやオフィスの滞在時間などは、従業員の生産性にどのような影響を与えるのか。",
+   "ai_related": true
+  },
+  {
+   "id": "362c91991031",
+   "source": "ニュースメディアVOIX",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI insideと橋本ホールディングスが新たなAIインフラ事業の共同検討を開始",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBscTBYa3BJLVF5MFk0ZHJZVWNERnZlSm5jTmtacXlDSjZzTVk3QlJCZU9kdS1DclR2elQ2aWVmRzZ3ckhYT2FFM285azdVSG1ib0xLV0ZfbDYtTHpldEVIdnFrbkRBQmNMeUNjOVRsMmM?oc=5",
+   "published": "2026-10-06T07:24+00:00",
+   "published_jst": "2026-10-06 16:24",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "6be72ead7a36",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Cohere pitches North 2 as the enterprise AI control room that works with any model",
+   "url": "https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model/",
+   "published": "2026-10-06T06:58+00:00",
+   "published_jst": "2026-10-06 15:58",
+   "summary": "Cohere turned its enterprise platform into a control center for AI agents with North 2, handling multi-step workflows on their own and retaining context across sessions. The article Cohere pitches North 2 as the enterprise AI control room that works with any model appeared first on The Decoder .",
+   "ai_related": true
+  },
+  {
+   "id": "21d05b3180f7",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Claude Coworkの「ローカル実行」オプションが廃止 モデル推論、VM共にクラウド実行へ",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2610/06/2000002045/",
+   "published": "2026-10-06T06:49+00:00",
+   "published_jst": "2026-10-06 15:49",
+   "summary": "「Claude」のエージェント機能「Cowork」のタスクが、10月6日以降クラウドで実行されるようになり、ユーザーのPCで動作させる設定「このコンピュータのみ」オプションが削除される。",
+   "ai_related": true
+  },
+  {
+   "id": "ed035e3f8283",
+   "source": "イザ！",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "図面のない現場をBIMに変換する「insightScanX」、神奈川県「かながわ・スタートアップ・アクセラレーション・プログラム(KSAP)」に採択",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92YUYwSEJrWmtReUhxMDFBM1VoN185UXBBZm5NSTBlZWNzX3pvN2RzbHJRczY4d3ZMSXR5S0JhejBqZ3AxSjQyOGptU3BWdm1mSXFjdlQ5THN2cUNuQm9xMldpUWxDd3FhOEE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42NlNiM0N2dXB1RDVubERCMkZSdUJac3RPOE10VTJTRHl4cFU2RnlVUlZGTFk1TzdWa0tkSkVBYmFiSXFGMlNzU0RoUlc4XzExa1VQUDd2QmdQX3VOUmh3MUIzZlF6S0xaY2Q0bnZtMUY4dkpQTF8yMkxn?oc=5",
    "published": "2026-10-06T06:07+00:00",
    "published_jst": "2026-10-06 15:07",
    "summary": "",
    "ai_related": true
   },
   {
-   "id": "c8790149efd7",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
+   "id": "16397447fa96",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
    "lang": "ja",
-   "title": "【2026年版】コンクリート桝（ます）とは？｜種類・サイズ規格・価格相場・施工方法をプロが徹底解説",
-   "url": "https://news.build-app.jp/article/35574/",
+   "title": "主戦場が変わった――“AIによるAI開発”現実に 「新モデルが毎月登場」の裏側、KDDI傘下のELYZAトップに聞く",
+   "url": "https://www.itmedia.co.jp/business/articles/2610/06/news058.html",
    "published": "2026-10-06T06:00+00:00",
    "published_jst": "2026-10-06 15:00",
-   "summary": "水たまりやゴミの滞留などによって起こる「排水トラブル」を根本から解決したいときに役立つのが「コンクリート桝（ます）」です。しかし、どのような...",
-   "ai_related": false
+   "summary": "毎月のようにフロンティアAIの新モデルが登場する裏に「再帰的自己改善」（RSI）という技術がある。“AIによるAI開発”の現在地について、ELYZAの曽根岡CEOが語る",
+   "ai_related": true
   },
   {
    "id": "f744089192ef",
@@ -76,47 +167,8 @@
    "ai_related": true
   },
   {
-   "id": "0d969d30919d",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "地方ゼネコンがAIを「使う側」から「AI事業をつくる側」へ",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CS3VlOXBNdkdOUTJGUWlFLVdJYU9TWEdNMkFpVEVyRHF4NDdNVnFjdTVacmo3VzAyc1JhdWRPVGRCc3MxUEhaM0RTc0NZOXJvSU1XNlZ6VXdVLWFMUC15VTMydEJOek9OYWc?oc=5",
-   "published": "2026-10-06T05:00+00:00",
-   "published_jst": "2026-10-06 14:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "e1cb4048710a",
-   "source": "ABEMA",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ氏の支持者がAIデータセンター建設の反対集会 米中間選挙まで1カ月",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1cDFkVEVsRXhNOG5aamc3VF9RRVZGTk9Sa0FPMHJWX2RBYWZMZDB3eDV1RGMyRXcyX0NHRGhlLTZhQmlYRnQ0NEIya21SRnJoN3Z6MmJRVGNMcms?oc=5",
-   "published": "2026-10-06T04:07+00:00",
-   "published_jst": "2026-10-06 13:07",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "ed53577e4c48",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "パークタワー渋谷笹塚｜笹塚駅南口東地区開発計画のまちづくり構想で資産価値は変わる？",
-   "url": "https://news.build-app.jp/article/42993/",
-   "published": "2026-10-06T04:00+00:00",
-   "published_jst": "2026-10-06 13:00",
-   "summary": "ササ・ハツ・ハタの新しいまちづくり「パークタワー渋谷笹塚」 「ササ・ハツ・ハタ」をご存知でしょうか？渋谷区の「笹塚・幡ヶ谷・初台」地区の愛称...",
-   "ai_related": false
-  },
-  {
    "id": "1ca3c8cb446f",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -164,19 +216,6 @@
    "published": "2026-10-06T03:06+00:00",
    "published_jst": "2026-10-06 12:06",
    "summary": "アメリカに拠点を置くAIスタートアップのReflectionが、パラメーター数5010億・アクティブパラメーター数230億のオープンモデル「Beam」を発表しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "6988ae7fca5b",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "熊谷組、国内初のスーパーホットコラムへの現場溶接ロボット適用で省人化と品質安定化を推進",
-   "url": "https://news.build-app.jp/article/43025/",
-   "published": "2026-10-06T03:00+00:00",
-   "published_jst": "2026-10-06 12:00",
-   "summary": "熊谷組は、建築現場での鉄骨溶接作業の省人化や省力化、施工品質の安定を目的に開発と検証を重ねてきた現場溶接ロボットを、熱間成形角形鋼管「スーパ...",
    "ai_related": true
   },
   {
@@ -336,19 +375,6 @@
    "ai_related": true
   },
   {
-   "id": "732c0771325f",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設が施設管理ソリューションde大工を提供開始、建物情報の一元管理と技術支援を一体で提供",
-   "url": "https://news.build-app.jp/article/43020/",
-   "published": "2026-10-06T01:00+00:00",
-   "published_jst": "2026-10-06 10:00",
-   "summary": "清水建設（社長：新村達也）は2026年10月1日、建物を所有するオーナーや、企業の施設管理部門・部署を総合的に支えるソリューション「de大工...",
-   "ai_related": false
-  },
-  {
    "id": "489fd73325af",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -466,7 +492,7 @@
    "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
    "published": "2026-10-05T22:46+00:00",
    "published_jst": "2026-10-06 07:46",
-   "summary": "Article URL: https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/ Comments URL: https://news.ycombinator.com/item?id=49971846 Points: 377 # Comments: 269",
+   "summary": "Article URL: https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/ Comments URL: https://news.ycombinator.com/item?id=49971846 Points: 445 # Comments: 315",
    "ai_related": true,
    "title_ja": "ChatGPT、偽の漫画に実在作家の署名を追加",
    "summary_ja": "ChatGPTが作成した偽のNew Yorker風の漫画に、実在する漫画家の署名が無断で追加されていることが判明し、議論を呼んでいます。"
@@ -497,19 +523,6 @@
    "published": "2026-10-05T22:00+00:00",
    "published_jst": "2026-10-06 07:00",
    "summary": "ドイツのAIスタートアップ企業Aleph Alphaは、ドイツ統一の日にあたる2026年10月3日に新たな言語モデル「Kolibri」を発表しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "b406fee095b3",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "インフラを守る点検会社を、DXで支えたい。TRASSが橋梁点検の効率化に挑む理由 【前編】",
-   "url": "https://news.build-app.jp/article/42880/",
-   "published": "2026-10-05T22:00+00:00",
-   "published_jst": "2026-10-06 07:00",
-   "summary": "橋梁をはじめとするインフラの維持管理では、点検業務の重要性が高まる一方で、現場記録の整理や写真管理、成果品作成など、多くの手作業が依然として...",
    "ai_related": true
   },
   {
@@ -548,7 +561,7 @@
    "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
    "published": "2026-10-05T21:00+00:00",
    "published_jst": "2026-10-06 06:00",
-   "summary": "Article URL: https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors Comments URL: https://news.ycombinator.com/item?id=49970667 Points: 289 # Comments: 191",
+   "summary": "Article URL: https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors Comments URL: https://news.ycombinator.com/item?id=49970667 Points: 359 # Comments: 241",
    "ai_related": true,
    "title_ja": "Opus 5.5エージェントが新半導体候補を発見",
    "summary_ja": "Opus 5.5のエージェントが、室温で磁性を示す半導体の候補を新たに2つ発見したことをブログで発表しました。"
@@ -779,7 +792,7 @@
    "url": "https://reflection.ai/blog/introducing-beam",
    "published": "2026-10-05T19:16+00:00",
    "published_jst": "2026-10-06 04:16",
-   "summary": "Article URL: https://reflection.ai/blog/introducing-beam Comments URL: https://news.ycombinator.com/item?id=49969183 Points: 390 # Comments: 121",
+   "summary": "Article URL: https://reflection.ai/blog/introducing-beam Comments URL: https://news.ycombinator.com/item?id=49969183 Points: 460 # Comments: 147",
    "ai_related": true,
    "title_ja": "Reflectionの501Bオープンウェイトモデル「Beam」",
    "summary_ja": "Reflection.aiのブログ記事「Beamの紹介」に関するHackerNews上の議論とコメントリンク。"
@@ -1369,7 +1382,7 @@
   },
   {
    "id": "b05b33a79334",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1732,7 +1745,7 @@
   },
   {
    "id": "f712ca764caf",
-   "source": "ｄメニューニュース",
+   "source": "topics.smt.docomo.ne.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -1770,21 +1783,6 @@
    "ai_related": false,
    "title_ja": "ノーザンプトン中心部、10億ポンドの再開発計画",
    "summary_ja": "1,200戸の住宅供給を含むECF計画により、立体駐車場などの解体が予定されている。"
-  },
-  {
-   "id": "4bfea01e8e18",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "YPO names 99 contractors on £5bn major works framework",
-   "url": "https://www.constructionnews.co.uk/contracts/ypo-names-99-contractors-on-5bn-major-works-framework-05-10-2026/",
-   "published": "2026-10-05T07:00+00:00",
-   "published_jst": "2026-10-05 16:00",
-   "summary": "Public procurement body YPO has appointed 99 contractors, including tier ones such as Bam, Morgan Sindall and Wates, to a £5bn major works framework. Pagabo procured the National Framework for Major Works 2026 on behalf of YPO. The five-lot framework will cover construction and refurbishment… The po",
-   "ai_related": false,
-   "title_ja": "YPO、50億ポンドの大型工事枠組みで99社を発表",
-   "summary_ja": "公共調達機関のYPOは、大規模工事に関する50億ポンドの枠組み契約において、BamやWatesなどの大手を含む99社の契約業者を発表しました。"
   },
   {
    "id": "ab5433020cd4",
@@ -1859,7 +1857,7 @@
   },
   {
    "id": "60507cdc2ec7",
-   "source": "山陽新聞",
+   "source": "sanyonews.jp",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
@@ -1896,34 +1894,6 @@
    "published": "2026-10-05T06:00+00:00",
    "published_jst": "2026-10-05 15:00",
    "summary": "2026年7月、OpenAIが開発したAIモデルのテスト中に、誤ってオープンソースAIプラットフォームのHugging Faceをハッキングしてしまうという問題が発生しました。この一件を日本でも人気が高い名作絵本『がまくんとかえるくん』になぞらえて風刺した、『Frog and Toad and the Increasingly Capable Machines(がまくんとかえるくんとますます進化する機械たち)』という絵本がオンラインで公開されました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "489333482e18",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic reported diary entry to police, woman faces felony charge",
-   "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-   "published": "2026-10-05T05:37+00:00",
-   "published_jst": "2026-10-05 14:37",
-   "summary": "Article URL: https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html Comments URL: https://news.ycombinator.com/item?id=49961057 Points: 665 # Comments: 519",
-   "ai_related": true,
-   "title_ja": "Anthropicが日記を通報、女性が重罪に問われる",
-   "summary_ja": "女性がClaudeに作成した日記を巡り、同社が通報したことで重罪に問われている。"
-  },
-  {
-   "id": "14671dfdc57c",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "OpenAIのサム・アルトマンCEOが「AIの恩恵に預かるために多少の悪いことは受け入れるべき」との見解を示す",
-   "url": "https://gigazine.net/news/20261005-sam-altman-talk-to-decoded/",
-   "published": "2026-10-05T05:30+00:00",
-   "published_jst": "2026-10-05 14:30",
-   "summary": "ChatGPTなどの開発元として知られるOpenAIのサム・アルトマンCEOが、ニュースサイト・POLITICOの展開するニュースレター＆ポッドキャストサービス・Decoded by POLITICOによるインタビューの中で、AIのもたらす恩恵のことを考えると、一定のリスクは受け入れるべきであるという見解を示しました。 続きを読む...",
    "ai_related": true
   },
   {
@@ -2059,21 +2029,21 @@
    "ai_related": true
   },
   {
-   "id": "1107c32b7d1f",
-   "source": "voix.jp",
-   "source_id": "gnews_sekokan_ai",
+   "id": "334336243b8f",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "株式会社mign、BVJとの協業で「スマートAIチェック」を導入し建築業界の新たな効率化を実現",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rN2ZYcDE5REhGR1NsVThSelRoV2VNUVRwR00wUTlhWklHQkhKdy12OUtxb0hXMm1abUxya2NWU3dxeXNpNWdjX3Q2bkV1T092Y2I1X09JTXp6SmZRc0h4VGMyaUlMMERHQnc?oc=5",
-   "published": "2026-10-05T02:46+00:00",
-   "published_jst": "2026-10-05 11:46",
+   "title": "DJI Matrice 4EとSmart Construction Edge2によるドローン測量・データ解析を実演。無料セミナーを10月21日（水）静岡県島田市で開催",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40aUMzMTd2cTloa1VRNUY3MFMwUEhuZlFHaTkxOF9DQ2R2RFAxUkFuN1hJdkh1RDN2aEp0VGlvbnZHaTkzRjhNT1Atck1yWV9hYmtqYU5FeHBBWGhfU0J4S3NVMEl4NGNmbV95R2lPem02dw?oc=5",
+   "published": "2026-10-05T02:45+00:00",
+   "published_jst": "2026-10-05 11:45",
    "summary": "",
-   "ai_related": false
+   "ai_related": true
   },
   {
    "id": "38fba464141e",
-   "source": "voix.jp",
+   "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2151,7 +2121,7 @@
   },
   {
    "id": "29333524a699",
-   "source": "forbesjapan.com",
+   "source": "Forbes JAPAN",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2160,19 +2130,6 @@
    "published": "2026-10-05T01:11+00:00",
    "published_jst": "2026-10-05 10:11",
    "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "780824afdcce",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "熊谷組、脚線付電気雷管を使う親ダイを実トンネルで実証、切羽近傍への立ち入りなしで装薬可能",
-   "url": "https://news.build-app.jp/article/42976/",
-   "published": "2026-10-05T01:00+00:00",
-   "published_jst": "2026-10-05 10:00",
-   "summary": "株式会社熊谷組は、一般的な脚線付きの電気雷管を使い、親ダイを機械で装填する装置を開発しました。同社がすでに開発している爆薬の遠隔装填システム...",
    "ai_related": false
   },
   {
@@ -2200,34 +2157,6 @@
    "published_jst": "2026-10-05 09:31",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "2f7ddfa2ed53",
-   "source": "es.tradingview.com",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "鉄建建設－続落 トンネル地質DX「Remote Geo」を開発",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1T0lPcUMxNHBMaTlIYjFzOThjeWFiNWNPVHYyUFNmeWNSQWhobFYyaFBpT2x0UXF1OUJaZi1IQ2RoVG05REluMHJyN1ZlTXp0NmtLVGRnRW9HNFRscmJuZVJBUktRcnVfZF94MjdFdw?oc=5",
-   "published": "2026-10-05T00:31+00:00",
-   "published_jst": "2026-10-05 09:31",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "55bcbc41f64f",
-   "source": "ArchDaily",
-   "source_id": "archdaily",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Hongling Middle School Shixia Campus / Tumushi Architects",
-   "url": "https://www.archdaily.com/1039942/hongling-middle-school-shixia-campus-tumushi-architects",
-   "published": "2026-10-05T00:00+00:00",
-   "published_jst": "2026-10-05 09:00",
-   "summary": "Intervention of Hongling Middle School Shixia Campus: A Street-Life Community — In 2018, Shenzhen launched the \"8+1 New Campus Initiative\" to explore new models for schools in high-density urban environments. The intervention of Hongling Middle School Shixia Campus—founded in 2004—became the only ex",
-   "ai_related": true,
-   "title_ja": "紅嶺中学石廈キャンパス / 土木石建築設計",
-   "summary_ja": "高密度都市環境における学校の新しいモデルを模索するため、深センで開始されたキャンパス計画の一環。"
   },
   {
    "id": "88d553ae09bb",
@@ -2259,7 +2188,7 @@
   },
   {
    "id": "fcbb3b0fd645",
-   "source": "ｄメニューニュース",
+   "source": "topics.smt.docomo.ne.jp",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2297,19 +2226,6 @@
    "ai_related": true
   },
   {
-   "id": "2087e96cd087",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "国産AI開発「ラストチャンス」の局面へ ノエトラが「44社が出資・国が最大1兆円支援」の追い風を背に向かう先",
-   "url": "https://www.itmedia.co.jp/business/articles/2610/05/news037.html",
-   "published": "2026-10-04T22:00+00:00",
-   "published_jst": "2026-10-05 07:00",
-   "summary": "国産AI開発を掲げるNoetraが始動した。国内44社が出資し、政府が5年で1兆円規模の支援をする可能性がある。目指すは、米中二極化する「AI開発」の領域における第三極。そのチャンスをつかめるか。",
-   "ai_related": true
-  },
-  {
    "id": "4f1bcd4d3324",
    "source": "施工の神様",
    "source_id": "sekokan_navi",
@@ -2323,13 +2239,13 @@
    "ai_related": false
   },
   {
-   "id": "b593e51b4126",
+   "id": "c7e50da1a355",
    "source": "newspicks.com",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "フィジカルAIは建設業を変えるのか？ -新たな技術トレンドへの「構え方」-",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UQ211bGxWWXJqaUpwN2ZLNXJlTWJFUGo1TjBOMDRYdHdJUWsxQkI0NWVUOHVKUjhycDNPRUVjZVloU0xnRDhCVVV5V3V2TE9EbWpwNTlScU4zTFh1S19Bd1V3?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iekRCR3FYaEIwd05KSTJUQmdHN2wyN0FzOWtrcVp0cDFVaVRYb1RFbDF3ZDRybEg5YTZHT1huRk5aQ3B2NloyX1JfRTh4dmdHSFIwYUxB?oc=5",
    "published": "2026-10-04T21:00+00:00",
    "published_jst": "2026-10-05 06:00",
    "summary": "",
@@ -2379,6 +2295,45 @@
    "ai_related": false
   },
   {
+   "id": "a318734ef965",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "6年ぶり高水準、54.1%増の1242億/フィリピン大型案件がけん引/国建協調査・25年度海外コンサル受注",
+   "url": "https://www.kensetsunews.com/archives/1292319",
+   "published": "2026-10-04T19:55+00:00",
+   "published_jst": "2026-10-05 04:55",
+   "summary": "国際建設技術協会（国建協、安田吾郎理事長）は２日、２０２５年度の海外コンサルティング業務等受注実績… The post 6年ぶり高水準、54.1%増の1242億/フィリピン大型案件がけん引/国建協調査・25年度海外コンサル受注 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "57ee3d217c19",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "入札契約改善へ議論開始/建設業の成長念頭に/国交省WG",
+   "url": "https://www.kensetsunews.com/archives/1292322",
+   "published": "2026-10-04T19:55+00:00",
+   "published_jst": "2026-10-05 04:55",
+   "summary": "国土交通省は、建設業政策の新たなビジョン策定に向け、公共工事の入札契約制度に焦点を当てた議論を始め… The post 入札契約改善へ議論開始/建設業の成長念頭に/国交省WG first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "9c6b0f0bf858",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "立飛HDグループ所有地の共住計画/三井不レジ単独で再開/27年3月末に着工",
+   "url": "https://www.kensetsunews.com/archives/1292338",
+   "published": "2026-10-04T19:55+00:00",
+   "published_jst": "2026-10-05 04:55",
+   "summary": "【設計施工は長谷工】 東京都立川市で中止となっていた大規模マンション開発計画が、三井不動産レジデンシ… The post 立飛HDグループ所有地の共住計画/三井不レジ単独で再開/27年3月末に着工 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "926309b8f619",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2402,45 +2357,6 @@
    "published": "2026-10-04T19:55+00:00",
    "published_jst": "2026-10-05 04:55",
    "summary": "静岡県伊豆の国市は、一般廃棄物処理体制の構築に関するサウンディング（対話）型市場調査を実施する。１… The post 一廃処理 体制構築へ対話調査/11月27日まで受付/伊豆の国市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "0ac5d0116353",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "人・修行中・香川河川国道事務所工務第二課 三橋海周さん、河川部河川工事課施設係 白川真衣さん",
-   "url": "https://www.kensetsunews.com/archives/1292452",
-   "published": "2026-10-04T19:55+00:00",
-   "published_jst": "2026-10-05 04:55",
-   "summary": "【やりがいこそ原動力／四国整備局２６年４月入省】 「コンクリートはお腹いっぱい。でも、いつか恋しくな… The post 人・修行中・香川河川国道事務所工務第二課 三橋海周さん、河川部河川工事課施設係 白川真衣さん first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "0e99d09770fe",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "全建ブロック会議・中国",
-   "url": "https://www.kensetsunews.com/archives/1292490",
-   "published": "2026-10-04T19:55+00:00",
-   "published_jst": "2026-10-05 04:55",
-   "summary": "【十分な公共事業費「当初で確保」／切れ目ない施工へ平準化】 全国建設業協会（今井雅則会長）と４７都道… The post 全建ブロック会議・中国 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "0a7ab1920a67",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "新社長・パシフィックパデコインターナショナル 石河雅典氏",
-   "url": "https://www.kensetsunews.com/archives/1292493",
-   "published": "2026-10-04T19:55+00:00",
-   "published_jst": "2026-10-05 04:55",
-   "summary": "【国際市場の課題解決】 パシフィックコンサルタンツホールディングス（ＨＤ）で国際事業を担う中核会社と… The post 新社長・パシフィックパデコインターナショナル 石河雅典氏 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2474,23 +2390,8 @@
    "summary_ja": "AIの安全性に関する議論への最新の対応策として、新タスクフォースを立ち上げた。"
   },
   {
-   "id": "6e0a54bf2fcc",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
-   "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
-   "published": "2026-10-04T12:40+00:00",
-   "published_jst": "2026-10-04 21:40",
-   "summary": "Self-improving AI agents tend to memorize their test tasks, so their gains shrink or disappear on new ones. RRSI, a new method from Google researchers, reins in this effect and lifts scores on unseen benchmarks by up to 4.7 points while using about 30 percent fewer tokens than an unregularized versi",
-   "ai_related": true,
-   "title_ja": "Google、自己改善AIのテスト暗記を防ぐ新手法を開発",
-   "summary_ja": "自己改善AIがテスト課題を暗記する問題を抑制する新手法「RRSI」をGoogleの研究者が発表した。未知のベンチマークでの性能向上が確認されている。"
-  },
-  {
    "id": "c80670a81732",
-   "source": "news.yahoo.co.jp",
+   "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
