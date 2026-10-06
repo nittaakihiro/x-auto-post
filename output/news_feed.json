@@ -1,17 +1,25 @@
 {
- "generated_at": "2026-10-06T10:23+00:00",
- "generated_at_jst": "2026-10-06 19:23",
+ "generated_at": "2026-10-06T10:48+00:00",
+ "generated_at_jst": "2026-10-06 19:48",
  "window_hours": 48,
  "counts": {
-  "construction_global": 31,
   "construction_japan": 61,
+  "construction_global": 21,
   "ai_japan": 30,
   "ai_global": 50
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -23,19 +31,6 @@
   }
  ],
  "items": [
-  {
-   "id": "c067c7010340",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Concertus launches £1bn construction framework",
-   "url": "https://www.constructionnews.co.uk/contracts/concertus-launches-1bn-construction-framework-06-10-2026/",
-   "published": "2026-10-06T09:23+00:00",
-   "published_jst": "2026-10-06 18:23",
-   "summary": "Concertus Suffolk has launched procurement for a £1bn construction and building services framework covering four English regions. The Link14 Construction & Building Services Framework will run for four years from June 2027 to May 2031. It will cover construction, refurbishment, demolition, civil eng",
-   "ai_related": false
-  },
   {
    "id": "c6e79d8ee920",
    "source": "ITmedia",
@@ -492,7 +487,7 @@
    "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
    "published": "2026-10-05T22:46+00:00",
    "published_jst": "2026-10-06 07:46",
-   "summary": "Article URL: https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/ Comments URL: https://news.ycombinator.com/item?id=49971846 Points: 445 # Comments: 315",
+   "summary": "Article URL: https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/ Comments URL: https://news.ycombinator.com/item?id=49971846 Points: 454 # Comments: 323",
    "ai_related": true,
    "title_ja": "ChatGPT、偽の漫画に実在作家の署名を追加",
    "summary_ja": "ChatGPTが作成した偽のNew Yorker風の漫画に、実在する漫画家の署名が無断で追加されていることが判明し、議論を呼んでいます。"
@@ -561,7 +556,7 @@
    "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
    "published": "2026-10-05T21:00+00:00",
    "published_jst": "2026-10-06 06:00",
-   "summary": "Article URL: https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors Comments URL: https://news.ycombinator.com/item?id=49970667 Points: 359 # Comments: 241",
+   "summary": "Article URL: https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors Comments URL: https://news.ycombinator.com/item?id=49970667 Points: 362 # Comments: 243",
    "ai_related": true,
    "title_ja": "Opus 5.5エージェントが新半導体候補を発見",
    "summary_ja": "Opus 5.5のエージェントが、室温で磁性を示す半導体の候補を新たに2つ発見したことをブログで発表しました。"
@@ -624,7 +619,7 @@
   },
   {
    "id": "bb920aa469d2",
-   "source": "日刊工業新聞",
+   "source": "nikkan.co.jp",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -792,7 +787,7 @@
    "url": "https://reflection.ai/blog/introducing-beam",
    "published": "2026-10-05T19:16+00:00",
    "published_jst": "2026-10-06 04:16",
-   "summary": "Article URL: https://reflection.ai/blog/introducing-beam Comments URL: https://news.ycombinator.com/item?id=49969183 Points: 460 # Comments: 147",
+   "summary": "Article URL: https://reflection.ai/blog/introducing-beam Comments URL: https://news.ycombinator.com/item?id=49969183 Points: 465 # Comments: 148",
    "ai_related": true,
    "title_ja": "Reflectionの501Bオープンウェイトモデル「Beam」",
    "summary_ja": "Reflection.aiのブログ記事「Beamの紹介」に関するHackerNews上の議論とコメントリンク。"
@@ -1452,81 +1447,6 @@
    "summary_ja": "MITの専門委員会が、AIによってオフィスアワーや学生と教員の信頼関係など大学生活の重要な要素が損なわれていると警告。"
   },
   {
-   "id": "a42d987950da",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Six Greenwich council housing schemes hit by Helix collapse",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/six-greenwich-council-housing-schemes-hit-by-helix-collapse-05-10-2026/",
-   "published": "2026-10-05T11:45+00:00",
-   "published_jst": "2026-10-05 20:45",
-   "summary": "Six Greenwich council housing schemes have been halted following the collapse of contractor Helix Construct, with the council now reviewing each project to determine how work can resume. The affected sites are part of the Royal Borough of Greenwich’s 1,750-home Greenwich Builds programme. Greenwich ",
-   "ai_related": false,
-   "title_ja": "Helix破綻でグリニッジの住宅計画6件が停止",
-   "summary_ja": "建設会社Helix Constructの経営破綻に伴い、グリニッジの公営住宅計画6件が中断しました。評議会は工事再開に向け各プロジェクトの検証を進めています。"
-  },
-  {
-   "id": "07347597f3ca",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Firms fined £145k after worker killed when dumper truck overturned",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/firms-fined-145k-after-worker-killed-when-dumper-truck-overturned-05-10-2026/",
-   "published": "2026-10-05T11:45+00:00",
-   "published_jst": "2026-10-05 20:45",
-   "summary": "Two Northern Irish companies have been fined a total of £145,000 after a worker was killed when the dumper truck he was operating overturned. John Traynor, 41, was working for Ballymoney-based IJ Lynn and Sons Ltd and operating a 9-tonne Terex forward-tipping dumper truck at… The post Firms fined £1",
-   "ai_related": false,
-   "title_ja": "ダンプ横転事故で2社に14万5千ポンドの罰金",
-   "summary_ja": "運転していたダンプカーの横転により作業員が死亡した事故をめぐり、北アイルランドの企業2社に計14万5千ポンドの罰金が科されました。"
-  },
-  {
-   "id": "d9d6e4da286d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction firms prepare to put up prices as costs bite",
-   "url": "https://www.constructionnews.co.uk/sections/data/construction-firms-prepare-to-put-up-prices-as-costs-bite-05-10-2026/",
-   "published": "2026-10-05T11:45+00:00",
-   "published_jst": "2026-10-05 20:45",
-   "summary": "Almost one in three construction businesses expect to put up their prices this month as firms continue to face pressure from rising costs. New figures from the Office for National Statistics (ONS) show that 32 per cent of construction businesses expect the prices of the… The post Construction firms ",
-   "ai_related": false,
-   "title_ja": "建設各社、コスト高騰で値上げの準備を進める",
-   "summary_ja": "コスト上昇の圧力が続く中、建設業者の約3社に1社が今月中の値上げを予定していることが、国家統計局の最新データで明らかになりました。"
-  },
-  {
-   "id": "08091753f39e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Year of ‘significant growth’ boosts profit at Parkeray",
-   "url": "https://www.constructionnews.co.uk/financial/year-of-significant-growth-boosts-profit-at-parkeray-05-10-2026/",
-   "published": "2026-10-05T11:45+00:00",
-   "published_jst": "2026-10-05 20:45",
-   "summary": "Commercial fit-out and refurbishment specialist Parkeray posted a 37.6 per cent hike in pre-tax profit for the 12 months to 31 December 2025, rising to £2.1m from £1.5m in the previous year. Turnover at the London-based company rose 22.7 per cent to £177.2m in the… The post Year of ‘significant grow",
-   "ai_related": false,
-   "title_ja": "Parkeray、大幅な成長により利益が増加",
-   "summary_ja": "内装・改修専門のParkerayは、2025年12月期までの税引前利益が前年の150万ポンドから210万ポンドへと37.6%増加しました。"
-  },
-  {
-   "id": "cba8f1f26008",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "OCU set to be sold to London-based private equity firm",
-   "url": "https://www.constructionnews.co.uk/financial/ma/ocu-set-to-be-sold-to-london-based-private-equity-firm-05-10-2026/",
-   "published": "2026-10-05T11:12+00:00",
-   "published_jst": "2026-10-05 20:12",
-   "summary": "OCU Group, the 28th largest contractor in the UK, is set to be sold to private equity firm TDR Capital. Triton Partners, another private equity firm that has owned OCU since 2022, has agreed to sell the £1.2bn utilities and infrastructure contractor, according to a… The post OCU set to be sold to Lo",
-   "ai_related": false,
-   "title_ja": "OCU、ロンドンのプライベート・エクイティへ売却へ",
-   "summary_ja": "英国28位の建設大手OCU Groupが、PEファンドのTDR Capitalに売却される見通しです。2022年以来保有していたTriton Partnersが合意しました。"
-  },
-  {
    "id": "bcaf240beb7c",
    "source": "digital-construction.jp",
    "source_id": "gnews_sekokan_ai",
@@ -1538,51 +1458,6 @@
    "published_jst": "2026-10-05 20:06",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "b418e67380ab",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "William Hare Group profit soars under new owners",
-   "url": "https://www.constructionnews.co.uk/financial/william-hare-group-profit-soars-under-new-owners-05-10-2026/",
-   "published": "2026-10-05T11:00+00:00",
-   "published_jst": "2026-10-05 20:00",
-   "summary": "Steel specialist William Hare Group has grown its pre-tax profit by more than a quarter despite a big drop in revenue in the first annual results covering its current ownership structure. The Bury-based firm last week posted turnover of £338.2m for the 2025 calendar year,… The post William Hare Grou",
-   "ai_related": false,
-   "title_ja": "ウィリアム・ヘア、新体制下で利益が急増",
-   "summary_ja": "鉄鋼専門のWilliam Hare Groupは、新体制での初の年次決算で売上高が大幅に減少したものの、税引前利益は25%以上増加しました。"
-  },
-  {
-   "id": "6540aad90654",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Why fit-out contractors can’t afford to wait for certainty about the 2031 deadline",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/why-fit-out-contractors-cant-afford-to-wait-for-certainty-about-the-2031-deadline-05-10-2026/",
-   "published": "2026-10-05T10:55+00:00",
-   "published_jst": "2026-10-05 19:55",
-   "summary": "Carl Saxon is a regional director at engineering consultancy Wallace Whittle When looking at the world of fit-outs, there has always been a tendency to treat energy performance as someone else’s problem. With the architects specifying it, building owners carrying the regulatory risk and the… The pos",
-   "ai_related": false,
-   "title_ja": "内装業者が2031年の期限を待てない理由",
-   "summary_ja": "エネルギー性能の向上を他人事のように扱ってきた内装業界において、建築基準の2031年期限に向けた早急な対応の必要性を専門家が解説します。"
-  },
-  {
-   "id": "0284d4d8b551",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Cardo continues acquisition spree with Aspect Group Services deal",
-   "url": "https://www.constructionnews.co.uk/financial/ma/cardo-continues-acquisition-spree-with-aspect-group-services-deal-05-10-2026/",
-   "published": "2026-10-05T10:10+00:00",
-   "published_jst": "2026-10-05 19:10",
-   "summary": "Cardo Group has acquired Norfolk-based roofing, renewables and building maintenance contractor Aspect Group Services for an undisclosed sum. Aspect, which is headquartered in Wymondham, was founded in 1972 and works across the private, commercial and public sectors. Its services include pitched and ",
-   "ai_related": false,
-   "title_ja": "Cardo、Aspectを買収し買収攻勢を継続",
-   "summary_ja": "Cardo Groupがノーフォークの屋根・メンテナンス業者Aspect Group Servicesを買収しました。買収額は非公表です。"
   },
   {
    "id": "3cbec84de8bf",
@@ -1598,21 +1473,6 @@
    "ai_related": true,
    "title_ja": "OpenAIがChatGPTに新広告フォーマットを導入",
    "summary_ja": "OpenAIはChatGPTに視覚的な新広告形式を導入し、測定ツールやブランド適合性機能を拡充する。"
-  },
-  {
-   "id": "1f7058acfed2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon and Milligan picked for £100m Brentwood regeneration",
-   "url": "https://www.constructionnews.co.uk/contractors/willmott-dixon/willmott-dixon-and-milligan-picked-for-100m-brentwood-regeneration-05-10-2026/",
-   "published": "2026-10-05T09:52+00:00",
-   "published_jst": "2026-10-05 18:52",
-   "summary": "Willmott Dixon Developments and Milligan have been appointed to lead a £100m regeneration of the Baytree Shopping Centre in Brentwood, Essex. Brentwood Borough Council appointed the developers through Pagabo’s Developer Led Framework to bring forward the town-centre scheme. The council approved the ",
-   "ai_related": true,
-   "title_ja": "ブレントウッド再開発でウィルモット・ディクソン等を選出",
-   "summary_ja": "エセックス州ブレントウッドのショッピングセンター再開発事業の主導企業として、Willmott Dixon DevelopmentsとMilliganが選ばれました。"
   },
   {
    "id": "30f66d445430",
@@ -2283,7 +2143,7 @@
   },
   {
    "id": "d70dc2dd0d55",
-   "source": "日刊工業新聞",
+   "source": "nikkan.co.jp",
    "source_id": "gnews_zenecon_ai",
    "category": "construction_japan",
    "lang": "ja",
