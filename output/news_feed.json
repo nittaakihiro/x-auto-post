@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-06T20:58+00:00",
- "generated_at_jst": "2026-10-07 05:58",
+ "generated_at": "2026-10-06T21:42+00:00",
+ "generated_at_jst": "2026-10-07 06:42",
  "window_hours": 48,
  "counts": {
-  "ai_global": 62,
+  "ai_global": 63,
+  "construction_japan": 58,
   "ai_japan": 33,
-  "construction_japan": 61,
   "construction_global": 41
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -16,9 +20,52 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
+  {
+   "id": "f2b4a146fbeb",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "llm-mistral 0.16",
+   "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+   "published": "2026-10-06T21:32+00:00",
+   "published_jst": "2026-10-07 06:32",
+   "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+   "ai_related": true
+  },
+  {
+   "id": "51726d837256",
+   "source": "日刊建設工業新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "オリエンタル白石、燈／つり足場で四足歩行ロボの自律歩行成功／ＡＩで姿勢制御",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1JRnNYZVNjZ1pzXzJTRU5PUmktVHpNZ0NMbXpTem1jbFJwV0hCWV82RjFqbzh3bHlqd202MllxSndXd3hKa3JZ?oc=5",
+   "published": "2026-10-06T21:04+00:00",
+   "published_jst": "2026-10-07 06:04",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "916ff086b390",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大阪府／住之江公園に指定管理とＰａｒｋ－ＰＦＩ一体導入／具体化へ対話調査実施",
+   "url": "https://www.decn.co.jp/?p=188213",
+   "published": "2026-10-06T21:00+00:00",
+   "published_jst": "2026-10-07 06:00",
+   "summary": "大阪府鳳土木事務所は府営住之江公園（大阪市住之江区南加賀屋１）で、公園全体の指定管理制度とＰａｒｋ－ＰＦＩ（公募設置管理制度）を同じ事業者に担わせる仕組みの導入を検討する。府営公園では初めての取り組み。プール再整備と周 […]",
+   "ai_related": false
+  },
   {
    "id": "11669444bfa3",
    "source": "Ars Technica AI",
@@ -29,7 +76,7 @@
    "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
    "published": "2026-10-06T20:50+00:00",
    "published_jst": "2026-10-07 05:50",
-   "summary": "Like other solutions, it is not especially reliable, and easy to circumvent.",
+   "summary": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
    "ai_related": true,
    "title_ja": "OpenAI、EU限定でChatGPT出力の透かし導入へ",
    "summary_ja": "他の解決策と同様に信頼性が低く、簡単に回避できてしまうという問題がある。"
@@ -119,21 +166,6 @@
    "published_jst": "2026-10-07 05:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "4dd290070848",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "published": "2026-10-06T19:57+00:00",
-   "published_jst": "2026-10-07 04:57",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "EmbeddingGemma 2：オープンな軽量マルチモーダル埋め込みモデル",
-   "summary_ja": ""
   },
   {
    "id": "a9ee6e883253",
@@ -347,6 +379,19 @@
    "ai_related": true,
    "title_ja": "Mistral Large 4に関する議論",
    "summary_ja": "Hacker NewsにおけるMistral Large 4についてのコメントやベンチマーク評価に関する議論。"
+  },
+  {
+   "id": "17c1ef68addf",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "datasette-atom 0.11a0",
+   "url": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+   "published": "2026-10-06T17:35+00:00",
+   "published_jst": "2026-10-07 02:35",
+   "summary": "Release: datasette-atom 0.11a0 A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41. Tags: atom , datasette",
+   "ai_related": true
   },
   {
    "id": "2889eaea6bed",
@@ -598,21 +643,6 @@
    "ai_related": true,
    "title_ja": "TechCrunch Disrupt 2026の全セッション発表",
    "summary_ja": "10月13〜15日にサンフランシスコで開催されるイベントの詳細なブレイクアウトセッションのスケジュールが公開された。"
-  },
-  {
-   "id": "65be0be272d5",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "RAAC expert takes chief construction adviser role",
-   "url": "https://www.constructionenquirer.com/2026/10/06/raac-expert-takes-governments-top-construction-adviser-role/",
-   "published": "2026-10-06T13:59+00:00",
-   "published_jst": "2026-10-06 22:59",
-   "summary": "Sergio Cavalaro takes charge of independent advice on building safety reform",
-   "ai_related": false,
-   "title_ja": "RAACの専門家が建設分野の主任顧問に就任",
-   "summary_ja": "セルジオ・カバラロ氏が、建築安全性改革に関する独立した助言の責任者に就任した。"
   },
   {
    "id": "e7d364fb5919",
@@ -1042,21 +1072,6 @@
    "summary_ja": "OpenAIとIroncladが、複雑な契約ワークフローを通じてAIエージェントの訓練と評価を行い、専門業務でのコンピュータ利用を推進する方法を解説。"
   },
   {
-   "id": "6da38cf24dd0",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction output falls at slowest rate since January",
-   "url": "https://www.constructionenquirer.com/2026/10/06/construction-output-falls-at-slowest-rate-since-january/",
-   "published": "2026-10-06T09:09+00:00",
-   "published_jst": "2026-10-06 18:09",
-   "summary": "Industry still optimistic on growth prospects for next 12 months",
-   "ai_related": false,
-   "title_ja": "建設生産量、1月以来の低ペースで減少",
-   "summary_ja": "業界全体では、今後12か月の成長見通しに対して依然として楽観的な見方が広がっている。"
-  },
-  {
    "id": "c6e79d8ee920",
    "source": "ITmedia",
    "source_id": "gnews_kensetsu_ai",
@@ -1111,21 +1126,6 @@
    "ai_related": true
   },
   {
-   "id": "adc096da600e",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier to return to stalled £3bn Harlow health campus",
-   "url": "https://www.constructionenquirer.com/2026/10/06/kier-to-return-to-stalled-3bn-harlow-health-campus/",
-   "published": "2026-10-06T06:58+00:00",
-   "published_jst": "2026-10-06 15:58",
-   "summary": "Firm confirmed for high security labs while rest of campus build to be rebid",
-   "ai_related": false,
-   "title_ja": "Kier、停滞していた30億ポンドのハーロウ医療キャンパスへ復帰",
-   "summary_ja": "高セキュリティ実験室の施工企業として確定する一方、残りのキャンパス建設分については再度入札が実施される。"
-  },
-  {
    "id": "21d05b3180f7",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1137,36 +1137,6 @@
    "published_jst": "2026-10-06 15:49",
    "summary": "「Claude」のエージェント機能「Cowork」のタスクが、10月6日以降クラウドで実行されるようになり、ユーザーのPCで動作させる設定「このコンピュータのみ」オプションが削除される。",
    "ai_related": true
-  },
-  {
-   "id": "c3f4f1b1c207",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Court case begins after passer-by killed by falling bricks",
-   "url": "https://www.constructionenquirer.com/2026/10/06/court-case-begins-after-passer-by-killed-by-falling-bricks/",
-   "published": "2026-10-06T06:27+00:00",
-   "published_jst": "2026-10-06 15:27",
-   "summary": "Old Bailey hears how Michaela Boor was hit by pallet of bricks falling from tower crane",
-   "ai_related": false,
-   "title_ja": "通行人が落下物で死亡した事故をめぐり裁判が開廷",
-   "summary_ja": "タワーカレッジから落下したレンガのパレットがミカエラ・ブール氏を直撃した経緯について、オールド・ベイリーで審理が始まった。"
-  },
-  {
-   "id": "abfa40817733",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Tier 1 tender rises cool but specialist trades costs hold firm",
-   "url": "https://www.constructionenquirer.com/2026/10/06/tier-1-tender-rises-cool-but-specialist-trades-costs-hold-firm/",
-   "published": "2026-10-06T06:25+00:00",
-   "published_jst": "2026-10-06 15:25",
-   "summary": "Specialist engineering shortages curb client gains from softer demand",
-   "ai_related": false,
-   "title_ja": "一次請負の入札上昇は鈍化も専門工事業のコストは高止まり",
-   "summary_ja": "専門エンジニアの不足により、需要軟化による顧客側のメリットが相殺されている。"
   },
   {
    "id": "19668d995dc5",
@@ -1195,19 +1165,6 @@
    "ai_related": true
   },
   {
-   "id": "c8790149efd7",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年版】コンクリート桝（ます）とは？｜種類・サイズ規格・価格相場・施工方法をプロが徹底解説",
-   "url": "https://news.build-app.jp/article/35574/",
-   "published": "2026-10-06T06:00+00:00",
-   "published_jst": "2026-10-06 15:00",
-   "summary": "水たまりやゴミの滞留などによって起こる「排水トラブル」を根本から解決したいときに役立つのが「コンクリート桝（ます）」です。しかし、どのような...",
-   "ai_related": false
-  },
-  {
    "id": "f744089192ef",
    "source": "デジコン",
    "source_id": "gnews_bim_ai",
@@ -1232,19 +1189,6 @@
    "published_jst": "2026-10-06 14:24",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "ed53577e4c48",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "パークタワー渋谷笹塚｜笹塚駅南口東地区開発計画のまちづくり構想で資産価値は変わる？",
-   "url": "https://news.build-app.jp/article/42993/",
-   "published": "2026-10-06T04:00+00:00",
-   "published_jst": "2026-10-06 13:00",
-   "summary": "ササ・ハツ・ハタの新しいまちづくり「パークタワー渋谷笹塚」 「ササ・ハツ・ハタ」をご存知でしょうか？渋谷区の「笹塚・幡ヶ谷・初台」地区の愛称...",
-   "ai_related": false
   },
   {
    "id": "ecd786e650af",
@@ -1299,19 +1243,6 @@
    "ai_related": true
   },
   {
-   "id": "6988ae7fca5b",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "熊谷組、国内初のスーパーホットコラムへの現場溶接ロボット適用で省人化と品質安定化を推進",
-   "url": "https://news.build-app.jp/article/43025/",
-   "published": "2026-10-06T03:00+00:00",
-   "published_jst": "2026-10-06 12:00",
-   "summary": "熊谷組は、建築現場での鉄骨溶接作業の省人化や省力化、施工品質の安定を目的に開発と検証を重ねてきた現場溶接ロボットを、熱間成形角形鋼管「スーパ...",
-   "ai_related": true
-  },
-  {
    "id": "0ceee1bc54ca",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1347,19 +1278,6 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RanZHZlYxMjBNLTNNOUd6NU0yVC1uY3NEVmJiWktSYlFhX3RvZkwtNEVTcVhjekdiV1VUY0tDc3NnSFlJQURWbTVQeEpfX181cFFUc09OdTgtVmZhcG5RY3VsYUhvM2tIZ3c?oc=5",
    "published": "2026-10-06T02:30+00:00",
    "published_jst": "2026-10-06 11:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "ed3580562cd8",
-   "source": "pando.life",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設市場における人工知能の成長調査は、2026年から2033年にかけて年平均成長率（CA",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9aRXZKZ25FRjVWZEt0TE9qU0ltWElVa0NoNjA1cU1ZODAwYi1sZkljVGY3NEt0S2tOQm1yMVFvNHVjZU0xT1VRc3d3?oc=5",
-   "published": "2026-10-06T02:03+00:00",
-   "published_jst": "2026-10-06 11:03",
    "summary": "",
    "ai_related": true
   },
@@ -1453,19 +1371,6 @@
    "published_jst": "2026-10-06 10:00",
    "summary": "9月末以降、不正アクセスやそれに伴う情報漏えいの発表が日本企業から相次いでいる。その原因は……専門家に見解を聞いた。",
    "ai_related": true
-  },
-  {
-   "id": "732c0771325f",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設が施設管理ソリューションde大工を提供開始、建物情報の一元管理と技術支援を一体で提供",
-   "url": "https://news.build-app.jp/article/43020/",
-   "published": "2026-10-06T01:00+00:00",
-   "published_jst": "2026-10-06 10:00",
-   "summary": "清水建設（社長：新村達也）は2026年10月1日、建物を所有するオーナーや、企業の施設管理部門・部署を総合的に支えるソリューション「de大工...",
-   "ai_related": false
   },
   {
    "id": "489fd73325af",
@@ -1604,32 +1509,6 @@
    "ai_related": true
   },
   {
-   "id": "b406fee095b3",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "インフラを守る点検会社を、DXで支えたい。TRASSが橋梁点検の効率化に挑む理由 【前編】",
-   "url": "https://news.build-app.jp/article/42880/",
-   "published": "2026-10-05T22:00+00:00",
-   "published_jst": "2026-10-06 07:00",
-   "summary": "橋梁をはじめとするインフラの維持管理では、点検業務の重要性が高まる一方で、現場記録の整理や写真管理、成果品作成など、多くの手作業が依然として...",
-   "ai_related": true
-  },
-  {
-   "id": "3b82a1243d00",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "東京建物「Ｔ－ＬＯＧＩ南船橋」完成／設計・施工は前田建設",
-   "url": "https://www.decn.co.jp/?p=188184",
-   "published": "2026-10-05T21:20+00:00",
-   "published_jst": "2026-10-06 06:20",
-   "summary": "東京建物が開発を進めていた物流施設「Ｔ－ＬＯＧＩ南船橋」が完成した。東関東自動車道谷津船橋ＩＣと至近距離に位置し京葉道路花輪ＩＣからもアクセスの良い好立地。ＪＲ京葉線南船橋駅も徒歩圏という雇用の優位性も高い。冷凍冷蔵区 […]",
-   "ai_related": false
-  },
-  {
    "id": "42b70074effa",
    "source": "住宅新報",
    "source_id": "gnews_bim_ai",
@@ -1653,6 +1532,45 @@
    "published": "2026-10-05T21:00+00:00",
    "published_jst": "2026-10-06 06:00",
    "summary": "建設用3Dプリンタの開発・社会実装を牽引する株式会社Polyuseとパートナー企業各社は7月16日〜17日、都内の東京ビッグサイトTFTビルで、最新技術の動向や施工事例を発信する「建設用3Dプリンタ Festival 2... The post 現場はなぜ「建設用3Dプリンタ」を選ぶのか。先行3社が語る導入のリアル first appeared on 施工の神様 .",
+   "ai_related": false
+  },
+  {
+   "id": "fee8d9f111d3",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ＪＲ東日本／高輪ゲートウェイシティー整備／高輪築堤を土中保存",
+   "url": "https://www.decn.co.jp/?p=188174",
+   "published": "2026-10-05T21:00+00:00",
+   "published_jst": "2026-10-06 06:00",
+   "summary": "ＪＲ東日本は、東京都港区の高輪ゲートウェイシティー整備で出土した鉄道遺構「高輪築堤」を、土中保存する方針を固めた。５、６街区間と６街区南側の遺構を、現状のまま埋め戻す。６街区南部は遺構への影響を回避するため、整備計画の […]",
+   "ai_related": false
+  },
+  {
+   "id": "3e91695288e4",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "サンセンタープラザ再開発（神戸市中央区）／コーディネーターにＲＩＡ／協議会",
+   "url": "https://www.decn.co.jp/?p=188176",
+   "published": "2026-10-05T21:00+00:00",
+   "published_jst": "2026-10-06 06:00",
+   "summary": "ＪＲ三ノ宮駅南西側（神戸市中央区）の商業ビル３棟の区分所有者らでつくる「サンセンタープラザ地区再開発協議会」は、公募手続きを進めていた再開発コーディネート業務の委託先にアール・アイ・エーを選定した。再開発準備組合の設立 […]",
+   "ai_related": false
+  },
+  {
+   "id": "27d90609181d",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "さいたま市／地下鉄７号線中間駅周辺区画整理アセス配慮書の縦覧開始／２案を提示",
+   "url": "https://www.decn.co.jp/?p=188180",
+   "published": "2026-10-05T21:00+00:00",
+   "published_jst": "2026-10-06 06:00",
+   "summary": "さいたま市が岩槻区で計画する「（仮称）地下鉄７号線中間駅周辺地区土地区画整理事業」の環境影響評価（環境アセス）計画段階配慮書の縦覧が５日、さいたま市役所などで始まった。区域面積が約１２０ヘクタールの２案を提示しており、 […]",
    "ai_related": false
   },
   {
@@ -1855,7 +1773,7 @@
    "url": "https://reflection.ai/blog/introducing-beam",
    "published": "2026-10-05T19:16+00:00",
    "published_jst": "2026-10-06 04:16",
-   "summary": "Article URL: https://reflection.ai/blog/introducing-beam Comments URL: https://news.ycombinator.com/item?id=49969183 Points: 530 # Comments: 164",
+   "summary": "Article URL: https://reflection.ai/blog/introducing-beam Comments URL: https://news.ycombinator.com/item?id=49969183 Points: 532 # Comments: 167",
    "ai_related": true,
    "title_ja": "Reflectionの501Bオープンウェイトモデル「Beam」",
    "summary_ja": "Reflection.aiのブログ記事「Beamの紹介」に関するHackerNews上の議論とコメントリンク。"
@@ -2041,6 +1959,19 @@
    "summary_ja": "Revitファミリ作成から鉄筋モデリングまで、BIMワークフローを自動化するマルチエージェント基盤。"
   },
   {
+   "id": "1d448acb299f",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "TCC helps with worker apartments for huge theme park",
+   "url": "https://www.constructionenquirer.com/2026/10/05/tcc-helps-with-worker-apartments-for-huge-theme-park/",
+   "published": "2026-10-05T15:28+00:00",
+   "published_jst": "2026-10-06 00:28",
+   "summary": "Consultant working on project to convert empty offices into homes for Universal Studios builders",
+   "ai_related": false
+  },
+  {
    "id": "4e1c2d3dedba",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2054,6 +1985,19 @@
    "ai_related": true,
    "title_ja": "OpenAI、画像生成結果の隣に視覚的広告を表示へ",
    "summary_ja": "今月後半より米国限定でテスト導入され、初期広告主の商品やサービスが表示される。"
+  },
+  {
+   "id": "8884df93a761",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Port giant calls for smarter handling of construction materials",
+   "url": "https://www.constructionenquirer.com/2026/10/05/port-giant-calls-for-smarter-handling-of-construction-materials/",
+   "published": "2026-10-05T15:12+00:00",
+   "published_jst": "2026-10-06 00:12",
+   "summary": "Peel Ports Group promotes greater use of deep-water port consolidation hubs",
+   "ai_related": false
   },
   {
    "id": "739c16755d8c",
@@ -2353,7 +2297,7 @@
    "url": "https://www.constructionenquirer.com/2026/10/05/ocu-sold-after-four-year-growth-blitz/",
    "published": "2026-10-05T08:48+00:00",
    "published_jst": "2026-10-05 17:48",
-   "summary": "Fresh private equity deal for £1.2bn revenue group follows 18 acquisitions",
+   "summary": "Fresh private equity deal of £1.2bn revenue group follows 18 acquisitions",
    "ai_related": false,
    "title_ja": "急成長を遂げたOCU、4年を経て売却へ",
    "summary_ja": "18件の買収を経て売上高12億ポンド規模に成長したグループが、新たに投資ファンドによる買収案件の対象となった。"
@@ -2430,6 +2374,19 @@
    "summary_ja": "1,200戸の住宅供給を含むECF計画により、立体駐車場などの解体が予定されている。"
   },
   {
+   "id": "c0e59afa43fb",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Carpenter killed in fall through floor",
+   "url": "https://www.constructionenquirer.com/2026/10/05/carpenter-killed-in-fall-through-floor/",
+   "published": "2026-10-05T06:33+00:00",
+   "published_jst": "2026-10-05 15:33",
+   "summary": "Luxury house builder fined £120,000",
+   "ai_related": false
+  },
+  {
    "id": "3da8230065b9",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2458,6 +2415,19 @@
    "summary_ja": "BAMとモース・シンダルが最大の勝者として浮上している。"
   },
   {
+   "id": "19f827b26b5c",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Wates gets final green light for 1,000-home Harrow job",
+   "url": "https://www.constructionenquirer.com/2026/10/05/wates-gets-final-green-light-for-1000-home-harrow-job/",
+   "published": "2026-10-05T06:26+00:00",
+   "published_jst": "2026-10-05 15:26",
+   "summary": "Section 106 deal clears way for detailed 530-home first phase",
+   "ai_related": false
+  },
+  {
    "id": "60507cdc2ec7",
    "source": "山陽新聞",
    "source_id": "gnews_kensetsu_dx",
@@ -2468,6 +2438,19 @@
    "published": "2026-10-05T06:05+00:00",
    "published_jst": "2026-10-05 15:05",
    "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "b378d7f77431",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Willmott Dixon wins £100m Brentwood shopping centre revamp",
+   "url": "https://www.constructionenquirer.com/2026/10/05/willmott-dixon-wins-100m-brentwood-shopping-centre-revamp/",
+   "published": "2026-10-05T06:04+00:00",
+   "published_jst": "2026-10-05 15:04",
+   "summary": "Development arm JV to unlock leisure quarter and future housing",
    "ai_related": true
   },
   {
@@ -2519,6 +2502,19 @@
    "lang": "ja",
    "title": "アンドパッド、建設バーティカルAIと現場経験豊富なプロ人材が業務代行を行う「ANDPAD AI-BPOサービス」を提供開始",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3NWpmUmRieVJVSklpX1JfRGl6eWdkSkxmLWhER2FsaTduQ1V6ZTNHQjdOeGVQN2tuR3NkTnBjWHJiQ1dDcE45Z0lKbWVhZGJkNGt4Zi1RUkJEZWY0MkU4eWpIOGZpc0wzdkE?oc=5",
+   "published": "2026-10-05T04:00+00:00",
+   "published_jst": "2026-10-05 13:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "60527ffac748",
+   "source": "マイナビニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "「AIとどう働くか」が問われる時代へ──MODE CEO・上田氏が語る、現場DXの次なるステージ",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42MzVFVHpWVU5QOU91OFI0Z3pyeXlpYTlnQTB0UWZGT1hxaW1MakZYakJuSy00X2tma05DMmdVT3l5Sl84X21JTmlBY0lyRkRIUXVYZ25fMFNkYVdkdDBqN2JySFBYaTg?oc=5",
    "published": "2026-10-05T04:00+00:00",
    "published_jst": "2026-10-05 13:00",
    "summary": "",
@@ -2694,19 +2690,6 @@
    "ai_related": false
   },
   {
-   "id": "780824afdcce",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "熊谷組、脚線付電気雷管を使う親ダイを実トンネルで実証、切羽近傍への立ち入りなしで装薬可能",
-   "url": "https://news.build-app.jp/article/42976/",
-   "published": "2026-10-05T01:00+00:00",
-   "published_jst": "2026-10-05 10:00",
-   "summary": "株式会社熊谷組は、一般的な脚線付きの電気雷管を使い、親ダイを機械で装填する装置を開発しました。同社がすでに開発している爆薬の遠隔装填システム...",
-   "ai_related": false
-  },
-  {
    "id": "e3f6a5953a1e",
    "source": "Infoseek",
    "source_id": "gnews_sekokan_ai",
@@ -2716,6 +2699,19 @@
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84SDhVR2dkbGozVHhuQm5oMUROQkV0NEU4bTdta3B6ZTRzZVdlMjlKNmFEVzNrNWhPLUR5T2xyc2hkUlZpUWU4ZlBVbHZXYWFqdDQ0R1Z0dVpVYWgwQ2JOdTFobDJCQ1ZQVTduRzg1RmVOZw?oc=5",
    "published": "2026-10-05T00:45+00:00",
    "published_jst": "2026-10-05 09:45",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "2f7ddfa2ed53",
+   "source": "TradingView",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "鉄建建設－続落 トンネル地質DX「Remote Geo」を開発",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1T0lPcUMxNHBMaTlIYjFzOThjeWFiNWNPVHYyUFNmeWNSQWhobFYyaFBpT2x0UXF1OUJaZi1IQ2RoVG05REluMHJyN1ZlTXp0NmtLVGRnRW9HNFRscmJuZVJBUktRcnVfZF94MjdFdw?oc=5",
+   "published": "2026-10-05T00:31+00:00",
+   "published_jst": "2026-10-05 09:31",
    "summary": "",
    "ai_related": true
   },
@@ -2757,32 +2753,6 @@
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFByaU5PT2xHNk5hQmxlanJuREl3WGxTNy1PNjgzeDRhalB4aFQtR1dwSHZtak1QOU51QklHRmlCVmktRlZGM3c3MU5Ta3FPNEY3bXc1WEsxQjVWLWF1YjloWlJGem44WFNtNDRlQzNyLTVxSFFQX3V2M2o0Y9IBgAFBVV95cUxNd3NLZzdLN0RNRVlQTkFQRGRSZWJzbXRVbUdZUVRXSjMyZ3pWTnNCd2pfbUcxbEJ4OVZLamgzSVBoTzNFRnBGWFdfUEs0ck51X05uUldTdmd3WU5FNDNhQmp5ZFdNSG5aRWNFUGdVYU9VUzJubVhzZjV1Unl6UkU3aQ?oc=5",
    "published": "2026-10-04T23:00+00:00",
    "published_jst": "2026-10-05 08:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "4f1bcd4d3324",
-   "source": "施工の神様",
-   "source_id": "sekokan_navi",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【マンガ】解体屋ゲン #858 第854話 理想の店舗物件とは（後編）",
-   "url": "https://sekokan-navi.jp/magazine/87720",
-   "published": "2026-10-04T21:00+00:00",
-   "published_jst": "2026-10-05 06:00",
-   "summary": "次のページ The post 【マンガ】解体屋ゲン #858 第854話 理想の店舗物件とは（後編） first appeared on 施工の神様 .",
-   "ai_related": false
-  },
-  {
-   "id": "c7e50da1a355",
-   "source": "NewsPicks",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "フィジカルAIは建設業を変えるのか？ -新たな技術トレンドへの「構え方」-",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iekRCR3FYaEIwd05KSTJUQmdHN2wyN0FzOWtrcVp0cDFVaVRYb1RFbDF3ZDRybEg5YTZHT1huRk5aQ3B2NloyX1JfRTh4dmdHSFIwYUxB?oc=5",
-   "published": "2026-10-04T21:00+00:00",
-   "published_jst": "2026-10-05 06:00",
    "summary": "",
    "ai_related": false
   }
