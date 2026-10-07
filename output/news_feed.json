@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-07T08:37+00:00",
- "generated_at_jst": "2026-10-07 17:37",
+ "generated_at": "2026-10-07T09:20+00:00",
+ "generated_at_jst": "2026-10-07 18:20",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 61,
-  "construction_global": 33,
+  "ai_global": 66,
+  "construction_japan": 65,
   "ai_japan": 38,
-  "ai_global": 68
+  "construction_global": 31
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,6 +24,32 @@
  ],
  "items": [
   {
+   "id": "f81ac359aaf4",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+   "published": "2026-10-07T09:00+00:00",
+   "published_jst": "2026-10-07 18:00",
+   "summary": "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but C",
+   "ai_related": true
+  },
+  {
+   "id": "81e6f7cf20ba",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up",
+   "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/",
+   "published": "2026-10-07T08:54+00:00",
+   "published_jst": "2026-10-07 17:54",
+   "summary": "OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal winners warn that mass-producing mathematical truths could destroy fertile groun",
+   "ai_related": true
+  },
+  {
    "id": "52096d6da259",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_bim_ai",
@@ -30,6 +60,19 @@
    "published": "2026-10-07T08:27+00:00",
    "published_jst": "2026-10-07 17:27",
    "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "6f7ce66ee34e",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「FDEが開発したAIエージェントの7割は使われず、単なるコンサルティングが販売される」 ガートナー予測",
+   "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002098/",
+   "published": "2026-10-07T08:24+00:00",
+   "published_jst": "2026-10-07 17:24",
+   "summary": "米調査会社のガートナーは、ベンダーのFDE（フォワードデプロイドエンジニアあるいはフォワードデプロイドエンジニアリング）によって開発されたAIエージェントの70％が2028年までに企業に使われずに放棄される（Gartner Predicts 70% of Enterprises Will Abandon Agentic AI Built by Vendor Forward-Deployed Engineering by 2028）」という予測を明らかにしました。",
    "ai_related": true
   },
   {
@@ -366,6 +409,19 @@
    "ai_related": true
   },
   {
+   "id": "a74484044cb7",
+   "source": "中日BIZナビ",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "千葉火力発電所にAI向けデータセンター JERA、米ITとAI開発インフラで連携：ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uVUMxRW9QYUVmUkVLeXlNNFlkQkI4S1R6blRvQXBBRlpwWWJOeWFEZEN6SnVJRHdKaUlRdUdnR01oZXdiSHE0M1Rxck1ITzBra25oS200ZFVkWTM1UU84?oc=5",
+   "published": "2026-10-07T02:26+00:00",
+   "published_jst": "2026-10-07 11:26",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "11cec9f3a980",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -388,7 +444,7 @@
    "url": "https://strandsagents.com/blog/introducing-strands-decider/",
    "published": "2026-10-07T02:02+00:00",
    "published_jst": "2026-10-07 11:02",
-   "summary": "Article URL: https://strandsagents.com/blog/introducing-strands-decider/ Comments URL: https://news.ycombinator.com/item?id=49987076 Points: 157 # Comments: 36",
+   "summary": "Article URL: https://strandsagents.com/blog/introducing-strands-decider/ Comments URL: https://news.ycombinator.com/item?id=49987076 Points: 170 # Comments: 41",
    "ai_related": true,
    "title_ja": "Strands Decider 2B：小型オープンソース決定モデル",
    "summary_ja": "オープンソースで提供される小型の意思決定モデル「Strands Decider 2B」に関する紹介記事。"
@@ -610,21 +666,6 @@
    "summary_ja": "先日のDevDayで発表された新しい「Decisions API」に対応するプラグインの初期バージョンが公開されました。"
   },
   {
-   "id": "fc6740b4c0a0",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier lands £115m Manchester Airport station upgrade",
-   "url": "https://www.constructionenquirer.com/2026/10/07/kier-lands-115m-manchester-airport-station-upgrade/",
-   "published": "2026-10-06T23:01+00:00",
-   "published_jst": "2026-10-07 08:01",
-   "summary": "Two-year upgrade to pave the way for longer trains and more passengers",
-   "ai_related": false,
-   "title_ja": "Kier、マンチェスター空港駅の改修工事を受注",
-   "summary_ja": "1億1500万ポンド規模の2年間の改修を通じ、列車の増結と乗客増加への対応を進める。"
-  },
-  {
    "id": "4dd5c8f23e97",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -727,7 +768,7 @@
    "url": "https://penguin-mail.com/",
    "published": "2026-10-06T21:59+00:00",
    "published_jst": "2026-10-07 06:59",
-   "summary": "Article URL: https://penguin-mail.com/ Comments URL: https://news.ycombinator.com/item?id=49984716 Points: 164 # Comments: 96",
+   "summary": "Article URL: https://penguin-mail.com/ Comments URL: https://news.ycombinator.com/item?id=49984716 Points: 176 # Comments: 103",
    "ai_related": true,
    "title_ja": "Penguin Mail：Linux向けのRust製メールクライアント",
    "summary_ja": "AI機能を搭載した、Linux向けのオープンソースのメールクライアントソフト。"
@@ -783,7 +824,7 @@
    "url": "https://developers.openai.com/api/docs/guides/decisions",
    "published": "2026-10-06T20:57+00:00",
    "published_jst": "2026-10-07 05:57",
-   "summary": "Article URL: https://developers.openai.com/api/docs/guides/decisions Comments URL: https://news.ycombinator.com/item?id=49984025 Points: 269 # Comments: 127",
+   "summary": "Article URL: https://developers.openai.com/api/docs/guides/decisions Comments URL: https://news.ycombinator.com/item?id=49984025 Points: 282 # Comments: 134",
    "ai_related": true,
    "title_ja": "Decisions APIがパブリックベータ版として公開",
    "summary_ja": "OpenAIの新しい「Decisions API」がパブリックベータ版として利用可能になった。"
@@ -914,21 +955,6 @@
    "published_jst": "2026-10-07 05:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "4dd290070848",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "published": "2026-10-06T19:57+00:00",
-   "published_jst": "2026-10-07 04:57",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "EmbeddingGemma 2：オープンな軽量マルチモーダル埋め込みモデル",
-   "summary_ja": ""
   },
   {
    "id": "a9ee6e883253",
@@ -1168,7 +1194,7 @@
    "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
    "published": "2026-10-06T18:00+00:00",
    "published_jst": "2026-10-07 03:00",
-   "summary": "Article URL: https://www.zohaib.cc/blog/smartest-claude-code-feature Comments URL: https://news.ycombinator.com/item?id=49981905 Points: 190 # Comments: 104",
+   "summary": "Article URL: https://www.zohaib.cc/blog/smartest-claude-code-feature Comments URL: https://news.ycombinator.com/item?id=49981905 Points: 197 # Comments: 110",
    "ai_related": true,
    "title_ja": "Claude Codeの提案機能：真の顧客はモデルか",
    "summary_ja": "Claude Codeに搭載されたメッセージ提案機能の本質や、AIモデルとの関係性について考察する。"
@@ -1258,7 +1284,7 @@
    "url": "https://github.com/FeSens/openTPU",
    "published": "2026-10-06T16:23+00:00",
    "published_jst": "2026-10-07 01:23",
-   "summary": "Article URL: https://github.com/FeSens/openTPU Comments URL: https://news.ycombinator.com/item?id=49980715 Points: 284 # Comments: 335",
+   "summary": "Article URL: https://github.com/FeSens/openTPU Comments URL: https://news.ycombinator.com/item?id=49980715 Points: 289 # Comments: 338",
    "ai_related": true,
    "title_ja": "OpenTPU：AIによって開発されたオープンソースのAIアクセラレータ",
    "summary_ja": "AI技術を活用して開発された、オープンソースのAIアクセラレータに関する情報。"
@@ -1288,7 +1314,7 @@
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
    "published": "2026-10-06T16:03+00:00",
    "published_jst": "2026-10-07 01:03",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/ Comments URL: https://news.ycombinator.com/item?id=49980487 Points: 307 # Comments: 31",
+   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/ Comments URL: https://news.ycombinator.com/item?id=49980487 Points: 316 # Comments: 34",
    "ai_related": true,
    "title_ja": "EmbeddingGemma 2：オープンな軽量マルチモーダル埋め込みモデル",
    "summary_ja": "Googleによるオープンな軽量マルチモーダル埋め込みモデル「EmbeddingGemma 2」の紹介。"
@@ -1899,21 +1925,6 @@
    "summary_ja": "AmazonのEchoスピーカーで、会話の最中などに「ラララ」と何分間も繰り返し歌い続ける不気味な不具合が発生している。"
   },
   {
-   "id": "f38c6631a4b3",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO",
-   "url": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
-   "published": "2026-10-06T10:50+00:00",
-   "published_jst": "2026-10-06 19:50",
-   "summary": "Deepseek is close to raising at least $12 billion in a new funding round, Bloomberg reports. The article CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "Deepseek、2027年上場に向けCATLなどから巨額調達へ",
-   "summary_ja": "AIスタートアップのDeepseekが新たな資金調達ラウンドで少なくとも120億ドルを確保し、2027年のIPOを目指していると報じられた。"
-  },
-  {
    "id": "aef14cfe47ca",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2372,16 +2383,16 @@
    "summary_ja": "GoogleのAI機能「Call for Me」がビジネス通話以外にも拡大し、友人や家族へのメッセージ送信に利用できるようになる可能性があります。"
   },
   {
-   "id": "4531b58e519e",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
+   "id": "1083500f6a5b",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
    "lang": "ja",
-   "title": "【レベル16】3D CADモデルを魅力的に見せよ！",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/06/news003.html",
-   "published": "2026-10-05T23:00+00:00",
-   "published_jst": "2026-10-06 08:00",
-   "summary": "設計スキルのレベルアップを目指す設計者の皆さんを“冒険者”に見立て、さまざまな“問（モン）スター”に挑む「テルえもんクエストII」の世界へようこそ。【レベル16】では、前回作成した椅子の3Dモデルを題材に、レンダリング機能と生成AIを活用して魅力的に見せる方法を紹介する。",
+   "title": "建設ロボット、ただいま稼働中",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQW9pV0dmdllzNFZDSGFoampDWHZaU2xUV04yeWdpOGtFM0t1Yl9ycGx6OU93VnNMUjRMOEhNN2JIOHhZc1RuNWNUaENicTE2MkV0MnhkZXBNbkZIUlVhV3RkajJseXR0OXIxbWViblJ6dDhXcFIteWRwX2VIeXhMX3hYZlhueGlyaUpyR0hUSk5KemxBdHRFcVpEV2VidFc4TDlRbE5RelF2WjRFeEJVV19IamFHVjU0R1NLLUJ5bTY0OUFkZU9oSl9rZmRnMnpHNVNmb0xKVVlzaDg?oc=5",
+   "published": "2026-10-05T22:54+00:00",
+   "published_jst": "2026-10-06 07:54",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -2452,6 +2463,19 @@
    "ai_related": true
   },
   {
+   "id": "3855c9125e7b",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設ICT、注目政策を一気見せ",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUWlrRWdQU1U2TGszV2dqMmRrV2c1elVYbk1aQzBnZ1FET3B5dXNHZmNGelpwRC1STGZiazFISGg0QVhvbnU5emY3OUlES1E1MnhrMkF0cGhpMnFsRXk2Z3o5dEJzZEtKa2dLNU5IVU1SVE5OOVI3X2M0VU9lWUlmZDAyaVhYakJxUmxudU1XTUxKczI5MHlwRXJVZDJaTmljX0ZrbU1Xa2JwWTZya1JHX3RsX0ZUUTNjNk9NSHNONWVmREpDUHptNDRlTzdMUW8yTVdLSHhKNU0zUHVhWUpDY2ZoVGZyZ2oyLVZLZk0xdlBXMlhmdnFwNGNR?oc=5",
+   "published": "2026-10-05T21:01+00:00",
+   "published_jst": "2026-10-06 06:01",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "a61785278b9d",
    "source": "施工の神様",
    "source_id": "sekokan_navi",
@@ -2506,6 +2530,19 @@
    "published_jst": "2026-10-06 05:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "58dbc3d812ab",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "「海洋」は東亜建設工業が約3割増収、首位・五洋建設を猛追",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZaDUyNldIcWkybFllb2tYaDQ2U1hkZG81UlRoZ2hnU3h2Q1UwTTVQUF80ZWd4bjhIWW5sbGdSVk95ZldNcmx5bnJoelRtdzI5UWU5UDZseTlrSnByMkNaRGgxR0k0Tl9pakVtRg?oc=5",
+   "published": "2026-10-05T20:00+00:00",
+   "published_jst": "2026-10-06 05:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "bb920aa469d2",
@@ -2732,21 +2769,6 @@
    "summary_ja": "姉妹が設立した同サービスは、安全性と過度な依存の回避を重視し、若い女性に恋愛や人間関係のアドバイスを提供する。"
   },
   {
-   "id": "cf94a559a112",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
-   "published": "2026-10-05T16:55+00:00",
-   "published_jst": "2026-10-06 01:55",
-   "summary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move o",
-   "ai_related": true,
-   "title_ja": "OpenAI広報、サム・アルトマンのインタビューで自殺問題の言及を制止",
-   "summary_ja": "ユーザーの自殺に関する質問に対し、広報担当者が話題を逸らそうとしたトラブルの背景が報じられた。"
-  },
-  {
    "id": "5253c2e75c44",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2790,36 +2812,6 @@
    "ai_related": true,
    "title_ja": "AIエージェントと企業知識の統合",
    "summary_ja": "AIは膨大なデータを分析する一方、知識、すなわちデータの意味を理解する力が不足している。"
-  },
-  {
-   "id": "d6dc0e88436e",
-   "source": "AEC Magazine",
-   "source_id": "aecmag",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "BIMlogiq boosts Argus AI platform for Revit",
-   "url": "https://aecmag.com/bim/bimlogiq-argus-ai-platform-launches-for-revit/",
-   "published": "2026-10-05T15:34+00:00",
-   "published_jst": "2026-10-06 00:34",
-   "summary": "Multi-agent platform designed to automate BIM workflows from the creation of Revit families to rebar modelling The post BIMlogiq boosts Argus AI platform for Revit appeared first on AEC Magazine .",
-   "ai_related": true,
-   "title_ja": "BIMlogiqがRevit向けArgus AIを強化",
-   "summary_ja": "Revitファミリ作成から鉄筋モデリングまで、BIMワークフローを自動化するマルチエージェント基盤。"
-  },
-  {
-   "id": "4e1c2d3dedba",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI launches visual ads that appear alongside image generation results",
-   "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
-   "published": "2026-10-05T15:14+00:00",
-   "published_jst": "2026-10-06 00:14",
-   "summary": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
-   "ai_related": true,
-   "title_ja": "OpenAI、画像生成結果の隣に視覚的広告を表示へ",
-   "summary_ja": "今月後半より米国限定でテスト導入され、初期広告主の商品やサービスが表示される。"
   }
  ]
 }
