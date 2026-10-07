@@ -1,17 +1,25 @@
 {
- "generated_at": "2026-10-07T17:25+00:00",
- "generated_at_jst": "2026-10-08 02:25",
+ "generated_at": "2026-10-07T17:50+00:00",
+ "generated_at_jst": "2026-10-08 02:50",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 58,
-  "ai_global": 63,
-  "construction_global": 40,
+  "ai_global": 66,
+  "construction_japan": 66,
+  "construction_global": 29,
   "ai_japan": 39
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -19,6 +27,19 @@
   }
  ],
  "items": [
+  {
+   "id": "2c81a4fbc76b",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Surface RTX Spark Dev Box is available for preorder for $5,999",
+   "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
+   "published": "2026-10-07T17:46+00:00",
+   "published_jst": "2026-10-08 02:46",
+   "summary": "Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now directly, and slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last year, but PC prices have been climbing due to shortages of RAM and other components. The Dev",
+   "ai_related": true
+  },
   {
    "id": "05f806f1c979",
    "source": "日経クロステック（xTECH）",
@@ -48,6 +69,19 @@
    "summary_ja": "Metaは、一見普通に見えながら外部の有害コンテンツへ誘導する広告を発見し、新たなAIツールを展開した。"
   },
   {
+   "id": "ee6859a51c49",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "ChatGPT is getting college planning tools",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+   "published": "2026-10-07T16:00+00:00",
+   "published_jst": "2026-10-08 01:00",
+   "summary": "OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a stud",
+   "ai_related": true
+  },
+  {
    "id": "2dd56b0e71ee",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -57,10 +91,23 @@
    "url": "https://www.constructiondive.com/news/sage-acquires-paperless-environments-construction-payroll-tech/832130/",
    "published": "2026-10-07T15:50+00:00",
    "published_jst": "2026-10-08 00:50",
-   "summary": "The move represents an emphasis on intentional M&A moves by Sage and builds on deal momentum across construction.",
+   "summary": "The move furthers Sage's M&A strategy and builds on deal momentum across construction.",
    "ai_related": false,
    "title_ja": "Sage、建設向け給与計算のPaperless Environmentsを買収",
    "summary_ja": "今回の買収は、Sageが意図的なM&Aを重視し、建設分野での買収の勢いをさらに加速させるものとなる。"
+  },
+  {
+   "id": "b8b3b1c51400",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Muse launches on the iPad",
+   "url": "https://www.theverge.com/tech/1006813/muse-ai-agent-ios-app-ipad-support",
+   "published": "2026-10-07T15:37+00:00",
+   "published_jst": "2026-10-08 00:37",
+   "summary": "After launching nearly a month ago and spending several weeks as the top free app in Apple's App Store, the latest update to Meta's Muse iOS app introduces native support for the iPad. A Mac version of Meta's agentic AI tool (designed to compete with OpenClaw, ChatGPT's Dots, and Grok Bot) was relea",
+   "ai_related": true
   },
   {
    "id": "6be31d1e1481",
@@ -164,6 +211,19 @@
    "ai_related": true,
    "title_ja": "トニー・ファデル氏が語る、初期のAIガジェットが失敗した理由",
    "summary_ja": "第1世代のAIガジェットは現実の課題解決に失敗したと指摘。次世代にはユーザーの信頼獲得が不可欠である。"
+  },
+  {
+   "id": "4c9b009d21f8",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’",
+   "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+   "published": "2026-10-07T14:40+00:00",
+   "published_jst": "2026-10-07 23:40",
+   "summary": "Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into an initiative to create a \"virtual cell\" that researchers can use to combat disease, as reported earlier by Reuters. The project is led by Biohub, a nonprofit biomedical research organization",
+   "ai_related": true
   },
   {
    "id": "3dcafb3a31cf",
@@ -331,21 +391,6 @@
    "summary_ja": "ペネトレーションテストや脆弱性調査のため、セキュリティ専門家に安全制限を緩和したClaudeを提供する。"
   },
   {
-   "id": "43a8a9f7607f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Firms appointed to £26bn YPO/Pagabo framework",
-   "url": "https://www.constructionnews.co.uk/contracts/firms-appointed-to-26bn-ypo-pagabo-framework-07-10-2026/",
-   "published": "2026-10-07T12:04+00:00",
-   "published_jst": "2026-10-07 21:04",
-   "summary": "YPO has appointed 76 suppliers to a developer-led construction framework worth £26bn. Pagabo procured the National Framework for Developer-Led Schemes as YPO’s agent under the Procurement Act 2023. The four-year framework is expected to start on 19 October and run until October 2030. It covers… The ",
-   "ai_related": true,
-   "title_ja": "YPOとPagaboの枠組み契約に76社の企業が参画",
-   "summary_ja": "260億ポンド規模の開発主導型建設フレームワークにおいて、YPOが76社のサプライヤーを起用した。"
-  },
-  {
    "id": "ad4e14640e35",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -376,109 +421,17 @@
    "summary_ja": "Playgroundは、カスタムゲームを作成、プレイ、共有できる新しい実験的なゲームプラットフォームです。"
   },
   {
-   "id": "5286760053e0",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
+   "id": "8b63f191edc0",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
    "lang": "en",
-   "title": "Willmott Dixon wins £40.2m Sheffield leisure centre job",
-   "url": "https://www.constructionnews.co.uk/contracts/willmott-dixon-wins-40-2m-sheffield-leisure-centre-job-07-10-2026/",
-   "published": "2026-10-07T11:57+00:00",
-   "published_jst": "2026-10-07 20:57",
-   "summary": "Willmott Dixon has won a £40.2m contract to design and build a replacement leisure centre for Sheffield City Council. The contractor was appointed on 30 September to deliver the new Uriah Rennie Leisure Centre as a replacement for the existing Springs Leisure Centre. The new… The post Willmott Dixon",
-   "ai_related": true,
-   "title_ja": "Willmott Dixonがシェフィールドの施設工事を受注",
-   "summary_ja": "シェフィールド市議会より新レジャーセンターの設計・建設を受注。契約額は4,020万ポンド。"
-  },
-  {
-   "id": "ed88a2027799",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sweet Project blames profit dip on data centre delays",
-   "url": "https://www.constructionnews.co.uk/financial/sweet-project-blames-profit-dip-on-data-centre-delays-07-10-2026/",
-   "published": "2026-10-07T11:45+00:00",
-   "published_jst": "2026-10-07 20:45",
-   "summary": "London-based Sweet Project Construction Ltd has seen its pre-tax profit drop by almost 50 per cent. In its latest accounts for the year to 31 December 2025, the firm posted pre-tax profit of £2.6m compared with £4.8m the previous year. Turnover also dropped by more… The post Sweet Project blames pro",
-   "ai_related": false,
-   "title_ja": "Sweet Project、利益減少の要因はデータセンターの遅延",
-   "summary_ja": "スウィート・プロジェクトの税引前利益が約50%減少。最新の決算で260万ポンドの利益を計上した。"
-  },
-  {
-   "id": "cada44d3f298",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Envelope specialist grows revenue for sixth successive year",
-   "url": "https://www.constructionnews.co.uk/financial/envelope-specialist-grows-revenue-for-sixth-successive-year-07-10-2026/",
-   "published": "2026-10-07T11:45+00:00",
-   "published_jst": "2026-10-07 20:45",
-   "summary": "Envelope specialist Lee Marley Brickwork has grown its revenue for the sixth successive year. The Reading-headquartered brickwork and scaffolding specialist saw turnover reach £95.4m in the year to 31 December 2025, up from £87.2m in the prior year. However, pre-tax profit dropped to £2.9m from… The",
-   "ai_related": false,
-   "title_ja": "封筒専門企業が6年連続で売上高を伸ばす",
-   "summary_ja": "リー・マーリー・ブリックワークの売上高が6年連続で増加し、12月期決算で9,540万ポンドに達した。"
-  },
-  {
-   "id": "ef087925f9d8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "L&G Modular closes final factory as losses continue",
-   "url": "https://www.constructionnews.co.uk/financial/lg-modular-closes-final-factory-as-losses-continue-07-10-2026/",
-   "published": "2026-10-07T11:45+00:00",
-   "published_jst": "2026-10-07 20:45",
-   "summary": "Legal & General (L&G) Modular Homes has closed its final modular factory as its winding-down operation nears completion. In its latest accounts for the year to 31 December 2025, it recorded an £8.1m pre-tax loss, compared with a £10.6m loss in the precious year. The… The post L&G Modular closes fina",
-   "ai_related": false,
-   "title_ja": "L&Gモジュラー、閉鎖作業が進む中で最後の工場を閉鎖",
-   "summary_ja": "L&Gモジュラー・ホームズが最後の工場を閉鎖。清算手続きが進む中、810万ポンドの税引前損失を記録した。"
-  },
-  {
-   "id": "75dbfcff2cee",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Administrations reach joint September low but pressures persist",
-   "url": "https://www.constructionnews.co.uk/financial/monthly-construction-administrations/administrations-reach-joint-september-low-but-pressures-persist-07-10-2026/",
-   "published": "2026-10-07T11:45+00:00",
-   "published_jst": "2026-10-07 20:45",
-   "summary": "Monthly administrations in the construction sector have fallen once again, data provided to Construction News shows. The latest figures from Creditsafe revealed that 18 firms went under in September, down from 25 the previous month and almost half the July total of 32. It was… The post Administratio",
-   "ai_related": false,
-   "title_ja": "建設業の倒産件数が9月として共同最低値を記録",
-   "summary_ja": "建設業界の月間倒産件数が再び減少。9月は18社が経営破綻し、前月の25社から減少した。"
-  },
-  {
-   "id": "ca5dfbf3ce9c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "RSK acquisitions boost turnover but finance costs weigh",
-   "url": "https://www.constructionnews.co.uk/financial/rsk-acquisitions-boost-turnover-but-finance-costs-weigh-07-10-2026/",
-   "published": "2026-10-07T11:42+00:00",
-   "published_jst": "2026-10-07 20:42",
-   "summary": "Multinational environmental, engineering and technical services company RSK has pushed its turnover closer to £2.5bn as it continues to add to its portfolio of acquisitions. RSK, which was founded in Aberdeen in 1989 by its current chief executive Alan Ryder, made 10 acquisitions between 6… The post",
-   "ai_related": false,
-   "title_ja": "RSK、買収により売上高が急増するも財務負担が重荷",
-   "summary_ja": "多国籍サービスのRSKは買収を重ね、売上高が25億ポンドに迫る勢いを見せている。"
-  },
-  {
-   "id": "80f827eb5c03",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Vinci scoops £52m Norwich science job",
-   "url": "https://www.constructionnews.co.uk/contracts/vinci-scoops-52m-norwich-science-job-07-10-2026/",
-   "published": "2026-10-07T11:37+00:00",
-   "published_jst": "2026-10-07 20:37",
-   "summary": "Vinci Building has secured a £51.8m contract to deliver research glasshouses and an insectary at Norwich Research Park. The John Innes Centre awarded the design-and-build contract for Technology Platform 1, known as TP1, following a two-stage procurement process. The scheme forms part of the Next… T",
-   "ai_related": false,
-   "title_ja": "Vinciがノーリッチの科学施設建設を受注",
-   "summary_ja": "ヴィンチ・ビルディングがノリッチ研究パークでの研究用温室などの建設に向け、5,180万ポンドの契約を締結。"
+   "title": "AI could upend food delivery",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+   "published": "2026-10-07T12:00+00:00",
+   "published_jst": "2026-10-07 21:00",
+   "summary": "DoorDash, the leading food delivery app, processed 970 million orders in its second quarter this year and generated $4.5 billion in revenue. A 10-person startup called Bites is a blip in comparison: It has just around 300 restaurants signed up in the Bay Area, where it's operating as a pre-seed star",
+   "ai_related": true
   },
   {
    "id": "1b1a3572b5c5",
@@ -494,36 +447,6 @@
    "ai_related": false,
    "title_ja": "FaroがFocus i.1レーザースキャナーを発表",
    "summary_ja": "色彩豊かなスキャンの高速化を実現し、モバイルキャプチャで現実世界の取り込みをより身近にする。"
-  },
-  {
-   "id": "5a43df924e24",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Tier ones selected for £2.3bn LHC public buildings framework",
-   "url": "https://www.constructionnews.co.uk/contracts/tier-ones-selected-for-2-3bn-lhc-public-buildings-framework-07-10-2026/",
-   "published": "2026-10-07T11:24+00:00",
-   "published_jst": "2026-10-07 20:24",
-   "summary": "Galliford Try, Kier, Morgan Sindall, Tilbury Douglas and Willmott Dixon have secured places on LHC Procurement Group’s £2.3bn public buildings framework. Robertson, McLaughlin & Harvey, Vinci and GMI Construction are also among 155 suppliers appointed to the Public Buildings Construction and Infrast",
-   "ai_related": true,
-   "title_ja": "LHC公共施設向け枠組みの主要企業が決定",
-   "summary_ja": "ガリフォード・トライやキアーなど複数の建設大手企業が、LHCの23億ポンドの公共施設フレームワークに選出された。"
-  },
-  {
-   "id": "78bd0f480415",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Burnham: boom or bust for construction?",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/burnham-boom-or-bust-for-construction-07-10-2026/",
-   "published": "2026-10-07T11:11+00:00",
-   "published_jst": "2026-10-07 20:11",
-   "summary": "Ian Dean is managing director at Holcim UK What is it with the UK and ‘growth’ plans? I can’t be the only one tired of seeing these plans each time a new PM walks into Number 10. We don’t need another plan; we need a… The post Burnham: boom or bust for construction? appeared first on Construction Ne",
-   "ai_related": false,
-   "title_ja": "バーナム：建設業界は好況か不況か？",
-   "summary_ja": "英国の「成長」計画について、新たな計画よりも真に必要な対策について考察する。"
   },
   {
    "id": "b30583decae4",
@@ -746,6 +669,19 @@
    "ai_related": true,
    "title_ja": "vBrief：プロジェクト情報を一元管理するツール",
    "summary_ja": "AIを活用し、埋もれがちな重要情報をメールやフォルダから適切に保護するAECプラットフォーム。"
+  },
+  {
+   "id": "04e9dc3828b5",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+   "url": "https://openai.com/index/radisson",
+   "published": "2026-10-07T07:00+00:00",
+   "published_jst": "2026-10-07 16:00",
+   "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+   "ai_related": true
   },
   {
    "id": "c51c351a7b2c",
@@ -1012,6 +948,19 @@
    "ai_related": true
   },
   {
+   "id": "a74484044cb7",
+   "source": "中日BIZナビ",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "千葉火力発電所にAI向けデータセンター JERA、米ITとAI開発インフラで連携：ニュース",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uVUMxRW9QYUVmUkVLeXlNNFlkQkI4S1R6blRvQXBBRlpwWWJOeWFEZEN6SnVJRHdKaUlRdUdnR01oZXdiSHE0M1Rxck1ITzBra25oS200ZFVkWTM1UU84?oc=5",
+   "published": "2026-10-07T02:26+00:00",
+   "published_jst": "2026-10-07 11:26",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "11cec9f3a980",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1034,7 +983,7 @@
    "url": "https://strandsagents.com/blog/introducing-strands-decider/",
    "published": "2026-10-07T02:02+00:00",
    "published_jst": "2026-10-07 11:02",
-   "summary": "Article URL: https://strandsagents.com/blog/introducing-strands-decider/ Comments URL: https://news.ycombinator.com/item?id=49987076 Points: 260 # Comments: 73",
+   "summary": "Article URL: https://strandsagents.com/blog/introducing-strands-decider/ Comments URL: https://news.ycombinator.com/item?id=49987076 Points: 264 # Comments: 74",
    "ai_related": true,
    "title_ja": "Strands Decider 2B：小型オープンソース決定モデル",
    "summary_ja": "オープンソースで提供される小型の意思決定モデル「Strands Decider 2B」に関する紹介記事。"
@@ -1254,21 +1203,6 @@
    "ai_related": true,
    "title_ja": "「llm-openai-decisions 0.1a0」がリリース",
    "summary_ja": "先日のDevDayで発表された新しい「Decisions API」に対応するプラグインの初期バージョンが公開されました。"
-  },
-  {
-   "id": "fc6740b4c0a0",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier lands £115m Manchester Airport station upgrade",
-   "url": "https://www.constructionenquirer.com/2026/10/07/kier-lands-115m-manchester-airport-station-upgrade/",
-   "published": "2026-10-06T23:01+00:00",
-   "published_jst": "2026-10-07 08:01",
-   "summary": "Two-year upgrade to pave the way for longer trains and more passengers",
-   "ai_related": false,
-   "title_ja": "キアーがマンチェスター空港駅の改修工事を受注",
-   "summary_ja": "より長い列車の運行と多くの乗客に対応するため、2年間にわたる駅のアップグレード工事を実施する。"
   },
   {
    "id": "4dd5c8f23e97",
@@ -1558,21 +1492,6 @@
    "ai_related": false
   },
   {
-   "id": "4dd290070848",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "published": "2026-10-06T19:57+00:00",
-   "published_jst": "2026-10-07 04:57",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "EmbeddingGemma 2：軽量なオープンマルチモーダルモデル",
-   "summary_ja": "効率的でオープンなマルチモーダル埋め込みモデルであるEmbeddingGemma 2について紹介する。"
-  },
-  {
    "id": "a9ee6e883253",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1601,6 +1520,19 @@
    "ai_related": false,
    "title_ja": "Suffolk、スポーツ・スタジアム向けの新部門を設立",
    "summary_ja": "短期間でより多くの機能を求める顧客の要望に応えるため、建設会社が事業を集約した。"
+  },
+  {
+   "id": "167809a6a4ae",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "野方~井荻駅連立交差化で協定/都・中野区・西武鉄道が一体",
+   "url": "https://www.kensetsunews.com/archives/1293584",
+   "published": "2026-10-06T19:55+00:00",
+   "published_jst": "2026-10-07 04:55",
+   "summary": "東京都、中野区、西武鉄道の３者は、西武新宿線（野方駅～井荻駅付近、野方駅付近）の連続立体交差化に向… The post 野方~井荻駅連立交差化で協定/都・中野区・西武鉄道が一体 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
   },
   {
    "id": "b51cd1409c3d",
@@ -1665,19 +1597,6 @@
    "published": "2026-10-06T19:55+00:00",
    "published_jst": "2026-10-07 04:55",
    "summary": "兵庫県三田市は、「三田市新学校給食センター整備基本計画策定業務」の公募型プロポーザルを実施した結果… The post パシコンと契約/給食センター基本計画策定/三田市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "167809a6a4ae",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "野方~井荻駅連立交差化で協定/都・中野区・西武鉄道が一体",
-   "url": "https://www.kensetsunews.com/archives/1293584",
-   "published": "2026-10-06T19:55+00:00",
-   "published_jst": "2026-10-07 04:55",
-   "summary": "東京都、中野区、西武鉄道の３者は、西武新宿線（野方駅～井荻駅付近、野方駅付近）の連続立体交差化に向… The post 野方~井荻駅連立交差化で協定/都・中野区・西武鉄道が一体 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2480,19 +2399,6 @@
    "ai_related": true
   },
   {
-   "id": "3c8ef96aa962",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設費高騰時代の躯体再利用",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbm9tTlRfSGVwd2lGU3N3bzhJT0p4Q3IyS1FSOEJZOENNY2R6Q1AzM1U0Z0UxTDh0VC1hUWdvOEJnRzluSXBPNkVFUzRpTFRNM3lSZ0tibVFRYW9hOGxmWENibzFtNUhQSGhmTllSaV94UWNfbmNGNHpkQmdCTDJhNC1xTGNjZEFTTXFCbEwtc2tjVnNBUnJVLXZHbnVuSUV3dEhzajBoSm5BeEFMRVgtVGVKOG1aQWhZZnZEaFpKMXRsT1hfc01KWVh3?oc=5",
-   "published": "2026-10-06T04:57+00:00",
-   "published_jst": "2026-10-06 13:57",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "ed53577e4c48",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2703,19 +2609,6 @@
    "summary_ja": "旧バージョンのCoworkはクラウドでモデル推論を実行し、Anthropic提供の仮想マシンでツール呼び出しを行います。機能性とセキュリティ向上のために仮想マシンを追加しました。"
   },
   {
-   "id": "f8f659947d2f",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設ICT、注目政策を一気見せ",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMXo1Y09TVnQzall0V0Fmd2dSSFBXekpubUU0NjdjNzE2ZWFyUi1DdmZkVXVhT1FmeWFkNktTRE9TU21MbEk4S0NhanRIdUZrVG5QTHRaVW5SdE1MeVN1Q0xZSGRCNzg2T0Y5TllDeFRoRHg0Rm9QekNpc1lIeGJZZHN5amhvOU4yZVVvaGxmb2s3cEFiZTFfRTliaTczYUxJenlLMmVJdlN5eVdqdDQyc2phc09oMWRwSGljMTlXUWJaVnpfWFBHN2ZadlRCRHM?oc=5",
-   "published": "2026-10-05T23:50+00:00",
-   "published_jst": "2026-10-06 08:50",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "767c9dbc0acc",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2729,19 +2622,17 @@
    "ai_related": true
   },
   {
-   "id": "fb1f3dca95af",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini Call for Me might tell your mom you’re running late",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-   "published": "2026-10-05T23:09+00:00",
-   "published_jst": "2026-10-06 08:09",
-   "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late",
-   "ai_related": true,
-   "title_ja": "Geminiの通話機能が家族への伝言にも対応か",
-   "summary_ja": "GoogleのAI機能「Call for Me」がビジネス通話以外にも拡大し、友人や家族へのメッセージ送信に利用できるようになる可能性があります。"
+   "id": "1083500f6a5b",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設ロボット、ただいま稼働中",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQW9pV0dmdllzNFZDSGFoampDWHZaU2xUV04yeWdpOGtFM0t1Yl9ycGx6OU93VnNMUjRMOEhNN2JIOHhZc1RuNWNUaENicTE2MkV0MnhkZXBNbkZIUlVhV3RkajJseXR0OXIxbWViblJ6dDhXcFIteWRwX2VIeXhMX3hYZlhueGlyaUpyR0hUSk5KemxBdHRFcVpEV2VidFc4TDlRbE5RelF2WjRFeEJVV19IamFHVjU0R1NLLUJ5bTY0OUFkZU9oSl9rZmRnMnpHNVNmb0xKVVlzaDg?oc=5",
+   "published": "2026-10-05T22:54+00:00",
+   "published_jst": "2026-10-06 07:54",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "aaf1cc502a6b",
@@ -2798,6 +2689,19 @@
    "ai_related": false
   },
   {
+   "id": "3855c9125e7b",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設ICT、注目政策を一気見せ",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUWlrRWdQU1U2TGszV2dqMmRrV2c1elVYbk1aQzBnZ1FET3B5dXNHZmNGelpwRC1STGZiazFISGg0QVhvbnU5emY3OUlES1E1MnhrMkF0cGhpMnFsRXk2Z3o5dEJzZEtKa2dLNU5IVU1SVE5OOVI3X2M0VU9lWUlmZDAyaVhYakJxUmxudU1XTUxKczI5MHlwRXJVZDJaTmljX0ZrbU1Xa2JwWTZya1JHX3RsX0ZUUTNjNk9NSHNONWVmREpDUHptNDRlTzdMUW8yTVdLSHhKNU0zUHVhWUpDY2ZoVGZyZ2oyLVZLZk0xdlBXMlhmdnFwNGNR?oc=5",
+   "published": "2026-10-05T21:01+00:00",
+   "published_jst": "2026-10-06 06:01",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "a61785278b9d",
    "source": "施工の神様",
    "source_id": "sekokan_navi",
@@ -2811,19 +2715,95 @@
    "ai_related": false
   },
   {
-   "id": "5bc9d1f47350",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "This startup is issuing AI-generated acne prescriptions",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
-   "published": "2026-10-05T20:14+00:00",
-   "published_jst": "2026-10-06 05:14",
-   "summary": "People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloom",
-   "ai_related": true,
-   "title_ja": "AI生成のにきび治療薬処方を提供する新興企業",
-   "summary_ja": "ユタ州の医療系新興企業ノラ・ヘルスが、アプリで顔スキャンしてAIで治療薬を処方するサービスを開始した。"
+   "id": "d34fe166b303",
+   "source": "日本経済新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "清水建設、5年がかりでデータ基盤整備 FDE配置し現場起点のDX推進",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFVjhDeXBlQ0M3NGpWSWs4Vnh5U0xWLTZDRmVBOVZFeDlIRzRJYWZTX2FXeHdpeC1ONGl3cXN1ZlhvRmFkVFZETHNpRF9mbHg0Y0VlY3RCRWFaU2RyLU1vc1NrZ0NqSkRGVkJCdQ?oc=5",
+   "published": "2026-10-05T20:00+00:00",
+   "published_jst": "2026-10-06 05:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "c9489f6de0be",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "BIMデータ審査の骨格判明、29年開始でAI活用も 国交省が基本構想",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9mSXlMSXFNRFhTZC1mN1lBNG5Oc0lEdHZENVVYbXI1MjRmOUI2aGFnMHcyVmFYWGhkM2ktZERfdnRteFdYdGJWSFNFZWJ5WXFNVzRHWVpQaXFLUGhnTlBUTVNsNDQ1Q1E?oc=5",
+   "published": "2026-10-05T20:00+00:00",
+   "published_jst": "2026-10-06 05:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "a3b1f4066dc6",
+   "source": "TechTargetジャパン",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "鹿島建設のDXを阻む「10年前のAWS」 安全性と自由度を両立したモダナイズ：使えたのは「EC2」「RDS」だけ",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51aC01dGRnWG5OLU5RVzJodFhPVGdhUUktVW9hMmxtUUtlQ0lHZzE0NHhsRjdROGw1bnlKMUs2djJrXzZsMVpxVDc5d0pWempyNG9XZjNyc3VZY2JkX2QyNDIxamo1dktiV1ctY3pPLWI?oc=5",
+   "published": "2026-10-05T20:00+00:00",
+   "published_jst": "2026-10-06 05:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "0fabd01f1efd",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "追跡調査 10月下旬に着手/労務費行き渡りの実態把握/国交省",
+   "url": "https://www.kensetsunews.com/archives/1292981",
+   "published": "2026-10-05T19:55+00:00",
+   "published_jst": "2026-10-06 04:55",
+   "summary": "国土交通省は、改正建設業法に基づく労務費の基準（標準労務費）の運用状況をフォローアップする新規調査… The post 追跡調査 10月下旬に着手/労務費行き渡りの実態把握/国交省 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "cdc7d495aa57",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "全建ブロック会議・東海",
+   "url": "https://www.kensetsunews.com/archives/1292993",
+   "published": "2026-10-05T19:55+00:00",
+   "published_jst": "2026-10-06 04:55",
+   "summary": "【補正脱却予算に期待／平準化で第１四半期仕事確保】 愛知、岐阜、静岡、三重の四県建設業協会は５日、岐… The post 全建ブロック会議・東海 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "85ee17f71171",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "優勝は関鉄協・ルオン・ドゥック・クイ氏(田村工業)/第6回TETSU-1グランプリ",
+   "url": "https://www.kensetsunews.com/archives/1293005",
+   "published": "2026-10-05T19:55+00:00",
+   "published_jst": "2026-10-06 04:55",
+   "summary": "全国鉄筋工事業協会（岩田正吾会長）は３日、静岡県富士宮市の富士教育訓練センターで第６回全国鉄筋技能… The post 優勝は関鉄協・ルオン・ドゥック・クイ氏(田村工業)/第6回TETSU-1グランプリ first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "2160c21c87cb",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大成建設、大成ロテ、本田技研/走行中EVへ大電力給電/大型車対応の道路開発",
+   "url": "https://www.kensetsunews.com/archives/1293012",
+   "published": "2026-10-05T19:55+00:00",
+   "published_jst": "2026-10-06 04:55",
+   "summary": "大成建設は、大成ロテック、本田技術研究所と共同で、走行中の電気自動車（ＥＶ）に大電力を供給する無線… The post 大成建設、大成ロテ、本田技研/走行中EVへ大電力給電/大型車対応の道路開発 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
   }
  ]
 }
