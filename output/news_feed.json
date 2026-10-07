@@ -1,40 +1,57 @@
 {
- "generated_at": "2026-10-07T01:31+00:00",
- "generated_at_jst": "2026-10-07 10:31",
+ "generated_at": "2026-10-07T01:49+00:00",
+ "generated_at_jst": "2026-10-07 10:49",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 57,
+  "construction_japan": 56,
   "ai_japan": 35,
-  "ai_global": 67,
+  "ai_global": 68,
   "construction_global": 41
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "hn_top",
-   "error": "HTTPError: HTTP Error 502: Bad Gateway"
-  },
-  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
   {
-   "id": "f99b2345fbd1",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
+   "id": "9aebab0b1cc9",
+   "source": "ドリームニュース",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "国土交通省、改正建築士法の一部を令和9年4月1日に施行、設計・工事監理契約を全面的に書面化",
-   "url": "https://news.build-app.jp/article/43063/",
+   "title": "半導体工場建設市場、2035年に1,432.9億米ドルへ、AI・5G・EVが設備投資を加速",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5RU1NwWWxEZzdWd2FreUk2MnU0SlRYemZlNjNjY01nQS1hMUxuNXJRM29jOE1VOF95cnNwSXc0TF9YTWxXM0lkZkc3NEtON0NNWGZN?oc=5",
+   "published": "2026-10-07T01:30+00:00",
+   "published_jst": "2026-10-07 10:30",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "b205a5d6289f",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIが「ヒットの種」から商品化まで一気通貫、NTTデータらが基盤構築で連携",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/07/news031.html",
    "published": "2026-10-07T01:00+00:00",
    "published_jst": "2026-10-07 10:00",
-   "summary": "国土交通省は令和8年10月6日、改正建築士法の一部について、施行日を定める政令などが閣議決定されたと発表しました。 建築士が行う設計や工事監...",
-   "ai_related": false
+   "summary": "インテージとNTTデータ、NTTデータビジネスシステムズの3社は、消費財メーカーと小売業向けの商品開発プロセスの変革に向けた戦略的連携を開始した。データ分析から商品化までをAIで一貫して支援する。",
+   "ai_related": true
   },
   {
    "id": "1fa658b4a36c",
@@ -50,13 +67,13 @@
    "ai_related": true
   },
   {
-   "id": "163c30900e9f",
+   "id": "0fe029967e67",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "ホバン建設 AIで世帯別BIM自動化し施工精度高める - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUldUdGtFRUNLV3ZzLUJ5aGlpYkVsUnZTbHFMck5pbFpzTXg5NHZqQVRKWG1tT21GMG16MDV5Mkdpd1VzM01waTRHclVqek9nSURkQ1B5X2R6NXhEa1cwUnd1RGhodkdCRm9MN2JyMEZvZTFmMEhLNjJFbDR4RHRwWEY5RjbSAZgBQVVfeXFMTXBPNlJGZmJXSkY1SEEwc290UWR4WUhqRnlRT2JtcU1uSzA2ZFJxb1IyNE1xazh1Vy1LdUd3amdPa2VzMDhIMGpfM1lxcFJqcDFNVVdoelRTaHdTcmxPdUpCZzU4azRjM01Xb2tCczYtdWZZVzAwZWltTm1INE5sdDcwaFJZUWttMjhCaTVTNUJxQWxTUGpTYzc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcE82UkZmYldKRjVIQTBzb3RRZHhZSGpGeVFPYm1xTW5LMDZkUnFvUjI0TXFrOHVXLUt1R3dqZ09rZXMwOEgwal8zWXFwUmpwMU1VV2h6VFNod1NybE91SkJnNThrNGMzTVdva0JzNi11ZllXMDBlaW1ObUg0Tmx0NzBoUllRa20yOEJpNVM1QnFBbFNQalNjN9IBmAFBVV95cUxNcE82UkZmYldKRjVIQTBzb3RRZHhZSGpGeVFPYm1xTW5LMDZkUnFvUjI0TXFrOHVXLUt1R3dqZ09rZXMwOEgwal8zWXFwUmpwMU1VV2h6VFNod1NybE91SkJnNThrNGMzTVdva0JzNi11ZllXMDBlaW1ObUg0Tmx0NzBoUllRa20yOEJpNVM1QnFBbFNQalNjNw?oc=5",
    "published": "2026-10-07T00:29+00:00",
    "published_jst": "2026-10-07 09:29",
    "summary": "",
@@ -147,21 +164,6 @@
    "ai_related": true,
    "title_ja": "「llm-openai-decisions 0.1a0」がリリース",
    "summary_ja": "先日のDevDayで発表された新しい「Decisions API」に対応するプラグインの初期バージョンが公開されました。"
-  },
-  {
-   "id": "fc6740b4c0a0",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier lands £115m Manchester Airport station upgrade",
-   "url": "https://www.constructionenquirer.com/2026/10/07/kier-lands-115m-manchester-airport-station-upgrade/",
-   "published": "2026-10-06T23:01+00:00",
-   "published_jst": "2026-10-07 08:01",
-   "summary": "Two-year upgrade to pave the way for longer trains and more passengers",
-   "ai_related": false,
-   "title_ja": "Kier社、マンチェスター空港の駅改修工事を受注",
-   "summary_ja": "2年間に及ぶ駅のアップグレード工事により、長編成列車の乗り入れと輸送力の増強が可能になります。"
   },
   {
    "id": "4dd5c8f23e97",
@@ -425,21 +427,6 @@
    "ai_related": false
   },
   {
-   "id": "4dd290070848",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "published": "2026-10-06T19:57+00:00",
-   "published_jst": "2026-10-07 04:57",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "EmbeddingGemma 2：軽量なオープンマルチモーダルモデル",
-   "summary_ja": "オープンで軽量なマルチモーダル埋め込みモデル「EmbeddingGemma 2」に関する情報です。"
-  },
-  {
    "id": "a9ee6e883253",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -468,32 +455,6 @@
    "ai_related": false,
    "title_ja": "Suffolk、スポーツ・スタジアム向けの新部門を設立",
    "summary_ja": "短期間でより多くの機能を求める顧客の要望に応えるため、建設会社が事業を集約した。"
-  },
-  {
-   "id": "167809a6a4ae",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "野方~井荻駅連立交差化で協定/都・中野区・西武鉄道が一体",
-   "url": "https://www.kensetsunews.com/archives/1293584",
-   "published": "2026-10-06T19:55+00:00",
-   "published_jst": "2026-10-07 04:55",
-   "summary": "東京都、中野区、西武鉄道の３者は、西武新宿線（野方駅～井荻駅付近、野方駅付近）の連続立体交差化に向… The post 野方~井荻駅連立交差化で協定/都・中野区・西武鉄道が一体 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "b51cd1409c3d",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "東埼玉資源環境組合/予定価格950億に引き上げ/26日まで参加申請ごみ処理プラント更新",
-   "url": "https://www.kensetsunews.com/archives/1293592",
-   "published": "2026-10-06T19:55+00:00",
-   "published_jst": "2026-10-07 04:55",
-   "summary": "埼玉県越谷市、草加市、八潮市、三郷市、吉川市、松伏町の５市１町で構成する東埼玉資源環境組合は、ＤＢ… The post 東埼玉資源環境組合/予定価格950億に引き上げ/26日まで参加申請ごみ処理プラント更新 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
   },
   {
    "id": "9ea39e5daa78",
@@ -545,6 +506,32 @@
    "published": "2026-10-06T19:55+00:00",
    "published_jst": "2026-10-07 04:55",
    "summary": "兵庫県三田市は、「三田市新学校給食センター整備基本計画策定業務」の公募型プロポーザルを実施した結果… The post パシコンと契約/給食センター基本計画策定/三田市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "167809a6a4ae",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "野方~井荻駅連立交差化で協定/都・中野区・西武鉄道が一体",
+   "url": "https://www.kensetsunews.com/archives/1293584",
+   "published": "2026-10-06T19:55+00:00",
+   "published_jst": "2026-10-07 04:55",
+   "summary": "東京都、中野区、西武鉄道の３者は、西武新宿線（野方駅～井荻駅付近、野方駅付近）の連続立体交差化に向… The post 野方~井荻駅連立交差化で協定/都・中野区・西武鉄道が一体 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "b51cd1409c3d",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "東埼玉資源環境組合/予定価格950億に引き上げ/26日まで参加申請ごみ処理プラント更新",
+   "url": "https://www.kensetsunews.com/archives/1293592",
+   "published": "2026-10-06T19:55+00:00",
+   "published_jst": "2026-10-07 04:55",
+   "summary": "埼玉県越谷市、草加市、八潮市、三郷市、吉川市、松伏町の５市１町で構成する東埼玉資源環境組合は、ＤＢ… The post 東埼玉資源環境組合/予定価格950億に引き上げ/26日まで参加申請ごみ処理プラント更新 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -728,6 +715,19 @@
    "summary_ja": "AIハードウェアの登場により、企業が「記録」の定義を曖昧にし、消費者を混乱させている。"
   },
   {
+   "id": "dabfa79f68b8",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+   "url": "https://github.com/FeSens/openTPU",
+   "published": "2026-10-06T16:23+00:00",
+   "published_jst": "2026-10-07 01:23",
+   "summary": "Article URL: https://github.com/FeSens/openTPU Comments URL: https://news.ycombinator.com/item?id=49980715 Points: 233 # Comments: 299",
+   "ai_related": true
+  },
+  {
    "id": "ef03c1f76b2d",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -741,6 +741,19 @@
    "ai_related": true,
    "title_ja": "暴走するAIエージェントによる巨額の保険金請求に備える保険業界",
    "summary_ja": "AIエージェントの暴走による損害賠償に保険業界が備えており、経営陣の責任も問われる可能性がある。"
+  },
+  {
+   "id": "ab5e6ca801d9",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+   "published": "2026-10-06T16:03+00:00",
+   "published_jst": "2026-10-07 01:03",
+   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/ Comments URL: https://news.ycombinator.com/item?id=49980487 Points: 219 # Comments: 29",
+   "ai_related": true
   },
   {
    "id": "60ef2af305e7",
@@ -1544,19 +1557,6 @@
    "ai_related": true
   },
   {
-   "id": "c8790149efd7",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年版】コンクリート桝（ます）とは？｜種類・サイズ規格・価格相場・施工方法をプロが徹底解説",
-   "url": "https://news.build-app.jp/article/35574/",
-   "published": "2026-10-06T06:00+00:00",
-   "published_jst": "2026-10-06 15:00",
-   "summary": "水たまりやゴミの滞留などによって起こる「排水トラブル」を根本から解決したいときに役立つのが「コンクリート桝（ます）」です。しかし、どのような...",
-   "ai_related": false
-  },
-  {
    "id": "f744089192ef",
    "source": "デジコン",
    "source_id": "gnews_bim_ai",
@@ -1581,19 +1581,6 @@
    "published_jst": "2026-10-06 14:24",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "ed53577e4c48",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "パークタワー渋谷笹塚｜笹塚駅南口東地区開発計画のまちづくり構想で資産価値は変わる？",
-   "url": "https://news.build-app.jp/article/42993/",
-   "published": "2026-10-06T04:00+00:00",
-   "published_jst": "2026-10-06 13:00",
-   "summary": "ササ・ハツ・ハタの新しいまちづくり「パークタワー渋谷笹塚」 「ササ・ハツ・ハタ」をご存知でしょうか？渋谷区の「笹塚・幡ヶ谷・初台」地区の愛称...",
-   "ai_related": false
   },
   {
    "id": "ecd786e650af",
@@ -1632,19 +1619,6 @@
    "published": "2026-10-06T03:06+00:00",
    "published_jst": "2026-10-06 12:06",
    "summary": "アメリカに拠点を置くAIスタートアップのReflectionが、パラメーター数5010億・アクティブパラメーター数230億のオープンモデル「Beam」を発表しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "6988ae7fca5b",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "熊谷組、国内初のスーパーホットコラムへの現場溶接ロボット適用で省人化と品質安定化を推進",
-   "url": "https://news.build-app.jp/article/43025/",
-   "published": "2026-10-06T03:00+00:00",
-   "published_jst": "2026-10-06 12:00",
-   "summary": "熊谷組は、建築現場での鉄骨溶接作業の省人化や省力化、施工品質の安定を目的に開発と検証を重ねてきた現場溶接ロボットを、熱間成形角形鋼管「スーパ...",
    "ai_related": true
   },
   {
@@ -1791,19 +1765,6 @@
    "ai_related": true
   },
   {
-   "id": "732c0771325f",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設が施設管理ソリューションde大工を提供開始、建物情報の一元管理と技術支援を一体で提供",
-   "url": "https://news.build-app.jp/article/43020/",
-   "published": "2026-10-06T01:00+00:00",
-   "published_jst": "2026-10-06 10:00",
-   "summary": "清水建設（社長：新村達也）は2026年10月1日、建物を所有するオーナーや、企業の施設管理部門・部署を総合的に支えるソリューション「de大工...",
-   "ai_related": false
-  },
-  {
    "id": "489fd73325af",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1937,19 +1898,6 @@
    "published": "2026-10-05T22:00+00:00",
    "published_jst": "2026-10-06 07:00",
    "summary": "ドイツのAIスタートアップ企業Aleph Alphaは、ドイツ統一の日にあたる2026年10月3日に新たな言語モデル「Kolibri」を発表しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "b406fee095b3",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "インフラを守る点検会社を、DXで支えたい。TRASSが橋梁点検の効率化に挑む理由 【前編】",
-   "url": "https://news.build-app.jp/article/42880/",
-   "published": "2026-10-05T22:00+00:00",
-   "published_jst": "2026-10-06 07:00",
-   "summary": "橋梁をはじめとするインフラの維持管理では、点検業務の重要性が高まる一方で、現場記録の整理や写真管理、成果品作成など、多くの手作業が依然として...",
    "ai_related": true
   },
   {
@@ -2734,17 +2682,17 @@
    "ai_related": false
   },
   {
-   "id": "3da8230065b9",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "フィジカルAIは「ロボット単体」では成り立たない NTTドコモビジネスが示すIoTからの進化の道筋",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/05/news062.html",
-   "published": "2026-10-05T06:30+00:00",
-   "published_jst": "2026-10-05 15:30",
-   "summary": "ロボットや自動運転に必要な機能を、全て機器の中に積み込む――。そのやり方はコストでもサイズでも限界がある、とNTTドコモビジネスは言う。同社が打ち出したのは、フィジカルAIの機能を通信網の側へ「オフロード」する発想だ。IoTで培った基盤は、フィジカルAIへどう進化するのか。同社の取り組みから探る。",
-   "ai_related": true
+   "id": "1972ae4e856b",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Winners named for £5bn Pagabo major works deal",
+   "url": "https://www.constructionenquirer.com/2026/10/05/winners-named-for-5bn-pagabo-main-works-deaal/",
+   "published": "2026-10-05T06:27+00:00",
+   "published_jst": "2026-10-05 15:27",
+   "summary": "BAM and Morgan Sindall emerge as biggest winners",
+   "ai_related": false
   },
   {
    "id": "60507cdc2ec7",
@@ -2836,6 +2784,58 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaTHhqMUtPbGpwTWxCeGVuRnE0OTY5ckN0Ty1xTXlOa2ViUTBqYll4b1BSQUtJUllfVUc4MG55eHozLW9QXy1BcEwyQjFxLWxRMXBuQ2J6TkQwMnpVY2dlTzFPeDVOU25HNlVGNA?oc=5",
    "published": "2026-10-05T03:00+00:00",
    "published_jst": "2026-10-05 12:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "334336243b8f",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "DJI Matrice 4EとSmart Construction Edge2によるドローン測量・データ解析を実演。無料セミナーを10月21日（水）静岡県島田市で開催",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40aUMzMTd2cTloa1VRNUY3MFMwUEhuZlFHaTkxOF9DQ2R2RFAxUkFuN1hJdkh1RDN2aEp0VGlvbnZHaTkzRjhNT1Atck1yWV9hYmtqYU5FeHBBWGhfU0J4S3NVMEl4NGNmbV95R2lPem02dw?oc=5",
+   "published": "2026-10-05T02:45+00:00",
+   "published_jst": "2026-10-05 11:45",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "38fba464141e",
+   "source": "ニュースメディアVOIX",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "アイピアが明かす建設業のAI活用実態調査、半数が「未活用」との結果に注目",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YSWV1QUhIbjBjOElnZzR4UGpIZmtCcjN3eHZnUzE2bzhrNG5sTTFHU19EQ29YMTUxT1NxckxTeXRiVjdCZjNmTVN4cVNWZ3k4TnpYQ1p1Y0NUM0ZCQzdWdDhfMjE1YXhqMHRtaUkwNHlvRFo0?oc=5",
+   "published": "2026-10-05T02:22+00:00",
+   "published_jst": "2026-10-05 11:22",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "abb98fd58a29",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "現場監督は外国人",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYndIMV9WWDFVR3pWZ2VYbVI2NHlXcG42OEVXOGtxYzRlbndzanloek0wMzdtVzg0MHZ6RjJiODJmMHlYQWw0T19LVnpwNm9Od1RUUnV3N2ZEbW01dDZ0aFJkYWhUdVphN2VWTkR5NXRCRFl3cEFKblFMQ1huXzYwMk13dWtHdTZtX21BRV84WlppblFZWWgwWW8ydXE3U045T0JVQjZObTczQnRjT01WeE1uNkRjMWpuR3psVzc4TzQ?oc=5",
+   "published": "2026-10-05T02:18+00:00",
+   "published_jst": "2026-10-05 11:18",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "af05b8d431bb",
+   "source": "ドローンジャーナル",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "イネーブラー、インフラ点検DXを担う新会社SIVIONの事業概要を発表",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tOTNNb1NpdkFqQWVuRGtxeDB3Z0dpWFB3RFp5SGVnSGNDMjN6YmpKdnpNcGQwSzZZOGNQZUNOVTNFQV9HYWFmeno4WWNwN05DdzZtUUJ0M1JqSWYtNldHWkdrZ1h0cFoxalE?oc=5",
+   "published": "2026-10-05T02:17+00:00",
+   "published_jst": "2026-10-05 11:17",
    "summary": "",
    "ai_related": true
   }
