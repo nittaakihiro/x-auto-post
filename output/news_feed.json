@@ -1,18 +1,14 @@
 {
- "generated_at": "2026-10-07T09:20+00:00",
- "generated_at_jst": "2026-10-07 18:20",
+ "generated_at": "2026-10-07T10:19+00:00",
+ "generated_at_jst": "2026-10-07 19:19",
  "window_hours": 48,
  "counts": {
+  "construction_global": 31,
+  "ai_japan": 40,
   "ai_global": 66,
-  "construction_japan": 65,
-  "ai_japan": 38,
-  "construction_global": 31
+  "construction_japan": 63
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -23,6 +19,71 @@
   }
  ],
  "items": [
+  {
+   "id": "28902a2dd054",
+   "source": "PBC Today (UK)",
+   "source_id": "pbctoday",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Construction of UK’s first robotic infection research laboratory completed in Liverpool",
+   "url": "https://www.pbctoday.co.uk/news/projects/construction-uks-first-robotic-infection-research-laboratory-completed-liverpool/166401/",
+   "published": "2026-10-07T10:16+00:00",
+   "published_jst": "2026-10-07 19:16",
+   "summary": "Developed by Tilbury Douglas, the Liverpool Accelerate Laboratory is the UK’s first high-security, automated category three infection research laboratory. The post Construction of UK’s first robotic infection research laboratory completed in Liverpool appeared first on Planning, Building & Construct",
+   "ai_related": true
+  },
+  {
+   "id": "121efea1d4ce",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIによって開発されたオープンソースのAIアクセラレータ「openTPU」が登場",
+   "url": "https://gigazine.net/news/20261007-opentpu/",
+   "published": "2026-10-07T10:00+00:00",
+   "published_jst": "2026-10-07 19:00",
+   "summary": "AIを使ってAI向けハードウェアを設計するオープンソースプロジェクト「openTPU」が公開されています。openTPUは、AIモデルを高速に動かすための専用アクセラレーターをAIエージェントも活用しながら開発する試みで、Qwen3やQwen3.5、Gemma 4など複数の言語モデルを実際のFPGAカード上で動かすことに成功しています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "5b2f11ad2744",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Dozen firms picked for Oxford Inspire Framework",
+   "url": "https://www.constructionnews.co.uk/contracts/dozen-firms-picked-for-oxford-inspire-framework-07-10-2026/",
+   "published": "2026-10-07T09:57+00:00",
+   "published_jst": "2026-10-07 18:57",
+   "summary": "The University of Oxford has appointed 12 contractors to a construction framework that will support projects across its estate over the next eight years. The Oxford Inspire Framework for Construction Services covers schemes ranging from £500,000 to developments worth more than £15m. It was introduce",
+   "ai_related": false
+  },
+  {
+   "id": "b0b94d7b0131",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAIが判断専用の「Decisions API」を公開、テキストや画像を約10倍高速に判定して確率や信頼度を出力",
+   "url": "https://gigazine.net/news/20261007-decisions-api/",
+   "published": "2026-10-07T09:20+00:00",
+   "published_jst": "2026-10-07 18:20",
+   "summary": "OpenAIがアプリケーション内で「どのモデルを使うか」「どのツールを呼び出すか」「問い合わせをどこに振り分けるか」といった判断を高速に行うための新API「Decisions API」をパブリックベータとして公開しました。テキストと画像を入力でき、条件に当てはまる確率や選択結果、評価スコアなどを機械処理しやすい形式で返します。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "a8e284f0355a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Kier lands £65m Manchester Airport station upgrade",
+   "url": "https://www.constructionnews.co.uk/civils/kier-lands-65m-manchester-airport-station-upgrade-07-10-2026/",
+   "published": "2026-10-07T09:11+00:00",
+   "published_jst": "2026-10-07 18:11",
+   "summary": "Network Rail has awarded Kier a £65m contract to upgrade Manchester Airport station as part of a £115m investment programme led by Network Rail. The contractor will deliver platform extensions, track remodelling and signalling upgrades between late 2026 and 2028. Data provider Glenigan values the… T",
+   "ai_related": true
+  },
   {
    "id": "f81ac359aaf4",
    "source": "The Verge AI",
@@ -91,13 +152,13 @@
    "summary_ja": "建設業者向け図面解析プラットフォーム。ビジョンAIを活用して図面のレビューを自動化する。"
   },
   {
-   "id": "7dc1474b1759",
-   "source": "PR TIMES",
-   "source_id": "gnews_bim_ai",
+   "id": "745968f505f0",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "「工場はどこまで無人化できるのか？」AI×ロボットで変わる生産現場を、INDUSTRIAL-X 代表の八子知礼氏が解説する特別講演を開催＜12/9・参加無料＞",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13ZmgzbkViNnRJNEJ1X3VTanBDTmpEUTJFMlcwM1hKTlRtdEljUkJEZ1BrWkE3NjducFdxcnA3Vk8zQ1cyUnhLSnBXYXdrVzUtWUlhSjJnSUVwX2FaYUw3XzdSdkh4R0t6cUE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE42YzRJQ3Q2ZzFKV2oxZUx6WGdJMExodUpmVDFpck5BVktKempfdFpYempwWGFqTVVQZC1CbTdyS3dDUy0zbGhQajBua0R6U3VtSWxydzB0RTBYRDBpOVNiVkFVcFJ4aEJBMHFFM19jenpWdw?oc=5",
    "published": "2026-10-07T08:10+00:00",
    "published_jst": "2026-10-07 17:10",
    "summary": "",
@@ -111,6 +172,19 @@
    "lang": "ja",
    "title": "データセンター建設凍結、無料AI提供でも不備 迷走するタイのデジタル政策",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PX2RWcHJrVXA4R0dMWGhCb0p0ZWVLT0FiN3lsaWlPX2FrZ0dlS3dzblNLX3F0R0dNZVBsN0RPcl9hdjhJbnZ0T2Q0LXBodnJDcXBndmlWaUl0ZGtDYVNJa0RzX1pFSTQ?oc=5",
+   "published": "2026-10-07T08:00+00:00",
+   "published_jst": "2026-10-07 17:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "53d07869310f",
+   "source": "ITmedia",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "映像と音声で現場巡回を自動記録、AIエージェントのPoC開始 セーフィーとBONX：AI",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQRF85U2pGbGxmbUt1TnVGdjdEbHVIOW9VQjMwVUZUekQ2b2p4SzF3cml0ZllnUHYwNXVHVERFV2xQN3BycjlHVzZmR25JWlRQNmtMYWdMRjN6cWV5cnZZbmE4QktzRHhZWmt4Zg?oc=5",
    "published": "2026-10-07T08:00+00:00",
    "published_jst": "2026-10-07 17:00",
    "summary": "",
@@ -409,19 +483,6 @@
    "ai_related": true
   },
   {
-   "id": "a74484044cb7",
-   "source": "中日BIZナビ",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "千葉火力発電所にAI向けデータセンター JERA、米ITとAI開発インフラで連携：ニュース",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uVUMxRW9QYUVmUkVLeXlNNFlkQkI4S1R6blRvQXBBRlpwWWJOeWFEZEN6SnVJRHdKaUlRdUdnR01oZXdiSHE0M1Rxck1ITzBra25oS200ZFVkWTM1UU84?oc=5",
-   "published": "2026-10-07T02:26+00:00",
-   "published_jst": "2026-10-07 11:26",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "11cec9f3a980",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -444,7 +505,7 @@
    "url": "https://strandsagents.com/blog/introducing-strands-decider/",
    "published": "2026-10-07T02:02+00:00",
    "published_jst": "2026-10-07 11:02",
-   "summary": "Article URL: https://strandsagents.com/blog/introducing-strands-decider/ Comments URL: https://news.ycombinator.com/item?id=49987076 Points: 170 # Comments: 41",
+   "summary": "Article URL: https://strandsagents.com/blog/introducing-strands-decider/ Comments URL: https://news.ycombinator.com/item?id=49987076 Points: 179 # Comments: 45",
    "ai_related": true,
    "title_ja": "Strands Decider 2B：小型オープンソース決定モデル",
    "summary_ja": "オープンソースで提供される小型の意思決定モデル「Strands Decider 2B」に関する紹介記事。"
@@ -768,7 +829,7 @@
    "url": "https://penguin-mail.com/",
    "published": "2026-10-06T21:59+00:00",
    "published_jst": "2026-10-07 06:59",
-   "summary": "Article URL: https://penguin-mail.com/ Comments URL: https://news.ycombinator.com/item?id=49984716 Points: 176 # Comments: 103",
+   "summary": "Article URL: https://penguin-mail.com/ Comments URL: https://news.ycombinator.com/item?id=49984716 Points: 183 # Comments: 118",
    "ai_related": true,
    "title_ja": "Penguin Mail：Linux向けのRust製メールクライアント",
    "summary_ja": "AI機能を搭載した、Linux向けのオープンソースのメールクライアントソフト。"
@@ -824,7 +885,7 @@
    "url": "https://developers.openai.com/api/docs/guides/decisions",
    "published": "2026-10-06T20:57+00:00",
    "published_jst": "2026-10-07 05:57",
-   "summary": "Article URL: https://developers.openai.com/api/docs/guides/decisions Comments URL: https://news.ycombinator.com/item?id=49984025 Points: 282 # Comments: 134",
+   "summary": "Article URL: https://developers.openai.com/api/docs/guides/decisions Comments URL: https://news.ycombinator.com/item?id=49984025 Points: 300 # Comments: 143",
    "ai_related": true,
    "title_ja": "Decisions APIがパブリックベータ版として公開",
    "summary_ja": "OpenAIの新しい「Decisions API」がパブリックベータ版として利用可能になった。"
@@ -944,6 +1005,19 @@
    "ai_related": true
   },
   {
+   "id": "f7f75e2a6d1a",
+   "source": "日経クロステック（xTECH）",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "脱談合と業界団体統合の立役者が去る、大成建設の葉山莞児元社長",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UVHR5M2E0TUs1SGUwVGZaRktvOTVtQkFlWG5NRl9GUlFPSWJDWmh3emdvTWRkcnZhcWZrM1dMclRZSWpnR3NrMmpYOS1JTkg1cGJkQU4tN1JFdm15cEk3M2RWZjZBdjQ?oc=5",
+   "published": "2026-10-06T20:00+00:00",
+   "published_jst": "2026-10-07 05:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "5e7a3613e635",
    "source": "日経クロステック（xTECH）",
    "source_id": "gnews_bim_ai",
@@ -955,6 +1029,19 @@
    "published_jst": "2026-10-07 05:00",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "4dd290070848",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+   "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "published": "2026-10-06T19:57+00:00",
+   "published_jst": "2026-10-07 04:57",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "a9ee6e883253",
@@ -1194,7 +1281,7 @@
    "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
    "published": "2026-10-06T18:00+00:00",
    "published_jst": "2026-10-07 03:00",
-   "summary": "Article URL: https://www.zohaib.cc/blog/smartest-claude-code-feature Comments URL: https://news.ycombinator.com/item?id=49981905 Points: 197 # Comments: 110",
+   "summary": "Article URL: https://www.zohaib.cc/blog/smartest-claude-code-feature Comments URL: https://news.ycombinator.com/item?id=49981905 Points: 201 # Comments: 117",
    "ai_related": true,
    "title_ja": "Claude Codeの提案機能：真の顧客はモデルか",
    "summary_ja": "Claude Codeに搭載されたメッセージ提案機能の本質や、AIモデルとの関係性について考察する。"
@@ -1284,7 +1371,7 @@
    "url": "https://github.com/FeSens/openTPU",
    "published": "2026-10-06T16:23+00:00",
    "published_jst": "2026-10-07 01:23",
-   "summary": "Article URL: https://github.com/FeSens/openTPU Comments URL: https://news.ycombinator.com/item?id=49980715 Points: 289 # Comments: 338",
+   "summary": "Article URL: https://github.com/FeSens/openTPU Comments URL: https://news.ycombinator.com/item?id=49980715 Points: 289 # Comments: 341",
    "ai_related": true,
    "title_ja": "OpenTPU：AIによって開発されたオープンソースのAIアクセラレータ",
    "summary_ja": "AI技術を活用して開発された、オープンソースのAIアクセラレータに関する情報。"
@@ -1314,7 +1401,7 @@
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
    "published": "2026-10-06T16:03+00:00",
    "published_jst": "2026-10-07 01:03",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/ Comments URL: https://news.ycombinator.com/item?id=49980487 Points: 316 # Comments: 34",
+   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/ Comments URL: https://news.ycombinator.com/item?id=49980487 Points: 331 # Comments: 35",
    "ai_related": true,
    "title_ja": "EmbeddingGemma 2：オープンな軽量マルチモーダル埋め込みモデル",
    "summary_ja": "Googleによるオープンな軽量マルチモーダル埋め込みモデル「EmbeddingGemma 2」の紹介。"
@@ -1867,21 +1954,6 @@
    "summary_ja": "直接雇用せずサプライチェーン内にいることすら知らない作業員をめぐり、最大6万ポンドの罰金に直面する可能性がある。"
   },
   {
-   "id": "fd8b5d6e2ead",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Abolishing low-carbon standard would trim new home costs by £50k, say Tories",
-   "url": "https://www.constructionnews.co.uk/government/abolishing-low-carbon-standard-would-trim-new-home-costs-by-50k-say-tories-06-10-2026/",
-   "published": "2026-10-06T11:13+00:00",
-   "published_jst": "2026-10-06 20:13",
-   "summary": "The Conservatives have claimed their planned abolition of the low-carbon Future Homes Standard could help to cut the cost of a new home by up to £50,000. The official opposition party has also proposed replacing the Community Infrastructure Levy and Section 106 system with a… The post Abolishing low",
-   "ai_related": false,
-   "title_ja": "低炭素基準の廃止で新築住宅費用が5万ポンド削減と保守党",
-   "summary_ja": "保守党は、計画中の低炭素基準廃止により新築住宅のコストを最大5万ポンド削減できると主張し、代替案も提案している。"
-  },
-  {
    "id": "de3ab549b591",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1893,21 +1965,6 @@
    "published_jst": "2026-10-06 20:00",
    "summary": "試験中のAIが外部の機関に不正アクセスを行うという事例が相次いでいます。こうしたAIは大抵、外部へのアクセスを遮断されている中で、独自のルートを見いだして不正な手段でアクセスを試みます。こうしたAIの痕跡を見つけ出すコミュニティが、いくつか発達しつつあります。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "6eb25beaf7a1",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier to return to £3.5bn health campus project after four-year absence",
-   "url": "https://www.constructionnews.co.uk/contractors/kier/kier-reinstated-on-3-5bn-health-campus-project-after-four-year-absence-06-10-2026/",
-   "published": "2026-10-06T10:58+00:00",
-   "published_jst": "2026-10-06 19:58",
-   "summary": "Kier is set to be reappointed on a pre-contract agreement to build part of a national health campus that has suffered large cost increases. The UK’s third-biggest contractor will soon be reinstated on a preconstruction services agreement (PCSA) to construct the High Containment building at… The post",
-   "ai_related": false,
-   "title_ja": "Kier、4年ぶりに35億ポンドの医療キャンパス事業に復帰へ",
-   "summary_ja": "大幅なコスト増に見舞われた国立医療キャンパスの一部建設に向け、Kierが事前契約で再指名される見通しとなった。"
   },
   {
    "id": "9f54e4bc2e92",
@@ -2383,19 +2440,6 @@
    "summary_ja": "GoogleのAI機能「Call for Me」がビジネス通話以外にも拡大し、友人や家族へのメッセージ送信に利用できるようになる可能性があります。"
   },
   {
-   "id": "1083500f6a5b",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設ロボット、ただいま稼働中",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQW9pV0dmdllzNFZDSGFoampDWHZaU2xUV04yeWdpOGtFM0t1Yl9ycGx6OU93VnNMUjRMOEhNN2JIOHhZc1RuNWNUaENicTE2MkV0MnhkZXBNbkZIUlVhV3RkajJseXR0OXIxbWViblJ6dDhXcFIteWRwX2VIeXhMX3hYZlhueGlyaUpyR0hUSk5KemxBdHRFcVpEV2VidFc4TDlRbE5RelF2WjRFeEJVV19IamFHVjU0R1NLLUJ5bTY0OUFkZU9oSl9rZmRnMnpHNVNmb0xKVVlzaDg?oc=5",
-   "published": "2026-10-05T22:54+00:00",
-   "published_jst": "2026-10-06 07:54",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "aaf1cc502a6b",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2463,19 +2507,6 @@
    "ai_related": true
   },
   {
-   "id": "3855c9125e7b",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設ICT、注目政策を一気見せ",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUWlrRWdQU1U2TGszV2dqMmRrV2c1elVYbk1aQzBnZ1FET3B5dXNHZmNGelpwRC1STGZiazFISGg0QVhvbnU5emY3OUlES1E1MnhrMkF0cGhpMnFsRXk2Z3o5dEJzZEtKa2dLNU5IVU1SVE5OOVI3X2M0VU9lWUlmZDAyaVhYakJxUmxudU1XTUxKczI5MHlwRXJVZDJaTmljX0ZrbU1Xa2JwWTZya1JHX3RsX0ZUUTNjNk9NSHNONWVmREpDUHptNDRlTzdMUW8yTVdLSHhKNU0zUHVhWUpDY2ZoVGZyZ2oyLVZLZk0xdlBXMlhmdnFwNGNR?oc=5",
-   "published": "2026-10-05T21:01+00:00",
-   "published_jst": "2026-10-06 06:01",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "a61785278b9d",
    "source": "施工の神様",
    "source_id": "sekokan_navi",
@@ -2532,19 +2563,6 @@
    "ai_related": true
   },
   {
-   "id": "58dbc3d812ab",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「海洋」は東亜建設工業が約3割増収、首位・五洋建設を猛追",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZaDUyNldIcWkybFllb2tYaDQ2U1hkZG81UlRoZ2hnU3h2Q1UwTTVQUF80ZWd4bjhIWW5sbGdSVk95ZldNcmx5bnJoelRtdzI5UWU5UDZseTlrSnByMkNaRGgxR0k0Tl9pakVtRg?oc=5",
-   "published": "2026-10-05T20:00+00:00",
-   "published_jst": "2026-10-06 05:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "bb920aa469d2",
    "source": "日刊工業新聞",
    "source_id": "gnews_sekokan_ai",
@@ -2584,45 +2602,6 @@
    "ai_related": true
   },
   {
-   "id": "7106957580b0",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "10月23日まで参加受付/BTO学校給食センター/名張市",
-   "url": "https://www.kensetsunews.com/archives/1293105",
-   "published": "2026-10-05T19:55+00:00",
-   "published_jst": "2026-10-06 04:55",
-   "summary": "三重県名張市は２日、ＢＴＯ（建設・譲渡・運営）方式を採用する「（仮称）名張市学校給食センター整備運… The post 10月23日まで参加受付/BTO学校給食センター/名張市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "76d58d50e475",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "30年6月から着工/新発田太陽光発電事業/ヴィーナ・エナジー",
-   "url": "https://www.kensetsunews.com/archives/1293125",
-   "published": "2026-10-05T19:55+00:00",
-   "published_jst": "2026-10-06 04:55",
-   "summary": "ヴィーナ・エナジーは、「（仮称）新発田太陽光発電事業」の計画段階環境配慮書を公表した。発電出力は交… The post 30年6月から着工/新発田太陽光発電事業/ヴィーナ・エナジー first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "61134b4cb099",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "アール・アイ・エーに/サンセンタープラザ建替コーディネート/再開発協議会",
-   "url": "https://www.kensetsunews.com/archives/1293163",
-   "published": "2026-10-05T19:55+00:00",
-   "published_jst": "2026-10-06 04:55",
-   "summary": "神戸市をはじめとする区分所有者らで構成する再開発協議会は、神戸・三宮の「サンセンタープラザ」の建替… The post アール・アイ・エーに/サンセンタープラザ建替コーディネート/再開発協議会 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "0fabd01f1efd",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2633,6 +2612,45 @@
    "published": "2026-10-05T19:55+00:00",
    "published_jst": "2026-10-06 04:55",
    "summary": "国土交通省は、改正建設業法に基づく労務費の基準（標準労務費）の運用状況をフォローアップする新規調査… The post 追跡調査 10月下旬に着手/労務費行き渡りの実態把握/国交省 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "cdc7d495aa57",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "全建ブロック会議・東海",
+   "url": "https://www.kensetsunews.com/archives/1292993",
+   "published": "2026-10-05T19:55+00:00",
+   "published_jst": "2026-10-06 04:55",
+   "summary": "【補正脱却予算に期待／平準化で第１四半期仕事確保】 愛知、岐阜、静岡、三重の四県建設業協会は５日、岐… The post 全建ブロック会議・東海 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "85ee17f71171",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "優勝は関鉄協・ルオン・ドゥック・クイ氏(田村工業)/第6回TETSU-1グランプリ",
+   "url": "https://www.kensetsunews.com/archives/1293005",
+   "published": "2026-10-05T19:55+00:00",
+   "published_jst": "2026-10-06 04:55",
+   "summary": "全国鉄筋工事業協会（岩田正吾会長）は３日、静岡県富士宮市の富士教育訓練センターで第６回全国鉄筋技能… The post 優勝は関鉄協・ルオン・ドゥック・クイ氏(田村工業)/第6回TETSU-1グランプリ first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "2160c21c87cb",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大成建設、大成ロテ、本田技研/走行中EVへ大電力給電/大型車対応の道路開発",
+   "url": "https://www.kensetsunews.com/archives/1293012",
+   "published": "2026-10-05T19:55+00:00",
+   "published_jst": "2026-10-06 04:55",
+   "summary": "大成建設は、大成ロテック、本田技術研究所と共同で、走行中の電気自動車（ＥＶ）に大電力を供給する無線… The post 大成建設、大成ロテ、本田技研/走行中EVへ大電力給電/大型車対応の道路開発 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2782,36 +2800,6 @@
    "ai_related": true,
    "title_ja": "HackerRankのAI面接官が映し出す、今後の採用面接のあり方",
    "summary_ja": "すでに50万件以上の面接を実施しており、SnowflakeやCapgeminiなどが初期テストに名を連ねている。"
-  },
-  {
-   "id": "1466332c7f90",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Data center contractors learn to live with the backlash",
-   "url": "https://www.constructiondive.com/news/data-center-contractors-learn-to-live-backlash/832142/",
-   "published": "2026-10-05T15:49+00:00",
-   "published_jst": "2026-10-06 00:49",
-   "summary": "Contractors strive to be ‘active listeners’ to community concerns, but say scrutiny has done little to cool demand.",
-   "ai_related": false,
-   "title_ja": "データセンター建設業者の逆風への適応",
-   "summary_ja": "業者は地域の懸念に耳を傾けるが、厳しい目が向けられても需要は衰えていないと語る。"
-  },
-  {
-   "id": "1ba99535ff8c",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Connecting AI agents to enterprise knowledge",
-   "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-   "published": "2026-10-05T15:47+00:00",
-   "published_jst": "2026-10-06 00:47",
-   "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to re",
-   "ai_related": true,
-   "title_ja": "AIエージェントと企業知識の統合",
-   "summary_ja": "AIは膨大なデータを分析する一方、知識、すなわちデータの意味を理解する力が不足している。"
   }
  ]
 }
