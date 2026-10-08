@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-08T16:31+00:00",
- "generated_at_jst": "2026-10-09 01:31",
+ "generated_at": "2026-10-08T16:58+00:00",
+ "generated_at_jst": "2026-10-09 01:58",
  "window_hours": 48,
  "counts": {
   "construction_global": 39,
-  "ai_global": 68,
+  "ai_global": 67,
   "ai_japan": 34,
-  "construction_japan": 59
+  "construction_japan": 60
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -16,10 +20,6 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
-  },
-  {
-   "feed": "buildapp",
-   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
@@ -550,6 +550,19 @@
    "summary_ja": "ベンチマークで前作を圧倒し、OSWorldテストのスコアが飛躍的に向上。トークン価格も最大90%下落した。"
   },
   {
+   "id": "fef36a4640e5",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米国民の7割超がデータセンター建設に反対 原子力発電所上回る嫌悪感",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kQnBqWFQtSDZpU2pNczdOOGMyRjJhcnFpeEZTVXZGZFg0T3ZLekVsNnJlTG5JblZUNmVsQWNBU3p6UEx3ZXlyRXNERDZNMWMxWUdIeXg3cURzTzN1R3Z3Um9EZnZUM3QycjVzLVdpT2xfOTlB?oc=5",
+   "published": "2026-10-08T10:05+00:00",
+   "published_jst": "2026-10-08 19:05",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "fe3caedfed97",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -572,19 +585,6 @@
    "lang": "ja",
    "title": "なぜライバル同士が「共創」するのか？清水建設・建設RXコンソーシアムの原田知明氏が、330社超が挑む現場の自動化・省人化を語る特別講演を開催＜12/9・参加無料＞",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rdy04eGxMYVg0SDdGTW9aWlNXS3VPbHQwbmQzNGxqZExTdi0zbGFwNHdNa0RPVmk3VmpIVThYVEZRcjBOVUVSX2NmVXVvQ1VEM1A0empGZWNZcmp4VlVnUGdBbEVjbVd3UVE?oc=5",
-   "published": "2026-10-08T09:54+00:00",
-   "published_jst": "2026-10-08 18:54",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "d2237edd2eba",
-   "source": "イザ！",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "なぜライバル同士が「共創」するのか？清水建設・建設RXコンソーシアムの原田知明氏が、330社超が挑む現場の自動化・省人化を語る特別講演を開催＜12/9・参加無料",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Yc283cE83bDBxUlRiVDd6YVI1Nmx3VDFKc08tZ3BjYkNJWUN3ZHNPQkFVOHNLN0VIY2xGbzQ0RlVfV2ZQaE5nZW1YVXhwSDRqMmNMVkVrTk1kVFNCTE9KTHhnYTk2NTlRVFJSTVllaURYaFFGSDU5bW1R?oc=5",
    "published": "2026-10-08T09:54+00:00",
    "published_jst": "2026-10-08 18:54",
    "summary": "",
@@ -673,19 +673,6 @@
    "ai_related": true,
    "title_ja": "自律型産業AIに向けたより安全なアプローチの構築",
    "summary_ja": "基盤モデルやフィジカルAIの進化により、産業用AIの複雑な自動化が新たなフェーズに入っている。"
-  },
-  {
-   "id": "133541a06ad0",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI Withdraws 3 Math Papers",
-   "url": "https://github.com/openai/math/blob/main/history.md",
-   "published": "2026-10-08T08:08+00:00",
-   "published_jst": "2026-10-08 17:08",
-   "summary": "Article URL: https://github.com/openai/math/blob/main/history.md Comments URL: https://news.ycombinator.com/item?id=50003107 Points: 330 # Comments: 315",
-   "ai_related": true
   },
   {
    "id": "217ed65f5e99",
@@ -909,6 +896,19 @@
    "ai_related": true
   },
   {
+   "id": "6b73a2263fb8",
+   "source": "PR TIMES",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "現場ファースト運動（Frontline First Initiative）への参画について",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FZm9BUlVHMjFMOXUwbTNnN1VneWlHRURheko3TlF4QVhvS284NXI2R2RTY0dJek1EdmFubFE4VTlLQ3BvbjB5blZoTmcyYnJ4cFJUdVk4ckttSDFPclZrWWRZMFFWTTA3R1E?oc=5",
+   "published": "2026-10-08T04:00+00:00",
+   "published_jst": "2026-10-08 13:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "210555dbfd34",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -919,6 +919,19 @@
    "published": "2026-10-08T03:48+00:00",
    "published_jst": "2026-10-08 12:48",
    "summary": "今年夏ごろから増加傾向の、サイバー攻撃による情報漏えいなど被害の公表件数。増加している侵害に対し「これまでとは違う異常な事態が生じていると感じている」として、3社のサイバーセキュリティ専門家が情報を持ち寄りまとめた、マクニカのセキュリティ研究センターブログが注目を集めている。",
+   "ai_related": true
+  },
+  {
+   "id": "2e1b684e5439",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "アーリーリフレクション、BIMSTOKのAI検索を点検・異常・修繕履歴まで拡大し情報検索を効率化",
+   "url": "https://news.build-app.jp/article/43094/",
+   "published": "2026-10-08T03:00+00:00",
+   "published_jst": "2026-10-08 12:00",
+   "summary": "アーリーリフレクション（東京都千代田区、代表取締役：田中喜之）は、BIM/CIM施設管理クラウド「BIMSTOK」のAIアシスタント機能を2...",
    "ai_related": true
   },
   {
@@ -1050,6 +1063,19 @@
    "published_jst": "2026-10-08 10:22",
    "summary": "Googleはテキスト入力だけでゲームを作成・共有できるプラットフォーム「Playground」をWebブラウザ向けに発表した。まずは米国の成人向けに提供する。あわせてUnityとの提携で、高精細な3D表現やアセットを活用して機能拡張を図る「Unity Spark」を年内に投入することも発表した。",
    "ai_related": true
+  },
+  {
+   "id": "49855f42019b",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "戸田建設、IoT潅水装置の土壌センサー制御で屋上緑化の年間潅水量を84.2%削減",
+   "url": "https://news.build-app.jp/article/43089/",
+   "published": "2026-10-08T01:00+00:00",
+   "published_jst": "2026-10-08 10:00",
+   "summary": "戸田建設は、BH株式会社との共同研究として、茨城県つくば市の筑波技術研究所で屋上緑化の水やりを見直す実証を行いました。使用したのは、土壌の水...",
+   "ai_related": false
   },
   {
    "id": "4031ca4ddf62",
@@ -1316,6 +1342,19 @@
    "ai_related": true
   },
   {
+   "id": "4b018bbc7cd5",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "敷鉄板（しきてっぱん）とは？｜使用シーン・基準とサイズ・重さ早見表、積算数量の出し方",
+   "url": "https://news.build-app.jp/article/43100/",
+   "published": "2026-10-07T22:00+00:00",
+   "published_jst": "2026-10-08 07:00",
+   "summary": "工事現場で、重機の通り道やクレーンの足元に敷かれている大きな鋼板が「敷鉄板」です。 最もよく使われる5×10サイズ・厚さ22mmでも、1枚あ...",
+   "ai_related": false
+  },
+  {
    "id": "0598a3e5bb11",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -1454,6 +1493,19 @@
    "ai_related": true
   },
   {
+   "id": "92bdda259ef4",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "31年6月から着手/GPSS/珠洲大谷峠風力発電",
+   "url": "https://www.kensetsunews.com/archives/1294229",
+   "published": "2026-10-07T19:55+00:00",
+   "published_jst": "2026-10-08 04:55",
+   "summary": "ＧＰＳＳ事業開発は、「仮称）珠洲大谷峠ウィンドファーム事業」の環境影響評価方法書を公表した。風力発… The post 31年6月から着手/GPSS/珠洲大谷峠風力発電 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "61eba53352ba",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -1529,19 +1581,6 @@
    "published": "2026-10-07T19:55+00:00",
    "published_jst": "2026-10-08 04:55",
    "summary": "愛知県は７日、常滑市の中部国際空港とその周辺エリアを対象に募集していた統合型リゾート（ＩＲ） の事… The post 愛知県/審査書類3月23日まで/中部空港IR提案民間が参加表明 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "92bdda259ef4",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "31年6月から着手/GPSS/珠洲大谷峠風力発電",
-   "url": "https://www.kensetsunews.com/archives/1294229",
-   "published": "2026-10-07T19:55+00:00",
-   "published_jst": "2026-10-08 04:55",
-   "summary": "ＧＰＳＳ事業開発は、「仮称）珠洲大谷峠ウィンドファーム事業」の環境影響評価方法書を公表した。風力発… The post 31年6月から着手/GPSS/珠洲大谷峠風力発電 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1728,7 +1767,7 @@
    "url": "https://openai.com/index/gpt-6-for-everyone/",
    "published": "2026-10-07T18:00+00:00",
    "published_jst": "2026-10-08 03:00",
-   "summary": "Article URL: https://openai.com/index/gpt-6-for-everyone/ Comments URL: https://news.ycombinator.com/item?id=49996425 Points: 721 # Comments: 423",
+   "summary": "Article URL: https://openai.com/index/gpt-6-for-everyone/ Comments URL: https://news.ycombinator.com/item?id=49996425 Points: 725 # Comments: 427",
    "ai_related": true,
    "title_ja": "すべての人にGPT‑6とIntelligent UIを",
    "summary_ja": "記事URL：OpenAI公式ブログの告知およびHacker Newsのコメントスレッドへのリンク。"
@@ -2015,21 +2054,6 @@
    "summary_ja": "オープンウェイトを維持しながら、主要なクローズドモデルに匹敵する性能を持つと主張している。"
   },
   {
-   "id": "9d9fcd082b29",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open",
-   "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/",
-   "published": "2026-10-07T14:00+00:00",
-   "published_jst": "2026-10-07 23:00",
-   "summary": "In 6 days, 10,000+ people from across the global startup and tech ecosystem will come together at San Francisco’s Moscone West for TechCrunch Disrupt 2026. If you’re planning to be one of them, register for your ticket before prices increase at the door. Save up to $100 on your pass, plus 50% on a s",
-   "ai_related": true,
-   "title_ja": "TechCrunch Disrupt 2026まであと6日：お得なパスを購入しよう",
-   "summary_ja": "世界中から1万人以上のテック関係者がサンフランシスコに集結するイベントの開催が迫っている。"
-  },
-  {
    "id": "e4ccf311f643",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2043,6 +2067,21 @@
    "ai_related": true,
    "title_ja": "Google、AI生成メディアを識別できる「SynthID」サイトを開設",
    "summary_ja": "画像や動画、音声などのメディアがAIによって生成されたものかどうかを誰でも検証できるサイトを開設した。"
+  },
+  {
+   "id": "9d9fcd082b29",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "6 days to TechCrunch Disrupt 2026: Save on your pass before doors open",
+   "url": "https://techcrunch.com/2026/10/07/6-days-to-techcrunch-disrupt-2026-save-on-your-pass-before-doors-open/",
+   "published": "2026-10-07T14:00+00:00",
+   "published_jst": "2026-10-07 23:00",
+   "summary": "In 6 days, 10,000+ people from across the global startup and tech ecosystem will come together at San Francisco’s Moscone West for TechCrunch Disrupt 2026. If you’re planning to be one of them, register for your ticket before prices increase at the door. Save up to $100 on your pass, plus 50% on a s",
+   "ai_related": true,
+   "title_ja": "TechCrunch Disrupt 2026まであと6日：お得なパスを購入しよう",
+   "summary_ja": "世界中から1万人以上のテック関係者がサンフランシスコに集結するイベントの開催が迫っている。"
   },
   {
    "id": "eba1d4222709",
@@ -2294,19 +2333,6 @@
    "summary_ja": "建設業者向け図面解析プラットフォーム。ビジョンAIを活用して図面のレビューを自動化する。"
   },
   {
-   "id": "745968f505f0",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「工場はどこまで無人化できるのか？」AI×ロボットで変わる生産現場を、INDUSTRIAL-X 代表の八子知礼氏が解説する特別講演を開催＜12/9・参加無料＞",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE42YzRJQ3Q2ZzFKV2oxZUx6WGdJMExodUpmVDFpck5BVktKempfdFpYempwWGFqTVVQZC1CbTdyS3dDUy0zbGhQajBua0R6U3VtSWxydzB0RTBYRDBpOVNiVkFVcFJ4aEJBMHFFM19jenpWdw?oc=5",
-   "published": "2026-10-07T08:10+00:00",
-   "published_jst": "2026-10-07 17:10",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "b2cf3730295a",
    "source": "日経ビジネス電子版",
    "source_id": "gnews_kensetsu_ai",
@@ -2460,6 +2486,19 @@
    "summary_ja": "かつてグラフ理論に熱中し、ブダペストへ移住。バーネット予想の研究に24年間没頭した経験を語る。"
   },
   {
+   "id": "4ad4e4199ca4",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Nefront、清水建設と共創した巡回・点検支援サービス「巡回GO」を正式リリース",
+   "url": "https://news.build-app.jp/article/43067/",
+   "published": "2026-10-07T03:00+00:00",
+   "published_jst": "2026-10-07 12:00",
+   "summary": "株式会社Nefront（本社：東京都渋谷区、代表取締役CEO：今村翔太）は、清水建設株式会社と共に開発・改善を進めてきた巡回・点検支援サービ...",
+   "ai_related": false
+  },
+  {
    "id": "a74484044cb7",
    "source": "中日BIZナビ",
    "source_id": "gnews_kensetsu_ai",
@@ -2525,19 +2564,6 @@
    "ai_related": true
   },
   {
-   "id": "22f16523c954",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "2025年版 技術士第二次試験 建設／上下水道部門 合格指南",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPc2xYSW80MG82aHE4Y2tTOW9vWHJ3OTlFdE9hQVZuN2d2ckF4XzJDV2xLWUxNb2hydHdyVzcyMHgwV1lGNDRZRTF2Q2I3WHh5SGZXblI0M1p5RHRpY1NXR0ZmcVk5ZVlZam1jN2YzZmJWUDVoUTYydXlCRHlwUG9EVk9zdWhLMGZMSW0wQ0cxSUdnWHBGS2syU2ppRVR5RW80c2daamx6MlloSnhxQVJhU19nRDVINkRreWhXNVpiNWJfR2JnUWp0aU1kcHFJa1lEZGJmNUtEU2pvUk5ZdEVodm93LUNpZ2VMNTZjS1JqcTVGeE85WXc?oc=5",
-   "published": "2026-10-07T01:15+00:00",
-   "published_jst": "2026-10-07 10:15",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "78759661e92b",
    "source": "日経クロステック（xTECH）",
    "source_id": "gnews_kensetsu_dx",
@@ -2549,6 +2575,19 @@
    "published_jst": "2026-10-07 10:07",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "f99b2345fbd1",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "国土交通省、改正建築士法の一部を令和9年4月1日に施行、設計・工事監理契約を全面的に書面化",
+   "url": "https://news.build-app.jp/article/43063/",
+   "published": "2026-10-07T01:00+00:00",
+   "published_jst": "2026-10-07 10:00",
+   "summary": "国土交通省は令和8年10月6日、改正建築士法の一部について、施行日を定める政令などが閣議決定されたと発表しました。 建築士が行う設計や工事監...",
+   "ai_related": false
   },
   {
    "id": "163c30900e9f",
@@ -2678,19 +2717,6 @@
    "summary_ja": "新しく登場したMistral Large 4などの推論モデルのサポートが追加されました。"
   },
   {
-   "id": "93a8c6e3bb12",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "しくじり現場",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPai1iLTVzQjI2NWJfdWx3NnZsN0Rab21JVHFqRTNiRHJIZXNheVBXTkY2RGFja0EzUk5BM3FJaVlteTNXOVFXRzRPb1hVbnRybVVQX21iSXJZWFJYV0xZcUpvcTQ5bXNPd0hpQWVkbUxPeEVjTWxLNDc2OUNuVVpFRE1HVHZ2NkpvN2lSc00ySms3SThnTVBfTWxhTFhQUXZ0Vzd1cEFpeUF2T3hEN0l1MHBseVhsa05veXdVbWQxZ0p6ODFOQWtyQlo4bjlNdlZRT3JSUU9OQy11MV9T?oc=5",
-   "published": "2026-10-06T21:14+00:00",
-   "published_jst": "2026-10-07 06:14",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "deae6f3b022c",
    "source": "施工の神様",
    "source_id": "sekokan_navi",
@@ -2760,32 +2786,6 @@
    "ai_related": true,
    "title_ja": "Mistral Large 4：Le chonkの登場",
    "summary_ja": "Mistralが新型モデルのプレビュー版をリリース。1兆パラメータを持つ大規模モデルとなっている。"
-  },
-  {
-   "id": "fa84625e3cfc",
-   "source": "建設通信新聞Digital",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "載・中国インフラDX推進計画2026(12)",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uTk9mV3BISXZxaF9JelNRVXFtaURfNllYcE5QNEFMOUF0clRSenhBcGZZYlNnbDJWT29qM2F6eVhPZER2WEV3RDhZNVdmTE1NRnluZHNvQzA?oc=5",
-   "published": "2026-10-06T20:07+00:00",
-   "published_jst": "2026-10-07 05:07",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "c1a04c616ec0",
-   "source": "建設通信新聞Digital",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "11.8万人で一斉推進/11月は完全週休2日実現統一運動/建設産労懇",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RRzNHeVNPOG9VVk5jdFo1VGdaTnU5Y2k1UmdLYU5xd1J3VUl3SDlBZmkyLXZ4YzBseTRzZUgydTRWcFBhZ0U1MHJuNGF5VWJjWE50aGZ5NU8?oc=5",
-   "published": "2026-10-06T20:05+00:00",
-   "published_jst": "2026-10-07 05:05",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
