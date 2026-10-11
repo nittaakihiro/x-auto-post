@@ -1,11 +1,36 @@
 {
   "version": 6,
-  "slot": "noon",
+  "slot": "evening",
   "date": "2026-10-11",
   "post_date": "2026-10-11",
-  "generated_at": "2026-10-11T11:10+09:00",
-  "generated_by": "routine:x-post-noon",
-  "original_post": null,
+  "generated_at": "2026-10-11T19:12+09:00",
+  "generated_by": "routine:x-post-evening",
+  "original_post": {
+    "time": "20:00",
+    "text": "AIが一瞬でBIMモデルを組めても、現場で使えるかは見た目でなく部材の仕様・符号が揃っているかで決まると思います。\n\n確認申請や施工図の承認は、形ではなく部材の仕様・符号が構造図・設備図・積算書と矛盾しないかを見る作業です。承認する側は見た目でなく、その情報で数量や取り合いを追えるかを確認します。\n\n海外ではAEC Magazine(10/11)が、OpenAIの新モデルがRevitやRhinoで既存建物を再現する検証を紹介していますが、見た目の再現度と組み方の再現度は別だと指摘しています。\n\n先に変わるのは、モデルを早く作れる会社でなく、AIの出力に仕様・符号を正しく載せ直せる会社だと思います。",
+    "status": "draft",
+    "article_url": null,
+    "video_url": null,
+    "reply_text": null,
+    "editorial": {
+      "pillar": "本質投稿",
+      "format": "本質型",
+      "scores": {
+        "claim": 2,
+        "mechanism": 2,
+        "concrete": 2,
+        "construction_only": 2,
+        "decision": 2
+      },
+      "selection_reason": "候補3案を本質の5観点(claim/mechanism/concrete/construction_only/decision、各0〜2点)で比較。(1)採用・計10点: 「AIが一瞬でBIMモデルを組めても、現場で使えるかは見た目でなく部材の仕様・符号が揃っているかで決まる」。入口はAEC Magazine『GPT-6 Astra and the future of BIM modelling』(news_feed.json construction_global、published_jst 2026-10-11 15:00=本日・直近48h以内)。OpenAIの新モデルがBlender/Rhino/Revitで既存建物を再現する検証を紹介し、再現の見た目は良くても『建物がどう組まれているか』の再現度は別だと指摘している記事。建設業を知らないと書けない一文は『確認申請や施工図の承認は、形ではなく部材の仕様・符号が構造図・設備図・積算書と矛盾しないかを見る作業』—日本の建築確認は建築基準法施行規則第3条の2が定める『軽微な変更』以外は計画変更確認申請が必要で、施工図も元請け・設計監理者間で仕様符号の整合を承認する実務があり、これは一般のAIアカウントが知らずに書ける内容ではない。claim2(1行目で言い切り)/mechanism2(承認実務が形でなく部材情報の整合性を見る仕組みを説明)/concrete2(AEC Magazine記事の検証内容=Revit/Rhinoでの既存建物再現、および確認申請・施工図・積算書という建設固有語)/construction_only2/decision2(モデリング速度でなくAI出力に仕様符号を正しく載せ直せるかで投資判断が変わる、AIを後回しにしない締め)で計10点のため採用。数字(%や金額)は使っていないため出典reply_textは付けていない。(2)不採用・計7点: news_feed.json『現場AIプラットフォーム「KANNA」、工程表の計画変更を可視化する「ベースライン」機能を提供開始』(2026-10-11 01:10)を入口にした『変更の情報が電話・口頭でしか流れないから可視化機能が要る』という案。claim2/mechanism1(製品機能紹介に近く仕組みの掘り下げが浅い)/concrete2/construction_only1/decision1で計7点、特定SaaS製品の機能紹介に寄りすぎるため不採用。(3)不採用・計5点: news_feed.json『AIブームに地域住民が「待った」。2,000億ドルのデータセンター建設計画が足止め』(米国、2026-10-11 11:00)を入口にした『AIインフラの着工を決めるのは施工力でなく地元合意形成のスピード』という案。claim2/mechanism1/concrete1/construction_only0(米国の用地問題で日本の建設業の多重下請け・値付け・書類といった仕組み固有の知見が不要な一般論)/decision1で計5点、不採用。競合除外チェック: KANNA・ANDPAD等の施工管理SaaSは本文に使用せず、戦略の除外リスト(光/Hikari・ミャク楽・Motif)に該当するネタも無し。重複確認: 直近14日の本質投稿(10-03橋梁点検予算、10-04専任配置義務、10-05AI人材不足調査の本当の意味、10-06属人化で本社電話が減らない、10-07建築士資格緩和+契約書面化、10-08日給制、10-09建設RXコンソーシアム共同開発)と主張・題材とも重複しない。本日17:00の商談ネタ型(公共工事の提出書類量)、過去の朝枠・昼枠(本日はともに休載)とも別ネタ。data/analytics/live_metrics.jsonは2026-09-27T23:14 UTC時点のスナップショットで2週間以上前のため、実投稿との重複は確認できていない(実投稿未確認)。",
+      "source_url": "https://aecmag.com/bim/gpt-6-astra-and-the-future-of-bim-modelling/",
+      "published_at": "2026-10-11T06:00+00:00 (AEC Magazine, published_jst 2026-10-11 15:00)",
+      "checked_at": "2026-10-11T19:12+09:00",
+      "availability": "news_feed.json(construction_global)のRSS要約、およびWebSearch(extended)で同記事の見出し・論旨(Blender/Rhino/Revitでの既存建物再現検証、見た目の再現度と組み方の再現度は別という指摘)を確認。WebFetchはaecmag.comへ到達不可(DNS解決不可、プロキシ越しでもENOTFOUND)のため記事全文は未読了、検索結果の要約に基づく。確認申請の『軽微な変更』規定はWebSearchでmlit.go.jp等の一次資料(建築基準法施行規則第3条の2)を確認。",
+      "unverified": "記事内の固有の人物名・プロジェクト名(検索結果に出た個別の再現事例の氏名等)は未使用。確認できた一般的な論旨のみを本文に反映した。",
+      "hook_alternative": "案A(採用): 「AIが一瞬でBIMモデルを組めても、現場で使えるかは見た目でなく部材の仕様・符号が揃っているかで決まる」と1行目で言い切り、確認申請・施工図承認という日本の建設業固有の仕組みで理由付けする案。案B(不採用): KANNAの工程変更可視化機能を入口に「変更情報が電話・口頭でしか流れないから可視化が要る」とする案も検討したが、特定SaaS製品の機能紹介に寄りすぎ仕組みの掘り下げが浅いため不採用(候補(2)として上述、計7点)。A案はAEC Magazineの記事が提起した『見た目の再現度と組み方の再現度は別』という論点をそのまま建設業の承認実務に接続でき、本質型の型(主張→仕組み→具体→AIで先に動く会社)に最も沿うため採用した。"
+    }
+  },
   "engage_cards": [],
-  "skip_reason": "ネタ源の順(①ai_buzz.jsonの🤖建設×フィジカルAI(国内/海外)・🎬建設すげー動画(海外)等のタグ付き投稿→②slack_buzz.jsonの国内建設系アカウント→③news_feed.jsonのconstruction_japan/construction_global→④WebSearch補完)で国内外の候補を探したが、直近48h以内で「動画(video_url)を付けられる建設AI・建設×フィジカルAIの現場作業映像」が見つからず休載。\n\n【国内で見送った候補】\n(1) @tmiyatake1(ai_buzz.json、タグ🤖建設×フィジカルAI(国内)、2026-10-10 09:08)。フィジカルAIの投資領域についての意見投稿で、動画なし・現場作業の映像なしのため不採用。\n(2) @osaka_ishin(ai_buzz.json、タグ🤖建設×フィジカルAI(国内)、2026-10-10 12:00)。参議院本会議でのフィジカルAI・自動運転に関する発言の引用で、動画なし・建設現場の実演でもないため不採用。\n(3) slack_buzz.jsonの国内建設系アカウント(森山高至氏・建設通信新聞・日経クロステック・豊田啓介氏・家入龍太氏ほか、10/9〜10に20件以上)はいずれも意見・論考・市況のテキスト投稿で、建設ロボット・自動施工等の動画付き実演投稿は無し。\n(4) news_feed.jsonのconstruction_japan(2件)は熊谷組・住友林業JVの木造ホテル着工と舗装省令改正の記事で、いずれも動画のない契約・制度ニュース。\n(5) WebSearch(日本語: フィジカルAI 建設/人型ロボット 現場/四足歩行ロボット 巡回/ロボットアーム 溶接 鉄筋/自動施工/無人化施工/ドローン 測量)でも、直近48h以内で日付・動画を一次確認できる国内現場実証は見つからず(清水建設のヒューマノイド試験等への言及はあるが、発表日と動画添付を一次ソースで確認できず48h以内の新規ネタとも断定できないため不採用)。\n\n【海外で見送った候補】\n(1) @zhenkirito123(ai_buzz.json、タグ🎬建設すげー動画(海外)、2026-10-10 00:53)。Perceptive Humanoid Parkour (PHP)のオープンソース化。パルクール走行のデモで、溶接・鉄筋・巡回・資材運搬・掘削など建設現場の作業を行っている映像ではなく建設との距離が無いため不採用(video_urlの一次確認もWebFetchがx.comに到達できず未実施)。\n(2) @NVIDIARobotics(ai_buzz.json、タグ🎬建設すげー動画(海外)、2026-10-09 07:52)。AIエージェントとNVIDIA Omniverseを組み合わせたシミュレーション構築の一般論で、具体的な建設ロボットの実演映像ではないため不採用。\n(3) @irinatoxi(ai_buzz.json、タグ建設×AI海外、2026-10-09 19:13)。「AIが10階建て住宅を78秒で生成」という投稿だが、社名・製品名が特定できず一次ソースで日付・数字を確認できないため不採用。\n(4) ENRnews(ai_buzz.json、タグGlobal-建設、5件)はすべて市況・契約金額・法律論点等のテキスト記事で動画なし、不採用。\n(5) WebSearch(英語: construction robot video/autonomous excavator/3D printed house/AI jobsite/physical AI construction/humanoid robot jobsite)でも、直近48h以内で一次発表かつX動画付きの投稿は特定できず(Tilbury Douglas・Apptronik等の記事への言及はあるが日付特定と動画の一次確認ができず不採用)。\n\n重複確認: 直近14日の投稿キューに本日の候補と同一ネタの既出なし。data/analytics/live_metrics.jsonは2026-09-27T23:14 UTC時点のスナップショットで2週間以上前のため、実投稿との重複は確認できていない(実投稿未確認)。本日の朝枠(07:25)も同様に休載。"
+  "skip_reason": null
 }
