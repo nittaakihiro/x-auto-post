@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-11T15:58+00:00",
- "generated_at_jst": "2026-10-12 00:58",
+ "generated_at": "2026-10-11T18:53+00:00",
+ "generated_at_jst": "2026-10-12 03:53",
  "window_hours": 48,
  "counts": {
-  "ai_global": 39,
-  "construction_japan": 13,
+  "ai_global": 34,
+  "construction_japan": 17,
   "ai_japan": 5,
-  "construction_global": 6
+  "construction_global": 5
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,6 +24,49 @@
  ],
  "items": [
   {
+   "id": "7ec8afeed353",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+   "published": "2026-10-11T18:33+00:00",
+   "published_jst": "2026-10-12 03:33",
+   "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to",
+   "ai_related": true,
+   "title_ja": "シリコンバレー、トランプのAI名称変更案に同調",
+   "summary_ja": "ドナルド・トランプ大統領が人工知能を「スーパーインテリジェンス」と改称する計画を発表した際、一般には懐疑的な見方が広がった。"
+  },
+  {
+   "id": "48f741f55714",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米アマゾン・クラウド部門トップ、データセンター建設への反発強まる中で「明確な説明」の必要性訴え",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FbEpXMHpnUUQzZEhQUDU4ZXZtVEhhRjhUX3J4OXlUX19jV0tqTUpkY1l6am5aWEZVQ2JLTjlra3VocV8zX2hCb3RTODItYV9HZFBETXFyaGw4ODUtS2dIcFp6ZWpDQnZwNVpHQXByZWRSMF82?oc=5",
+   "published": "2026-10-11T18:16+00:00",
+   "published_jst": "2026-10-12 03:16",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "70688ea0e7a5",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+   "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+   "published": "2026-10-11T16:52+00:00",
+   "published_jst": "2026-10-12 01:52",
+   "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+   "ai_related": true,
+   "title_ja": "AI業界、秘密保持契約の廃止でデータセンター反対派を説得できるか",
+   "summary_ja": "Equityでは、データセンター建設モラトリアムの影響と、AI業界が抱えるコミュニケーションの課題について議論する。"
+  },
+  {
    "id": "08a8049c0092",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -30,7 +77,9 @@
    "published": "2026-10-11T15:39+00:00",
    "published_jst": "2026-10-12 00:39",
    "summary": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The articl",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIエージェントのチーム運用、コストの割に品質向上はわずか",
+   "summary_ja": "Vals AIの調査によると、AIエージェントのチームは単体と大差ない性能に対し、最大5.1倍のコストがかかることが判明した。"
   },
   {
    "id": "ba5db8106c64",
@@ -43,7 +92,9 @@
    "published": "2026-10-11T14:00+00:00",
    "published_jst": "2026-10-11 23:00",
    "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "音声AIはまだ「ChatGPTの瞬間」を迎えていない",
+   "summary_ja": "音声AIは文脈レイヤーの重要なポイントを見落としがちであり、システム全体の不具合を引き起こしている。"
   },
   {
    "id": "a47754407768",
@@ -56,7 +107,9 @@
    "published": "2026-10-11T13:44+00:00",
    "published_jst": "2026-10-11 22:44",
    "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researc",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIエージェントは成果を過大評価、自律的研究には程遠い",
+   "summary_ja": "現在のAIモデルは実験の実行は可能だが、科学的な自己批判や真の創造的思考が欠けていることが独立した調査で判明した。"
   },
   {
    "id": "ea95eacbd85b",
@@ -145,6 +198,19 @@
    "ai_related": true
   },
   {
+   "id": "44092a24ff35",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国LH、公共分譲の建築費を最大9.5%加算へ…専用59㎡の上限1,940万ウォン引き上げ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBuVmVmQWZZMkZHVWpvekdXSS1TMnFEVE5QeHRheE9jeDNXNnl1TlExRFBmdWl2VGtmQ293OVUtdzF4aV9OSVdtbUd6RjlMZGVMZmlKYV9vT1otZmROSFl2WVdRc3pVLW82Tk1XMW5HSVluMVdH?oc=5",
+   "published": "2026-10-11T08:25+00:00",
+   "published_jst": "2026-10-11 17:25",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "e98db6ee9185",
    "source": "AEC Magazine",
    "source_id": "aecmag",
@@ -188,19 +254,6 @@
    "ai_related": false,
    "title_ja": "Hexagon、Rocscienceを5億3500万ドルで買収へ",
    "summary_ja": "インフラや採掘プロジェクトにおいて、地盤工学シミュレーションとライブ監視データを統合するのが狙い。"
-  },
-  {
-   "id": "d17d6b7afc79",
-   "source": "山陽新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ONESTRUCTION、経済産業省およびNEDOのプロジェクト「GENIAC」に継続採択 -- 建設ドメイン特化型基盤モデルの開発へ",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04azhTYTlzbGNxRzN3M3hyeTJWcWFadXhiX283RnI3YUc2aHM0Tk52UnJOX24tbmYxX1VvdTdRY3RfZkF0YWRyUEplTTg0T2pXN0E?oc=5",
-   "published": "2026-10-11T07:30+00:00",
-   "published_jst": "2026-10-11 16:30",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "2b0a1232c263",
@@ -337,7 +390,7 @@
    "url": "https://nishtahir.com/build-your-own-decision-model/",
    "published": "2026-10-10T22:50+00:00",
    "published_jst": "2026-10-11 07:50",
-   "summary": "Article URL: https://nishtahir.com/build-your-own-decision-model/ Comments URL: https://news.ycombinator.com/item?id=50037949 Points: 404 # Comments: 93",
+   "summary": "Article URL: https://nishtahir.com/build-your-own-decision-model/ Comments URL: https://news.ycombinator.com/item?id=50037949 Points: 432 # Comments: 97",
    "ai_related": true,
    "title_ja": "独自の意思決定モデルを構築する方法",
    "summary_ja": "自分だけの意思決定モデルの構築方法について解説した記事と、それに対するHacker Newsのコメント。"
@@ -536,21 +589,6 @@
    "summary_ja": "米消費者の約半数がAIを利用しているものの、有料プランの利用者は4.5%にとどまることが判明した。"
   },
   {
-   "id": "6b75dae75d97",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-   "url": "https://github.com/rociiu/talorys",
-   "published": "2026-10-10T10:52+00:00",
-   "published_jst": "2026-10-10 19:52",
-   "summary": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 311 # Comments: 142",
-   "ai_related": true,
-   "title_ja": "Cloudflareの無料枠で動く個人用AI「Talorys」",
-   "summary_ja": "GitHub上で公開されている、Cloudflareの無料枠を利用してセルフホストできる個人向けAIエージェントツールに関する情報。"
-  },
-  {
    "id": "70c3f0fe20be",
    "source": "Infoseek",
    "source_id": "gnews_kensetsu_ai",
@@ -575,6 +613,19 @@
    "published_jst": "2026-10-10 14:14",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "a97246c89ec2",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "2026-27年版 技術士第二次試験 建設部門 最新キーワード100",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XMnR1cDNDQVE0ZWViM2dpSmJoV3l6S3QzZ3o2M1FuckpqX3UzQUxVQ2dxdGhYeGNvdkpCWUhJendqTXREWVc4b2t4NjRoSjk4Rjhqa0RrS2czWlFVOGFr?oc=5",
+   "published": "2026-10-10T02:38+00:00",
+   "published_jst": "2026-10-10 11:38",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "5528ba1d9cba",
@@ -640,6 +691,19 @@
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOazI0eXd1OXRCOXBteUliWkZkMjVPTXZNS2V1NzVUZl9NeEJKR3FXUTdlLUtPSXhvYkY3a2lfS1ZWampwY1lsNk1yYV9NbnBSRE93R2xrNGRqMnM1RUhESnQ1Y0p2VHNLNThHMmNqd2d1SzNOWUVBNXdOd0lpWXh6VDNTZUhPTTAwVk5RaU00ZVQ1S0F1SktNa1NPSFFNcDRSTmkzV1UyMTh2Z1VGZlhySll5Nl92TmM4Uk1fLUpNcS1EMTZvOVVUUXRiSTBNZ0RNQjBBTmlyREQ?oc=5",
    "published": "2026-10-10T00:30+00:00",
    "published_jst": "2026-10-10 09:30",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "15f0c419d273",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "なぜ今？ 東芝が「HDD」生産能力を強化 AI時代に狙う「データインフラ需要」の在りか (ITmedia ビジネスオンライン)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdXNIUzNRSl90WllyZ1VzODlpb0IyNGVuRmIwT0xGNEJrbG1XU2VfRTU0a2ExbkVObmZHX1R5VUVwaWZPRUNOTHRKRUpoQW1wQ3NHeVllSFpLZ0FTODRiZnBnR0pSd0l5TVVWUDhVT0JRSDhLcUtQSURJSlpodWJhZTh3UnYwVFJGSG96VDVR?oc=5",
+   "published": "2026-10-10T00:19+00:00",
+   "published_jst": "2026-10-10 09:19",
    "summary": "",
    "ai_related": false
   },
@@ -775,6 +839,19 @@
    "summary_ja": "調査によると、コーディング効率の向上分は人間のレビューというボトルネックによって相殺されている。"
   },
   {
+   "id": "bf7be4474d2f",
+   "source": "Excite エキサイト",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業のAI活用、「実践」の鍵は？Arent社長がBIM・自動化の事例で解説する講演を開催＜12/10・参加無料",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51ZHRXd2RPdHFJZzFOZFozdUZDa19rMEhiYkxqbl9GXy0yNGhqQUl1cmNsMzBuNGllYWVCWW8wNHkwa2VETllsOWZOcnByem9ucVpEdHllemNySWhUTjJMS2pjV1kyeGpjVUR4MW53ZWlUTDg?oc=5",
+   "published": "2026-10-09T19:40+00:00",
+   "published_jst": "2026-10-10 04:40",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "6794814fc09c",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -816,111 +893,6 @@
    "published_jst": "2026-10-10 03:55",
    "summary": "AIエージェント開発とは、LLMにツールや記憶、権限を組み合わせ、業務を自律的に進めるシステムを作ることです。本記事では、要件定義から運用改善までの8ステップと、費用相場・内製と外注の判断基準を解説します。 経営層から「... The post AIエージェント開発とは？進め方8ステップと費用相場・失敗しないコツ first appeared on AI専門ニュースメディア AINOW .",
    "ai_related": true
-  },
-  {
-   "id": "9304db4f19bb",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI disqualification yields new Nikon Small World in Motion winner",
-   "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
-   "published": "2026-10-09T18:44+00:00",
-   "published_jst": "2026-10-10 03:44",
-   "summary": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus.",
-   "ai_related": true,
-   "title_ja": "AI失格によりニコンの動画コンテストに新たな勝者が誕生",
-   "summary_ja": "新たな受賞者はベトナムのNguyen Nam Nhat氏で、線虫と単細胞生物Dileptusの動画が評価された。"
-  },
-  {
-   "id": "a04881bff512",
-   "source": "ConstructConnect Blog",
-   "source_id": "constructconnect",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "What's the Best Software for Managing Construction Bids?",
-   "url": "https://www.constructconnect.com/blog/whats-the-best-software-for-managing-construction-bids",
-   "published": "2026-10-09T18:34+00:00",
-   "published_jst": "2026-10-10 03:34",
-   "summary": "In short: The best bid management software for general contractors combines fast invitation-to-bid (ITB) creation, a wide subcontractor network, and clear bid coverage tracking in one connected workflow — not just a place to store documents. Compare options based on workflow fit , not feature count:",
-   "ai_related": false,
-   "title_ja": "建設入札管理に最適なソフトウェアとは？",
-   "summary_ja": "一般請負業者向けの優れた入札管理ソフトは、迅速な入札招待、広範な下請けネットワーク、明確な入札状況の追跡を一つのワークフローに統合している。"
-  },
-  {
-   "id": "f11f2c288c2c",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Nikon microscopic video competition winner disqualified for using generative AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
-   "published": "2026-10-09T18:06+00:00",
-   "published_jst": "2026-10-10 03:06",
-   "summary": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like structures called cilia moving in the airwa",
-   "ai_related": true,
-   "title_ja": "ニコンの顕微鏡動画コンテスト、生成AI使用で優勝者が失格に",
-   "summary_ja": "ニコンは、コンテストで当初1位となった動画が「生成AIに関する規則に違反していた」と発表した。"
-  },
-  {
-   "id": "fd6b62e24c31",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-   "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-   "published": "2026-10-09T16:56+00:00",
-   "published_jst": "2026-10-10 01:56",
-   "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New ",
-   "ai_related": true,
-   "title_ja": "Amazon、データセンター取引の秘密主義を廃止。信頼回復なるか",
-   "summary_ja": "Amazonは、自治体とのデータセンター交渉で秘密保持契約（NDA）の利用を停止すると発表した。Microsoftに続く動きで、AIインフラへの反発を和らげる狙いがある。"
-  },
-  {
-   "id": "3e5144fcace1",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-   "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-   "published": "2026-10-09T16:53+00:00",
-   "published_jst": "2026-10-10 01:53",
-   "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New ",
-   "ai_related": true,
-   "title_ja": "AmazonがNDAを廃止、AIエージェントがクレジットカードを狙う",
-   "summary_ja": "Amazonは自治体とのデータセンター交渉における秘密保持契約の利用停止を表明。また、AIエージェントの商用利用や決済機能の拡大に向けた動きが活発化している。"
-  },
-  {
-   "id": "edf79715fb8e",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Danu Robotics’ fight to build a better recycling robot",
-   "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
-   "published": "2026-10-09T16:45+00:00",
-   "published_jst": "2026-10-10 01:45",
-   "summary": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
-   "ai_related": true,
-   "title_ja": "優れたリサイクルロボット開発に挑むDanu Roboticsの挑戦",
-   "summary_ja": "Danuの創業者エイミー・マーは、リサイクル廃棄物を効率的に分別するより良い方法を模索するため、6年間にわたり開発に取り組んでいる。"
-  },
-  {
-   "id": "304a6e318051",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "We can’t help treating AI like it’s human. But should we?",
-   "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
-   "published": "2026-10-09T16:40+00:00",
-   "published_jst": "2026-10-10 01:40",
-   "summary": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
-   "ai_related": true,
-   "title_ja": "AIを人間扱いしてしまう私たち。それは本当に正しいのか？",
-   "summary_ja": "AIとの初歩的なやり取りでも私たちはケアされていると感じ、お返しをしたくなるようにできているとシェリー・タークル博士は指摘する。"
   }
  ]
 }
