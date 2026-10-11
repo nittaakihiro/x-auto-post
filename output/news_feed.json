@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-10T23:32+00:00",
- "generated_at_jst": "2026-10-11 08:32",
+ "generated_at": "2026-10-11T00:15+00:00",
+ "generated_at_jst": "2026-10-11 09:15",
  "window_hours": 48,
  "counts": {
-  "ai_global": 48,
-  "construction_japan": 28,
   "ai_japan": 22,
-  "construction_global": 15
+  "ai_global": 48,
+  "construction_global": 15,
+  "construction_japan": 2
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -16,9 +20,59 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "gnews_kensetsu_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_sekokan_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_bim_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_zenecon_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_sekisan_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_kensetsu_dx",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   }
  ],
  "items": [
+  {
+   "id": "a36d5bf16ba9",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AnthropicのAIが未解決殺人事件に関する虚偽の情報を提供",
+   "url": "https://gigazine.net/news/20261011-anthropic-ai-gave-fake-tip-unsolved-homicide/",
+   "published": "2026-10-11T00:00+00:00",
+   "published_jst": "2026-10-11 09:00",
+   "summary": "2026年10月9日、フィラデルフィア警察が「AnthropicのAIモデルが未解決殺人事件に関する虚偽の情報を送信してきた」と発表しました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "ffe9771dd0f2",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Python 3.15.0 added to actions/python-versions",
+   "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+   "published": "2026-10-10T23:58+00:00",
+   "published_jst": "2026-10-11 08:58",
+   "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that th",
+   "ai_related": true
+  },
   {
    "id": "35dc91695d5d",
    "source": "The Verge AI",
@@ -78,32 +132,6 @@
    "ai_related": true,
    "title_ja": "DistroKid、UMGの提訴を受け楽曲の削除をひそかに進める",
    "summary_ja": "アーティストからは事前通知なしの作品削除に対する不満の声が上がっており、DistroKidは削除がUMGの申し立てへの対応だと認めた。"
-  },
-  {
-   "id": "4152133e016a",
-   "source": "pando.life",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業における人工知能メーカー上位企業2026",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFAwNzFJeGpKc3R3UHZrY3lEYkVBOXJYTjdFRy1XZnZkaEpmeEdHVEVUQ0hFTXNubXBlN0VzRWhZZWJyMnBXb1BJWFRR?oc=5",
-   "published": "2026-10-10T16:16+00:00",
-   "published_jst": "2026-10-11 01:16",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "ee1c1f7b0063",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現場AIプラットフォーム「KANNA」、工程表の計画変更を可視化する「ベースライン」機能を提供開始",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UVVdPYjJrSzlqM04wMjBqMS1Ha3Q3bHdZOTJsVHZRNThGOWpRbjNPcDEtYmJMSk13QnhrVzRtbW5pX3VyZVZpS2RSb2dfQkpETnJzdUJPMElUdEZxM1ptODVkT082Y1FjREUycHRyS3oyZw?oc=5",
-   "published": "2026-10-10T16:10+00:00",
-   "published_jst": "2026-10-11 01:10",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "cb94696b6dd5",
@@ -175,7 +203,7 @@
    "url": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
    "published": "2026-10-10T14:32+00:00",
    "published_jst": "2026-10-10 23:32",
-   "summary": "Article URL: https://community.bitwarden.com/t/published-version-update-in-app-stores/102750 Comments URL: https://news.ycombinator.com/item?id=50033407 Points: 328 # Comments: 241",
+   "summary": "Article URL: https://community.bitwarden.com/t/published-version-update-in-app-stores/102750 Comments URL: https://news.ycombinator.com/item?id=50033407 Points: 333 # Comments: 243",
    "ai_related": true,
    "title_ja": "Bitwardenのデュアルライセンスモデルについて",
    "summary_ja": "Bitwardenのコミュニティサイトにおけるアプリストアのバージョン更新に関する議論やコメントを紹介するページ。"
@@ -250,7 +278,7 @@
    "url": "https://github.com/rociiu/talorys",
    "published": "2026-10-10T10:52+00:00",
    "published_jst": "2026-10-10 19:52",
-   "summary": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 229 # Comments: 115",
+   "summary": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 234 # Comments: 118",
    "ai_related": true,
    "title_ja": "Cloudflareの無料枠で動く個人用AI「Talorys」",
    "summary_ja": "GitHub上で公開されている、Cloudflareの無料枠を利用してセルフホストできる個人向けAIエージェントツールに関する情報。"
@@ -301,32 +329,6 @@
    "summary_ja": "Anthropic社がAIエージェントの活動に関する詳細をブログで公開した。対象となったウェブサイト名は伏せられているが、関係者2人によると、同社のAIエージェントがビザ申請を20件提出していたという。"
   },
   {
-   "id": "b69b0a566ea7",
-   "source": "教育家庭新聞",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "勿来工業高校、現場さながらの建設DX体験授業を実施 建設業の担い手育成へ産学連携の取組",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wUlhNWVYxS0I5a2NPMUp5LVVYRVpTRmZJRXY4MnMtcXJlM3R1X0dwUE9oelM0elRRYmJmdzJRMkRsUG5ZRGFFaF94ZkFVTnNMdWIw?oc=5",
-   "published": "2026-10-10T01:04+00:00",
-   "published_jst": "2026-10-10 10:04",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "92b4df1feff6",
-   "source": "TradingKey",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SemiAnalysis創業者ディラン・パテル氏：AIインフラ投資は著しく過小評価、真のリターンはトークンを超える",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOazI0eXd1OXRCOXBteUliWkZkMjVPTXZNS2V1NzVUZl9NeEJKR3FXUTdlLUtPSXhvYkY3a2lfS1ZWampwY1lsNk1yYV9NbnBSRE93R2xrNGRqMnM1RUhESnQ1Y0p2VHNLNThHMmNqd2d1SzNOWUVBNXdOd0lpWXh6VDNTZUhPTTAwVk5RaU00ZVQ1S0F1SktNa1NPSFFNcDRSTmkzV1UyMTh2Z1VGZlhySll5Nl92TmM4Uk1fLUpNcS1EMTZvOVVUUXRiSTBNZ0RNQjBBTmlyREQ?oc=5",
-   "published": "2026-10-10T00:30+00:00",
-   "published_jst": "2026-10-10 09:30",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "cf5de6151a45",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -353,19 +355,6 @@
    "published_jst": "2026-10-10 08:28",
    "summary": "OpenAIで安全性研究に携わっていた研究者3人が、突然解雇されたと公表し、書面での理由開示や外部監査の受け入れ維持を求める書簡を公開した。これに対しOpenAIは、機密情報規定への重大な違反が社内調査で判明したためと説明し、安全性の懸念表明を理由とした解雇ではないと反論している。",
    "ai_related": true
-  },
-  {
-   "id": "eae8d4958f62",
-   "source": "Investlingo",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIインフラの競争変化とブロードコム 4Q26リバランス Part1",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xOHFfZjRHeUxnRDZzeGd5TlItNGc2aGhwQzBvZmE4RnVDLXZBR2ZVaDRtRFhXMXlkb2tobE9XM25pTlR1TkFKQlY3OU5TNDJUb0xUeGVXYmUxT3ZyWkswY0ZfNHJTT1NkZXZvemVzQQ?oc=5",
-   "published": "2026-10-09T22:58+00:00",
-   "published_jst": "2026-10-10 07:58",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "8506d75553e5",
@@ -846,19 +835,6 @@
    "summary_ja": "倒産により中断された2500万ポンド規模の複合開発事業を監督するため、予備建設サービス契約を締結した。"
   },
   {
-   "id": "8577c20393d7",
-   "source": "https://c-eye.co.jp/",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ルクレ：AIでデータ仕分け、建設から他領域へ",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9nSWxGMGdYQl94a3FGZEhpcHFVelIxc1dWX1B3RFdhR25XcDQtUDNsWV80M2g0UU5LdENvVXRsT0l5QTRJVGxweWFUdDU?oc=5",
-   "published": "2026-10-09T11:29+00:00",
-   "published_jst": "2026-10-09 20:29",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "cf48227a69ba",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -870,19 +846,6 @@
    "published_jst": "2026-10-09 20:00",
    "summary": "「jevman」は、AIにパックマンをプレイさせて、状況に応じた判断能力を比較するベンチマークです。 AI向けのAPIサービスを提供するOpperが公開しており、6種類のAIモデルにそれぞれ100回ずつパックマンをプレイさせ、その得点や判断速度、実行コストなどを比較しています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "b3c671a42351",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "LINE WORKSとIoTプラットフォーム「BizStack」が連携：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6bWN4QVBjeHNSTUtPMGUtbWtkeTBPcGRjajI3U0dmQk1IMHd5VEJKR3BoWm5DWnlqZVF5NGJ0TmE4WEVacFl4SlBhb0ZlaTJLUzFVU3VVcXVNYTd1dWx3RHJ6YnRKMlFpdjZZRQ?oc=5",
-   "published": "2026-10-09T11:00+00:00",
-   "published_jst": "2026-10-09 20:00",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "d60f64ecab9d",
@@ -908,45 +871,6 @@
    "published": "2026-10-09T10:30+00:00",
    "published_jst": "2026-10-09 19:30",
    "summary": "OpenAIがロシアやイランによる「AI生成の架空組織・架空人物を用いた影響工作」に利用されたアカウントを停止したと発表しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "69538a4de2b4",
-   "source": "au Webポータル",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "西郷村で高校生が建設DXを体験",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfWnpRZ18yclZrNTlnbkgtSkdFVVRnejdLOEpGdXc2aEdzNXlfTWZObzVYTEQ3c3NJWkVJemtmVThpNFVsODBOdDlHcFIyTS16ZHpHZ19xU19HWXRtRk9zSVdLZGpRLWxDLVRrSVRR?oc=5",
-   "published": "2026-10-09T10:16+00:00",
-   "published_jst": "2026-10-09 19:16",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "d58fbe39dafe",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "西郷村で高校生が建設DXを体験（ふくしまNEWS -KFBデジタル-）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00NlpXTkQ5WlFINGF1a0NjdUdyaUIybzRlSUMtOGtaV0d2SDhfMG13YjJXZmhCZDBhRHJPQl9aYmplcC1Cclg5aU9XVWdkRkY0c2E0LVEzU1poanJZMUpZVU84TGFNdjF5RkNjdDJhd1dCdTFpUjl3MFZleW5WUTA?oc=5",
-   "published": "2026-10-09T10:12+00:00",
-   "published_jst": "2026-10-09 19:12",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "269f0eb6f04c",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "西郷村で高校生が建設DXを体験 (ふくしまNEWS -KFBデジタル-)",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOb3RZVFJ2WXRyQUhSQXlrbDJ1Ny0wZGJvMWtuRDVtQjlIV0J4V1FWbjUwYzhUSHJVV2VKWEpNbHA4aExuS01QVkhGVXFYdDVkWWFCLVVILVd2OVZadG5yZFF2VzRlc3NvX3c3YWRPMFJfeFJNTVN2amUxNlltS29Gc3o5YmV6WnE5LVFpYUdB?oc=5",
-   "published": "2026-10-09T10:12+00:00",
-   "published_jst": "2026-10-09 19:12",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -976,19 +900,6 @@
    "ai_related": true,
    "title_ja": "安全性研究者3人の解雇決定を擁護し、姿勢を崩さないOpenAI",
    "summary_ja": "調査の結果「重大な信頼違反」があったとして、安全性研究者3人を解雇した決定をOpenAIは改めて正当化し、Xへの投稿でその立場を表明した。"
-  },
-  {
-   "id": "cc84f111924d",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "マレーシアはAIの波を迎えるため、海を埋め立てて930ヘクタールの「島」を建設した。",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNmJDMXhHczIxbGN5aExhaTFEVDhQU0RsNlB3dHZNNVNFM09LbU1JNTdYbTRuVGdkQ0w3OExFLVhxZGtwZlNyeHhZbzVVX1BWZDNvNU1QVFQ1N1NHSGtYODg1UU16ZHRTWGZudlZlRUF1dndia0xkM09kMEsyMW9kVURwTWxMY3Jw?oc=5",
-   "published": "2026-10-09T09:33+00:00",
-   "published_jst": "2026-10-09 18:33",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "adef5ca0e663",
@@ -1021,32 +932,6 @@
    "summary_ja": "人間のような知能を持つ機械が私たちと同様に「ノー」と言えるという前提は、SF作品でも長く描かれてきた。"
   },
   {
-   "id": "6e3dcbb167d5",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【導入実績】従量課金制『ICタイムリコーダー』季節による利用者数の増減に応じたコスト最適化と手厚い電話サポートで学校・製造現場の勤怠管理のDX化を支援",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zUk9STHowV1pTRzRvSDhyanBxbzNPc3VvUk1BeW9NNlBkZHZQMkpHNmttMVFvUU91LWpiYzRvYkU2NmJHZkQzUzh5dHZ2ZENTS2IyOVRKZGw0d3A5VDNxbDE1cXd4bTJtX0E?oc=5",
-   "published": "2026-10-09T09:00+00:00",
-   "published_jst": "2026-10-09 18:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "c59ca7855a90",
-   "source": "Excite エキサイト",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業のAI活用、「実践」の鍵は？Arent社長がBIM・自動化の事例で解説する講演を開催＜12/10・参加無料",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80RHlLbmpfVDJHNzkzblBLblNsb091eHRybE4wNjVzR3VSUERSRk1QYTJvbWtmMDhZdEk3XzRCMVBkRWRmWHItMThfMzBJcjhhUFdqVU11MkV4WW1TLVRsSEp5OVJXUWk4aXF5aE4tRUF1Qlk?oc=5",
-   "published": "2026-10-09T08:15+00:00",
-   "published_jst": "2026-10-09 17:15",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "6d131143d30c",
    "source": "Global Construction Review",
    "source_id": "gcr",
@@ -1060,45 +945,6 @@
    "ai_related": false,
    "title_ja": "小型ディーゼル重機の高い排出ガス問題と対策",
    "summary_ja": "都市の大気浄化が進む中、見落とされがちな小型ディーゼル建設機械の排出ガス問題について、その影響と私たちが取るべき対策を解説する。"
-  },
-  {
-   "id": "44b41d0924b0",
-   "source": "新建ハウジング",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SHO-SAN、工務店のAIスキル測る「住宅AI検定」を開始",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1MUdRX01DV0UtVXNRM2pNUGo1U2Zhd1lZV2RPX3RXTVRxOVV3Q3ZRNkg2VFlIdTctVWJ5Yy1IYmlrTklmX0dnVFkzWnJCVTlUb3c?oc=5",
-   "published": "2026-10-09T07:25+00:00",
-   "published_jst": "2026-10-09 16:25",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "a9f7736da8da",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業のAI活用、「実践」の鍵は？Arent社長がBIM・自動化の事例で解説する講演を開催＜12/10・参加無料＞",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSWVk1d3B6NFJQUXNUM3FBNEdHMTVJYmtXeGxqam54dW9YMUJBRFNNckJkQ1owZV9kRl85NXFxNjROeUQyWHRhNHJITm9MQU0yVmxRenIyOVhzLWlCN0FjYkRHVWJvMkg3TEE?oc=5",
-   "published": "2026-10-09T07:20+00:00",
-   "published_jst": "2026-10-09 16:20",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "6e3831549f60",
-   "source": "デジコン",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「見るKYT」から「話すKYT」へ。Miichisoft、現場写真からAIが研修シナリオを自動生成する安全教育eラーニング「LAAVO」を提供開始",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wS0ZYMDN4Q1luanZIa0JYVXpjZGc3dkpSenBWSHREc2RDbjJsVUprbXVkSmpDbE84d0FwOUFfRFQ2UUwzaVdza1VSOTNnUDVnVE9R?oc=5",
-   "published": "2026-10-09T07:10+00:00",
-   "published_jst": "2026-10-09 16:10",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "d85096000a62",
@@ -1156,6 +1002,19 @@
    "published": "2026-10-09T07:00+00:00",
    "published_jst": "2026-10-09 16:00",
    "summary": "URLのドメイン名の最後に付く「.com」や「.org」などのトップレベルドメイン(TLD)を管理するICANNが、2026年度に申請を受け付けた新ドメインの一覧を発表しました。MetaやOpenAIなど13の申請者が「.agent」を申請したほか、「.agi」「asi」などの「人工知能(AI)」や「超知能(SI)」に関連するドメインに多数の申請が寄せられています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "2e6728fbeba0",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+   "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+   "published": "2026-10-09T06:52+00:00",
+   "published_jst": "2026-10-09 15:52",
+   "summary": "Article URL: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=50016956 Points: 151 # Comments: 33",
    "ai_related": true
   },
   {
@@ -1271,19 +1130,6 @@
    "ai_related": true
   },
   {
-   "id": "3361ac223474",
-   "source": "株式会社キャパ",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【Archi Future 2026】自動作図AI・CAD/BIMカスタマイズを展示します",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBucXlxcWVxSEVxR0RTVy1LajNOWlZLN211SmJZVXVUVXNvUWJ2UnRKZjVlbEpIVjBvenVsYWxHT3FwaWxiMHRsVTNnSW5tbkU3eGNPWWVrS3NUcTNl?oc=5",
-   "published": "2026-10-09T04:49+00:00",
-   "published_jst": "2026-10-09 13:49",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "7ae89dcddf88",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1320,32 +1166,6 @@
    "published": "2026-10-09T04:20+00:00",
    "published_jst": "2026-10-09 13:20",
    "summary": "Anthropicは、社会インフラ保護を支援する「Anthropic Cyber Mission」を発表した。電力や交通などの制御機器防御を担う事業者を支援する「CIDP」と、最上位モデルでOSSの脆弱性を無償スキャンする「OSS Scanner」の2施策を開始し、防御側にAIや研究成果、技術者を提供する。",
-   "ai_related": true
-  },
-  {
-   "id": "f28a140837da",
-   "source": "日経クロステック（xTECH）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "JYP、新社屋建設を撤回…隣接地の用途変更でプライバシー懸念",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hUDhRQmdhSE93ekt2MEVNYjU5ckp1NU1lZ0dIbnNMRFVPYkxJbHBINVVIWWNLSml3aW9HNjloVkc2eWp2RGpGRktJbXhCRWc4M3JmQ3VHRXVFSkVqVy0wcExyLXZHbUc1Vm5SYw?oc=5",
-   "published": "2026-10-09T04:00+00:00",
-   "published_jst": "2026-10-09 13:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "69b6b2ca5033",
-   "source": "レスポンス（Response.jp）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "熟練者の建機操作をフィジカルAIで遠隔操作・自動化へ 1枚目の写真・画像",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0WjhHa25sUXRLWElUNWVTR2N5R2Fma2F2TDdvNmh1VHFmSVpmWmhPLTQwTE5BQWtSek1meF9jeElXeHJ3RjJobGo5WlhJbWd4UXNWaVV1d2wtMy1VbUl1WVF6dkYwN1FoWkVFcmxfdw?oc=5",
-   "published": "2026-10-09T04:00+00:00",
-   "published_jst": "2026-10-09 13:00",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -1427,19 +1247,6 @@
    "ai_related": true
   },
   {
-   "id": "f31885fdd104",
-   "source": "www.tv-tokyo.co.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "なぜライバル同士が「共創」するのか？清水建設・建設RXコンソーシアムの原田知明氏が、330社超が挑む現場の自動化・省人化を語る特別講演を開催＜12/9・参加無料＞",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiQUNzOXZxUWhYZUVEcnRCYTFuMzJVNjJVelpKTDVxNk4tS1Q2OUZmZjNaTHBycGM5cXhGX18wNUZvR0Nad0k2R3E0STF3c0Nadk1WUUhYcWVRdmx1V0dLM2x0V3BsYmVFbXRlQlFB?oc=5",
-   "published": "2026-10-09T01:49+00:00",
-   "published_jst": "2026-10-09 10:49",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "efc869056d58",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1450,19 +1257,6 @@
    "published": "2026-10-09T01:20+00:00",
    "published_jst": "2026-10-09 10:20",
    "summary": "Amazonは、新タブレット「Amazon Alexa Tablet」3機種を発表した。「Fire」ブランドを刷新し、AndroidとGoogle Playに対応したほか、AIアシスタント「Alexa+」を内蔵する。子ども向け「Amazonキッズタブレット」も発表し、日本限定「ちいかわ」モデルなどを10月14日より出荷する。",
-   "ai_related": true
-  },
-  {
-   "id": "59d632377962",
-   "source": "ペイメントナビ",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設DXのWIREBASEと「DGFT請求書カード払い」共同展開（デジタルガレージ）",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBaUzdTYTlmYUh3LXFpR3hJbWFGZjJwVTRsUTltZGdhZXBIZmQ3d1VUaU50bmQwSm9IdEpBQVpqLWI2RHhnM3NMaktZdjdWbmhiNGRnazZWekZWZUU?oc=5",
-   "published": "2026-10-09T01:02+00:00",
-   "published_jst": "2026-10-09 10:02",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -1477,19 +1271,6 @@
    "published_jst": "2026-10-09 10:00",
    "summary": "国土交通省は2026年9月30日、道路舗装に関する二つの基準の見直しを発表しました。対象は「車道及び側帯の舗装の構造の基準に関する省令」と「...",
    "ai_related": false
-  },
-  {
-   "id": "f2b67e3f61c0",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "計画から施工までデータがつながる Autodesk Formaが新機能とAIを拡充：BIM",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tczBSb1BGQ25VZjItdHVLMzRUbkw1U09EMlMxQm9aOG1rd1hnbFRtTlNKMFR5QjJQV1VVMVJzUU1aUjNGX1R0a0xkOGVSQXRkal8tSTBMYVF0MXZndEVNb3JLZm11cWVfdmJSNA?oc=5",
-   "published": "2026-10-09T01:00+00:00",
-   "published_jst": "2026-10-09 10:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "3842feda3972",
@@ -1518,101 +1299,6 @@
    "ai_related": true,
    "title_ja": "「ttok 1.0」がリリース",
    "summary_ja": "新バージョンにアップグレードした際、デフォルトでGPT-4のトークナイザーが使用されていることに気づき、本来はGPT-5やGPT-6であるべきだと指摘。"
-  },
-  {
-   "id": "be941ca05839",
-   "source": "Bloomberg.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "オラクルの信用力に影響も、AIインフラの建設遅延続けば－モルガンS",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HOVc0ZFRBSkZWaXJOOHBUNnZ1ZFAzaDhOZ25TS2xBUlpnRThTX0dEUjNXODFGcDBkenFKMm9GVUxScG5vRDdHdUQxOU93c2hIRkpDVnJvV1cwNGcyLWtfMkNmby1XNmFrbHJKSjN2a0U2V2d3ZnBj?oc=5",
-   "published": "2026-10-09T00:18+00:00",
-   "published_jst": "2026-10-09 09:18",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "577a3234004b",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-   "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-   "published": "2026-10-09T00:08+00:00",
-   "published_jst": "2026-10-09 09:08",
-   "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next",
-   "ai_related": true,
-   "title_ja": "AIが設計したウイルスの開発者との対談",
-   "summary_ja": "AIは新たな生命体を設計できるのか。スタンフォード大学の学生が生成AIモデルを用いて微視的生命体の遺伝子設計図を提案した画期的な試み。"
-  },
-  {
-   "id": "804b1fcf89eb",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Anthropic、Claudeへの“虐待”を利用ポリシーで禁止 影響工作の規定も集約",
-   "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002149/",
-   "published": "2026-10-09T00:07+00:00",
-   "published_jst": "2026-10-09 09:07",
-   "summary": "Anthropicは、Claudeの利用ポリシー（Usage Policy）改定版を公開した。AIモデルへの継続的で残酷な振る舞いの禁止を新設したほか、プロパガンダや偽サイト運営などの欺瞞的活動に関する項目を集約。さらに兵器や監視、物理機器を操作する高リスクな用途における安全基準を明確化した。11月12日に発効する。",
-   "ai_related": true
-  },
-  {
-   "id": "6ca08461dedb",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "catalyst｜現場と事務所の情報連携が成約に繋がるカギに〜後編〜",
-   "url": "https://one.andpad.jp/magazine/26799/",
-   "published": "2026-10-09T00:02+00:00",
-   "published_jst": "2026-10-09 09:02",
-   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベストボードユーザー賞」で全国第3位を受賞した、株式会... 投稿 catalyst｜現場と事務所の情報連携が成約に繋がるカギに〜後編〜 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "e66e83663972",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "catalyst｜安心感を現場から届ける、住設工事のマルチプレイヤー〜前編〜",
-   "url": "https://one.andpad.jp/magazine/26778/",
-   "published": "2026-10-09T00:01+00:00",
-   "published_jst": "2026-10-09 09:01",
-   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベストボードユーザー賞」で全国第3位を受賞した、株式会... 投稿 catalyst｜安心感を現場から届ける、住設工事のマルチプレイヤー〜前編〜 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "5a4244c01b7a",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "オラクル、AIデータセンター建設急ぐためCNGをトラック輸送で緊急調達",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kYjhCZXBsY1l6WEZWRzIyQ0xuRVNQcXJmY3AwaDlaNHNuam5uR2dMbU9yTFNkWkZTaG1rdFBvNzNOMzlXSmppMHhiUlRLUVY5U0c0d2NOejBxb09wemFmdVdFNTNUdUFQWlFYbDBkRDQ1VmhB?oc=5",
-   "published": "2026-10-08T23:35+00:00",
-   "published_jst": "2026-10-09 08:35",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "e0a9b95e1764",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "ttok 0.4",
-   "url": "https://simonwillison.net/2026/Oct/8/ttok/",
-   "published": "2026-10-08T23:34+00:00",
-   "published_jst": "2026-10-09 08:34",
-   "summary": "Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-models command to list available models. It works with uvx , so you can count to",
-   "ai_related": true,
-   "title_ja": "CLIツール「ttok 0.4」がリリース",
-   "summary_ja": "OpenAIのtiktokenライブラリを使用したトークンカウント用CLIツール。数年ぶりの更新で警告の修正やCIの更新が行われた。"
   }
  ]
 }
