@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-11T05:43+00:00",
- "generated_at_jst": "2026-10-11 14:43",
+ "generated_at": "2026-10-11T07:14+00:00",
+ "generated_at_jst": "2026-10-11 16:14",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 12,
-  "construction_japan": 17,
-  "ai_global": 48,
-  "construction_global": 15
+  "construction_global": 11,
+  "ai_japan": 8,
+  "construction_japan": 18,
+  "ai_global": 46
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -19,6 +23,19 @@
   }
  ],
  "items": [
+  {
+   "id": "e64fa0375119",
+   "source": "AEC Magazine",
+   "source_id": "aecmag",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "GPT-6 Astra and the future of BIM modelling",
+   "url": "https://aecmag.com/bim/gpt-6-astra-and-the-future-of-bim-modelling/",
+   "published": "2026-10-11T06:00+00:00",
+   "published_jst": "2026-10-11 15:00",
+   "summary": "OpenAI’s new AI model shows promise as a 3D modeller, but how might it fit into a design process subject to constant change? The post GPT-6 Astra and the future of BIM modelling appeared first on AEC Magazine .",
+   "ai_related": true
+  },
   {
    "id": "894b5e9ddb4e",
    "source": "GIGAZINE",
@@ -111,7 +128,7 @@
    "url": "https://nishtahir.com/build-your-own-decision-model/",
    "published": "2026-10-10T22:50+00:00",
    "published_jst": "2026-10-11 07:50",
-   "summary": "Article URL: https://nishtahir.com/build-your-own-decision-model/ Comments URL: https://news.ycombinator.com/item?id=50037949 Points: 195 # Comments: 38",
+   "summary": "Article URL: https://nishtahir.com/build-your-own-decision-model/ Comments URL: https://news.ycombinator.com/item?id=50037949 Points: 223 # Comments: 55",
    "ai_related": true,
    "title_ja": "独自の意思決定モデルを構築する方法",
    "summary_ja": "自分だけの意思決定モデルの構築方法について解説した記事と、それに対するHacker Newsのコメント。"
@@ -175,6 +192,19 @@
    "ai_related": true,
    "title_ja": "DistroKid、UMGの提訴を受け楽曲の削除をひそかに進める",
    "summary_ja": "アーティストからは事前通知なしの作品削除に対する不満の声が上がっており、DistroKidは削除がUMGの申し立てへの対応だと認めた。"
+  },
+  {
+   "id": "611aad146f37",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+   "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+   "published": "2026-10-10T18:48+00:00",
+   "published_jst": "2026-10-11 03:48",
+   "summary": "Article URL: https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a Comments URL: https://news.ycombinator.com/item?id=50035886 Points: 153 # Comments: 99",
+   "ai_related": true
   },
   {
    "id": "4152133e016a",
@@ -332,7 +362,7 @@
    "url": "https://github.com/rociiu/talorys",
    "published": "2026-10-10T10:52+00:00",
    "published_jst": "2026-10-10 19:52",
-   "summary": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 273 # Comments: 126",
+   "summary": "Article URL: https://github.com/rociiu/talorys Comments URL: https://news.ycombinator.com/item?id=50031614 Points: 278 # Comments: 129",
    "ai_related": true,
    "title_ja": "Cloudflareの無料枠で動く個人用AI「Talorys」",
    "summary_ja": "GitHub上で公開されている、Cloudflareの無料枠を利用してセルフホストできる個人向けAIエージェントツールに関する情報。"
@@ -368,6 +398,19 @@
    "summary_ja": "未発売の「Carbon」のコーディング能力がAnthropicのOpus 5.5に匹敵すると報じられ、注目を集めている。"
   },
   {
+   "id": "8451d5792701",
+   "source": "朝日新聞",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "九州・山口から、環境経営の新しいカタチを。セリタ建設が「環境経営×DX」による組織変革を発信 10月1日、エコアクション21セミナーに登壇",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJeUVlWDFJeHBTVG1GQTZyYUV1T0RCTHViS2xHWExRSGdYM3dYb002MHpLTEdIeFg2SkY1NUhVdXZkaTJFSEwzSjFVTHl3bXYyUXdtY3lJUjFSX00?oc=5",
+   "published": "2026-10-10T05:14+00:00",
+   "published_jst": "2026-10-10 14:14",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "5528ba1d9cba",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -394,6 +437,19 @@
    "published_jst": "2026-10-10 10:04",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "b164451ccc23",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【SSPC株式会社】「特定建設業許可」を取得。大型工事への対応体制を強化し、大規模施工の信頼性向上へ",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5ZkYxTl9MRnlGUWJwRHE1dU1SeGdCYmpJVVBoekZidF9IMU5MSmdQdURjTU83LWZ0OFZpc3oxUTc5OU1vUUttNVdOcnBTSFN4QUdrYnpEN21URFJXdFdvZWhwckNUbWxod3B4dUFDUlNUQQ?oc=5",
+   "published": "2026-10-10T00:45+00:00",
+   "published_jst": "2026-10-10 09:45",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "92b4df1feff6",
@@ -1154,191 +1210,6 @@
    "published": "2026-10-09T07:20+00:00",
    "published_jst": "2026-10-09 16:20",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "6e3831549f60",
-   "source": "デジコン",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「見るKYT」から「話すKYT」へ。Miichisoft、現場写真からAIが研修シナリオを自動生成する安全教育eラーニング「LAAVO」を提供開始",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wS0ZYMDN4Q1luanZIa0JYVXpjZGc3dkpSenBWSHREc2RDbjJsVUprbXVkSmpDbE84d0FwOUFfRFQ2UUwzaVdza1VSOTNnUDVnVE9R?oc=5",
-   "published": "2026-10-09T07:10+00:00",
-   "published_jst": "2026-10-09 16:10",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "d85096000a62",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Lee Marley closes in on £100m turnover",
-   "url": "https://www.constructionenquirer.com/2026/10/09/lee-marley-closes-in-on-100m-despite-housing-slowdown/",
-   "published": "2026-10-09T07:09+00:00",
-   "published_jst": "2026-10-09 16:09",
-   "summary": "Brickwork and scaffolding group lifts sales 9% despite Gateway 2 delays hitting project starts",
-   "ai_related": false,
-   "title_ja": "Lee Marley、売上高1億ポンドに迫る",
-   "summary_ja": "レンガ積み・足場グループは、プロジェクト着工の遅れによる影響を受けつつも、売上高を9%伸ばした。"
-  },
-  {
-   "id": "edd58468d564",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-   "url": "https://openai.com/index/sophos",
-   "published": "2026-10-09T07:00+00:00",
-   "published_jst": "2026-10-09 16:00",
-   "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-   "ai_related": true,
-   "title_ja": "Sophos、OpenAI活用で脅威調査時間を96%削減",
-   "summary_ja": "OpenAIのDaybreakを用い、人間の監視を維持しつつサイバー脅威の調査時間を96%削減し、MDR案件の52%を自動化した事例。"
-  },
-  {
-   "id": "90995f7dbc9c",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-   "url": "https://openai.com/index/asana-browser-agent",
-   "published": "2026-10-09T07:00+00:00",
-   "published_jst": "2026-10-09 16:00",
-   "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-   "ai_related": true,
-   "title_ja": "Asana、GPT-6.1 Solを使用したブラウザテストでモデルコストを76分の1に削減",
-   "summary_ja": "AsanaはCodex内のGPT-6 Astraを活用し、より高性能なモデルを提供するためのブラウザエージェントのテストでコストを76分の1、速度を5倍に向上させた。"
-  },
-  {
-   "id": "2557923e4244",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "MetaやOpenAIが「.agent」を新ドメインとしてICANNに申請、「.agi」やトランプ大統領の「.trump」に加え日本からは「.neko」も",
-   "url": "https://gigazine.net/news/20261009-icann-reveals-bids-new-domains-ai/",
-   "published": "2026-10-09T07:00+00:00",
-   "published_jst": "2026-10-09 16:00",
-   "summary": "URLのドメイン名の最後に付く「.com」や「.org」などのトップレベルドメイン(TLD)を管理するICANNが、2026年度に申請を受け付けた新ドメインの一覧を発表しました。MetaやOpenAIなど13の申請者が「.agent」を申請したほか、「.agi」「asi」などの「人工知能(AI)」や「超知能(SI)」に関連するドメインに多数の申請が寄せられています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "2e6728fbeba0",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-   "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-   "published": "2026-10-09T06:52+00:00",
-   "published_jst": "2026-10-09 15:52",
-   "summary": "Article URL: https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=50016956 Points: 176 # Comments: 40",
-   "ai_related": true,
-   "title_ja": "Microsoft Execution Containers v1.0.0公開",
-   "summary_ja": "AIエージェント向けのポリシー駆動型コンテナ技術「Microsoft Execution Containers」のバージョン1.0.0が登場。"
-  },
-  {
-   "id": "50d194bfe71e",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "German investor pledges £1bn for UK affordable homes",
-   "url": "https://www.constructionenquirer.com/2026/10/09/german-investor-pledges-1bn-for-uk-affordable-homes/",
-   "published": "2026-10-09T06:39+00:00",
-   "published_jst": "2026-10-09 15:39",
-   "summary": "PATRIZIA looks to invest in another 4,000 homes",
-   "ai_related": false,
-   "title_ja": "独投資家、英国の手頃な住宅へ10億ポンドを拠出",
-   "summary_ja": "PATRIZIAは、さらに4,000戸の住宅への投資を計画している。"
-  },
-  {
-   "id": "e2d3ddd6e889",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "BW hires time-served Mace man as commercial director",
-   "url": "https://www.constructionenquirer.com/2026/10/09/bw-hires-time-served-mace-man-as-commercial-director/",
-   "published": "2026-10-09T06:36+00:00",
-   "published_jst": "2026-10-09 15:36",
-   "summary": "Dominic Anstey heads trio of senior hires as London fit out firm targets £350m turnover",
-   "ai_related": false,
-   "title_ja": "BW、Mace出身のアンステイ氏を商業取締役に起用",
-   "summary_ja": "ロンドンの内装企業が売上高3.5億ポンドを目指す中、ドミニク・アンステイ氏が幹部人事の筆頭として着任した。"
-  },
-  {
-   "id": "833500d4a9c0",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wates picked for £209m Penrhys estate regeneration",
-   "url": "https://www.constructionenquirer.com/2026/10/09/wates-picked-for-209m-penrhys-estate-regeneration/",
-   "published": "2026-10-09T06:17+00:00",
-   "published_jst": "2026-10-09 15:17",
-   "summary": "Up to 900 homes planned in overhaul of landmark Rhondda estate",
-   "ai_related": false,
-   "title_ja": "Wates、2.09億ポンドのペンリース再開発を受注",
-   "summary_ja": "ロンダの象徴的な団地の大型改修において、最大900戸の住宅建設が計画されている。"
-  },
-  {
-   "id": "006684af44c7",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "ロシアのIT大手・Yandexのデータセンターがウクライナのドローン攻撃で大規模炎上、AI開発用スパコン2基も被災の可能性",
-   "url": "https://gigazine.net/news/20261009-yandex-drone-attack/",
-   "published": "2026-10-09T06:15+00:00",
-   "published_jst": "2026-10-09 15:15",
-   "summary": "ロシアのIT大手「Yandex(ヤンデックス)」が運営するデータセンターが2026年10月8日にウクライナのドローン攻撃を受け、大規模な火災が発生しました。データセンターは稼働停止に追い込まれ、ロシア国内の多数のオンラインサービスで障害が報告されています。攻撃を受けた施設にはAI開発に使用するスーパーコンピューター2基も設置されており、被害が懸念されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "19914ebc791b",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "トランプ大統領がイノベーション推進のためのホワイトハウスサミットでイーロン・マスク、ジェンセン・フアン、リサ・スー、セルゲイ・ブリンに国家科学勲章を授与",
-   "url": "https://gigazine.net/news/20261009-president-trump-presents-national-medals-science-technology-innovation/",
-   "published": "2026-10-09T06:07+00:00",
-   "published_jst": "2026-10-09 15:07",
-   "summary": "現地時間の2026年10月8日、ドナルド・トランプ大統領が科学技術分野における卓越した業績とリーダーシップに対して授与されるアメリカ国家科学賞およびアメリカ国家技術賞を、SpaceXやテスラのCEOを務めるイーロン・マスク氏、Googleの共同創業者であるセルゲイ・ブリン氏、NVIDIAの共同創業者でありCEOでもあるジェンスン・フアン氏、AMDのCEOを務めるリサ・スー氏、デルの創業者兼CEOを務めるマイケル・デル氏、MicrosoftのCEOを務めるサティア・ナデラ氏の6名に授与したと発表しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "3591f99722d1",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Berkeley’s 1,060-home south London plan rethink rejected",
-   "url": "https://www.constructionenquirer.com/2026/10/09/berkeleys-1060-home-south-london-plan-rethink-rejected/",
-   "published": "2026-10-09T06:06+00:00",
-   "published_jst": "2026-10-09 15:06",
-   "summary": "Southwark rejects revised Old Kent Road scheme over affordable housing cut",
-   "ai_related": false,
-   "title_ja": "バークリーの南ロンドン住宅計画の修正案が却下",
-   "summary_ja": "サザーク区は、手頃な価格の住宅削減を理由に、オールド・ケント・ロードの修正計画を拒否した。"
-  },
-  {
-   "id": "67a7cc29b98b",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "OpenAIがAIで大量の数学的成果を発表したのは「学術的成果ではなく権力の誇示に過ぎない」との指摘",
-   "url": "https://gigazine.net/news/20261009-openais-math-solutions-human-ahm/",
-   "published": "2026-10-09T06:00+00:00",
-   "published_jst": "2026-10-09 15:00",
-   "summary": "2026年10月、OpenAIが社内の最先端AIモデルを使って生成した722件に及ぶ「数学的成果」を発表しました。これに対し、世界各国の数学者らにより構成されているThe Association for Human Mathematics(人間のための数学協会)が、「一度に700以上の成果を公開することは学術的な成果を示すものではなく、権力の誇示に過ぎない」と批判しています。 続きを読む...",
    "ai_related": true
   }
  ]
