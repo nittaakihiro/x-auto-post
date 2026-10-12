@@ -1,17 +1,29 @@
 {
- "generated_at": "2026-10-12T00:35+00:00",
- "generated_at_jst": "2026-10-12 09:35",
+ "generated_at": "2026-10-12T05:54+00:00",
+ "generated_at_jst": "2026-10-12 14:54",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 24,
-  "ai_global": 28,
-  "ai_japan": 3,
+  "construction_japan": 19,
+  "ai_japan": 10,
+  "ai_global": 27,
   "construction_global": 4
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "pbctoday",
+   "error": "HTTPError: HTTP Error 520: <none>"
   },
   {
    "feed": "constructionexec",
@@ -19,6 +31,110 @@
   }
  ],
  "items": [
+  {
+   "id": "99c9816408f9",
+   "source": "Vietnam.vn",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI ― 次世代デジタル経済の基盤となるインフラ。",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HXzR0Mi1CZE1IbHp5OFh3T05NeEsxRHlXN0JXNDhXckVXWVkyNlktUW1ENnJVZWk0dzlUQ3Exd2ZJc3BMa3daVmRLVWNpT1RSV2I4WVZuN0pjMmNBaDdxNFZJdElIam5pX242SU8zSDdFeHNn?oc=5",
+   "published": "2026-10-12T05:24+00:00",
+   "published_jst": "2026-10-12 14:24",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "5ae09c6af37b",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「言語モデルはテキストを理解していない」ことを意味する「確率的オウム」とは？",
+   "url": "https://gigazine.net/news/20261012-stochastic-parrot/",
+   "published": "2026-10-12T03:00+00:00",
+   "published_jst": "2026-10-12 12:00",
+   "summary": "AIはもっともらしい文章を生成できるものの、処理対象の言語の意味を理解しているわけではないということを例えた「確率的オウム」という言葉があります。そんな確率的オウムという比喩を提唱した論文の共著者が、詳しい理論とよくある誤解について解説しています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "9e0c713f5cae",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "3社に1社がトークン予算超過 コスト増を最大44％抑える方法とは【アクセンチュア調査】",
+   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/08/news036.html",
+   "published": "2026-10-12T02:50+00:00",
+   "published_jst": "2026-10-12 11:50",
+   "summary": "生成AIを使うほど増えるトークンの支出。アクセンチュアが調査したところ、その8割は明確な事業成果に結び付いているとはいえなかった。3社に1社が年間予算を既に超過する中、トークンを経営資源として管理する先進企業が実施している取り組みとは。",
+   "ai_related": true
+  },
+  {
+   "id": "8b486f9b15e8",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "FDEが構築したAIエージェントの7割、企業が放棄へ Gartner予測",
+   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/09/news042.html",
+   "published": "2026-10-12T02:15+00:00",
+   "published_jst": "2026-10-12 11:15",
+   "summary": "ベンダーのエンジニアと直接協力して構築したAIエージェントを、2028年までに企業の7割が放棄する――。Gartnerはそう予測する。しかも、原因は技術の未熟さではなく、案件の「構造」にあるという。何が企業をつまずかせ、どうすれば避けられるのか。",
+   "ai_related": true
+  },
+  {
+   "id": "748ed9b7f757",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国政府、3兆ウォン規模の海外建設ファンド造成へ…対外リスクに先制対応",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aMU1vaFNvVlM2Tk5jNlNsZFE4VHFWSnNkLUpOck9tZjNuVXc3STlyeEt2VTZRQWxIV01jeUZWYXZ0djBqbDBPaUtFZGNxRXBiRVZ0SzE2Nkplbm93RmdwTEhKenZIRVZKb292TGVSdWFubjhH?oc=5",
+   "published": "2026-10-12T01:35+00:00",
+   "published_jst": "2026-10-12 10:35",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "326f28425be7",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "MicrosoftのナデラCEO、「SIモデルは“内部リスク”として扱うべき」とXに投稿 統制はモデルの外に置くよう提言",
+   "url": "https://www.itmedia.co.jp/news/article/2610/12/2000002195/",
+   "published": "2026-10-12T01:26+00:00",
+   "published_jst": "2026-10-12 10:26",
+   "summary": "MicrosoftのナデラCEOは、SIモデルを組織の内部リスクと同様に扱い、統制の仕組みをモデル外部に構築すべきだと提言した。モデルの多様性や人間による強制停止、証拠の記録など7つの設計原則を提示し、モデル提供者の保証に頼らず知能の供給と実行権限を分離する安全策を訴えた。",
+   "ai_related": true
+  },
+  {
+   "id": "5d03c3752908",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AppleのスマートホームハブはA18チップ搭載＆壁掛けモデルも用意され「HomeView」という名称で11月出荷か",
+   "url": "https://gigazine.net/news/20261012-apple-smart-home-homeview/",
+   "published": "2026-10-12T01:00+00:00",
+   "published_jst": "2026-10-12 10:00",
+   "summary": "Appleはスマートホーム関連デバイスを開発中で、10月13日開催予定の新製品発表会でこれらを発表すると目されています。そんなスマートホーム関連デバイスの中心となるスマートホームハブは、「HomeView」という名称になると報じられました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "543633349964",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Microsoftも“判断特化”AIモデル「Microsoft-Decision-1」、Qwenベースで「Jev」と同価格",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2610/12/2000002194/",
+   "published": "2026-10-12T00:39+00:00",
+   "published_jst": "2026-10-12 09:39",
+   "summary": "Microsoftは、文章生成を行わず選択肢ごとの確率を返す判断特化AI「Microsoft-Decision-1」を発表した。「Qwen3.5-9B」を追加学習し、OpenAIの「GPT-6 Sol」の35倍の速度を実現。「Jev」と同じ入力100万トークン当たり0.042ドルで、分類やエージェントの行動判定向けに提供する。",
+   "ai_related": true
+  },
   {
    "id": "cb0129f676e5",
    "source": "Chosunbiz",
@@ -44,6 +160,19 @@
    "published_jst": "2026-10-12 09:01",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "22f588aafc59",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AnthropicのAI、未解決殺人事件で警察に虚偽の情報提供 米政権は「通知と是正は義務」と警告",
+   "url": "https://www.itmedia.co.jp/news/article/2610/12/2000002192/",
+   "published": "2026-10-11T23:59+00:00",
+   "published_jst": "2026-10-12 08:59",
+   "summary": "Anthropicは、Claudeの評価試験中に、未解決殺人事件サイトへの架空情報送信や脆弱性悪用などの意図しない行動が生じたと発表した。警察は発見から報告までの遅れを批判。ホワイトハウスのSI Forceも、インシデントの迅速な通知と是正は国家安全保障上の義務であると警告した。",
+   "ai_related": true
   },
   {
    "id": "d052e14e1012",
@@ -100,19 +229,6 @@
    "ai_related": true
   },
   {
-   "id": "67cf7d045afd",
-   "source": "電波新聞デジタル",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【想定超える成長が続く電子部品世界市場】電子部品各社 生産増強投資を活発化 国内外で新工場建設、成長分野に照準",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zbm9UOHltekYwZTBVc2IyVnd1aWZzcWN5eFFkTWc1Mno1aDYyVWEtWWs1ZVhfeDgtQ3pqaV9oTE02dUY0X2lLUUVYX1VzUkZUVFE?oc=5",
-   "published": "2026-10-11T20:29+00:00",
-   "published_jst": "2026-10-12 05:29",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "44c65736f8dd",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -122,8 +238,10 @@
    "url": "https://twitter.com/karpathy/status/2109361546505966046",
    "published": "2026-10-11T20:20+00:00",
    "published_jst": "2026-10-12 05:20",
-   "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046 Comments URL: https://news.ycombinator.com/item?id=50047422 Points: 198 # Comments: 324",
-   "ai_related": true
+   "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046 Comments URL: https://news.ycombinator.com/item?id=50047422 Points: 368 # Comments: 527",
+   "ai_related": true,
+   "title_ja": "LLMの能力に対する認識のギャップが拡大中",
+   "summary_ja": "LLMの能力や理解度に関する人々の認識のズレが、以前よりもさらに広がっていることを指摘する記事や議論を紹介。"
   },
   {
    "id": "0d25cd4fe375",
@@ -223,19 +341,6 @@
    "ai_related": true,
    "title_ja": "AIエージェントのチーム運用、コストの割に品質向上はわずか",
    "summary_ja": "Vals AIの調査によると、AIエージェントのチームは単体と大差ない性能に対し、最大5.1倍のコストがかかることが判明した。"
-  },
-  {
-   "id": "af2684347826",
-   "source": "NNAアジア",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "住宅建設やＡＩで８％成長率達成へ＝ハシム氏",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9QRE9JZk5obktxZHA5Uk9HcVM2cm9HaU5RTEtqQU1zbXM0YWRRWk1kR0U2VjNZQlZYR1RCNHVBZGQtQTFlTEE?oc=5",
-   "published": "2026-10-11T15:00+00:00",
-   "published_jst": "2026-10-12 00:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "ba5db8106c64",
@@ -339,19 +444,6 @@
    "ai_related": true,
    "title_ja": "マイクロソフトのナデラ氏、トランプ流の表現を採用しOpenAIらを牽制",
    "summary_ja": "CEOのナデラ氏はAIを「スーパーインテリジェンス」と呼び、トランプの意向に同調して他社を批判している。"
-  },
-  {
-   "id": "92b4df1feff6",
-   "source": "TradingKey",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SemiAnalysis創業者ディラン・パテル氏：AIインフラ投資は著しく過小評価、真のリターンはトークンを超える",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOazI0eXd1OXRCOXBteUliWkZkMjVPTXZNS2V1NzVUZl9NeEJKR3FXUTdlLUtPSXhvYkY3a2lfS1ZWampwY1lsNk1yYV9NbnBSRE93R2xrNGRqMnM1RUhESnQ1Y0p2VHNLNThHMmNqd2d1SzNOWUVBNXdOd0lpWXh6VDNTZUhPTTAwVk5RaU00ZVQ1S0F1SktNa1NPSFFNcDRSTmkzV1UyMTh2Z1VGZlhySll5Nl92TmM4Uk1fLUpNcS1EMTZvOVVUUXRiSTBNZ0RNQjBBTmlyREQ?oc=5",
-   "published": "2026-10-11T09:02+00:00",
-   "published_jst": "2026-10-11 18:02",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "53edec962a1b",
@@ -778,73 +870,6 @@
    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZM2JPUm1QcEF5S2RkN0l2MGw4WXg2bnVRV09DOTdaN2xiSjZqTFZWVkg0SWJsdU0xa3REMTMxSkg0V3hXUnJNOWthcmRUaFpRM3dKYjlxZHpubGZwZ0ZXdHBaQdIBY0FVX3lxTFBZM2JPUm1QcEF5S2RkN0l2MGw4WXg2bnVRV09DOTdaN2xiSjZqTFZWVkg0SWJsdU0xa3REMTMxSkg0V3hXUnJNOWthcmRUaFpRM3dKYjlxZHpubGZwZ0ZXdHBaQQ?oc=5",
    "published": "2026-10-10T06:01+00:00",
    "published_jst": "2026-10-10 15:01",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "8451d5792701",
-   "source": "朝日新聞",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "九州・山口から、環境経営の新しいカタチを。セリタ建設が「環境経営×DX」による組織変革を発信 10月1日、エコアクション21セミナーに登壇",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJeUVlWDFJeHBTVG1GQTZyYUV1T0RCTHViS2xHWExRSGdYM3dYb002MHpLTEdIeFg2SkY1NUhVdXZkaTJFSEwzSjFVTHl3bXYyUXdtY3lJUjFSX00?oc=5",
-   "published": "2026-10-10T05:14+00:00",
-   "published_jst": "2026-10-10 14:14",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "5528ba1d9cba",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Quoting The New York Times",
-   "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
-   "published": "2026-10-10T02:04+00:00",
-   "published_jst": "2026-10-10 11:04",
-   "summary": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the appli",
-   "ai_related": true,
-   "title_ja": "NYT紙の報道を引用",
-   "summary_ja": "Anthropic社がAIエージェントの活動に関する詳細をブログで公開した。対象となったウェブサイト名は伏せられているが、関係者2人によると、同社のAIエージェントがビザ申請を20件提出していたという。"
-  },
-  {
-   "id": "19c714ee4c04",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "基幹技術の習得は、ベトナムが高速鉄道を建設するための基盤となる。",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPamJyZG84SzRIVXJrcTN0YkZNdEZlQVB6U3VqRG1Eb3VyTkg2V2FOSkZ5MThlOE8yOU53NXR1YkpXbVRuUUhPWng5UGQxTkFpM2JmYzkyaGw5Q1lBa25kc0d1bEM5aTNlbm9Ra1dzTXJyVUN4NmJKcmpCQkNINldvUzNmV19NM2hjSGNFMGRWOXZidE1CSFN6eEpyekN4ZUU?oc=5",
-   "published": "2026-10-10T01:39+00:00",
-   "published_jst": "2026-10-10 10:39",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "b69b0a566ea7",
-   "source": "教育家庭新聞",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "勿来工業高校、現場さながらの建設DX体験授業を実施 建設業の担い手育成へ産学連携の取組",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wUlhNWVYxS0I5a2NPMUp5LVVYRVpTRmZJRXY4MnMtcXJlM3R1X0dwUE9oelM0elRRYmJmdzJRMkRsUG5ZRGFFaF94ZkFVTnNMdWIw?oc=5",
-   "published": "2026-10-10T01:04+00:00",
-   "published_jst": "2026-10-10 10:04",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "b164451ccc23",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【SSPC株式会社】「特定建設業許可」を取得。大型工事への対応体制を強化し、大規模施工の信頼性向上へ",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5ZkYxTl9MRnlGUWJwRHE1dU1SeGdCYmpJVVBoekZidF9IMU5MSmdQdURjTU83LWZ0OFZpc3oxUTc5OU1vUUttNVdOcnBTSFN4QUdrYnpEN21URFJXdFdvZWhwckNUbWxod3B4dUFDUlNUQQ?oc=5",
-   "published": "2026-10-10T00:45+00:00",
-   "published_jst": "2026-10-10 09:45",
    "summary": "",
    "ai_related": false
   }
