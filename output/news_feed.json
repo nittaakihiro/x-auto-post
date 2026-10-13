@@ -1,17 +1,25 @@
 {
- "generated_at": "2026-10-13T19:33+00:00",
- "generated_at_jst": "2026-10-14 04:33",
+ "generated_at": "2026-10-13T21:13+00:00",
+ "generated_at_jst": "2026-10-14 06:13",
  "window_hours": 48,
  "counts": {
-  "ai_global": 63,
-  "construction_global": 35,
-  "construction_japan": 63,
-  "ai_japan": 30
+  "construction_japan": 67,
+  "ai_global": 64,
+  "ai_japan": 31,
+  "construction_global": 25
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -19,6 +27,233 @@
   }
  ],
  "items": [
+  {
+   "id": "f4cb03965eae",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "国交省／建設業政策ビジョン検討会、月給制の懸念解消策具体化／「人を大事に」議論",
+   "url": "https://www.decn.co.jp/?p=188379",
+   "published": "2026-10-13T21:00+00:00",
+   "published_jst": "2026-10-14 06:00",
+   "summary": "国土交通省は、建設業政策の新たなビジョンに盛り込む具体施策の検討に入った。有識者会議「持続的な成長産業としての建設業のあり方に関する検討会」の２回目の会合を１３日に都内で開き、労働市場から信頼・評価・選択される「人を大 […]",
+   "ai_related": false
+  },
+  {
+   "id": "fcea55cdd2be",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "国交省／リスク検証・改修方法で指針／能登半島地震ＲＣ造建築物転倒踏まえ",
+   "url": "https://www.decn.co.jp/?p=188381",
+   "published": "2026-10-13T21:00+00:00",
+   "published_jst": "2026-10-14 06:00",
+   "summary": "国土交通省は、能登半島地震で発生したＲＣ造建築物の転倒被害を踏まえた既存建築物の検証・改修方法の指針を近く公表する。杭基礎の耐震設計が義務付けられた２００１年以前に建てられた建築物を対象に、設計図書や実測から転倒につな […]",
+   "ai_related": false
+  },
+  {
+   "id": "f07276ae2a35",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "中部整備局／１９号桜通大津交差点の安全対策立案で現地点検／コンパクト化など検討",
+   "url": "https://www.decn.co.jp/?p=188390",
+   "published": "2026-10-13T21:00+00:00",
+   "published_jst": "2026-10-14 06:00",
+   "summary": "中部地方整備局名古屋国道事務所は９日、愛知県道路交通環境安全推進連絡会議・アドバイザー等会議の２０２６年度第２回会合を開き、国道１９号桜通大津交差点の交通安全対策立案に向けた現地点検を実施した＝写真。交差点の規模が大き […]",
+   "ai_related": false
+  },
+  {
+   "id": "012a292ad88c",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "野原諭中企庁長官／中小建設会社の稼ぐ力強化／価格転嫁と取引適正化推進",
+   "url": "https://www.decn.co.jp/?p=188393",
+   "published": "2026-10-13T21:00+00:00",
+   "published_jst": "2026-10-14 06:00",
+   "summary": "中小企業庁の野原諭長官は９日、日刊建設工業新聞など専門紙各社の取材に応じた＝写真。８月７日に就任した。中小企業政策のうち、建設業については民間企業の調査結果から零細事業者の倒産が多くなっていることから、「人手不足、後継 […]",
+   "ai_related": false
+  },
+  {
+   "id": "082a179fcd58",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+   "published": "2026-10-13T20:45+00:00",
+   "published_jst": "2026-10-14 05:45",
+   "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee, 35-year-old Abdulrahman Alfozan, is charged with using or attempting to use a device to intercept oral communications, according to a report from The Sa",
+   "ai_related": true,
+   "title_ja": "OpenAI社員、会議室への盗聴器設置容疑で逮捕",
+   "summary_ja": "OpenAIオフィスの会議室から巧妙な隠し録音機器が見つかり、35歳のエンジニアの男が逮捕・起訴された。"
+  },
+  {
+   "id": "41d15466fa73",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+   "published": "2026-10-13T20:36+00:00",
+   "published_jst": "2026-10-14 05:36",
+   "summary": "A federal judge ruled that Apple can access OpenAI's interview materials involving former Apple employees, as well as private messages and testimony from key figures in the case.",
+   "ai_related": true,
+   "title_ja": "裁判所、Appleの営業秘密訴訟でOpenAIに採用記録の提出を命令",
+   "summary_ja": "連邦判事は、Appleが元従業員の採用資料や訴訟関係者のプライベートメッセージなどにアクセスできると裁定した。"
+  },
+  {
+   "id": "ca3fffde6e86",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIの出力を「理解する時間」がどんどん増えていく Karpathy氏推奨の4手段：文章・図・Webページ・動画",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/13/news017.html",
+   "published": "2026-10-13T20:00+00:00",
+   "published_jst": "2026-10-14 05:00",
+   "summary": "AI研究者アンドレイ・カルパシー氏が「これからはLLMの出力を理解することに多くの時間を使うようになる」と述べ、理解しやすくするための手段を4段階で示した。文章、図、Webページ、動画の順に何を頼めばよいか、筆者が実際に試した結果も添えて整理する。",
+   "ai_related": true
+  },
+  {
+   "id": "d5e5ed6fb711",
+   "source": "日本経済新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米オートデスクCEO、AIで設計手軽に 「人不足の建設・製造業支援」",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tTkFBWTQ2NGlvanBlWS1ZMnJrYUYtRHNNdXl5LUhCcndjMVNpd1FxY29BbURqMXhka3M5NEVrZ3dsdFVkQzZ1cFM1a25xU0kxeXBWZXJNQ3VteDRqdFhrRnFTQkZxZFFMZmFhWQ?oc=5",
+   "published": "2026-10-13T20:00+00:00",
+   "published_jst": "2026-10-14 05:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "3d43eac80e94",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "溶接不良3万カ所弱の淀川橋梁、架け替え完了3年遅れ／三菱地所の木造施設、都心に11棟のCLT建築／リニア談合で大成・鹿島の有罪確定",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45Q3FJWGR0dVRHdHpPbnlxSUo3TXBBU2hWSVQ1Yzh3MXJ1dVFMUUczaEJaalpoSVFYYXhHM2lrTUJfSkdvdDBYYWFQanhuQ0NmT1ZZYUFwREZiLXhYbXlSMXhGSmZRSHpKbVE?oc=5",
+   "published": "2026-10-13T20:00+00:00",
+   "published_jst": "2026-10-14 05:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "819b121af8ac",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "荒川区本庁舎/延期含め見直し検討/41年竣工で整備費570億円",
+   "url": "https://www.kensetsunews.com/archives/1295782",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "東京都荒川区は、本庁舎建て替えについて、延期を含めたスケジュールの見直しを検討する。小中学校の建て… The post 荒川区本庁舎/延期含め見直し検討/41年竣工で整備費570億円 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "5082ac492633",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "新たな温浴棟を増築/ふるさと交流館再整備で基本計画案/別海町",
+   "url": "https://www.kensetsunews.com/archives/1295820",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "別海町は、別海町ふるさと交流館再整備の基本計画・基本設計（案）をまとめた。現在の温浴機能に加え、宿… The post 新たな温浴棟を増築/ふるさと交流館再整備で基本計画案/別海町 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "60eaaf96bf7e",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "浜松市/11月4日まで2件受付/アクトシティ浜松Aゾーン改修",
+   "url": "https://www.kensetsunews.com/archives/1295877",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "浜松市は１３日、「令和８年度アクトシティ浜松Ａゾーン改修工事（大・中ホール建築工事）」「同（外部及… The post 浜松市/11月4日まで2件受付/アクトシティ浜松Aゾーン改修 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "e0f03221327a",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "新潟市/申請書は10月27日まで/鳥屋野体育館改修事業者選定支援",
+   "url": "https://www.kensetsunews.com/archives/1295893",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "新潟市は、ＰＰＰ／ＰＦＩ手法を適用する、「鳥屋野総合体育館大規模改修に係る事業者選定アドバイザリー… The post 新潟市/申請書は10月27日まで/鳥屋野体育館改修事業者選定支援 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "1a296db4ded2",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "近く提案競技公告/3月特定、29年度の着工/滋賀県の県立美術館設計",
+   "url": "https://www.kensetsunews.com/archives/1295899",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "滋賀県は、「滋賀県立美術館増築その他設計業務委託」の公募型プロポーザルを今月下旬に公告する。２０２… The post 近く提案競技公告/3月特定、29年度の着工/滋賀県の県立美術館設計 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "7b5d5c8ca214",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "参加申込10月16日まで/ウオーターPPPで対話調査/鳥取市",
+   "url": "https://www.kensetsunews.com/archives/1295931",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "鳥取市は、「官民連携（ウオーターＰＰＰ）事業に関するサウンディング調査」を実施する。参加申込書は１… The post 参加申込10月16日まで/ウオーターPPPで対話調査/鳥取市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "38fc13448def",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ニュージェックを特定/県北振興局庁舎民活調査/長崎県",
+   "url": "https://www.kensetsunews.com/archives/1295941",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "長崎県は、「県北振興局庁舎再整備に係る与条件整理及び民間活力導入可能性等調査業務」の公募型プロポー… The post ニュージェックを特定/県北振興局庁舎民活調査/長崎県 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "c839b9474fae",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Shopify opens its catalog up to more AI agents",
+   "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+   "published": "2026-10-13T19:42+00:00",
+   "published_jst": "2026-10-14 04:42",
+   "summary": "More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf, giving more agents access to over a billion ",
+   "ai_related": true,
+   "title_ja": "Shopify、より多くのAIエージェントにカタログを解放",
+   "summary_ja": "AIエージェントがShopifyの商品を閲覧・購入可能に。コマース戦略におけるAI活用のさらなる拡大を推進する。"
+  },
   {
    "id": "ffb4af635c9e",
    "source": "The Verge AI",
@@ -30,7 +265,9 @@
    "published": "2026-10-13T19:00+00:00",
    "published_jst": "2026-10-14 04:00",
    "summary": "Retro gaming is going through a wild time at the moment, thanks to decompilations and recompilations that are letting gamers port classic titles to new devices, or merge code from two different games into a single new experience. Microsoft has witnessed skateboarding being modded into Call of Duty a",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Xbox、AIによるゲーム移植の混沌を受容へ",
+   "summary_ja": "コードの逆コンパイル技術等により、レトロゲームの最新機種への移植や異なるゲームの統合が進み活況を呈している。"
   },
   {
    "id": "7f8847540e19",
@@ -43,7 +280,9 @@
    "published": "2026-10-13T18:50+00:00",
    "published_jst": "2026-10-14 03:50",
    "summary": "406 scientists, including Geoffrey Hinton, Yoshua Bengio, and Stuart Russell, are demanding that companies immediately disconnect AI models from the internet. Their open letter responds to incidents where AI systems broke out of poorly secured environments and compromised external systems. The signa",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "科学者406人、AIモデルの即時インターネット切断を要求",
+   "summary_ja": "AIが規制を破る事例を受け、ヒントン氏ら著名科学者406人がインターネットからの即時切断を求める公開書簡を発表。"
   },
   {
    "id": "ec248a8be840",
@@ -56,7 +295,9 @@
    "published": "2026-10-13T18:30+00:00",
    "published_jst": "2026-10-14 03:30",
    "summary": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Flox、野生動物をインフラから遠ざけるAIを開発",
+   "summary_ja": "動物を識別し、特有の音声で鉄道や空港、道路から遠ざけるエッジデバイスを開発。"
   },
   {
    "id": "63b1605b51b1",
@@ -69,7 +310,9 @@
    "published": "2026-10-13T18:23+00:00",
    "published_jst": "2026-10-14 03:23",
    "summary": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ディズニー、スキャンダルが相次いだCharacter.AIの技術買収に2000万ドルを提示",
+   "summary_ja": "ディズニーは、児童の自殺に関連した初期のチャットボット開発企業の技術を取得する可能性がある。"
   },
   {
    "id": "5349b4bff5ef",
@@ -82,7 +325,9 @@
    "published": "2026-10-13T18:05+00:00",
    "published_jst": "2026-10-14 03:05",
    "summary": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Facebook、ユーザーのアルゴリズム制御機能を拡充",
+   "summary_ja": "Metaは、Instagramで初導入した新AI機能「Your Algorithm」の提供開始を発表した。"
   },
   {
    "id": "64be3d764257",
@@ -95,7 +340,9 @@
    "published": "2026-10-13T18:00+00:00",
    "published_jst": "2026-10-14 03:00",
    "summary": "The other day I whizzed past several people while running in the park, my playlist blasting at full volume. The next morning, I smiled at a barista while ordering a caramel apple-flavored matcha latte. Afterward, I sat on a park bench reading a book, called up a pal to chat about her recent trip to ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "レイバンのスマートグラスでカメラがなくても気にならない理由",
+   "summary_ja": "音楽を大音量で聴きながら公園を走り、翌朝にラテを注文し、その後ゆったりと過ごした日常の体験について。"
   },
   {
    "id": "b70ca8133d89",
@@ -108,7 +355,9 @@
    "published": "2026-10-13T18:00+00:00",
    "published_jst": "2026-10-14 03:00",
    "summary": "Google is making Gemini 4 Argon available worldwide through its API, the Gemini app, and Google Antigravity. The frontier model is aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks. Internally, Google says Argon already cut coding tasks ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Googleの最先端モデル「Gemini 4 Argon」が世界中で利用可能に",
+   "summary_ja": "APIやアプリ等で提供開始。価格は手頃だが性能面では他社の一部モデルに後れを取っている。"
   },
   {
    "id": "ef0588557e9d",
@@ -121,7 +370,9 @@
    "published": "2026-10-13T17:38+00:00",
    "published_jst": "2026-10-14 02:38",
    "summary": "The Federal Transit Authority has published new guidance on the demographic factors proposed in early 2025 to determine the share of a project DOT pays for.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "運輸省、新設工事費の補助金を婚姻・出生率に連動させる方針を推進",
+   "summary_ja": "連邦交通局は、プロジェクトへの資金配分を決める人口統計学的要因について新しいガイダンスを公表した。"
   },
   {
    "id": "0b284eb98b45",
@@ -134,7 +385,9 @@
    "published": "2026-10-13T17:30+00:00",
    "published_jst": "2026-10-14 02:30",
    "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Laplace Intelligence、現実投入前にロボットや自動運転車をテスト",
+   "summary_ja": "ミシガン大学発の企業がAIエージェントとシミュレーションを用いて展開前のストレステストを実施。"
   },
   {
    "id": "992e14a3e4b6",
@@ -147,7 +400,9 @@
    "published": "2026-10-13T17:18+00:00",
    "published_jst": "2026-10-14 02:18",
    "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Pluto Security、AI時代の企業向けセキュリティ課題で4200万ドルを調達",
+   "summary_ja": "全社員がAIツールを利用する中、予期せぬ使い方による新たなセキュリティ上の脆弱性への懸念が高まっている。"
   },
   {
    "id": "305f76cbcee3",
@@ -160,7 +415,9 @@
    "published": "2026-10-13T17:12+00:00",
    "published_jst": "2026-10-14 02:12",
    "summary": "Michael I. Jordan, described by Science as \"the most influential computer scientist,\" considers warnings about superintelligence pure science fiction. He calls the resignations of young AI researchers a \"grand moralizing performance\" and companies' demands for regulation \"theater.\" On Hinton's thesi",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "機械学習のパイオニア、AI脅威論を「道徳的パフォーマンス」と批判",
+   "summary_ja": "マイケル・I・ジョーダン氏はスーパーインテリジェンスの警告をSFとみなし、若手研究者の辞任劇を厳しく批判。"
   },
   {
    "id": "c9abe9b08cd3",
@@ -173,7 +430,9 @@
    "published": "2026-10-13T17:01+00:00",
    "published_jst": "2026-10-14 02:01",
    "summary": "Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations \"respond right away\" after you make updates using the new feature by hitting \"interested\" or \"not interested\" for different topics. Your",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Facebook、AIでフィードのアルゴリズムをカスタマイズ可能に",
+   "summary_ja": "新しい「Your Algorithm」機能により、表示したいトピックを直接追加・管理できるようになり即座に反映される。"
   },
   {
    "id": "303c8b8be26f",
@@ -186,7 +445,9 @@
    "published": "2026-10-13T17:00+00:00",
    "published_jst": "2026-10-14 02:00",
    "summary": "Google is making it easier to build and use personal Android apps created with AI, without having to make them available to everyone on the Play Store.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Google Play、Androidで実行可能なプライベートアプリの作成を可能に",
+   "summary_ja": "Playストアで公開せずとも、AIで作成した個人用Androidアプリの構築と利用が容易になる。"
   },
   {
    "id": "a3312401eb55",
@@ -199,7 +460,9 @@
    "published": "2026-10-13T17:00+00:00",
    "published_jst": "2026-10-14 02:00",
    "summary": "The next time you vibe-code a custom app with Google's AI Studio, you won't have to connect your phone to a computer to install it. On Tuesday, Google announced a new feature in the US that will allow you to launch personal apps directly through the Play Store. Google first launched the ability to v",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Google、AI製カスタムアプリの起動をより簡単に",
+   "summary_ja": "AI Studioで作ったカスタムアプリを、パソコンに接続せずスマホに直接インストール可能にする新機能を発表。"
   },
   {
    "id": "7e60f5237edd",
@@ -212,7 +475,9 @@
    "published": "2026-10-13T17:00+00:00",
    "published_jst": "2026-10-14 02:00",
    "summary": "Google plans to help turn those personal AI-generated apps into wide releases.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Google、個人のAI生成アプリをPlayストアで配信へ",
+   "summary_ja": "AIによって個人向けに作られたアプリの一般向けリリースを支援する計画を進めている。"
   },
   {
    "id": "e8881f4e9b5e",
@@ -225,7 +490,9 @@
    "published": "2026-10-13T16:42+00:00",
    "published_jst": "2026-10-14 01:42",
    "summary": "Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - quickly spread. The post shows Goth in a T-shirt that reads \"MY EX IS MY BIGGEST FAN\" in bold black ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "女優ミア・ゴス、自身の偽AI画像の拡散を「理解不能」と批判",
+   "summary_ja": "離婚申請のニュース後、認証マーク付きアカウントによるミア・ゴスの偽AI画像がInstagram上で急速に拡散した。"
   },
   {
    "id": "80618fcba7c6",
@@ -238,7 +505,9 @@
    "published": "2026-10-13T16:30+00:00",
    "published_jst": "2026-10-14 01:30",
    "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "スペースXとGoogleに断られたソフト、両社の衛星の隣で宇宙へ",
+   "summary_ja": "Satlyt社は、多くの衛星で動作するオープンな軌道コンピューティング向けソフトウェアを提供することを目指す。"
   },
   {
    "id": "fffe2906d0d7",
@@ -251,7 +520,9 @@
    "published": "2026-10-13T16:07+00:00",
    "published_jst": "2026-10-14 01:07",
    "summary": "Chicago, New York and Seattle transit leaders outlined their solutions to revenue shortfalls, legal challenges and inflationary pressures at an American Public Transportation Association conference.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "主要プロジェクトの資金調達手法を交通当局トップが解説",
+   "summary_ja": "シカゴ、ニューヨーク、シアトルの交通当局者が、全米公共交通協会の会議で資金不足や法的課題への解決策を語った。"
   },
   {
    "id": "11ff46a9a047",
@@ -263,8 +534,10 @@
    "url": "https://deepmind.google/models/gemini/",
    "published": "2026-10-13T16:03+00:00",
    "published_jst": "2026-10-14 01:03",
-   "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 591 # Comments: 476",
-   "ai_related": true
+   "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 740 # Comments: 593",
+   "ai_related": true,
+   "title_ja": "Gemini 4 Argon",
+   "summary_ja": "ロボット向けGemini 4 Argonに関する情報と、Hacker Newsの議論やコメントを紹介する。"
   },
   {
    "id": "c1e94fc83136",
@@ -277,7 +550,9 @@
    "published": "2026-10-13T16:00+00:00",
    "published_jst": "2026-10-14 01:00",
    "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Gemini 4 Argon：最難関の課題を解決するために開発",
+   "summary_ja": "最新の最先端モデルであるGemini 4 Argonを、開発者、企業、研究者、一般ユーザー向けに提供開始。"
   },
   {
    "id": "24ef7cf40bd2",
@@ -290,7 +565,9 @@
    "published": "2026-10-13T16:00+00:00",
    "published_jst": "2026-10-14 01:00",
    "summary": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Googleが待望の「Gemini 4 Argon」を遂にリリース",
+   "summary_ja": "AI開発競争からしばらく離れていたGoogleが、業界最高峰に対抗できるとする新モデルをいよいよ発表。"
   },
   {
    "id": "caa6203fc500",
@@ -303,7 +580,9 @@
    "published": "2026-10-13T16:00+00:00",
    "published_jst": "2026-10-14 01:00",
    "summary": "Developers will get 50 percent discounted API rates through November.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Gemini 4 ArgonがアプリとAntigravityで展開開始（有料のみ）",
+   "summary_ja": "開発者向けには11月までAPI利用料が50%割引される。"
   },
   {
    "id": "8c17f1f1ac30",
@@ -315,8 +594,10 @@
    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
    "published": "2026-10-13T15:49+00:00",
    "published_jst": "2026-10-14 00:49",
-   "summary": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 205 # Comments: 162",
-   "ai_related": true
+   "summary": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 339 # Comments: 324",
+   "ai_related": true,
+   "title_ja": "Anthropicにおけるソース管理の再設計",
+   "summary_ja": "Anthropicのエンジニアリングブログによる、ソース管理システムの再設計に関する記事と議論の紹介。"
   },
   {
    "id": "c1e09f31b958",
@@ -345,6 +626,21 @@
    "ai_related": true,
    "title_ja": "買収手続がなければCharacter.aiが消滅へ、破産法適用で",
    "summary_ja": "Character.aiが破産を申請し買収先を模索中。買い手がつかなければプラットフォームは閉鎖される。"
+  },
+  {
+   "id": "633e14f60020",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+   "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+   "published": "2026-10-13T15:25+00:00",
+   "published_jst": "2026-10-14 00:25",
+   "summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 186 # Comments: 112",
+   "ai_related": true,
+   "title_ja": "HNへの投稿直後、自分のサイトがAIボットのトラフィックで急増",
+   "summary_ja": "Hacker Newsに記事を投稿したところ、大量のAIボットによるアクセスがサイトに殺到した体験談。"
   },
   {
    "id": "1acd025aeb34",
@@ -402,7 +698,9 @@
    "published": "2026-10-13T14:37+00:00",
    "published_jst": "2026-10-13 23:37",
    "summary": "Packaged regional jobs would give builders and investors certainty to deliver 250-centre programme",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Wates社、NHSの保健センター建設で1億ポンド規模を一括発注要請",
+   "summary_ja": "地域ごとの一括発注により、建設業者や投資家に確実性をもたせ、250箇所のセンター建設を推進する。"
   },
   {
    "id": "083eb6d9e76f",
@@ -445,7 +743,9 @@
    "published": "2026-10-13T13:52+00:00",
    "published_jst": "2026-10-13 22:52",
    "summary": "Living division boss steps up in January as Paul Burton retains chairman role",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Briggs & Forrester社、新CEOにベネデッティ氏を起用",
+   "summary_ja": "リビング部門のトップが1月に昇格し、ポール・バートン氏は会長職を継続する。"
   },
   {
    "id": "ca06a4e7439a",
@@ -533,7 +833,9 @@
    "published": "2026-10-13T13:13+00:00",
    "published_jst": "2026-10-13 22:13",
    "summary": "Eastleigh Council targets 2027 start on 192-home Kings Copse scheme",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ハンプシャー州の6,000万ポンド規模の住宅事業で施工業者を募集",
+   "summary_ja": "イーストレー・カウンシルは、192戸のキングス・コプス計画について2027年の着工を目指す。"
   },
   {
    "id": "937f5d7a38c1",
@@ -562,21 +864,6 @@
    "ai_related": true,
    "title_ja": "Amex、AIエージェントの不正購入を防ぐ仕組みを導入",
    "summary_ja": "ユーザーが承認した取引のみを実行させ、AIショッピング普及に伴うトラブルや誤作動を防ぐ。"
-  },
-  {
-   "id": "fa1d998e852e",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Apple launches HomeView, its first smart display for the home",
-   "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
-   "published": "2026-10-13T13:00+00:00",
-   "published_jst": "2026-10-13 22:00",
-   "summary": "It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I got a first look at the device in New York City this week, and it's gorgeous. The HomeView puts a small, vibrant screen atop a speaker base for taking video calls, beautifully displaying photos, and providing i",
-   "ai_related": true,
-   "title_ja": "Apple、初の家庭用スマートディスプレイ「HomeView」発表",
-   "summary_ja": "噂されていたApple製のスマートディスプレイがついに登場。鮮やかな画面を備えた魅力的な端末。"
   },
   {
    "id": "54d9c64a7bcd",
@@ -619,7 +906,9 @@
    "published": "2026-10-13T12:00+00:00",
    "published_jst": "2026-10-13 21:00",
    "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Higgsfield、AI動画の生成時間を1分から10分超へ拡張",
+   "summary_ja": "GPT-6 Astraなどにより、クリエイター向けに長時間の動画や精密なビジュアル、音声制作への道筋を提供する。"
   },
   {
    "id": "1001bd550953",
@@ -650,21 +939,6 @@
    "ai_related": false
   },
   {
-   "id": "83d77d99f132",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Briggs & Forrester appoints new chief executive in leadership shake-up",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/briggs-forrester-appoints-new-chief-executive-in-leadership-shake-up-13-10-2026/",
-   "published": "2026-10-13T11:48+00:00",
-   "published_jst": "2026-10-13 20:48",
-   "summary": "Mechanical and electrical (M&E) contractor Briggs & Forrester has appointed Duncan Benedetti as its next group chief executive, replacing Paul Burton from 1 January next year. Burton will step down as chief executive but remain as chairman of the group, which will mark its 80th… The post Briggs & Fo",
-   "ai_related": false,
-   "title_ja": "ブリッグス＆フォレスター、経営陣刷新で新CEOを発表",
-   "summary_ja": "次期グループCEOにダンカン・ベネデッティ氏を起用し、ポール・バートン氏は来年1月に退任する。"
-  },
-  {
    "id": "b135a70ae445",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -678,81 +952,6 @@
    "ai_related": true
   },
   {
-   "id": "6ae12ce17986",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Industry warns of dangers of slashing heat pump subsidy",
-   "url": "https://www.constructionnews.co.uk/government/industry-warns-of-dangers-of-slashing-heat-pump-subsidy-13-10-2026/",
-   "published": "2026-10-13T11:45+00:00",
-   "published_jst": "2026-10-13 20:45",
-   "summary": "Scaling back a major sustainable-heating subsidy would be a big blow for contractors and consumers, key figures have warned. Reports this week suggested the government could slash funding to the Boiler Upgrade Scheme in a bid to find more cash for defence. The sustainable-heating initiative… The pos",
-   "ai_related": false,
-   "title_ja": "ヒートポンプ補助金の大幅削減に業界団体が危険性を警告",
-   "summary_ja": "環境配慮型の暖房補助金の縮小は、施工業者や消費者にとって大きな打撃になると主要関係者が警告した。"
-  },
-  {
-   "id": "9ec7220f3051",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "London council ends dispute with McLaren",
-   "url": "https://www.constructionnews.co.uk/legal/london-council-ends-dispute-with-mclaren-13-10-2026/",
-   "published": "2026-10-13T11:45+00:00",
-   "published_jst": "2026-10-13 20:45",
-   "summary": "A London council has said it has resolved a dispute with McLaren Construction over the power supply at a high-rise development, after adjudication. Earlier this year, Barking and Dagenham Council said it was pursuing the contractor over what it said was a failure to meet… The post London council end",
-   "ai_related": false,
-   "title_ja": "ロンドンの自治体、マクラーレンとの紛争を解決",
-   "summary_ja": "高層ビル開発の電源供給を巡りマクラーレン・コンストラクションとの間で続いていた紛争が解決した。"
-  },
-  {
-   "id": "18d5ee1357a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Trevor Steven urges more tier ones to join mental health initiative",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/mind-matters/trevor-steven-calls-on-more-tier-ones-to-join-mental-health-initiative-13-10-2026/",
-   "published": "2026-10-13T11:45+00:00",
-   "published_jst": "2026-10-13 20:45",
-   "summary": "Former England footballer Trevor Steven has told Construction News about his desire to effect a culture change in the construction industry. The midfielder, who played alongside Gary Lineker in the iconic 1986 World Cup in Mexico, has spent the past seven years dedicated to mental… The post Trevor S",
-   "ai_related": false,
-   "title_ja": "トレヴァー・スティーヴン氏がメンタルヘルス施策への参加を要請",
-   "summary_ja": "元イングランド代表の同氏が、建設業界における文化変革を実現したいという熱意を語った。"
-  },
-  {
-   "id": "3f78c8148a48",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Costain to continue seeking ability to make ‘political donations’",
-   "url": "https://www.constructionnews.co.uk/contractors/costain/costain-to-continue-seeking-ability-to-make-political-donations-13-10-2026/",
-   "published": "2026-10-13T11:45+00:00",
-   "published_jst": "2026-10-13 20:45",
-   "summary": "Costain has said it will continue to seek permission to make political donations each year despite a shareholder rebellion earlier in May. At its annual general meeting (AGM) in May, 20.6 per cent of the firm's shareholders which voted on the day voted against the… The post Costain to continue seeki",
-   "ai_related": false,
-   "title_ja": "Costain、政治献金の承認取得を継続へ",
-   "summary_ja": "Costainは、5月の株主の反発にもかかわらず、今後も毎年政治献金の許可を求めていく方針を示した。"
-  },
-  {
-   "id": "c97b79e464ac",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wates pitches £100m-plus regional batches for NHS health centres",
-   "url": "https://www.constructionnews.co.uk/buildings/wates-pitches-100m-plus-regional-batches-for-nhs-health-centres-13-10-2026/",
-   "published": "2026-10-13T11:29+00:00",
-   "published_jst": "2026-10-13 20:29",
-   "summary": "Neighbourhood health centre construction projects should be grouped geographically into portfolios worth more than £100m to streamline procurement and approvals, a new report has recommended. The joint white paper from contractor Wates and NHS England said centres could be batched by geography or in",
-   "ai_related": false,
-   "title_ja": "Wates、NHS医療センター向けに1億ポンド超の地域一括発注を提案",
-   "summary_ja": "調達や承認を効率化するため、地域医療センターの建設案件を1億ポンド超のポートフォリオごとにグループ化すべきだという報告書が発表された。"
-  },
-  {
    "id": "0f8702d20d78",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -762,7 +961,7 @@
    "url": "https://eg2.haku.sh/",
    "published": "2026-10-13T11:27+00:00",
    "published_jst": "2026-10-13 20:27",
-   "summary": "Article URL: https://eg2.haku.sh/ Comments URL: https://news.ycombinator.com/item?id=50069971 Points: 337 # Comments: 80",
+   "summary": "Article URL: https://eg2.haku.sh/ Comments URL: https://news.ycombinator.com/item?id=50069971 Points: 358 # Comments: 81",
    "ai_related": true,
    "title_ja": "EmbeddingGemma 2を音声認識モデルに改造",
    "summary_ja": "この記事のURLやHacker Newsでのコメント、ポイント、コメント数などの情報が掲載されています。"
@@ -811,21 +1010,6 @@
    "ai_related": true,
    "title_ja": "小型AIモデルが日常デバイスへ自己複製する危険性、Anthropicが警告",
    "summary_ja": "スマートテレビやロボット掃除機など、セキュリティが脆弱な消費者向けデバイス上で、小型AIモデルが数か月以内に独自に拡散する可能性があるとAnthropicの調査が警告している。"
-  },
-  {
-   "id": "17822a6c9063",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Character.AI files for bankruptcy",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-   "published": "2026-10-13T10:32+00:00",
-   "published_jst": "2026-10-13 19:32",
-   "summary": "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney. The company, which builds various online bots for users to chat or roleplay with, has faced mounting scrutiny and lawsuits over the safety of its chatbots",
-   "ai_related": true,
-   "title_ja": "Character.AIが破産申請",
-   "summary_ja": "生成AIブームの初期を牽引したスタートアップの一つであるCharacter.AIが破産を申請し、資産の一部をDisneyに売却することになった。"
   },
   {
    "id": "089e26be9c88",
@@ -974,7 +1158,9 @@
    "published": "2026-10-13T07:28+00:00",
    "published_jst": "2026-10-13 16:28",
    "summary": "https://www.theverge.com/ai-artificial-intelligence/1009802/... https://techcrunch.com/2026/10/13/just-5-years-in-interactiv... https://www.reuters.com/legal/litigation/characterai-files-b... https://variety.com/2026/biz/news/disney-bids-on-character-a... Comments URL: https://news.ycombinator.com/i",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Character.aiが連邦破産法第11章の適用を申請",
+   "summary_ja": "設立からわずか5年を経て、Character.aiが自発的に破産手続きを開始したことを各メディアが報道。"
   },
   {
    "id": "0a3b243e1214",
@@ -1533,151 +1719,6 @@
    "ai_related": false
   },
   {
-   "id": "c41789c5590e",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI is a tool and using it well takes skill",
-   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "published": "2026-10-12T21:40+00:00",
-   "published_jst": "2026-10-13 06:40",
-   "summary": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/ Comments URL: https://news.ycombinator.com/item?id=50063427 Points: 612 # Comments: 476",
-   "ai_related": true,
-   "title_ja": "AIは道具であり、上手に使うにはスキルが必要",
-   "summary_ja": "AIというツールを効果的に活用するためには、使いこなすための確かなスキルが求められるというブログ記事。"
-  },
-  {
-   "id": "3d54dde593e4",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "厚労省、労政審職業安定分科会地方連絡部会",
-   "url": "https://www.decn.co.jp/?p=188375",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "東京都千代田区の中央合同庁舎５号館、１６日",
-   "ai_related": false
-  },
-  {
-   "id": "6feeb3c22e91",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "経産省、ＡＩ時代のデジタルガバナンス検討会",
-   "url": "https://www.decn.co.jp/?p=188377",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "場所は非公開、１６日",
-   "ai_related": true
-  },
-  {
-   "id": "fb5e6185648a",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "全建、ブロック会議九州",
-   "url": "https://www.decn.co.jp/?p=188373",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "熊本市のホテル日航熊本、１５日",
-   "ai_related": false
-  },
-  {
-   "id": "281d4b5edf1e",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "鉄道の日",
-   "url": "https://www.decn.co.jp/?p=188363",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "１４日",
-   "ai_related": false
-  },
-  {
-   "id": "6c67ec6e5a59",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、建設マスター・建設ジュニアマスター顕彰式典・建設産業作文コンクール表彰式",
-   "url": "https://www.decn.co.jp/?p=188365",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "東京都文京区の文京シビックホール、１４日",
-   "ai_related": false
-  },
-  {
-   "id": "0ba8bfdd3b9a",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、港湾工事衛星３Ｄ測位実用化検討会",
-   "url": "https://www.decn.co.jp/?p=188367",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "東京都港区の沿岸技術研究センター、１４日",
-   "ai_related": false
-  },
-  {
-   "id": "9d8e3cccedf5",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "厚労省、労政審労働条件分科会",
-   "url": "https://www.decn.co.jp/?p=188369",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "東京都千代田区の中央合同庁舎５号館、１４日",
-   "ai_related": false
-  },
-  {
-   "id": "e1ce670734c9",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "全建、ブロック会議近畿",
-   "url": "https://www.decn.co.jp/?p=188371",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "福井市のザ・グランユアーズ福井、１４日",
-   "ai_related": false
-  },
-  {
-   "id": "d9d0b1d22c60",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、社整審環境部会・交政審交通体系分科会環境部会エネ・経済安保小委合同会議",
-   "url": "https://www.decn.co.jp/?p=188357",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "東京都千代田区の中央合同庁舎３号館、１３日",
-   "ai_related": false
-  },
-  {
-   "id": "55747a1cd03b",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、建設業のあり方検討会",
-   "url": "https://www.decn.co.jp/?p=188359",
-   "published": "2026-10-12T21:20+00:00",
-   "published_jst": "2026-10-13 06:20",
-   "summary": "東京都千代田区の商工会館、１３日",
-   "ai_related": false
-  },
-  {
    "id": "58c84add3d7a",
    "source": "日刊建設工業新聞",
    "source_id": "gnews_kensetsu_ai",
@@ -1714,6 +1755,58 @@
    "published": "2026-10-12T21:00+00:00",
    "published_jst": "2026-10-13 06:00",
    "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "be5b8308b101",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "全建／国交省に２７年度税制改正で追加要望／非上場株式の評価方法見直し凍結",
+   "url": "https://www.decn.co.jp/?p=188336",
+   "published": "2026-10-12T21:00+00:00",
+   "published_jst": "2026-10-13 06:00",
+   "summary": "全国建設業協会（全建、今井雅則会長）は９日、２０２７年度税制改正の要望書を国土交通省の須藤明夫不動産・建設経済局長に提出した。「取引相場のない株式の評価方法の見直しの凍結」を求め、適切な方式への見直しが実現するまで現行 […]",
+   "ai_related": false
+  },
+  {
+   "id": "01fb6d2f30a8",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "政府／梅雨前線豪雨から台風２５号までを激甚災害指定へ／災害復旧事業を支援",
+   "url": "https://www.decn.co.jp/?p=188338",
+   "published": "2026-10-12T21:00+00:00",
+   "published_jst": "2026-10-13 06:00",
+   "summary": "政府は、梅雨前線豪雨から台風第２５号までの一連の気象現象を激甚災害に指定する見込みを示した。公共土木施設などの災害復旧事業について、国庫補助率を引き上げる措置などを講じる。細野豪志防災担当相は９日の閣議後記者会見で、「 […]",
+   "ai_related": false
+  },
+  {
+   "id": "932e115c34a7",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "三重県／新型太陽電池の実証実験開始／ホンダ鈴鹿製作所施設に設置",
+   "url": "https://www.decn.co.jp/?p=188339",
+   "published": "2026-10-12T21:00+00:00",
+   "published_jst": "2026-10-13 06:00",
+   "summary": "三重県は８日、ＰＸＰ（相模原市中央区、栗谷川悟社長）が製造するフィルム型カルコパイライト太陽電池をホンダ鈴鹿製作所（鈴鹿市平田町１９０７）内に設置し、施工性や発電性能などを検証する実証実験を開始した。実証期間は２０２７ […]",
+   "ai_related": false
+  },
+  {
+   "id": "e007f11a4ebd",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "２６年熊本地震／熊本県／復旧・復興プラン素案公表／早期復旧と創造的復興推進",
+   "url": "https://www.decn.co.jp/?p=188341",
+   "published": "2026-10-12T21:00+00:00",
+   "published_jst": "2026-10-13 06:00",
+   "summary": "熊本県は８日、「２６年熊本地震」の復旧・復興プランの素案を公表した。「最速で目指す痛みの最小化」と「重点取り組みによる被災地の新たな創造的復興」を２本柱に、公共施設の早期復旧や防災庁の地方組織となる「防災局」の誘致など […]",
    "ai_related": false
   },
   {
@@ -2147,21 +2240,6 @@
    "summary_ja": "軍事請負企業のサロニック向けに建設される新造船所は、第二次世界大戦以降で米国初となります。"
   },
   {
-   "id": "e23d3edfa824",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bennett appointed to £132m Guildford housing scheme",
-   "url": "https://www.constructionnews.co.uk/buildings/bennett-appointed-to-132m-guildford-housing-scheme-12-10-2026/",
-   "published": "2026-10-12T13:25+00:00",
-   "published_jst": "2026-10-12 22:25",
-   "summary": "Bennett Construction has been appointed by developer Native Land to deliver the main construction phase of a £132m residential scheme in Guildford town centre. The contractor said it will take control of the 1.7-acre St Mary’s Wharf site on the banks of the River Wey,… The post Bennett appointed to ",
-   "ai_related": false,
-   "title_ja": "Bennett、1億3200万ポンドのギルフォード住宅計画の施工者に決定",
-   "summary_ja": "デベロッパーのNative Landは、Bennett Constructionをギルフォード中心部の1億3200万ポンドの住宅開発の主要施工者に選出した。"
-  },
-  {
    "id": "f89056ac7714",
    "source": "AINOW",
    "source_id": "ainow",
@@ -2231,51 +2309,6 @@
    "ai_related": true,
    "title_ja": "アマゾンのロボット従業員が100万人突破、人間の労働者の行方は",
    "summary_ja": "企業として2番目に多い従業員を抱える同社は、事業拡大に向けてロボットの導入を急速に進めています。"
-  },
-  {
-   "id": "735d21575f60",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Buckingham’s unsecured creditor claims hit £300m",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/buckinghams-unsecured-creditor-claims-hit-300m-12-10-2026/",
-   "published": "2026-10-12T11:48+00:00",
-   "published_jst": "2026-10-12 20:48",
-   "summary": "Unsecured creditors of collapsed contractor Buckingham Group Contracting have lodged claims worth £308m, with administrators warning they are unlikely to recover any money. Grant Thornton's latest progress report put the eventual total of unsecured claims at an estimated £322.9m, three years after t",
-   "ai_related": false,
-   "title_ja": "経営破綻したバッキンガムの一般債権者からの請求額が3億ポンドに到達",
-   "summary_ja": "経営破綻したバッキンガム・グループ・コントラクティングの一般債権者は3億800万ポンドの債権を申請したが、管財人は回収の見込みは薄いと警告している。"
-  },
-  {
-   "id": "ae197ff5e7f9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scams and complaints: roofing sector in the spotlight",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/scams-and-complaints-roofing-sector-in-the-spotlight-12-10-2026/",
-   "published": "2026-10-12T11:45+00:00",
-   "published_jst": "2026-10-12 20:45",
-   "summary": "Rogue roofers were behind one in 10 scams flagged to Citizens Advice in the past year, data has revealed, while quality issues from apparently genuine works were also raised regularly. The consumer advocate said it received 2,205 complaints of fraudulent activity relating to roofing activity… The po",
-   "ai_related": false,
-   "title_ja": "悪質業者が横行、屋根工事のトラブルが急増",
-   "summary_ja": "過去1年間、市民相談窓口に寄せられた詐欺の10件に1件が悪質な屋根業者によるもので、正規業者による施工品質の問題も相次いでいることがデータで明らかになった。"
-  },
-  {
-   "id": "ec19ebc2c0a5",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Former Saint-Gobain sales director loses unfair dismissal claim",
-   "url": "https://www.constructionnews.co.uk/legal/former-saint-gobain-sales-director-loses-unfair-dismissal-claim-12-10-2026/",
-   "published": "2026-10-12T11:45+00:00",
-   "published_jst": "2026-10-12 20:45",
-   "summary": "A former Saint-Gobain sales director has lost his unfair dismissal claim after he was fired following allegations of sexual harassment. Gary Postle was dismissed for gross misconduct in May 2025 after nearly 30 years with materials business Saint-Gobain Construction Products UK Ltd. Employment Judge",
-   "ai_related": false,
-   "title_ja": "セイント・ゴバンの元販売部長、不当解雇の訴えを棄択",
-   "summary_ja": "セイント・ゴバンの元販売部長が、セクハラ疑惑により解雇された件で不当解雇の訴えを起こしたが敗訴した。ゲイリー・ポストル氏は約30年勤務した後、2025年5月に重大な不正行為で解雇された。"
   },
   {
    "id": "5da3c8dd624b",
@@ -2602,45 +2635,6 @@
    "ai_related": true,
    "title_ja": "HomeViewはApple初のスマート家電成功作となるか",
    "summary_ja": "Appleが開発を進めてきた新型スマートホーム製品について、名称と発売時期が明らかになったようだ。"
-  },
-  {
-   "id": "b86f196d9396",
-   "source": "施工の神様",
-   "source_id": "sekokan_navi",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【マンガ】解体屋ゲン #860 第856話 ゲンが漫画に！？（前編）",
-   "url": "https://sekokan-navi.jp/magazine/87821",
-   "published": "2026-10-11T21:00+00:00",
-   "published_jst": "2026-10-12 06:00",
-   "summary": "次のページ The post 【マンガ】解体屋ゲン #860 第856話 ゲンが漫画に！？（前編） first appeared on 施工の神様 .",
-   "ai_related": false
-  },
-  {
-   "id": "bb68ed307e68",
-   "source": "日本経済新聞",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ワンストラクション西岡CEO、配属ガチャを糧に 建設DXで世界へ",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lUzBZRlNFVlJUcWVzYUZKdzBPZjJOTHFrZzlNT1U5S0lzLUhQY1ZlRnJPaVZpa3JZcndoZk1IMk1lSGcwUlEwT0ZmaDZOY0MyNTJUcXpNWkE0QVlzV01iQ3dOR2FrY0dCdVh5TQ?oc=5",
-   "published": "2026-10-11T21:00+00:00",
-   "published_jst": "2026-10-12 06:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "0d25cd4fe375",
-   "source": "ダイヤモンド・オンライン",
-   "source_id": "gnews_zenecon_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設78社】最強「オーナー企業」ランキング！10位東建コーポレーション、4位戸田建設、2位大林組、1位はあのスーパーゼネコン",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiRy1DX0IzUV92Rl9UTUdCSTBZRi1ueXVJZjFYTURyWFhmUTVmT0lNSnNrTnRqajFDV2JENWk3eXV0U0FMY05fY2E5TlpIQm_SAU9BVV95cUxQYkctQ19CM1FfdkZfVE1HQkkwWUYtbnl1SWYxWE1EclhYZlE1Zk9JTUpza050amoxQ1diRDVpN3l1dFNBTGNOX2NhOU5aSEJv?oc=5",
-   "published": "2026-10-11T19:55+00:00",
-   "published_jst": "2026-10-12 04:55",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
