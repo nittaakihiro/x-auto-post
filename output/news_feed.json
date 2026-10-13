@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-13T23:17+00:00",
- "generated_at_jst": "2026-10-14 08:17",
+ "generated_at": "2026-10-13T23:26+00:00",
+ "generated_at_jst": "2026-10-14 08:26",
  "window_hours": 48,
  "counts": {
   "ai_global": 69,
@@ -9,6 +9,10 @@
   "construction_global": 35
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -215,6 +219,19 @@
    "ai_related": false
   },
   {
+   "id": "082a179fcd58",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+   "published": "2026-10-13T20:45+00:00",
+   "published_jst": "2026-10-14 05:45",
+   "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral commu",
+   "ai_related": true
+  },
+  {
    "id": "41d15466fa73",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -239,7 +256,7 @@
    "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
    "published": "2026-10-13T20:23+00:00",
    "published_jst": "2026-10-14 05:23",
-   "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 246 # Comments: 237",
+   "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 313 # Comments: 269",
    "ai_related": true
   },
   {
@@ -282,6 +299,19 @@
    "ai_related": false
   },
   {
+   "id": "3d43eac80e94",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "溶接不良3万カ所弱の淀川橋梁、架け替え完了3年遅れ／三菱地所の木造施設、都心に11棟のCLT建築／リニア談合で大成・鹿島の有罪確定",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45Q3FJWGR0dVRHdHpPbnlxSUo3TXBBU2hWSVQ1Yzh3MXJ1dVFMUUczaEJaalpoSVFYYXhHM2lrTUJfSkdvdDBYYWFQanhuQ0NmT1ZZYUFwREZiLXhYbXlSMXhGSmZRSHpKbVE?oc=5",
+   "published": "2026-10-13T20:00+00:00",
+   "published_jst": "2026-10-14 05:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "c29365b4d195",
    "source": "日経クロステック",
    "source_id": "gnews_kensetsu_ai",
@@ -295,16 +325,42 @@
    "ai_related": false
   },
   {
-   "id": "3d43eac80e94",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
+   "id": "819b121af8ac",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "溶接不良3万カ所弱の淀川橋梁、架け替え完了3年遅れ／三菱地所の木造施設、都心に11棟のCLT建築／リニア談合で大成・鹿島の有罪確定",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45Q3FJWGR0dVRHdHpPbnlxSUo3TXBBU2hWSVQ1Yzh3MXJ1dVFMUUczaEJaalpoSVFYYXhHM2lrTUJfSkdvdDBYYWFQanhuQ0NmT1ZZYUFwREZiLXhYbXlSMXhGSmZRSHpKbVE?oc=5",
-   "published": "2026-10-13T20:00+00:00",
-   "published_jst": "2026-10-14 05:00",
-   "summary": "",
+   "title": "荒川区本庁舎/延期含め見直し検討/41年竣工で整備費570億円",
+   "url": "https://www.kensetsunews.com/archives/1295782",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "東京都荒川区は、本庁舎建て替えについて、延期を含めたスケジュールの見直しを検討する。小中学校の建て… The post 荒川区本庁舎/延期含め見直し検討/41年竣工で整備費570億円 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "5082ac492633",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "新たな温浴棟を増築/ふるさと交流館再整備で基本計画案/別海町",
+   "url": "https://www.kensetsunews.com/archives/1295820",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "別海町は、別海町ふるさと交流館再整備の基本計画・基本設計（案）をまとめた。現在の温浴機能に加え、宿… The post 新たな温浴棟を増築/ふるさと交流館再整備で基本計画案/別海町 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "60eaaf96bf7e",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "浜松市/11月4日まで2件受付/アクトシティ浜松Aゾーン改修",
+   "url": "https://www.kensetsunews.com/archives/1295877",
+   "published": "2026-10-13T19:55+00:00",
+   "published_jst": "2026-10-14 04:55",
+   "summary": "浜松市は１３日、「令和８年度アクトシティ浜松Ａゾーン改修工事（大・中ホール建築工事）」「同（外部及… The post 浜松市/11月4日まで2件受付/アクトシティ浜松Aゾーン改修 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -360,55 +416,16 @@
    "ai_related": false
   },
   {
-   "id": "819b121af8ac",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "荒川区本庁舎/延期含め見直し検討/41年竣工で整備費570億円",
-   "url": "https://www.kensetsunews.com/archives/1295782",
-   "published": "2026-10-13T19:55+00:00",
-   "published_jst": "2026-10-14 04:55",
-   "summary": "東京都荒川区は、本庁舎建て替えについて、延期を含めたスケジュールの見直しを検討する。小中学校の建て… The post 荒川区本庁舎/延期含め見直し検討/41年竣工で整備費570億円 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "5082ac492633",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "新たな温浴棟を増築/ふるさと交流館再整備で基本計画案/別海町",
-   "url": "https://www.kensetsunews.com/archives/1295820",
-   "published": "2026-10-13T19:55+00:00",
-   "published_jst": "2026-10-14 04:55",
-   "summary": "別海町は、別海町ふるさと交流館再整備の基本計画・基本設計（案）をまとめた。現在の温浴機能に加え、宿… The post 新たな温浴棟を増築/ふるさと交流館再整備で基本計画案/別海町 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "60eaaf96bf7e",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "浜松市/11月4日まで2件受付/アクトシティ浜松Aゾーン改修",
-   "url": "https://www.kensetsunews.com/archives/1295877",
-   "published": "2026-10-13T19:55+00:00",
-   "published_jst": "2026-10-14 04:55",
-   "summary": "浜松市は１３日、「令和８年度アクトシティ浜松Ａゾーン改修工事（大・中ホール建築工事）」「同（外部及… The post 浜松市/11月4日まで2件受付/アクトシティ浜松Aゾーン改修 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "471508c04c30",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
+   "id": "c839b9474fae",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
    "category": "ai_global",
    "lang": "en",
-   "title": "Developing Gemini 4 Argon responsibly and safely",
-   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-   "published": "2026-10-13T19:43+00:00",
-   "published_jst": "2026-10-14 04:43",
-   "summary": "",
+   "title": "Shopify opens its catalog up to more AI agents",
+   "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+   "published": "2026-10-13T19:42+00:00",
+   "published_jst": "2026-10-14 04:42",
+   "summary": "More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf, giving more agents access to over a billion ",
    "ai_related": true
   },
   {
@@ -539,7 +556,7 @@
    "url": "https://www.constructiondive.com/news/dot-funding-construction-marriage-birth-rates/832874/",
    "published": "2026-10-13T17:38+00:00",
    "published_jst": "2026-10-14 02:38",
-   "summary": "The Federal Transit Authority has published new guidance on the demographic factors proposed in early 2025 to determine the share of a project DOT covers.",
+   "summary": "The Federal Transit Authority has published new guidance on the demographic factors proposed in early 2025 to determine the share of a project DOT pays for.",
    "ai_related": false,
    "title_ja": "運輸省、新設工事費の補助金を婚姻・出生率に連動させる方針を推進",
    "summary_ja": "連邦交通局は、プロジェクトへの資金配分を決める人口統計学的要因について新しいガイダンスを公表した。"
@@ -650,12 +667,25 @@
    "summary_ja": "AIによって個人向けに作られたアプリの一般向けリリースを支援する計画を進めている。"
   },
   {
+   "id": "c64515c7bf52",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini 4 Argon for Robotics",
+   "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+   "published": "2026-10-13T16:55+00:00",
+   "published_jst": "2026-10-14 01:55",
+   "summary": "Main thread: Gemini 4 Argon - https://news.ycombinator.com/item?id=50073879 Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 171 # Comments: 40",
+   "ai_related": true
+  },
+  {
    "id": "e8881f4e9b5e",
    "source": "The Verge AI",
    "source_id": "verge_ai",
    "category": "ai_global",
    "lang": "en",
-   "title": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+   "title": "It’s ‘incomprehensible’ that Instagram allowed an AI image of Mia Goth to spread, say her reps",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
    "published": "2026-10-13T16:42+00:00",
    "published_jst": "2026-10-14 01:42",
@@ -704,35 +734,22 @@
    "url": "https://deepmind.google/models/gemini/",
    "published": "2026-10-13T16:03+00:00",
    "published_jst": "2026-10-14 01:03",
-   "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 870 # Comments: 681",
+   "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 884 # Comments: 691",
    "ai_related": true,
    "title_ja": "Gemini 4 Argon",
    "summary_ja": "ロボット向けGemini 4 Argonに関する情報と、Hacker Newsの議論やコメントを紹介する。"
   },
   {
-   "id": "884ebf3c3978",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini 4 Argon for Robotics",
-   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "published": "2026-10-13T16:01+00:00",
-   "published_jst": "2026-10-14 01:01",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "f174716114a9",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
+   "id": "c1e94fc83136",
+   "source": "Google AI Blog",
+   "source_id": "google_ai",
    "category": "ai_global",
    "lang": "en",
    "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-   "published": "2026-10-13T16:01+00:00",
-   "published_jst": "2026-10-14 01:01",
-   "summary": "",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "published": "2026-10-13T16:00+00:00",
+   "published_jst": "2026-10-14 01:00",
+   "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
    "ai_related": true
   },
   {
@@ -803,7 +820,7 @@
    "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
    "published": "2026-10-13T15:25+00:00",
    "published_jst": "2026-10-14 00:25",
-   "summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 216 # Comments: 139",
+   "summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 222 # Comments: 139",
    "ai_related": true,
    "title_ja": "HNへの投稿直後、自分のサイトがAIボットのトラフィックで急増",
    "summary_ja": "Hacker Newsに記事を投稿したところ、大量のAIボットによるアクセスがサイトに殺到した体験談。"
@@ -987,19 +1004,6 @@
    "summary_ja": "ユーザーが承認した取引のみを実行させ、AIショッピング普及に伴うトラブルや誤作動を防ぐ。"
   },
   {
-   "id": "fa1d998e852e",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Apple launches HomeView, its first smart display for the home",
-   "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
-   "published": "2026-10-13T13:00+00:00",
-   "published_jst": "2026-10-13 22:00",
-   "summary": "It's finally here: Apple's long-rumored smart display, the Apple HomeView, has arrived. I got a first look at the device in New York City this week, and it's gorgeous. The HomeView puts a small, vibrant screen atop a speaker base for taking video calls, beautifully displaying photos, and providing i",
-   "ai_related": true
-  },
-  {
    "id": "54d9c64a7bcd",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1173,7 +1177,7 @@
    "url": "https://eg2.haku.sh/",
    "published": "2026-10-13T11:27+00:00",
    "published_jst": "2026-10-13 20:27",
-   "summary": "Article URL: https://eg2.haku.sh/ Comments URL: https://news.ycombinator.com/item?id=50069971 Points: 373 # Comments: 82",
+   "summary": "Article URL: https://eg2.haku.sh/ Comments URL: https://news.ycombinator.com/item?id=50069971 Points: 377 # Comments: 84",
    "ai_related": true,
    "title_ja": "EmbeddingGemma 2を音声認識モデルに改造",
    "summary_ja": "この記事のURLやHacker Newsでのコメント、ポイント、コメント数などの情報が掲載されています。"
@@ -1222,19 +1226,6 @@
    "ai_related": true,
    "title_ja": "小型AIモデルが日常デバイスへ自己複製する危険性、Anthropicが警告",
    "summary_ja": "スマートテレビやロボット掃除機など、セキュリティが脆弱な消費者向けデバイス上で、小型AIモデルが数か月以内に独自に拡散する可能性があるとAnthropicの調査が警告している。"
-  },
-  {
-   "id": "17822a6c9063",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Character.AI files for bankruptcy",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-   "published": "2026-10-13T10:32+00:00",
-   "published_jst": "2026-10-13 19:32",
-   "summary": "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney. The company, which builds various online bots for users to chat or roleplay with, has faced mounting scrutiny and lawsuits over the safety of its chatbots",
-   "ai_related": true
   },
   {
    "id": "089e26be9c88",
@@ -2543,19 +2534,6 @@
    "summary_ja": "企業として2番目に多い従業員を抱える同社は、事業拡大に向けてロボットの導入を急速に進めています。"
   },
   {
-   "id": "de66ef25dc6f",
-   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "VivoPowerがノルウェーで40MWのAIデータセンター建設を開始 執筆",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIYnFtTlpMQ1Bsc3hxeDM1VnY4b3JGTThOeE0yemNRRXhCUmQ1djZpNGMtbDZkQlQ1SU9YMDBvbS02eTlQOFRNcG9JUGVEZWVCNml1eV9KVndBQWQ0VkJIMFQtbnowSW5XS2JPMFlZaF8?oc=5",
-   "published": "2026-10-12T12:21+00:00",
-   "published_jst": "2026-10-12 21:21",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "c96bf2b9aa4e",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -2772,6 +2750,32 @@
    "published_jst": "2026-10-12 15:09",
    "summary": "Neighbouring counties launch long-term roads tenders with bids due on 19 November",
    "ai_related": false
+  },
+  {
+   "id": "c514768487e5",
+   "source": "ITmedia",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "東京建物のビル管理拠点に「管理ロイド」と「ナレッジAI」導入、設備管理の属人化を脱却：次世代のスマートビル",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zVUxpYUk2bmtUMWVQbVExc2dKSFlsYjVsdWJPTjlMVzFLZTZ1N045U1d6ajRMRl83ZkdaY1Jyc0NGRUU5ejM0YW8wbUs3dmd0NUF0RDBRbFRESDhwcFVCQnJRLXJ1Qk9FQ3FhLQ?oc=5",
+   "published": "2026-10-12T05:00+00:00",
+   "published_jst": "2026-10-12 14:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "59e7fc14e8c1",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "datasette-ports 0.4",
+   "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+   "published": "2026-10-12T04:57+00:00",
+   "published_jst": "2026-10-12 13:57",
+   "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette",
+   "ai_related": true
   }
  ]
 }
