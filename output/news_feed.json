@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-13T10:40+00:00",
- "generated_at_jst": "2026-10-13 19:40",
+ "generated_at": "2026-10-13T12:12+00:00",
+ "generated_at_jst": "2026-10-13 21:12",
  "window_hours": 48,
  "counts": {
-  "construction_global": 30,
   "ai_global": 43,
-  "construction_japan": 63,
-  "ai_japan": 31
+  "ai_japan": 30,
+  "construction_global": 20,
+  "construction_japan": 62
  },
  "errors": [
   {
@@ -14,11 +14,54 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "1001bd550953",
+   "source": "NVIDIA Blog",
+   "source_id": "nvidia",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+   "published": "2026-10-13T12:00+00:00",
+   "published_jst": "2026-10-13 21:00",
+   "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and […",
+   "ai_related": true
+  },
+  {
+   "id": "b135a70ae445",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "無料で7種類の超小型AIモデルをブラウザで動かせる「MicroLLM lab」、WebGPUで端末のGPUを活用",
+   "url": "https://gigazine.net/news/20261013-microllm-lab-browser-webgpu/",
+   "published": "2026-10-13T11:45+00:00",
+   "published_jst": "2026-10-13 20:45",
+   "summary": "Hugging Faceの「SmolLM2」やOpenAIの「GPT-2」など、7種類の小型AIモデルをブラウザ上で実行できる無料のウェブアプリ「MicroLLM lab」が公開されています。自分のPCやスマートフォンでモデルの回答と生成速度を比べ、小型AIを使う際のモデル選びに役立てられます。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "fb9c9be4e3e9",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic says it cut Claude reasoning token theft by up to 99% in fight against industrial-scale distillation",
+   "url": "https://the-decoder.com/anthropic-says-it-cut-claude-reasoning-token-theft-by-up-to-99-in-fight-against-industrial-scale-distillation/",
+   "published": "2026-10-13T11:06+00:00",
+   "published_jst": "2026-10-13 20:06",
+   "summary": "Anthropic says it has cut the extraction of Claude's internal reasoning tokens by 90 to 99 percent. The company links the large-scale distillation attacks to Chinese companies Zhipu and Moonshot, and has already banned tens of thousands of accounts. The article Anthropic says it cut Claude reasoning",
+   "ai_related": true
+  },
   {
    "id": "1623a2507faf",
    "source": "PBC Today (UK)",
@@ -72,15 +115,15 @@
    "ai_related": true
   },
   {
-   "id": "7b2a16438419",
-   "source": "Yahoo!ニュース",
+   "id": "1e6699006cb4",
+   "source": "TBS NEWS DIG",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "米中間選挙で“データセンター”が争点に AI推進のトランプ大統領は「金の卵を産むガチョウ」と建設後押しも住民から反対の声高まる（TBS NEWS DIG Powered by JNN）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aMFBFeGt5TURra2pEWWFRdjJpa2pIZHU0aW04WlFobnozdy1qVGZXQzBWckFkN01ORC1GWGkzSDBpeGFSQ1JGSXpLdFFNTGV2MWJYVVAtU2dBN3ktRUV1QjY3S1RqVGRnbm1vbU8zSl9FdWVDbEtBbTM5Ql9STlk?oc=5",
-   "published": "2026-10-13T09:37+00:00",
-   "published_jst": "2026-10-13 18:37",
+   "title": "米中間選挙で“データセンター”が争点に AI推進のトランプ大統領は「金の卵を産むガチョウ」と建設後押しも住民から反対の声高まる",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pVDl0TEl6YXpBNUhIYVoxLTdKNHdiY1VidTBYem1xYXdqblExOEhYeGZST0stNWl6OU9WZDdEMExSWElKQTBiZDdLV1pjZVJoNENkOGY1N1lJZWM5QXhWdkFuaDBhVmJ1MGpuQXhPQ181ckJF?oc=5",
+   "published": "2026-10-13T09:43+00:00",
+   "published_jst": "2026-10-13 18:43",
    "summary": "",
    "ai_related": false
   },
@@ -96,6 +139,19 @@
    "published_jst": "2026-10-13 18:24",
    "summary": "SB Intuitionsは10月13日、国産生成AI「Sarashina」を試せる「Sarashinaサービス」の無償β版の提供を始めた。Googleアカウントでログインするだけで、6つのAIモデルのAPIとチャット機能を無料で使える。",
    "ai_related": true
+  },
+  {
+   "id": "ba6e50ff8ee8",
+   "source": "施工の神様",
+   "source_id": "sekokan_navi",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【施工管理求人ナビが建設業界のお昼休憩事情を徹底調査！】「何してる？どこで・誰と過ごす？」みんなのリアルを大募集",
+   "url": "https://sekokan-navi.jp/magazine/87644",
+   "published": "2026-10-13T09:20+00:00",
+   "published_jst": "2026-10-13 18:20",
+   "summary": "いつも『施工の神様』をご覧いただいている皆さん、今日もお疲れ様です！ 「お昼休憩は一人で静かに過ごしたい」「現場近くの美味い店を開拓するのが楽しみ」「ぶっちゃけ昼休みも仕事のことばかり考えてしまう……」など、お昼休憩の過... The post 【施工管理求人ナビが建設業界のお昼休憩事情を徹底調査！】「何してる？どこで・誰と過ごす？」みんなのリアルを大募集 first appeared on 施工の神様 .",
+   "ai_related": false
   },
   {
    "id": "505c06765620",
@@ -124,13 +180,13 @@
    "ai_related": true
   },
   {
-   "id": "ad5aadeaeff2",
+   "id": "0e13af45b10a",
    "source": "朝日新聞",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "アンソロピック、大阪にAIデータセンター建設へ NTTと協議",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03dTVqQ21zSTl6TTZ1cmFZbzlBZXgzRFdxYnZWV2trTy10c3NOeml3WmNadTNVaENRbUNUbWRNTGdDVDk0eWFYSGxpNG5la19NN2lKR2NCeEZpMzhCSGtnYWpvaFNwVGlTWlNzdld2cWJLTjd3MWIyUQ?oc=5",
+   "title": "アンソロピック、大阪にAIデータセンター建設へ NTTと協議 [大阪府]",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41RkppdjNfTkVneUd4MGpnTjJEV0JueG1nQU0yS0hmTG44eWc1V0NGUkE4dEx1VmVlV1Nmd3F3M1d0Vm9uWTdyVEN3ejZUTGxrLWVxM19HWk9rQnUtb3hnM3JybzdVNFE?oc=5",
    "published": "2026-10-13T08:50+00:00",
    "published_jst": "2026-10-13 17:50",
    "summary": "",
@@ -360,13 +416,13 @@
    "ai_related": false
   },
   {
-   "id": "9eacdc2a4085",
-   "source": "Howl.link",
+   "id": "31483420e2c2",
+   "source": "valuepress",
    "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "AI機能を強化した積算見積、機械設備配管・空調ダクト工事版「クラウドエスティメイト」リリースのご案内",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1sUHpIN2NXbm50RExacVdBZF9DUWoxQXdLa3I2UDRucGJpNzVqQkN6QW9taDVhRTdnbnZz?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5iY3NoTEFYMG1FRWxDVnR1MzZuX2NvWUt1ZS1oeENpelJ5UnNGSUhTbG1rVG9vNkJHOE8zdnJBVEREVHFiMVpsbzl1bmRBZkhsN09jR1R2andFakpWeGc?oc=5",
    "published": "2026-10-13T04:00+00:00",
    "published_jst": "2026-10-13 13:00",
    "summary": "",
@@ -464,6 +520,19 @@
    "ai_related": true
   },
   {
+   "id": "411a156b713b",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+   "url": "https://www.argmin.net/p/faster-fourier-transforms",
+   "published": "2026-10-13T02:46+00:00",
+   "published_jst": "2026-10-13 11:46",
+   "summary": "Article URL: https://www.argmin.net/p/faster-fourier-transforms Comments URL: https://news.ycombinator.com/item?id=50065932 Points: 171 # Comments: 110",
+   "ai_related": true
+  },
+  {
    "id": "27ca7ded4769",
    "source": "매일경제",
    "source_id": "gnews_kensetsu_ai",
@@ -525,7 +594,7 @@
    "url": "https://arxiv.org/abs/2610.13928",
    "published": "2026-10-13T02:07+00:00",
    "published_jst": "2026-10-13 11:07",
-   "summary": "Article URL: https://arxiv.org/abs/2610.13928 Comments URL: https://news.ycombinator.com/item?id=50065692 Points: 211 # Comments: 108",
+   "summary": "Article URL: https://arxiv.org/abs/2610.13928 Comments URL: https://news.ycombinator.com/item?id=50065692 Points: 226 # Comments: 112",
    "ai_related": true
   },
   {
@@ -672,6 +741,19 @@
    "ai_related": true
   },
   {
+   "id": "9ca2bcd34e54",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+   "url": "https://github.com/prabanta-dev/janas",
+   "published": "2026-10-12T22:05+00:00",
+   "published_jst": "2026-10-13 07:05",
+   "summary": "Article URL: https://github.com/prabanta-dev/janas Comments URL: https://news.ycombinator.com/item?id=50063717 Points: 164 # Comments: 58",
+   "ai_related": true
+  },
+  {
    "id": "f117d27ca28a",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -746,7 +828,7 @@
    "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
    "published": "2026-10-12T21:40+00:00",
    "published_jst": "2026-10-13 06:40",
-   "summary": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/ Comments URL: https://news.ycombinator.com/item?id=50063427 Points: 424 # Comments: 340",
+   "summary": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/ Comments URL: https://news.ycombinator.com/item?id=50063427 Points: 455 # Comments: 360",
    "ai_related": true,
    "title_ja": "AIは道具であり、上手に使うにはスキルが必要",
    "summary_ja": "AIというツールを効果的に活用するためには、使いこなすための確かなスキルが求められるというブログ記事。"
@@ -761,7 +843,7 @@
    "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
    "published": "2026-10-12T21:35+00:00",
    "published_jst": "2026-10-13 06:35",
-   "summary": "Article URL: https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html Comments URL: https://news.ycombinator.com/item?id=50063365 Points: 221 # Comments: 109",
+   "summary": "Article URL: https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html Comments URL: https://news.ycombinator.com/item?id=50063365 Points: 253 # Comments: 123",
    "ai_related": true,
    "title_ja": "インテル、最大480GB搭載のD270 GPU AIアクセラレーター発表",
    "summary_ja": "インテルがデータセンター向けにLPDDR5Xメモリを最大480GB搭載した「D270 GPU AIアクセラレーター」を発表。"
@@ -907,19 +989,6 @@
    "published": "2026-10-12T21:05+00:00",
    "published_jst": "2026-10-13 06:05",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "a5df50b35657",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "各社のAIがリリース後にどれだけ性能変化したかがグラフでわかるベンチマーク「Nerf Bench」",
-   "url": "https://gigazine.net/news/20261013-nerf-bench/",
-   "published": "2026-10-12T21:00+00:00",
-   "published_jst": "2026-10-13 06:00",
-   "summary": "「Nerf Bench」はAIモデルがローンチデー(サービス開始日)からどれだけ性能を維持しているかを評価するベンチマークです。 続きを読む...",
    "ai_related": true
   },
   {
@@ -1072,21 +1141,6 @@
    "ai_related": false
   },
   {
-   "id": "6001ee7ed96b",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Codex CLI installs a persistent, self-updating background daemon by default",
-   "url": "https://github.com/openai/codex/issues/48195",
-   "published": "2026-10-12T18:29+00:00",
-   "published_jst": "2026-10-13 03:29",
-   "summary": "Article URL: https://github.com/openai/codex/issues/48195 Comments URL: https://news.ycombinator.com/item?id=50060694 Points: 566 # Comments: 274",
-   "ai_related": true,
-   "title_ja": "Codex CLI、常駐型バックグラウンドデーモンをデフォルトでインストール",
-   "summary_ja": "GitHub上のイシューやHacker Newsの議論で話題となっている、Codex CLIの常駐型バックグラウンドデーモンの挙動についての情報。"
-  },
-  {
    "id": "b470d062734a",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -1229,7 +1283,7 @@
    "url": "https://z.ai/blog/glm-legal",
    "published": "2026-10-12T16:11+00:00",
    "published_jst": "2026-10-13 01:11",
-   "summary": "Article URL: https://z.ai/blog/glm-legal Comments URL: https://news.ycombinator.com/item?id=50058507 Points: 569 # Comments: 321",
+   "summary": "Article URL: https://z.ai/blog/glm-legal Comments URL: https://news.ycombinator.com/item?id=50058507 Points: 591 # Comments: 332",
    "ai_related": true,
    "title_ja": "GLM-Legalに関する情報とコミュニティの反応",
    "summary_ja": "法務分野向けのAIモデル「GLM-Legal」の公開に伴い、Hacker Newsなどで議論が行われている。"
@@ -1325,21 +1379,6 @@
    "summary_ja": "2027年から自社製Maiaチップを製品群の主要なAI推論システムとして導入し、マルチギガワット規模で展開する計画。"
   },
   {
-   "id": "f869ceb5043b",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
-   "url": "https://taylor.town/kk-ai-2026",
-   "published": "2026-10-12T15:16+00:00",
-   "published_jst": "2026-10-13 00:16",
-   "summary": "Article URL: https://taylor.town/kk-ai-2026 Comments URL: https://news.ycombinator.com/item?id=50057668 Points: 191 # Comments: 73",
-   "ai_related": true,
-   "title_ja": "ケヴィン・ケリーの2016年AI予測を10年後に振り返る",
-   "summary_ja": "ケヴィン・ケリー氏が2016年に行ったAIに関する予測を、10年後の視点から検証し振り返る記事。"
-  },
-  {
    "id": "9c679f3096ea",
    "source": "NVIDIA Blog",
    "source_id": "nvidia",
@@ -1422,19 +1461,6 @@
    "summary_ja": "クリーブランド・クリフスや星宇、Re:Buildなどが各地で製造施設の拡張や新設を発表しました。"
   },
   {
-   "id": "088049eba8d7",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "7年前に発売されたNVIDIA製品がAIブームで1.5倍に値上がり",
-   "url": "https://gigazine.net/news/20261012-nvidia-shield-tv-price-hike/",
-   "published": "2026-10-12T14:15+00:00",
-   "published_jst": "2026-10-12 23:15",
-   "summary": "NVIDIAが7年前に発売した、テレビに接続してNetflixやYouTubeなどを視聴できるストリーミング端末「SHIELD TV Pro」が2026年10月2日からアメリカで約1.5倍の価格に値上げされました。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "0c21e2425c3d",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1476,19 +1502,6 @@
    "ai_related": false,
    "title_ja": "テキサス州で32億ドルの造船所建設が着工",
    "summary_ja": "軍事請負企業のサロニック向けに建設される新造船所は、第二次世界大戦以降で米国初となります。"
-  },
-  {
-   "id": "e23d3edfa824",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bennett appointed to £132m Guildford housing scheme",
-   "url": "https://www.constructionnews.co.uk/buildings/bennett-appointed-to-132m-guildford-housing-scheme-12-10-2026/",
-   "published": "2026-10-12T13:25+00:00",
-   "published_jst": "2026-10-12 22:25",
-   "summary": "Bennett Construction has been appointed by developer Native Land to deliver the main construction phase of a £132m residential scheme in Guildford town centre. The contractor said it will take control of the 1.7-acre St Mary’s Wharf site on the banks of the River Wey,… The post Bennett appointed to ",
-   "ai_related": false
   },
   {
    "id": "c9c3a574b62c",
@@ -1620,58 +1633,6 @@
    "ai_related": false
   },
   {
-   "id": "735d21575f60",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Buckingham’s unsecured creditor claims hit £300m",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/buckinghams-unsecured-creditor-claims-hit-300m-12-10-2026/",
-   "published": "2026-10-12T11:48+00:00",
-   "published_jst": "2026-10-12 20:48",
-   "summary": "Unsecured creditors of collapsed contractor Buckingham Group Contracting have lodged claims worth £308m, with administrators warning they are unlikely to recover any money. Grant Thornton's latest progress report put the eventual total of unsecured claims at an estimated £322.9m, three years after t",
-   "ai_related": false
-  },
-  {
-   "id": "ae197ff5e7f9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scams and complaints: roofing sector in the spotlight",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/scams-and-complaints-roofing-sector-in-the-spotlight-12-10-2026/",
-   "published": "2026-10-12T11:45+00:00",
-   "published_jst": "2026-10-12 20:45",
-   "summary": "Rogue roofers were behind one in 10 scams flagged to Citizens Advice in the past year, data has revealed, while quality issues from apparently genuine works were also raised regularly. The consumer advocate said it received 2,205 complaints of fraudulent activity relating to roofing activity… The po",
-   "ai_related": false
-  },
-  {
-   "id": "ec19ebc2c0a5",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Former Saint-Gobain sales director loses unfair dismissal claim",
-   "url": "https://www.constructionnews.co.uk/legal/former-saint-gobain-sales-director-loses-unfair-dismissal-claim-12-10-2026/",
-   "published": "2026-10-12T11:45+00:00",
-   "published_jst": "2026-10-12 20:45",
-   "summary": "A former Saint-Gobain sales director has lost his unfair dismissal claim after he was fired following allegations of sexual harassment. Gary Postle was dismissed for gross misconduct in May 2025 after nearly 30 years with materials business Saint-Gobain Construction Products UK Ltd. Employment Judge",
-   "ai_related": false
-  },
-  {
-   "id": "14f3a4ae1f65",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Tier ones back ex-England footballer’s construction mental health charter",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/mind-matters/tier-ones-back-ex-england-footballers-construction-mental-health-charter-12-10-2026/",
-   "published": "2026-10-12T11:43+00:00",
-   "published_jst": "2026-10-12 20:43",
-   "summary": "Balfour Beatty, VolkerStevin, Graham Group and Sisk have signed up to a mental health charter launched by former England international footballer Trevor Steven. The Mindflow Mental Health Charter was relaunched on World Mental Health Day (10 October) to encourage construction firms to take a more… T",
-   "ai_related": false
-  },
-  {
    "id": "5da3c8dd624b",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1698,71 +1659,6 @@
    "ai_related": true,
    "title_ja": "北アイルランドで学生や女性に建設キャリアの検討を推奨",
    "summary_ja": "女性のロールモデルが次世代をインスパイアする方法に焦点を当て、若者に建設業への進路を勧めています。"
-  },
-  {
-   "id": "9c9fda15efe9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "M&E turnover growth helps Integral UK trim pre-tax loss",
-   "url": "https://www.constructionnews.co.uk/financial/me-turnover-growth-helps-integral-uk-trim-pre-tax-loss-12-10-2026/",
-   "published": "2026-10-12T11:13+00:00",
-   "published_jst": "2026-10-12 20:13",
-   "summary": "Maintenance and facilities management contractor Integral UK has narrowed its pre-tax loss despite a £20m drop in turnover, according to its latest accounts. The company, a subsidiary of real estate firm JLL, reported a £921,000 loss before tax for the year to 31 December 2025,… The post M&E turnove",
-   "ai_related": false
-  },
-  {
-   "id": "a012e2ad93af",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Cladding manufacturers on notice: Mulalley secures contribution from Sto in landmark judgment",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/cladding-manufacturers-on-notice-mulalley-secures-contribution-from-sto-in-landmark-judgment-12-10-2026/",
-   "published": "2026-10-12T10:55+00:00",
-   "published_jst": "2026-10-12 19:55",
-   "summary": "Steven Carey is a partner and Rebecca Morjaria is a senior associate at Charles Russell Speechlys Nearly a decade on from the Grenfell Tower fire, the courts continue to grapple with the fallout of the tragedy, particularly the question of where responsibility ultimately lies as… The post Cladding m",
-   "ai_related": false
-  },
-  {
-   "id": "9f731c7ea2e6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "CN survey highlights sector’s finance woes",
-   "url": "https://www.constructionnews.co.uk/financial/cn-survey-highlights-sectors-finance-woes-12-10-2026/",
-   "published": "2026-10-12T10:54+00:00",
-   "published_jst": "2026-10-12 19:54",
-   "summary": "CN’s survey of more than 100 senior executives in the sector reveals a bleak outlook for construction, with many expecting competitive and cost pressures to intensify over the coming year The post CN survey highlights sector’s finance woes appeared first on Construction News .",
-   "ai_related": false
-  },
-  {
-   "id": "bddb08501613",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Morrison Construction lands £32m Scottish school expansion contract",
-   "url": "https://www.constructionnews.co.uk/contracts/morrison-construction-lands-32m-scottish-school-expansion-contract-12-10-2026/",
-   "published": "2026-10-12T10:53+00:00",
-   "published_jst": "2026-10-12 19:53",
-   "summary": "Morrison Construction has secured a £32m contract to expand Park Mains High School in Erskine, Scotland. The Galliford Try subsidiary was appointed by Renfrewshire Council to deliver the design-and-build project, which includes two annex buildings, a courtyard extension and internal refurbishment wo",
-   "ai_related": false
-  },
-  {
-   "id": "cde9f9dd6dee",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Vinci subsidiary fails to block fresh claim over fire defects at Cardiff towers",
-   "url": "https://www.constructionnews.co.uk/legal/vinci-subsidiary-fails-to-block-fresh-claim-over-fire-defects-at-cardiff-towers-12-10-2026/",
-   "published": "2026-10-12T10:53+00:00",
-   "published_jst": "2026-10-12 19:53",
-   "summary": "An arbitration victory secured weeks before a major change in building-safety law has failed to shield Taylor Woodrow Construction from a fresh defects claim over seven Cardiff high-rise blocks. The Vinci-owned contractor defeated an earlier claim by Taylor Wimpey Developments Ltd (TWDL) in May 2022",
-   "ai_related": false
   },
   {
    "id": "f28c68e6f1e6",
@@ -2076,13 +1972,13 @@
    "ai_related": true
   },
   {
-   "id": "d052e14e1012",
-   "source": "朝日新聞",
+   "id": "12d6aa95afa2",
+   "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "AI需要のデータセンターに建設反対デモ 米最多のバージニア州で [アメリカ中間選挙][AIの時代]",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9BLUcyZzJXbzEzTktGeXYzejlfbE15TU1KM2xNM2ZRaG5TR19WbTl5QWNCQjJsak4xVW1IeDVvQVZORDZ3NkhJM2xOUU5EQllHVTBWWGhVaXg3dEF2X2JrTUVOQVV1QVU?oc=5",
+   "title": "AI需要のデータセンターに建設反対デモ 米最多のバージニア州で（朝日新聞）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTSjNVSTFBekJnT3VMdTVCX1BabmkxUS1RZVc3SjIyOElwY24yM2phOU51SWZQYy1Jd2NXVFVnS0dKLUFXVUx6UDRGVWxuWWxVSy11S0Q2aGFRWkxoeWRLQWsyaDlPOHhOM3FvRFFuYm9zbnBQVjQwNm9DOGtEN3c?oc=5",
    "published": "2026-10-11T22:00+00:00",
    "published_jst": "2026-10-12 07:00",
    "summary": "",
@@ -2216,32 +2112,6 @@
    "summary_ja": "Vals AIの調査によると、AIエージェントのチームは単体と大差ない性能に対し、最大5.1倍のコストがかかることが判明した。"
   },
   {
-   "id": "a97246c89ec2",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "2026-27年版 技術士第二次試験 建設部門 最新キーワード100",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XMnR1cDNDQVE0ZWViM2dpSmJoV3l6S3QzZ3o2M1FuckpqX3UzQUxVQ2dxdGhYeGNvdkpCWUhJendqTXREWVc4b2t4NjRoSjk4Rjhqa0RrS2czWlFVOGFr?oc=5",
-   "published": "2026-10-11T15:35+00:00",
-   "published_jst": "2026-10-12 00:35",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "a9c02b53d254",
-   "source": "CGTN Japanese",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "CMGが2027「ブランド強国戦略」共同建設活動とCMG国家ブランド信頼コーパスプラットフォームを立ち上げ",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vRlpLRm45ZUppbklheTBJNjVDOWNCRHBqNnIwa0hZQVNMblJxcjhKNTlMbjZ3N2NnSHprTGhfZmRiSHNhYUk0VUNFRXRTMTRBM0pQUEF4dzFZZjV6czdfZTVLOW9UQQ?oc=5",
-   "published": "2026-10-11T14:41+00:00",
-   "published_jst": "2026-10-11 23:41",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "ba5db8106c64",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2255,36 +2125,6 @@
    "ai_related": true,
    "title_ja": "音声AIはまだ「ChatGPTの瞬間」を迎えていない",
    "summary_ja": "音声AIは文脈レイヤーの重要なポイントを見落としがちであり、システム全体の不具合を引き起こしている。"
-  },
-  {
-   "id": "a47754407768",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI agents overstate their results and remain far from autonomous research, study finds",
-   "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
-   "published": "2026-10-11T13:44+00:00",
-   "published_jst": "2026-10-11 22:44",
-   "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researc",
-   "ai_related": true,
-   "title_ja": "AIエージェントは成果を過大評価、自律的研究には程遠い",
-   "summary_ja": "現在のAIモデルは実験の実行は可能だが、科学的な自己批判や真の創造的思考が欠けていることが独立した調査で判明した。"
-  },
-  {
-   "id": "ea95eacbd85b",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
-   "published": "2026-10-11T11:00+00:00",
-   "published_jst": "2026-10-11 20:00",
-   "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]",
-   "ai_related": true,
-   "title_ja": "ローカルAIの活用：期待と困惑とフラストレーション",
-   "summary_ja": "クラウドへの個人データ提供に抵抗があり躊躇していたが、日常的なローカルAIの利用に挑戦を始めた。"
   }
  ]
 }
