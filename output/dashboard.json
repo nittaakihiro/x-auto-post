@@ -1,11 +1,41 @@
 {
   "version": 6,
-  "slot": "night",
-  "date": "2026-10-14",
-  "post_date": "2026-10-14",
-  "generated_at": "2026-10-14T20:38+09:00",
-  "generated_by": "routine:x-post-night",
-  "original_post": null,
+  "slot": "morning",
+  "date": "2026-10-15",
+  "post_date": "2026-10-15",
+  "generated_at": "2026-10-15T06:38+09:00",
+  "generated_by": "routine:x-post-morning",
+  "original_post": {
+    "time": "07:25",
+    "text": "Google DeepMindの「Gemini 4 Argon」が、動画1本だけで人型ロボットにコーンホールを教え込んだ。\n\n動画だけで物理法則を理解しシミュレーションを書き、7投連続成功って普通にヤバい。\n\n引用元は英語なので補足すると、人がコーンホールで遊ぶ動画を1本見せただけでArgonが物理法則を解析しシミュレーションを自作、Apptronikの人型ロボ「Apollo」に転移し実機で7投連続成功した動画です。\n\n・学習元は人の動画1本だけ\n・パイプライン名「Video-to-Sim-to-Real」、数週間分の作業を数時間に圧縮\n・Apptronikの人型ロボ「Apollo」が実機で7投連続成功\n\n建設なら、熟練工の作業動画1本からロボットに配管や資材の積み付け手順を学ばせる方向に直結しそう。\n\n↓詳細",
+    "status": "draft",
+    "article_url": null,
+    "video_url": "https://x.com/GoogleDeepMind/status/2110078384617464201/video/1",
+    "reply_text": "■ 補足\n・モデルは2026-10-13に一般提供が始まったGoogleの最新フラグシップ「Gemini 4 Argon」\n・投げた距離・総投球数は非公表\n・ロボット名は一部メディアで「Apollo 2」表記もあるが、本文はGoogleDeepMind公式投稿の表記「Apollo」に統一\n\n■ 出典\nhttps://x.com/GoogleDeepMind/status/2110078384617464201\nhttps://x.com/Google/status/2110041301253075358",
+    "editorial": {
+      "pillar": "一般AI",
+      "format": "速報",
+      "scores": {
+        "驚き": 2,
+        "絵": 2,
+        "鮮度": 1,
+        "AI大ネタ度": 2,
+        "確かさ": 2
+      },
+      "selection_reason": "朝枠(一般AIの大ネタ速報)の候補を7件比較した。(1)採用・計9点: Google DeepMind公式(@GoogleDeepMind、2026-10-14 03:41 JST検出、eye 74,000)が『Gemini 4 Argonが動画1本だけでApptronikの人型ロボApolloにコーンホールを教え、7投連続成功』と投稿。同内容をGoogle本体公式(@Google、2110041301253075358)が『Video-to-Sim-to-Real』のパイプライン名と『人がコーンホールで遊ぶ動画を1本見せ、環境をマッピングし全身の関節動作を計算、自律的にシミュレーションコードを構築』という詳細付きで先行投稿しており、2公式アカウントの内容一致を一次情報相当の裏取りとした。さらにinterestingengineering.com/cryptobriefing.com/humanoid.guide/gadgetreview.com/huggingnews.com等、独立した複数メディアがテキストを一致させて報じていることをWebSearchで確認。驚き2(動画1本だけで未知の物理動作を獲得し実機で連続成功する新しさ)・絵2(公式投稿に動画添付)・鮮度1(生成時刻2026-10-15 06:38 JST時点で投稿からおよそ27時間、24h超だが48h以内)・AI大ネタ度2(直前にGA発表したばかりの自社フラグシップ機で物理世界理解を実演する大型フォローアップ)・確かさ2(GoogleDeepMind本体とGoogle本体の2公式アカウント+複数独立メディアで一致)の計9点で採用。(2)不採用: 同じGoogleDeepMindの『Gemini 4 Argon is now globally available』GA告知投稿(2026-10-14 00:46 JST)はベンチマーク数字(Vals Index 1位・$2/$10課金)のみでデモ動画の言及が無く絵0相当のため不採用(2026-10-01朝枠で採用済みの限定提供開始ニュースとも角度が近く鮮度面でも劣後)。(3)不採用: Greg Brockman(@gdb)のGPT-5.6 SolによるChrome脆弱性発見(2026-10-14 02:43 JST、eye 220,000)は文章のみでデモ映像の言及なく絵0相当のため不採用。(4)不採用: Anthropic公式(@AnthropicAI)の自社ソースコントロール『Scion』ブログ紹介(2026-10-14 01:36 JST)は数字(2,500件→30,000件/日)のみで動画なし、絵0相当のため不採用。(5)不採用: TestingCatalog経由のLiquid AI『LFM2.5-24B-A2B』リリース(2026-10-14 08:22 JST)はベンチマーク表のみで文字・表の発表は絵0点につき不採用(戦略で明示的に除外)。(6)不採用: TestingCatalog『Kylon』新チャットアプリ(2026-10-14 01:20 JST、eye 270,000)は機能紹介文のみでデモ動画の言及なく絵0相当のため不採用。(7)不採用: TestingCatalog経由の『Natura-1』(Nature Will社、物理世界向け基盤モデル、egocentric動画100万時間で学習)はWebSearchで会社名・モデル名とも独立ソースを一切確認できず、一次情報での裏取りができないため候補から除外した。重複確認: 直近14日の投稿キューに『コーンホール』『Apptronik』『Apollo』の既出なし。2026-10-01朝枠の『Gemini 4 Argon』初出投稿(トークン上限拡大・限定提供開始の話)とは具体的な内容が異なり重複しない。競合サービス(建設向けAI開発・導入支援・BPO・営業代行。光/Hikari・ミャク楽・Motif等)はGoogle DeepMind/Apptronikいずれも該当せず除外対象外。data/analytics/live_metrics.jsonは2026-09-27T23:14 UTC時点のスナップショットで2週間以上前のため、実投稿との重複は確認できていない(実投稿未確認)。",
+      "source_url": "https://x.com/GoogleDeepMind/status/2110078384617464201",
+      "published_at": "2026-10-14T03:41+09:00",
+      "checked_at": "2026-10-15T06:38+09:00",
+      "availability": "一般公開(Google DeepMind公式X投稿・動画付き、同内容をGoogle本体公式Xアカウントも投稿)。Gemini 4 Argon自体は2026-10-13から一般提供中。",
+      "unverified": [
+        "この環境はx.comへの直接WebFetchがブロックされるため、動画そのものの目視確認はできていない。ai_buzz.json収録のGoogleDeepMind投稿本文と、WebSearchで確認した@Google投稿の引用・独立メディア複数件の記述が一致することを裏取りとした。",
+        "投げた距離・総投球数(7投が何回中の連続成功か)はGoogle側が非公表で確認できていない。",
+        "『数週間かかるシミュレーション作りを数時間に圧縮』という表現は複数の二次メディアが同一の言い回しで報じているが、Google本体の一次発表文そのもの(developers.googleblog.comの関連記事)はこの環境からWebFetchできず直接確認はできていない。",
+        "ロボット名表記がメディアにより『Apollo』『Apollo 2』で揺れている。本文はGoogleDeepMind公式投稿の表記『Apollo』に統一した。"
+      ],
+      "hook_alternative": "候補2(不採用): Greg BrockmanのGPT-5.6 SolによるChrome脆弱性発見(eye 220,000と反応は大きいが動画なし)。候補3(不採用): AnthropicのScion(自社ソースコントロール基盤)ブログ紹介。数字は具体的だが動画なし。候補4(不採用): Gemini 4 ArgonのGA告知そのもの(ベンチマーク・価格のみで絵0点、かつ10-01朝枠で角度違いの既出あり)。"
+    }
+  },
   "engage_cards": [],
-  "skip_reason": "ネタ源の順(①ai_buzz.jsonのタグ付き投稿72件全件を再確認(:clapper:建設すげー動画(海外)・:clapper:設計・施工の作ってみた(海外)・:robot_face:建設×フィジカルAI(国内)等)→②slack_buzz.jsonの国内建設系アカウント78件を再確認(CAD/BIM×AI・建設×AI等)→③news_feed.json construction_japan(73件)/construction_global(27件、window 48h、generated_at_jst 2026-10-14 17:02)を確認→④WebSearchで日本語(人型ロボット 建設現場 実証/四足歩行ロボット 建設 巡回 ゼネコン/自動施工 無人化施工 ゼネコン 動画/鉄骨溶接ロボット 内装ロボット 資材運搬ロボット 現場/ドローン測量 建設 AI 実証/グリーンインパルス 法面吹付 ドローン)と英語(humanoid robot construction jobsite video/robot dog quadruped construction site patrol video/autonomous excavator demo video/construction robot video welding rebar jobsite/3D printed house construction robot video/TheB1M ConstructionDive Procore new video)を国内外とも追加検索)を行ったが、直近48h以内で「video_urlを確実に付けられ、かつ建設現場の具体作業(溶接・鉄筋・内装・巡回・資材運搬・掘削など)またはそれに代わる建設置き換え可能なフィジカルAI実演映像」が国内・海外ともにゼロで休載。本日昼枠(47559fd、11:07 JST)が同一条件でほぼ同じ候補プールを確認し休載判断済みで、夜枠では昼枠の判断から約9時間後の時点での追加発生分と、昼枠の検索が及んでいなかったカテゴリ(3Dプリント住宅・ドローン測量・海外建設メディア各社の新着動画)を重点的に追加確認した。\n\n【国内で見送った候補(昼枠と重複しない新規分)】\n(1) news_feed.json construction_japan「70年間変わらなかった『法面吹付』を空から変える。大型有線給電ドローン『グリーンインパルス』の挑戦」(施工の神様、2026-10-12 21:00 UTC=10-13 06:00 JST掲載)。WebSearchで裏取りした結果、技術自体はエアロセンス・東興ジオテックが2025年6月に共同発表した既出工法で、記事は仕組みを解説する特集記事(解説記事は不採用)であり、直近48hの新規実証イベントではないため入口の鮮度基準(v7.2⑤)を満たさない。X上の公式投稿・動画も確認できず絵0点のため不採用。\n(2) 日刊建設工業新聞(@nikkenko)「大林組／ＰＣ橋の柱頭部施工効率化／３０％の工期短縮・省人化」(2026-10-14 06:05)は記事リンクのみで実演動画の添付なし、絵0点のため不採用(昼枠と同一候補)。\n(3) ai_buzz.json[:robot_face:建設×フィジカルAI（国内）]@ME_JP_official(CEATEC2026、三菱電機グループのフィジカルAI展示告知、2026-10-13 11:45)はデモ会場の告知テキストのみでX投稿自体に動画添付がなく不採用(昼枠と同一候補)。\n(4) WebSearchで確認した清水建設の人型ロボット巡回・ロボットアーム塗装実証(2026年7月報道)、大成建設の四足歩行ロボット巡回・竹中工務店のSpot活用実証は、いずれも既出報道(2021〜2026年7月)で直近48hの新規映像が確認できず鮮度基準未達のため不採用。\n\n【海外で見送った候補(昼枠と重複しない新規分)】\n(1) PNDbotics Adam(フルサイズ人型ロボットが高さ1mの箱によじ登る、@spaceandtech_紹介、2026-10-13 01:48、16,000imp)はX動画つきで驚き・鮮度は高いが、WebSearchで裏取りした結果これは障害物を乗り越える汎用的なアジリティ実演で、溶接・鉄筋・内装・巡回・資材運搬・掘削など建設現場の具体作業への実質的な置き換えが説明できず(単なる箱登りの延長で置き換え先を具体的に書けない)、紹介アカウントもPNDbotics本人ではなく二次アカウントのため建設との距離・確かさの両基準で不採用(昼枠と同一候補、再検証済み)。\n(2) WebSearchで確認したHitachi×Gravis Robotics(ConExpo 2026)・Develon Real X(4月)・Bedrock Robotics(8月)の自律ショベルは、いずれも2026年8月以前の既出発表で直近48hの新規映像が確認できず不採用。\n(3) ICON「Titan」・RIC Robotics・Diamond Ageの3Dプリント住宅ロボットはWebSearchで確認したが、いずれも発表時期が不明瞭または既出で、直近48hの新規映像・X投稿が確認できず不採用。\n(4) TheB1M・ConstructionDive・Procoreの新着動画をWebSearchで確認したが、今週分の新規コンテンツは検出できず、イベント告知記事のみで不採用。\n\n重複確認: 本日の朝枠(07:25、休載)・昼枠(12:00、休載)・夕枠(20:00、本質投稿、ドラフト)とはネタが重複しない。直近14日の投稿キュー(2026-09-29〜2026-10-14)とも重複する建設AI/フィジカルAIのネタなし。data/analytics/live_metrics.jsonは2026-09-27T23:14 UTC時点のスナップショットで2週間以上前のため、実投稿との重複は確認できていない(実投稿未確認)。\n\n結論: video_urlを確実に付けられ、建設現場の具体作業と明確に結びつく(またはフィジカルAIの建設置き換えが具体的に書ける)候補が国内・海外ともにゼロのため、生成失敗ではなく一次情報・WebSearchを確認した上での意図した休載。"
+  "skip_reason": null
 }
