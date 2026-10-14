@@ -1,18 +1,14 @@
 {
- "generated_at": "2026-10-14T12:53+00:00",
- "generated_at_jst": "2026-10-14 21:53",
+ "generated_at": "2026-10-14T13:42+00:00",
+ "generated_at_jst": "2026-10-14 22:42",
  "window_hours": 48,
  "counts": {
-  "ai_global": 68,
-  "ai_japan": 29,
-  "construction_global": 28,
-  "construction_japan": 75
+  "ai_global": 71,
+  "construction_global": 31,
+  "ai_japan": 30,
+  "construction_japan": 67
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,9 +16,71 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
+  {
+   "id": "31ba3970bc3a",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI guardrails designed to stop hackers are now blocking defenders, and Orion-1 aims to fill the gap",
+   "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap/",
+   "published": "2026-10-14T13:24+00:00",
+   "published_jst": "2026-10-14 22:24",
+   "summary": "Artemis Security's new Orion-1 model is purpose-built for cyber defense and beats Claude Opus 5.5 and GPT-6 Sol on the company's own benchmark. The model fills a growing gap as general-purpose frontier models lock down their cyber capabilities, blocking defenders in the process. The article AI guard",
+   "ai_related": true,
+   "title_ja": "ハッカーを防ぐAIが防衛側を阻む中、隙間を埋めるOrion-1",
+   "summary_ja": "Artemis Securityの新モデルOrion-1はサイバー防衛に特化し、自社ベンチマークでClaude Opus 5.5とGPT-6 Solを凌駕する。"
+  },
+  {
+   "id": "332e2f6b059e",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "‘I’ve lived it’: How HITT’s CEO brings trade experience to her role",
+   "url": "https://www.constructiondive.com/news/hitt-contracting-ceo-kim-roy-data-centers-labor/832938/",
+   "published": "2026-10-14T13:13+00:00",
+   "published_jst": "2026-10-14 22:13",
+   "summary": "HITT Contracting’s Kim Roy discusses the company’s key markets, future M&A plans and changes in data center construction.",
+   "ai_related": false,
+   "title_ja": "現場の経験をCEOに：HITTのトップが語るキャリア",
+   "summary_ja": "HITT ContractingのKim Roy氏が、主要市場や将来のM&A計画、データセンター建設の変化について語る。"
+  },
+  {
+   "id": "58fdcbf7c77a",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "GoogleのEmbeddingGemma 2を音声認識モデルに変換した「Embedding Gemma Transcribe」、オフライン環境のMacなら15分の音声をわずか約3秒で爆速文字起こし可能",
+   "url": "https://gigazine.net/news/20261014-embetting-gemma-transcribe/",
+   "published": "2026-10-14T13:00+00:00",
+   "published_jst": "2026-10-14 22:00",
+   "summary": "音声をテキストに変換する文字起こしには一般的に音声認識専用のAIモデルが使われます。しかし、文章の意味を数値で表現する埋め込みモデルのEmbeddingGemma 2を利用して音声を文字起こしするという一風変わったアプローチを採用した「Embedding Gemma Transcribe」が登場しました。Embedding Gemma TranscribeはApple Silicon搭載Macで動作し、インターネット接続なしで音声を処理できるとのことなので、実際に使ってみました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "7923e9fedadd",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+   "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+   "published": "2026-10-14T12:55+00:00",
+   "published_jst": "2026-10-14 21:55",
+   "summary": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+   "ai_related": true,
+   "title_ja": "小型AIモデルがIoT経由で自己複製する恐れ、Anthropicが警告",
+   "summary_ja": "「小型の重みベースの複製機能」が、新世代のコンピューターワームを引き起こす可能性がある。"
+  },
   {
    "id": "8d2ca6848027",
    "source": "The Decoder",
@@ -34,6 +92,21 @@
    "published": "2026-10-14T12:37+00:00",
    "published_jst": "2026-10-14 21:37",
    "summary": "A Saudi national working as an engineer at OpenAI was arrested for allegedly planting an audio recording device, wrapped in toilet paper, inside the company's executive conference room. According to the indictment, he built the spy tool by vibe-coding it with a chatbot. If convicted, he faces up to ",
+   "ai_related": true,
+   "title_ja": "OpenAIのスパイ容疑者、妻のアカウントで監視装置をコード化",
+   "summary_ja": "OpenAIのエンジニアであるサウジアラビア国籍の男が、重役会議室にトイレットペーパーに包んだ録音装置を仕掛けた疑いで逮捕された。"
+  },
+  {
+   "id": "fe8d96c89611",
+   "source": "AINOW",
+   "source_id": "ainow",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIエージェントを自作する方法7選！無料で始める手順と費用の目安",
+   "url": "https://ainow.ai/2026/10/14/278439/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e8%2587%25aa%25e4%25bd%259c%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9%25e6%25b3%25957%25e9%2581%25b8%25ef%25bc%2581%25e7%2584%25a1%25e6%2596%2599%25e3%2581%25a7%25e5%25a7%258b%25e3%2582%2581%25e3%2582%258b",
+   "published": "2026-10-14T12:30+00:00",
+   "published_jst": "2026-10-14 21:30",
+   "summary": "AIエージェントは、GeminiやClaudeの画面で指示文を登録するだけでも自作できます。本記事では、難易度別の7つの自作方法と、同じニュース要約エージェントを3通りの方法で作る手順を解説します。 「AIエージェントを... The post AIエージェントを自作する方法7選！無料で始める手順と費用の目安 first appeared on AI専門ニュースメディア AINOW .",
    "ai_related": true
   },
   {
@@ -60,7 +133,9 @@
    "published": "2026-10-14T11:45+00:00",
    "published_jst": "2026-10-14 20:45",
    "summary": "Turnover at Midlands-based building and maintenance firm A&H Construction and Developments has surpassed £100m for the first time. The group’s turnover for the year to 30 April 2026 increased by 30 per cent to £128.9m, up from £99.2m in the same period the year before.… The post A&H Construction bre",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "A&H Construction、売上高が1億ポンドを突破",
+   "summary_ja": "ミッドランズ拠点の建設・メンテナンス会社A&H Constructionの売上高が初の1億ポンド超え。2026年4月までの期で30%増の128.9百万ポンドに。"
   },
   {
    "id": "c58cc562f56c",
@@ -73,7 +148,9 @@
    "published": "2026-10-14T11:45+00:00",
    "published_jst": "2026-10-14 20:45",
    "summary": "Major project delivery could be “impossible” if delivery pipelines across multiple sectors surge at once, according to analysis by consultants at RSM. In a pre-Budget forecast, RSM's head of construction Kelly Boorman (pictured) identified the risk if the government pushes ahead with plans to boost…",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年予算案：案件が集中すれば大型プロジェクトにリスク",
+   "summary_ja": "RSMの分析によると、複数セクターの案件が一斉に急増すれば、大型プロジェクトの遂行は「不可能」になる恐れがあるという。"
   },
   {
    "id": "cc0aa7d1e20a",
@@ -86,7 +163,9 @@
    "published": "2026-10-14T11:45+00:00",
    "published_jst": "2026-10-14 20:45",
    "summary": "Five unfinished housing developments abandoned after Henry Construction collapsed are too costly and risky to complete, Ealing Council has concluded. The firm was handed the £40m job to deliver the homes in 2022 by the council’s subsidiary housing company Broadway Living. However, following Henry Co",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ヘンリー・コンストラクションの5案件、完了費用が高すぎると区議会",
+   "summary_ja": "経営破綻したヘンリー・コンストラクションが放置した未完成の住宅5開発について、イーリング区議会は完了させるには費用とリスクが高すぎると結論付けた。"
   },
   {
    "id": "c18d6fbc0301",
@@ -99,7 +178,9 @@
    "published": "2026-10-14T11:43+00:00",
    "published_jst": "2026-10-14 20:43",
    "summary": "Niall Farmer is head of UK at Gamuda Land In 2024, the Labour government set a new target to achieve 1.5 million homes in England by 2029, requiring 370,000 new homes per year. Yet, according to government figures, in 2024/25, just 208,600 homes were delivered,… The post The future is already built:",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "建設のネットゼロの鍵は適応的再利用にある",
+   "summary_ja": "英政府が2029年までに150万戸の住宅目標を掲げる中、年間数十万戸の新築が必要だが、英国の目標達成には既存建物の活用が不可欠である。"
   },
   {
    "id": "ca567069ecbf",
@@ -112,7 +193,9 @@
    "published": "2026-10-14T11:00+00:00",
    "published_jst": "2026-10-14 20:00",
    "summary": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Scimplify、中国の重要素材の支配に対抗するため2500万ドルを調達",
+   "summary_ja": "米国展開を見据え、Scimplifyの年間換算売上高ランレートは3倍の2億ドルに達した。"
   },
   {
    "id": "9fd67fba7efb",
@@ -125,7 +208,9 @@
    "published": "2026-10-14T11:00+00:00",
    "published_jst": "2026-10-14 20:00",
    "summary": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIとGoogleの新型AI、ヌード画像生成を容易に誘導可能",
+   "summary_ja": "新たな攻撃手法により、AIによるヌード画像作成を防ぐOpenAIやGoogleの安全機能の欠陥が露呈した。"
   },
   {
    "id": "a109404e1dbe",
@@ -151,7 +236,9 @@
    "published": "2026-10-14T10:52+00:00",
    "published_jst": "2026-10-14 19:52",
    "summary": "Kier is setting up a new unit to target large-scale office refurbishments and selected new-build projects across London and the Thames Valley. The Specialist Projects unit will sit alongside two existing regional businesses covering private- and public-sector work, Kier said. It will offer clients C",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Kier、ロンドンオフィス市場向けに専門部門を新設",
+   "summary_ja": "Kierは、ロンドンおよびテムズバレー全域での大規模オフィス改修や特定の新築プロジェクトをターゲットにした新部門を設立する。"
   },
   {
    "id": "5d9e3a3db8bf",
@@ -177,7 +264,9 @@
    "published": "2026-10-14T10:39+00:00",
    "published_jst": "2026-10-14 19:39",
    "summary": "The Department for Transport (DfT) has confirmed the cancellation of 16 uncommitted and unaffordable local authority road schemes. On Tuesday (13 October), Construction News' sister title New Civil Engineer reported that the DfT has told stakeholders that the projects, which were being considered as",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "英運輸省、さらに16件の道路計画を中止",
+   "summary_ja": "英運輸省（DfT）は、未着手かつ予算的余裕のない地方自治体の道路計画16件の中止を正式に発表した。"
   },
   {
    "id": "a2036814890a",
@@ -190,7 +279,9 @@
    "published": "2026-10-14T10:23+00:00",
    "published_jst": "2026-10-14 19:23",
    "summary": "MPs are calling on the government to allow councils to use unspent Community Infrastructure Levy (CIL) funds to repair roads. In a new report, the All-Party Parliamentary Group (APPG) for Better Roads said billions of untapped funds could help improve existing infrastructure. CIL, which is… The post",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "議員ら、道路補修に未拠出のインフラ基金22億ポンドの活用を要求",
+   "summary_ja": "超党派の議員グループ（APPG）は、自治体が未使用のCIL資金を道路の補修に充てることを政府に許可するよう求めている。"
   },
   {
    "id": "786a327dec7e",
@@ -203,7 +294,9 @@
    "published": "2026-10-14T10:07+00:00",
    "published_jst": "2026-10-14 19:07",
    "summary": "Network Rail has said it intends to award £650m of upgrade works to the AtkinsRéalis, Laing O’Rourke and VolkerRail alliance delivering the £6.6bn East West Rail line. The client published a notice this morning (14 October) setting out plans to extend the East West Rail… The post Contractor alliance",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "請負業者連合、イースト・ウエスト・レール事業で6.5億ポンドの契約へ",
+   "summary_ja": "ネットワーク・レールは、総額66億ポンドのイースト・ウエスト・レール線を担うアトキンスレリス、ラング・オアルークなどの連合に6.5億ポンドの改良工事を発注する方針を示した。"
   },
   {
    "id": "1290bf8ab163",
@@ -281,7 +374,9 @@
    "published": "2026-10-14T08:01+00:00",
    "published_jst": "2026-10-14 17:01",
    "summary": "Sir Geoffrey Clifton-Brown has said a retrofit scheme that left thousands of homes with defective insulation is among the “most shocking failures” by government in his time as chair of parliament’s spending watchdog. In his public accounts committee (PAC) annual report published on Wednesday (14… Th",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "断熱材のスキャンダルは最悪の政府失態の一つ、PAC委員長が指摘",
+   "summary_ja": "何千もの家庭に欠陥のある断熱材を残した改修スキームは、議会支出監視委員会の委員長にとって政府による「最も衝撃的な失敗」の一つであるという。"
   },
   {
    "id": "01f449dc1dfa",
@@ -320,7 +415,9 @@
    "published": "2026-10-14T07:23+00:00",
    "published_jst": "2026-10-14 16:23",
    "summary": "Former site engineer steps up to run specialist structures business",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ラング・オアルーク、Expanded Structuresの新トップを任命",
+   "summary_ja": "元サイトエンジニアが、専門の構造物事業を率いるために昇格した。"
   },
   {
    "id": "6b96277155af",
@@ -346,7 +443,9 @@
    "published": "2026-10-14T06:53+00:00",
    "published_jst": "2026-10-14 15:53",
    "summary": "Kier, Morgan Sindall, Tilbury Douglas and Willmott Dixon among 20 picked for £25m-plus jobs",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "20億ポンド規模のLHC建設協定の勝者が決定",
+   "summary_ja": "Kierやモーガン・シンダルなど20社が、2,500万ポンド以上の案件を担う企業に選ばれた。"
   },
   {
    "id": "bbc2c46a2439",
@@ -359,7 +458,9 @@
    "published": "2026-10-14T06:37+00:00",
    "published_jst": "2026-10-14 15:37",
    "summary": "Consultant to join up six projects and develop Leeds to Sheffield upgrades",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "エイミー、ノーザン・パワード・レールで2つの役割を獲得",
+   "summary_ja": "コンサルタント会社が6つのプロジェクトを統合し、リーズからシェフィールドへのアップグレード開発を担当する。"
   },
   {
    "id": "621bed066d0d",
@@ -446,6 +547,19 @@
    "published_jst": "2026-10-14 14:58",
    "summary": "デンマークの中央個人登録簿「CPR」から約880万人分の個人情報が流出した問題で、攻撃者を名乗る人物が同国紙Politikenに手口を明かした。侵入には、照会権限を持つ民間企業のパスワード「123456」を使ったという。",
    "ai_related": true
+  },
+  {
+   "id": "cc3ad6bd842c",
+   "source": "IoTNEWS AI+",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "戸田建設、泥土圧シールド工事の土質判別技術にAIカメラ「AIMERA」を採用し正答率90%超を達成",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5CU0dXbEY3cG9xUGNLMjVBd21YdWNrcnRRVy1GOGNhTDV5VzdyU29LZXctRTVMeERndTBNZDQ0ZGh2clUyaU5IRUFFczQtLVdu0gFWQVVfeXFMUGpqdjNONXFURlpRMGFINnJwU1JWY25ERGdvbExRUnFXWmVZSlpucGtuRGtoV1ZlQ1BsVmsxcHo1WlFPX0d5QmpHTS12Z18yZWQ1UHJiY2c?oc=5",
+   "published": "2026-10-14T05:43+00:00",
+   "published_jst": "2026-10-14 14:43",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "6dd3b7b4be19",
@@ -591,19 +705,6 @@
    "ai_related": false
   },
   {
-   "id": "59a7e6804708",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大成建設、ゲリラ豪雨による都市の浸水を数分で予測する技術を確立、作業所の安全対策を強化",
-   "url": "https://news.build-app.jp/article/43204/",
-   "published": "2026-10-14T03:00+00:00",
-   "published_jst": "2026-10-14 12:00",
-   "summary": "大成建設は2026年10月13日、突発的に発生する局地的大雨（ゲリラ豪雨）による都市部の浸水を、数分で予測できる技術を確立したと発表しました...",
-   "ai_related": false
-  },
-  {
    "id": "173ab018a1fe",
    "source": "매일경제",
    "source_id": "gnews_kensetsu_ai",
@@ -695,6 +796,21 @@
    "ai_related": true
   },
   {
+   "id": "58e4191fcfe4",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "published": "2026-10-14T02:00+00:00",
+   "published_jst": "2026-10-14 11:00",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "ai_related": true,
+   "title_ja": "グーグル・ディープマインドとシンガポール政府、詐欺検知AIを共同開発",
+   "summary_ja": "クラウドへのデータ送信なしでプライベートチャット内の会話型詐欺を阻止するため、軽量なオンデバイスGemmaモデルを使用する方法を紹介。"
+  },
+  {
    "id": "62bff62f170b",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
@@ -773,19 +889,6 @@
    "ai_related": true
   },
   {
-   "id": "fe2754a720db",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国土交通省、8月の建設工事受注高は8.6%増で5か月連続増加、設備工事業は24か月連続増",
-   "url": "https://news.build-app.jp/article/43200/",
-   "published": "2026-10-14T01:00+00:00",
-   "published_jst": "2026-10-14 10:00",
-   "summary": "国土交通省は2026年10月13日、建設工事受注動態統計調査の令和8年8月分を公表しました。8月の受注高は9兆9,578億円で、前年の同じ月...",
-   "ai_related": false
-  },
-  {
    "id": "c27220bac79d",
    "source": "PR TIMES",
    "source_id": "gnews_sekokan_ai",
@@ -861,7 +964,9 @@
    "published": "2026-10-14T00:00+00:00",
    "published_jst": "2026-10-14 09:00",
    "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "EUにおけるAIの次の章はエージェント型AI",
+   "summary_ja": "EUの企業や中小企業の間でエージェント型AIの採用がどのように拡大しているか、また、どこでより深い活用が価値を生むかを示す新しい分析。"
   },
   {
    "id": "370edee09850",
@@ -1016,19 +1121,6 @@
    "published": "2026-10-13T22:00+00:00",
    "published_jst": "2026-10-14 07:00",
    "summary": "「REA(Reverse Engineer Anything)」はバイナリ・アプリケーション・ランタイム動作全体にわたるリバースエンジニアリングを行うための包括的なプラットフォームです。ソースコードがない場合でも、対象を調査して機能の仕組みや根拠を明らかにし、同様の機能を実装することが可能であるため、プログラムの解析・変更・再構築が容易になります。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "63a8a06e67c5",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "保護中: 【建設・建築DX EXPO 2026 夏 東京】BIMとAIで建築生産はどう変わる？ 長谷工コーポレーションと久米設計が示した実践と課題",
-   "url": "https://news.build-app.jp/article/43058/",
-   "published": "2026-10-13T22:00+00:00",
-   "published_jst": "2026-10-14 07:00",
-   "summary": "この投稿はパスワードで保護されているため抜粋文はありません。",
    "ai_related": true
   },
   {
@@ -1218,6 +1310,21 @@
    "ai_related": false
   },
   {
+   "id": "471508c04c30",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "published": "2026-10-13T19:43+00:00",
+   "published_jst": "2026-10-14 04:43",
+   "summary": "",
+   "ai_related": true,
+   "title_ja": "Gemini 4 Argonの責任ある安全な開発",
+   "summary_ja": ""
+  },
+  {
    "id": "c839b9474fae",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1347,7 +1454,7 @@
    "url": "https://www.constructiondive.com/news/dot-funding-construction-marriage-birth-rates/832874/",
    "published": "2026-10-13T17:38+00:00",
    "published_jst": "2026-10-14 02:38",
-   "summary": "The Federal Transit Authority has published new guidance on the demographic factors proposed in early 2025 to determine the share of a project DOT pays for.",
+   "summary": "The Federal Transit Authority has published new guidance on the demographic factors proposed in early 2025 to determine the share of a project DOT covers.",
    "ai_related": false,
    "title_ja": "運輸省、新設工事費の補助金を婚姻・出生率に連動させる方針を推進",
    "summary_ja": "連邦交通局は、プロジェクトへの資金配分を決める人口統計学的要因について新しいガイダンスを公表した。"
@@ -1512,23 +1619,40 @@
    "url": "https://deepmind.google/models/gemini/",
    "published": "2026-10-13T16:03+00:00",
    "published_jst": "2026-10-14 01:03",
-   "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 1354 # Comments: 952",
+   "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 1360 # Comments: 963",
    "ai_related": true,
    "title_ja": "Gemini 4 Argon",
    "summary_ja": "ロボット向けGemini 4 Argonに関する情報と、Hacker Newsの議論やコメントを紹介する。"
   },
   {
-   "id": "c1e94fc83136",
-   "source": "Google AI Blog",
-   "source_id": "google_ai",
+   "id": "884ebf3c3978",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini 4 Argon for Robotics",
+   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "published": "2026-10-13T16:01+00:00",
+   "published_jst": "2026-10-14 01:01",
+   "summary": "",
+   "ai_related": true,
+   "title_ja": "ロボティクス向けGemini 4 Argon",
+   "summary_ja": ""
+  },
+  {
+   "id": "f174716114a9",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
    "category": "ai_global",
    "lang": "en",
    "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-   "published": "2026-10-13T16:00+00:00",
-   "published_jst": "2026-10-14 01:00",
-   "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-   "ai_related": true
+   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "published": "2026-10-13T16:01+00:00",
+   "published_jst": "2026-10-14 01:01",
+   "summary": "",
+   "ai_related": true,
+   "title_ja": "Gemini 4 Argon：最難関の課題を解決",
+   "summary_ja": ""
   },
   {
    "id": "24ef7cf40bd2",
@@ -1883,19 +2007,6 @@
    "published_jst": "2026-10-13 20:55",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "b135a70ae445",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "無料で7種類の超小型AIモデルをブラウザで動かせる「MicroLLM lab」、WebGPUで端末のGPUを活用",
-   "url": "https://gigazine.net/news/20261013-microllm-lab-browser-webgpu/",
-   "published": "2026-10-13T11:45+00:00",
-   "published_jst": "2026-10-13 20:45",
-   "summary": "Hugging Faceの「SmolLM2」やOpenAIの「GPT-2」など、7種類の小型AIモデルをブラウザ上で実行できる無料のウェブアプリ「MicroLLM lab」が公開されています。自分のPCやスマートフォンでモデルの回答と生成速度を比べ、小型AIを使う際のモデル選びに役立てられます。 続きを読む...",
-   "ai_related": true
   },
   {
    "id": "fb9c9be4e3e9",
@@ -2308,19 +2419,6 @@
    "ai_related": false
   },
   {
-   "id": "675cd28544f6",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大成建設、鹿児島東西道路のシールドトンネルに環境配慮コンクリート初適用、製造CO2約7割減",
-   "url": "https://news.build-app.jp/article/43172/",
-   "published": "2026-10-13T01:00+00:00",
-   "published_jst": "2026-10-13 10:00",
-   "summary": "大成建設は2026年9月30日、CO2排出量を大幅に減らせる環境配慮コンクリート「T-eConcrete/セメント・ゼロ型」を、国土交通省九...",
-   "ai_related": false
-  },
-  {
    "id": "e184e59d5444",
    "source": "ANDPAD ONE",
    "source_id": "andpad_one",
@@ -2362,19 +2460,6 @@
    "summary_ja": "llm-meta-ai 0.2をリリース。Meta AIが新モデルMuse Wonderを発表。同社初のFableクラスモデルの可能性。"
   },
   {
-   "id": "052fb262ff37",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "車両系建設機械とは？｜6種類の一覧と必要な資格、現場で守るべきルールを解説【2026年版】",
-   "url": "https://news.build-app.jp/article/43196/",
-   "published": "2026-10-12T23:30+00:00",
-   "published_jst": "2026-10-13 08:30",
-   "summary": "車両系建設機械とは、労働安全衛生法施行令で定められた「動力を用い、不特定の場所に自走できる建設機械」のことです。 運転に必要な資格は、機体質...",
-   "ai_related": false
-  },
-  {
    "id": "902df2a90202",
    "source": "日経クロステック",
    "source_id": "gnews_kensetsu_dx",
@@ -2386,73 +2471,6 @@
    "published_jst": "2026-10-13 08:20",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "359db343ef3b",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "関内駅前港町地区第一種市街地再開発事業とは｜概要やメリットを解説",
-   "url": "https://news.build-app.jp/article/43183/",
-   "published": "2026-10-12T23:00+00:00",
-   "published_jst": "2026-10-13 08:00",
-   "summary": "トレンドワード：関内駅前港町地区第一種市街地再開発事業 横浜市の関内駅前では、駅周辺の都市機能を更新する「関内駅前第一種市街地再開発事業」が...",
-   "ai_related": false
-  },
-  {
-   "id": "fe90bc58f411",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設・建築DX EXPO 2026夏 東京】AIで建設業務を支援、株式会社Arentを取材",
-   "url": "https://news.build-app.jp/article/42945/",
-   "published": "2026-10-12T22:00+00:00",
-   "published_jst": "2026-10-13 07:00",
-   "summary": "「建設・建築DX EXPO 2026 夏 東京」の株式会社Arentブースでは、設計、施工、維持管理に関わるSaaSプロダクトが紹介されまし...",
-   "ai_related": true
-  },
-  {
-   "id": "68be88e83157",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設・建築DX EXPO 2026 夏 東京】AI活用の鍵は「現場データの資産化」 大林組・Arent・オプライゾンがPROCOLLA開発の舞台裏を語る",
-   "url": "https://news.build-app.jp/article/42949/",
-   "published": "2026-10-12T22:00+00:00",
-   "published_jst": "2026-10-13 07:00",
-   "summary": "「建設・建築DX EXPO 2026 夏 東京」で行われた特別講演「AI活用の鍵は、現場データの資産化にある。」では、株式会社大林組 ビジネ...",
-   "ai_related": true
-  },
-  {
-   "id": "1334b2fbf429",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "インフラを守る点検会社を、DXで支えたい。TRASS代表・越智氏が描く維持管理DXの将来像 【後編】",
-   "url": "https://news.build-app.jp/article/42886/",
-   "published": "2026-10-12T22:00+00:00",
-   "published_jst": "2026-10-13 07:00",
-   "summary": "橋梁点検の現場では、紙や転記作業の削減だけでなく、経験豊富な技術者の減少や働き方の改善といった課題も顕在化しています。TRASS株式会社は、...",
-   "ai_related": true
-  },
-  {
-   "id": "c41789c5590e",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI is a tool and using it well takes skill",
-   "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
-   "published": "2026-10-12T21:40+00:00",
-   "published_jst": "2026-10-13 06:40",
-   "summary": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/ Comments URL: https://news.ycombinator.com/item?id=50063427 Points: 722 # Comments: 562",
-   "ai_related": true,
-   "title_ja": "AIは道具であり、使いこなすにはスキルが必要",
-   "summary_ja": "AI活用の重要性と、それを上手に利用するために必要な技術や視点についての解説記事。"
   },
   {
    "id": "58c84add3d7a",
@@ -2524,16 +2542,29 @@
    "summary_ja": "プレハブやモジュール工法を採用してオフィスを建設し、現場の複雑さや工期の削減を図る。"
   },
   {
-   "id": "a38e5c657efe",
-   "source": "日経クロステック",
-   "source_id": "gnews_sekokan_ai",
+   "id": "80f7a37b6021",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "現場監督は外国人",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTUtFQ2Y4NGtiRXdCRGF0dnM4MllLa0VUZ1Nya1JKRUJLMWVoQ0dBVERJYnVwUmZvSUJNMEo5WHhnUVp6QmNFR0Jid0lyODAzYTIxQ1VWT0JTVG9MaFpsblN4RTB3dGJXQTJyNUZUQmNEWVpEck5tM2ZQbGRyM010Z1ZxcWJta0tYek5GcFZHQ05zbUFmRXBkVGZUbmhEendqNG1ab0tpS29DUkpTUFJpVjkwdy0tSlFXaDF5VGdsTUtCQ2tudEE?oc=5",
-   "published": "2026-10-12T20:14+00:00",
-   "published_jst": "2026-10-13 05:14",
-   "summary": "",
+   "title": "増築に大成で着工/汐留ウイング、28年11月末に完成/住友不",
+   "url": "https://www.kensetsunews.com/archives/1295368",
+   "published": "2026-10-12T19:55+00:00",
+   "published_jst": "2026-10-13 04:55",
+   "summary": "住友不動産が東京都港区で計画している「汐留ウイング」の増築計画が、大成建設の施工で着工した。増築部… The post 増築に大成で着工/汐留ウイング、28年11月末に完成/住友不 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "b6bc30bf562f",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "11月4日まで参加受付/WTO熊谷隊庁舎新設など/北関東防衛",
+   "url": "https://www.kensetsunews.com/archives/1295385",
+   "published": "2026-10-12T19:55+00:00",
+   "published_jst": "2026-10-13 04:55",
+   "summary": "北関東防衛局は９日、ＷＴＯ対象となる「熊谷（８）隊庁舎新設建築その他工事」「陸自習志野（８）器材庫… The post 11月4日まで参加受付/WTO熊谷隊庁舎新設など/北関東防衛 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2547,32 +2578,6 @@
    "published": "2026-10-12T19:55+00:00",
    "published_jst": "2026-10-13 04:55",
    "summary": "大阪府岸和田市は、「新庁舎整備事業設計委託業務」で公募型プロポーザルを実施した結果、石本建築事務所… The post 石本事務所を特定/1.7万平米超、32年度供用目指す/岸和田市の新庁舎設計 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "2f607edf1ddd",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "フィジカルAI 11月下旬に共同体設置/早期実装へ協調領域整備/国交省",
-   "url": "https://www.kensetsunews.com/archives/1295315",
-   "published": "2026-10-12T19:55+00:00",
-   "published_jst": "2026-10-13 04:55",
-   "summary": "国土交通省は、ＡＩ（人工知能）で機械やロボットを自律的に動かすフィジカルＡＩを建設分野に実装するた… The post フィジカルAI 11月下旬に共同体設置/早期実装へ協調領域整備/国交省 first appeared on 建設通信新聞Digital .",
-   "ai_related": true
-  },
-  {
-   "id": "cdfaffa8716a",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「サイバーポート」機能拡張を要望/業務効率化の効果大/埋浚協",
-   "url": "https://www.kensetsunews.com/archives/1295316",
-   "published": "2026-10-12T19:55+00:00",
-   "published_jst": "2026-10-13 04:55",
-   "summary": "日本埋立浚渫協会（清水琢三会長）は、国土交通省港湾局が２０２５年３月に本格運用を始めた「サイバーポ… The post 「サイバーポート」機能拡張を要望/業務効率化の効果大/埋浚協 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2632,21 +2637,6 @@
    "ai_related": true,
    "title_ja": "Python 3.15が登場、3.10が終了し3.11へ移行のタイミング",
    "summary_ja": "今年のリリース管理者を務めたHugo van Kemenadeが手がけた、Python 3.15の新機能ガイドが公開された。"
-  },
-  {
-   "id": "1029c532cb41",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
-   "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
-   "published": "2026-10-12T17:58+00:00",
-   "published_jst": "2026-10-13 02:58",
-   "summary": "Sakana AI's MASS method lets one language model improve itself by solving tasks, judging results, and refining workflows, reaching a win rate of nearly 70 percent against the base model after two rounds. But when the model misses the same errors across all three roles, it can mistake them for progre",
-   "ai_related": true,
-   "title_ja": "Sakana AIの自己改善モデル、解決・評価能力が向上するも盲点は残る",
-   "summary_ja": "MASS手法により言語モデルが自己改善を行い勝率が約70%に達するが、自身の盲点に気づけない課題もある。"
   },
   {
    "id": "80d24e118917",
@@ -2780,6 +2770,49 @@
    "ai_related": true,
    "title_ja": "NVIDIA、AIファクトリー拡大へVera Rubinアーキテクチャを公開",
    "summary_ja": "AIファクトリーの大規模化が進む中、オープン標準の採用により、インフラの迅速かつ効率的な構築が可能となっています。"
+  },
+  {
+   "id": "58c86f5dbe76",
+   "source": "NNAアジア",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "台塑新智能、麦寮にＡＩデータセンター建設",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9QZW9UM1otYm9kVnk4Q05mT3lRd0FVd1JyZzVlcU9UdnB2dzF1b1FJWlgyWnRpcTFCQ291eUpqTTNLNXBLeFE?oc=5",
+   "published": "2026-10-12T15:00+00:00",
+   "published_jst": "2026-10-13 00:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "7dd6dcb78f2d",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Blue Origin, PPG and more invest in manufacturing facilities",
+   "url": "https://www.constructiondive.com/news/blue-origin-ppg-cleveland-cliffs-more-facility-investments/832728/",
+   "published": "2026-10-12T14:29+00:00",
+   "published_jst": "2026-10-12 23:29",
+   "summary": "Additionally, Cleveland-Cliffs provided an update on its Butler Works expansion in Pennsylvania, Xingyu announced its first U.S. facility in North Carolina and Re:Build is tripling production in South Carolina.",
+   "ai_related": false,
+   "title_ja": "ブルーオリジンやPPGなどが製造施設に投資",
+   "summary_ja": "クリーブランド・クリフスがペンシルベ他在中での拡張を発表したほか、シンユがノースカロライナ州に米国初拠点を開設し、リビルドがサウスカロライナ州で生産を3倍に拡大する。"
+  },
+  {
+   "id": "0bd99be97ed7",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "JE Dunn-Alberici JV breaks ground on $3.2B Texas shipyard",
+   "url": "https://www.constructiondive.com/news/je-dunn-alberici-jv-breaks-ground-texas-shipyard/832709/",
+   "published": "2026-10-12T13:49+00:00",
+   "published_jst": "2026-10-12 22:49",
+   "summary": "The greenfield shipyard under construction for military contractor Saronic is the first in the U.S. since World War II, according to the JV.",
+   "ai_related": false,
+   "title_ja": "JEダンとアルベリici、テキサスで造船所着工",
+   "summary_ja": "軍事請負業者サロニック向けに建設中のこの新規造船所は、JVによると第二次世界大戦以降で米国初となる。"
   }
  ]
 }
