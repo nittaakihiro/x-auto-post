@@ -1,11 +1,38 @@
 {
   "version": 6,
-  "slot": "noon",
+  "slot": "evening",
   "date": "2026-10-14",
   "post_date": "2026-10-14",
-  "generated_at": "2026-10-14T12:00+09:00",
-  "generated_by": "routine:x-post-noon",
-  "original_post": null,
+  "generated_at": "2026-10-14T19:15+09:00",
+  "generated_by": "routine:x-post-evening",
+  "original_post": {
+    "time": "20:00",
+    "text": "設計がAIで速くなっても、着工までの日数が同じだけ縮むとは限らないと思います。\n\n米オートデスクのCEOが、人手不足の建設・製造業をAIで支援すると語りましたが、日本の確認申請は建物の規模ごとに審査期間が法律で決まっていて、設計の速さとは別に進みます。\n\n2025年4月の建築基準法改正で、延べ面積200m2超の木造住宅などは審査7日から35日に変わり、構造計算適合性判定が要る案件は最長70日。設計が1日で終わっても、審査はこのペースのままです。\n\n先に着工が早まるのは、設計を速くした会社ではなく、審査の不備をAIで事前に潰し、一発で確認済証を取る会社だと思います。",
+    "status": "draft",
+    "article_url": null,
+    "video_url": null,
+    "reply_text": "■ 出典\nhttps://www.pref.yamanashi.jp/kenchikujutaku/sinsa/kaisei.html\nhttps://news.google.com/rss/articles/CBMibEFVX3lxTE4tTkFBWTQ2NGlvanBlWS1ZMnJrYUYtRHNNdXl5LUhCcndjMVNpd1FxY29BbURqMXhka3M5NEVrZ3dsdFVkQzZ1cFM1a25xU0kxeXBWZXJNQ3VteDRqdFhrRnFTQkZxZFFMZmFhWQ",
+    "editorial": {
+      "pillar": "本質投稿",
+      "format": "本質型",
+      "scores": {
+        "claim": 2,
+        "mechanism": 2,
+        "concrete": 2,
+        "construction_only": 2,
+        "decision": 2
+      },
+      "selection_reason": "建築確認申請の審査期間(1〜3号建築物35日・構造計算適合性判定が要る案件は最長70日)が建物の規模で法定されている仕組みは建設・建築業に固有で、建設を知らないと書けない一文。入口は米オートデスクCEOの『人手不足の建設・製造業をAIで支援』発言(2026-10-14朝刊掲載、48h以内)。",
+      "source_url": "https://www.pref.yamanashi.jp/kenchikujutaku/sinsa/kaisei.html",
+      "published_at": "2026-10-14T05:00:00+09:00",
+      "checked_at": "2026-10-14T19:12:31+09:00",
+      "availability": "公開（自治体建築住宅課の解説ページ・報道記事、いずれも閲覧可）",
+      "unverified": [
+        "延べ面積200m2超という具体的な線引きは二次解説記事の要約に基づく。国交省の一次告示そのものは直接確認できていない"
+      ],
+      "hook_alternative": "候補2: 国交省のフィジカルAI産学官コンソーシアム(11月設置予定)を検討したが、10-09投稿(ゼネコンが技術を一社で抱え込まず共同開発に回す理由)と論旨が近く不採用。/ 候補3: ACIMUSのBIM生成AI資金調達ニュースを検討したが、建設向けAI製品の特定企業紹介になり競合判定(判断できないものは候補にしない)に抵触する恐れがあるため候補にしない"
+    }
+  },
   "engage_cards": [],
-  "skip_reason": "ネタ源の順(①ai_buzz.jsonの:clapper:建設すげー動画(海外)・:clapper:設計・施工の作ってみた(海外)・:robot_face:建設×フィジカルAI(国内)等のタグ付き投稿72件全件確認→②slack_buzz.jsonの国内建設系アカウント(CAD/BIM×AI・建設×AI・施工管理タグ)78件全件確認→③news_feed.jsonのconstruction_japan(28件)/construction_global(35件、window 48h、generated_at_jst 2026-10-14 10:12)確認→④WebSearch日本語(フィジカルAI 建設 ロボット 現場/四足歩行ロボット 建設 巡回 ゼネコン 動画/人型ロボット 現場 自動施工 無人化施工)・英語(humanoid robot jobsite construction video/autonomous excavator robot dog construction site video/construction robot welding rebar video)で国内外を追加検索)で候補を探したが、直近48h以内で「video_urlを確実に付けられ、かつ建設現場の具体作業(溶接・鉄筋・内装・巡回・資材運搬・掘削など)と明確に結びつく建設AI・建設×フィジカルAI」が国内・海外ともにゼロで休載。\n\n【国内で見送った候補】\n(1) 日刊建設工業新聞(@nikkenko)「大林組／ＰＣ橋の柱頭部施工効率化／３０％の工期短縮・省人化」(2026-10-14 06:05、decn.co.jp記事)。自動化実証の内容だが記事リンクのみでX投稿・記事とも実演動画の添付がなく絵0点のため不採用。\n(2) 建設アップデート(@sekokan_kun)「国交省のフィジカルAIの集まり、狙いは中小の会社と現場」(2026-10-13 17:37)。土木現場へのフィジカルAI導入を目指す産学官コンソーシアムを11月下旬に立ち上げるという構想・募集段階の紹介で実演映像がなく絵0点のため不採用。\n(3) WebSearchで確認した大成建設の四足歩行巡回ロボット「T-InspectionX」・竹中工務店の四足歩行ロボット実証(巡回監視業務10%削減等)は、いずれも2021〜2024年の既出報道で直近48hの新規映像が見当たらず鮮度基準を満たさず不採用。\n(4) ai_buzz.json[:robot_face:建設×フィジカルAI（国内）]@ME_JP_official投稿(CEATEC2026で三菱電機グループが「フィジカルAIでつくる、産業のミライ」を展示、2026-10-13 11:45)。会場でのデモ開催を告知するテキストのみでX投稿自体に実演動画の添付がなく絵0点のため不採用。\n(5) ai_buzz.json[:robot_face:建設×フィジカルAI（国内）]@yamahaguitar_jp投稿はギター新製品のサウンドサンプル動画で建設・AIと無関係のためタグ誤付けと判断し不採用。\n(6) slack_buzz.json[CAD/BIM×AI（国内）]@z_zabaglione投稿(紹介されたライブラリをcodexに読み込ませオリジナルCADアプリを10分で作成、2026-10-13 14:57)はテキストのみで動画の添付がなく、かつ現場作業ではなく個人の開発体験談のため不採用。\n(7) slack_buzz.json[建設×AI（国内）]@MatthiasWagner投稿(NVIDIAの新オープンソースCADカーネルでAIがiPhone的な曲面を設計可能に、2026-10-14 01:14)はテキストのみで動画なし、デモはflux.aiのWeb上でのものでX投稿にvideo_urlとして付けられる動画がないため不採用。\n(8) slack_buzz.json[建設×AI（国内）]@BrandonKHill投稿(2026-10-13 10:09、3万imp)は本文テキストが空で内容をWebSearchでも特定できず、video_urlとして確証を持てる建設AI映像か判断できないため候補にしない。\n(9) slack_buzz.json建設アップデート(@sekokan_kun)の太陽電池パネル実証(三重県・ホンダ鈴鹿製作所の守衛所、2026-10-13 19:20)はAI・ロボットではなく施工自体も人力のため柱の対象外。\n\n【海外で見送った候補】\n(1) ai_buzz.json[:clapper:設計・施工の作ってみた（海外）]@izziebuilds投稿(AstraにSTEP214のCADモデル・PDF図面・機械モデル(Makino N2-5XA)を読み込ませて加工計画とG-codeを自動生成、25年以上のベテランCNC技術者のマニュアルCAMと一致したと報告、2026-10-13 01:30、25,000imp)。動画つきで驚き・確かさは高いが、内容は汎用CNC機械加工(ミーリング)のデモで投稿本文に建設・建築への言及が一切なく、建設との距離基準(建設現場・設計・積算、またはそれに一言でつながるか)を満たすか判断できないため候補にしない。\n(2) ai_buzz.json[:clapper:建設すげー動画（海外）]@spaceandtech_投稿(PNDboticsのフルサイズ人型ロボット「Adam」が高さ1mの箱によじ登る、2026-10-13 01:48、16,000imp)。動画つきだが内容は汎用ヒューマノイドの障害物乗り越え実演で、溶接・鉄筋・内装・巡回・資材運搬・掘削など建設現場の具体作業ではなく、紹介アカウントもPNDbotics本人ではなく二次アカウントのため確かさ・建設との距離の両面で基準未達、不採用。\n(3) ai_buzz.json[:clapper:建設すげー動画（海外）]@RoboParty_DEV投稿(オープンソース人型ロボット「RP1」、2026-10-13 09:23、56,000imp)。実機の稼働映像ではなく「Coming soon」のティザー告知のみで実演がないため採用不可。\n(4) ai_buzz.json[Global-建設]ENRnews(@ENRnews)の投稿3件(ペンシルベニアの製薬施設建設8億ドル着工予定、太陽光融資8.15億ドル、FutureTech登壇者募集)はいずれも動画なし・AI/ロボットの現場作業と無関係のため不採用。\n(5) WebSearch(英語)で確認したBedrock Roboticsの自律油圧ショベル商用稼働(ネバダ州の浄水施設等)は2026年8月発表で鮮度不足・過去のルーティンでも既出のため不採用。\n(6) WebSearch(英語)で確認したRebartek/TyBot/IronBotの鉄筋溶接・配筋ロボットはいずれも過去年度のYouTube動画で、直近48hの新規投稿が確認できず不採用。\n(7) news_feed.json construction_globalの35件は受注動向・人材育成・スポンサード記事が中心で、建設AI・ロボットの実演映像を伴う記事は無し。\n\n重複確認: 直近14日の投稿キュー(2026-09-29〜2026-10-14)との同一ネタなし。本日の朝枠(07:25)も「動く素材つきの大ネタなし」で休載済みのため今回の候補と重複しない。data/analytics/live_metrics.jsonは2026-09-27T23:14 UTC時点のスナップショットで2週間以上前のため、実投稿との重複は確認できていない(実投稿未確認)。\n\n結論: video_urlを確実に付けられ、建設現場の具体作業と明確に結びつく候補が国内・海外ともにゼロのため、生成失敗ではなく一次情報・WebSearchを確認した上での意図した休載。"
+  "skip_reason": null
 }
