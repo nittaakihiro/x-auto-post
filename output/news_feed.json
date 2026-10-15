@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-15T04:35+00:00",
- "generated_at_jst": "2026-10-15 13:35",
+ "generated_at": "2026-10-15T06:29+00:00",
+ "generated_at_jst": "2026-10-15 15:29",
  "window_hours": 48,
  "counts": {
-  "ai_global": 62,
-  "construction_japan": 82,
-  "ai_japan": 34,
-  "construction_global": 22
+  "construction_japan": 87,
+  "ai_japan": 32,
+  "ai_global": 69,
+  "construction_global": 12
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -23,6 +23,97 @@
   }
  ],
  "items": [
+  {
+   "id": "f1ac855700ea",
+   "source": "digital-construction.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "同僚のように働くAIが、見積りも報告書も。現場Hub、建設業特化のAIエージェント「現場Hub AI」を提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6dTN6RGJsQjdsSENFZ3NtSllrd0VEOWV5QlkzN2JDSmNVTjZnbGN1YVI0UVlNaWRNekRZb0FxVE5mTEZJWHZuR2kwUWZBWGpYZFhZ?oc=5",
+   "published": "2026-10-15T06:23+00:00",
+   "published_jst": "2026-10-15 15:23",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "e11e9bacb8da",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAIやGoogleの画像生成AIは簡単に騙されてヌード画像を生成してしまうと研究者が指摘",
+   "url": "https://gigazine.net/news/20261015-rise-ai-image-nude/",
+   "published": "2026-10-15T06:00+00:00",
+   "published_jst": "2026-10-15 15:00",
+   "summary": "セキュリティ研究企業のWhite Circleが、OpenAIやGoogleの画像生成AIの安全対策を回避し、性的な画像などを生成させる新たな攻撃手法「RISE」を発表しました。検証では、OpenAIのDALL·E 3やGoogleのNano Banana 2などで安全対策の回避に成功したほか、より新しいモデルでは攻撃成功率がさらに高くなることが確認されています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "b8e02f9bf7b5",
+   "source": "PR TIMES",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "「現場Plus」17期連続、「注文分譲クラウドDX」12期連続受賞 ダイテック、「ITreview Grid Award 2026 Fall」2部門W受賞のお知らせ",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fTjYxa21uQnhNd3B5Y3ZXQXhxZnMyaVFETHQ3cHRkMXNUWnA1dUttaU9BY0VSSXN0QldZYUVKVVVCZ3FFOE5kTlUyUTRZZEktanVlb09KMDI3NmZMYURfLVEydUJNZGdpeUE?oc=5",
+   "published": "2026-10-15T06:00+00:00",
+   "published_jst": "2026-10-15 15:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "347c71effa30",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "国内WebサイトへのAIエージェント攻撃を観測 「8時間弱」続いた攻撃の推移を公開 国内セキュリティベンダー",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2610/15/2000002284/",
+   "published": "2026-10-15T05:39+00:00",
+   "published_jst": "2026-10-15 14:39",
+   "summary": "ビットフォレストが、日本企業のWebサイトへのAIエージェントによる攻撃を観測したと報告。10月14日までに3つのIPアドレスから確認し、うち1つは8時間弱にわたり10段階に攻撃を変化させたという。",
+   "ai_related": true
+  },
+  {
+   "id": "ea125c0b6eff",
+   "source": "毎日新聞",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "プレスリリース：Nexadata、電気工事向け積算AIプラットフォーム「SAKUJI」を月額9,900円から提供（PR TIMES）",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fSkV4ZzRQbmFOblFhMjlkM1cwSmtlQ3ZjS1JiSjJicDIzT3R2RnlzYmVsZnowY0VIMThySlVkbGoxZnNYbGlwdEpFd0JWOXlfOURubW9sYl8xeVZSM2thbVhlV0dUXzIt?oc=5",
+   "published": "2026-10-15T05:23+00:00",
+   "published_jst": "2026-10-15 14:23",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "07a0dee4f629",
+   "source": "ニュースメディアVOIX",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Nexadataが提供する電気工事向け積算AIプラットフォーム「SAKUJI」の魅力と特徴",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12WGR2YmxGNmxCR29jLUtnc2RlaUhsV215TkpfWWZEcE5fQU5NZ1hkTkVUUVNYTnIzU0tJTjZfYThoQTVlTEgwSkdFOWo4WUUybW9RS3J4UmVoWnlNLVdKejdXNDVuOTByNEVR?oc=5",
+   "published": "2026-10-15T05:03+00:00",
+   "published_jst": "2026-10-15 14:03",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "68f85c5a70ff",
+   "source": "NVIDIA Blog",
+   "source_id": "nvidia",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+   "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+   "published": "2026-10-15T05:00+00:00",
+   "published_jst": "2026-10-15 14:00",
+   "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology eco",
+   "ai_related": true
+  },
   {
    "id": "134069d44702",
    "source": "TechCrunch AI",
@@ -59,19 +150,6 @@
    "lang": "ja",
    "title": "【登壇情報】LIFEFUND代表・白都卓磨が「工務店未来フェス2026」（新建ハウジング主催）に登壇。AIで変わる工務店の仕事と経営を議論",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBscXlrbUEyYVd4eFJ6MmhwTXAzV2dkdlRDNGlLajkxS01UZnpJZFh0QkdCU1B4Z295TlhzVk9XZ2tiRVdqVlRtR3FVYTRWQU90Y3hYbkIwWm5kMWQtU2RYWE1uWnBFbHRWT2c?oc=5",
-   "published": "2026-10-15T04:00+00:00",
-   "published_jst": "2026-10-15 13:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "a64c86bade3d",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Nexadata、電気工事向け積算AIプラットフォーム「SAKUJI」を月額9,900円から提供",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81Z0lLcUZtT1EtZ1NxNDZvVVE0bE85NU5VSzF6em1JM1duTWg4NVYwaWZCbV9SaGRsSDdGYUxSekJsYnp4WTRUZy1uVmhWbkRlRDVrcHFZNnFmZ2xZM3Q3SjVPV19xS0FxVUE?oc=5",
    "published": "2026-10-15T04:00+00:00",
    "published_jst": "2026-10-15 13:00",
    "summary": "",
@@ -143,6 +221,19 @@
    "ai_related": true
   },
   {
+   "id": "06885ee17fd0",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "株式会社建設システム（KENTEM）様に「AI検索パートナーズ」を提供開始。AI検索時代を見据え、建設・防災分野の認知拡大に向けたSEO対策とAI検索最適化（LLMO／AIO／GEO／AEO）を推進｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1aOVN2SzBYaXpsN2pUUDdQd3FBY1ZTd0FENjg3OUdWZUlFcENQTFVtNHNJQjJJV3N1SEVCYW9wYlVOd1R4NFZHVGNyak1scXVkbE5iT0hSbU5oTE1uaktDaWc0WFVVRDZSU3lPNlAwVlhodw?oc=5",
+   "published": "2026-10-15T02:45+00:00",
+   "published_jst": "2026-10-15 11:45",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "f8a2af8a3587",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -192,19 +283,6 @@
    "published": "2026-10-15T01:55+00:00",
    "published_jst": "2026-10-15 10:55",
    "summary": "「おそらく、AIツールが使われている可能性はあるだろうと推測している」──米Anthropicの共同創業者のジャック・クラーク氏が初来日し、同社の日本法人が10月14日に開いたメディア説明会に登壇した。講演では、報道陣の質問に答える形でサイバー攻撃とAIの関係性についても言及する一幕も。悪用の抑止に向けて同社がどう取り組むか、現在の方針も説明した。",
-   "ai_related": true
-  },
-  {
-   "id": "347c71effa30",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "国内WebサイトへのAIエージェント攻撃を観測 「8時間弱」続いた攻撃の推移を公開 国内セキュリティベンダー",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/15/2000002284/",
-   "published": "2026-10-15T01:52+00:00",
-   "published_jst": "2026-10-15 10:52",
-   "summary": "ビットフォレストが、日本企業のWebサイトへのAIエージェントによる攻撃を観測したと報告。10月14日までに3つのIPアドレスから確認し、うち1つは8時間弱にわたり10段階に攻撃を変化させたという。",
    "ai_related": true
   },
   {
@@ -394,6 +472,19 @@
    "ai_related": true
   },
   {
+   "id": "c099e6f9efcc",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+   "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+   "published": "2026-10-14T23:59+00:00",
+   "published_jst": "2026-10-15 08:59",
+   "summary": "Article URL: https://www.liquid.ai/blog/lfm2-5-24b-a2b Comments URL: https://news.ycombinator.com/item?id=50097369 Points: 156 # Comments: 37",
+   "ai_related": true
+  },
+  {
    "id": "1e089fd0f5f8",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -431,21 +522,6 @@
    "published_jst": "2026-10-15 08:40",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "0ae5ac4d5610",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New towns at risk as building materials production slows, Lords warn",
-   "url": "https://www.constructionnews.co.uk/supply-chain/new-towns-at-risk-as-building-materials-production-slows-lords-warn-15-10-2026/",
-   "published": "2026-10-14T23:01+00:00",
-   "published_jst": "2026-10-15 08:01",
-   "summary": "A slowdown in building materials production could jeopardise the government's new-towns programme unless ministers provide greater certainty over its delivery, a House of Lords committee has warned. In a new report published on Thursday (15 October), the Lord's Built Environment Committee warned tha",
-   "ai_related": false,
-   "title_ja": "新都市計画にリスク、建材生産の減速で貴族院が警告",
-   "summary_ja": "政府の確実な方針示しがなければ、建材の生産減速が新都市計画を危うくすると貴族院委員会が警告した。"
   },
   {
    "id": "c62e6910607d",
@@ -528,19 +604,6 @@
    "ai_related": false
   },
   {
-   "id": "0a163506faa7",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ホワイトカラーは「建設現場の過酷さ」に耐えられない…AIで失職しても肉体労働で稼げるという甘い幻想",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ic001VVZ0LU1SOUxjQXVKV0J0TjdNTE9ITkV4d09iOV9IOGNJY3pfR3RLbXRVRm9LLTNmZUxIOXJuM1NKd1ZXWFAxOTdXazNVb2E2WXhLVy1mQTVMVGxF?oc=5",
-   "published": "2026-10-14T22:00+00:00",
-   "published_jst": "2026-10-15 07:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "472f0784a85d",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -593,7 +656,7 @@
    "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
    "published": "2026-10-14T21:23+00:00",
    "published_jst": "2026-10-15 06:23",
-   "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechani",
+   "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechan",
    "ai_related": true,
    "title_ja": "Claudeを活用した実験的ゲーム「Tree Appreciator」",
    "summary_ja": "ClaudeのiPhoneアプリを使い、Three.jsを用いたゲーム作成を指示して構築した実験的なプロジェクト。"
@@ -651,7 +714,7 @@
    "url": "https://typesafe.ai/blog/jev-1-14",
    "published": "2026-10-14T21:11+00:00",
    "published_jst": "2026-10-15 06:11",
-   "summary": "Article URL: https://typesafe.ai/blog/jev-1-14 Comments URL: https://news.ycombinator.com/item?id=50095353 Points: 232 # Comments: 80",
+   "summary": "Article URL: https://typesafe.ai/blog/jev-1-14 Comments URL: https://news.ycombinator.com/item?id=50095353 Points: 256 # Comments: 85",
    "ai_related": true,
    "title_ja": "「Jev 1.14.0」リリース、夢想家向けの実験的機能も",
    "summary_ja": "typesafe.aiのブログにて、Jevの最新バージョン1.14.0と実験的機能のリリースが発表された。"
@@ -692,7 +755,7 @@
    "url": "https://sunshowers.io/posts/anthropic-mononoke/",
    "published": "2026-10-14T20:30+00:00",
    "published_jst": "2026-10-15 05:30",
-   "summary": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 311 # Comments: 119",
+   "summary": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 341 # Comments: 128",
    "ai_related": true,
    "title_ja": "AnthropicのScion、もののけ姫から強い影響受ける",
    "summary_ja": "記事のURLとHacker Newsのコメントページへのリンク。"
@@ -886,21 +949,6 @@
    "summary_ja": "ニューヨーク州司法長官が同社に対する複数州にわたる調査を明らかにし、消費者データの保護を求めている。"
   },
   {
-   "id": "ffc9c8f82757",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-   "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-   "published": "2026-10-14T18:32+00:00",
-   "published_jst": "2026-10-15 03:32",
-   "summary": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 338 # Comments: 237",
-   "ai_related": true,
-   "title_ja": "銀行、引き受けたばかりのAIデータセンター債務の売却模索",
-   "summary_ja": "AIデータセンター向けに引き受けた債務のオフロードを銀行が試みている。"
-  },
-  {
    "id": "55222f29942f",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -970,7 +1018,7 @@
    "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
    "published": "2026-10-14T17:45+00:00",
    "published_jst": "2026-10-15 02:45",
-   "summary": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 854 # Comments: 481",
+   "summary": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 868 # Comments: 502",
    "ai_related": true,
    "title_ja": "AIハッキング報告の原因は監視と管理の不備、専門家指摘",
    "summary_ja": "AIエージェントが暴走しているのではなく、フロンティア企業がセキュリティの基本を軽視しているとの指摘。"
@@ -1259,21 +1307,6 @@
    "summary_ja": "全米建設業者協会によると、建設コストの高騰が売上高や利益率の予測に悪影響を及ぼしているという。"
   },
   {
-   "id": "c8363dddf8cc",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Red tape or red flags? Construction faces accounting shake-up",
-   "url": "https://www.constructionnews.co.uk/financial/red-tape-or-red-flags-construction-faces-accounting-shake-up-14-10-2026/",
-   "published": "2026-10-14T13:36+00:00",
-   "published_jst": "2026-10-14 22:36",
-   "summary": "Plans to relax company reporting rules could reduce costs for construction businesses. But could they also make it harder to judge whether a customer or client poses a financial risk? The post Red tape or red flags? Construction faces accounting shake-up appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "規制緩和かリスクか？建設業界で進む会計見直し",
-   "summary_ja": "報告ルールの緩和は企業のコスト削減になる一方、顧客の財務リスクの判断を難しくする懸念がある。"
-  },
-  {
    "id": "31ba3970bc3a",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1403,66 +1436,6 @@
    "summary_ja": "OpenAI Daybreakを活用し、数週間かかっていたマルウェア解析を数時間に短縮。より多くの脅威調査が可能に。"
   },
   {
-   "id": "b866eb243260",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "A&H Construction breaks through £100m turnover barrier",
-   "url": "https://www.constructionnews.co.uk/financial/ah-construction-breaks-through-100m-turnover-barrier-14-10-2026/",
-   "published": "2026-10-14T11:45+00:00",
-   "published_jst": "2026-10-14 20:45",
-   "summary": "Turnover at Midlands-based building and maintenance firm A&H Construction and Developments has surpassed £100m for the first time. The group’s turnover for the year to 30 April 2026 increased by 30 per cent to £128.9m, up from £99.2m in the same period the year before.… The post A&H Construction bre",
-   "ai_related": false,
-   "title_ja": "A&H Construction、売上高が1億ポンドの壁を突破",
-   "summary_ja": "ミッドランド拠点のA&H Constructionの売上高が初めて1億ポンドを超え、30%増の1億2,890万ポンドとなった。"
-  },
-  {
-   "id": "c58cc562f56c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Autumn Budget 2026: major project work ‘at risk’ if pipelines swell",
-   "url": "https://www.constructionnews.co.uk/supply-chain/autumn-budget-2026-major-project-work-at-risk-if-pipelines-swell-14-10-2026/",
-   "published": "2026-10-14T11:45+00:00",
-   "published_jst": "2026-10-14 20:45",
-   "summary": "Major project delivery could be “impossible” if delivery pipelines across multiple sectors surge at once, according to analysis by consultants at RSM. In a pre-Budget forecast, RSM's head of construction Kelly Boorman (pictured) identified the risk if the government pushes ahead with plans to boost…",
-   "ai_related": false,
-   "title_ja": "2026年予算案：複数事業の集中で主要プロジェクトにリスク",
-   "summary_ja": "複数分野のプロジェクトが同時期に急増した場合、円滑な実施が「不可能」になる恐れがあるとコンサルタントが分析。"
-  },
-  {
-   "id": "cc0aa7d1e20a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five Henry Construction schemes too costly to finish, council says",
-   "url": "https://www.constructionnews.co.uk/buildings/five-henry-construction-schemes-too-costly-to-finish-council-says-14-10-2026/",
-   "published": "2026-10-14T11:45+00:00",
-   "published_jst": "2026-10-14 20:45",
-   "summary": "Five unfinished housing developments abandoned after Henry Construction collapsed are too costly and risky to complete, Ealing Council has concluded. The firm was handed the £40m job to deliver the homes in 2022 by the council’s subsidiary housing company Broadway Living. However, following Henry Co",
-   "ai_related": false,
-   "title_ja": "ヘンリー・コンストラクション破綻、未完成の5事業は断念へ",
-   "summary_ja": "破綻した同社の未完成住宅開発について、イーリング区議会はコストとリスクが高すぎて完了は困難と結論付けた。"
-  },
-  {
-   "id": "c18d6fbc0301",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The future is already built: why adaptive reuse is the key to net zero in construction",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-future-is-already-built-why-adaptive-reuse-is-the-key-to-net-zero-in-construction-14-10-2026/",
-   "published": "2026-10-14T11:43+00:00",
-   "published_jst": "2026-10-14 20:43",
-   "summary": "Niall Farmer is head of UK at Gamuda Land In 2024, the Labour government set a new target to achieve 1.5 million homes in England by 2029, requiring 370,000 new homes per year. Yet, according to government figures, in 2024/25, just 208,600 homes were delivered,… The post The future is already built:",
-   "ai_related": false,
-   "title_ja": "建設業界のネットゼロの鍵を握るアダプティブ・リユース",
-   "summary_ja": "住宅目標の達成が求められる中、既存建物の活用と再利用が環境目標と住宅供給の両立に不可欠である。"
-  },
-  {
    "id": "ca567069ecbf",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1506,21 +1479,6 @@
    "ai_related": false
   },
   {
-   "id": "f20b2af97cce",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier eyes London office market with new specialist unit",
-   "url": "https://www.constructionnews.co.uk/contractors/kier/kier-eyes-london-office-market-with-new-specialist-unit-14-10-2026/",
-   "published": "2026-10-14T10:52+00:00",
-   "published_jst": "2026-10-14 19:52",
-   "summary": "Kier is setting up a new unit to target large-scale office refurbishments and selected new-build projects across London and the Thames Valley. The Specialist Projects unit will sit alongside two existing regional businesses covering private- and public-sector work, Kier said. It will offer clients C",
-   "ai_related": false,
-   "title_ja": "Kier、ロンドン市場をターゲットに専門部門を設立",
-   "summary_ja": "Kierはロンドンおよびテムズバレー地域での大規模なオフィス改修や新築案件を狙う専門部門を新設した。"
-  },
-  {
    "id": "5d9e3a3db8bf",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1532,51 +1490,6 @@
    "published_jst": "2026-10-14 19:43",
    "summary": "デジタルハリウッド大学は10月14日、米Anthropicの生成AI「Claude」を全学に導入し、11月から全学生・全教職員に提供すると発表した。Claudeの全学導入は国内の大学で初という。",
    "ai_related": true
-  },
-  {
-   "id": "31c76f0f212c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Transport department cancels 16 more road schemes",
-   "url": "https://www.constructionnews.co.uk/civils/transport-department-cancels-24-road-schemes-14-10-2026/",
-   "published": "2026-10-14T10:39+00:00",
-   "published_jst": "2026-10-14 19:39",
-   "summary": "The Department for Transport (DfT) has confirmed the cancellation of 16 uncommitted and unaffordable local authority road schemes. On Tuesday (13 October), Construction News' sister title New Civil Engineer reported that the DfT has told stakeholders that the projects, which were being considered as",
-   "ai_related": false,
-   "title_ja": "英運輸省、さらに16件の道路整備計画の中止を発表",
-   "summary_ja": "英運輸省は、未着手かつ予算の裏付けがない地方自治体の道路整備計画16件の中止を正式に決定した。"
-  },
-  {
-   "id": "a2036814890a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "MPs call for unspent £2.2bn levy funds to fix roads",
-   "url": "https://www.constructionnews.co.uk/civils/mps-call-for-unspent-2-2bn-levy-funds-to-fix-roads-14-10-2026/",
-   "published": "2026-10-14T10:23+00:00",
-   "published_jst": "2026-10-14 19:23",
-   "summary": "MPs are calling on the government to allow councils to use unspent Community Infrastructure Levy (CIL) funds to repair roads. In a new report, the All-Party Parliamentary Group (APPG) for Better Roads said billions of untapped funds could help improve existing infrastructure. CIL, which is… The post",
-   "ai_related": false,
-   "title_ja": "未使用のインフラ基金を道路修復に、議員らが活用を要請",
-   "summary_ja": "超党派の議員グループが、地方自治体が未使用のコミュニティインフラ徴収金を道路補修に充てるよう求めている。"
-  },
-  {
-   "id": "786a327dec7e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Contractor alliance set for £650m East West Rail direct award",
-   "url": "https://www.constructionnews.co.uk/contractors/laing-orourke/contractor-alliance-set-for-650m-east-west-rail-direct-award-14-10-2026/",
-   "published": "2026-10-14T10:07+00:00",
-   "published_jst": "2026-10-14 19:07",
-   "summary": "Network Rail has said it intends to award £650m of upgrade works to the AtkinsRéalis, Laing O’Rourke and VolkerRail alliance delivering the £6.6bn East West Rail line. The client published a notice this morning (14 October) setting out plans to extend the East West Rail… The post Contractor alliance",
-   "ai_related": false,
-   "title_ja": "イースト・ウェスト・レール、6.5億ポンドの改良工事を発注予定",
-   "summary_ja": "ネットワーク・レールは、アトキンズレリスらの企業連合に対し6.5億ポンドのアップグレード工事を発注する方針。"
   },
   {
    "id": "1290bf8ab163",
@@ -1603,6 +1516,19 @@
    "published_jst": "2026-10-14 18:20",
    "summary": "米Anthropicの共同創業者であるジャック・クラーク氏は、相次ぐ日本企業へのサイバー攻撃について、AIが使われている可能性もあるとの見方を示した。",
    "ai_related": true
+  },
+  {
+   "id": "89d8a83ec47e",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "西条市・新居浜市に米・アンソロピック向けDC建設を検討【愛媛】（南海放送）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zTXZSTl9vb0hKdmF6UEZsZnM4Q2xqMjV4WFRTcExrVWVJWHdCd2wwSDJpajBtR3AzTjNLYVp0VjdJeFJlcE9lMkdnWk42ekpEUDRTWS04ckt1WHIwa0ppNWZHM01VbWRtX0RzSDkwQnNDTm5sVFd0aUxnMnNtODA?oc=5",
+   "published": "2026-10-14T09:13+00:00",
+   "published_jst": "2026-10-14 18:13",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "09329565120f",
@@ -1896,29 +1822,16 @@
    "ai_related": true
   },
   {
-   "id": "3365cddffa8c",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
+   "id": "3bfc00180b2a",
+   "source": "Excite エキサイト",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
    "lang": "ja",
-   "title": "AnthropicがGit代替のバージョン管理システム「Scion」を開発し社内移行済み、AIでコードが爆増してGitの限界に達したので耐えられるシステムを開発",
-   "url": "https://gigazine.net/news/20261014-anthropic-scion-version-control-system/",
-   "published": "2026-10-14T04:33+00:00",
-   "published_jst": "2026-10-14 13:33",
-   "summary": "Claudeの開発元として知られるAI企業のAnthropicが、Gitの代わりとなるバージョン管理システム「Scion」を開発したことを発表しました。ScionはAnthropicの社内システムとして運用されており、すでにGitからの移行を達成しているそうです。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "90505a225fd0",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "人型ロボットが女性の尻に接触＆性的動作のセクハラ行動の疑い、ロボット所有者と同行者を警察が捜査",
-   "url": "https://gigazine.net/news/20261014-humanoid-robot-harassment/",
-   "published": "2026-10-14T04:08+00:00",
-   "published_jst": "2026-10-14 13:08",
-   "summary": "ドイツで、人型ロボットが少女のお尻に触れたり腰を突き出したりしている様子が目撃されました。この様子はSNSで配信されており、警察は性的侮辱の疑いで、ロボットを所有する16歳男性と、同行していた19歳男性を捜査しています。 続きを読む...",
+   "title": "応用技術、建築DXオンラインカンファレンス「toBIM DAY」を2026年11月10日（火）に開催",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lWVdLcURjS3UtdDlpWXVsTnJFYXRUMzNoNkozVEVlbEZWenlrRkp5NERZNmg3ZzBEY1ppT3lfbFpKczBMQzRvcjE5c0VzOFNnaXBCSjZCV1VZdnR2dkVlV2pJNV9la1FJTTV4V2Z1M3RIVU9i?oc=5",
+   "published": "2026-10-14T04:15+00:00",
+   "published_jst": "2026-10-14 13:15",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -1932,19 +1845,6 @@
    "published": "2026-10-14T04:06+00:00",
    "published_jst": "2026-10-14 13:06",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "f05d776faa31",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIチャットサービスのCharacter.aiが破産申請、ディズニーへの資産売却などを検討",
-   "url": "https://gigazine.net/news/20261014-character-ai-bankruptcy/",
-   "published": "2026-10-14T04:02+00:00",
-   "published_jst": "2026-10-14 13:02",
-   "summary": "実在の人物やアニメキャラクター風のチャットボットと会話できるAIサービスを提供する「Character.ai」が、連邦倒産法第11章に基づく手続きを開始したことを発表しました。Character.aiは安全性や著作権など多方面で厳しい監視や訴訟に直面して数億円の負債を抱えており、会社と資産の売却を円滑に進めるために破産保護を申請したとしています。 続きを読む...",
    "ai_related": true
   },
   {
@@ -2104,6 +2004,19 @@
    "ai_related": false
   },
   {
+   "id": "58e4191fcfe4",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "published": "2026-10-14T02:00+00:00",
+   "published_jst": "2026-10-14 11:00",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "ai_related": true
+  },
+  {
    "id": "62bff62f170b",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
@@ -2115,19 +2028,6 @@
    "published_jst": "2026-10-14 11:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "842148b0afab",
-   "source": "イザ！",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "応用技術、建築DXオンラインカンファレンス「toBIM DAY」を2026年11月10日（火）に開催",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KZWF5Q0Q3aHhNeWx6UnJERUFNdTJkUm1jSVluOWk0NldZajFoQU5fTUg3ZmFYeENldm9PeGVkdVJQT1JENEtybXg0ZkV0S2M2WjJwNi1tM0F3dVE5a2ZPaWZ4NWtVWkw1dk8xRW9leUhwRDl6ZExJbzJR?oc=5",
-   "published": "2026-10-14T02:00+00:00",
-   "published_jst": "2026-10-14 11:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "a03368e48e74",
@@ -2208,13 +2108,13 @@
    "ai_related": true
   },
   {
-   "id": "97bc4bcb909b",
-   "source": "PR TIMES",
+   "id": "fa9ee4c56bc8",
+   "source": "ライブドアニュース",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "生成AIと対話してBIMを作る「ACIMUS」、シードラウンドで約6,500万円を調達 ― JR東日本スタートアップと資本業務提携",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxTV9GdHVFdnQycUJqMHlTODRCdVdveHVobjVrYU5maEg5dHJIOFUwRVh0VzNDazc4RVI3RWtBX1ZnNlI3ZFJSSlhXLTlEN3FxbGtUOXpLZHNaRjBENkpCVEJyc3ROUmJrR2c?oc=5",
+   "title": "生成AIと対話してBIMを作る「ACIMUS」、シードラウンドで約6,500万円を調達 - JR東日本スタートアップと資本業務提携",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12VFcxQ0tOa09sTDRyTHBfbW56Vjhfa2ItME5LNG45UW45MnNZM0dpNHdKV25qNTMxa1VMS0hDTlhYY1dQeDlyTkduUm15RVc0SlMtYVktd2pPWE9XT3U1dGpn?oc=5",
    "published": "2026-10-14T01:10+00:00",
    "published_jst": "2026-10-14 10:10",
    "summary": "",
@@ -2340,19 +2240,6 @@
    "ai_related": true
   },
   {
-   "id": "909360a5c13e",
-   "source": "日経クロステック",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "2024-25年版 技術士第二次試験 建設部門 最新キーワード100",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONWhWNTF3X0ZKNWhjQ29XZEtjdVlLem1qWDVicGpXc1hBT3pnZjZXb1E4eWY3dDRxYW5ONlVPWElpYUYxSVQtZUw3d1pXSWptYTVDa0JFZHhEak05RXJwUUtISzVOdzdJaWhZYW9qTE1mZEEya2I2Sm1KeGxNSE1wRlFqTENOX1pZX3NzWHVaNkZaZllTT1BSVk1vSnVocHhoTGpadG5kZmR1eUdUVVhLZUpfT0xnenUtZW1qcA?oc=5",
-   "published": "2026-10-13T23:26+00:00",
-   "published_jst": "2026-10-14 08:26",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "d87a7f5d60bf",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2467,6 +2354,19 @@
    "ai_related": true,
    "title_ja": "llm-gemini 0.35をリリース",
    "summary_ja": "llm-gemini 0.35をリリース。Gemini API経由で利用可能な新モデルGemini 4 Argonに対応。"
+  },
+  {
+   "id": "2750e5091747",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "「原則CIM化」で始まる土木のDX",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY21vUGp5X2Y2bVhvYlRJalNSMG5mUDRxdnluSFVxWEpUTE5jWjhhd1RrMFN0MGRjYktUdXNrRWxuWkVUYjBfVkhEMzFDRTZ4dnRtQXA5VGg0RkZsbTRqUm55NE43VXhHTTVkNTB5YmdWNnEzMmxrdmxEMENxbFViNS1OdkhLc1lBQzEtSmt5WnlUOEdoWjJITGVxSk1VamVCVGFFSk1OTWdGQjZRWmFEMHRwWTdJZTZVcjlEd3FoT1pac0d5TmZGOA?oc=5",
+   "published": "2026-10-13T22:22+00:00",
+   "published_jst": "2026-10-14 07:22",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "a77939c8f095",
@@ -2588,43 +2488,56 @@
    "ai_related": false
   },
   {
-   "id": "0457d27eeb07",
+   "id": "1a296db4ded2",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "月給制転換に焦点/業政策ビジョンで方向性/国交省検討会",
-   "url": "https://www.kensetsunews.com/archives/1295754",
+   "title": "近く提案競技公告/27年3月特定、29年度の着工/滋賀県の県立美術館設計",
+   "url": "https://www.kensetsunews.com/archives/1295899",
    "published": "2026-10-13T19:55+00:00",
    "published_jst": "2026-10-14 04:55",
-   "summary": "建設業政策の新たなビジョンを検討する国土交通省の有識者検討会は、建設産業の将来像を見据えた各論の議… The post 月給制転換に焦点/業政策ビジョンで方向性/国交省検討会 first appeared on 建設通信新聞Digital .",
+   "summary": "滋賀県は、「滋賀県立美術館増築その他設計業務委託」の公募型プロポーザルを今月下旬に公告する。２０２… The post 近く提案競技公告/27年3月特定、29年度の着工/滋賀県の県立美術館設計 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
-   "id": "9b064e318c87",
+   "id": "7b5d5c8ca214",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "連載・ペン描く業界の未来図(上)",
-   "url": "https://www.kensetsunews.com/archives/1295756",
+   "title": "10月16日まで参加申込/ウオーターPPPで対話調査/鳥取市",
+   "url": "https://www.kensetsunews.com/archives/1295931",
    "published": "2026-10-13T19:55+00:00",
    "published_jst": "2026-10-14 04:55",
-   "summary": "【漫画風の週間予定表／８．３万「いいね」で大バズり】 人手不足が止まらない。さまざまな取り組みが進め… The post 連載・ペン描く業界の未来図(上) first appeared on 建設通信新聞Digital .",
+   "summary": "鳥取市は、「官民連携（ウオーターＰＰＰ）事業に関するサウンディング調査」を実施する。参加申込書は１… The post 10月16日まで参加申込/ウオーターPPPで対話調査/鳥取市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
-   "id": "14e46a36588d",
+   "id": "38fc13448def",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "比国の派遣拠点が完成/元実習生らが施工/マルチコントラクター協同組合",
-   "url": "https://www.kensetsunews.com/archives/1295760",
+   "title": "ニュージェックを特定/県北振興局庁舎民活調査/長崎県",
+   "url": "https://www.kensetsunews.com/archives/1295941",
    "published": "2026-10-13T19:55+00:00",
    "published_jst": "2026-10-14 04:55",
-   "summary": "【フィリピン・バコロド＝綾部康一】かつて日本の建設現場で働いたフィリピン人元実習生らが、ふるさとで… The post 比国の派遣拠点が完成/元実習生らが施工/マルチコントラクター協同組合 first appeared on 建設通信新聞Digital .",
+   "summary": "長崎県は、「県北振興局庁舎再整備に係る与条件整理及び民間活力導入可能性等調査業務」の公募型プロポー… The post ニュージェックを特定/県北振興局庁舎民活調査/長崎県 first appeared on 建設通信新聞Digital .",
    "ai_related": false
+  },
+  {
+   "id": "471508c04c30",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "published": "2026-10-13T19:43+00:00",
+   "published_jst": "2026-10-14 04:43",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "7f8847540e19",
@@ -2777,19 +2690,82 @@
    "summary_ja": "シカゴ、ニューヨーク、シアトルの交通当局者が、全米公共交通協会の会議で資金不足や法的課題への解決策を語った。"
   },
   {
-   "id": "c1e94fc83136",
-   "source": "Google AI Blog",
-   "source_id": "google_ai",
+   "id": "884ebf3c3978",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini 4 Argon for Robotics",
+   "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "published": "2026-10-13T16:01+00:00",
+   "published_jst": "2026-10-14 01:01",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "f174716114a9",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
    "category": "ai_global",
    "lang": "en",
    "title": "Gemini 4 Argon: Built to solve your hardest problems",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "published": "2026-10-13T16:01+00:00",
+   "published_jst": "2026-10-14 01:01",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "caa6203fc500",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+   "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
    "published": "2026-10-13T16:00+00:00",
    "published_jst": "2026-10-14 01:00",
-   "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-   "ai_related": true,
-   "title_ja": "Gemini 4 Argon：最も困難な課題を解決するために開発",
-   "summary_ja": "最新のフロンティアモデル「Gemini 4 Argon」を、開発者、企業、研究者、一般ユーザー向けに提供開始。"
+   "summary": "Developers will get 50 percent discounted API rates through November.",
+   "ai_related": true
+  },
+  {
+   "id": "c1e09f31b958",
+   "source": "Infoseek",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "現場の一枚が、次の仕事になる。職人・施工会社のための作品投稿コミュニティ「職人自慢.com」ベータ版をリリース",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MeUNjNy14TmVyajMyOTZKc0hSSDI2dk1iaVhEVUVtMWhyTEVtcmVKM3NnSE1ibjY5RFlaNnRMYlVnVmJydjU1WkZUWlRmWDZ2aklOMzliV3c4RjdOS3NLdThvTzFzYWt6S0tCYkhwelpQUQ?oc=5",
+   "published": "2026-10-13T15:40+00:00",
+   "published_jst": "2026-10-14 00:40",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "41f495022ec4",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Character.ai will shut down if no buyer emerges, capping a fall from $2.7 billion Google deal to bankruptcy",
+   "url": "https://the-decoder.com/character-ai-will-shut-down-if-no-buyer-emerges-capping-a-fall-from-2-7-billion-google-deal-to-bankruptcy/",
+   "published": "2026-10-13T15:27+00:00",
+   "published_jst": "2026-10-14 00:27",
+   "summary": "Character.ai has filed for bankruptcy and is looking for a buyer. If none steps up, the platform shuts down. Founded by ex-Google researchers, the company once had over 20 million users but is now battling lawsuits over harm to minors and operational problems. The sale should close by the end of 202",
+   "ai_related": true
+  },
+  {
+   "id": "1acd025aeb34",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "They war-gamed dimming the Sun. It went even worse than you think.",
+   "url": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+   "published": "2026-10-13T15:17+00:00",
+   "published_jst": "2026-10-14 00:17",
+   "summary": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
+   "ai_related": true
   }
  ]
 }
