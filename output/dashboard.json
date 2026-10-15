@@ -1,11 +1,39 @@
 {
   "version": 6,
-  "slot": "noon",
+  "slot": "evening",
   "date": "2026-10-15",
   "post_date": "2026-10-15",
-  "generated_at": "2026-10-15T11:05+09:00",
-  "generated_by": "routine:x-post-noon",
-  "original_post": null,
+  "generated_at": "2026-10-15T19:35+09:00",
+  "generated_by": "routine:x-post-evening",
+  "original_post": {
+    "time": "20:00",
+    "text": "AIが伸びるほど建設業で足りなくなるのは、職人ではなく電気・空調の専門工事会社の技術者だと思う。\n\nデータセンターは建屋より受電と冷却の設備工事で工期が決まる。NTTが大阪で検討する米アンソロピック向け施設は建設費最大1兆円・受電容量500メガワットと報じられ、引き込める専門工事会社はごく一部だ。\n\nゼネコンは案件を選べても、下請けの専門工事会社の数は増やせない。大型案件が重なるほど同じ技術者を取り合い、マンションや工場の着工がその分だけ後ろへ回る。\n\nしわ寄せは契約額でなく、別の現場の着工待ちという形で表に出る。先に動けるのは、人を増やさずに積算や施工図をAIで前倒しできる専門工事会社だと思う。",
+    "status": "draft",
+    "article_url": null,
+    "video_url": null,
+    "reply_text": "■ 出典\nhttps://news.google.com/rss/articles/CBMiXkFVX3lxTE9nanpVSWctdTZTOTV1OW1LY2pTX2JzRDBIaEV4YjFaeC1IaVhHcWZXejlDQlRIQktSbDJyb0FodFhlUm5nR2tDcG9IdjVtRVdlbWNVblIwN25ZOWZ3ZHc?oc=5",
+    "editorial": {
+      "pillar": "本質投稿",
+      "format": "本質型",
+      "scores": {
+        "claim": 2,
+        "mechanism": 2,
+        "concrete": 2,
+        "construction_only": 2,
+        "decision": 2
+      },
+      "selection_reason": "「ゼネコンは案件を選べても、下請けの専門工事会社の数は増やせない」が建設業の下請け構造を知らないと書けない一文。入口はNTTが大阪で米アンソロピック向けAIデータセンター(建設費最大1兆円・受電容量500メガワット)を検討していると日経新聞のスクープを受け共同通信系列紙が2026-10-14 11:00頃に一斉配信した報道(直近48h以内)。",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nanpVSWctdTZTOTV1OW1LY2pTX2JzRDBIaEV4YjFaeC1IaVhHcWZXejlDQlRIQktSbDJyb0FodFhlUm5nR2tDcG9IdjVtRVdlbWNVblIwN25ZOWZ3ZHc?oc=5",
+      "published_at": "2026-10-14T11:00+09:00",
+      "checked_at": "2026-10-15T19:30+09:00",
+      "availability": "報道段階(日本経済新聞のスクープ〔2026-10-13〕を受け、共同通信系列の地方紙各紙〔京都新聞・新潟日報・山陰中央新報等〕が2026-10-14に一斉配信・転載。NTT・アンソロピック双方とも正式コメントなし)",
+      "unverified": [
+        "建設費最大1兆円・受電容量500メガワットは関係者取材に基づく報道の数字で、NTT・アンソロピックいずれの公式発表でもない",
+        "愛媛県西条市・新居浜市での関連データセンター検討報道は一次ソースで確認できず、本文には使っていない"
+      ],
+      "hook_alternative": "候補2(不採用): 国交省の「標準見積書(労務費明示)の作成・検討は約半数」調査(2026-10-15公表)を入口にする案。公表統計を入口にしてしまうため足切りで不採用。/ 候補3(不採用): 現場Hub・アンドパッドの建設業向け積算AI-BPOサービス提供開始ニュースを入口にする案。建設向けAI開発・導入支援/BPOの競合サービス紹介に当たる恐れがあるため判断できず候補にしない。"
+    }
+  },
   "engage_cards": [],
-  "skip_reason": "国内外とも、直近48h(2026-10-13 11:00〜10-15 11:00 JST)でvideo_urlを付けられる建設AI/建設×フィジカルAIの候補が無く休載。入口のai_buzz.json/slack_buzz.json/news_feed.jsonの構成素材に加えWebSearchで国内外を追加検索したが、動画付きで採用できる一次情報は見つからなかった。国内で見送った候補: (1)三菱電機グループのCEATEC2026出展告知(@ME_JP_official、2026-10-13 11:45、slack_buzz[建設×フィジカルAI国内])=フィジカルAI展示の開幕告知のみで実機作業映像なし、絵0点で不採用。(2)戸田建設「AIMERA」AIカメラによるシールド工事土質判別・正答率90%超達成(news_feed construction_japan、2026-10-14 05:43)=プレスリリース記事のみでX投稿や映像が確認できず絵0点のため不採用。(3)ナカノフドー建設の配筋検査DX撮影工数95%削減(news_feed construction_japan、2026-10-14 07:45)=同様に記事のみで動画なし、絵0点で不採用。(4)@z_zabaglione個人のAI CADアプリ自作(slack_buzz[CAD/BIM×AI国内]、2026-10-13 14:57)=建設現場でなく個人のアプリ開発デモで建設との距離が薄く、ルーティンでの「作ってみた」创作にも当たるため対象外。(5)清水建設の人型ロボット巡回・ロボットアーム塗装実証(Torch Tower)=WebSearchで裏取りしたが直近の続報は2026-07時点の報道のみで直近48hの新規映像なし。海外で見送った候補: (1)Bedrock Roboticsの無人運転油圧ショベル商用稼働(米テキサス/ネバダ)=WebSearchで確認したが報道は2026-08で48h超のため鮮度0、不採用。(2)All3(ロンドンのスタートアップ)の四足ロボットによる住宅建設(独コブレンツ、2026-10-13報道)=着工は2027年初頭予定の将来構想記事で、自社の公式動画は確認できず絵0点相当のため不採用。(3)PNDboticsの人型ロボット「Adam」が1mの箱に登るデモ(@spaceandtech_、2026-10-13 01:48、ai_buzz[建設すげー動画(海外)])=動画はあるが建設現場の作業ではなく汎用デモで建設との距離が弱く、かつ生成時点で48h超(鮮度0)のため不採用。(4)RoboParty RP1の予告ティザー(@RoboParty_DEV、2026-10-13 09:23)=「Coming soon」の予告のみで実機作業映像なし、絵0点で不採用。(5)izziebuildsのAstra×CNC加工デモ(@izziebuilds、2026-10-13 01:30、ai_buzz[設計・施工の作ってみた(海外)])=建設でなく工場でのCNC機械加工で建設との距離が弱く、生成時点で48h超(鮮度0)のため不採用。(6)川崎重工の4足造船ロボット(溶接・塗装)=2026-10-07昼枠で既出のため重複、再掲なし。本日の朝枠(Gemini 4 Argon×Apptronik Apollo)とは別系統のネタを探索したが、建設AI/建設×フィジカルAIの動画付き候補が国内外とも揃わなかったため休載する。"
+  "skip_reason": null
 }
