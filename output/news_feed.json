@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-16T18:49+00:00",
- "generated_at_jst": "2026-10-17 03:49",
+ "generated_at": "2026-10-16T20:06+00:00",
+ "generated_at_jst": "2026-10-17 05:06",
  "window_hours": 48,
  "counts": {
-  "ai_global": 54,
-  "construction_global": 33,
-  "construction_japan": 82,
-  "ai_japan": 31
+  "construction_global": 25,
+  "ai_global": 60,
+  "construction_japan": 83,
+  "ai_japan": 32
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -23,6 +23,45 @@
   }
  ],
  "items": [
+  {
+   "id": "0a6829425c8c",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Flintco-Mortenson JV begins concrete deck at $900M Oklahoma City NBA arena",
+   "url": "https://www.constructiondive.com/news/flintco-mortenson-jv-concrete-oklahoma-city-nba-arena/833271/",
+   "published": "2026-10-16T19:39+00:00",
+   "published_jst": "2026-10-17 04:39",
+   "summary": "The construction team on the future home of the Oklahoma City Thunder also started work on the loading dock walls on the east side of the venue.a",
+   "ai_related": false
+  },
+  {
+   "id": "21f3ee747e68",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "13-year, $2B NYC bridge rehab completes 8th of 11 projects",
+   "url": "https://www.constructiondive.com/news/nyc-george-washington-bridge-rehab-completes-8th-11-projects/833265/",
+   "published": "2026-10-16T19:30+00:00",
+   "published_jst": "2026-10-17 04:30",
+   "summary": "Skanska’s $452 million contract to replace the bridge’s 592 suspender ropes included the 1.5-mile pedestrian pathway rebuild.",
+   "ai_related": false
+  },
+  {
+   "id": "7a6a342eb958",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Claude reveals ECDSA curve origins",
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "published": "2026-10-16T18:55+00:00",
+   "published_jst": "2026-10-17 03:55",
+   "summary": "Article URL: https://www.anthropic.com/research/ecdsa-curve-origins Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 213 # Comments: 90",
+   "ai_related": true
+  },
   {
    "id": "51b3056070aa",
    "source": "The Decoder",
@@ -34,6 +73,19 @@
    "published": "2026-10-16T18:10+00:00",
    "published_jst": "2026-10-17 03:10",
    "summary": "OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on ",
+   "ai_related": true
+  },
+  {
+   "id": "85ddbdc7a76d",
+   "source": "MIT Technology Review AI",
+   "source_id": "mit_tr",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+   "published": "2026-10-16T18:00+00:00",
+   "published_jst": "2026-10-17 03:00",
+   "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that c",
    "ai_related": true
   },
   {
@@ -70,7 +122,7 @@
    "source_id": "constructconnect",
    "category": "construction_global",
    "lang": "en",
-   "title": "Stop Starting Elevation Takeoff from a Blank Page - Auto Takeoff for Exterior Elevations",
+   "title": "Stop Starting from a Blank Page - Auto Takeoff for Exterior Elevations",
    "url": "https://www.constructconnect.com/blog/stop-starting-elevation-takeoff-from-a-blank-page-auto-takeoff-for-exterior-elevations",
    "published": "2026-10-16T17:22+00:00",
    "published_jst": "2026-10-17 02:22",
@@ -78,6 +130,19 @@
    "ai_related": false,
    "title_ja": "外観立面図の自動作成ツールが登場",
    "summary_ja": "白紙の状態から立面図の計画を始める手間を省く、自動化機能の紹介です。"
+  },
+  {
+   "id": "9795228c1bdc",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "published": "2026-10-16T17:08+00:00",
+   "published_jst": "2026-10-17 02:08",
+   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 247 # Comments: 211",
+   "ai_related": true
   },
   {
    "id": "1f9b468e8642",
@@ -295,11 +360,11 @@
    "source_id": "construction_dive",
    "category": "construction_global",
    "lang": "en",
-   "title": "Construction prices jumped 11.2% annually in September",
+   "title": "Iran conflict pushes construction prices to near 4-year high",
    "url": "https://www.constructiondive.com/news/construction-prices-jumped-annually-september/833217/",
    "published": "2026-10-16T13:48+00:00",
    "published_jst": "2026-10-16 22:48",
-   "summary": "Higher fuel costs caused by the conflict in Iran, coupled with tariff impacts on key materials, drove the largest spike in nearly four years.",
+   "summary": "Higher fuel costs coupled with tariff impacts on key materials drove construction prices up 11.2% year over year in September.",
    "ai_related": false,
    "title_ja": "9月の建設資材価格、前年比11.2%急騰",
    "summary_ja": "燃料費の高騰や関税の影響が重なり、過去4年で最大の上昇率を記録しました。"
@@ -359,7 +424,7 @@
    "url": "https://www.constructiondive.com/news/punch-list-hntb-maryland-bridges-aecom-manhattan/833207/",
    "published": "2026-10-16T13:12+00:00",
    "published_jst": "2026-10-16 22:12",
-   "summary": "Plus, Turner saw costs rise 5.5% annually in the third quarter, and CMAA picked a new board of directors chair.",
+   "summary": "Plus, Turner saw costs rise 5.5% year over year in the third quarter, and CMAA picked a new board of directors chair.",
    "ai_related": false,
    "title_ja": "HNTBがメリーランド州の橋2件を受注、AECOMが交通部門責任者を任命",
    "summary_ja": "HNTBがメリーランド州の橋2件を受注。AECOMはグローバル交通部門の責任者を指名。Turnerは第3四半期にコストが年率5.5%上昇。CMAAは新理事長を選出。"
@@ -419,111 +484,6 @@
    "published_jst": "2026-10-16 21:30",
    "summary": "パーソナルエージェント分野の先駆者を標榜するPerplexityが、開発者がより安全なエージェントシステムを構築するための基盤を提供し、業界全体で保護体制を強化していくため、サンドボックスプラットフォーム「SPACE」をオープンソース化すると発表しました。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "e74a4b085853",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Higgins Homes trial: slinger tells jury of moment bricks fell, fatally injuring mum",
-   "url": "https://www.constructionnews.co.uk/legal/higgins-homes-trial-slinger-tells-jury-of-moment-bricks-fell-fatally-injuring-mum-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "A worker at a Higgins Homes site has described the moment he tried to stop a pallet of bricks hitting a scaffolding pole before it fell to the ground, killing a pedestrian. Christian Okonkwo, a self-employed slinger, who was working for subcontractor DWG Brickwork, escaped… The post Higgins Homes tr",
-   "ai_related": false,
-   "title_ja": "Higgins Homes裁判：レンガ落下で母親が死亡、作業員が証言",
-   "summary_ja": "Higgins Homesの現場で、レンガのパレットが落下し歩行者が死亡した事故について、作業員が証言。"
-  },
-  {
-   "id": "f6d16190d561",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Faithdean sees profit dip despite jump in turnover",
-   "url": "https://www.constructionnews.co.uk/financial/faithdean-sees-profit-dip-despite-jump-in-turnover-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "Specialist fit-out and refurbishment contractor Faithdean has reported an 8 per cent fall in annual profit despite seeing its turnover rise by nearly a quarter. The Kent-headquartered firm recorded a pre-tax profit of £4.5m in the year to 31 March 2026, compared with £4.9m the… The post Faithdean se",
-   "ai_related": false,
-   "title_ja": "Faithdean、売上増も利益は減少",
-   "summary_ja": "内装・改修専門業者Faithdeanは、売上が約25%増加したにもかかわらず、年間利益が8%減少したと報告。税引前利益は400万ポンド。"
-  },
-  {
-   "id": "974da333de6e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Farrans sank into loss in final year before acquisition",
-   "url": "https://www.constructionnews.co.uk/financial/farrans-sank-into-loss-in-final-year-before-acquisition-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "Northern Irish contractor Farrans Construction fell into the red last year after “challenging market conditions” and heavier provisions hit the company’s bottom line, newly released annual accounts show. Farrans – which was acquired by Sisk last November – reported a pre-tax loss of £36.2m in… The p",
-   "ai_related": false,
-   "title_ja": "Farrans、買収前の最終年度に赤字転落",
-   "summary_ja": "北アイルランドの建設会社Farrans Constructionは、厳しい市場環境と多額の引当金により、買収前の最終年度に赤字に転落した。"
-  },
-  {
-   "id": "147e8ea12662",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Survey identifies M&E labour shortages as data centres dominate",
-   "url": "https://www.constructionnews.co.uk/supply-chain/survey-identifies-me-labour-shortages-as-data-centres-dominate-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "A shortage of mechanical and electrical (M&E) contractors is affecting project delivery and productivity as specialists are being called in to lead on data centre schemes, a new survey has found. Four in 10 respondents to Gleeds’ latest quarterly market survey said that of all… The post Survey ident",
-   "ai_related": false,
-   "title_ja": "データセンター増加でM&E技術者不足が深刻化",
-   "summary_ja": "新しい調査によると、データセンター案件の増加により、機械・電気（M&E）工事業者の不足がプロジェクトの遂行と生産性に影響を与えている。"
-  },
-  {
-   "id": "9ef297cd33e8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "NHS trust seeks long-term contractor for £30m hospital upgrades",
-   "url": "https://www.constructionnews.co.uk/contracts/nhs-trust-seeks-long-term-contractor-for-30m-hospital-upgrades-16-10-2026/",
-   "published": "2026-10-16T11:37+00:00",
-   "published_jst": "2026-10-16 20:37",
-   "summary": "Guy's and St Thomas' NHS Foundation Trust has begun seeking a long-term construction partner for a £30m programme to refurbish wards across five London hospitals. The trust wants a procurement arrangement that could provide contractors with a continuous pipeline of work, potentially including a perm",
-   "ai_related": false,
-   "title_ja": "NHS信託、3000万ポンドの病院改修で長期契約業者を募集",
-   "summary_ja": "Guy's and St Thomas' NHS Foundation Trustは、ロンドン5病院の病棟改修プログラム（3000万ポンド）の長期建設パートナーを募集開始。"
-  },
-  {
-   "id": "0fbb404d44a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Welsh councils launch £800m civils framework tender",
-   "url": "https://www.constructionnews.co.uk/civils/welsh-councils-launch-800m-civils-framework-tender-16-10-2026/",
-   "published": "2026-10-16T11:13+00:00",
-   "published_jst": "2026-10-16 20:13",
-   "summary": "Five councils in south-west Wales have launched a tender for a civil engineering framework worth an estimated £800m over four years. Carmarthenshire County Council is leading the procurement alongside Ceredigion, Neath Port Talbot, Pembrokeshire and Swansea councils. The South West Wales Regional Ci",
-   "ai_related": false,
-   "title_ja": "ウェールズの自治体、8億ポンドの土木工事枠組み契約を募集",
-   "summary_ja": "ウェールズ南西部の5つの自治体が、4年間で推定8億ポンド相当の土木工事枠組み契約の入札を開始。"
-  },
-  {
-   "id": "659fc0da6701",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Hot batteries, hotter sites: why the lithium-ion risk is not being taken seriously enough",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/hot-batteries-hotter-sites-why-the-lithium-ion-risk-is-not-being-taken-seriously-enough-16-10-2026/",
-   "published": "2026-10-16T11:11+00:00",
-   "published_jst": "2026-10-16 20:11",
-   "summary": "Matt Partridge is head of product development at Armorgard UK Last year, UK fire brigades attended 1,760 lithium-ion battery fires, according to data gathered by global business insurer QBE. That's one callout roughly every five hours, leading the London Fire Brigade to name it the… The post Hot bat",
-   "ai_related": false,
-   "title_ja": "リチウムイオン電池火災のリスク、なぜ軽視されるのか",
-   "summary_ja": "昨年、英国では1,760件のリチウムイオン電池火災が発生。そのリスクが十分に認識されていない現状について警鐘を鳴らす。"
   },
   {
    "id": "0f0e13ae1f6e",
@@ -591,21 +551,6 @@
    "published_jst": "2026-10-16 18:38",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "f67831df6cc6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Frameworks aid 15% profit boost in Willmott Dixon interims",
-   "url": "https://www.constructionnews.co.uk/financial/frameworks-aid-15-profit-boost-in-willmott-dixon-interims-16-10-2026/",
-   "published": "2026-10-16T09:22+00:00",
-   "published_jst": "2026-10-16 18:22",
-   "summary": "Willmott Dixon posted a 15 per cent profit increase for the first half of the year and secured most of its new work through frameworks, the contractor has said. The tier one firm saw its pre-tax profit rise to £11.5m from £10m in unaudited half-year… The post Frameworks aid 15% profit boost in Willm",
-   "ai_related": true,
-   "title_ja": "Willmott Dixon、枠組み契約で中間利益15%増",
-   "summary_ja": "Willmott Dixonは上半期に利益が15%増加し、新規受注の大部分を枠組み契約を通じて確保したと発表。税引前利益は1150万ポンドに上昇。"
   },
   {
    "id": "e2c971ad02c2",
@@ -1270,6 +1215,19 @@
    "ai_related": true
   },
   {
+   "id": "9db4940a53f8",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "published": "2026-10-16T00:00+00:00",
+   "published_jst": "2026-10-16 09:00",
+   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+   "ai_related": true
+  },
+  {
    "id": "4a114f30bef2",
    "source": "ANDPAD ONE",
    "source_id": "andpad_one",
@@ -1318,19 +1276,6 @@
    "lang": "ja",
    "title": "建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由（読売新聞オンライン）",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSzRMM0RzRnNRcWRiQVpEbjJMbDA0cS1Xb2JTc1dqYkZ0VkFzRjc1aTNBSllrZTYzRlc2VXZWSzNJTUxpTVFWQmRSZ3hORGhfNnYwNDJVVVlJTzVkQVJHOXdGb2pTNDc0WnBtd0M3NER3MW43LUt2bXdfYkZueTJsUVVIQmE3MWtq?oc=5",
-   "published": "2026-10-15T23:18+00:00",
-   "published_jst": "2026-10-16 08:18",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "2dca7a72871b",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【画像】建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45TzhKRVBaUGpvemRScS1NS0pxcXVQSnozT0t3Z0QxVzJYejNrRWN3SjNBaGVyWFVOU2RaQ2JCekI4VzlsVzRUQmFfc3pacnZINldXOGNTNzQyNVE1XzYtQjdjLU1jQTVkcnpWbVhLbElEUjh1WTZ1WTVPWlo?oc=5",
    "published": "2026-10-15T23:18+00:00",
    "published_jst": "2026-10-16 08:18",
    "summary": "",
@@ -1484,7 +1429,7 @@
    "url": "https://www.constructiondive.com/news/turner-fh-joint-venture-adventhealth-hospital-colorado/833167/",
    "published": "2026-10-15T20:38+00:00",
    "published_jst": "2026-10-16 05:38",
-   "summary": "The build for AdventHealth in Louisville carries a price tage of $475 million, according to Becker’s Hospital Review.",
+   "summary": "The build for AdventHealth in Louisville carries a price tag of $475 million, according to Becker’s Hospital Review.",
    "ai_related": false,
    "title_ja": "ターナーとFHの合弁事業、コロラド州で病院を着工",
    "summary_ja": "ベッカーズ・ホスピタル・レビュー紙によると、ルイビルでのアドヴェントヘルス建設にかかる費用は4億7500万ドルに及ぶ。"
@@ -1600,6 +1545,32 @@
    "summary_ja": "パノス・パナイ氏はTechCrunch Disruptで、AIが背景で動作しユーザーの要望を先回りする未来のビジョンを描いた。"
   },
   {
+   "id": "b68a5a2de8a6",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省",
+   "url": "https://www.kensetsunews.com/archives/1297146",
+   "published": "2026-10-15T19:55+00:00",
+   "published_jst": "2026-10-16 04:55",
+   "summary": "総務省は、将来の担い手不足が懸念される情報通信エンジニアリング業界の労働力需給を把握するため、初の… The post 電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "3714956f7b7a",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "28年1月に入札公告/総合病院小児新棟整備/滋賀県",
+   "url": "https://www.kensetsunews.com/archives/1297155",
+   "published": "2026-10-15T19:55+00:00",
+   "published_jst": "2026-10-16 04:55",
+   "summary": "【設計は内藤事務所】 滋賀県は、整備を計画している県立総合病院小児新棟について、２０３０年度内の供用… The post 28年1月に入札公告/総合病院小児新棟整備/滋賀県 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "7ac3216ccf44",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -1662,32 +1633,6 @@
    "published": "2026-10-15T19:55+00:00",
    "published_jst": "2026-10-16 04:55",
    "summary": "新潟市は１５日、「松浜雨水ポンプ場吐口工実施設計業務委託」「姥ケ山中継ポンプ場沈砂池設備増設実施設… The post 10月22日まで申請受付/松浜雨水ポンプ場吐口設計など/新潟市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "b68a5a2de8a6",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省",
-   "url": "https://www.kensetsunews.com/archives/1297146",
-   "published": "2026-10-15T19:55+00:00",
-   "published_jst": "2026-10-16 04:55",
-   "summary": "総務省は、将来の担い手不足が懸念される情報通信エンジニアリング業界の労働力需給を把握するため、初の… The post 電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "3714956f7b7a",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "28年1月に入札公告/総合病院小児新棟整備/滋賀県",
-   "url": "https://www.kensetsunews.com/archives/1297155",
-   "published": "2026-10-15T19:55+00:00",
-   "published_jst": "2026-10-16 04:55",
-   "summary": "【設計は内藤事務所】 滋賀県は、整備を計画している県立総合病院小児新棟について、２０３０年度内の供用… The post 28年1月に入札公告/総合病院小児新棟整備/滋賀県 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1869,6 +1814,19 @@
    "ai_related": true,
    "title_ja": "Nvidia、常時稼働AIエージェント向け「Nemotron 3.5 Super VL」公開",
    "summary_ja": "企業向けに1,200億パラメーターを持つオープンなマルチモーダルモデルを発表。2つのコンパクトなBoltモデルもローカル環境向けに提供されます。"
+  },
+  {
+   "id": "996b33c09ad5",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "published": "2026-10-15T16:08+00:00",
+   "published_jst": "2026-10-16 01:08",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+   "ai_related": true
   },
   {
    "id": "1cc24ddce8a4",
@@ -2094,36 +2052,6 @@
    "summary_ja": "会話の要約やタスク作成が可能な新型ウェアラブル端末と、スマホに取り付け可能なカードサイズのレコーダーが登場しました。"
   },
   {
-   "id": "eeeccda8521a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Reporting reform: less red tape, greater risk?",
-   "url": "https://www.constructionnews.co.uk/financial/reporting-reform-less-red-tape-greater-risk-15-10-2026/",
-   "published": "2026-10-15T11:49+00:00",
-   "published_jst": "2026-10-15 20:49",
-   "summary": "Plans to relax company reporting rules could reduce costs for construction businesses. But could they also make it harder to judge whether a customer or subcontractor is financially sound? The post Reporting reform: less red tape, greater risk? appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "報告制度改革：規制緩和とリスク増大？",
-   "summary_ja": "企業報告規則の緩和計画は建設企業のコスト削減に繋がるが、顧客や下請け業者の財務健全性を判断しにくくなる可能性も指摘されている。"
-  },
-  {
-   "id": "43f3eada7756",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Briggs & Forrester claiming £1.3m from collapsed Torsion Construction",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/briggs-forrester-claiming-1-3m-from-collapsed-torsion-construction-15-10-2026/",
-   "published": "2026-10-15T11:45+00:00",
-   "published_jst": "2026-10-15 20:45",
-   "summary": "Briggs & Forrester is one of the largest trade creditors of Torsion Construction, administrators for the collapsed Leeds contractor have revealed. Some 521 trade creditors owed a total of £15.7m appeared on a statement of affairs document from James Clark and Howard Smith of Interpath.… The post Bri",
-   "ai_related": false,
-   "title_ja": "Briggs & Forrester、倒産したTorsion Constructionに130万ポンド請求",
-   "summary_ja": "Briggs & Forresterは、倒産したリーズの建設会社Torsion Constructionの最大の債権者の一つで、130万ポンドを請求している。"
-  },
-  {
    "id": "f1ac855700ea",
    "source": "デジコン",
    "source_id": "gnews_kensetsu_ai",
@@ -2161,6 +2089,19 @@
    "published_jst": "2026-10-15 19:30",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "fe2b90cc706f",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ベンチャー・グローバル、AIデータセンター向けに発電所を建設へ 執筆",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IdVNrRllRd3pnQWFhb1NnRDRSTWxOcHFGeFhNYW1lRVZUZVNXbUw2MjF6SHBiV1ViWDZJOHNwSkctN0tOOXNqa3k3eF9JejB0Uk41Wm5qYnc2S05FekFwUjdxMVp3VjhMcHI4MDJ6ZVBOV0VpajBB?oc=5",
+   "published": "2026-10-15T10:01+00:00",
+   "published_jst": "2026-10-15 19:01",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "0aa71d1f1cfd",
@@ -2556,6 +2497,19 @@
    "ai_related": true
   },
   {
+   "id": "d9feffb548df",
+   "source": "茨城新聞クロスアイ",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【PR TIMES 企業向けシステム・通信・機器 住宅・建築・建設】不動産ブログ記事のAI生成「AIコンテンツ生成」機能の累計利用回数が10万回を突破！｜いえらぶGROUP",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YcU1tZ2hjUWZoc0M5Y1BSU1hxTTNwMWpQZHdtNWI0Ry1VNGVHdy12VklmT3MwNG1kenBxbmJnaDJ5S18wMVhCRjFHb0hjU05ycHRGTUNWank3MWlqWERNU0JvdENNcVlGdEZUNXVkWFhjNzVsUUZn?oc=5",
+   "published": "2026-10-15T01:30+00:00",
+   "published_jst": "2026-10-15 10:30",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "392869267c41",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2567,19 +2521,6 @@
    "published_jst": "2026-10-15 10:27",
    "summary": "YouTubeは「YouTube Music」で、主に生成AIで作られた楽曲を示すラベル表示を開始した。音楽パートナーとの連携や独自ツールで曲やボーカルの生成を検知し、プレーヤー画面に表示する。メタデータ申告のほか未申告でも自動判定し、今後はYouTubeにも拡大する。",
    "ai_related": true
-  },
-  {
-   "id": "04b58b98a1ed",
-   "source": "Infoseek",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "スキル管理ツール「fapi」、Excelで即使える『飲食・小売・サービス向けスキルツリー』を無料配布開始！「作成・入力の手間」を解決し、店舗現場のQSC向上と多店舗展開を支える人材育成を支援。｜Infoseekニュース",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MYkhFRDNUeExDVEp2d21TdkljeVFPcnljLUYyYVYyY1hXcUE4RnZ2dkNfYlJVWjM4dkdUZTQzclZRS0FxZUxrQV91cjdFUE1OZGx0MmNpQ1I5bE9HaTdxZF9CUzUtdzladWlwbU9EN3lzdw?oc=5",
-   "published": "2026-10-15T01:15+00:00",
-   "published_jst": "2026-10-15 10:15",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "f86858c1d849",
@@ -2608,19 +2549,6 @@
    "published_jst": "2026-10-15 10:00",
    "summary": "国土交通省は2026年9月30日、「公共事業におけるピュア型ＣＭ方式活用実態調査（令和８年度）」の結果を発表しました。 調査には、一般社団法...",
    "ai_related": false
-  },
-  {
-   "id": "2fbddb84c5c4",
-   "source": "Infoseek",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "住宅会社向け基幹システム「注文分譲クラウドDX」と「ARCHITREND ONE 積算オプション」の積算連携を2026年11月18日より開始｜Infoseekニュース",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9selRZcXRDa2NLTElncDUyTl82S3NfUm91b2NsYmpFQVhROVpkUmZMdVRMSXFkdkNmLVRiOHQ4eThqMGNBYnRoWFFTM0RRbWtjTlNsR2RITGFFcVlhUXJ0X3FHTVBZYUU1VTEzcjI5SDBPQQ?oc=5",
-   "published": "2026-10-15T01:00+00:00",
-   "published_jst": "2026-10-15 10:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "236d31bd5e73",
@@ -2791,6 +2719,58 @@
    "published": "2026-10-14T22:00+00:00",
    "published_jst": "2026-10-15 07:00",
    "summary": "建設業界でBIMの活用が進む一方で、蓄積された知識やノウハウをいかに効率よく活用するかが課題となっています。 株式会社大林組は株式会社Bey...",
+   "ai_related": true
+  },
+  {
+   "id": "d69a0a782260",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【2026年】一般建設業と特定建設業の違いとは？｜許可取得方法・請負金額の上限を徹底解説",
+   "url": "https://news.build-app.jp/article/36146/",
+   "published": "2026-10-14T22:00+00:00",
+   "published_jst": "2026-10-15 07:00",
+   "summary": "「建設業の許可を取りたいけれど、一般建設業と特定建設業の違いがわからない」「どちらを取得すべきか、いつ取得すればよいのか知りたい」とお悩みで...",
+   "ai_related": false
+  },
+  {
+   "id": "0a163506faa7",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ホワイトカラーは「建設現場の過酷さ」に耐えられない…AIで失職しても肉体労働で稼げるという甘い幻想",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ic001VVZ0LU1SOUxjQXVKV0J0TjdNTE9ITkV4d09iOV9IOGNJY3pfR3RLbXRVRm9LLTNmZUxIOXJuM1NKd1ZXWFAxOTdXazNVb2E2WXhLVy1mQTVMVGxF?oc=5",
+   "published": "2026-10-14T22:00+00:00",
+   "published_jst": "2026-10-15 07:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "5d1dd6018d68",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "IFS最大イベントで新産業用AI発表 対話と自律実行で「眠る40％」を解き放つ",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/15/news017.html",
+   "published": "2026-10-14T21:30+00:00",
+   "published_jst": "2026-10-15 06:30",
+   "summary": "IFSのフラグシップカンファレンス「IFS Unleashed 2026」が、米国オーランドで開幕した。同イベントに合わせて、産業用AIプラットフォームの新製品「IFS Intelligence」を発表。対話型機能、自律型エージェント、開発支援の3機能を通じて、企業内に眠る未活用データを引き出し、自律型AIで具体的なアクションへと導く。",
+   "ai_related": true
+  },
+  {
+   "id": "bbc1e25e9e98",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Tree Appreciator",
+   "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+   "published": "2026-10-14T21:23+00:00",
+   "published_jst": "2026-10-15 06:23",
+   "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechan",
    "ai_related": true
   }
  ]
