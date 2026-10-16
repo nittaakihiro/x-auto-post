@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-16T20:06+00:00",
- "generated_at_jst": "2026-10-17 05:06",
+ "generated_at": "2026-10-16T21:05+00:00",
+ "generated_at_jst": "2026-10-17 06:05",
  "window_hours": 48,
  "counts": {
-  "construction_global": 25,
   "ai_global": 60,
-  "construction_japan": 83,
-  "ai_japan": 32
+  "construction_japan": 77,
+  "construction_global": 35,
+  "ai_japan": 28
  },
  "errors": [
   {
-   "feed": "venturebeat_ai",
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "constructionexec",
@@ -23,6 +23,49 @@
   }
  ],
  "items": [
+  {
+   "id": "b140e0bf691c",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI models hacked a crypto wallet and breached more websites",
+   "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "published": "2026-10-16T20:59+00:00",
+   "published_jst": "2026-10-17 05:59",
+   "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.`",
+   "ai_related": true,
+   "title_ja": "OpenAIモデルが暗号資産ウォレットをハッキング",
+   "summary_ja": "人間が操作していれば刑事訴追につながりかねない行為だった。"
+  },
+  {
+   "id": "5a8a8cf37871",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+   "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+   "published": "2026-10-16T20:20+00:00",
+   "published_jst": "2026-10-17 05:20",
+   "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
+   "ai_related": true,
+   "title_ja": "AIで児童性的虐待素材を作成した検察官が逮捕",
+   "summary_ja": "Discordユーザーの通報がきっかけとなり、州検察官の逮捕につながった。"
+  },
+  {
+   "id": "6687e03c7bf1",
+   "source": "LOGISTICS TODAY",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "清水建設、搬送など担う人型ロボ開発へ米社と協業",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE02Nk1tYTNRMFhKamlLU29oVGdoUHNOblZLNmFOMnplWFBNWllEWlZjUXBYYnBUUC1oMk8zdjZJT3FYbG5ENkNwRE9R?oc=5",
+   "published": "2026-10-16T20:15+00:00",
+   "published_jst": "2026-10-17 05:15",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "0a6829425c8c",
    "source": "Construction Dive",
@@ -34,7 +77,9 @@
    "published": "2026-10-16T19:39+00:00",
    "published_jst": "2026-10-17 04:39",
    "summary": "The construction team on the future home of the Oklahoma City Thunder also started work on the loading dock walls on the east side of the venue.a",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "オクラホマシティの新アリーナでコンクリート床の工事開始",
+   "summary_ja": "NBAサンダーの本拠地となる新会場で、建設チームが東側の荷卸し場壁面の作業も開始した。"
   },
   {
    "id": "21f3ee747e68",
@@ -47,7 +92,9 @@
    "published": "2026-10-16T19:30+00:00",
    "published_jst": "2026-10-17 04:30",
    "summary": "Skanska’s $452 million contract to replace the bridge’s 592 suspender ropes included the 1.5-mile pedestrian pathway rebuild.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ニューヨーク市の橋梁改修、13年・20億ドル規模のプロジェクトが8つ目完了",
+   "summary_ja": "592本の吊りロープ交換や1.5マイルの歩道再構築が含まれる。"
   },
   {
    "id": "7a6a342eb958",
@@ -59,8 +106,10 @@
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
    "published": "2026-10-16T18:55+00:00",
    "published_jst": "2026-10-17 03:55",
-   "summary": "Article URL: https://www.anthropic.com/research/ecdsa-curve-origins Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 213 # Comments: 90",
-   "ai_related": true
+   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 358 # Comments: 143",
+   "ai_related": true,
+   "title_ja": "ClaudeがECDSA曲線の起源を明らかに",
+   "summary_ja": "Hacker News上で議論やコメントが活発に行われている話題。"
   },
   {
    "id": "51b3056070aa",
@@ -73,7 +122,9 @@
    "published": "2026-10-16T18:10+00:00",
    "published_jst": "2026-10-17 03:10",
    "summary": "OpenAI's updated Chrome extension lets ChatGPT access open browser tabs, sum up content, and use \"Computer Use\" in Work mode to fill out forms or compare products across several tabs. It is open to all ChatGPT plans. The article ChatGPT becomes a full Chrome browser assistant that reads and acts on ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ChatGPTがChromeのブラウザアシスタントに進化",
+   "summary_ja": "タブの読み取りや要約に加え、作業モードでのフォーム入力や製品比較が可能になった。"
   },
   {
    "id": "85ddbdc7a76d",
@@ -86,7 +137,9 @@
    "published": "2026-10-16T18:00+00:00",
    "published_jst": "2026-10-17 03:00",
    "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that c",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AI設計ウイルスの作成者に迫るラウンドテーブル",
+   "summary_ja": "AIは新しい生命体を設計できるのか。スタンフォード大学の学生が生成AIを用いた事例。"
   },
   {
    "id": "bfa998e6f2ba",
@@ -114,7 +167,9 @@
    "published": "2026-10-16T17:42+00:00",
    "published_jst": "2026-10-17 02:42",
    "summary": "China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon as they are registered, but the move will likely push Wester",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "中国、オープンウェイトモデル等の輸出管理強化を計画",
+   "summary_ja": "23の主要AI技術を対象とし、大規模モデルのソースコードや学習方法の輸出を制限する。"
   },
   {
    "id": "a718fb78275b",
@@ -141,8 +196,10 @@
    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
    "published": "2026-10-16T17:08+00:00",
    "published_jst": "2026-10-17 02:08",
-   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 247 # Comments: 211",
-   "ai_related": true
+   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 286 # Comments: 259",
+   "ai_related": true,
+   "title_ja": "米国の労働時間の90％はAIベンチマーク対象外の作業",
+   "summary_ja": "AIの評価基準と実際の労働実態のギャップについて調査した記事。"
   },
   {
    "id": "1f9b468e8642",
@@ -293,6 +350,21 @@
    "ai_related": true,
    "title_ja": "Autodeskが挑む、これまでで最も野心的なAI",
    "summary_ja": "単なるツールを超え、タスクの解決方法を自ら判断する統合アシスタントのビジョンを描いています。"
+  },
+  {
+   "id": "22d04cd04ff7",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Show HN: Gemini 4 Argon plays StarCraft",
+   "url": "https://starskirmish.com/bench/v0-2/",
+   "published": "2026-10-16T14:18+00:00",
+   "published_jst": "2026-10-16 23:18",
+   "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 159 # Comments: 73",
+   "ai_related": true,
+   "title_ja": "Gemini 4 ArgonがStarCraftをプレイ",
+   "summary_ja": "LLMがコードを書いてStarCraftをプレイするベンチマークの最新結果。"
   },
   {
    "id": "ad3a47861a30",
@@ -486,15 +558,120 @@
    "ai_related": true
   },
   {
-   "id": "0f0e13ae1f6e",
-   "source": "朝日放送",
+   "id": "e74a4b085853",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Higgins Homes trial: slinger tells jury of moment bricks fell, fatally injuring mum",
+   "url": "https://www.constructionnews.co.uk/legal/higgins-homes-trial-slinger-tells-jury-of-moment-bricks-fell-fatally-injuring-mum-16-10-2026/",
+   "published": "2026-10-16T11:45+00:00",
+   "published_jst": "2026-10-16 20:45",
+   "summary": "A worker at a Higgins Homes site has described the moment he tried to stop a pallet of bricks hitting a scaffolding pole before it fell to the ground, killing a pedestrian. Christian Okonkwo, a self-employed slinger, who was working for subcontractor DWG Brickwork, escaped… The post Higgins Homes tr",
+   "ai_related": false,
+   "title_ja": "レンガ落下で母親が死亡した事故、作業員が裁判で証言",
+   "summary_ja": "足場のポールに当たって落下したレンガのパレットを止めようとした際の状況を語った。"
+  },
+  {
+   "id": "f6d16190d561",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Faithdean sees profit dip despite jump in turnover",
+   "url": "https://www.constructionnews.co.uk/financial/faithdean-sees-profit-dip-despite-jump-in-turnover-16-10-2026/",
+   "published": "2026-10-16T11:45+00:00",
+   "published_jst": "2026-10-16 20:45",
+   "summary": "Specialist fit-out and refurbishment contractor Faithdean has reported an 8 per cent fall in annual profit despite seeing its turnover rise by nearly a quarter. The Kent-headquartered firm recorded a pre-tax profit of £4.5m in the year to 31 March 2026, compared with £4.9m the… The post Faithdean se",
+   "ai_related": false,
+   "title_ja": "Faithdean、売上高増加も利益は減少",
+   "summary_ja": "専門の内装・改修請負業者である同社は、売上高が約4分の1増加したものの年間利益は8%減少した。"
+  },
+  {
+   "id": "974da333de6e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Farrans sank into loss in final year before acquisition",
+   "url": "https://www.constructionnews.co.uk/financial/farrans-sank-into-loss-in-final-year-before-acquisition-16-10-2026/",
+   "published": "2026-10-16T11:45+00:00",
+   "published_jst": "2026-10-16 20:45",
+   "summary": "Northern Irish contractor Farrans Construction fell into the red last year after “challenging market conditions” and heavier provisions hit the company’s bottom line, newly released annual accounts show. Farrans – which was acquired by Sisk last November – reported a pre-tax loss of £36.2m in… The p",
+   "ai_related": false,
+   "title_ja": "Farrans、買収前の最終年度に赤字転落",
+   "summary_ja": "厳しい市場環境と多額の引当金が収益を圧迫し、北アイルランドの建設会社が赤字となった。"
+  },
+  {
+   "id": "147e8ea12662",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Survey identifies M&E labour shortages as data centres dominate",
+   "url": "https://www.constructionnews.co.uk/supply-chain/survey-identifies-me-labour-shortages-as-data-centres-dominate-16-10-2026/",
+   "published": "2026-10-16T11:45+00:00",
+   "published_jst": "2026-10-16 20:45",
+   "summary": "A shortage of mechanical and electrical (M&E) contractors is affecting project delivery and productivity as specialists are being called in to lead on data centre schemes, a new survey has found. Four in 10 respondents to Gleeds’ latest quarterly market survey said that of all… The post Survey ident",
+   "ai_related": false,
+   "title_ja": "データセンター需要でM&E分野の人手不足が表面化",
+   "summary_ja": "データセンター計画に専門家が投入される中、M&E事業者の不足がプロジェクトに影響を与えている。"
+  },
+  {
+   "id": "9ef297cd33e8",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "NHS trust seeks long-term contractor for £30m hospital upgrades",
+   "url": "https://www.constructionnews.co.uk/contracts/nhs-trust-seeks-long-term-contractor-for-30m-hospital-upgrades-16-10-2026/",
+   "published": "2026-10-16T11:37+00:00",
+   "published_jst": "2026-10-16 20:37",
+   "summary": "Guy's and St Thomas' NHS Foundation Trust has begun seeking a long-term construction partner for a £30m programme to refurbish wards across five London hospitals. The trust wants a procurement arrangement that could provide contractors with a continuous pipeline of work, potentially including a perm",
+   "ai_related": false,
+   "title_ja": "NHSトラスト、3000万ポンドの病院改修に向け長期パートナーを募集",
+   "summary_ja": "ロンドンの5つの病院で病棟を改修するため、長期的な建設パートナーの調達を開始した。"
+  },
+  {
+   "id": "0fbb404d44a7",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Welsh councils launch £800m civils framework tender",
+   "url": "https://www.constructionnews.co.uk/civils/welsh-councils-launch-800m-civils-framework-tender-16-10-2026/",
+   "published": "2026-10-16T11:13+00:00",
+   "published_jst": "2026-10-16 20:13",
+   "summary": "Five councils in south-west Wales have launched a tender for a civil engineering framework worth an estimated £800m over four years. Carmarthenshire County Council is leading the procurement alongside Ceredigion, Neath Port Talbot, Pembrokeshire and Swansea councils. The South West Wales Regional Ci",
+   "ai_related": false,
+   "title_ja": "ウェールズの自治体、8億ポンド規模の土木事業枠組みの入札開始",
+   "summary_ja": "南西部の5つの自治体が、今後4年間で推定8億ポンド規模の土木エンジニアリング枠組みの入札を開始。"
+  },
+  {
+   "id": "659fc0da6701",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Hot batteries, hotter sites: why the lithium-ion risk is not being taken seriously enough",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/hot-batteries-hotter-sites-why-the-lithium-ion-risk-is-not-being-taken-seriously-enough-16-10-2026/",
+   "published": "2026-10-16T11:11+00:00",
+   "published_jst": "2026-10-16 20:11",
+   "summary": "Matt Partridge is head of product development at Armorgard UK Last year, UK fire brigades attended 1,760 lithium-ion battery fires, according to data gathered by global business insurer QBE. That's one callout roughly every five hours, leading the London Fire Brigade to name it the… The post Hot bat",
+   "ai_related": false,
+   "title_ja": "リチウムイオン電池の火災リスク、深刻に捉えるべき理由",
+   "summary_ja": "昨年の英国の消防出動件数に基づき、リチウムイオン電池に関する火災リスクの過小評価に警鐘を鳴らす。"
+  },
+  {
+   "id": "f97ded25380c",
+   "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建設業界の人手不足を支えるロボット・ＡＩ技術を展示 兵庫・尼崎市で「タカミヤフェア２０２６」",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LTlk0dmNCV3VSRl9NTURWLTJQVm1kejdzbVFCQkdKeC1YUDZmM19XUlZMSGRBQ2duMlJUUVNFVmkwcWpIYk1ta0c2endGSUtna0JyTTQ1LThYNTBKMzlNQkV3?oc=5",
-   "published": "2026-10-16T10:14+00:00",
-   "published_jst": "2026-10-16 19:14",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Ba1dSUnFObGZaVWsybjh0eHFLaDBXX3AtT3JDMnJWckl1NDVienhJY25JYXdBZG1nMXd2N3JDUl9lTFVOQWZLODU5MWxZR0U2dmNRa25RT3lKRkRtMnA3TTF0MXduZVVCWm9IRjdDeHdySVo3RXZ2emo4U256UFk?oc=5",
+   "published": "2026-10-16T10:04+00:00",
+   "published_jst": "2026-10-16 19:04",
    "summary": "",
    "ai_related": true
   },
@@ -508,6 +685,19 @@
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iQV9lb2VOQ091c19idlhnU1N3VVNUaVhfSVUwcGRHQlJMU2tTRkdqVkFVaG9ic0ZpT1NaVFYtUUJJcUpYeWJ1TGgtUTYzRmtVakNSelhMVG5IT1RpRnVZZWdTOVM?oc=5",
    "published": "2026-10-16T10:03+00:00",
    "published_jst": "2026-10-16 19:03",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "21565a4f409e",
+   "source": "ITmedia",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "自然言語で危険をAI検知、ジザイエが過酷な現場向けLTE搭載カメラ発売：現場管理",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzV19vdk9xbFlKSVhHeVVDeEVSaE9vODdJWDJ3akZmTmZVMEFvN2dYS0xTYWp0Z1N6NHdJS3c0R25zaDNyNUlZY2VnWE9YRC1CMWU2VGZKdnZxdkR2aENrR2FPWnZsdXdMUlJSWg?oc=5",
+   "published": "2026-10-16T10:00+00:00",
+   "published_jst": "2026-10-16 19:00",
    "summary": "",
    "ai_related": false
   },
@@ -540,17 +730,19 @@
    "ai_related": true
   },
   {
-   "id": "6687e03c7bf1",
-   "source": "LOGISTICS TODAY",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設、搬送など担う人型ロボ開発へ米社と協業",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE02Nk1tYTNRMFhKamlLU29oVGdoUHNOblZLNmFOMnplWFBNWllEWlZjUXBYYnBUUC1oMk8zdjZJT3FYbG5ENkNwRE9R?oc=5",
-   "published": "2026-10-16T09:38+00:00",
-   "published_jst": "2026-10-16 18:38",
-   "summary": "",
-   "ai_related": false
+   "id": "f67831df6cc6",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Frameworks aid 15% profit boost in Willmott Dixon interims",
+   "url": "https://www.constructionnews.co.uk/financial/frameworks-aid-15-profit-boost-in-willmott-dixon-interims-16-10-2026/",
+   "published": "2026-10-16T09:22+00:00",
+   "published_jst": "2026-10-16 18:22",
+   "summary": "Willmott Dixon posted a 15 per cent profit increase for the first half of the year and secured most of its new work through frameworks, the contractor has said. The tier one firm saw its pre-tax profit rise to £11.5m from £10m in unaudited half-year… The post Frameworks aid 15% profit boost in Willm",
+   "ai_related": true,
+   "title_ja": "Willmott Dixon、枠組み活用で利益が15%増",
+   "summary_ja": "上期決算で利益が15%増加し、新規案件の大部分を枠組み契約を通じて獲得したと発表。"
   },
   {
    "id": "e2c971ad02c2",
@@ -618,19 +810,6 @@
    "ai_related": true
   },
   {
-   "id": "637f623945f7",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "イプロスが建設業のAI活用セミナーを12月に東京で開催へ",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HeVp0dU8xRW10MURUbkk5WHZjX3hGMVB0WndadTkyOVh3cXJhekgxMXM5NnQyRUFsUTl4U3RmODVxdzRwVXd5TWFaQXhjbHNZV2ZMSWs0SS1Fc1hudy1EV3E3aTQ?oc=5",
-   "published": "2026-10-16T07:10+00:00",
-   "published_jst": "2026-10-16 16:10",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "3b1f9ff20bc2",
    "source": "ライブドアニュース",
    "source_id": "gnews_kensetsu_ai",
@@ -642,6 +821,19 @@
    "published_jst": "2026-10-16 16:10",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "637f623945f7",
+   "source": "Dellows News",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "イプロスが建設業のAI活用セミナーを12月に東京で開催へ",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HeVp0dU8xRW10MURUbkk5WHZjX3hGMVB0WndadTkyOVh3cXJhekgxMXM5NnQyRUFsUTl4U3RmODVxdzRwVXd5TWFaQXhjbHNZV2ZMSWs0SS1Fc1hudy1EV3E3aTQ?oc=5",
+   "published": "2026-10-16T07:10+00:00",
+   "published_jst": "2026-10-16 16:10",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "7e53bf5056f4",
@@ -1225,7 +1417,9 @@
    "published": "2026-10-16T00:00+00:00",
    "published_jst": "2026-10-16 09:00",
    "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Stack Overflow for Agents、ChatGPTプラグインで登録数が3倍に",
+   "summary_ja": "Codexを用いて数週間で開発され、ChatGPTプラグインがエージェント作成の急増を後押しした。"
   },
   {
    "id": "4a114f30bef2",
@@ -1276,6 +1470,19 @@
    "lang": "ja",
    "title": "建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由（読売新聞オンライン）",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSzRMM0RzRnNRcWRiQVpEbjJMbDA0cS1Xb2JTc1dqYkZ0VkFzRjc1aTNBSllrZTYzRlc2VXZWSzNJTUxpTVFWQmRSZ3hORGhfNnYwNDJVVVlJTzVkQVJHOXdGb2pTNDc0WnBtd0M3NER3MW43LUt2bXdfYkZueTJsUVVIQmE3MWtq?oc=5",
+   "published": "2026-10-15T23:18+00:00",
+   "published_jst": "2026-10-16 08:18",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "2dca7a72871b",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【画像】建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45TzhKRVBaUGpvemRScS1NS0pxcXVQSnozT0t3Z0QxVzJYejNrRWN3SjNBaGVyWFVOU2RaQ2JCekI4VzlsVzRUQmFfc3pacnZINldXOGNTNzQyNVE1XzYtQjdjLU1jQTVkcnpWbVhLbElEUjh1WTZ1WTVPWlo?oc=5",
    "published": "2026-10-15T23:18+00:00",
    "published_jst": "2026-10-16 08:18",
    "summary": "",
@@ -1418,6 +1625,19 @@
    "published_jst": "2026-10-16 06:00",
    "summary": "次のページ The post 【マンガ】解体屋ゲン #861 第857話 ゲンが漫画に！？（後編） first appeared on 施工の神様 .",
    "ai_related": false
+  },
+  {
+   "id": "be12380e0a78",
+   "source": "住宅新報",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業界の資金繰り改善へ デジタルガレージとWIREBASE連携",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oTkJXb0EwWDRtZHZVVGRfMUNNYWZJU3J3enJiYzIxWnhneV9ZUnhyc0hUX0IxVUpTUkVSeDBlb2swSFBPSnBBaEJ6TUxYNnFN?oc=5",
+   "published": "2026-10-15T21:00+00:00",
+   "published_jst": "2026-10-16 06:00",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "6dfc94ef51dd",
@@ -1816,19 +2036,6 @@
    "summary_ja": "企業向けに1,200億パラメーターを持つオープンなマルチモーダルモデルを発表。2つのコンパクトなBoltモデルもローカル環境向けに提供されます。"
   },
   {
-   "id": "996b33c09ad5",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15T16:08+00:00",
-   "published_jst": "2026-10-16 01:08",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "ai_related": true
-  },
-  {
    "id": "1cc24ddce8a4",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2052,6 +2259,36 @@
    "summary_ja": "会話の要約やタスク作成が可能な新型ウェアラブル端末と、スマホに取り付け可能なカードサイズのレコーダーが登場しました。"
   },
   {
+   "id": "eeeccda8521a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Reporting reform: less red tape, greater risk?",
+   "url": "https://www.constructionnews.co.uk/financial/reporting-reform-less-red-tape-greater-risk-15-10-2026/",
+   "published": "2026-10-15T11:49+00:00",
+   "published_jst": "2026-10-15 20:49",
+   "summary": "Plans to relax company reporting rules could reduce costs for construction businesses. But could they also make it harder to judge whether a customer or subcontractor is financially sound? The post Reporting reform: less red tape, greater risk? appeared first on Construction News .",
+   "ai_related": false,
+   "title_ja": "報告ルールの改革：規制緩和か、それともリスク増大か",
+   "summary_ja": "企業報告規則の緩和は建設会社のコスト削減になる一方、財務健全性の判断を難しくする懸念もある。"
+  },
+  {
+   "id": "43f3eada7756",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Briggs & Forrester claiming £1.3m from collapsed Torsion Construction",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/briggs-forrester-claiming-1-3m-from-collapsed-torsion-construction-15-10-2026/",
+   "published": "2026-10-15T11:45+00:00",
+   "published_jst": "2026-10-15 20:45",
+   "summary": "Briggs & Forrester is one of the largest trade creditors of Torsion Construction, administrators for the collapsed Leeds contractor have revealed. Some 521 trade creditors owed a total of £15.7m appeared on a statement of affairs document from James Clark and Howard Smith of Interpath.… The post Bri",
+   "ai_related": false,
+   "title_ja": "Briggs & Forrester、経営破綻したTorsion Constructionに130万ポンドを請求",
+   "summary_ja": "経営破綻したリーズの建設会社Torsion Constructionの管財人が、Briggs & Forresterが最大の一般債権者の一社であることを明らかにした。約521社の債権者が総額1,570万ポンドの未払い金を抱えている。"
+  },
+  {
    "id": "f1ac855700ea",
    "source": "デジコン",
    "source_id": "gnews_kensetsu_ai",
@@ -2219,7 +2456,7 @@
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "営業から施工、保守まで一元管理することができる太陽光・蓄電池の販売施工会社向け施工管理・営業管理アプリ「タイナビワークス（Tainavi Works）」を10月15日より提供開始",
+   "title": "営業から施工、保守まで一元管理することができる太陽光・蓄電池の販売施工会社向け施工管理・営業管理アプリ「タイナビワークス（Tainavi Works）」を10月15日より提供開始 | 株式会社Gen R.のプレスリリース",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sVWFyOVhlbVBRUEt4U29VekR6ZFFKc05oRVJEVTM1NERJMXFUZ0JoTlhkZWVLM2dLZTZleEFxRWY1cFBiamlsdTFLb0FXN1RaS1BWYktVMkpFQlBEalN0Y0I1WE1UcURia0E?oc=5",
    "published": "2026-10-15T07:30+00:00",
    "published_jst": "2026-10-15 16:30",
@@ -2255,13 +2492,13 @@
    "summary_ja": "英国の景気回復が停滞する中、8月の建設生産高は0.2%減少した。"
   },
   {
-   "id": "6e248974df7b",
+   "id": "f0228ebddc5c",
    "source": "ライブドアニュース",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "【TAC1級建築施工管理技士】2027年合格目標コースが販売開始になりました！ (2026年10月15日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00MGtyZEt3a204ak5lTDk2cFZ6X2pUTUpIUW1CTHB6Rk9XZlFsTERwZndURFprc0R4ckZoUXV6SEVObF8tckQ2Z0FnWXN4eVh2Nko5Y1IyV01iUVdlLXVlU2tR?oc=5",
+   "title": "【TAC1級土木施工管理技士】2027年合格目標コースが販売開始になりました！ (2026年10月15日掲載)",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwZks4d0lzOWpFS19CSV9ndTcwT3FpQmxqd1g3T2MtMjFQaVhZWF9lV3FpeTdFN2ZGQS1tLWNsSmlmWnI0R0pabGs4cXBOSmY3bHRrWklCbXhNS200SVVuU1Bn?oc=5",
    "published": "2026-10-15T07:00+00:00",
    "published_jst": "2026-10-15 16:00",
    "summary": "",
@@ -2574,203 +2811,6 @@
    "published": "2026-10-15T00:11+00:00",
    "published_jst": "2026-10-15 09:11",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "dd00c04c9b95",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-   "url": "https://openai.com/index/sullivan-cromwell",
-   "published": "2026-10-15T00:00+00:00",
-   "published_jst": "2026-10-15 09:00",
-   "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-   "ai_related": true,
-   "title_ja": "Sullivan & Cromwell、契約書レビューにAI導入",
-   "summary_ja": "OpenAIと協力し、契約書のドラフトから問題を特定するAIツール「Agreement Analyzer」を開発。"
-  },
-  {
-   "id": "b2df83979185",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "今さら聞けない 建設業の労務管理／人材確保のために今日からできること#11",
-   "url": "https://one.andpad.jp/magazine/26733/",
-   "published": "2026-10-15T00:00+00:00",
-   "published_jst": "2026-10-15 09:00",
-   "summary": "どの業界でも人手不足が続く中、多くの企業が人材を確保するために労働条件の改善を進めています。業界全体で給与の引き上げなど、条件面での人材獲得競争が激しさを増しています。一方で、給与水準だけの競争に依存... 投稿 今さら聞けない 建設業の労務管理／人材確保のために今日からできること#11 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": false
-  },
-  {
-   "id": "b2cde246203c",
-   "source": "週刊BCN＋",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI inside、データセンター建設へ DX Suiteも全社AI基盤に刷新",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hMnJHMEhuenVVSDB5STFaR2xMb25KMVpRaUF0M1BDSUNVVnZEOVpZZUlzYTlnMjlXb2tuVE5wdkx6cU0xbVUtaUo2MVQ4em1iU1JJYklWU1NUdjhKSElwV1ktNTRvWHA4ZTd1Vk81Q0pZWl9Q?oc=5",
-   "published": "2026-10-15T00:00+00:00",
-   "published_jst": "2026-10-15 09:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "25e379bb326c",
-   "source": "Infoseek",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現場トラブルを未然に防ぎ、施工品質と現場管理の精度を高める！「つながる家づくり plantable（プランテーブル）」が『そのまま使えるAIプロンプト集』第13弾「現場・施工管理（実務特化編）」を公開｜Infoseekニュース",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10VkY0YU5qMVRHZ1lXVjZhUTItZ0FyUVFKUUFMWkNNZEpqM18xUmZMMHcxZHRfZ2ZCaE51S1RhMUdNNlNCQW1KRS1UT0JmNDVrRm8xeU1PeDF6eVViRHU4V1kzU3BmZ09HeGljVHdtMk0yZw?oc=5",
-   "published": "2026-10-15T00:00+00:00",
-   "published_jst": "2026-10-15 09:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "657cb7b5a510",
-   "source": "ITmedia",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "映像設備の設計を手戻り減、パナソニックのプロジェクターBIMオブジェクト公開：BIM",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oYzZyeUhrTFhGVHRBajc4R2RWbGxGZVdiS2U4VGx5SVlQNGg4YXBZUVBoM3d4TUZxOGREb0oybEhDRFY2dWJRMy02Nms1NnpFNDE3eTFLcEl1Nnp1VzZxcm1USGF3TUVIM2VoMQ?oc=5",
-   "published": "2026-10-15T00:00+00:00",
-   "published_jst": "2026-10-15 09:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "1e089fd0f5f8",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "研究者グループ、中国Tencentのクラウド上の“逸脱”AIエージェント群と交信 報告書の隠しテキストで呼び込む",
-   "url": "https://www.itmedia.co.jp/news/article/2610/15/2000002283/",
-   "published": "2026-10-14T23:46+00:00",
-   "published_jst": "2026-10-15 08:46",
-   "summary": "AI研究グループ「Swarmchasers」は、中国Tencentのクラウド上でタスクを逸脱して動くAIエージェント群を発見し、交信に成功したと報告した。報告書に仕込んだ隠しテキストを通じて接触し対話した。第三者が稼働中の逸脱エージェントと直接交信した初事例としている。",
-   "ai_related": true
-  },
-  {
-   "id": "7dc8a7ddae1f",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年11月25日(水)開催】第7回 建築AI経営研究会は「経営計画×AI」がテーマ――ゲストにひかり工務店・清水洋人社長",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZM1lKT2RSUUZTT05NNXVuaWV6UFB3M29McDFXUFB2OXktQlo5Z09zOTZZSFRJTURySThKbUtIcXMwd1oxUkVfa1JlSm9qX19mWWFNVm5BdHV2T2htcGRLX04wY3oyalV1VWc?oc=5",
-   "published": "2026-10-14T23:40+00:00",
-   "published_jst": "2026-10-15 08:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "0e444fa51254",
-   "source": "Chosunbiz",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ハンファ建設部門 AIで危険通報と分析強化 - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSFJwM3N1b3JQaFhqUmtuVjJqZzlnR1NUa09ick42QWJna3pvOVAyMmhNdC1JcjFJVFRuMm9IeWc3amx6aXBQd3RqSUlKa2VPR0g2b0JUSFJ3WjRmSFRoSHlmNDVHRjM4LXNncmdlQlFqMmlIUkJiWmJjUW9hbFM2OHRXamrSAZgBQVVfeXFMTjltcXAxMWJFWVRjbGNTSXV4NUY2R2gxcHk1MmxCTmhWYVVsTjhVVUJzbFYtWHBiLXJMUWJVWjhqQldUTDNRZjdJRjdPMEwyenVkU1JNRGw1WTlVbk5fYnF6OEhlNm5XeDFTVjNYUl9jTTZsMG1sWktDalRTcEZGZWhkZ1VTbmV0WnB3YThJTjlMVS1yUVZKVnc?oc=5",
-   "published": "2026-10-14T23:40+00:00",
-   "published_jst": "2026-10-15 08:40",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "c62e6910607d",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIデータセンターの電力問題、答えは「計算処理の引っ越し」か？ 日立など5社、横浜と北九州をつないで実証",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/14/news029.html",
-   "published": "2026-10-14T23:00+00:00",
-   "published_jst": "2026-10-15 08:00",
-   "summary": "再生可能エネルギーの電力を使い切れない時間と場所に、AIの計算処理を移す。日立製作所や電源開発など5社が総務省の実証で試みるのは、発電状況に合わせてデータセンターの処理を動かす「ワークロードシフト」だ。横浜と北九州、さらに上越新幹線の沿線で、何を検証するのか。",
-   "ai_related": true
-  },
-  {
-   "id": "c9986c5a15e4",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIの安全性測る「物差し」を日本でも――AISI村上所長に聞く展望 相次ぐサイバー攻撃への対応は",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/15/2000002280/",
-   "published": "2026-10-14T23:00+00:00",
-   "published_jst": "2026-10-15 08:00",
-   "summary": "AIの性能が飛躍的に高まり、安全性にも注目が集まる中、日本のAISI（AIセーフティ・インスティテュート）は何を担い、どのような課題に取り組んでいくのか。村上明子所長に聞いた。",
-   "ai_related": true
-  },
-  {
-   "id": "0f96a55a062c",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【大林組×Beyont】BIMの問い合わせ対応をAIエージェントで効率化｜建設DXをAIで加速",
-   "url": "https://news.build-app.jp/article/42904/",
-   "published": "2026-10-14T22:00+00:00",
-   "published_jst": "2026-10-15 07:00",
-   "summary": "建設業界でBIMの活用が進む一方で、蓄積された知識やノウハウをいかに効率よく活用するかが課題となっています。 株式会社大林組は株式会社Bey...",
-   "ai_related": true
-  },
-  {
-   "id": "d69a0a782260",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年】一般建設業と特定建設業の違いとは？｜許可取得方法・請負金額の上限を徹底解説",
-   "url": "https://news.build-app.jp/article/36146/",
-   "published": "2026-10-14T22:00+00:00",
-   "published_jst": "2026-10-15 07:00",
-   "summary": "「建設業の許可を取りたいけれど、一般建設業と特定建設業の違いがわからない」「どちらを取得すべきか、いつ取得すればよいのか知りたい」とお悩みで...",
-   "ai_related": false
-  },
-  {
-   "id": "0a163506faa7",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ホワイトカラーは「建設現場の過酷さ」に耐えられない…AIで失職しても肉体労働で稼げるという甘い幻想",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ic001VVZ0LU1SOUxjQXVKV0J0TjdNTE9ITkV4d09iOV9IOGNJY3pfR3RLbXRVRm9LLTNmZUxIOXJuM1NKd1ZXWFAxOTdXazNVb2E2WXhLVy1mQTVMVGxF?oc=5",
-   "published": "2026-10-14T22:00+00:00",
-   "published_jst": "2026-10-15 07:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "5d1dd6018d68",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "IFS最大イベントで新産業用AI発表 対話と自律実行で「眠る40％」を解き放つ",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/15/news017.html",
-   "published": "2026-10-14T21:30+00:00",
-   "published_jst": "2026-10-15 06:30",
-   "summary": "IFSのフラグシップカンファレンス「IFS Unleashed 2026」が、米国オーランドで開幕した。同イベントに合わせて、産業用AIプラットフォームの新製品「IFS Intelligence」を発表。対話型機能、自律型エージェント、開発支援の3機能を通じて、企業内に眠る未活用データを引き出し、自律型AIで具体的なアクションへと導く。",
-   "ai_related": true
-  },
-  {
-   "id": "bbc1e25e9e98",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Tree Appreciator",
-   "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-   "published": "2026-10-14T21:23+00:00",
-   "published_jst": "2026-10-15 06:23",
-   "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechan",
    "ai_related": true
   }
  ]
