@@ -1,18 +1,14 @@
 {
- "generated_at": "2026-10-17T14:26+00:00",
- "generated_at_jst": "2026-10-17 23:26",
+ "generated_at": "2026-10-17T15:32+00:00",
+ "generated_at_jst": "2026-10-18 00:32",
  "window_hours": 48,
  "counts": {
-  "ai_global": 61,
-  "construction_japan": 60,
-  "ai_japan": 21,
-  "construction_global": 27
+  "ai_global": 57,
+  "construction_japan": 59,
+  "ai_japan": 19,
+  "construction_global": 25
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -24,6 +20,36 @@
  ],
  "items": [
   {
+   "id": "ac0eba5f3991",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta removes language that may have allowed it to scrape news sites",
+   "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "published": "2026-10-17T15:04+00:00",
+   "published_jst": "2026-10-18 00:04",
+   "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, ",
+   "ai_related": true,
+   "title_ja": "Meta、ニュースサイトのスクレイピングを匂わせる規約を削除",
+   "summary_ja": "批判を受け、MetaはAI訓練のためにニュースサイト等からコンテンツをスクレイピングできると解釈される規約文言を削除した。"
+  },
+  {
+   "id": "161e6aee4130",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+   "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+   "published": "2026-10-17T14:42+00:00",
+   "published_jst": "2026-10-17 23:42",
+   "summary": "Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the ",
+   "ai_related": true,
+   "title_ja": "AnthropicのClaude、NSAの25年前の暗号の謎を30分足らずで解読",
+   "summary_ja": "AnthropicのAIモデルClaudeが、NSAが提供したデジタル署名用標準曲線の謎めいたシード値に関する25年前のパズルを解決した。"
+  },
+  {
    "id": "79619743255e",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -34,7 +60,9 @@
    "published": "2026-10-17T13:00+00:00",
    "published_jst": "2026-10-17 22:00",
    "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ウェブサイト、AIエージェントのアクセスを次々と拒否",
+   "summary_ja": "AIエージェントが注目を集める中、OpenAIやMetaなどの技術がネットを巡回して予約等を行う機能に対し、サイト側が扉を閉ざしている。"
   },
   {
    "id": "1a6c7cf31402",
@@ -117,7 +145,7 @@
    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
    "published": "2026-10-17T08:37+00:00",
    "published_jst": "2026-10-17 17:37",
-   "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 389 # Comments: 177",
+   "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 447 # Comments: 232",
    "ai_related": true,
    "title_ja": "DeepSeek v4.1 Flash 1017の公開情報",
    "summary_ja": "OpenRouter上のDeepSeek v4.1 Flash 1017に関する記事および議論のリンクやポイント数などのメタデータ。"
@@ -145,7 +173,7 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "published": "2026-10-17T08:21+00:00",
    "published_jst": "2026-10-17 17:21",
-   "summary": "Article URL: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 294 # Comments: 114",
+   "summary": "Article URL: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 315 # Comments: 125",
    "ai_related": true,
    "title_ja": "Hugging Face上のDeepSeekモデル",
    "summary_ja": "Hugging Faceで公開されたDeepSeek-v4.1-Flash-1017に関する議論やアクセス情報のページ。"
@@ -212,8 +240,10 @@
    "url": "https://llmspeed.dev/",
    "published": "2026-10-17T04:36+00:00",
    "published_jst": "2026-10-17 13:36",
-   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 156 # Comments: 51",
-   "ai_related": true
+   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 172 # Comments: 54",
+   "ai_related": true,
+   "title_ja": "Show HN: Llmspeed – 購入前にローカルLLMの動作速度を体験",
+   "summary_ja": "ハードウェアを購入する前に、ローカルLLMの動作速度がどれほどの速さで実行されるかを事前に体感できるサービスを紹介する記事。"
   },
   {
    "id": "2515caea927e",
@@ -350,7 +380,7 @@
    "url": "https://bfl.ai/blog/flux-3-image-klein",
    "published": "2026-10-16T19:47+00:00",
    "published_jst": "2026-10-17 04:47",
-   "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 184 # Comments: 52",
+   "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 188 # Comments: 55",
    "ai_related": true,
    "title_ja": "FLUX 3 Image Klein",
    "summary_ja": "FLUX 3 Image Kleinに関する記事とHacker News上の議論を紹介しています。"
@@ -395,7 +425,7 @@
    "url": "https://alexwang.ai/posts/associative-memory/",
    "published": "2026-10-16T19:01+00:00",
    "published_jst": "2026-10-17 04:01",
-   "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 372 # Comments: 84",
+   "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 387 # Comments: 91",
    "ai_related": true,
    "title_ja": "記憶からトランスフォーマーを導き出す",
    "summary_ja": "トランスフォーマーの仕組みを連想記憶の観点から自ら導き出すプロセスを解説しています。"
@@ -425,7 +455,7 @@
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
    "published": "2026-10-16T18:55+00:00",
    "published_jst": "2026-10-17 03:55",
-   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 940 # Comments: 340",
+   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 959 # Comments: 344",
    "ai_related": true,
    "title_ja": "ClaudeがECDSA曲線の起源を明らかに",
    "summary_ja": "Hacker News上で議論やコメントが活発に行われている話題。"
@@ -440,7 +470,7 @@
    "url": "https://github.com/cobanov/PS5LM",
    "published": "2026-10-16T18:32+00:00",
    "published_jst": "2026-10-17 03:32",
-   "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 318 # Comments: 77",
+   "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 330 # Comments: 81",
    "ai_related": true,
    "title_ja": "脱獄済みPS5でLlama.cppを稼働",
    "summary_ja": "任意のGGUFモデルをPS5本体上でネイティブに実行するためのGitHubプロジェクトが紹介されています。"
@@ -498,8 +528,10 @@
    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
    "published": "2026-10-16T18:00+00:00",
    "published_jst": "2026-10-17 03:00",
-   "summary": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 157 # Comments: 33",
-   "ai_related": true
+   "summary": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 159 # Comments: 34",
+   "ai_related": true,
+   "title_ja": "Claudeを活用したより効率的な量子回路の設計",
+   "summary_ja": "AnthropicのAIモデルであるClaudeを用いて、より効率的な量子回路を設計する取り組みに関する研究記事と議論を紹介する。"
   },
   {
    "id": "bfa998e6f2ba",
@@ -545,21 +577,6 @@
    "ai_related": false,
    "title_ja": "外観立面図の自動作成ツールが登場",
    "summary_ja": "白紙の状態から立面図の計画を始める手間を省く、自動化機能の紹介です。"
-  },
-  {
-   "id": "9795228c1bdc",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "published": "2026-10-16T17:08+00:00",
-   "published_jst": "2026-10-17 02:08",
-   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 551 # Comments: 485",
-   "ai_related": true,
-   "title_ja": "米国の労働時間の90％はAIベンチマーク対象外の作業",
-   "summary_ja": "AIの評価基準と実際の労働実態のギャップについて調査した記事。"
   },
   {
    "id": "1f9b468e8642",
@@ -1401,32 +1418,6 @@
    "ai_related": true
   },
   {
-   "id": "de11e2b7f4d0",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "ソニーが金メッキ無酸素銅シャーシ採用の高音質プレミアムウォークマン発売、想定価格は65万円前後で国外では100万円弱に",
-   "url": "https://gigazine.net/news/20261016-sony-premium-walkman-nw-wm1zm3/",
-   "published": "2026-10-16T04:26+00:00",
-   "published_jst": "2026-10-16 13:26",
-   "summary": "ソニーが、長年培ってきたアナログとデジタルの高音質技術を結集したSignature Seriesを含むウォークマン3機種を発売しました。Signature SeriesのNW-WM1ZM3とNW-WM1AM3はリアシャーシに金メッキ無酸素銅(OFC)を採用し、ポータブルオーディオでの高音質をさらに追求したモデルとなっています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "6e962fa974ae",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "NVIDIAが画像・動画・文章をまとめて理解するオープンウェイトAI「Nemotron 3.5 Super VL」を公開、処理コストを40分の1に削減する事例も",
-   "url": "https://gigazine.net/news/20261016-nemotron-3-5-super-vl/",
-   "published": "2026-10-16T04:10+00:00",
-   "published_jst": "2026-10-16 13:10",
-   "summary": "NVIDIAが2026年10月15日に文章や画像、動画をまとめて理解できるオープンウェイトAIモデル「NVIDIA Nemotron 3.5 Super VL」を公開しました。複数の情報を組み合わせて作業を進めるAIエージェント向けのモデルで、同規模のオープンモデルと比較して最大5倍の処理能力を発揮するとのこと。企業の業務に合わせて調整したモデルではAIの処理コストを40分の1に削減した事例も報告されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "95d57ee2a904",
    "source": "디지털투데이",
    "source_id": "gnews_kensetsu_ai",
@@ -1771,19 +1762,6 @@
    "ai_related": true
   },
   {
-   "id": "2dca7a72871b",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【画像】建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45TzhKRVBaUGpvemRScS1NS0pxcXVQSnozT0t3Z0QxVzJYejNrRWN3SjNBaGVyWFVOU2RaQ2JCekI4VzlsVzRUQmFfc3pacnZINldXOGNTNzQyNVE1XzYtQjdjLU1jQTVkcnpWbVhLbElEUjh1WTZ1WTVPWlo?oc=5",
-   "published": "2026-10-15T23:18+00:00",
-   "published_jst": "2026-10-16 08:18",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "d44bce913630",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2060,45 +2038,6 @@
    "summary_ja": "パノス・パナイ氏はTechCrunch Disruptで、AIが背景で動作しユーザーの要望を先回りする未来のビジョンを描いた。"
   },
   {
-   "id": "ff6cd16f4404",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "27年夏に公募手続き開始/26年度内に方針案決定/足立区の六町駅前複合施設",
-   "url": "https://www.kensetsunews.com/archives/1297037",
-   "published": "2026-10-15T19:55+00:00",
-   "published_jst": "2026-10-16 04:55",
-   "summary": "東京都足立区は、複合施設の誘致を計画している六町駅前の区有地活用事業を巡り、２０２５年に続いて実施… The post 27年夏に公募手続き開始/26年度内に方針案決定/足立区の六町駅前複合施設 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "592562696f41",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "11月20日まで受付/新庁舎建設を再々公告/那須塩原市",
-   "url": "https://www.kensetsunews.com/archives/1297050",
-   "published": "2026-10-15T19:55+00:00",
-   "published_jst": "2026-10-16 04:55",
-   "summary": "栃木県那須塩原市は、「那須塩原市新庁舎建設工事」の一般競争入札を再々公告した。入札参加申請は１１月… The post 11月20日まで受付/新庁舎建設を再々公告/那須塩原市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "a579ba720f18",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "10月30日まで調査票受付/知と交流の拠点実施設計・施工/四日市市",
-   "url": "https://www.kensetsunews.com/archives/1297091",
-   "published": "2026-10-15T19:55+00:00",
-   "published_jst": "2026-10-16 04:55",
-   "summary": "【２７年度発注へ参画意向把握】 三重県四日市市は１５日、知と交流の拠点施設整備事業の設計・施工業務に… The post 10月30日まで調査票受付/知と交流の拠点実施設計・施工/四日市市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "50cd1de619c6",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2148,6 +2087,45 @@
    "published": "2026-10-15T19:55+00:00",
    "published_jst": "2026-10-16 04:55",
    "summary": "関東地方整備局は、１０月１４日のプレストレスト・コンクリート建設業協会との意見交換で、中長期的な事… The post 5ヵ年で14事業34橋/PC上部工発注予定/関東地方整備局の中長期事業計画 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "ff6cd16f4404",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "27年夏に公募手続き開始/26年度内に方針案決定/足立区の六町駅前複合施設",
+   "url": "https://www.kensetsunews.com/archives/1297037",
+   "published": "2026-10-15T19:55+00:00",
+   "published_jst": "2026-10-16 04:55",
+   "summary": "東京都足立区は、複合施設の誘致を計画している六町駅前の区有地活用事業を巡り、２０２５年に続いて実施… The post 27年夏に公募手続き開始/26年度内に方針案決定/足立区の六町駅前複合施設 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "592562696f41",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "11月20日まで受付/新庁舎建設を再々公告/那須塩原市",
+   "url": "https://www.kensetsunews.com/archives/1297050",
+   "published": "2026-10-15T19:55+00:00",
+   "published_jst": "2026-10-16 04:55",
+   "summary": "栃木県那須塩原市は、「那須塩原市新庁舎建設工事」の一般競争入札を再々公告した。入札参加申請は１１月… The post 11月20日まで受付/新庁舎建設を再々公告/那須塩原市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "a579ba720f18",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "10月30日まで調査票受付/知と交流の拠点実施設計・施工/四日市市",
+   "url": "https://www.kensetsunews.com/archives/1297091",
+   "published": "2026-10-15T19:55+00:00",
+   "published_jst": "2026-10-16 04:55",
+   "summary": "【２７年度発注へ参画意向把握】 三重県四日市市は１５日、知と交流の拠点施設整備事業の設計・施工業務に… The post 10月30日まで調査票受付/知と交流の拠点実施設計・施工/四日市市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2211,21 +2189,6 @@
    "summary_ja": "Attieプラットフォームに「ソーシャルバイブコーディング」が導入され、ゲームやクイズなどのインタラクティブ体験の作成が可能に。"
   },
   {
-   "id": "c591bcc32a72",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
-   "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
-   "published": "2026-10-15T18:34+00:00",
-   "published_jst": "2026-10-16 03:34",
-   "summary": "Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple'",
-   "ai_related": true,
-   "title_ja": "Meta、オープン戦線でQwen等に対抗する「Muse Spark Open」公開",
-   "summary_ja": "8160億パラメータを持つマルチモーダルモデルで、最大100万トークンの文脈を処理可能。最高峰のオープンモデルに匹敵する性能。"
-  },
-  {
    "id": "c7cea461bd6d",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -2271,19 +2234,19 @@
    "summary_ja": "クリエイターやゲーマー、AIエージェント向けの新しいWindows PC「NVIDIA RTX Spark」の発売に向けたローンチイベントが開催される。"
   },
   {
-   "id": "1b6257d35772",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
+   "id": "996b33c09ad5",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
    "category": "ai_global",
    "lang": "en",
-   "title": "Friends don’t let friends feed their data to AI agents",
-   "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-   "published": "2026-10-15T16:21+00:00",
-   "published_jst": "2026-10-16 01:21",
-   "summary": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up y",
+   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+   "published": "2026-10-15T16:08+00:00",
+   "published_jst": "2026-10-16 01:08",
+   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
    "ai_related": true,
-   "title_ja": "周囲のデータをAIに勝手に送信する家電の脅威",
-   "summary_ja": "同意なしに周囲のあらゆるものをスパイするガジェットやAIパーソナルアシスタントが普及し、プライバシー侵害の懸念が高まっています。"
+   "title_ja": "Google Antigravityで抗菌ペプチドの探索を加速",
+   "summary_ja": "Google Antigravity for Scienceを活用し、新規の抗菌ペプチドの探索を加速させる取り組みについての紹介記事。"
   },
   {
    "id": "1cc24ddce8a4",
@@ -2299,96 +2262,6 @@
    "ai_related": true,
    "title_ja": "トランプ氏のAI発言を受け、FTCがAnthropicやOpenAIを調査",
    "summary_ja": "米連邦取引委員会（FTC）は、データ侵害の報告を遅らせた企業と同等の水準でAI企業に罰金を科す可能性があります。"
-  },
-  {
-   "id": "a112a9fc3278",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
-   "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-   "published": "2026-10-15T15:12+00:00",
-   "published_jst": "2026-10-16 00:12",
-   "summary": "The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.",
-   "ai_related": true,
-   "title_ja": "YouTube Music、生成AIによる楽曲識別の表示を開始",
-   "summary_ja": "生成AIを使用した楽曲であることを示すラベルの導入がYouTube Musicで始まり、間もなくYouTube本体にも展開されます。"
-  },
-  {
-   "id": "a040032c1900",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI agents are coming to Rivian’s cars",
-   "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-   "published": "2026-10-15T15:02+00:00",
-   "published_jst": "2026-10-16 00:02",
-   "summary": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
-   "ai_related": true,
-   "title_ja": "Rivianの車両にAIエージェントが搭載へ",
-   "summary_ja": "同社が12月に開催する「AI & Autonomy Day」イベントで、その詳細が発表される見込みです。"
-  },
-  {
-   "id": "902189e10f1e",
-   "source": "NVIDIA Blog",
-   "source_id": "nvidia",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-   "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-   "published": "2026-10-15T15:00+00:00",
-   "published_jst": "2026-10-16 00:00",
-   "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for",
-   "ai_related": true,
-   "title_ja": "Nvidia、Nemotronファミリーに効率性を極めた新モデルを追加",
-   "summary_ja": "1,200億パラメーターの「Nemotron 3.5 Super VL」に加え、エッジ向けの新しいコンパクトモデル2種を発表しました。"
-  },
-  {
-   "id": "86d63470da8e",
-   "source": "ConstructConnect Blog",
-   "source_id": "constructconnect",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "How to Track Addenda Without Losing a Bid to a Missed Revision",
-   "url": "https://www.constructconnect.com/blog/how-to-track-addenda-without-losing-a-bid-to-a-missed-revision",
-   "published": "2026-10-15T14:31+00:00",
-   "published_jst": "2026-10-15 23:31",
-   "summary": "In short: Addenda tracking is a bid-day control, not a filing habit. The goal is to know, at any moment, which addenda exist, which you've read, and which changed your number. A one-page addendum log does most of the work. Date issued, what changed, which sheets and spec sections it touches, who's a",
-   "ai_related": false,
-   "title_ja": "入札で改定版の見落としを防ぐための追加資料管理法",
-   "summary_ja": "追加資料の追跡は単なるファイリングではなく入札時の管理です。1ページの管理表を作成することで、どの資料を確認しどこが変更されたかを常に把握できます。"
-  },
-  {
-   "id": "b4faeb1cc12a",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google’s Universal Cart shopping tool launches in the US",
-   "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-   "published": "2026-10-15T14:29+00:00",
-   "published_jst": "2026-10-15 23:29",
-   "summary": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-   "ai_related": true,
-   "title_ja": "Google、総合ショッピングツール「Universal Cart」を米国で提供開始",
-   "summary_ja": "新しいショッピングツールが米国のGoogle検索およびGeminiアプリで利用可能になりました。"
-  },
-  {
-   "id": "58e97daa833f",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction Inclusion Week panel: ‘You can become anything you want’",
-   "url": "https://www.constructiondive.com/news/construction-inclusion-week-panel-recruiting-diversity-trades/833085/",
-   "published": "2026-10-15T14:29+00:00",
-   "published_jst": "2026-10-15 23:29",
-   "summary": "A carpentry apprentice, a journeyman electrician and a contracting firm vice president discussed the benefits, hard work and quick career progression inherent to construction.",
-   "ai_related": false,
-   "title_ja": "建設業界の多様性を推進するパネルディスカッションを開催",
-   "summary_ja": "大工の見習いや電気技師、建設会社の副社長らが登壇し、建設業におけるやりがいやキャリアの急速なステップアップについて語りました。"
   }
  ]
 }
