@@ -1,11 +1,39 @@
 {
   "version": 6,
-  "slot": "noon",
+  "slot": "evening",
   "date": "2026-10-17",
   "post_date": "2026-10-17",
-  "generated_at": "2026-10-17T11:07+09:00",
-  "generated_by": "routine:x-post-noon",
-  "original_post": null,
+  "generated_at": "2026-10-17T19:12+09:00",
+  "generated_by": "routine:x-post-evening",
+  "original_post": {
+    "time": "20:00",
+    "text": "外壁の立面図から窓・ドア・幕板・パラペット・目地まで、AIが自動で拾ってくれる機能がベータで出てきた。\n\n今の積算は、立面図を1枚ずつ見ながら窓を数えて、手で印をつけていく作業だ。白紙から始めていた工程が、候補のリストと印付きの図面がもう用意された状態から始まるようになる。\n\nただ出てくるのは候補で、項目が合っているかは結局、積算の人が1つずつ見て直すことになる。数える手間は減っても、見る手間は残る。\n\n見る側にかかる時間がどれくらい減るのかは、ベータが取れて実際に使ってみないとまだ分からない。",
+    "status": "draft",
+    "article_url": null,
+    "video_url": null,
+    "reply_text": null,
+    "editorial": {
+      "pillar": "本質投稿",
+      "format": "本質型",
+      "scores": {
+        "own_voice": 2,
+        "concrete": 2,
+        "construction_only": 2,
+        "not_bottleneck": 2,
+        "angle_fresh": 2
+      },
+      "selection_reason": "【現場で実際どうなるか】入口の出来事は2026-10-17(ConstructConnect公式ブログが2026-10-17 02:22 JSTに公開、直近48h以内)。直近7本(10-04〜10-16の本質型)はselection_reasonに【種類名】の表記がなく(v7.4導入前)、正本の診断どおり全て「みんなが思う原因は実は別→そこにAIを当てた会社が先に動ける」という1パターンだったため、今回はそのパターンを含まない7種類の中から『1. 現場で実際どうなるか』を選んだ。候補3案を本質の5観点(own_voice/concrete/construction_only/not_bottleneck/angle_fresh、各0〜2点)で比較。(1)採用・計10点:「外壁の立面図から窓・ドア・幕板・パラペット・目地まで自動で拾うAIベータ機能(ConstructConnect Auto Takeoff for Exterior Elevations)が出て、積算の『数える』作業はAIの候補リストに置き換わるが『見て直す』作業は積算の人に残る」という変化を朝礼から片付けまでの手触りではなく実務の工程そのもので具体的に書いた。幕板・パラペット・目地という積算・外装仕上げの専門語を使った一文は建設を知らないと書けない。入口はConstructConnect公式ブログの新機能記事(news_feed construction_global、直近48h以内)。(2)不採用・計7点:「積算ツールは拾う作業をAIに任せ人は確認だけに回す設計が今後の基本形になると思う」という意見表明案。own_voiceは立つが具体が薄く建設でなくても言える一般論寄りで8点に届かない。(3)不採用・計8点:「Autodeskの新Assistantがどの製品を開くか意識させない設計を目指すのは、BIM義務化がツールをまたぐ連携を目指したのと同じ方向性だが、ルールでなく使い方を変えない設計を狙う点が違う」という歴史比較案。construction_only・angle_freshは立つが解説調でown_voiceが1点にとどまり僅差で不採用。",
+      "source_url": "https://www.constructconnect.com/blog/stop-starting-elevation-takeoff-from-a-blank-page-auto-takeoff-for-exterior-elevations",
+      "published_at": "2026-10-17T02:22+09:00",
+      "checked_at": "2026-10-17T19:12+09:00",
+      "availability": "ConstructConnect公式ブログ(constructconnect.com)が2026-10-17 02:22 JSTに公開したAuto Takeoff for Exterior Elevations機能の紹介記事。現時点はベータ公開で、ブログ本文には全ユーザー提供は「近日中(soon)」と明記。一次ブログ本文はWebFetchがDNSエラーで遮断されたため、WebSearchで複数の引用抜粋(窓・ルーバー/ベント・トリム・パラペット/コーピング・目地を項目ごとに拾い出し、出力は編集可能な条件リストと印付きの拾い出し図、という記述)を確認した。",
+      "unverified": [
+        "ベータの対象地域・対象図面フォーマットの詳細、検出精度(誤検出率等)の数値は公式ブログ以外に一次データが無く、本文には使っていない",
+        "一般提供(全ユーザー向け)の具体的な時期は「近日中」以上の詳細が確認できていない"
+      ],
+      "hook_alternative": "候補2(不採用・計7点): 積算ツールは拾う作業をAIに任せ人は確認だけに回す設計が今後の基本形になると思う、という意見表明案。具体が薄く一般論寄りのため不採用。/ 候補3(不採用・計8点): Autodeskの新AssistantがBIM義務化と同じ『ツールをまたぐ連携』を目指すが手段が違う、という歴史比較案。解説調でown_voiceが弱く僅差で不採用。"
+    }
+  },
   "engage_cards": [],
-  "skip_reason": "国内外とも、直近48h(目安2026-10-15 11:00〜10-17 11:00 JST)でvideo_urlを付けられる建設AI/建設×フィジカルAIの候補が無く昼枠(12:00)は休載。\n\n【データ鮮度の注記】ai_buzz.json(72件)・slack_buzz.json(78件、いずれもx_watcher取得)の最新投稿は2026-10-13〜10-14止まりで確認時点(10-17 11:07)で72時間超経過しており、10-14朝枠以降の昼・夜枠skip_reasonで継続報告されている取得ジョブ停滞が本日もなお復旧していない。このため両ファイルの建設関連タグは鮮度0点で原則不採用となり、news_feed.json(construction_japan 75件・construction_global 35件、window 48h、generated_at_jst 2026-10-17 10:34、鮮度は正常)とWebSearch日英を主な入口として候補を探索した。\n\n【検討した候補・5観点(驚き/絵/鮮度/建設との距離/確かさ、各0〜2)】\n国内:\n(1) 不採用・絵0点: 荒木組「建設用3Dプリンタで堤防階段を施工、工期12日→2日」(news_feed construction_japan、10-17 07:19、鮮度2点)。3Dプリント施工で見た目のインパクトも建設との距離も強いが、荒木組の公式X投稿・YouTube等でX上の動画を確認できず(WebSearch日英とも該当投稿を特定できず)、video_urlを付けられないため絵0点で不採用。\n(2) 不採用・絵0点(資金調達ニュース): 清水建設が米Noble Machinesに出資完了、現場向けヒューマノイドAIロボ開発(LOGI-BIZ online/LOGISTICS TODAY/デジコン/建設通信新聞Digital、10-16〜17)。戦略で明記の通り出資・協業ニュースは金額や話題性に関わらず実演映像が無いため絵0点で不採用。\n(3) 不採用・鮮度0点/解説記事: 読売新聞・朝日新聞・Yahoo!ニュース系『建設現場にフィジカルＡＩ搭載の人型ロボ…あえて「人型」開発の理由』『建設現場救う、フィジカルＡＩ』(10-15〜16掲載)。WebSearchで裏取りした結果、清水建設の人型ロボット巡回実証(常盤橋プロジェクト/Torch Tower)は2026-07時点の既報の再解説記事であり、直近48h以内の新規デモ映像・新規X投稿は確認できず鮮度0点で不採用(前日10-16昼枠skip_reasonと同一事案)。\n(4) 不採用・確認不能: SenseTime/GA Roboticsのヒューマノイド実機デモ(10-15 PR TIMES記事、幕張言及)はWebSearchで開催地・建設現場巡回ロボットの実演映像とも裏付けが取れず不採用。CEATEC 2026(10-13〜14、幕張メッセ)の出展情報も確認したが、建設現場向けの巡回・施工デモ映像は特定できなかった。\n(5) 不採用・絵0点: 大成建設×サン・エンジニアリングのロボット専用図面自動生成『A.R.M.S』開発(BuildApp News、10-16)、西松建設XR施工管理支援システム更新(AR表示誤差30cm→15cm、10-16)はいずれもプレスリリース・解説記事のみでX上の動画付き投稿を確認できず絵0点で不採用。\n海外:\n(6) 不採用・鮮度0点: Boston Dynamics Spotの建設現場導入事例(Tilbury Douglas英・McLaren Construction英)はWebSearchで確認できたがいずれも2026年春の既報で、直近48h以内の新規映像・新規X投稿は特定できず不採用。\n(7) 不採用・鮮度0点: Develon Demo Days/Hitachi×Gravis Roboticsの自律掘削機デモはConExpo 2026(2026年3月)・Develon Demo Days(2026年4月)時点の既報で、直近48hの新規投稿は確認できず不採用。\n(8) 不採用・対象外(48h超過・初出済み): ai_buzz.json停止前(10-13〜14取得)に検出されていたPNDbotics「Adam」の箱登りデモ(@spaceandtech_)・izziebuildsのCNC加工デモは、いずれも本日朝枠(今週のすげー3選)で既に使用済みのため本枠では対象外。\n\n重複確認: output/post_queue.json直近14日分を検索し重複なし。直近の昼枠採用は10-08(成瀬ダム無人化施工)が最後で、10-11・10-12・10-13・10-16も同じ理由(国内外とも動画付き候補なし)で休載が続いている。今日の朝枠(07:25、今週のすげー3選)とは別ネタで重複なし。data/analytics/live_metrics.jsonは2026-09-27T23:14 UTC時点のスナップショットで3週間以上前のため、実投稿との重複は確認できていない(実投稿未確認)。\n\n【継続する運用課題】x_watcher(ai_buzz.json/slack_buzz.json取得)の停滞が2026-10-14 09:00/08:51から本日(10-17)まで4日間復旧しておらず、この間ほぼ毎日の昼・夜枠が国内外ともX動画候補ゼロで休載になっている。news_feed.json(RSS)は正常だが解説記事中心で動画付き一次情報の代替にはならないため、今後もこの状態が続くとニュース枠(昼・夜)の休載が常態化する見込み。x_watcherの復旧を検討材料として報告する。\n\n結論: 国内外とも、建設現場での実機作業を映した動画付き一次情報が直近48h以内に見つからず、生成失敗ではなく一次情報・WebSearchを確認した上での意図した休載。"
+  "skip_reason": null
 }
