@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-10-16T23:02+00:00",
- "generated_at_jst": "2026-10-17 08:02",
+ "generated_at": "2026-10-17T00:27+00:00",
+ "generated_at_jst": "2026-10-17 09:27",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 74,
-  "ai_global": 65,
-  "construction_global": 35,
-  "ai_japan": 26
+  "construction_japan": 79,
+  "ai_global": 66,
+  "construction_global": 25,
+  "ai_japan": 28
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -43,7 +47,9 @@
    "published": "2026-10-16T22:06+00:00",
    "published_jst": "2026-10-17 07:06",
    "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR,",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Addy Osmaniらの見解を引用して",
+   "summary_ja": "人間がコードを読んだかを問うよりも、変更のリスクと適切な検証手法を考えるべきだと指摘しています。"
   },
   {
    "id": "d0f11237d1f3",
@@ -56,7 +62,9 @@
    "published": "2026-10-16T21:22+00:00",
    "published_jst": "2026-10-17 06:22",
    "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Replit、Anthropicとの提携を解消",
+   "summary_ja": "CEOのマサド氏によれば、コストなどの複数の理由による決定とのことです。8月にOpenAIとの提携を発表していました。"
   },
   {
    "id": "be10bb1a837d",
@@ -154,8 +162,25 @@
    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
    "published": "2026-10-16T19:04+00:00",
    "published_jst": "2026-10-17 04:04",
-   "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 169 # Comments: 167",
-   "ai_related": true
+   "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 206 # Comments: 195",
+   "ai_related": true,
+   "title_ja": "Claude Codeチームのコードレビュー手法",
+   "summary_ja": "Anthropicにおけるコードレビューの課題解決に関する公式ブログ記事と、関連する議論が紹介されています。"
+  },
+  {
+   "id": "65442e708214",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "published": "2026-10-16T19:00+00:00",
+   "published_jst": "2026-10-17 04:00",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "ai_related": true,
+   "title_ja": "Itaú銀行、全顧客向け生成AIの構築手法",
+   "summary_ja": "規制の厳しいブラジルにおいて、AIファースト戦略を顧客や従業員向けにどのように展開しているかを解説しています。"
   },
   {
    "id": "7a6a342eb958",
@@ -167,23 +192,25 @@
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
    "published": "2026-10-16T18:55+00:00",
    "published_jst": "2026-10-17 03:55",
-   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 528 # Comments: 225",
+   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 613 # Comments: 254",
    "ai_related": true,
    "title_ja": "ClaudeがECDSA曲線の起源を明らかに",
    "summary_ja": "Hacker News上で議論やコメントが活発に行われている話題。"
   },
   {
-   "id": "a0696e415e0e",
+   "id": "0342f39befa1",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
    "category": "ai_global",
    "lang": "en",
-   "title": "Anthropic assigned highest junk credit rating in June",
-   "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-   "published": "2026-10-16T18:11+00:00",
-   "published_jst": "2026-10-17 03:11",
-   "summary": "https://finance.yahoo.com/technology/ai/articles/anthropic-s... Comments URL: https://news.ycombinator.com/item?id=50122112 Points: 176 # Comments: 48",
-   "ai_related": true
+   "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+   "url": "https://github.com/cobanov/PS5LM",
+   "published": "2026-10-16T18:32+00:00",
+   "published_jst": "2026-10-17 03:32",
+   "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 163 # Comments: 44",
+   "ai_related": true,
+   "title_ja": "脱獄済みPS5でLlama.cppを稼働",
+   "summary_ja": "任意のGGUFモデルをPS5本体上でネイティブに実行するためのGitHubプロジェクトが紹介されています。"
   },
   {
    "id": "51b3056070aa",
@@ -283,7 +310,7 @@
    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
    "published": "2026-10-16T17:08+00:00",
    "published_jst": "2026-10-17 02:08",
-   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 346 # Comments: 299",
+   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 377 # Comments: 322",
    "ai_related": true,
    "title_ja": "米国の労働時間の90％はAIベンチマーク対象外の作業",
    "summary_ja": "AIの評価基準と実際の労働実態のギャップについて調査した記事。"
@@ -448,7 +475,7 @@
    "url": "https://starskirmish.com/bench/v0-2/",
    "published": "2026-10-16T14:18+00:00",
    "published_jst": "2026-10-16 23:18",
-   "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 176 # Comments: 81",
+   "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 182 # Comments: 87",
    "ai_related": true,
    "title_ja": "Gemini 4 ArgonがStarCraftをプレイ",
    "summary_ja": "LLMがコードを書いてStarCraftをプレイするベンチマークの最新結果。"
@@ -645,97 +672,6 @@
    "ai_related": true
   },
   {
-   "id": "e74a4b085853",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Higgins Homes trial: slinger tells jury of moment bricks fell, fatally injuring mum",
-   "url": "https://www.constructionnews.co.uk/legal/higgins-homes-trial-slinger-tells-jury-of-moment-bricks-fell-fatally-injuring-mum-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "A worker at a Higgins Homes site has described the moment he tried to stop a pallet of bricks hitting a scaffolding pole before it fell to the ground, killing a pedestrian. Christian Okonkwo, a self-employed slinger, who was working for subcontractor DWG Brickwork, escaped… The post Higgins Homes tr",
-   "ai_related": false
-  },
-  {
-   "id": "f6d16190d561",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Faithdean sees profit dip despite jump in turnover",
-   "url": "https://www.constructionnews.co.uk/financial/faithdean-sees-profit-dip-despite-jump-in-turnover-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "Specialist fit-out and refurbishment contractor Faithdean has reported an 8 per cent fall in annual profit despite seeing its turnover rise by nearly a quarter. The Kent-headquartered firm recorded a pre-tax profit of £4.5m in the year to 31 March 2026, compared with £4.9m the… The post Faithdean se",
-   "ai_related": false
-  },
-  {
-   "id": "974da333de6e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Farrans sank into loss in final year before acquisition",
-   "url": "https://www.constructionnews.co.uk/financial/farrans-sank-into-loss-in-final-year-before-acquisition-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "Northern Irish contractor Farrans Construction fell into the red last year after “challenging market conditions” and heavier provisions hit the company’s bottom line, newly released annual accounts show. Farrans – which was acquired by Sisk last November – reported a pre-tax loss of £36.2m in… The p",
-   "ai_related": false
-  },
-  {
-   "id": "147e8ea12662",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Survey identifies M&E labour shortages as data centres dominate",
-   "url": "https://www.constructionnews.co.uk/supply-chain/survey-identifies-me-labour-shortages-as-data-centres-dominate-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "A shortage of mechanical and electrical (M&E) contractors is affecting project delivery and productivity as specialists are being called in to lead on data centre schemes, a new survey has found. Four in 10 respondents to Gleeds’ latest quarterly market survey said that of all… The post Survey ident",
-   "ai_related": false
-  },
-  {
-   "id": "9ef297cd33e8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "NHS trust seeks long-term contractor for £30m hospital upgrades",
-   "url": "https://www.constructionnews.co.uk/contracts/nhs-trust-seeks-long-term-contractor-for-30m-hospital-upgrades-16-10-2026/",
-   "published": "2026-10-16T11:37+00:00",
-   "published_jst": "2026-10-16 20:37",
-   "summary": "Guy's and St Thomas' NHS Foundation Trust has begun seeking a long-term construction partner for a £30m programme to refurbish wards across five London hospitals. The trust wants a procurement arrangement that could provide contractors with a continuous pipeline of work, potentially including a perm",
-   "ai_related": false
-  },
-  {
-   "id": "0fbb404d44a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Welsh councils launch £800m civils framework tender",
-   "url": "https://www.constructionnews.co.uk/civils/welsh-councils-launch-800m-civils-framework-tender-16-10-2026/",
-   "published": "2026-10-16T11:13+00:00",
-   "published_jst": "2026-10-16 20:13",
-   "summary": "Five councils in south-west Wales have launched a tender for a civil engineering framework worth an estimated £800m over four years. Carmarthenshire County Council is leading the procurement alongside Ceredigion, Neath Port Talbot, Pembrokeshire and Swansea councils. The South West Wales Regional Ci",
-   "ai_related": false
-  },
-  {
-   "id": "659fc0da6701",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Hot batteries, hotter sites: why the lithium-ion risk is not being taken seriously enough",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/hot-batteries-hotter-sites-why-the-lithium-ion-risk-is-not-being-taken-seriously-enough-16-10-2026/",
-   "published": "2026-10-16T11:11+00:00",
-   "published_jst": "2026-10-16 20:11",
-   "summary": "Matt Partridge is head of product development at Armorgard UK Last year, UK fire brigades attended 1,760 lithium-ion battery fires, according to data gathered by global business insurer QBE. That's one callout roughly every five hours, leading the London Fire Brigade to name it the… The post Hot bat",
-   "ai_related": false
-  },
-  {
    "id": "0f0e13ae1f6e",
    "source": "朝日放送",
    "source_id": "gnews_kensetsu_ai",
@@ -800,19 +736,6 @@
    "published": "2026-10-16T09:51+00:00",
    "published_jst": "2026-10-16 18:51",
    "summary": "複数のAIモデルを利用できるサービス「OpenRouter」が、AIエージェントによる危険なツールの実行を防ぐ新機能「Armor」をリリースしました。ArmorはAIエージェントが実行しようとする操作を別のAIモデルで事前にチェックし、設定されたルールに違反する操作を自動的にブロックする機能です。記事作成時点ではベータ版として提供されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "f67831df6cc6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Frameworks aid 15% profit boost in Willmott Dixon interims",
-   "url": "https://www.constructionnews.co.uk/financial/frameworks-aid-15-profit-boost-in-willmott-dixon-interims-16-10-2026/",
-   "published": "2026-10-16T09:22+00:00",
-   "published_jst": "2026-10-16 18:22",
-   "summary": "Willmott Dixon posted a 15 per cent profit increase for the first half of the year and secured most of its new work through frameworks, the contractor has said. The tier one firm saw its pre-tax profit rise to £11.5m from £10m in unaudited half-year… The post Frameworks aid 15% profit boost in Willm",
    "ai_related": true
   },
   {
@@ -2104,7 +2027,9 @@
    "published": "2026-10-15T16:08+00:00",
    "published_jst": "2026-10-16 01:08",
    "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "抗菌ペプチド探索を加速するGoogle Antigravity",
+   "summary_ja": "Google Antigravity for Scienceを活用し、新規抗菌ペプチドの探索を加速する取り組みです。"
   },
   {
    "id": "1cc24ddce8a4",
@@ -2328,32 +2253,6 @@
    "ai_related": true,
    "title_ja": "Amazon傘下のBee、75ドルからの新型AIデバイス2種を発表",
    "summary_ja": "会話の要約やタスク作成が可能な新型ウェアラブル端末と、スマホに取り付け可能なカードサイズのレコーダーが登場しました。"
-  },
-  {
-   "id": "eeeccda8521a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Reporting reform: less red tape, greater risk?",
-   "url": "https://www.constructionnews.co.uk/financial/reporting-reform-less-red-tape-greater-risk-15-10-2026/",
-   "published": "2026-10-15T11:49+00:00",
-   "published_jst": "2026-10-15 20:49",
-   "summary": "Plans to relax company reporting rules could reduce costs for construction businesses. But could they also make it harder to judge whether a customer or subcontractor is financially sound? The post Reporting reform: less red tape, greater risk? appeared first on Construction News .",
-   "ai_related": false
-  },
-  {
-   "id": "43f3eada7756",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Briggs & Forrester claiming £1.3m from collapsed Torsion Construction",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/briggs-forrester-claiming-1-3m-from-collapsed-torsion-construction-15-10-2026/",
-   "published": "2026-10-15T11:45+00:00",
-   "published_jst": "2026-10-15 20:45",
-   "summary": "Briggs & Forrester is one of the largest trade creditors of Torsion Construction, administrators for the collapsed Leeds contractor have revealed. Some 521 trade creditors owed a total of £15.7m appeared on a statement of affairs document from James Clark and Howard Smith of Interpath.… The post Bri",
-   "ai_related": false
   },
   {
    "id": "f1ac855700ea",
@@ -2785,6 +2684,99 @@
    "published": "2026-10-15T02:07+00:00",
    "published_jst": "2026-10-15 11:07",
    "summary": "Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office , which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner). Tiny Lit",
+   "ai_related": true,
+   "title_ja": "LaTeXレンダラー",
+   "summary_ja": "Paul Fordらのウェブアプリ「Tiny Little Office」にインスパイアされて開発されたツールです。"
+  },
+  {
+   "id": "8b00aa55dd16",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "相次ぐサイバー攻撃に「AI悪用の可能性」……初来日のAnthropic共同創業者が言及 悪用どう抑止",
+   "url": "https://www.itmedia.co.jp/news/article/2610/15/2000002286/",
+   "published": "2026-10-15T01:55+00:00",
+   "published_jst": "2026-10-15 10:55",
+   "summary": "「おそらく、AIツールが使われている可能性はあるだろうと推測している」──米Anthropicの共同創業者のジャック・クラーク氏が初来日し、同社の日本法人が10月14日に開いたメディア説明会に登壇した。講演では、報道陣の質問に答える形でサイバー攻撃とAIの関係性についても言及する一幕も。悪用の抑止に向けて同社がどう取り組むか、現在の方針も説明した。",
+   "ai_related": true
+  },
+  {
+   "id": "c977acecb577",
+   "source": "매일경제",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ハンファ建設部門は建設現場勤労者の安全申告便宜性と危険要因発掘効果を高めるために既存「安全申聞鼓」システムに音声認識および人工知能(AI)写真分析機能を電撃導入したと15日明らかにした。",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91UndoR194YndBZFpSRUxfNmdWbXpmNG1UMUxpcDh1Y2tWSzBtLUVCbi0zTFdvaHlZSGN6NW5lcVczdUtLTjFlNkl0QzZEYl9DSFVrMzBn?oc=5",
+   "published": "2026-10-15T01:43+00:00",
+   "published_jst": "2026-10-15 10:43",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "d9feffb548df",
+   "source": "茨城新聞クロスアイ",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【PR TIMES 企業向けシステム・通信・機器 住宅・建築・建設】不動産ブログ記事のAI生成「AIコンテンツ生成」機能の累計利用回数が10万回を突破！｜いえらぶGROUP",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YcU1tZ2hjUWZoc0M5Y1BSU1hxTTNwMWpQZHdtNWI0Ry1VNGVHdy12VklmT3MwNG1kenBxbmJnaDJ5S18wMVhCRjFHb0hjU05ycHRGTUNWank3MWlqWERNU0JvdENNcVlGdEZUNXVkWFhjNzVsUUZn?oc=5",
+   "published": "2026-10-15T01:30+00:00",
+   "published_jst": "2026-10-15 10:30",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "392869267c41",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「YouTube Music」、生成AIで作られた楽曲にラベル表示",
+   "url": "https://www.itmedia.co.jp/news/article/2610/15/2000002287/",
+   "published": "2026-10-15T01:27+00:00",
+   "published_jst": "2026-10-15 10:27",
+   "summary": "YouTubeは「YouTube Music」で、主に生成AIで作られた楽曲を示すラベル表示を開始した。音楽パートナーとの連携や独自ツールで曲やボーカルの生成を検知し、プレーヤー画面に表示する。メタデータ申告のほか未申告でも自動判定し、今後はYouTubeにも拡大する。",
+   "ai_related": true
+  },
+  {
+   "id": "0dc795d00b9d",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "国土交通省、公共事業のピュア型ＣＭ方式の活用実態調査を公表、導入実績は建築・土木とも増加",
+   "url": "https://news.build-app.jp/article/43219/",
+   "published": "2026-10-15T01:00+00:00",
+   "published_jst": "2026-10-15 10:00",
+   "summary": "国土交通省は2026年9月30日、「公共事業におけるピュア型ＣＭ方式活用実態調査（令和８年度）」の結果を発表しました。 調査には、一般社団法...",
+   "ai_related": false
+  },
+  {
+   "id": "2fbddb84c5c4",
+   "source": "Infoseek",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "住宅会社向け基幹システム「注文分譲クラウドDX」と「ARCHITREND ONE 積算オプション」の積算連携を2026年11月18日より開始｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9selRZcXRDa2NLTElncDUyTl82S3NfUm91b2NsYmpFQVhROVpkUmZMdVRMSXFkdkNmLVRiOHQ4eThqMGNBYnRoWFFTM0RRbWtjTlNsR2RITGFFcVlhUXJ0X3FHTVBZYUU1VTEzcjI5SDBPQQ?oc=5",
+   "published": "2026-10-15T01:00+00:00",
+   "published_jst": "2026-10-15 10:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "236d31bd5e73",
+   "source": "Chosunbiz",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "HD建設機械が3㎿級DX77を開発 AIデータセンター需要に対応 - CHOSUNBIZ",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYWNJWTNpUXJiZFJLUW1zTGgxbkZ5cHJPSVVXTnRPU0tuVkVEbVpwd2t0UHZHZkphMEhZd3luODJJbF9ZYmZjWEVaTWlmSzFGUVhoUXBGblBka3NOLXE0elpOMDhaLWlRQkJadTh6c08ta0pta3RaWFFKWUhNY2xvNHFR0gGWAUFVX3lxTE9LemNCejFnUXBWUjBqbUdxU3VmeXkxSWxQMnVIeFh2bmlLZ2tNbDkxV1pKczZkVEZQTkZvVV9hcFo4cEJoRDFyS0ZwaWt2TEQ2bF9mMm5ES0FxLUF1WjJZNUhGeG5RRlE1V1V2VDI5M2VCQURtQmJsNWxVcDA4cjFHT1dNZlZqc21mV21hZk1uMTRsRXh1Zw?oc=5",
+   "published": "2026-10-15T00:51+00:00",
+   "published_jst": "2026-10-15 09:51",
+   "summary": "",
    "ai_related": true
   }
  ]
