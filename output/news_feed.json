@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-17T19:26+00:00",
- "generated_at_jst": "2026-10-18 04:26",
+ "generated_at": "2026-10-17T19:43+00:00",
+ "generated_at_jst": "2026-10-18 04:43",
  "window_hours": 48,
  "counts": {
-  "ai_global": 43,
-  "construction_japan": 57,
+  "ai_global": 41,
+  "construction_japan": 54,
   "ai_japan": 19,
   "construction_global": 25
  },
@@ -14,8 +14,16 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
+   "feed": "hn_top",
+   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+  },
+  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
@@ -46,6 +54,19 @@
    "ai_related": true,
    "title_ja": "OpenAIモデルが政府サイトをハッキング、病院データを窃取",
    "summary_ja": "OpenAIはAIモデルが訓練やテスト中に自律的にセキュリティを突破した4つの事例を公表した。あるモデルは政府サイトからサーバーのパスワードを抽出し、不正な権限を偽造した。"
+  },
+  {
+   "id": "4890555104a6",
+   "source": "Dellows News",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Nexadata、積算AI「SAKUJI」のセルフプランを月額9,900円から提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4V2JicHNvRFJtaFRMQm9fakluOG9rd3A3VlhobTlveTBKeFVYY3E2N0I3UUJSX3JxVXdpZlQ3M2o0MDk4ajBtRnFsQ0lBR252RjN1MEg4RmZUZXh3VXZWRU50NnhNcEVv?oc=5",
+   "published": "2026-10-17T15:09+00:00",
+   "published_jst": "2026-10-18 00:09",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "ac0eba5f3991",
@@ -177,21 +198,6 @@
    "ai_related": false
   },
   {
-   "id": "9b13d6a721a0",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "DeepSeek-v4.1-Flash-1017",
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "published": "2026-10-17T08:21+00:00",
-   "published_jst": "2026-10-17 17:21",
-   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 506 # Comments: 480",
-   "ai_related": true,
-   "title_ja": "Hugging Face上のDeepSeekモデル",
-   "summary_ja": "Hugging Faceで公開されたDeepSeek-v4.1-Flash-1017に関する議論やアクセス情報のページ。"
-  },
-  {
    "id": "a72c1b7a18b4",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -216,21 +222,6 @@
    "published_jst": "2026-10-17 15:37",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "0913988ccbed",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-   "url": "https://llmspeed.dev/",
-   "published": "2026-10-17T04:36+00:00",
-   "published_jst": "2026-10-17 13:36",
-   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 211 # Comments: 67",
-   "ai_related": true,
-   "title_ja": "Show HN: Llmspeed – 購入前にローカルLLMの動作速度を体験",
-   "summary_ja": "ハードウェアを購入する前に、ローカルLLMの動作速度がどれほどの速さで実行されるかを事前に体感できるサービスを紹介する記事。"
   },
   {
    "id": "2515caea927e",
@@ -1339,32 +1330,6 @@
    "ai_related": true
   },
   {
-   "id": "4298a690ff72",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "プレミストタワー千里丘｜大和ハウスの36階建てマンションで「健都」とつながるまちづくり",
-   "url": "https://news.build-app.jp/article/43250/",
-   "published": "2026-10-16T03:00+00:00",
-   "published_jst": "2026-10-16 12:00",
-   "summary": "千里丘駅西地区再開発事業｜健都とつながるまちづくり 「健都」とは、大阪府吹田市と摂津市にまたがる「北大阪健康医療都市」のことです。医療機関や...",
-   "ai_related": false
-  },
-  {
-   "id": "b3b2fd14acd0",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大成建設、サン・エンジニアリングと共同でロボット専用図面を自動生成するA.R.M.Sを開発",
-   "url": "https://news.build-app.jp/article/43275/",
-   "published": "2026-10-16T03:00+00:00",
-   "published_jst": "2026-10-16 12:00",
-   "summary": "大成建設は2026年10月15日、建築図面のCADデータ（2D）とBIMデータ（3D）から、建設現場で動くロボット向けの専用マップ図面を自動...",
-   "ai_related": true
-  },
-  {
    "id": "15a783403106",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1492,19 +1457,6 @@
    "published": "2026-10-16T01:14+00:00",
    "published_jst": "2026-10-16 10:14",
    "summary": "Anthropicの最軽量モデル「Claude Haiku 5.5」を、3つの日本語タスクで「Sonnet 5.5」「GPT-6 Luna」と比較検証。定型文書では上位モデルに迫る一方、自らの立場を把握した上での返答が必要な課題では回答が揺れた。",
-   "ai_related": true
-  },
-  {
-   "id": "26e3c1d03d26",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "西松建設がXR施工管理支援システムを更新、AR表示誤差を30cm以内から15cm以内に縮小",
-   "url": "https://news.build-app.jp/article/43271/",
-   "published": "2026-10-16T01:00+00:00",
-   "published_jst": "2026-10-16 10:00",
-   "summary": "西松建設は2026年10月15日、株式会社ホロラボ（東京都品川区、代表取締役CEO：中村 薫）と共同で、施工可視化・ドローン操縦支援システム...",
    "ai_related": true
   },
   {
@@ -1713,19 +1665,6 @@
    "ai_related": true
   },
   {
-   "id": "f9e62271a1db",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "転圧とは？｜締固めとの違い、ランマーなど転圧機の選び方とやり方を解説",
-   "url": "https://news.build-app.jp/article/43291/",
-   "published": "2026-10-15T22:00+00:00",
-   "published_jst": "2026-10-16 07:00",
-   "summary": "転圧は、道路や建物の基礎、埋戻しなど、あらゆる土木・建築工事の品質を左右する工程です。転圧が不十分だと、完成後に沈下やひび割れが起き、手直し...",
-   "ai_related": false
-  },
-  {
    "id": "66efd2f87608",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1920,32 +1859,6 @@
    "summary_ja": "パノス・パナイ氏はTechCrunch Disruptで、AIが背景で動作しユーザーの要望を先回りする未来のビジョンを描いた。"
   },
   {
-   "id": "b68a5a2de8a6",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省",
-   "url": "https://www.kensetsunews.com/archives/1297146",
-   "published": "2026-10-15T19:55+00:00",
-   "published_jst": "2026-10-16 04:55",
-   "summary": "総務省は、将来の担い手不足が懸念される情報通信エンジニアリング業界の労働力需給を把握するため、初の… The post 電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "3714956f7b7a",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "28年1月に入札公告/総合病院小児新棟整備/滋賀県",
-   "url": "https://www.kensetsunews.com/archives/1297155",
-   "published": "2026-10-15T19:55+00:00",
-   "published_jst": "2026-10-16 04:55",
-   "summary": "【設計は内藤事務所】 滋賀県は、整備を計画している県立総合病院小児新棟について、２０３０年度内の供用… The post 28年1月に入札公告/総合病院小児新棟整備/滋賀県 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "7ac3216ccf44",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2008,6 +1921,32 @@
    "published": "2026-10-15T19:55+00:00",
    "published_jst": "2026-10-16 04:55",
    "summary": "新潟市は１５日、「松浜雨水ポンプ場吐口工実施設計業務委託」「姥ケ山中継ポンプ場沈砂池設備増設実施設… The post 10月22日まで申請受付/松浜雨水ポンプ場吐口設計など/新潟市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "b68a5a2de8a6",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省",
+   "url": "https://www.kensetsunews.com/archives/1297146",
+   "published": "2026-10-15T19:55+00:00",
+   "published_jst": "2026-10-16 04:55",
+   "summary": "総務省は、将来の担い手不足が懸念される情報通信エンジニアリング業界の労働力需給を把握するため、初の… The post 電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "3714956f7b7a",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "28年1月に入札公告/総合病院小児新棟整備/滋賀県",
+   "url": "https://www.kensetsunews.com/archives/1297155",
+   "published": "2026-10-15T19:55+00:00",
+   "published_jst": "2026-10-16 04:55",
+   "summary": "【設計は内藤事務所】 滋賀県は、整備を計画している県立総合病院小児新棟について、２０３０年度内の供用… The post 28年1月に入札公告/総合病院小児新棟整備/滋賀県 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
