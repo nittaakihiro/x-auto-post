@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-17T12:10+00:00",
- "generated_at_jst": "2026-10-17 21:10",
+ "generated_at": "2026-10-17T12:59+00:00",
+ "generated_at_jst": "2026-10-17 21:59",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 59,
+  "construction_japan": 54,
   "ai_global": 66,
-  "ai_japan": 22,
+  "ai_japan": 21,
   "construction_global": 28
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -16,6 +20,10 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
@@ -100,7 +108,7 @@
    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
    "published": "2026-10-17T08:37+00:00",
    "published_jst": "2026-10-17 17:37",
-   "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 242 # Comments: 77",
+   "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 282 # Comments: 108",
    "ai_related": true,
    "title_ja": "DeepSeek v4.1 Flash 1017の公開情報",
    "summary_ja": "OpenRouter上のDeepSeek v4.1 Flash 1017に関する記事および議論のリンクやポイント数などのメタデータ。"
@@ -128,7 +136,7 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "published": "2026-10-17T08:21+00:00",
    "published_jst": "2026-10-17 17:21",
-   "summary": "Article URL: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 223 # Comments: 86",
+   "summary": "Article URL: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 242 # Comments: 97",
    "ai_related": true,
    "title_ja": "Hugging Face上のDeepSeekモデル",
    "summary_ja": "Hugging Faceで公開されたDeepSeek-v4.1-Flash-1017に関する議論やアクセス情報のページ。"
@@ -307,7 +315,7 @@
    "url": "https://bfl.ai/blog/flux-3-image-klein",
    "published": "2026-10-16T19:47+00:00",
    "published_jst": "2026-10-17 04:47",
-   "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 176 # Comments: 48",
+   "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 177 # Comments: 51",
    "ai_related": true,
    "title_ja": "FLUX 3 Image Klein",
    "summary_ja": "FLUX 3 Image Kleinに関する記事とHacker News上の議論を紹介しています。"
@@ -352,7 +360,7 @@
    "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
    "published": "2026-10-16T19:04+00:00",
    "published_jst": "2026-10-17 04:04",
-   "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 370 # Comments: 341",
+   "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 382 # Comments: 352",
    "ai_related": true,
    "title_ja": "Claude Codeチームのコードレビュー手法",
    "summary_ja": "Anthropicにおけるコードレビューの課題解決に関する公式ブログ記事と、関連する議論が紹介されています。"
@@ -367,7 +375,7 @@
    "url": "https://alexwang.ai/posts/associative-memory/",
    "published": "2026-10-16T19:01+00:00",
    "published_jst": "2026-10-17 04:01",
-   "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 324 # Comments: 76",
+   "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 336 # Comments: 78",
    "ai_related": true,
    "title_ja": "記憶からトランスフォーマーを導き出す",
    "summary_ja": "トランスフォーマーの仕組みを連想記憶の観点から自ら導き出すプロセスを解説しています。"
@@ -397,7 +405,7 @@
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
    "published": "2026-10-16T18:55+00:00",
    "published_jst": "2026-10-17 03:55",
-   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 900 # Comments: 335",
+   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 912 # Comments: 338",
    "ai_related": true,
    "title_ja": "ClaudeがECDSA曲線の起源を明らかに",
    "summary_ja": "Hacker News上で議論やコメントが活発に行われている話題。"
@@ -412,7 +420,7 @@
    "url": "https://github.com/cobanov/PS5LM",
    "published": "2026-10-16T18:32+00:00",
    "published_jst": "2026-10-17 03:32",
-   "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 302 # Comments: 75",
+   "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 307 # Comments: 75",
    "ai_related": true,
    "title_ja": "脱獄済みPS5でLlama.cppを稼働",
    "summary_ja": "任意のGGUFモデルをPS5本体上でネイティブに実行するためのGitHubプロジェクトが紹介されています。"
@@ -459,6 +467,19 @@
    "ai_related": true,
    "title_ja": "AI設計ウイルスの作成者に迫るラウンドテーブル",
    "summary_ja": "AIは新しい生命体を設計できるのか。スタンフォード大学の学生が生成AIを用いた事例。"
+  },
+  {
+   "id": "04b7640931c7",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Designing more efficient quantum circuits with Claude",
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "published": "2026-10-16T18:00+00:00",
+   "published_jst": "2026-10-17 03:00",
+   "summary": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 152 # Comments: 32",
+   "ai_related": true
   },
   {
    "id": "bfa998e6f2ba",
@@ -515,7 +536,7 @@
    "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
    "published": "2026-10-16T17:08+00:00",
    "published_jst": "2026-10-17 02:08",
-   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 522 # Comments: 442",
+   "summary": "Article URL: https://www.mercor.com/research/labor-index/benchmark-map/ Comments URL: https://news.ycombinator.com/item?id=50121179 Points: 534 # Comments: 452",
    "ai_related": true,
    "title_ja": "米国の労働時間の90％はAIベンチマーク対象外の作業",
    "summary_ja": "AIの評価基準と実際の労働実態のギャップについて調査した記事。"
@@ -680,7 +701,7 @@
    "url": "https://starskirmish.com/bench/v0-2/",
    "published": "2026-10-16T14:18+00:00",
    "published_jst": "2026-10-16 23:18",
-   "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 226 # Comments: 102",
+   "summary": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 228 # Comments: 102",
    "ai_related": true,
    "title_ja": "Gemini 4 ArgonがStarCraftをプレイ",
    "summary_ja": "LLMがコードを書いてStarCraftをプレイするベンチマークの最新結果。"
@@ -1142,19 +1163,6 @@
    "ai_related": true
   },
   {
-   "id": "3b1f9ff20bc2",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日本マイクロソフト 西脇資哲氏が解説。生成AIで、建設業の仕事はどこまで変わるのか？デモで紹介する特別講演を開催＜12/10・参加無料＞ (2026年10月16日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VV0JhTk5oYTBRUjhYM2NDRVhLbExCdTUwY2lkSW1nZ1VCazRmOWUwVE9PaVFpSGlTMEpSR0F1LXlTOGVqUjF1MjdTVXN3cGRjMkRKZzFUU2ZhYU5RN1lYYTRR?oc=5",
-   "published": "2026-10-16T07:10+00:00",
-   "published_jst": "2026-10-16 16:10",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "637f623945f7",
    "source": "Dellows News",
    "source_id": "gnews_kensetsu_ai",
@@ -1166,6 +1174,19 @@
    "published_jst": "2026-10-16 16:10",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "3b1f9ff20bc2",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日本マイクロソフト 西脇資哲氏が解説。生成AIで、建設業の仕事はどこまで変わるのか？デモで紹介する特別講演を開催＜12/10・参加無料＞ (2026年10月16日掲載)",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VV0JhTk5oYTBRUjhYM2NDRVhLbExCdTUwY2lkSW1nZ1VCazRmOWUwVE9PaVFpSGlTMEpSR0F1LXlTOGVqUjF1MjdTVXN3cGRjMkRKZzFUU2ZhYU5RN1lYYTRR?oc=5",
+   "published": "2026-10-16T07:10+00:00",
+   "published_jst": "2026-10-16 16:10",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "7e53bf5056f4",
@@ -1427,17 +1448,17 @@
    "ai_related": false
   },
   {
-   "id": "b33da5e200e9",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
+   "id": "ea0e763f629a",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
    "lang": "ja",
-   "title": "画像生成・編集AI「Krea 3」のベータ版がリリースされる、GPT-Image-2より10倍高速で価格は3分の1",
-   "url": "https://gigazine.net/news/20261016-krea-3-beta/",
-   "published": "2026-10-16T03:20+00:00",
-   "published_jst": "2026-10-16 12:20",
-   "summary": "画像生成AIサービス「Krea 3」のベータ版がリリースされました。画像生成と画像編集を高精度にこなすことが可能で、OpenAIのGPT-Image-2やGoogleのNano Banana 2と比べて高速かつ安価な処理が可能とされています。 続きを読む...",
-   "ai_related": true
+   "title": "Artivation、業界別AI業務パッケージ「AAP」の開発に向け、AIに5分で答えるだけの「業務ヒアリング」を開始。広告・不動産・建設・卸売の企業を対象に、コーポレートサイトも全面刷新｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KSkdQck1USDB2VmNNSkZvdldUQWlTT3J3X2lfZnplSXJaZVA1d1djRXpqVEo2UEVwZkRqVmU0UkhsMm9mUmNxTzRRa2k5OHZxSjQ5LWtNT1Vad3czVUJvdEZjNTJoT1o1VGljMGo3Q1pOdw?oc=5",
+   "published": "2026-10-16T03:45+00:00",
+   "published_jst": "2026-10-16 12:45",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "316912d44d12",
@@ -1451,45 +1472,6 @@
    "published_jst": "2026-10-16 12:00",
    "summary": "米Microsoftに所属する研究者らが発表した論文「Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft’s Early 2026 Rollout of Claude Code and GitHub Copilot CLI」は、社内の数万人のソフトウェアエンジニアを対象に、コマンドライン上で動くAIコーディングツール（Anthropicの「Claude Code」やGitHubの「Copilot CLI」）の利用状況と、それが生産性に与える影響について調査した研究報告だ。",
    "ai_related": true
-  },
-  {
-   "id": "4298a690ff72",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "プレミストタワー千里丘｜大和ハウスの36階建てマンションで「健都」とつながるまちづくり",
-   "url": "https://news.build-app.jp/article/43250/",
-   "published": "2026-10-16T03:00+00:00",
-   "published_jst": "2026-10-16 12:00",
-   "summary": "千里丘駅西地区再開発事業｜健都とつながるまちづくり 「健都」とは、大阪府吹田市と摂津市にまたがる「北大阪健康医療都市」のことです。医療機関や...",
-   "ai_related": false
-  },
-  {
-   "id": "b3b2fd14acd0",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大成建設、サン・エンジニアリングと共同でロボット専用図面を自動生成するA.R.M.Sを開発",
-   "url": "https://news.build-app.jp/article/43275/",
-   "published": "2026-10-16T03:00+00:00",
-   "published_jst": "2026-10-16 12:00",
-   "summary": "大成建設は2026年10月15日、建築図面のCADデータ（2D）とBIMデータ（3D）から、建設現場で動くロボット向けの専用マップ図面を自動...",
-   "ai_related": true
-  },
-  {
-   "id": "15a783403106",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Artivation、業界別AI業務パッケージ「AAP」の開発に向け、AIに5分で答えるだけの「業務ヒアリング」を開始。広告・不動産・建設・卸売の企業を対象に、コーポレートサイトも全面刷新",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52YmluS1VuOU9nQmlMTlhDVlR2ZDFVWFRMYVBxNDNOTExIWExwbkR4Z1p2T01sQUt6bmZrVmlGeXBoNnJTOWQweEp2UVY2akNfOUIzb1laYTFITFY4ekZOcVJMcEpWNUtnWHc?oc=5",
-   "published": "2026-10-16T02:50+00:00",
-   "published_jst": "2026-10-16 11:50",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "5a99a6dc7d7c",
@@ -1606,19 +1588,6 @@
    "published": "2026-10-16T01:14+00:00",
    "published_jst": "2026-10-16 10:14",
    "summary": "Anthropicの最軽量モデル「Claude Haiku 5.5」を、3つの日本語タスクで「Sonnet 5.5」「GPT-6 Luna」と比較検証。定型文書では上位モデルに迫る一方、自らの立場を把握した上での返答が必要な課題では回答が揺れた。",
-   "ai_related": true
-  },
-  {
-   "id": "26e3c1d03d26",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "西松建設がXR施工管理支援システムを更新、AR表示誤差を30cm以内から15cm以内に縮小",
-   "url": "https://news.build-app.jp/article/43271/",
-   "published": "2026-10-16T01:00+00:00",
-   "published_jst": "2026-10-16 10:00",
-   "summary": "西松建設は2026年10月15日、株式会社ホロラボ（東京都品川区、代表取締役CEO：中村 薫）と共同で、施工可視化・ドローン操縦支援システム...",
    "ai_related": true
   },
   {
@@ -1827,19 +1796,6 @@
    "ai_related": true
   },
   {
-   "id": "f9e62271a1db",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "転圧とは？｜締固めとの違い、ランマーなど転圧機の選び方とやり方を解説",
-   "url": "https://news.build-app.jp/article/43291/",
-   "published": "2026-10-15T22:00+00:00",
-   "published_jst": "2026-10-16 07:00",
-   "summary": "転圧は、道路や建物の基礎、埋戻しなど、あらゆる土木・建築工事の品質を左右する工程です。転圧が不十分だと、完成後に沈下やひび割れが起き、手直し...",
-   "ai_related": false
-  },
-  {
    "id": "66efd2f87608",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1965,19 +1921,6 @@
    "ai_related": true
   },
   {
-   "id": "f57905340fad",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "マスク氏のスタートアップが30億ドル調達、UAEで150km超のトンネル建設へ",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11T0NxRXdOVXBkcmJoZUNpV1dfN3lUNV9udzJkUkFUcDJJakFYN3dsUEZ2aVZCSkF6aGZPdUNxdEFLdDFsZENZTjR6eUlGVFFFbVFEcXM2VWczc3p5Rks2NHVzVzc0bVU5bk9hSA?oc=5",
-   "published": "2026-10-15T20:00+00:00",
-   "published_jst": "2026-10-16 05:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "536a3e04f0af",
    "source": "北國新聞",
    "source_id": "gnews_kensetsu_ai",
@@ -1989,6 +1932,19 @@
    "published_jst": "2026-10-16 05:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "f57905340fad",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "マスク氏のスタートアップが30億ドル調達、UAEで150km超のトンネル建設へ",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11T0NxRXdOVXBkcmJoZUNpV1dfN3lUNV9udzJkUkFUcDJJakFYN3dsUEZ2aVZCSkF6aGZPdUNxdEFLdDFsZENZTjR6eUlGVFFFbVFEcXM2VWczc3p5Rks2NHVzVzc0bVU5bk9hSA?oc=5",
+   "published": "2026-10-15T20:00+00:00",
+   "published_jst": "2026-10-16 05:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "5563ad0e11eb",
@@ -2032,19 +1988,6 @@
    "ai_related": true,
    "title_ja": "Amazonデバイス責任者、AIがアプリの必要性を置き換える未来を語る",
    "summary_ja": "パノス・パナイ氏はTechCrunch Disruptで、AIが背景で動作しユーザーの要望を先回りする未来のビジョンを描いた。"
-  },
-  {
-   "id": "3714956f7b7a",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "28年1月に入札公告/総合病院小児新棟整備/滋賀県",
-   "url": "https://www.kensetsunews.com/archives/1297155",
-   "published": "2026-10-15T19:55+00:00",
-   "published_jst": "2026-10-16 04:55",
-   "summary": "【設計は内藤事務所】 滋賀県は、整備を計画している県立総合病院小児新棟について、２０３０年度内の供用… The post 28年1月に入札公告/総合病院小児新棟整備/滋賀県 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
   },
   {
    "id": "7ac3216ccf44",
@@ -2122,6 +2065,19 @@
    "published": "2026-10-15T19:55+00:00",
    "published_jst": "2026-10-16 04:55",
    "summary": "総務省は、将来の担い手不足が懸念される情報通信エンジニアリング業界の労働力需給を把握するため、初の… The post 電気通信工事初の大規模需給調査/技能可視化し処遇改善/総務省 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "3714956f7b7a",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "28年1月に入札公告/総合病院小児新棟整備/滋賀県",
+   "url": "https://www.kensetsunews.com/archives/1297155",
+   "published": "2026-10-15T19:55+00:00",
+   "published_jst": "2026-10-16 04:55",
+   "summary": "【設計は内藤事務所】 滋賀県は、整備を計画している県立総合病院小児新棟について、２０３０年度内の供用… The post 28年1月に入札公告/総合病院小児新棟整備/滋賀県 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2258,21 +2214,6 @@
    "ai_related": true,
    "title_ja": "周囲のデータをAIに勝手に送信する家電の脅威",
    "summary_ja": "同意なしに周囲のあらゆるものをスパイするガジェットやAIパーソナルアシスタントが普及し、プライバシー侵害の懸念が高まっています。"
-  },
-  {
-   "id": "996b33c09ad5",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15T16:08+00:00",
-   "published_jst": "2026-10-16 01:08",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "ai_related": true,
-   "title_ja": "Google Antigravityで抗菌ペプチドの探索を加速",
-   "summary_ja": "Google Antigravity for Scienceを活用し、新しい抗菌ペプチドの探索を加速させています。"
   },
   {
    "id": "1cc24ddce8a4",
@@ -2468,19 +2409,6 @@
    "ai_related": true,
    "title_ja": "GeForce NOWにNVIDIA DLSS 4.5が登場",
    "summary_ja": "最新ハードウェアがなくても、クラウド上で対応ゲームの見た目やパフォーマンスを自由に調整可能になりました。"
-  },
-  {
-   "id": "8102eb813f14",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Nexadata、電気工事向け積算AIプラットフォーム「SAKUJI」を月額9,900円から提供 (2026年10月15日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45aHpldWlpQXZ1c2dkeFRMN0plTVZZbGRMMGZHN1oyRldJQ3VqRVpUM2NreWNwekhrU0IxbTdWSTB4V0l5VUZxNF9EM0RRYTlpbmVXQW9ZYkF5WHBYbkZNTjVB?oc=5",
-   "published": "2026-10-15T12:23+00:00",
-   "published_jst": "2026-10-15 21:23",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
