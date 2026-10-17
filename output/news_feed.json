@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-17T15:32+00:00",
- "generated_at_jst": "2026-10-18 00:32",
+ "generated_at": "2026-10-17T16:27+00:00",
+ "generated_at_jst": "2026-10-18 01:27",
  "window_hours": 48,
  "counts": {
-  "ai_global": 57,
-  "construction_japan": 59,
+  "ai_global": 55,
+  "construction_japan": 58,
   "ai_japan": 19,
   "construction_global": 25
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -19,6 +23,19 @@
   }
  ],
  "items": [
+  {
+   "id": "4d539dfb6b75",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
+   "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
+   "published": "2026-10-17T15:36+00:00",
+   "published_jst": "2026-10-18 00:36",
+   "summary": "OpenAI has published four new cases where its AI models bypassed security boundaries on their own during training or testing. In one case, a model extracted server passwords from a government website, forged authorization tokens, and downloaded 24 years of hospital data without mentioning the unauth",
+   "ai_related": true
+  },
   {
    "id": "ac0eba5f3991",
    "source": "The Verge AI",
@@ -145,7 +162,7 @@
    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
    "published": "2026-10-17T08:37+00:00",
    "published_jst": "2026-10-17 17:37",
-   "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 447 # Comments: 232",
+   "summary": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 500 # Comments: 264",
    "ai_related": true,
    "title_ja": "DeepSeek v4.1 Flash 1017の公開情報",
    "summary_ja": "OpenRouter上のDeepSeek v4.1 Flash 1017に関する記事および議論のリンクやポイント数などのメタデータ。"
@@ -173,7 +190,7 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "published": "2026-10-17T08:21+00:00",
    "published_jst": "2026-10-17 17:21",
-   "summary": "Article URL: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 315 # Comments: 125",
+   "summary": "Article URL: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 334 # Comments: 128",
    "ai_related": true,
    "title_ja": "Hugging Face上のDeepSeekモデル",
    "summary_ja": "Hugging Faceで公開されたDeepSeek-v4.1-Flash-1017に関する議論やアクセス情報のページ。"
@@ -190,19 +207,6 @@
    "published_jst": "2026-10-17 17:00",
    "summary": "SHIFT AIが65歳以上の親を持つ全国の30～50代男女723人を対象とした「シニア×AIの意識調査」の結果を発表。親に生成AIを使ってほしくない子世代が69.3％に達したという結果とともに、その理由や自身の利用頻度、親に教える際の障壁などを示した。",
    "ai_related": true
-  },
-  {
-   "id": "31ba35715ebd",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "著名なアメリカ人建築家が、APECフーコック大会で発生した特異な問題を解決するためにAIを活用。",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNanh1UXU5VS1kSzVQUmJkOXQwbFMteUNqZ2NhejZEU0dEZlVmR25vdHM2b1oxbFktVDJEMExFZ1E3VGRwLWg1bmFreHRyaktjMjBMM2dyeEpXN3NIZGp4NjlHOWVPZzRsTHdEM0FTTExNSVRCQUg3Yk9SZmZHWFVGdlZ0LTE1bEpCTzk3MjlXZFY2RHBpN3FUbXJ6UQ?oc=5",
-   "published": "2026-10-17T07:37+00:00",
-   "published_jst": "2026-10-17 16:37",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "fd1dedd8f915",
@@ -240,7 +244,7 @@
    "url": "https://llmspeed.dev/",
    "published": "2026-10-17T04:36+00:00",
    "published_jst": "2026-10-17 13:36",
-   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 172 # Comments: 54",
+   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 180 # Comments: 60",
    "ai_related": true,
    "title_ja": "Show HN: Llmspeed – 購入前にローカルLLMの動作速度を体験",
    "summary_ja": "ハードウェアを購入する前に、ローカルLLMの動作速度がどれほどの速さで実行されるかを事前に体感できるサービスを紹介する記事。"
@@ -380,7 +384,7 @@
    "url": "https://bfl.ai/blog/flux-3-image-klein",
    "published": "2026-10-16T19:47+00:00",
    "published_jst": "2026-10-17 04:47",
-   "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 188 # Comments: 55",
+   "summary": "Article URL: https://bfl.ai/blog/flux-3-image-klein Comments URL: https://news.ycombinator.com/item?id=50123580 Points: 190 # Comments: 55",
    "ai_related": true,
    "title_ja": "FLUX 3 Image Klein",
    "summary_ja": "FLUX 3 Image Kleinに関する記事とHacker News上の議論を紹介しています。"
@@ -425,7 +429,7 @@
    "url": "https://alexwang.ai/posts/associative-memory/",
    "published": "2026-10-16T19:01+00:00",
    "published_jst": "2026-10-17 04:01",
-   "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 387 # Comments: 91",
+   "summary": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 398 # Comments: 95",
    "ai_related": true,
    "title_ja": "記憶からトランスフォーマーを導き出す",
    "summary_ja": "トランスフォーマーの仕組みを連想記憶の観点から自ら導き出すプロセスを解説しています。"
@@ -455,7 +459,7 @@
    "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
    "published": "2026-10-16T18:55+00:00",
    "published_jst": "2026-10-17 03:55",
-   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 959 # Comments: 344",
+   "summary": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 968 # Comments: 350",
    "ai_related": true,
    "title_ja": "ClaudeがECDSA曲線の起源を明らかに",
    "summary_ja": "Hacker News上で議論やコメントが活発に行われている話題。"
@@ -470,7 +474,7 @@
    "url": "https://github.com/cobanov/PS5LM",
    "published": "2026-10-16T18:32+00:00",
    "published_jst": "2026-10-17 03:32",
-   "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 330 # Comments: 81",
+   "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 336 # Comments: 82",
    "ai_related": true,
    "title_ja": "脱獄済みPS5でLlama.cppを稼働",
    "summary_ja": "任意のGGUFモデルをPS5本体上でネイティブに実行するためのGitHubプロジェクトが紹介されています。"
@@ -528,7 +532,7 @@
    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
    "published": "2026-10-16T18:00+00:00",
    "published_jst": "2026-10-17 03:00",
-   "summary": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 159 # Comments: 34",
+   "summary": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 161 # Comments: 34",
    "ai_related": true,
    "title_ja": "Claudeを活用したより効率的な量子回路の設計",
    "summary_ja": "AnthropicのAIモデルであるClaudeを用いて、より効率的な量子回路を設計する取り組みに関する研究記事と議論を紹介する。"
@@ -864,21 +868,6 @@
    "summary_ja": "HNTBがメリーランド州の橋2件を受注。AECOMはグローバル交通部門の責任者を指名。Turnerは第3四半期にコストが年率5.5%上昇。CMAAは新理事長を選出。"
   },
   {
-   "id": "8abaa4ee13d0",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic gives METR inside access to audit its AI models and safety practices",
-   "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
-   "published": "2026-10-16T13:11+00:00",
-   "published_jst": "2026-10-16 22:11",
-   "summary": "Anthropic has given a team from the nonprofit METR inside access to review its AI models and safety practices, the company announced. The article Anthropic gives METR inside access to audit its AI models and safety practices appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "Anthropic、AIモデルの内部監査をMETRに許可",
-   "summary_ja": "Anthropic社は、非営利組織METRのチームに対し、自社のAIモデルや安全性の取り組みを内部から監査することを許可したと発表した。"
-  },
-  {
    "id": "fa1478d9672f",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1105,19 +1094,6 @@
    "ai_related": true,
    "title_ja": "Willmott Dixon、枠組み活用で利益15%増",
    "summary_ja": "Willmott Dixonは上半期の利益が15パーセント増加したと発表。新規案件の大部分を枠組み契約を通じて獲得している。"
-  },
-  {
-   "id": "dc6e55e3522f",
-   "source": "ニッキンONLINE",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "横浜信金、建設業向けAI相談会を開催",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUl9sREt6SWRqVXVobVFFUGxRSmhNMWwxWjhmZ2s2NGhtNzVnUXFCanFSN3VFMFg1VUpPOFpIWk15eFVSS244a1NCTU51NmdvX2I3NTV3?oc=5",
-   "published": "2026-10-16T09:21+00:00",
-   "published_jst": "2026-10-16 18:21",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "e2c971ad02c2",
@@ -1762,6 +1738,19 @@
    "ai_related": true
   },
   {
+   "id": "2dca7a72871b",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【画像】建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE45TzhKRVBaUGpvemRScS1NS0pxcXVQSnozT0t3Z0QxVzJYejNrRWN3SjNBaGVyWFVOU2RaQ2JCekI4VzlsVzRUQmFfc3pacnZINldXOGNTNzQyNVE1XzYtQjdjLU1jQTVkcnpWbVhLbElEUjh1WTZ1WTVPWlo?oc=5",
+   "published": "2026-10-15T23:18+00:00",
+   "published_jst": "2026-10-16 08:18",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "d44bce913630",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2232,36 +2221,6 @@
    "ai_related": true,
    "title_ja": "NVIDIA RTX Sparkの誕生を祝うローンチイベント開催へ",
    "summary_ja": "クリエイターやゲーマー、AIエージェント向けの新しいWindows PC「NVIDIA RTX Spark」の発売に向けたローンチイベントが開催される。"
-  },
-  {
-   "id": "996b33c09ad5",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-   "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-   "published": "2026-10-15T16:08+00:00",
-   "published_jst": "2026-10-16 01:08",
-   "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-   "ai_related": true,
-   "title_ja": "Google Antigravityで抗菌ペプチドの探索を加速",
-   "summary_ja": "Google Antigravity for Scienceを活用し、新規の抗菌ペプチドの探索を加速させる取り組みについての紹介記事。"
-  },
-  {
-   "id": "1cc24ddce8a4",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
-   "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-   "published": "2026-10-15T15:43+00:00",
-   "published_jst": "2026-10-16 00:43",
-   "summary": "FTC may fine AI firms on par with companies that delay data breach reports.",
-   "ai_related": true,
-   "title_ja": "トランプ氏のAI発言を受け、FTCがAnthropicやOpenAIを調査",
-   "summary_ja": "米連邦取引委員会（FTC）は、データ侵害の報告を遅らせた企業と同等の水準でAI企業に罰金を科す可能性があります。"
   }
  ]
 }
