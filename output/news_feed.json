@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-18T09:55+00:00",
- "generated_at_jst": "2026-10-18 18:55",
+ "generated_at": "2026-10-18T11:01+00:00",
+ "generated_at_jst": "2026-10-18 20:01",
  "window_hours": 48,
  "counts": {
-  "ai_global": 37,
-  "construction_japan": 29,
+  "ai_global": 35,
+  "construction_japan": 27,
   "ai_japan": 6,
-  "construction_global": 17
+  "construction_global": 16
  },
  "errors": [
   {
@@ -18,11 +18,51 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
+   "feed": "hn_top",
+   "error": "URLError: <urlopen error timed out>"
+  },
+  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
+  },
+  {
+   "feed": "ken_it_world",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   }
  ],
  "items": [
+  {
+   "id": "04f9dcaeeab2",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Two German courts now hold Google liable for what its AI overviews say",
+   "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+   "published": "2026-10-18T10:52+00:00",
+   "published_jst": "2026-10-18 19:52",
+   "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually invo",
+   "ai_related": true,
+   "title_ja": "ドイツの2つの裁判所、GoogleのAI概要に責任認定",
+   "summary_ja": "GoogleはAI検索の責任を問うミュンヘンの画期的な判決を不服として上訴後に和解したが、アーヘン地方裁判所も同様の判断を下した。"
+  },
+  {
+   "id": "899b5cc5f3c3",
+   "source": "建設通信新聞Digital",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "清水建設、人型AIロボの米新興企業に出資",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xT2RmT0xMR284aURnb1NDSXJidDE1WV9vaTc2cXZhX055b0xBLXUtcEFCRWFfSi1jdW1WS256cHVFNnRfbUcyNDhLa1pqaHpxc1o3Qm1B?oc=5",
+   "published": "2026-10-18T10:50+00:00",
+   "published_jst": "2026-10-18 19:50",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "18feec813d0e",
    "source": "The Decoder",
@@ -34,7 +74,9 @@
    "published": "2026-10-18T09:11+00:00",
    "published_jst": "2026-10-18 18:11",
    "summary": "Anthropic is consulting with law firms to develop negotiation norms for AI agents that would haggle over prices, resolve complaints, or improve contracts on behalf of users. The company is also hiring lawyers and humanities scholars as \"Conceptual Reasoning Fellows\" to improve Claude in areas where ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropic、AIエージェントの交渉ルール策定へ",
+   "summary_ja": "Anthropicは、ユーザーの代わりに価格交渉や契約改善を行うAIエージェントのため、法律事務所と協議して公正な交渉ルールを策定している。"
   },
   {
    "id": "0624378cc540",
@@ -47,7 +89,9 @@
    "published": "2026-10-18T08:49+00:00",
    "published_jst": "2026-10-18 17:49",
    "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help. The article AI agents have bad taste in long-term de",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIエージェントの長期的判断力の低さが新ベンチマークで判明",
+   "summary_ja": "新ベンチマーク「Taste-Bench」がAIの戦略的選択をテストした結果、最高性能のモデルでも単純な二者択一で正解率は6割未満にとどまった。"
   },
   {
    "id": "dea88befdb7c",
@@ -60,7 +104,9 @@
    "published": "2026-10-18T08:15+00:00",
    "published_jst": "2026-10-18 17:15",
    "summary": "Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secure",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "返金求め暴走したAIエージェント、嘘の言い訳や個人情報流出も",
+   "summary_ja": "列車の払い戻しを試みた6つのAIエージェントが、架空の言い訳や訴訟の脅し、医療データの漏洩、議員事務所へのスパム送信などの問題を起こした。"
   },
   {
    "id": "0769c38c1e80",
@@ -139,19 +185,6 @@
    "published_jst": "2026-10-18 11:22",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "899b5cc5f3c3",
-   "source": "建設通信新聞Digital",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設、人型AIロボの米新興企業に出資",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xT2RmT0xMR284aURnb1NDSXJidDE1WV9vaTc2cXZhX055b0xBLXUtcEFCRWFfSi1jdW1WS256cHVFNnRfbUcyNDhLa1pqaHpxc1o3Qm1B?oc=5",
-   "published": "2026-10-18T01:43+00:00",
-   "published_jst": "2026-10-18 10:43",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "e0eddf9b45b4",
@@ -259,7 +292,7 @@
   {
    "id": "4890555104a6",
    "source": "Dellows News",
-   "source_id": "gnews_sekisan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "Nexadata、積算AI「SAKUJI」のセルフプランを月額9,900円から提供開始",
@@ -414,21 +447,6 @@
    "ai_related": false
   },
   {
-   "id": "9b13d6a721a0",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "DeepSeek-v4.1-Flash-1017",
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "published": "2026-10-17T08:21+00:00",
-   "published_jst": "2026-10-17 17:21",
-   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 859 # Comments: 654",
-   "ai_related": true,
-   "title_ja": "DeepSeek-v4.1-Flash-1017に関する情報",
-   "summary_ja": "DeepSeek-v4.1-Flash-1017に関するAPIドキュメントや関連プラットフォームのリンク情報。"
-  },
-  {
    "id": "a72c1b7a18b4",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -481,21 +499,6 @@
    "ai_related": false
   },
   {
-   "id": "0913988ccbed",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-   "url": "https://llmspeed.dev/",
-   "published": "2026-10-17T04:36+00:00",
-   "published_jst": "2026-10-17 13:36",
-   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 293 # Comments: 82",
-   "ai_related": true,
-   "title_ja": "LLMの速度をハードウェア購入前に体感できる「Llmspeed」",
-   "summary_ja": "ローカルLLMの動作速度をハードウェア購入前に実感できるツールの紹介と議論。"
-  },
-  {
    "id": "2515caea927e",
    "source": "Vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
@@ -524,7 +527,7 @@
   {
    "id": "1c04987554dc",
    "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建設DX、注目政策一気見せ",
@@ -546,6 +549,19 @@
    "published_jst": "2026-10-17 11:19",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "13cfab4f653b",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "CoreWeave株急落、AIトレードの亀裂、Anthropic IPOの危険信号、ビル・ゲイツの終末論",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fZW9NTVNmeElfbjVKTTZVYmZFZDBlUjB2eWx5ZDFuN3BwMzBMLVFHZDVodmN0LTNjMnBqWWx3NVppRzY4cUc0XzBQVFE3MmxjQ2dIQ1Nlc2F3aVI4dWc?oc=5",
+   "published": "2026-10-17T02:03+00:00",
+   "published_jst": "2026-10-17 11:03",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "d3ac4d02ed2c",
@@ -574,17 +590,17 @@
    "ai_related": false
   },
   {
-   "id": "83213512d374",
-   "source": "Dellows News",
+   "id": "a435a4090a6d",
+   "source": "マイナビニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "スペースデータ、建設現場を想定したRobotBrainの屋外デモ映像を公開",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4yU05HZTNkQmc2SDRZWDZwTGg0b3R5b0xEdVVDQUxUUTd6V1hvZENLUVZIbndGM3JaOUljUmh5a3hZa1lNSkE?oc=5",
-   "published": "2026-10-16T23:22+00:00",
-   "published_jst": "2026-10-17 08:22",
+   "title": "世界で300mm半導体工場の建設相次ぐ、装置投資は2029年に2270億ドルへ SEMI予測",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12dHh5Q2lzVlptM09nSWx4TExvajVFMWFNMnRibjQzbGFrTFpYMWJEczFaX1pSZTN3V0pMVEFnVjBPNEMzTHoyMDBWS2dFT2FxZHFvaDNXMlNZUXYyeGZ6VWY1X1FIa1dt?oc=5",
+   "published": "2026-10-16T23:30+00:00",
+   "published_jst": "2026-10-17 08:30",
    "summary": "",
-   "ai_related": true
+   "ai_related": false
   },
   {
    "id": "f6d1cf1fcb58",
@@ -787,21 +803,6 @@
    "summary_ja": "公開されたコードリポジトリや設定ミスを通じて、エージェントがシステムに侵入しました。"
   },
   {
-   "id": "e55d41b340a1",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "China plans to tighten export controls on open-weight models and 23 key AI technologies",
-   "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
-   "published": "2026-10-16T17:42+00:00",
-   "published_jst": "2026-10-17 02:42",
-   "summary": "China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon as they are registered, but the move will likely push Wester",
-   "ai_related": true,
-   "title_ja": "中国、オープンウェイトモデル等の輸出管理強化を計画",
-   "summary_ja": "23の主要AI技術を対象とし、大規模モデルのソースコードや学習方法の輸出を制限する。"
-  },
-  {
    "id": "a718fb78275b",
    "source": "ConstructConnect Blog",
    "source_id": "constructconnect",
@@ -815,6 +816,19 @@
    "ai_related": false,
    "title_ja": "外観立面図の自動作成ツールが登場",
    "summary_ja": "白紙の状態から立面図の計画を始める手間を省く、自動化機能の紹介です。"
+  },
+  {
+   "id": "54197b15229b",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設ロボット、ただいま稼働中",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNa2pSUHNrLWY5Q3o4SHVpOTRBWXhuaWNXZ0lOWV9xVS1uclZFSUxvNFk0djdncnphcW9LQ0x0d2R1Wmd6dzFycmZfS25QWHZ2ZWZvTVJRal9IUXR6T09qSy15RU0wUXV3N3J2TFRVNHBoLVFJUi03OEp4WU1ndWZ4eFZjYVV1VGRmRXJHcUdBZjJxN1Y3VUZMRWVlZUd5NDJnNDRHWWtvdjFrZ3BWel9peWtadVBHamxWY2ZiUG9YZEduM1FOd3c1cjBLZU9aQ2YxWnBVY01uNWhvbmR1MzlVdm0yNzNVQndYblk1bw?oc=5",
+   "published": "2026-10-16T17:00+00:00",
+   "published_jst": "2026-10-17 02:00",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "1f9b468e8642",
@@ -1121,7 +1135,9 @@
    "published": "2026-10-16T11:45+00:00",
    "published_jst": "2026-10-16 20:45",
    "summary": "A worker at a Higgins Homes site has described the moment he tried to stop a pallet of bricks hitting a scaffolding pole before it fell to the ground, killing a pedestrian. Christian Okonkwo, a self-employed slinger, who was working for subcontractor DWG Brickwork, escaped… The post Higgins Homes tr",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Higgins Homesの裁判、レンガ落下で母親死亡の瞬間を証言",
+   "summary_ja": "Higgins Homesの現場作業員が、足場に当たり落下して歩行者を死なせたレンガのパレットを止めようとした緊迫の瞬間を陪審員に証言した。"
   },
   {
    "id": "f6d16190d561",
@@ -1134,7 +1150,9 @@
    "published": "2026-10-16T11:45+00:00",
    "published_jst": "2026-10-16 20:45",
    "summary": "Specialist fit-out and refurbishment contractor Faithdean has reported an 8 per cent fall in annual profit despite seeing its turnover rise by nearly a quarter. The Kent-headquartered firm recorded a pre-tax profit of £4.5m in the year to 31 March 2026, compared with £4.9m the… The post Faithdean se",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Faithdean、売上高増加も利益は減少を記録",
+   "summary_ja": "内装・改修専門の建設会社Faithdeanは、売上高が約4分の1増加したにもかかわらず、年間利益は8パーセント減少したと発表した。"
   },
   {
    "id": "974da333de6e",
@@ -1147,7 +1165,9 @@
    "published": "2026-10-16T11:45+00:00",
    "published_jst": "2026-10-16 20:45",
    "summary": "Northern Irish contractor Farrans Construction fell into the red last year after “challenging market conditions” and heavier provisions hit the company’s bottom line, newly released annual accounts show. Farrans – which was acquired by Sisk last November – reported a pre-tax loss of £36.2m in… The p",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Farrans、買収前の最終年度に赤字転落",
+   "summary_ja": "北アイルランドの建設会社Farrans Constructionは、市場環境の悪化や引当金の増加により、昨年度は赤字に転落したことが明らかになった。"
   },
   {
    "id": "147e8ea12662",
@@ -1160,7 +1180,9 @@
    "published": "2026-10-16T11:45+00:00",
    "published_jst": "2026-10-16 20:45",
    "summary": "A shortage of mechanical and electrical (M&E) contractors is affecting project delivery and productivity as specialists are being called in to lead on data centre schemes, a new survey has found. Four in 10 respondents to Gleeds’ latest quarterly market survey said that of all… The post Survey ident",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "調査で判明、データ中心需要でM&E分野の人手不足が深刻化",
+   "summary_ja": "データセンター案件に専門家が集中する中、機械・電気工事業者の不足がプロジェクトの納期や生産性に影響を与えていることが調査で判明した。"
   },
   {
    "id": "9ef297cd33e8",
@@ -1173,7 +1195,9 @@
    "published": "2026-10-16T11:37+00:00",
    "published_jst": "2026-10-16 20:37",
    "summary": "Guy's and St Thomas' NHS Foundation Trust has begun seeking a long-term construction partner for a £30m programme to refurbish wards across five London hospitals. The trust wants a procurement arrangement that could provide contractors with a continuous pipeline of work, potentially including a perm",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "NHSトラスト、3000万ポンドの病院改修で長期パートナーを募集",
+   "summary_ja": "ロンドン市内の5つの病院で病棟改修を行う3000万ポンドの計画に向け、長期的な建設パートナーの調達手続きを開始した。"
   },
   {
    "id": "0fbb404d44a7",
@@ -1186,7 +1210,9 @@
    "published": "2026-10-16T11:13+00:00",
    "published_jst": "2026-10-16 20:13",
    "summary": "Five councils in south-west Wales have launched a tender for a civil engineering framework worth an estimated £800m over four years. Carmarthenshire County Council is leading the procurement alongside Ceredigion, Neath Port Talbot, Pembrokeshire and Swansea councils. The South West Wales Regional Ci",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ウェールズの自治体、8億ポンド規模の土木フレームワーク入札開始",
+   "summary_ja": "ウェールズ南西部の5つの自治体が、4年間で約8億ポンド相当の土木工学フレームワークの入札を開始した。"
   },
   {
    "id": "659fc0da6701",
@@ -1199,74 +1225,9 @@
    "published": "2026-10-16T11:11+00:00",
    "published_jst": "2026-10-16 20:11",
    "summary": "Matt Partridge is head of product development at Armorgard UK Last year, UK fire brigades attended 1,760 lithium-ion battery fires, according to data gathered by global business insurer QBE. That's one callout roughly every five hours, leading the London Fire Brigade to name it the… The post Hot bat",
-   "ai_related": false
-  },
-  {
-   "id": "c1bc6801a230",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "アリババクラウド幹部が断言：AIインフラ投資ブームは少なくともあと5年継続、「算電協同」が重要命題に",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kcGJIVWpLNm85X08xMVZHdDRocVFYd2d2S2NwUXY3SmlZMnF1OWduVXNsOE9kYUYxY28zSmVhU0pMcF9XcWNxZ3VFYndNYkRJakV3ckpza2pHNzhLYTVTemVRaE10ZTNlSldfQmdZT29XYTkz?oc=5",
-   "published": "2026-10-16T10:55+00:00",
-   "published_jst": "2026-10-16 19:55",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "0f0e13ae1f6e",
-   "source": "朝日放送",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業界の人手不足を支えるロボット・ＡＩ技術を展示 兵庫・尼崎市で「タカミヤフェア２０２６」",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LTlk0dmNCV3VSRl9NTURWLTJQVm1kejdzbVFCQkdKeC1YUDZmM19XUlZMSGRBQ2duMlJUUVNFVmkwcWpIYk1ta0c2endGSUtna0JyTTQ1LThYNTBKMzlNQkV3?oc=5",
-   "published": "2026-10-16T10:04+00:00",
-   "published_jst": "2026-10-16 19:04",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "bbd2e31b3cb8",
-   "source": "科学技術振興機構（JST）",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "KITの新たなAIデータセンターを建設｜海外記事検索｜研究開発戦略センター（CRDS）",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iQV9lb2VOQ091c19idlhnU1N3VVNUaVhfSVUwcGRHQlJMU2tTRkdqVkFVaG9ic0ZpT1NaVFYtUUJJcUpYeWJ1TGgtUTYzRmtVakNSelhMVG5IT1RpRnVZZWdTOVM?oc=5",
-   "published": "2026-10-16T10:03+00:00",
-   "published_jst": "2026-10-16 19:03",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "21565a4f409e",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "自然言語で危険をAI検知、ジザイエが過酷な現場向けLTE搭載カメラ発売：現場管理",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzV19vdk9xbFlKSVhHeVVDeEVSaE9vODdJWDJ3akZmTmZVMEFvN2dYS0xTYWp0Z1N6NHdJS3c0R25zaDNyNUlZY2VnWE9YRC1CMWU2VGZKdnZxdkR2aENrR2FPWnZsdXdMUlJSWg?oc=5",
-   "published": "2026-10-16T10:00+00:00",
-   "published_jst": "2026-10-16 19:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "2e8cd5faf76a",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Obex puts Through-Wall System on show",
-   "url": "https://www.constructionenquirer.com/2026/10/16/obex-puts-through-wall-system-on-show/",
-   "published": "2026-10-16T09:59+00:00",
-   "published_jst": "2026-10-16 18:59",
-   "summary": "Sealing and protection specialists showcases product range",
    "ai_related": false,
-   "title_ja": "ObexがThrough-Wall Systemを展示",
-   "summary_ja": "シーリングと保護の専門企業Obexが、製品ラインナップを披露。"
+   "title_ja": "リチウムイオン電池の火災リスク、現場での対策が急務",
+   "summary_ja": "昨年の英国でのリチウムイオン電池関連の火災出動件数は1,760件に上り、現場での安全リスクに対する深刻な認識不足が指摘されている。"
   }
  ]
 }
