@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-18T15:50+00:00",
- "generated_at_jst": "2026-10-19 00:50",
+ "generated_at": "2026-10-18T16:34+00:00",
+ "generated_at_jst": "2026-10-19 01:34",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 26,
-  "ai_global": 29,
+  "ai_global": 27,
+  "construction_japan": 24,
   "ai_japan": 5,
-  "construction_global": 4
+  "construction_global": 3
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -19,6 +23,32 @@
   }
  ],
  "items": [
+  {
+   "id": "6a083a36de89",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+   "published": "2026-10-18T16:30+00:00",
+   "published_jst": "2026-10-19 01:30",
+   "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to ",
+   "ai_related": true
+  },
+  {
+   "id": "c82b8eb2cf96",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic gives outside AI watchdog “employee-like” access",
+   "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+   "published": "2026-10-18T16:25+00:00",
+   "published_jst": "2026-10-19 01:25",
+   "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+   "ai_related": true
+  },
   {
    "id": "6210033fbbbd",
    "source": "조선일보",
@@ -158,23 +188,10 @@
    "url": "https://sphinx-six-theta.vercel.app/",
    "published": "2026-10-18T04:33+00:00",
    "published_jst": "2026-10-18 13:33",
-   "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 201 # Comments: 62",
+   "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 208 # Comments: 68",
    "ai_related": true,
    "title_ja": "AIのコードを本番前に理解度テストするフック「Sphinx」",
    "summary_ja": "コーディングエージェントのワークフローに組み込み、本番プッシュ時にAIが生成したコードの理解度を小テストで確認するオープンソースツール。"
-  },
-  {
-   "id": "f59cb209b658",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "安心計画と九州産業大学、住宅提案DX講習会を10月28日に開催へ",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBxN2pENWxDcXB5Zl9XcnZ1SW5CS2RvWUl1anA4YlVhUUdsZ3pLb0hwV1AwYjFkM2x1cEJuYUZqZ1hFaDFlWUE?oc=5",
-   "published": "2026-10-18T04:30+00:00",
-   "published_jst": "2026-10-18 13:30",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "52291f13ec77",
@@ -487,21 +504,6 @@
    "ai_related": false
   },
   {
-   "id": "9b13d6a721a0",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "DeepSeek-v4.1-Flash-1017",
-   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-   "published": "2026-10-17T08:21+00:00",
-   "published_jst": "2026-10-17 17:21",
-   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 918 # Comments: 680",
-   "ai_related": true,
-   "title_ja": "DeepSeek-v4.1-Flash-1017がリリース",
-   "summary_ja": "DeepSeekの新しいモデル「DeepSeek-v4.1-Flash-1017」のAPIドキュメントおよびOpenRouterのページが公開された。"
-  },
-  {
    "id": "a72c1b7a18b4",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -580,19 +582,6 @@
    "ai_related": false
   },
   {
-   "id": "1c04987554dc",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設DX、注目政策一気見せ",
-   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPU25ueHVkWUcwTWVSMkZmYURONzZ0bFZjdERnN3dwRWxIRGl0WXJrUlh1b015UzRfYko1MTRySVV0LUVNWE1TM2lfWTBPQUF5SWRMXzdHd2xsNG82Rkw3VUMyZmVqZ1RRd1piT1hUWkJZN0NVZ1pma0h6VUp6VzVzdUtUWGJEZ2FpdmZGWno2Q0ppSFkwajFYM1FjZ3YtUzlHRlB4QXZGeEJ4YnptV01xMUI3QmU4NmdVdzdsTHNXa2RvTVRpMW80NFFJcGNwcEprWGhJZmxRM2ZQaTlrT0c4QWRrVTVFdDJTb1c5aFlQUjZXZFg3OS1CRDVfclZQMER1b1l1U2xoaklaTUs2YTRILXdaaDJVeEluSWstVmc4eDl1UlRpRGc?oc=5",
-   "published": "2026-10-17T02:40+00:00",
-   "published_jst": "2026-10-17 11:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "72554acdef92",
    "source": "Vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
@@ -604,6 +593,19 @@
    "published_jst": "2026-10-17 11:19",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "13cfab4f653b",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "CoreWeave株急落、AIトレードの亀裂、Anthropic IPOの危険信号、ビル・ゲイツの終末論",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fZW9NTVNmeElfbjVKTTZVYmZFZDBlUjB2eWx5ZDFuN3BwMzBMLVFHZDVodmN0LTNjMnBqWWx3NVppRzY4cUc0XzBQVFE3MmxjQ2dIQ1Nlc2F3aVI4dWc?oc=5",
+   "published": "2026-10-17T02:03+00:00",
+   "published_jst": "2026-10-17 11:03",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "d3ac4d02ed2c",
@@ -632,26 +634,13 @@
    "ai_related": false
   },
   {
-   "id": "83213512d374",
-   "source": "Dellows News",
+   "id": "f6d1cf1fcb58",
+   "source": "Infoseek",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "スペースデータ、建設現場を想定したRobotBrainの屋外デモ映像を公開",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4yU05HZTNkQmc2SDRZWDZwTGg0b3R5b0xEdVVDQUxUUTd6V1hvZENLUVZIbndGM3JaOUljUmh5a3hZa1lNSkE?oc=5",
-   "published": "2026-10-16T23:22+00:00",
-   "published_jst": "2026-10-17 08:22",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "f3c2c68b3c05",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "半導体の新工場「最大3.3兆円」で米NYに建設 東京エレやルネサスが関与、日本企業が狙う商機は？",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6U1BkU2RFMkhmcGxGZ2FQQVBLVGt2YzdJc0RPS1FpajFIVWU1THQtX3dQdU45V3dHQmRjT0FpRXNyWFFmb0hDdmlFUm1iR1BRUVVabFl3VXYtaGNUU1FsNmtXZDF6UWhDTG5MTC0zdERkQkNmR0k3MWZJeEljUmc?oc=5",
+   "title": "半導体の新工場「最大3.3兆円」で米NYに建設 東京エレやルネサスが関与、日本企業が狙う商機は？｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PRHEwc1dRanR6NjQyV3kxVnY0VHhJanpTa2JtTkF1NnQ3aTZvMmdRaF84b0t1ODlSRUFzSWg3dmIySmhUbElhSDNKMnV5RHdKdUI2V3B4amRLYkdCTEZ4cXloOVp3RlEySWJ4T3VRejNMaTdl?oc=5",
    "published": "2026-10-16T23:00+00:00",
    "published_jst": "2026-10-17 08:00",
    "summary": "",
@@ -856,66 +845,6 @@
    "published_jst": "2026-10-17 02:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "1f9b468e8642",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-   "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-   "published": "2026-10-16T16:30+00:00",
-   "published_jst": "2026-10-17 01:30",
-   "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who beli",
-   "ai_related": true,
-   "title_ja": "ロボット工学のChatGPTモーメントはなぜまだなのか",
-   "summary_ja": "元NVIDIA担当者が、現在のロボット工学は「レゴ時代」であると語ります。"
-  },
-  {
-   "id": "3ee888866ef9",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-   "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-   "published": "2026-10-16T16:30+00:00",
-   "published_jst": "2026-10-17 01:30",
-   "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who beli",
-   "ai_related": true,
-   "title_ja": "物理AIはロボットだけではない、元NVIDIA幹部が指摘",
-   "summary_ja": "アクチュエータやソフトウェアなどの基本構成要素が、現在の発展を支えています。"
-  },
-  {
-   "id": "6f0ec75f9d13",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Elorian’s first AI model wants to reason with images, not just about them",
-   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-   "published": "2026-10-16T16:01+00:00",
-   "published_jst": "2026-10-17 01:01",
-   "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-   "ai_related": true,
-   "title_ja": "画像と「対話」するElorianの新しいAIモデル",
-   "summary_ja": "科学的チャートの推論などで高い性能を発揮し、他の視覚タスクでも競争力を示しています。"
-  },
-  {
-   "id": "2712a0119f59",
-   "source": "ConstructConnect Blog",
-   "source_id": "constructconnect",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Introducing Material Intelligence in ConstructConnect® Project Intelligence: Find Projects by Material Quantities",
-   "url": "https://www.constructconnect.com/blog/introducing-material-intelligence-in-constructconnect-project-intelligence",
-   "published": "2026-10-16T15:57+00:00",
-   "published_jst": "2026-10-17 00:57",
-   "summary": "In short: Material Intelligence is the new capability in ConstructConnect® Project Intelligence , currently in beta, that helps you find projects by the quantities of the materials your team cares about, surfaced directly from project plans. Three new search filters let you narrow down projects base",
-   "ai_related": false,
-   "title_ja": "建設プロジェクトを資材数量から検索可能に",
-   "summary_ja": "必要な資材の数量に基づいて関連プロジェクトを直接見つけられる新機能がベータ版で登場しました。"
   }
  ]
 }
