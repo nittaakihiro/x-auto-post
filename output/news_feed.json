@@ -1,25 +1,16 @@
 {
- "generated_at": "2026-10-18T19:26+00:00",
- "generated_at_jst": "2026-10-19 04:26",
+ "generated_at": "2026-10-18T19:42+00:00",
+ "generated_at_jst": "2026-10-19 04:42",
  "window_hours": 48,
  "counts": {
-  "ai_global": 15,
-  "construction_japan": 24,
-  "ai_japan": 5,
-  "construction_global": 2
+  "ai_global": 25,
+  "construction_japan": 25,
+  "ai_japan": 5
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "the_decoder",
-   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   },
   {
    "feed": "constructionexec",
@@ -86,6 +77,45 @@
    "ai_related": false
   },
   {
+   "id": "4e4e21d9b12d",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+   "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+   "published": "2026-10-18T13:22+00:00",
+   "published_jst": "2026-10-18 22:22",
+   "summary": "Anthropic is hiring fewer and fewer junior staff in technical roles. The share of junior positions among new hires dropped from 27 to 9 percent since early 2025. By August 2026, AI agents across the company were already logging six times as many hours as humans. Researchers warn of a \"tragedy of the",
+   "ai_related": true
+  },
+  {
+   "id": "a94357946a0f",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+   "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+   "published": "2026-10-18T12:39+00:00",
+   "published_jst": "2026-10-18 21:39",
+   "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 ti",
+   "ai_related": true
+  },
+  {
+   "id": "04f9dcaeeab2",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Two German courts now hold Google liable for what its AI overviews say",
+   "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+   "published": "2026-10-18T10:52+00:00",
+   "published_jst": "2026-10-18 19:52",
+   "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually invo",
+   "ai_related": true
+  },
+  {
    "id": "899b5cc5f3c3",
    "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_ai",
@@ -97,6 +127,58 @@
    "published_jst": "2026-10-18 19:50",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "18feec813d0e",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
+   "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+   "published": "2026-10-18T09:11+00:00",
+   "published_jst": "2026-10-18 18:11",
+   "summary": "Anthropic is consulting with law firms to develop negotiation norms for AI agents that would haggle over prices, resolve complaints, or improve contracts on behalf of users. The company is also hiring lawyers and humanities scholars as \"Conceptual Reasoning Fellows\" to improve Claude in areas where ",
+   "ai_related": true
+  },
+  {
+   "id": "0624378cc540",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
+   "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+   "published": "2026-10-18T08:49+00:00",
+   "published_jst": "2026-10-18 17:49",
+   "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help. The article AI agents have bad taste in long-term de",
+   "ai_related": true
+  },
+  {
+   "id": "23fb46a61226",
+   "source": "Traders Union",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米国AIデータセンターの急拡大、資金調達難と建設の壁に直面",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUzNJVkk1cmhaZTI3ZGVmaFVZYXFTWG9ZX2VGejJJTUtwc1dLanZFOXJEbzlxcGxFTHpKMG1KMGJzb0k2dU12emY1ejNNaWRrZXNEVERSS2xfTlUtbmljc0JsYlZUX1Jya1dBendoZ3RYSDBqcjhDUE53RGQtU3FKQzZrNFlKUjlvbnpCQWVsVmkzWnM3MGc?oc=5",
+   "published": "2026-10-18T08:18+00:00",
+   "published_jst": "2026-10-18 17:18",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "dea88befdb7c",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office",
+   "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+   "published": "2026-10-18T08:15+00:00",
+   "published_jst": "2026-10-18 17:15",
+   "summary": "Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secure",
+   "ai_related": true
   },
   {
    "id": "0769c38c1e80",
@@ -125,6 +207,32 @@
    "ai_related": true,
    "title_ja": "AIのコードを本番前に理解度テストするフック「Sphinx」",
    "summary_ja": "コーディングエージェントのワークフローに組み込み、本番プッシュ時にAIが生成したコードの理解度を小テストで確認するオープンソースツール。"
+  },
+  {
+   "id": "f59cb209b658",
+   "source": "Dellows News",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "安心計画と九州産業大学、住宅提案DX講習会を10月28日に開催へ",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBxN2pENWxDcXB5Zl9XcnZ1SW5CS2RvWUl1anA4YlVhUUdsZ3pLb0hwV1AwYjFkM2x1cEJuYUZqZ1hFaDFlWUE?oc=5",
+   "published": "2026-10-18T04:30+00:00",
+   "published_jst": "2026-10-18 13:30",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "dc9bbbead43e",
+   "source": "Unisba Media",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【最新インタビュー】イーロン・マスク「宇宙にAIデータセンターを建設する！」スペースXが明かす驚異の計画とは？ Kaiser Drive Vaughan (WYWILMsmuc)",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWkhwZUxDS3VDSkZGRENXNWpoLXY5YmdNcmNIMWFqYjZlV3Y0NU5xdEtpY2Q2VVBCX2RPLVB5bVBPd09mMGVhS0U5Q0JSODRkb3NrN2d3X01OWVh0b3pHa3Q5VkctZmVNeWFrbkR0MUllTkI0dWVxYkpWb1VtS0VxYnpRSQ?oc=5",
+   "published": "2026-10-18T04:12+00:00",
+   "published_jst": "2026-10-18 13:12",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "52291f13ec77",
@@ -280,6 +388,19 @@
    "summary_ja": "マサドCEOは、OpenAIがデフォルトのプロバイダーになると明言。Claudeも引き続きプラットフォームで利用可能。"
   },
   {
+   "id": "4d539dfb6b75",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
+   "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
+   "published": "2026-10-17T15:36+00:00",
+   "published_jst": "2026-10-18 00:36",
+   "summary": "OpenAI has published four new cases where its AI models bypassed security boundaries on their own during training or testing. In one case, a model extracted server passwords from a government website, forged authorization tokens, and downloaded 24 years of hospital data without mentioning the unauth",
+   "ai_related": true
+  },
+  {
    "id": "4890555104a6",
    "source": "Dellows News",
    "source_id": "gnews_kensetsu_ai",
@@ -306,6 +427,19 @@
    "ai_related": true,
    "title_ja": "Meta、ニュースサイトのスクレイピングを匂わせる規約を削除",
    "summary_ja": "批判を受け、MetaはAI訓練のためにニュースサイト等からコンテンツをスクレイピングできると解釈される規約文言を削除した。"
+  },
+  {
+   "id": "161e6aee4130",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+   "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
+   "published": "2026-10-17T14:42+00:00",
+   "published_jst": "2026-10-17 23:42",
+   "summary": "Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the ",
+   "ai_related": true
   },
   {
    "id": "d6c06ffc09a8",
@@ -349,6 +483,32 @@
    "published_jst": "2026-10-17 20:33",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "c0d18938afe4",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+   "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+   "published": "2026-10-17T10:33+00:00",
+   "published_jst": "2026-10-17 19:33",
+   "summary": "Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in too",
+   "ai_related": true
+  },
+  {
+   "id": "98c3066343cd",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
+   "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+   "published": "2026-10-17T09:54+00:00",
+   "published_jst": "2026-10-17 18:54",
+   "summary": "AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The article AI models hide mistakes in their own work reports, but one sentence in your p",
+   "ai_related": true
   },
   {
    "id": "791c45e495e3",
@@ -455,19 +615,6 @@
    "ai_related": false
   },
   {
-   "id": "1c04987554dc",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設DX、注目政策一気見せ",
-   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPU25ueHVkWUcwTWVSMkZmYURONzZ0bFZjdERnN3dwRWxIRGl0WXJrUlh1b015UzRfYko1MTRySVV0LUVNWE1TM2lfWTBPQUF5SWRMXzdHd2xsNG82Rkw3VUMyZmVqZ1RRd1piT1hUWkJZN0NVZ1pma0h6VUp6VzVzdUtUWGJEZ2FpdmZGWno2Q0ppSFkwajFYM1FjZ3YtUzlHRlB4QXZGeEJ4YnptV01xMUI3QmU4NmdVdzdsTHNXa2RvTVRpMW80NFFJcGNwcEprWGhJZmxRM2ZQaTlrT0c4QWRrVTVFdDJTb1c5aFlQUjZXZFg3OS1CRDVfclZQMER1b1l1U2xoaklaTUs2YTRILXdaaDJVeEluSWstVmc4eDl1UlRpRGc?oc=5",
-   "published": "2026-10-17T02:40+00:00",
-   "published_jst": "2026-10-17 11:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "72554acdef92",
    "source": "Vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
@@ -479,19 +626,6 @@
    "published_jst": "2026-10-17 11:19",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "13cfab4f653b",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "CoreWeave株急落、AIトレードの亀裂、Anthropic IPOの危険信号、ビル・ゲイツの終末論",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fZW9NTVNmeElfbjVKTTZVYmZFZDBlUjB2eWx5ZDFuN3BwMzBMLVFHZDVodmN0LTNjMnBqWWx3NVppRzY4cUc0XzBQVFE3MmxjQ2dIQ1Nlc2F3aVI4dWc?oc=5",
-   "published": "2026-10-17T02:03+00:00",
-   "published_jst": "2026-10-17 11:03",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "d3ac4d02ed2c",
@@ -520,17 +654,17 @@
    "ai_related": false
   },
   {
-   "id": "83213512d374",
-   "source": "Dellows News",
+   "id": "a435a4090a6d",
+   "source": "マイナビニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "スペースデータ、建設現場を想定したRobotBrainの屋外デモ映像を公開",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4yU05HZTNkQmc2SDRZWDZwTGg0b3R5b0xEdVVDQUxUUTd6V1hvZENLUVZIbndGM3JaOUljUmh5a3hZa1lNSkE?oc=5",
-   "published": "2026-10-16T23:22+00:00",
-   "published_jst": "2026-10-17 08:22",
+   "title": "世界で300mm半導体工場の建設相次ぐ、装置投資は2029年に2270億ドルへ SEMI予測",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12dHh5Q2lzVlptM09nSWx4TExvajVFMWFNMnRibjQzbGFrTFpYMWJEczFaX1pSZTN3V0pMVEFnVjBPNEMzTHoyMDBWS2dFT2FxZHFvaDNXMlNZUXYyeGZ6VWY1X1FIa1dt?oc=5",
+   "published": "2026-10-16T23:30+00:00",
+   "published_jst": "2026-10-17 08:30",
    "summary": "",
-   "ai_related": true
+   "ai_related": false
   },
   {
    "id": "f6d1cf1fcb58",
@@ -628,36 +762,6 @@
    "ai_related": true,
    "title_ja": "AIで児童性的虐待素材を作成した検察官が逮捕",
    "summary_ja": "Discordユーザーの通報がきっかけとなり、州検察官の逮捕につながった。"
-  },
-  {
-   "id": "0a6829425c8c",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Flintco-Mortenson JV begins concrete deck at $900M Oklahoma City NBA arena",
-   "url": "https://www.constructiondive.com/news/flintco-mortenson-jv-concrete-oklahoma-city-nba-arena/833271/",
-   "published": "2026-10-16T19:39+00:00",
-   "published_jst": "2026-10-17 04:39",
-   "summary": "The construction team on the future home of the Oklahoma City Thunder also started work on the loading dock walls on the east side of the venue.a",
-   "ai_related": false,
-   "title_ja": "オクラホマシティの新アリーナでコンクリート床の工事開始",
-   "summary_ja": "NBAサンダーの本拠地となる新会場で、建設チームが東側の荷卸し場壁面の作業も開始した。"
-  },
-  {
-   "id": "21f3ee747e68",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "13-year, $2B NYC bridge rehab completes 8th of 11 projects",
-   "url": "https://www.constructiondive.com/news/nyc-george-washington-bridge-rehab-completes-8th-11-projects/833265/",
-   "published": "2026-10-16T19:30+00:00",
-   "published_jst": "2026-10-17 04:30",
-   "summary": "Skanska’s $452 million contract to replace the bridge’s 592 suspender ropes included the 1.5-mile pedestrian pathway rebuild.",
-   "ai_related": false,
-   "title_ja": "ニューヨーク市の橋梁改修、13年・20億ドル規模のプロジェクトが8つ目完了",
-   "summary_ja": "592本の吊りロープ交換や1.5マイルの歩道再構築が含まれる。"
   }
  ]
 }
