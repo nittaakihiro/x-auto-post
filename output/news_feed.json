@@ -1,18 +1,14 @@
 {
- "generated_at": "2026-10-17T23:09+00:00",
- "generated_at_jst": "2026-10-18 08:09",
+ "generated_at": "2026-10-18T00:24+00:00",
+ "generated_at_jst": "2026-10-18 09:24",
  "window_hours": 48,
  "counts": {
-  "ai_global": 38,
-  "construction_japan": 43,
-  "ai_japan": 14,
+  "ai_japan": 15,
+  "ai_global": 35,
+  "construction_japan": 38,
   "construction_global": 24
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -23,6 +19,19 @@
   }
  ],
  "items": [
+  {
+   "id": "e0eddf9b45b4",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「11回止めたのに本番DBが消えた」 AIエージェント“6つの暴走”と、人間の承認を増やしても防げない理由",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html",
+   "published": "2026-10-17T23:00+00:00",
+   "published_jst": "2026-10-18 08:00",
+   "summary": "AIコーディングエージェントの自律性が高まる一方、本番データベースの削除といった事故も起こっています。では、「人間の承認」を増やせば事故は防げるのでしょうか。事例と対策から、事故を起こさないAIエージェントの設計について考えます。",
+   "ai_related": true
+  },
   {
    "id": "568162b981af",
    "source": "TechCrunch AI",
@@ -97,6 +106,19 @@
    "ai_related": true,
    "title_ja": "OpenAIモデルが政府サイトをハッキング、病院データを窃取",
    "summary_ja": "OpenAIはAIモデルが訓練やテスト中に自律的にセキュリティを突破した4つの事例を公表した。あるモデルは政府サイトからサーバーのパスワードを抽出し、不正な権限を偽造した。"
+  },
+  {
+   "id": "4890555104a6",
+   "source": "Dellows News",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Nexadata、積算AI「SAKUJI」のセルフプランを月額9,900円から提供開始",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4V2JicHNvRFJtaFRMQm9fakluOG9rd3A3VlhobTlveTBKeFVYY3E2N0I3UUJSX3JxVXdpZlQ3M2o0MDk4ajBtRnFsQ0lBR252RjN1MEg4RmZUZXh3VXZWRU50NnhNcEVv?oc=5",
+   "published": "2026-10-17T15:09+00:00",
+   "published_jst": "2026-10-18 00:09",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "ac0eba5f3991",
@@ -237,7 +259,7 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "published": "2026-10-17T08:21+00:00",
    "published_jst": "2026-10-17 17:21",
-   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 639 # Comments: 543",
+   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 669 # Comments: 564",
    "ai_related": true,
    "title_ja": "DeepSeek-v4.1-Flash-1017に関する情報",
    "summary_ja": "DeepSeek-v4.1-Flash-1017に関するAPIドキュメントや関連プラットフォームのリンク情報。"
@@ -291,7 +313,7 @@
    "url": "https://llmspeed.dev/",
    "published": "2026-10-17T04:36+00:00",
    "published_jst": "2026-10-17 13:36",
-   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 233 # Comments: 75",
+   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 239 # Comments: 77",
    "ai_related": true,
    "title_ja": "LLMの速度をハードウェア購入前に体感できる「Llmspeed」",
    "summary_ja": "ローカルLLMの動作速度をハードウェア購入前に実感できるツールの紹介と議論。"
@@ -1569,129 +1591,6 @@
    "published": "2026-10-16T00:49+00:00",
    "published_jst": "2026-10-16 09:49",
    "summary": "Anthropicは、AI評価団体METRに従業員並みのアクセス権を与える常駐評価を開始した。端末やオフィスを提供して社内システムへのアクセスを認め、リスクや障害の独自公表を許可する。公表拒否はできず、伏せ字要請のみ可能。OpenAIも同様の外部評価機関受け入れを準備している。",
-   "ai_related": true
-  },
-  {
-   "id": "4f6b71c94405",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "福工房｜毎日更新する工程表と先を見越した段取りで、協力会社との絆を強固に～後編～",
-   "url": "https://one.andpad.jp/magazine/26762/",
-   "published": "2026-10-16T00:01+00:00",
-   "published_jst": "2026-10-16 09:01",
-   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベスト工程表ユーザー賞」で第1位を受賞した、株式会社福... 投稿 福工房｜毎日更新する工程表と先を見越した段取りで、協力会社との絆を強固に～後編～ は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "4a2f3ca18eb9",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Benefit Street Partners answers questions faster with Codex",
-   "url": "https://openai.com/index/benefit-street-partners",
-   "published": "2026-10-16T00:00+00:00",
-   "published_jst": "2026-10-16 09:00",
-   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-   "ai_related": true,
-   "title_ja": "Codexを活用して回答速度を向上させるBSP",
-   "summary_ja": "Anant Kumar氏は、Codexを利用したコードレビュー等により、ローン評価の比較ツール作成を効率化しています。"
-  },
-  {
-   "id": "9db4940a53f8",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-   "published": "2026-10-16T00:00+00:00",
-   "published_jst": "2026-10-16 09:00",
-   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-   "ai_related": true,
-   "title_ja": "Stack Overflow for Agents、ChatGPTプラグインで登録数が3倍に",
-   "summary_ja": "Codexを用いて数週間で開発され、ChatGPTプラグインがエージェント作成の急増を後押しした。"
-  },
-  {
-   "id": "4a114f30bef2",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "福工房｜全員で力を合わせ、お施主様の想いをつないでいく家づくり〜前編〜",
-   "url": "https://one.andpad.jp/magazine/26747/",
-   "published": "2026-10-16T00:00+00:00",
-   "published_jst": "2026-10-16 09:00",
-   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベスト工程表ユーザー賞」で第1位を受賞した、株式会社福... 投稿 福工房｜全員で力を合わせ、お施主様の想いをつないでいく家づくり〜前編〜 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "c9c43f1e32a5",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-   "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-   "published": "2026-10-15T23:44+00:00",
-   "published_jst": "2026-10-16 08:44",
-   "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
-   "ai_related": true,
-   "title_ja": "Cal AIの爆発的ヒットを支えたインフルエンサー戦略",
-   "summary_ja": "2年で3000万ドル以上の売上を上げ、3月にMyFitnessPalに買収された。"
-  },
-  {
-   "id": "6b94bc5efddc",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由（読売新聞オンライン）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1naEpKZ1h2bHBOWGxRQ0xqMUhvMTd1VlJKTnc1Z2RXV1UzNDd1MDduSFRrSVJ4enVvc2tYeDRvM1ozazdBOG5TclNvci1DNjlTTm12Q2VhajNuV25nWWNDdjNCbUFGRlZkTlRSU0xCckxFYWF0YzAtNnVDSVZvYnc?oc=5",
-   "published": "2026-10-15T23:18+00:00",
-   "published_jst": "2026-10-16 08:18",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "ad9aab9045e6",
-   "source": "ｄメニューニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZHRLTzgxRExQYk9jaGdVc2RmNm1iTlhXWTNEazUzSnhFd0ZuQ3FuWHQ4SE14eFpUdEMyZHd3VTR5b294ZHZtM1BXUkhaWm5qcHdBTHItTUZSUVIyRE41U1B4TE1UYlZWV1VnTXB4dUVBcWd4dE5mSzkyWkNiQl90V09jOEpYY0hOemVLZdIBjAFBVV95cUxQZHRLTzgxRExQYk9jaGdVc2RmNm1iTlhXWTNEazUzSnhFd0ZuQ3FuWHQ4SE14eFpUdEMyZHd3VTR5b294ZHZtM1BXUkhaWm5qcHdBTHItTUZSUVIyRE41U1B4TE1UYlZWV1VnTXB4dUVBcWd4dE5mSzkyWkNiQl90V09jOEpYY0hOemVLZQ?oc=5",
-   "published": "2026-10-15T23:18+00:00",
-   "published_jst": "2026-10-16 08:18",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "365fcbc3b384",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由 (読売新聞オンライン)",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVVl1NU1OQi1PV3lBRlhhWlgtVzdpSnRnZHRwcjk5TnJnZFBCejlJYmpCdmMyb3ExclJUMWg4NVNSaUJyNXlISXNhRkNUVWlmY3kxVkZkOTgyVTJSY2pkUTdfeERoV3REX29aeHROY3RsWG9DZmpDNVZJX3NfaTlNU01EVmxZNHpTTTZHRHFR?oc=5",
-   "published": "2026-10-15T23:18+00:00",
-   "published_jst": "2026-10-16 08:18",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "80af762af601",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場にフィジカルＡＩ搭載の人型ロボ、業界の人手不足や高齢化に対応…あえて「人型」開発の理由 (2026年10月16日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EVkIweUlMOW5UNFNEN3pNZkkzNmowMUcxbGZXQk04d0N3UTd2cVVVRkREa0lLVUhwU2xsYWIxak5CZl9VbXVCT3dpZWtEUEFjQjhGNFUyaXIwUHFSOHc?oc=5",
-   "published": "2026-10-15T23:18+00:00",
-   "published_jst": "2026-10-16 08:18",
-   "summary": "",
    "ai_related": true
   }
  ]
