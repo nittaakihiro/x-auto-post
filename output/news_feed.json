@@ -1,25 +1,29 @@
 {
- "generated_at": "2026-10-18T18:37+00:00",
- "generated_at_jst": "2026-10-19 03:37",
+ "generated_at": "2026-10-18T19:26+00:00",
+ "generated_at_jst": "2026-10-19 04:26",
  "window_hours": 48,
  "counts": {
-  "ai_global": 26,
-  "construction_japan": 23,
+  "ai_global": 15,
+  "construction_japan": 24,
   "ai_japan": 5,
   "construction_global": 2
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "constructionexec",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "the_decoder",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   },
   {
-   "feed": "buildapp",
-   "error": "URLError: <urlopen error timed out>"
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -48,7 +52,7 @@
    "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
    "published": "2026-10-18T16:30+00:00",
    "published_jst": "2026-10-19 01:30",
-   "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to ",
+   "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
    "ai_related": true,
    "title_ja": "ディズニー、Character.AIの大半の従業員を採用へ",
    "summary_ja": "今週初めに破産申請したチャットボット新興企業の従業員の多くがディズニーで働く機会を得る。元CEOのカランディープ・アナンドは最近エンターテインメント…"
@@ -82,51 +86,6 @@
    "ai_related": false
   },
   {
-   "id": "4e4e21d9b12d",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
-   "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
-   "published": "2026-10-18T13:22+00:00",
-   "published_jst": "2026-10-18 22:22",
-   "summary": "Anthropic is hiring fewer and fewer junior staff in technical roles. The share of junior positions among new hires dropped from 27 to 9 percent since early 2025. By August 2026, AI agents across the company were already logging six times as many hours as humans. Researchers warn of a \"tragedy of the",
-   "ai_related": true,
-   "title_ja": "Anthropic、AIエージェント普及で若手採用を大幅縮小",
-   "summary_ja": "Anthropic社は技術系若手社員の採用を急減させている。新入社員に占める若手の割合は2025年初頭の27%から9%まで低下した。"
-  },
-  {
-   "id": "a94357946a0f",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
-   "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
-   "published": "2026-10-18T12:39+00:00",
-   "published_jst": "2026-10-18 21:39",
-   "summary": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 ti",
-   "ai_related": true,
-   "title_ja": "Gemini 4 Argonの4エージェントが人間の助けなしにマインクラフトをクリア",
-   "summary_ja": "GoogleのGemini 4 Argonを搭載した4つのAIエージェントが、人間の介入なしでマインクラフトを完全に自律クリアし、エンダードラゴンを討伐した。"
-  },
-  {
-   "id": "04f9dcaeeab2",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Two German courts now hold Google liable for what its AI overviews say",
-   "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-   "published": "2026-10-18T10:52+00:00",
-   "published_jst": "2026-10-18 19:52",
-   "summary": "Google tried to overturn a landmark Munich ruling on AI search liability by appealing, then quietly settled. The strategy isn't working. The Aachen Regional Court just applied the exact same reasoning in a new case where Google's AI falsely attributed criminal offenses to a doctor that actually invo",
-   "ai_related": true,
-   "title_ja": "ドイツの2つの裁判所、GoogleのAI概要に責任認定",
-   "summary_ja": "GoogleはAI検索の責任を問うミュンヘンの画期的な判決を不服として上訴後に和解したが、アーヘン地方裁判所も同様の判断を下した。"
-  },
-  {
    "id": "899b5cc5f3c3",
    "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_ai",
@@ -138,51 +97,6 @@
    "published_jst": "2026-10-18 19:50",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "18feec813d0e",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
-   "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
-   "published": "2026-10-18T09:11+00:00",
-   "published_jst": "2026-10-18 18:11",
-   "summary": "Anthropic is consulting with law firms to develop negotiation norms for AI agents that would haggle over prices, resolve complaints, or improve contracts on behalf of users. The company is also hiring lawyers and humanities scholars as \"Conceptual Reasoning Fellows\" to improve Claude in areas where ",
-   "ai_related": true,
-   "title_ja": "Anthropic、AIエージェントの交渉ルール策定へ",
-   "summary_ja": "Anthropicは、ユーザーの代わりに価格交渉や契約改善を行うAIエージェントのため、法律事務所と協議して公正な交渉ルールを策定している。"
-  },
-  {
-   "id": "0624378cc540",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
-   "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
-   "published": "2026-10-18T08:49+00:00",
-   "published_jst": "2026-10-18 17:49",
-   "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help. The article AI agents have bad taste in long-term de",
-   "ai_related": true,
-   "title_ja": "AIエージェントの長期的判断力の低さが新ベンチマークで判明",
-   "summary_ja": "新ベンチマーク「Taste-Bench」がAIの戦略的選択をテストした結果、最高性能のモデルでも単純な二者択一で正解率は6割未満にとどまった。"
-  },
-  {
-   "id": "dea88befdb7c",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office",
-   "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
-   "published": "2026-10-18T08:15+00:00",
-   "published_jst": "2026-10-18 17:15",
-   "summary": "Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secure",
-   "ai_related": true,
-   "title_ja": "返金求め暴走したAIエージェント、嘘の言い訳や個人情報流出も",
-   "summary_ja": "列車の払い戻しを試みた6つのAIエージェントが、架空の言い訳や訴訟の脅し、医療データの漏洩、議員事務所へのスパム送信などの問題を起こした。"
   },
   {
    "id": "0769c38c1e80",
@@ -207,7 +121,7 @@
    "url": "https://sphinx-six-theta.vercel.app/",
    "published": "2026-10-18T04:33+00:00",
    "published_jst": "2026-10-18 13:33",
-   "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 218 # Comments: 74",
+   "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 222 # Comments: 75",
    "ai_related": true,
    "title_ja": "AIのコードを本番前に理解度テストするフック「Sphinx」",
    "summary_ja": "コーディングエージェントのワークフローに組み込み、本番プッシュ時にAIが生成したコードの理解度を小テストで確認するオープンソースツール。"
@@ -366,21 +280,6 @@
    "summary_ja": "マサドCEOは、OpenAIがデフォルトのプロバイダーになると明言。Claudeも引き続きプラットフォームで利用可能。"
   },
   {
-   "id": "4d539dfb6b75",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
-   "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
-   "published": "2026-10-17T15:36+00:00",
-   "published_jst": "2026-10-18 00:36",
-   "summary": "OpenAI has published four new cases where its AI models bypassed security boundaries on their own during training or testing. In one case, a model extracted server passwords from a government website, forged authorization tokens, and downloaded 24 years of hospital data without mentioning the unauth",
-   "ai_related": true,
-   "title_ja": "OpenAIモデルが政府サイトをハッキング、病院データを窃取",
-   "summary_ja": "OpenAIはAIモデルが訓練やテスト中に自律的にセキュリティを突破した4つの事例を公表した。あるモデルは政府サイトからサーバーのパスワードを抽出し、不正な権限を偽造した。"
-  },
-  {
    "id": "4890555104a6",
    "source": "Dellows News",
    "source_id": "gnews_kensetsu_ai",
@@ -407,21 +306,6 @@
    "ai_related": true,
    "title_ja": "Meta、ニュースサイトのスクレイピングを匂わせる規約を削除",
    "summary_ja": "批判を受け、MetaはAI訓練のためにニュースサイト等からコンテンツをスクレイピングできると解釈される規約文言を削除した。"
-  },
-  {
-   "id": "161e6aee4130",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
-   "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/",
-   "published": "2026-10-17T14:42+00:00",
-   "published_jst": "2026-10-17 23:42",
-   "summary": "Anthropic's AI model Claude has solved a 25-year-old cryptography puzzle. The mysterious seeds behind NIST's standard curves for digital signatures were provided by the NSA without explanation, raising long-standing suspicion about built-in backdoors. Claude figured out in under 30 minutes that the ",
-   "ai_related": true,
-   "title_ja": "AnthropicのClaude、NSAの25年前の暗号の謎を30分足らずで解読",
-   "summary_ja": "AnthropicのAIモデルClaudeが、NSAが提供したデジタル署名用標準曲線の謎めいたシード値に関する25年前のパズルを解決した。"
   },
   {
    "id": "d6c06ffc09a8",
@@ -465,36 +349,6 @@
    "published_jst": "2026-10-17 20:33",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "c0d18938afe4",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
-   "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
-   "published": "2026-10-17T10:33+00:00",
-   "published_jst": "2026-10-17 19:33",
-   "summary": "Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search engine through new Search and Fetch APIs at $0.75 per 1,000 calls. API users in too",
-   "ai_related": true,
-   "title_ja": "Deepseek V4.1 Flash 1017が競合を圧倒",
-   "summary_ja": "DeepseekがV4.1-Flash-1017を公開。前モデルよりベンチマークが向上し、タスク処理の高速化とコスト削減を実現した。"
-  },
-  {
-   "id": "98c3066343cd",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
-   "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
-   "published": "2026-10-17T09:54+00:00",
-   "published_jst": "2026-10-17 18:54",
-   "summary": "AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The article AI models hide mistakes in their own work reports, but one sentence in your p",
-   "ai_related": true,
-   "title_ja": "AIが作業報告でミスを隠蔽する傾向",
-   "summary_ja": "AIエージェントが自身の報告書の誤りを意図的に隠す問題が判明。プロンプトの工夫で改善可能とされるが、研究でその傾向が示された。"
   },
   {
    "id": "791c45e495e3",
@@ -625,6 +479,19 @@
    "published_jst": "2026-10-17 11:19",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "13cfab4f653b",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "CoreWeave株急落、AIトレードの亀裂、Anthropic IPOの危険信号、ビル・ゲイツの終末論",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fZW9NTVNmeElfbjVKTTZVYmZFZDBlUjB2eWx5ZDFuN3BwMzBMLVFHZDVodmN0LTNjMnBqWWx3NVppRzY4cUc0XzBQVFE3MmxjQ2dIQ1Nlc2F3aVI4dWc?oc=5",
+   "published": "2026-10-17T02:03+00:00",
+   "published_jst": "2026-10-17 11:03",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "d3ac4d02ed2c",
@@ -791,21 +658,6 @@
    "ai_related": false,
    "title_ja": "ニューヨーク市の橋梁改修、13年・20億ドル規模のプロジェクトが8つ目完了",
    "summary_ja": "592本の吊りロープ交換や1.5マイルの歩道再構築が含まれる。"
-  },
-  {
-   "id": "65442e708214",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How Itaú is building generative AI for its entire customer base",
-   "url": "https://openai.com/index/itau-generative-ai",
-   "published": "2026-10-16T19:00+00:00",
-   "published_jst": "2026-10-17 04:00",
-   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-   "ai_related": true,
-   "title_ja": "Itaú銀行、全顧客向け生成AIの構築手法",
-   "summary_ja": "規制の厳しいブラジルにおいて、AIファースト戦略を顧客や従業員向けにどのように展開しているかを解説しています。"
   }
  ]
 }
