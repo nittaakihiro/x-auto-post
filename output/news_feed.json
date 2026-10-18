@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-18T04:29+00:00",
- "generated_at_jst": "2026-10-18 13:29",
+ "generated_at": "2026-10-18T05:10+00:00",
+ "generated_at_jst": "2026-10-18 14:10",
  "window_hours": 48,
  "counts": {
   "ai_japan": 10,
-  "construction_japan": 29,
+  "construction_japan": 30,
   "ai_global": 37,
-  "construction_global": 24
+  "construction_global": 16
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -345,7 +345,7 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "published": "2026-10-17T08:21+00:00",
    "published_jst": "2026-10-17 17:21",
-   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 758 # Comments: 610",
+   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 769 # Comments: 614",
    "ai_related": true,
    "title_ja": "DeepSeek-v4.1-Flash-1017に関する情報",
    "summary_ja": "DeepSeek-v4.1-Flash-1017に関するAPIドキュメントや関連プラットフォームのリンク情報。"
@@ -399,7 +399,7 @@
    "url": "https://llmspeed.dev/",
    "published": "2026-10-17T04:36+00:00",
    "published_jst": "2026-10-17 13:36",
-   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 266 # Comments: 77",
+   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 267 # Comments: 78",
    "ai_related": true,
    "title_ja": "LLMの速度をハードウェア購入前に体感できる「Llmspeed」",
    "summary_ja": "ローカルLLMの動作速度をハードウェア購入前に実感できるツールの紹介と議論。"
@@ -414,6 +414,19 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTzNpOC1DWktobThZRURCS0h5Nml0VmJCWTJQZjB4ZnB2REtDZlhNTHdVMmRYTUZkM0dSSHp2ZUp2dmVzelk1SWRTSXJyZDNsdnZ4cFVoMzEyX0I2QWR5SlFjdk5tM3NYb0lhQTFaVENNSjFCYnZYaVBNVU5TbVJIQlJwOGpfRS1XaGdMcFlrcmw?oc=5",
    "published": "2026-10-17T04:20+00:00",
    "published_jst": "2026-10-17 13:20",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "72554acdef92",
+   "source": "Vietnam.vn",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ハノイの大気汚染削減：主要建設プロジェクトの100％が、技術を用いて粉塵レベルを監視している。",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM0NDRDV4VVA1VkVObjN4azNZSEt2UDBxSXhzeTJxekxJd2VsUWl4bHNEZE5FV0FwUzNJREZ4S3NvMUhNVE5WQ19LeEsxZjJTN3B6Yk44STJzb2hWeDg2clJSN1hSRWdPeG9zYUItUWFiU2lTd0RQT0U1VUtQWGVQU3FrbzRyNHg0ZWtNSXJhakd5eWY4cE9adWwyRWdnRTNIMHBsNHN6aw?oc=5",
+   "published": "2026-10-17T02:19+00:00",
+   "published_jst": "2026-10-17 11:19",
    "summary": "",
    "ai_related": false
   },
@@ -646,6 +659,19 @@
    "ai_related": false,
    "title_ja": "外観立面図の自動作成ツールが登場",
    "summary_ja": "白紙の状態から立面図の計画を始める手間を省く、自動化機能の紹介です。"
+  },
+  {
+   "id": "54197b15229b",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設ロボット、ただいま稼働中",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNa2pSUHNrLWY5Q3o4SHVpOTRBWXhuaWNXZ0lOWV9xVS1uclZFSUxvNFk0djdncnphcW9LQ0x0d2R1Wmd6dzFycmZfS25QWHZ2ZWZvTVJRal9IUXR6T09qSy15RU0wUXV3N3J2TFRVNHBoLVFJUi03OEp4WU1ndWZ4eFZjYVV1VGRmRXJHcUdBZjJxN1Y3VUZMRWVlZUd5NDJnNDRHWWtvdjFrZ3BWel9peWtadVBHamxWY2ZiUG9YZEduM1FOd3c1cjBLZU9aQ2YxWnBVY01uNWhvbmR1MzlVdm0yNzNVQndYblk1bw?oc=5",
+   "published": "2026-10-16T17:00+00:00",
+   "published_jst": "2026-10-17 02:00",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "1f9b468e8642",
@@ -974,111 +1000,6 @@
    "ai_related": true
   },
   {
-   "id": "e74a4b085853",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Higgins Homes trial: slinger tells jury of moment bricks fell, fatally injuring mum",
-   "url": "https://www.constructionnews.co.uk/legal/higgins-homes-trial-slinger-tells-jury-of-moment-bricks-fell-fatally-injuring-mum-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "A worker at a Higgins Homes site has described the moment he tried to stop a pallet of bricks hitting a scaffolding pole before it fell to the ground, killing a pedestrian. Christian Okonkwo, a self-employed slinger, who was working for subcontractor DWG Brickwork, escaped… The post Higgins Homes tr",
-   "ai_related": false,
-   "title_ja": "ヒギンズ・ホームズ裁判：レンガ落下で母親死亡、証人が証言",
-   "summary_ja": "足場に衝突したレンガパレットが落下して歩行者が死亡した事故について、作業員が裁判で当時の状況を説明した。"
-  },
-  {
-   "id": "f6d16190d561",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Faithdean sees profit dip despite jump in turnover",
-   "url": "https://www.constructionnews.co.uk/financial/faithdean-sees-profit-dip-despite-jump-in-turnover-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "Specialist fit-out and refurbishment contractor Faithdean has reported an 8 per cent fall in annual profit despite seeing its turnover rise by nearly a quarter. The Kent-headquartered firm recorded a pre-tax profit of £4.5m in the year to 31 March 2026, compared with £4.9m the… The post Faithdean se",
-   "ai_related": false,
-   "title_ja": "フェイスディーン、売上高増加も利益は減少",
-   "summary_ja": "専門改修業者のフェイスディーンは、売上高が約4分の一増加したものの、年間利益は8%減少したと発表した。"
-  },
-  {
-   "id": "974da333de6e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Farrans sank into loss in final year before acquisition",
-   "url": "https://www.constructionnews.co.uk/financial/farrans-sank-into-loss-in-final-year-before-acquisition-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "Northern Irish contractor Farrans Construction fell into the red last year after “challenging market conditions” and heavier provisions hit the company’s bottom line, newly released annual accounts show. Farrans – which was acquired by Sisk last November – reported a pre-tax loss of £36.2m in… The p",
-   "ai_related": false,
-   "title_ja": "ファランス、買収直前の最終年度に赤字転落",
-   "summary_ja": "厳しい市場環境と引当金の増加が響き、北アイルランドの建設業者ファランスは昨年赤字に転落した。"
-  },
-  {
-   "id": "147e8ea12662",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Survey identifies M&E labour shortages as data centres dominate",
-   "url": "https://www.constructionnews.co.uk/supply-chain/survey-identifies-me-labour-shortages-as-data-centres-dominate-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "A shortage of mechanical and electrical (M&E) contractors is affecting project delivery and productivity as specialists are being called in to lead on data centre schemes, a new survey has found. Four in 10 respondents to Gleeds’ latest quarterly market survey said that of all… The post Survey ident",
-   "ai_related": false,
-   "title_ja": "データセンター需要急増でM&E分野の人手不足が表面化",
-   "summary_ja": "データセンター案件に専門家が集中する中、機械・電気（M&E）工事業者の不足がプロジェクトの進捗に影響を与えている。"
-  },
-  {
-   "id": "9ef297cd33e8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "NHS trust seeks long-term contractor for £30m hospital upgrades",
-   "url": "https://www.constructionnews.co.uk/contracts/nhs-trust-seeks-long-term-contractor-for-30m-hospital-upgrades-16-10-2026/",
-   "published": "2026-10-16T11:37+00:00",
-   "published_jst": "2026-10-16 20:37",
-   "summary": "Guy's and St Thomas' NHS Foundation Trust has begun seeking a long-term construction partner for a £30m programme to refurbish wards across five London hospitals. The trust wants a procurement arrangement that could provide contractors with a continuous pipeline of work, potentially including a perm",
-   "ai_related": false,
-   "title_ja": "NHSトラスト、3000万ポンドの病院改修で長期パートナーを募集",
-   "summary_ja": "ロンドンの5つの病院で病棟を改修するため、長期的な建設パートナーの調達手続きを開始した。"
-  },
-  {
-   "id": "0fbb404d44a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Welsh councils launch £800m civils framework tender",
-   "url": "https://www.constructionnews.co.uk/civils/welsh-councils-launch-800m-civils-framework-tender-16-10-2026/",
-   "published": "2026-10-16T11:13+00:00",
-   "published_jst": "2026-10-16 20:13",
-   "summary": "Five councils in south-west Wales have launched a tender for a civil engineering framework worth an estimated £800m over four years. Carmarthenshire County Council is leading the procurement alongside Ceredigion, Neath Port Talbot, Pembrokeshire and Swansea councils. The South West Wales Regional Ci",
-   "ai_related": false,
-   "title_ja": "ウェールズの自治体、8億ポンド規模の土木フレームワーク調達を開始",
-   "summary_ja": "南西ウェールズの5つの自治体が、4年間で推定8億ポンド規模の土木事業フレームワークの入札を開始した。"
-  },
-  {
-   "id": "659fc0da6701",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Hot batteries, hotter sites: why the lithium-ion risk is not being taken seriously enough",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/hot-batteries-hotter-sites-why-the-lithium-ion-risk-is-not-being-taken-seriously-enough-16-10-2026/",
-   "published": "2026-10-16T11:11+00:00",
-   "published_jst": "2026-10-16 20:11",
-   "summary": "Matt Partridge is head of product development at Armorgard UK Last year, UK fire brigades attended 1,760 lithium-ion battery fires, according to data gathered by global business insurer QBE. That's one callout roughly every five hours, leading the London Fire Brigade to name it the… The post Hot bat",
-   "ai_related": false,
-   "title_ja": "リチウムイオン電池の火災リスク、深刻に受け止められていない実態",
-   "summary_ja": "昨年の英国での電池火災の多発を受け、リチウムイオン電池のリスクに対する危機意識の低さに警鐘を鳴らす。"
-  },
-  {
    "id": "0f0e13ae1f6e",
    "source": "朝日放送",
    "source_id": "gnews_kensetsu_ai",
@@ -1146,21 +1067,6 @@
    "ai_related": true
   },
   {
-   "id": "f67831df6cc6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Frameworks aid 15% profit boost in Willmott Dixon interims",
-   "url": "https://www.constructionnews.co.uk/financial/frameworks-aid-15-profit-boost-in-willmott-dixon-interims-16-10-2026/",
-   "published": "2026-10-16T09:22+00:00",
-   "published_jst": "2026-10-16 18:22",
-   "summary": "Willmott Dixon posted a 15 per cent profit increase for the first half of the year and secured most of its new work through frameworks, the contractor has said. The tier one firm saw its pre-tax profit rise to £11.5m from £10m in unaudited half-year… The post Frameworks aid 15% profit boost in Willm",
-   "ai_related": true,
-   "title_ja": "ウィルモット・ディクソン、フレームワーク活用で利益が15%増",
-   "summary_ja": "上半期の利益が15%増加したと発表。新規案件の大半をフレームワーク契約を通じて獲得したとしている。"
-  },
-  {
    "id": "dc6e55e3522f",
    "source": "ニッキンONLINE",
    "source_id": "gnews_kensetsu_ai",
@@ -1170,6 +1076,19 @@
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUl9sREt6SWRqVXVobVFFUGxRSmhNMWwxWjhmZ2s2NGhtNzVnUXFCanFSN3VFMFg1VUpPOFpIWk15eFVSS244a1NCTU51NmdvX2I3NTV3?oc=5",
    "published": "2026-10-16T09:21+00:00",
    "published_jst": "2026-10-16 18:21",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "fe617473d942",
+   "source": "ニュースメディアVOIX",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "現場Hub株式会社が「B Dash Camp 2026 Fall in Fukuoka」Pitch Arenaに登壇決定の知らせ",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oSUdSZFNfU1VfUmY1a3RnS2FaQzdlT0dkQ1RoOEZxbjVudHplX245ZXR3ekNsSWJoMVdhRkRFLU5iaF8weHZCODBocG8yLWlHakZWOHgzak5LU0U4VXIyU1h2dERUMlk?oc=5",
+   "published": "2026-10-16T09:05+00:00",
+   "published_jst": "2026-10-16 18:05",
    "summary": "",
    "ai_related": false
   },
@@ -1418,32 +1337,6 @@
    "published_jst": "2026-10-16 14:14",
    "summary": "Metaがオープンウェイトモデル「Muse Spark Open」を発表し、重みを公開。「米国製で過去最高性能」とうたい、M5 Ultra搭載のMac Studio 2台で動作するという。独自ライセンスで商用利用は条件付き。",
    "ai_related": true
-  },
-  {
-   "id": "372acdc4dc97",
-   "source": "日本経済新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設、米新興に出資 フィジカルAI搭載のヒト型ロボ開発",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51SjEtUXpIbWlXbk1WUmg3Z00xMGQzY3NxN2VzUjVvT1VGdGZUTllOWENieVlCeHl2bVo2ZUJFcU9Ba1lYYmM1S2ItSlpCMG8xQWJrczJ0enhTY3UyWlJ1bWlvN21VcjNoc0Zscg?oc=5",
-   "published": "2026-10-16T05:04+00:00",
-   "published_jst": "2026-10-16 14:04",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "73fc649dffd1",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "福岡県内で建設産業の魅力を発信。 AIには取られない、未来をつくる仕事へ。『100年後も残る仕事を選ぼう！～福岡県建設産業 合同企業説明会～』 | 株式会社アソウ・ヒューマニーセンターのプレスリリース",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14b1lGMVJFNU1OQjdtQWFneExyNmxfQllxeFdGWmdVSGhXczVVWXR4MFR2M0I4RDZQcHJaTGZJREo4MHVoejBMTUh4MmFvWFhWTW5uQVlsRFJjM0VKU0F3My1yQk5kUkJzeWc?oc=5",
-   "published": "2026-10-16T05:01+00:00",
-   "published_jst": "2026-10-16 14:01",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
