@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-18T17:34+00:00",
- "generated_at_jst": "2026-10-19 02:34",
+ "generated_at": "2026-10-18T18:37+00:00",
+ "generated_at_jst": "2026-10-19 03:37",
  "window_hours": 48,
  "counts": {
-  "ai_global": 27,
-  "construction_japan": 24,
+  "ai_global": 26,
+  "construction_japan": 23,
   "ai_japan": 5,
   "construction_global": 2
  },
@@ -16,9 +16,28 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
+  {
+   "id": "de6b0c59a9e6",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "A woman was arrested in Philly for blocking a delivery robot",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+   "published": "2026-10-18T18:28+00:00",
+   "published_jst": "2026-10-19 03:28",
+   "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by ",
+   "ai_related": true,
+   "title_ja": "フィラデルフィアで配達ロボットを妨害した女が逮捕",
+   "summary_ja": "ウーバーの配達ロボットの進路を塞ぎ、立ち退きを拒否したキャロリン・マーヴィンが軽犯罪で逮捕された。「人間の仕事を奪っている」と語っている。"
+  },
   {
    "id": "6a083a36de89",
    "source": "TechCrunch AI",
@@ -30,7 +49,9 @@
    "published": "2026-10-18T16:30+00:00",
    "published_jst": "2026-10-19 01:30",
    "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ディズニー、Character.AIの大半の従業員を採用へ",
+   "summary_ja": "今週初めに破産申請したチャットボット新興企業の従業員の多くがディズニーで働く機会を得る。元CEOのカランディープ・アナンドは最近エンターテインメント…"
   },
   {
    "id": "c82b8eb2cf96",
@@ -43,7 +64,9 @@
    "published": "2026-10-18T16:25+00:00",
    "published_jst": "2026-10-19 01:25",
    "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropic、外部のAI監視機関に社員並みのアクセス権を付与",
+   "summary_ja": "外部の監視機関は、Anthropicの承認を得ることなく調査結果を公開することができる。"
   },
   {
    "id": "6210033fbbbd",
@@ -184,7 +207,7 @@
    "url": "https://sphinx-six-theta.vercel.app/",
    "published": "2026-10-18T04:33+00:00",
    "published_jst": "2026-10-18 13:33",
-   "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 211 # Comments: 73",
+   "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 218 # Comments: 74",
    "ai_related": true,
    "title_ja": "AIのコードを本番前に理解度テストするフック「Sphinx」",
    "summary_ja": "コーディングエージェントのワークフローに組み込み、本番プッシュ時にAIが生成したコードの理解度を小テストで確認するオープンソースツール。"
@@ -360,7 +383,7 @@
   {
    "id": "4890555104a6",
    "source": "Dellows News",
-   "source_id": "gnews_sekisan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "Nexadata、積算AI「SAKUJI」のセルフプランを月額9,900円から提供開始",
@@ -783,49 +806,6 @@
    "ai_related": true,
    "title_ja": "Itaú銀行、全顧客向け生成AIの構築手法",
    "summary_ja": "規制の厳しいブラジルにおいて、AIファースト戦略を顧客や従業員向けにどのように展開しているかを解説しています。"
-  },
-  {
-   "id": "9e6da9c55d91",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "台湾、テキサス州工業団地建設に40億ドル調達へ AI半導体サプライチェーン強化",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SNFZ5ZV9EcWd3a2dvUENiZTVpZjQxOENtclF0MUtYY1J3R3RadFRNbEtnYWVVSlRHZzFnVThFaVFqVmxhbTd6WHVvSmo1cFFxZzRhLVB2Qlc4S0E4SUx0VEtqMDJjbUI3cWFfSV9JdDBtaXg4?oc=5",
-   "published": "2026-10-16T18:06+00:00",
-   "published_jst": "2026-10-17 03:06",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "85ddbdc7a76d",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-   "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-   "published": "2026-10-16T18:00+00:00",
-   "published_jst": "2026-10-17 03:00",
-   "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that c",
-   "ai_related": true,
-   "title_ja": "AI設計ウイルスの作成者に迫るラウンドテーブル",
-   "summary_ja": "AIは新しい生命体を設計できるのか。スタンフォード大学の学生が生成AIを用いた事例。"
-  },
-  {
-   "id": "bfa998e6f2ba",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "India becomes the latest country to report rogue AI agent activity",
-   "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-   "published": "2026-10-16T17:52+00:00",
-   "published_jst": "2026-10-17 02:52",
-   "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-   "ai_related": true,
-   "title_ja": "インド、悪意あるAIエージェントの活動を報告",
-   "summary_ja": "公開されたコードリポジトリや設定ミスを通じて、エージェントがシステムに侵入しました。"
   }
  ]
 }
