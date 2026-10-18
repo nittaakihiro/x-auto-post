@@ -1,37 +1,21 @@
 {
- "generated_at": "2026-10-18T11:01+00:00",
- "generated_at_jst": "2026-10-18 20:01",
+ "generated_at": "2026-10-18T12:04+00:00",
+ "generated_at_jst": "2026-10-18 21:04",
  "window_hours": 48,
  "counts": {
-  "ai_global": 35,
+  "ai_global": 37,
   "construction_japan": 27,
   "ai_japan": 6,
-  "construction_global": 16
+  "construction_global": 9
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "hn_top",
-   "error": "URLError: <urlopen error timed out>"
-  },
-  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
-  },
-  {
-   "feed": "buildapp",
-   "error": "URLError: <urlopen error timed out>"
-  },
-  {
-   "feed": "ken_it_world",
-   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   }
  ],
  "items": [
@@ -434,6 +418,19 @@
    "ai_related": true
   },
   {
+   "id": "eec628fc8ef6",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "小学校隣にデータセンター建設計画 北九州市、説明会で住民の不安噴出（KBC九州朝日放送）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TVGxKZ2JmTldHMDY1QlBseUdJbzVNazdZM004S1MwSFY2RGtnWVV3TmVNSkVnV0FyaHlvdWJZWnZyVEVrWGsyODVoOXFOYTRBOS1YeWZiT0dFS1JGYTItUGVVbTVpc3dNNlZiRDI4aENtV3lJc0Fvd25MT0Znc2s?oc=5",
+   "published": "2026-10-17T09:00+00:00",
+   "published_jst": "2026-10-17 18:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "b1044290655c",
    "source": "Gizmodo",
    "source_id": "gnews_kensetsu_ai",
@@ -445,6 +442,19 @@
    "published_jst": "2026-10-17 17:30",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "9b13d6a721a0",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "published": "2026-10-17T08:21+00:00",
+   "published_jst": "2026-10-17 17:21",
+   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 879 # Comments: 664",
+   "ai_related": true
   },
   {
    "id": "a72c1b7a18b4",
@@ -499,6 +509,19 @@
    "ai_related": false
   },
   {
+   "id": "0913988ccbed",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+   "url": "https://llmspeed.dev/",
+   "published": "2026-10-17T04:36+00:00",
+   "published_jst": "2026-10-17 13:36",
+   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 301 # Comments: 83",
+   "ai_related": true
+  },
+  {
    "id": "2515caea927e",
    "source": "Vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
@@ -527,7 +550,7 @@
   {
    "id": "1c04987554dc",
    "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_dx",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建設DX、注目政策一気見せ",
@@ -549,19 +572,6 @@
    "published_jst": "2026-10-17 11:19",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "13cfab4f653b",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "CoreWeave株急落、AIトレードの亀裂、Anthropic IPOの危険信号、ビル・ゲイツの終末論",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fZW9NTVNmeElfbjVKTTZVYmZFZDBlUjB2eWx5ZDFuN3BwMzBMLVFHZDVodmN0LTNjMnBqWWx3NVppRzY4cUc0XzBQVFE3MmxjQ2dIQ1Nlc2F3aVI4dWc?oc=5",
-   "published": "2026-10-17T02:03+00:00",
-   "published_jst": "2026-10-17 11:03",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "d3ac4d02ed2c",
@@ -590,17 +600,17 @@
    "ai_related": false
   },
   {
-   "id": "a435a4090a6d",
-   "source": "マイナビニュース",
+   "id": "83213512d374",
+   "source": "Dellows News",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "世界で300mm半導体工場の建設相次ぐ、装置投資は2029年に2270億ドルへ SEMI予測",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12dHh5Q2lzVlptM09nSWx4TExvajVFMWFNMnRibjQzbGFrTFpYMWJEczFaX1pSZTN3V0pMVEFnVjBPNEMzTHoyMDBWS2dFT2FxZHFvaDNXMlNZUXYyeGZ6VWY1X1FIa1dt?oc=5",
-   "published": "2026-10-16T23:30+00:00",
-   "published_jst": "2026-10-17 08:30",
+   "title": "スペースデータ、建設現場を想定したRobotBrainの屋外デモ映像を公開",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4yU05HZTNkQmc2SDRZWDZwTGg0b3R5b0xEdVVDQUxUUTd6V1hvZENLUVZIbndGM3JaOUljUmh5a3hZa1lNSkE?oc=5",
+   "published": "2026-10-16T23:22+00:00",
+   "published_jst": "2026-10-17 08:22",
    "summary": "",
-   "ai_related": false
+   "ai_related": true
   },
   {
    "id": "f6d1cf1fcb58",
@@ -1123,111 +1133,6 @@
    "published_jst": "2026-10-16 21:30",
    "summary": "パーソナルエージェント分野の先駆者を標榜するPerplexityが、開発者がより安全なエージェントシステムを構築するための基盤を提供し、業界全体で保護体制を強化していくため、サンドボックスプラットフォーム「SPACE」をオープンソース化すると発表しました。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "e74a4b085853",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Higgins Homes trial: slinger tells jury of moment bricks fell, fatally injuring mum",
-   "url": "https://www.constructionnews.co.uk/legal/higgins-homes-trial-slinger-tells-jury-of-moment-bricks-fell-fatally-injuring-mum-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "A worker at a Higgins Homes site has described the moment he tried to stop a pallet of bricks hitting a scaffolding pole before it fell to the ground, killing a pedestrian. Christian Okonkwo, a self-employed slinger, who was working for subcontractor DWG Brickwork, escaped… The post Higgins Homes tr",
-   "ai_related": false,
-   "title_ja": "Higgins Homesの裁判、レンガ落下で母親死亡の瞬間を証言",
-   "summary_ja": "Higgins Homesの現場作業員が、足場に当たり落下して歩行者を死なせたレンガのパレットを止めようとした緊迫の瞬間を陪審員に証言した。"
-  },
-  {
-   "id": "f6d16190d561",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Faithdean sees profit dip despite jump in turnover",
-   "url": "https://www.constructionnews.co.uk/financial/faithdean-sees-profit-dip-despite-jump-in-turnover-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "Specialist fit-out and refurbishment contractor Faithdean has reported an 8 per cent fall in annual profit despite seeing its turnover rise by nearly a quarter. The Kent-headquartered firm recorded a pre-tax profit of £4.5m in the year to 31 March 2026, compared with £4.9m the… The post Faithdean se",
-   "ai_related": false,
-   "title_ja": "Faithdean、売上高増加も利益は減少を記録",
-   "summary_ja": "内装・改修専門の建設会社Faithdeanは、売上高が約4分の1増加したにもかかわらず、年間利益は8パーセント減少したと発表した。"
-  },
-  {
-   "id": "974da333de6e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Farrans sank into loss in final year before acquisition",
-   "url": "https://www.constructionnews.co.uk/financial/farrans-sank-into-loss-in-final-year-before-acquisition-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "Northern Irish contractor Farrans Construction fell into the red last year after “challenging market conditions” and heavier provisions hit the company’s bottom line, newly released annual accounts show. Farrans – which was acquired by Sisk last November – reported a pre-tax loss of £36.2m in… The p",
-   "ai_related": false,
-   "title_ja": "Farrans、買収前の最終年度に赤字転落",
-   "summary_ja": "北アイルランドの建設会社Farrans Constructionは、市場環境の悪化や引当金の増加により、昨年度は赤字に転落したことが明らかになった。"
-  },
-  {
-   "id": "147e8ea12662",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Survey identifies M&E labour shortages as data centres dominate",
-   "url": "https://www.constructionnews.co.uk/supply-chain/survey-identifies-me-labour-shortages-as-data-centres-dominate-16-10-2026/",
-   "published": "2026-10-16T11:45+00:00",
-   "published_jst": "2026-10-16 20:45",
-   "summary": "A shortage of mechanical and electrical (M&E) contractors is affecting project delivery and productivity as specialists are being called in to lead on data centre schemes, a new survey has found. Four in 10 respondents to Gleeds’ latest quarterly market survey said that of all… The post Survey ident",
-   "ai_related": false,
-   "title_ja": "調査で判明、データ中心需要でM&E分野の人手不足が深刻化",
-   "summary_ja": "データセンター案件に専門家が集中する中、機械・電気工事業者の不足がプロジェクトの納期や生産性に影響を与えていることが調査で判明した。"
-  },
-  {
-   "id": "9ef297cd33e8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "NHS trust seeks long-term contractor for £30m hospital upgrades",
-   "url": "https://www.constructionnews.co.uk/contracts/nhs-trust-seeks-long-term-contractor-for-30m-hospital-upgrades-16-10-2026/",
-   "published": "2026-10-16T11:37+00:00",
-   "published_jst": "2026-10-16 20:37",
-   "summary": "Guy's and St Thomas' NHS Foundation Trust has begun seeking a long-term construction partner for a £30m programme to refurbish wards across five London hospitals. The trust wants a procurement arrangement that could provide contractors with a continuous pipeline of work, potentially including a perm",
-   "ai_related": false,
-   "title_ja": "NHSトラスト、3000万ポンドの病院改修で長期パートナーを募集",
-   "summary_ja": "ロンドン市内の5つの病院で病棟改修を行う3000万ポンドの計画に向け、長期的な建設パートナーの調達手続きを開始した。"
-  },
-  {
-   "id": "0fbb404d44a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Welsh councils launch £800m civils framework tender",
-   "url": "https://www.constructionnews.co.uk/civils/welsh-councils-launch-800m-civils-framework-tender-16-10-2026/",
-   "published": "2026-10-16T11:13+00:00",
-   "published_jst": "2026-10-16 20:13",
-   "summary": "Five councils in south-west Wales have launched a tender for a civil engineering framework worth an estimated £800m over four years. Carmarthenshire County Council is leading the procurement alongside Ceredigion, Neath Port Talbot, Pembrokeshire and Swansea councils. The South West Wales Regional Ci",
-   "ai_related": false,
-   "title_ja": "ウェールズの自治体、8億ポンド規模の土木フレームワーク入札開始",
-   "summary_ja": "ウェールズ南西部の5つの自治体が、4年間で約8億ポンド相当の土木工学フレームワークの入札を開始した。"
-  },
-  {
-   "id": "659fc0da6701",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Hot batteries, hotter sites: why the lithium-ion risk is not being taken seriously enough",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/hot-batteries-hotter-sites-why-the-lithium-ion-risk-is-not-being-taken-seriously-enough-16-10-2026/",
-   "published": "2026-10-16T11:11+00:00",
-   "published_jst": "2026-10-16 20:11",
-   "summary": "Matt Partridge is head of product development at Armorgard UK Last year, UK fire brigades attended 1,760 lithium-ion battery fires, according to data gathered by global business insurer QBE. That's one callout roughly every five hours, leading the London Fire Brigade to name it the… The post Hot bat",
-   "ai_related": false,
-   "title_ja": "リチウムイオン電池の火災リスク、現場での対策が急務",
-   "summary_ja": "昨年の英国でのリチウムイオン電池関連の火災出動件数は1,760件に上り、現場での安全リスクに対する深刻な認識不足が指摘されている。"
   }
  ]
 }
