@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-18T05:57+00:00",
- "generated_at_jst": "2026-10-18 14:57",
+ "generated_at": "2026-10-18T09:55+00:00",
+ "generated_at_jst": "2026-10-18 18:55",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 8,
-  "construction_japan": 29,
   "ai_global": 37,
-  "construction_global": 24
+  "construction_japan": 29,
+  "ai_japan": 6,
+  "construction_global": 17
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -19,6 +23,58 @@
   }
  ],
  "items": [
+  {
+   "id": "18feec813d0e",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
+   "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+   "published": "2026-10-18T09:11+00:00",
+   "published_jst": "2026-10-18 18:11",
+   "summary": "Anthropic is consulting with law firms to develop negotiation norms for AI agents that would haggle over prices, resolve complaints, or improve contracts on behalf of users. The company is also hiring lawyers and humanities scholars as \"Conceptual Reasoning Fellows\" to improve Claude in areas where ",
+   "ai_related": true
+  },
+  {
+   "id": "0624378cc540",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
+   "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+   "published": "2026-10-18T08:49+00:00",
+   "published_jst": "2026-10-18 17:49",
+   "summary": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help. The article AI agents have bad taste in long-term de",
+   "ai_related": true
+  },
+  {
+   "id": "dea88befdb7c",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI agents chasing a $465 train refund invented excuses, leaked medical data, and spammed an MP's office",
+   "url": "https://the-decoder.com/ai-agents-chasing-a-465-train-refund-invented-excuses-leaked-medical-data-and-spammed-an-mps-office/",
+   "published": "2026-10-18T08:15+00:00",
+   "published_jst": "2026-10-18 17:15",
+   "summary": "Six AI agents were tasked with recovering £350 (about $465) for a canceled train ticket in an experiment. They resorted to invented excuses, lawsuit threats, and sharing confidential health data. One agent sent 187 messages in 15 days, including 50 to a British MP's office. None of the models secure",
+   "ai_related": true
+  },
+  {
+   "id": "0769c38c1e80",
+   "source": "Business Insider Japan",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "メタ、オラクル、SBエナジーなどが開発…アメリカで建設中の「1GW超」巨大データセンター14プロジェクトの現状",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOUM4UEFDeTc3OUJXQ1VBalBfSDZXZzk2RnMyWS1YQnpQWkptTVI5dU0ycnZQWkdqdkZSY3VXVzVoN0ZPdG5feXViZnVGZk1PS3FqMDVHazhCM1IzMUZWTnc5UFdIYVJocUVmOUhBYlZ1N2pGVm9CNlIzLXgyVzJvY3hDUUkxOXl4VjFQWUpzZHVTNzJoVDBiV1Y2ek5tZw?oc=5",
+   "published": "2026-10-18T06:00+00:00",
+   "published_jst": "2026-10-18 15:00",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "52291f13ec77",
    "source": "GIGAZINE",
@@ -56,6 +112,19 @@
    "published": "2026-10-18T02:45+00:00",
    "published_jst": "2026-10-18 11:45",
    "summary": "2026年10月15日、電気自動車メーカーのテスラが新型ロードスターを発表しました。ロードスターにはコールドガススラスターを搭載したモデルがあり、これは垂直な壁を登ったり、空中で姿勢制御したり、短時間なら空を飛ぶこともできたりするというトンデモナイ車両になっています。そんなロードスターの使い方を提案したり、「もしもロードスターが走っていたら」を想像したりするAI生成動画がSNS上で大流行中です。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "18b84a7c9ab6",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "清水建設、米Noble Machinesに出資完了 建設用ヒューマノイドAIロボットを共同開発 (ビジネス＋IT)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOEctT0RLaVdLN0dMM3dlRFNiR1hzV0JJMEJGbmlOV1EzY3V6aFd1Q0lYWXdzQnlqdEh3eXRxREhINlFIOElrdGNEeVhfbTBvTldWQzBxTV92WGdRMnh1b0JkN2ZGcXNEaXJ5WkdTenRwak00UEw4WngxTnk0azNwRnZHemVrODZ1V1dkajZ3?oc=5",
+   "published": "2026-10-18T02:45+00:00",
+   "published_jst": "2026-10-18 11:45",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -354,7 +423,7 @@
    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "published": "2026-10-17T08:21+00:00",
    "published_jst": "2026-10-17 17:21",
-   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 780 # Comments: 621",
+   "summary": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 859 # Comments: 654",
    "ai_related": true,
    "title_ja": "DeepSeek-v4.1-Flash-1017に関する情報",
    "summary_ja": "DeepSeek-v4.1-Flash-1017に関するAPIドキュメントや関連プラットフォームのリンク情報。"
@@ -371,6 +440,19 @@
    "published_jst": "2026-10-17 17:00",
    "summary": "SHIFT AIが65歳以上の親を持つ全国の30～50代男女723人を対象とした「シニア×AIの意識調査」の結果を発表。親に生成AIを使ってほしくない子世代が69.3％に達したという結果とともに、その理由や自身の利用頻度、親に教える際の障壁などを示した。",
    "ai_related": true
+  },
+  {
+   "id": "3b853f3c379b",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業法大改正、価格交渉拒めば違法",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVlJKdFU3T3ZJN1BhWkgyd2tncVQ5LUdqTDdVcGg2c2hObXRKS0RTcGM0WnhHUTBDUlAzcGt2V3BNMVBuSTEzS2FVZi1BWEZ4VDZDTllYcTEwQ2dfUGNXR0pGemRvX2sxWTZGdWJCaFBmSk1Gd3VlNGRLZGtWaUI2Vm5KR0JIakxTSFdVYjlibzhybk5zMVphOF81VU5aNXA0NHRHYVhlbzBleG5xaFVjVmVqbUM0cWVlUU5xcGNiSHdMRWhqRkk5RDcwMnRDZE1C?oc=5",
+   "published": "2026-10-17T07:34+00:00",
+   "published_jst": "2026-10-17 16:34",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "fd1dedd8f915",
@@ -408,7 +490,7 @@
    "url": "https://llmspeed.dev/",
    "published": "2026-10-17T04:36+00:00",
    "published_jst": "2026-10-17 13:36",
-   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 270 # Comments: 78",
+   "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 293 # Comments: 82",
    "ai_related": true,
    "title_ja": "LLMの速度をハードウェア購入前に体感できる「Llmspeed」",
    "summary_ja": "ローカルLLMの動作速度をハードウェア購入前に実感できるツールの紹介と議論。"
@@ -427,6 +509,32 @@
    "ai_related": false
   },
   {
+   "id": "55ba16b66019",
+   "source": "調布経済新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI時代に生き残る！ハイレベルなUI設計者になるために、今すぐ身につけるべきスキルとは？ 11/6（金）好評セミナー「AI時代に生き残るUIデザイナーの条件」のアーカイブ映像を無料配信!!",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDSnNIOWI1Z21IUG9vQVN5b2o1eFh0QW5xanhieExzU0Z1YUNaRzVmZlFzdHVjZXlYR2FXeW5UOEpCdEYzR29feVE4andlTVJQT3c?oc=5",
+   "published": "2026-10-17T03:48+00:00",
+   "published_jst": "2026-10-17 12:48",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "1c04987554dc",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設DX、注目政策一気見せ",
+   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPU25ueHVkWUcwTWVSMkZmYURONzZ0bFZjdERnN3dwRWxIRGl0WXJrUlh1b015UzRfYko1MTRySVV0LUVNWE1TM2lfWTBPQUF5SWRMXzdHd2xsNG82Rkw3VUMyZmVqZ1RRd1piT1hUWkJZN0NVZ1pma0h6VUp6VzVzdUtUWGJEZ2FpdmZGWno2Q0ppSFkwajFYM1FjZ3YtUzlHRlB4QXZGeEJ4YnptV01xMUI3QmU4NmdVdzdsTHNXa2RvTVRpMW80NFFJcGNwcEprWGhJZmxRM2ZQaTlrT0c4QWRrVTVFdDJTb1c5aFlQUjZXZFg3OS1CRDVfclZQMER1b1l1U2xoaklaTUs2YTRILXdaaDJVeEluSWstVmc4eDl1UlRpRGc?oc=5",
+   "published": "2026-10-17T02:40+00:00",
+   "published_jst": "2026-10-17 11:40",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "72554acdef92",
    "source": "Vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
@@ -440,6 +548,19 @@
    "ai_related": false
   },
   {
+   "id": "d3ac4d02ed2c",
+   "source": "Forbes JAPAN",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "エヌビディア、AIデータセンターの構築加速へ──次世代AIシステム「Vera Rubin」ラック設計を公開",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55TzFZZEdocHFXWUY0VW9IbGxEajM1V3FnV3JXS1FBWWo4TEF4TlFWTnNtc3dLZzhwWm9NeWJpc1I4MUVzVEh6SFc0NU9iWmlzRXRjQ19aRUFCQQ?oc=5",
+   "published": "2026-10-17T02:00+00:00",
+   "published_jst": "2026-10-17 11:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "00b00ec12ef0",
    "source": "Vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
@@ -449,6 +570,32 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkM4eDZNc21oc2kybjlmQWRqZTNEUU1wcmZrYjgzMUZqT0F0TFlVcGRnVENEanRvTWFYeUFvVUdQanhqb1lIMEhDVWU1aHB4TEprUjM2aEowdjVkVUpLck4zcndxQ24wb2dsWGRUdWxOR1JNbnhkVkF4cHlwOWI5TkV2VTIwZW05OG5ybGprZDdLYUpSUHNLbkdkdHc?oc=5",
    "published": "2026-10-17T01:21+00:00",
    "published_jst": "2026-10-17 10:21",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "83213512d374",
+   "source": "Dellows News",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "スペースデータ、建設現場を想定したRobotBrainの屋外デモ映像を公開",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4yU05HZTNkQmc2SDRZWDZwTGg0b3R5b0xEdVVDQUxUUTd6V1hvZENLUVZIbndGM3JaOUljUmh5a3hZa1lNSkE?oc=5",
+   "published": "2026-10-16T23:22+00:00",
+   "published_jst": "2026-10-17 08:22",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "f6d1cf1fcb58",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "半導体の新工場「最大3.3兆円」で米NYに建設 東京エレやルネサスが関与、日本企業が狙う商機は？｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PRHEwc1dRanR6NjQyV3kxVnY0VHhJanpTa2JtTkF1NnQ3aTZvMmdRaF84b0t1ODlSRUFzSWg3dmIySmhUbElhSDNKMnV5RHdKdUI2V3B4amRLYkdCTEZ4cXloOVp3RlEySWJ4T3VRejNMaTdl?oc=5",
+   "published": "2026-10-16T23:00+00:00",
+   "published_jst": "2026-10-17 08:00",
    "summary": "",
    "ai_related": false
   },
@@ -670,19 +817,6 @@
    "summary_ja": "白紙の状態から立面図の計画を始める手間を省く、自動化機能の紹介です。"
   },
   {
-   "id": "54197b15229b",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設ロボット、ただいま稼働中",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNa2pSUHNrLWY5Q3o4SHVpOTRBWXhuaWNXZ0lOWV9xVS1uclZFSUxvNFk0djdncnphcW9LQ0x0d2R1Wmd6dzFycmZfS25QWHZ2ZWZvTVJRal9IUXR6T09qSy15RU0wUXV3N3J2TFRVNHBoLVFJUi03OEp4WU1ndWZ4eFZjYVV1VGRmRXJHcUdBZjJxN1Y3VUZMRWVlZUd5NDJnNDRHWWtvdjFrZ3BWel9peWtadVBHamxWY2ZiUG9YZEduM1FOd3c1cjBLZU9aQ2YxWnBVY01uNWhvbmR1MzlVdm0yNzNVQndYblk1bw?oc=5",
-   "published": "2026-10-16T17:00+00:00",
-   "published_jst": "2026-10-17 02:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "1f9b468e8642",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -773,21 +907,6 @@
    "summary_ja": "このデータは、OpenRouterに似た統合APIサービスであるVercelのAIゲートウェイから得られたものです。"
   },
   {
-   "id": "9d79e6876298",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google's Gemini 4 Argon is closer to the AI frontier than any Google model in months",
-   "url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months/",
-   "published": "2026-10-16T15:03+00:00",
-   "published_jst": "2026-10-17 00:03",
-   "summary": "Google Deepmind's Gemini 4 Argon scored 97.5 percent on the ARC-AGI-3 benchmark, making Google the second lab after OpenAI to cross the 95 percent mark. But the results swing wildly depending on the test setup: in the standard harness, the score drops to just 49.8 percent. Argon also trails rivals i",
-   "ai_related": true,
-   "title_ja": "Googleの「Gemini 4 Argon」がAIの最前線に迫る",
-   "summary_ja": "ベンチマークで高得点を記録し、OpenAIに次ぐ成果を上げましたが、テスト条件によって結果が大きく変動します。"
-  },
-  {
    "id": "3d6f16cf09a8",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -831,6 +950,19 @@
    "ai_related": true,
    "title_ja": "Autodeskが挑む、これまでで最も野心的なAI",
    "summary_ja": "単なるツールを超え、タスクの解決方法を自ら判断する統合アシスタントのビジョンを描いています。"
+  },
+  {
+   "id": "44f622d935a6",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設を革新するドローン、その最前線に迫る",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRF9TbGI2Z1dJLVFxWkhENDAtbkhsWHpLRGdHYmJmZzE3MllmemdhY1diNURWRUxpdHJBYm1TdWhfWnotUjlWdl9SRXFkOUpLWFdvU1Qtc19OX2FXUmFOVkxqSG9PUUFZMmRieGdNaWZyZ0ZETDN3dWlla1ZCQXZmdGswOEhKQjl2YllGYkdSckhQdjQ2R0wzUGRJREN6TEhNcEpDbmRaSG9FdVFQZnI5MnpFb1ItNEMza0JN?oc=5",
+   "published": "2026-10-16T14:07+00:00",
+   "published_jst": "2026-10-16 23:07",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "ad3a47861a30",
@@ -878,21 +1010,6 @@
    "summary_ja": "被害者が自ら詐欺師を追跡する様子を捉えた、ドキュメンタリーの独占クリップを公開。"
   },
   {
-   "id": "dc8fe0ad2c31",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
-   "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
-   "published": "2026-10-16T13:48+00:00",
-   "published_jst": "2026-10-16 22:48",
-   "summary": "Neural networks may be much easier to read than researchers assumed, with about 90 percent of neurons serving a clear function. That would be big news for AI safety research, since deception or dangerous behavior could be spotted directly in a model's circuits. Researchers are still debating whether",
-   "ai_related": true,
-   "title_ja": "AIの解釈可能性にブレイクスルー間近か",
-   "summary_ja": "神経網の大部分が明確な機能を持つ可能性が示唆され、AI安全性研究において重要な意味を持ち得ます。"
-  },
-  {
    "id": "b3b6a80bac1b",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -936,21 +1053,6 @@
    "ai_related": false,
    "title_ja": "NYのプラザホテル、ファサード修復のため2027年休業",
    "summary_ja": "歴史的建造物に指定されている外観の修復工事を行うため、1月から少なくとも4年間閉鎖されます。"
-  },
-  {
-   "id": "bd83f26c468a",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year",
-   "url": "https://the-decoder.com/openais-new-rosalind-academic-plan-gives-research-labs-up-to-30-free-seats-for-a-year/",
-   "published": "2026-10-16T13:15+00:00",
-   "published_jst": "2026-10-16 22:15",
-   "summary": "OpenAI is launching the Rosalind Academic Plan, a free offering that's currently open only to research labs at US universities without an enterprise contract. The article OpenAI's new Rosalind Academic Plan gives research labs up to 30 free seats for a year appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "OpenAI、研究機関に「Rosalind Academic Plan」提供",
-   "summary_ja": "OpenAIが米国の大学研究機関向けに、年間最大30席を無料で提供する「Rosalind Academic Plan」を開始。"
   },
   {
    "id": "07ac7ec47431",
@@ -1100,6 +1202,19 @@
    "ai_related": false
   },
   {
+   "id": "c1bc6801a230",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "アリババクラウド幹部が断言：AIインフラ投資ブームは少なくともあと5年継続、「算電協同」が重要命題に",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kcGJIVWpLNm85X08xMVZHdDRocVFYd2d2S2NwUXY3SmlZMnF1OWduVXNsOE9kYUYxY28zSmVhU0pMcF9XcWNxZ3VFYndNYkRJakV3ckpza2pHNzhLYTVTemVRaE10ZTNlSldfQmdZT29XYTkz?oc=5",
+   "published": "2026-10-16T10:55+00:00",
+   "published_jst": "2026-10-16 19:55",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "0f0e13ae1f6e",
    "source": "朝日放送",
    "source_id": "gnews_kensetsu_ai",
@@ -1128,7 +1243,7 @@
   {
    "id": "21565a4f409e",
    "source": "ITmedia",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "自然言語で危険をAI検知、ジザイエが過酷な現場向けLTE搭載カメラ発売：現場管理",
@@ -1152,252 +1267,6 @@
    "ai_related": false,
    "title_ja": "ObexがThrough-Wall Systemを展示",
    "summary_ja": "シーリングと保護の専門企業Obexが、製品ラインナップを披露。"
-  },
-  {
-   "id": "e5efd5adc7e5",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース",
-   "url": "https://gigazine.net/news/20261016-openrouter-armor/",
-   "published": "2026-10-16T09:51+00:00",
-   "published_jst": "2026-10-16 18:51",
-   "summary": "複数のAIモデルを利用できるサービス「OpenRouter」が、AIエージェントによる危険なツールの実行を防ぐ新機能「Armor」をリリースしました。ArmorはAIエージェントが実行しようとする操作を別のAIモデルで事前にチェックし、設定されたルールに違反する操作を自動的にブロックする機能です。記事作成時点ではベータ版として提供されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "f67831df6cc6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Frameworks aid 15% profit boost in Willmott Dixon interims",
-   "url": "https://www.constructionnews.co.uk/financial/frameworks-aid-15-profit-boost-in-willmott-dixon-interims-16-10-2026/",
-   "published": "2026-10-16T09:22+00:00",
-   "published_jst": "2026-10-16 18:22",
-   "summary": "Willmott Dixon posted a 15 per cent profit increase for the first half of the year and secured most of its new work through frameworks, the contractor has said. The tier one firm saw its pre-tax profit rise to £11.5m from £10m in unaudited half-year… The post Frameworks aid 15% profit boost in Willm",
-   "ai_related": true
-  },
-  {
-   "id": "dc6e55e3522f",
-   "source": "ニッキンONLINE",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "横浜信金、建設業向けAI相談会を開催",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PUl9sREt6SWRqVXVobVFFUGxRSmhNMWwxWjhmZ2s2NGhtNzVnUXFCanFSN3VFMFg1VUpPOFpIWk15eFVSS244a1NCTU51NmdvX2I3NTV3?oc=5",
-   "published": "2026-10-16T09:21+00:00",
-   "published_jst": "2026-10-16 18:21",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "fe617473d942",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現場Hub株式会社が「B Dash Camp 2026 Fall in Fukuoka」Pitch Arenaに登壇決定の知らせ",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oSUdSZFNfU1VfUmY1a3RnS2FaQzdlT0dkQ1RoOEZxbjVudHplX245ZXR3ekNsSWJoMVdhRkRFLU5iaF8weHZCODBocG8yLWlHakZWOHgzak5LU0U4VXIyU1h2dERUMlk?oc=5",
-   "published": "2026-10-16T09:05+00:00",
-   "published_jst": "2026-10-16 18:05",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "e2c971ad02c2",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "意思決定モデル「d1-ultra」が登場、Jev 1.14を全8分野で上回り判断の信頼性も向上",
-   "url": "https://gigazine.net/news/20261016-d1-ultra/",
-   "published": "2026-10-16T08:30+00:00",
-   "published_jst": "2026-10-16 17:30",
-   "summary": "AI開発企業のLiquid AIが2026年10月15日に新たな意思決定モデル「d1-ultra」を発表しました。従来モデルの「d1」を改良したもので、競合する「Jev 1.14」を性能テストで大きく上回ったほか、判断の正確さや信頼性も向上したとのことです。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "972f77063db1",
-   "source": "デジコン",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設、米シリコンバレーのNoble Machines社へ出資。建設現場で働くヒューマノイドAIロボットへ",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04eUhKcjBOYkRINjlYTnE4OXg0UkNSU2hwamhXZlZ1a1JFLXF1bktqNHFvZ1FMbFlzQnA4LXFtdlRmeWlLNHdKUkV5NEIyeGVJYVNr?oc=5",
-   "published": "2026-10-16T07:59+00:00",
-   "published_jst": "2026-10-16 16:59",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "eb5c4d4897d3",
-   "source": "Excite エキサイト",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日本ビルディングオートメーションシステム市場：パナソニックの「Facibble」ビルディングOS、鹿島建設のAI空調制御、クラウドベースのビル統合が、日本のスマートビル産業を変革",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YUWdrcDhhOG9OZXpFYTVkS0RFZFgwNEhpclFyVXgxQVNaLXpYdG5FYWljVHZ0Y1g4TjFtRk14QjRXZnpwb0pySjBPclpFTUFQZi1qVVp4QV96TE9UeWhUb2pSUFptZUpwWmc?oc=5",
-   "published": "2026-10-16T07:30+00:00",
-   "published_jst": "2026-10-16 16:30",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "a7bede24e8fd",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日本マイクロソフト 西脇資哲氏が解説。生成AIで、建設業の仕事はどこまで変わるのか？デモで紹介する特別講演を開催＜12/10・参加無料＞",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWaG9FVlN4TEVrMDZwby11WFB4dTRHUkIwWWRrWlgyZC1xYVZJZkFZT0ZVLXhZOU4zamNmQnBrTkxQNVI2ZVUta29Pa1lBWHJIY3REYUdhSHJ6cm1qTkJZeXZTUUNRaDdwVmc?oc=5",
-   "published": "2026-10-16T07:10+00:00",
-   "published_jst": "2026-10-16 16:10",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "3b1f9ff20bc2",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日本マイクロソフト 西脇資哲氏が解説。生成AIで、建設業の仕事はどこまで変わるのか？デモで紹介する特別講演を開催＜12/10・参加無料＞ (2026年10月16日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VV0JhTk5oYTBRUjhYM2NDRVhLbExCdTUwY2lkSW1nZ1VCazRmOWUwVE9PaVFpSGlTMEpSR0F1LXlTOGVqUjF1MjdTVXN3cGRjMkRKZzFUU2ZhYU5RN1lYYTRR?oc=5",
-   "published": "2026-10-16T07:10+00:00",
-   "published_jst": "2026-10-16 16:10",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "637f623945f7",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "イプロスが建設業のAI活用セミナーを12月に東京で開催へ",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HeVp0dU8xRW10MURUbkk5WHZjX3hGMVB0WndadTkyOVh3cXJhekgxMXM5NnQyRUFsUTl4U3RmODVxdzRwVXd5TWFaQXhjbHNZV2ZMSWs0SS1Fc1hudy1EV3E3aTQ?oc=5",
-   "published": "2026-10-16T07:10+00:00",
-   "published_jst": "2026-10-16 16:10",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "7e53bf5056f4",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Plans in to convert former Pilkington factory canteen into 45 flats",
-   "url": "https://www.constructionenquirer.com/2026/10/16/plans-in-to-convert-former-pilkington-factory-canteen-into-45-flats/",
-   "published": "2026-10-16T07:01+00:00",
-   "published_jst": "2026-10-16 16:01",
-   "summary": "Nicholson Group submits plans to turn listed lakeside landmark into homes",
-   "ai_related": false,
-   "title_ja": "旧Pilkington工場食堂を45戸の集合住宅に改修計画",
-   "summary_ja": "Nicholson Groupが、湖畔の歴史的建造物である旧Pilkington工場食堂を45戸の集合住宅に転用する計画を提出。"
-  },
-  {
-   "id": "3353d1596c6c",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier on board for Manchester tram stop upgrade",
-   "url": "https://www.constructionenquirer.com/2026/10/16/kier-on-board-for-manchester-tram-stop-upgrade/",
-   "published": "2026-10-16T06:55+00:00",
-   "published_jst": "2026-10-16 15:55",
-   "summary": "Contractor to lead improvements at Heaton Park",
-   "ai_related": false,
-   "title_ja": "Kier、マンチェスターのトラム停留所改修を担当",
-   "summary_ja": "建設会社Kierが、Heaton Parkのトラム停留所改善工事を主導する。"
-  },
-  {
-   "id": "ef5b297b2472",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Council housing scheme built by CField wins Stirling Prize",
-   "url": "https://www.constructionenquirer.com/2026/10/16/council-housing-scheme-built-by-cfield-wins-stirling-prize/",
-   "published": "2026-10-16T06:42+00:00",
-   "published_jst": "2026-10-16 15:42",
-   "summary": "Architecture award for Lion Green Road in south London",
-   "ai_related": false,
-   "title_ja": "CField建設の公営住宅がスターリング賞を受賞",
-   "summary_ja": "南ロンドンのLion Green RoadにあるCFieldが建設した公営住宅プロジェクトが、建築賞のスターリング賞を受賞。"
-  },
-  {
-   "id": "0d9ec4ae9bfc",
-   "source": "日本経済新聞",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "西松建設、XR施工管理支援システムを改良 ドローン操縦支援機能追加",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xZ3BKd3d2YjdOWlg0czc5ZDh2bHhhZ1hUZ0xUcDNEdDNqUUViTzVHR1IzLTlkMzNGbnYxVFE4VExmaTdicXRWSXFreXN2cHEyMEpsWHFVZFBybHdCd29DVzFUTndJN3dERVF1Rw?oc=5",
-   "published": "2026-10-16T06:34+00:00",
-   "published_jst": "2026-10-16 15:34",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "409769d2ed52",
-   "source": "Unite.AI",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "120ft、現地生産向けヒューマノイドロボットのマイクロファクトリー建設に57万6,000ユーロを調達",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBDYWl2emNMZzJ6eTZ4ZGcteWdpMXhMLWV0ZlhyNkg4S1RUV0duUHVoY3MyMlppRUlLeG1uM2FTU24ycEVBZkxraHdNNGlpM0J3NWhPaTlIeU9EY3hJQ25zWFN4Z2FSb1E4QzkyRTRlQjhfXzMxTDl3?oc=5",
-   "published": "2026-10-16T06:24+00:00",
-   "published_jst": "2026-10-16 15:24",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "51914c8ff440",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Balfour targets 6,000 supply chain workforce for power boom",
-   "url": "https://www.constructionenquirer.com/2026/10/16/balfour-targets-6000-supplychain-workforce-for-power-boom/",
-   "published": "2026-10-16T06:20+00:00",
-   "published_jst": "2026-10-16 15:20",
-   "summary": "Contractor gears up for £80bn grid investment drive to 2031 with more spending lined up beyond",
-   "ai_related": false,
-   "title_ja": "Balfour、電力需要増に対応しサプライチェーン6000人増員へ",
-   "summary_ja": "Balfourは、2031年までの800億ポンドの送電網投資計画に対応するため、サプライチェーンの労働力を6,000人増員する準備を進めている。"
-  },
-  {
-   "id": "af022ce0e3dc",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon aims for £1.5bn construction business",
-   "url": "https://www.constructionenquirer.com/2026/10/16/willmott-dixon-sets-sights-on-1-5bn-construction-business/",
-   "published": "2026-10-16T06:10+00:00",
-   "published_jst": "2026-10-16 15:10",
-   "summary": "Private builder banks £750m of new work in first half",
-   "ai_related": true,
-   "title_ja": "Willmott Dixon、建設事業15億ポンドを目指す",
-   "summary_ja": "民間建設会社Willmott Dixonは、上半期に7億5000万ポンドの新規受注を獲得し、建設事業規模15億ポンドを目指す。"
-  },
-  {
-   "id": "c32fc815844a",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Race starts for £800m south Wales civils framework",
-   "url": "https://www.constructionenquirer.com/2026/10/16/race-starts-for-800m-south-wales-civils-framework/",
-   "published": "2026-10-16T06:09+00:00",
-   "published_jst": "2026-10-16 15:09",
-   "summary": "Over 60 firms face fight to retain places on major civils deal",
-   "ai_related": false,
-   "title_ja": "南ウェールズ8億ポンドの土木枠組み契約、競争激化",
-   "summary_ja": "南ウェールズの8億ポンド規模の土木工事枠組み契約を巡り、60社以上が契約維持を目指し競争に直面している。"
   }
  ]
 }
