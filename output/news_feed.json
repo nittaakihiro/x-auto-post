@@ -1,13 +1,17 @@
 {
- "generated_at": "2026-10-18T23:16+00:00",
- "generated_at_jst": "2026-10-19 08:16",
+ "generated_at": "2026-10-19T00:32+00:00",
+ "generated_at_jst": "2026-10-19 09:32",
  "window_hours": 48,
  "counts": {
   "construction_japan": 33,
-  "ai_japan": 6,
-  "ai_global": 23
+  "ai_global": 25,
+  "ai_japan": 8
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -18,6 +22,97 @@
   }
  ],
  "items": [
+  {
+   "id": "b0af6c70bd5e",
+   "source": "ANDPAD ONE",
+   "source_id": "andpad_one",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "テクノ建設サービス｜仕上検査機能で施工品質を標準化、若手育成にも活用～後編～",
+   "url": "https://one.andpad.jp/magazine/26874/",
+   "published": "2026-10-19T00:02+00:00",
+   "published_jst": "2026-10-19 09:02",
+   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベスト図面ユーザー賞」で第3位を受賞した、テクノ建設サ... 投稿 テクノ建設サービス｜仕上検査機能で施工品質を標準化、若手育成にも活用～後編～ は ANDPAD ONE に最初に表示されました。",
+   "ai_related": true
+  },
+  {
+   "id": "98b0aebf2a38",
+   "source": "ANDPAD ONE",
+   "source_id": "andpad_one",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "テクノ建設サービス｜最先端のICT技術を活用しながら「人」に寄り添う現場管理〜前編〜",
+   "url": "https://one.andpad.jp/magazine/26853/",
+   "published": "2026-10-19T00:01+00:00",
+   "published_jst": "2026-10-19 09:01",
+   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベスト図面ユーザー賞」で第3位を受賞した、テクノ建設サ... 投稿 テクノ建設サービス｜最先端のICT技術を活用しながら「人」に寄り添う現場管理〜前編〜 は ANDPAD ONE に最初に表示されました。",
+   "ai_related": true
+  },
+  {
+   "id": "c62f92cadbe1",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【開催報告】「社長×AI」で経営者の判断を会社の資産に――第6回 建築AI経営研究会にLIFEFUND白都卓磨とハウスクラフト遠藤真二氏が登壇",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GWVRlSUZXMzlUd01rNnVZWXB1RDJiXzAtUWhvREFER3NqQWx3dkluaGpzZ0cxbDhjbkJwTFlCbHAtcWJfRDVQYm9EekhSNVJ1bUdYR3cxeTI0SW9zX19JeFRpdUNHXzVfWHc?oc=5",
+   "published": "2026-10-18T23:50+00:00",
+   "published_jst": "2026-10-19 08:50",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "b8a89dddc6c6",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "llm-tools-datasette 0.1.1",
+   "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+   "published": "2026-10-18T23:43+00:00",
+   "published_jst": "2026-10-19 08:43",
+   "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+   "ai_related": true
+  },
+  {
+   "id": "12899128ec45",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "llm-echo 0.5",
+   "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+   "published": "2026-10-18T23:16+00:00",
+   "published_jst": "2026-10-19 08:16",
+   "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token",
+   "ai_related": true
+  },
+  {
+   "id": "5cb4b099cccc",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Anthropic、社内でAIエージェントの稼働時間が人間の6倍に 技術系初級職の採用比率は27％→9％に激減",
+   "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002353/",
+   "published": "2026-10-18T23:02+00:00",
+   "published_jst": "2026-10-19 08:02",
+   "summary": "Anthropicは、社内雇用の変化と一般市民とのAI予測格差に関する調査を公開した。AnthropicではAI稼働時間が人間を上回り、技術系初級職の採用比率が急減した。自身の業務の自動化予測は、Anthropic従業員の75％に対し、米労働者は28％と大きな開きが出たが、自動化と失業率上昇を結びつける労働観は共通していた。",
+   "ai_related": true
+  },
+  {
+   "id": "fed1c69539da",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Newオンプレミス、RAG、SREはもう“幻滅期” 2026年、「過度な期待」のピークにある5項目とは？",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/19/news029.html",
+   "published": "2026-10-18T23:00+00:00",
+   "published_jst": "2026-10-19 08:00",
+   "summary": "ガートナーが、2026年の日本におけるクラウドとAIのハイプサイクルを発表。Newオンプレミス、RAG、SREが“幻滅期”に入る一方で、“過度な期待”のピークに立つ5項目が示された。",
+   "ai_related": true
+  },
   {
    "id": "ba6e50ff8ee8",
    "source": "施工の神様",
@@ -69,6 +164,19 @@
    "published_jst": "2026-10-19 06:00",
    "summary": "次のページ The post 【マンガ】解体屋ゲン #862 第858話 未来の私（前編） first appeared on 施工の神様 .",
    "ai_related": false
+  },
+  {
+   "id": "a5bb32320853",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+   "url": "https://arxiv.org/abs/2610.18861",
+   "published": "2026-10-18T20:48+00:00",
+   "published_jst": "2026-10-19 05:48",
+   "summary": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5 Comments URL: https://news.ycombinator.com/item?id=50145337 Points: 168 # Comments: 1",
+   "ai_related": true
   },
   {
    "id": "cef1d05c7525",
@@ -388,21 +496,6 @@
    "published_jst": "2026-10-18 15:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "d3c35db34ec3",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-   "url": "https://sphinx-six-theta.vercel.app/",
-   "published": "2026-10-18T04:33+00:00",
-   "published_jst": "2026-10-18 13:33",
-   "summary": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works. Comments URL: https://news.ycombinator.com/item?id=50137950 Points: 238 # Comments: 80",
-   "ai_related": true,
-   "title_ja": "AIのコードを本番前に理解度テストするフック「Sphinx」",
-   "summary_ja": "コーディングエージェントのワークフローに組み込み、本番プッシュ時にAIが生成したコードの理解度を小テストで確認するオープンソースツール。"
   },
   {
    "id": "f59cb209b658",
@@ -767,13 +860,13 @@
    "ai_related": false
   },
   {
-   "id": "da955b6afddc",
-   "source": "Yahoo!ニュース",
+   "id": "4bd7ae8dd24c",
+   "source": "日テレNEWS NNN",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "【困惑】なぜ住宅地のすぐそばに？急増する巨大データセンター、AI需要の裏で起きている地域住民の葛藤と共生への模索",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94Uk1RX2VOekRBdEVJMDE4YmdveVJmRkM5RnNLN2NhLTFvY0ZjaWdabjZsR0N0ZzZYcmMtbGxpTlJtajY2UVhoX21BWU81eHlVMnRrMTJrcERQbGppeXE0LWFhYUpoTnhWMEV0eFNsbWl4VHlOVVZ1RnRjYzZvTnc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNE1vTFpUbG82cUluSTRIWW9mZUt1R1g3UWtqQ0phNGwwal9mb19sRkVIcW5fdXZuX1k0azFtcnBjNUZ1QjBrSWlLSmtVNVpDQ3RESnB6MENXUGZhSTI5T1M3QXJCUm05TDFrVGpnWmQ3MXdMQkJBNFhsWmw5aU9Jbi02UXJiOVk?oc=5",
    "published": "2026-10-17T05:00+00:00",
    "published_jst": "2026-10-17 14:00",
    "summary": "",
@@ -806,19 +899,6 @@
    "ai_related": false
   },
   {
-   "id": "1c04987554dc",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設DX、注目政策一気見せ",
-   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPU25ueHVkWUcwTWVSMkZmYURONzZ0bFZjdERnN3dwRWxIRGl0WXJrUlh1b015UzRfYko1MTRySVV0LUVNWE1TM2lfWTBPQUF5SWRMXzdHd2xsNG82Rkw3VUMyZmVqZ1RRd1piT1hUWkJZN0NVZ1pma0h6VUp6VzVzdUtUWGJEZ2FpdmZGWno2Q0ppSFkwajFYM1FjZ3YtUzlHRlB4QXZGeEJ4YnptV01xMUI3QmU4NmdVdzdsTHNXa2RvTVRpMW80NFFJcGNwcEprWGhJZmxRM2ZQaTlrT0c4QWRrVTVFdDJTb1c5aFlQUjZXZFg3OS1CRDVfclZQMER1b1l1U2xoaklaTUs2YTRILXdaaDJVeEluSWstVmc4eDl1UlRpRGc?oc=5",
-   "published": "2026-10-17T02:40+00:00",
-   "published_jst": "2026-10-17 11:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "72554acdef92",
    "source": "Vietnam.vn",
    "source_id": "gnews_kensetsu_ai",
@@ -828,19 +908,6 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM0NDRDV4VVA1VkVObjN4azNZSEt2UDBxSXhzeTJxekxJd2VsUWl4bHNEZE5FV0FwUzNJREZ4S3NvMUhNVE5WQ19LeEsxZjJTN3B6Yk44STJzb2hWeDg2clJSN1hSRWdPeG9zYUItUWFiU2lTd0RQT0U1VUtQWGVQU3FrbzRyNHg0ZWtNSXJhakd5eWY4cE9adWwyRWdnRTNIMHBsNHN6aw?oc=5",
    "published": "2026-10-17T02:19+00:00",
    "published_jst": "2026-10-17 11:19",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "d3ac4d02ed2c",
-   "source": "Forbes JAPAN",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "エヌビディア、AIデータセンターの構築加速へ──次世代AIシステム「Vera Rubin」ラック設計を公開",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55TzFZZEdocHFXWUY0VW9IbGxEajM1V3FnV3JXS1FBWWo4TEF4TlFWTnNtc3dLZzhwWm9NeWJpc1I4MUVzVEh6SFc0NU9iWmlzRXRjQ19aRUFCQQ?oc=5",
-   "published": "2026-10-17T02:00+00:00",
-   "published_jst": "2026-10-17 11:00",
    "summary": "",
    "ai_related": false
   },
@@ -856,19 +923,6 @@
    "published_jst": "2026-10-17 10:21",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "83213512d374",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "スペースデータ、建設現場を想定したRobotBrainの屋外デモ映像を公開",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4yU05HZTNkQmc2SDRZWDZwTGg0b3R5b0xEdVVDQUxUUTd6V1hvZENLUVZIbndGM3JaOUljUmh5a3hZa1lNSkE?oc=5",
-   "published": "2026-10-16T23:22+00:00",
-   "published_jst": "2026-10-17 08:22",
-   "summary": "",
-   "ai_related": true
   }
  ]
 }
