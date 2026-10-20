@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-20T00:23+00:00",
- "generated_at_jst": "2026-10-20 09:23",
+ "generated_at": "2026-10-20T01:18+00:00",
+ "generated_at_jst": "2026-10-20 10:18",
  "window_hours": 48,
  "counts": {
-  "ai_global": 46,
+  "construction_japan": 69,
+  "ai_global": 45,
   "ai_japan": 25,
-  "construction_japan": 71,
-  "construction_global": 17
+  "construction_global": 25
  },
  "errors": [
   {
@@ -14,15 +14,50 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
-  },
-  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "6bf7431795ed",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "鹿島建設とケミカルグラウト、建物を使いながらPFASの溶出を抑える土壌対策技術を開発",
+   "url": "https://news.build-app.jp/article/43316/",
+   "published": "2026-10-20T01:00+00:00",
+   "published_jst": "2026-10-20 10:00",
+   "summary": "鹿島建設（社長：桐生雅文氏）と、グループ会社のケミカルグラウト（東京都千代田区、社長：相河清実氏）は、地盤中のPFAS（ピーファス）を固定化...",
+   "ai_related": false
+  },
+  {
+   "id": "dce333225998",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AIで建設会社の企業カルチャーを分析・可視化 「キャリコンジョブ」に適切な人材を提案する 「カルチャーマッチング機能」が登場",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GT3FCRGVyRTdJaWwwZWxfX1QydXRPVFEwaTFYcHRJSU9ldGRhczdkb0p3UUZZTEUzX3IySldWNG50SWZRM2xIdEEzWUN3eXY1blNuOUNFZC1TTjFzelh4TWF6eUl2S0Z6X1E?oc=5",
+   "published": "2026-10-20T01:00+00:00",
+   "published_jst": "2026-10-20 10:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "5ff0a313fbad",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設技術展２０２６関東 １０月２０、２１日開催",
+   "url": "https://www.decn.co.jp/?p=188555",
+   "published": "2026-10-20T01:00+00:00",
+   "published_jst": "2026-10-20 10:00",
+   "summary": "建設技術展２０２６関東が開会しました。 東京・東池袋のサンシャインシティ展示ホールＢ・Ｃ・Ｄ（文化会館ビル４、３、２階）",
+   "ai_related": false
+  },
   {
    "id": "af02b0baed07",
    "source": "Simon Willison",
@@ -292,32 +327,6 @@
    "ai_related": false
   },
   {
-   "id": "12bbec7309c2",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "札幌市／コンサートホールと東区役所等改修の技術協力業務プロポ２件公告",
-   "url": "https://www.decn.co.jp/?p=188549",
-   "published": "2026-10-19T21:00+00:00",
-   "published_jst": "2026-10-20 06:00",
-   "summary": "札幌市は１９日、いずれも設計段階から施工者が関与するＥＣＩ方式での発注を計画している「札幌コンサートホール改修工事実施設計等技術協力業務」と「東区役所・東区民センター改修工事実施設計等技術協力業務」の公募型プロポーザル […]",
-   "ai_related": false
-  },
-  {
-   "id": "5ded2ec736e4",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "西武ＨＤ／軽井沢プリンスホテルリニューアル／名称はヴィラプリンス軽井沢",
-   "url": "https://www.decn.co.jp/?p=188551",
-   "published": "2026-10-19T21:00+00:00",
-   "published_jst": "2026-10-20 06:00",
-   "summary": "西武ホールディングス（ＨＤ）は、軽井沢プリンスホテル（長野県軽井沢町）のリニューアルで、改修後のホテル名を「ヴィラプリンス軽井沢」に決めた。約２９０億円を投資し、イーストエリアとウエストエリアのコテージをより高級感ある […]",
-   "ai_related": false
-  },
-  {
    "id": "71a28de11a06",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -346,6 +355,32 @@
    "ai_related": true,
    "title_ja": "Amazon、新ツール「TorchNeuron」でNvidiaに挑む",
    "summary_ja": "Amazonは、独自の代替チップへの移行を促すため、PyTorchにおけるNvidiaの支配力を崩そうとしている。"
+  },
+  {
+   "id": "63e786aa9dc9",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "四足歩行ロボットが吊り足場内を自律歩行、オリエンタル白石と燈が開発",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zUnNqYmN2aDhhYXZfM1YwNmpnWUtTZUFXSGpBdmR4bFBEVnQwM25DdEpuLU1hYUJXRTd6SVJERExrSVRydVY2TU1KdEdaQmpZOW5acHpsUklLNGplUEFDakVqVnNNUWM?oc=5",
+   "published": "2026-10-19T20:00+00:00",
+   "published_jst": "2026-10-20 05:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "231fde66ace8",
+   "source": "朝日新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "（アメリカ中間選挙２０２６）ＤＣ建設、住民「暮らしに何の得？」 政権の目玉政策、争点に急浮上",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WUjBweHpuR2dZTm1fcXR4eU1qeS1BSzZYN3JKQ2lGVjVUbUd5UGhWdGc5bUJBVUM2MlhQRzZ3MGtlMGlYLURVRVdiNVlpY0JwcURiTDMxcjV3OUth?oc=5",
+   "published": "2026-10-19T20:00+00:00",
+   "published_jst": "2026-10-20 05:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "f82cdc6a266f",
@@ -621,32 +656,17 @@
    "summary_ja": "最大30秒の動画クリップや多数のキーフレーム画像入力に対応した動画生成AIの最新版がリリースされました。"
   },
   {
-   "id": "67763490e953",
-   "source": "Dellows News",
+   "id": "4d11ce662af5",
+   "source": "日経クロステック",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "SHEが施工管理領域のキャリアイベントを2026年10月20日に開催へ",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LT2dYLThoR0VEX2hsNlNEdVVianJBVzZ6dkcxNWZmWXp0VmJOZUt1Wkdxb19FSDByX0owYjRKYVNQQmlWZzE0THdWNTc0WmZxODg5MG5qRlN5NVBMWnprNw?oc=5",
-   "published": "2026-10-19T17:31+00:00",
-   "published_jst": "2026-10-20 02:31",
+   "title": "生成AIの情報漏洩や改ざんに要注意、賢く使って現場で学ぶ時間を増やす（3ページ目）",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9uV3laMG5yNHVnSno0ZWRCXzZCcmNtemEwRGRmTVo0Q0VnT0JVbnUzS3AxYUhRNkJMcUZmQWt3bVZwLWUta0lxYzBmLXZwRFoxS0VMOF9XMGtiUGlUYkMxZmlqalEwTjJqemZieXFCM1lXcDA?oc=5",
+   "published": "2026-10-19T17:06+00:00",
+   "published_jst": "2026-10-20 02:06",
    "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "f30a44480c49",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Mercury 3: Diffusion at scale",
-   "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-   "published": "2026-10-19T17:27+00:00",
-   "published_jst": "2026-10-20 02:27",
-   "summary": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3 Comments URL: https://news.ycombinator.com/item?id=50155245 Points: 215 # Comments: 84",
-   "ai_related": true,
-   "title_ja": "Mercury 3：大規模な拡散モデル",
-   "summary_ja": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3 Comments URL: https://news.ycombinator.com/item?id=50155245 Points: 209 # Comments: 82"
+   "ai_related": true
   },
   {
    "id": "35ea335aade7",
@@ -1002,6 +1022,32 @@
    "summary_ja": "11月の中間選挙で議会奪還を狙う民主党は、新たな政治的課題であるAIへの対応方針を迫られている。"
   },
   {
+   "id": "03b4483f53c4",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Taylor Wimpey plans bonus cuts for 50 workers, says union",
+   "url": "https://www.constructionnews.co.uk/supply-chain/taylor-wimpey-plans-bonus-cuts-for-50-workers-says-union-19-10-2026/",
+   "published": "2026-10-19T11:51+00:00",
+   "published_jst": "2026-10-19 20:51",
+   "summary": "Unite has accused Taylor Wimpey of issuing dismissal notices to 50 joiners and scaffolders in the North East as part of a plan to rehire them and cut their bonus pay by more than 30 per cent. Unite regional officer Greg Robson said: “Taylor Wimpey… The post Taylor Wimpey plans bonus cuts for 50 work",
+   "ai_related": false
+  },
+  {
+   "id": "820aca4f3974",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Ex-HS2 analyst urges review of £58bn cancellation estimate",
+   "url": "https://www.constructionnews.co.uk/civils/hs2/ex-analyst-urges-review-of-58bn-hs2-cancellation-estimate-19-10-2026/",
+   "published": "2026-10-19T11:45+00:00",
+   "published_jst": "2026-10-19 20:45",
+   "summary": "A former HS2 cost analyst has called for an independent review into the government’s estimated cost of cancelling the HS2 high-speed rail line, amid ongoing scrutiny over the price of the megaproject. Stephen Cresswell is urging the National Audit Office (NAO) to review the Department for… The post ",
+   "ai_related": false
+  },
+  {
    "id": "2b4495cd9651",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1047,6 +1093,32 @@
    "summary_ja": "Anthropicは自社株の5%を充てた公共基金を設立し、職を失うリスクのある労働者を支援する計画。"
   },
   {
+   "id": "0260755f03bb",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Can blockchain unravel construction’s ‘web of blame’?",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/can-blockchain-unravel-constructions-web-of-blame-19-10-2026/",
+   "published": "2026-10-19T11:11+00:00",
+   "published_jst": "2026-10-19 20:11",
+   "summary": "(Pictured left to right) Ian Stacey and Mark Leeson are directors and Archie Payne is a data engineer at consultancy McBains The ninth anniversary of the Grenfell Tower fire was marked in June. Up to 20 companies are still at risk of criminal charges in… The post Can blockchain unravel construction’",
+   "ai_related": false
+  },
+  {
+   "id": "18722e58f6d0",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Inspiring Women in Construction and Engineering: Turning inclusion policy into action",
+   "url": "https://www.constructionnews.co.uk/inspire-me/inspiring-women-in-construction-and-engineering-turning-inclusion-policy-into-action-19-10-2026/",
+   "published": "2026-10-19T11:11+00:00",
+   "published_jst": "2026-10-19 20:11",
+   "summary": "Writing an inclusion policy is one thing. Making it change how site managers organise work and respond to requests for is quite another, delegates to the recent IWICE conference heard. The post Inspiring Women in Construction and Engineering: Turning inclusion policy into action appeared first on Co",
+   "ai_related": false
+  },
+  {
    "id": "bfa111e7d5d3",
    "source": "ITmedia",
    "source_id": "gnews_sekokan_ai",
@@ -1057,6 +1129,32 @@
    "published": "2026-10-19T11:00+00:00",
    "published_jst": "2026-10-19 20:00",
    "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "f2478a3feb7f",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Plan set out for 40,000 construction placements a year",
+   "url": "https://www.constructionnews.co.uk/government/plan-set-out-for-40000-construction-placements-a-year-19-10-2026/",
+   "published": "2026-10-19T10:47+00:00",
+   "published_jst": "2026-10-19 19:47",
+   "summary": "The Department for Business and Trade (DBT) has unveiled plans for 40,000 construction placements annually, alongside an apprenticeship network to help smaller contractors recruit and train workers. These placements form part of the industry's previously announced ambition to create 100,000 job oppo",
+   "ai_related": false
+  },
+  {
+   "id": "f0c7e42c75bb",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Willmott Dixon signs £31m Passivhaus leisure centre preconstruction deal",
+   "url": "https://www.constructionnews.co.uk/contracts/willmott-dixon-signs-31m-passivhaus-leisure-centre-preconstruction-deal-19-10-2026/",
+   "published": "2026-10-19T10:04+00:00",
+   "published_jst": "2026-10-19 19:04",
+   "summary": "Willmott Dixon has signed a preconstruction services agreement (PCSA) with Waverley Borough Council for a £31m Passivhaus leisure centre in Surrey. Construction is expected to begin in early 2027, with the facility scheduled to open in autumn 2028. Under the PCSA, Willmott Dixon will work… The post ",
    "ai_related": true
   },
   {
@@ -1082,7 +1180,7 @@
    "url": "https://mistral.ai/news/timestral/",
    "published": "2026-10-19T09:59+00:00",
    "published_jst": "2026-10-19 18:59",
-   "summary": "Article URL: https://mistral.ai/news/timestral/ Comments URL: https://news.ycombinator.com/item?id=50150434 Points: 531 # Comments: 101",
+   "summary": "Article URL: https://mistral.ai/news/timestral/ Comments URL: https://news.ycombinator.com/item?id=50150434 Points: 543 # Comments: 104",
    "ai_related": true,
    "title_ja": "Timestral：Mistralが開発した時系列基盤モデル",
    "summary_ja": "Mistralの新しい時系列基盤モデル「Timestral」に関する記事およびHacker News上のコメントや議論のリンクを紹介している。"
@@ -1101,6 +1199,32 @@
    "ai_related": true,
    "title_ja": "RevitとAutoCADのグラフィックス性能向上",
    "summary_ja": "AMD Ryzen AI Max PROプロセッサを搭載したHP Z WorkstationでCADやBIMの作業を加速する。"
+  },
+  {
+   "id": "d4023bf60ba4",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Higgins Homes trial: slinger denies lying about fatal lift",
+   "url": "https://www.constructionnews.co.uk/legal/higgins-homes-trial-slinger-denies-lying-about-fatal-lift-19-10-2026/",
+   "published": "2026-10-19T09:19+00:00",
+   "published_jst": "2026-10-19 18:19",
+   "summary": "The slinger on a crane lift that caused the death of a young mother walking past a Higgins Homes site has denied lying about the incident to cover his own errors. Christian Okonkwo, the first worker called as a witness by the prosecution in the… The post Higgins Homes trial: slinger denies lying abo",
+   "ai_related": false
+  },
+  {
+   "id": "4e6106017fcb",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Contractor loses bid to delay £1.6m adjudication payment",
+   "url": "https://www.constructionnews.co.uk/legal/contractor-loses-bid-to-delay-1-6m-adjudication-payment-19-10-2026/",
+   "published": "2026-10-19T09:15+00:00",
+   "published_jst": "2026-10-19 18:15",
+   "summary": "A contractor that argued paying a £1.6m adjudication judgment could put it out of business has failed to persuade the High Court to delay enforcement. The Technology and Construction Court said contractors relying on inability to pay must show they cannot raise funds from shareholders… The post Cont",
+   "ai_related": false
   },
   {
    "id": "b32798372587",
@@ -1127,7 +1251,7 @@
    "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
    "published": "2026-10-19T09:05+00:00",
    "published_jst": "2026-10-19 18:05",
-   "summary": "Article URL: https://www.youtube.com/watch?v=Ndftcft6XhU Comments URL: https://news.ycombinator.com/item?id=50150089 Points: 359 # Comments: 74",
+   "summary": "Article URL: https://www.youtube.com/watch?v=Ndftcft6XhU Comments URL: https://news.ycombinator.com/item?id=50150089 Points: 376 # Comments: 79",
    "ai_related": true,
    "title_ja": "モーター1つだけでドローンを作ってみた [動画]",
    "summary_ja": "Article URL: https://www.youtube.com/watch?v=Ndftcft6XhU Comments URL: https://news.ycombinator.com/item?id=50150089 Points: 316 # Comments: 56"
@@ -1347,6 +1471,19 @@
    "published_jst": "2026-10-19 15:40",
    "summary": "PlayStation 5(PS5)本体でAIモデルを動かし、PCやスマートフォンからチャットで利用できるオープンソースアプリ「PS5LM Plus」がGitHubで公開されています。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "899b5cc5f3c3",
+   "source": "建設通信新聞Digital",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "清水建設、人型AIロボの米新興企業に出資",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xT2RmT0xMR284aURnb1NDSXJidDE1WV9vaTc2cXZhX055b0xBLXUtcEFCRWFfSi1jdW1WS256cHVFNnRfbUcyNDhLa1pqaHpxc1o3Qm1B?oc=5",
+   "published": "2026-10-19T06:25+00:00",
+   "published_jst": "2026-10-19 15:25",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "b2cd5da7aa5f",
@@ -1589,19 +1726,6 @@
    "ai_related": true
   },
   {
-   "id": "899b5cc5f3c3",
-   "source": "建設通信新聞Digital",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "清水建設、人型AIロボの米新興企業に出資",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xT2RmT0xMR284aURnb1NDSXJidDE1WV9vaTc2cXZhX055b0xBLXUtcEFCRWFfSi1jdW1WS256cHVFNnRfbUcyNDhLa1pqaHpxc1o3Qm1B?oc=5",
-   "published": "2026-10-19T01:22+00:00",
-   "published_jst": "2026-10-19 10:22",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "7acfa9b522cd",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -1721,19 +1845,6 @@
    "ai_related": true,
    "title_ja": "llm-echo 0.5リリース",
    "summary_ja": "LLMの新規リリースに向けたテストの一環として、入力されたプロンプトをそのまま繰り返すデバッグ用プラグイン「llm-echo 0.5」が更新されました。"
-  },
-  {
-   "id": "63e786aa9dc9",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "四足歩行ロボットが吊り足場内を自律歩行、オリエンタル白石と燈が開発",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zUnNqYmN2aDhhYXZfM1YwNmpnWUtTZUFXSGpBdmR4bFBEVnQwM25DdEpuLU1hYUJXRTd6SVJERExrSVRydVY2TU1KdEdaQmpZOW5acHpsUklLNGplUEFDakVqVnNNUWM?oc=5",
-   "published": "2026-10-18T23:09+00:00",
-   "published_jst": "2026-10-19 08:09",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "5cb4b099cccc",
@@ -1859,58 +1970,6 @@
    "ai_related": false
   },
   {
-   "id": "8c296367fb14",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "静岡県磐田市／旧市民文化会館等跡地利活用／２７年度に事業者公募へ",
-   "url": "https://www.decn.co.jp/?p=188494",
-   "published": "2026-10-18T21:00+00:00",
-   "published_jst": "2026-10-19 06:00",
-   "summary": "静岡県磐田市は、旧磐田市民文化会館等跡地活用事業について、２０２７年度に事業者の公募手続きを開始する方針だ。本年度は官民連携導入可能性調査を日本総合研究所で進めており、民間事業者へのサウンディング（対話）調査などを踏ま […]",
-   "ai_related": false
-  },
-  {
-   "id": "35397e2ff3df",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大和ハウス工業ら／九州大学箱崎キャンパス跡地に共同住宅８棟／総延べ１０・１万平米",
-   "url": "https://www.decn.co.jp/?p=188496",
-   "published": "2026-10-18T21:00+00:00",
-   "published_jst": "2026-10-19 06:00",
-   "summary": "大和ハウス工業ら９社は、福岡市東区の九州大学箱崎キャンパス跡地に８棟総延べ１０万１０００平方メートル、計１００４戸の共同住宅を建設する。１１月ごろから順次着工予定。設計は雅禧建築設計事務所とＧデザインアソシエイツ（いず […]",
-   "ai_related": false
-  },
-  {
-   "id": "cedf8218010b",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "野村不／東京都江東区で大規模複合開発始動／前田建設がマンション施工",
-   "url": "https://www.decn.co.jp/?p=188502",
-   "published": "2026-10-18T21:00+00:00",
-   "published_jst": "2026-10-19 06:00",
-   "summary": "野村不動産は１６日、東京都江東区で分譲マンションや賃貸レジデンス、商業施設などで構成する大規模複合施設の開発プロジェクトを始めたと発表した。建設地は東京科学大学が所有する１・７ヘクタールの土地。約７０年の一般定期借地権 […]",
-   "ai_related": false
-  },
-  {
-   "id": "e1b65f3a53cb",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大阪府箕面市／新市立病院整備／分離ＥＣＩ採用、１２月上旬に事業者選定プロポ公告",
-   "url": "https://www.decn.co.jp/?p=188504",
-   "published": "2026-10-18T21:00+00:00",
-   "published_jst": "2026-10-19 06:00",
-   "summary": "大阪府箕面市は、新船場北公園跡地で計画している「新市立病院整備事業」で、１２月上旬にＥＣＩ事業者（施工予定者）を決める公募型プロポーザルを公告する。建築工事と設備工事を分離して発注する「分離ＥＣＩ方式」を採用。参加資格 […]",
-   "ai_related": false
-  },
-  {
    "id": "cef1d05c7525",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1965,6 +2024,19 @@
    "ai_related": false
   },
   {
+   "id": "74ed58796a91",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "6者が対話に参加/長居障がい者スポーツC 4月に一般入札公告/大阪市",
+   "url": "https://www.kensetsunews.com/archives/1297839",
+   "published": "2026-10-18T19:55+00:00",
+   "published_jst": "2026-10-19 04:55",
+   "summary": "大阪市は１５日、「新たな長居障がい者スポーツセンター（仮称）整備・運営事業」の実施方針と要求水準書… The post 6者が対話に参加/長居障がい者スポーツC 4月に一般入札公告/大阪市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "f508e7ca883f",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2001,19 +2073,6 @@
    "published": "2026-10-18T19:55+00:00",
    "published_jst": "2026-10-19 04:55",
    "summary": "福島県は、（仮称）あぶくま横断道路など三つの構想路線を対象とする「広域道路基礎調査業務委託（道改・… The post 日本工営に決定/構想3路線の基礎調査/福島県 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "74ed58796a91",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "6者が対話に参加/長居障がい者スポーツC 4月に一般入札公告/大阪市",
-   "url": "https://www.kensetsunews.com/archives/1297839",
-   "published": "2026-10-18T19:55+00:00",
-   "published_jst": "2026-10-19 04:55",
-   "summary": "大阪市は１５日、「新たな長居障がい者スポーツセンター（仮称）整備・運営事業」の実施方針と要求水準書… The post 6者が対話に参加/長居障がい者スポーツC 4月に一般入札公告/大阪市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
