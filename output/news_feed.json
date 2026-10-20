@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-20T20:54+00:00",
- "generated_at_jst": "2026-10-21 05:54",
+ "generated_at": "2026-10-20T21:35+00:00",
+ "generated_at_jst": "2026-10-21 06:35",
  "window_hours": 48,
  "counts": {
-  "ai_global": 65,
-  "ai_japan": 29,
-  "construction_japan": 78,
-  "construction_global": 28
+  "ai_global": 63,
+  "construction_japan": 74,
+  "ai_japan": 28,
+  "construction_global": 35
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,6 +24,47 @@
  ],
  "items": [
   {
+   "id": "9ea810a53371",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic’s cloud partnerships are getting messy",
+   "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+   "published": "2026-10-20T21:25+00:00",
+   "published_jst": "2026-10-21 06:25",
+   "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
+   "ai_related": true,
+   "title_ja": "Anthropicのクラウド提携に暗雲",
+   "summary_ja": "11月のIPOを控えインフラ投資が膨らむ中、Anthropicは競合視するクラウド事業者からの計算資源確保に苦戦しているという。"
+  },
+  {
+   "id": "63ab832faf08",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "近畿の都市再生／人が主役のまちを目指して",
+   "url": "https://www.decn.co.jp/?p=188564",
+   "published": "2026-10-20T21:20+00:00",
+   "published_jst": "2026-10-21 06:20",
+   "summary": "関西では都市再生緊急整備地域を中心に、各地で新たなまちづくりが進行している。神戸市では都心・三宮エリアの再生に向け、駅ビルやバスターミナル、市役所庁舎の整備など大型プロジェクトが続く。大阪でも、キタ・ミナミの南北軸に加 […]",
+   "ai_related": false
+  },
+  {
+   "id": "2c9ccd2dfdb9",
+   "source": "施工の神様",
+   "source_id": "sekokan_navi",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【打倒Suicaの新キャラ】トレンド日本一へ、土木の誇りを懸けた戦いが始まる【土木の日2026】",
+   "url": "https://sekokan-navi.jp/magazine/87640",
+   "published": "2026-10-20T21:00+00:00",
+   "published_jst": "2026-10-21 06:00",
+   "summary": "過去3年間、土木は“あと一歩”で敗れてきた 毎年11月18日の「土木の日」に合わせ、午前11時18分をターゲットに、SNSでハッシュタグ「#土木の日2026」を付けて土木への思いを一斉投稿する「土木の日 どぼイチアクショ... The post 【打倒Suicaの新キャラ】トレンド日本一へ、土木の誇りを懸けた戦いが始まる【土木の日2026】 first appeared on 施工の神様 .",
+   "ai_related": false
+  },
+  {
    "id": "38bd10c8e49d",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -30,7 +75,9 @@
    "published": "2026-10-20T20:40+00:00",
    "published_jst": "2026-10-21 05:40",
    "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "SpaceXのAI事業が予想を上回る好調",
+   "summary_ja": "SpaceXの第3四半期は黒字化を達成し、純利益は44億ドルに達した。その原動力となったのはAI事業である。"
   },
   {
    "id": "a323e283c5c7",
@@ -43,7 +90,22 @@
    "published": "2026-10-20T20:35+00:00",
    "published_jst": "2026-10-21 05:35",
    "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAI、バイオテック強化へOrchestra Bioを買収",
+   "summary_ja": "生命科学研究用AIモデルや実験計画を支援するツール「Rosalind Workbench」の開発にOrchestraのチームと技術を統合すると発表した。"
+  },
+  {
+   "id": "8577c20393d7",
+   "source": "https://c-eye.co.jp/",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ルクレ：AIでデータ仕分け、建設から他領域へ",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9nSWxGMGdYQl94a3FGZEhpcHFVelIxc1dWX1B3RFdhR25XcDQtUDNsWV80M2g0UU5LdENvVXRsT0l5QTRJVGxweWFUdDU?oc=5",
+   "published": "2026-10-20T20:25+00:00",
+   "published_jst": "2026-10-21 05:25",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "165cb1553146",
@@ -56,7 +118,9 @@
    "published": "2026-10-20T20:07+00:00",
    "published_jst": "2026-10-21 05:07",
    "summary": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Meta、AIの反発受け商用利用規約から「学習」を削除",
+   "summary_ja": "MetaはAIのスクレイピング方針を変更したが、robots.txtを尊重する文言は追加しない方針。"
   },
   {
    "id": "f74f11fae08f",
@@ -69,7 +133,9 @@
    "published": "2026-10-20T20:00+00:00",
    "published_jst": "2026-10-21 05:00",
    "summary": "It's probably time to audit your Gemini settings.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Geminiのパーソナル機能が車載システムに対応へ",
+   "summary_ja": "そろそろGeminiの設定を見直す時期が来ているようだ。"
   },
   {
    "id": "e07350494931",
@@ -83,32 +149,6 @@
    "published_jst": "2026-10-21 05:00",
    "summary": "AIコーディングツールの認証情報を盗むマルウェアと、保存されたAPIキーが流出した可能性のあるサービスの侵害が、同じ週に公表された。盗まれたキーで何が起きるのか、手元のキーをどう守るかを整理する。",
    "ai_related": true
-  },
-  {
-   "id": "ce203387a293",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "港区/参加表明11月19日まで/水辺まちづくり計画支援",
-   "url": "https://www.kensetsunews.com/archives/1298785",
-   "published": "2026-10-20T19:55+00:00",
-   "published_jst": "2026-10-21 04:55",
-   "summary": "東京都港区は、水辺のまちづくりに向けた具体的な取り組みの検討に本格着手する。１０月１９日に「（仮称… The post 港区/参加表明11月19日まで/水辺まちづくり計画支援 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "bcdf7c2da0bb",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "NAA/完成予定期日は34年末/10月28日から住民説明会成田C滑走路など",
-   "url": "https://www.kensetsunews.com/archives/1298797",
-   "published": "2026-10-20T19:55+00:00",
-   "published_jst": "2026-10-21 04:55",
-   "summary": "成田国際空港会社（ＮＡＡ）は１９日、「成田空港第２の開港プロジェクト」として整備を進めているＣ滑走… The post NAA/完成予定期日は34年末/10月28日から住民説明会成田C滑走路など first appeared on 建設通信新聞Digital .",
-   "ai_related": false
   },
   {
    "id": "60f23f945a07",
@@ -137,6 +177,32 @@
    "ai_related": false
   },
   {
+   "id": "ce203387a293",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "港区/参加表明11月19日まで/水辺まちづくり計画支援",
+   "url": "https://www.kensetsunews.com/archives/1298785",
+   "published": "2026-10-20T19:55+00:00",
+   "published_jst": "2026-10-21 04:55",
+   "summary": "東京都港区は、水辺のまちづくりに向けた具体的な取り組みの検討に本格着手する。１０月１９日に「（仮称… The post 港区/参加表明11月19日まで/水辺まちづくり計画支援 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "bcdf7c2da0bb",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "NAA/完成予定期日は34年末/10月28日から住民説明会成田C滑走路など",
+   "url": "https://www.kensetsunews.com/archives/1298797",
+   "published": "2026-10-20T19:55+00:00",
+   "published_jst": "2026-10-21 04:55",
+   "summary": "成田国際空港会社（ＮＡＡ）は１９日、「成田空港第２の開港プロジェクト」として整備を進めているＣ滑走… The post NAA/完成予定期日は34年末/10月28日から住民説明会成田C滑走路など first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "3b5ce86c8c40",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -147,7 +213,9 @@
    "published": "2026-10-20T19:34+00:00",
    "published_jst": "2026-10-21 04:34",
    "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\".",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "音声マルチプレイヤー対応のRTS「Battle Drones」",
+   "summary_ja": "C&C風のリアルタイムストラテジーゲームを開発。過去の実験的ゲームとは異なり、今回は実際にプレイして楽しめる仕上がりになっている。"
   },
   {
    "id": "a20594f634b0",
@@ -160,7 +228,9 @@
    "published": "2026-10-20T19:23+00:00",
    "published_jst": "2026-10-21 04:23",
    "summary": "The megaproject proposal outlines three expansion phases to accommodate up to 20 million passengers annually.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "オクラホマシティ、大規模な空港拡張計画を発表",
+   "summary_ja": "年間最大2,000万人の乗客に対応するため、3段階の拡張工事を行う巨大プロジェクト案が明らかになった。"
   },
   {
    "id": "65b5f99fcdc1",
@@ -173,7 +243,9 @@
    "published": "2026-10-20T19:03+00:00",
    "published_jst": "2026-10-21 04:03",
    "summary": "Elevenlabs' new Eleven Realtime speech-to-speech models combine speed and accuracy. The v1 Max variant scores 98.8 percent on the Big Bench Audio benchmark with a 0.57-second response time. Elevenlabs says no model on the Artificial Analysis leaderboard is both faster and more accurate. The article ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Elevenlabs、リアルタイムAI会話向けの新音声モデルを発表",
+   "summary_ja": "速度と精度を両立した新モデルを発表。v1 Maxはベンチマークで高いスコアを記録し、応答時間は0.57秒を誇る。"
   },
   {
    "id": "855633a1e3c9",
@@ -186,7 +258,9 @@
    "published": "2026-10-20T18:56+00:00",
    "published_jst": "2026-10-21 03:56",
    "summary": "Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cuts compute costs and energy use when running AI models. The release adds more pricing pressure on Western providers like OpenAI and Anthropic. The article Deepseek open-sources the ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "DeepSeek、最速AIモデルの推論エンジンをオープンソース化",
+   "summary_ja": "高速なV4.1-Flashを支える推論基盤「DeepInfer」を公開。計算コストとエネルギーの削減により、西側企業への価格競争力を高める。"
   },
   {
    "id": "45cc8f588659",
@@ -199,7 +273,9 @@
    "published": "2026-10-20T18:38+00:00",
    "published_jst": "2026-10-21 03:38",
    "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Google、NvidiaのAI開発者市場に参入",
+   "summary_ja": "PyTorchユーザーがNvidia製GPUから簡単に移行できる開発者向けツールを公開し、Amazonに追随した。"
   },
   {
    "id": "6f64ba14f44d",
@@ -212,7 +288,9 @@
    "published": "2026-10-20T18:36+00:00",
    "published_jst": "2026-10-21 03:36",
    "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ChatGPT、チャットのロック機能を導入",
+   "summary_ja": "プライベートな話題やサプライズの計画などを、端末を他人に渡す際にも非公開に保てる新機能を追加したと発表。"
   },
   {
    "id": "748b8e425db0",
@@ -225,7 +303,9 @@
    "published": "2026-10-20T18:22+00:00",
    "published_jst": "2026-10-21 03:22",
    "summary": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ウクライナ軍、ドローンによる負傷兵救出を実践",
+   "summary_ja": "ウクライナによる最新のドローン技術が、厳しい状況下での負傷兵避難の確率を高める可能性がある。"
   },
   {
    "id": "f52190a49967",
@@ -238,7 +318,9 @@
    "published": "2026-10-20T18:07+00:00",
    "published_jst": "2026-10-21 03:07",
    "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links t",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Meta、AIチャット共有機能を一時停止",
+   "summary_ja": "研究者がWeb上で公開URLを発見したことを受け、AIアシスタントの会話共有機能「Muse」を一時停止したと報じられた。"
   },
   {
    "id": "d1a4c695c04e",
@@ -251,7 +333,9 @@
    "published": "2026-10-20T18:07+00:00",
    "published_jst": "2026-10-21 03:07",
    "summary": "The EV manufacturer pledged $50,000 to help kickstart training in pre-apprenticeship programs as well as scholarships to support construction recruiting on the Atlanta build.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Clayco、5億ドルのRivian工場建設で人材育成を実施",
+   "summary_ja": "EVメーカーはアトランタの建設現場における採用支援として、プログラムの立ち上げや奨学金に5万ドルを拠出した。"
   },
   {
    "id": "2f7a561d0868",
@@ -264,7 +348,9 @@
    "published": "2026-10-20T17:55+00:00",
    "published_jst": "2026-10-21 02:55",
    "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "エリック・シュミット氏、Anthropic株を創業者の半分保有か",
+   "summary_ja": "元GoogleのCEOである同氏は、主要AIラボの株式を約1%保有しているとブルームバーグが報じた。"
   },
   {
    "id": "f25d567c798e",
@@ -277,7 +363,9 @@
    "published": "2026-10-20T17:40+00:00",
    "published_jst": "2026-10-21 02:40",
    "summary": "Meta argues nobody “decided” to pirate books to train AI.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Meta、AI学習のための海賊版をめぐり従業員に責任転嫁か",
+   "summary_ja": "Metaは、AI学習目的の書籍の違法ダウンロードについて、誰も「意図的に」行ったわけではないと主張している。"
   },
   {
    "id": "9150d7a65d11",
@@ -290,7 +378,9 @@
    "published": "2026-10-20T17:17+00:00",
    "published_jst": "2026-10-21 02:17",
    "summary": "Mistral AI launched Voxtral 3, a new family of language models built for real-time voice agents. The system combines speech-to-text, text-to-speech, and a voice agent SDK, supports more than 50 languages, and lets agents tap into external tools during live conversations. It can run on your own infra",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Mistral AI、リアルタイム音声エージェント「Voxtral 3」発表",
+   "summary_ja": "音声認識・合成やSDKを統合し、50以上の言語をサポートするリアルタイム音声エージェント向けの新しい言語モデルファミリーを発表。"
   },
   {
    "id": "8891282d78b3",
@@ -303,7 +393,9 @@
    "published": "2026-10-20T17:12+00:00",
    "published_jst": "2026-10-21 02:12",
    "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "MetaのMuse、40日で米国内1,000万DLを突破",
+   "summary_ja": "AIコンパニオン「Muse」が公開から40日で米国内のダウンロード数1,000万を突破し、Threadsなどに並ぶ快挙を達成した。"
   },
   {
    "id": "22b80dc33ffb",
@@ -316,7 +408,9 @@
    "published": "2026-10-20T17:10+00:00",
    "published_jst": "2026-10-21 02:10",
    "summary": "Builders have touted recent wins on road, bridge, rail and military jobs as the sector continues to evolve.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "データセンター以外でもインフラ投資が活発化",
+   "summary_ja": "業界が進化を続ける中、道路、橋梁、鉄道、軍関連の案件で建設業者による受注が相次いでいる。"
   },
   {
    "id": "d870e69da988",
@@ -329,7 +423,9 @@
    "published": "2026-10-20T17:00+00:00",
    "published_jst": "2026-10-21 02:00",
    "summary": "OpenAI CEO Sam Altman laid out three paths to safe AI in an internal presentation: an international watchdog modeled after the IAEA, a merger of the major labs into one entity, or a single company so powerful it could shut down everyone else's compute. He called the last option \"terrible.\" The artic",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "サム・オルサム氏、AI安全性をめぐる3つのシナリオを提示",
+   "summary_ja": "IAEA型の国際監視機関、主要ラボの統合、あるいは他社のGPUを無効化できるほどの圧倒的な単一企業の存在という3つの道を示した。"
   },
   {
    "id": "2ec5628a1d0b",
@@ -371,8 +467,10 @@
    "url": "https://mistral.ai/news/voxtral-3/",
    "published": "2026-10-20T16:02+00:00",
    "published_jst": "2026-10-21 01:02",
-   "summary": "Article URL: https://mistral.ai/news/voxtral-3/ Comments URL: https://news.ycombinator.com/item?id=50168396 Points: 396 # Comments: 109",
-   "ai_related": true
+   "summary": "Article URL: https://mistral.ai/news/voxtral-3/ Comments URL: https://news.ycombinator.com/item?id=50168396 Points: 429 # Comments: 118",
+   "ai_related": true,
+   "title_ja": "Voxtral 3が発表",
+   "summary_ja": "Mistral AIの最新情報やHacker Newsでの議論が共有されています。"
   },
   {
    "id": "5130abca4141",
@@ -489,6 +587,21 @@
    "ai_related": true
   },
   {
+   "id": "5a1312541d28",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Collins Construction sold to staff",
+   "url": "https://www.constructionenquirer.com/2026/10/20/collins-construction-sold-to-staff/",
+   "published": "2026-10-20T13:43+00:00",
+   "published_jst": "2026-10-20 22:43",
+   "summary": "£200m turnover fit-out contractor now owned by 168 staff",
+   "ai_related": false,
+   "title_ja": "コリンズ・コンストラクションが従業員持株会社に",
+   "summary_ja": "売上高2億ポンドの内装施工会社が168人の従業員によって所有されることになりました。"
+  },
+  {
    "id": "c723746d1e66",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -528,7 +641,7 @@
    "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
    "published": "2026-10-20T13:06+00:00",
    "published_jst": "2026-10-20 22:06",
-   "summary": "Article URL: https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web Comments URL: https://news.ycombinator.com/item?id=50165801 Points: 286 # Comments: 163",
+   "summary": "Article URL: https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web Comments URL: https://news.ycombinator.com/item?id=50165801 Points: 294 # Comments: 167",
    "ai_related": true,
    "title_ja": "偽の統計を公開し、LLMに引用させる手法",
    "summary_ja": "AIの学習データやLLMの引用に影響を与えるためのウェブ上のデータ発信戦術についての議論や情報。"
@@ -592,6 +705,21 @@
    "ai_related": false,
    "title_ja": "GlobalFoundries、日米貿易協定に基づきNYで工場建設",
    "summary_ja": "米国の半導体製造を加速し、サプライチェーンを強化するための巨額投資による新工場建設が進められている。"
+  },
+  {
+   "id": "2bc58a0fb76d",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Sauter acquires M&E contractor 24-7 Group",
+   "url": "https://www.constructionenquirer.com/2026/10/20/sauter-acquires-me-contractor-24-7-group/",
+   "published": "2026-10-20T12:18+00:00",
+   "published_jst": "2026-10-20 21:18",
+   "summary": "Swiss-owned giant takes control of £70m turnover specialist",
+   "ai_related": false,
+   "title_ja": "ザウターが設備工事の24-7グループを買収",
+   "summary_ja": "スイス系の大手企業が、売上高70百万ポンドの専門企業を買収しました。"
   },
   {
    "id": "fb1fbfb86d79",
@@ -684,21 +812,6 @@
    "summary_ja": "英サフォークの土木グループは売上高が減少したものの、年間税引前利益の増加を達成したと発表した。"
   },
   {
-   "id": "33f72cf8b33f",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Yelp can now call on your behalf to check wait times at a restaurant",
-   "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
-   "published": "2026-10-20T11:00+00:00",
-   "published_jst": "2026-10-20 20:00",
-   "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
-   "ai_related": true,
-   "title_ja": "Yelp、レストランの待ち時間を代わりに電話確認する機能",
-   "summary_ja": "Yelpはアプリに多数のAI新機能を搭載し、待ち時間の電話確認や個人の好みを記憶したおすすめ機能を提供する。"
-  },
-  {
    "id": "697eb620bfd3",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -712,6 +825,21 @@
    "ai_related": true,
    "title_ja": "Otter.ai、会議ツール向けに3億2000万ドルを調達",
    "summary_ja": "会議記録ツールのOtter.aiは火曜日、General Catalystのファンドから3億2000万ドルを調達したと発表した。"
+  },
+  {
+   "id": "33f72cf8b33f",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+   "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+   "published": "2026-10-20T11:00+00:00",
+   "published_jst": "2026-10-20 20:00",
+   "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+   "ai_related": true,
+   "title_ja": "Yelp、レストランの待ち時間を代わりに電話確認する機能",
+   "summary_ja": "Yelpはアプリに多数のAI新機能を搭載し、待ち時間の電話確認や個人の好みを記憶したおすすめ機能を提供する。"
   },
   {
    "id": "70daaa5fdec4",
@@ -740,19 +868,6 @@
    "ai_related": false,
    "title_ja": "GRS、厳しい市場環境の中でも利益がほぼ倍増",
    "summary_ja": "建設資材のGRS Roadstoneは、住宅市場の低迷にもかかわらず、税引前利益をほぼ倍増させました。1月31日までの売上高は9％増の5億2100万ポンドとなりました。"
-  },
-  {
-   "id": "78807d74c73a",
-   "source": "DXマガジン",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "1000km離れても現場にいる感覚！NTTが「IOWN」で実現したトンネル工事の次世代遠隔管理",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1NTGZVV3FTd2dQQm1MRHBFUG5tNTk5Rk5BTXNkbDYwSnR0QXpZZjF3SG93TjE5WUZTYWc3dEFMaXYwZFhWeVZ0Wi1KcHE?oc=5",
-   "published": "2026-10-20T10:55+00:00",
-   "published_jst": "2026-10-20 19:55",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "d621c232fc71",
@@ -796,13 +911,13 @@
    "ai_related": false
   },
   {
-   "id": "3578d33deaeb",
+   "id": "9f7d18a15985",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "AI時代を支える「データセンター」 東北でも建設計画が加速 期待と課題は？ (ミヤギテレビ)",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdXRQcU9tdlo5eFdzMWVyWXBiRUVPVGRLREVkbk9HaTNGT1VENTVkNXB3WFFfd19NMF9sUEtPY0NGb0FwaEt5bXhTUWtIQjVsUWc1UXdxT0RMRjd0ZGlEUTJmdmhkc3poQ1Jjcm12c3pqeFpweWk3VWhmckNHaVJVM19OWlR4OS15OGNUaVBR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdkc3b29HcU9vd0l5eTVTNjBIbDNNT09teDZxSHpyRUZaV3V4UDJEa1VKendBWnAyaHBYajNia0VabnRxOWpDZF9wRVAyd2JRTVNxUExLRkJ3YWx2OHNlaDNham5scDVSdUFXNWljT0ZPRmNUTWZmMUNJTm5lSkZZTWt3TGpFNjB2UmhzUkZB?oc=5",
    "published": "2026-10-20T10:11+00:00",
    "published_jst": "2026-10-20 19:11",
    "summary": "",
@@ -834,7 +949,9 @@
    "published": "2026-10-20T10:00+00:00",
    "published_jst": "2026-10-20 19:00",
    "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ChatGPT Workで現金管理の時間を大幅削減",
+   "summary_ja": "フランチャイズ加盟店がメニュー価格の改定時間を短縮し、資金繰りの効率化を実現しました。"
   },
   {
    "id": "fde3883cdf1b",
@@ -872,7 +989,7 @@
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "published": "2026-10-20T09:08+00:00",
    "published_jst": "2026-10-20 18:08",
-   "summary": "Article URL: https://github.com/deepseek-ai/DeepInfer Comments URL: https://news.ycombinator.com/item?id=50163277 Points: 1999 # Comments: 778",
+   "summary": "Article URL: https://github.com/deepseek-ai/DeepInfer Comments URL: https://news.ycombinator.com/item?id=50163277 Points: 2028 # Comments: 792",
    "ai_related": true,
    "title_ja": "DeepSeek、推論エンジンをオープンソース化",
    "summary_ja": "DeepSeekが自社の推論エンジンをオープンソースとして公開した。"
@@ -962,6 +1079,21 @@
    "ai_related": false
   },
   {
+   "id": "359f63e2c7fc",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Vistry gets green light for next phase of London estate",
+   "url": "https://www.constructionenquirer.com/2026/10/20/vistry-gets-green-light-for-next-phase-of-london-estate/",
+   "published": "2026-10-20T07:15+00:00",
+   "published_jst": "2026-10-20 16:15",
+   "summary": "Planning approved for next stage of 2,170-home site in Kingston",
+   "ai_related": false,
+   "title_ja": "ヴィストリー、ロンドンの住宅開発計画を承認",
+   "summary_ja": "キングストンにおける2,170戸の住宅建設計画の次段階が承認されました。"
+  },
+  {
    "id": "e22faa2410ea",
    "source": "Construction News (UK)",
    "source_id": "constructionnews_uk",
@@ -1003,6 +1135,21 @@
    "ai_related": true
   },
   {
+   "id": "03f1472f9b83",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Morgan Sindall starts £32m SEND school job",
+   "url": "https://www.constructionenquirer.com/2026/10/20/morgan-sindall-starts-32m-send-school-job/",
+   "published": "2026-10-20T06:46+00:00",
+   "published_jst": "2026-10-20 15:46",
+   "summary": "Construction finally underway at site of the former Bramcote Park School",
+   "ai_related": false,
+   "title_ja": "モルガン・シンダル、32百万ポンドの学校建設に着工",
+   "summary_ja": "旧ブラムコート・パーク・スクールの敷地で建設工事がようやく開始されました。"
+  },
+  {
    "id": "8b5e4b1834a0",
    "source": "ArchDaily",
    "source_id": "archdaily",
@@ -1018,6 +1165,21 @@
    "summary_ja": "BIMにより設計の各要素に膨大な情報を付加可能になりました。壁には耐火等級やコスト分類、さらには将来の保守情報を持たせることができます。"
   },
   {
+   "id": "cfeba25ebd44",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Bradford station rebuild gets government backing",
+   "url": "https://www.constructionenquirer.com/2026/10/20/bradford-station-rebuild-gets-government-backing/",
+   "published": "2026-10-20T06:36+00:00",
+   "published_jst": "2026-10-20 15:36",
+   "summary": "New Northern Powerhouse Rail hub to help unlock 5,000-home regeneration",
+   "ai_related": false,
+   "title_ja": "ブラッドフォード駅の再開発に政府支援",
+   "summary_ja": "新たな鉄道ハブが、5,000戸の住宅再生事業の推進を後押しします。"
+  },
+  {
    "id": "a66c6cc8c434",
    "source": "デジコン",
    "source_id": "gnews_kensetsu_ai",
@@ -1029,6 +1191,21 @@
    "published_jst": "2026-10-20 15:26",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "9d01013568cf",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "RED Group to finish £50m Ardmore office job",
+   "url": "https://www.constructionenquirer.com/2026/10/20/red-group-to-finish-50m-ardmore-office-job/",
+   "published": "2026-10-20T06:07+00:00",
+   "published_jst": "2026-10-20 15:07",
+   "summary": "Contractor steps-in to complete work at 5 Chancery Lane",
+   "ai_related": false,
+   "title_ja": "REDグループ、50百万ポンドのオフィス工事を継承",
+   "summary_ja": "チャナンシー・レーン5番地での工事を完了するため、新たな施工会社が引き継ぎました。"
   },
   {
    "id": "b643a775b6df",
@@ -1057,6 +1234,21 @@
    "ai_related": false,
    "title_ja": "都市に対しHS2の人材活用を求める声、計画終息を見据えて",
    "summary_ja": "シンクタンクの提案によると、イングランドの各市長戦略当局は、HS2のピーク過ぎにその労働力の人材を吸収し、交通プロジェクトを強化できる可能性があります。"
+  },
+  {
+   "id": "4f4f01f1a8b5",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Domis lined up as 44-storey Manchester tower clears Gateway 2",
+   "url": "https://www.constructionenquirer.com/2026/10/20/domis-lined-up-as-44-storey-manchester-tower-clears-gateway-2/",
+   "published": "2026-10-20T05:38+00:00",
+   "published_jst": "2026-10-20 14:38",
+   "summary": "Glenbrook targets 2027 start after securing funding and building safety approval for 364-home scheme",
+   "ai_related": false,
+   "title_ja": "マンチェスターの44階建てタワー計画が前進",
+   "summary_ja": "資金調達と安全性の承認を得たグレブルックが、2027年の着工を目指しています。"
   },
   {
    "id": "07421cf6326b",
@@ -1111,6 +1303,21 @@
    "published_jst": "2026-10-20 14:00",
    "summary": "2026年9月以降、日本企業がハッカーにより不正アクセスされる被害が相次いでおり、AIを悪用したハッキングの高速化・高度化が懸念されています。サイバーセキュリティ企業のNorForgeで主席脅威研究員を務めるスノーレ・ファーゲルランド氏が、オープンソースAIツールの「Cairn」を用いたハッキングの実態について報告しました。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "036565456a24",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Breheny lifts profit despite £11m turnover slide",
+   "url": "https://www.constructionenquirer.com/2026/10/20/breheny-lifts-profit-despite-11m-turnover-slide/",
+   "published": "2026-10-20T04:58+00:00",
+   "published_jst": "2026-10-20 13:58",
+   "summary": "Suffolk civils group strengthens margins and builds cash pile as sales fall",
+   "ai_related": false,
+   "title_ja": "ブレヘニー、減収ながらも利益率が向上",
+   "summary_ja": "サフォークの土木グループが売上減少の中で利益率を強化し、現金を蓄積しました。"
   },
   {
    "id": "f09fb34a442a",
@@ -1297,32 +1504,6 @@
    "ai_related": false
   },
   {
-   "id": "47f246ebde2d",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ドローン測量・赤外線点検の導入とデータ活用を解説。無料セミナーを11月6日（金）にオンライン、24日（火）名古屋で開催",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rbHJVR1hueGF2bnNMRVdIQW5EUUFlbnp3U3Y1Mm9oVVB5V1Mtc0hKLU1sb0FWS1hRWW5ZUzBWVzlrd3MxSWE2N3NJYklEOHZOQjNUQUtScWtHMkpGamU4RlNYcDVUN0h5VGdkeERmYWY1dw?oc=5",
-   "published": "2026-10-20T01:00+00:00",
-   "published_jst": "2026-10-20 10:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "5ff0a313fbad",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設技術展２０２６関東 １０月２０、２１日開催",
-   "url": "https://www.decn.co.jp/?p=188555",
-   "published": "2026-10-20T01:00+00:00",
-   "published_jst": "2026-10-20 10:00",
-   "summary": "建設技術展２０２６関東が開会しました。 東京・東池袋のサンシャインシティ展示ホールＢ・Ｃ・Ｄ（文化会館ビル４、３、２階）",
-   "ai_related": false
-  },
-  {
    "id": "c25f75f82ebb",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1346,7 +1527,9 @@
    "published": "2026-10-20T00:00+00:00",
    "published_jst": "2026-10-20 09:00",
    "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIがOrchestra Bioを買収",
+   "summary_ja": "ライフサイエンスの研究開発にAIを導入し、バイオ医薬品の創薬加速を支援します。"
   },
   {
    "id": "af02b0baed07",
@@ -1856,21 +2039,6 @@
    "ai_related": true,
    "title_ja": "ライフ支援AIコンパニオンのTolan、3000万ドルを資金調達",
    "summary_ja": "AIコンパニオンアプリのTolanは、25万人超のアクティブユーザーを獲得し、追加で資金調達を実施しました。"
-  },
-  {
-   "id": "71c2d7263cd3",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-   "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
-   "published": "2026-10-19T18:49+00:00",
-   "published_jst": "2026-10-20 03:49",
-   "summary": "Eugenia Kuyda's newest startup Wabi is positioned to take advantage of an idea she had more than a decade ago. Wabi offers a personal AI assistant with a twist, free and downloadable to anyone today.",
-   "ai_related": true,
-   "title_ja": "Replika創業者、12年前に提案したAIアシスタントを実現",
-   "summary_ja": "新興企業Wabiが、10年以上前に構想されたアイデアを活用した無料の個人向けAIアシスタントを提供します。"
   },
   {
    "id": "fbbcdbe57add",
@@ -2403,21 +2571,6 @@
    "summary_ja": "拡張への慎重論や財政的支援の動きが交錯する中、空港側はスキル向上への取り組みを強化している。"
   },
   {
-   "id": "db11a600c107",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Electrical wholesaler fined £4m after worker crushed",
-   "url": "https://www.constructionenquirer.com/2026/10/19/electrical-wholesaler-fined-4m-after-worker-crushed/",
-   "published": "2026-10-19T06:42+00:00",
-   "published_jst": "2026-10-19 15:42",
-   "summary": "Victim lives in care home after 200kg switchboard unit fell on him",
-   "ai_related": false,
-   "title_ja": "電気卸売業者、作業員圧死事故で400万ポンドの罰金",
-   "summary_ja": "200キロの配電盤が落下し、被害者は事故後に療養施設での生活を余儀なくされている。"
-  },
-  {
    "id": "b2cd5da7aa5f",
    "source": "Digital PR Platform",
    "source_id": "gnews_sekokan_ai",
@@ -2615,19 +2768,6 @@
    "ai_related": false
   },
   {
-   "id": "7e78e22589dc",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "あなたの現場に建設ロボット",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaVlpT2ZXNnJSaWhWVnVkU2NWTmRsbzBCMlBfb25kdDd3NWpDTVNIYzRpUS0wWXh2dE9SOXBCRl9QRVk1YmRyWDIzVVFOWWtkbjFJVC1nRjA4Vk9CQWx5cVRfMm1FVWV1OVJtcmZQcEFiYjZnajg5X3B0SWhhVDNQcnZnOFZnVnZ1OFVHTVY4OTJYRU96U1NYUHBhOVFnZmwzbEtnRGRpcUh5SjhRZW00Yg?oc=5",
-   "published": "2026-10-19T02:14+00:00",
-   "published_jst": "2026-10-19 11:14",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "899b5cc5f3c3",
    "source": "建設通信新聞Digital",
    "source_id": "gnews_bim_ai",
@@ -2677,88 +2817,6 @@
    "published": "2026-10-19T00:35+00:00",
    "published_jst": "2026-10-19 09:35",
    "summary": "中国DeepSeekが「DeepSeek-V4.1-Flash-1017」を公開。コーディングエージェント性能評価の一部でGPT-6 Astra超えをうたい、実行時間と出力量も削減したという。重みはMITライセンスで提供する。",
-   "ai_related": true
-  },
-  {
-   "id": "b0af6c70bd5e",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "テクノ建設サービス｜仕上検査機能で施工品質を標準化、若手育成にも活用～後編～",
-   "url": "https://one.andpad.jp/magazine/26874/",
-   "published": "2026-10-19T00:02+00:00",
-   "published_jst": "2026-10-19 09:02",
-   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベスト図面ユーザー賞」で第3位を受賞した、テクノ建設サ... 投稿 テクノ建設サービス｜仕上検査機能で施工品質を標準化、若手育成にも活用～後編～ は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "98b0aebf2a38",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "テクノ建設サービス｜最先端のICT技術を活用しながら「人」に寄り添う現場管理〜前編〜",
-   "url": "https://one.andpad.jp/magazine/26853/",
-   "published": "2026-10-19T00:01+00:00",
-   "published_jst": "2026-10-19 09:01",
-   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。今回は、「ベスト図面ユーザー賞」で第3位を受賞した、テクノ建設サ... 投稿 テクノ建設サービス｜最先端のICT技術を活用しながら「人」に寄り添う現場管理〜前編〜 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": true
-  },
-  {
-   "id": "c62f92cadbe1",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【開催報告】「社長×AI」で経営者の判断を会社の資産に――第6回 建築AI経営研究会にLIFEFUND白都卓磨とハウスクラフト遠藤真二氏が登壇",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GWVRlSUZXMzlUd01rNnVZWXB1RDJiXzAtUWhvREFER3NqQWx3dkluaGpzZ0cxbDhjbkJwTFlCbHAtcWJfRDVQYm9EekhSNVJ1bUdYR3cxeTI0SW9zX19JeFRpdUNHXzVfWHc?oc=5",
-   "published": "2026-10-18T23:50+00:00",
-   "published_jst": "2026-10-19 08:50",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "b8a89dddc6c6",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "llm-tools-datasette 0.1.1",
-   "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-   "published": "2026-10-18T23:43+00:00",
-   "published_jst": "2026-10-19 08:43",
-   "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
-   "ai_related": true,
-   "title_ja": "llm-tools-datasette 0.1.1リリース",
-   "summary_ja": "LLM 0.33でのhttpx2への移行に伴い発生したプラグインの互換性問題を修正する、llm-tools-datasette 0.1.1がリリースされました。"
-  },
-  {
-   "id": "12899128ec45",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "llm-echo 0.5",
-   "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
-   "published": "2026-10-18T23:16+00:00",
-   "published_jst": "2026-10-19 08:16",
-   "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token",
-   "ai_related": true,
-   "title_ja": "llm-echo 0.5リリース",
-   "summary_ja": "LLMの新規リリースに向けたテストの一環として、入力されたプロンプトをそのまま繰り返すデバッグ用プラグイン「llm-echo 0.5」が更新されました。"
-  },
-  {
-   "id": "5cb4b099cccc",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Anthropic、社内でAIエージェントの稼働時間が人間の6倍に 技術系初級職の採用比率は27％→9％に激減",
-   "url": "https://www.itmedia.co.jp/news/article/2610/19/2000002353/",
-   "published": "2026-10-18T23:02+00:00",
-   "published_jst": "2026-10-19 08:02",
-   "summary": "Anthropicは、社内雇用の変化と一般市民とのAI予測格差に関する調査を公開した。AnthropicではAI稼働時間が人間を上回り、技術系初級職の採用比率が急減した。自身の業務の自動化予測は、Anthropic従業員の75％に対し、米労働者は28％と大きな開きが出たが、自動化と失業率上昇を結びつける労働観は共通していた。",
    "ai_related": true
   }
  ]
