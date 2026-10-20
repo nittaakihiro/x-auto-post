@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-19T23:38+00:00",
- "generated_at_jst": "2026-10-20 08:38",
+ "generated_at": "2026-10-20T00:23+00:00",
+ "generated_at_jst": "2026-10-20 09:23",
  "window_hours": 48,
  "counts": {
-  "ai_global": 45,
-  "ai_japan": 26,
-  "construction_japan": 70,
-  "construction_global": 25
+  "ai_global": 46,
+  "ai_japan": 25,
+  "construction_japan": 71,
+  "construction_global": 17
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -23,6 +23,32 @@
   }
  ],
  "items": [
+  {
+   "id": "af02b0baed07",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "My obituary for programming",
+   "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+   "published": "2026-10-19T23:58+00:00",
+   "published_jst": "2026-10-20 08:58",
+   "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier t",
+   "ai_related": true
+  },
+  {
+   "id": "b0fb4c056719",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+   "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+   "published": "2026-10-19T23:39+00:00",
+   "published_jst": "2026-10-20 08:39",
+   "summary": "In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet another deal of the same magnitude.",
+   "ai_related": true
+  },
   {
    "id": "d45dacf783b2",
    "source": "TechCrunch AI",
@@ -595,6 +621,19 @@
    "summary_ja": "最大30秒の動画クリップや多数のキーフレーム画像入力に対応した動画生成AIの最新版がリリースされました。"
   },
   {
+   "id": "67763490e953",
+   "source": "Dellows News",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "SHEが施工管理領域のキャリアイベントを2026年10月20日に開催へ",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LT2dYLThoR0VEX2hsNlNEdVVianJBVzZ6dkcxNWZmWXp0VmJOZUt1Wkdxb19FSDByX0owYjRKYVNQQmlWZzE0THdWNTc0WmZxODg5MG5qRlN5NVBMWnprNw?oc=5",
+   "published": "2026-10-19T17:31+00:00",
+   "published_jst": "2026-10-20 02:31",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "f30a44480c49",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -604,23 +643,10 @@
    "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
    "published": "2026-10-19T17:27+00:00",
    "published_jst": "2026-10-20 02:27",
-   "summary": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3 Comments URL: https://news.ycombinator.com/item?id=50155245 Points: 209 # Comments: 82",
+   "summary": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3 Comments URL: https://news.ycombinator.com/item?id=50155245 Points: 215 # Comments: 84",
    "ai_related": true,
    "title_ja": "Mercury 3：大規模な拡散モデル",
    "summary_ja": "Article URL: https://www.inceptionlabs.ai/blog/introducing-mercury-3 Comments URL: https://news.ycombinator.com/item?id=50155245 Points: 209 # Comments: 82"
-  },
-  {
-   "id": "8f9d6b1f11da",
-   "source": "Dellows News",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Tektomeが建設特化のエージェント知能基盤を提供開始 既存AIツールを再編",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02ZTVHZG16clhyVy1FZTloV2p1UTBXM24xTUI4Z2FFNzhDcDl3ZFpOY1V2ZUw2b0c5dG1rZTNDd3RBQnBLSTJlVnJSOE1NRXhhR3hzeDUtNGNTRVBEQUE?oc=5",
-   "published": "2026-10-19T17:07+00:00",
-   "published_jst": "2026-10-20 02:07",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "35ea335aade7",
@@ -757,21 +783,6 @@
    "ai_related": true,
    "title_ja": "Nvidia、企業やPC向けのオープンなAIエージェント実行モデルを発表",
    "summary_ja": "自社データセンターでのオープンモデル運用や、デバイス上のプライベートAIエージェントの需要に対応します。"
-  },
-  {
-   "id": "bfe3d8bc5977",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
-   "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
-   "published": "2026-10-19T15:28+00:00",
-   "published_jst": "2026-10-20 00:28",
-   "summary": "Article URL: https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/ Comments URL: https://news.ycombinator.com/item?id=50153630 Points: 304 # Comments: 57",
-   "ai_related": true,
-   "title_ja": "CERNとMistral、戦略的パートナーシップ構築に向けた意向書に署名",
-   "summary_ja": "科学分野でのAI活用を加速するため、CERNとMistralが協力関係の構築を目指します。"
   },
   {
    "id": "405e039bdc7e",
@@ -991,36 +1002,6 @@
    "summary_ja": "11月の中間選挙で議会奪還を狙う民主党は、新たな政治的課題であるAIへの対応方針を迫られている。"
   },
   {
-   "id": "03b4483f53c4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Taylor Wimpey plans bonus cuts for 50 workers, says union",
-   "url": "https://www.constructionnews.co.uk/supply-chain/taylor-wimpey-plans-bonus-cuts-for-50-workers-says-union-19-10-2026/",
-   "published": "2026-10-19T11:51+00:00",
-   "published_jst": "2026-10-19 20:51",
-   "summary": "Unite has accused Taylor Wimpey of issuing dismissal notices to 50 joiners and scaffolders in the North East as part of a plan to rehire them and cut their bonus pay by more than 30 per cent. Unite regional officer Greg Robson said: “Taylor Wimpey… The post Taylor Wimpey plans bonus cuts for 50 work",
-   "ai_related": false,
-   "title_ja": "Taylor Wimpey、50人のボーナス削減を計画と組合が発表",
-   "summary_ja": "組合は同社がボーナスを3割以上カットするため解雇通知を出したと非難している。"
-  },
-  {
-   "id": "820aca4f3974",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Ex-HS2 analyst urges review of £58bn cancellation estimate",
-   "url": "https://www.constructionnews.co.uk/civils/hs2/ex-analyst-urges-review-of-58bn-hs2-cancellation-estimate-19-10-2026/",
-   "published": "2026-10-19T11:45+00:00",
-   "published_jst": "2026-10-19 20:45",
-   "summary": "A former HS2 cost analyst has called for an independent review into the government’s estimated cost of cancelling the HS2 high-speed rail line, amid ongoing scrutiny over the price of the megaproject. Stephen Cresswell is urging the National Audit Office (NAO) to review the Department for… The post ",
-   "ai_related": false,
-   "title_ja": "元HS2アナリスト、580億ポンドのキャンセル見積もりの見直しを要請",
-   "summary_ja": "巨大プロジェクトの費用に対する監視が強まる中、政府の見積もりに対する独立した検証が求められている。"
-  },
-  {
    "id": "2b4495cd9651",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1066,36 +1047,6 @@
    "summary_ja": "Anthropicは自社株の5%を充てた公共基金を設立し、職を失うリスクのある労働者を支援する計画。"
   },
   {
-   "id": "0260755f03bb",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Can blockchain unravel construction’s ‘web of blame’?",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/can-blockchain-unravel-constructions-web-of-blame-19-10-2026/",
-   "published": "2026-10-19T11:11+00:00",
-   "published_jst": "2026-10-19 20:11",
-   "summary": "(Pictured left to right) Ian Stacey and Mark Leeson are directors and Archie Payne is a data engineer at consultancy McBains The ninth anniversary of the Grenfell Tower fire was marked in June. Up to 20 companies are still at risk of criminal charges in… The post Can blockchain unravel construction’",
-   "ai_related": false,
-   "title_ja": "ブロックチェーンは建設業界の責任の網を解きほぐせるか？",
-   "summary_ja": "グレフェル・タワー火災の9年目を迎え、約20社が今なお責任問題に関わっている。"
-  },
-  {
-   "id": "18722e58f6d0",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Inspiring Women in Construction and Engineering: Turning inclusion policy into action",
-   "url": "https://www.constructionnews.co.uk/inspire-me/inspiring-women-in-construction-and-engineering-turning-inclusion-policy-into-action-19-10-2026/",
-   "published": "2026-10-19T11:11+00:00",
-   "published_jst": "2026-10-19 20:11",
-   "summary": "Writing an inclusion policy is one thing. Making it change how site managers organise work and respond to requests for is quite another, delegates to the recent IWICE conference heard. The post Inspiring Women in Construction and Engineering: Turning inclusion policy into action appeared first on Co",
-   "ai_related": false,
-   "title_ja": "建設・エンジニアリング分野の女性活躍：方針を実戦に移す",
-   "summary_ja": "インクルージョン方針の策定だけでなく、現場の作業や対応にどう反映させるかが重要だと議論された。"
-  },
-  {
    "id": "bfa111e7d5d3",
    "source": "ITmedia",
    "source_id": "gnews_sekokan_ai",
@@ -1107,36 +1058,6 @@
    "published_jst": "2026-10-19 20:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "f2478a3feb7f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Plan set out for 40,000 construction placements a year",
-   "url": "https://www.constructionnews.co.uk/government/plan-set-out-for-40000-construction-placements-a-year-19-10-2026/",
-   "published": "2026-10-19T10:47+00:00",
-   "published_jst": "2026-10-19 19:47",
-   "summary": "The Department for Business and Trade (DBT) has unveiled plans for 40,000 construction placements annually, alongside an apprenticeship network to help smaller contractors recruit and train workers. These placements form part of the industry's previously announced ambition to create 100,000 job oppo",
-   "ai_related": false,
-   "title_ja": "年間4万件の建設実習に向けた計画が発表される",
-   "summary_ja": "中小企業の採用を支援するため、年間4万件の実習や専門ネットワークの計画が公開された。"
-  },
-  {
-   "id": "f0c7e42c75bb",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon signs £31m Passivhaus leisure centre preconstruction deal",
-   "url": "https://www.constructionnews.co.uk/contracts/willmott-dixon-signs-31m-passivhaus-leisure-centre-preconstruction-deal-19-10-2026/",
-   "published": "2026-10-19T10:04+00:00",
-   "published_jst": "2026-10-19 19:04",
-   "summary": "Willmott Dixon has signed a preconstruction services agreement (PCSA) with Waverley Borough Council for a £31m Passivhaus leisure centre in Surrey. Construction is expected to begin in early 2027, with the facility scheduled to open in autumn 2028. Under the PCSA, Willmott Dixon will work… The post ",
-   "ai_related": true,
-   "title_ja": "Willmott Dixon、3100万ポンドのレジャーセンター建設を受注",
-   "summary_ja": "2027年初頭の着工を目指し、サリー州でパッシブハウス基準の施設建設に関する事前協定を締結した。"
   },
   {
    "id": "d78fd3f23b6a",
@@ -1161,7 +1082,7 @@
    "url": "https://mistral.ai/news/timestral/",
    "published": "2026-10-19T09:59+00:00",
    "published_jst": "2026-10-19 18:59",
-   "summary": "Article URL: https://mistral.ai/news/timestral/ Comments URL: https://news.ycombinator.com/item?id=50150434 Points: 526 # Comments: 97",
+   "summary": "Article URL: https://mistral.ai/news/timestral/ Comments URL: https://news.ycombinator.com/item?id=50150434 Points: 531 # Comments: 101",
    "ai_related": true,
    "title_ja": "Timestral：Mistralが開発した時系列基盤モデル",
    "summary_ja": "Mistralの新しい時系列基盤モデル「Timestral」に関する記事およびHacker News上のコメントや議論のリンクを紹介している。"
@@ -1180,36 +1101,6 @@
    "ai_related": true,
    "title_ja": "RevitとAutoCADのグラフィックス性能向上",
    "summary_ja": "AMD Ryzen AI Max PROプロセッサを搭載したHP Z WorkstationでCADやBIMの作業を加速する。"
-  },
-  {
-   "id": "d4023bf60ba4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Higgins Homes trial: slinger denies lying about fatal lift",
-   "url": "https://www.constructionnews.co.uk/legal/higgins-homes-trial-slinger-denies-lying-about-fatal-lift-19-10-2026/",
-   "published": "2026-10-19T09:19+00:00",
-   "published_jst": "2026-10-19 18:19",
-   "summary": "The slinger on a crane lift that caused the death of a young mother walking past a Higgins Homes site has denied lying about the incident to cover his own errors. Christian Okonkwo, the first worker called as a witness by the prosecution in the… The post Higgins Homes trial: slinger denies lying abo",
-   "ai_related": false,
-   "title_ja": "Higgins Homesの裁判：玉掛作業員が死亡事故での虚偽証言を否定",
-   "summary_ja": "自身の過失を隠すため嘘をついたとの指摘に対し、証人として出廷した作業員が否定した。"
-  },
-  {
-   "id": "4e6106017fcb",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Contractor loses bid to delay £1.6m adjudication payment",
-   "url": "https://www.constructionnews.co.uk/legal/contractor-loses-bid-to-delay-1-6m-adjudication-payment-19-10-2026/",
-   "published": "2026-10-19T09:15+00:00",
-   "published_jst": "2026-10-19 18:15",
-   "summary": "A contractor that argued paying a £1.6m adjudication judgment could put it out of business has failed to persuade the High Court to delay enforcement. The Technology and Construction Court said contractors relying on inability to pay must show they cannot raise funds from shareholders… The post Cont",
-   "ai_related": false,
-   "title_ja": "建設会社、160万ポンドの支払延期申請が棄却される",
-   "summary_ja": "支払いが倒産につながると主張したものの、高等法院は執行の延期を認めなかった。"
   },
   {
    "id": "b32798372587",
@@ -1236,7 +1127,7 @@
    "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
    "published": "2026-10-19T09:05+00:00",
    "published_jst": "2026-10-19 18:05",
-   "summary": "Article URL: https://www.youtube.com/watch?v=Ndftcft6XhU Comments URL: https://news.ycombinator.com/item?id=50150089 Points: 316 # Comments: 56",
+   "summary": "Article URL: https://www.youtube.com/watch?v=Ndftcft6XhU Comments URL: https://news.ycombinator.com/item?id=50150089 Points: 359 # Comments: 74",
    "ai_related": true,
    "title_ja": "モーター1つだけでドローンを作ってみた [動画]",
    "summary_ja": "Article URL: https://www.youtube.com/watch?v=Ndftcft6XhU Comments URL: https://news.ycombinator.com/item?id=50150089 Points: 316 # Comments: 56"
@@ -1698,19 +1589,6 @@
    "ai_related": true
   },
   {
-   "id": "bf69509a26ef",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "コーディングベンチでGPT-6 Astraを超えつつ超安価な中国製AIモデル「DeepSeek-V4.1-Flash-1017」が登場",
-   "url": "https://gigazine.net/news/20261019-deepseek-v4-1-flash-1017/",
-   "published": "2026-10-19T01:47+00:00",
-   "published_jst": "2026-10-19 10:47",
-   "summary": "中国企業のDeepSeekがAIモデル「DeepSeek-V4.1-Flash-1017」を2026年10月17日に公開しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "899b5cc5f3c3",
    "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_ai",
@@ -1734,6 +1612,19 @@
    "published": "2026-10-19T01:00+00:00",
    "published_jst": "2026-10-19 10:00",
    "summary": "清水建設は2026年10月16日、建設業向けのヒューマノイドAIロボットを開発する米国のスタートアップ、Noble Machinesへの出資...",
+   "ai_related": true
+  },
+  {
+   "id": "5a9378113b12",
+   "source": "Infoseek",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【開催報告】「社長×AI」で経営者の判断を会社の資産に――第6回 建築AI経営研究会にLIFEFUND白都卓磨とハウスクラフト遠藤真二氏が登壇｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kRkRPai1LZHE0dUV6S19JRmhaQ3lMSEZaNWY5Q1NZQ1JMUEZuZnhDLUxKMWZfMFlZWGl6c0libW01N2VMTWFQR1NCNG1iMXpMMWFYM291eENvVHNTanpFbEF5bzFiTnh1SUZVdDRZWFMxQQ?oc=5",
+   "published": "2026-10-19T00:45+00:00",
+   "published_jst": "2026-10-19 09:45",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -2283,13 +2174,13 @@
    "ai_related": false
   },
   {
-   "id": "5c1421db4e40",
+   "id": "0769c38c1e80",
    "source": "Business Insider Japan",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "メタ、オラクル、SBエナジーなどが開発…アメリカで建設中の「1GW超」巨大データセンター14プロジェクトの現状",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdnY3RUE0Q24tMlB4cXNHbnFibVNXcUthWTlWRHJCSEdKNTFDN0Z1LTlLb3JPMEMwVTR0blhXX1NpNy1kQWdlcUxOUDRDXzVGbl9OY2Jkd0tlNHJ5Ulc2RzNSclhWODRZWGdTVmJOM2RNU2xiN1dOcGFzWWxIMHQzd2FlNFE5bkdIRm1GeEl6d2ExTTFqa2xfblZQZ1NjdDg1WkJOd25iRQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOUM4UEFDeTc3OUJXQ1VBalBfSDZXZzk2RnMyWS1YQnpQWkptTVI5dU0ycnZQWkdqdkZSY3VXVzVoN0ZPdG5feXViZnVGZk1PS3FqMDVHazhCM1IzMUZWTnc5UFdIYVJocUVmOUhBYlZ1N2pGVm9CNlIzLXgyVzJvY3hDUUkxOXl4VjFQWUpzZHVTNzJoVDBiV1Y2ek5tZw?oc=5",
    "published": "2026-10-18T06:00+00:00",
    "published_jst": "2026-10-18 15:00",
    "summary": "",
