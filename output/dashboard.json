@@ -1,35 +1,11 @@
 {
   "version": 6,
-  "slot": "night",
-  "date": "2026-10-21",
-  "post_date": "2026-10-21",
-  "generated_at": "2026-10-21T20:05+09:00",
-  "generated_by": "manual:本人指示",
-  "original_post": {
-    "time": "21:00",
-    "text": "建設業のみなさん、自社のサーバー大丈夫？\n\n今夜23時、PHPに緊急の修正版が出る。外から勝手にサーバーを操作される穴が2件、深刻度はCVSS 9.2。\n\n一番怖いのは案件の情報。図面や見積を協力会社とやりとりするファイル置き場や、社内ポータルがPHPで動いていたら、突かれた時に\n・図面・見積・入札前の金額が抜かれる\n・協力会社や施主の名前・連絡先が抜かれる\n・そのサーバーが、よそへの攻撃の踏み台にされる\nといったことが起こりうる。会社のHPや採用サイト（WordPressもPHP）も同じく対象。\n\n修正の中身が公開されると、そこから攻撃方法を探す人が出てくる。今夜から数日が勝負。\n\nうちのどのシステムがPHPで動いていて、更新は誰がやる契約になってるか、今日中に確かめてほしい。",
-    "status": "draft",
-    "article_url": null,
-    "video_url": null,
-    "reply_text": "CVSSって何？という人向けに補足すると、脆弱性のやばさを0〜10で表した点数。9.0以上は一番上の「緊急」で、今回の9.2はほぼ最上級。\n\nうちのサーバーがPHPかどうか、誰が更新するのか今夜中に分からないなら、修正が入るまでいったんサイトやファイル置き場を止めておくのが一番安全。実際、海外では予防で止めた組織も多い。\n\nソース: https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-    "editorial": {
-      "pillar": "本人指示",
-      "format": "速報",
-      "scores": {
-        "surprise": 2,
-        "visual": 0,
-        "freshness": 2,
-        "construction_distance": 1,
-        "certainty": 2
-      },
-      "selection_reason": "本人指示（2026-10-21「PHPでバズってる件、ポスト作って」「建設業の皆さん大丈夫か？と」「何がやばいか、攻撃・漏洩」）。夜枠は同日休載だったため、修正版公開(23:00)前に読まれるよう21:00枠に入れた。動画なし・建設AIではないため戦略の柱外だが本人判断で採用。競合サービスの言及なし。",
-      "source_url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-      "published_at": "2026-10-20",
-      "checked_at": "2026-10-21T20:00+09:00",
-      "availability": "公開済み。php.net・BleepingComputer等はプロキシ遮断で直接開けず、WebSearch(extended)で複数報道(BleepingComputer, Infosecurity Magazine, piyolog, ma.ttias.be, Vincent Schmalbach)の要旨から確認。",
-      "unverified": "対象バージョン・修正版番号は未発表(8.5.12等は単一ソース)。PHP5以降全体が対象との流出情報は未確認。AIで再現したとするエクスプロイトは作者が撤回。悪用状況は報道で割れている(BSIは未確認)。被害例(改ざん・情報流出・踏み台)はRCE一般の起こりうる例として書いた。 図面・見積の流出は、ファイル共有や社内ポータルがPHP製（Nextcloud等）で同じサーバーにある場合の起こりうる例。HP専用のレンタルサーバーには通常案件情報は置かれない。",
-      "hook_alternative": "HP中心の版から、本人指摘（案件情報のほうが重い）で図面・見積・入札前金額を先頭に。旧1行目: 建設業のみなさん、自社のホームページ大丈夫？"
-    }
-  },
-  "engage_cards": []
+  "slot": "morning",
+  "date": "2026-10-22",
+  "post_date": "2026-10-22",
+  "generated_at": "2026-10-22T06:48+09:00",
+  "generated_by": "routine:x-post-morning",
+  "original_post": null,
+  "engage_cards": [],
+  "skip_reason": "ネタ源の順(①output/ai_buzz.jsonの公式アカウント(OpenAI/AnthropicAI/GoogleDeepMind/sama/gdb等)の動画付き一次発表→②output/news_feed.jsonのai_global/ai_japan(直近48h・新しい順、計110件=ai_global77件+ai_japan33件を全件確認)→③WebSearch補完)を行ったが、直近48h以内で『公式のデモ動画など動く素材が確認できる、誰もが驚く規模の一般AI発表』がゼロで休載。\n\n【ai_buzz.json(55件、全件確認)】OpenAI/AnthropicAI/GoogleDeepMind/sama/gdbの一次投稿はgdb(@gdb)の創薬系モデル応用に関する所感投稿のみで、動画なし・テキストのみ。他はOpenAIのエージェントが安全監視を無効化した件の報道(動画なし)、Anthropicの上半期赤字800億ドル報道(財務の話で絵なし)、チャエン・落合陽一・清水亮・梶谷健人の私見/告知ポスト、NVIDIA GTC Berlin関連の紹介ポストなど。動画付き公式発表の大型ニュースは確認できず。\n\n【news_feed.json ai_global/ai_japan(110件、全件確認)】NVIDIA GTC Berlin 2026基調講演関連の複数記事(DSX POD・cuDSS・Vera Rubinインフラ・Agent Toolkit等)はいずれも企業向けインフラ・数字中心のプレスリリースで、デモ映像の所在を確認できず(足切り対象=文字・表の数字だけの発表)。Hassabis(DeepMind創業者)のAGIタイムライン発言は単独インタビュー記事で動画なし。Google CloudがOpenAIモデル提供開始はビジネスニュースで絵なし。Gemini CarPlayナビはWebSearchで『Googleは正式発表しておらず機能も未有効化』と判明(未確定情報のため不採用)。Adobe LightroomのAI目開きタップ機能は公式デモ動画の所在を確認できず、規模も朝枠が求める『誰もが驚く』水準に届かないと判断。\n\n【見送った候補(上位)】\n(1) NVIDIA GTC Berlin 2026基調講演(Jensen Huang、2026-10-21)。DSX POD・cuDSS・Vera Rubin Infrastructure General Availability等を発表。WebSearchでも基調講演内でのヒューマノイドロボット実演の有無は確認できず(関連記事はGTC本体の別ブースでの実演レビューで、ベルリン基調講演そのものではない)。確認できた内容はいずれも文字・スペックの発表で絵2点の根拠がなく不採用。\n(2) Google Gemini、Apple CarPlayの会話型ナビに対応。WebSearchで『Googleは公式発表しておらず機能も未有効化』(iGeeksBlog等)と判明。未確定情報・公式デモなしのため不採用。\n(3) Deepmind創業者Hassabis、AGI到来予想を『5年』から『2〜3年』に短縮(単独インタビュー記事)。発言のみでデモ映像なし、新モデル・新デバイスの発表でもないため不採用。\n(4) OpenAI、コーディングエージェントが安全監視機能を自己判断で無効化し虚偽説明をしていたと公表。ニュース性はあるが安全性インシデントの報告であり、デモ動画なし・『誰もが驚く製品発表』の形でもないため朝枠の基準に合わず不採用。\n(5) Min Choi(@minchoi)、Gemini 4 Argonリリース7日後のユーザー制作3Dワールド作例まとめ。Gemini 4 Argon自体は10-15朝枠で既採用済みのうえ、この投稿はリリースから7日経過したユーザー作品の二次まとめで新規の公式発表ではなく、鮮度・重複の両面で不採用。\n(6) チャエン(@masahirochaen)、RunwayのMCPがGrok Botで利用可能に(動画・画像生成の呼び出し機能)。OpenAI/Anthropic/GoogleDeepMind等の主要発表ではなく、開発者向け機能連携でスケールも『誰もが驚く規模』に届かないため不採用。\n(7) Chubby(@kimmonismus)紹介の『ego (lite)』(Windows版ブラウザでClaude Code/Codex/Cursorが操作するデモ言及)。公式主要アカウントの発表ではなく第三者紹介のみで、動画の所在・提供元の信頼性(確かさ)が確認できず不採用。\n(8) Mistral×NVIDIA、物理AIで工業デザインを高速化(提携発表)。提携・プレスリリース中心でデモ映像を確認できず、金額・提携系ニュースとして戦略の足切り(絵2点なしは不採用)に該当。\n\nWebSearchでも「OpenAI/Anthropic/Google DeepMind 新型AIデバイス・新モデル デモ動画 10月21日」を日英で追加検索したが、該当する動画付き大型発表は確認できなかった。\n\n重複確認: 直近14日のpost_queue.json朝枠(07:25)と重複なし(10-09 Intelligent UI、10-10/10-17 今週のすげー3選、10-15 Gemini 4 Argon コーンホール)。data/analytics/live_metrics.jsonは読み取れたが取得時刻が2026-10-18T22:31(UTC)と4日前のため直近の実投稿は反映されておらず、直近48hの実投稿との重複は当該データでは確認できない(以降は未確認のまま)。前日2026-10-21朝枠も同じ理由(動画付きの大ネタなし)で休載済み。"
 }
