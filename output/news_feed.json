@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-21T00:09+00:00",
- "generated_at_jst": "2026-10-21 09:09",
+ "generated_at": "2026-10-21T00:36+00:00",
+ "generated_at_jst": "2026-10-21 09:36",
  "window_hours": 48,
  "counts": {
   "construction_japan": 69,
@@ -9,6 +9,10 @@
   "construction_global": 35
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -69,7 +73,9 @@
    "published": "2026-10-20T23:50+00:00",
    "published_jst": "2026-10-21 08:50",
    "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "eMudhraの中間CAで秘密鍵が漏洩",
+   "summary_ja": "eMudhraの中間CA証明書8つの秘密鍵が漏洩しました。主要ブラウザやOSの信頼するルート証明書に繋がり、深刻な懸念が生じています。"
   },
   {
    "id": "6559d9cb2b55",
@@ -81,8 +87,10 @@
    "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
    "published": "2026-10-20T23:04+00:00",
    "published_jst": "2026-10-21 08:04",
-   "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the last year, Ann had failed to appear ",
-   "ai_related": true
+   "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear ",
+   "ai_related": true,
+   "title_ja": "サム・アルトマン氏の性的虐待訴訟が棄却",
+   "summary_ja": "米連邦地裁の判事は、OpenAIのCEOであるサム・アルトマン氏から幼少期に虐待を受けたと主張していた実妹の訴訟を棄却しました。"
   },
   {
    "id": "d4e57614c374",
@@ -95,7 +103,9 @@
    "published": "2026-10-20T23:01+00:00",
    "published_jst": "2026-10-21 08:01",
    "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AnthropicがAI安全性法案を提案",
+   "summary_ja": "暴走を防ぐ対策のよう見えて、実際には裁判所の許可なしに政府機関がモデルのリリースを禁止することを禁じる内容となっています。"
   },
   {
    "id": "1f1505c295bd",
@@ -134,7 +144,9 @@
    "published": "2026-10-20T22:24+00:00",
    "published_jst": "2026-10-21 07:24",
    "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "NetflixのAI映画は不正確とHugging Face CEOが警告",
+   "summary_ja": "出演した共同創業者のClem Delangue氏によれば、Netflixのドキュメンタリー映画は過度に悲観的であり、内容は不正確とのことです。"
   },
   {
    "id": "7f6bb9c0aa50",
@@ -147,7 +159,9 @@
    "published": "2026-10-20T22:11+00:00",
    "published_jst": "2026-10-21 07:11",
    "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini abou",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Googleの車載Geminiがよりパーソナライズ化",
+   "summary_ja": "Android Autoなどの車載向けGeminiがアップデートされ、Gmailやカレンダー、マップなどのGoogleアプリから情報を取得可能に。"
   },
   {
    "id": "1130ce67aff5",
@@ -697,7 +711,7 @@
    "url": "https://mistral.ai/news/voxtral-3/",
    "published": "2026-10-20T16:02+00:00",
    "published_jst": "2026-10-21 01:02",
-   "summary": "Article URL: https://mistral.ai/news/voxtral-3/ Comments URL: https://news.ycombinator.com/item?id=50168396 Points: 488 # Comments: 133",
+   "summary": "Article URL: https://mistral.ai/news/voxtral-3/ Comments URL: https://news.ycombinator.com/item?id=50168396 Points: 497 # Comments: 136",
    "ai_related": true,
    "title_ja": "Voxtral 3が発表",
    "summary_ja": "Mistral AIの最新情報やHacker Newsでの議論が共有されています。"
@@ -845,8 +859,10 @@
    "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
    "published": "2026-10-20T13:06+00:00",
    "published_jst": "2026-10-20 22:06",
-   "summary": "Article URL: https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web Comments URL: https://news.ycombinator.com/item?id=50165801 Points: 314 # Comments: 179",
-   "ai_related": true
+   "summary": "Article URL: https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web Comments URL: https://news.ycombinator.com/item?id=50165801 Points: 315 # Comments: 180",
+   "ai_related": true,
+   "title_ja": "偽の統計データを公開してLLMに引用させる手法",
+   "summary_ja": "意図的に偽の統計データをインターネット上に公開し、大規模言語モデル（LLM）の学習データに引用させる戦術についての記事。"
   },
   {
    "id": "208dc20e81cf",
@@ -1014,21 +1030,6 @@
    "summary_ja": "英サフォークの土木グループは売上高が減少したものの、年間税引前利益の増加を達成したと発表した。"
   },
   {
-   "id": "33f72cf8b33f",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Yelp can now call on your behalf to check wait times at a restaurant",
-   "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
-   "published": "2026-10-20T11:00+00:00",
-   "published_jst": "2026-10-20 20:00",
-   "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
-   "ai_related": true,
-   "title_ja": "Yelp、レストランの待ち時間を代わりに電話確認する機能",
-   "summary_ja": "Yelpはアプリに多数のAI新機能を搭載し、待ち時間の電話確認や個人の好みを記憶したおすすめ機能を提供する。"
-  },
-  {
    "id": "697eb620bfd3",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1042,6 +1043,21 @@
    "ai_related": true,
    "title_ja": "Otter.ai、会議ツール向けに3億2000万ドルを調達",
    "summary_ja": "会議記録ツールのOtter.aiは火曜日、General Catalystのファンドから3億2000万ドルを調達したと発表した。"
+  },
+  {
+   "id": "33f72cf8b33f",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+   "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+   "published": "2026-10-20T11:00+00:00",
+   "published_jst": "2026-10-20 20:00",
+   "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+   "ai_related": true,
+   "title_ja": "Yelp、レストランの待ち時間を代わりに電話確認する機能",
+   "summary_ja": "Yelpはアプリに多数のAI新機能を搭載し、待ち時間の電話確認や個人の好みを記憶したおすすめ機能を提供する。"
   },
   {
    "id": "70daaa5fdec4",
@@ -1113,13 +1129,13 @@
    "ai_related": false
   },
   {
-   "id": "9f7d18a15985",
+   "id": "a3c40b01398b",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "AI時代を支える「データセンター」 東北でも建設計画が加速 期待と課題は？ (ミヤギテレビ)",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdkc3b29HcU9vd0l5eTVTNjBIbDNNT09teDZxSHpyRUZaV3V4UDJEa1VKendBWnAyaHBYajNia0VabnRxOWpDZF9wRVAyd2JRTVNxUExLRkJ3YWx2OHNlaDNham5scDVSdUFXNWljT0ZPRmNUTWZmMUNJTm5lSkZZTWt3TGpFNjB2UmhzUkZB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUEJVa0M5RzBSTGlhY2tSeWY3d3FOM1JJUFNfSnE3N0t1ZVV0dWFfTS00RlhjZ2tseVdiSVlkWUtzdTRhOGtJdU9PRmRYcUlRU19vVWVYa0R1c2tvVG9wc01EN0p4V3c2OEZJQWc3TzR3Wm1vUEtmV0xsdnk2STRlOTZpcjZOc0xVUWUxNjZR?oc=5",
    "published": "2026-10-20T10:11+00:00",
    "published_jst": "2026-10-20 19:11",
    "summary": "",
@@ -1191,7 +1207,7 @@
    "url": "https://github.com/deepseek-ai/DeepInfer",
    "published": "2026-10-20T09:08+00:00",
    "published_jst": "2026-10-20 18:08",
-   "summary": "Article URL: https://github.com/deepseek-ai/DeepInfer Comments URL: https://news.ycombinator.com/item?id=50163277 Points: 2097 # Comments: 818",
+   "summary": "Article URL: https://github.com/deepseek-ai/DeepInfer Comments URL: https://news.ycombinator.com/item?id=50163277 Points: 2107 # Comments: 822",
    "ai_related": true,
    "title_ja": "DeepSeek、推論エンジンをオープンソース化",
    "summary_ja": "DeepSeekが自社の推論エンジンをオープンソースとして公開した。"
@@ -1667,6 +1683,19 @@
    "summary_ja": "ニューヨーク市長のゾフラン・マンダニ氏は、市民に対しAIの台頭を受け入れず、公共を守る規制を求めるよう訴えた。"
   },
   {
+   "id": "f448de15a240",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "MOLTON、リーガルAI搭載の契約・法務BPaaS「クラウドリーガル」とコンピュータシステム研究所、リコージャパンが令和7年度 改正建設業法 安全対策はどう変わる？ 解説セミナーを開催 | MOLTON株式会社のプレスリリース",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43NGxLNzQwQ2NnOWhsa0ZLTFEwdmVwb2pONEhWY1NEREk1R0thc3dpTUtLX2F5bnhsaGlsWGducUZiTVh2aHNlLTY0S0hKUlVvTjdrRHhmM3ZFRjNKQkFrYXVaazdMdnpjVUE?oc=5",
+   "published": "2026-10-20T01:20+00:00",
+   "published_jst": "2026-10-20 10:20",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "6bf7431795ed",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -1691,19 +1720,6 @@
    "published_jst": "2026-10-20 10:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "47f246ebde2d",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ドローン測量・赤外線点検の導入とデータ活用を解説。無料セミナーを11月6日（金）にオンライン、24日（火）名古屋で開催",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rbHJVR1hueGF2bnNMRVdIQW5EUUFlbnp3U3Y1Mm9oVVB5V1Mtc0hKLU1sb0FWS1hRWW5ZUzBWVzlrd3MxSWE2N3NJYklEOHZOQjNUQUtScWtHMkpGamU4RlNYcDVUN0h5VGdkeERmYWY1dw?oc=5",
-   "published": "2026-10-20T01:00+00:00",
-   "published_jst": "2026-10-20 10:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "c25f75f82ebb",
@@ -2327,13 +2343,13 @@
    "ai_related": true
   },
   {
-   "id": "57081d87c01c",
+   "id": "cdcb1a305dd1",
    "source": "日経クロステック",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "土木技術者が生成AIでアプリ自作、現場管理や資料作成を効率化",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95R1ZZQ0FydGQzSnNwbWlGZDVyZngwbFd2WDZ4ajdwV3I0STk1bHdFXzFibEp0U1FUbE9lRi1hWDh6OGlmWXNHT3JRNUkxcklYRE82RE5OcTRMYW5tX1RHV0FtNE96OGJzaVNkeHRB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPendXS040MFprWFZXLUQ0ZTlFcjZnVUNhR2tpbDZpd1NEd2FfWFg0XzZpNHI1QmR3a3g3dWRhNkc2WEhkSlkzRUNZdUxhTGVPUnhaZTVIUndTQnU4anRBWmd4eTN2cVFYME9mYUdaWHVKMTRTc2hlNEtDbE5GaTlEUks5a3Fqc2M?oc=5",
    "published": "2026-10-19T17:04+00:00",
    "published_jst": "2026-10-20 02:04",
    "summary": "",
@@ -2353,22 +2369,9 @@
    "ai_related": true
   },
   {
-   "id": "4690b701bb0c",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国土交通省が直轄工事で駆使へ、生成AIを活用したい業務と現実に差（2ページ目）",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYkcyUGJGcjdKNXZZUVp0Zkt2VHBvTVRXYkR4UnZpNXhxWE5LZXk3SE1hN0pzcGItU3VJdFZFZGVqTnZyajRSMGZNZUxJeExyQWFhWUVITDNIVjhIVG1qVFN2Y0EtSlVaOFN2V1JIRnZJd1M4NXNZUEdKRXNHS01KZmY0MVhvclJkVWlNSThLWWVScHZCWm1fOXdlbTd6TDVsZGhNMk51WVJLQXdjTVl1QjkxaW5tZzg5enc?oc=5",
-   "published": "2026-10-19T17:01+00:00",
-   "published_jst": "2026-10-20 02:01",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "ad2a33115d18",
    "source": "日経クロステック",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "国土交通省が直轄工事で駆使へ、生成AIを活用したい業務と現実に差",
@@ -2637,19 +2640,6 @@
    "summary_ja": "指示を与えずにAIエージェントを30時間放置したところ、映画のように「遊び」に似た行動を取り始めた。"
   },
   {
-   "id": "1f7fbb6496b7",
-   "source": "OPTRONICS ONLINE",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "NTTなど、IOWNでトンネル遠隔施工管理を実証 1,000km先からひび割れ検査",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HYndhTUdpaHJxdkZ2OEUxYm5JSlVlV3d0MkswT2pRcW11bmU1MkdYZzdGQWxIVHNRNDBZLTMxS0JfZHBpRHQyRzVuQm11Mmc4S3RMYzZyQ1ZJMHRyUVE?oc=5",
-   "published": "2026-10-19T09:08+00:00",
-   "published_jst": "2026-10-19 18:08",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "6179047b78d6",
    "source": "매일경제",
    "source_id": "gnews_kensetsu_ai",
@@ -2808,6 +2798,32 @@
    "ai_related": false,
    "title_ja": "Taylor Wimpey、高給作業員の賃下げを実施",
    "summary_ja": "賃金監査で平均を上回る水準が判明し、足場工や建具工に減給を要請。"
+  },
+  {
+   "id": "e21b4e2c6b2c",
+   "source": "Koubo",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設現場DX!複数現場を一括管理する新サービス登場",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zcFMtd0tFNjc3UVFSSWFvUi1TbGh0Zkt3RGh4cERpNDRyblo2YmNEVTFBRE1QbUVocjlLMWRPTHNLUEMzR1E?oc=5",
+   "published": "2026-10-19T06:13+00:00",
+   "published_jst": "2026-10-19 15:13",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "68f876a785de",
+   "source": "日経クロステック",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "安藤ハザマとNTTなど、IOWNによるトンネル建設現場の遠隔施工管理を実証",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PVEVmOEhXV1VCT3loOFFBS0Y3am1HYVpoeWZ4aEQwcFZFUWtVdDNpLU5qUF9VamdRYU4wclIza0tETlFkS0RYZEIxMnFJSzJDdlJHOXZMWGp2b2hk?oc=5",
+   "published": "2026-10-19T06:05+00:00",
+   "published_jst": "2026-10-19 15:05",
+   "summary": "",
+   "ai_related": false
   }
  ]
 }
