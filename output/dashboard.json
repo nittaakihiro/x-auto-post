@@ -3,9 +3,33 @@
   "slot": "night",
   "date": "2026-10-21",
   "post_date": "2026-10-21",
-  "generated_at": "2026-10-21T20:42+09:00",
-  "generated_by": "routine:x-post-night",
-  "original_post": null,
-  "engage_cards": [],
-  "skip_reason": "候補5件以上を国内・海外で5観点(驚き/絵/鮮度/建設との距離/確かさ、各0-2点)で比較したが、video_urlを確認できる動画があり、かつ確かさ・建設との関連性に問題のない候補が国内・海外ともにゼロのため休載。\n\n(国内で見送った候補)\n(1) 新光重機(@shinkojuki)が「建設技術展2026関東」(池袋、10/20-21開催)ブースで「遠隔操作バックホウ」と「自動運転キャリアダンプ」を展示中と投稿(2026-10-21 10:21/14:51など、鮮度2・建設との距離2相当)。ただしX投稿に動画が添付されているかを本セッションからは確認できず(x.comへの直接アクセスはDNSで遮断、WebSearchでも同社YouTube・プレスリリースに実演映像を発見できなかった)ため絵2点を確認できず除外。\n(2) @ThinkP_Shimizu([建設×AI(国内)]タグ、2026-10-20 09:22、表示10万件)は本文テキストが空でメディア投稿の可能性があるが、アカウントの実体・投稿内容をWebSearchで特定できず確かさ0として除外。\n(3) オリエンタル白石×燈の橋梁吊り足場での四足歩行ロボット自律歩行実証(2026-10-06発表、実施は9/8)は建設との距離2相当だが、戦略の競合除外リスト該当の「燈(Hikari)」が主体に含まれるため競合除外ルールにより対象外。\n(4) 安藤ハザマ×神戸高専のヒューマノイドによる建機自動操作の共同研究は、news_feed.json 10-20掲載記事で言及されるが開始自体は2026年4月で直近48hの出来事でないため鮮度0、かつ実演動画も確認できず除外。\n\n(海外で見送った候補)\n(5) 中国NeodraDynamicsの油圧ヒューマノイド「Neo1」(@coinbureau、全長13フィート・2,400ポンド)はai_buzz.jsonで動画確認済み(🎬タグ)だが投稿日2026-10-17で直近48hを超過し鮮度0のため除外。\n(6) @michellelsunの人型ロボット2台(Sergey/Chelsea)による清掃デモ(2026-10-20 00:44、表示8.1万件、🎬タグで動画確認済み。建設の竣工美装・清掃作業への置き換え候補として検討)。しかしWebSearchで一次確認したところ提供元はTau Roboticsで、実態は人間がVRゴーグルで遠隔操作する「テレオペレーション主体」のサービス(AIは低レベルのモーター制御のみ)と複数の海外メディアが報じており、フィジカルAIのデモとして紹介すると実態と異なるため確かさ0として不採用。\n(7) 米Skyfall AIの「SKY-001」(写真1枚からCAD/BIMの組立手順を自動生成)は2026-10-20 21:00の夜枠で既に使用済みのため重複で除外。\n(8) @Solvaixが投稿した「Claude Opus 5.5が太陽光発電所を3D設計」「AIが住宅一式のMEP設計」(2026-10-20/21)はBIM/CAD操作AIとして建設との距離2相当だが、アカウント・投稿内容をWebSearchで一切確認できず(x.comへの直接アクセスも遮断)確かさ0として除外。\n\n(追加調査)\n四足歩行ロボットの巡回、自律重機、ドローン測量、ロボットアームの溶接・鉄筋、3Dプリント住宅、BIM AIエージェント等について日本語・英語の両方でWebSearchを追加実施(自律重機/autonomous excavator/humanoid robot welding rebar/3D printed house/robot dog construction site/BIM AI agent demo等)したが、直近48h以内かつ動画を確認できる新規候補は発見できなかった。\n\n以上より、国内・海外とも絵2点(動画確認)と確かさの両方を満たす候補がゼロのため、本枠は休載とする。"
+  "generated_at": "2026-10-21T20:05+09:00",
+  "generated_by": "manual:本人指示",
+  "original_post": {
+    "time": "21:00",
+    "text": "建設業のみなさん、自社のホームページ大丈夫？\n\n今夜23時、PHPに緊急の修正版が出る。脆弱性は2件、深刻度はCVSS 9.2。\n\n何がやばいかというと、外から勝手にサーバーを操作される種類の穴だということ。もし突かれたら、\n・ホームページを書き換えられて、怪しいサイトに飛ばされる\n・問い合わせフォームや採用応募で預かった名前・電話番号が、サーバーに残っていれば抜かれる\n・自社のサーバーが、よそへの攻撃の踏み台にされる\nといったことが起こりうる。\n\nPHPはWordPressの土台なので、会社のホームページや採用サイトも、PHPで動いていればほぼ対象。実際に攻撃されたという報告はまだ出ていないけど、修正の中身が公開されると、そこから攻撃方法を探す人が出てくる。今夜から数日が勝負。\n\n建設会社だと、制作会社に作ってもらってから誰も触ってないサイトが多いはず。サーバー会社が自動で更新してくれる契約か、自分でやる契約か、今日中に確かめてほしい。\n\nどのPHPで動いてるか分からなければ、サーバーの管理画面のスクショをAIに見せれば確認の手順まで教えてくれる。",
+    "status": "draft",
+    "article_url": null,
+    "video_url": null,
+    "reply_text": "ソース: https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/\nCVE-2026-109618 / CVE-2026-109619。修正版は日本時間10/21 23:00公開予定。対象バージョンは修正版の公開時にPHP公式が発表",
+    "editorial": {
+      "pillar": "本人指示",
+      "format": "速報",
+      "scores": {
+        "surprise": 2,
+        "visual": 0,
+        "freshness": 2,
+        "construction_distance": 1,
+        "certainty": 2
+      },
+      "selection_reason": "本人指示（2026-10-21「PHPでバズってる件、ポスト作って」「建設業の皆さん大丈夫か？と」「何がやばいか、攻撃・漏洩」）。夜枠は同日休載だったため、修正版公開(23:00)前に読まれるよう21:00枠に入れた。動画なし・建設AIではないため戦略の柱外だが本人判断で採用。競合サービスの言及なし。",
+      "source_url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+      "published_at": "2026-10-20",
+      "checked_at": "2026-10-21T20:00+09:00",
+      "availability": "公開済み。php.net・BleepingComputer等はプロキシ遮断で直接開けず、WebSearch(extended)で複数報道(BleepingComputer, Infosecurity Magazine, piyolog, ma.ttias.be, Vincent Schmalbach)の要旨から確認。",
+      "unverified": "対象バージョン・修正版番号は未発表(8.5.12等は単一ソース)。PHP5以降全体が対象との流出情報は未確認。AIで再現したとするエクスプロイトは作者が撤回。悪用状況は報道で割れている(BSIは未確認)。被害例(改ざん・情報流出・踏み台)はRCE一般の起こりうる例として書いた。",
+      "hook_alternative": "建設業のみんな、会社のHP大丈夫か？"
+    }
+  },
+  "engage_cards": []
 }
