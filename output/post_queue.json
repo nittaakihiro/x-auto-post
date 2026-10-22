@@ -15550,5 +15550,50 @@
       "unverified": [],
       "hook_alternative": ""
     }
+  },
+  {
+    "id": "2026-10-22_20:00",
+    "date": "2026-10-22",
+    "time": "20:00",
+    "text": "NVIDIAが、AIデータセンターをコンテナごと運ぶ「DSXポッド」を出した。サーバーラック7台と冷却・配線を1つの箱に詰めて、現地では据え付けるだけ。構築期間が6ヶ月から14日に縮むという。\n\n6ヶ月を180日とすると、14日との差は166日。発表には書かれてないが、受電や冷却の配管をつなぐ工事は、この箱の前にも後にも要るはずだ。\n\nコンテナは28トン、ラック1台あたり4トン。日本で同じ箱を運ぶなら、搬入路の道路事情も気になる。\n\n6ヶ月が14日になる未来で、残りの166日はどこに行くんだろう。短くなるのか、箱の外側に押し出されるだけなのか、今の発表だけでは分からない。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 出典\nhttps://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/",
+      "delay_minutes": 5
+    },
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": null,
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "本質投稿",
+      "format": "本質型",
+      "scores": {
+        "own_voice": 2,
+        "concrete": 2,
+        "construction_only": 2,
+        "not_bottleneck": 2,
+        "angle_fresh": 2
+      },
+      "selection_reason": "【数字を自分で割ってみた】入口の出来事は2026-10-21(The Decoderの記事\"Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days\"、news_feed.json ai_global掲載、published_jst 2026-10-21 22:42、直近48h以内)。NVIDIAがGTC Berlinで、サーバーラック7台と冷却・配線・ネットワークを1つのコンテナに事前実装した「DSX POD」を発表し、データセンターの構築期間を従来の約6ヶ月から最短14日に縮められるとした記事。直近7本(10-15〜10-21)の本質型投稿のうち【種類名】表記があるのは10-17〜10-21の5本(現場で実際どうなるか/答えが出ていない問い/AIでまだできないこと/僕の意見/歴史・前にもあったこと)で、残り2種類(数字を自分で割ってみた/一言)のうち『数字を自分で割ってみた』を選んだ。候補3案を本質の5観点(own_voice/concrete/construction_only/not_bottleneck/angle_fresh、各0〜2点)で比較。(1)採用・計10点: 6ヶ月(180日)と14日の差166日を割り出し、発表に書かれていない受電・冷却配管の接続工事やコンテナ28トン(ラック1台あたり4トン)の搬入路事情に触れたうえで、『残りの166日はどこに行くんだろう』と問いのまま終える案。搬入路・クレーン・受電冷却配管の接続工事という現場実務の具体を知らないと書けない一文があり、own_voice2/concrete2/construction_only2/not_bottleneck2(『本当の原因は』『〜した会社が先に動ける』の言い切りをせず、最後まで開いた問いで終えている)/angle_fresh2(直近7本と考察の種類・題材とも重複なし)で計10点のため採用。(2)不採用・計9点: 同じ計算をしたうえで、箱を据え付けるクレーンオペレーターが『残り166日分の工事がどこまで終わっているか気にしながら荷を降ろす』場面で締める案。場面のまま終える型として悪くないが、残り工事への言及の置き方が『本当に時間がかかるのはそっち』というボトルネック言い当てに寄りかかって読める余地があり、not_bottleneck1と判定して一段階落とした。(3)不採用・計7点: 同じ数字から『ここが読めないと14日という数字だけで工期を語るのは早い』と意見を言い切って終える案。記事の見せ方への評論・批評に近い語り口になり、新田さんが飲み会でそのまま言うというよりアナリストの講評に聞こえるためown_voice1、『箱が速くなるほど手前の調整の精度が問われる』という締めも『本当に効くのは手前側』という原因の言い当てに近く、not_bottleneck1と判定し計7点で足切り未満のため不採用。競合除外チェック: 本文に登場する事業者はNVIDIAのみ(他にDell・HPE・Lenovo・Eaton・Schneider Electric・Vertiv等がパートナーとして報じられているが本文では未使用)で、戦略の競合除外リスト(光/Hikari・ミャク楽・Motif、建設業向けAI開発/導入支援・BPO・営業代行)には該当しない。重複確認: post_queue.json全体をNVIDIA/Nvidia/DSXで検索したが、9-28(Nemotron 3 Diarization)・9-29(AIエージェントのセキュリティ)のみで本件との重複なし。直近14日の本質投稿、本日08:00/17:00枠(商談議事録ベースの打診検査・安全書類の投稿)、本日の朝・昼枠(いずれも休載)とも別ネタ。data/analytics/live_metrics.jsonはfetched_at 2026-10-18T22:31(UTC)時点のままで本日分の更新がなく、実投稿との重複はこのデータでは確認できない(実投稿未確認)。",
+      "source_url": "https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/",
+      "published_at": "2026-10-21",
+      "checked_at": "2026-10-22T19:11+09:00",
+      "availability": "一次発表はNVIDIAのGTC Berlin(2026-10-20〜22開催)でのDSX POD発表。WebFetchはnews.google.comおよびthe-decoder.comともにプロキシ経由でDNS解決不可(getaddrinfo ENOTFOUND)のため本文を直接開けず、WebSearch(standard/extended)でThe Decoder記事の要旨(published_jst 2026-10-21 22:42)、および複数の独立した二次報道(Data Center Knowledge、BigGo Finance、Seoul Economic Daily、daily.dev等)の引用内容が一致することを確認した。コンテナ1台にVera Rubin NVL72ラック7台を収容、重量約28,000kg、通常の道路で輸送可能なトラック輸送を想定、構築期間を約6ヶ月から最短14日に短縮という数字は複数の二次報道で一致している。NVIDIA公式ニューズルームの一次ページ自体はWebSearchでは特定できなかった。",
+      "unverified": "NVIDIA公式サイトの一次発表ページ(プレスリリース本文)は検索で特定できず、二次報道の引用一致での確認にとどまる。『14日』という数字は電力・冷却・ネットワーク回線が整備済みの敷地を前提にしているとの指摘が複数の報道にあり、受電・冷却配管の接続工事がこの前後どちらで必要になるかは一次発表に明記がない(本文では『前にも後にも要るはず』と推測として書き、断定していない)。日本国内への搬入・展開が具体的に予定されている事実は確認できておらず、本文の『日本で同じ箱を運ぶなら』の一文はあくまで仮定の思考実験として書いており、国内導入の事実として書いていない。",
+      "hook_alternative": "候補2: 据え付けるクレーンオペレーターの場面で締める案。not_bottleneck1(残り工事への言及がボトルネック言い当てに寄りかかって読める)で計9点のため不採用。候補3: 『14日という数字だけで工期を語るのは早い』と意見を言い切る案。own_voice1(アナリストの講評寄り)・not_bottleneck1(『本当に効くのは手前側』に近い)で計7点、足切り未満のため不採用。"
+    }
   }
 ]
