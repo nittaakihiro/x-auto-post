@@ -1,18 +1,14 @@
 {
- "generated_at": "2026-10-22T14:07+00:00",
- "generated_at_jst": "2026-10-22 23:07",
+ "generated_at": "2026-10-22T17:08+00:00",
+ "generated_at_jst": "2026-10-23 02:08",
  "window_hours": 48,
  "counts": {
-  "ai_global": 74,
-  "construction_global": 31,
-  "construction_japan": 62,
+  "ai_global": 77,
+  "construction_global": 32,
+  "construction_japan": 58,
   "ai_japan": 33
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -23,14 +19,237 @@
   },
   {
    "feed": "kensetsunews",
-   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+   "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
   },
   {
    "feed": "decn",
-   "error": "HTTPError: HTTP Error 502: Bad Gateway"
+   "error": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
   }
  ],
  "items": [
+  {
+   "id": "93c844a35d41",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+   "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+   "published": "2026-10-22T16:47+00:00",
+   "published_jst": "2026-10-23 01:47",
+   "summary": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+   "ai_related": true,
+   "title_ja": "ConnectWise侵害、中国ハッカーが数千社を標的",
+   "summary_ja": "Microsoftは、ConnectWiseの侵害は中国系ハッカーの仕業であると指摘。AIエージェントを駆使し、数千社の顧客企業を急速にハッキングした。"
+  },
+  {
+   "id": "44c2b7b9bb4c",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Commercial groundbreakings plunged 18% in September",
+   "url": "https://www.constructiondive.com/news/commercial-groundbreakings-plunged-september/833741/",
+   "published": "2026-10-22T16:41+00:00",
+   "published_jst": "2026-10-23 01:41",
+   "summary": "Fewer starts in manufacturing and data centers caused total construction activity to slip for a second straight month, according to Dodge Construction Network.",
+   "ai_related": false,
+   "title_ja": "9月の商業施設着工件数が18％急減",
+   "summary_ja": "Dodge Construction Networkによると、製造業やデータセンターの着工減により、全体の建設活動が2カ月連続で低下した。"
+  },
+  {
+   "id": "7193f81b802a",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Only 13 percent of companies see real returns from AI, Gartner survey finds",
+   "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
+   "published": "2026-10-22T16:18+00:00",
+   "published_jst": "2026-10-23 01:18",
+   "summary": "Only 13 percent of companies are getting real business value from their AI investments, according to a Gartner survey of 2,002 CIOs. At the same time, 51 percent expect AI to actually increase their operating costs. Yet 75 percent of CEOs plan to keep raising their technology budgets. So far, strate",
+   "ai_related": true,
+   "title_ja": "AIで実際の利益を得ている企業はわずか13％",
+   "summary_ja": "Gartnerの調査によると、AI投資で実際のビジネス価値を得ている企業は13％のみ。一方、51％は運用コストが増加すると予測している。"
+  },
+  {
+   "id": "2a8e11324f4e",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+   "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+   "published": "2026-10-22T16:16+00:00",
+   "published_jst": "2026-10-23 01:16",
+   "summary": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were brou",
+   "ai_related": true,
+   "title_ja": "Wildwood監督「AIはスタジオの理念に反する」",
+   "summary_ja": "ストップモーションスタジオLaikaの野心作『Wildwood』。5年をかけて完成した壮大なファンタジー冒険アニメ。"
+  },
+  {
+   "id": "9d72639f5e00",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Uber puts all 30,000 employees on ChatGPT Work",
+   "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+   "published": "2026-10-22T16:00+00:00",
+   "published_jst": "2026-10-23 01:00",
+   "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+   "ai_related": true,
+   "title_ja": "Uber、全社員3万人に「ChatGPT Work」を導入",
+   "summary_ja": "配車大手のUberは、小規模なパイロット運用を経て、企業向けAIエージェントを全社展開する。"
+  },
+  {
+   "id": "540e896edf86",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+   "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+   "published": "2026-10-22T15:50+00:00",
+   "published_jst": "2026-10-23 00:50",
+   "summary": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to ",
+   "ai_related": true,
+   "title_ja": "OpenAIやNvidia、ロビー活動費が過去最高を記録",
+   "summary_ja": "連邦開示資料によると、AI企業によるロビー活動が活発化。7〜9月期にAnthropic、OpenAI、Nvidiaが過去最高の支出を記録した。"
+  },
+  {
+   "id": "0acbee798fb2",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Quoting Armin Ronacher",
+   "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+   "published": "2026-10-22T15:34+00:00",
+   "published_jst": "2026-10-23 00:34",
+   "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+   "ai_related": true,
+   "title_ja": "アーミン・ロナッカーの言葉",
+   "summary_ja": "AIは面白いが、我々は過去30年間に多くの不良ソフトウェアを作り、今やそのツケを払わされている。―アーミン・ロナッカー"
+  },
+  {
+   "id": "c625905b3719",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+   "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+   "published": "2026-10-22T15:25+00:00",
+   "published_jst": "2026-10-23 00:25",
+   "summary": "Hackers were already probing the bug before defenders were told it existed.",
+   "ai_related": true,
+   "title_ja": "深刻なPHP2Shellの脆弱性、ハッカーが早期悪用",
+   "summary_ja": "防御側がバグの存在を知る前に、ハッカーらはすでに脆弱性の調査を進めていた。"
+  },
+  {
+   "id": "7faddebfff09",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "PHP: The three little letters wreaking havoc across the web",
+   "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
+   "published": "2026-10-22T15:12+00:00",
+   "published_jst": "2026-10-23 00:12",
+   "summary": "Two vulnerabilities found in the programming language PHP put enormous swaths of the internet in danger. By some accounts, up to 70 percent of websites use PHP in some capacity. It powers Wikipedia, WordPress, Drupal, and a host of other popular sites and platforms, including DeviantArt and 4Chan, w",
+   "ai_related": true,
+   "title_ja": "ウェブ全体に混乱をもたらすPHPの脆弱性",
+   "summary_ja": "プログラミング言語PHPの2つの脆弱性がネット全体を脅かす。ウェブサイトの最大70％がPHPを使用しており、Wikipediaなども影響を受ける。"
+  },
+  {
+   "id": "0bffbef0359b",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Spotify’s current AI bet is about being the music service that agents choose",
+   "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+   "published": "2026-10-22T15:03+00:00",
+   "published_jst": "2026-10-23 00:03",
+   "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+   "ai_related": true,
+   "title_ja": "SpotifyのAI戦略、AIエージェントに選ばれる音楽サービスへ",
+   "summary_ja": "Spotifyの共同CEOグスタフ・ソデルストロムが、AIエージェントの台頭が同社にとって追い風となる理由を解説。"
+  },
+  {
+   "id": "06769efcf6f4",
+   "source": "NVIDIA Blog",
+   "source_id": "nvidia",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+   "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+   "published": "2026-10-22T15:00+00:00",
+   "published_jst": "2026-10-23 00:00",
+   "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are ",
+   "ai_related": true,
+   "title_ja": "NVIDIA、AI工場向けオブザーバビリティ基盤発表",
+   "summary_ja": "NVIDIAは、AI工場の問題早期発見と生産性維持を支援するAIOpsプラットフォーム「Minerva」を発表した。"
+  },
+  {
+   "id": "1c70a97b9dc2",
+   "source": "Vietnam.vn",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "給与は40～50％上昇したが、建設業界は依然として人手不足に直面している。",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdWNnUm02cGJvcmlyS092WDAycHV1aGtKUW8wVzhEdTRQeWsyd2FSSDFSU1dzRWN3SnVSWTJVZ2cwSGw3V0F3OEl3R294c3Y3cmpFN05FZGwwMWltcEVSMjJzR213OWowNDRwS2xfdnF4cVhJTXVNQUhpRU15MWtIV0FRd3F6Vnl6?oc=5",
+   "published": "2026-10-22T14:59+00:00",
+   "published_jst": "2026-10-22 23:59",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "1d007c3d32c2",
+   "source": "ConstructConnect Blog",
+   "source_id": "constructconnect",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Stop Missing Measurements in Complex Landscape Plans - Advanced Auto Takeoff for Concrete (Clone)",
+   "url": "https://www.constructconnect.com/blog/stop-missing-measurements-in-complex-landscape-plans-advanced-auto-takeoff-for-concrete-clone",
+   "published": "2026-10-22T14:51+00:00",
+   "published_jst": "2026-10-22 23:51",
+   "summary": "In short Landscape plans pack multiple takeoff challenges into one set of drawings: from plant counts and area calculations to linear edges, irrigation elements, and site furnishings. Takeoff BOOST™’s Expanded Auto Takeoff coverage helps organize these measurement types into one structured review, s",
+   "ai_related": false,
+   "title_ja": "複雑な造園図面の計測漏れを防ぐ自動化ツール",
+   "summary_ja": "造園図面には多くの計測課題が存在する。Takeoff BOOSTの拡張自動計測機能により効率化を実現する。"
+  },
+  {
+   "id": "5cabb389fd3b",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Recursive shows first result of its AI-driven research process with Flint",
+   "url": "https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/",
+   "published": "2026-10-22T14:40+00:00",
+   "published_jst": "2026-10-22 23:40",
+   "summary": "The AI startup Recursive is unveiling Flint, its first language model, a 40-billion-parameter MoE for local coding developed by former DeepMind researchers. It was created in four months using the company's in-house AI system, \"Eureka Machine,\" which independently tests and optimizes architectures. ",
+   "ai_related": true,
+   "title_ja": "Recursive、AI駆動型開発による初の言語モデルを発表",
+   "summary_ja": "AIスタートアップのRecursiveは、元DeepMindの研究者が開発した400億パラメータのローカルコーディング用モデル「Flint」を発表した。"
+  },
+  {
+   "id": "e66e9796ba6b",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "published": "2026-10-22T14:30+00:00",
+   "published_jst": "2026-10-22 23:30",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "ai_related": true,
+   "title_ja": "世界の森林タイプをマッピング",
+   "summary_ja": "地球上の10メートル単位の土地を区別し、森林タイプごとに分類したグローバルマップ。"
+  },
   {
    "id": "12686626013b",
    "source": "The Verge AI",
@@ -42,7 +261,9 @@
    "published": "2026-10-22T14:00+00:00",
    "published_jst": "2026-10-22 23:00",
    "summary": "Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late August titled “The turbulent AI era is […",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ビル・ゲイツ氏「今後20年は激動のAI変革に備えよ」",
+   "summary_ja": "Microsoft共同創業者でありゲイツ財団の共同議長を務めるビル・ゲイツ氏が、今後予想される激動のAI時代について語る。"
   },
   {
    "id": "6aa970c38b49",
@@ -54,8 +275,10 @@
    "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
    "published": "2026-10-22T13:53+00:00",
    "published_jst": "2026-10-22 22:53",
-   "summary": "Claude Duet is available through waitlist for Pro and Max plan users",
-   "ai_related": true
+   "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
+   "ai_related": true,
+   "title_ja": "Anthropic、エージェント向け新アプリ「Claude Duet」発表",
+   "summary_ja": "「Claude Duet」は、ProおよびMaxプランのユーザーを対象にウェーティングリスト形式で提供される。"
   },
   {
    "id": "a4344d39d17a",
@@ -68,7 +291,22 @@
    "published": "2026-10-22T13:26+00:00",
    "published_jst": "2026-10-22 22:26",
    "summary": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ユーザーだけに聞き従うペンダント型デバイス、Nirvaが資金調達",
+   "summary_ja": "Nirvaは、249ドルのアンビエントAIペンダントを年末までに出荷予定。"
+  },
+  {
+   "id": "710f3d5074e4",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ネビウス、AIデータセンター建設資金にシティから35億ドルのクレジットラインを確保",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PT3ZvdUV1Vk5YYUt2Y1ZEWm95eTdVMmwwWUlGcTNMNXU3QXRLNkEybklJTWFzTUR4dVhBbTUxanRNb2RWTVUwXzZyVjBKeTRwRXFweHZRdHhqM2x3aWlkOWRVWElLU1dyRGlIN25qUGVYcUxU?oc=5",
+   "published": "2026-10-22T13:25+00:00",
+   "published_jst": "2026-10-22 22:25",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "779cc50e4b9b",
@@ -80,8 +318,10 @@
    "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
    "published": "2026-10-22T13:11+00:00",
    "published_jst": "2026-10-22 22:11",
-   "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the US ordered federal agencies to remove its technology over national security concerns.",
-   "ai_related": true
+   "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
+   "ai_related": true,
+   "title_ja": "DeepSeek、米国による規制の数日後に150億ドルを調達か",
+   "summary_ja": "米国が連邦機関に同社技術の排除を命じた数日後、中国で最大規模となる150億ドルを調達したと報じられている。"
   },
   {
    "id": "0d155a8c6750",
@@ -94,7 +334,9 @@
    "published": "2026-10-22T13:00+00:00",
    "published_jst": "2026-10-22 22:00",
    "summary": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ulti",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "『CoD: モダン・ウォーフェア4』がGeForce NOWに登場",
+   "summary_ja": "『Call of Duty: Modern Warfare 4』が発売と同時にGeForce NOWに対応し、キャンペーンやマルチプレイヤーなどがプレイ可能に。"
   },
   {
    "id": "633b64365941",
@@ -107,7 +349,9 @@
    "published": "2026-10-22T13:00+00:00",
    "published_jst": "2026-10-22 22:00",
    "summary": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all of your connected accounts - you'll still need to grant approval for sign-in req",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "1Password、AIエージェントがパスワードを見ずに自動ログイン",
+   "summary_ja": "AIエージェントが実際のパスワードを見ることなくアカウントにサインインできる新機能「1Password for Agents」を発表。"
   },
   {
    "id": "c24876b37e46",
@@ -115,12 +359,14 @@
    "source_id": "verge_ai",
    "category": "ai_global",
    "lang": "en",
-   "title": "AI agents are ready to shop. Some retailers are wary.",
+   "title": "AI agents are ready to shop. Some retailers are wary",
    "url": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
    "published": "2026-10-22T12:30+00:00",
    "published_jst": "2026-10-22 21:30",
    "summary": "Using an AI agent to shop for you is a strange experience. Tech companies have marketed them as personal assistants - the democratizing of labor that ordinarily would only be available to the rich and powerful. In practice, at least for buying things, it's more like sending an anxious and apologetic",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIエージェントの買い物、小売業者は警戒",
+   "summary_ja": "AIエージェントを使った買い物は奇妙な体験だ。テック企業は富裕層向けの労働の民主化としてこれを宣伝してきた。"
   },
   {
    "id": "ff67e4725a21",
@@ -133,7 +379,9 @@
    "published": "2026-10-22T12:21+00:00",
    "published_jst": "2026-10-22 21:21",
    "summary": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, expert",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Claudeはサソリの抗毒素を発明できず",
+   "summary_ja": "投資調査会社がAIの薬開発への革命的効果を証明しようとAnthropicと協力したが、Claudeはサソリの抗毒素を作れなかった。"
   },
   {
    "id": "1d344eddf2ea",
@@ -146,7 +394,9 @@
    "published": "2026-10-22T11:31+00:00",
    "published_jst": "2026-10-22 20:31",
    "summary": "Mace Consult has warned the government’s devolution ambitions are not guaranteed to “put projects on site” as funding certainty and “realistic programmes” remain key amid fragile industry confidence. In the consultancy’s latest quarterly market report, it argued that moving power away from Whitehall",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "権限委譲の複雑さがプロジェクトを遅らせる懸念",
+   "summary_ja": "Mace Consultは、業界の信頼が揺らぐ中、政府の権限委譲目標が確実に現場の工事につながるとは限らないと警告している。"
   },
   {
    "id": "9b2c96aca58e",
@@ -174,7 +424,9 @@
    "published": "2026-10-22T11:21+00:00",
    "published_jst": "2026-10-22 20:21",
    "summary": "Peter O’Brien is the managing director at O’Brien Contractors There has been a lot of talk and a lot of promises, but now it’s time for action. Burnham’s administration has brought in some significant reforms in a short space of time, but we’re still to… The post The Budget must build confidence and",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "予算案は信頼と投資を生み出さねばならない",
+   "summary_ja": "多くの議論や約束がなされてきたが、今こそ行動の時だ。バーナム政権は短期間で重要な改革をいくつか導入した。"
   },
   {
    "id": "90200352c290",
@@ -187,7 +439,9 @@
    "published": "2026-10-22T11:14+00:00",
    "published_jst": "2026-10-22 20:14",
    "summary": "Four schools in East Dunbartonshire cannot be “economically refurbished” due to their construction methods and will need to be replaced. The modular method used to construct the schools in the 1960s and 1970s “present[s] significant limitations for refurbishment”, the local council said in a stateme",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "スコットランドの4校、構造的欠陥で建て替えへ",
+   "summary_ja": "イースト・ダンバートンシャーの4校は、1960〜70年代の工法上の問題から経済的な改修が不可能であり、建て替えが必要となる。"
   },
   {
    "id": "e106504eaece",
@@ -228,7 +482,9 @@
    "published": "2026-10-22T10:48+00:00",
    "published_jst": "2026-10-22 19:48",
    "summary": "Two workers have been taken to hospital, one with severe injuries, after a building partially collapsed in Banbury, Oxfordshire. The incident happened in Lower Cherwell Street where a former car sales site is being redeveloped into 19 apartments. Thames Valley Police told Construction News nine… The",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "オックスフォードシャーで建物の一部が崩落、2負傷",
+   "summary_ja": "オックスフォードシャー州バンベリーの元自動車販売地で建物が一部崩落し、作業員2人が病院に搬送され、1人が重傷。"
   },
   {
    "id": "dce4f3a5480e",
@@ -241,7 +497,9 @@
    "published": "2026-10-22T10:39+00:00",
    "published_jst": "2026-10-22 19:39",
    "summary": "Heathrow could be forced to adopt new competitive delivery models for major construction projects, including new and redeveloped airport terminals. The Civil Aviation Authority (CAA) is considering powers to require competitive design-and-build or design-build-operate arrangements for individual pro",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "CAA、ヒースロー空港に競争的調達モデルの導入を検討",
+   "summary_ja": "民間航空局（CAA）は、ヒースロー空港に対し、新規ターミナルなどの大型建設プロジェクトで新しい競争的調達モデルの採用を義務付ける権限を検討している。"
   },
   {
    "id": "6dc9e9b31e03",
@@ -254,7 +512,9 @@
    "published": "2026-10-22T10:18+00:00",
    "published_jst": "2026-10-22 19:18",
    "summary": "Fifteen contractors have been selected for places on a £1bn construction framework in the North West, with Bam, Kier and McLaren among six firms chosen for its highest-value projects. Manchester City Council has named the successful bidders for the North West Construction Hub's High Value… The post ",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "10億ポンドのノースウエスト枠組み、15社選定",
+   "summary_ja": "イングランド北西部の10億ポンド規模の建設枠組みに向け15社が選定され、最高額の案件にはBam、Kier、McLarenなど6社が入った。"
   },
   {
    "id": "617c98361da3",
@@ -280,7 +540,9 @@
    "published": "2026-10-22T10:12+00:00",
    "published_jst": "2026-10-22 19:12",
    "summary": "Balfour Beatty has secured a contract for design and enabling works on National Grid's new 400kV Birkhill Wood substation in East Yorkshire, ahead of main construction starting next year. The contractor will undertake early contractor involvement work, including detailed design and site preparation,",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "バルフォア・ビーティ、ヨークシャーの変電所工事を受注",
+   "summary_ja": "バルフォア・ビーティは、来年の本格着工を前に、イースト・ヨークシャーの新しい400kV変電所の設計・準備工事の契約を獲得した。"
   },
   {
    "id": "be2f4480f6a9",
@@ -308,7 +570,9 @@
    "published": "2026-10-22T10:01+00:00",
    "published_jst": "2026-10-22 19:01",
    "summary": "Whole-life carbon assessments are being used inconsistently across public construction and infrastructure projects, according to new industry research. The Centre for Construction Best Practice (CCBP) also found that 70 per cent of respondents said current policy and regulation had no, limited or va",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ライフサイクル炭素評価の不十分な活用が判明",
+   "summary_ja": "新しい業界調査によると、公共の建設・インフラ事業においてライフサイクル炭素評価が一貫して使用されていないことが明らかになった。"
   },
   {
    "id": "6a85074051ec",
@@ -335,6 +599,19 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KcElSbXhFRDlCSXRyMUtGOFI1M3VHNU1KQy1CV0d0bHVTMFd2Q2N4REdGRlBYclcxcDZMeUt3SkMtNHNnTVNVczhSbnFzaXBmOGk5dkZ6N21zblpEYmlXX2ZUV056T2dRdU5mRA?oc=5",
    "published": "2026-10-22T10:00+00:00",
    "published_jst": "2026-10-22 19:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "ac2d5a1672a3",
+   "source": "Mezha.net",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AIデータセンター建設のボトルネックにケーブル生産能力、Nexansが指摘",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR3YtOWs4WG9BSURVU2lSX0ZlcGswcVpsVE9mbEtTXzNPdjJnTFcwSEthM0FCZ0lLWDBsXzRSUndKY0E1UUlpRURQeWpkc1FLaUlRWXlvSEJIT2NsLW5iZFBnU1JxNnJOV3ZfXzM5V2w5Mzktb1phUWRLRnluSC1qVGVWNUltZ2RSWktLTXcxR3dyTmJLY1A1QU9fOS1Da2M?oc=5",
+   "published": "2026-10-22T09:21+00:00",
+   "published_jst": "2026-10-22 18:21",
    "summary": "",
    "ai_related": false
   },
@@ -393,19 +670,6 @@
    "ai_related": true,
    "title_ja": "AIが抱える隠れたコスト：推論処理がもたらすデータ保存の負担",
    "summary_ja": "AIのコストとしてGPUが注目されがちだが、膨大な推論データに伴うストレージコストも見過ごせない課題となっている。"
-  },
-  {
-   "id": "3cd0f779c3bc",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI時代の鍵は「電力」…イ・ジェヨン氏、UAE発電所の現場を自ら視察",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpNjNDUWZvZ2x1R2dXTUk2bzVRQVNhOElGV0xUSm5QSGZIQUJEWmZmSnE2alVhNnp1bVBMbXNwZ1FRdTVEY2tnS28tYVk4YjBkU3lF?oc=5",
-   "published": "2026-10-22T08:41+00:00",
-   "published_jst": "2026-10-22 17:41",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "4967e7a67f06",
@@ -681,7 +945,9 @@
    "published": "2026-10-22T06:00+00:00",
    "published_jst": "2026-10-22 15:00",
    "summary": "What forward deployed engineering means at OpenAI",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIにおけるFDEの意味",
+   "summary_ja": "OpenAIにおけるフォワード・デプロイド・エンジニアリング（前線展開エンジニアリング）の意味するものについて。"
   },
   {
    "id": "183374c6b23b",
@@ -707,19 +973,6 @@
    "published": "2026-10-22T05:25+00:00",
    "published_jst": "2026-10-22 14:25",
    "summary": "複数のAIモデルを簡単に利用できるオープンソースツール「LiteLLM」のバージョン1.107.0にパスワードなどを盗み出す不正プログラムが仕込まれていたことが判明しました。不正プログラムはLiteLLMをインストールした環境でPythonを起動するだけで実行される仕組みで、攻撃者が遠隔操作で別のプログラムを実行できる機能も備えていたとのことです。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "b3cb6b9ecffc",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI CLI",
-   "url": "https://github.com/openai/openai-cli",
-   "published": "2026-10-22T05:23+00:00",
-   "published_jst": "2026-10-22 14:23",
-   "summary": "Article URL: https://github.com/openai/openai-cli Comments URL: https://news.ycombinator.com/item?id=50191507 Points: 176 # Comments: 85",
    "ai_related": true
   },
   {
@@ -991,7 +1244,7 @@
    "url": "https://simedw.com/2026/10/21/world-model-terminal/",
    "published": "2026-10-22T02:18+00:00",
    "published_jst": "2026-10-22 11:18",
-   "summary": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 352 # Comments: 112",
+   "summary": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 424 # Comments: 133",
    "ai_related": true,
    "title_ja": "WorldTUI：ターミナルを模倣する360Mモデルを訓練",
    "summary_ja": "記事のURLやHacker Newsでのコメント、ポイント、コメント数などの詳細情報が掲載されています。"
@@ -1088,6 +1341,21 @@
    "ai_related": false
   },
   {
+   "id": "ba6fa07d677a",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "published": "2026-10-22T00:00+00:00",
+   "published_jst": "2026-10-22 09:00",
+   "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+   "ai_related": true,
+   "title_ja": "ウーバー、全従業員向けにChatGPT Workを導入",
+   "summary_ja": "ウーバーは3万人以上の従業員向けにChatGPT Workを導入し、調査やデータ分析、プレゼン作成、複雑な業務の遂行を支援する。"
+  },
+  {
    "id": "2039bb769448",
    "source": "ANDPAD ONE",
    "source_id": "andpad_one",
@@ -1179,6 +1447,21 @@
    "ai_related": true,
    "title_ja": "ブラックストーン、AI投資の債務懸念を一蹴",
    "summary_ja": "ブラックストーンのAI部門責任者が、市場の懸念やPE大手の見解について語る。"
+  },
+  {
+   "id": "c1d080de5b43",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+   "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
+   "published": "2026-10-21T22:45+00:00",
+   "published_jst": "2026-10-22 07:45",
+   "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
+   "ai_related": true,
+   "title_ja": "メタ、AI投資資金調達のため新しい株式発行を計画",
+   "summary_ja": "ソーシャルメディアの巨人は、AIモデルやサービスへの大規模な投資を支えるため、新たな株式戦略を計画している。"
   },
   {
    "id": "eaa3fbf80042",
@@ -1440,21 +1723,6 @@
    "ai_related": false
   },
   {
-   "id": "0d8d03379584",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-   "published": "2026-10-21T19:53+00:00",
-   "published_jst": "2026-10-22 04:53",
-   "summary": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Clau",
-   "ai_related": true,
-   "title_ja": "Anthropic、新型AIエージェント「Claude Duet」発表",
-   "summary_ja": "MetaのMuseに対抗するプロ・中小企業向けの新型AIエージェント「Claude Duet」をリサーチプレビューとして発表。"
-  },
-  {
    "id": "3541cbef8ef0",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1500,21 +1768,6 @@
    "summary_ja": "アマゾンがAIエージェントのショッピングを制限する中、ウォルマートは購買代行を許可する新技術を導入へ。"
   },
   {
-   "id": "89a2c6e8757c",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Walmart is inviting AI agents to shop for you",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
-   "published": "2026-10-21T19:30+00:00",
-   "published_jst": "2026-10-22 04:30",
-   "summary": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to use an AI agent on the site, with systems in place to let you approve and review purchases and set spending limits. The embrace of AI agents stands in stark contrast to Amazon, which […]",
-   "ai_related": true,
-   "title_ja": "ウォルマート、AIエージェントによる買い物代行を導入",
-   "summary_ja": "ウォルマートは来月から、ユーザーに代わってAIエージェントがサイトで買い物できる仕組みを導入し、支出制限なども設定可能にする。"
-  },
-  {
    "id": "5dbb54a00540",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -1524,7 +1777,7 @@
    "url": "https://claude.com/product/claude-duet",
    "published": "2026-10-21T19:14+00:00",
    "published_jst": "2026-10-22 04:14",
-   "summary": "Article URL: https://claude.com/product/claude-duet Comments URL: https://news.ycombinator.com/item?id=50186037 Points: 466 # Comments: 434",
+   "summary": "Article URL: https://claude.com/product/claude-duet Comments URL: https://news.ycombinator.com/item?id=50186037 Points: 511 # Comments: 474",
    "ai_related": true,
    "title_ja": "Claude Duetが発表",
    "summary_ja": "Claude Duetに関する記事のURLと、Hacker News上の議論やポイント、コメント数が掲載されています。"
@@ -1758,8 +2011,10 @@
    "url": "https://www.constructiondive.com/news/data-center-sustainability-presents-an-opportunity-usgbc-official-says/833701/",
    "published": "2026-10-21T16:12+00:00",
    "published_jst": "2026-10-22 01:12",
-   "summary": "Community pushback against data centers might be alleviated by sustainable construction and operations, a U.S. Green Building Council executive says at the 2026 Greenbuild conference.",
-   "ai_related": false
+   "summary": "Community pushback against data centers might be alleviated by sustainable construction and operations, a U.S. Green Building Council executive said at the 2026 Greenbuild conference.",
+   "ai_related": false,
+   "title_ja": "データセンターの持続可能性は好機と米緑色建築評議会",
+   "summary_ja": "データセンターに対する地域の反発は、持続可能な建設と運営によって緩和される可能性があると、米緑色建築評議会の幹部が語った。"
   },
   {
    "id": "b09e814a7a7a",
@@ -1803,21 +2058,6 @@
    "published_jst": "2026-10-22 00:06",
    "summary": "プログラミング言語のPHPに「PHP2Shell」と呼ばれる重大な脆弱性が見つかり、緊急アップデートがリリースされました。「PHP2Shell」の2つの脆弱性は、セキュリティ企業のCalifとWizがそれぞれ独立して2026年8月に発見していたことが報告されています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "1bbb4f6fc3d1",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Conversational Gemini navigation comes to Apple CarPlay",
-   "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-   "published": "2026-10-21T15:00+00:00",
-   "published_jst": "2026-10-22 00:00",
-   "summary": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability",
-   "ai_related": true,
-   "title_ja": "Apple CarPlayに会話型Geminiナビゲーションが登場",
-   "summary_ja": "GoogleはAndroid Autoに続き、Apple CarPlay向けにAIアシスタント「Gemini」の提供を開始した。"
   },
   {
    "id": "a5150d4cca0f",
@@ -1874,7 +2114,7 @@
    "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
    "published": "2026-10-21T14:00+00:00",
    "published_jst": "2026-10-21 23:00",
-   "summary": "Article URL: https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/ Comments URL: https://news.ycombinator.com/item?id=50181114 Points: 558 # Comments: 183",
+   "summary": "Article URL: https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/ Comments URL: https://news.ycombinator.com/item?id=50181114 Points: 580 # Comments: 187",
    "ai_related": true,
    "title_ja": "PyPIの偽装版LiteLLMに認証情報盗取ツールとバックドア",
    "summary_ja": "PyPIで公開された改ざんされたLiteLLM 1.107.0に、認証情報を盗むマルウェアとバックドアが仕込まれている。"
@@ -1893,36 +2133,6 @@
    "ai_related": false,
    "title_ja": "建設コストの高騰で9月の集合住宅着工件数が減少",
    "summary_ja": "専門家によると、高い資金調達コストや燃料価格の高騰、関税が住宅建築価格を押し上げている。"
-  },
-  {
-   "id": "87b0a1768a06",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days",
-   "url": "https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/",
-   "published": "2026-10-21T13:42+00:00",
-   "published_jst": "2026-10-21 22:42",
-   "summary": "Nvidia wants AI data centers to ship fully preassembled in containers. The article Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "Nvidia、AIデータセンターの構築期間を大幅短縮へ",
-   "summary_ja": "Nvidiaはコンテナ型の事前組み立て式AIデータセンターにより、構築期間を従来の6カ月から最短14日へと短縮することを目指している。"
-  },
-  {
-   "id": "d98a0e0eb18b",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "China protests the US Deepseek ban while blocking ChatGPT, Claude, and Gemini at home",
-   "url": "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/",
-   "published": "2026-10-21T13:04+00:00",
-   "published_jst": "2026-10-21 22:04",
-   "summary": "The US has banned Deepseek from its government systems, and China is protesting sharply and demanding the ban be lifted. Yet Beijing itself blocks ChatGPT, Claude, and Gemini across its entire market. China's outrage isn't very credible, but it should be taken seriously as a political signal of poss",
-   "ai_related": true,
-   "title_ja": "中国、米国のDeepseek規制に反発するも国内では主要AIを遮断",
-   "summary_ja": "米国がDeepseekを排除する一方、中国は猛烈に反発している。しかし中国自身はChatGPTやClaudeなどを国内市場で完全に遮断している。"
   },
   {
    "id": "74fcf21eca7a",
@@ -1968,21 +2178,6 @@
    "summary_ja": "OpenAIとGoogle Cloudが提携し、最先端モデルやCodexのワークフローをGoogle Cloud Marketplaceで提供する。"
   },
   {
-   "id": "1bf3156eb7ea",
-   "source": "ArchDaily",
-   "source_id": "archdaily",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mr. Belvedere House / Linework Architecture",
-   "url": "https://www.archdaily.com/1187156/mr-belvedere-house-linework-architecture",
-   "published": "2026-10-21T12:00+00:00",
-   "published_jst": "2026-10-21 21:00",
-   "summary": "Located in Northeast Seattle , Mr. Belvedere is a substantial remodel and addition to an unassuming 1940s single-family ranch house with a focus on sustainability, durability, indoor-outdoor living and generational flexibility.",
-   "ai_related": true,
-   "title_ja": "ベルヴェデーレ邸 / ライワーク・アーキテクチャ",
-   "summary_ja": "シアトル北東部に位置し、サステナビリティや耐久性、多世代対応に焦点を当てた1940年代の住宅のリノベーション事例。"
-  },
-  {
    "id": "51149513b2ab",
    "source": "Construction News (UK)",
    "source_id": "constructionnews_uk",
@@ -1993,7 +2188,9 @@
    "published": "2026-10-21T11:49+00:00",
    "published_jst": "2026-10-21 20:49",
    "summary": "Newcastle City Council has launched preliminary market engagement for a proposed £220m framework to deliver more than 700 social rented homes over eight years. The framework would cover housing developments across small sites and infill plots throughout the city, including schemes of four to 10… The",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ニューカッスル市議会、2.2億ポンドの住宅事業を開始",
+   "summary_ja": "ニューカッスル市議会は、8年間で700戸以上の社会的賃貸住宅を供給するため、2億2000万ポンド規模の枠組みに関する事前市場調査を開始した。"
   },
   {
    "id": "f5258ea5a66d",
@@ -2006,7 +2203,9 @@
    "published": "2026-10-21T11:45+00:00",
    "published_jst": "2026-10-21 20:45",
    "summary": "A former job by collapsed modular contractor Merit to build hospital facilities in York is still without a contractor, a year after the project went quiet. Costs are now “likely to increase” on the £8m job to build a two-storey building containing a new surgical… The post Ex-Merit hospital job remai",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "メリット破綻から1年、病院建設現場は依然として中断",
+   "summary_ja": "ヨークでの病院建設を担っていたモジュール建築業者メリットの破綻から1年が経過したが、プロジェクトは未だに引き継ぎ先が決まっていない。"
   },
   {
    "id": "d98ca5e30609",
@@ -2306,6 +2505,19 @@
    "ai_related": true
   },
   {
+   "id": "ebc403d47ed1",
+   "source": "亜州日報",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "2026年アジュ経済建設大賞：AI・デザイン・安全で未来を切り開く",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FVkp1MzdoU0ZBNzIzczZPNHBGdklzUHVGcnROeUtpaGFwSzJDWnBrYmtEaEVVbXVBUmpUSHJTZHpxelhNb3JJbEptdXpOdlZ1RUdnTnZkQVpRdzQ?oc=5",
+   "published": "2026-10-21T08:40+00:00",
+   "published_jst": "2026-10-21 17:40",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "2bf87f96e807",
    "source": "日経クロステック",
    "source_id": "gnews_kensetsu_dx",
@@ -2334,7 +2546,7 @@
   {
    "id": "ee2fdbfd9a36",
    "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "KK Generationとアルインコ、AIを活用した足場計画自動化システムの開発を完了した件",
@@ -2539,6 +2751,21 @@
    "ai_related": true
   },
   {
+   "id": "0ef7b7288d26",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Using LLM for confidence scoring is a bad idea",
+   "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+   "published": "2026-10-21T04:27+00:00",
+   "published_jst": "2026-10-21 13:27",
+   "summary": "Article URL: https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html Comments URL: https://news.ycombinator.com/item?id=50176082 Points: 178 # Comments: 94",
+   "ai_related": true,
+   "title_ja": "LLMによる確信度の数値化は悪手である",
+   "summary_ja": "LLM（大規模言語モデル）に回答の確信度をスコアリングさせることの問題点や懸念について論じたブログ記事。"
+  },
+  {
    "id": "1778fb273dbb",
    "source": "Google AI Blog",
    "source_id": "google_ai",
@@ -2617,187 +2844,6 @@
    "published_jst": "2026-10-21 09:42",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "232fb5c4f9f1",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SOUSHINホールディングス｜熟練の技術と人を未来へ繋ぐM&Aと一気通貫体制〜Vol.3〜",
-   "url": "https://one.andpad.jp/magazine/26973/",
-   "published": "2026-10-21T00:03+00:00",
-   "published_jst": "2026-10-21 09:03",
-   "summary": "「次の誰かのために」という理念を掲げ、建設・不動産・金融を掛け合わせた地域再創事業を展開する株式会社SOUSHINホールディングス。Vol.2では、現場と職人を裏から支える「株式会社SBO」のバックオ... 投稿 SOUSHINホールディングス｜熟練の技術と人を未来へ繋ぐM&Aと一気通貫体制〜Vol.3〜 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": false
-  },
-  {
-   "id": "2ec9279d39e8",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SOUSHINホールディングス｜バックオフィスから新たな価値を創造する「SBO」の挑戦〜Vol.2〜",
-   "url": "https://one.andpad.jp/magazine/26969/",
-   "published": "2026-10-21T00:02+00:00",
-   "published_jst": "2026-10-21 09:02",
-   "summary": "北海道を拠点に、建設と金融を掛け合わせた独自の「地域再創事業」を展開する株式会社SOUSHINホールディングス。Vol.1では、その多角的なまちづくりの全貌を紹介した。続くVol.2では、同社のダイナ... 投稿 SOUSHINホールディングス｜バックオフィスから新たな価値を創造する「SBO」の挑戦〜Vol.2〜 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": false
-  },
-  {
-   "id": "72dbcfe9f378",
-   "source": "ANDPAD ONE",
-   "source_id": "andpad_one",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SOUSHINホールディングス｜建設×金融で街と経済を回す「地域再創事業」〜Vol.1〜",
-   "url": "https://one.andpad.jp/magazine/26938/",
-   "published": "2026-10-21T00:01+00:00",
-   "published_jst": "2026-10-21 09:01",
-   "summary": "北海道札幌市に本社を構える、株式会社SOUSHINホールディングス。同社は、従来の地域ゼネコンの枠組みを超え、建設・不動産・金融の知見を掛け合わせて地域課題の解決に取り組む、まちづくり会社だ。1990... 投稿 SOUSHINホールディングス｜建設×金融で街と経済を回す「地域再創事業」〜Vol.1〜 は ANDPAD ONE に最初に表示されました。",
-   "ai_related": false
-  },
-  {
-   "id": "9201054eeb4c",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-   "url": "https://openai.com/index/cloudflare-cyber",
-   "published": "2026-10-21T00:00+00:00",
-   "published_jst": "2026-10-21 09:00",
-   "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-   "ai_related": true,
-   "title_ja": "Cloudflare、OpenAIで脆弱性対策を強化",
-   "summary_ja": "CloudflareはOpenAI Daybreakを活用して脆弱性を調査し、修正案を検討している。また、開発者はCodexを用いて開発速度とコード品質を向上させている。"
-  },
-  {
-   "id": "b2deaf97c98c",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-   "url": "https://openai.com/index/empowering-cyber-defenders",
-   "published": "2026-10-21T00:00+00:00",
-   "published_jst": "2026-10-21 09:00",
-   "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-   "ai_related": true,
-   "title_ja": "フロンティアAIの民主的ガバナンス（第2部）：サイバー防衛の強化",
-   "summary_ja": "最新AIを活用したサイバー防衛の強化、安全性の向上、回復力のある公共機関の構築に向けたOpenAIの構想。"
-  },
-  {
-   "id": "f086855c67f8",
-   "source": "Dellows News",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "製造現場の生産記録を起点に、データで判断する工場経営へ『カミナシ 生産実績』提供開始",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9VQVR6a2dCczFVOUlIdi1rdXhHd0tzUUhQOW5sa09PcjVTd3lacjFVNGladzlRb1RKQ2NCWDFXTTJacTlPNnc?oc=5",
-   "published": "2026-10-21T00:00+00:00",
-   "published_jst": "2026-10-21 09:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "aac036aa8666",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "eMudhra Intermediate CA Compromise",
-   "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
-   "published": "2026-10-20T23:50+00:00",
-   "published_jst": "2026-10-21 08:50",
-   "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a",
-   "ai_related": true,
-   "title_ja": "eMudhraの中間CAで秘密鍵が漏洩",
-   "summary_ja": "eMudhraの中間CA証明書8つの秘密鍵が漏洩しました。主要ブラウザやOSの信頼するルート証明書に繋がり、深刻な懸念が生じています。"
-  },
-  {
-   "id": "d4e57614c374",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-   "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-   "published": "2026-10-20T23:01+00:00",
-   "published_jst": "2026-10-21 08:01",
-   "summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
-   "ai_related": true,
-   "title_ja": "AnthropicがAI安全性法案を提案",
-   "summary_ja": "暴走を防ぐ対策のよう見えて、実際には裁判所の許可なしに政府機関がモデルのリリースを禁止することを禁じる内容となっています。"
-  },
-  {
-   "id": "9548d8112180",
-   "source": "ITmedia",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "NECの建設業向けERP「建設クラウド」に小口工事向け新機能、バックオフィス業務を効率化",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03SVZJNWQ3UjRjXzJ0OHlVSklYUll6Z0VGM1JObmdzZVZXV01ESFRsaUJwU3pCNHJ2VlpyMjdVdXlRSVJGNk9NNnBpWXFEUnBpZFRUdVB2Z2l1NmtnZHhPUnJ0aWRiUGJFeWs5Ng?oc=5",
-   "published": "2026-10-20T23:00+00:00",
-   "published_jst": "2026-10-21 08:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "fda712467279",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
-   "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-   "published": "2026-10-20T22:24+00:00",
-   "published_jst": "2026-10-21 07:24",
-   "summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
-   "ai_related": true,
-   "title_ja": "NetflixのAI映画は不正確とHugging Face CEOが警告",
-   "summary_ja": "出演した共同創業者のClem Delangue氏によれば、Netflixのドキュメンタリー映画は過度に悲観的であり、内容は不正確とのことです。"
-  },
-  {
-   "id": "2bc2089abd9a",
-   "source": "ビジネスネットワーク",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIエージェントの通信基盤 “動き方”からネットワークを再設計",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mYTFHLWwwTmFqQlJjSE11RnNLaHViQ1BLSkdLS1FiS0t1RzVHS1Z5azZ5TUdLT1dxa3Vlc182TWlJMWVzcGpvQmIwZ0pPblU3dnc?oc=5",
-   "published": "2026-10-20T22:03+00:00",
-   "published_jst": "2026-10-21 07:03",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "d4b39fdfcfb5",
-   "source": "ASCII.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIブームに沸くサムスンの巨大半導体拠点、ピョンテクの建設現場を歩く",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sMmdPWUtkT3NCSHhOZjI5d05uRmZGZmYtX1p6c3BNYUVsd19QXy16cGcydEp5c0N3VngyM0g1R3p0N1RYQmQ5aHpmSEF2ZEY1SGNFdQ?oc=5",
-   "published": "2026-10-20T21:37+00:00",
-   "published_jst": "2026-10-21 06:37",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "9ea810a53371",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic’s cloud partnerships are getting messy",
-   "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-   "published": "2026-10-20T21:25+00:00",
-   "published_jst": "2026-10-21 06:25",
-   "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
-   "ai_related": true,
-   "title_ja": "Anthropicのクラウド提携に暗雲",
-   "summary_ja": "11月のIPOを控えインフラ投資が膨らむ中、Anthropicは競合視するクラウド事業者からの計算資源確保に苦戦しているという。"
   }
  ]
 }
