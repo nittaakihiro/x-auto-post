@@ -15767,5 +15767,47 @@
       "unverified": [],
       "hook_alternative": ""
     }
+  },
+  {
+    "id": "2026-10-23_20:00",
+    "date": "2026-10-23",
+    "time": "20:00",
+    "text": "作業員が毎日のように入れ替わる現場で、体調管理アプリの利用者登録をそのたび誰かが手で直してたらしい。それを顔認証の入退場データと紐づけて自動にするという話を見て、CCUSのデータがこういう地味なところでも使い回せるんだなと素直に思った。",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": null,
+    "freshness": "updatable",
+    "status": "draft",
+    "hint": null,
+    "article_url": null,
+    "video_url": null,
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "本質投稿",
+      "format": "本質型",
+      "scores": {
+        "own_voice": 2,
+        "concrete": 2,
+        "construction_only": 2,
+        "not_bottleneck": 2,
+        "angle_fresh": 2
+      },
+      "selection_reason": "【一言】入口の出来事は2026-10-23(BuildApp Newsが同日published_jst 2026-10-23 12:00に掲載、news_feed.json construction_japan、直近48h以内。一次発表はGRIFFY・村本建設・キッズウェイのPR TIMESリリース)。GRIFFY・村本建設・キッズウェイの3社が、体調管理ソリューション「GenVital LTE」(リストバンド型端末で収集した心拍数・位置情報と、作業員の年齢・現場のWBGT値から熱中症リスクを算出)と、CCUSの作業員データ・顔認証データを紐づけて入退場を管理する「FACEma」の連携開発に着手したという発表。狙いは、現場で作業員が入れ替わるたびに専用クラウドでGenVital LTEの利用者情報を手作業で登録し直していた手間を、FACEma側が既に持つCCUS・顔認証のデータを使い回して自動化すること(村本建設が実証フィールドを提供)。直近7本(10-16〜10-22)の本質型投稿で使った考察の種類は現場で実際どうなるか/答えが出ていない問い/AIでまだできないこと/僕の意見/歴史・前にもあったこと/数字を自分で割ってみたの6種類(10-15・10-16はv7.4以前の形式で種類タグなし)で、残る7種類目の『一言』を選んだ。候補3案を本質の5観点(own_voice/concrete/construction_only/not_bottleneck/angle_fresh、各0〜2点)で比較。(1)採用・計10点: 作業員の入れ替わりのたびに手で登録し直していた手間を、CCUS・顔認証のデータの使い回しで自動化するという話を見た率直な感想として、『地味なところでも使い回せるんだな』と短く終える案。CCUS(建設キャリアアップシステム)という建設業界特有の制度名を使った一文があり、own_voice2/concrete2(CCUS・顔認証・体調管理アプリ・利用者登録という具体)/construction_only2/not_bottleneck2(『本当の原因は』『〜した会社が先に動ける』のような言い切りをしていない)/angle_fresh2(直近7本と考察の種類が重複しない)で計10点のため採用。(2)不採用・計10点(同点だが不採用): 主語を村本建設の現場に置き換えて同じ話を書いた案。own_voice2/concrete2/construction_only2/not_bottleneck2/angle_fresh2で同点の計10点だったが、CCUSという制度名を明示した(1)の方がconstruction_onlyの具体性でわずかに勝ると判断し、(1)を採用した。(3)不採用・足切り(not_bottleneck0): 工務店向けのAI実務検定『住宅AI検定』開始の話に差し替えた案。『知識を問う試験ではなく実務の問題で測る』という言い回しが禁止文型の『XではなくY』の言い切りに該当しnot_bottleneck0のため、点数に関係なく不採用とした(concrete1・construction_only1・own_voice2・angle_fresh2)。",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000140985.html",
+      "published_at": "2026-10-23",
+      "checked_at": "2026-10-23T19:08+09:00",
+      "availability": "WebFetchはnews.build-app.jp・prtimes.jpともプロキシ経由でDNS解決不可(getaddrinfo ENOTFOUND)のため本文を直接開けず、WebSearch(standard)でPR TIMESリリース「GRIFFY・村本建設・キッズウェイ 体調管理ソリューション『GenVital LTE』と顔認証システム『FACEma(フェイスマ)』との連携システム開発に着手」の内容を要約した検索結果で、(a)連携の狙いは現場で作業員が入れ替わるたびに専用クラウドで利用者情報を手作業更新している手間の簡素化であること、(b)GenVital LTEはリストバンド型端末で心拍数・位置情報・年齢・WBGT値から熱中症リスクを算出する仕組みであること、(c)FACEmaはCCUSの作業員データと顔認証データを紐づけて入退場管理するシステムであること、(d)村本建設が実証フィールドを提供することを確認した。news_feed.jsonのBuildApp News記事(published_jst 2026-10-23 12:00、https://news.build-app.jp/article/43358/)でエントリーの掲載日時を裏取りした。",
+      "unverified": "news_feed.jsonの見出し「12月提供」(提供開始時期)はWebFetchが両ドメインともDNS解決不可で開けず、WebSearchでも12月という時期の記述は確認できなかったため、本文には時期の数字を書いていない。PR TIMESリリース自体の正確な発表日(時刻)もWebFetch不可のため特定できておらず、news_feed.json記載のpublished_jst(2026-10-23 12:00、アグリゲータのBuildApp News掲載時刻)を入口の日時として使った。",
+      "hook_alternative": "候補2: 主語を村本建設の現場に置き換えた案。5観点は同点の計10点だったが、CCUSという業界制度名を明示した採用案の方がconstruction_onlyの具体性で上回ると判断し不採用。候補3: 『住宅AI検定』開始の話に差し替えた案。『知識を問う試験ではなく実務の問題で測る』が禁止文型『XではなくY』に該当しnot_bottleneck0の足切りで不採用。"
+    }
   }
 ]

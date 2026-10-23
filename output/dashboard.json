@@ -1,11 +1,36 @@
 {
   "version": 6,
-  "slot": "noon",
+  "slot": "evening",
   "date": "2026-10-23",
   "post_date": "2026-10-23",
-  "generated_at": "2026-10-23T11:00+09:00",
-  "generated_by": "routine:x-post-noon",
-  "original_post": null,
+  "generated_at": "2026-10-23T19:08+09:00",
+  "generated_by": "routine:x-post-evening",
+  "original_post": {
+    "time": "20:00",
+    "text": "作業員が毎日のように入れ替わる現場で、体調管理アプリの利用者登録をそのたび誰かが手で直してたらしい。それを顔認証の入退場データと紐づけて自動にするという話を見て、CCUSのデータがこういう地味なところでも使い回せるんだなと素直に思った。",
+    "status": "draft",
+    "article_url": null,
+    "video_url": null,
+    "reply_text": null,
+    "editorial": {
+      "pillar": "本質投稿",
+      "format": "本質型",
+      "scores": {
+        "own_voice": 2,
+        "concrete": 2,
+        "construction_only": 2,
+        "not_bottleneck": 2,
+        "angle_fresh": 2
+      },
+      "selection_reason": "【一言】入口の出来事は2026-10-23(BuildApp Newsが同日published_jst 2026-10-23 12:00に掲載、news_feed.json construction_japan、直近48h以内。一次発表はGRIFFY・村本建設・キッズウェイのPR TIMESリリース)。GRIFFY・村本建設・キッズウェイの3社が、体調管理ソリューション「GenVital LTE」(リストバンド型端末で収集した心拍数・位置情報と、作業員の年齢・現場のWBGT値から熱中症リスクを算出)と、CCUSの作業員データ・顔認証データを紐づけて入退場を管理する「FACEma」の連携開発に着手したという発表。狙いは、現場で作業員が入れ替わるたびに専用クラウドでGenVital LTEの利用者情報を手作業で登録し直していた手間を、FACEma側が既に持つCCUS・顔認証のデータを使い回して自動化すること(村本建設が実証フィールドを提供)。直近7本(10-16〜10-22)の本質型投稿で使った考察の種類は現場で実際どうなるか/答えが出ていない問い/AIでまだできないこと/僕の意見/歴史・前にもあったこと/数字を自分で割ってみたの6種類(10-15・10-16はv7.4以前の形式で種類タグなし)で、残る7種類目の『一言』を選んだ。候補3案を本質の5観点(own_voice/concrete/construction_only/not_bottleneck/angle_fresh、各0〜2点)で比較。(1)採用・計10点: 作業員の入れ替わりのたびに手で登録し直していた手間を、CCUS・顔認証のデータの使い回しで自動化するという話を見た率直な感想として、『地味なところでも使い回せるんだな』と短く終える案。CCUS(建設キャリアアップシステム)という建設業界特有の制度名を使った一文があり、own_voice2/concrete2(CCUS・顔認証・体調管理アプリ・利用者登録という具体)/construction_only2/not_bottleneck2(『本当の原因は』『〜した会社が先に動ける』のような言い切りをしていない)/angle_fresh2(直近7本と考察の種類が重複しない)で計10点のため採用。(2)不採用・計10点(同点だが不採用): 主語を村本建設の現場に置き換えて同じ話を書いた案。own_voice2/concrete2/construction_only2/not_bottleneck2/angle_fresh2で同点の計10点だったが、CCUSという制度名を明示した(1)の方がconstruction_onlyの具体性でわずかに勝ると判断し、(1)を採用した。(3)不採用・足切り(not_bottleneck0): 工務店向けのAI実務検定『住宅AI検定』開始の話に差し替えた案。『知識を問う試験ではなく実務の問題で測る』という言い回しが禁止文型の『XではなくY』の言い切りに該当しnot_bottleneck0のため、点数に関係なく不採用とした(concrete1・construction_only1・own_voice2・angle_fresh2)。",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000140985.html",
+      "published_at": "2026-10-23",
+      "checked_at": "2026-10-23T19:08+09:00",
+      "availability": "WebFetchはnews.build-app.jp・prtimes.jpともプロキシ経由でDNS解決不可(getaddrinfo ENOTFOUND)のため本文を直接開けず、WebSearch(standard)でPR TIMESリリース「GRIFFY・村本建設・キッズウェイ 体調管理ソリューション『GenVital LTE』と顔認証システム『FACEma(フェイスマ)』との連携システム開発に着手」の内容を要約した検索結果で、(a)連携の狙いは現場で作業員が入れ替わるたびに専用クラウドで利用者情報を手作業更新している手間の簡素化であること、(b)GenVital LTEはリストバンド型端末で心拍数・位置情報・年齢・WBGT値から熱中症リスクを算出する仕組みであること、(c)FACEmaはCCUSの作業員データと顔認証データを紐づけて入退場管理するシステムであること、(d)村本建設が実証フィールドを提供することを確認した。news_feed.jsonのBuildApp News記事(published_jst 2026-10-23 12:00、https://news.build-app.jp/article/43358/)でエントリーの掲載日時を裏取りした。",
+      "unverified": "news_feed.jsonの見出し「12月提供」(提供開始時期)はWebFetchが両ドメインともDNS解決不可で開けず、WebSearchでも12月という時期の記述は確認できなかったため、本文には時期の数字を書いていない。PR TIMESリリース自体の正確な発表日(時刻)もWebFetch不可のため特定できておらず、news_feed.json記載のpublished_jst(2026-10-23 12:00、アグリゲータのBuildApp News掲載時刻)を入口の日時として使った。",
+      "hook_alternative": "候補2: 主語を村本建設の現場に置き換えた案。5観点は同点の計10点だったが、CCUSという業界制度名を明示した採用案の方がconstruction_onlyの具体性で上回ると判断し不採用。候補3: 『住宅AI検定』開始の話に差し替えた案。『知識を問う試験ではなく実務の問題で測る』が禁止文型『XではなくY』に該当しnot_bottleneck0の足切りで不採用。"
+    }
+  },
   "engage_cards": [],
-  "skip_reason": "ネタ源の順(①output/ai_buzz.json(80件、全件確認)の建設関連タグ『🤖建設×フィジカルAI（海外/国内）』『🎬建設すげー動画（海外）』『建設×AI海外』『Global-建設』→②output/slack_buzz.json(70件、全件確認)の『建設×AI（国内）』『CAD/BIM×AI（国内）』『建設業（話題）』および🌐海外建設アカウント→③WebSearch日英(フィジカルAI建設/人型ロボット現場/四足歩行ロボット巡回/ロボットアーム溶接鉄筋/自動施工/無人化施工/遠隔操作重機/建設AI実証/BIM AI/ドローン測量/humanoid robot jobsite/robot dog construction site/physical AI construction/construction robot video/autonomous excavator/3D printed house/BIM AI agent)→④output/news_feed.json construction_japan(55件)・construction_global(33件、計88件全件確認)の順で確認したが、直近48h以内で『Xに動画(video_url)が確認でき、建設の現場作業を実際にしている映像』の国内外候補がゼロで休載(2026-10-22昼枠に続き連日の休載)。\n\n【ai_buzz.json】『🤖建設×フィジカルAI（海外）』タグの投稿は本日なし。『🤖建設×フィジカルAI（国内）』タグは1件あったが中身は台湾Terafab(半導体工場建設計画)で建設ロボットと無関係・誤タグ。『🎬建設すげー動画（海外）』タグ2件はいずれも直近48h超過(fu_s_nail二足ヒューマノイドのIsaac Lab歩行RL検証=2026-10-20 20:27、研究室でのsim2real歩行テストで現場作業ではない／andreasklinger AUARマイクロファクトリー=2026-10-19 17:21)。『建設×AI海外』タグ3件のうち、@spaceandtech_のAll3製自律建設ロボット「Mantis」(部材の配置・固定・仕上げ・検査を無人で行う、100kg可搬)はフィジカルAIとして内容は合致し、WebSearchでAll3公式サイト・YouTube(Napo Montano Demonstrates the All3 Mantis等)・automate.org・thenextweb等で実機デモ動画の存在は確認できたが、該当の最新モデル発表(next-generation-mantis-revealed)自体は2026-10-07付けで直近48hの新規性がなく、X投稿(2026-10-22)は既存動画の再紹介のため入口を直近48hの出来事にする基準(v7.2)に届かず不採用。残り2件(Skyfall AIのSKY-001・DocumentingAGI)はCAD/BIM生成AIで映像なし、かつSKY-001は2026-10-20夜枠で採用済み・重複。\n\n【slack_buzz.json】『建設×AI（国内）』10件・『CAD/BIM×AI（国内）』1件は自動分類の誤タグが大半(Claude Opus5.5の業務相性ポスト、NHKの政府AI活用施策報道、Yahooニュースのウイルス設計ニュース、川崎重工フィジカルAI連携の日経記事=映像なし等)で、建設現場の動画付き投稿は確認できず。@DXttenandesukaのiPhone点群+Scaniverseでベトナムの重機を配置した投稿は画像生成の遊びでAIが現場作業をしている映像ではなく不採用。🌐海外建設アカウント(ConstructionDive/ENRnews/TheB1M/Procore/BentleySystems/Trimble/Autodesk)のタグ付き投稿はGlobal-建設4件のみで、OSHA罰金報道・Opportunity Zone税制解説・ハイウェイ改修受注・広告で映像なし。\n\n【news_feed.json construction_japan/construction_global(88件、全件確認)】候補になり得たのは次の3件のみでいずれも不採用。\n(1) 3Dプリンター住宅「Lib Earth House “model B”」グッドデザイン賞受賞(2026-10-22 11:30)。WebSearchで一次情報(Lib Work発表)を確認したところ、住宅自体の完成発表は2025年7月でデザイン賞受賞のニュースに過ぎず、直近48hの新規施工映像ではないため鮮度不足で不採用。\n(2) 橋梁補修工事でボルト約3.8万本の腐食判定にAI活用、診断期間を3分の1に短縮(i-Construction 2.0、2026-10-22 11:00)。WebSearchでも画像解析AIのデモ映像・一次発表資料の所在を確認できず不採用。\n(3) 楽天ドローン、ビル等の修繕見積もり支援サービスを提供開始(2026-10-22 15:04)。WebSearchでドローン外壁調査サービスの実在は確認できたが、動画の所在・修繕見積もりへの直結は確認できず、サービス開始告知という性質上「解説記事」に近く不採用。\nその他construction_japanの大半はAIデータセンター建設ラッシュ・資金調達・経営インタビュー・制度解説で映像なし、construction_globalの大半はM&A・資金調達・政策記事・市場レポートで、戦略の除外基準(解説記事・調査レポート・資金調達/出資/買収/合弁/提携は絵がないため不採用)に該当。\n\n【WebSearchで追加確認した候補(国内・海外とも)】\n(a) オリエンタル白石×燈、橋梁吊り足場上での四足歩行ロボット自律歩行実証(発表2026-10-06、実証実施2026-09-08)。フィジカルAIとして内容は合致するが48h超過で鮮度不足。加えて吊り足場は巡回検証段階で「作業」をしている映像ではない。\n(b) 木下建設(和歌山)と鴻治組(広島)、210km離れた拠点間で油圧ショベルを遠隔操作する「施工力シェア」(ken-it.world、2026-10-22)。内容・鮮度ともに合致しうる候補だが、WebSearchでX上の動画付き投稿・一次発表の所在を確認できず(ブログ記事のみ)、video_urlを特定できないため不採用。\n(c) 鹿島、山岳トンネル工事の切羽評価システムを改良・建機搭載カメラ/センサーで観察者不要に(BUILT/ITmedia経由、2026-10-22)。WebSearchでも切羽評価システムの技術詳細・動画の所在を確認できず不採用。\n(d) fu_s_nailの二足ヒューマノイドRL歩行(2026-10-20)は研究室でのsim2real検証であり、建設現場での溶接・鉄筋・内装・巡回・資材運搬・掘削等の「作業」には該当しないため、鮮度不足に加え建設との距離の観点でも不採用。\n\n競合除外に該当する候補はなし(光/Hikari・ミャク楽・Motif等の建設向けAI開発/導入支援・BPO・営業代行は検索過程で出現せず)。\n\n重複確認: 直近14日のpost_queue.json昼枠(12:00)は2026-10-20の米Skyfall AI「SKY-001」(夜枠21:00扱いで記録)以降、本ルーティンの新規追加は2026-10-08の成瀬ダムA4CSEL無人化施工が最後(2026-10-09〜10-22は本枠の新規追加なし)。今日の朝枠(2026-10-23 07:25、Claude Duet)とはネタ重複なし。data/analytics/live_metrics.jsonは読み取れたが取得時刻が2026-10-18T22:31(UTC)のままで直近48hの実投稿は反映されておらず、重複はこのデータでは確認できない(実投稿未確認)。"
+  "skip_reason": null
 }
