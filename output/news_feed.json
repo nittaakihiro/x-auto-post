@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-23T18:19+00:00",
- "generated_at_jst": "2026-10-24 03:19",
+ "generated_at": "2026-10-23T18:44+00:00",
+ "generated_at_jst": "2026-10-24 03:44",
  "window_hours": 48,
  "counts": {
-  "ai_global": 72,
-  "construction_global": 24,
+  "ai_global": 67,
+  "construction_global": 33,
   "ai_japan": 30,
   "construction_japan": 70
  },
  "errors": [
   {
-   "feed": "venturebeat_ai",
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "constructionexec",
@@ -123,7 +123,7 @@
    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
    "published": "2026-10-23T16:59+00:00",
    "published_jst": "2026-10-24 01:59",
-   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 220 # Comments: 115",
+   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 289 # Comments: 151",
    "ai_related": true,
    "title_ja": "Kimi K3.1 ProとK3.1 Pro Highspeed",
    "summary_ja": "Kimiコードモデルの詳細情報を提供する公式ドキュメントページ。"
@@ -286,6 +286,32 @@
    "summary_ja": "CitySquashは、スポーツ、学業、メンターシップを統合し、ブロンクスとブルックリンの青少年の育成を支援する非営利プログラム。"
   },
   {
+   "id": "4c6c521d0c3e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Council settles £590,000 payment dispute with contractor",
+   "url": "https://www.constructionnews.co.uk/buildings/council-settles-590000-payment-dispute-with-contractor-23-10-2026/",
+   "published": "2026-10-23T11:45+00:00",
+   "published_jst": "2026-10-23 20:45",
+   "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
+   "ai_related": false
+  },
+  {
+   "id": "ed8054d26f7a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "BESA chief challenges construction to raise competence standards",
+   "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
+   "published": "2026-10-23T11:45+00:00",
+   "published_jst": "2026-10-23 20:45",
+   "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
+   "ai_related": false
+  },
+  {
    "id": "6d2a1c2dd227",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -316,6 +342,45 @@
    "summary_ja": "Claudeがコードの正しさを証明する数学的証明を生成し、長年のテストで見落とされていたバグを発見した。"
   },
   {
+   "id": "7d5834c04eea",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Scaffolding firm fined £20,000 after worker killed by falling board",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/",
+   "published": "2026-10-23T11:11+00:00",
+   "published_jst": "2026-10-23 20:11",
+   "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
+   "ai_related": false
+  },
+  {
+   "id": "f25c70a6724e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Wills Bros lined up for £220m A9 dualling scheme",
+   "url": "https://www.constructionnews.co.uk/civils/wills-bros-lined-up-for-220m-a9-dualling-scheme-23-10-2026/",
+   "published": "2026-10-23T11:04+00:00",
+   "published_jst": "2026-10-23 20:04",
+   "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
+   "ai_related": false
+  },
+  {
+   "id": "480ca04dc68a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Five SCS workers removed from HS2 job after air rifle incident",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/five-scs-workers-removed-from-hs2-job-after-air-rifle-incident-23-10-2026/",
+   "published": "2026-10-23T11:01+00:00",
+   "published_jst": "2026-10-23 20:01",
+   "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
+   "ai_related": false
+  },
+  {
    "id": "fb04bf52374f",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -329,6 +394,19 @@
    "ai_related": true
   },
   {
+   "id": "33b345947dd2",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "United Utilities seeks partner for potential £600m Windermere wastewater role",
+   "url": "https://www.constructionnews.co.uk/civils/united-utilities-seeks-partner-for-potential-600m-windermere-wastewater-role-23-10-2026/",
+   "published": "2026-10-23T10:24+00:00",
+   "published_jst": "2026-10-23 19:24",
+   "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
+   "ai_related": false
+  },
+  {
    "id": "c34849ddce92",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
@@ -340,6 +418,19 @@
    "published_jst": "2026-10-23 19:15",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "d259f0aa4021",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Kane pays £6.2m dividend as profits jump 45%",
+   "url": "https://www.constructionnews.co.uk/civils/kane-pays-6-2m-dividend-as-profits-jump-45-23-10-2026/",
+   "published": "2026-10-23T10:10+00:00",
+   "published_jst": "2026-10-23 19:10",
+   "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
+   "ai_related": false
   },
   {
    "id": "6a285fa9b93f",
@@ -932,7 +1023,7 @@
    "url": "https://www.anthropic.com/research/formal-verification",
    "published": "2026-10-22T22:54+00:00",
    "published_jst": "2026-10-23 07:54",
-   "summary": "Article URL: https://www.anthropic.com/research/formal-verification Comments URL: https://news.ycombinator.com/item?id=50202217 Points: 426 # Comments: 261",
+   "summary": "Article URL: https://www.anthropic.com/research/formal-verification Comments URL: https://news.ycombinator.com/item?id=50202217 Points: 429 # Comments: 264",
    "ai_related": true,
    "title_ja": "LLMにより大規模なソフトウェアの形式検証が現実に",
    "summary_ja": "Anthropicが公開した、大規模言語モデルを活用したソフトウェアの形式検証に関する記事。"
@@ -1476,7 +1567,7 @@
    "url": "https://github.com/NVIDIA/OpenShell",
    "published": "2026-10-22T17:44+00:00",
    "published_jst": "2026-10-23 02:44",
-   "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 481 # Comments: 206",
+   "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 482 # Comments: 206",
    "ai_related": true,
    "title_ja": "OpenShell：AIエージェント向け安全なランタイム",
    "summary_ja": "自律型AIエージェントの運用に向けた、安全性とプライバシーを確保した実行環境「OpenShell」に関するGitHubおよび議論のページ。"
@@ -1660,21 +1751,6 @@
    "summary_ja": "AIスタートアップのRecursiveは、元DeepMindの研究者が開発した400億パラメータのローカルコーディング用モデル「Flint」を発表した。"
   },
   {
-   "id": "e66e9796ba6b",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "published": "2026-10-22T14:30+00:00",
-   "published_jst": "2026-10-22 23:30",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "ai_related": true,
-   "title_ja": "世界の森林タイプをマッピング",
-   "summary_ja": "地球上の10メートル単位の土地を区別し、森林タイプごとに分類したグローバルマップ。"
-  },
-  {
    "id": "6aa970c38b49",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1746,6 +1822,45 @@
    "ai_related": true,
    "title_ja": "『CoD: モダン・ウォーフェア4』がGeForce NOWに登場",
    "summary_ja": "『Call of Duty: Modern Warfare 4』が発売と同時にGeForce NOWに対応し、キャンペーンやマルチプレイヤーなどがプレイ可能に。"
+  },
+  {
+   "id": "1d344eddf2ea",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Fears devolution ‘complexity’ will ‘not put projects on site’",
+   "url": "https://www.constructionnews.co.uk/government/fears-devolution-complexity-will-not-put-projects-on-site-22-10-2026/",
+   "published": "2026-10-22T11:31+00:00",
+   "published_jst": "2026-10-22 20:31",
+   "summary": "Mace Consult has warned the government’s devolution ambitions are not guaranteed to “put projects on site” as funding certainty and “realistic programmes” remain key amid fragile industry confidence. In the consultancy’s latest quarterly market report, it argued that moving power away from Whitehall",
+   "ai_related": false
+  },
+  {
+   "id": "d4009abe029a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "The Budget must build confidence and investment",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-budget-must-build-confidence-and-investment-22-10-2026/",
+   "published": "2026-10-22T11:21+00:00",
+   "published_jst": "2026-10-22 20:21",
+   "summary": "Peter O’Brien is the managing director at O’Brien Contractors There has been a lot of talk and a lot of promises, but now it’s time for action. Burnham’s administration has brought in some significant reforms in a short space of time, but we’re still to… The post The Budget must build confidence and",
+   "ai_related": false
+  },
+  {
+   "id": "90200352c290",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Four Scottish schools need replacing over ‘structural inefficiencies’",
+   "url": "https://www.constructionnews.co.uk/buildings/four-scottish-schools-need-replacing-over-structural-inefficiencies-22-10-2026/",
+   "published": "2026-10-22T11:14+00:00",
+   "published_jst": "2026-10-22 20:14",
+   "summary": "Four schools in East Dunbartonshire cannot be “economically refurbished” due to their construction methods and will need to be replaced. The modular method used to construct the schools in the 1960s and 1970s “present[s] significant limitations for refurbishment”, the local council said in a stateme",
+   "ai_related": false
   },
   {
    "id": "e44a70113e28",
@@ -2583,6 +2698,19 @@
    "ai_related": false
   },
   {
+   "id": "2593e6b47b20",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "40年に完全自律作業実装/海洋ドローン活用へ工程表/国交省",
+   "url": "https://www.kensetsunews.com/archives/1299301",
+   "published": "2026-10-21T19:55+00:00",
+   "published_jst": "2026-10-22 04:55",
+   "summary": "国土交通省は、海洋ドローンの社会実装や市場形成に向けたロードマップを作成する。産学官による協議会で… The post 40年に完全自律作業実装/海洋ドローン活用へ工程表/国交省 first appeared on 建設通信新聞Digital .",
+   "ai_related": true
+  },
+  {
    "id": "b721b161b030",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2661,19 +2789,6 @@
    "ai_related": false
   },
   {
-   "id": "2593e6b47b20",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "40年に完全自律作業実装/海洋ドローン活用へ工程表/国交省",
-   "url": "https://www.kensetsunews.com/archives/1299301",
-   "published": "2026-10-21T19:55+00:00",
-   "published_jst": "2026-10-22 04:55",
-   "summary": "国土交通省は、海洋ドローンの社会実装や市場形成に向けたロードマップを作成する。産学官による協議会で… The post 40年に完全自律作業実装/海洋ドローン活用へ工程表/国交省 first appeared on 建設通信新聞Digital .",
-   "ai_related": true
-  },
-  {
    "id": "140d853f0e3f",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2687,81 +2802,6 @@
    "ai_related": true,
    "title_ja": "AI時代におけるApple Musicの人間らしい価値",
    "summary_ja": "AIが氾濫する世界において、人間が手作業で何かを作り上げる姿勢が持つ重要性についてのオピニオン。"
-  },
-  {
-   "id": "a9cc4be8b0be",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-   "published": "2026-10-21T19:30+00:00",
-   "published_jst": "2026-10-22 04:30",
-   "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
-   "ai_related": true,
-   "title_ja": "アマゾンがAIをブロックする一方、ウォルマートは歓迎",
-   "summary_ja": "アマゾンがAIエージェントのショッピングを制限する中、ウォルマートは購買代行を許可する新技術を導入へ。"
-  },
-  {
-   "id": "53db5cc10927",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-   "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-   "published": "2026-10-21T18:51+00:00",
-   "published_jst": "2026-10-22 03:51",
-   "summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
-   "ai_related": true,
-   "title_ja": "OpenAIの最新AIモデル、Google Cloud等に導入へ",
-   "summary_ja": "Google Cloudで数週間のうちにGPT 6.1 Astra、Sol、Lunaが利用可能になる予定。"
-  },
-  {
-   "id": "bfe3c864d151",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Newforma acquires Lumi AI, will incorporate into its tech",
-   "url": "https://www.constructiondive.com/news/newforma-acquires-lumi-ai/833635/",
-   "published": "2026-10-21T18:51+00:00",
-   "published_jst": "2026-10-22 03:51",
-   "summary": "The company will bolster Lumi’s offering with its own proprietary data, built up over decades of customer interaction.",
-   "ai_related": true,
-   "title_ja": "Newforma、Lumi AIを買収し技術を統合へ",
-   "summary_ja": "同社は長年の顧客対応で蓄積した自社データを用いてLumiのサービスを強化する。"
-  },
-  {
-   "id": "952285572a8e",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-   "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-   "published": "2026-10-21T18:41+00:00",
-   "published_jst": "2026-10-22 03:41",
-   "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in t",
-   "ai_related": true,
-   "title_ja": "本日のPHPセキュリティリリースとセキュリティ強化の取り組み",
-   "summary_ja": "PHPの脆弱性を修正するアップデートが公開され、リモートコード実行の穴に対処しているためアップグレードが不可欠である。"
-  },
-  {
-   "id": "5cbd98ec79a6",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
-   "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
-   "published": "2026-10-21T18:20+00:00",
-   "published_jst": "2026-10-22 03:20",
-   "summary": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
-   "ai_related": true,
-   "title_ja": "判事、EPAがデータセンター公害訴訟を却下できるとの主張を棄却",
-   "summary_ja": "トランプ政権下のEPAは、SpaceXAIの公害訴訟を単独で却下することはできないと裁判所が裁定を下した。"
   }
  ]
 }
