@@ -1,21 +1,17 @@
 {
- "generated_at": "2026-10-22T22:46+00:00",
- "generated_at_jst": "2026-10-23 07:46",
+ "generated_at": "2026-10-23T00:39+00:00",
+ "generated_at_jst": "2026-10-23 09:39",
  "window_hours": 48,
  "counts": {
-  "ai_global": 84,
+  "construction_japan": 51,
   "ai_japan": 32,
-  "construction_japan": 60,
-  "construction_global": 24
+  "ai_global": 83,
+  "construction_global": 34
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -32,6 +28,71 @@
  ],
  "items": [
   {
+   "id": "5819c3e99fd7",
+   "source": "ANDPAD ONE",
+   "source_id": "andpad_one",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "内装工事事業者Meet Up in 東京",
+   "url": "https://one.andpad.jp/magazine/27005/",
+   "published": "2026-10-23T00:00+00:00",
+   "published_jst": "2026-10-23 09:00",
+   "summary": "2026年9月18日、内装工事事業に携わるDX推進者のためのユーザー交流イベント「ANDPAD ONE Meet Up」をアンドパッド本社にて開催しました！「多様な要求への適応と、時間の制約を克服する... 投稿 内装工事事業者Meet Up in 東京 は ANDPAD ONE に最初に表示されました。",
+   "ai_related": true
+  },
+  {
+   "id": "c158c6af767d",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "なぜ、重要システムは“分割”すべきなのか？ AI攻撃から守り切れない時代、IT部門が考えるべき「備え」とは",
+   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/23/news010.html",
+   "published": "2026-10-22T23:00+00:00",
+   "published_jst": "2026-10-23 08:00",
+   "summary": "生成AIが東大の入試問題で合格者最高点を上回った今、その能力はサイバー攻撃でも威力を発揮している。攻撃からシステムを守り切れない前提に立つとき、その被害を最小化するためにどうすべきか。",
+   "ai_related": true
+  },
+  {
+   "id": "8be08f64c9ca",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "広がる「国産AI」活用事例 PFNの「PLaMo」にみる“ハマりどころ”",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2610/23/2000002368/",
+   "published": "2026-10-22T23:00+00:00",
+   "published_jst": "2026-10-23 08:00",
+   "summary": "国産AI「PLaMo」はどこで・どう使われているのか。「CEATEC 2026」に出展したPreferred Networksに聞いた。",
+   "ai_related": true
+  },
+  {
+   "id": "fe2a31afa28e",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "中国系攻撃者がAIエージェントで攻撃を自動化、「ConnectWise」のサプライチェーン攻撃に関与 Microsoftが警告",
+   "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002531/",
+   "published": "2026-10-22T22:45+00:00",
+   "published_jst": "2026-10-23 07:45",
+   "summary": "Microsoftは、中国連携の攻撃者「Storm-0940」がオープンソースのAI侵入テストツール「ARTEX」で攻撃を自動化し、世界で数百の組織を標的にしていると発表した。ConnectWise経由で顧客のMicrosoft 365に侵入した事例も同グループと分析。管理者権限奪取まで3時間未満の例もあり、注意を呼び掛けている。",
+   "ai_related": true
+  },
+  {
+   "id": "f3573839734e",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "声で動く協働ロボット フィジカルAIの検証ハードルを下げるパッケージ登場",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/23/news021.html",
+   "published": "2026-10-22T22:30+00:00",
+   "published_jst": "2026-10-23 07:30",
+   "summary": "富士ソフトとダイドーは、協働ロボット向け「フィジカルAIスタートパッケージ」を共同で開発し、2027年1月から本格的に受注活動を開始する。",
+   "ai_related": true
+  },
+  {
    "id": "d73c3fbf5a8b",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -42,7 +103,9 @@
    "published": "2026-10-22T22:08+00:00",
    "published_jst": "2026-10-23 07:08",
    "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAI、IPO見据え300億ドルの資金調達を協議中",
+   "summary_ja": "今回の資金調達で評価額が1兆ドルを超えれば、非上場企業として過去最高額の記録を塗り替えることになる。"
   },
   {
    "id": "8519b4047fda",
@@ -71,19 +134,6 @@
    "ai_related": true
   },
   {
-   "id": "b2306dd16ae4",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【前編】bSJ東京サミット2026（buildingSMART International Summit ）現地取材",
-   "url": "https://news.build-app.jp/article/43279/",
-   "published": "2026-10-22T22:00+00:00",
-   "published_jst": "2026-10-23 07:00",
-   "summary": "2026年10月6日（火）～8日（木）に東京・羽田で開催された「buildingSMART International Summit 202...",
-   "ai_related": false
-  },
-  {
    "id": "1437b0ebe886",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -94,7 +144,9 @@
    "published": "2026-10-22T21:51+00:00",
    "published_jst": "2026-10-23 06:51",
    "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precis",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Canva、生成前にデザインを計画する初のAIモデル発表",
+   "summary_ja": "Canva Craftと呼ばれる2段階のアーキテクチャを採用した新モデルで、主要テック企業の生成AIに対抗する。"
   },
   {
    "id": "2aedd54f3eb3",
@@ -155,13 +207,13 @@
    "summary_ja": "公開会話リンクが容易に見つかるとの指摘を受け停止していたMetaのMuse共有機能が再び有効化された。"
   },
   {
-   "id": "490ac1fae8e5",
+   "id": "78ce8e22e5ab",
    "source": "読売新聞",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "ＡＩ投資 米国発インフレに データセンター建設ラッシュ 半導体、供給足りず高騰",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vaFVDVVozUDFXeC1DaHpNSF90NFdpRnNFa0NWcEFaNzZHQThRZ0FQVGJBN0l1QnBCV0NtRmZkS0VJa2lTMXlnR2JDVXlFMkh6TTBwUWpFTERCM2g4SWQzZklLQQ?oc=5",
+   "title": "ＡＩ投資 米国発インフレに データセンター建設ラッシュ…半導体、供給足りず高騰",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHaE51dVExSmNUcGoyWTVaZEdWRUJUTnBHRU9DUUh3OWlKZkdvZ2JfQVJPcG5USGpSeVpWbldVWE1jLVRWZFEwY0QtblRFcTBaMHNCMlVxbEw4LUl2bzMyNzlZb2xPUDJO?oc=5",
    "published": "2026-10-22T20:00+00:00",
    "published_jst": "2026-10-23 05:00",
    "summary": "",
@@ -241,21 +293,6 @@
    "summary_ja": "あらゆるアプリケーションに向けて、高速かつ低コストで的確な決定を下すためのAPI。"
   },
   {
-   "id": "afbb328c263f",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Canva releases its first image generation model",
-   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-   "published": "2026-10-22T19:00+00:00",
-   "published_jst": "2026-10-23 04:00",
-   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-   "ai_related": true,
-   "title_ja": "Canvaが初の画像生成モデルをリリース",
-   "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
-  },
-  {
    "id": "1d8d266cc065",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -269,6 +306,21 @@
    "ai_related": true,
    "title_ja": "OpenAI、Jev競合モデルを一般公開",
    "summary_ja": "意思決定モデルの競争が激化する中、OpenAIが独自モデルを世界に向けて発表。元のJevに対抗できるか。"
+  },
+  {
+   "id": "afbb328c263f",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Canva releases its first image generation model",
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "published": "2026-10-22T19:00+00:00",
+   "published_jst": "2026-10-23 04:00",
+   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+   "ai_related": true,
+   "title_ja": "Canvaが初の画像生成モデルをリリース",
+   "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
   },
   {
    "id": "6dc97b2e6ae2",
@@ -475,7 +527,7 @@
    "url": "https://github.com/NVIDIA/OpenShell",
    "published": "2026-10-22T17:44+00:00",
    "published_jst": "2026-10-23 02:44",
-   "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 242 # Comments: 127",
+   "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 287 # Comments: 144",
    "ai_related": true,
    "title_ja": "OpenShell：AIエージェント向け安全なランタイム",
    "summary_ja": "自律型AIエージェントの運用に向けた、安全性とプライバシーを確保した実行環境「OpenShell」に関するGitHubおよび議論のページ。"
@@ -565,8 +617,10 @@
    "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
    "published": "2026-10-22T16:08+00:00",
    "published_jst": "2026-10-23 01:08",
-   "summary": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 152 # Comments: 170",
-   "ai_related": true
+   "summary": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 218 # Comments: 264",
+   "ai_related": true,
+   "title_ja": "すべてのAIモデルが人間に対して同じ「物議を醸す」見解を持つ",
+   "summary_ja": "AIモデル間における人間観の共通性と、それがもたらす議論についての記事およびオンライン上のコメント。"
   },
   {
    "id": "9d72639f5e00",
@@ -790,6 +844,21 @@
    "summary_ja": "『Call of Duty: Modern Warfare 4』が発売と同時にGeForce NOWに対応し、キャンペーンやマルチプレイヤーなどがプレイ可能に。"
   },
   {
+   "id": "1d344eddf2ea",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Fears devolution ‘complexity’ will ‘not put projects on site’",
+   "url": "https://www.constructionnews.co.uk/government/fears-devolution-complexity-will-not-put-projects-on-site-22-10-2026/",
+   "published": "2026-10-22T11:31+00:00",
+   "published_jst": "2026-10-22 20:31",
+   "summary": "Mace Consult has warned the government’s devolution ambitions are not guaranteed to “put projects on site” as funding certainty and “realistic programmes” remain key amid fragile industry confidence. In the consultancy’s latest quarterly market report, it argued that moving power away from Whitehall",
+   "ai_related": false,
+   "title_ja": "地方分権の「複雑さ」が工事着工の妨げになる懸念",
+   "summary_ja": "業界の信頼が揺らぐ中、確実な資金調達と現実的な計画がなければ、政府の分権政策が着工に結びつかないと警告している。"
+  },
+  {
    "id": "9b2c96aca58e",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -805,17 +874,34 @@
    "summary_ja": "シマンテックの研究者が、ウェブ上の言語モデルを乗っ取り、サーバー攻撃や仮想通貨マイニングを行う攻撃的AIを発見した。"
   },
   {
-   "id": "e44a70113e28",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Tektomeが建設特化のエージェント知能基盤を提供開始 既存AIツールを再編",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5LU2IzcnVCcVJCSW0ydmkxbXZrUExhMG5kSlVydzRlM2xCd3N3MmlDV1VwcExJRXh3UjdVLTF0QVNLODUzbmc?oc=5",
-   "published": "2026-10-22T11:04+00:00",
-   "published_jst": "2026-10-22 20:04",
-   "summary": "",
-   "ai_related": true
+   "id": "d4009abe029a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "The Budget must build confidence and investment",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-budget-must-build-confidence-and-investment-22-10-2026/",
+   "published": "2026-10-22T11:21+00:00",
+   "published_jst": "2026-10-22 20:21",
+   "summary": "Peter O’Brien is the managing director at O’Brien Contractors There has been a lot of talk and a lot of promises, but now it’s time for action. Burnham’s administration has brought in some significant reforms in a short space of time, but we’re still to… The post The Budget must build confidence and",
+   "ai_related": false,
+   "title_ja": "予算案は信頼と投資を生み出さなければならない",
+   "summary_ja": "多くの約束が交わされた今こそ行動を起こすべき時であり、新政権による改革に期待が寄せられている。"
+  },
+  {
+   "id": "90200352c290",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Four Scottish schools need replacing over ‘structural inefficiencies’",
+   "url": "https://www.constructionnews.co.uk/buildings/four-scottish-schools-need-replacing-over-structural-inefficiencies-22-10-2026/",
+   "published": "2026-10-22T11:14+00:00",
+   "published_jst": "2026-10-22 20:14",
+   "summary": "Four schools in East Dunbartonshire cannot be “economically refurbished” due to their construction methods and will need to be replaced. The modular method used to construct the schools in the 1960s and 1970s “present[s] significant limitations for refurbishment”, the local council said in a stateme",
+   "ai_related": false,
+   "title_ja": "スコットランドの学校4校、構造的欠陥のため建て替えへ",
+   "summary_ja": "1960〜70年代に建設されたモジュール構造のため経済的な改修が不可能であり、新しい校舎への建て替えが必要となる。"
   },
   {
    "id": "cff82b95bd62",
@@ -831,6 +917,51 @@
    "ai_related": false
   },
   {
+   "id": "6c32f974959b",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "HSE investigates building collapse as two injured",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/hse-investigates-building-collapse-as-two-injured-22-10-2026/",
+   "published": "2026-10-22T10:48+00:00",
+   "published_jst": "2026-10-22 19:48",
+   "summary": "Two workers have been taken to hospital, one with severe injuries, after a building partially collapsed in Banbury, Oxfordshire. The incident happened in Lower Cherwell Street where a former car sales site is being redeveloped into 19 apartments. Thames Valley Police told Construction News nine… The",
+   "ai_related": false,
+   "title_ja": "ビル崩落事故で2人負傷、HSEが調査を開始",
+   "summary_ja": "オックスフォードシャー州バンベリーの再開発予定地でビルの一部が崩落し、作業員2名が病院に搬送された。"
+  },
+  {
+   "id": "dce4f3a5480e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "CAA considers forcing Heathrow to adopt new competitive delivery models",
+   "url": "https://www.constructionnews.co.uk/civils/caa-considers-forcing-heathrow-to-adopt-new-competitive-delivery-models-22-10-2026/",
+   "published": "2026-10-22T10:39+00:00",
+   "published_jst": "2026-10-22 19:39",
+   "summary": "Heathrow could be forced to adopt new competitive delivery models for major construction projects, including new and redeveloped airport terminals. The Civil Aviation Authority (CAA) is considering powers to require competitive design-and-build or design-build-operate arrangements for individual pro",
+   "ai_related": true,
+   "title_ja": "ヒースロー空港に新たな競争的調達モデルの導入を検討",
+   "summary_ja": "民間航空局（CAA）は、大規模建設プロジェクトにおいて競争的な調達モデルの採用を義務付ける権限の検討に入った。"
+  },
+  {
+   "id": "6dc9e9b31e03",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Fifteen contractors selected for £1bn North West framework",
+   "url": "https://www.constructionnews.co.uk/contracts/fifteen-contractors-selected-for-1bn-north-west-framework-22-10-2026/",
+   "published": "2026-10-22T10:18+00:00",
+   "published_jst": "2026-10-22 19:18",
+   "summary": "Fifteen contractors have been selected for places on a £1bn construction framework in the North West, with Bam, Kier and McLaren among six firms chosen for its highest-value projects. Manchester City Council has named the successful bidders for the North West Construction Hub's High Value… The post ",
+   "ai_related": false,
+   "title_ja": "ノースウエストの1000億円規模の枠組みに15社を選定",
+   "summary_ja": "マンチェスター市議会は建設フレームワークに参加する15社を選定し、大手企業が高額プロジェクトを担当する。"
+  },
+  {
    "id": "617c98361da3",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -842,6 +973,21 @@
    "published_jst": "2026-10-22 19:14",
    "summary": "AIの性能分析を行っているArtificial Analysisが、各種AIの性格を分析するベンチマークテスト「AA-PersonalityBench」を開発し、その結果を公開しました。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "d297f570d4f9",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Balfour Beatty wins early works contract for Yorkshire substation",
+   "url": "https://www.constructionnews.co.uk/contracts/balfour-beatty-wins-early-works-contract-for-yorkshire-substation-22-10-2026/",
+   "published": "2026-10-22T10:12+00:00",
+   "published_jst": "2026-10-22 19:12",
+   "summary": "Balfour Beatty has secured a contract for design and enabling works on National Grid's new 400kV Birkhill Wood substation in East Yorkshire, ahead of main construction starting next year. The contractor will undertake early contractor involvement work, including detailed design and site preparation,",
+   "ai_related": false,
+   "title_ja": "バルフォア・ビーティ、ヨークシャーの変電所工事を受注",
+   "summary_ja": "来年の本格着工を前に、ナショナル・グリッドの新設変電所プロジェクトにおける設計および初期工事の契約を締結した。"
   },
   {
    "id": "be2f4480f6a9",
@@ -857,6 +1003,21 @@
    "ai_related": true,
    "title_ja": "OpenAIのAI、マウスの脳データをわずか32分で解析",
    "summary_ja": "OpenAIらは数千のAIエージェントを投入し、数百万個のマウス細胞から得られた膨大な生物学的データを短時間で解析した。"
+  },
+  {
+   "id": "e169a7b96747",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Research exposes patchy use of whole-life carbon assessments",
+   "url": "https://www.constructionnews.co.uk/sustainability/research-exposes-patchy-use-of-whole-life-carbon-assessments-22-10-2026/",
+   "published": "2026-10-22T10:01+00:00",
+   "published_jst": "2026-10-22 19:01",
+   "summary": "Whole-life carbon assessments are being used inconsistently across public construction and infrastructure projects, according to new industry research. The Centre for Construction Best Practice (CCBP) also found that 70 per cent of respondents said current policy and regulation had no, limited or va",
+   "ai_related": false,
+   "title_ja": "全生涯炭素評価の利用状況にばらつき、調査で判明",
+   "summary_ja": "業界の調査によると、公共の建設・インフラ事業において全生涯炭素評価が一貫して使用されていないことが明らかになった。"
   },
   {
    "id": "6a85074051ec",
@@ -900,19 +1061,6 @@
    "ai_related": false
   },
   {
-   "id": "5b681a550d33",
-   "source": "亜州日報",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "李在鎔「献身に感謝」、20年前の李健熙「真の支え」…中東現場経営・未来点検のデジャヴ",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MV1VhZmZoM2N3eEl2MkVwR2IwaktxZTZWSEhDUDg1NVhCejV6N3BQQzE5Z3AyTksxV1JVdlhIZXZCRG8xanh3R011QUltVGdYUTdWR1FHLUVid0E?oc=5",
-   "published": "2026-10-22T09:04+00:00",
-   "published_jst": "2026-10-22 18:04",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "a1aedbd6b004",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -941,19 +1089,6 @@
    "summary_ja": "建設チームが共通データ環境やopenBIMを活用し、情報のステータスを維持しつつ移行コストを把握する方法について解説。"
   },
   {
-   "id": "8646cb9bc65f",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "テスラとメタが人工知能(AI)投資拡大に速度を上げている。 テスラは来年第2四半期からドライバー監督が必要ない完全自動運転(FSD)機能を一般車両に適用し、独自のAI半導体工場である「テラパブ」の建設..",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9uZTZYTHJ5OFd2WVhHQ0taVUZmRlFTN1o4ajh4QXZiNUJwUVVLMHJpM2czQnRQUjk3dWJYVWJqM0psSGJ0T01wSmlKWQ?oc=5",
-   "published": "2026-10-22T08:44+00:00",
-   "published_jst": "2026-10-22 17:44",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "1597d0c89aca",
    "source": "MIT Technology Review AI",
    "source_id": "mit_tr",
@@ -967,19 +1102,6 @@
    "ai_related": true,
    "title_ja": "AIが抱える隠れたコスト：推論処理がもたらすデータ保存の負担",
    "summary_ja": "AIのコストとしてGPUが注目されがちだが、膨大な推論データに伴うストレージコストも見過ごせない課題となっている。"
-  },
-  {
-   "id": "3cd0f779c3bc",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI時代の鍵は「電力」…イ・ジェヨン氏、UAE発電所の現場を自ら視察",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpNjNDUWZvZ2x1R2dXTUk2bzVRQVNhOElGV0xUSm5QSGZIQUJEWmZmSnE2alVhNnp1bVBMbXNwZ1FRdTVEY2tnS28tYVk4YjBkU3lF?oc=5",
-   "published": "2026-10-22T08:41+00:00",
-   "published_jst": "2026-10-22 17:41",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "4967e7a67f06",
@@ -1049,19 +1171,6 @@
    "published_jst": "2026-10-22 17:10",
    "summary": "OpenAIは2026年10月21日、数千体のAIエージェントを使って数百万個のマウスの脳細胞から得られた実験データをわずか32分で分析し、アルツハイマー病やパーキンソン病などの研究につながる新たな手掛かりを発見したと発表しました。人間の研究者なら数カ月から1年かかると推定される分析を短時間で実施し、これまで見落とされていた可能性のある遺伝子の働きについて新たな仮説も提示したとのことです。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "a4700b611156",
-   "source": "Chosunbiz",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大韓住宅建設協会が実務教育実施 税制改編とPF対応強化 - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTXlKdlh3ZWJHSjR2cjdaQnlVVmR2Ym9rN3FWeVdsLXVVZW1LTzlXbUJYWmp0WE5fcFJrcVFXVHpSMUZaSGJBTzRhWWU3M2hObFQxT1ZldFJTMEZ3T0tBZjNyWU9jZ0ZwR2Ywcjg4Y2dKcE40Y2UxNFdGTGl4MWtVdzBmUmjSAZgBQVVfeXFMTkNobUpHbUEtdnVJLTgwWkh3cElJRFhCazFDWGx0a2lBUFNOSTdFTndmbDBKYTl0YUdtMkFoLU9idVhTMlhGelNDLWJ3YWdsREhBSVJaYXh2QW9RVE02cEV2ZWxabWhucWNVRFhKeHNvVm5PQkFuWlFRRk9SSGM1a2xIOXhvdWxwblNHa0FBMVA4Um5WSlozVHk?oc=5",
-   "published": "2026-10-22T08:06+00:00",
-   "published_jst": "2026-10-22 17:06",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "573288cbb329",
@@ -1217,19 +1326,6 @@
    "ai_related": false,
    "title_ja": "マネリー、売上高1億8,100万ポンドを背景に買収を加速",
    "summary_ja": "サイトサービスを手掛ける同社は、成長戦略の一環として長期的なインフラ関連案件の獲得を目標に掲げている。"
-  },
-  {
-   "id": "fc921cd93274",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "李在明会長、UAEアル・ダフラ発電所を視察…AI電力インフラに勝負をかける",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xSjRXOVhFd3lkb0Fad1hxU2V1aFBrbWxoNERCNGVZaFRrRmtGa3F1NndLN0ZpZFJJUFhqeTBnTjN4dmwtQ2ZlelpwMndKb3dKM2Nzd3lPQmV4cEdPTl9PY0QxclRWX3l6RGdMSTg3SXRtR1ZM?oc=5",
-   "published": "2026-10-22T06:05+00:00",
-   "published_jst": "2026-10-22 15:05",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "9ff6283cc7db",
@@ -1545,19 +1641,17 @@
    "ai_related": true
   },
   {
-   "id": "7561119c6ee1",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-   "published": "2026-10-22T02:18+00:00",
-   "published_jst": "2026-10-22 11:18",
-   "summary": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 484 # Comments: 156",
-   "ai_related": true,
-   "title_ja": "WorldTUI：ターミナルを模倣する360Mモデルを訓練",
-   "summary_ja": "記事のURLやHacker Newsでのコメント、ポイント、コメント数などの詳細情報が掲載されています。"
+   "id": "2381d4f175a6",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "３Ｄプリンター住宅「Lib Earth House “model B”」 「2026年度グッドデザイン賞」及び「日本空間デザイン賞2026 銀賞」受賞のお知らせ",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ebl8yZWd6T19qeVotQ19EWHJjZlZDZVJBcHI4UkFQOUVQQjdKT2JWdDRtRi13VHk4OU1KQll2aUxnQjlmcjFMMnltWU0tc1BsMW85Z0YtaE9xYmlkbVk4aWFXS214UlF4eVE?oc=5",
+   "published": "2026-10-22T02:30+00:00",
+   "published_jst": "2026-10-22 11:30",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "7be9ac7d213e",
@@ -1664,19 +1758,6 @@
    "ai_related": false
   },
   {
-   "id": "92a5b577a822",
-   "source": "建通新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "愛知県建設局 ２０２６年度あいくる材見本市開催",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYVBFRTFlRFRocHp5M1dNek4wdXVibjZfdDVwLWxJNFpRdGE5Mk1DTzlvNl9vYkFNT1NtYU9UN1NJZUlTZzFwZEJNOWhrVkt4QXRJS3ItQmFyNDdvb2U1RERjeU1hSVpqSDZvMnBabDVJUEpTcEdQcS12UFEyRkJHaQ?oc=5",
-   "published": "2026-10-22T00:05+00:00",
-   "published_jst": "2026-10-22 09:05",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "ba6fa07d677a",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1727,19 +1808,6 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tN3kxN1p4amRFRV9jc0VIcElBWHlVdlh5OEZYOUh3cDlkYlJFdFlvUUs1MmRJLUNLYlVFWTRsSXNQR0FXY3hXZ2ZJUnpTbUpDd2NoWjRaQUc?oc=5",
    "published": "2026-10-21T23:54+00:00",
    "published_jst": "2026-10-22 08:54",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "88b24d01b2fb",
-   "source": "新建ハウジング",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築AI経営研究会、AI活用の実演動画12本を公開",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LUDJaUXF0Q0hweHEtc1o3bTJia0k4Nm9rLVVQU25YTGNwQkhNZkJ1dnhZQmptRFBWeW15ek96S01nQ0JRM0lKaFJMbF9yZVloMEE?oc=5",
-   "published": "2026-10-21T23:15+00:00",
-   "published_jst": "2026-10-22 08:15",
    "summary": "",
    "ai_related": false
   },
@@ -1865,19 +1933,6 @@
    "ai_related": true
   },
   {
-   "id": "2c07ee13b521",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "旧世代NVIDIAを循環利用、クラウド接続の「自社専用AI基盤」を1GPUから提供",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/22/news039.html",
-   "published": "2026-10-21T21:45+00:00",
-   "published_jst": "2026-10-22 06:45",
-   "summary": "エクストリームーDら3社は、中古GPUを活用したAIインフラサービス「Raplase RCA」を開始した。最短即日かつ1GPUから定額利用でき、柔軟な構成変更にも対応する。機密データを扱う製造業が求める「プライベートAI」を低コストで実現する。",
-   "ai_related": true
-  },
-  {
    "id": "063c29a16ff7",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1891,19 +1946,6 @@
    "ai_related": true,
    "title_ja": "TechCrunchファウンダーサミット2026開催概要",
    "summary_ja": "ボストンで開催される起業家向けイベント。VCや起業家が結集し、企業成長のための実践的な知見を共有する。"
-  },
-  {
-   "id": "b9bbecf658df",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "三菱電機、ヒューマノイドと工作機械が連携して加工 JIMTOF2026でデモ",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/21/news073.html",
-   "published": "2026-10-21T21:15+00:00",
-   "published_jst": "2026-10-22 06:15",
-   "summary": "三菱電機は、フィジカルAIを介してヒューマノイドロボットとCNC工作機械が連携する加工システムを開発した。自然言語の指示から加工タスクを自動生成し、現場の省人化に貢献する。",
-   "ai_related": true
   },
   {
    "id": "21039cf53586",
@@ -2265,19 +2307,6 @@
    "summary_ja": "AT&TはOpenAIと協力し、法務知識へのアクセスを容易にしている。LegalEdgeチームの取り組みを紹介。"
   },
   {
-   "id": "d2f4da3cdaf3",
-   "source": "TBS NEWS DIG",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "中国が描くAIの未来「東数西算」－内モンゴルでデータセンター建設 フォトギャラリー | TBS CROSS DIG with Bloomberg",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QZEl2Uk0yQkcybk1QQWZ0aVhua1R1TmVKQTBsZ3d6OEN4dGxJbFppNzZZdVktbUNtWk1BTDhwTTBYS3cxR3RVYjhPT0xRRGNKcVZOSUhTVnBPalNJVU9LcDVpWFNhOWJSejR5VFJkY0Vxdk5FUXBlRHFLTXc?oc=5",
-   "published": "2026-10-21T16:32+00:00",
-   "published_jst": "2026-10-22 01:32",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "6c1da1b548c0",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -2291,19 +2320,6 @@
    "ai_related": true,
    "title_ja": "パナッシュ：モバイル向けベル・エポックRTS",
    "summary_ja": "Apache 2.0ライセンスで公開されたゲームのスチームパンク風フランス語フォーク版について。"
-  },
-  {
-   "id": "6bd1383f44c1",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "PHPの脆弱性、OpenAIのAIで発見 「同様の発見、今後数カ月で急増」",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002482/",
-   "published": "2026-10-21T16:12+00:00",
-   "published_jst": "2026-10-22 01:12",
-   "summary": "米OpenAIは10月21日（現地時間）、同日に修正版が公開されたオープンソースのプログラミング言語「PHP」の脆弱性について、OpenAIのAIモデルで発見したと発表した。",
-   "ai_related": true
   },
   {
    "id": "d68fd6bd6623",
@@ -2381,19 +2397,6 @@
    "summary_ja": "専門家によると、高い資金調達コストや燃料価格の高騰、関税が住宅建築価格を押し上げている。"
   },
   {
-   "id": "836261104c72",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "DXの本質と全体像を学ぶ全社員向けeラーニング『DXビギンズ！for建設業界』を提供開始｜Infoseekニュース",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KWDN4NkZGei1hdkZpMUhDSElkbWhxQzY2SE9Pa1ZrelJodFViSlhWdU1JTW1PM1FvNXdJSmpacVcxNjZaU25HcVNjOVVGMGJYelNoemFUSjN1Z3ZiVi14ajlmX0JUSDhYRU15QmoxNzNkUQ?oc=5",
-   "published": "2026-10-21T13:40+00:00",
-   "published_jst": "2026-10-21 22:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "74fcf21eca7a",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -2435,6 +2438,49 @@
    "ai_related": true,
    "title_ja": "OpenAIのモデルがGoogle Cloudで提供開始へ",
    "summary_ja": "OpenAIとGoogle Cloudが提携し、最先端モデルやCodexのワークフローをGoogle Cloud Marketplaceで提供する。"
+  },
+  {
+   "id": "51149513b2ab",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Newcastle council launches £220m housing framework engagement",
+   "url": "https://www.constructionnews.co.uk/buildings/newcastle-council-launches-220m-housing-framework-engagement-21-10-2026/",
+   "published": "2026-10-21T11:49+00:00",
+   "published_jst": "2026-10-21 20:49",
+   "summary": "Newcastle City Council has launched preliminary market engagement for a proposed £220m framework to deliver more than 700 social rented homes over eight years. The framework would cover housing developments across small sites and infill plots throughout the city, including schemes of four to 10… The",
+   "ai_related": false,
+   "title_ja": "ニューカッスル市議会、2.2億ポンドの住宅事業を発表",
+   "summary_ja": "8年間で700戸以上の公営賃貸住宅を供給するため、約2.2億ポンド規模のフレームワークに向けた市場調査を開始した。"
+  },
+  {
+   "id": "f5258ea5a66d",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Ex-Merit hospital job remains at standstill a year after contractor collapse",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/ex-merit-hospital-job-remains-at-standstill-a-year-after-contractor-collapse-21-10-2026/",
+   "published": "2026-10-21T11:45+00:00",
+   "published_jst": "2026-10-21 20:45",
+   "summary": "A former job by collapsed modular contractor Merit to build hospital facilities in York is still without a contractor, a year after the project went quiet. Costs are now “likely to increase” on the £8m job to build a two-storey building containing a new surgical… The post Ex-Merit hospital job remai",
+   "ai_related": false,
+   "title_ja": "病院建設現場、元請け破綻から1年経っても凍結状態続く",
+   "summary_ja": "モジュール建設会社メリートの破綻から1年、ヨークでの病院建設プロジェクトは未だに次の業者が見つかっていない。"
+  },
+  {
+   "id": "c3084c9b2241",
+   "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Iren SpA、スペインで300MW AIデータセンターの建設許可を取得 執筆",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xNi1XcEZ4YTRVOHBDTDZSMmJsTUNCbHNnY3VyNjFSaE1jRHBKNjBKSmFkX0habWdybDIzbktfanRoVzcyVGE2RTQ0THFwZDlyc0lFS1NLdEpoUkxtN3dmVWx4Yzd2ZHE1UlJ0aGpGYmg?oc=5",
+   "published": "2026-10-21T11:45+00:00",
+   "published_jst": "2026-10-21 20:45",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "d98ca5e30609",
@@ -2652,19 +2698,6 @@
    "summary_ja": "言語やロボット工学などの分野でオープンモデルを拡充し、開発者や企業が地域特化型のアプリを構築できるよう支援する。"
   },
   {
-   "id": "22670f6a159d",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設ロボット、ただいま稼働中",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUlk4ZXdTb3U4R3BwN2JTdVo4N3J3N002Y2VjdUc2bHF2ZHdnQzRlV2dyNEoxZVdWYVhpbkhzU1hnMEttY0tmSmthMzIzcl94MENXSFYyRjR6X1pfQWs1bHBOXzRIaG5SZkU5RXVVNWpxSnNhVlZ0QkZpQURVWjZJRWNvYkxYc0prM0RBRVhsbUVFeDJzLUI2SHNCUjVfaVdZR2ZUTUNVTEFiWFY3cTJRVFdvMGRWMGVzN2pkcC1QTGc0R1ozOXhKOU5naTVWNjN2SEI5SThn?oc=5",
-   "published": "2026-10-21T09:57+00:00",
-   "published_jst": "2026-10-21 18:57",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "7ad92074d381",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -2678,19 +2711,6 @@
    "ai_related": false,
    "title_ja": "HG、マンチェスターで2.25億ポンドのタワー事業",
    "summary_ja": "最初の34階建て計画の建設工事が即座に開始される予定である。"
-  },
-  {
-   "id": "b4da12b64f8b",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "デジタル庁、「神Excel」対策ツールを公開 AIと組み合わせたデータ整備方法も紹介",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/21/2000002475/",
-   "published": "2026-10-21T09:42+00:00",
-   "published_jst": "2026-10-21 18:42",
-   "summary": "デジタル庁が、Excelファイルなどが“機械にとって読みやすいか”を判定するツール「Harunobu」を公開している。紙に印刷した際のレイアウトを優先してセル結合などを多用した、いわゆる「神Excel」の対策にも活用できるという。",
-   "ai_related": true
   },
   {
    "id": "d8fecd9b69c9",
@@ -2760,19 +2780,6 @@
    "ai_related": false
   },
   {
-   "id": "42874ec19366",
-   "source": "Bloomberg.com",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ブラックロックのフィンク氏、データセンター建設遅れはインフレ要因",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zOEIydDRIWVNyTXZYS3o1UWZHNUwzbXpGOEg3bXJJOFZkRXZiOUlvQUVvSndhUzVENU1ScE9TZmhOel9YQzF2SkNBV3RmVWdIX2o3cDBwU1BDeVZzUjJEbS11a2VQQXFNUV9pQ2pMS1IxSERmeHFZ?oc=5",
-   "published": "2026-10-21T07:47+00:00",
-   "published_jst": "2026-10-21 16:47",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "ee2fdbfd9a36",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_bim_ai",
@@ -2809,7 +2816,9 @@
    "published": "2026-10-21T07:00+00:00",
    "published_jst": "2026-10-21 16:00",
    "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "パッチ・ザ・プラネット：重大な脆弱性に対応する国際連携",
+   "summary_ja": "オープンソース全体にわたる重大な脆弱性への対処を支援するため、セキュリティ研究者や維持管理者を結びつける。"
   },
   {
    "id": "edef63b51aed",
@@ -2822,7 +2831,9 @@
    "published": "2026-10-21T07:00+00:00",
    "published_jst": "2026-10-21 16:00",
    "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ChatGPTの新しい広告システム構築の裏側とユーザーの信頼",
+   "summary_ja": "OpenAIが会話の意図を理解し、回答と広告を分離しながら関連性の高い広告を大規模に配信する仕組みを構築した経緯。"
   },
   {
    "id": "34ce436605c8",
@@ -2834,6 +2845,19 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBHaVhHQUF2RWVtTjlMczdmOW9uQnRvdktCNU14WThJdWRORWVXSUV5LS01OXlSc0ZpOEpPLUpYMjktZUh1Y2NwcjAzbGJDZHIwQ01mZWtMNEpLQjVseHZ3bndCR2ZFV0pLeHBkVA?oc=5",
    "published": "2026-10-21T07:00+00:00",
    "published_jst": "2026-10-21 16:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "9b90a53eaa9a",
+   "source": "Infoseek",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "KK Generation(KKG)とアルインコ、PDF図面から足場計画と仮設資材の数量をAIで自動算出する「（仮称）AI積算」の基本設計・開発を完了｜Infoseekニュース",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43c0hKOXdseDZrSHY2NlpVZ3hIdG03a1hrRkZWYlZHemc2RXVUZkRPOUFFRi1HTUNIZlI4UkJhd3h5YzZJRm9OdEtqdTdoMG9qSzJ4Y2diQndMQUJuSzhpeGltaGlaSVpGQWl0RHd4SW5WUQ?oc=5",
+   "published": "2026-10-21T06:47+00:00",
+   "published_jst": "2026-10-21 15:47",
    "summary": "",
    "ai_related": false
   }
