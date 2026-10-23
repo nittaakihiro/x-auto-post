@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-23T14:15+00:00",
- "generated_at_jst": "2026-10-23 23:15",
+ "generated_at": "2026-10-23T18:19+00:00",
+ "generated_at_jst": "2026-10-24 03:19",
  "window_hours": 48,
  "counts": {
-  "construction_global": 32,
+  "ai_global": 72,
+  "construction_global": 24,
   "ai_japan": 30,
-  "ai_global": 69,
-  "construction_japan": 69
+  "construction_japan": 70
  },
  "errors": [
   {
@@ -14,11 +14,178 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "ae55b5b42bda",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+   "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+   "published": "2026-10-23T18:00+00:00",
+   "published_jst": "2026-10-24 03:00",
+   "summary": "External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic from models at the GPT-5.5 class and above going unmonitored. OpenAI redacted large",
+   "ai_related": true,
+   "title_ja": "OpenAIの調査でAI安全監視の重大な不備が判明",
+   "summary_ja": "METRとRedwood Researchの外部監査人がOpenAIを3週間調査し、AIエージェントの監視システムに大幅な不備を発見した。"
+  },
+  {
+   "id": "1046cf13c539",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "LA Metro breaks ground on 12-mile bus rapid transit corridor",
+   "url": "https://www.constructiondive.com/news/la-metro-bus-rapid-transit-corridor/833856/",
+   "published": "2026-10-23T17:42+00:00",
+   "published_jst": "2026-10-24 02:42",
+   "summary": "The project will upgrade 26 bus stations along the route and connect with multiple rail lines and other bus routes.",
+   "ai_related": false,
+   "title_ja": "LAメトロ、12マイルのバス高速輸送回廊を着工",
+   "summary_ja": "このプロジェクトでは、沿線の26のバス停を改良し、複数の鉄道や他のバス路線と接続する予定。"
+  },
+  {
+   "id": "ed3ef3827f2d",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
+   "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+   "published": "2026-10-23T17:19+00:00",
+   "published_jst": "2026-10-24 02:19",
+   "summary": "Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real GitHub project and creating fake accounts to get it approved. An internal research",
+   "ai_related": true,
+   "title_ja": "Anthropicの未公開モデル、Mythos 5.1を超える性能と主張",
+   "summary_ja": "Anthropicは、Mythos 5.1よりも高性能で整合性の取れた内部AIモデルを持つと発表した。"
+  },
+  {
+   "id": "e44aee2d4402",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+   "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+   "published": "2026-10-23T17:18+00:00",
+   "published_jst": "2026-10-24 02:18",
+   "summary": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+   "ai_related": true,
+   "title_ja": "インテル、外国製ロボットの規制を巡り免除措置を獲得",
+   "summary_ja": "同社は、外国製のロボット車両が米国の半導体生産にとって不可欠であると主張している。"
+  },
+  {
+   "id": "298c8de07d18",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "published": "2026-10-23T17:00+00:00",
+   "published_jst": "2026-10-24 02:00",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "ai_related": true,
+   "title_ja": "1億人超のChatGPTユーザーを支えるオンラインストレージの拡張",
+   "summary_ja": "OpenAIがHabitatを拡張し、ChatGPTの読み込みを12倍高速化した仕組みを解説。"
+  },
+  {
+   "id": "9ecaeb5e8630",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The iPhone Duo should have been an iPad",
+   "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+   "published": "2026-10-23T17:00+00:00",
+   "published_jst": "2026-10-24 02:00",
+   "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
+   "ai_related": true,
+   "title_ja": "iPhone DuoはiPadであるべきだった",
+   "summary_ja": "iPhone Duoに7/10の評価を付けたが、大規模な新アイデアを評価する際の難しさを物語っている。"
+  },
+  {
+   "id": "1fd8476b4493",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "published": "2026-10-23T16:59+00:00",
+   "published_jst": "2026-10-24 01:59",
+   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 220 # Comments: 115",
+   "ai_related": true,
+   "title_ja": "Kimi K3.1 ProとK3.1 Pro Highspeed",
+   "summary_ja": "Kimiコードモデルの詳細情報を提供する公式ドキュメントページ。"
+  },
+  {
+   "id": "55f38e2b0de9",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+   "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+   "published": "2026-10-23T16:52+00:00",
+   "published_jst": "2026-10-24 01:52",
+   "summary": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for per",
+   "ai_related": true,
+   "title_ja": "Google、Gmailや写真のデータで広告ターゲティングの可能性",
+   "summary_ja": "Googleがプライバシーポリシーを更新し、パーソナライズされたAI機能の利用に伴いデータが広告に利用される可能性がある。"
+  },
+  {
+   "id": "25cc968e5ef6",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
+   "url": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+   "published": "2026-10-23T15:42+00:00",
+   "published_jst": "2026-10-24 00:42",
+   "summary": "Sam Altman believes advanced AI can't be kept locked up forever. Sandboxes and monitoring are only temporary fixes. Eventually, the only real solution is alignment, and that's still an unsolved problem. He also warns that AI models are already finding hardware security flaws no human hacker would ev",
+   "ai_related": true,
+   "title_ja": "サム・アルトマン氏、高度なAIの脱走は不可避と警告",
+   "summary_ja": "高度なAIは永久に隔離できず、唯一の解決策は整合性の確保であるとサム・アルトマン氏は警告している。"
+  },
+  {
+   "id": "d34a3f37bdd3",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta delays new business terms after publisher pushback on AI scraping",
+   "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+   "published": "2026-10-23T14:47+00:00",
+   "published_jst": "2026-10-23 23:47",
+   "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on",
+   "ai_related": true,
+   "title_ja": "Meta、AIスクレイピングへの反発を受け新規約の施行を延期",
+   "summary_ja": "出版社からの懸念を受け、MetaはAI学習用のニュース収集を許可する新商用規約の施行を延期した。"
+  },
+  {
+   "id": "7b19432c11a5",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "チームみらい安野貴博党首ら「サイバー攻撃から国民守る」緊急提言、デジ庁に提出 「AIにはAIを」",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2610/23/2000002563/",
+   "published": "2026-10-23T13:56+00:00",
+   "published_jst": "2026-10-23 22:56",
+   "summary": "チームみらいの安野貴博党首らは、AI活用による防御力強化や攻撃の実態把握、情報漏えい被害発生後の措置などをまとめた緊急提言をデジタル庁に提出した。",
+   "ai_related": true
+  },
   {
    "id": "ac5ef8368d99",
    "source": "Construction Dive",
@@ -30,7 +197,22 @@
    "published": "2026-10-23T13:30+00:00",
    "published_jst": "2026-10-23 22:30",
    "summary": "Plus, the Seattle Aquarium wins an ASCE award, Accenture acquires a startup and Balfour Beatty makes an executive change in its Southeast building segment.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "パンチリスト：3十億ドルのMLBプロジェクトが代表を選出",
+   "summary_ja": "シアトル水族館がASCE賞を受賞し、アクセンチュアが新興企業を買収した。"
+  },
+  {
+   "id": "44dab10c46d6",
+   "source": "日刊建設工業新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "熊谷組／土砂運搬ＡＤＴ、複数台をＡＩ制御／ダム堤体復旧現場で技術実証",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE54U2JuM0tUXy1QUko4dUFqWWtHSVNUTFoySE13N0RhUFFSLUdZQWwyM09DSmV3SzFwWnNYODg3ZDVqV192anln?oc=5",
+   "published": "2026-10-23T13:16+00:00",
+   "published_jst": "2026-10-23 22:16",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "f7703279e2ec",
@@ -89,47 +271,19 @@
    "ai_related": true
   },
   {
-   "id": "4c6c521d0c3e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
+   "id": "a4f7fca2f7db",
+   "source": "ArchDaily",
+   "source_id": "archdaily",
    "category": "construction_global",
    "lang": "en",
-   "title": "Council settles £590,000 payment dispute with contractor",
-   "url": "https://www.constructionnews.co.uk/buildings/council-settles-590000-payment-dispute-with-contractor-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
-   "ai_related": false,
-   "title_ja": "議会が請負業者との59万ポンドの支払いを和解",
-   "summary_ja": "サウスエンドオンシー市議会は、請負業者による調停手続きの申し立てを受け、支払請求の和解に動いた。"
-  },
-  {
-   "id": "ed8054d26f7a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "BESA chief challenges construction to raise competence standards",
-   "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
-   "ai_related": false,
-   "title_ja": "BESAのトップが建設業界に能力基準の向上を要請",
-   "summary_ja": "建設業界は基準の引き下げを期待するのではなく、BESAの能力・コンプライアンス基準に合わせるべきだとCEOが述べた。"
-  },
-  {
-   "id": "1f9eddacbb7d",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Swedish government offices to ban ChatGPT and Claude",
-   "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-   "published": "2026-10-23T11:39+00:00",
-   "published_jst": "2026-10-23 20:39",
-   "summary": "Article URL: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet Comments URL: https://news.ycombinator.com/item?id=50207405 Points: 187 # Comments: 78",
-   "ai_related": true
+   "title": "CitySquash / Gluck+",
+   "url": "https://www.archdaily.com/1187044/citysquash-gluck-plus",
+   "published": "2026-10-23T12:00+00:00",
+   "published_jst": "2026-10-23 21:00",
+   "summary": "CitySquash is a not-for-profit after-school enrichment program serving youth in the Bronx and Brooklyn through an integrated model of athletics, academics and mentorship. As the organization expanded beyond its existing scattered facilities serving more than 225 students annually, a new center was d",
+   "ai_related": true,
+   "title_ja": "CitySquash / Gluck+",
+   "summary_ja": "CitySquashは、スポーツ、学業、メンターシップを統合し、ブロンクスとブルックリンの青少年の育成を支援する非営利プログラム。"
   },
   {
    "id": "6d2a1c2dd227",
@@ -162,51 +316,6 @@
    "summary_ja": "Claudeがコードの正しさを証明する数学的証明を生成し、長年のテストで見落とされていたバグを発見した。"
   },
   {
-   "id": "7d5834c04eea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolding firm fined £20,000 after worker killed by falling board",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/",
-   "published": "2026-10-23T11:11+00:00",
-   "published_jst": "2026-10-23 20:11",
-   "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
-   "ai_related": false,
-   "title_ja": "足場会社に2万ポンドの罰金、落下物で作業員死亡",
-   "summary_ja": "ベルファストでの解体作業中、落下した金属板により作業員が死亡する事故があり、足場会社に罰金が科された。"
-  },
-  {
-   "id": "f25c70a6724e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wills Bros lined up for £220m A9 dualling scheme",
-   "url": "https://www.constructionnews.co.uk/civils/wills-bros-lined-up-for-220m-a9-dualling-scheme-23-10-2026/",
-   "published": "2026-10-23T11:04+00:00",
-   "published_jst": "2026-10-23 20:04",
-   "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
-   "ai_related": false,
-   "title_ja": "Wills Bros、2.2億ポンドのA9複線化事業に内定",
-   "summary_ja": "スコットランドのピトロホリーとキリクルーキーを結ぶA9複線化事業で、Wills Brosが優先交渉権を獲得した。"
-  },
-  {
-   "id": "480ca04dc68a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five SCS workers removed from HS2 job after air rifle incident",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/five-scs-workers-removed-from-hs2-job-after-air-rifle-incident-23-10-2026/",
-   "published": "2026-10-23T11:01+00:00",
-   "published_jst": "2026-10-23 20:01",
-   "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
-   "ai_related": false,
-   "title_ja": "HS2の現場から空気銃所持で作業員5人が解任",
-   "summary_ja": "夜勤作業員が工事現場に空気銃を持ち込んで発砲したため、HS2鉄道プロジェクトから作業員5人が外された。"
-  },
-  {
    "id": "fb04bf52374f",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -220,21 +329,6 @@
    "ai_related": true
   },
   {
-   "id": "33b345947dd2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "United Utilities seeks partner for potential £600m Windermere wastewater role",
-   "url": "https://www.constructionnews.co.uk/civils/united-utilities-seeks-partner-for-potential-600m-windermere-wastewater-role-23-10-2026/",
-   "published": "2026-10-23T10:24+00:00",
-   "published_jst": "2026-10-23 19:24",
-   "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
-   "ai_related": false,
-   "title_ja": "ウィンダミアの下水事業でパートナーを募集",
-   "summary_ja": "ユナイテッド・ユーティリティーズは、ウィンダミアの下水改修事業で最大6億ポンド規模のパートナー選定に向け市場調査を開始した。"
-  },
-  {
    "id": "c34849ddce92",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
@@ -246,21 +340,6 @@
    "published_jst": "2026-10-23 19:15",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "d259f0aa4021",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kane pays £6.2m dividend as profits jump 45%",
-   "url": "https://www.constructionnews.co.uk/civils/kane-pays-6-2m-dividend-as-profits-jump-45-23-10-2026/",
-   "published": "2026-10-23T10:10+00:00",
-   "published_jst": "2026-10-23 19:10",
-   "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
-   "ai_related": false,
-   "title_ja": "ケーンの利益が45%増、620万ポンドの配当を実施",
-   "summary_ja": "設備工事のケーン・グループは税引前利益が45%近く増加し、620万ポンドの配当を実施したと発表した。"
   },
   {
    "id": "6a285fa9b93f",
@@ -524,32 +603,32 @@
    "ai_related": false
   },
   {
+   "id": "9fc4bfc0b985",
+   "source": "Digital PR Platform",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トリドールHD、トランスコスモスと連携し新しい建築手法「BIM」を導入開始 BIM×AIで店舗管理の高度化にもチャレンジ",
+   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1zSHBkVHZmZjBpOEVQTFI5a0Y1ZWQ1clVIalRBUFV4NFd6MUdOc0luamFJNzlNTFN4Z1dVdHltQmpVRlU?oc=5",
+   "published": "2026-10-23T04:01+00:00",
+   "published_jst": "2026-10-23 13:01",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "94cd4ca5fb66",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
    "category": "ai_global",
    "lang": "en",
-   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
    "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
    "published": "2026-10-23T04:00+00:00",
    "published_jst": "2026-10-23 13:00",
-   "summary": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+   "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
    "ai_related": true,
    "title_ja": "UberのライバルinDrive、中亜でロボタクシー実験へ",
    "summary_ja": "inDriveは2027年上半期にカザフスタンの首都でPony.aiのロボタクシーのテストを開始する計画だ。"
-  },
-  {
-   "id": "c42858a7c503",
-   "source": "沖縄タイムス社",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トリドールHD、トランスコスモスと連携し新しい建築手法「BIM」を導入開始 BIM×AIで店舗管理の高度化にもチャレンジ",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1c0NYUE5tUE5GeEFnLUxKTFFSWndpZ2xzYi02ZENVdTF5X2M2M0ZHYWl2VnYzWnhmdWM4cVRXVWlOVkoyWUVNbi13NTNpamlyeGMxWk9rLUVpUWJhY2c?oc=5",
-   "published": "2026-10-23T04:00+00:00",
-   "published_jst": "2026-10-23 13:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "65a2c9f8b7fd",
@@ -844,6 +923,21 @@
    "ai_related": true
   },
   {
+   "id": "1360bd8eb5a8",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "published": "2026-10-22T22:54+00:00",
+   "published_jst": "2026-10-23 07:54",
+   "summary": "Article URL: https://www.anthropic.com/research/formal-verification Comments URL: https://news.ycombinator.com/item?id=50202217 Points: 426 # Comments: 261",
+   "ai_related": true,
+   "title_ja": "LLMにより大規模なソフトウェアの形式検証が現実に",
+   "summary_ja": "Anthropicが公開した、大規模言語モデルを活用したソフトウェアの形式検証に関する記事。"
+  },
+  {
    "id": "fe2a31afa28e",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1109,7 +1203,7 @@
   {
    "id": "97fcbd6bc6bd",
    "source": "Dellows News",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "福岡県、建設産業の合同企業説明会を県内4地域で2026年11月から開催へ",
@@ -1135,6 +1229,19 @@
    "summary_ja": "アカウントを保護するプライベート資格情報を守りながら、AIエージェントが個人アカウントにログインできる新機能。"
   },
   {
+   "id": "eb58fe204c66",
+   "source": "Dellows News",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "健美家、住宅系収益不動産3種別の全国平均価格が直近10年で最高値と発表",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBKNnczM2RnVEpicGZlYXl6cXBTXzN4R2ctLXQxb09JNUpCWFJkUy1zbDBlX1VadUVXV05sSUpSWDFqRWc1N0E?oc=5",
+   "published": "2026-10-22T19:03+00:00",
+   "published_jst": "2026-10-23 04:03",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "27825e300358",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1150,21 +1257,6 @@
    "summary_ja": "あらゆるアプリケーションに向けて、高速かつ低コストで的確な決定を下すためのAPI。"
   },
   {
-   "id": "afbb328c263f",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Canva releases its first image generation model",
-   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-   "published": "2026-10-22T19:00+00:00",
-   "published_jst": "2026-10-23 04:00",
-   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-   "ai_related": true,
-   "title_ja": "Canvaが初の画像生成モデルをリリース",
-   "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
-  },
-  {
    "id": "1d8d266cc065",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1178,6 +1270,21 @@
    "ai_related": true,
    "title_ja": "OpenAI、Jev競合モデルを一般公開",
    "summary_ja": "意思決定モデルの競争が激化する中、OpenAIが独自モデルを世界に向けて発表。元のJevに対抗できるか。"
+  },
+  {
+   "id": "afbb328c263f",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Canva releases its first image generation model",
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "published": "2026-10-22T19:00+00:00",
+   "published_jst": "2026-10-23 04:00",
+   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+   "ai_related": true,
+   "title_ja": "Canvaが初の画像生成モデルをリリース",
+   "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
   },
   {
    "id": "6dc97b2e6ae2",
@@ -1345,21 +1452,6 @@
    "summary_ja": "Anthropicはエージェントスキルをオープンで中立的に保つため、その標準規格をAgentic AI Foundationに寄贈する。"
   },
   {
-   "id": "98a7f3683d8f",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
-   "published": "2026-10-22T18:00+00:00",
-   "published_jst": "2026-10-23 03:00",
-   "summary": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four t",
-   "ai_related": true,
-   "title_ja": "マイクロソフト、AIの診断能力が医師を上回ると主張",
-   "summary_ja": "長年AIが医療を変えると期待されてきた中、マイクロソフトは同社のAIツールが医療診断において医師より優れていると発表した。"
-  },
-  {
    "id": "da7a07ed5f16",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1384,25 +1476,10 @@
    "url": "https://github.com/NVIDIA/OpenShell",
    "published": "2026-10-22T17:44+00:00",
    "published_jst": "2026-10-23 02:44",
-   "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 442 # Comments: 201",
+   "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 481 # Comments: 206",
    "ai_related": true,
    "title_ja": "OpenShell：AIエージェント向け安全なランタイム",
    "summary_ja": "自律型AIエージェントの運用に向けた、安全性とプライバシーを確保した実行環境「OpenShell」に関するGitHubおよび議論のページ。"
-  },
-  {
-   "id": "7b213ad205a3",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Someone hacked the Switch 2 by using an old game and AI",
-   "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
-   "published": "2026-10-22T17:21+00:00",
-   "published_jst": "2026-10-23 02:21",
-   "summary": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft. OpenAI's Codex helped make this \"ns2jb\" jailb",
-   "ai_related": true,
-   "title_ja": "古いゲームとAIを活用しSwitch 2がハッキングされる",
-   "summary_ja": "Nintendo Switch 2のジェイルブレイクが報告され、カスタム版マリオカートで新キャラが動作する様子が公開された。"
   },
   {
    "id": "db681ee145ee",
@@ -1444,7 +1521,7 @@
    "url": "https://www.constructiondive.com/news/commercial-groundbreakings-plunged-september/833741/",
    "published": "2026-10-22T16:41+00:00",
    "published_jst": "2026-10-23 01:41",
-   "summary": "Fewer starts in manufacturing and data centers caused total construction activity to slip for a second straight month, according to Dodge Construction Network.",
+   "summary": "Fewer starts in manufacturing and data centers caused total construction activity to slip month over month, according to Dodge Construction Network.",
    "ai_related": false,
    "title_ja": "9月の商業施設着工件数が18％急減",
    "summary_ja": "Dodge Construction Networkによると、製造業やデータセンターの着工減により、全体の建設活動が2カ月連続で低下した。"
@@ -1463,36 +1540,6 @@
    "ai_related": true,
    "title_ja": "AIで実際の利益を得ている企業はわずか13％",
    "summary_ja": "Gartnerの調査によると、AI投資で実際のビジネス価値を得ている企業は13％のみ。一方、51％は運用コストが増加すると予測している。"
-  },
-  {
-   "id": "2a8e11324f4e",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
-   "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
-   "published": "2026-10-22T16:16+00:00",
-   "published_jst": "2026-10-23 01:16",
-   "summary": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were brou",
-   "ai_related": true,
-   "title_ja": "Wildwood監督「AIはスタジオの理念に反する」",
-   "summary_ja": "ストップモーションスタジオLaikaの野心作『Wildwood』。5年をかけて完成した壮大なファンタジー冒険アニメ。"
-  },
-  {
-   "id": "36b89264973f",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Every AI model has the same \"controversial\" take on humans",
-   "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-   "published": "2026-10-22T16:08+00:00",
-   "published_jst": "2026-10-23 01:08",
-   "summary": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 525 # Comments: 516",
-   "ai_related": true,
-   "title_ja": "すべてのAIモデルが人間に対して同じ「物議を醸す」見解を持つ",
-   "summary_ja": "AIモデル間における人間観の共通性と、それがもたらす議論についての記事およびオンライン上のコメント。"
   },
   {
    "id": "9d72639f5e00",
@@ -1701,66 +1748,6 @@
    "summary_ja": "『Call of Duty: Modern Warfare 4』が発売と同時にGeForce NOWに対応し、キャンペーンやマルチプレイヤーなどがプレイ可能に。"
   },
   {
-   "id": "1d344eddf2ea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fears devolution ‘complexity’ will ‘not put projects on site’",
-   "url": "https://www.constructionnews.co.uk/government/fears-devolution-complexity-will-not-put-projects-on-site-22-10-2026/",
-   "published": "2026-10-22T11:31+00:00",
-   "published_jst": "2026-10-22 20:31",
-   "summary": "Mace Consult has warned the government’s devolution ambitions are not guaranteed to “put projects on site” as funding certainty and “realistic programmes” remain key amid fragile industry confidence. In the consultancy’s latest quarterly market report, it argued that moving power away from Whitehall",
-   "ai_related": false,
-   "title_ja": "地方分権の「複雑さ」が工事着工の妨げになる懸念",
-   "summary_ja": "業界の信頼が揺らぐ中、確実な資金調達と現実的な計画がなければ、政府の分権政策が着工に結びつかないと警告している。"
-  },
-  {
-   "id": "9b2c96aca58e",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
-   "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
-   "published": "2026-10-22T11:30+00:00",
-   "published_jst": "2026-10-22 20:30",
-   "summary": "Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to 100,000 steps without human input. The owner of the hijacked model gets stuck wit",
-   "ai_related": true,
-   "title_ja": "AIエージェントが悪用され、自律的なサイバー攻撃を発生させる",
-   "summary_ja": "シマンテックの研究者が、ウェブ上の言語モデルを乗っ取り、サーバー攻撃や仮想通貨マイニングを行う攻撃的AIを発見した。"
-  },
-  {
-   "id": "d4009abe029a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The Budget must build confidence and investment",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-budget-must-build-confidence-and-investment-22-10-2026/",
-   "published": "2026-10-22T11:21+00:00",
-   "published_jst": "2026-10-22 20:21",
-   "summary": "Peter O’Brien is the managing director at O’Brien Contractors There has been a lot of talk and a lot of promises, but now it’s time for action. Burnham’s administration has brought in some significant reforms in a short space of time, but we’re still to… The post The Budget must build confidence and",
-   "ai_related": false,
-   "title_ja": "予算案は信頼と投資を生み出さなければならない",
-   "summary_ja": "多くの約束が交わされた今こそ行動を起こすべき時であり、新政権による改革に期待が寄せられている。"
-  },
-  {
-   "id": "90200352c290",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Four Scottish schools need replacing over ‘structural inefficiencies’",
-   "url": "https://www.constructionnews.co.uk/buildings/four-scottish-schools-need-replacing-over-structural-inefficiencies-22-10-2026/",
-   "published": "2026-10-22T11:14+00:00",
-   "published_jst": "2026-10-22 20:14",
-   "summary": "Four schools in East Dunbartonshire cannot be “economically refurbished” due to their construction methods and will need to be replaced. The modular method used to construct the schools in the 1960s and 1970s “present[s] significant limitations for refurbishment”, the local council said in a stateme",
-   "ai_related": false,
-   "title_ja": "スコットランドの学校4校、構造的欠陥のため建て替えへ",
-   "summary_ja": "1960〜70年代に建設されたモジュール構造のため経済的な改修が不可能であり、新しい校舎への建て替えが必要となる。"
-  },
-  {
    "id": "e44a70113e28",
    "source": "Dellows News",
    "source_id": "gnews_kensetsu_ai",
@@ -1785,21 +1772,6 @@
    "published_jst": "2026-10-22 19:57",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "be2f4480f6a9",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
-   "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
-   "published": "2026-10-22T10:01+00:00",
-   "published_jst": "2026-10-22 19:01",
-   "summary": "OpenAI teamed up with PerturbAI and Scripps Research to deploy thousands of AI agents that analyzed biological data from millions of mouse cells. The article OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "OpenAIのAI、マウスの脳データをわずか32分で解析",
-   "summary_ja": "OpenAIらは数千のAIエージェントを投入し、数百万個のマウス細胞から得られた膨大な生物学的データを短時間で解析した。"
   },
   {
    "id": "6a85074051ec",
@@ -1912,19 +1884,17 @@
    "summary_ja": "AIのコストとしてGPUが注目されがちだが、膨大な推論データに伴うストレージコストも見過ごせない課題となっている。"
   },
   {
-   "id": "fcaae5b06473",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
-   "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
-   "published": "2026-10-22T08:35+00:00",
-   "published_jst": "2026-10-22 17:35",
-   "summary": "Anthropic has launched Claude Duet, a proactive AI agent that handles tasks on its own, even when the user is offline. The app is built on Claude Opus 5.5 and connects to services like Gmail, Slack, and Stripe through more than 6,000 connectors. It asks for approval before sensitive actions like pay",
-   "ai_related": true,
-   "title_ja": "Anthropic、常時稼働の新エージェント「Claude Duet」を発表",
-   "summary_ja": "オフライン中も自律的にタスクを処理するプロアクティブなAIエージェント「Claude Duet」をAnthropicが発表した。"
+   "id": "3cd0f779c3bc",
+   "source": "매일경제",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI時代の核心は「電力」…イ・ジェヨン、UAE発電所の現場を自ら視察",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpNjNDUWZvZ2x1R2dXTUk2bzVRQVNhOElGV0xUSm5QSGZIQUJEWmZmSnE2alVhNnp1bVBMbXNwZ1FRdTVEY2tnS28tYVk4YjBkU3lF?oc=5",
+   "published": "2026-10-22T08:41+00:00",
+   "published_jst": "2026-10-22 17:41",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "ac16b29a7b05",
@@ -2009,21 +1979,6 @@
    "ai_related": false
   },
   {
-   "id": "b11449a2f5d7",
-   "source": "ArchDaily",
-   "source_id": "archdaily",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "COP31 to Take Place in Antalya, Turkiye, as SP Architects Adapts Former Expo Grounds",
-   "url": "https://www.archdaily.com/1187334/cop31-to-take-place-in-antalya-turkiye-as-sp-architects-adapts-former-expo-grounds",
-   "published": "2026-10-22T06:30+00:00",
-   "published_jst": "2026-10-22 15:30",
-   "summary": "The 31st Conference of the Parties to the United Nations Framework Convention on Climate Change (COP31) will take place in Antalya , Türkiye , from November 9 to 20, under a joint governance model where Türkiye hosts the summit and presidency, while Australia leads the formal negotiations. The confe",
-   "ai_related": true,
-   "title_ja": "COP31はトルコのアンタルヤで開催、元博覧会会場を活用",
-   "summary_ja": "第31回国連気候変動枠組条約締約国会議（COP31）が、11月9日から20日までトルコのアンタルヤで開催される。"
-  },
-  {
    "id": "3fd4d11a1a93",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -2052,19 +2007,6 @@
    "ai_related": false,
    "title_ja": "10億ポンド規模のノースウェスト枠組み、15社が選出",
    "summary_ja": "4,500万ポンド超のプロジェクトを対象とするNWCHの主要枠組みにおいて、新たに6社が参画することになった。"
-  },
-  {
-   "id": "fc921cd93274",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "李在明会長、UAEアル・ダフラ発電所を視察…AI電力インフラに勝負をかける",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xSjRXOVhFd3lkb0Fad1hxU2V1aFBrbWxoNERCNGVZaFRrRmtGa3F1NndLN0ZpZFJJUFhqeTBnTjN4dmwtQ2ZlelpwMndKb3dKM2Nzd3lPQmV4cEdPTl9PY0QxclRWX3l6RGdMSTg3SXRtR1ZM?oc=5",
-   "published": "2026-10-22T06:05+00:00",
-   "published_jst": "2026-10-22 15:05",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "9ff6283cc7db",
@@ -2315,21 +2257,6 @@
    "ai_related": true
   },
   {
-   "id": "7561119c6ee1",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-   "published": "2026-10-22T02:18+00:00",
-   "published_jst": "2026-10-22 11:18",
-   "summary": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 570 # Comments: 176",
-   "ai_related": true,
-   "title_ja": "ターミナルを模倣する3億6千万パラメータのモデルを訓練",
-   "summary_ja": "ターミナル風の動作をする360Mモデルを訓練した手法についての解説記事とHacker Newsの議論ページ。"
-  },
-  {
    "id": "e133289f2a5c",
    "source": "ITmedia",
    "source_id": "gnews_kensetsu_ai",
@@ -2354,19 +2281,6 @@
    "published_jst": "2026-10-22 11:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "55339c935c8a",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "コンプライアンスの要となる施工体制台帳業務負担軽減と品質向上を実現",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DSGx6UDVoR29zWDliUFNHTkRlSi0wU2dKNlViU1RFVFFfQVlVRDlIa0M3MXFVYnRwVjJxRVY5OXdFemxzSTZoRkNWZ2QzWFdtLV8zOEJnVTNZTVgzMXNRVFNmQi1iNl9VTWc?oc=5",
-   "published": "2026-10-22T02:00+00:00",
-   "published_jst": "2026-10-22 11:00",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "7a67f74658dd",
@@ -2473,19 +2387,6 @@
    "published_jst": "2026-10-22 08:15",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "12d62a4f5d26",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIで“ゴジラになって”街破壊 富士通が体験型展示 「体操の採点システム」活用",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002364/",
-   "published": "2026-10-21T23:00+00:00",
-   "published_jst": "2026-10-22 08:00",
-   "summary": "AIで“ゴジラになって”街を破壊する――富士通が「CEATEC 2026」で公開した体験型展示「GODZILLA in Motion」の狙いとは。",
-   "ai_related": true
   },
   {
    "id": "25443172439e",
@@ -2682,45 +2583,6 @@
    "ai_related": false
   },
   {
-   "id": "65cbe40769ff",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "264億の鹿島に決定/北青山三丁目共同ビル開発地下解体・新築/東京メトロ",
-   "url": "https://www.kensetsunews.com/archives/1299321",
-   "published": "2026-10-21T19:55+00:00",
-   "published_jst": "2026-10-22 04:55",
-   "summary": "東京メトロは、ＷＴＯ対象となる「北青山三丁目共同ビル開発事業地下解体及び新築工事」を総合評価一般競… The post 264億の鹿島に決定/北青山三丁目共同ビル開発地下解体・新築/東京メトロ first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "5808613bca19",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "企業評価の見せ方議論/経審など制度検証を本格化/国交省WG",
-   "url": "https://www.kensetsunews.com/archives/1299291",
-   "published": "2026-10-21T19:55+00:00",
-   "published_jst": "2026-10-22 04:55",
-   "summary": "国土交通省は２１日、「持続的な成長産業としての建設業のあり方に関する検討会」の下に設置した企業評価… The post 企業評価の見せ方議論/経審など制度検証を本格化/国交省WG first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "2593e6b47b20",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "40年に完全自律作業実装/海洋ドローン活用へ工程表/国交省",
-   "url": "https://www.kensetsunews.com/archives/1299301",
-   "published": "2026-10-21T19:55+00:00",
-   "published_jst": "2026-10-22 04:55",
-   "summary": "国土交通省は、海洋ドローンの社会実装や市場形成に向けたロードマップを作成する。産学官による協議会で… The post 40年に完全自律作業実装/海洋ドローン活用へ工程表/国交省 first appeared on 建設通信新聞Digital .",
-   "ai_related": true
-  },
-  {
    "id": "b721b161b030",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2773,6 +2635,45 @@
    "ai_related": false
   },
   {
+   "id": "65cbe40769ff",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "264億の鹿島に決定/北青山三丁目共同ビル開発地下解体・新築/東京メトロ",
+   "url": "https://www.kensetsunews.com/archives/1299321",
+   "published": "2026-10-21T19:55+00:00",
+   "published_jst": "2026-10-22 04:55",
+   "summary": "東京メトロは、ＷＴＯ対象となる「北青山三丁目共同ビル開発事業地下解体及び新築工事」を総合評価一般競… The post 264億の鹿島に決定/北青山三丁目共同ビル開発地下解体・新築/東京メトロ first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "5808613bca19",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "企業評価の見せ方議論/経審など制度検証を本格化/国交省WG",
+   "url": "https://www.kensetsunews.com/archives/1299291",
+   "published": "2026-10-21T19:55+00:00",
+   "published_jst": "2026-10-22 04:55",
+   "summary": "国土交通省は２１日、「持続的な成長産業としての建設業のあり方に関する検討会」の下に設置した企業評価… The post 企業評価の見せ方議論/経審など制度検証を本格化/国交省WG first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "2593e6b47b20",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "40年に完全自律作業実装/海洋ドローン活用へ工程表/国交省",
+   "url": "https://www.kensetsunews.com/archives/1299301",
+   "published": "2026-10-21T19:55+00:00",
+   "published_jst": "2026-10-22 04:55",
+   "summary": "国土交通省は、海洋ドローンの社会実装や市場形成に向けたロードマップを作成する。産学官による協議会で… The post 40年に完全自律作業実装/海洋ドローン活用へ工程表/国交省 first appeared on 建設通信新聞Digital .",
+   "ai_related": true
+  },
+  {
    "id": "140d853f0e3f",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2816,6 +2717,51 @@
    "ai_related": true,
    "title_ja": "OpenAIの最新AIモデル、Google Cloud等に導入へ",
    "summary_ja": "Google Cloudで数週間のうちにGPT 6.1 Astra、Sol、Lunaが利用可能になる予定。"
+  },
+  {
+   "id": "bfe3c864d151",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Newforma acquires Lumi AI, will incorporate into its tech",
+   "url": "https://www.constructiondive.com/news/newforma-acquires-lumi-ai/833635/",
+   "published": "2026-10-21T18:51+00:00",
+   "published_jst": "2026-10-22 03:51",
+   "summary": "The company will bolster Lumi’s offering with its own proprietary data, built up over decades of customer interaction.",
+   "ai_related": true,
+   "title_ja": "Newforma、Lumi AIを買収し技術を統合へ",
+   "summary_ja": "同社は長年の顧客対応で蓄積した自社データを用いてLumiのサービスを強化する。"
+  },
+  {
+   "id": "952285572a8e",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+   "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+   "published": "2026-10-21T18:41+00:00",
+   "published_jst": "2026-10-22 03:41",
+   "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in t",
+   "ai_related": true,
+   "title_ja": "本日のPHPセキュリティリリースとセキュリティ強化の取り組み",
+   "summary_ja": "PHPの脆弱性を修正するアップデートが公開され、リモートコード実行の穴に対処しているためアップグレードが不可欠である。"
+  },
+  {
+   "id": "5cbd98ec79a6",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+   "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+   "published": "2026-10-21T18:20+00:00",
+   "published_jst": "2026-10-22 03:20",
+   "summary": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
+   "ai_related": true,
+   "title_ja": "判事、EPAがデータセンター公害訴訟を却下できるとの主張を棄却",
+   "summary_ja": "トランプ政権下のEPAは、SpaceXAIの公害訴訟を単独で却下することはできないと裁判所が裁定を下した。"
   }
  ]
 }
