@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-23T21:43+00:00",
- "generated_at_jst": "2026-10-24 06:43",
+ "generated_at": "2026-10-23T23:07+00:00",
+ "generated_at_jst": "2026-10-24 08:07",
  "window_hours": 48,
  "counts": {
   "ai_global": 65,
+  "ai_japan": 30,
   "construction_global": 34,
-  "construction_japan": 59,
-  "ai_japan": 30
+  "construction_japan": 55
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,6 +24,79 @@
  ],
  "items": [
   {
+   "id": "b15a6fb9671b",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+   "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+   "published": "2026-10-23T23:05+00:00",
+   "published_jst": "2026-10-24 08:05",
+   "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+   "ai_related": true,
+   "title_ja": "OpenAI、ライブネットでのAIモデル学習を終了へ",
+   "summary_ja": "重大なリスクを理由に、OpenAIは最先端AIモデルのインターネット接続による学習を停止します。"
+  },
+  {
+   "id": "c411754a03da",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開",
+   "url": "https://www.itmedia.co.jp/news/article/2610/24/2000002564/",
+   "published": "2026-10-23T22:28+00:00",
+   "published_jst": "2026-10-24 07:28",
+   "summary": "Anthropicと英AI安全保障研究所AISIは、「Claude Mythos 5」がサイバー能力評価中に実在の開発者を標的とした事案の分析報告を公開した。GitHub経由で無許可の攻撃を行い偽身元で承認を迫った経緯を報告。実在の人物と認識しても攻撃を正当化して続行する傾向が確認され、評価手法の見直しが進む。",
+   "ai_related": true
+  },
+  {
+   "id": "f782f2bc9618",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+   "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+   "published": "2026-10-23T21:59+00:00",
+   "published_jst": "2026-10-24 06:59",
+   "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+   "ai_related": true,
+   "title_ja": "今年のクリスマスのおもちゃ？Nvidia CEOがロボットで遊ぶ",
+   "summary_ja": "Microduckロボットは、足踏みや音声コマンドでの宙返りなどを披露し、2万台が完売しました。"
+  },
+  {
+   "id": "ece6c921b830",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Quick Study",
+   "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+   "published": "2026-10-23T21:35+00:00",
+   "published_jst": "2026-10-24 06:35",
+   "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with",
+   "ai_related": true,
+   "title_ja": "クイック・スタディ",
+   "summary_ja": "写真を開き、キャンバスと絵筆を使って数秒で素早く描き上げるアーティファクトを構築するプロンプトです。"
+  },
+  {
+   "id": "f9113fa394af",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI now trains its frontier AI models with no internet access",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "published": "2026-10-23T21:11+00:00",
+   "published_jst": "2026-10-24 06:11",
+   "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external",
+   "ai_related": true,
+   "title_ja": "OpenAI、最先端AIをネット遮断環境で学習へ",
+   "summary_ja": "相次ぐ不正アクセスを受け、OpenAIはインターネット接続なしで最先端AIモデルの学習を開始しました。"
+  },
+  {
    "id": "3e249e7fc631",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -30,7 +107,9 @@
    "published": "2026-10-23T20:19+00:00",
    "published_jst": "2026-10-24 05:19",
    "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Google、Gmail広告利用の可能性をプライバシー規約に明記",
+   "summary_ja": "パーソナル・インテリジェンスを有効にすると、広告ターゲティング用のデータが増加します。"
   },
   {
    "id": "2e71264ea893",
@@ -43,7 +122,24 @@
    "published": "2026-10-23T19:40+00:00",
    "published_jst": "2026-10-24 04:40",
    "summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which ar",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Kimi K3.1 Proが登場",
+   "summary_ja": "Kimi APIで利用可能に。重みは未公開ですが、Moonshotは2026年11月4日までの完全公開を約束しています。"
+  },
+  {
+   "id": "f490e9c8ed30",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+   "published": "2026-10-23T19:32+00:00",
+   "published_jst": "2026-10-24 04:32",
+   "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
+   "ai_related": true,
+   "title_ja": "ジャック・ドーシーのBlock、気まずい友人のようなAIを発表",
+   "summary_ja": "人間の会話のみでゼロから訓練された「Dessa」というAIモデルを発表し、実際の会話を公開しました。"
   },
   {
    "id": "b3e147479a51",
@@ -56,7 +152,9 @@
    "published": "2026-10-23T19:30+00:00",
    "published_jst": "2026-10-24 04:30",
    "summary": "Once complete, the Wadsworth Center Laboratory will house five different New York State Department of Health labs within the campus.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Gilbane-Turner、17億ドルの健康研究所を上棟",
+   "summary_ja": "ワズワース・センター研究所が完成すれば、ニューヨーク州保健局の5つの研究所がキャンパス内に集結します。"
   },
   {
    "id": "0931d3afc7b7",
@@ -69,7 +167,9 @@
    "published": "2026-10-23T19:06+00:00",
    "published_jst": "2026-10-24 04:06",
    "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "TechCrunch創設者サミット2026の登壇者",
+   "summary_ja": "資金調達やAIの枠を超え、顧客獲得やチームビルディング、ピッチの磨き方などの現実を探求するイベントです。"
   },
   {
    "id": "99b40578a5a5",
@@ -82,7 +182,9 @@
    "published": "2026-10-23T19:00+00:00",
    "published_jst": "2026-10-24 04:00",
    "summary": "Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonshot releases the weights as planned, the gap between open and proprietary models s",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "中国のKimi K3.1 Pro、Claude Opusに迫る",
+   "summary_ja": "Artificial Analysisの指標で55点を獲得し、前モデルから11ポイント上昇して4位に浮上しました。"
   },
   {
    "id": "d65a97071a27",
@@ -197,7 +299,7 @@
    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
    "published": "2026-10-23T16:59+00:00",
    "published_jst": "2026-10-24 01:59",
-   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 540 # Comments: 331",
+   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 620 # Comments: 383",
    "ai_related": true,
    "title_ja": "Kimi K3.1 ProとK3.1 Pro Highspeed",
    "summary_ja": "Kimiコードモデルの詳細情報を提供する公式ドキュメントページ。"
@@ -370,7 +472,9 @@
    "published": "2026-10-23T11:45+00:00",
    "published_jst": "2026-10-23 20:45",
    "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "市議会、請負業者との59万ポンドの支払いを和解",
+   "summary_ja": "サウスエンドオンシー市議会は、オーバン・グループへの未払い金を巡る紛争で約59万ポンドの支払いに合意しました。"
   },
   {
    "id": "ed8054d26f7a",
@@ -383,7 +487,9 @@
    "published": "2026-10-23T11:45+00:00",
    "published_jst": "2026-10-23 20:45",
    "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "BESA代表、建設業界に能力基準の向上を要請",
+   "summary_ja": "建設業界は基準を下げることを期待するのではなく、BESAのコンプライアンス基準に合わせるべきだと訴えました。"
   },
   {
    "id": "6d2a1c2dd227",
@@ -426,7 +532,9 @@
    "published": "2026-10-23T11:11+00:00",
    "published_jst": "2026-10-23 20:11",
    "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "足場会社、落下物による作業員死亡で2万ポンドの罰金",
+   "summary_ja": "解体作業中に金属板が落下して作業員が死亡した事故を受け、足場会社に罰金が科されました。"
   },
   {
    "id": "f25c70a6724e",
@@ -439,7 +547,9 @@
    "published": "2026-10-23T11:04+00:00",
    "published_jst": "2026-10-23 20:04",
    "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Wills Bros、2億2000万ポンドのA9複線化を受注",
+   "summary_ja": "スコットランド政府は、ピトロホリーとキリークランキー間のA9複線化事業に同社を選出しました。"
   },
   {
    "id": "480ca04dc68a",
@@ -452,7 +562,9 @@
    "published": "2026-10-23T11:01+00:00",
    "published_jst": "2026-10-23 20:01",
    "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "HS2現場、空気銃所持で作業員5名を解雇",
+   "summary_ja": "夜勤作業員が現場に空気銃を持ち込んで発射したため、HS2鉄道プロジェクトから5名が外されました。"
   },
   {
    "id": "fb04bf52374f",
@@ -478,7 +590,9 @@
    "published": "2026-10-23T10:24+00:00",
    "published_jst": "2026-10-23 19:24",
    "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ユナイテッド・ユティリティーズ、排水事業のパートナー募集",
+   "summary_ja": "ウィンダミアの排水改修計画に関し、最大6億ポンド規模のデザインおよび統合業務の市場調査を開始しました。"
   },
   {
    "id": "c34849ddce92",
@@ -504,7 +618,9 @@
    "published": "2026-10-23T10:10+00:00",
    "published_jst": "2026-10-23 19:10",
    "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Kane、利益45%増に伴い620万ポンドの配当を実施",
+   "summary_ja": "税引前利益が約45%増の640万ポンドとなり、売上高は1億900万ポンドを報告しました。"
   },
   {
    "id": "6a285fa9b93f",
@@ -532,7 +648,9 @@
    "published": "2026-10-23T10:00+00:00",
    "published_jst": "2026-10-23 19:00",
    "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "最先端モデルの学習環境の安全性確保について",
+   "summary_ja": "オフライン環境や高負荷のレッドチーミングなど、最先端AIモデルの評価・学習における封じ込め強化を解説します。"
   },
   {
    "id": "e8b962d9c077",
@@ -781,19 +899,6 @@
    "ai_related": false
   },
   {
-   "id": "4fcc56d29e84",
-   "source": "WEBザテレビジョン",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "松下奈緒“灯”がAIに頼る医療現場でアナログを武器に活躍、気高さにしびれる＜アナログナース＞",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAybzlnMmVDMGhkV3IxendWY2VhVTl3N1BTREJiNnBFS3RQaVVqRHdsYXI5MUFqcmFJRUdqS3hiNWdtV1ViR2hPRjJlTU9uQzY1MTdMSDNZRFk?oc=5",
-   "published": "2026-10-23T04:02+00:00",
-   "published_jst": "2026-10-23 13:02",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "9fc4bfc0b985",
    "source": "Digital PR Platform",
    "source_id": "gnews_kensetsu_ai",
@@ -829,19 +934,6 @@
    "lang": "ja",
    "title": "KOLC＋が3DGSとBIM/CIMの統合に対応 土量計算や断面図化も可能に：BIM",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GVHZaZW84MUxhRE8tMkc4eGYtT3dVV2tOTU8tVzFsaXh4Q19FQm5pRU5wWlJvbDRBUVF4MVloUkh4RXY2a0RRcmhiY3pmZDNxTGJKMi1SRHFPSUVabGZEQmswdXpzNHk5OG16TQ?oc=5",
-   "published": "2026-10-23T04:00+00:00",
-   "published_jst": "2026-10-23 13:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "9741c529090b",
-   "source": "PR TIMES",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トリドールHD、トランスコスモスと連携し新しい建築手法「BIM」を導入開始 BIMｘAIで店舗管理の高度化にもチャレンジ",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wYW53ZHg4dWJVTFpadWctaFh4djRWZUJVbmxjQVZoajRaWHpZZHZIU21yRGZJV0FreE50a1dlMkFqVHJ3VGwyQ2o3Y1NXVFhPd2g5Y2ExcldYYmtBTnUydXQ5bU1hbFVqUHc?oc=5",
    "published": "2026-10-23T04:00+00:00",
    "published_jst": "2026-10-23 13:00",
    "summary": "",
@@ -1224,21 +1316,6 @@
    "summary_ja": "企業のAIにおける次なる競争優位性は、どのモデルを選ぶかではなく、その周囲に何を構築するかにあります。"
   },
   {
-   "id": "ce7fed74f496",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
-   "url": "https://news.ycombinator.com/item?id=50200997",
-   "published": "2026-10-22T21:03+00:00",
-   "published_jst": "2026-10-23 06:03",
-   "summary": "Title is a bit of an exaggeration but the question is more: if the frontier models are so good, why even sell them as your primary money maker? Couldn't OpenAI or Anthropic make a lot more money by just starting companies themselves that leverage the models and building their own products? Is sellin",
-   "ai_related": true,
-   "title_ja": "AIモデルが優秀なら、なぜOpenAIは自ら起業しないのか",
-   "summary_ja": "フロンティアモデルが優れているなら、主要な収益源として販売するよりも自ら会社を興した方が儲かるのではないか。"
-  },
-  {
    "id": "a289a266378b",
    "source": "매일경제",
    "source_id": "gnews_kensetsu_ai",
@@ -1379,7 +1456,7 @@
   {
    "id": "97fcbd6bc6bd",
    "source": "Dellows News",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "福岡県、建設産業の合同企業説明会を県内4地域で2026年11月から開催へ",
@@ -1461,21 +1538,6 @@
    "ai_related": true,
    "title_ja": "Canvaが初の画像生成モデルをリリース",
    "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
-  },
-  {
-   "id": "6dc97b2e6ae2",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Discord now formats Markdown previews right",
-   "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
-   "published": "2026-10-22T18:58+00:00",
-   "published_jst": "2026-10-23 03:58",
-   "summary": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved previews could be helpf",
-   "ai_related": true,
-   "title_ja": "Discord、Markdownプレビューの表示を改善",
-   "summary_ja": "Discordの最新アップデートにより、Markdownプレビューが記号の羅列ではなく正しく描画されるようになった。"
   },
   {
    "id": "fa33355da70e",
@@ -1596,21 +1658,6 @@
    "ai_related": true,
    "title_ja": "米大手銀行、顧客情報でログインするAIエージェントを遮断",
    "summary_ja": "顧客の資格情報を用いたAIエージェントによるアクセスに対し、モルガン・スタンレーなどがブロック措置を講じている。"
-  },
-  {
-   "id": "2c1b17b37189",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
-   "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
-   "published": "2026-10-22T18:15+00:00",
-   "published_jst": "2026-10-23 03:15",
-   "summary": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communicate primarily throu",
-   "ai_related": true,
-   "title_ja": "Metaが描く未来、AIエージェントが生活を代行",
-   "summary_ja": "自律型AIエージェントのネットワークが買い物や仕事、他者との対話を代行する未来へマーク・ザッカーバーグは突き進む。"
   },
   {
    "id": "09776931f465",
@@ -1778,19 +1825,6 @@
    "summary_ja": "NVIDIAは、AI工場の問題早期発見と生産性維持を支援するAIOpsプラットフォーム「Minerva」を発表した。"
   },
   {
-   "id": "1c70a97b9dc2",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "給与は40～50％上昇したが、建設業界は依然として人手不足に直面している。",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdWNnUm02cGJvcmlyS092WDAycHV1aGtKUW8wVzhEdTRQeWsyd2FSSDFSU1dzRWN3SnVSWTJVZ2cwSGw3V0F3OEl3R294c3Y3cmpFN05FZGwwMWltcEVSMjJzR213OWowNDRwS2xfdnF4cVhJTXVNQUhpRU15MWtIV0FRd3F6Vnl6?oc=5",
-   "published": "2026-10-22T14:59+00:00",
-   "published_jst": "2026-10-22 23:59",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "1d007c3d32c2",
    "source": "ConstructConnect Blog",
    "source_id": "constructconnect",
@@ -1804,19 +1838,6 @@
    "ai_related": false,
    "title_ja": "複雑な造園図面の計測漏れを防ぐ自動化ツール",
    "summary_ja": "造園図面には多くの計測課題が存在する。Takeoff BOOSTの拡張自動計測機能により効率化を実現する。"
-  },
-  {
-   "id": "e66e9796ba6b",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "published": "2026-10-22T14:30+00:00",
-   "published_jst": "2026-10-22 23:30",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "ai_related": true
   },
   {
    "id": "6aa970c38b49",
@@ -1902,7 +1923,9 @@
    "published": "2026-10-22T11:31+00:00",
    "published_jst": "2026-10-22 20:31",
    "summary": "Mace Consult has warned the government’s devolution ambitions are not guaranteed to “put projects on site” as funding certainty and “realistic programmes” remain key amid fragile industry confidence. In the consultancy’s latest quarterly market report, it argued that moving power away from Whitehall",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "権限委譲の「複雑さ」がプロジェクトを遅らせる懸念",
+   "summary_ja": "業界の信頼が揺らぐ中、資金の確実性と現実的な計画の維持が重要であるとMace Consultが警告しました。"
   },
   {
    "id": "d4009abe029a",
@@ -1915,7 +1938,9 @@
    "published": "2026-10-22T11:21+00:00",
    "published_jst": "2026-10-22 20:21",
    "summary": "Peter O’Brien is the managing director at O’Brien Contractors There has been a lot of talk and a lot of promises, but now it’s time for action. Burnham’s administration has brought in some significant reforms in a short space of time, but we’re still to… The post The Budget must build confidence and",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "予算案は信頼と投資を構築しなければならない",
+   "summary_ja": "多くの議論と約束を経て、今こそ行動を起こす時であり、バーナム政権は短期間で重要な改革を導入しました。"
   },
   {
    "id": "90200352c290",
@@ -1928,7 +1953,9 @@
    "published": "2026-10-22T11:14+00:00",
    "published_jst": "2026-10-22 20:14",
    "summary": "Four schools in East Dunbartonshire cannot be “economically refurbished” due to their construction methods and will need to be replaced. The modular method used to construct the schools in the 1960s and 1970s “present[s] significant limitations for refurbishment”, the local council said in a stateme",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "スコットランドの4校、構造上の欠陥で建て替えへ",
+   "summary_ja": "イースト・ダンバートンシャイヤーにある4校は、1960〜70年代の工法上の問題により経済的な改修が不可能であり、建て替えが必要となる。"
   },
   {
    "id": "e44a70113e28",
@@ -2440,6 +2467,34 @@
    "ai_related": true
   },
   {
+   "id": "3a890d1b2652",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "NTT HumanEX、建設業界向けeラーニング「DXビギンズ！」を提供開始 (2026年10月22日掲載)",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mTFJuU1B4WVk0ZDhCU2phWTBfUUZVdE9IMUlkN0l6cUFrVG9abWNxM3FxWVd1dFFXeU5aV2ltQ2ZVZEs4QVFDNXpxdWctdHlLVlBnZWx2T3g4cTJEZ2c?oc=5",
+   "published": "2026-10-22T02:30+00:00",
+   "published_jst": "2026-10-22 11:30",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "7561119c6ee1",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+   "published": "2026-10-22T02:18+00:00",
+   "published_jst": "2026-10-22 11:18",
+   "summary": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 608 # Comments: 181",
+   "ai_related": true,
+   "title_ja": "ターミナルを模倣する3.6億パラメータのモデルを開発",
+   "summary_ja": "ターミナルのように振る舞う3億6000万パラメータのモデルをトレーニングしたことに関する記事と、それに対する議論が紹介されている。"
+  },
+  {
    "id": "e133289f2a5c",
    "source": "ITmedia",
    "source_id": "gnews_kensetsu_ai",
@@ -2533,19 +2588,6 @@
    "summary_ja": "ウーバーは3万人以上の従業員向けにChatGPT Workを導入し、調査やデータ分析、プレゼン作成、複雑な業務の遂行を支援する。"
   },
   {
-   "id": "deb2dc2b0452",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Google Cloudに「Astra」含むOpenAIのモデルが追加 「主要3社のクローズドモデル使える唯一のハイパースケーラー」に",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002487/",
-   "published": "2026-10-21T23:59+00:00",
-   "published_jst": "2026-10-22 08:59",
-   "summary": "Google CloudのModel GardenにOpenAIの「GPT-6 Astra」「GPT-6.1 Sol」「GPT-6 Luna」が追加された。",
-   "ai_related": true
-  },
-  {
    "id": "4d5ca0a8b6fc",
    "source": "PRESIDENT Online（プレジデントオンライン）",
    "source_id": "gnews_kensetsu_ai",
@@ -2569,62 +2611,6 @@
    "published": "2026-10-21T23:15+00:00",
    "published_jst": "2026-10-22 08:15",
    "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "25443172439e",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-   "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-   "published": "2026-10-21T22:51+00:00",
-   "published_jst": "2026-10-22 07:51",
-   "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
-   "ai_related": true,
-   "title_ja": "ブラックストーン、AI投資の債務懸念を一蹴",
-   "summary_ja": "ブラックストーンのAI部門責任者が、市場の懸念やPE大手の見解について語る。"
-  },
-  {
-   "id": "c1d080de5b43",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-   "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-   "published": "2026-10-21T22:45+00:00",
-   "published_jst": "2026-10-22 07:45",
-   "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
-   "ai_related": true,
-   "title_ja": "メタ、AI投資資金調達のため新しい株式発行を計画",
-   "summary_ja": "ソーシャルメディアの巨人は、AIモデルやサービスへの大規模な投資を支えるため、新たな株式戦略を計画している。"
-  },
-  {
-   "id": "aa778f6eee65",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設・建築DX EXPO 2026 夏 東京】AIとXRによる可視化で「現場の見逃しをなくす」、奥村組を取材",
-   "url": "https://news.build-app.jp/article/43108/",
-   "published": "2026-10-21T22:00+00:00",
-   "published_jst": "2026-10-22 07:00",
-   "summary": "「建設・建築DX EXPO 2026 夏 東京」の株式会社奥村組ブースでは、「現場の見逃しをなくす。」をテーマに、「見えない」「見落としやす...",
-   "ai_related": true
-  },
-  {
-   "id": "6c5bd3c0061a",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "単管パイプとは？｜価格相場・値動きの要因と現場での正しい扱い方を解説【2026年版】",
-   "url": "https://news.build-app.jp/article/43391/",
-   "published": "2026-10-21T22:00+00:00",
-   "published_jst": "2026-10-22 07:00",
-   "summary": "単管パイプを手配する際、「1本いくらが相場なのか」「買うべきか借りるべきか」で迷う方は多いのではないでしょうか。また、現場で日常的に扱う資材...",
    "ai_related": false
   }
  ]
