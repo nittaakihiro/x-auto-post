@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-23T23:07+00:00",
- "generated_at_jst": "2026-10-24 08:07",
+ "generated_at": "2026-10-23T23:52+00:00",
+ "generated_at_jst": "2026-10-24 08:52",
  "window_hours": 48,
  "counts": {
-  "ai_global": 65,
   "ai_japan": 30,
-  "construction_global": 34,
-  "construction_japan": 55
+  "ai_global": 66,
+  "construction_global": 24,
+  "construction_japan": 53
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -23,6 +23,19 @@
   }
  ],
  "items": [
+  {
+   "id": "87ba85982be9",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「それは“FDE”ではない、ラベルの貼り替えだ」 結局、割高なベンダー依存から抜け出せない企業の共通点",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/24/news006.html",
+   "published": "2026-10-23T23:15+00:00",
+   "published_jst": "2026-10-24 08:15",
+   "summary": "Gartnerは、FDE（Forward Deployed Engineering）によって構築されたエージェント型AIについて、2028年までに企業の7割が放棄するとの予測を発表した。どういうことか。",
+   "ai_related": true
+  },
   {
    "id": "b15a6fb9671b",
    "source": "TechCrunch AI",
@@ -155,6 +168,19 @@
    "ai_related": false,
    "title_ja": "Gilbane-Turner、17億ドルの健康研究所を上棟",
    "summary_ja": "ワズワース・センター研究所が完成すれば、ニューヨーク州保健局の5つの研究所がキャンパス内に集結します。"
+  },
+  {
+   "id": "2ca67924f9fc",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Dessa: the most authentic full-duplex speech model ever built",
+   "url": "https://block.xyz/dessa",
+   "published": "2026-10-23T19:09+00:00",
+   "published_jst": "2026-10-24 04:09",
+   "summary": "Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925 Points: 179 # Comments: 74",
+   "ai_related": true
   },
   {
    "id": "0931d3afc7b7",
@@ -299,7 +325,7 @@
    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
    "published": "2026-10-23T16:59+00:00",
    "published_jst": "2026-10-24 01:59",
-   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 620 # Comments: 383",
+   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 652 # Comments: 412",
    "ai_related": true,
    "title_ja": "Kimi K3.1 ProとK3.1 Pro Highspeed",
    "summary_ja": "Kimiコードモデルの詳細情報を提供する公式ドキュメントページ。"
@@ -462,36 +488,6 @@
    "summary_ja": "CitySquashは、スポーツ、学業、メンターシップを統合し、ブロンクスとブルックリンの青少年の育成を支援する非営利プログラム。"
   },
   {
-   "id": "4c6c521d0c3e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Council settles £590,000 payment dispute with contractor",
-   "url": "https://www.constructionnews.co.uk/buildings/council-settles-590000-payment-dispute-with-contractor-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
-   "ai_related": false,
-   "title_ja": "市議会、請負業者との59万ポンドの支払いを和解",
-   "summary_ja": "サウスエンドオンシー市議会は、オーバン・グループへの未払い金を巡る紛争で約59万ポンドの支払いに合意しました。"
-  },
-  {
-   "id": "ed8054d26f7a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "BESA chief challenges construction to raise competence standards",
-   "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
-   "ai_related": false,
-   "title_ja": "BESA代表、建設業界に能力基準の向上を要請",
-   "summary_ja": "建設業界は基準を下げることを期待するのではなく、BESAのコンプライアンス基準に合わせるべきだと訴えました。"
-  },
-  {
    "id": "6d2a1c2dd227",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -522,51 +518,6 @@
    "summary_ja": "Claudeがコードの正しさを証明する数学的証明を生成し、長年のテストで見落とされていたバグを発見した。"
   },
   {
-   "id": "7d5834c04eea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolding firm fined £20,000 after worker killed by falling board",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/",
-   "published": "2026-10-23T11:11+00:00",
-   "published_jst": "2026-10-23 20:11",
-   "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
-   "ai_related": false,
-   "title_ja": "足場会社、落下物による作業員死亡で2万ポンドの罰金",
-   "summary_ja": "解体作業中に金属板が落下して作業員が死亡した事故を受け、足場会社に罰金が科されました。"
-  },
-  {
-   "id": "f25c70a6724e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wills Bros lined up for £220m A9 dualling scheme",
-   "url": "https://www.constructionnews.co.uk/civils/wills-bros-lined-up-for-220m-a9-dualling-scheme-23-10-2026/",
-   "published": "2026-10-23T11:04+00:00",
-   "published_jst": "2026-10-23 20:04",
-   "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
-   "ai_related": false,
-   "title_ja": "Wills Bros、2億2000万ポンドのA9複線化を受注",
-   "summary_ja": "スコットランド政府は、ピトロホリーとキリークランキー間のA9複線化事業に同社を選出しました。"
-  },
-  {
-   "id": "480ca04dc68a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five SCS workers removed from HS2 job after air rifle incident",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/five-scs-workers-removed-from-hs2-job-after-air-rifle-incident-23-10-2026/",
-   "published": "2026-10-23T11:01+00:00",
-   "published_jst": "2026-10-23 20:01",
-   "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
-   "ai_related": false,
-   "title_ja": "HS2現場、空気銃所持で作業員5名を解雇",
-   "summary_ja": "夜勤作業員が現場に空気銃を持ち込んで発射したため、HS2鉄道プロジェクトから5名が外されました。"
-  },
-  {
    "id": "fb04bf52374f",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -580,21 +531,6 @@
    "ai_related": true
   },
   {
-   "id": "33b345947dd2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "United Utilities seeks partner for potential £600m Windermere wastewater role",
-   "url": "https://www.constructionnews.co.uk/civils/united-utilities-seeks-partner-for-potential-600m-windermere-wastewater-role-23-10-2026/",
-   "published": "2026-10-23T10:24+00:00",
-   "published_jst": "2026-10-23 19:24",
-   "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
-   "ai_related": false,
-   "title_ja": "ユナイテッド・ユティリティーズ、排水事業のパートナー募集",
-   "summary_ja": "ウィンダミアの排水改修計画に関し、最大6億ポンド規模のデザインおよび統合業務の市場調査を開始しました。"
-  },
-  {
    "id": "c34849ddce92",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
@@ -606,21 +542,6 @@
    "published_jst": "2026-10-23 19:15",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "d259f0aa4021",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kane pays £6.2m dividend as profits jump 45%",
-   "url": "https://www.constructionnews.co.uk/civils/kane-pays-6-2m-dividend-as-profits-jump-45-23-10-2026/",
-   "published": "2026-10-23T10:10+00:00",
-   "published_jst": "2026-10-23 19:10",
-   "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
-   "ai_related": false,
-   "title_ja": "Kane、利益45%増に伴い620万ポンドの配当を実施",
-   "summary_ja": "税引前利益が約45%増の640万ポンドとなり、売上高は1億900万ポンドを報告しました。"
   },
   {
    "id": "6a285fa9b93f",
@@ -692,6 +613,19 @@
    "published_jst": "2026-10-23 18:00",
    "summary": "22日18時ごろから、PHPの脆弱性対応で日刊建設工業新聞サイト、日刊建設工業新聞電子版を停止していましたが、23日18時に復旧しました。",
    "ai_related": false
+  },
+  {
+   "id": "8aa4d23672e7",
+   "source": "https://c-eye.co.jp/",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "上場会見：ルクレ、建築業界のDX、人手不足が追い風",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBzLWQtcDBFRzhTX0VKQkkxdVMzamt4WmUxOW1JcWxsR3NNdTdWZHlTcmNBdVhZTHpZZWpCTWtncC1hZFlSWmVfSg?oc=5",
+   "published": "2026-10-23T08:38+00:00",
+   "published_jst": "2026-10-23 17:38",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "bfe9bcdc3670",
@@ -1137,19 +1071,6 @@
    "ai_related": false
   },
   {
-   "id": "842b57c6ce4e",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "写真測量・レーザー測量の違いと精度検証を解説。ドローン測量の無料実演セミナーを11月18日（水）に滋賀県栗東市で開催",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oYlJtN210aEljeWxraGZQOERlZmJiWXVxVXBaSWx4cGNIc21obFNLbEsySXE4NGtiYTFBYy1RXzM5Y0Q4em1DQndMOGVqRDh3VHhQNTIxcmVvbjM4Zk5Cc1ZTZ2xQWHozckp0eE5OYmtUdw?oc=5",
-   "published": "2026-10-23T01:00+00:00",
-   "published_jst": "2026-10-23 10:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "085ba153da3b",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1456,7 +1377,7 @@
   {
    "id": "97fcbd6bc6bd",
    "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "福岡県、建設産業の合同企業説明会を県内4地域で2026年11月から開催へ",
@@ -1840,6 +1761,19 @@
    "summary_ja": "造園図面には多くの計測課題が存在する。Takeoff BOOSTの拡張自動計測機能により効率化を実現する。"
   },
   {
+   "id": "e66e9796ba6b",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "published": "2026-10-22T14:30+00:00",
+   "published_jst": "2026-10-22 23:30",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "ai_related": true
+  },
+  {
    "id": "6aa970c38b49",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1911,51 +1845,6 @@
    "ai_related": true,
    "title_ja": "『CoD: モダン・ウォーフェア4』がGeForce NOWに登場",
    "summary_ja": "『Call of Duty: Modern Warfare 4』が発売と同時にGeForce NOWに対応し、キャンペーンやマルチプレイヤーなどがプレイ可能に。"
-  },
-  {
-   "id": "1d344eddf2ea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fears devolution ‘complexity’ will ‘not put projects on site’",
-   "url": "https://www.constructionnews.co.uk/government/fears-devolution-complexity-will-not-put-projects-on-site-22-10-2026/",
-   "published": "2026-10-22T11:31+00:00",
-   "published_jst": "2026-10-22 20:31",
-   "summary": "Mace Consult has warned the government’s devolution ambitions are not guaranteed to “put projects on site” as funding certainty and “realistic programmes” remain key amid fragile industry confidence. In the consultancy’s latest quarterly market report, it argued that moving power away from Whitehall",
-   "ai_related": false,
-   "title_ja": "権限委譲の「複雑さ」がプロジェクトを遅らせる懸念",
-   "summary_ja": "業界の信頼が揺らぐ中、資金の確実性と現実的な計画の維持が重要であるとMace Consultが警告しました。"
-  },
-  {
-   "id": "d4009abe029a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The Budget must build confidence and investment",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-budget-must-build-confidence-and-investment-22-10-2026/",
-   "published": "2026-10-22T11:21+00:00",
-   "published_jst": "2026-10-22 20:21",
-   "summary": "Peter O’Brien is the managing director at O’Brien Contractors There has been a lot of talk and a lot of promises, but now it’s time for action. Burnham’s administration has brought in some significant reforms in a short space of time, but we’re still to… The post The Budget must build confidence and",
-   "ai_related": false,
-   "title_ja": "予算案は信頼と投資を構築しなければならない",
-   "summary_ja": "多くの議論と約束を経て、今こそ行動を起こす時であり、バーナム政権は短期間で重要な改革を導入しました。"
-  },
-  {
-   "id": "90200352c290",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Four Scottish schools need replacing over ‘structural inefficiencies’",
-   "url": "https://www.constructionnews.co.uk/buildings/four-scottish-schools-need-replacing-over-structural-inefficiencies-22-10-2026/",
-   "published": "2026-10-22T11:14+00:00",
-   "published_jst": "2026-10-22 20:14",
-   "summary": "Four schools in East Dunbartonshire cannot be “economically refurbished” due to their construction methods and will need to be replaced. The modular method used to construct the schools in the 1960s and 1970s “present[s] significant limitations for refurbishment”, the local council said in a stateme",
-   "ai_related": false,
-   "title_ja": "スコットランドの4校、構造上の欠陥で建て替えへ",
-   "summary_ja": "イースト・ダンバートンシャイヤーにある4校は、1960〜70年代の工法上の問題により経済的な改修が不可能であり、建て替えが必要となる。"
   },
   {
    "id": "e44a70113e28",
@@ -2135,6 +2024,19 @@
    "summary_ja": "今後の追加資金の拠出は、地方自治体が掲げる施策の達成目標の達成状況に応じて決定される見込み。"
   },
   {
+   "id": "735c57263275",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ツールを使いながら学ぶプロジェクト管理 ある建設会社がBacklogで踏み出したDXの第一歩 (アスキー)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc3pJWVpDckp4UnNBUWJEdTBSeTNPM3FENXN2aTVnd2x1MGlVbFpQdV8zRVdQUmlhc1pDS0xHQ1gxS2wwSkpkckZPOVhnU0N6NUpOSk5mbmxybldUbXI2dy0yd0FXYmlzSk43Q3UyaUFBSFlKVjYtenVvQU9wMmJKT2FUWlhXbGRDc2dZS3JB?oc=5",
+   "published": "2026-10-22T07:45+00:00",
+   "published_jst": "2026-10-22 16:45",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "573288cbb329",
    "source": "ASCII.jp",
    "source_id": "gnews_kensetsu_dx",
@@ -2217,6 +2119,19 @@
    "ai_related": false,
    "title_ja": "10億ポンド規模のノースウェスト枠組み、15社が選出",
    "summary_ja": "4,500万ポンド超のプロジェクトを対象とするNWCHの主要枠組みにおいて、新たに6社が参画することになった。"
+  },
+  {
+   "id": "bd3d7dfdc4d4",
+   "source": "ドローンジャーナル",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ホロラボと西松建設、「XRドローン作業支援・空撮映像への3Dモデル重畳システム」を大型アップデート",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DWmw5TlBFbUZaNGVELUhsMlhPUVc0WG1SRnVXbnNSUERUU0NpSzg1Z3RZYWREZVYtTFAxSFhiY0dyLXJqTWNnelpxZ3JHVUtNSXp6UmR0aVEzX2t5VzZLYVB2d25tLTZfQkE?oc=5",
+   "published": "2026-10-22T06:06+00:00",
+   "published_jst": "2026-10-22 15:06",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "9ff6283cc7db",
@@ -2389,19 +2304,6 @@
    "ai_related": false
   },
   {
-   "id": "939ce11b09f8",
-   "source": "株式会社キャパ",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "BIMマネジメントを外部委託する方法｜委託できる業務・メリット・注意点を解説",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9VZ252WURTMHNJNE4tRGJ3S0FDYTZpN0pzWGVmMWR4SlFTa0V0QVg1WkV5X0tDSFNocFhxMjNUaFBHaEoxcG9EbDJxZGl6UQ?oc=5",
-   "published": "2026-10-22T03:17+00:00",
-   "published_jst": "2026-10-22 12:17",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "b11a625f6ddd",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2454,47 +2356,6 @@
    "ai_related": true
   },
   {
-   "id": "2381d4f175a6",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "３Ｄプリンター住宅「Lib Earth House “model B”」 「2026年度グッドデザイン賞」及び「日本空間デザイン賞2026 銀賞」受賞のお知らせ",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ebl8yZWd6T19qeVotQ19EWHJjZlZDZVJBcHI4UkFQOUVQQjdKT2JWdDRtRi13VHk4OU1KQll2aUxnQjlmcjFMMnltWU0tc1BsMW85Z0YtaE9xYmlkbVk4aWFXS214UlF4eVE?oc=5",
-   "published": "2026-10-22T02:30+00:00",
-   "published_jst": "2026-10-22 11:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "3a890d1b2652",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "NTT HumanEX、建設業界向けeラーニング「DXビギンズ！」を提供開始 (2026年10月22日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mTFJuU1B4WVk0ZDhCU2phWTBfUUZVdE9IMUlkN0l6cUFrVG9abWNxM3FxWVd1dFFXeU5aV2ltQ2ZVZEs4QVFDNXpxdWctdHlLVlBnZWx2T3g4cTJEZ2c?oc=5",
-   "published": "2026-10-22T02:30+00:00",
-   "published_jst": "2026-10-22 11:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "7561119c6ee1",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-   "published": "2026-10-22T02:18+00:00",
-   "published_jst": "2026-10-22 11:18",
-   "summary": "Article URL: https://simedw.com/2026/10/21/world-model-terminal/ Comments URL: https://news.ycombinator.com/item?id=50190363 Points: 608 # Comments: 181",
-   "ai_related": true,
-   "title_ja": "ターミナルを模倣する3.6億パラメータのモデルを開発",
-   "summary_ja": "ターミナルのように振る舞う3億6000万パラメータのモデルをトレーニングしたことに関する記事と、それに対する議論が紹介されている。"
-  },
-  {
    "id": "e133289f2a5c",
    "source": "ITmedia",
    "source_id": "gnews_kensetsu_ai",
@@ -2532,19 +2393,6 @@
    "published_jst": "2026-10-22 10:45",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "1ec439b137c6",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Anthropic版常時稼働エージェント「Claude Duet」発表 Opus 5.5ベースで設計 Pro／Maxプランで提供",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002490/",
-   "published": "2026-10-22T01:43+00:00",
-   "published_jst": "2026-10-22 10:43",
-   "summary": "Anthropicは常時稼働エージェント「Claude Duet」のリサーチプレビューを公開した。「Claude Opus 5.5」をベースに設計し、タスクの優先度などの判断力に優れるという。",
-   "ai_related": true
   },
   {
    "id": "5627c49a00ad",
@@ -2597,19 +2445,6 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tN3kxN1p4amRFRV9jc0VIcElBWHlVdlh5OEZYOUh3cDlkYlJFdFlvUUs1MmRJLUNLYlVFWTRsSXNQR0FXY3hXZ2ZJUnpTbUpDd2NoWjRaQUc?oc=5",
    "published": "2026-10-21T23:54+00:00",
    "published_jst": "2026-10-22 08:54",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "88b24d01b2fb",
-   "source": "新建ハウジング",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築AI経営研究会、AI活用の実演動画12本を公開",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LUDJaUXF0Q0hweHEtc1o3bTJia0k4Nm9rLVVQU25YTGNwQkhNZkJ1dnhZQmptRFBWeW15ek96S01nQ0JRM0lKaFJMbF9yZVloMEE?oc=5",
-   "published": "2026-10-21T23:15+00:00",
-   "published_jst": "2026-10-22 08:15",
    "summary": "",
    "ai_related": false
   }
