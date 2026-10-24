@@ -1,17 +1,25 @@
 {
- "generated_at": "2026-10-24T15:55+00:00",
- "generated_at_jst": "2026-10-25 00:55",
+ "generated_at": "2026-10-24T16:37+00:00",
+ "generated_at_jst": "2026-10-25 01:37",
  "window_hours": 48,
  "counts": {
-  "ai_global": 51,
+  "ai_global": 50,
   "ai_japan": 27,
   "construction_japan": 32,
-  "construction_global": 25
+  "construction_global": 18
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -19,6 +27,19 @@
   }
  ],
  "items": [
+  {
+   "id": "35d668020c86",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Block’s new voice model sounds eerily human",
+   "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "published": "2026-10-24T16:00+00:00",
+   "published_jst": "2026-10-25 01:00",
+   "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+   "ai_related": true
+  },
   {
    "id": "2bca17fd43ca",
    "source": "The Decoder",
@@ -201,21 +222,6 @@
    "published_jst": "2026-10-24 14:56",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "3c20f3ab5bf1",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-   "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-   "published": "2026-10-24T05:49+00:00",
-   "published_jst": "2026-10-24 14:49",
-   "summary": "Article URL: https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/ Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 379 # Comments: 128",
-   "ai_related": true,
-   "title_ja": "ハッカーがサムスン製テレビを解析、AIの常時聞き取りが判明",
-   "summary_ja": "ハッカーがサムスン製テレビをリバースエンジニアリングしたところ、内蔵AIによる聞き取り機能が発見され、関連する話題が議論されている。"
   },
   {
    "id": "3812b4d599bb",
@@ -427,7 +433,7 @@
    "url": "https://block.xyz/dessa",
    "published": "2026-10-23T19:09+00:00",
    "published_jst": "2026-10-24 04:09",
-   "summary": "Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925 Points: 434 # Comments: 166",
+   "summary": "Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925 Points: 445 # Comments: 169",
    "ai_related": true,
    "title_ja": "音声データのみで訓練された会話モデル「Dessa」登場",
    "summary_ja": "テキストデータを介さず、音声データのみを用いて訓練された新しい会話モデル「Dessa」についての情報と議論が共有されている。"
@@ -575,7 +581,7 @@
    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
    "published": "2026-10-23T16:59+00:00",
    "published_jst": "2026-10-24 01:59",
-   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 1008 # Comments: 606",
+   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 1018 # Comments: 623",
    "ai_related": true,
    "title_ja": "「Kimi K3.1 Pro」および「Highspeed」モデルが登場",
    "summary_ja": "AIモデル「Kimi K3.1 Pro」および「Kimi K3.1 Pro Highspeed」のドキュメントや分析データに関する情報が公開されている。"
@@ -738,36 +744,6 @@
    "summary_ja": "CitySquashは、スポーツ、学業、メンターシップを統合し、ブロンクスとブルックリンの青少年の育成を支援する非営利プログラム。"
   },
   {
-   "id": "4c6c521d0c3e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Council settles £590,000 payment dispute with contractor",
-   "url": "https://www.constructionnews.co.uk/buildings/council-settles-590000-payment-dispute-with-contractor-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
-   "ai_related": false,
-   "title_ja": "市議会、建設業者との59万ポンドの支払い紛争で和解",
-   "summary_ja": "サウスエンドオンシー市議会は、オーバーン・グループとの間で発生していた約59万ポンドの支払い遅延をめぐる紛争の和解に合意した。"
-  },
-  {
-   "id": "ed8054d26f7a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "BESA chief challenges construction to raise competence standards",
-   "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
-   "ai_related": false,
-   "title_ja": "BESA代表、建設業界に能力とコンプライアンスの向上を要求",
-   "summary_ja": "BESAの最高経営責任者が、建設業界に対し、基準を引き下げるのではなく、同協会の定めた高度な能力・コンプライアンス基準に合わせるよう求めた。"
-  },
-  {
    "id": "6d2a1c2dd227",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -783,51 +759,6 @@
    "summary_ja": "デザインプラットフォームのCanvaが、同社初となる自社製の画像生成モデル「Canva Craft」をリリースした。"
   },
   {
-   "id": "7d5834c04eea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolding firm fined £20,000 after worker killed by falling board",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/",
-   "published": "2026-10-23T11:11+00:00",
-   "published_jst": "2026-10-23 20:11",
-   "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
-   "ai_related": false,
-   "title_ja": "落下物で作業員死亡、足場会社に2万ポンドの罰金命令",
-   "summary_ja": "解体作業中に約8メートル上から落下した金属板が当たり作業員が死亡した事故で、足場会社に2万ポンドの罰金が科された。"
-  },
-  {
-   "id": "f25c70a6724e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wills Bros lined up for £220m A9 dualling scheme",
-   "url": "https://www.constructionnews.co.uk/civils/wills-bros-lined-up-for-220m-a9-dualling-scheme-23-10-2026/",
-   "published": "2026-10-23T11:04+00:00",
-   "published_jst": "2026-10-23 20:04",
-   "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
-   "ai_related": false,
-   "title_ja": "Wills Bros社、2億2000万ポンドのA9道路拡張事業を受注へ",
-   "summary_ja": "スコットランド政府は、A9の道路拡張計画の施工業者としてWills Bros Civil Engineeringを選定したと発表した。"
-  },
-  {
-   "id": "480ca04dc68a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five SCS workers removed from HS2 job after air rifle incident",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/five-scs-workers-removed-from-hs2-job-after-air-rifle-incident-23-10-2026/",
-   "published": "2026-10-23T11:01+00:00",
-   "published_jst": "2026-10-23 20:01",
-   "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
-   "ai_related": false,
-   "title_ja": "HS2現場で空気銃発射、作業員5人が解雇処分に",
-   "summary_ja": "夜勤の作業員が現場に空気銃を持ち込んで発射した事件を受け、HS2の鉄道プロジェクトから作業員5人が排除された。"
-  },
-  {
    "id": "fb04bf52374f",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -841,21 +772,6 @@
    "ai_related": true
   },
   {
-   "id": "33b345947dd2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "United Utilities seeks partner for potential £600m Windermere wastewater role",
-   "url": "https://www.constructionnews.co.uk/civils/united-utilities-seeks-partner-for-potential-600m-windermere-wastewater-role-23-10-2026/",
-   "published": "2026-10-23T10:24+00:00",
-   "published_jst": "2026-10-23 19:24",
-   "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
-   "ai_related": false,
-   "title_ja": "ユナイテッド・ユーティリティーズ、下水改修でパートナーを募集",
-   "summary_ja": "ウィンダミアの下水改修事業における設計・統合業務をめざし、最大6億ポンド規模のパートナー選定に向けた市場調査を開始した。"
-  },
-  {
    "id": "c34849ddce92",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
@@ -867,21 +783,6 @@
    "published_jst": "2026-10-23 19:15",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "d259f0aa4021",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kane pays £6.2m dividend as profits jump 45%",
-   "url": "https://www.constructionnews.co.uk/civils/kane-pays-6-2m-dividend-as-profits-jump-45-23-10-2026/",
-   "published": "2026-10-23T10:10+00:00",
-   "published_jst": "2026-10-23 19:10",
-   "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
-   "ai_related": false,
-   "title_ja": "Kane社、利益45%増に伴い620万ポンドの配当を実施",
-   "summary_ja": "設備工事業のKane Groupは、税引前利益が約45%増の640万ポンドとなり、620万ポンドの配当を実施したことを発表した。"
   },
   {
    "id": "6a285fa9b93f",
@@ -1009,19 +910,6 @@
    "ai_related": false,
    "title_ja": "リバプール、800戸のフェスティバル・ガーデン計画で合意",
    "summary_ja": "5,300万ポンドの敷地浄化後、Urban Splashとiglooが2027年末までの計画申請を目指す。"
-  },
-  {
-   "id": "0da31db3aa8c",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ゼネコン熱狂、建設DX",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOU0yQ1pYc3pPYUJlaHd0LXNhbWo5SkZfNzlmc0YwTHNFNmJJMU9LLWhQTlF4MTFQX3NMMThNZV9LWjE0VUR0bFhjMC1jTzZFNklGNXhkZWk0OExZNU16UlN4MGpzZklvR1A1czZoZUZiRmlBSXBaREJXUW1KY1loamQtaENTLWMwVDZ4TjNmcWhYaktCXy1YQWVIejlyQ2NzVkRZUHBIX2cyNndabWNr?oc=5",
-   "published": "2026-10-23T06:26+00:00",
-   "published_jst": "2026-10-23 15:26",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "1508910b22c9",
@@ -1301,6 +1189,19 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvc25NdEJMQlNHRTUzYzl4MlY4UTJlMlpHc0dWOFl6UFUwQWQzaXhRTk9KcHZHWlRxMU1pQS13bnZrdkVOX0tyYTFET3FVQQ?oc=5",
    "published": "2026-10-23T01:53+00:00",
    "published_jst": "2026-10-23 10:53",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "3ac5f44c477b",
+   "source": "mbp-japan.com",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "復旧しました。AIを利用して職人の目で仕上げる。本当に必要な安心の設計｜西浦嘉宏",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MZjY2OXROa0RrekQ3aTJMR010b1VTSTJXblhlbHpCVEI4MnJIaE9jbVFRWDRzNXJYTlQ4WFFYVTdVOUJGQVozQTdMTF9icV9kNFk0ZHE4blVOUldOODM0?oc=5",
+   "published": "2026-10-23T01:15+00:00",
+   "published_jst": "2026-10-23 10:15",
    "summary": "",
    "ai_related": false
   },
@@ -1717,21 +1618,6 @@
    "summary_ja": "あらゆるアプリケーションに向けて、高速かつ低コストで的確な決定を下すためのAPI。"
   },
   {
-   "id": "afbb328c263f",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Canva releases its first image generation model",
-   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-   "published": "2026-10-22T19:00+00:00",
-   "published_jst": "2026-10-23 04:00",
-   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-   "ai_related": true,
-   "title_ja": "Canvaが初の画像生成モデルをリリース",
-   "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
-  },
-  {
    "id": "1d8d266cc065",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1745,6 +1631,21 @@
    "ai_related": true,
    "title_ja": "OpenAI、Jev競合モデルを一般公開",
    "summary_ja": "意思決定モデルの競争が激化する中、OpenAIが独自モデルを世界に向けて発表。元のJevに対抗できるか。"
+  },
+  {
+   "id": "afbb328c263f",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Canva releases its first image generation model",
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "published": "2026-10-22T19:00+00:00",
+   "published_jst": "2026-10-23 04:00",
+   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+   "ai_related": true,
+   "title_ja": "Canvaが初の画像生成モデルをリリース",
+   "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
   },
   {
    "id": "fa33355da70e",
@@ -1910,21 +1811,6 @@
    "ai_related": false,
    "title_ja": "9月の商業施設着工件数が18％急減",
    "summary_ja": "Dodge Construction Networkによると、製造業やデータセンターの着工減により、全体の建設活動が2カ月連続で低下した。"
-  },
-  {
-   "id": "9d72639f5e00",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Uber puts all 30,000 employees on ChatGPT Work",
-   "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-   "published": "2026-10-22T16:00+00:00",
-   "published_jst": "2026-10-23 01:00",
-   "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
-   "ai_related": true,
-   "title_ja": "Uber、全社員3万人に「ChatGPT Work」を導入",
-   "summary_ja": "配車大手のUberは、小規模なパイロット運用を経て、企業向けAIエージェントを全社展開する。"
   }
  ]
 }
