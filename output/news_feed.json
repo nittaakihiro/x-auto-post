@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-10-24T05:56+00:00",
- "generated_at_jst": "2026-10-24 14:56",
+ "generated_at": "2026-10-24T09:48+00:00",
+ "generated_at_jst": "2026-10-24 18:48",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 27,
-  "construction_japan": 41,
-  "ai_global": 57,
-  "construction_global": 24
+  "ai_global": 54,
+  "construction_japan": 35,
+  "ai_japan": 25,
+  "construction_global": 29
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "hn_top",
-   "error": "HTTPError: HTTP Error 502: Bad Gateway"
-  },
-  {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "error": "URLError: <urlopen error timed out>"
   },
   {
    "feed": "constructionexec",
@@ -27,6 +27,45 @@
   }
  ],
  "items": [
+  {
+   "id": "8a6d4d230e71",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Fancy harnesses make coding agents more expensive but not better, study finds",
+   "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+   "published": "2026-10-24T09:21+00:00",
+   "published_jst": "2026-10-24 18:21",
+   "summary": "A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven mainly by the system prompt that gets resent with every step. The article Fancy ",
+   "ai_related": true
+  },
+  {
+   "id": "905f91537a47",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "訃報／元国土交通省近畿地方整備局長・木下誠也氏",
+   "url": "https://www.decn.co.jp/?p=188682",
+   "published": "2026-10-24T06:00+00:00",
+   "published_jst": "2026-10-24 15:00",
+   "summary": "国土交通省近畿地方整備局長や日本大学危機管理学部教授などを務めた木下誠也（きのした・せいや）氏が２０日、死去した。７２歳だった。通夜は３０日午後５時３０分から、横浜市青葉区美しが丘２の２１の４の公益社会館たまプラーザで […]",
+   "ai_related": false
+  },
+  {
+   "id": "2de66e15fab9",
+   "source": "Spherical Insights",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "グローバル建設市場トップ15企業",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZlZNd0QtanppTFFzUnBVeS1CbV94ZkwwbktWZHlQOC05cUZXdmhJWkN1UmdfNFVLZTdWQWtiUVp0ZV9pZHAwemNoRkRkdFJYcW94c0V4Sy1GTDFZNk9ld0tRM2lPY0JLRUVNSHFyMDNVdFk1ZTlVTEJrcVA4dHpVanBBckx0MGhXSU16OUJEY0Zwc21NNmFZVE5MNTBBbWdPYlZqaWZ2b195RkxHQXNwY0QyMzAtclk1ckV6TVVjSzVxajVkVUhiem5kWVd0QQ?oc=5",
+   "published": "2026-10-24T05:56+00:00",
+   "published_jst": "2026-10-24 14:56",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "5c02e267ffdd",
    "source": "GIGAZINE",
@@ -503,6 +542,32 @@
    "summary_ja": "CitySquashは、スポーツ、学業、メンターシップを統合し、ブロンクスとブルックリンの青少年の育成を支援する非営利プログラム。"
   },
   {
+   "id": "4c6c521d0c3e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Council settles £590,000 payment dispute with contractor",
+   "url": "https://www.constructionnews.co.uk/buildings/council-settles-590000-payment-dispute-with-contractor-23-10-2026/",
+   "published": "2026-10-23T11:45+00:00",
+   "published_jst": "2026-10-23 20:45",
+   "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
+   "ai_related": false
+  },
+  {
+   "id": "ed8054d26f7a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "BESA chief challenges construction to raise competence standards",
+   "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
+   "published": "2026-10-23T11:45+00:00",
+   "published_jst": "2026-10-23 20:45",
+   "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
+   "ai_related": false
+  },
+  {
    "id": "6d2a1c2dd227",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -533,6 +598,45 @@
    "summary_ja": "Claudeがコードの正しさを証明する数学的証明を生成し、長年のテストで見落とされていたバグを発見した。"
   },
   {
+   "id": "7d5834c04eea",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Scaffolding firm fined £20,000 after worker killed by falling board",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/",
+   "published": "2026-10-23T11:11+00:00",
+   "published_jst": "2026-10-23 20:11",
+   "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
+   "ai_related": false
+  },
+  {
+   "id": "f25c70a6724e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Wills Bros lined up for £220m A9 dualling scheme",
+   "url": "https://www.constructionnews.co.uk/civils/wills-bros-lined-up-for-220m-a9-dualling-scheme-23-10-2026/",
+   "published": "2026-10-23T11:04+00:00",
+   "published_jst": "2026-10-23 20:04",
+   "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
+   "ai_related": false
+  },
+  {
+   "id": "480ca04dc68a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Five SCS workers removed from HS2 job after air rifle incident",
+   "url": "https://www.constructionnews.co.uk/health-and-safety/five-scs-workers-removed-from-hs2-job-after-air-rifle-incident-23-10-2026/",
+   "published": "2026-10-23T11:01+00:00",
+   "published_jst": "2026-10-23 20:01",
+   "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
+   "ai_related": false
+  },
+  {
    "id": "fb04bf52374f",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -546,6 +650,19 @@
    "ai_related": true
   },
   {
+   "id": "33b345947dd2",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "United Utilities seeks partner for potential £600m Windermere wastewater role",
+   "url": "https://www.constructionnews.co.uk/civils/united-utilities-seeks-partner-for-potential-600m-windermere-wastewater-role-23-10-2026/",
+   "published": "2026-10-23T10:24+00:00",
+   "published_jst": "2026-10-23 19:24",
+   "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
+   "ai_related": false
+  },
+  {
    "id": "c34849ddce92",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
@@ -557,6 +674,19 @@
    "published_jst": "2026-10-23 19:15",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "d259f0aa4021",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Kane pays £6.2m dividend as profits jump 45%",
+   "url": "https://www.constructionnews.co.uk/civils/kane-pays-6-2m-dividend-as-profits-jump-45-23-10-2026/",
+   "published": "2026-10-23T10:10+00:00",
+   "published_jst": "2026-10-23 19:10",
+   "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
+   "ai_related": false
   },
   {
    "id": "6a285fa9b93f",
@@ -614,19 +744,6 @@
    "published": "2026-10-23T09:00+00:00",
    "published_jst": "2026-10-23 18:00",
    "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "7401218579d4",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "■日刊建設工業新聞サイト、日刊建設工業新聞電子版 復旧のお知らせ",
-   "url": "https://www.decn.co.jp/?p=188653",
-   "published": "2026-10-23T09:00+00:00",
-   "published_jst": "2026-10-23 18:00",
-   "summary": "22日18時ごろから、PHPの脆弱性対応で日刊建設工業新聞サイト、日刊建設工業新聞電子版を停止していましたが、23日18時に復旧しました。",
    "ai_related": false
   },
   {
@@ -876,6 +993,19 @@
    "ai_related": true
   },
   {
+   "id": "9741c529090b",
+   "source": "PR TIMES",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トリドールHD、トランスコスモスと連携し新しい建築手法「BIM」を導入開始 BIMｘAIで店舗管理の高度化にもチャレンジ",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wYW53ZHg4dWJVTFpadWctaFh4djRWZUJVbmxjQVZoajRaWHpZZHZIU21yRGZJV0FreE50a1dlMkFqVHJ3VGwyQ2o3Y1NXVFhPd2g5Y2ExcldYYmtBTnUydXQ5bU1hbFVqUHc?oc=5",
+   "published": "2026-10-23T04:00+00:00",
+   "published_jst": "2026-10-23 13:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "a3c17e088bfc",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1004,19 +1134,6 @@
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvc25NdEJMQlNHRTUzYzl4MlY4UTJlMlpHc0dWOFl6UFUwQWQzaXhRTk9KcHZHWlRxMU1pQS13bnZrdkVOX0tyYTFET3FVQQ?oc=5",
    "published": "2026-10-23T01:53+00:00",
    "published_jst": "2026-10-23 10:53",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "3ac5f44c477b",
-   "source": "mbp-japan.com",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "復旧しました。AIを利用して職人の目で仕上げる。本当に必要な安心の設計｜西浦嘉宏",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MZjY2OXROa0RrekQ3aTJMR010b1VTSTJXblhlbHpCVEI4MnJIaE9jbVFRWDRzNXJYTlQ4WFFYVTdVOUJGQVozQTdMTF9icV9kNFk0ZHE4blVOUldOODM0?oc=5",
-   "published": "2026-10-23T01:15+00:00",
-   "published_jst": "2026-10-23 10:15",
    "summary": "",
    "ai_related": false
   },
@@ -1392,6 +1509,19 @@
    "summary_ja": "アカウントを保護するプライベート資格情報を守りながら、AIエージェントが個人アカウントにログインできる新機能。"
   },
   {
+   "id": "eb58fe204c66",
+   "source": "Dellows News",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "健美家、住宅系収益不動産3種別の全国平均価格が直近10年で最高値と発表",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBKNnczM2RnVEpicGZlYXl6cXBTXzN4R2ctLXQxb09JNUpCWFJkUy1zbDBlX1VadUVXV05sSUpSWDFqRWc1N0E?oc=5",
+   "published": "2026-10-22T19:03+00:00",
+   "published_jst": "2026-10-23 04:03",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "27825e300358",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1632,21 +1762,6 @@
    "summary_ja": "Dodge Construction Networkによると、製造業やデータセンターの着工減により、全体の建設活動が2カ月連続で低下した。"
   },
   {
-   "id": "7193f81b802a",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Only 13 percent of companies see real returns from AI, Gartner survey finds",
-   "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
-   "published": "2026-10-22T16:18+00:00",
-   "published_jst": "2026-10-23 01:18",
-   "summary": "Only 13 percent of companies are getting real business value from their AI investments, according to a Gartner survey of 2,002 CIOs. At the same time, 51 percent expect AI to actually increase their operating costs. Yet 75 percent of CEOs plan to keep raising their technology budgets. So far, strate",
-   "ai_related": true,
-   "title_ja": "AIで実際の利益を得ている企業はわずか13％",
-   "summary_ja": "Gartnerの調査によると、AI投資で実際のビジネス価値を得ている企業は13％のみ。一方、51％は運用コストが増加すると予測している。"
-  },
-  {
    "id": "9d72639f5e00",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1750,19 +1865,6 @@
    "summary_ja": "造園図面には多くの計測課題が存在する。Takeoff BOOSTの拡張自動計測機能により効率化を実現する。"
   },
   {
-   "id": "e66e9796ba6b",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "published": "2026-10-22T14:30+00:00",
-   "published_jst": "2026-10-22 23:30",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "ai_related": true
-  },
-  {
    "id": "6aa970c38b49",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1836,6 +1938,45 @@
    "summary_ja": "『Call of Duty: Modern Warfare 4』が発売と同時にGeForce NOWに対応し、キャンペーンやマルチプレイヤーなどがプレイ可能に。"
   },
   {
+   "id": "1d344eddf2ea",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Fears devolution ‘complexity’ will ‘not put projects on site’",
+   "url": "https://www.constructionnews.co.uk/government/fears-devolution-complexity-will-not-put-projects-on-site-22-10-2026/",
+   "published": "2026-10-22T11:31+00:00",
+   "published_jst": "2026-10-22 20:31",
+   "summary": "Mace Consult has warned the government’s devolution ambitions are not guaranteed to “put projects on site” as funding certainty and “realistic programmes” remain key amid fragile industry confidence. In the consultancy’s latest quarterly market report, it argued that moving power away from Whitehall",
+   "ai_related": false
+  },
+  {
+   "id": "d4009abe029a",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "The Budget must build confidence and investment",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-budget-must-build-confidence-and-investment-22-10-2026/",
+   "published": "2026-10-22T11:21+00:00",
+   "published_jst": "2026-10-22 20:21",
+   "summary": "Peter O’Brien is the managing director at O’Brien Contractors There has been a lot of talk and a lot of promises, but now it’s time for action. Burnham’s administration has brought in some significant reforms in a short space of time, but we’re still to… The post The Budget must build confidence and",
+   "ai_related": false
+  },
+  {
+   "id": "90200352c290",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Four Scottish schools need replacing over ‘structural inefficiencies’",
+   "url": "https://www.constructionnews.co.uk/buildings/four-scottish-schools-need-replacing-over-structural-inefficiencies-22-10-2026/",
+   "published": "2026-10-22T11:14+00:00",
+   "published_jst": "2026-10-22 20:14",
+   "summary": "Four schools in East Dunbartonshire cannot be “economically refurbished” due to their construction methods and will need to be replaced. The modular method used to construct the schools in the 1960s and 1970s “present[s] significant limitations for refurbishment”, the local council said in a stateme",
+   "ai_related": false
+  },
+  {
    "id": "e44a70113e28",
    "source": "Dellows News",
    "source_id": "gnews_kensetsu_ai",
@@ -1888,241 +2029,6 @@
    "published_jst": "2026-10-22 19:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "ac2d5a1672a3",
-   "source": "Mezha.net",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIデータセンター建設のボトルネックにケーブル生産能力、Nexansが指摘",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR3YtOWs4WG9BSURVU2lSX0ZlcGswcVpsVE9mbEtTXzNPdjJnTFcwSEthM0FCZ0lLWDBsXzRSUndKY0E1UUlpRURQeWpkc1FLaUlRWXlvSEJIT2NsLW5iZFBnU1JxNnJOV3ZfXzM5V2w5Mzktb1phUWRLRnluSC1qVGVWNUltZ2RSWktLTXcxR3dyTmJLY1A1QU9fOS1Da2M?oc=5",
-   "published": "2026-10-22T09:21+00:00",
-   "published_jst": "2026-10-22 18:21",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "dca5536c83f7",
-   "source": "Unisba Media",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【小柳建設がDXに関する包括協定を日本マイクロソフトなどと締結】小柳建設株式会社が新潟県三条市・新潟県加茂市・日本マイクロソフト株式会社とDXに関する包括協定を締結 Dram Stock (IxxWsbdxPb)",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XTmJ4T2VwSFplY21kb1h3cU1XcEhJa3JydXlMakZwc2NMcWZXXy1lUWNvNU9TUGJhZGZYSEdYRXVkZU9mNERpbTNZTEZrbXB1bm55V0ZucVFHbmROOEpjb3lPTVVCZVdHSGkw?oc=5",
-   "published": "2026-10-22T09:19+00:00",
-   "published_jst": "2026-10-22 18:19",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "5b681a550d33",
-   "source": "亜州日報",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "李在鎔「献身に感謝」、20年前の李健熙「真の支え」…中東現場経営・未来点検のデジャヴ",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MV1VhZmZoM2N3eEl2MkVwR2IwaktxZTZWSEhDUDg1NVhCejV6N3BQQzE5Z3AyTksxV1JVdlhIZXZCRG8xanh3R011QUltVGdYUTdWR1FHLUVid0E?oc=5",
-   "published": "2026-10-22T09:04+00:00",
-   "published_jst": "2026-10-22 18:04",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "a1aedbd6b004",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "手のひらサイズの“宇宙AIデータセンター”？ JAXA後押しの国内新興が実現目指す 南極・高山での利用も視野",
-   "url": "https://www.itmedia.co.jp/news/article/2610/22/2000002510/",
-   "published": "2026-10-22T09:00+00:00",
-   "published_jst": "2026-10-22 18:00",
-   "summary": "宇宙で取得したデータをその場で小型のAIに処理させ、軽量化してから地上に下ろす──という仕組みの実現を目指す日本初ベンチャー、技術開発の進捗は。",
-   "ai_related": true
-  },
-  {
-   "id": "1d8d8d04526c",
-   "source": "PBC Today (UK)",
-   "source_id": "pbctoday",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "A common data environment is only useful if the information can move",
-   "url": "https://www.pbctoday.co.uk/news/digital-construction-news/common-data-environments-openbim-information-exchange-exit-costs/166871/",
-   "published": "2026-10-22T08:45+00:00",
-   "published_jst": "2026-10-22 17:45",
-   "summary": "How construction teams can test common data environments and openBIM exchanges, preserve information status and understand the cost of changing platforms. The post A common data environment is only useful if the information can move appeared first on Planning, Building & Construction Today .",
-   "ai_related": true,
-   "title_ja": "共通データ環境が真価を発揮するための条件とは",
-   "summary_ja": "建設チームが共通データ環境やopenBIMを活用し、情報のステータスを維持しつつ移行コストを把握する方法について解説。"
-  },
-  {
-   "id": "1597d0c89aca",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI’s hidden storage bill: What inference leaves behind",
-   "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-   "published": "2026-10-22T08:41+00:00",
-   "published_jst": "2026-10-22 17:41",
-   "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from ",
-   "ai_related": true,
-   "title_ja": "AIが抱える隠れたコスト：推論処理がもたらすデータ保存の負担",
-   "summary_ja": "AIのコストとしてGPUが注目されがちだが、膨大な推論データに伴うストレージコストも見過ごせない課題となっている。"
-  },
-  {
-   "id": "3cd0f779c3bc",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI時代の核心は「電力」…イ・ジェヨン、UAE発電所の現場を自ら視察",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpNjNDUWZvZ2x1R2dXTUk2bzVRQVNhOElGV0xUSm5QSGZIQUJEWmZmSnE2alVhNnp1bVBMbXNwZ1FRdTVEY2tnS28tYVk4YjBkU3lF?oc=5",
-   "published": "2026-10-22T08:41+00:00",
-   "published_jst": "2026-10-22 17:41",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "ac16b29a7b05",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「長い目で見れば防御側が有利」はなぜ？ 守る側のAI活用法、本命は Webセキュリティ専門家に聞く",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002521/",
-   "published": "2026-10-22T08:13+00:00",
-   "published_jst": "2026-10-22 17:13",
-   "summary": "AIエージェントによるWebサイト攻撃を観測したビットフォレスト。同社のWAF開発責任者は「AIは新しい攻撃ジャンルを生んでいない」と語る。守る側のAI活用の本命と「防御側が有利」の理由を聞いた。",
-   "ai_related": true
-  },
-  {
-   "id": "437c3afe728f",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "England’s road repair spending powers up to £4.9bn",
-   "url": "https://www.constructionenquirer.com/2026/10/22/englands-road-repair-spending-powers-up-to-4-9bn/",
-   "published": "2026-10-22T08:12+00:00",
-   "published_jst": "2026-10-22 17:12",
-   "summary": "Further funding depends on councils hitting delivery targets",
-   "ai_related": false,
-   "title_ja": "イングランドの道路補修費、49億ポンドに増額",
-   "summary_ja": "今後の追加資金の拠出は、地方自治体が掲げる施策の達成目標の達成状況に応じて決定される見込み。"
-  },
-  {
-   "id": "573288cbb329",
-   "source": "ASCII.jp",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ツールを使いながら学ぶプロジェクト管理 ある建設会社がBacklogで踏み出したDXの第一歩",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SWlV5YnQ2OTBOZFpKS1VfaUhSeHhWVXFmMGdIc3VjY3U5bHRrRS02SzRablRNa0FkSGZlSGlqWWZTT1lQUTRYLWlaNi16WkYwOWMxNg?oc=5",
-   "published": "2026-10-22T07:45+00:00",
-   "published_jst": "2026-10-22 16:45",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "2cff440e45f8",
-   "source": "Chosunbiz",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大宇建設がAIで現場管理を高度化推進 - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ3dJNXNKbzJLWnZkc3VRbzVlM2hhZWxhNWVPV3BjRnNlOERLUEFWSlFCcVlIeGZoRm8xSTBGN0trMlQ3QndOelNPZzNMTDVSY0Z4YUd1bnF5NGFSdnlNeWpscmZSU3p6UmdyX29DdzZWQWRpaDNkOUYzekl4ZGs4Mi1jWE3SAZgBQVVfeXFMTWc1R25xdl9oRDlreVVEbFYxVk40eG1vbTEzT1ZBVW8tZFhjNjZTZkNFeXpiVHBTTzBkU2hVZzdQdkN5ZW9oQ3ZUZGJhNm9STUh0eWlzX21MdjM0R01qZU9NMlQxT3lMYVZTODhrQnpHN3dldDF2NUFGR21qRlJ1d0djYlRhdmVwOGZfb2p2VEstX2F2VDY1ck0?oc=5",
-   "published": "2026-10-22T07:19+00:00",
-   "published_jst": "2026-10-22 16:19",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "a9bf27f3326d",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Builder severely injured in Banbury site scaffolding collapse",
-   "url": "https://www.constructionenquirer.com/2026/10/22/builder-severely-injured-in-banbury-site-scaffolding-collapse/",
-   "published": "2026-10-22T07:02+00:00",
-   "published_jst": "2026-10-22 16:02",
-   "summary": "Two workers hospitalised after partial collapse at 19-flat project",
-   "ai_related": false,
-   "title_ja": "バンベリーの建設現場で足場が崩落し、作業員が重傷",
-   "summary_ja": "19戸のマンション建設現場で部分的な崩落が発生し、作業員2人が病院に搬送された。"
-  },
-  {
-   "id": "e1ed94b2f664",
-   "source": "Chosunbiz",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "CJ大韓通運建設部門 KTクラウドAIデータセンター受注 - CHOSUNBIZ",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa3l6bll0RDRGZVY0Sm1QNHdfRF9CS2J0dnItcEhOcU9tSXpnMU5FemVCdXVNVU15NGFoNlo4dkRfeXlOZVBvLWtfUGtHRXhjNFhHZDhvdUZQSVdoMWczS2pYd3FXUmxEWWlDeHdYeTRNR093bmtnVzIxcDI1aUp1Qmg3eTbSAZgBQVVfeXFMUDdJejhTTlllZ2Vrd2pLdWdibnJLbDY1TUQzS19qTE9DdjlDU3lGbkEwb0JnTktYVnNOaFBpT3JLaENodU0zdUtETFloMVl3bDlsTWpId3VYdGUwY3NKNWxiVlBOXzlScHZfSXJ0MDQ5VlBpNmtVNXF1blFlREM0ZDBjOVRJWUFienYzZ0lXRXdIbmp1WHZqQjk?oc=5",
-   "published": "2026-10-22T06:37+00:00",
-   "published_jst": "2026-10-22 15:37",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "3fd4d11a1a93",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Contractor swap on troubled Oldham site",
-   "url": "https://www.constructionenquirer.com/2026/10/22/contractor-swap-on-troubled-oldham-site/",
-   "published": "2026-10-22T06:26+00:00",
-   "published_jst": "2026-10-22 15:26",
-   "summary": "John Southworth Builders finds design and construction defects",
-   "ai_related": false,
-   "title_ja": "難航するオールダムの建設プロジェクトで施工会社を交代",
-   "summary_ja": "ジョン・サウスワース・ビルダーズが設計および施工上の欠陥を発見し、プロジェクトの体制変更が行われた。"
-  },
-  {
-   "id": "923b37bacf9d",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fifteen win places on new-look £1bn North West framework",
-   "url": "https://www.constructionenquirer.com/2026/10/22/fifteen-win-places-on-new-look-1bn-north-west-framework/",
-   "published": "2026-10-22T06:10+00:00",
-   "published_jst": "2026-10-22 15:10",
-   "summary": "Six firms secure spots on top NWCH lot for projects worth over £45m",
-   "ai_related": false,
-   "title_ja": "10億ポンド規模のノースウェスト枠組み、15社が選出",
-   "summary_ja": "4,500万ポンド超のプロジェクトを対象とするNWCHの主要枠組みにおいて、新たに6社が参画することになった。"
-  },
-  {
-   "id": "9ff6283cc7db",
-   "source": "ドローンジャーナル",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "楽天ドローン、ビル等の修繕見積もり支援サービスを提供開始",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aR3U4LW83MnhCLTIyeWF3cHpod2tYdzFxQzN6dnRCWnVJWURSLTNqTUROUVpUY29BOXJwTy1nU192OHJ5b1pnM2hSSnJQTzdaZ3dfLTg0c0owUDlIanNnNnNISEdZMjQzOVE?oc=5",
-   "published": "2026-10-22T06:04+00:00",
-   "published_jst": "2026-10-22 15:04",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "63c31ca523f9",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "What FDE means at OpenAI",
-   "url": "https://openai.com/index/forward-deployed-engineering-means",
-   "published": "2026-10-22T06:00+00:00",
-   "published_jst": "2026-10-22 15:00",
-   "summary": "What forward deployed engineering means at OpenAI",
-   "ai_related": true,
-   "title_ja": "OpenAIにおけるFDEの意味",
-   "summary_ja": "OpenAIにおけるフォワード・デプロイド・エンジニアリング（前線展開エンジニアリング）の意味するものについて。"
   }
  ]
 }
