@@ -1,32 +1,58 @@
 {
- "generated_at": "2026-10-24T09:48+00:00",
- "generated_at_jst": "2026-10-24 18:48",
+ "generated_at": "2026-10-24T10:56+00:00",
+ "generated_at_jst": "2026-10-24 19:56",
  "window_hours": 48,
  "counts": {
-  "ai_global": 54,
+  "ai_japan": 26,
   "construction_japan": 35,
-  "ai_japan": 25,
-  "construction_global": 29
+  "ai_global": 57,
+  "construction_global": 19
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "hn_top",
-   "error": "URLError: <urlopen error timed out>"
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "ken_it_world",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   }
  ],
  "items": [
+  {
+   "id": "e98872cf2566",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "薄く軽く進化した「Kindle」2026年最新モデル開封の儀",
+   "url": "https://gigazine.net/news/20261024-kindle-2026/",
+   "published": "2026-10-24T10:40+00:00",
+   "published_jst": "2026-10-24 19:40",
+   "summary": "Amazonが2026年10月1日に電子書籍リーダー「Kindle」の最新モデル「Kindle(16GB)」「Kindle(32GB)」の2種を発売しました。より薄く・軽くなり、使用感も改善したという新型Kindleが編集部に届いたので、実際に開封してみました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "754eccc6d3c7",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【10/29 登壇情報】「工務店の集客・営業はAIでどう変わる？」LIFEFUND代表・白都卓磨がBREX関西2026に登壇",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpcDduRWNtOEYzZXBxR1dGYVJuWDJXNzNFQ25qV3ViN0xIeDc4RXB4a1UtNFM4Q25zeEtwNHVvLUM5STB0cFBCVVVSSEUyTlhwVkYwdV9pWktaTDhNdXBhRkFLaGlkR3RPSUE?oc=5",
+   "published": "2026-10-24T10:03+00:00",
+   "published_jst": "2026-10-24 19:03",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "8a6d4d230e71",
    "source": "The Decoder",
@@ -38,7 +64,9 @@
    "published": "2026-10-24T09:21+00:00",
    "published_jst": "2026-10-24 18:21",
    "summary": "A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven mainly by the system prompt that gets resent with every step. The article Fancy ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "コーディングAIの枠組み変更、コスト増も性能向上せず",
+   "summary_ja": "調査によると、Claude Codeやmini-SWE-agentなどの枠組みを切り替えても正答率はほとんど変わらず、タスクあたりの費用は最大3倍に膨らむことが判明した。"
   },
   {
    "id": "905f91537a47",
@@ -65,6 +93,21 @@
    "published_jst": "2026-10-24 14:56",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "3c20f3ab5bf1",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+   "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+   "published": "2026-10-24T05:49+00:00",
+   "published_jst": "2026-10-24 14:49",
+   "summary": "Article URL: https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/ Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 163 # Comments: 37",
+   "ai_related": true,
+   "title_ja": "ハッカーがサムスン製テレビを解析、AIの常時聞き取りが判明",
+   "summary_ja": "ハッカーがサムスン製テレビをリバースエンジニアリングしたところ、内蔵AIによる聞き取り機能が発見され、関連する話題が議論されている。"
   },
   {
    "id": "5c02e267ffdd",
@@ -252,6 +295,21 @@
    "summary_ja": "ワズワース・センター研究所が完成すれば、ニューヨーク州保健局の5つの研究所がキャンパス内に集結します。"
   },
   {
+   "id": "2ca67924f9fc",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Dessa: Conversation Model trained only on speech",
+   "url": "https://block.xyz/dessa",
+   "published": "2026-10-23T19:09+00:00",
+   "published_jst": "2026-10-24 04:09",
+   "summary": "Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925 Points: 395 # Comments: 143",
+   "ai_related": true,
+   "title_ja": "音声データのみで訓練された会話モデル「Dessa」登場",
+   "summary_ja": "テキストデータを介さず、音声データのみを用いて訓練された新しい会話モデル「Dessa」についての情報と議論が共有されている。"
+  },
+  {
    "id": "0931d3afc7b7",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -383,6 +441,21 @@
    "ai_related": true,
    "title_ja": "iPhone DuoはiPadであるべきだった",
    "summary_ja": "iPhone Duoに7/10の評価を付けたが、大規模な新アイデアを評価する際の難しさを物語っている。"
+  },
+  {
+   "id": "1fd8476b4493",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "published": "2026-10-23T16:59+00:00",
+   "published_jst": "2026-10-24 01:59",
+   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 925 # Comments: 544",
+   "ai_related": true,
+   "title_ja": "「Kimi K3.1 Pro」および「Highspeed」モデルが登場",
+   "summary_ja": "AIモデル「Kimi K3.1 Pro」および「Kimi K3.1 Pro Highspeed」のドキュメントや分析データに関する情報が公開されている。"
   },
   {
    "id": "55f38e2b0de9",
@@ -542,32 +615,6 @@
    "summary_ja": "CitySquashは、スポーツ、学業、メンターシップを統合し、ブロンクスとブルックリンの青少年の育成を支援する非営利プログラム。"
   },
   {
-   "id": "4c6c521d0c3e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Council settles £590,000 payment dispute with contractor",
-   "url": "https://www.constructionnews.co.uk/buildings/council-settles-590000-payment-dispute-with-contractor-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
-   "ai_related": false
-  },
-  {
-   "id": "ed8054d26f7a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "BESA chief challenges construction to raise competence standards",
-   "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
-   "ai_related": false
-  },
-  {
    "id": "6d2a1c2dd227",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -598,45 +645,6 @@
    "summary_ja": "Claudeがコードの正しさを証明する数学的証明を生成し、長年のテストで見落とされていたバグを発見した。"
   },
   {
-   "id": "7d5834c04eea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolding firm fined £20,000 after worker killed by falling board",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/",
-   "published": "2026-10-23T11:11+00:00",
-   "published_jst": "2026-10-23 20:11",
-   "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
-   "ai_related": false
-  },
-  {
-   "id": "f25c70a6724e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wills Bros lined up for £220m A9 dualling scheme",
-   "url": "https://www.constructionnews.co.uk/civils/wills-bros-lined-up-for-220m-a9-dualling-scheme-23-10-2026/",
-   "published": "2026-10-23T11:04+00:00",
-   "published_jst": "2026-10-23 20:04",
-   "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
-   "ai_related": false
-  },
-  {
-   "id": "480ca04dc68a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five SCS workers removed from HS2 job after air rifle incident",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/five-scs-workers-removed-from-hs2-job-after-air-rifle-incident-23-10-2026/",
-   "published": "2026-10-23T11:01+00:00",
-   "published_jst": "2026-10-23 20:01",
-   "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
-   "ai_related": false
-  },
-  {
    "id": "fb04bf52374f",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -650,19 +658,6 @@
    "ai_related": true
   },
   {
-   "id": "33b345947dd2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "United Utilities seeks partner for potential £600m Windermere wastewater role",
-   "url": "https://www.constructionnews.co.uk/civils/united-utilities-seeks-partner-for-potential-600m-windermere-wastewater-role-23-10-2026/",
-   "published": "2026-10-23T10:24+00:00",
-   "published_jst": "2026-10-23 19:24",
-   "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
-   "ai_related": false
-  },
-  {
    "id": "c34849ddce92",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
@@ -674,19 +669,6 @@
    "published_jst": "2026-10-23 19:15",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "d259f0aa4021",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kane pays £6.2m dividend as profits jump 45%",
-   "url": "https://www.constructionnews.co.uk/civils/kane-pays-6-2m-dividend-as-profits-jump-45-23-10-2026/",
-   "published": "2026-10-23T10:10+00:00",
-   "published_jst": "2026-10-23 19:10",
-   "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
-   "ai_related": false
   },
   {
    "id": "6a285fa9b93f",
@@ -993,19 +975,6 @@
    "ai_related": true
   },
   {
-   "id": "9741c529090b",
-   "source": "PR TIMES",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トリドールHD、トランスコスモスと連携し新しい建築手法「BIM」を導入開始 BIMｘAIで店舗管理の高度化にもチャレンジ",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wYW53ZHg4dWJVTFpadWctaFh4djRWZUJVbmxjQVZoajRaWHpZZHZIU21yRGZJV0FreE50a1dlMkFqVHJ3VGwyQ2o3Y1NXVFhPd2g5Y2ExcldYYmtBTnUydXQ5bU1hbFVqUHc?oc=5",
-   "published": "2026-10-23T04:00+00:00",
-   "published_jst": "2026-10-23 13:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "a3c17e088bfc",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1138,6 +1107,19 @@
    "ai_related": false
   },
   {
+   "id": "3ac5f44c477b",
+   "source": "mbp-japan.com",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "復旧しました。AIを利用して職人の目で仕上げる。本当に必要な安心の設計｜西浦嘉宏",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MZjY2OXROa0RrekQ3aTJMR010b1VTSTJXblhlbHpCVEI4MnJIaE9jbVFRWDRzNXJYTlQ4WFFYVTdVOUJGQVozQTdMTF9icV9kNFk0ZHE4blVOUldOODM0?oc=5",
+   "published": "2026-10-23T01:15+00:00",
+   "published_jst": "2026-10-23 10:15",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "2fbac9c5450e",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -1205,6 +1187,19 @@
    "ai_related": true,
    "title_ja": "OpenAIとポーランドのNASK、AI安全性で提携",
    "summary_ja": "OpenAIとNASKがAIの安全性や技術研究で提携し、保護機能の強化や強靭なデジタルエコシステムを支援する。"
+  },
+  {
+   "id": "62b969636794",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【中間選挙展望⑩】中間選挙の隠れた争点「データセンター建設問題」、一部の選挙区では勝敗を決する要因に",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZXluWHpVdjJQNE1RQ1BFTXp3bWhOT1JMZTFmZEt4cktNMHVMVmdJUE83UHlBcTNYR3pmbjMxSXlXUElJU21xOV95azB1b1NMS05aRjVkbFMzTlYyYlg3U2t1UDA1S3NqT0dkYkM0d2ljNVM3THJhMzRnX0xtRmU3di1lLThhQ2oz?oc=5",
+   "published": "2026-10-22T23:01+00:00",
+   "published_jst": "2026-10-23 08:01",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "c158c6af767d",
@@ -1412,6 +1407,19 @@
    "ai_related": true
   },
   {
+   "id": "ca0299300b31",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "27年度に募集・選定/DB配水管更新事業者/枚方市",
+   "url": "https://www.kensetsunews.com/archives/1299863",
+   "published": "2026-10-22T19:55+00:00",
+   "published_jst": "2026-10-23 04:55",
+   "summary": "大阪府枚方市は、実施設計・施工一括（ＤＢ）方式の導入を目指している配水管更新事業について、２０２６… The post 27年度に募集・選定/DB配水管更新事業者/枚方市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "7c02b25b9966",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -1435,19 +1443,6 @@
    "published": "2026-10-22T19:55+00:00",
    "published_jst": "2026-10-23 04:55",
    "summary": "東京都財務局は１０月２３日、２０２７年第１回都議会定例会付議案件となる「多摩都市モノレール下部工事… The post 東京都財務局/10月30日から4件受付/多摩都市モノレール下部工など first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "ca0299300b31",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "27年度に募集・選定/DB配水管更新事業者/枚方市",
-   "url": "https://www.kensetsunews.com/archives/1299863",
-   "published": "2026-10-22T19:55+00:00",
-   "published_jst": "2026-10-23 04:55",
-   "summary": "大阪府枚方市は、実施設計・施工一括（ＤＢ）方式の導入を目指している配水管更新事業について、２０２６… The post 27年度に募集・選定/DB配水管更新事業者/枚方市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1537,21 +1532,6 @@
    "summary_ja": "あらゆるアプリケーションに向けて、高速かつ低コストで的確な決定を下すためのAPI。"
   },
   {
-   "id": "afbb328c263f",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Canva releases its first image generation model",
-   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-   "published": "2026-10-22T19:00+00:00",
-   "published_jst": "2026-10-23 04:00",
-   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
-   "ai_related": true,
-   "title_ja": "Canvaが初の画像生成モデルをリリース",
-   "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
-  },
-  {
    "id": "1d8d266cc065",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1565,6 +1545,21 @@
    "ai_related": true,
    "title_ja": "OpenAI、Jev競合モデルを一般公開",
    "summary_ja": "意思決定モデルの競争が激化する中、OpenAIが独自モデルを世界に向けて発表。元のJevに対抗できるか。"
+  },
+  {
+   "id": "afbb328c263f",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Canva releases its first image generation model",
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "published": "2026-10-22T19:00+00:00",
+   "published_jst": "2026-10-23 04:00",
+   "summary": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+   "ai_related": true,
+   "title_ja": "Canvaが初の画像生成モデルをリリース",
+   "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
   },
   {
    "id": "fa33355da70e",
@@ -1865,6 +1860,21 @@
    "summary_ja": "造園図面には多くの計測課題が存在する。Takeoff BOOSTの拡張自動計測機能により効率化を実現する。"
   },
   {
+   "id": "e66e9796ba6b",
+   "source": "Google DeepMind Blog",
+   "source_id": "deepmind",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "published": "2026-10-22T14:30+00:00",
+   "published_jst": "2026-10-22 23:30",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "ai_related": true,
+   "title_ja": "樹木を超えて：世界中の森林タイプを網羅するマッピング",
+   "summary_ja": "地球上の10メートル単位の土地をそれぞれの森林タイプに分類した、詳細な世界森林マップが公開された。"
+  },
+  {
    "id": "6aa970c38b49",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1938,45 +1948,6 @@
    "summary_ja": "『Call of Duty: Modern Warfare 4』が発売と同時にGeForce NOWに対応し、キャンペーンやマルチプレイヤーなどがプレイ可能に。"
   },
   {
-   "id": "1d344eddf2ea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fears devolution ‘complexity’ will ‘not put projects on site’",
-   "url": "https://www.constructionnews.co.uk/government/fears-devolution-complexity-will-not-put-projects-on-site-22-10-2026/",
-   "published": "2026-10-22T11:31+00:00",
-   "published_jst": "2026-10-22 20:31",
-   "summary": "Mace Consult has warned the government’s devolution ambitions are not guaranteed to “put projects on site” as funding certainty and “realistic programmes” remain key amid fragile industry confidence. In the consultancy’s latest quarterly market report, it argued that moving power away from Whitehall",
-   "ai_related": false
-  },
-  {
-   "id": "d4009abe029a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The Budget must build confidence and investment",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-budget-must-build-confidence-and-investment-22-10-2026/",
-   "published": "2026-10-22T11:21+00:00",
-   "published_jst": "2026-10-22 20:21",
-   "summary": "Peter O’Brien is the managing director at O’Brien Contractors There has been a lot of talk and a lot of promises, but now it’s time for action. Burnham’s administration has brought in some significant reforms in a short space of time, but we’re still to… The post The Budget must build confidence and",
-   "ai_related": false
-  },
-  {
-   "id": "90200352c290",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Four Scottish schools need replacing over ‘structural inefficiencies’",
-   "url": "https://www.constructionnews.co.uk/buildings/four-scottish-schools-need-replacing-over-structural-inefficiencies-22-10-2026/",
-   "published": "2026-10-22T11:14+00:00",
-   "published_jst": "2026-10-22 20:14",
-   "summary": "Four schools in East Dunbartonshire cannot be “economically refurbished” due to their construction methods and will need to be replaced. The modular method used to construct the schools in the 1960s and 1970s “present[s] significant limitations for refurbishment”, the local council said in a stateme",
-   "ai_related": false
-  },
-  {
    "id": "e44a70113e28",
    "source": "Dellows News",
    "source_id": "gnews_kensetsu_ai",
@@ -1988,47 +1959,6 @@
    "published_jst": "2026-10-22 20:04",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "cff82b95bd62",
-   "source": "Moomoo",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Generative Bionicsは、AMDのAIインフラを活用し、欧州最大の物理AIデータセンター工場を建設することで",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNE5LMjAxQnE0cTQ4bmdoMDhLb18xcHlwcTlSUnduZlVNRzY4QWIwOGUwa0hsTlJVczlVcXQ0ZW52UHlnOWw2Ri1EdjZXY0N4eFVTNkR1NnZsWEhTZVc4VmN6Um00VlV5cVlxZ1JYTEtDTDZUdnVISDFoWHA2ZkdreENTek9KdzV3MjRPZGNWVnRYVnZDQ0xtLVB0WlM1aXdRbkprdWNWcTBvOUd1blE?oc=5",
-   "published": "2026-10-22T10:57+00:00",
-   "published_jst": "2026-10-22 19:57",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "6a85074051ec",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Making the case for context-aware AI",
-   "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-   "published": "2026-10-22T10:00+00:00",
-   "published_jst": "2026-10-22 19:00",
-   "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies",
-   "ai_related": true,
-   "title_ja": "文脈を理解するAIの重要性と利活用について",
-   "summary_ja": "企業向けAIは業務を効率化するが、事業の文脈や制約を理解していなければ、強力なモデルでも適切な判断を見誤る可能性がある。"
-  },
-  {
-   "id": "f30e8b3c8a06",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI検知と自動警告機能を備えた防犯カメラ2機種を発売 ソーラー電源で建設現場にも対応、AZx：製品動向",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KcElSbXhFRDlCSXRyMUtGOFI1M3VHNU1KQy1CV0d0bHVTMFd2Q2N4REdGRlBYclcxcDZMeUt3SkMtNHNnTVNVczhSbnFzaXBmOGk5dkZ6N21zblpEYmlXX2ZUV056T2dRdU5mRA?oc=5",
-   "published": "2026-10-22T10:00+00:00",
-   "published_jst": "2026-10-22 19:00",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
