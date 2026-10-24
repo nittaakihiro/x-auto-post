@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-24T10:56+00:00",
- "generated_at_jst": "2026-10-24 19:56",
+ "generated_at": "2026-10-24T12:02+00:00",
+ "generated_at_jst": "2026-10-24 21:02",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 26,
-  "construction_japan": 35,
-  "ai_global": 57,
+  "ai_japan": 27,
+  "ai_global": 56,
+  "construction_japan": 30,
   "construction_global": 19
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,13 +24,35 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
-  },
-  {
-   "feed": "ken_it_world",
-   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   }
  ],
  "items": [
+  {
+   "id": "754474b904a9",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "GPT-6 Astraと同等性能の中国製モデル「Kimi K3.1 Pro」が登場、2026年11月4日にモデルを無償公開予定",
+   "url": "https://gigazine.net/news/20261024-kimi-k3-1-pro/",
+   "published": "2026-10-24T11:50+00:00",
+   "published_jst": "2026-10-24 20:50",
+   "summary": "中国企業のMoonshot AIがAIモデル「Kimi K3.1 Pro」を日本時間の2026年10月24日に発表しました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "e7a641e67972",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+   "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+   "published": "2026-10-24T11:12+00:00",
+   "published_jst": "2026-10-24 20:12",
+   "summary": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo Sam Altm",
+   "ai_related": true
+  },
   {
    "id": "e98872cf2566",
    "source": "GIGAZINE",
@@ -104,7 +130,7 @@
    "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
    "published": "2026-10-24T05:49+00:00",
    "published_jst": "2026-10-24 14:49",
-   "summary": "Article URL: https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/ Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 163 # Comments: 37",
+   "summary": "Article URL: https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/ Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 215 # Comments: 59",
    "ai_related": true,
    "title_ja": "ハッカーがサムスン製テレビを解析、AIの常時聞き取りが判明",
    "summary_ja": "ハッカーがサムスン製テレビをリバースエンジニアリングしたところ、内蔵AIによる聞き取り機能が発見され、関連する話題が議論されている。"
@@ -304,7 +330,7 @@
    "url": "https://block.xyz/dessa",
    "published": "2026-10-23T19:09+00:00",
    "published_jst": "2026-10-24 04:09",
-   "summary": "Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925 Points: 395 # Comments: 143",
+   "summary": "Article URL: https://block.xyz/dessa Comments URL: https://news.ycombinator.com/item?id=50213925 Points: 406 # Comments: 149",
    "ai_related": true,
    "title_ja": "音声データのみで訓練された会話モデル「Dessa」登場",
    "summary_ja": "テキストデータを介さず、音声データのみを用いて訓練された新しい会話モデル「Dessa」についての情報と議論が共有されている。"
@@ -452,7 +478,7 @@
    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
    "published": "2026-10-23T16:59+00:00",
    "published_jst": "2026-10-24 01:59",
-   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 925 # Comments: 544",
+   "summary": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai Comments URL: https://news.ycombinator.com/item?id=50212065 Points: 939 # Comments: 560",
    "ai_related": true,
    "title_ja": "「Kimi K3.1 Pro」および「Highspeed」モデルが登場",
    "summary_ja": "AIモデル「Kimi K3.1 Pro」および「Kimi K3.1 Pro Highspeed」のドキュメントや分析データに関する情報が公開されている。"
@@ -529,19 +555,6 @@
    "ai_related": false,
    "title_ja": "パンチリスト：3十億ドルのMLBプロジェクトが代表を選出",
    "summary_ja": "シアトル水族館がASCE賞を受賞し、アクセンチュアが新興企業を買収した。"
-  },
-  {
-   "id": "44dab10c46d6",
-   "source": "日刊建設工業新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "熊谷組／土砂運搬ＡＤＴ、複数台をＡＩ制御／ダム堤体復旧現場で技術実証",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE54U2JuM0tUXy1QUko4dUFqWWtHSVNUTFoySE13N0RhUFFSLUdZQWwyM09DSmV3SzFwWnNYODg3ZDVqV192anln?oc=5",
-   "published": "2026-10-23T13:15+00:00",
-   "published_jst": "2026-10-23 22:15",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "f7703279e2ec",
@@ -936,7 +949,7 @@
   {
    "id": "9fc4bfc0b985",
    "source": "Digital PR Platform",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "トリドールHD、トランスコスモスと連携し新しい建築手法「BIM」を導入開始 BIM×AIで店舗管理の高度化にもチャレンジ",
@@ -1079,6 +1092,19 @@
    "ai_related": true
   },
   {
+   "id": "c0805ad075db",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ＡＩデータセンター建設、ケーブル生産能力が制約＝ネクサンス (ロイター)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQUliUGdDUGRvbmFUZXVJQmZNNWlmNmdTbTNWMTZiRm5oaWdnMExrbElHZS0zRjl5ZlRsZ1dFVkVkeUUwaE5yLXZKMm5FVUlHbmRyM1YwOHpGVFlfY0c0U1NyWEw3eWJrRmJYZ0xZNXJ0TzRxZjZFOTNINFk2QjR6TmtsNWVvWk81UnloSU1R?oc=5",
+   "published": "2026-10-23T02:07+00:00",
+   "published_jst": "2026-10-23 11:07",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "b21a97b1b273",
    "source": "NVIDIA Blog",
    "source_id": "nvidia",
@@ -1133,19 +1159,6 @@
    "ai_related": false
   },
   {
-   "id": "751a8337e5fd",
-   "source": "新建ハウジング",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "工務店のAIスキルを実務に即した問題で測る「住宅AI検定」スタート",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sX1B1NmhDWXJlQW03M3pyV3VfNV9SRjVGckp0ZDJwUkkta0hYVFBxNGFCRzB5cFZtRXJBWVpkVUFCbmFUSnA5X19qVHpXa0oySEE?oc=5",
-   "published": "2026-10-23T01:00+00:00",
-   "published_jst": "2026-10-23 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "842b57c6ce4e",
    "source": "Infoseek",
    "source_id": "gnews_kensetsu_dx",
@@ -1187,19 +1200,6 @@
    "ai_related": true,
    "title_ja": "OpenAIとポーランドのNASK、AI安全性で提携",
    "summary_ja": "OpenAIとNASKがAIの安全性や技術研究で提携し、保護機能の強化や強靭なデジタルエコシステムを支援する。"
-  },
-  {
-   "id": "62b969636794",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【中間選挙展望⑩】中間選挙の隠れた争点「データセンター建設問題」、一部の選挙区では勝敗を決する要因に",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZXluWHpVdjJQNE1RQ1BFTXp3bWhOT1JMZTFmZEt4cktNMHVMVmdJUE83UHlBcTNYR3pmbjMxSXlXUElJU21xOV95azB1b1NMS05aRjVkbFMzTlYyYlg3U2t1UDA1S3NqT0dkYkM0d2ljNVM3THJhMzRnX0xtRmU3di1lLThhQ2oz?oc=5",
-   "published": "2026-10-22T23:01+00:00",
-   "published_jst": "2026-10-23 08:01",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "c158c6af767d",
@@ -1338,19 +1338,6 @@
    "summary_ja": "企業のAIにおける次なる競争優位性は、どのモデルを選ぶかではなく、その周囲に何を構築するかにあります。"
   },
   {
-   "id": "a289a266378b",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "テスラとメタが人工知能(AI)投資拡大に速度を上げている。 テスラは来年第2四半期からドライバー監督が必要ない完全自動運転(FSD)機能を一般車両に適用し、独自のAI半導体工場である「テラパブ」の建設..",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE16UFNuQWt2T2x5S3oxSF9KaWc4NTRYbWlYQ2hYX0ExOFJFNVBPdXpNS3dmODlpMDBGRUoyelU4MGNvUlNiV2lSQ29XRQ?oc=5",
-   "published": "2026-10-22T21:01+00:00",
-   "published_jst": "2026-10-23 06:01",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "e36a0cad5190",
    "source": "施工の神様",
    "source_id": "sekokan_navi",
@@ -1394,30 +1381,17 @@
    "summary_ja": "公開会話リンクが容易に見つかるとの指摘を受け停止していたMetaのMuse共有機能が再び有効化された。"
   },
   {
-   "id": "490ac1fae8e5",
+   "id": "78ce8e22e5ab",
    "source": "読売新聞",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "ＡＩ投資 米国発インフレに データセンター建設ラッシュ 半導体、供給足りず高騰",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vaFVDVVozUDFXeC1DaHpNSF90NFdpRnNFa0NWcEFaNzZHQThRZ0FQVGJBN0l1QnBCV0NtRmZkS0VJa2lTMXlnR2JDVXlFMkh6TTBwUWpFTERCM2g4SWQzZklLQQ?oc=5",
+   "title": "ＡＩ投資 米国発インフレに データセンター建設ラッシュ…半導体、供給足りず高騰",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHaE51dVExSmNUcGoyWTVaZEdWRUJUTnBHRU9DUUh3OWlKZkdvZ2JfQVJPcG5USGpSeVpWbldVWE1jLVRWZFEwY0QtblRFcTBaMHNCMlVxbEw4LUl2bzMyNzlZb2xPUDJO?oc=5",
    "published": "2026-10-22T20:00+00:00",
    "published_jst": "2026-10-23 05:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "ca0299300b31",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "27年度に募集・選定/DB配水管更新事業者/枚方市",
-   "url": "https://www.kensetsunews.com/archives/1299863",
-   "published": "2026-10-22T19:55+00:00",
-   "published_jst": "2026-10-23 04:55",
-   "summary": "大阪府枚方市は、実施設計・施工一括（ＤＢ）方式の導入を目指している配水管更新事業について、２０２６… The post 27年度に募集・選定/DB配水管更新事業者/枚方市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
   },
   {
    "id": "7c02b25b9966",
@@ -1443,6 +1417,19 @@
    "published": "2026-10-22T19:55+00:00",
    "published_jst": "2026-10-23 04:55",
    "summary": "東京都財務局は１０月２３日、２０２７年第１回都議会定例会付議案件となる「多摩都市モノレール下部工事… The post 東京都財務局/10月30日から4件受付/多摩都市モノレール下部工など first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "ca0299300b31",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "27年度に募集・選定/DB配水管更新事業者/枚方市",
+   "url": "https://www.kensetsunews.com/archives/1299863",
+   "published": "2026-10-22T19:55+00:00",
+   "published_jst": "2026-10-23 04:55",
+   "summary": "大阪府枚方市は、実施設計・施工一括（ＤＢ）方式の導入を目指している配水管更新事業について、２０２６… The post 27年度に募集・選定/DB配水管更新事業者/枚方市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1478,7 +1465,7 @@
   {
    "id": "97fcbd6bc6bd",
    "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "福岡県、建設産業の合同企業説明会を県内4地域で2026年11月から開催へ",
@@ -1504,19 +1491,6 @@
    "summary_ja": "アカウントを保護するプライベート資格情報を守りながら、AIエージェントが個人アカウントにログインできる新機能。"
   },
   {
-   "id": "eb58fe204c66",
-   "source": "Dellows News",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "健美家、住宅系収益不動産3種別の全国平均価格が直近10年で最高値と発表",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBKNnczM2RnVEpicGZlYXl6cXBTXzN4R2ctLXQxb09JNUpCWFJkUy1zbDBlX1VadUVXV05sSUpSWDFqRWc1N0E?oc=5",
-   "published": "2026-10-22T19:03+00:00",
-   "published_jst": "2026-10-23 04:03",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "27825e300358",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1532,21 +1506,6 @@
    "summary_ja": "あらゆるアプリケーションに向けて、高速かつ低コストで的確な決定を下すためのAPI。"
   },
   {
-   "id": "1d8d266cc065",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-   "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-   "published": "2026-10-22T19:00+00:00",
-   "published_jst": "2026-10-23 04:00",
-   "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
-   "ai_related": true,
-   "title_ja": "OpenAI、Jev競合モデルを一般公開",
-   "summary_ja": "意思決定モデルの競争が激化する中、OpenAIが独自モデルを世界に向けて発表。元のJevに対抗できるか。"
-  },
-  {
    "id": "afbb328c263f",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1560,6 +1519,21 @@
    "ai_related": true,
    "title_ja": "Canvaが初の画像生成モデルをリリース",
    "summary_ja": "Canvaは新しい画像モデルを全ユーザーに提供開始し、低コストで優れたカスタマイズ性能を約束している。"
+  },
+  {
+   "id": "1d8d266cc065",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+   "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+   "published": "2026-10-22T19:00+00:00",
+   "published_jst": "2026-10-23 04:00",
+   "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+   "ai_related": true,
+   "title_ja": "OpenAI、Jev競合モデルを一般公開",
+   "summary_ja": "意思決定モデルの競争が激化する中、OpenAIが独自モデルを世界に向けて発表。元のJevに対抗できるか。"
   },
   {
    "id": "fa33355da70e",
@@ -1695,21 +1669,6 @@
    "ai_related": true,
    "title_ja": "Agentic AI Foundationにエージェントスキルを寄贈",
    "summary_ja": "Anthropicはエージェントスキルをオープンで中立的に保つため、その標準規格をAgentic AI Foundationに寄贈する。"
-  },
-  {
-   "id": "da7a07ed5f16",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
-   "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
-   "published": "2026-10-22T17:50+00:00",
-   "published_jst": "2026-10-23 02:50",
-   "summary": "With Agent Compute Engine, Google is introducing a runtime environment designed specifically for AI agents, while also expanding the governance capabilities that enable companies to manage agents in cloud, hybrid, and on-premises environments. The article Google's Agent Compute Engine gives every Ge",
-   "ai_related": true,
-   "title_ja": "Google、AIエージェント向け仮想マシンを発表",
-   "summary_ja": "Googleは、AIエージェント専用のランタイム環境「Agent Compute Engine」を発表し、クラウド等での管理機能を強化する。"
   },
   {
    "id": "db681ee145ee",
@@ -1860,21 +1819,6 @@
    "summary_ja": "造園図面には多くの計測課題が存在する。Takeoff BOOSTの拡張自動計測機能により効率化を実現する。"
   },
   {
-   "id": "e66e9796ba6b",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Beyond tree cover: mapping the world’s forest types",
-   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-   "published": "2026-10-22T14:30+00:00",
-   "published_jst": "2026-10-22 23:30",
-   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-   "ai_related": true,
-   "title_ja": "樹木を超えて：世界中の森林タイプを網羅するマッピング",
-   "summary_ja": "地球上の10メートル単位の土地をそれぞれの森林タイプに分類した、詳細な世界森林マップが公開された。"
-  },
-  {
    "id": "6aa970c38b49",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1946,19 +1890,6 @@
    "ai_related": true,
    "title_ja": "『CoD: モダン・ウォーフェア4』がGeForce NOWに登場",
    "summary_ja": "『Call of Duty: Modern Warfare 4』が発売と同時にGeForce NOWに対応し、キャンペーンやマルチプレイヤーなどがプレイ可能に。"
-  },
-  {
-   "id": "e44a70113e28",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Tektomeが建設特化のエージェント知能基盤を提供開始 既存AIツールを再編",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5LU2IzcnVCcVJCSW0ydmkxbXZrUExhMG5kSlVydzRlM2xCd3N3MmlDV1VwcExJRXh3UjdVLTF0QVNLODUzbmc?oc=5",
-   "published": "2026-10-22T11:04+00:00",
-   "published_jst": "2026-10-22 20:04",
-   "summary": "",
-   "ai_related": true
   }
  ]
 }
