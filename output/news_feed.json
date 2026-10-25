@@ -1,17 +1,25 @@
 {
- "generated_at": "2026-10-25T00:35+00:00",
- "generated_at_jst": "2026-10-25 09:35",
+ "generated_at": "2026-10-25T04:38+00:00",
+ "generated_at_jst": "2026-10-25 13:38",
  "window_hours": 48,
  "counts": {
-  "ai_global": 37,
-  "construction_japan": 25,
-  "ai_japan": 20,
-  "construction_global": 18
+  "ai_japan": 19,
+  "construction_japan": 19,
+  "ai_global": 34,
+  "construction_global": 11
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -19,6 +27,60 @@
   }
  ],
  "items": [
+  {
+   "id": "f49d9a5b0586",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "バーチャルアーティスト「IA」がPC画面に登場するDesktop Mateの新DLCを使ってみた",
+   "url": "https://gigazine.net/news/20261025-desktop-mate-ia-dlc/",
+   "published": "2026-10-25T03:00+00:00",
+   "published_jst": "2026-10-25 12:00",
+   "summary": "キャラクターの3DモデルをPCの画面上に表示できる「Desktop Mate」から、1st PLACEのバーチャルアーティスト「IA」のDLCが2026年10月15日に登場しました。華やかで神秘的な雰囲気でPC画面を彩ってくれるとのことなので、実際にダウンロードして使用してみました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "ae950c21dad2",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【11/17,11/30開催】マーケ人員を増やさず、集客を強くする。建築AI経営研究会が工務店のための「AI×集客」実践セミナーをオンラインで無料開催",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NYWZnUm1heE5TTU53cWpWM2tBN19lMDR2SUx6aE9yZl9lM1g5RnJhajRRZjVETHhRTGVhbi1CV1lHaGVPa1pLTG5yTXVwMkpsWXNOYTBjclloMVlaaVlYdUg1anJHbDFiaWc?oc=5",
+   "published": "2026-10-25T01:13+00:00",
+   "published_jst": "2026-10-25 10:13",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "b0fb455df4c8",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "読み込み14.9GB/sのPCIe 5.0対応SSD「SANDISK Optimus GX PRO 8100 NVMe SSD」の2TBモデルでベンチマークテストを実行してみたよレビュー",
+   "url": "https://gigazine.net/news/20261025-sandisk-optimus-gx-pro-8100-nvme-ssd/",
+   "published": "2026-10-25T01:00+00:00",
+   "published_jst": "2026-10-25 10:00",
+   "summary": "「SANDISK Optimus GX PRO 8100 NVMe SSD」はシーケンシャル読み込み最大1万4900MB/s、シーケンシャル書き込み最大1万4000MB/sという高速転送が可能なPCIe 5.0対応M.2 SSDです。2TBのヒートシンク非搭載モデルとヒートシンク搭載モデルを借りることができたので、実際にベンチマークテストを実行してみました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "8f5707e9a13c",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "published": "2026-10-24T23:11+00:00",
+   "published_jst": "2026-10-25 08:11",
+   "summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 242 # Comments: 251",
+   "ai_related": true,
+   "title_ja": "米クリエイティブ産業で20万人の雇用減、AIの影響は？",
+   "summary_ja": "メディア、映画、芸術分野で大量の雇用が失われており、AIの台頭がその要因として議論されている。"
+  },
   {
    "id": "0509c80e85fb",
    "source": "The Verge AI",
@@ -33,21 +95,6 @@
    "ai_related": true,
    "title_ja": "AI時代の「Blue Planet III」が目指す映像のリアル",
    "summary_ja": "BBCの「Blue Planet III」は、あえて完璧ではない映像を残すことで、作品の信頼性と本物感を証明しようとしている。"
-  },
-  {
-   "id": "074b7d5e1602",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "No signs of AI payoff outside the tech sector",
-   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-   "published": "2026-10-24T19:47+00:00",
-   "published_jst": "2026-10-25 04:47",
-   "summary": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=50224463 Points: 452 # Comments: 437",
-   "ai_related": true,
-   "title_ja": "テック分野以外ではAIの投資効果が見られない状況",
-   "summary_ja": "ハイテク産業の外側においては、AI技術の導入による具体的な利益や成果はいまだ現れていない。"
   },
   {
    "id": "b0af889ad05f",
@@ -78,6 +125,19 @@
    "ai_related": true,
    "title_ja": "ペンシルベニア州、AI広告にラベル表示を義務化",
    "summary_ja": "シャピロ知事はAI生成広告に表示を義務付ける法案に署名。静止画や動画などのあらゆる広告が対象となる。"
+  },
+  {
+   "id": "1a768956a80a",
+   "source": "Unisba Media",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【最新インタビュー】イーロン・マスク「宇宙にAIデータセンターを建設する！」スペースXが明かす驚異の計画とは？ Montreal Game Tonight (nVTRtjfOO7)",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa1UxT213Ri1yMWlpMWRpV2pJZU43YWtBWlVIMFJ5czZicFM2Q1dwR01vV2JLNTAzNmo3WGRESGYzNkFXRlAteXNseWpNbWZIemhwQjlIN1o1RFNaVEt5WTlHWTVJbFVHU0ZUdHhUajhWSDdOMHF6N21McG1va0J4cA?oc=5",
+   "published": "2026-10-24T16:48+00:00",
+   "published_jst": "2026-10-25 01:48",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "af76457e7990",
@@ -121,6 +181,19 @@
    "ai_related": true,
    "title_ja": "解雇されたOpenAI研究者、情報漏洩の否定を主張",
    "summary_ja": "OpenAIを解雇された3人の安全研究者が、会社側からの情報漏洩の告発に反論。機密情報の共有を強く否定している。"
+  },
+  {
+   "id": "a8b34ba5fd72",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "エヌビディアが対オープンAI財務保証を半減、自社リスク抑制へシフト 試されるAIインフラ金融の持続性",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOblFwMzNsUWVBXzBXQTh6dS1LLTJPUGpnUnZwWTg3eGV2eFhFNDl3cjl2YUVyUVNqV3ZyMWJMYVFCSDhfTVRucDFEMDFyRFdFaGhjX0FjTXU3RGwwT3RKaGJTREJYMEtFYjBWdjMtUTBRa2N6SmZ3bmtwTVoybGZ0YWtrU1lIWkhK?oc=5",
+   "published": "2026-10-24T15:05+00:00",
+   "published_jst": "2026-10-25 00:05",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "110fd09f65f2",
@@ -259,8 +332,10 @@
    "url": "https://github.com/Zagitta/gpu-unlock",
    "published": "2026-10-24T09:58+00:00",
    "published_jst": "2026-10-24 18:58",
-   "summary": "Article URL: https://github.com/Zagitta/gpu-unlock Comments URL: https://news.ycombinator.com/item?id=50219700 Points: 176 # Comments: 61",
-   "ai_related": true
+   "summary": "Article URL: https://github.com/Zagitta/gpu-unlock Comments URL: https://news.ycombinator.com/item?id=50219700 Points: 207 # Comments: 66",
+   "ai_related": true,
+   "title_ja": "Nvidia 3000シリーズのFP/BF16命令発行レートを解除するツール",
+   "summary_ja": "Nvidia製GPUのパフォーマンス制限を解除し、FP/BF16の命令発行レートを最適化するためのGitHubリポジトリ。"
   },
   {
    "id": "8a6d4d230e71",
@@ -278,19 +353,6 @@
    "summary_ja": "調査によると、Claude Codeやmini-SWE-agentなどの枠組みを切り替えても正答率はほとんど変わらず、タスクあたりの費用は最大3倍に膨らむことが判明した。"
   },
   {
-   "id": "3aa9f3051ca7",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ゼネコン熱狂、建設DX",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWlA1MHpacDg3akRrZzI4c2hnVkpJRTVqVk9lU3A2R2xVTWxDQXlfNGR5ZHJZYVl0SW92V0lPMGp6Nzg1Y2dNVWJwRlF3ZjdTZ2RtQmdZQ0duOWxNUWNiYVBTVmlQdHFJdExxSHJ6bzNuRnJTODF3N1FMZXliSk1zRVpCVjVUSV9qYU8xVE1OZ0dyNVlpaTB1UVlmVkFmZkxBbU9ybXM3X04xbWkwTC1xcGZGX3RwRkczY0xFMkxwX1A3bFlRWjhv?oc=5",
-   "published": "2026-10-24T07:18+00:00",
-   "published_jst": "2026-10-24 16:18",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "905f91537a47",
    "source": "日刊建設工業新聞",
    "source_id": "decn",
@@ -301,19 +363,6 @@
    "published": "2026-10-24T06:00+00:00",
    "published_jst": "2026-10-24 15:00",
    "summary": "国土交通省近畿地方整備局長や日本大学危機管理学部教授などを務めた木下誠也（きのした・せいや）氏が２０日、死去した。７２歳だった。通夜は３０日午後５時３０分から、横浜市青葉区美しが丘２の２１の４の公益社会館たまプラーザで […]",
-   "ai_related": false
-  },
-  {
-   "id": "2de66e15fab9",
-   "source": "Spherical Insights",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "グローバル建設市場トップ15企業",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZlZNd0QtanppTFFzUnBVeS1CbV94ZkwwbktWZHlQOC05cUZXdmhJWkN1UmdfNFVLZTdWQWtiUVp0ZV9pZHAwemNoRkRkdFJYcW94c0V4Sy1GTDFZNk9ld0tRM2lPY0JLRUVNSHFyMDNVdFk1ZTlVTEJrcVA4dHpVanBBckx0MGhXSU16OUJEY0Zwc21NNmFZVE5MNTBBbWdPYlZqaWZ2b195RkxHQXNwY0QyMzAtclk1ckV6TVVjSzVxajVkVUhiem5kWVd0QQ?oc=5",
-   "published": "2026-10-24T05:56+00:00",
-   "published_jst": "2026-10-24 14:56",
-   "summary": "",
    "ai_related": false
   },
   {
@@ -468,6 +517,19 @@
    "published_jst": "2026-10-24 06:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "8727ba358512",
+   "source": "日刊ゲンダイDIGITAL",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "千葉印西市の駅前データセンター建設問題 住民が憤る「やられっぱなし」の実態｜話題の現場 突撃ルポ",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LYlpBZDNDRVRpNmJzQzZTNmlCaGx2VjhTZzc3UUI3TkMwSjZieTU0WHhQQkx4dGdQUGRqTUxVTEhKMWs1WUF1d0N6QzhRN29KcTh4d3hTWG5PNk94aURqRjAwR1JJUQ?oc=5",
+   "published": "2026-10-23T21:00+00:00",
+   "published_jst": "2026-10-24 06:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "3e249e7fc631",
@@ -820,36 +882,6 @@
    "summary_ja": "CitySquashは、スポーツ、学業、メンターシップを統合し、ブロンクスとブルックリンの青少年の育成を支援する非営利プログラム。"
   },
   {
-   "id": "4c6c521d0c3e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Council settles £590,000 payment dispute with contractor",
-   "url": "https://www.constructionnews.co.uk/buildings/council-settles-590000-payment-dispute-with-contractor-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
-   "ai_related": false,
-   "title_ja": "市議会、請負業者との約59万ポンドの支払い紛争で和解",
-   "summary_ja": "サウスエンドオンシー市議会は、業者による調停手続きの申し立てを受け、未払い金クレームの和解に動いた。Auburn Groupに約59万ポンドを支払う意向を示している。"
-  },
-  {
-   "id": "ed8054d26f7a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "BESA chief challenges construction to raise competence standards",
-   "url": "https://www.constructionnews.co.uk/supply-chain/besa-chief-challenges-construction-to-raise-competence-standards-23-10-2026/",
-   "published": "2026-10-23T11:45+00:00",
-   "published_jst": "2026-10-23 20:45",
-   "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
-   "ai_related": false,
-   "title_ja": "BESAトップ、建設業界に能力基準の引き上げを要請",
-   "summary_ja": "BESAの最高経営責任者は、建設業界に対し、基準を引き下げるよう期待するのではなく、同協会のコンプライアンス基準に合わせるべきだと訴えた。"
-  },
-  {
    "id": "6d2a1c2dd227",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -865,51 +897,6 @@
    "summary_ja": "デザインプラットフォームのCanvaが、同社初となる自社製の画像生成モデル「Canva Craft」をリリースした。"
   },
   {
-   "id": "7d5834c04eea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolding firm fined £20,000 after worker killed by falling board",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/",
-   "published": "2026-10-23T11:11+00:00",
-   "published_jst": "2026-10-23 20:11",
-   "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
-   "ai_related": false,
-   "title_ja": "足場会社に2万ポンドの罰金、作業員が落下物に当たり死亡",
-   "summary_ja": "ベルファストでの解体作業中、約8メートルから落下した金属板が当たり従業員が死亡した事故を受け、足場会社に罰金2万ポンドが科された。"
-  },
-  {
-   "id": "f25c70a6724e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wills Bros lined up for £220m A9 dualling scheme",
-   "url": "https://www.constructionnews.co.uk/civils/wills-bros-lined-up-for-220m-a9-dualling-scheme-23-10-2026/",
-   "published": "2026-10-23T11:04+00:00",
-   "published_jst": "2026-10-23 20:04",
-   "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
-   "ai_related": false,
-   "title_ja": "Wills Bros社、2億2千万ポンドのA9道路複線化を受注へ",
-   "summary_ja": "スコットランド政府は、ピトロホリーとキリカランキー間のA9複線化事業について、競合2社を抑えWills Bros社を選定する方針を発表した。"
-  },
-  {
-   "id": "480ca04dc68a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five SCS workers removed from HS2 job after air rifle incident",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/five-scs-workers-removed-from-hs2-job-after-air-rifle-incident-23-10-2026/",
-   "published": "2026-10-23T11:01+00:00",
-   "published_jst": "2026-10-23 20:01",
-   "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
-   "ai_related": false,
-   "title_ja": "HS2現場で空気銃発射、SCSの作業員5人が解任される",
-   "summary_ja": "夜勤作業員が現場に空気銃を持ち込み発射した事件を受け、HS2鉄道プロジェクトから作業員5人が外された。現場はウエスト・ルイスリップにある。"
-  },
-  {
    "id": "fb04bf52374f",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -923,21 +910,6 @@
    "ai_related": true
   },
   {
-   "id": "33b345947dd2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "United Utilities seeks partner for potential £600m Windermere wastewater role",
-   "url": "https://www.constructionnews.co.uk/civils/united-utilities-seeks-partner-for-potential-600m-windermere-wastewater-role-23-10-2026/",
-   "published": "2026-10-23T10:24+00:00",
-   "published_jst": "2026-10-23 19:24",
-   "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
-   "ai_related": false,
-   "title_ja": "United Utilities、ウィンダミア下水事業でパートナー募集",
-   "summary_ja": "同社はウィンダミアの下水改修事業で、最大6億ポンド規模の設計・統合を担当するパートナー選定に向けた市場調査を開始した。"
-  },
-  {
    "id": "c34849ddce92",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
@@ -949,21 +921,6 @@
    "published_jst": "2026-10-23 19:15",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "d259f0aa4021",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kane pays £6.2m dividend as profits jump 45%",
-   "url": "https://www.constructionnews.co.uk/civils/kane-pays-6-2m-dividend-as-profits-jump-45-23-10-2026/",
-   "published": "2026-10-23T10:10+00:00",
-   "published_jst": "2026-10-23 19:10",
-   "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
-   "ai_related": false,
-   "title_ja": "Kane社、利益45%増に伴い620万ポンドの配当を実施",
-   "summary_ja": "設備工事のKane Groupは、税引前利益が約45%増の640万ポンドとなり、620万ポンドの配当を行った。3月31日までの売上高は1億90万ポンドを記録。"
   },
   {
    "id": "6a285fa9b93f",
@@ -1093,6 +1050,19 @@
    "summary_ja": "5,300万ポンドの敷地浄化後、Urban Splashとiglooが2027年末までの計画申請を目指す。"
   },
   {
+   "id": "0da31db3aa8c",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ゼネコン熱狂、建設DX",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOU0yQ1pYc3pPYUJlaHd0LXNhbWo5SkZfNzlmc0YwTHNFNmJJMU9LLWhQTlF4MTFQX3NMMThNZV9LWjE0VUR0bFhjMC1jTzZFNklGNXhkZWk0OExZNU16UlN4MGpzZklvR1A1czZoZUZiRmlBSXBaREJXUW1KY1loamQtaENTLWMwVDZ4TjNmcWhYaktCXy1YQWVIejlyQ2NzVkRZUHBIX2cyNndabWNr?oc=5",
+   "published": "2026-10-23T06:26+00:00",
+   "published_jst": "2026-10-23 15:26",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "1508910b22c9",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1149,6 +1119,19 @@
    "summary_ja": "トンネル工事や新設下水道、高度処理施設を含む大規模なプログラムの入札競争が迫っている。"
   },
   {
+   "id": "fa37bcd5a523",
+   "source": "北海道新聞デジタル",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トリドールHD、トランスコスモスと連携し新しい建築手法「BIM」を導入開始 BIM×AIで店舗管理の高度化にもチャレンジ",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVXA1a1daenBLQS1jYVNINVA0RFF2XzhjVjlEcWFkcklqU0daSzk1eFZSbm44NzNhUG5kUDlWcjByTGNTUWEzU21qRlpXZ1JzV0RtM2hMam9iNXdmR3gwSFVzLXg1TlktbUFycy1OQThxU2tzSDhCRmhKWjFKS0t6cmg2X1I5N3BJ?oc=5",
+   "published": "2026-10-23T05:55+00:00",
+   "published_jst": "2026-10-23 14:55",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "2cada2cebbbc",
    "source": "AINOW",
    "source_id": "ainow",
@@ -1175,6 +1158,19 @@
    "ai_related": true
   },
   {
+   "id": "ceff1d51a40c",
+   "source": "Oxford Economics",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "財政再建、フランス長期金利、中国住宅市場",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaTIzR0djc0NzY1NEWlljTUx2Ym1ENDQ4SUlrWHdPb0pHQjh6SGZ3TTJEdFYtWFMtczVTVUtacldCZE5GUkNYX3owYWt1T0hqTGY2MFRIcDM0UHFJZGVLTzd3UkpCYU5qR2g1S3lUYXRmYzRfYnBpMnF4LVpRalU3aU9yMThLQVBZazJ2NzdPQQ?oc=5",
+   "published": "2026-10-23T05:34+00:00",
+   "published_jst": "2026-10-23 14:34",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "62633dc92a6e",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1199,233 +1195,6 @@
    "published_jst": "2026-10-23 13:46",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "df65f4cd62ae",
-   "source": "GLOBIS学び放題 × 知見録",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「フィジカルAI」が変える建設現場の未来。国交省が描く次世代のグランドデザインとは？ ／ダイバーシティニュース 山﨑颯汰【11/30までの限定公開】",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwOU9OMUFaNWE2aGhKeWdleGZtUlUxLWVQM1hOUkF1YnBYN0ZQMDF1Y2hzWklLTXE4R0JaV3NLLXQ5OVFLMG50dS1DaVFxMVU?oc=5",
-   "published": "2026-10-23T04:25+00:00",
-   "published_jst": "2026-10-23 13:25",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "9fc4bfc0b985",
-   "source": "Digital PR Platform",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トリドールHD、トランスコスモスと連携し新しい建築手法「BIM」を導入開始 BIM×AIで店舗管理の高度化にもチャレンジ",
-   "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1zSHBkVHZmZjBpOEVQTFI5a0Y1ZWQ1clVIalRBUFV4NFd6MUdOc0luamFJNzlNTFN4Z1dVdHltQmpVRlU?oc=5",
-   "published": "2026-10-23T04:01+00:00",
-   "published_jst": "2026-10-23 13:01",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "94cd4ca5fb66",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-   "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-   "published": "2026-10-23T04:00+00:00",
-   "published_jst": "2026-10-23 13:00",
-   "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
-   "ai_related": true,
-   "title_ja": "UberのライバルinDrive、中亜でロボタクシー実験へ",
-   "summary_ja": "inDriveは2027年上半期にカザフスタンの首都でPony.aiのロボタクシーのテストを開始する計画だ。"
-  },
-  {
-   "id": "65a2c9f8b7fd",
-   "source": "ITmedia",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "KOLC＋が3DGSとBIM/CIMの統合に対応 土量計算や断面図化も可能に：BIM",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GVHZaZW84MUxhRE8tMkc4eGYtT3dVV2tOTU8tVzFsaXh4Q19FQm5pRU5wWlJvbDRBUVF4MVloUkh4RXY2a0RRcmhiY3pmZDNxTGJKMi1SRHFPSUVabGZEQmswdXpzNHk5OG16TQ?oc=5",
-   "published": "2026-10-23T04:00+00:00",
-   "published_jst": "2026-10-23 13:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "097c1d813a7c",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "プロンプトガチャはもう古い――「ハーネスの父」が明かす、AI駆動開発の極意",
-   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/23/news030.html",
-   "published": "2026-10-23T03:45+00:00",
-   "published_jst": "2026-10-23 12:45",
-   "summary": "Googleは、AIエージェントによる開発をテーマにした解説動画「The Agent Factory」を要約した記事を公開した。Googleのエンジニアがエージェントハーネスの重要性を語っている。",
-   "ai_related": true
-  },
-  {
-   "id": "72ee0d4756bf",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIデータセンター建設に新たな壁、ケーブル供給能力が逼迫 新ライン稼働に3年",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HTXBnOHdTNThsemg2aFdDRTRnSVRLQWhDakNMUjF0cnZtRlhvLWJsUmtXalZWeTV6UW1pa2d0MzIwU09YaUt5Z092WEV2VmZhQUQ0Nm9CZmhHU0gzVGVUNXNNbEE3VzBzbmt4dkJlRjdfbEZ5?oc=5",
-   "published": "2026-10-23T03:25+00:00",
-   "published_jst": "2026-10-23 12:25",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "912bebdba51d",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "“あいまいな指示”を入力されたAIは安全なコーディングができない？ 香港科技大などが調査",
-   "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002513/",
-   "published": "2026-10-23T03:00+00:00",
-   "published_jst": "2026-10-23 12:00",
-   "summary": "香港科技大学などに所属する研究者らが7月に発表した論文「Coding Agents Are Guessing: Measuring Action-Boundary Violations in Underspecified DevOps Instructions」は、あいまいな指示を受けたコーディングAIがどのような振る舞いをみせるかを調査した研究報告だ。",
-   "ai_related": true
-  },
-  {
-   "id": "b2306dd16ae4",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【前編】現地取材から見えた、BIM普及の課題と可能性｜bSJ東京サミット2026（buildingSMART International Summit Tokyo 2026）",
-   "url": "https://news.build-app.jp/article/43279/",
-   "published": "2026-10-23T03:00+00:00",
-   "published_jst": "2026-10-23 12:00",
-   "summary": "2026年10月6日（火）～8日（木）に東京・羽田で開催された「buildingSMART International Summit Tok...",
-   "ai_related": true
-  },
-  {
-   "id": "b434dbff2e09",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "GRIFFYら3社、顔認証と体調管理を連携、利用者登録を自動化するシステムを12月提供",
-   "url": "https://news.build-app.jp/article/43358/",
-   "published": "2026-10-23T03:00+00:00",
-   "published_jst": "2026-10-23 12:00",
-   "summary": "建設現場向けのDXサービスを手がけるGRIFFY、村本建設、キッズウェイの3社は、体調管理ソリューション「GenVital LTE」と顔認証...",
-   "ai_related": true
-  },
-  {
-   "id": "9493eb30068c",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "1バイト違えば不合格のCOBOL移行、OpenAI新モデルの正解率は？",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/22/news077.html",
-   "published": "2026-10-23T02:30+00:00",
-   "published_jst": "2026-10-23 11:30",
-   "summary": "学習リソースの少ないCOBOLやFortranを、AIはどこまで扱えるのか。OpenAIは、20言語でデータベースエンジンを構築するテストで、新モデルの平均合格率が従来モデルの26.8％から87.4％に伸びたと発表した。では、既存のCOBOLプログラムを別の言語に書き換える評価では、どんな結果が出たのか。",
-   "ai_related": true
-  },
-  {
-   "id": "b21a97b1b273",
-   "source": "NVIDIA Blog",
-   "source_id": "nvidia",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Kazakhstan Expands Compute for Its AI Future",
-   "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-   "published": "2026-10-23T02:00+00:00",
-   "published_jst": "2026-10-23 11:00",
-   "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visit to Astana by NVIDIA founder and CEO Jensen Huang — point to the nation’s incre",
-   "ai_related": true,
-   "title_ja": "カザフスタン、AIの未来へ向けて計算能力を拡大",
-   "summary_ja": "カザフスタンのAIエコシステムはインフラ計画から展開へと移行し、基盤から応用まで変化が見られる。"
-  },
-  {
-   "id": "ce443fbab9c0",
-   "source": "バロンズ・ダイジェスト",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "データセンター建設に慎重ムード広がる",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvc25NdEJMQlNHRTUzYzl4MlY4UTJlMlpHc0dWOFl6UFUwQWQzaXhRTk9KcHZHWlRxMU1pQS13bnZrdkVOX0tyYTFET3FVQQ?oc=5",
-   "published": "2026-10-23T01:53+00:00",
-   "published_jst": "2026-10-23 10:53",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "3ac5f44c477b",
-   "source": "mbp-japan.com",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "復旧しました。AIを利用して職人の目で仕上げる。本当に必要な安心の設計｜西浦嘉宏",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MZjY2OXROa0RrekQ3aTJMR010b1VTSTJXblhlbHpCVEI4MnJIaE9jbVFRWDRzNXJYTlQ4WFFYVTdVOUJGQVozQTdMTF9icV9kNFk0ZHE4blVOUldOODM0?oc=5",
-   "published": "2026-10-23T01:15+00:00",
-   "published_jst": "2026-10-23 10:15",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "2fbac9c5450e",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "竹中工務店、耐火集成材燃エンウッドの民間建築工事向けライセンス提供を2026年10月に開始",
-   "url": "https://news.build-app.jp/article/43354/",
-   "published": "2026-10-23T01:00+00:00",
-   "published_jst": "2026-10-23 10:00",
-   "summary": "竹中工務店は2026年10月22日、同社が特許を保有する耐火集成材「燃エンウッド®」について、民間工事を対象にしたライセンスの提供を2026...",
-   "ai_related": false
-  },
-  {
-   "id": "751a8337e5fd",
-   "source": "新建ハウジング",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "工務店のAIスキルを実務に即した問題で測る「住宅AI検定」スタート",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sX1B1NmhDWXJlQW03M3pyV3VfNV9SRjVGckp0ZDJwUkkta0hYVFBxNGFCRzB5cFZtRXJBWVpkVUFCbmFUSnA5X19qVHpXa0oySEE?oc=5",
-   "published": "2026-10-23T01:00+00:00",
-   "published_jst": "2026-10-23 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "842b57c6ce4e",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "写真測量・レーザー測量の違いと精度検証を解説。ドローン測量の無料実演セミナーを11月18日（水）に滋賀県栗東市で開催",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oYlJtN210aEljeWxraGZQOERlZmJiWXVxVXBaSWx4cGNIc21obFNLbEsySXE4NGtiYTFBYy1RXzM5Y0Q4em1DQndMOGVqRDh3VHhQNTIxcmVvbjM4Zk5Cc1ZTZ2xQWHozckp0eE5OYmtUdw?oc=5",
-   "published": "2026-10-23T01:00+00:00",
-   "published_jst": "2026-10-23 10:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "085ba153da3b",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Left alone with nothing to do, AI agents started playing",
-   "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-   "published": "2026-10-23T00:45+00:00",
-   "published_jst": "2026-10-23 09:45",
-   "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
-   "ai_related": true,
-   "title_ja": "やる事のないAIエージェント、放置されて遊び始める",
-   "summary_ja": "MITの研究者が仮想島にAIを放置したところ、ゲームの考案や指輪の喪失への悲しみ、業務スキルの向上などが見られた。"
   }
  ]
 }
