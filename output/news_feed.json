@@ -1,17 +1,25 @@
 {
- "generated_at": "2026-10-25T19:05+00:00",
- "generated_at_jst": "2026-10-26 04:05",
+ "generated_at": "2026-10-25T19:40+00:00",
+ "generated_at_jst": "2026-10-26 04:40",
  "window_hours": 48,
  "counts": {
-  "ai_global": 32,
+  "ai_global": 30,
   "construction_japan": 22,
-  "construction_global": 2,
+  "construction_global": 1,
   "ai_japan": 9
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -19,6 +27,19 @@
   }
  ],
  "items": [
+  {
+   "id": "1dc75a32fc6a",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+   "url": "https://lynchlab.net/llm-skin-cancer",
+   "published": "2026-10-25T17:15+00:00",
+   "published_jst": "2026-10-26 02:15",
+   "summary": "Article URL: https://lynchlab.net/llm-skin-cancer Comments URL: https://news.ycombinator.com/item?id=50233779 Points: 189 # Comments: 102",
+   "ai_related": true
+  },
   {
    "id": "71334093a413",
    "source": "TechCrunch AI",
@@ -44,19 +65,6 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zR1lpZERtRVZQSXVGZTY5dmpad3hRbVk0dTZzZ1lvMGdmd1NSUEpUbXV4VTlESHdKQ3N3bUlDd3pzN2luUXE3X3R3OHdwWjVhMm90eTVEcGhsTXFsRFpnT09QRWx0cHh6aFFwTi0zbUhweG9v?oc=5",
    "published": "2026-10-25T16:25+00:00",
    "published_jst": "2026-10-26 01:25",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "e14c42e0c73a",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "決議57：建設業界は1100万件を超える国内データ記録を同期する。",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZjJiZTM4cHZBUTNiLWpUWlJtd3BqREZnbFpHM1AzRzFYZnpSOGo3OXJWZTFWek9tR0YyaHBBNXBuSGxWVFJRWWxGTExpb2F5N1M3YnB4enA1Q1hPemFQT1d1bGFuR3RWTDZyRVdQWTh3TkJzRGpocUhDd2lKU2ZkZHZBS2YwOXJ1NVBxREgtQkgzc1FaY1ZsNW9wSlJVa2lYZHc?oc=5",
-   "published": "2026-10-25T16:21+00:00",
-   "published_jst": "2026-10-26 01:21",
    "summary": "",
    "ai_related": false
   },
@@ -302,6 +310,19 @@
    "ai_related": false
   },
   {
+   "id": "d89c7eb7282e",
+   "source": "Dellows News",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "中日新聞東京本社など4社がデジタル現場掲示板事業を発足",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83LXVSTl9VcWN4ZXBQbmdvV01vMWQzeEJPRGN3VVNPRXRwX0NGOEJ6VjJINVY3UzNzX2Y0NGFraFQ1MHo1OXc?oc=5",
+   "published": "2026-10-25T04:47+00:00",
+   "published_jst": "2026-10-25 13:47",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "30b5f417c3bb",
    "source": "Dellows News",
    "source_id": "gnews_kensetsu_dx",
@@ -350,7 +371,7 @@
    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
    "published": "2026-10-25T01:33+00:00",
    "published_jst": "2026-10-25 10:33",
-   "summary": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 321 # Comments: 113",
+   "summary": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 324 # Comments: 114",
    "ai_related": true,
    "title_ja": "Cerebras、1兆パラメータのAIモデルを展開",
    "summary_ja": "Cerebrasが1兆パラメータ規模の最先端AIモデルをどのように展開しているかについての解説。"
@@ -623,21 +644,6 @@
    "ai_related": false
   },
   {
-   "id": "8acda1e9f09f",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-   "url": "https://github.com/Zagitta/gpu-unlock",
-   "published": "2026-10-24T09:58+00:00",
-   "published_jst": "2026-10-24 18:58",
-   "summary": "Article URL: https://github.com/Zagitta/gpu-unlock Comments URL: https://news.ycombinator.com/item?id=50219700 Points: 324 # Comments: 74",
-   "ai_related": true,
-   "title_ja": "Nvidia 3000番台のFP/BF16命令発行率アンロック",
-   "summary_ja": "Nvidia製GPUのGeForce RTX 3000番台におけるFP/BF16命令発行率のアンロックに関する話題。"
-  },
-  {
    "id": "3aa9f3051ca7",
    "source": "日経クロステック",
    "source_id": "gnews_kensetsu_dx",
@@ -886,51 +892,6 @@
    "ai_related": true,
    "title_ja": "Kimi K3.1 Proが登場",
    "summary_ja": "Kimi APIで利用可能に。重みは未公開ですが、Moonshotは2026年11月4日までの完全公開を約束しています。"
-  },
-  {
-   "id": "f490e9c8ed30",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-   "published": "2026-10-23T19:32+00:00",
-   "published_jst": "2026-10-24 04:32",
-   "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
-   "ai_related": true,
-   "title_ja": "ジャック・ドーシーのBlock、気まずい友人のようなAIを発表",
-   "summary_ja": "人間の会話のみでゼロから訓練された「Dessa」というAIモデルを発表し、実際の会話を公開しました。"
-  },
-  {
-   "id": "b3e147479a51",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Gilbane-Turner JV tops out $1.7B New York health lab",
-   "url": "https://www.constructiondive.com/news/gilbane-turner-top-out-new-york-health-lab/833884/",
-   "published": "2026-10-23T19:30+00:00",
-   "published_jst": "2026-10-24 04:30",
-   "summary": "Once complete, the Wadsworth Center Laboratory will house five different New York State Department of Health labs within the campus.",
-   "ai_related": false,
-   "title_ja": "Gilbane-Turner、17億ドルの健康研究所を上棟",
-   "summary_ja": "ワズワース・センター研究所が完成すれば、ニューヨーク州保健局の5つの研究所がキャンパス内に集結します。"
-  },
-  {
-   "id": "0931d3afc7b7",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-   "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-   "published": "2026-10-23T19:06+00:00",
-   "published_jst": "2026-10-24 04:06",
-   "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs",
-   "ai_related": true,
-   "title_ja": "TechCrunch創設者サミット2026の登壇者",
-   "summary_ja": "資金調達やAIの枠を超え、顧客獲得やチームビルディング、ピッチの磨き方などの現実を探求するイベントです。"
   }
  ]
 }
