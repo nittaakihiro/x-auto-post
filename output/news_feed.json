@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-10-25T10:10+00:00",
- "generated_at_jst": "2026-10-25 19:10",
+ "generated_at": "2026-10-25T11:23+00:00",
+ "generated_at_jst": "2026-10-25 20:23",
  "window_hours": 48,
  "counts": {
-  "ai_global": 34,
-  "ai_japan": 13,
-  "construction_japan": 18,
-  "construction_global": 12
+  "ai_global": 31,
+  "ai_japan": 12,
+  "construction_japan": 17,
+  "construction_global": 7
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "hn_top",
+   "error": "URLError: <urlopen error timed out>"
   },
   {
    "feed": "constructionexec",
@@ -30,7 +34,9 @@
    "published": "2026-10-25T10:08+00:00",
    "published_jst": "2026-10-25 19:08",
    "summary": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls s",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Nvidia、ロボット動画のタグ付け費用を大幅削減するFloraをオープンソース化",
+   "summary_ja": "Nvidiaの新エンジン「Flora」は、ロボット動画1時間のタグ付けコストを72セントに削減し、品質も向上させた。Qwen3.5ベースのオープンシステム。"
   },
   {
    "id": "7241bd68f025",
@@ -43,7 +49,9 @@
    "published": "2026-10-25T09:37+00:00",
    "published_jst": "2026-10-25 18:37",
    "summary": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropicの共同創業者、自己改善型AIの登場時期を2027年に前倒し",
+   "summary_ja": "AIの実験設計・評価能力を測る新ベンチマークの結果を受け、Anthropicのジャック・クラーク氏は、自己改善型AIが2027年にも到来すると予測を修正した。"
   },
   {
    "id": "8e9b69b49b26",
@@ -56,7 +64,9 @@
    "published": "2026-10-25T09:12+00:00",
    "published_jst": "2026-10-25 18:12",
    "summary": "Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub to help teams make the transition. The ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropic：複雑性処理の向上により、単一AIエージェントが複数サブエージェントを凌駕",
+   "summary_ja": "Anthropicは、企業に対しサブエージェントの単一エージェントへの統合を推奨する。検証では単一エージェントの方が約2倍高速に動作したという。"
   },
   {
    "id": "08a683b434de",
@@ -82,7 +92,9 @@
    "published": "2026-10-25T08:09+00:00",
    "published_jst": "2026-10-25 17:09",
    "summary": "In Foreign Affairs, historian Niall Ferguson, researcher Lisa Klaassen, and former Google CEO Eric Schmidt cast the US and China as AI empires and every other country as a dependency. The race won't be decided by breakthroughs but by who can bankroll it. US corporations alone plan to spend more than",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "元Google CEOのエリック・シュミット氏、OpenAIとAnthropicを「現代の植民地貿易会社」と批判",
+   "summary_ja": "米誌でエリック・シュミット氏らは、米中をAI帝国、他国を従属国と位置づけ、AI競争の勝敗はブレイクスルーではなく産業支配力で決まると指摘した。"
   },
   {
    "id": "c3917e71d16f",
@@ -95,7 +107,9 @@
    "published": "2026-10-25T07:30+00:00",
    "published_jst": "2026-10-25 16:30",
    "summary": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAI、Anthropicの主要顧客を引き抜くため最大90%の割引を提示",
+   "summary_ja": "OpenAIの大幅値引きにより、主要顧客がコストを最大90%削減して乗り換えている。Anthropicの成長が鈍化する中、積極的な顧客獲得を進めている。"
   },
   {
    "id": "32d6e56da960",
@@ -108,7 +122,9 @@
    "published": "2026-10-25T06:55+00:00",
    "published_jst": "2026-10-25 15:55",
    "summary": "Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their mo",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenMobile-2、オープンソースのスマホエージェントが独自モデルに対抗できると証明",
+   "summary_ja": "スマホエージェントはデータ量ではなく多様なアプリでの訓練で向上する。OpenMobile-2の開発陣は110以上のアプリを網羅する環境を構築した。"
   },
   {
    "id": "9b85fc23e7ec",
@@ -124,6 +140,19 @@
    "ai_related": false
   },
   {
+   "id": "d89c7eb7282e",
+   "source": "Dellows News",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "中日新聞東京本社など4社がデジタル現場掲示板事業を発足",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83LXVSTl9VcWN4ZXBQbmdvV01vMWQzeEJPRGN3VVNPRXRwX0NGOEJ6VjJINVY3UzNzX2Y0NGFraFQ1MHo1OXc?oc=5",
+   "published": "2026-10-25T04:47+00:00",
+   "published_jst": "2026-10-25 13:47",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "f49d9a5b0586",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -134,19 +163,6 @@
    "published": "2026-10-25T03:00+00:00",
    "published_jst": "2026-10-25 12:00",
    "summary": "キャラクターの3DモデルをPCの画面上に表示できる「Desktop Mate」から、1st PLACEのバーチャルアーティスト「IA」のDLCが2026年10月15日に登場しました。華やかで神秘的な雰囲気でPC画面を彩ってくれるとのことなので、実際にダウンロードして使用してみました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "2325af3360e0",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Cerebras Deploys Trillion-Parameter AI Models",
-   "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-   "published": "2026-10-25T01:33+00:00",
-   "published_jst": "2026-10-25 10:33",
-   "summary": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 167 # Comments: 57",
    "ai_related": true
   },
   {
@@ -174,21 +190,6 @@
    "published_jst": "2026-10-25 10:00",
    "summary": "「SANDISK Optimus GX PRO 8100 NVMe SSD」はシーケンシャル読み込み最大1万4900MB/s、シーケンシャル書き込み最大1万4000MB/sという高速転送が可能なPCIe 5.0対応M.2 SSDです。2TBのヒートシンク非搭載モデルとヒートシンク搭載モデルを借りることができたので、実際にベンチマークテストを実行してみました。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "8f5707e9a13c",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-   "published": "2026-10-24T23:11+00:00",
-   "published_jst": "2026-10-25 08:11",
-   "summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 368 # Comments: 366",
-   "ai_related": true,
-   "title_ja": "米クリエイティブ産業で20万人の雇用減、AIの影響は？",
-   "summary_ja": "メディア、映画、芸術分野で大量の雇用が失われており、AIの台頭がその要因として議論されている。"
   },
   {
    "id": "0509c80e85fb",
@@ -430,34 +431,6 @@
    "published_jst": "2026-10-24 19:03",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "8acda1e9f09f",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
-   "url": "https://github.com/Zagitta/gpu-unlock",
-   "published": "2026-10-24T09:58+00:00",
-   "published_jst": "2026-10-24 18:58",
-   "summary": "Article URL: https://github.com/Zagitta/gpu-unlock Comments URL: https://news.ycombinator.com/item?id=50219700 Points: 248 # Comments: 71",
-   "ai_related": true,
-   "title_ja": "Nvidia 3000シリーズのFP/BF16命令発行レートを解除するツール",
-   "summary_ja": "Nvidia製GPUのパフォーマンス制限を解除し、FP/BF16の命令発行レートを最適化するためのGitHubリポジトリ。"
-  },
-  {
-   "id": "c163607772c4",
-   "source": "山陽新聞",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ドローン測量・インフラ点検・建設DX向け産業用ドローン無料セミナーを9月25日（金）徳島で開催。DJI Matrice 400・Matrice 4シリーズ・Dock 3を実演紹介。：山陽新聞デジタル｜さんデジ",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01ZlVIR2ZrMkdYNjlWSjd5NDJYSXhrWnNqdUxzSl9rdndSdjktaVhNWUtTcHlrc3ZSQ0F3WFRNT0I0bHVkaEphcjd2Ry1HSUdMMzNySV9JQ3BLYkhyRHFpQms2Szl2VDg?oc=5",
-   "published": "2026-10-24T07:37+00:00",
-   "published_jst": "2026-10-24 16:37",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "3aa9f3051ca7",
@@ -978,7 +951,9 @@
    "published": "2026-10-23T11:45+00:00",
    "published_jst": "2026-10-23 20:45",
    "summary": "Southend-on-Sea City Council has moved to settle a late payment claim with a contractor after the firm launched an adjudication process against it. The council said it would pay almost £590,000 to Auburn Group over work done at the city’s Cliffs Pavilion performing arts centre,… The post Council set",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "英サウスエンド市議会、請負業者との約59万ポンドの支払い紛争を解決へ",
+   "summary_ja": "サウスエンド・オン・シー市議会は、オーバーン・グループによる調停手続きの申し立てを受け、未払い金請求をめぐる紛争の解決に向けて動いている。"
   },
   {
    "id": "ed8054d26f7a",
@@ -991,98 +966,9 @@
    "published": "2026-10-23T11:45+00:00",
    "published_jst": "2026-10-23 20:45",
    "summary": "The construction industry must match the Building Engineering Services Association’s (BESA’s) competence and compliance standards rather than expect it to lower them, its chief executive has said. Addressing BESA’s annual conference in London on 22 October, David Frise (pictured) expressed frustrati",
-   "ai_related": false
-  },
-  {
-   "id": "7d5834c04eea",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolding firm fined £20,000 after worker killed by falling board",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-firm-fined-20000-after-worker-killed-by-falling-board-2-23-10-2026/",
-   "published": "2026-10-23T11:11+00:00",
-   "published_jst": "2026-10-23 20:11",
-   "summary": "A scaffolding company has been fined £20,000 after an employee was fatally injured by a metal board that fell approximately 8 metres during dismantling work in Belfast. Samuel Magill, 60, was struck on the head at a construction site on Lisburn Road on 18 December… The post Scaffolding firm fined £2",
-   "ai_related": false
-  },
-  {
-   "id": "f25c70a6724e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wills Bros lined up for £220m A9 dualling scheme",
-   "url": "https://www.constructionnews.co.uk/civils/wills-bros-lined-up-for-220m-a9-dualling-scheme-23-10-2026/",
-   "published": "2026-10-23T11:04+00:00",
-   "published_jst": "2026-10-23 20:04",
-   "summary": "Wills Bros Civil Engineering has been selected ahead of two rival bidders to deliver a £220m A9 dualling scheme between Pitlochry and Killiecrankie in Scotland. The Scottish Government announced its intention to award the construction contract, subject to the completion of a mandatory standstill per",
-   "ai_related": false
-  },
-  {
-   "id": "480ca04dc68a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five SCS workers removed from HS2 job after air rifle incident",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/five-scs-workers-removed-from-hs2-job-after-air-rifle-incident-23-10-2026/",
-   "published": "2026-10-23T11:01+00:00",
-   "published_jst": "2026-10-23 20:01",
-   "summary": "Five workers have been removed from the HS2 rail project after an air rifle was brought onto a site and fired by night-shift workers. The incident took place at a West Ruislip site run by the Skanska, Costain and Strabag (SCS) joint venture. SCS is… The post Five SCS workers removed from HS2 job aft",
-   "ai_related": false
-  },
-  {
-   "id": "fb04bf52374f",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIにNintendo Switch 2を操作させて脱獄に成功、Codexが脆弱性を発見してゲームの改造まで実現",
-   "url": "https://gigazine.net/news/20261023-nintendo-switch-2-jailbreak/",
-   "published": "2026-10-23T11:00+00:00",
-   "published_jst": "2026-10-23 20:00",
-   "summary": "Nintendo Switch 2のセキュリティを突破し、非公式プログラムを実行できるようにする手法「ns2jb」が公開されました。開発にはOpenAIのコーディングAI「OpenAI Codex」が活用され、AIが実際のゲーム機を遠隔操作しながら脆弱(ぜいじゃく)性を調査するという手法が採用されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "33b345947dd2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "United Utilities seeks partner for potential £600m Windermere wastewater role",
-   "url": "https://www.constructionnews.co.uk/civils/united-utilities-seeks-partner-for-potential-600m-windermere-wastewater-role-23-10-2026/",
-   "published": "2026-10-23T10:24+00:00",
-   "published_jst": "2026-10-23 19:24",
-   "summary": "United Utilities has launched market engagement for a design and integration role potentially worth up to £600m on its proposed Windermere wastewater overhaul. The initial four-year phase was valued at £60m-£100m, with optional construction-phase roles worth £100m for system integration or £500m inc",
-   "ai_related": false
-  },
-  {
-   "id": "cebf0022a6ce",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIデータ社が提案する工程最適化AI「AI孔明 on IDX」で建設業の課題解決へ向けた新たな挑戦",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WTXo3UzRJb09SQzhMMERlLVhjcmhZYVBWZmRjZkd5aEhqQlRIX2FMbmJOUDZuT0ZjTlg5QmhlUll1X09CWTRLUnR6QjZxcmhaSDBJbnJxSDhNVGpPZTNIRk9mRlVwOXQxNWtCSzRFTQ?oc=5",
-   "published": "2026-10-23T10:15+00:00",
-   "published_jst": "2026-10-23 19:15",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "d259f0aa4021",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kane pays £6.2m dividend as profits jump 45%",
-   "url": "https://www.constructionnews.co.uk/civils/kane-pays-6-2m-dividend-as-profits-jump-45-23-10-2026/",
-   "published": "2026-10-23T10:10+00:00",
-   "published_jst": "2026-10-23 19:10",
-   "summary": "M&E contractor Kane Group Building Services has paid a £6.2m dividend after increasing its pre-tax profit by almost 45 per cent to £6.4m. The Northern Irish company reported turnover of £100.9m for the year to 31 March 2026, up 15 per cent from £87.6m. Its… The post Kane pays £6.2m dividend as profi",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "BESA最高経営責任者、建設業界に能力基準の引き上げを要請",
+   "summary_ja": "BESAのトップは、建設業界に対して基準の引き下げを求めるのではなく、同協会の能力およびコンプライアンス基準に合わせるべきだと強調した。"
   }
  ]
 }
