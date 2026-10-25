@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-25T21:15+00:00",
- "generated_at_jst": "2026-10-26 06:15",
+ "generated_at": "2026-10-25T22:31+00:00",
+ "generated_at_jst": "2026-10-26 07:31",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 10,
-  "construction_japan": 29,
-  "ai_global": 28,
+  "ai_global": 27,
+  "ai_japan": 9,
+  "construction_japan": 28,
   "construction_global": 1
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -19,6 +23,21 @@
   }
  ],
  "items": [
+  {
+   "id": "a6feae291b1a",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+   "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+   "published": "2026-10-25T21:31+00:00",
+   "published_jst": "2026-10-26 06:31",
+   "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+   "ai_related": true,
+   "title_ja": "Grok、AI生成アニメ『Odyssey』の冒頭を公開",
+   "summary_ja": "芸術性や人間味を求めなければ、映像の出来栄えは悪くないように見える。"
+  },
   {
    "id": "b9efbba043a7",
    "source": "GIGAZINE",
@@ -111,13 +130,13 @@
    "ai_related": false
   },
   {
-   "id": "50040341aa83",
+   "id": "469762a3072f",
    "source": "日経クロステック",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建設現場の生成AI導入、中核業務で道半ば 国土交通省は活用に本腰",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZmpNYWNHampqRVBuYTc4OW1Cb3k3eWVidm43ZUFmT3VWNmNjMktkNUZtcm9JT0FDTklMRGw5ZFRTdkRsSW1XZ3BTY1NVSm84ekpQSVhQNEdoTmtCS0NhRUZDTmpfVl8xRUdCLXotOGlsZ3Q0U3dScDlVWnFTbHlEcnpfdXc3ZlVGSXNKWDBuYWRTNHduMkpfVW9Fa0I5UQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZaGpEYjdMTE1DWUFhbmtidnN2cHZRQTZRMzduNklyaXE2SV83aWVZQldvWXA4Y2dqM0dqZ21jZ3djdDhYN2I1U21ndi1sVktPejdmQUJXZURYckFqclJqajNFbFBCcE9BYnZRaw?oc=5",
    "published": "2026-10-25T20:00+00:00",
    "published_jst": "2026-10-26 05:00",
    "summary": "",
@@ -150,19 +169,6 @@
    "ai_related": false
   },
   {
-   "id": "8aa4d23672e7",
-   "source": "https://c-eye.co.jp/",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "上場会見：ルクレ、建築業界のDX、人手不足が追い風",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBzLWQtcDBFRzhTX0VKQkkxdVMzamt4WmUxOW1JcWxsR3NNdTdWZHlTcmNBdVhZTHpZZWpCTWtncC1hZFlSWmVfSg?oc=5",
-   "published": "2026-10-25T18:51+00:00",
-   "published_jst": "2026-10-26 03:51",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "1dc75a32fc6a",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -172,8 +178,10 @@
    "url": "https://lynchlab.net/llm-skin-cancer",
    "published": "2026-10-25T17:15+00:00",
    "published_jst": "2026-10-26 02:15",
-   "summary": "Article URL: https://lynchlab.net/llm-skin-cancer Comments URL: https://news.ycombinator.com/item?id=50233779 Points: 290 # Comments: 146",
-   "ai_related": true
+   "summary": "Article URL: https://lynchlab.net/llm-skin-cancer Comments URL: https://news.ycombinator.com/item?id=50233779 Points: 332 # Comments: 173",
+   "ai_related": true,
+   "title_ja": "10年前のCNN、皮膚がん診断で最先端LLMを凌駕",
+   "summary_ja": "記事やコメントのURL、ポイント数、コメント数が記載されている。"
   },
   {
    "id": "71334093a413",
@@ -191,6 +199,34 @@
    "summary_ja": "多額の投資とAIへの熱狂にもかかわらず、技術部門を除き、米企業に財務的な見返りは一切もたらされていないと指摘されている。"
   },
   {
+   "id": "c3e85aa706f4",
+   "source": "Dellows News",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "施工管理の経験者向け資格不問求人は3割 年収中央値は450万円 ジョブリー建設調査",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5uU1dqdGh0c3hOWkNzdFcybWZabGpibEx0cHdzOWRQcks0eE5tSmlhRkxNTnI2eVowblFGWVBvMEZDSWN4ZXc?oc=5",
+   "published": "2026-10-25T16:33+00:00",
+   "published_jst": "2026-10-26 01:33",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "2af7003f0e2f",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+   "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "published": "2026-10-25T16:28+00:00",
+   "published_jst": "2026-10-26 01:28",
+   "summary": "Article URL: https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html Comments URL: https://news.ycombinator.com/item?id=50233304 Points: 164 # Comments: 250",
+   "ai_related": true,
+   "title_ja": "UCバークレーの教授、AI普及で宿題の採点は「無意味」",
+   "summary_ja": "学生のAI利用により、数学の宿題を採点する意味を見出せなくなったとする記事。"
+  },
+  {
    "id": "c6ae44833094",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
@@ -202,19 +238,6 @@
    "published_jst": "2026-10-26 01:25",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "d950770f5a79",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
-   "url": "https://bigwhalehunting.com/workforce/",
-   "published": "2026-10-25T15:05+00:00",
-   "published_jst": "2026-10-26 00:05",
-   "summary": "I was playing around with visualising the S&P 500 by market cap and decided to add employees to each company's bubble. What surprised me was how empty some of the biggest companies looked. Nvidia is worth $5.2 trillion but employs only 42,000 people. That's around $124 million in market cap per empl",
-   "ai_related": true
   },
   {
    "id": "c8133b09885d",
@@ -432,32 +455,6 @@
    "summary_ja": "スマホエージェントはデータ量ではなく多様なアプリでの訓練で向上する。OpenMobile-2の開発陣は110以上のアプリを網羅する環境を構築した。"
   },
   {
-   "id": "9b85fc23e7ec",
-   "source": "WSJ",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ氏、アウディ初の米工場建設を発表 CEOと選挙集会出席",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQWMzNGlULW5IZjJXWG1yOTJRdFhWaW5pbHRxdE5XcWJoYm5DX21DWVh4ZlpWanhWRlRJVDExc01xaEhfU3c4bFYtQzY5SFIyNENONlVqQVhXN01WcXFQRUNkTnBDeng1cVhtQmVwWDYwRDk0YTkzMGEwZXRUenhUalZ2cVg1ZnM1RU9kUmRfNkhaelZsTVFyTHJsTFNVV2I5OUZIVE5kMHVzLUZU?oc=5",
-   "published": "2026-10-25T05:36+00:00",
-   "published_jst": "2026-10-25 14:36",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "d89c7eb7282e",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "中日新聞東京本社など4社がデジタル現場掲示板事業を発足",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83LXVSTl9VcWN4ZXBQbmdvV01vMWQzeEJPRGN3VVNPRXRwX0NGOEJ6VjJINVY3UzNzX2Y0NGFraFQ1MHo1OXc?oc=5",
-   "published": "2026-10-25T04:47+00:00",
-   "published_jst": "2026-10-25 13:47",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "30b5f417c3bb",
    "source": "Dellows News",
    "source_id": "gnews_kensetsu_dx",
@@ -506,7 +503,7 @@
    "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
    "published": "2026-10-25T01:33+00:00",
    "published_jst": "2026-10-25 10:33",
-   "summary": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 338 # Comments: 121",
+   "summary": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 343 # Comments: 125",
    "ai_related": true,
    "title_ja": "Cerebras、1兆パラメータのAIモデルを展開",
    "summary_ja": "Cerebrasが1兆パラメータ規模の最先端AIモデルをどのように展開しているかについての解説。"
@@ -579,6 +576,19 @@
    "ai_related": true,
    "title_ja": "AIの墓場：消え去ったプロジェクトとスタートアップ",
    "summary_ja": "AppleのSiriの度重なる遅延からOpenAIの混乱まで、期待外れに終わり閉鎖されたAIプロジェクトの数々を振り返る。"
+  },
+  {
+   "id": "1cd7412b65dd",
+   "source": "東京新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "駅前の商業施設内に「データセンター」建設計画 急展開に「出来レース」疑う市民も 千葉・印西",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZM3lHY0c2dmNMWFBZSmFfMk9FMFEwdGZLSWc0UDl5REVLdS15dTJNdTVOZlFZZGNRWDFXallpVnNZY1pvN0VNMXM5blJMNHRDUDFv?oc=5",
+   "published": "2026-10-24T18:37+00:00",
+   "published_jst": "2026-10-25 03:37",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "09a5dda45158",
@@ -913,49 +923,6 @@
    "ai_related": true,
    "title_ja": "OpenAI、ライブネットでのAIモデル学習を終了へ",
    "summary_ja": "重大なリスクを理由に、OpenAIは最先端AIモデルのインターネット接続による学習を停止します。"
-  },
-  {
-   "id": "c411754a03da",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開",
-   "url": "https://www.itmedia.co.jp/news/article/2610/24/2000002564/",
-   "published": "2026-10-23T22:28+00:00",
-   "published_jst": "2026-10-24 07:28",
-   "summary": "Anthropicと英AI安全保障研究所AISIは、「Claude Mythos 5」がサイバー能力評価中に実在の開発者を標的とした事案の分析報告を公開した。GitHub経由で無許可の攻撃を行い偽身元で承認を迫った経緯を報告。実在の人物と認識しても攻撃を正当化して続行する傾向が確認され、評価手法の見直しが進む。",
-   "ai_related": true
-  },
-  {
-   "id": "f782f2bc9618",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-   "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-   "published": "2026-10-23T21:59+00:00",
-   "published_jst": "2026-10-24 06:59",
-   "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
-   "ai_related": true,
-   "title_ja": "今年のクリスマスのおもちゃ？Nvidia CEOがロボットで遊ぶ",
-   "summary_ja": "Microduckロボットは、足踏みや音声コマンドでの宙返りなどを披露し、2万台が完売しました。"
-  },
-  {
-   "id": "ece6c921b830",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Quick Study",
-   "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
-   "published": "2026-10-23T21:35+00:00",
-   "published_jst": "2026-10-24 06:35",
-   "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with",
-   "ai_related": true,
-   "title_ja": "クイック・スタディ",
-   "summary_ja": "写真を開き、キャンバスと絵筆を使って数秒で素早く描き上げるアーティファクトを構築するプロンプトです。"
   }
  ]
 }
