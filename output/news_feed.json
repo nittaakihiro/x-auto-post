@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-25T05:22+00:00",
- "generated_at_jst": "2026-10-25 14:22",
+ "generated_at": "2026-10-25T06:10+00:00",
+ "generated_at_jst": "2026-10-25 15:10",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 18,
-  "construction_japan": 19,
+  "ai_japan": 16,
+  "construction_japan": 18,
   "ai_global": 34,
-  "construction_global": 18
+  "construction_global": 17
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -68,7 +72,7 @@
    "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
    "published": "2026-10-24T23:11+00:00",
    "published_jst": "2026-10-25 08:11",
-   "summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 260 # Comments: 267",
+   "summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 286 # Comments: 291",
    "ai_related": true,
    "title_ja": "米クリエイティブ産業で20万人の雇用減、AIの影響は？",
    "summary_ja": "メディア、映画、芸術分野で大量の雇用が失われており、AIの台頭がその要因として議論されている。"
@@ -173,6 +177,19 @@
    "ai_related": true,
    "title_ja": "解雇されたOpenAI研究者、情報漏洩の否定を主張",
    "summary_ja": "OpenAIを解雇された3人の安全研究者が、会社側からの情報漏洩の告発に反論。機密情報の共有を強く否定している。"
+  },
+  {
+   "id": "a8b34ba5fd72",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "エヌビディアが対オープンAI財務保証を半減、自社リスク抑制へシフト 試されるAIインフラ金融の持続性",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOblFwMzNsUWVBXzBXQTh6dS1LLTJPUGpnUnZwWTg3eGV2eFhFNDl3cjl2YUVyUVNqV3ZyMWJMYVFCSDhfTVRucDFEMDFyRFdFaGhjX0FjTXU3RGwwT3RKaGJTREJYMEtFYjBWdjMtUTBRa2N6SmZ3bmtwTVoybGZ0YWtrU1lIWkhK?oc=5",
+   "published": "2026-10-24T15:05+00:00",
+   "published_jst": "2026-10-25 00:05",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "110fd09f65f2",
@@ -311,7 +328,7 @@
    "url": "https://github.com/Zagitta/gpu-unlock",
    "published": "2026-10-24T09:58+00:00",
    "published_jst": "2026-10-24 18:58",
-   "summary": "Article URL: https://github.com/Zagitta/gpu-unlock Comments URL: https://news.ycombinator.com/item?id=50219700 Points: 210 # Comments: 67",
+   "summary": "Article URL: https://github.com/Zagitta/gpu-unlock Comments URL: https://news.ycombinator.com/item?id=50219700 Points: 215 # Comments: 68",
    "ai_related": true,
    "title_ja": "Nvidia 3000シリーズのFP/BF16命令発行レートを解除するツール",
    "summary_ja": "Nvidia製GPUのパフォーマンス制限を解除し、FP/BF16の命令発行レートを最適化するためのGitHubリポジトリ。"
@@ -1129,19 +1146,6 @@
    "summary_ja": "イースト・ヘメルの4,000戸規模の拡張計画を見据え、75戸のテストベッド建設を通じて方向性を固める。"
   },
   {
-   "id": "e23faac14f8c",
-   "source": "シブヤ経済新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIデータ社、生成AIの次は“工程最適化AI”- AI孔明 on IDXが再設計する建設業の未来 〜建設の“収益構造課題”を解決する“工程最適化AIモデルをリリース",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKdGVLQU5KOGJCcTFjaHZndW53UWd2SVR5UU0wZko1ZVpRVjdKRlR6MmRPdlphSkhxa0FpRV9fSG5hZEJXWFo3Rm9zSjJPaGt0SEUtSGRVWnBTaVNrazNB?oc=5",
-   "published": "2026-10-23T07:00+00:00",
-   "published_jst": "2026-10-23 16:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "6143c2f6233d",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1211,60 +1215,6 @@
    "published_jst": "2026-10-23 15:13",
    "summary": "AIコーディングエージェントとは、指示を受けて計画からコード編集、テスト、PR作成まで自律的に進める開発AIです。本記事では、2026年10月時点の主要10ツールを5つの軸で比較し、目的別の選び方と始め方を解説します。 ... The post AIコーディングエージェントとは？主要10ツール比較と無料で始める選び方 first appeared on AI専門ニュースメディア AINOW .",
    "ai_related": true
-  },
-  {
-   "id": "733fba200c7e",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "£600m design race looms for £3.7bn Windermere clean-up",
-   "url": "https://www.constructionenquirer.com/2026/10/23/600m-design-race-looms-for-3-7bn-windermere-clean-up/",
-   "published": "2026-10-23T06:04+00:00",
-   "published_jst": "2026-10-23 15:04",
-   "summary": "Vast programme includes tunnelling, new sewers and advanced treatment works",
-   "ai_related": false,
-   "title_ja": "ウィンダミア浄化計画で6億ポンドのデザイン競争へ",
-   "summary_ja": "トンネル工事や新設下水道、高度処理施設を含む大規模なプログラムの入札競争が迫っている。"
-  },
-  {
-   "id": "2cada2cebbbc",
-   "source": "AINOW",
-   "source_id": "ainow",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIエージェントの仕組みとは？4つの構成要素と動く流れをわかりやすく解説",
-   "url": "https://ainow.ai/2026/10/23/278455/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e4%25bb%2595%25e7%25b5%2584%25e3%2581%25bf%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f4%25e3%2581%25a4%25e3%2581%25ae%25e6%25a7%258b%25e6%2588%2590%25e8%25a6%2581%25e7%25b4%25a0%25e3%2581%25a8%25e5%258b%2595",
-   "published": "2026-10-23T05:45+00:00",
-   "published_jst": "2026-10-23 14:45",
-   "summary": "「AIエージェントは自律的に動く」と聞いても、内部で何が起きているのかを説明できず困っていないでしょうか。 AIエージェントの仕組みは、LLMが頭脳となり、ツールとメモリを使って「考える・行動する・確かめる」を繰り返す構... The post AIエージェントの仕組みとは？4つの構成要素と動く流れをわかりやすく解説 first appeared on AI専門ニュースメディア AINOW .",
-   "ai_related": true
-  },
-  {
-   "id": "9ac16bf881fb",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "多くのAIが「人間はひとりで正しくあるより、みんなで間違っている方を選ぶ」という考えを持っている",
-   "url": "https://gigazine.net/news/20261023-every-ai-model-controversial-humans/",
-   "published": "2026-10-23T05:34+00:00",
-   "published_jst": "2026-10-23 14:34",
-   "summary": "AIモデルのコストおよび性能を比較できるウェブサービスのModelCompareが、すべてのAIは「人間はひとりで正しくあるより、みんなで間違っている方を選ぶ」という考えを持っていると指摘しています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "ceff1d51a40c",
-   "source": "Oxford Economics",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "財政再建、フランス長期金利、中国住宅市場",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaTIzR0djc0NzY1NEWlljTUx2Ym1ENDQ4SUlrWHdPb0pHQjh6SGZ3TTJEdFYtWFMtczVTVUtacldCZE5GUkNYX3owYWt1T0hqTGY2MFRIcDM0UHFJZGVLTzd3UkpCYU5qR2g1S3lUYXRmYzRfYnBpMnF4LVpRalU3aU9yMThLQVBZazJ2NzdPQQ?oc=5",
-   "published": "2026-10-23T05:34+00:00",
-   "published_jst": "2026-10-23 14:34",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
