@@ -1,39 +1,11 @@
 {
   "version": 6,
-  "slot": "morning",
+  "slot": "noon",
   "date": "2026-10-26",
   "post_date": "2026-10-26",
-  "generated_at": "2026-10-26T06:30:00+09:00",
-  "generated_by": "routine:x-post-morning",
-  "original_post": {
-    "time": "07:25",
-    "text": "Tencentが、テキストと操作で生成中の世界を動かせる世界モデル「Hy-Nomas」をオープンソース公開。\n\nGoogleのGenie 3級のモデルが手元のGPUで動くのは、普通にすごい。\n\n引用元は英語なので補足すると、Tencent Hunyuanチームがテキストでシーンを指示し、キー操作でカメラを動かすと、生成中の3D空間をその場で歩き回れる、という動画です。\n\n・解像度704×1280で24fpsのリアルタイム生成\n・テキスト指示とカメラ操作を交互に入力して場面展開\n・重み・推論コード・LoRA学習コード・ブラウザデモまで一式公開\n・ライセンスはApache 2.0\n\n言葉で指示した空間をその場で歩き回れるなら、施主への完成イメージ説明や新人の現場疑似体験に使えそう。\n\n↓詳細",
-    "status": "draft",
-    "article_url": "https://x.com/masahirochaen/status/2114130393473622280",
-    "video_url": "https://x.com/masahirochaen/status/2114130393473622280/video/1",
-    "reply_text": "■ 補足\n・技術レポートは近日公開予定で、パラメータ数やベンチマークはまだ未公開\n・推論例は704×1280解像度・24fpsのもの\n・動画は日本語テロップを付けた版（オリジナルは英語）\n\n■ 出典\nhttps://x.com/masahirochaen/status/2114130393473622280\nhttps://github.com/Tencent-Hunyuan/Hy-Nomas",
-    "editorial": {
-      "pillar": "一般AI速報",
-      "format": "速報型",
-      "scores": {
-        "surprise": 2,
-        "visual": 2,
-        "freshness": 2,
-        "ai_magnitude": 2,
-        "credibility": 2
-      },
-      "selection_reason": "ai_buzz.jsonのチャエン（@masahirochaen）投稿（2026-10-25 08:02・24h以内）からTencent Hunyuanの世界モデル「Hy-Nomas」オープンソース公開を採用。公式GitHubリポジトリ（Tencent-Hunyuan/Hy-Nomas）を出典として明示し、重み・推論コード・LoRA学習コード・ブラウザデモを一式公開、ライセンスはApache 2.0と、一次情報（公式リポジトリ）で裏付けが取れる具体的な公開内容を確認した。テキスト指示とカメラ操作でリアルタイムに生成世界を歩き回れるデモ動画があり、GoogleのGenie 3級の技術を手元のGPUで動かせる点で『誰もが驚く規模の発表』の基準を満たす。他候補（Unitree H2-Xは2026-10-22夜枠で採用済みのため重複、Kimi K3.1 Proはベンチマークのみで動画実演なし、GPT-5.5リリースは出典が風刺的な実績紹介アカウント@6monthsAgoInAIのみで一次情報確認不能、PhoneBot・自律型タイル施工ロボットは建設との接続か鮮度・裏取りで不採用）はいずれも足切りに該当し不採用とした。建設との接続は、テキスト指示で歩き回れる空間を作れる点を施主への完成イメージ説明・新人の現場疑似体験に1〜2行で言及した。",
-      "source_url": "https://x.com/masahirochaen/status/2114130393473622280",
-      "published_at": "2026-10-25T08:02:00+09:00",
-      "checked_at": "2026-10-26T06:30:00+09:00",
-      "availability": "GitHubリポジトリで重み・推論コード・ブラウザデモが無償公開済み（Apache 2.0）。技術レポートは近日公開でパラメータ数・ベンチマークは未公開",
-      "unverified": [
-        "パラメータ数・ベンチマークスコアは技術レポート公開前のため原文に記載がなく本文に含めていない",
-        "チャエン投稿の動画が日本語テロップを付けた編集版であることは本人が明記しているが、オリジナル動画（英語版）の配信元アカウントは本文中に明記されておらず直接確認はできていない"
-      ],
-      "hook_alternative": "GoogleのGenie 3級のモデルが手元のGPUで動くのは、普通にすごい。"
-    }
-  },
+  "generated_at": "2026-10-26T11:08:00+09:00",
+  "generated_by": "routine:x-post-noon",
+  "original_post": null,
   "engage_cards": [],
-  "skip_reason": null
+  "skip_reason": "動く素材つきの建設AI候補が国内・海外とも直近48h以内に無く休載。国内: (1)オリエンタル白石×燈（2026-10-06発表・吊り足場での四足歩行ロボット自律歩行実証、2026-09-08実施）は本人指示『競合紹介の除外』の光/Hikari（燈）に該当するため候補から除外。(2)ai_buzz.json記載のTII/Caltech『可変形ドローンを背負い背中から飛行させる人型ロボット』（2026-10-26 01:00投稿・24h以内）は緊急事態現場への到達手段の研究デモで、溶接・鉄筋・内装・巡回・資材運搬・掘削など実際の現場作業をしている映像ではなく建設との距離が弱いため不採用。(3)清水建設×Noble Machinesのヒューマノイド共同開発は2026-10-16発表で48h超過、かつ実機の現場検証は2027年春予定で現時点の動画なし。(4)鹿島の山岳トンネル自動化・大林組/熊谷組の無人化施工は2022〜2024年発表のみで新しい動画が見つからず。海外: (1)ai_buzz.json記載の@sciencegirl投稿『Autonomous robot laying tiles perfectly』（32万表示）は2026-10-23 06:04投稿で48h超過かつ投稿内に提供元企業名の記載がなく一次ソース確認不能（本日朝枠でも同候補を鮮度・裏取り不足で不採用済み）。(2)NEURA Robotics『4NE1 Gen4』は産業用ヒューマノイドで建設現場との接続がなく不採用。(3)Boston Dynamics Spotの建設現場巡回映像は過去事例のみで直近48hの新規投稿なし。(4)WebSearchで3Dプリント住宅・自律重機・ドローン測量・BIM AIエージェント・溶接/鉄筋ロボットを日英で検索したが、直近48h以内かつX上で動画を取得できる新規ネタは確認できず。news_feed.json のconstruction_japan/construction_globalも解説記事・制度ニュースのみで動画付き候補なし。output/post_queue.json直近14日・本日朝枠（Tencent Hy-Nomas、一般AI）との重複なしを確認。data/analytics/live_metrics.jsonは読み込み確認済みで実投稿との重複も確認した。"
 }
