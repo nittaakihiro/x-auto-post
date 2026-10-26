@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-26T20:45+00:00",
- "generated_at_jst": "2026-10-27 05:45",
+ "generated_at": "2026-10-26T23:51+00:00",
+ "generated_at_jst": "2026-10-27 08:51",
  "window_hours": 48,
  "counts": {
-  "ai_global": 43,
-  "construction_japan": 56,
-  "construction_global": 22,
-  "ai_japan": 18
+  "ai_global": 45,
+  "ai_japan": 28,
+  "construction_japan": 47,
+  "construction_global": 21
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -16,9 +20,227 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
   }
  ],
  "items": [
+  {
+   "id": "bba291662c45",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+   "published": "2026-10-26T23:34+00:00",
+   "published_jst": "2026-10-27 08:34",
+   "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts th",
+   "ai_related": true,
+   "title_ja": "OpenAI、3つの科学的発見と新たな学術連携を発表",
+   "summary_ja": "数学やコンピュータ科学における3つの主要な発見を発表し、学術界との新たな協業方法を明らかにした。"
+  },
+  {
+   "id": "3ceadac89ba9",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "大企業はAIコストを管理できていない サイボウズ調査で浮かび上がった「3割の壁」",
+   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/26/news032.html",
+   "published": "2026-10-26T23:00+00:00",
+   "published_jst": "2026-10-27 08:00",
+   "summary": "サイボウズの調査によると、今後3年間でAI投資を増やす大企業が7割に上る一方で、AIコストを全社で把握できている企業は3割に届かないという。“AIコスト激増時代”における実態に迫る。",
+   "ai_related": true
+  },
+  {
+   "id": "250e5d8f3024",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "url": "https://openai.com/index/greptile-code-review-codex-astra",
+   "published": "2026-10-26T22:00+00:00",
+   "published_jst": "2026-10-27 07:00",
+   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+   "ai_related": true,
+   "title_ja": "Greptile、GPT-6 Astraでバグ検出をコードレビューの先へ",
+   "summary_ja": "GPT-6 Astraによるユーザーワークフローのテストや、セキュリティ強化、手戻り削減への活用法を紹介。"
+  },
+  {
+   "id": "c01f0ac7028a",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "京都府庁、職員7000人の事務効率化で「Copilotだけに頼らない」と決めた理由",
+   "url": "https://kn.itmedia.co.jp/kn/article/2610/27/2000002599/",
+   "published": "2026-10-26T22:00+00:00",
+   "published_jst": "2026-10-27 07:00",
+   "summary": "人口減少に伴う将来的な人手不足を見据え、職員約7000人の業務効率化に挑む京都府庁。限られた人員で増え続ける行政ニーズに応えるため、同庁が着目したのが生成AIだ。しかし、対話型AIを全庁導入しただけでは、現場の業務負担は解消し切れなかった。",
+   "ai_related": true
+  },
+  {
+   "id": "439fc77b4111",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "熊本地震「避難状況マップ」秘話 2日で開発も「こんなの使えない」と突き返され……",
+   "url": "https://www.itmedia.co.jp/business/articles/2610/27/news014.html",
+   "published": "2026-10-26T22:00+00:00",
+   "published_jst": "2026-10-27 07:00",
+   "summary": "令和8年熊本地震の発災から2日後、IT企業が“避難状況マップ”を開発した。しかし現場からは「こんなものは使えない」と言われてしまう。この状況をどう打開したのか。",
+   "ai_related": true
+  },
+  {
+   "id": "6d6e3a5096e8",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIで「月○○時間削減」それ本当？ 浮いた時間はどこに消えたのか",
+   "url": "https://www.itmedia.co.jp/business/articles/2610/27/news016.html",
+   "published": "2026-10-26T22:00+00:00",
+   "published_jst": "2026-10-27 07:00",
+   "summary": "AI導入によって「月数千時間を削減しました」――こんな“華麗な成果”を示しても、人件費が減るわけでなはい。浮いた時間はどこに消えたのか。",
+   "ai_related": true
+  },
+  {
+   "id": "a5631013dbf9",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "中小企業、Windows更新「利用者任せ」が4割超 SCS評価制度で問われる管理体制",
+   "url": "https://kn.itmedia.co.jp/kn/article/2610/27/2000002584/",
+   "published": "2026-10-26T22:00+00:00",
+   "published_jst": "2026-10-27 07:00",
+   "summary": "OS更新の遅れは重大なセキュリティ事故につながりかねない。2027年のSCS評価制度の運用開始を前に、情シス担当者1000人への調査で鮮明になったWindowsアップデートの「利用者任せ」。その実態とは。",
+   "ai_related": true
+  },
+  {
+   "id": "7abfe497b4b6",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「遅延なきネットワーク」ソブリンAIの鍵に NTT川添氏が語る「IOWN」実装後の社会",
+   "url": "https://www.itmedia.co.jp/business/articles/2610/27/news024.html",
+   "published": "2026-10-26T22:00+00:00",
+   "published_jst": "2026-10-27 07:00",
+   "summary": "次世代光通信技術「IOWN」が、机上の概念検証（PoC）を越え現実空間を動かす「フィジカルAI」の実装フェーズへ突入した。オランダでの年次中間会議を受け、NTTの川添雄彦氏にインタビューした。米中テックに対抗し主権を守る「ソブリンAI」の基盤としての勝算など、光インフラの現在地と社会実装の展望を聞く。",
+   "ai_related": true
+  },
+  {
+   "id": "9c7bc03f8ac3",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "FDEは「スーパーマンと思われがちだが……」 脱・人月モデルで期待大、AI時代の“花形職種”の実像は？",
+   "url": "https://www.itmedia.co.jp/business/articles/2610/27/news013.html",
+   "published": "2026-10-26T22:00+00:00",
+   "published_jst": "2026-10-27 07:00",
+   "summary": "AI時代にエンジニアの花形として注目される「FDE」は、従来型SEと何が違うのか。FDEは、スーパーマンなのだろうか。IT業界が生み出した“新たな職種”の実像に迫る。",
+   "ai_related": true
+  },
+  {
+   "id": "32ad5c55f025",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "大手テクノロジー企業以外ではAIへの投資による経済的利益がほとんど得られていないとの指摘",
+   "url": "https://gigazine.net/news/20261027-no-signs-ai-payoff-outside-tech/",
+   "published": "2026-10-26T22:00+00:00",
+   "published_jst": "2026-10-27 07:00",
+   "summary": "近年では多くの企業がAIツールやAIエージェントを導入し、生産性や収益性を向上させようと取り組んでいます。ところがアメリカの投資会社・Apolloのチーフエコノミストであるトルステン・スロク氏は、「AIはテクノロジー業界以外のアメリカ企業に何の経済的利益ももたらしていない」とするレポートを発表しました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "96b9f45bb2e6",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic is burning gas to feed the AI boom",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+   "published": "2026-10-26T21:45+00:00",
+   "published_jst": "2026-10-27 06:45",
+   "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monda",
+   "ai_related": true,
+   "title_ja": "Anthropic、AIブームを支えるため化石燃料を活用",
+   "summary_ja": "上場を控えたS-1申請書類により、生成AIのメタン依存と電力・データセンター確保の激しい競争が浮き彫りになった。"
+  },
+  {
+   "id": "9c8b2c8b8788",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "三菱電機が描く工作機械×AIの未来、人手不足や技能伝承の「切り札」となるか",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/27/news041.html",
+   "published": "2026-10-26T21:45+00:00",
+   "published_jst": "2026-10-27 06:45",
+   "summary": "三菱電機は「JIMTOF2026（第33回日本国際工作機械見本市）」において、加工現場における人手不足や技能伝承の課題解決を図る、AIを活用したソリューションなどを披露した。",
+   "ai_related": true
+  },
+  {
+   "id": "e1aa06505a2c",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "伊藤忠インタラクティブが「Claude」活用研修 「AIを使う」から「業務を任せる」へ",
+   "url": "https://kn.itmedia.co.jp/kn/article/2610/27/2000002583/",
+   "published": "2026-10-26T21:00+00:00",
+   "published_jst": "2026-10-27 06:00",
+   "summary": "伊藤忠インタラクティブは、ClaudeやClaude Codeを使った法人向け「AIエージェント実装研修」の提供を開始する。一般的な生成AIの使い方ではなく、提案書作成や調査レポートなど、受講者自身の業務を題材にAIエージェントを構築し、業務の自動化を目指す。",
+   "ai_related": true
+  },
+  {
+   "id": "7f21e0f82bc2",
+   "source": "施工の神様",
+   "source_id": "sekokan_navi",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "診断業務を最大80％削減！産学の英知が結集した橋梁診断支援AI「橋梁アセスタ」とは？",
+   "url": "https://sekokan-navi.jp/magazine/88030",
+   "published": "2026-10-26T21:00+00:00",
+   "published_jst": "2026-10-27 06:00",
+   "summary": "建設資材の高騰や時間外労働の上限規制など、構造的な課題に直面する建設・土木業界。中でも、全国に約73万橋ある道路橋の老朽化対策は急務だ。2014年の道路法改正で5年に1度の近接目視点検が義務付けられ、自治体では限られた人... The post 診断業務を最大80％削減！産学の英知が結集した橋梁診断支援AI「橋梁アセスタ」とは？ first appeared on 施工の神様 .",
+   "ai_related": false
+  },
+  {
+   "id": "3253082e1f72",
+   "source": "JBpress",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "アマゾンが迫られた「10億ドル」の地域融和策、AIデータセンター建設凍結の波紋",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3UjU4TXM3VkdJaTRvOVhlNmlNdDdicVpFMl9YYTZxODM4eWJXS0cwNld3ZTk0VDd3cE5BV1BkblR5dGxQOGx1azZ4R2NsdEdUUTU0bUln?oc=5",
+   "published": "2026-10-26T21:00+00:00",
+   "published_jst": "2026-10-27 06:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "2641804f741c",
+   "source": "日刊建設工業新聞",
+   "source_id": "decn",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大成建設／高松空港でエビ陸上養殖／地域完成型の資源循環モデル、地域価値を向上",
+   "url": "https://www.decn.co.jp/?p=188772",
+   "published": "2026-10-26T21:00+00:00",
+   "published_jst": "2026-10-27 06:00",
+   "summary": "大成建設は、コンセッション（公共施設等運営権）方式のＰＦＩで運営に携わる高松空港（高松市）で、バナメイエビを陸上養殖する実証試験に取り組んでいる。実証ではエビ養殖とともに、低塩水を使った野菜の水耕栽培を組み合わせた新た […]",
+   "ai_related": true
+  },
   {
    "id": "0b7bacad07d4",
    "source": "The Decoder",
@@ -30,7 +252,9 @@
    "published": "2026-10-26T20:30+00:00",
    "published_jst": "2026-10-27 05:30",
    "summary": "OpenAI has released GPT-6.1 Terra, a mid-range model that cuts API prices in half compared to its predecessor. Analysts say it sets a new standard for intelligence per dollar, especially for everyday computing tasks and AI-driven computer control. The article GPT-6.1 Terra halves OpenAI's API prices",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "GPT-6.1 Terra、API価格が半減し大型モデルに迫る性能",
+   "summary_ja": "価格を半減させたミドルレンジモデル。日常的なタスクにおいて、コストパフォーマンスの新基準を打ち立てた。"
   },
   {
    "id": "5d5ff332a0b6",
@@ -43,7 +267,9 @@
    "published": "2026-10-26T20:04+00:00",
    "published_jst": "2026-10-27 05:04",
    "summary": "Included is the ability to limit which applications Siri can directly access.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Apple、iOS・macOS 27.2をリリース。SiriのAI機能等",
+   "summary_ja": "Siriが直接アクセスできるアプリを制限する機能などが新たに追加され、新しいMusicのロゴも採用されている。"
   },
   {
    "id": "7011411c0523",
@@ -206,7 +432,7 @@
    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
    "published": "2026-10-26T18:01+00:00",
    "published_jst": "2026-10-27 03:01",
-   "summary": "Article URL: https://openai.com/index/introducing-gpt-6-1-terra/ Comments URL: https://news.ycombinator.com/item?id=50248124 Points: 333 # Comments: 192",
+   "summary": "Article URL: https://openai.com/index/introducing-gpt-6-1-terra/ Comments URL: https://news.ycombinator.com/item?id=50248124 Points: 462 # Comments: 289",
    "ai_related": true,
    "title_ja": "GPT-6.1 Terraの発表について",
    "summary_ja": "OpenAIの新モデル「GPT-6.1 Terra」に関する公式記事およびHacker Newsの議論。"
@@ -240,19 +466,6 @@
    "ai_related": true,
    "title_ja": "ついにIPO申請を行ったAnthropicの動向",
    "summary_ja": "憶測が飛び交う中、AnthropicがついにIPO目論見書を提出した。"
-  },
-  {
-   "id": "dab7127a70ba",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
-   "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
-   "published": "2026-10-26T17:32+00:00",
-   "published_jst": "2026-10-27 02:32",
-   "summary": "Article URL: https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/ Comments URL: https://news.ycombinator.com/item?id=50247630 Points: 160 # Comments: 52",
-   "ai_related": true
   },
   {
    "id": "2500a6aad874",
@@ -339,25 +552,10 @@
    "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
    "published": "2026-10-26T16:46+00:00",
    "published_jst": "2026-10-27 01:46",
-   "summary": "SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU financing” ever.",
+   "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
    "ai_related": true,
    "title_ja": "SpaceXがApolloから400億ドルのGPU資金調達を締結",
    "summary_ja": "AIチップや関連機器の購入資金として約400億ドルの調達合意を規制当局への提出書類で明かした。"
-  },
-  {
-   "id": "ce5ce5fc43fb",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Concerning behavior from a popular open-weight AI model",
-   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-   "published": "2026-10-26T16:35+00:00",
-   "published_jst": "2026-10-27 01:35",
-   "summary": "Article URL: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model Comments URL: https://news.ycombinator.com/item?id=50246658 Points: 185 # Comments: 70",
-   "ai_related": true,
-   "title_ja": "人気のオープンウェイトAIモデルに見られる懸念すべき挙動",
-   "summary_ja": "Cohereのブログで公開された、人気のオープンウェイトAIモデルに関する議論と解説。"
   },
   {
    "id": "be77c96c39b4",
@@ -399,7 +597,7 @@
    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
    "published": "2026-10-26T15:11+00:00",
    "published_jst": "2026-10-27 00:11",
-   "summary": "Article URL: https://magazine.sebastianraschka.com/p/building-reasoning-models Comments URL: https://news.ycombinator.com/item?id=50245138 Points: 435 # Comments: 59",
+   "summary": "Article URL: https://magazine.sebastianraschka.com/p/building-reasoning-models Comments URL: https://news.ycombinator.com/item?id=50245138 Points: 514 # Comments: 76",
    "ai_related": true,
    "title_ja": "推論モデル構築をゼロから学べるセバスチャン・ラシュカの動画講座",
    "summary_ja": "推論モデルの構築方法を基礎から学べるセバスチャン・ラシュカの解説記事と議論。"
@@ -433,6 +631,21 @@
    "ai_related": false,
    "title_ja": "建設業界の昇進構造が生むインポスター症候群",
    "summary_ja": "現場リーダーの経営陣への昇進は事業上妥当だが、自身の能力証明に苦悩する原因にもなっている。"
+  },
+  {
+   "id": "f16aefe89a6e",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Working with academic communities to build scientific understanding",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "published": "2026-10-26T14:30+00:00",
+   "published_jst": "2026-10-26 23:30",
+   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+   "ai_related": true,
+   "title_ja": "学術コミュニティとの連携による科学的理解の構築",
+   "summary_ja": "掛谷予想や指数時間仮説などにおけるモデルの結果を公開し、研究者が検証・発展させる方法を提示する。"
   },
   {
    "id": "6a47f3e0c881",
@@ -480,6 +693,21 @@
    "summary_ja": "AI業界の爆発的な変革を描いた新著の著者でありジャーナリストのケビン・ルースに話を聴く。"
   },
   {
+   "id": "1a1d4bf2fc11",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "published": "2026-10-26T13:45+00:00",
+   "published_jst": "2026-10-26 22:45",
+   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+   "ai_related": true,
+   "title_ja": "GPT-6.1 Sol、CodeRabbitのセキュリティ強化を支援",
+   "summary_ja": "複雑なコードベースのセキュリティリスク調査に活用され、開発者のレビューや修正案の提示をエージェントが支援。"
+  },
+  {
    "id": "a0064ee100f0",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -519,7 +747,7 @@
    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
    "published": "2026-10-26T13:04+00:00",
    "published_jst": "2026-10-26 22:04",
-   "summary": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1303 # Comments: 1275",
+   "summary": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1428 # Comments: 1395",
    "ai_related": true,
    "title_ja": "AnthropicのS-1申請書類",
    "summary_ja": "Anthropicが米国証券取引委員会（SEC）に提出したS-1登録書類のリンクと関連記事。"
@@ -658,19 +886,6 @@
    "summary_ja": "建設製品協会（CPA）は、原油・エネルギー価格の高騰によりインフレと金利が高止まりするとの見方から、2027年の建設生産高の成長予測を引き下げた。"
   },
   {
-   "id": "8570a9fb92c2",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Three towers evacuated over “serious structural problems”",
-   "url": "https://www.constructionenquirer.com/2026/10/26/three-towers-evacuated-over-serious-structural-problems/",
-   "published": "2026-10-26T11:06+00:00",
-   "published_jst": "2026-10-26 20:06",
-   "summary": "211 homes evacuated over transfer slab concerns",
-   "ai_related": false
-  },
-  {
    "id": "6e4a86a12436",
    "source": "日テレNEWS NNN",
    "source_id": "gnews_kensetsu_ai",
@@ -678,6 +893,19 @@
    "lang": "ja",
    "title": "各国がAI開発しのぎを削る中…中国でデータセンター建設ラッシュ 農村にもたらした“変化”",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa3BsbDNyNnM0WHdtdjFESU9UdjdqUXpmYmhuWnJjcDE1VUVLUWdlc0pYZWRBZXFqSW1TUzd0YW1CR210TldGbnJOS0RrYTZpX3FZdmhVejJXMk13SnRoTk9pY1JPRUlNXzJlYVo2UEU0OWg0aFRqcnczY3M2d1hUby0wT1E?oc=5",
+   "published": "2026-10-26T10:43+00:00",
+   "published_jst": "2026-10-26 19:43",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "65bf4280e685",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "各国がAI開発しのぎを削る中…中国でデータセンター建設ラッシュ 農村にもたらした“変化”（日テレNEWS NNN）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Iamc3cmlVQnh1b2lYajJ3cGE5U2psWEFQODFuUFlVSjQtNUNTUkxVSm1YU1BDWjRRME56bjR4T2JMYm1yTmdDbjgzdHJ4M1NHbU14MnhHY0RiMDZqS0F2aXU2V0kwUTNLWlQyc1lPTFJ0U1hwUzVlT1V3MVJnem8?oc=5",
    "published": "2026-10-26T10:43+00:00",
    "published_jst": "2026-10-26 19:43",
    "summary": "",
@@ -1004,7 +1232,7 @@
   {
    "id": "ba4fe6507395",
    "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
    "title": "荒木組、堤防工事で建設用3Dプリンタ活用 階段の施工を12日から2日に短縮：デジタルファブリケーション",
@@ -1171,19 +1399,6 @@
    "ai_related": true
   },
   {
-   "id": "a344c834c604",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "熊谷組、木材を耐火被覆に用いた「ドレスウッド®」でCFT柱の2時間耐火大臣認定を取得",
-   "url": "https://news.build-app.jp/article/43416/",
-   "published": "2026-10-26T03:00+00:00",
-   "published_jst": "2026-10-26 12:00",
-   "summary": "熊谷組は、木材を耐火被覆として使う鉄骨部材「ドレスウッド®」で、CFT柱（コンクリート充填鋼管柱）の2時間耐火構造について、国土交通大臣の認...",
-   "ai_related": false
-  },
-  {
    "id": "fb6d98e479db",
    "source": "東洋経済オンライン",
    "source_id": "gnews_kensetsu_ai",
@@ -1191,8 +1406,8 @@
    "lang": "ja",
    "title": "すごいベンチャー【44】ONESTRUCTION／3次元データとAIで建設DX",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSNTM2ZEtkMm9EVnkyLXVCTk41cmVzR25EMGNXWEl2N0lnYy1qLXoxTVBlZUdNQnZ4aVU5TlM0Z19USW9NdXdIM3ZPanhDcjJFX29ETGY2dHYtYUJ2M1hv?oc=5",
-   "published": "2026-10-26T02:34+00:00",
-   "published_jst": "2026-10-26 11:34",
+   "published": "2026-10-26T02:30+00:00",
+   "published_jst": "2026-10-26 11:30",
    "summary": "",
    "ai_related": true
   },
@@ -1332,7 +1547,7 @@
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "現代建設は室内空気質を体系的に管理し、健康で快適な住居環境を造成する「アレルギーケアソリューション」を開発したと26日、明らかにした。",
+   "title": "現代建設がアレルギー誘発要因を減らし、室内空気質を改善する住居技術を披露する。現代建設は室内空気質を体系的に管理し、健康で快適な住居環境を造成する「アレルギーケアソリューション」を開発したと26日、明..",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5HR3VEd05HLWxqa0pPQzhBSG5VMDlsU3gzZDBNckNvZW9WU0d2MW03MGtlUURVdm1BY3U4UGdlMFZMZDJiZDFKcFFiY1dGLV9VSU5EbXp3?oc=5",
    "published": "2026-10-26T01:10+00:00",
    "published_jst": "2026-10-26 10:10",
@@ -1340,16 +1555,16 @@
    "ai_related": false
   },
   {
-   "id": "8fe7c383c81b",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
+   "id": "e7e3e0ba56c6",
+   "source": "ITmedia",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "竹中工務店、CO2約6割減のサーキュラーコンクリートを開発、国際園芸博覧会に初適用",
-   "url": "https://news.build-app.jp/article/43410/",
+   "title": "AI運用のエネルギーセンターが日本橋に誕生 東京ミッドタウン日本橋に地産地消の電気と熱を供給：スマートビル",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82MUdMRi03ZEhGQmFlRElqbmJmQzNOOVI1aktyRDAwVnltMU9IX21NYmVNOWlRT2RmSC1SWFo3Yk1lMFdIVy1vdTJSVnBreDBncU8xanBpUUVTVGdBSmlaYVR2RkV4cDVjOElOcw?oc=5",
    "published": "2026-10-26T01:00+00:00",
    "published_jst": "2026-10-26 10:00",
-   "summary": "竹中工務店（社長：丁野成人）は、解体した建物のコンクリート廃材から砂利や砂などの再生骨材を取り出し、省CO2型セメントと組み合わせた「サーキ...",
+   "summary": "",
    "ai_related": false
   },
   {
@@ -1459,136 +1674,6 @@
    "ai_related": true,
    "title_ja": "Grok、AI生成アニメ『Odyssey』の冒頭を公開",
    "summary_ja": "芸術性や人間味を求めなければ、映像の出来栄えは悪くないように見える。"
-  },
-  {
-   "id": "2e78f15f730a",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省ら、都市緑化全国大会",
-   "url": "https://www.decn.co.jp/?p=188735",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "東京都港区の日本消防会館、３０日",
-   "ai_related": false
-  },
-  {
-   "id": "ba1eb65d7cb9",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、国土交通データプラットフォーム利活用促進意見交換会",
-   "url": "https://www.decn.co.jp/?p=188737",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "ウェブ開催、３０日",
-   "ai_related": false
-  },
-  {
-   "id": "c8ffff24176c",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "全建、地域懇談会北海道",
-   "url": "https://www.decn.co.jp/?p=188739",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "札幌市中央区のホテル札幌ガーデンパレス、３０日",
-   "ai_related": false
-  },
-  {
-   "id": "679a7dde5f14",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、国土審特殊土壌地帯対策分科会",
-   "url": "https://www.decn.co.jp/?p=188729",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "東京都千代田区の中央合同庁舎３号館、２８日",
-   "ai_related": false
-  },
-  {
-   "id": "00bb37853fd2",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、自動物流道路実証実験",
-   "url": "https://www.decn.co.jp/?p=188731",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "茨城県つくば市の国総研など、２８日～",
-   "ai_related": false
-  },
-  {
-   "id": "7033282b8cd6",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "全建、地域懇談会北陸",
-   "url": "https://www.decn.co.jp/?p=188733",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "金沢市のホテル日航金沢、２８日",
-   "ai_related": false
-  },
-  {
-   "id": "567c12c0a1a0",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、建設業のあり方検討会企業評価ＷＧ",
-   "url": "https://www.decn.co.jp/?p=188717",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "東京都千代田区の中央合同庁舎３号館、２６日",
-   "ai_related": false
-  },
-  {
-   "id": "03210c15146f",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国交省、社整審建築分科会・建築基準制度部会",
-   "url": "https://www.decn.co.jp/?p=188721",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "東京都千代田区の中央合同庁舎３号館、２６日",
-   "ai_related": false
-  },
-  {
-   "id": "6fd999daef06",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "厚労省、エッセンシャルワーカー業職種生産性向上労働行政支援あり方検討会",
-   "url": "https://www.decn.co.jp/?p=188723",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "東京都港区の労働委員会会館、２６日",
-   "ai_related": false
-  },
-  {
-   "id": "547a7bab1a51",
-   "source": "日刊建設工業新聞",
-   "source_id": "decn",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "厚労省、労政審雇用環境・均等分科会",
-   "url": "https://www.decn.co.jp/?p=188725",
-   "published": "2026-10-25T21:20+00:00",
-   "published_jst": "2026-10-26 06:20",
-   "summary": "東京都港区の労働委員会会館、２６日",
-   "ai_related": false
   },
   {
    "id": "3e7632478351",
@@ -1712,19 +1797,6 @@
    "summary_ja": "画像に水平または垂直の切り込みを入れ、左右や上下の領域を相対的にスライドさせて切り抜くことができる、ユニークな特化型ツールです。"
   },
   {
-   "id": "c8133b09885d",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年最新版】安全帯の価格と選定基準｜交換費用・現場管理・点検DXを解説",
-   "url": "https://news.build-app.jp/article/43405/",
-   "published": "2026-10-25T15:04+00:00",
-   "published_jst": "2026-10-26 00:04",
-   "summary": "安全帯を新規格品へ替えても、取り付け位置に合わないランヤードを支給すれば現場では使えません。購入後の買い直しを防ぐには、製品単価より先に作業...",
-   "ai_related": true
-  },
-  {
    "id": "1f2e8652f9fd",
    "source": "Unisba Media",
    "source_id": "gnews_kensetsu_dx",
@@ -1736,19 +1808,6 @@
    "published_jst": "2026-10-25 23:40",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "6173656514b5",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【2026年最新版】建材価格はどれだけ上がった？素材別の上昇率・値上げと見積対応を解説",
-   "url": "https://news.build-app.jp/article/43401/",
-   "published": "2026-10-25T14:31+00:00",
-   "published_jst": "2026-10-25 23:31",
-   "summary": "建材の見積は、前年の単価に一律の上昇率を掛けるだけでは精度を保てません。2026年9月の国内企業物価指数では、鉄鋼の前年同月比が3.2％上昇...",
-   "ai_related": false
   },
   {
    "id": "4262d71f08be",
@@ -1932,21 +1991,6 @@
    "published_jst": "2026-10-25 10:13",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "0509c80e85fb",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Blue Planet III is keeping the rough edges in the age of AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-   "published": "2026-10-24T21:29+00:00",
-   "published_jst": "2026-10-25 06:29",
-   "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished ",
-   "ai_related": true,
-   "title_ja": "AI時代の「Blue Planet III」が目指す映像のリアル",
-   "summary_ja": "BBCの「Blue Planet III」は、あえて完璧ではない映像を残すことで、作品の信頼性と本物感を証明しようとしている。"
   }
  ]
 }
