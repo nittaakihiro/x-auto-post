@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-27T12:08+00:00",
- "generated_at_jst": "2026-10-27 21:08",
+ "generated_at": "2026-10-27T13:15+00:00",
+ "generated_at_jst": "2026-10-27 22:15",
  "window_hours": 48,
  "counts": {
-  "construction_global": 29,
-  "ai_global": 51,
+  "ai_global": 54,
+  "construction_global": 20,
   "ai_japan": 31,
-  "construction_japan": 65
+  "construction_japan": 67
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -23,6 +23,58 @@
   }
  ],
  "items": [
+  {
+   "id": "a878112837ec",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+   "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+   "published": "2026-10-27T13:00+00:00",
+   "published_jst": "2026-10-27 22:00",
+   "summary": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+   "ai_related": true
+  },
+  {
+   "id": "c3f55709f5e3",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+   "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+   "published": "2026-10-27T13:00+00:00",
+   "published_jst": "2026-10-27 22:00",
+   "summary": "The new standard, WebAI, is designed to work with a variety of AI models.",
+   "ai_related": true
+  },
+  {
+   "id": "3b0550dad519",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI asks outside experts, including a Nobel laureate, to check proofs its AI produced in math, computer science, and physics",
+   "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
+   "published": "2026-10-27T12:37+00:00",
+   "published_jst": "2026-10-27 21:37",
+   "summary": "OpenAI says its internal AI models have cracked three major open questions in math, computer science, and physics. One of them is part of a famous Millennium Prize Problem, each of which carries a $1 million prize. Outside experts, including a Nobel laureate, are now checking whether the proofs hold",
+   "ai_related": true
+  },
+  {
+   "id": "d2e7553bd1c4",
+   "source": "AEC Magazine",
+   "source_id": "aecmag",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Autodesk: beyond the seat, the meter",
+   "url": "https://aecmag.com/ai/autodesk-beyond-the-seat-the-meter/",
+   "published": "2026-10-27T12:13+00:00",
+   "published_jst": "2026-10-27 21:13",
+   "summary": "How much of the new AEC computing stack does Autodesk intend to own, and how many meters does it intend to attach to it? The post Autodesk: beyond the seat, the meter appeared first on AEC Magazine .",
+   "ai_related": false
+  },
   {
    "id": "9da0d0ba1224",
    "source": "ConstructConnect Blog",
@@ -112,34 +164,17 @@
    "summary_ja": "Simplismartは、年間経常収益が6ヶ月で14倍に成長し、米国の売上が全体の半分以上を占めていると述べています。"
   },
   {
-   "id": "39d2a1cc89eb",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
+   "id": "3203579cb639",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
    "lang": "en",
-   "title": "Tier ones among 20 firms picked for £301m Anglian Water framework",
-   "url": "https://www.constructionnews.co.uk/contracts/tier-ones-among-20-firms-picked-for-301m-anglian-water-framework-27-10-2026/",
-   "published": "2026-10-27T10:55+00:00",
-   "published_jst": "2026-10-27 19:55",
-   "summary": "Tier one contractors Galliford Try and M Group are among 20 firms selected by Anglian Water for its £301m mechanical and electrical (M&E) services framework. The two firms – along with Amentum, Quartzelec and Ross-shire Engineering – were named on all four lots covering project… The post Tier ones a",
-   "ai_related": false,
-   "title_ja": "アングリア・ウォーターの枠組みに大手20社が選出",
-   "summary_ja": "ガリフォード・トライやMグループなど大手20社が、アングリア・ウォーターの3億100万ポンドの電気設備サービスに選ばれました。"
-  },
-  {
-   "id": "aa7f677eadd9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sir Robert McAlpine selected for £133m Bank of England refurbishment",
-   "url": "https://www.constructionnews.co.uk/contracts/sir-robert-mcalpine-selected-for-133m-bank-of-england-refurbishment-27-10-2026/",
-   "published": "2026-10-27T10:30+00:00",
-   "published_jst": "2026-10-27 19:30",
-   "summary": "Sir Robert McAlpine has been selected for a £133m contract to refurbish the Bank of England's Grade I-listed Threadneedle Street headquarters in the City of London. The contractor was named as the successful bidder for the Location Strategy: Main Works project in an award notice… The post Sir Robert",
-   "ai_related": false,
-   "title_ja": "英中銀の本館改修工事、マカパイン社が1.3億ポンドで受注",
-   "summary_ja": "サー・ロバート・マカパインが、ロンドン中心部にある歴史的建造物のイングランド銀行本館を改修する契約を獲得しました。"
+   "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+   "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+   "published": "2026-10-27T10:27+00:00",
+   "published_jst": "2026-10-27 19:27",
+   "summary": "Article URL: https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/ Comments URL: https://news.ycombinator.com/item?id=50256985 Points: 206 # Comments: 132",
+   "ai_related": true
   },
   {
    "id": "c2f643f9d9d9",
@@ -172,36 +207,6 @@
    "summary_ja": "OpenAIのテッド・サンダース氏が新モデルの位置づけを解説。小型モデルは技術的対話に優れ安価ですが、他分野では大型モデルに劣ります。"
   },
   {
-   "id": "4e360c517147",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The construction industry needs action from the first Burnham Budget",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/the-construction-industry-needs-action-from-the-first-burnham-budget-27-10-2026/",
-   "published": "2026-10-27T10:04+00:00",
-   "published_jst": "2026-10-27 19:04",
-   "summary": "Paul Griffen is managing director at McLaughlin & Harvey Often when the Budget rolls around, we see major announcements and headlines but, as a sector, we want to see what moves from rhetoric into practice. Without changes to reduce the number of procurement frameworks, policies… The post The constr",
-   "ai_related": false,
-   "title_ja": "建設業界が初となるバーナム予算案への行動を要請",
-   "summary_ja": "マクラフリン＆ハーベイのポール・グリフィン氏が指摘。予算案では美辞麗句から実践への移行が求められています。"
-  },
-  {
-   "id": "3a470e4c5308",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "A Budget of marginal gains for construction?",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/a-budget-of-marginal-gains-for-construction-27-10-2026/",
-   "published": "2026-10-27T10:02+00:00",
-   "published_jst": "2026-10-27 19:02",
-   "summary": "Ray Hutchinson is the managing director at Gilbert-Ash The upcoming Budget will be the first for new chancellor John Healey and the first of Andy Burnham’s premiership, but few people are expecting large-scale giveaways to celebrate the milestones. Instead, this Budget is likely to be… The post A Bu",
-   "ai_related": false,
-   "title_ja": "建設業にとって限界利益の予算案となるか？",
-   "summary_ja": "ギルバート・アッシュのレイ・ハッチンソン氏が指摘。新体制初の予算案となるが、大規模な優遇措置は期待されていません。"
-  },
-  {
    "id": "415aa97d276f",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -215,6 +220,19 @@
    "ai_related": true,
    "title_ja": "データセンターへの反発がアメリカで一体感を生む",
    "summary_ja": "2026年にあらゆる層の有権者の関心を集める問題がデータセンターであり、急速な建設とそれに伴うコストが議論を呼んでいます。"
+  },
+  {
+   "id": "6809e05fb525",
+   "source": "JFN Pods",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "“建設業の担い手不足”解消へ！地域全体の建設職人を育成する「村井建設技能者育成スクール」とは？",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91OHJiVVdwQ0ZyN0RzN2U0Zkc1VGhBZ2VpeWgyWElETmpXT3lLZmROeGkyRmtPZUFIWHdaSFJPYVBhMUpMa3E5Q0dGSklCeFNOTzVycA?oc=5",
+   "published": "2026-10-27T10:00+00:00",
+   "published_jst": "2026-10-27 19:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "cf62f60ad2bb",
@@ -273,21 +291,6 @@
    "published_jst": "2026-10-27 18:21",
    "summary": "人口減少に伴う将来的な人手不足を見据え、職員約7000?8000人の業務効率化に挑む京都府庁。限られた人員で増え続ける行政ニーズに応えるため、同庁が着目したのが生成AIだ。しかし、対話型AIを全庁導入しただけでは、現場の業務負担は解消し切れなかった。",
    "ai_related": true
-  },
-  {
-   "id": "9a0ed0aafcaa",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Dalkia overhauls work-at-height safety rules after ONR notice",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/dalkia-overhauls-work-at-height-safety-rules-after-onr-notice-27-10-2026/",
-   "published": "2026-10-27T09:00+00:00",
-   "published_jst": "2026-10-27 18:00",
-   "summary": "Dalkia has “swiftly” revamped its working-at-height procedures after the contractor was reprimanded by the nuclear regulator. The Office for Nuclear Regulation (ONR) issued Dalkia Facilities with an improvement notice in August after one of the company’s workers sustained serious leg injuries in a f",
-   "ai_related": false,
-   "title_ja": "Dalkia、規制当局の勧告を受け高所作業安全規則を刷新",
-   "summary_ja": "原子力規制庁から改善命令を受けたことを受け、Dalkiaは高所作業手順を迅速に見直しました。"
   },
   {
    "id": "675b45251c80",
@@ -454,7 +457,7 @@
    "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
    "published": "2026-10-27T06:25+00:00",
    "published_jst": "2026-10-27 15:25",
-   "summary": "Article URL: https://j11g.com/the-mythical-man-month-in-the-age-of-ai Comments URL: https://news.ycombinator.com/item?id=50255298 Points: 211 # Comments: 151",
+   "summary": "Article URL: https://j11g.com/the-mythical-man-month-in-the-age-of-ai Comments URL: https://news.ycombinator.com/item?id=50255298 Points: 246 # Comments: 163",
    "ai_related": true,
    "title_ja": "AI時代の「人月の神話」",
    "summary_ja": "Hacker Newsの記事とコメントへのリンク情報。"
@@ -497,6 +500,19 @@
    "published_jst": "2026-10-27 14:53",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "8e1bf01ea803",
+   "source": "Dellows News",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "KKGとアルインコ、足場積算を自動化する仮称AI積算を共同開発し2027年春頃投入へ",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1sWER5YVN6WUtBbE5Mb0N0akZaSzRudmlCZXFuVjJfa3h1T2FzTm5NS0Jmb1BWdjdRZnhaVGZ2ZFZqZFdZOFE?oc=5",
+   "published": "2026-10-27T05:53+00:00",
+   "published_jst": "2026-10-27 14:53",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "8577c20393d7",
@@ -761,6 +777,19 @@
    "published_jst": "2026-10-27 09:17",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "b796c6c685ea",
+   "source": "BRIDGE（ブリッジ）",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "既存重機を自律稼働にするBedrock Robotics、シリーズCで6億ドルを調達し評価額41億ドルに",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOak1pVzV0X2k0WnFObXVEcURrajFydXZyWGl3aUQwNjRqT3UtcnFrM1dLUC12NmJScldVb2tjUnJnZmJPc2hERGxaUUJJb2tDWmJWMGtJcm5qMkNWY0N0VVJjX0x5REhNM2g1S090Q3BRbDZaT3YzZWVCZWpGdlRDR3lUOXpVZGRf?oc=5",
+   "published": "2026-10-27T00:13+00:00",
+   "published_jst": "2026-10-27 09:13",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "72c23324d1f0",
@@ -1061,6 +1090,19 @@
    "ai_related": true
   },
   {
+   "id": "92f1af560500",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日建設計JVを特定/豊島公園・曽根駅計画構想/豊中市",
+   "url": "https://www.kensetsunews.com/archives/1300906",
+   "published": "2026-10-26T19:55+00:00",
+   "published_jst": "2026-10-27 04:55",
+   "summary": "大阪府豊中市は、「豊島公園再整備基本計画及び曽根駅周辺まちづくり基本構想策定業務委託」の公募型プロ… The post 日建設計JVを特定/豊島公園・曽根駅計画構想/豊中市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "7011411c0523",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -1110,19 +1152,6 @@
    "published": "2026-10-26T19:55+00:00",
    "published_jst": "2026-10-27 04:55",
    "summary": "中部地方整備局は２７日、「令和８年度２４７号西知多道路東海ＪＣＴ・Ｈランプ橋基礎工事」「同荒尾第２… The post 中部整備局/10月28日から7件受付/東海JCT・Hランプ橋基礎など first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "92f1af560500",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日建設計JVを特定/豊島公園・曽根駅計画構想/豊中市",
-   "url": "https://www.kensetsunews.com/archives/1300906",
-   "published": "2026-10-26T19:55+00:00",
-   "published_jst": "2026-10-27 04:55",
-   "summary": "大阪府豊中市は、「豊島公園再整備基本計画及び曽根駅周辺まちづくり基本構想策定業務委託」の公募型プロ… The post 日建設計JVを特定/豊島公園・曽根駅計画構想/豊中市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -1414,7 +1443,7 @@
    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
    "published": "2026-10-26T15:11+00:00",
    "published_jst": "2026-10-27 00:11",
-   "summary": "Article URL: https://magazine.sebastianraschka.com/p/building-reasoning-models Comments URL: https://news.ycombinator.com/item?id=50245138 Points: 734 # Comments: 101",
+   "summary": "Article URL: https://magazine.sebastianraschka.com/p/building-reasoning-models Comments URL: https://news.ycombinator.com/item?id=50245138 Points: 755 # Comments: 102",
    "ai_related": true,
    "title_ja": "推論モデル構築をゼロから学べるセバスチャン・ラシュカの動画講座",
    "summary_ja": "推論モデルの構築方法を基礎から学べるセバスチャン・ラシュカの解説記事と議論。"
@@ -1592,7 +1621,7 @@
    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
    "published": "2026-10-26T13:04+00:00",
    "published_jst": "2026-10-26 22:04",
-   "summary": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1634 # Comments: 1555",
+   "summary": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1648 # Comments: 1569",
    "ai_related": true,
    "title_ja": "AnthropicのS-1申請書類",
    "summary_ja": "Anthropicが米国証券取引委員会（SEC）に提出したS-1登録書類のリンクと関連記事。"
@@ -1611,81 +1640,6 @@
    "ai_related": false,
    "title_ja": "NFL施設を3か月未満で建設したモジュール工法の裏側",
    "summary_ja": "WillScotの幹部が、建設の特徴や複雑なスケジュール、現場での綿密な調整について詳述する。"
-  },
-  {
-   "id": "fafc71e44e5b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "HS2 and Hinkley work halted by weekend storms",
-   "url": "https://www.constructionnews.co.uk/civils/hs2-and-hinkley-work-halted-by-weekend-storms-26-10-2026/",
-   "published": "2026-10-26T13:01+00:00",
-   "published_jst": "2026-10-26 22:01",
-   "summary": "Extreme weather forced HS2 Ltd to postpone major works this weekend and temporarily halted construction at Hinkley Point C, while engineers also worked to restore power to thousands of homes. The body delivering Britain's £100bn rapid rail link paused works on the Water Orton viaduct… The post HS2 a",
-   "ai_related": false,
-   "title_ja": "週末の嵐でHS2とHinkleyの工事が一時中断",
-   "summary_ja": "悪天候によりHS2の主要工事が延期され、Hinkley Point Cの建設も一時ストップした。"
-  },
-  {
-   "id": "810dd12258f6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "London housing blocks evacuated over ‘serious structural problems’",
-   "url": "https://www.constructionnews.co.uk/buildings/london-housing-blocks-evacuated-over-serious-structural-problems-26-10-2026/",
-   "published": "2026-10-26T12:57+00:00",
-   "published_jst": "2026-10-26 21:57",
-   "summary": "Residents in London’s Canning Town have been evacuated from housing blocks completed less than a decade ago, due to “serious structural problems” understood to relate to cracked transfer slabs. Three of five blocks at Royal Gateway were evacuated on Friday (23 October) after the London… The post Lon",
-   "ai_related": false,
-   "title_ja": "ロンドンの集合住宅、重大な構造上の問題で避難",
-   "summary_ja": "築10年未満のロンドン・カニングタウンの住宅で、スラブのひび割れなどの深刻な問題により住民が避難。"
-  },
-  {
-   "id": "6ed14ef503f6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Canal remains closed after tunnel damaged during VolkerHighways work",
-   "url": "https://www.constructionnews.co.uk/civils/canal-remains-closed-after-tunnel-damaged-during-volkerhighways-work-26-10-2026/",
-   "published": "2026-10-26T12:45+00:00",
-   "published_jst": "2026-10-26 21:45",
-   "summary": "A section of canal in Bath has been closed after a tunnel was damaged during road improvement works by VolkerHighways. The Canal & River Trust (CRT) had to shut a section of the Kennet and Avon Canal and its towpath following the incident on 9… The post Canal remains closed after tunnel damaged duri",
-   "ai_related": false,
-   "title_ja": "VolkerHighwaysの工事でトンネルが損壊、運河が閉鎖",
-   "summary_ja": "道路改良工事中のトンネル損壊を受け、バスの運河と遊歩道の一部が閉鎖された。"
-  },
-  {
-   "id": "e093ae66f4b0",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Former ISG director appointed fit-out body chief executive",
-   "url": "https://www.constructionnews.co.uk/peoplemoves/former-isg-director-appointed-fis-chief-executive-26-10-2026/",
-   "published": "2026-10-26T12:45+00:00",
-   "published_jst": "2026-10-26 21:45",
-   "summary": "Former ISG strategy and innovation director Helen Gawor has been appointed chief executive of trade body Finishes and Interiors Sector (FIS). Gawor will take up the role in January 2027, succeeding Iain McIlwee, who is leaving after eight years in charge. She joined ISG in… The post Former ISG direc",
-   "ai_related": false,
-   "title_ja": "元ISGディレクターが内装団体のCEOに就任",
-   "summary_ja": "FISの次期CEOにHelen Gaworが就任へ。2027年1月に着任し、Iain McIlweeの後を継ぐ。"
-  },
-  {
-   "id": "ed3509416f6d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Autumn Budget 2026: What does construction want?",
-   "url": "https://www.constructionnews.co.uk/government/autumn-budget-2026-what-does-construction-want-26-10-2026/",
-   "published": "2026-10-26T12:45+00:00",
-   "published_jst": "2026-10-26 21:45",
-   "summary": "Could this week’s Budget be the most significant since 2010? Glenigan’s economics director Allan Wilen believes so. Given the state of the UK’s finances and the ongoing wars in Iran and Ukraine, the stakes are high. Meanwhile, AI disruption and financial-market turmoil are adding to… The post Autumn",
-   "ai_related": true,
-   "title_ja": "2026年秋季予算案：建設業界が求めるものとは",
-   "summary_ja": "今週の予算案は2010年以来最も重要か。財政状況や国際情勢を背景に期待が高まる。"
   },
   {
    "id": "bc5e692347d0",
@@ -1768,21 +1722,6 @@
    "ai_related": true,
    "title_ja": "ChatGPTが広げる仕事の世界",
    "summary_ja": "約100か国での仕事におけるChatGPTの活用状況や、時間の経過に伴う変化のデータを公開。"
-  },
-  {
-   "id": "4cc95cac8153",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Wall Street's fastest traders are building data centers and backing chip startups to stay ahead in AI",
-   "url": "https://the-decoder.com/wall-streets-fastest-traders-are-building-data-centers-and-backing-chip-startups-to-stay-ahead-in-ai/",
-   "published": "2026-10-26T09:49+00:00",
-   "published_jst": "2026-10-26 18:49",
-   "summary": "High-frequency traders like Jane Street and Hudson River Trading are now racing each other for AI computing power. The article Wall Street's fastest traders are building data centers and backing chip startups to stay ahead in AI appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "ウォール街の超高速取引業者、AIで優位に立つためデータセンターを建設",
-   "summary_ja": "ジェーン・ストリートやハドソン・リバー・トラディングなどの高頻度取引業者が、AIの計算能力をめぐって激しい競争を繰り広げ、データセンターの建設や半導体スタートアップへの支援を行っている。"
   },
   {
    "id": "aabfc9c1bb43",
@@ -2360,19 +2299,6 @@
    "published_jst": "2026-10-26 00:51",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "8e1bf01ea803",
-   "source": "Dellows News",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "KKGとアルインコ、足場積算を自動化する仮称AI積算を共同開発し2027年春頃投入へ",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1sWER5YVN6WUtBbE5Mb0N0akZaSzRudmlCZXFuVjJfa3h1T2FzTm5NS0Jmb1BWdjdRZnhaVGZ2ZFZqZFdZOFE?oc=5",
-   "published": "2026-10-25T15:44+00:00",
-   "published_jst": "2026-10-26 00:44",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "0c0ce1d91251",
