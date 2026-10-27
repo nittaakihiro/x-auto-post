@@ -1,11 +1,38 @@
 {
   "version": 6,
-  "slot": "night",
-  "date": "2026-10-27",
-  "post_date": "2026-10-27",
-  "generated_at": "2026-10-27T20:50+09:00",
-  "generated_by": "routine:x-post-night",
-  "original_post": null,
+  "slot": "morning",
+  "date": "2026-10-28",
+  "post_date": "2026-10-28",
+  "generated_at": "2026-10-28T06:30+09:00",
+  "generated_by": "routine:x-post-morning",
+  "original_post": {
+    "time": "07:25",
+    "text": "Google DeepMindが「Genie 4」を発表。文章と音声だけで、動く3D世界をリアルタイムに作れる世界モデル。\n\n普通に未来すぎる、、\n\n引用元は英語なので補足すると、公式が投稿したのは、カメラで場面を探索しながら天候や人物を足していくと、登場人物がその場で反応して喋る様子まで音付きで見せるデモ動画です。\n\n・一貫した場面を最長2分間維持(前世代の2倍)\n・音楽や環境音、会話をリアルタイムに同時生成\n・カメラ移動や天候、人物追加を自然言語で指示可能\n・Google AI Ultra加入者と一部API先へ研究プレビューとして順次提供\n\n建設なら、図面から施主説明用のウォークスルー動画や、新人向けの仮設現場シミュレーションをその場で作れる未来に近づく。\n↓詳細",
+    "status": "draft",
+    "article_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "video_url": "https://x.com/GoogleDeepMind/status/2115114028338962672/video/1",
+    "reply_text": "■ 補足\n研究プレビュー段階で一般提供はまだ先。裏側ではGeminiモデルがシーンの一貫性維持を計画役として支援しているとのこと。DeepMind自身も、長時間のセッションでは映像に不整合が出ることがあると認めている。\n\n■ 出典\nhttps://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/\nhttps://x.com/GoogleDeepMind/status/2115114028338962672",
+    "editorial": {
+      "pillar": "一般AI速報",
+      "format": "速報型",
+      "scores": {
+        "surprise": 2,
+        "visual": 2,
+        "freshness": 2,
+        "ai_magnitude": 2,
+        "credibility": 2
+      },
+      "selection_reason": "直近5時間強で発表されたGoogle DeepMind公式の次世代世界モデル。音声付きでリアルタイムに動く3D世界のデモ動画があり、誰もが驚く規模のAI大ネタ。建設の施主説明・現場シミュレーション用途にもつながる。",
+      "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "published_at": "2026-10-28T01:01:00+09:00",
+      "checked_at": "2026-10-28T06:30:00+09:00",
+      "availability": "研究プレビュー（選定テスターのみ。Google AI Ultra加入者・一部APIパートナーへ順次提供予定）",
+      "unverified": [
+        "x.comが本セッションのネットワークポリシーでDNS解決不可(getaddrinfo ENOTFOUND)のため、@GoogleDeepMindの投稿本体と動画そのものは直接閲覧できていない。WebSearch経由でツイートの見出し文（本文の引用）と、Wall St Engine等の独立アカウントによる『デモ動画がある』旨の記述が一致することで裏取りした。"
+      ],
+      "hook_alternative": "もう1案『Googleが『Genie 4』を発表、テキストで世界をその場で作って歩き回れる』は機能紹介止まりで驚きが弱いため不採用。採用案は『動く・喋る・音が鳴る』という体験の驚きを1行目の次にすぐ出す構成にした。"
+    }
+  },
   "engage_cards": [],
-  "skip_reason": "ネタ源の順（①output/ai_buzz.json 全69行→②output/slack_buzz.json 全81行→③output/news_feed.json construction_japan 56件・construction_global 15件・ai_japan 29件・ai_global 48件→④WebSearch 日本語・英語、複数ラウンド）で直近48h（2026-10-25 20:48〜2026-10-27 20:48 JST）の候補を確認したが、『Xに動画(video_url)が確認でき、かつ直近48hの出来事を入口にできる、建設または建設に置き換えられるフィジカルAI/建設AIの候補』が国内外ともゼロで休載。\n\n【国内】\n(1) 荒木組、岡山市旭川の堤防整備工事で建設用3Dプリンタを階段施工に活用、従来12日→2日に短縮（ITmedia BUILT/PR TIMES、2026-10-26 16:00・46,10-26発表）。驚き2/鮮度1/建設距離2/確かさ2と好条件だったが、WebSearchで一次情報（KSBニュース記事・PR TIMES）に当たってもX上の投稿・動画を特定できず（site:x.com検索でも該当なし、見つかったのはKSBのテレビニュース記事とYouTube動画のみでvideo_urlを構成できない）、絵の条件を満たさず不採用。\n(2) オリエンタル白石と燈（Hikari）が吊り足場上の四足歩行ロボット自律歩行を実証（2026-09-08実施・10月報道）。絵2・建設距離2と条件は良いが、戦略の競合除外リスト『光/Hikari（燈）』に該当する事業者が組んでいる実証のため、スコア以前に競合除外で候補から外した。\n(3) 土木研究所『OPERA』×3D LiDARの自動化現場施工技術・実演見学会の開催案内（PR TIMES、2026-10-26 13:02）。見学会はこれから開催する告知であり、施工の様子を撮った動画がまだ存在しないため絵0で不採用。\n(4) 清水建設×Noble Machinesのヒューマノイド共同開発・出資完了発表（2026-10-16公表）。内容は建設距離2と良いが、発表から生成時刻まで48hを大幅に超過しており鮮度0。実証映像も確認できず不採用。\n(5) アールティ製国産四足歩行ロボットの東急建設現場実証（response.jp、2026-05-11）。鮮度0（48h超過）で不採用。\n(6) 大林組の『蔵衛門』全社導入（本日20:00の夕枠本質投稿で既に採用済みのネタのため、同日・別枠での重複使用は不可。動画も無し）。\n\n【海外】\n(1) NVIDIAがリアルタイムモーション生成基盤モデル『MotionBricks』の重みをHugging Faceで公開（@alvarobartt、2026-10-26 23:06投稿・閲覧41,000、Xに動画あり）。絵2・鮮度2は条件を満たすが、内容はゲームキャラクター・人型ロボット向けのモーション生成モデルの重み公開であり、建設現場で実際に作業をしている映像ではないため建設距離0・驚きも技術解説寄りで0。工場・物流等への置き換えも書けないため不採用。\n(2) トヨタが2028年から人型ロボット・工場自動化に年6.4billion drを投資する見通し（ロイター発、2026-09-18初出・10-26再報道）。鮮度1相当だが、資金調達・投資計画の解説記事であり動く実演映像を伴わない（戦略で『資金調達・出資のニュースは絵がないので採用しない』と明記）ため絵0で不採用。\n(3) ロンドンのAll3社、四足歩行AIロボットをドイツ・コブレンツの集合住宅プロジェクトに投入へ（2026-10-13/14付記事）。鮮度0（48h超過）かつ投入は2027年着工予定の将来計画で、実演映像も確認できず不採用。\n(4) Bedrock Roboticsの完全自律型油圧ショベル、米テキサス・ネバダの現場で商用稼働開始（2026年8月発表）。鮮度0で不採用。\n(5) GMT Robotics『Dwall ARCAS』の鉄筋溶接ロボット、シンガポールRibar社で稼働中（LinkedIn投稿・WTC2026言及）。動画はLinkedIn上のみでX投稿を特定できずvideo_urlを構成できないため不採用。X/Twitter上の鮮度確認も不可。\n(6) Boston Dynamics従業員がICEのロボット犬購入計画に抗議（2026-10-27 03:50報道）。建設現場の実演ではなく社内外の政治的対立の報道のため絵・建設距離とも0で不採用。\n\n重複確認: 本日(10-27)朝枠・昼枠はいずれも休載（dashboard.jsonのskip_reasonで確認）。夕枠は大林組『蔵衛門』の本質投稿のため、上記(6)と同一ネタで夜枠には使えない。直近14日(10-13〜10-26)のpost_queue.jsonと照合し、今回検討した候補はいずれとも重複しない。data/analytics/live_metrics.jsonはfetched_at 2026-10-25T22:43:42Zのスナップショットで本日(10-26夜以降)の実投稿は反映されておらず、実投稿との重複は10-25夜時点までしか確認できていない（実投稿未確認）。\n\n技術的制約: 本セッションもWebFetchがx.com・news.ksb.co.jp・news.google.com・www.decn.co.jp等でDNS解決不可（getaddrinfo ENOTFOUND）のため、X投稿本体の動画添付やリプライツリーを直接確認する手段がなく、判断はai_buzz.json/slack_buzz.json収集時点のカテゴリタグ（動画付き投稿を抽出する既存ロジック）・投稿文面の記載・WebSearchによる間接確認のみに基づく。"
+  "skip_reason": null
 }
