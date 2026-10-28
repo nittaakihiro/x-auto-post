@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-28T08:27+00:00",
- "generated_at_jst": "2026-10-28 17:27",
+ "generated_at": "2026-10-28T09:00+00:00",
+ "generated_at_jst": "2026-10-28 18:00",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 53,
-  "construction_global": 37,
   "ai_japan": 29,
+  "construction_japan": 52,
+  "construction_global": 37,
   "ai_global": 67
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -19,6 +23,19 @@
   }
  ],
  "items": [
+  {
+   "id": "4188e2d9d849",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「ダウンロードフォルダでAIを使わないで」――セキュリティ企業が注意喚起 エージェントが攻撃者の指示に従いマルウェアインストールの恐れ",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2610/28/2000002671/",
+   "published": "2026-10-28T08:13+00:00",
+   "published_jst": "2026-10-28 17:13",
+   "summary": "イスラエルのセキュリティ企業によれば、悪意のある「AGENTS.md」が仕込まれたダウンロードフォルダでコーディングエージェントを起動すると、エージェントがマルウェアをインストールしたり、アカウント乗っ取りを支援したりする恐れがある。",
+   "ai_related": true
+  },
   {
    "id": "5eb7d5e3bf47",
    "source": "digital-construction.jp",
@@ -132,19 +149,6 @@
    "ai_related": false,
    "title_ja": "ウェルシュ・ウォーター史上最大の計画が申請される",
    "summary_ja": "11月のサプライヤー向けイベントを経て、来年6億ポンドの調達が開始される予定。"
-  },
-  {
-   "id": "b789a7e004a1",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "2〜3日の作業が数時間に。外部委託に頼らず“自分たちで撮れる”現場へ。京王建設が「トッタロー」で実現した配筋検査DX",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4RFlZNWlTOTdfUnl2WXZ2SnhuYkJFRUxEejJKcjdTTmdxbFJiNEp0OWNnSWpNTnp6dm9yU2g2U0YyWEdMWk5sb01QSlFVTWdQRG9SbGM5YW9CYnJ6QVRjRDVpS2VidUNQUkE?oc=5",
-   "published": "2026-10-28T07:00+00:00",
-   "published_jst": "2026-10-28 16:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "d25e21898cc1",
@@ -264,6 +268,19 @@
    "ai_related": false
   },
   {
+   "id": "51b33adde385",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "KT Cloud、Vertivと提携し韓国・群山AIデータセンターにモジュール型電力・冷却インフラを導入",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5fWlNjZVdjV3NLZkk1RlhEbEN4cFJlb2Z1VFBMSHFldHJ6RjdkV1ctOFZ6MC1SQkVnTU1sal9PWFAzLU5yMmlLZXZrVWwzN09DdEQ3N3AwdlRCTUpQMmpGT3NtSTRhTFZNak5OLUpMRnpWQkhx?oc=5",
+   "published": "2026-10-28T02:56+00:00",
+   "published_jst": "2026-10-28 11:56",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "b1827915d6c5",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -329,13 +346,13 @@
    "ai_related": false
   },
   {
-   "id": "02e1780152ec",
-   "source": "Infoseek",
+   "id": "32623f9c584d",
+   "source": "テクノエッジ TechnoEdge",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "リコー、現場向け360度カメラ「RICOH360 THETA A1」単体での販売開始",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10dEk1MFBCX1h5WXNRREdkaFhGb29ZSlVLTnFWc21aYTBYQzZKMGZBQ3ZtM196S0N3R0h6ZDRNbjRCT0FwUEQyQ0w1TThPVXE4bXhLbWlnSThLS1g0NVE0azgtQmh1SVVyRGU1c29n?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fdkg4c3hzWXFsRi16OWo5OVp2Q0pNVWd2c2tyeVRNY2Fpd0puQWUzRFY3SWNsNExyN1FfQkJYYlI4ckRBNjkyOWYyVzNMVFpVdEhjcm1BaWJQM1hmU3JIYjhwVHlDeElwYVJMVVpmRlFrZw?oc=5",
    "published": "2026-10-28T02:00+00:00",
    "published_jst": "2026-10-28 11:00",
    "summary": "",
@@ -394,19 +411,6 @@
    "published_jst": "2026-10-28 10:00",
    "summary": "阪急阪神不動産、京阪電鉄不動産、積水ハウスの3社は、京都市伏見区で進める大規模複合開発の街の名称を「KYOTO COCO CITY（きょうと...",
    "ai_related": false
-  },
-  {
-   "id": "833f868316d3",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "施工管理アプリ「eYACHO」の導入事例が「SUCCESS STORY AWARD 2026 Autumn by デジタル化の窓口」＜働き方DX部門＞BEST AWARDを受賞",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WckNoOWx5cmNvUl9xN3RvX1FKUGFZLVZkcG05VUs1WmkwVlZGUm9ldFlicGxpYk1DWTFhZjg5OU1XY1Z6MHF0eDVBaGVqMFU2WVR3RElnVXVXYzhrUmxkUnRNZm9lZ2VkSVE?oc=5",
-   "published": "2026-10-28T01:00+00:00",
-   "published_jst": "2026-10-28 10:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "b0abb32664eb",
@@ -692,7 +696,7 @@
    "url": "https://www.anthropic.com/research/early-progress-drug-development",
    "published": "2026-10-27T20:50+00:00",
    "published_jst": "2026-10-28 05:50",
-   "summary": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 215 # Comments: 189",
+   "summary": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 218 # Comments: 198",
    "ai_related": true,
    "title_ja": "Claudeによる創薬開発の早期進展",
    "summary_ja": "Anthropicの研究ブログより、Claudeを活用した創薬開発の加速に関する初期の進捗について。"
@@ -722,23 +726,10 @@
    "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/",
    "published": "2026-10-27T20:48+00:00",
    "published_jst": "2026-10-28 05:48",
-   "summary": "Article URL: https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/ Comments URL: https://news.ycombinator.com/item?id=50265594 Points: 151 # Comments: 79",
+   "summary": "Article URL: https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/ Comments URL: https://news.ycombinator.com/item?id=50265594 Points: 159 # Comments: 81",
    "ai_related": true,
    "title_ja": "デバイスツリーからRaspberry Pi Zero 3W等が発見",
    "summary_ja": "デバイスツリー内にRaspberry Pi Zero 3WおよびPi 4 Model Aの記述が見つかる。"
-  },
-  {
-   "id": "c8f3e4b8f8f8",
-   "source": "経済界ウェブ",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国を挙げて待遇改善に取り組むも 加速する一方の建設業界の人手不足",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pa3ZiY0hNcWFqeFExNkh4dFJKSzdYX201dkIxeldWeE1Da3g1T2FmYWgyVk5oVXZhYzIwT3BlU2ZvNkpRaDlMVTB0MEpSTm9mZFlr?oc=5",
-   "published": "2026-10-27T20:16+00:00",
-   "published_jst": "2026-10-28 05:16",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "24f635d301b9",
@@ -819,7 +810,7 @@
    "url": "https://www.brangus.io/survival-llm",
    "published": "2026-10-27T19:55+00:00",
    "published_jst": "2026-10-28 04:55",
-   "summary": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 322 # Comments: 135",
+   "summary": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 328 # Comments: 137",
    "ai_related": true,
    "title_ja": "Survival LLM：手元のPCで動くAIアシスタント兼緊急図書館",
    "summary_ja": "記事のURLとHacker Newsの議論ページへのリンクが含まれている。"
@@ -1101,15 +1092,15 @@
   },
   {
    "id": "d17d13a0006a",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
    "category": "ai_global",
    "lang": "en",
-   "title": "Genie 4: A new generation of world simulation",
+   "title": "Genie 4",
    "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-   "published": "2026-10-27T16:01+00:00",
-   "published_jst": "2026-10-28 01:01",
-   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "published": "2026-10-27T16:06+00:00",
+   "published_jst": "2026-10-28 01:06",
+   "summary": "Article URL: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/ Comments URL: https://news.ycombinator.com/item?id=50261319 Points: 872 # Comments: 505",
    "ai_related": true,
    "title_ja": "Genie 4：新世代のワールドシミュレーション",
    "summary_ja": "Genie 4は、リアルタイムシミュレーションにおいてかつてないほどのリアリティを実現する新しいワールドモデルである。"
@@ -1778,6 +1769,19 @@
    "ai_related": true
   },
   {
+   "id": "2f9912e8f2ad",
+   "source": "Infoseek",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【開催レポート】2026年10月15日（木）『全国の工務店向け 書籍累計発行部数26万部超！年間360件の相談を解決する「市村塾」市村氏が公開する 裁判にならない建築現場の作り方』を開催",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lX1I2MFhRUEVXak1ENF9PaDk3WEY1WTZMSnNfMDB0cWw3VWpqSUF4M1JxQXcxUGc0dG1CaFA5dHhhQUtYWDBRbVRmbUtEeWdYNzFvUTlRc0RjcER5LUF2dWVhYTZXb3c1VUJiWDEybDlnZw?oc=5",
+   "published": "2026-10-27T07:40+00:00",
+   "published_jst": "2026-10-27 16:40",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "c138d9ca580c",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1830,6 +1834,19 @@
    "lang": "ja",
    "title": "カメラとAIで不安全行動をリアルタイム検知、安全管理基盤「OwloX」を先行提供 フツパー：現場管理",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UVDh1RlhLTERHeTFqZkVDaFZ3a3hKSmxJYmZPcUtycjNULXRocGdKNEt5eDdZMDE0NzNIY1hzRC01dnczNlBHemhEc1R4QmFfN1NQT2FXRF9mU2FSVl9ySFRlNDkxY2poeXVrTQ?oc=5",
+   "published": "2026-10-27T06:00+00:00",
+   "published_jst": "2026-10-27 15:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "cff60246d857",
+   "source": "PR TIMES",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "クアンド、福岡市の下水道インフラ現場で、熟練者の「経験と勘」をAIで記録・継承する実証を開始",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tOWx6aF9EelJpczVWOUhKSTR6NThfaXdGRmw4MmFYVWdhek9NRXotZERaaEJnOW9iY1FMSlJZUmxOOG1QczZWNEpINUt5d3A5SmlvNVZBYVdaTzBtVHlzRkRQbU11NTR0ZXc?oc=5",
    "published": "2026-10-27T06:00+00:00",
    "published_jst": "2026-10-27 15:00",
    "summary": "",
@@ -1927,19 +1944,6 @@
    "ai_related": true
   },
   {
-   "id": "b6d58e48b312",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AI活用が進むほど、物理シミュレーションの重要性は高まる",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/27/news017.html",
-   "published": "2026-10-27T03:00+00:00",
-   "published_jst": "2026-10-27 12:00",
-   "summary": "秋は、海外ベンダーの日本向けイベントが続きますね。",
-   "ai_related": true
-  },
-  {
    "id": "48ee40e550df",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2007,19 +2011,6 @@
    "published_jst": "2026-10-27 10:00",
    "summary": "国土交通省は令和8年10月26日、建設労働需給調査の令和8年9月分の結果を公表しました。全国の8職種計の過不足率は、9月が1.3%の不足でし...",
    "ai_related": false
-  },
-  {
-   "id": "ba0b8428e4fe",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ドローン測量・インフラ点検の無料実演会を11月20日（金）に大分市で開催。DJI Matrice 400・Zenmuse L3などを紹介",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2dmhZMVZLQS01MHNhZk1qVDVtZ2tLaV9OS2d6WERTc2cxZ2ZscTdCUUhqSGxwdVpELTB4Rm1fWXoyWkw0dVRJQk5mbnU4bmdEM1BOMXdOMHZKRzFBaGROMlFRUXBvYVRycHdUeTVnNkYydw?oc=5",
-   "published": "2026-10-27T01:00+00:00",
-   "published_jst": "2026-10-27 10:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "b796c6c685ea",
