@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-28T16:17+00:00",
- "generated_at_jst": "2026-10-29 01:17",
+ "generated_at": "2026-10-28T16:36+00:00",
+ "generated_at_jst": "2026-10-29 01:36",
  "window_hours": 48,
  "counts": {
-  "construction_global": 41,
   "ai_global": 66,
-  "construction_japan": 60,
+  "construction_global": 29,
+  "construction_japan": 56,
   "ai_japan": 33
  },
  "errors": [
@@ -14,11 +14,60 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "ee31e0102e56",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform",
+   "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
+   "published": "2026-10-28T16:25+00:00",
+   "published_jst": "2026-10-29 01:25",
+   "summary": "At DevDay Exchange in Berlin, OpenAI mostly repeated what it had already announced, but it did share a few new details. The AI assistant Dots should roll out more widely in Europe \"in a few weeks,\" and weekly Codex users in Germany have grown twentyfold since January. A clear subtext ran through the",
+   "ai_related": true,
+   "title_ja": "OpenAIが欧州展開に言及、ベルリンでのDevDayの真意",
+   "summary_ja": "ベルリンのDevDayでOpenAIは新情報を明かし、AIアシスタントのDotsを数週間以内に欧州で広く展開すると発表した。"
+  },
+  {
+   "id": "690be7f28dbe",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Claude for Legal now verifies sources automatically, then hands the file to a lawyer",
+   "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
+   "published": "2026-10-28T16:20+00:00",
+   "published_jst": "2026-10-29 01:20",
+   "summary": "Anthropic is adding pre-built templates to Claude for Legal. These interactive overviews and tables simplify setup for legal teams and speed up routine work like contract reviews, while more than 60 integrations let firms connect their own databases directly. The article Claude for Legal now verifie",
+   "ai_related": true,
+   "title_ja": "Claude for Legal、ソースの自動検証機能を追加",
+   "summary_ja": "Anthropicはテンプレートを追加し、契約書レビュー等の定型業務を迅速化するインタラクティブな機能を提供開始した。"
+  },
+  {
+   "id": "1739307690c3",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta says it’ll probably delay its controversial new business terms again",
+   "url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+   "published": "2026-10-28T16:15+00:00",
+   "published_jst": "2026-10-29 01:15",
+   "summary": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full consultation with indu",
+   "ai_related": true,
+   "title_ja": "Meta、新たなビジネス規約の導入を再度延期か",
+   "summary_ja": "AI学習を巡る反発を受け、Metaは新ビジネス規約の施行を11月20日以降に延期する可能性があると発表した。"
+  },
   {
    "id": "e7e9e4188785",
    "source": "Global Construction Review",
@@ -30,7 +79,9 @@
    "published": "2026-10-28T16:01+00:00",
    "published_jst": "2026-10-29 01:01",
    "summary": "A recent report from Suffolk Construction and the Massachusetts Institute of Technology calculated that AI can cut total project costs by 17-20%, project timelines by 22-25% and increase efficiency by… The post ‘Not being used to reduce labour’: Where we’re up to with AI on site appeared first on Gl",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "建設現場におけるAIの現在地とコスト削減効果",
+   "summary_ja": "最新の調査によると、AIの活用により建設プロジェクトのコストを17〜20%削減し、効率性を大幅に高められることが判明した。"
   },
   {
    "id": "d0407e5d8c6e",
@@ -43,7 +94,9 @@
    "published": "2026-10-28T15:53+00:00",
    "published_jst": "2026-10-29 00:53",
    "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AI業界の幹部は一般ユーザーの感覚から乖離している？",
+   "summary_ja": "テック企業のリーダーたちが、家族とのコミュニケーションにAIを使うことを自慢し、一般感覚とのズレを露呈している。"
   },
   {
    "id": "09e3fdf794ae",
@@ -56,7 +109,9 @@
    "published": "2026-10-28T15:49+00:00",
    "published_jst": "2026-10-29 00:49",
    "summary": "Nvidia has released Nemotron 3.5 Transcribe, an open speech recognition model that handles transcription, speaker recognition, and translation and takes its instructions as text prompts. It leads several benchmarks and uses only a sixth of the active parameters of its strongest open rival. Nvidia is",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Nvidia、音声認識のオープンモデルNemotron公開",
+   "summary_ja": "Nvidiaは文字起こしや翻訳、話者認識を一体化したオープンな音声認識モデル「Nemotron 3.5 Transcribe」を発表した。"
   },
   {
    "id": "feda3ad530f5",
@@ -69,7 +124,9 @@
    "published": "2026-10-28T15:41+00:00",
    "published_jst": "2026-10-29 00:41",
    "summary": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "韓国の金融業界、相次ぐサイバー攻撃の標的に",
+   "summary_ja": "韓国の金融機関が再びサイバー攻撃を受け、アジアにおけるAI駆動型ハッキングのリスクが高まっていることが浮き彫りになった。"
   },
   {
    "id": "58eedabfbd32",
@@ -82,7 +139,9 @@
    "published": "2026-10-28T15:38+00:00",
    "published_jst": "2026-10-29 00:38",
    "summary": "Purpose-built engineering AI helps firms automate repetitive work and get “expert guidance” The post Allplan Max delivers engineering AI across portfolio appeared first on AEC Magazine .",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Allplan Max、全ポートフォリオに専門AIを導入",
+   "summary_ja": "専用設計のエンジニアリングAIにより、企業は反復作業を自動化し、専門的なガイダンスを得ることが可能になる。"
   },
   {
    "id": "ebd1e167c721",
@@ -95,7 +154,9 @@
    "published": "2026-10-28T15:04+00:00",
    "published_jst": "2026-10-29 00:04",
    "summary": "Artificial Analysis overhauled its Intelligence Index, causing Kimi K3.1 Pro to drop five spots in the rankings. The article New Artificial Analysis index widens the gap between open and closed models appeared first on The Decoder .",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "人工分析の新指標、オープンとクローズドの差が拡大",
+   "summary_ja": "人工分析がインテリジェンス指数を刷新し、Kimi K3.1 Proがランキングで5つ順位を下げる結果となった。"
   },
   {
    "id": "2952348be6c4",
@@ -108,7 +169,9 @@
    "published": "2026-10-28T15:00+00:00",
    "published_jst": "2026-10-29 00:00",
    "summary": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip wi",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "NVIDIA RTX Spark搭載の新型Windowsノートが登場",
+   "summary_ja": "開発者やクリエイター向けに設計された薄型軽量ノートPCが、主要各社から新たに発売され、強力なAIツールやゲームに対応する。"
   },
   {
    "id": "f1ebb512d4e0",
@@ -121,7 +184,9 @@
    "published": "2026-10-28T15:00+00:00",
    "published_jst": "2026-10-29 00:00",
    "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Nvidia、無料の音声文字起こしモデルを発表",
+   "summary_ja": "最大40言語に対応する音声テキスト変換モデルを公開。録音データの処理に特化し、会議や医療現場の記録ツールとして期待される。"
   },
   {
    "id": "c52bfc168a08",
@@ -147,7 +212,9 @@
    "published": "2026-10-28T14:44+00:00",
    "published_jst": "2026-10-28 23:44",
    "summary": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood reporte",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "xAI、データセンターの騒音訴訟を避けるため買収提案",
+   "summary_ja": "イーロン・マスク氏のxAI関連会社が、近隣の訴訟に参加しないことを条件に、住民の住宅を買い取る提案を行っているという。"
   },
   {
    "id": "23c01b6b7a8e",
@@ -173,7 +240,9 @@
    "published": "2026-10-28T13:55+00:00",
    "published_jst": "2026-10-28 22:55",
    "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "バイブゲーム開発における10月の転換点",
+   "summary_ja": "2025年11月はコーディングエージェントの大きな転換点となり、高精度なAIが日常的な開発ツールとして信頼性を増した時期だった。"
   },
   {
    "id": "b50dc2fcc98b",
@@ -198,8 +267,10 @@
    "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
    "published": "2026-10-28T13:41+00:00",
    "published_jst": "2026-10-28 22:41",
-   "summary": "Article URL: https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/ Comments URL: https://news.ycombinator.com/item?id=50273396 Points: 190 # Comments: 204",
-   "ai_related": true
+   "summary": "Article URL: https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/ Comments URL: https://news.ycombinator.com/item?id=50273396 Points: 199 # Comments: 227",
+   "ai_related": true,
+   "title_ja": "ケンタッキー州の男性、人道主義者として初のAI免除を獲得",
+   "summary_ja": "宗教的信条に基づき、AIの使用を免除される権利を人道主義者として初めて取得した事例についてのニュース。"
   },
   {
    "id": "ae5f9549d022",
@@ -212,7 +283,9 @@
    "published": "2026-10-28T13:40+00:00",
    "published_jst": "2026-10-28 22:40",
    "summary": "The new manufacturing and engineering center will expand the company's U.S. production capacity for advanced thermal management systems, Carrier said.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Carrier Global、テキサス州に6億ドル超を投資へ",
+   "summary_ja": "テキサス州フォートワースに新キャンパスを設立し、熱管理システムの米国生産能力を拡大するとCarrierが発表した。"
   },
   {
    "id": "3873744540eb",
@@ -225,7 +298,9 @@
    "published": "2026-10-28T13:20+00:00",
    "published_jst": "2026-10-28 22:20",
    "summary": "What could engineers achieve with less repetitive work? With Allplan Max, Allplan brings practical AI into everyday engineering workflows. The post How AI can give engineers more time to engineer appeared first on Planning, Building & Construction Today .",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIがエンジニアの本来の業務時間を増やす方法",
+   "summary_ja": "Allplan Maxを活用し、日常的なエンジニアリング業務から反復作業を排除することで、本来の設計業務に集中できる環境を提供する。"
   },
   {
    "id": "dd275cb973e0",
@@ -251,85 +326,22 @@
    "published": "2026-10-28T13:00+00:00",
    "published_jst": "2026-10-28 22:00",
    "summary": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
+   "ai_related": true,
+   "title_ja": "TechCrunch創業者サミットまであと7日、割引パスを急げ",
+   "summary_ja": "11月4日にボストンで開催されるサミットのチケット割引がまもなく終了。経験豊富な専門家と直接つながる絶好の機会。"
+  },
+  {
+   "id": "8aa4d23672e7",
+   "source": "https://c-eye.co.jp/",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "上場会見：ルクレ、建築業界のDX、人手不足が追い風",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBzLWQtcDBFRzhTX0VKQkkxdVMzamt4WmUxOW1JcWxsR3NNdTdWZHlTcmNBdVhZTHpZZWpCTWtncC1hZFlSWmVfSg?oc=5",
+   "published": "2026-10-28T12:46+00:00",
+   "published_jst": "2026-10-28 21:46",
+   "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "e6e7193f611c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Merit administrators extend process by a year",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/merit-administrators-extend-process-by-a-year-28-10-2026/",
-   "published": "2026-10-28T12:45+00:00",
-   "published_jst": "2026-10-28 21:45",
-   "summary": "The administration period for entities of offsite specialist Merit has been extended by 12 months. Merit Holdings Ltd – the main trading arm of Merit Group Services Ltd – ceased operating last year after entering administration, owing creditors £31m. On Wednesday (28 October), insolvency specialist…",
-   "ai_related": false
-  },
-  {
-   "id": "791b236c2e83",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Laing O’Rourke’s 2008 Kingspan fire query revealed in £1.1m dispute",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/laing-orourkes-2008-kingspan-fire-query-revealed-in-1-1m-dispute-28-10-2026/",
-   "published": "2026-10-28T12:45+00:00",
-   "published_jst": "2026-10-28 21:45",
-   "summary": "Laing O’Rourke raised concerns in 2008 about the fire-safety compliance of Kingspan insulation specified for a Bury development which was later remediated, court documents reveal. A query sent to architect BDP in December 2008, more than eight years before the Grenfell Tower fire, questioned the… Th",
-   "ai_related": false
-  },
-  {
-   "id": "a0c9a92690fd",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Skanska defeats sexual harassment claim",
-   "url": "https://www.constructionnews.co.uk/legal/skanska-defeats-12m-sexual-harassment-claim-28-10-2026/",
-   "published": "2026-10-28T12:45+00:00",
-   "published_jst": "2026-10-28 21:45",
-   "summary": "An employment tribunal has dismissed a sexual harassment claim by a former Skanska employee filed almost 17 years out of time. The claim was lodged earlier this year, just months after the female former employee unsuccessfully sought a £12m settlement from the company. London South… The post Skanska",
-   "ai_related": false
-  },
-  {
-   "id": "7af929d6c6fd",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Midlands civil engineering firm targets £150m turnover",
-   "url": "https://www.constructionnews.co.uk/financial/midlands-civil-engineering-firm-targets-150m-turnover-28-10-2026/",
-   "published": "2026-10-28T12:45+00:00",
-   "published_jst": "2026-10-28 21:45",
-   "summary": "Chasetown Civil Engineering is aiming to achieve £150m in revenue within the next four years, the company has said. According to its latest results, the firm posted a 24 per cent increase in turnover to £103.7m for the 12 months to the end of December… The post Midlands civil engineering firm target",
-   "ai_related": false
-  },
-  {
-   "id": "cca62461b36c",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Graham wins fit-out job at £37m Irish hub in London",
-   "url": "https://www.constructionnews.co.uk/contracts/graham-wins-fit-out-job-at-37m-irish-hub-in-london-28-10-2026/",
-   "published": "2026-10-28T12:20+00:00",
-   "published_jst": "2026-10-28 21:20",
-   "summary": "Graham has been appointed by Ireland’s Department of Foreign Affairs and Trade to fit out five floors of office space at Ireland House in central London. The building at 10 Spring Gardens will accommodate the Embassy of Ireland, including its public-facing citizen services office, alongside… The pos",
-   "ai_related": false
-  },
-  {
-   "id": "fce41e6eef15",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Robertson seals deal for £29m Aberdeen school scheme",
-   "url": "https://www.constructionnews.co.uk/contracts/robertson-seals-deal-for-29m-aberdeen-school-scheme-28-10-2026/",
-   "published": "2026-10-28T12:09+00:00",
-   "published_jst": "2026-10-28 21:09",
-   "summary": "Robertson Construction has reached financial close on a contract to refurbish and extend a primary school in Aberdeen. The client, Aberdeen City Council, said the deal is worth £29m. The project is being delivered through Hub North Scotland’s North Schools Programme on behalf of the… The post Robert",
-   "ai_related": false
   },
   {
    "id": "8030d1b5c635",
@@ -342,7 +354,9 @@
    "published": "2026-10-28T12:00+00:00",
    "published_jst": "2026-10-28 21:00",
    "summary": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a site that's supposed ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "テキサス州の有権者がデータセンター建設に猛反発",
+   "summary_ja": "オースティン周辺に進出するデータセンター開発に対し、住民からの反対運動が相次いでいる現状について関係者が語る。"
   },
   {
    "id": "056614830d95",
@@ -355,46 +369,9 @@
    "published": "2026-10-28T12:00+00:00",
    "published_jst": "2026-10-28 21:00",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "73f938bc3e59",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "The Remediation Bill’s implications for main contractors",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/the-remediation-bills-implications-for-main-contractors-28-10-2026/",
-   "published": "2026-10-28T12:00+00:00",
-   "published_jst": "2026-10-28 21:00",
-   "summary": "Paul Woodhams is managing director (regeneration) at McLaren Construction The Building Safety Act has been a defining issue for our sector in this decade. Building safe buildings and remediating existing ones to the mandated standards has resulted in changes to how the industry as a… The post The Re",
-   "ai_related": false
-  },
-  {
-   "id": "53f71caa2e24",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Broad ambitions: bringing an occupied London tower up to date",
-   "url": "https://www.constructionnews.co.uk/project-reports/broad-ambitions-bringing-an-occupied-london-tower-up-to-date-28-10-2026/",
-   "published": "2026-10-28T11:58+00:00",
-   "published_jst": "2026-10-28 20:58",
-   "summary": "Redeveloping an occupied skyscraper is no easy task. But Bam is making the complex Broadgate Tower job look easy The post Broad ambitions: bringing an occupied London tower up to date appeared first on Construction News .",
-   "ai_related": false
-  },
-  {
-   "id": "2b227dba4f19",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Aureos wins £190m Dungeness boiler decommissioning deal",
-   "url": "https://www.constructionnews.co.uk/civils/aureos-wins-190m-dungeness-boiler-decommissioning-deal-28-10-2026/",
-   "published": "2026-10-28T11:43+00:00",
-   "published_jst": "2026-10-28 20:43",
-   "summary": "Aureos has won a contract worth up to £190m to remove eight boilers from the former Dungeness A nuclear power station in Kent. Nuclear Restoration Services (NRS), a subsidiary of the Nuclear Decommissioning Authority, appointed the contractor following a competitive procurement process. The contract",
-   "ai_related": false
+   "ai_related": true,
+   "title_ja": "産業用AIの自律性と人間のコントロールの融合",
+   "summary_ja": "産業分野におけるAIの自律的な動作と、人間による管理体制をどのように両立させるかについての議論。"
   },
   {
    "id": "6da995572c9c",
@@ -407,33 +384,9 @@
    "published": "2026-10-28T11:27+00:00",
    "published_jst": "2026-10-28 20:27",
    "summary": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\" ",
-   "ai_related": true
-  },
-  {
-   "id": "da431ef93079",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "MSはリース、Amazonは直接建設…AI設備投資の計算方式が分かれたビッグテック決算に注目",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EbjdMSl9RNHd6R25WX0VpUDNYWTFaVkdPVWdTUGhMR013T0hHUURwR0dMTGFDaXlTSmJ4WVlTeW50WURXZ2ZUWXBKT0JReThpWDBBNkVDYnFzRWhHX29HOTl3VGFnZlBfWk9PQ2VzcVdhbDlr?oc=5",
-   "published": "2026-10-28T11:25+00:00",
-   "published_jst": "2026-10-28 20:25",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "d1f40ff7a28d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Renew buys specialist power contractor for up to £50m",
-   "url": "https://www.constructionnews.co.uk/financial/ma/renew-buys-specialist-power-contractor-for-up-to-50m-28-10-2026/",
-   "published": "2026-10-28T11:19+00:00",
-   "published_jst": "2026-10-28 20:19",
-   "summary": "Renew Holdings has acquired the parent company of power drilling contractor PBU in a deal worth up to £50m. The AIM-listed engineering services group said it has bought Porter Brothers Holdings through its wholly owned subsidiary Excalon Holdings. Renew paid an initial £31.1m in cash,… The post Rene",
-   "ai_related": false
+   "ai_related": true,
+   "title_ja": "Meta、ひそかに「AIペット手帳」アプリをリリース",
+   "summary_ja": "ユーザーと会話したりイラストを描いたりする仮想ペットが登場する、たまごっち風のゲームアプリ「Waddle World」を公開。"
   },
   {
    "id": "7cfa8cb7db9f",
@@ -446,7 +399,22 @@
    "published": "2026-10-28T11:15+00:00",
    "published_jst": "2026-10-28 20:15",
    "summary": "Anthropic manager Felix Rieseberg says the classic coding interview is dead because Claude now solves small programming tasks better than job candidates do. He'd rather see prototypes that show taste, empathy, and principled thinking, since in his words, \"hunger beats tenure.\" That sounds empowering",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropicの新人に最も求められる起業家精神",
+   "summary_ja": "Claudeがコーディング課題をこなす今、従来の面接は意味を失ったとAnthropicのマネージャーが語る。"
+  },
+  {
+   "id": "da431ef93079",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "MSはリース、Amazonは直接建設…AI設備投資の計算方式が分かれたビッグテック決算に注目",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EbjdMSl9RNHd6R25WX0VpUDNYWTFaVkdPVWdTUGhMR013T0hHUURwR0dMTGFDaXlTSmJ4WVlTeW50WURXZ2ZUWXBKT0JReThpWDBBNkVDYnFzRWhHX29HOTl3VGFnZlBfWk9PQ2VzcVdhbDlr?oc=5",
+   "published": "2026-10-28T11:05+00:00",
+   "published_jst": "2026-10-28 20:05",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "c8f32dbbf494",
@@ -459,7 +427,9 @@
    "published": "2026-10-28T11:02+00:00",
    "published_jst": "2026-10-28 20:02",
    "summary": "Vyssuals acquisition to add live BIM data insights to Enscape as Chaos broadens its role in architectural design The post Chaos continues to expand Enscape beyond arch viz appeared first on AEC Magazine .",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ChaosがEnscapeを建築パース以外へ拡大",
+   "summary_ja": "Vyssualsの買収により、リアルタイムのBIMデータ分析機能をEnscapeに追加し、建築設計での役割を広げる。"
   },
   {
    "id": "420e402469eb",
@@ -485,7 +455,9 @@
    "published": "2026-10-28T10:56+00:00",
    "published_jst": "2026-10-28 19:56",
    "summary": "Cybersecurity startup Cathedral used AI agents to break into Anthropic's internal systems through third-party software as part of a bug bounty program. Anthropic confirmed access to sales, HR, and IT data but disputes how deep the breach went. The incident shows how vulnerable even leading AI labs a",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIエージェントがAI開発のAnthropicをハッキング",
+   "summary_ja": "バグ報奨金プログラムにおいて、サイバーセキュリティ企業がAIエージェントを使い社内システムへの侵入に成功した。"
   },
   {
    "id": "7b1a60be1500",
@@ -498,7 +470,9 @@
    "published": "2026-10-28T10:26+00:00",
    "published_jst": "2026-10-28 19:26",
    "summary": "Should everyone be using AI? Andrew Preston, Director of Marketplace, argues that for sole traders and small firms, the fastest route to new construction work is often the simplest one. The post How small contractors can win work without investing in AI appeared first on Planning, Building & Constru",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "小規模請負業者がAIなしで仕事を受注する方法",
+   "summary_ja": "個人事業者や小規模企業にとって、新しい建設仕事への最短ルートは多くの場合、最もシンプルな手法だと専門家が説く。"
   },
   {
    "id": "5d9615019ec2",
@@ -511,7 +485,9 @@
    "published": "2026-10-28T10:09+00:00",
    "published_jst": "2026-10-28 19:09",
    "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Terk Terkowitzの言葉の引用",
+   "summary_ja": "現在のAIツールで仕事の効率が上がらなくても、それは失敗ではなく発見である。理由を記録し、解決策を探ろう。"
   },
   {
    "id": "7135ad155906",
@@ -537,7 +513,9 @@
    "published": "2026-10-28T09:30+00:00",
    "published_jst": "2026-10-28 18:30",
    "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Legoraが法務向けの自律型OSを構築",
+   "summary_ja": "OpenAIのモデルを活用し、法的業務の効率化や契約分析の拡張を実現するLegoraの取り組みを紹介。"
   },
   {
    "id": "9a44fe63dc49",
@@ -631,19 +609,6 @@
    "ai_related": true
   },
   {
-   "id": "4160530b4981",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Watchdog MPs demand tighter cost controls on Sizewell C",
-   "url": "https://www.constructionenquirer.com/2026/10/28/watchdog-mps-demand-tighter-cost-controls-on-sizewell-c/",
-   "published": "2026-10-28T07:35+00:00",
-   "published_jst": "2026-10-28 16:35",
-   "summary": "MPs call for tougher checks on build costs as funding deal puts taxpayer on hook for construction risk",
-   "ai_related": false
-  },
-  {
    "id": "d2ac949e36b0",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -655,58 +620,6 @@
    "published_jst": "2026-10-28 16:20",
    "summary": "エルヴィス・プレスリーは「キング・オブ・ロックンロール」と称される伝説的ロックスターであり、記事作成時点でも根強い人気を誇っています。そんなプレスリーの著作権を所有する企業や団体が、Claudeを開発するAnthropicがAIモデルの学習にプレスリーの楽曲を無断使用したとして訴訟を起こしました。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "664109824fd8",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Renew buys directional drilling firm for £50m",
-   "url": "https://www.constructionenquirer.com/2026/10/28/renew-buys-directional-drilling-firm-for-50m/",
-   "published": "2026-10-28T07:16+00:00",
-   "published_jst": "2026-10-28 16:16",
-   "summary": "Infrastructure maintenance giant acquires PBU (UK) Ltd",
-   "ai_related": false
-  },
-  {
-   "id": "43df4fad8613",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Take That brother buys £40m North East marine civils firm",
-   "url": "https://www.constructionenquirer.com/2026/10/28/take-that-brother-buys-40m-north-east-marine-civils-firm/",
-   "published": "2026-10-28T07:15+00:00",
-   "published_jst": "2026-10-28 16:15",
-   "summary": "Simon Orange adds marine specialist Southbay to construction interests after William Hare deal",
-   "ai_related": false
-  },
-  {
-   "id": "1537fe23ec7a",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Three firms picked for Essex school building alliance",
-   "url": "https://www.constructionenquirer.com/2026/10/28/three-firms-picked-for-essex-school-building-alliance/",
-   "published": "2026-10-28T07:08+00:00",
-   "published_jst": "2026-10-28 16:08",
-   "summary": "Morgan Sindall, Bowmer & Kirkland and R G Carter secure places through to 2031",
-   "ai_related": false
-  },
-  {
-   "id": "a69bd97f1083",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Plans lodged for Welsh Water’s biggest-ever project",
-   "url": "https://www.constructionenquirer.com/2026/10/28/plans-lodged-for-welsh-waters-biggest-ever-project/",
-   "published": "2026-10-28T07:07+00:00",
-   "published_jst": "2026-10-28 16:07",
-   "summary": "November supplier event sets stage for £600m procurement start next year",
-   "ai_related": false
   },
   {
    "id": "d25e21898cc1",
@@ -824,19 +737,6 @@
    "published_jst": "2026-10-28 12:02",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "2216f644d601",
-   "source": "Dellows News",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Nexadata、積算AI「SAKUJI」のセルフプランを月額9,900円から提供開始",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0ybi1nMV9oQmdWWEJYcVZYck5keHZ6ZzdpQ2VSM3ZYelVSMzdtS3Q0YnBONklocmlDRXU2LU91cFc5Q1p1OXc?oc=5",
-   "published": "2026-10-28T03:01+00:00",
-   "published_jst": "2026-10-28 12:01",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "0b759be8518f",
@@ -1034,19 +934,6 @@
    "published_jst": "2026-10-28 10:00",
    "summary": "阪急阪神不動産、京阪電鉄不動産、積水ハウスの3社は、京都市伏見区で進める大規模複合開発の街の名称を「KYOTO COCO CITY（きょうと...",
    "ai_related": false
-  },
-  {
-   "id": "b0abb32664eb",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「建設サイト・シリーズ」の新規申し込み手続きに公的データとデジタル認証を活用した事業者確認を導入",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EemxEMTdON3lOV1NtVUNQcTBaVXlCX2ZnVTlXUmhVTWJXcUJod3RFSjRUWFBYcjIxSmswRzRfSTZwQ1JBVG9HaUJKdkpmOS1rU2JlZzZNaTBNYkF5cDZjX0Uxc3V6T0JZclE?oc=5",
-   "published": "2026-10-28T01:00+00:00",
-   "published_jst": "2026-10-28 10:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "fe04a7e0dbfa",
@@ -1317,7 +1204,7 @@
    "url": "https://www.anthropic.com/research/early-progress-drug-development",
    "published": "2026-10-27T20:50+00:00",
    "published_jst": "2026-10-28 05:50",
-   "summary": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 286 # Comments: 275",
+   "summary": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 288 # Comments: 276",
    "ai_related": true,
    "title_ja": "Claudeによる創薬開発の早期進展",
    "summary_ja": "Anthropicの研究ブログより、Claudeを活用した創薬開発の加速に関する初期の進捗について。"
@@ -1347,7 +1234,7 @@
    "url": "https://www.constructiondive.com/news/je-dunn-minneapolis-airport-upgrade/872957/",
    "published": "2026-10-27T20:13+00:00",
    "published_jst": "2026-10-28 05:13",
-   "summary": "The Metropolitan Airports Commission selected the general contractor to serve as construction manager at risk for an expansion project at Minneapolis-Saint Paul International Airport.",
+   "summary": "The Metropolitan Airports Commission selected the general contractor to serve as construction manager at risk for a modernization and expansion project at Minneapolis-Saint Paul International Airport.",
    "ai_related": false,
    "title_ja": "JE Dunn、ミネアポリス空港の4億8千万ドルの改修を受注",
    "summary_ja": "同空港の近代化・拡張計画に向け、メトロポリタン空港委員会が建設管理者に選出した。"
@@ -1394,19 +1281,6 @@
    "ai_related": true
   },
   {
-   "id": "552773ca763e",
-   "source": "建通新聞",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "徳島県土木施工管理技士会と県土整備部が意見交換会開く 書類の簡素化など",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcEVaOG5xMGRLUUdkbkRmemg4VnIwTVVXMVBNQlVWVy1BMGJRcUN1WDhwcjNMMzEzdDJXc2t3bnJwWlpQMDBjWFBuaW1RdkZqOTd4RHBPTHFBcnhKVTEwNWdyU0pLbENhUWtJeTVpekhTdHR0c28zRVhEa19VWVdMbw?oc=5",
-   "published": "2026-10-27T20:00+00:00",
-   "published_jst": "2026-10-28 05:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "62b1fcdba263",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -1416,7 +1290,7 @@
    "url": "https://www.brangus.io/survival-llm",
    "published": "2026-10-27T19:55+00:00",
    "published_jst": "2026-10-28 04:55",
-   "summary": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 460 # Comments: 173",
+   "summary": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 465 # Comments: 174",
    "ai_related": true,
    "title_ja": "Survival LLM：手元のPCで動くAIアシスタント兼緊急図書館",
    "summary_ja": "記事のURLとHacker Newsの議論ページへのリンクが含まれている。"
@@ -1642,11 +1516,11 @@
    "source_id": "construction_enquirer",
    "category": "construction_global",
    "lang": "en",
-   "title": "Mace Construct makes £62m pre-tax loss in carve-out year",
+   "title": "Mace Construct targets top-three spot ahead of rebrand",
    "url": "https://www.constructionenquirer.com/2026/10/27/mace-construct-targets-top-three-spot-ahead-of-rebrand/",
    "published": "2026-10-27T16:43+00:00",
    "published_jst": "2026-10-28 01:43",
-   "summary": "New name and strategy imminent after management reshuffle",
+   "summary": "Construct to unveil new name next week as results reveal £62m pre-tax loss last year",
    "ai_related": false,
    "title_ja": "Mace Construct、分離独立初年度に6200万ポンドの税引前損失",
    "summary_ja": "経営陣の刷新に伴い、新名称と戦略が間もなく発表される予定。"
@@ -1982,21 +1856,6 @@
    "summary_ja": "乾式工法の施工業者は仕切りや天井、開口部など多様な作業を扱い、図面間の行き来が多く積算ニーズは複雑です。"
   },
   {
-   "id": "d5687e413b3d",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI's partner content arrives in ChatGPT pre-summarized while the rest of the web gets raw scraps",
-   "url": "https://the-decoder.com/openais-partner-content-arrives-in-chatgpt-pre-summarized-while-the-rest-of-the-web-gets-raw-scraps/",
-   "published": "2026-10-27T11:39+00:00",
-   "published_jst": "2026-10-27 20:39",
-   "summary": "Content from OpenAI's licensing partners appears to flow into ChatGPT through a dedicated pipeline that gives it priority over the rest of the web. The article OpenAI's partner content arrives in ChatGPT pre-summarized while the rest of the web gets raw scraps appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "OpenAIの提携コンテンツは要約済みでChatGPTへ",
-   "summary_ja": "OpenAIの提携パートナーのコンテンツは専用パイプライン経由で優先的にChatGPTに提供されています。"
-  },
-  {
    "id": "ec7cbc5db60c",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2008,21 +1867,6 @@
    "published_jst": "2026-10-27 20:30",
    "summary": "米Anthropicは10月26日（現地時間）、IPOの目論見書（Form S-1）を米SECに提出した。社内コードの9割超をAIが書き、AI利用額が人件費を上回るといった活用の実態から、AIが人類にもたらし得るリスクまで、多岐にわたって言及している。",
    "ai_related": true
-  },
-  {
-   "id": "791dee979bca",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic uses its IPO letter to renew its pledge that Claude will never show ads",
-   "url": "https://the-decoder.com/anthropic-uses-its-ipo-letter-to-renew-its-pledge-that-claude-will-never-show-ads/",
-   "published": "2026-10-27T11:20+00:00",
-   "published_jst": "2026-10-27 20:20",
-   "summary": "Anthropic says it will keep ads out of Claude. In a cover letter accompanying its IPO filing, the company argues that the chatbot's sole incentive should be to provide helpful answers. The article Anthropic uses its IPO letter to renew its pledge that Claude will never show ads appeared first on The",
-   "ai_related": true,
-   "title_ja": "Anthropic、IPO書簡でClaudeの広告非表示を再表明",
-   "summary_ja": "AnthropicはClaudeに広告を導入しない方針です。IPO申請書の書簡で、チャットボットは有用な回答の提供に専念すべきだと主張しています。"
   },
   {
    "id": "9dbb9e5222c0",
@@ -2068,21 +1912,6 @@
    "ai_related": false,
    "title_ja": "女性向け作業服のファッションショーがカナダで話題",
    "summary_ja": "カルガリーでの建設業女性協会年次総会で、日常の課題解決が業界変革の第一歩になると強調されました。"
-  },
-  {
-   "id": "415aa97d276f",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Data center backlash is uniting America",
-   "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-   "published": "2026-10-27T10:00+00:00",
-   "published_jst": "2026-10-27 19:00",
-   "summary": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become",
-   "ai_related": true,
-   "title_ja": "データセンターへの反発がアメリカで一体感を生む",
-   "summary_ja": "2026年にあらゆる層の有権者の関心を集める問題がデータセンターであり、急速な建設とそれに伴うコストが議論を呼んでいます。"
   },
   {
    "id": "6809e05fb525",
@@ -2143,26 +1972,13 @@
   {
    "id": "675b45251c80",
    "source": "Dellows News",
-   "source_id": "gnews_bim_ai",
+   "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "アルインコとKKG、足場向け(仮称）AI積算を開発 2027年春頃の市場投入へ",
    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1zZDhTRmNoUEFZWjRPTTVWWE5hbk56dnZudHdQVDRpR1JjaVpOQXlmcHJuWFlOM0tZc0Z2T2JkNnNDeXJ4aXc?oc=5",
    "published": "2026-10-27T08:48+00:00",
    "published_jst": "2026-10-27 17:48",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "bcd9d3901bb0",
-   "source": "Vietnam.vn",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ホーチミン市建築大学は創立50周年を迎え、AI時代における新たな教育方針を打ち出した。",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWlg2MktfYjZ6dUU2QXdOZlpZOGprbDBHTDVxLVA2bjd6VVJxV29RRk52TUF1WVNoTTVEcjZxdkEyRk14TElBZlE2YVQxXzNoMzUxVVJ4dnBHNUtQTDFpV2E4aWFsMWpDZjA4QnJkMTI1bS13d1d1dDd6TWJCeXJZczYwODE1MVJrcUF5REMzUldraGZfYWp5Z3E5VThJQWg3SEcxWGxWTGc?oc=5",
-   "published": "2026-10-27T08:45+00:00",
-   "published_jst": "2026-10-27 17:45",
    "summary": "",
    "ai_related": false
   },
@@ -2180,6 +1996,21 @@
    "ai_related": false,
    "title_ja": "McAlpine、1.33億ポンドのイングランド銀行改修工事を受注",
    "summary_ja": "スレッドニードル街の施設改修を巡り、ボヴィスとオーヴァベリーが競合の末に敗北。"
+  },
+  {
+   "id": "ed81de3a7977",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "United Infrastructure buys £15m roofing specialist",
+   "url": "https://www.constructionenquirer.com/2026/10/27/united-infrastructure-buys-15m-roofing-specialist/",
+   "published": "2026-10-27T07:55+00:00",
+   "published_jst": "2026-10-27 16:55",
+   "summary": "County Durham-based Hodgson Sayers brings 100 staff into the group",
+   "ai_related": false,
+   "title_ja": "United Infrastructure、1500万ポンドの屋根専門企業を買収",
+   "summary_ja": "ダラム州拠点のHodgson Sayersが、100人の従業員を抱えてグループに参画。"
   },
   {
    "id": "2f9912e8f2ad",
@@ -2223,6 +2054,36 @@
    "ai_related": false,
    "title_ja": "ヴィストリ、セバーン・トレントから新財務責任者を迎える",
    "summary_ja": "元クレスト・ニコルソンのCFOが暫定職を務めた後、ヘレン・マイルズ氏が2027年に財務責任者に就任します。"
+  },
+  {
+   "id": "23ba00ed978e",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Green light to convert student block to hotel and resi",
+   "url": "https://www.constructionenquirer.com/2026/10/27/green-light-to-convert-student-block-to-hotel-and-resi/",
+   "published": "2026-10-27T07:31+00:00",
+   "published_jst": "2026-10-27 16:31",
+   "summary": "Westcombe Group to transform vacant building in Hampton Wick",
+   "ai_related": false,
+   "title_ja": "学生寮のホテルおよび住宅への転換が承認",
+   "summary_ja": "Westcombe Groupがハンプトン・ウィックにある空きビルを改修へ。"
+  },
+  {
+   "id": "09470ae6d005",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Anglian Water picks 20 for M&E upkeep framework",
+   "url": "https://www.constructionenquirer.com/2026/10/27/anglian-water-picks-20-for-me-upkeep-framework/",
+   "published": "2026-10-27T07:05+00:00",
+   "published_jst": "2026-10-27 16:05",
+   "summary": "Galliford Try and M Group among five contractors securing places on all four lots",
+   "ai_related": false,
+   "title_ja": "Anglian Water、設備維持管理向けに20社を選定",
+   "summary_ja": "Galliford TryやM Groupなど5社が全4分野ですべての枠を獲得。"
   },
   {
    "id": "a3a879144b29",
@@ -2411,19 +2272,6 @@
    "published_jst": "2026-10-27 10:00",
    "summary": "国土交通省は令和8年10月26日、建設労働需給調査の令和8年9月分の結果を公表しました。全国の8職種計の過不足率は、9月が1.3%の不足でし...",
    "ai_related": false
-  },
-  {
-   "id": "ba0b8428e4fe",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ドローン測量・インフラ点検の無料実演会を11月20日（金）に大分市で開催。DJI Matrice 400・Zenmuse L3などを紹介",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2dmhZMVZLQS01MHNhZk1qVDVtZ2tLaV9OS2d6WERTc2cxZ2ZscTdCUUhqSGxwdVpELTB4Rm1fWXoyWkw0dVRJQk5mbnU4bmdEM1BOMXdOMHZKRzFBaGROMlFRUXBvYVRycHdUeTVnNkYydw?oc=5",
-   "published": "2026-10-27T01:00+00:00",
-   "published_jst": "2026-10-27 10:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "b796c6c685ea",
