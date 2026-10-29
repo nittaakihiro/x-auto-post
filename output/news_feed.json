@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-29T14:23+00:00",
- "generated_at_jst": "2026-10-29 23:23",
+ "generated_at": "2026-10-29T14:40+00:00",
+ "generated_at_jst": "2026-10-29 23:40",
  "window_hours": 48,
  "counts": {
   "ai_global": 66,
-  "construction_global": 36,
-  "construction_japan": 58,
-  "ai_japan": 34
+  "construction_global": 26,
+  "ai_japan": 34,
+  "construction_japan": 57
  },
  "errors": [
   {
@@ -14,11 +14,28 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "60c269dfa54e",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+   "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+   "published": "2026-10-29T14:35+00:00",
+   "published_jst": "2026-10-29 23:35",
+   "summary": "On Thursday, AI app, Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+   "ai_related": true
+  },
   {
    "id": "a5980a6c5a8c",
    "source": "The Decoder",
@@ -111,19 +128,6 @@
    "ai_related": true
   },
   {
-   "id": "ef043cfe5e6a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Almost half of buildings under developer contract still await repairs",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/almost-half-of-buildings-under-developer-contract-still-await-repairs-29-10-2026/",
-   "published": "2026-10-29T13:06+00:00",
-   "published_jst": "2026-10-29 22:06",
-   "summary": "Almost half of residential buildings with life-critical fire-safety defects covered by the developer remediation contract have yet to start repairs, government figures show. At 30 September 2026, work had not begun on 1,266 of the 2,682 affected buildings (47 per cent). Nearly a third of… The post A",
-   "ai_related": false
-  },
-  {
    "id": "f52687297c33",
    "source": "NVIDIA Blog",
    "source_id": "nvidia",
@@ -163,62 +167,17 @@
    "ai_related": true
   },
   {
-   "id": "74d7c48d56f2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
+   "id": "eebb63f2228b",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
    "lang": "en",
-   "title": "Building liability orders: BLO-win’ in the wind?",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/building-liability-orders-blo-win-in-the-wind-29-10-2026/",
-   "published": "2026-10-29T12:42+00:00",
-   "published_jst": "2026-10-29 21:42",
-   "summary": "James Morris is a partner at Mayer Brown Could your company be held liable for building defects it had nothing to do with? Under the Building Safety Act 2022 (BSA) – the most significant statutory intervention into the construction sector's liability landscape for a generation… The post Building lia",
-   "ai_related": false,
-   "title_ja": "建築物責任命令：風向きの変化か？",
-   "summary_ja": "関係のない建築欠陥の責任を企業が問われる可能性について、Building Safety Act 2022の観点から解説します。"
-  },
-  {
-   "id": "3a2403411caf",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "NHS corrects Sacyr hospital contract after £957m ‘error’",
-   "url": "https://www.constructionnews.co.uk/buildings/nhs-corrects-2bn-sacyr-hospital-contract-after-957m-error-29-10-2026/",
-   "published": "2026-10-29T12:33+00:00",
-   "published_jst": "2026-10-29 21:33",
-   "summary": "Almost £1bn has disappeared from the published value of Sacyr's contract to build one of the 11 facilities in the current wave of the New Hospital Programme. The original contract award notice, published on 21 October, put the value of the Frimley Park Hospital deal… The post NHS corrects Sacyr hosp",
-   "ai_related": false,
-   "title_ja": "NHS、Sacyrの病院契約で約10億ポンドを修正",
-   "summary_ja": "新病院計画の契約発表額から約10億ポンドが消滅。当初の公表額に大きな誤りがあったことが判明しました。"
-  },
-  {
-   "id": "50331bdc14e3",
-   "source": "AIsmiley",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIを成果につなげるデータ基盤のつくり方〜上村建設に学ぶ、データ統合からAI活用への実践ステップ〜",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1fVnlxSzNhZWJaWHhwaG8zMlFyaDRJUWJoSm5GUXFwQk44Sl9SdW1YZURmTVpEOVlCdEdVaXN5TUN3ckVBVUJrRTBJRzlSTWlHRXVxRThycWdGaHF3cU9LdFJWRFM?oc=5",
-   "published": "2026-10-29T12:17+00:00",
-   "published_jst": "2026-10-29 21:17",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "55aeb40adbfe",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Budget 2026: Fears over construction cuts as funding shifts to defence",
-   "url": "https://www.constructionnews.co.uk/government/budget-2026-fears-over-construction-cuts-as-funding-shifts-to-defence-29-10-2026/",
-   "published": "2026-10-29T11:35+00:00",
-   "published_jst": "2026-10-29 20:35",
-   "summary": "Construction firms have warned that government capital spending cuts could threaten project pipelines, while the potential benefits of increased defence investment remain unclear. In his first Budget on Wednesday, chancellor John Healey confirmed a 1 per cent reduction in departmental capital budget",
-   "ai_related": false,
-   "title_ja": "予算案2026：防衛費シフトで建設投資削減への懸念",
-   "summary_ja": "政府の資本支出削減がプロジェクトに悪影響を及ぼす恐れがあり、防衛投資増の効果も不透明だと懸念されています。"
+   "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+   "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+   "published": "2026-10-29T12:41+00:00",
+   "published_jst": "2026-10-29 21:41",
+   "summary": "Article URL: https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1 Comments URL: https://news.ycombinator.com/item?id=50288019 Points: 165 # Comments: 117",
+   "ai_related": true
   },
   {
    "id": "7716f1b238ae",
@@ -232,21 +191,6 @@
    "published_jst": "2026-10-29 19:22",
    "summary": "AI大手のAnthropicが自社モデルのClaudeをトレーニングするため、10人以上のスタンフォード大学教授の研究成果を違法に盗用したとして、スタンフォード大学教授らから訴訟を起こされています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "df4f8a021da5",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bridging the Delta: building high-speed tracks over the M42",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/features/bridging-the-delta-building-high-speed-tracks-over-the-m42-29-10-2026/",
-   "published": "2026-10-29T10:21+00:00",
-   "published_jst": "2026-10-29 19:21",
-   "summary": "Balfour Beatty Vinci is constructing 13 viaducts to carry HS2 trains over two busy motorways, local roads, existing rail lines, rivers and floodplains The post Bridging the Delta: building high-speed tracks over the M42 appeared first on Construction News .",
-   "ai_related": false,
-   "title_ja": "M42上に高速鉄道の高架橋を建設",
-   "summary_ja": "Balfour Beatty Vinciが、HS2の列車を高速道路や河川の上空に通すための13の高架橋を建設中です。"
   },
   {
    "id": "ec5ac67c7615",
@@ -292,36 +236,6 @@
    "ai_related": true,
    "title_ja": "アリゾナ州の水資源を脅かすAI",
    "summary_ja": "砂漠地帯にそびえる巨大な施設で、多様なデジタルサービスを支える高度な技術開発が行われています。"
-  },
-  {
-   "id": "9ad5eab4851f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Jones Bros turnover surges past £240m",
-   "url": "https://www.constructionnews.co.uk/financial/jones-bros-turnover-surges-past-240m-29-10-2026/",
-   "published": "2026-10-29T09:29+00:00",
-   "published_jst": "2026-10-29 18:29",
-   "summary": "Civil engineering contractor Jones Bros has reported a 52.7 per cent jump in turnover to a record £240.5m, breaking through the £200m mark for the first time. The Ruthin-based group recorded pre-tax profit of £11.3m for the year to 31 March 2026, up 50.3 per… The post Jones Bros turnover surges past",
-   "ai_related": false,
-   "title_ja": "Jones Brosの売上高が2億4000万ポンドを突破",
-   "summary_ja": "土木大手のJones Brosは売上高が52.7%増の2億405万ポンドとなり、過去最高を記録しました。"
-  },
-  {
-   "id": "483bcf7fb5e6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Government sets 3% apprentice requirement for major projects",
-   "url": "https://www.constructionnews.co.uk/government/553737-29-10-2026/",
-   "published": "2026-10-29T09:12+00:00",
-   "published_jst": "2026-10-29 18:12",
-   "summary": "The government has announced plans to require apprentices to make up at least 3 per cent of the workforce on all large government construction and infrastructure projects. The requirement was set out in yesterday's Budget, alongside new procurement guidance allowing contractors to be scored on… The ",
-   "ai_related": false,
-   "title_ja": "政府、大型案件で3%のapprenticeship要件を設定",
-   "summary_ja": "大規模な政府インフラ事業において、労働力全体の少なくとも3%を実習生とする方針が発表されました。"
   },
   {
    "id": "e43227d543cd",
@@ -549,7 +463,7 @@
    "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "published": "2026-10-29T03:33+00:00",
    "published_jst": "2026-10-29 12:33",
-   "summary": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 487 # Comments: 198",
+   "summary": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 490 # Comments: 200",
    "ai_related": true,
    "title_ja": "Claude Code、3単語のステータスにトークンの20%を消費",
    "summary_ja": "Claude Codeが3単語のステータス表示のために15〜20%のトークンを無駄に消費しているという指摘についての議論。"
@@ -1321,21 +1235,6 @@
    "summary_ja": "今回の追加出資により、自律走行技術スタートアップの総調達額は10億ドルに迫り、企業評価額は41億ドルに達した。"
   },
   {
-   "id": "185e559c77b9",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini 4 Carbon",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "published": "2026-10-28T17:01+00:00",
-   "published_jst": "2026-10-29 02:01",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ Comments URL: https://news.ycombinator.com/item?id=50276792 Points: 972 # Comments: 776",
-   "ai_related": true,
-   "title_ja": "Gemini 4 Carbonに関する詳細情報",
-   "summary_ja": "グーグルの公式ブログおよびHacker NewsにおけるGemini 4 Carbonの発表ページと議論へのリンク。"
-  },
-  {
    "id": "b0da25ea6c1a",
    "source": "Google DeepMind Blog",
    "source_id": "deepmind",
@@ -1437,51 +1336,6 @@
    "ai_related": true,
    "title_ja": "OpenAIが欧州展開に言及、ベルリンでのDevDayの真意",
    "summary_ja": "ベルリンのDevDayでOpenAIは新情報を明かし、AIアシスタントのDotsを数週間以内に欧州で広く展開すると発表した。"
-  },
-  {
-   "id": "1477965e2206",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Round-up of construction projects winning Budget funding",
-   "url": "https://www.constructionnews.co.uk/government/round-up-of-construction-projects-winning-budget-funding-28-10-2026/",
-   "published": "2026-10-28T16:24+00:00",
-   "published_jst": "2026-10-29 01:24",
-   "summary": "Leeds College of Building and the city's train station have been allocated £15m and £300m respectively as part of a series of construction projects backed by the government in today's Budget. Today's Budget also confirmed more than £300m for improvements to Leeds railway station, aimed… The post Rou",
-   "ai_related": false,
-   "title_ja": "予算案で建設プロジェクトへ資金配分",
-   "summary_ja": "政府の予算案により、リーズ建築大学に1,500万ポンド、市内の駅に3億ポンドが配分されるなど、複数の建設事業が支援されます。"
-  },
-  {
-   "id": "608e33570c8d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Warm Homes loses £1bn as government redirects capital spending to defence",
-   "url": "https://www.constructionnews.co.uk/government/warm-homes-loses-1bn-as-government-redirects-capital-spending-to-defence-28-10-2026/",
-   "published": "2026-10-28T16:23+00:00",
-   "published_jst": "2026-10-29 01:23",
-   "summary": "The government has confirmed a £1bn cut to Warm Homes Plan capital grants and £700m of reductions to hydrogen and carbon capture funding to help pay for defence, alongside a further £3bn reduction in departmental capital budgets. The Budget also identified a £200m saving from… The post Warm Homes lo",
-   "ai_related": false,
-   "title_ja": "ウォーム・ホームズ予算が10億ポンド減額",
-   "summary_ja": "防衛費の財源確保のため、政府は温暖化対策や水素・炭素回収への補助金を削減し、省庁の資本支出もさらに圧縮することを正式に確認しました。"
-  },
-  {
-   "id": "feb23c65e641",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Mayors to gain £1.5bn borrowing facility for regeneration projects",
-   "url": "https://www.constructionnews.co.uk/government/mayors-to-gain-1-5bn-borrowing-facility-for-regeneration-projects-28-10-2026/",
-   "published": "2026-10-28T16:23+00:00",
-   "published_jst": "2026-10-29 01:23",
-   "summary": "The government has announced a £1.5bn borrowing facility for regional authorities to invest in infrastructure and regeneration, alongside plans to allow mayors to use growth in business rates to finance major developments. The facility will become operational from April 2028 and will include mechani",
-   "ai_related": false,
-   "title_ja": "自治体に15億ポンドの融資枠を新設",
-   "summary_ja": "インフラや地域再生への投資を促進するため、政府は地方自治体向けに15億ポンドの融資枠を設け、事業税の増収分を活用できるようにします。"
   },
   {
    "id": "690be7f28dbe",
@@ -2175,19 +2029,6 @@
    "ai_related": true
   },
   {
-   "id": "3d73486377b6",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "HD現代建設機械、群山のエンジン新工場が竣工…AIデータセンター市場を開拓",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yUnNpcUFkdGkxWUg3eUZQYmJwYnRGT2RXYzZ5dGFEaXBKQTV3WHRfQTNnRmlQcTBINUJnRGZ3VDA5QmNxUWtlTmFKa2h4NkoxZFJ3?oc=5",
-   "published": "2026-10-28T02:30+00:00",
-   "published_jst": "2026-10-28 11:30",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "35bfea4ccaff",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -2354,21 +2195,6 @@
    "summary_ja": "銀行大手は、AIエージェントのアクセスに起因する活動の責任は顧客にあるとリマインドしている。"
   },
   {
-   "id": "a9a2cf8c96fe",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Who’s really in charge at Anthropic after the IPO?",
-   "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-   "published": "2026-10-27T21:38+00:00",
-   "published_jst": "2026-10-28 06:38",
-   "summary": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
-   "ai_related": true,
-   "title_ja": "IPO後のAnthropic、実質的な実権を握るのは誰か",
-   "summary_ja": "Anthropicの非常に複雑なガバナンス構造について、分かりやすく解説する。"
-  },
-  {
    "id": "78aca7aaafb2",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -2481,6 +2307,32 @@
    "summary_ja": "イースト・サンフェルナンド・バレーの交通渋滞緩和を目指す、6.7マイルのプロジェクトが始動。"
   },
   {
+   "id": "be5ccb795ea9",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "11月27日までアセス準備書を縦覧/播磨臨海地域道路/兵庫県、神戸市",
+   "url": "https://www.kensetsunews.com/archives/1301695",
+   "published": "2026-10-27T19:55+00:00",
+   "published_jst": "2026-10-28 04:55",
+   "summary": "兵庫県と神戸市は、播磨臨海地域道路の環境影響評価準備書の縦覧を始めた。縦覧期間は１１月２７日まで。… The post 11月27日までアセス準備書を縦覧/播磨臨海地域道路/兵庫県、神戸市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "147d01b03b7b",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "連載・検証・中東の荒波――異なる夏景色(上)",
+   "url": "https://www.kensetsunews.com/archives/1301478",
+   "published": "2026-10-27T19:55+00:00",
+   "published_jst": "2026-10-28 04:55",
+   "summary": "【品薄は解消傾向、資材最大４割高／資金需要に融資拡大で応える】 ２月２８日の米国とイスラエルによるイ… The post 連載・検証・中東の荒波――異なる夏景色(上) first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "462e812a70d9",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2533,32 +2385,6 @@
    "ai_related": false
   },
   {
-   "id": "11763c4bd5d2",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "11月2日まで参加申込/長南西部工業団地跡活用/千葉・長南町",
-   "url": "https://www.kensetsunews.com/archives/1301544",
-   "published": "2026-10-27T19:55+00:00",
-   "published_jst": "2026-10-28 04:55",
-   "summary": "千葉県長南町は、長南西部工業団地計画跡地約６２haの活用に向けサウンディング（対話）型市場調査を実… The post 11月2日まで参加申込/長南西部工業団地跡活用/千葉・長南町 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "b622193e85a3",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "11月26日まで参加申請/WTO道東道本流鵡川第一橋鋼上部工/NEXCO北海道",
-   "url": "https://www.kensetsunews.com/archives/1301559",
-   "published": "2026-10-27T19:55+00:00",
-   "published_jst": "2026-10-28 04:55",
-   "summary": "ＮＥＸＣＯ東日本北海道支社は、ＷＴＯ対象となる「道東自動車道本流鵡川第一橋（鋼上部工）工事」の一般… The post 11月26日まで参加申請/WTO道東道本流鵡川第一橋鋼上部工/NEXCO北海道 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "a9c65cb82822",
    "source": "Simon Willison",
    "source_id": "simonw",
@@ -2587,6 +2413,19 @@
    "ai_related": true,
    "title_ja": "自然言語でタンパク質を設計するAIツールが登場",
    "summary_ja": "作りたいタンパク質の種類を指示するだけで、AIが設計を行ってくれるツールが登場した。"
+  },
+  {
+   "id": "7bcaa2473b8e",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "新型コロナを吹き飛ばす 「建設DX」",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPd2gyWGx6TlRVdEZWQjB3ci1mdFgya1V5eTQzcTJ5Z3U2dGRzeUF1ajZEdE02ZmxGTGZmSC0xc2hVM213WEpKcWFSbGdWd0ZCLVVfenN3cW9nMk1ual8yUEhzSmVOR0xLM1lhdXFCMjhqYWtVdGZ6cUt1WTBUMFJpdTMzRGt4WGFkTEYzUUxLNC1rQ1owRl9MTTRSaHlTUVZBUVRYN3JTMnVKTXhrZmVDN0tNQ1hKYkRtSW5FaDl0TVl2eC0zcVFMOHZPdmFRdzVEd2pUamtMSlI1Rm1oYlNpYVplTWN6WkY2bzlETG4tNmlzMU1wUDZDTXB3eVZ5WG1uanpLXy1PcnN5WXdyVG1waExLcVk?oc=5",
+   "published": "2026-10-27T18:34+00:00",
+   "published_jst": "2026-10-28 03:34",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "9e290980bd0b",
