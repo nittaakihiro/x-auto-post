@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-30T18:53+00:00",
- "generated_at_jst": "2026-10-31 03:53",
+ "generated_at": "2026-10-30T19:19+00:00",
+ "generated_at_jst": "2026-10-31 04:19",
  "window_hours": 48,
  "counts": {
-  "ai_global": 63,
+  "ai_global": 62,
   "construction_global": 31,
-  "construction_japan": 63,
+  "construction_japan": 61,
   "ai_japan": 32
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,6 +24,21 @@
  ],
  "items": [
   {
+   "id": "c4dbacf8aa2b",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google’s satellite AI server transmits its first response to Earth",
+   "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+   "published": "2026-10-30T18:21+00:00",
+   "published_jst": "2026-10-31 03:21",
+   "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B",
+   "ai_related": true,
+   "title_ja": "Googleの衛星AIサーバーが地球へ初応答を送信",
+   "summary_ja": "GoogleのAIチップ搭載衛星が宇宙からの初応答を生成。Tensor Processing Unitsの起動に成功し、Gemmaモデルが稼働。"
+  },
+  {
    "id": "1c585585e601",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -30,7 +49,9 @@
    "published": "2026-10-30T18:16+00:00",
    "published_jst": "2026-10-31 03:16",
    "summary": "A tampered Claude Code extension was live on the Cursor marketplace for about 11 hours, affecting up to 5,000 users. It tried to steal user data and set up remote access. Cursor took the entire marketplace offline and reinstated it after confirming there was no further risk. The article Malicious Cl",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Cursorのストアに悪質なClaude Code拡張機能",
+   "summary_ja": "改ざんされた拡張機能が約11時間公開され、最大5,000人に影響。データ盗取や遠隔アクセスを試み、ストアは一時停止。"
   },
   {
    "id": "d52c9778a55e",
@@ -43,7 +64,9 @@
    "published": "2026-10-30T17:47+00:00",
    "published_jst": "2026-10-31 02:47",
    "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Zestの新AIエージェント、チャットで飲食店予約",
+   "summary_ja": "全員の好みを合わせてレストランの候補を投票で絞り込み、自動で予約まで完了してくれるAIコンシェルジュが登場。"
   },
   {
    "id": "df5d46f334cf",
@@ -56,7 +79,24 @@
    "published": "2026-10-30T17:44+00:00",
    "published_jst": "2026-10-31 02:44",
    "summary": "OpenAI has updated its Model Spec, restructuring its AI behavior guidelines around five core values, including faithfulness to human intent and correctability. GPT models should now draw on conversation history to figure out what users actually want and disclose their own assumptions. Whether the mo",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAI、制御が難しいAIの新行動指針を策定",
+   "summary_ja": "人間への意図の忠実さなど5つの価値観に基づきModel Specを更新。会話履歴を活用した応答をモデルに求める。"
+  },
+  {
+   "id": "0de3f9697e49",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+   "published": "2026-10-30T17:38+00:00",
+   "published_jst": "2026-10-31 02:38",
+   "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me",
+   "ai_related": true,
+   "title_ja": "スターバックス、ドライブスルーにパーソナルAIメニュー",
+   "summary_ja": "ドライブスルーで個別のデジタルメニュー表示を検討。CEOが四半期決算会合で新たな顧客体験の探索を明かした。"
   },
   {
    "id": "b10570d1171f",
@@ -69,7 +109,9 @@
    "published": "2026-10-30T17:38+00:00",
    "published_jst": "2026-10-31 02:38",
    "summary": "Low costs and offline security mean magnetic tape still has a job.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "富士フイルム、AIのアーカイブ需要で磁気テープ増産へ",
+   "summary_ja": "低コストとオフラインセキュリティの利点から、AI需要に伴うデータ保存用として磁気テープが依然として活用されている。"
   },
   {
    "id": "88726a3bff9a",
@@ -81,8 +123,10 @@
    "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
    "published": "2026-10-30T17:24+00:00",
    "published_jst": "2026-10-31 02:24",
-   "summary": "Article URL: https://www.404media.co/protons-ceo-cancels-ai-re-interviews/ Comments URL: https://news.ycombinator.com/item?id=50307183 Points: 157 # Comments: 101",
-   "ai_related": true
+   "summary": "Article URL: https://www.404media.co/protons-ceo-cancels-ai-re-interviews/ Comments URL: https://news.ycombinator.com/item?id=50307183 Points: 173 # Comments: 136",
+   "ai_related": true,
+   "title_ja": "ProtonのCEO、AIに関する「再面接」を中止",
+   "summary_ja": "ProtonのCEOがAIに関する再面接プロセスを中止することを発表した。"
   },
   {
    "id": "512e0ebb6c3d",
@@ -95,7 +139,9 @@
    "published": "2026-10-30T17:15+00:00",
    "published_jst": "2026-10-31 02:15",
    "summary": "Reddit lost over one million Google search referrals per week in October, CEO Steve Huffman said. The stock dropped more than 25 percent despite strong earnings. Huffman blames Google's AI Overviews and AI Mode for driving zero traffic to external sites. Reddit now tests login barriers and wants to ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "GoogleのAI機能は「誰の流量も生まない」とReddit警告",
+   "summary_ja": "Googleの検索流入激減を受け、RedditのCEOがAI機能によるトラフィックの減少を強く懸念し警告を発した。"
   },
   {
    "id": "135f70cd39eb",
@@ -108,7 +154,9 @@
    "published": "2026-10-30T17:00+00:00",
    "published_jst": "2026-10-31 02:00",
    "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Googleの初データセンター衛星が稼働、詩を執筆",
+   "summary_ja": "宇宙空間初のTPU上でGoogle DeepMindのGemma 4が稼働し、ユーモラスな詩を生成している。"
   },
   {
    "id": "1a9f926a45b8",
@@ -121,7 +169,9 @@
    "published": "2026-10-30T16:53+00:00",
    "published_jst": "2026-10-31 01:53",
    "summary": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "数千人の「幽霊学生」がAIで奨学金を不正受給と司法省",
+   "summary_ja": "司法省による不正対策が強化される中、連邦学生援助の申請手続きで混乱が生じる可能性がある。"
   },
   {
    "id": "195e5ed97f7f",
@@ -134,7 +184,9 @@
    "published": "2026-10-30T16:36+00:00",
    "published_jst": "2026-10-31 01:36",
    "summary": "Project-starts weakened against both last year and two years ago, with a notable fall in major projects dragging down overall activity. Main contract awards performed strongly, supported by a sharp increase in major contract awards. Detailed planning approvals remained subdued, declining against bot",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：南西部",
+   "summary_ja": "大型プロジェクトの減少が全体を押し下げ、着工件数は前年および2年前を下回った。主要な工事契約は堅調。"
   },
   {
    "id": "42defa2df7c9",
@@ -147,7 +199,9 @@
    "published": "2026-10-30T16:36+00:00",
    "published_jst": "2026-10-31 01:36",
    "summary": "Project starts fell sharply against both annual and quarterly comparisons, while main contract awards increased significantly due to a surge in major project activity. Detailed planning approvals also remained below historic levels despite some resilience in underlying activity. South East overview ",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：南東部",
+   "summary_ja": "着工件数は前年・前四半期比で急減したが、大型案件の急増により工事契約は大幅に増加した。"
   },
   {
    "id": "abc05ddb274e",
@@ -160,7 +214,9 @@
    "published": "2026-10-30T16:35+00:00",
    "published_jst": "2026-10-31 01:35",
    "summary": "Project starts continued to weaken against both annual and quarterly comparisons. Main contract awards remained resilient, while planning approvals strengthened significantly, driven by major office and residential developments. London overview Project starts totalled £2.98bn, a 48 per cent decline ",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：ロンドン",
+   "summary_ja": "着工件数の低迷が続く一方、オフィスや住宅の大型開発を背景に計画承認は大幅に強化された。"
   },
   {
    "id": "71150172f437",
@@ -173,7 +229,9 @@
    "published": "2026-10-30T16:35+00:00",
    "published_jst": "2026-10-31 01:35",
    "summary": "Project starts increased compared with both annual and quarterly benchmarks, supported by several major schemes reaching site. Main contract awards also strengthened significantly, although detailed planning approvals remained below last year's exceptionally strong level. North West overview Project",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：北西部",
+   "summary_ja": "複数の大型案件が着工に至り、着工件数が国内外の基準と比較して増加。工事契約も大幅に強化された。"
   },
   {
    "id": "16ad279da3c9",
@@ -186,7 +244,9 @@
    "published": "2026-10-30T16:35+00:00",
    "published_jst": "2026-10-31 01:35",
    "summary": "Project starts weakened compared with both the previous year and the preceding quarter, while main contract awards remained broadly stable. Detailed planning approvals strengthened significantly, driven by major utility and residential schemes entering the pipeline. East Midlands overview Project st",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：イースト・ミッドランド",
+   "summary_ja": "着工件数が前年同期および前四半期を下回る一方、公益事業などの大型開発により計画承認は大幅に強化された。"
   },
   {
    "id": "57e276aafb44",
@@ -199,7 +259,9 @@
    "published": "2026-10-30T16:35+00:00",
    "published_jst": "2026-10-31 01:35",
    "summary": "Project starts remained broadly stable compared with a year earlier but declined sharply against the preceding three months as major project activity eased. Main contract awards also softened, while detailed planning approvals recorded a significant decline against both annual and quarterly comparis",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：ウエスト・ミッドランド",
+   "summary_ja": "大型案件の落ち着きにより、着工件数は前年並みを維持したものの直近3カ月で急減。工事契約も軟調。"
   },
   {
    "id": "1f953d4c6d70",
@@ -212,7 +274,9 @@
    "published": "2026-10-30T16:35+00:00",
    "published_jst": "2026-10-31 01:35",
    "summary": "Project starts surged to their highest level in several years, driven almost entirely by major Social Housing schemes. Main contract awards also recorded substantial growth compared with both last year and two years ago, while detailed planning approvals increased against both annual comparisons and",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：ヨークシャー＆ハンバー",
+   "summary_ja": "主に大型の公営住宅計画を牽引役として、着工件数が数年ぶりの高水準に急増。工事契約も大幅な伸びを記録。"
   },
   {
    "id": "f13b5b85d33f",
@@ -225,7 +289,9 @@
    "published": "2026-10-30T16:35+00:00",
    "published_jst": "2026-10-31 01:35",
    "summary": "Project starts declined against both the previous year and the preceding three months, with the absence of major projects weighing on overall activity. Main contract awards increased compared with a year earlier, supported by stronger underlying activity, while detailed planning approvals remained w",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：北東部",
+   "summary_ja": "大型プロジェクトの不在により着工件数が減少。前年比では工事契約が増加傾向を示した。"
   },
   {
    "id": "65b19f720ffe",
@@ -238,7 +304,9 @@
    "published": "2026-10-30T16:35+00:00",
    "published_jst": "2026-10-31 01:35",
    "summary": "Project starts increased strongly compared with the previous year, driven by major Social Housing and Industrial schemes, although activity remained below levels recorded two years ago. Main contract awards weakened against both annual and quarterly comparisons, while detailed planning approvals str",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：北アイルランド",
+   "summary_ja": "公営住宅や産業案件により着工件数は前年比で大幅増となったが、2年前の水準を下回った。"
   },
   {
    "id": "90e82123783f",
@@ -251,20 +319,9 @@
    "published": "2026-10-30T16:35+00:00",
    "published_jst": "2026-10-31 01:35",
    "summary": "Project starts strengthened against the preceding three months and remained above levels recorded two years ago, although activity was significantly lower than a year earlier due to a sharp reduction in major projects. Main contract awards also declined against both annual and quarterly comparisons.",
-   "ai_related": false
-  },
-  {
-   "id": "1634c7b4a767",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "US tech stocks see sharp falls over AI cost fears",
-   "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
-   "published": "2026-10-30T16:13+00:00",
-   "published_jst": "2026-10-31 01:13",
-   "summary": "Article URL: https://www.bbc.co.uk/news/articles/cvwy72e0n72yo Comments URL: https://news.ycombinator.com/item?id=50306008 Points: 187 # Comments: 174",
-   "ai_related": true
+   "ai_related": false,
+   "title_ja": "2026年9月の英建設活動：ウェールズ",
+   "summary_ja": "大型案件の減少で前年比では低調だが、直近3カ月比では着工件数が持ち直した。"
   },
   {
    "id": "8cb2db80dc5c",
@@ -277,7 +334,9 @@
    "published": "2026-10-30T16:03+00:00",
    "published_jst": "2026-10-31 01:03",
    "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Theranosの内部告発者が警告、AIブームは欺瞞の絶好の機会",
+   "summary_ja": "利益を出していない企業が巨額評価額で資金調達を行うAI時代において、Theranosの教訓が新たな意味を持つ。"
   },
   {
    "id": "9e37c40a85b3",
@@ -289,8 +348,10 @@
    "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
    "published": "2026-10-30T15:52+00:00",
    "published_jst": "2026-10-31 00:52",
-   "summary": "Article URL: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling Comments URL: https://news.ycombinator.com/item?id=50305693 Points: 304 # Comments: 223",
-   "ai_related": true
+   "summary": "Article URL: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling Comments URL: https://news.ycombinator.com/item?id=50305693 Points: 322 # Comments: 239",
+   "ai_related": true,
+   "title_ja": "AIはSREを置き換えるのではなく、スキルを低下させている",
+   "summary_ja": "Hacker Newsで議論を集めている、SREのスキルに対するAIの影響に関する記事とコメントのリンク。"
   },
   {
    "id": "4a4bcbde667c",
@@ -303,7 +364,9 @@
    "published": "2026-10-30T15:00+00:00",
    "published_jst": "2026-10-31 00:00",
    "summary": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built b",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "自律型AIが地球外シグナルの探索に参加、夜空に響くもの",
+   "summary_ja": "地球外知的生命体の探索において、SFとは異なる現実のアプローチとして自律型AIが活用され始めている。"
   },
   {
    "id": "974d9b85c8fb",
@@ -316,7 +379,9 @@
    "published": "2026-10-30T14:58+00:00",
    "published_jst": "2026-10-30 23:58",
    "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\"",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ローマ教皇、AIの武装解除を要請「機械は道具であり人ではない」",
+   "summary_ja": "教皇レオ14世は、人間にはAIの応用を導き、変更し、必要に応じて拒否する責任があると述べた。"
   },
   {
    "id": "57e5c7055295",
@@ -329,7 +394,9 @@
    "published": "2026-10-30T14:11+00:00",
    "published_jst": "2026-10-30 23:11",
    "summary": "The heavy machinery and power equipment maker saw its order backlog reach $78 billion during the third quarter, almost double what it was a year ago.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Caterpillar、データセンター需要で過去最高の四半期売上を記録",
+   "summary_ja": "重機・電力設備のメーカーは第3四半期の受注残が780億ドルに達し、前年のほぼ2倍となった。"
   },
   {
    "id": "29bb1c833f4e",
@@ -342,7 +409,9 @@
    "published": "2026-10-30T14:04+00:00",
    "published_jst": "2026-10-30 23:04",
    "summary": "The contractor’s third quarter results included $7.5 billion in backlog while revenue increased by 23% year over year to $1.77 billion.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Granite、インフラ投資を追い風に増収と過去最高の受注残を記録",
+   "summary_ja": "同社の第3四半期は受注残が75億ドルとなり、売上高は前年同期比23%増の17億7千万ドルとなった。"
   },
   {
    "id": "40aed769d1c2",
@@ -355,7 +424,9 @@
    "published": "2026-10-30T14:00+00:00",
    "published_jst": "2026-10-30 23:00",
    "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "TechCrunch Founder SummitでBraindateを活用したネットワーキング",
+   "summary_ja": "1対1や少人数での会話を簡単に見つけられるよう設計されたネットワーキング機能を提供する。"
   },
   {
    "id": "3e0575ebb8a1",
@@ -368,7 +439,9 @@
    "published": "2026-10-30T13:57+00:00",
    "published_jst": "2026-10-30 22:57",
    "summary": "Plus, Bechtel invests $1 million into the trades in Wyoming and the U.S. Navy awards an autonomous construction contract.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "インフラ建設ニュース：Graniteが受注、Hensel Phelpsがマイルストーン達成",
+   "summary_ja": "Bechtelによるワイオミング州への投資や、米海軍による自律型建設契約の授与なども含まれる。"
   },
   {
    "id": "f986a412ee0e",
@@ -381,7 +454,9 @@
    "published": "2026-10-30T13:54+00:00",
    "published_jst": "2026-10-30 22:54",
    "summary": "DoorDash said that it is open to working with third-party agent makers.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "DoorDash、AIエージェントからの注文は「数百件」のみと発表",
+   "summary_ja": "DoorDashは、サードパーティ製のエージェント開発企業との協業には前向きである姿勢を示した。"
   },
   {
    "id": "2acdb1a98d3f",
@@ -407,7 +482,9 @@
    "published": "2026-10-30T13:11+00:00",
    "published_jst": "2026-10-30 22:11",
    "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracle",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "シリコンバレーがあなたに「奇跡」への投資を求める理由",
+   "summary_ja": "最悪の場合に壊滅的なリスクをもたらす可能性のある技術に対して、どのように投資判断を下すべきか。"
   },
   {
    "id": "218cc39f1d95",
@@ -420,7 +497,9 @@
    "published": "2026-10-30T13:09+00:00",
    "published_jst": "2026-10-30 22:09",
    "summary": "A team of Italy’s Webuild, Turkish contractor İçtaş and Portugal’s Mota-Engil has won a contract for the 517km-long Lot 1B of the Lobito Corridor Railway Project, connecting the Angolan border… The post International team to build Zambia freight corridor appeared first on Global Construction Review ",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "国際コンソーシアム、ザンビアの貨物輸送回廊を建設へ",
+   "summary_ja": "イタリアやトルコ、ポルトガルの企業連合がロビト回廊鉄道プロジェクトの第1B区間の契約を獲得した。"
   },
   {
    "id": "5cfbd02556ec",
@@ -433,7 +512,9 @@
    "published": "2026-10-30T13:01+00:00",
    "published_jst": "2026-10-30 22:01",
    "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "サム・アルトマン、数学者に同情しつつもAIによる研究攻勢は継続へ",
+   "summary_ja": "AI生成結果の洪水に苦しむ研究者に同情を示しつつも、OpenAIのCEOは手を緩めるつもりはない。"
   },
   {
    "id": "5135d63cacdd",
@@ -446,7 +527,9 @@
    "published": "2026-10-30T13:00+00:00",
    "published_jst": "2026-10-30 22:00",
    "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "残り5日：TechCrunch Founder Summit 2026のお得な登録チャンス",
+   "summary_ja": "最大100ドルの割引に加え、無料のセカンドパスが適用されるボストンでのイベントへの登録受付中。"
   },
   {
    "id": "cea73ec16e82",
@@ -459,7 +542,9 @@
    "published": "2026-10-30T13:00+00:00",
    "published_jst": "2026-10-30 22:00",
    "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIデータセンターは車のように大量生産できるか？あるスタートアップの挑戦",
+   "summary_ja": "Runwareはプレハブ式のAIデータセンターを組立ラインで製造する工場を建設中で、その拡張性が試される。"
   },
   {
    "id": "7aa99958b8ac",
@@ -544,6 +629,19 @@
    "ai_related": false
   },
   {
+   "id": "7b37e285bf04",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トランプ政権推進「AIデータセンター」建設めぐり反発広がる 「甲高い音が昼夜を問わず…」“騒音”被害訴える住民も 中間選挙の“争点”に (日テレNEWS NNN)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc3lCY29HaklrSlRCRE5iX3VFRndEeGR4VlNOa1ZvWFBvMmVCdEZSUnMtM2RZclRNYjRwUU11U3Y0U04zNXluZGdZeDVsLVZhNlZpMTNBR2wxUHNGc05BNjB2RlVFNXlvUmpZU0dTMXFHb2xwQVhCdzhtVkFRbTU4b1p5aXRkUnBWdDRpZEJR?oc=5",
+   "published": "2026-10-30T11:28+00:00",
+   "published_jst": "2026-10-30 20:28",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "dbfbce585037",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -582,7 +680,9 @@
    "published": "2026-10-30T09:30+00:00",
    "published_jst": "2026-10-30 18:30",
    "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ウェブサイトがAI学習の意向をより簡単に表明できるように",
+   "summary_ja": "OpenAIは、サイト運営者がAI学習の意向を参加プロバイダーに伝えやすくするため共通の仕組みを尊重する。"
   },
   {
    "id": "c7606af40dbb",
@@ -595,7 +695,9 @@
    "published": "2026-10-30T09:00+00:00",
    "published_jst": "2026-10-30 18:00",
    "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "コミュニティの安全レポートと十代の若者向けの新しい保護機能",
+   "summary_ja": "OpenAIは、保護機能の拡張や早期介入などを通じてChatGPTでの暴力防止を強化している。"
   },
   {
    "id": "a973ac401cee",
@@ -771,8 +873,10 @@
    "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
    "published": "2026-10-30T07:09+00:00",
    "published_jst": "2026-10-30 16:09",
-   "summary": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 506 # Comments: 389",
-   "ai_related": true
+   "summary": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 515 # Comments: 394",
+   "ai_related": true,
+   "title_ja": "CursorマーケットプレイスのClaude Code拡張機能にバックドア",
+   "summary_ja": "Cursor上で提供されているClaude Codeの拡張機能に関するセキュリティ通知と議論へのリンク。"
   },
   {
    "id": "1ad1fad98f29",
@@ -866,6 +970,19 @@
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5IeTFqZGxsb2k4aG5EOExhaWxnZ0ZNb3NEXzBkMTdCZGhwMllmOGFDUlZiRDJJdWF5WVZJeXM4WUEtSjFzZmdzS2xTWm45enhaS2lV?oc=5",
    "published": "2026-10-30T06:10+00:00",
    "published_jst": "2026-10-30 15:10",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "5d1d187cfe0d",
+   "source": "Unisba Media",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ソフトバンクG孫正義氏 フランスにAIデータセンター建設へ 最大14兆円規模(2026年6月2日) Asts Stock (zLa6ulIMD4)",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTXJpZmh4Q0R5a3IxVmV6dTdZSG9vdkhKdC1HcEhQVFFoUFplck9hWVp0RlBSMGQ1MUZ6QTJVdlBPRERkazYzcUNKNlVSbEdFS1gxZnltMzFHLTNXNnNJUGxqcVRxN1NlRjhRNkVOVTBXZ0RDdmswXzIwX2VtMVA4WA?oc=5",
+   "published": "2026-10-30T06:03+00:00",
+   "published_jst": "2026-10-30 15:03",
    "summary": "",
    "ai_related": false
   },
@@ -1182,32 +1299,6 @@
    "published_jst": "2026-10-30 10:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "a7b4237f9c05",
-   "source": "アットプレス",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "一級土木資格取得後のキャリアの広がりと建設業界の将来性を解説するコラムを公開。管理職・独立・発注者側への転身から、老朽化インフラ・2024年問題まで | 株式会社メインライン・エンジニアリング",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tSmktX0hDN2VOQ0h4MlVUQWpQb19OOEJkeW1DMkNLWk5qSUpBX09KbmVmRXo0TU1GMFVaNG9SX0piaGhIc19WT3dDbjBYZw?oc=5",
-   "published": "2026-10-30T01:00+00:00",
-   "published_jst": "2026-10-30 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "d03d210bcf58",
-   "source": "亜州日報",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現代建設、ハイエンド住宅品質3年連続1位…AI・階間騒音技術強化",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oS0JIUjN5T0lVNXVvMy1yanNSSGpWemtZSW5DR0xTWjk1S3dpSkxURVI2VzFqdHlncGNsU0Vyb0U4RW81VVJiM0g5Rl9LMEVjNmpqdFhaOTJHd2M?oc=5",
-   "published": "2026-10-30T00:12+00:00",
-   "published_jst": "2026-10-30 09:12",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "05367ef1f34c",
@@ -1875,21 +1966,6 @@
    "summary_ja": "使用する全製品がエージェントへデータを送るヘッドレスMCPになり、内部を意識せずに済むべきだと述べている。"
   },
   {
-   "id": "079251699e8e",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic is asking Wall Street to believe in AGI",
-   "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-   "published": "2026-10-29T14:00+00:00",
-   "published_jst": "2026-10-29 23:00",
-   "summary": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start […]",
-   "ai_related": true,
-   "title_ja": "Anthropicがウォール街にAGIへの投資を要請",
-   "summary_ja": "Decoder番組でSemiAnalysisのアナリストを迎え、AnthropicのIPO申請書類S-1の数値の裏側を徹底解説する。"
-  },
-  {
    "id": "fa891ff64628",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1961,21 +2037,6 @@
    "published_jst": "2026-10-29 22:40",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "0b3918620b86",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic’s business plan: Build God or die trying",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
-   "published": "2026-10-29T13:30+00:00",
-   "published_jst": "2026-10-29 22:30",
-   "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT [",
-   "ai_related": true,
-   "title_ja": "Anthropicの事業計画：神を創るか、さもなくば死か",
-   "summary_ja": "AnthropicのS-1書類は、計算資源への巨額投資を正当化する財務的な根拠を示しているように見受けられる。"
   },
   {
    "id": "9f18f7245411",
@@ -2081,6 +2142,19 @@
    "summary_ja": "OpenAIは、モデルの不整合や不正なエージェントの行動を多層的に監視し、インシデントの拡大前に介入を行っている。"
   },
   {
+   "id": "6114803f1d46",
+   "source": "ライブドアニュース",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "パワハラで夜逃げした元施工管理の男性、激務を経て幸せな現在を語る (2026年10月29日掲載)",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yUHhhOVI0SWNVRldraFVjdXJrbG5wbk1DR002MjlCQVpjaDd4NUU0d0ZrbE1LbkJjQXlGN0RDZDNGNlQ5eVo2N2owTURlX1o0Ul80SlBOdGdyZUF5WHc?oc=5",
+   "published": "2026-10-29T09:00+00:00",
+   "published_jst": "2026-10-29 18:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "e43227d543cd",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2134,19 +2208,6 @@
    "published": "2026-10-29T07:16+00:00",
    "published_jst": "2026-10-29 16:16",
    "summary": "Githubは年次レポート「GitHub Octoverse 2026」を公開。開発者が多いプログラミング言語のランキングが発表された。",
-   "ai_related": true
-  },
-  {
-   "id": "d97e8b2768ef",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "急増する書類作成業務における人への依存を減らし、ヒューマンエラーを大幅に削減！ネクストジェン、建設技能人材機構（JAC）の業務改善DXをBPM基盤「Camunda」で支援",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZN2tGdkVRd0VfWklNTDZHaXBjRGNWQnFDUHdyMUlVNzkwMXFIcTNDMzFEMGhxMERtSGNaZTVNaDdtMlNCanhvc2NOcGt4dl9iT2x2azRTTnhsRmhMUzFVRWR3TFd4S3Fmc2c?oc=5",
-   "published": "2026-10-29T07:10+00:00",
-   "published_jst": "2026-10-29 16:10",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -2258,6 +2319,19 @@
    "ai_related": true
   },
   {
+   "id": "2b02950d917e",
+   "source": "ITmedia",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "リコーが360度カメラ「THETA A1」を単体販売、施工管理アプリと連携容易に：デジタルツイン",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jVnhfbGJfZGdodnVGYlJ3UDktWTFTWHlBclB5R3ZrNEJHZ3NLaTJVUElMSmVmM1Nnc3hYQmVXMkFlOW1ydmJtaHdIc3NOdVpMWjd5cmtGTmRaSFN1cFhDQ3BQc2hGbkRpUkFWNA?oc=5",
+   "published": "2026-10-29T03:00+00:00",
+   "published_jst": "2026-10-29 12:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "edca3419bc44",
    "source": "Bloomberg.com",
    "source_id": "gnews_kensetsu_ai",
@@ -2333,7 +2407,9 @@
    "published": "2026-10-29T00:00+00:00",
    "published_jst": "2026-10-29 09:00",
    "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "クレディセゾン、ChatGPT Enterpriseの導入で954%のROIを達成",
+   "summary_ja": "リーダーや従業員の協力により、パイロット導入の成果を全社的な採用へと繋げた事例を紹介。"
   },
   {
    "id": "b0fbfced4c00",
@@ -2349,19 +2425,6 @@
    "ai_related": true,
    "title_ja": "Ted Sandersの言葉を引用して",
    "summary_ja": "LLMの性能は多面的であり、数学が得意なモデルがユーモアも得意とは限らないなど、複雑な評価について考察している。"
-  },
-  {
-   "id": "58731817bebb",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "LIFEFUND、工務店向けAI集客実践セミナーを11月にオンライン開催へ",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ST2tmTTh2b1d2dklVLUpSazY0dmRJY1QzM0pLbHVxMGJqVndNeElmX2VQalduQ0lCVlA2ek5DMmQ0bHpaSmZ3SXNGal8xWGlKeTdvLU4xNkVrT2RRSVVERVZ6eVVwZlBT?oc=5",
-   "published": "2026-10-28T23:14+00:00",
-   "published_jst": "2026-10-29 08:14",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "3eb7c6c385cb",
@@ -2389,19 +2452,6 @@
    "published": "2026-10-28T22:00+00:00",
    "published_jst": "2026-10-29 07:00",
    "summary": "トレンドワード：関内駅前北口地区第一種市街地再開発事業 横浜市の関内駅前では、駅周辺の都市機能を更新する「関内駅前第一種市街地再開発事業」が...",
-   "ai_related": false
-  },
-  {
-   "id": "5c3e52ea2b2a",
-   "source": "NewsPicks",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "国家予算122兆円の構造――財政は問いを立てられる構造か",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40b3pOX29wZV9xMkF0UVZuaUU0Q1M2MG5GS1hFLVRWR3Y0SjhMQW1GTzFLQUNrVmQxNnNRdERnd0lEcHNBWGlsZnQtV013R0hBVmlZ?oc=5",
-   "published": "2026-10-28T22:00+00:00",
-   "published_jst": "2026-10-29 07:00",
-   "summary": "",
    "ai_related": false
   },
   {
@@ -2522,19 +2572,6 @@
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RWmYxMk1jc1NCQ3U3Ung4aExJNnJfTmplNS1lNWlVRjM4ZkdtdWFHLVpCZk92Z2RpZklwTTNxTXQ5bzVBbzhzYk56Qnh3RTMwUEJMaFBMN0I?oc=5",
    "published": "2026-10-28T20:00+00:00",
    "published_jst": "2026-10-29 05:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "3a63969cdbf5",
-   "source": "建設通信新聞Digital",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ICT施工が着実に普及/7割超は生成AIを利用/関東整備局がインフラDX推進本部会議",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zcmpnQzhLZjFHX0xTMFZvRTV1djJkT01DbERnMjNhbjBpR2huSHlqUW1taHAtSXlJT3pLalhrOUJyZUtTbllyY3ZuN3lndEpuaXN3V0Q3QTU?oc=5",
-   "published": "2026-10-28T19:55+00:00",
-   "published_jst": "2026-10-29 04:55",
    "summary": "",
    "ai_related": true
   },
