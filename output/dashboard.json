@@ -1,40 +1,11 @@
 {
   "version": 6,
-  "slot": "evening",
+  "slot": "night",
   "date": "2026-10-31",
   "post_date": "2026-10-31",
-  "generated_at": "2026-10-31T19:09+09:00",
-  "generated_by": "routine:x-post-evening",
-  "original_post": {
-    "time": "20:00",
-    "text": "被災建物の調査にヒューマノイドと四足歩行ロボットを組ませる検証、音声指示は現場の騒音で誤認識が増えて、手合図を足したら精度が上がったらしい。重機の誘導もクレーンの合図も最初から手でやってるわけで、現場からすると驚きよりただの答え合わせだと思う。",
-    "status": "draft",
-    "article_url": null,
-    "video_url": null,
-    "reply_text": null,
-    "editorial": {
-      "pillar": "本質投稿",
-      "format": "本質型",
-      "scores": {
-        "own_voice": 2,
-        "concrete": 2,
-        "construction_only": 2,
-        "not_bottleneck": 2,
-        "angle_fresh": 2
-      },
-      "selection_reason": "【一言】入口の出来事は2026-10-30(デジコンが同日published_jst 2026-10-30 15:30に掲載、news_feed.json construction_japan、直近48h以内。一次発表はポケット・クエリーズのPR TIMESリリース『【学会発表】建築研究所と「ヒューマノイド×四足歩行ロボット」による被災建築物調査の検証結果を発表』)。ポケット・クエリーズと建築研究所が、模擬被災環境でヒューマノイドロボット(調査の主担当・音声入力でデジタル調査表を作成)と四足歩行ロボット(不整地での写真撮影を担当)を協調させる検証を行い、2026年9月の日本建築学会大会(安田女子大学)で発表した結果をまとめた記事。騒音下では音声のみの指示に誤認識が生じやすく、ジェスチャー(手合図)を併用すると認識精度が向上したこと、映像を直接操作するより地上の座標を指定して歩かせる方が到達精度が安定したことを確認、という内容。なお本日の昼枠(dashboard.json slot='noon')でも同じ素材を検討済みだが、動画が無いため休載(昼枠はニュース速報枠で動画必須)。夕枠は文字だけの本質投稿で動画を要件としないため、素材として使うのは問題ないと判断した。\n\n直近7本(10-24〜10-30)の考察の種類は、現場で実際どうなるか(10-24)/答えが出ていない問い(10-25)/AIでまだできないこと(10-26)/僕の意見(10-27)/歴史・前にもあったこと(10-28)/現場で実際どうなるか(10-29、再出)/数字を自分で割ってみた(10-30)の6種類で、残る7種類目の『一言』を選んだ。\n\n候補3案を本質の5観点(own_voice/concrete/construction_only/not_bottleneck/angle_fresh、各0〜2点)で比較。\n(1)採用・計10点: 音声指示が現場の騒音で誤認識され手合図で精度が上がったという検証結果を、重機の誘導やクレーンの合図が最初から手でやられていることと結びつけ、『驚きよりただの答え合わせ』と短く終える案。own_voice2(クレーン合図を引き合いに出す独り言の判定で終えている)/concrete2(音声指示・誤認識・手合図・重機の誘導・クレーンの合図という具体)/construction_only2(重機誘導やクレーン合図が手信号中心であることは現場を知らないと書けない一文)/not_bottleneck2(『本当の原因は』『XでなくY』『先に動ける会社』のいずれにも該当せず、AIを後回しにする締めでもない)/angle_fresh2(直近7本に同種なし)で計10点のため採用。\n(2)不採用・計8点: ヒューマノイドが調査表作成、四足歩行ロボットが瓦礫上の撮影を担当という役割分担をそのまま紹介し、『人がやっていた役割分担をそのままロボットに移すのが一番早いんだろう』で終える案。own_voice1(結論が分析的な推測に寄り、独り言というより解説の締めに近い)/concrete2/construction_only1(役割分担の紹介自体は建設に限らない一般的なロボット運用の話にも読める)/not_bottleneck2/angle_fresh2で計8点。採用案の方がconstruction_onlyとown_voiceで上回るため不採用。\n(3)不採用・計7点(足切り未満): 『映像を直接操作するより地上の座標を指定して歩かせる方が到達精度が安定した』という点を、人に現場で指示する時も逐一動きを言うより行き先を指す方が伝わるのと似ている、とまとめる案。own_voice1/concrete1(地上の座標・到達精度という表現がやや抽象的)/construction_only1(人への指示法の一般論で建設に限らない)/not_bottleneck2/angle_fresh2で計7点のため、8点未満として不採用。",
-      "source_url": "https://prtimes.jp/main/html/rd/p/000000052.000013422.html",
-      "published_at": "2026-10-30",
-      "checked_at": "2026-10-31T19:09+09:00",
-      "availability": "WebFetchはprtimes.jpへのアクセスがこのセッションのネットワーク許可外のためgetaddrinfo ENOTFOUNDで失敗。WebSearch(standard/extended)で、ポケット・クエリーズのPR TIMESリリース本文の要約(ドローンジャーナル・zaikei.co.jp・robotstart.info等の業界メディアが同リリースを転載)を複数ソースで突き合わせて確認した。news_feed.json construction_japanのデジコン記事(published_jst 2026-10-30 15:30)でエントリーの掲載日時を裏取りした。",
-      "unverified": [
-        "学会発表本体(日本建築学会大会論文集)・プレスリリース本文はWebFetch不可のため未確認で、WebSearchの要約情報に留まる。",
-        "騒音下の誤認識率やジェスチャー併用後の認識精度の具体的な数値(%など)は、検索結果・業界メディア記事のいずれにも記載がなく確認できなかった。本文には数字を一切書いていない。",
-        "2026年9月の学会発表自体は直近48hより前(安田女子大学、2026-09-09)だが、入口としたのはその検証結果を報じた2026-10-30付のデジコン記事・PR TIMESリリースであり、記事の掲載日は直近48h以内。"
-      ],
-      "hook_alternative": "候補2: ヒューマノイド(調査表作成)と四足歩行ロボット(瓦礫上の撮影)の役割分担をそのまま紹介し、『人がやっていた役割分担をそのままロボットに移すのが一番早い』で終える案。計8点だが、own_voiceとconstruction_onlyで採用案に劣るため不採用。候補3: 『地上の座標を指定して歩かせる方が到達精度が安定』を人への指示法と重ねる案。own_voice1/concrete1/construction_only1で計7点のため8点未満で不採用。"
-    }
-  },
+  "generated_at": "2026-10-31T20:39+09:00",
+  "generated_by": "routine:x-post-night",
+  "original_post": null,
   "engage_cards": [],
-  "skip_reason": null
+  "skip_reason": "直近48h(10/29 18:00頃〜10/31 20:39)で、国内外とも動画付き(video_url化できる)建設AI・建設×フィジカルAIの候補がゼロだったため休載。本日昼枠(dashboard.json 旧slot='noon'、8e41a39コミット)で確認済みの候補に加え、夜枠では追加でai_buzz.json/slack_buzz.json/news_feed.json(construction_japan 44件・construction_global 19件・ai_japan/ai_global、2026-10-31 17:57生成、window 48h)を再確認し、WebSearchを日本語・英語で計10クエリ追加実施(人型ロボット 建設 現場/四足歩行ロボット 巡回/自動施工 無人化施工/humanoid robot jobsite/autonomous excavator/robot dog construction site/BIM AI agent/3D printed house/factory robot arm physical AI/humanoid welding rebar)。見送った候補は以下の通り。\n\n【国内】\n(1) ポケット・クエリーズ×建築研究所のヒューマノイド×四足歩行ロボットによる被災建物調査(news_feed.json construction_japan、掲載2026-10-30 15:30)。昼枠で動画なしのため不採用、夕枠(20:00)の本質投稿で文字素材として既に使用済みのため夜枠では重複となり除外。\n(2) JR西日本の多機能鉄道重機2機種(重作業用単腕型・量産型人型ロボット)を営業線へ導入、支障木伐採等に活用しNHK大阪の映像がSNSで話題というニュース。WebSearchで確認したが、プレスリリース日は2026-10-16で直近48hの範囲外(導入自体も10月中・11月からの順次開始で発表自体が古い)。実際の稼働映像のX投稿も確認できず、入口が直近48hの出来事でないため不採用。\n(3) オリエンタル白石と燈(Hikari)による橋梁吊り足場上での四足歩行ロボット自律歩行の実証(発表2026-10-06、実施2026-09-08)。鮮度切れに加え、燈(Hikari)は戦略の競合除外対象(docs/x-strategist.md「競合紹介の除外」)のため、仮に新しくても不採用。\n(4) 清水建設のTorch Towerでのヒューマノイド現場巡回・ロボットアーム塗装の実証。報道は2026年7月頃で直近48hの範囲外、X投稿の動画も確認できず不採用。\n(5) パーソルクロステクノロジー×Unseedの建設機械自動化(news_feed.json construction_japan 2026-10-30 16:49)。実機デモ映像の該当X投稿が確認できず不採用(昼枠でも同一理由で不採用済み)。\n\n【海外】\n(6) Bedrock Roboticsの自律油圧ショベル(ドライバーレス)によるテキサス・ネバダでの商用稼働。発表は2026年8月で直近48h外。CONEXPO-CON/AGG 2026での各社(Hitachi×Gravis、Develon、HD Hyundai)のライブ自律掘削デモも、展示会自体の開催時期が直近48hでなく、該当X動画も確認できず不採用。\n(7) Boston Dynamics Atlasの建設現場デモ、Tilbury DouglasのヒューマノイドによるライブサイトでのデータAIも、いずれも直近48hの新規発表ではなく不採用。\n(8) 3Dプリント住宅(Kamp/ICON/Hive3D等)は直近48h以内の新着動画が確認できず不採用。\n(9) BIM AIエージェント(Motif/Nemetschek/Graphisoft等)、ドローン測量の新サービスも直近48h以内の発表・動画は確認できず不採用。\n(10) 造船所向け溶接ヒューマノイド(HD Hyundai×Persona AI等)も発表は2026年2〜3月で鮮度切れ、建設業との距離もやや遠く不採用。\n\nai_buzz.json(74件)を全件スキャンしたが、建設×フィジカルAI関連は上記(1)の記事化前の投稿以外になく、一般AIの話題(Genie 4, Kimi K3.1等)は本日朝枠(07:25)の週次recapで既出のため夜枠の代替候補にも使えなかった。WebFetchはx.com/prtimes.jp等このセッションのネットワーク許可外のためWebSearchのみで裏取りした(getaddrinfo ENOTFOUND)。実投稿(data/analytics/live_metrics.json)との重複は本枠では未確認(休載のため該当なし)。"
 }
