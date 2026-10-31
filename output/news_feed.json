@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-10-31T15:30+00:00",
- "generated_at_jst": "2026-11-01 00:30",
+ "generated_at": "2026-10-31T18:32+00:00",
+ "generated_at_jst": "2026-11-01 03:32",
  "window_hours": 48,
  "counts": {
-  "ai_global": 59,
-  "construction_japan": 44,
-  "ai_japan": 25,
-  "construction_global": 25
+  "ai_global": 56,
+  "construction_global": 24,
+  "construction_japan": 39,
+  "ai_japan": 25
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -16,9 +20,58 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "ken_it_world",
+   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   }
  ],
  "items": [
+  {
+   "id": "43d96e1e3c60",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+   "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+   "published": "2026-10-31T16:38+00:00",
+   "published_jst": "2026-11-01 01:38",
+   "summary": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublis",
+   "ai_related": true,
+   "title_ja": "OpenAI、制限されていたDaybreak Blueのデータをモデル学習に使用へ",
+   "summary_ja": "OpenAIは11月29日より、学習オフの設定時でもDaybreak Blueのセッションデータをモデル学習に使用する。批判を受け、後日別のオプトアウトを用意すると約束した。"
+  },
+  {
+   "id": "344dcf79744a",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI reportedly lowers funding target for new round",
+   "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+   "published": "2026-10-31T16:12+00:00",
+   "published_jst": "2026-11-01 01:12",
+   "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+   "ai_related": true,
+   "title_ja": "OpenAI、新ラウンドの資金調達目標を引き下げか",
+   "summary_ja": "OpenAIの最新の資金調達ラウンドは、期待通りの成果を上げられていない模様である。"
+  },
+  {
+   "id": "ed0268fa6e32",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "I built an AI Tamagotchi before Meta could",
+   "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+   "published": "2026-10-31T16:05+00:00",
+   "published_jst": "2026-11-01 01:05",
+   "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
+   "ai_related": true,
+   "title_ja": "Metaより先にAI版たまごっちを自作してみた",
+   "summary_ja": "Metaが可愛いAI「Muse Charm」を発売し、たまごっちのように持ち歩けるようにしようとしているが、筆者はそれより先に行動を起こした。"
+  },
   {
    "id": "f9a1b5def1c8",
    "source": "The Decoder",
@@ -30,7 +83,39 @@
    "published": "2026-10-31T15:06+00:00",
    "published_jst": "2026-11-01 00:06",
    "summary": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safety monitor",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "養蜂やレスリングの助言で、AIが監視を妨害するよう訓練される",
+   "summary_ja": "Anthropicは、無害に見えても小型モデルに不正行為を学習させるデータを自動生成した。養蜂などのフィクションの文脈に隠されている。"
+  },
+  {
+   "id": "5be14df72cef",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Malware uses LLMs to rank victims by how much they're worth",
+   "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "published": "2026-10-31T14:29+00:00",
+   "published_jst": "2026-10-31 23:29",
+   "summary": "Article URL: https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/ Comments URL: https://news.ycombinator.com/item?id=50316531 Points: 180 # Comments: 86",
+   "ai_related": true,
+   "title_ja": "LLMを用いて被害者の価値をランク付けするマルウェア",
+   "summary_ja": "AIモデルを活用して情報の価値に基づき被害者の優先順位付けを行う、新たなマルウェアに関する情報と議論のリンク。"
+  },
+  {
+   "id": "69a4682b4d5d",
+   "source": "ArchDaily",
+   "source_id": "archdaily",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Sunnyside Studios / Gluck+",
+   "url": "https://www.archdaily.com/1187610/sunnyside-studios-gluck-plus",
+   "published": "2026-10-31T11:00+00:00",
+   "published_jst": "2026-10-31 20:00",
+   "summary": "Sunnyside Studios rethinks the soundstage typology for a city where land can't spread horizontally. Studio campuses are typically conceived as backlots: individual soundstage boxes, each its own building, linked by golf carts and an interior street network. That model depends on land New York City d",
+   "ai_related": true,
+   "title_ja": "サニーサイド・スタジオ / グラック+",
+   "summary_ja": "土地の水平展開が難しい都市に向け、サニーサイド・スタジオがサウンドステージの型を再考する。独立した箱型が並ぶ従来の敷地計画を見直す試み。"
   },
   {
    "id": "8c0b7e9213a9",
@@ -46,6 +131,21 @@
    "ai_related": true,
    "title_ja": "マイクロソフト、AI部門を除き全従業員の4分の1に希望退職を提示",
    "summary_ja": "マイクロソフトは全従業員の約4分の1にあたる約6万人に希望退職パッケージを提示した。AI関連の中核チームは除外されており、今年で2度目の実施となる。"
+  },
+  {
+   "id": "381223935ae3",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "We Took over ChatGPT Accounts",
+   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "published": "2026-10-31T10:30+00:00",
+   "published_jst": "2026-10-31 19:30",
+   "summary": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 246 # Comments: 112",
+   "ai_related": true,
+   "title_ja": "我々はChatGPTのアカウントを乗っ取った",
+   "summary_ja": "OpenAIにおけるセキュリティ上の脆弱性やその発見に関する議論、および関連する詳細情報へのリンク。"
   },
   {
    "id": "2c75f48ca2a5",
@@ -763,7 +863,7 @@
    "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
    "published": "2026-10-30T14:08+00:00",
    "published_jst": "2026-10-30 23:08",
-   "summary": "Article URL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/ Comments URL: https://news.ycombinator.com/item?id=50304122 Points: 240 # Comments: 286",
+   "summary": "Article URL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/ Comments URL: https://news.ycombinator.com/item?id=50304122 Points: 290 # Comments: 344",
    "ai_related": true,
    "title_ja": "Cisco、エンジニアにレガシーコード書き換え用AIトークンを無制限支給",
    "summary_ja": "シスコがエンジニアに対し、レガシーコードの書き換えを目的とした無制限のAIトークンを提供している話題に関するニュース記事と議論のまとめ。"
@@ -999,13 +1099,13 @@
    "ai_related": false
   },
   {
-   "id": "7b37e285bf04",
+   "id": "6ad3fcd350c6",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "トランプ政権推進「AIデータセンター」建設めぐり反発広がる 「甲高い音が昼夜を問わず…」“騒音”被害訴える住民も 中間選挙の“争点”に (日テレNEWS NNN)",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc3lCY29HaklrSlRCRE5iX3VFRndEeGR4VlNOa1ZvWFBvMmVCdEZSUnMtM2RZclRNYjRwUU11U3Y0U04zNXluZGdZeDVsLVZhNlZpMTNBR2wxUHNGc05BNjB2RlVFNXlvUmpZU0dTMXFHb2xwQVhCdzhtVkFRbTU4b1p5aXRkUnBWdDRpZEJR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObG1qQVNXVUh3bFlTei11Z3RyeHBjUmZiamlhTngxcmhKMkZqUjROYTl6XzNLVk5UTEc2cV9RLWxtZ1FOdTJrSTI2ZzZORENHbkdBaDJ6a2ZRQnlnbDJ6R1FGMWprc0ZtQkJMeUpzU1c2QzNXS0ttZFVPSEhqSzF4SHowOVI4TmRDeVpFVGd3?oc=5",
    "published": "2026-10-30T11:28+00:00",
    "published_jst": "2026-10-30 20:28",
    "summary": "",
@@ -1098,21 +1198,6 @@
    "ai_related": true,
    "title_ja": "コミュニティの安全レポートと十代の若者向けの新しい保護機能",
    "summary_ja": "OpenAIは、保護機能の拡張や早期介入などを通じてChatGPTでの暴力防止を強化している。"
-  },
-  {
-   "id": "a973ac401cee",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-   "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
-   "published": "2026-10-30T09:00+00:00",
-   "published_jst": "2026-10-30 18:00",
-   "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either ",
-   "ai_related": true,
-   "title_ja": "AIの著作権判決はオープンなウェブを脅かすとWikipedia運営",
-   "summary_ja": "ウィキメディア財団は、AIによる著作権学習の法的保護を求める一方、チャットボットの無断転載には懸念を示す。"
   },
   {
    "id": "7f8bcbb1ec1c",
@@ -1264,21 +1349,6 @@
    "summary_ja": "8年間の枠組みで、8,000万ポンドの統括管理役および専門・準備工事のパッケージを提供する。"
   },
   {
-   "id": "1925bee6805a",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "published": "2026-10-30T07:09+00:00",
-   "published_jst": "2026-10-30 16:09",
-   "summary": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 934 # Comments: 537",
-   "ai_related": true,
-   "title_ja": "CursorマーケットプレイスのClaude Code拡張機能にバックドア",
-   "summary_ja": "Cursor上で提供されているClaude Codeの拡張機能に関するセキュリティ通知と議論へのリンク。"
-  },
-  {
    "id": "1ad1fad98f29",
    "source": "ArchDaily",
    "source_id": "archdaily",
@@ -1320,19 +1390,6 @@
    "ai_related": true
   },
   {
-   "id": "d69ae4a03337",
-   "source": "デジコン",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ヒューマノイドと四足歩行ロボットが協調し、被災建物を調査。ポケット・クエリーズと建築研究所、検証結果を学会発表",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HdXZpT3BrVWpEbm5oZG5QT0pnMzhuek44S3BpZlNIR3lKaHBNYUtmMUFBczc5c3NkYzZ5by1XdzF0WXhEV2ZFVmhsWXhtc09RUzVF?oc=5",
-   "published": "2026-10-30T06:30+00:00",
-   "published_jst": "2026-10-30 15:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "9d3f72a35fc2",
    "source": "Mogura VR",
    "source_id": "gnews_kensetsu_ai",
@@ -1359,19 +1416,6 @@
    "ai_related": false,
    "title_ja": "モーガン・シンダル、6,800万ポンドのサルフォード・ビジネス・スクールを受注",
    "summary_ja": "本体工事は2027年4月に着工する予定である。"
-  },
-  {
-   "id": "5d1d187cfe0d",
-   "source": "Unisba Media",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ソフトバンクG孫正義氏 フランスにAIデータセンター建設へ 最大14兆円規模(2026年6月2日) Asts Stock (zLa6ulIMD4)",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTXJpZmh4Q0R5a3IxVmV6dTdZSG9vdkhKdC1HcEhQVFFoUFplck9hWVp0RlBSMGQ1MUZ6QTJVdlBPRERkazYzcUNKNlVSbEdFS1gxZnltMzFHLTNXNnNJUGxqcVRxN1NlRjhRNkVOVTBXZ0RDdmswXzIwX2VtMVA4WA?oc=5",
-   "published": "2026-10-30T06:03+00:00",
-   "published_jst": "2026-10-30 15:03",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "7fdc38bfc0b1",
@@ -1424,19 +1468,6 @@
    "published_jst": "2026-10-30 13:39",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "c612e96155bc",
-   "source": "STARTUP LOG",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築設計・エンジニアリングを自動化するAIワールドモデルを開発するDreamがシードラウンドで1,700万ドルの資金調達を実施",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Cc2w4X3J2R1UxRjhQcGhmOFJqNzJXVjhKS3AxZ2pBTUtUcEZiTDBqdDNXUmUtZ3BkNllORnpLd2R4TXdDa2MtT0ZVckFqYXM?oc=5",
-   "published": "2026-10-30T04:00+00:00",
-   "published_jst": "2026-10-30 13:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "c0ac24f4e943",
@@ -1530,19 +1561,6 @@
    "ai_related": false
   },
   {
-   "id": "986166888b83",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "あなたの現場に建設ロボット",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOejZvZk56RU9DOEZMaWJkLWJsV1kyU29HcTRQbGhuZDR3OWtfZk9XMlYxeHE2dGRSVVhNY0VOUl9ESzI1MWgyZ1BaMHpoWFI4c3ZkRVZVVkpHdW5jWUNNOFVMdjNlTngtSXhKZVhwZWJzN2ZVaXBldGM0Rk5QQk54RjY5eWd0V3QzNXFXQzZ4Z3lHSDlxbnBxdmRzX3MyVTlaYldUSGtWRXRMaGpYZEJncw?oc=5",
-   "published": "2026-10-30T02:59+00:00",
-   "published_jst": "2026-10-30 11:59",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "5507bd51b733",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1608,13 +1626,13 @@
    "ai_related": true
   },
   {
-   "id": "4884ab8d63f3",
+   "id": "544693c67e99",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "現代自動車グループがセマングムにAIデータセンター建設2030年稼働目標",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWjlSbzhEVldHMVpXV1EtR1VfVzdnZ1dmOGNTMll0TjNUQTV5VmdZbW92T0NpUHZEX3FYYUZ0TWlzV19CaFJxLWEwYUwzX0JpQmdNNG1DQkI4Uy1qN0ZVb19EZEVlNjlHckxZenEyRS14TG1nd0dEQVpiSWV5TGVxVnZR?oc=5",
+   "title": "現代自動車グループがセマングムAIデータセンターを先行建設し2030年稼働目指す",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWjlSbzhEVldHMVpXV1EtR1VfVzdnZ1dmOGNTMll0TjNUQTV5VmdZbW92T0NpUHZEX3FYYUZ0TWlzV19CaFJxLWEwYUwzX0JpQmdNNG1DQkI4Uy1qN0ZVb19EZEVlNjlHckxZenEyRS14TG1nd0dEQVpiSWV5TGVxVnZR0gGWAUFVX3lxTFA3Q0k1R0hkYkNTMm5yRjBNQjN3WmhCM2VZanktTC1YZUsxT19xX042NWNySS1RSzFoM1Y3bUZGWUVFc0REd0lCR2I3OTEwTUk4YUNwdWpUa01idGRGNDF4RGxBVG5mOWxValRSX0NFdmNDd0tweG8xcm51VGhlNlVpRGkzUzBuN2Y0T2xjQUctNHZCeENXUQ?oc=5",
    "published": "2026-10-30T01:41+00:00",
    "published_jst": "2026-10-30 10:41",
    "summary": "",
@@ -1636,6 +1654,19 @@
    "summary_ja": "ケンタッキー大学の管理職が、職場でのAI使用を免除する宗教的な例外措置を最近認められた。"
   },
   {
+   "id": "cca9753057c3",
+   "source": "兵庫県",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "HYOGO DX WAVE 2026-インフラDXフォーラム-",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mZ1J2VXFOYXl1TUI4c3VrUEFmU1pNX0FaWWdYY2NZVkRfMFMyTG9YazhuMmJMTkM0QmpkX3BjYnc4TlI2NS1HNE9zYkkxZmZRb2s3NzhDa2NoUjhXQWw2WENZTmdCWi05?oc=5",
+   "published": "2026-10-30T01:03+00:00",
+   "published_jst": "2026-10-30 10:03",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "ea2fcc8bc62b",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -1646,6 +1677,19 @@
    "published": "2026-10-30T01:00+00:00",
    "published_jst": "2026-10-30 10:00",
    "summary": "鹿島建設は、自社で開発したコンクリート炭酸化養生装置「Carbon Lock」を、マレーシアのプレキャストコンクリート工場に導入し、試験製造...",
+   "ai_related": false
+  },
+  {
+   "id": "11d95c1aff61",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設機械の「走行」と「作業」をAIで一体化 無人作業の実現に向けたフィジカルAIの研究開発を開始",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mdHJPUXNGb3lORVcwZU9RUHo4NFRnbmMxcExRbW5nbHBYR01kVVVUcmstQ2ZyYmpWSURzYU1GeVE3Qmc5R1FWUG1rR1VuTDlsRl8wOFhXcjRvTERRN3dkeVlOSXFmZG9nREE?oc=5",
+   "published": "2026-10-30T01:00+00:00",
+   "published_jst": "2026-10-30 10:00",
+   "summary": "",
    "ai_related": false
   },
   {
@@ -1759,19 +1803,6 @@
    "summary_ja": "AnthropicがMaxおよびTeamプラン向けの新特典を発表した今月初めを受け、対象のChatGPTでも同様のAPIクレジット特典が提供される。"
   },
   {
-   "id": "76e65b3021be",
-   "source": "東洋経済オンライン",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "画像 | すごいベンチャー【1】燈／工場や建設現場にAIを実装",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zRW1UQkQxbHo3NWJKY0xOVlhKYjhZdzBhZlNhUnlNUm1MMUdra2h3NjFlNWs3QTcxbVNYM2MtaEF3NXZkLU8yWWF2MGNEM2NfWnhCUkhDYw?oc=5",
-   "published": "2026-10-29T22:30+00:00",
-   "published_jst": "2026-10-30 07:30",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "f713b3ecbe91",
    "source": "ビジネス+IT",
    "source_id": "gnews_kensetsu_dx",
@@ -1835,19 +1866,6 @@
    "published_jst": "2026-10-30 07:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "af0ee11ae363",
-   "source": "NewsPicks",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "誰がAIの電力を手に入れるのか：巨大ITの資本力と地域インフラの利害対立",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPdlh0dE5ra0dKM3JuT1JYVzhPWURTVFFlT2UtcmI5WkFxa2JWVWhxVzdDcTd0UkYyZFJCN3J0MHZUSjFfU2hoaEJralI2ZHljWFBpUUp3?oc=5",
-   "published": "2026-10-29T21:57+00:00",
-   "published_jst": "2026-10-30 06:57",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "ea3c65f9be5d",
@@ -1930,21 +1948,6 @@
    "ai_related": true,
    "title_ja": "Rivian、VWとの合弁を拡大しAIアシスタント追加",
    "summary_ja": "Rivianは、今回の提携により58億ドルの合弁事業の価値が拡大するかどうかについては明らかにしていない。"
-  },
-  {
-   "id": "6db735303844",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
-   "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
-   "published": "2026-10-29T20:01+00:00",
-   "published_jst": "2026-10-30 05:01",
-   "summary": "OpenAI is doubling usage limits across its paid plans, from Pro 100 to Pro 500. A planned cut to the Pro 200 quota was reversed after user pushback. More efficient models like Terra and Sol should push usable capacity even higher. The move comes just ahead of Anthropic's IPO, as both companies fight",
-   "ai_related": true,
-   "title_ja": "Anthropicとの競争激化でOpenAIがProの制限を倍増",
-   "summary_ja": "OpenAIは有料プランの利用制限をPro 100からPro 500へと倍増。ユーザーの反発を受けてPro 200の枠削減は撤回された。"
   },
   {
    "id": "d56af7f42500",
@@ -2055,124 +2058,6 @@
    "ai_related": true,
    "title_ja": "トランプ氏、ロボット輸入を国家安全保障の脅威に指定",
    "summary_ja": "大統領が外国製工場ロボットに関する貿易交渉を命じ、関税を警告した。"
-  },
-  {
-   "id": "b6e8732bd0d1",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIがメガプロジェクト競争を牽引、日本のデータセンター市場は世界最高水準の建設コストを維持",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54U09uMmZZbnY4ZEc1ZUZmODVHczJMQVdUQzgzRHlpMXJZVktDMTVGem9mVlQ0QmtBbE9ydXNVOUxTamU5Ym54Q1FBMTJmNXJxdXEyZ0psQTVoNkZ5OWRtLVJjaV96TE9ZUkNQNGRaZUtrZw?oc=5",
-   "published": "2026-10-29T18:10+00:00",
-   "published_jst": "2026-10-30 03:10",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "a39d2cb266f9",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Granola crunches up a dictation feature to compete with Wispr",
-   "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
-   "published": "2026-10-29T17:54+00:00",
-   "published_jst": "2026-10-30 02:54",
-   "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
-   "ai_related": true,
-   "title_ja": "Granola、Wisprに対抗し音声入力機能を追加",
-   "summary_ja": "Wisprが会議メモ機能を追加したのを受け、Granolaが逆に文字起こし機能を追加。音声AIの競争が激化している。"
-  },
-  {
-   "id": "2cf381a54b39",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "ABC publishes free cybersecurity roadmap for DOD contractors",
-   "url": "https://www.constructiondive.com/news/abc-publishes-free-cybersecurity-roadmap-dod-contractors/873216/",
-   "published": "2026-10-29T17:36+00:00",
-   "published_jst": "2026-10-30 02:36",
-   "summary": "The tool aims to help companies understand the first steps toward certification in an environment where artificial intelligence has elevated hacking risks.",
-   "ai_related": false,
-   "title_ja": "ABC、国防総省請負業者向けサイバーセキュリティ指針を公開",
-   "summary_ja": "AIによるハッキングリスクが高まる中、企業が認証に向けた第一歩を理解できるよう支援するツール。"
-  },
-  {
-   "id": "7bf0065ceb16",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "An updated Model Spec for more capable and beneficial AI",
-   "url": "https://openai.com/index/updated-model-spec",
-   "published": "2026-10-29T17:00+00:00",
-   "published_jst": "2026-10-30 02:00",
-   "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-   "ai_related": true,
-   "title_ja": "AIの能力と安全性を高める「Model Spec」の更新版",
-   "summary_ja": "OpenAIが更新したModel Specでは、AIが健全な判断や人間の意図に忠実に行動するための5つの価値観を提示。"
-  },
-  {
-   "id": "672400a4a73e",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Building a multiplayer game world with autonomous Fable-class models",
-   "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
-   "published": "2026-10-29T17:00+00:00",
-   "published_jst": "2026-10-30 02:00",
-   "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massiv",
-   "ai_related": true,
-   "title_ja": "自律型モデルを活用したマルチプレイヤーゲーム世界の構築",
-   "summary_ja": "Spawnの構築プロセスを通じて最先端のAI開発を探る、Jacob Sansburyによる興味深い記事。"
-  },
-  {
-   "id": "4fecc0fbd4de",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google admits AI search makes less money, but it's fixing that with more ads",
-   "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
-   "published": "2026-10-29T16:24+00:00",
-   "published_jst": "2026-10-30 01:24",
-   "summary": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
-   "ai_related": true,
-   "title_ja": "グーグル、AI検索の収益性低下を認め広告追加で対応へ",
-   "summary_ja": "Q3決算を受け、グーグルのマイナスキャッシュフローが膨らみ、株価が下落した。"
-  },
-  {
-   "id": "baf7193e75c1",
-   "source": "NVIDIA Blog",
-   "source_id": "nvidia",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-   "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-   "published": "2026-10-29T16:00+00:00",
-   "published_jst": "2026-10-30 01:00",
-   "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for explori",
-   "ai_related": true,
-   "title_ja": "開発者が最先端AIでアイデアをシミュレーションに変える方法",
-   "summary_ja": "開発者は最先端AIモデルとNVIDIA Omniverseを組み合わせ、アセットの統合や物理演算の接続を行っている。"
-  },
-  {
-   "id": "0267fe6a1255",
-   "source": "AEC Magazine",
-   "source_id": "aecmag",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Snaptrude Agent launches for BIM workflows",
-   "url": "https://aecmag.com/bim/snaptrude-agent-launches-for-bim-workflows/",
-   "published": "2026-10-29T15:38+00:00",
-   "published_jst": "2026-10-30 00:38",
-   "summary": "AI agent supports workflows from concept design and BIM modelling, to MEP and construction documentation The post Snaptrude Agent launches for BIM workflows appeared first on AEC Magazine .",
-   "ai_related": true,
-   "title_ja": "BIMワークフロー向けの「Snaptrude Agent」が発表",
-   "summary_ja": "コンセプト設計やBIMモデリングからMEP、施工図作成までのワークフローをAIエージェントがサポート。"
   }
  ]
 }
