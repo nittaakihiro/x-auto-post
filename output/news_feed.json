@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-31T22:51+00:00",
- "generated_at_jst": "2026-11-01 07:51",
+ "generated_at": "2026-10-31T23:22+00:00",
+ "generated_at_jst": "2026-11-01 08:22",
  "window_hours": 48,
  "counts": {
-  "ai_global": 51,
-  "construction_global": 23,
-  "construction_japan": 28,
-  "ai_japan": 23
+  "ai_global": 52,
+  "construction_global": 13,
+  "construction_japan": 27,
+  "ai_japan": 21
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -23,6 +23,21 @@
   }
  ],
  "items": [
+  {
+   "id": "0def4a2fca6b",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "How We Took Over ChatGPT Accounts",
+   "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+   "published": "2026-10-31T23:15+00:00",
+   "published_jst": "2026-11-01 08:15",
+   "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxe",
+   "ai_related": true,
+   "title_ja": "ChatGPTアカウントが乗っ取られた手口",
+   "summary_ja": "Parameter Labsが、ChatGPTのアーティファクト実装における脆弱性を突いた攻撃手法の詳細を解説している。"
+  },
   {
    "id": "89c6cb6d2971",
    "source": "TechCrunch AI",
@@ -34,7 +49,9 @@
    "published": "2026-10-31T21:41+00:00",
    "published_jst": "2026-11-01 06:41",
    "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Apple、目的のないAI機能の投入は否定",
+   "summary_ja": "Appleの新たな最高経営責任者が、同社のAI分野における現在の立ち位置について見解を述べた。"
   },
   {
    "id": "cefcb0bd2478",
@@ -47,7 +64,9 @@
    "published": "2026-10-31T21:36+00:00",
    "published_jst": "2026-11-01 06:36",
    "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "テッククランチ創業者サミット開催まであと4日",
+   "summary_ja": "11月4日、ボストンにてスタートアップの成長に不可欠なネットワーキングや洞察を提供する一大イベントが開催される。"
   },
   {
    "id": "bc398a80a0df",
@@ -60,7 +79,9 @@
    "published": "2026-10-31T21:17+00:00",
    "published_jst": "2026-11-01 06:17",
    "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "xAIデータセンターの汚染訴訟が進行へ",
+   "summary_ja": "NAACPが提起した訴訟で、SpaceX傘下のAI企業による大気浄化法違反の追及が認められた。"
   },
   {
    "id": "d66aef25dede",
@@ -73,7 +94,9 @@
    "published": "2026-10-31T19:20+00:00",
    "published_jst": "2026-11-01 04:20",
    "summary": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance war",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "アンソロピックのAI透かしに回避の抜け穴",
+   "summary_ja": "EUのAI規制に対応するためテキスト透かしの導入を拡大する中、一部の旧モデルでは開発者が簡単に回避できることが判明した。"
   },
   {
    "id": "43d96e1e3c60",
@@ -220,6 +243,19 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84eVV2ZFlTTmlVcFdwOGpPM21CYVRuSk1YWWd4RThNcTZ1OGhXS2d5OWRtaUNOSmlCbnZRbGtCSG5Nd0g0Tnoya3FTR0ViTDlQU2JLSGluazZvY1BYc1NrZkNKMnJEYURkQzZjaWx6d1RIV3l0?oc=5",
    "published": "2026-10-31T08:25+00:00",
    "published_jst": "2026-10-31 17:25",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "12a8495cd3ed",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "「原則CIM化」で始まる土木のDX",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYmI2STRsRXlQanZudjlYck9fZDJZS2VNQm1LOTNtUXVFTlhRZEpaRVFmM2tNZ09QaGtLV3dMRy0yMzBCZXZLazBNeWZNcXh2MmVIeWVWaXJReVNPMmNXdWotMW5OR3haYTlhY1FJWXJwZEw0cDlyNUdiYjJZc210SERCT3NweEZFVVpSZGdsTGc0X0FJNE9iWl8xclB0eWc1b1N3NmpJLW1kRkRqUDJIWVZMVnp4MTFOXzhGbXhlNGdVNkdhMmtBTw?oc=5",
+   "published": "2026-10-31T07:51+00:00",
+   "published_jst": "2026-10-31 16:51",
    "summary": "",
    "ai_related": true
   },
@@ -424,19 +460,6 @@
    "ai_related": true,
    "title_ja": "Cursor上のAnthropic拡張機能にバックドア",
    "summary_ja": "攻撃者がどのようにしてAnthropicのCursorアカウントへのアクセス権を入手したのかは、依然として分かっていない。"
-  },
-  {
-   "id": "f12b5456bc9f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Major contractors join group to shape £181bn grid upgrade",
-   "url": "https://www.constructionnews.co.uk/contractors/balfour-beatty/major-contractors-join-group-to-shape-181bn-grid-upgrade-30-10-2026/",
-   "published": "2026-10-30T20:55+00:00",
-   "published_jst": "2026-10-31 05:55",
-   "summary": "United Infrastructure, Balfour Beatty and M Group have become founding members of a new industry group intended to give contractors a greater say in Britain's £181bn electricity network upgrade. The Electricity Networks Infrastructure (ENI) Services Group has been established by trade association BE",
-   "ai_related": false
   },
   {
    "id": "e6a83342c0c5",
@@ -675,123 +698,6 @@
    "ai_related": true,
    "title_ja": "数千人の「幽霊学生」がAIで奨学金を不正受給と司法省",
    "summary_ja": "司法省による不正対策が強化される中、連邦学生援助の申請手続きで混乱が生じる可能性がある。"
-  },
-  {
-   "id": "195e5ed97f7f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: South West",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-south-west-30-10-2026/",
-   "published": "2026-10-30T16:36+00:00",
-   "published_jst": "2026-10-31 01:36",
-   "summary": "Project-starts weakened against both last year and two years ago, with a notable fall in major projects dragging down overall activity. Main contract awards performed strongly, supported by a sharp increase in major contract awards. Detailed planning approvals remained subdued, declining against bot",
-   "ai_related": false
-  },
-  {
-   "id": "42defa2df7c9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: South East",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-south-east-30-10-2026/",
-   "published": "2026-10-30T16:36+00:00",
-   "published_jst": "2026-10-31 01:36",
-   "summary": "Project starts fell sharply against both annual and quarterly comparisons, while main contract awards increased significantly due to a surge in major project activity. Detailed planning approvals also remained below historic levels despite some resilience in underlying activity. South East overview ",
-   "ai_related": false
-  },
-  {
-   "id": "abc05ddb274e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: London",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-london-30-10-2026/",
-   "published": "2026-10-30T16:35+00:00",
-   "published_jst": "2026-10-31 01:35",
-   "summary": "Project starts continued to weaken against both annual and quarterly comparisons. Main contract awards remained resilient, while planning approvals strengthened significantly, driven by major office and residential developments. London overview Project starts totalled £2.98bn, a 48 per cent decline ",
-   "ai_related": false
-  },
-  {
-   "id": "71150172f437",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: North West",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-north-west-30-10-2026/",
-   "published": "2026-10-30T16:35+00:00",
-   "published_jst": "2026-10-31 01:35",
-   "summary": "Project starts increased compared with both annual and quarterly benchmarks, supported by several major schemes reaching site. Main contract awards also strengthened significantly, although detailed planning approvals remained below last year's exceptionally strong level. North West overview Project",
-   "ai_related": false
-  },
-  {
-   "id": "16ad279da3c9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: East Midlands",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-east-midlands-30-10-2026/",
-   "published": "2026-10-30T16:35+00:00",
-   "published_jst": "2026-10-31 01:35",
-   "summary": "Project starts weakened compared with both the previous year and the preceding quarter, while main contract awards remained broadly stable. Detailed planning approvals strengthened significantly, driven by major utility and residential schemes entering the pipeline. East Midlands overview Project st",
-   "ai_related": false
-  },
-  {
-   "id": "57e276aafb44",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: West Midlands",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-west-midlands-30-10-2026/",
-   "published": "2026-10-30T16:35+00:00",
-   "published_jst": "2026-10-31 01:35",
-   "summary": "Project starts remained broadly stable compared with a year earlier but declined sharply against the preceding three months as major project activity eased. Main contract awards also softened, while detailed planning approvals recorded a significant decline against both annual and quarterly comparis",
-   "ai_related": false
-  },
-  {
-   "id": "1f953d4c6d70",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: Yorkshire & the Humber",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-yorkshire-the-humber-30-10-2026/",
-   "published": "2026-10-30T16:35+00:00",
-   "published_jst": "2026-10-31 01:35",
-   "summary": "Project starts surged to their highest level in several years, driven almost entirely by major Social Housing schemes. Main contract awards also recorded substantial growth compared with both last year and two years ago, while detailed planning approvals increased against both annual comparisons and",
-   "ai_related": false
-  },
-  {
-   "id": "f13b5b85d33f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: North East",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-north-east-30-10-2026/",
-   "published": "2026-10-30T16:35+00:00",
-   "published_jst": "2026-10-31 01:35",
-   "summary": "Project starts declined against both the previous year and the preceding three months, with the absence of major projects weighing on overall activity. Main contract awards increased compared with a year earlier, supported by stronger underlying activity, while detailed planning approvals remained w",
-   "ai_related": false
-  },
-  {
-   "id": "65b19f720ffe",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity September 2026: Northern Ireland",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-northern-ireland-30-10-2026/",
-   "published": "2026-10-30T16:35+00:00",
-   "published_jst": "2026-10-31 01:35",
-   "summary": "Project starts increased strongly compared with the previous year, driven by major Social Housing and Industrial schemes, although activity remained below levels recorded two years ago. Main contract awards weakened against both annual and quarterly comparisons, while detailed planning approvals str",
-   "ai_related": false
   },
   {
    "id": "8cb2db80dc5c",
@@ -1477,19 +1383,6 @@
    "ai_related": true
   },
   {
-   "id": "84037b8987b3",
-   "source": "毎日新聞",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "プレスリリース：イベント会社が、営業・見積・施工計画・購買をAIで内製した業務システムに一本化。AIに作業させるための社内ルールと自動化ツールを、約4か月で1,158回改良（PR TIMES）",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EWU5OWXZPR19ULWVPaEFtaGVoUE5DT3NjTzdEOG1IT1JFaDhnVk9TUE5TRV9XdVFMSTF2UUZDZjJXQ0xVcjhsbGtWbmZTbDZUSkxVbXljWjZ2T3lFTGZYX0xERWxTTFp3?oc=5",
-   "published": "2026-10-30T03:23+00:00",
-   "published_jst": "2026-10-30 12:23",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "8aa4d23672e7",
    "source": "https://c-eye.co.jp/",
    "source_id": "gnews_kensetsu_dx",
@@ -1607,19 +1500,6 @@
    "ai_related": true
   },
   {
-   "id": "2bc2f284c533",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "GPT-6.1 Terraと同等のコーディング性能を発揮するAIモデル「Mistral Large 4」が無償公開される",
-   "url": "https://gigazine.net/news/20261030-mistral-large-4-open/",
-   "published": "2026-10-30T01:48+00:00",
-   "published_jst": "2026-10-30 10:48",
-   "summary": "フランスに拠点を置くAI企業のMistralが大規模AIモデル「Mistral Large 4」をオープンモデルとして無償公開しました。コーディング性能ではGPT-6.1 Terraと同等性能という評価もあります。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "544693c67e99",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
@@ -1687,19 +1567,6 @@
    "ai_related": false
   },
   {
-   "id": "a7b4237f9c05",
-   "source": "アットプレス",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "一級土木資格取得後のキャリアの広がりと建設業界の将来性を解説するコラムを公開。管理職・独立・発注者側への転身から、老朽化インフラ・2024年問題まで | 株式会社メインライン・エンジニアリング",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tSmktX0hDN2VOQ0h4MlVUQWpQb19OOEJkeW1DMkNLWk5qSUpBX09KbmVmRXo0TU1GMFVaNG9SX0piaGhIc19WT3dDbjBYZw?oc=5",
-   "published": "2026-10-30T01:00+00:00",
-   "published_jst": "2026-10-30 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "d03d210bcf58",
    "source": "亜州日報",
    "source_id": "gnews_kensetsu_ai",
@@ -1753,19 +1620,6 @@
    "published": "2026-10-29T23:24+00:00",
    "published_jst": "2026-10-30 08:24",
    "summary": "OpenAIは、AIの振る舞い指針「Model Spec」の改定版を公開した。全体を5つの価値観に沿って再構成し、メモリや会話履歴の適切な扱い、エージェント自律動作時の人間による監督への服従などを規定。一方で人格設定や詳細な文体規定の大半を削除し、モデル呼称を「the assistant」から「GPT」に改めた。",
-   "ai_related": true
-  },
-  {
-   "id": "52e5010e7e9f",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIは「組織能力の増幅器」、パナソニック新CAIOが描く人とAIの共進化",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2610/30/news053.html",
-   "published": "2026-10-29T23:00+00:00",
-   "published_jst": "2026-10-30 08:00",
-   "summary": "パナソニック ホールディングスでは、2026年4月にグループCAIO（Chief AI Officer）に就任した、執行役員 榊原彰氏が合同取材に応じ、グループ内のAI活用の展望について説明した。",
    "ai_related": true
   }
  ]
