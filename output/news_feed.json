@@ -1,12 +1,11 @@
 {
- "generated_at": "2026-11-01T05:59+00:00",
- "generated_at_jst": "2026-11-01 14:59",
+ "generated_at": "2026-11-01T07:35+00:00",
+ "generated_at_jst": "2026-11-01 16:35",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 12,
+  "ai_japan": 9,
   "ai_global": 52,
-  "construction_global": 13,
-  "construction_japan": 17
+  "construction_global": 20
  },
  "errors": [
   {
@@ -14,12 +13,36 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "constructionnews_uk",
+   "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
-   "feed": "constructionexec",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "buildapp",
+   "error": "URLError: <urlopen error timed out>"
+  },
+  {
+   "feed": "gnews_kensetsu_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_sekokan_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_bim_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_zenecon_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_sekisan_ai",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+  },
+  {
+   "feed": "gnews_kensetsu_dx",
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   }
  ],
  "items": [
@@ -61,7 +84,7 @@
    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
    "published": "2026-10-31T22:46+00:00",
    "published_jst": "2026-11-01 07:46",
-   "summary": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 158 # Comments: 87",
+   "summary": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 188 # Comments: 95",
    "ai_related": true,
    "title_ja": "Memdoor：Qwen系モデルのチームがFable 5を破る",
    "summary_ja": "LiveCodeBench Hardにおいて、Qwen3.8-27Bモデル5体のチームがFable 5の性能を上回りました。"
@@ -136,7 +159,7 @@
    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "published": "2026-10-31T19:39+00:00",
    "published_jst": "2026-11-01 04:39",
-   "summary": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 286 # Comments: 160",
+   "summary": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 311 # Comments: 179",
    "ai_related": true,
    "title_ja": "Anthropic、大規模モデルの訓練に関わるユーザーを次々ブロック",
    "summary_ja": "Anthropicが、より大規模なモデルの訓練に少しでも触れるような行為をしたユーザーのアカウントをブロックしていると話題に。"
@@ -256,7 +279,7 @@
    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
    "published": "2026-10-31T10:30+00:00",
    "published_jst": "2026-10-31 19:30",
-   "summary": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 315 # Comments: 157",
+   "summary": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 321 # Comments: 157",
    "ai_related": true,
    "title_ja": "我々はChatGPTのアカウントを乗っ取った",
    "summary_ja": "OpenAIにおけるセキュリティ上の脆弱性やその発見に関する議論、および関連する詳細情報へのリンク。"
@@ -277,19 +300,6 @@
    "summary_ja": "Google Deepmindと世界資源研究所は、森林などを用途別に6分類した世界マップ「ForTy」を公開。森林の追跡調査や保全活動への活用が期待される。"
   },
   {
-   "id": "09172e069355",
-   "source": "亜州日報",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIとデジタルツインによる建設産業の革新を模索する、全南光州統合特別市",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzdGxTN1pkeGpQbS1RQkpfcHppMUtVRmxnb25XZ3RFMjJhTTNTTTBOcWpzV3hBeUxyWWt4WFRlVzg2dWdWNS1NMG5WWmdpbmVkb2ZEVF9qdk9KdWs?oc=5",
-   "published": "2026-10-31T10:08+00:00",
-   "published_jst": "2026-10-31 19:08",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "52d7915023da",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -303,32 +313,6 @@
    "ai_related": true,
    "title_ja": "OpenAI、目標の300億ドルに届かず110億ドルの調達に留まる",
    "summary_ja": "OpenAIの最新の資金調達は目標の半分未満である約110億ドルに留まった。大口投資家のAI熱が冷え込む中、企業価値も期待を下回る結果となった。"
-  },
-  {
-   "id": "f7f70d3032b2",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI建設が資金ボトルネックに直面：OpenAIの調達目標半減、Anthropicはジャンク級格付けの恐れ",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84eVV2ZFlTTmlVcFdwOGpPM21CYVRuSk1YWWd4RThNcTZ1OGhXS2d5OWRtaUNOSmlCbnZRbGtCSG5Nd0g0Tnoya3FTR0ViTDlQU2JLSGluazZvY1BYc1NrZkNKMnJEYURkQzZjaWx6d1RIV3l0?oc=5",
-   "published": "2026-10-31T08:25+00:00",
-   "published_jst": "2026-10-31 17:25",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "12a8495cd3ed",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「原則CIM化」で始まる土木のDX",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYmI2STRsRXlQanZudjlYck9fZDJZS2VNQm1LOTNtUXVFTlhRZEpaRVFmM2tNZ09QaGtLV3dMRy0yMzBCZXZLazBNeWZNcXh2MmVIeWVWaXJReVNPMmNXdWotMW5OR3haYTlhY1FJWXJwZEw0cDlyNUdiYjJZc210SERCT3NweEZFVVpSZGdsTGc0X0FJNE9iWl8xclB0eWc1b1N3NmpJLW1kRkRqUDJIWVZMVnp4MTFOXzhGbXhlNGdVNkdhMmtBTw?oc=5",
-   "published": "2026-10-31T07:51+00:00",
-   "published_jst": "2026-10-31 16:51",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "6336aff37e57",
@@ -387,19 +371,6 @@
    "ai_related": true,
    "title_ja": "Apple Intelligence、中国で提供へ",
    "summary_ja": "Appleが中国市場向けに「Apple Intelligence」をiOS 27.3で導入すると発表。まずはベータ版から利用可能になる予定。"
-  },
-  {
-   "id": "6e59f1b111cc",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Googleに刑事捜査の手 フィンランドでAIデータセンター建設 日本は大丈夫か（天野健作） - エキスパート",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRHNreG9PcTlnTTV2QkUxV2lBRm1oS1oyS2J5SW9VQ194NWpxSVo4cFpndUVPcmVjQm0xVFRyb1NkSW5BMS1ueFE2bmpMNWZuYWVGeFFRRTVnVFlFcXBlMFhvRWVjR1JXNEh2Q3A0Rm1GdEZIY1hVQzVWU3RWazRxQzRBa2tiQXFR?oc=5",
-   "published": "2026-10-30T22:01+00:00",
-   "published_jst": "2026-10-31 07:01",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "7424741ae0d2",
@@ -533,6 +504,19 @@
    "summary_ja": "攻撃者がどのようにしてAnthropicのCursorアカウントへのアクセス権を入手したのかは、依然として分かっていない。"
   },
   {
+   "id": "f12b5456bc9f",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Major contractors join group to shape £181bn grid upgrade",
+   "url": "https://www.constructionnews.co.uk/contractors/balfour-beatty/major-contractors-join-group-to-shape-181bn-grid-upgrade-30-10-2026/",
+   "published": "2026-10-30T20:55+00:00",
+   "published_jst": "2026-10-31 05:55",
+   "summary": "United Infrastructure, Balfour Beatty and M Group have become founding members of a new industry group intended to give contractors a greater say in Britain's £181bn electricity network upgrade. The Electricity Networks Infrastructure (ENI) Services Group has been established by trade association BE",
+   "ai_related": false
+  },
+  {
    "id": "e6a83342c0c5",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -576,19 +560,6 @@
    "ai_related": true,
    "title_ja": "AI大手、新たなスクレイピング拒否基準を支持",
    "summary_ja": "OpenAIやGoogleなどが、パブリッシャーがAIによるスクレイピングを拒否するための新しい標準規格の採用を発表した。"
-  },
-  {
-   "id": "fc01177258f6",
-   "source": "Excite エキサイト",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場の「見る・判断する・伝える」は、AIでどう変わる？セーフィーが2027年に向けた次の一手を語る講演を開催＜12/10・参加無料",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwaENkUVNxSDlDYTFYTmJ2Rk1YdDB0Q2JvRGkxRm94LTdBeTNWdmxZekJ6WmRfYkdTeE5kaHozTTkxYlRMYXJld2w3V2xSNXBOWk9SVVhvQ0NmYWdVaUlsTU9KZnVqTVltX2dsbFV2R25wLVU?oc=5",
-   "published": "2026-10-30T20:15+00:00",
-   "published_jst": "2026-10-31 05:15",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "9e1171f2fe11",
@@ -771,6 +742,123 @@
    "summary_ja": "司法省による不正対策が強化される中、連邦学生援助の申請手続きで混乱が生じる可能性がある。"
   },
   {
+   "id": "195e5ed97f7f",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: South West",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-south-west-30-10-2026/",
+   "published": "2026-10-30T16:36+00:00",
+   "published_jst": "2026-10-31 01:36",
+   "summary": "Project-starts weakened against both last year and two years ago, with a notable fall in major projects dragging down overall activity. Main contract awards performed strongly, supported by a sharp increase in major contract awards. Detailed planning approvals remained subdued, declining against bot",
+   "ai_related": false
+  },
+  {
+   "id": "42defa2df7c9",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: South East",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-south-east-30-10-2026/",
+   "published": "2026-10-30T16:36+00:00",
+   "published_jst": "2026-10-31 01:36",
+   "summary": "Project starts fell sharply against both annual and quarterly comparisons, while main contract awards increased significantly due to a surge in major project activity. Detailed planning approvals also remained below historic levels despite some resilience in underlying activity. South East overview ",
+   "ai_related": false
+  },
+  {
+   "id": "abc05ddb274e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: London",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-london-30-10-2026/",
+   "published": "2026-10-30T16:35+00:00",
+   "published_jst": "2026-10-31 01:35",
+   "summary": "Project starts continued to weaken against both annual and quarterly comparisons. Main contract awards remained resilient, while planning approvals strengthened significantly, driven by major office and residential developments. London overview Project starts totalled £2.98bn, a 48 per cent decline ",
+   "ai_related": false
+  },
+  {
+   "id": "71150172f437",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: North West",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-north-west-30-10-2026/",
+   "published": "2026-10-30T16:35+00:00",
+   "published_jst": "2026-10-31 01:35",
+   "summary": "Project starts increased compared with both annual and quarterly benchmarks, supported by several major schemes reaching site. Main contract awards also strengthened significantly, although detailed planning approvals remained below last year's exceptionally strong level. North West overview Project",
+   "ai_related": false
+  },
+  {
+   "id": "16ad279da3c9",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: East Midlands",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-east-midlands-30-10-2026/",
+   "published": "2026-10-30T16:35+00:00",
+   "published_jst": "2026-10-31 01:35",
+   "summary": "Project starts weakened compared with both the previous year and the preceding quarter, while main contract awards remained broadly stable. Detailed planning approvals strengthened significantly, driven by major utility and residential schemes entering the pipeline. East Midlands overview Project st",
+   "ai_related": false
+  },
+  {
+   "id": "57e276aafb44",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: West Midlands",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-west-midlands-30-10-2026/",
+   "published": "2026-10-30T16:35+00:00",
+   "published_jst": "2026-10-31 01:35",
+   "summary": "Project starts remained broadly stable compared with a year earlier but declined sharply against the preceding three months as major project activity eased. Main contract awards also softened, while detailed planning approvals recorded a significant decline against both annual and quarterly comparis",
+   "ai_related": false
+  },
+  {
+   "id": "1f953d4c6d70",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: Yorkshire & the Humber",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-yorkshire-the-humber-30-10-2026/",
+   "published": "2026-10-30T16:35+00:00",
+   "published_jst": "2026-10-31 01:35",
+   "summary": "Project starts surged to their highest level in several years, driven almost entirely by major Social Housing schemes. Main contract awards also recorded substantial growth compared with both last year and two years ago, while detailed planning approvals increased against both annual comparisons and",
+   "ai_related": false
+  },
+  {
+   "id": "f13b5b85d33f",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: North East",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-north-east-30-10-2026/",
+   "published": "2026-10-30T16:35+00:00",
+   "published_jst": "2026-10-31 01:35",
+   "summary": "Project starts declined against both the previous year and the preceding three months, with the absence of major projects weighing on overall activity. Main contract awards increased compared with a year earlier, supported by stronger underlying activity, while detailed planning approvals remained w",
+   "ai_related": false
+  },
+  {
+   "id": "65b19f720ffe",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "UK construction activity September 2026: Northern Ireland",
+   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-september-2026-northern-ireland-30-10-2026/",
+   "published": "2026-10-30T16:35+00:00",
+   "published_jst": "2026-10-31 01:35",
+   "summary": "Project starts increased strongly compared with the previous year, driven by major Social Housing and Industrial schemes, although activity remained below levels recorded two years ago. Main contract awards weakened against both annual and quarterly comparisons, while detailed planning approvals str",
+   "ai_related": false
+  },
+  {
    "id": "8cb2db80dc5c",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -784,19 +872,6 @@
    "ai_related": true,
    "title_ja": "Theranosの内部告発者が警告、AIブームは欺瞞の絶好の機会",
    "summary_ja": "利益を出していない企業が巨額評価額で資金調達を行うAI時代において、Theranosの教訓が新たな意味を持つ。"
-  },
-  {
-   "id": "18ae00c651f4",
-   "source": "quasa.io",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Nomic – 建築・エンジニアリング・建設向けAIプラットフォーム、図面レビューと出典付きプロジェクト検索",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWlI1TVdUYkdva0NCb2ZYZ0JpcVhYZG9JdXlGZjVtT0oteE5YV2JJa0F3SFFYNVdNVHdKbEp0N3JqVmg1enVpdmFtWENaT2lKNkNQTjNFVUF1YUdiUUxWZ2Z4RWJsV3dEYnpfODdYLTZNV2s2SjF6Y01LTWlQV2ZnT0NhWUdwWVBCVzk3TVFjRHBWMnlYY1NHYUlfU1h1bXBORzZYLTZEWk0yTkhyRjVFWkszSl9venlxQWdEQl9DdGllbWFJWWptRGZEN0ltMWdVdUZB?oc=5",
-   "published": "2026-10-30T16:01+00:00",
-   "published_jst": "2026-10-31 01:01",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "4a4bcbde667c",
@@ -1007,19 +1082,6 @@
    "summary_ja": "フランスのVinciのポーランド子会社Warbudが、国内最大のコンサートホール建設の第2段階を受注した。"
   },
   {
-   "id": "ed8c21aab685",
-   "source": "愛媛新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "四電、南予でＡＩ向けＤＣ建設検討 伊方原発電力の「地産地消」推進",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Eanp0Q25LdmZ6YzFnM1BVQVU0WklDeGR2aENrZTNHUTJMdkxFTVZCV3hZbHNiSmtzWE5pMmtXcFVTc2hfU2RZOU1BeFY2R3lCd1dUcUZQQjRYUUtxSTU1Xw?oc=5",
-   "published": "2026-10-30T12:32+00:00",
-   "published_jst": "2026-10-30 21:32",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "92b7e9d02a11",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1031,32 +1093,6 @@
    "published_jst": "2026-10-30 21:00",
    "summary": "本物のろうそくの炎を撮影した映像でAIを学習させ、炎の自然な揺らぎを再現するデジタルキャンドル「Digital Candle」が登場しました。144個のLEDを使って炎を表現する仕組みで、あらかじめ用意されたアニメーションを繰り返すのではなく、AIがリアルタイムで炎の動きを生成するのが特徴です。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "2ce7f378d0fd",
-   "source": "日テレNEWS NNN",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ政権推進「AIデータセンター」建設めぐり反発広がる 「甲高い音が昼夜を問わず…」“騒音”被害訴える住民も 中間選挙の“争点”に",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOW0zWWtlVlkwUW9fTkI2RVd5U21JelNrZUhQaDhFU3dEYnM3Z0JPWk5HWml0dDNreTRhbkFac1hPZVA4MEFZNkVmZTlJckRwWTJ3M1VkeDlwY3VWdTVtU3I3QndiQ2tIZmQzeC00SHNyamZWenRjbWFRWjBRYjhnMndJdDc?oc=5",
-   "published": "2026-10-30T11:28+00:00",
-   "published_jst": "2026-10-30 20:28",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "0921a54520a6",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ政権推進「AIデータセンター」建設めぐり反発広がる 「甲高い音が昼夜を問わず…」“騒音”被害訴える住民も 中間選挙の“争点”に (日テレNEWS NNN)",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTzdNbWNENmpZYmRMeS12eGNweXR1TlN4cDd2S0ItTXhVSHVvVURwaFNGbmd2M1FHOVJCb0RwQ2VmOUZCNG1hdWtROG1qNVFieXBqYmdvV2hpaHZlOUhxSnF4REYzX21STHBSZ1A0VTZMd0hsamdUcnEwSUpDQndPTjQ3MDl3b1d2eDJhVHNn?oc=5",
-   "published": "2026-10-30T11:28+00:00",
-   "published_jst": "2026-10-30 20:28",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "dbfbce585037",
@@ -1102,19 +1138,6 @@
    "ai_related": false,
    "title_ja": "リーズ・ロイヤル・アーモリーズの1.48億ポンドの主棟が詳細設計へ",
    "summary_ja": "BDPの起用により、計画申請および施工業者調達に向けた次のステップへと進展した。"
-  },
-  {
-   "id": "31eae979137b",
-   "source": "Dellows News",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トリドールHDが建築手法BIMを導入、トランスコスモスと連携し育成プログラムも開始",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0dDNNMlNxeXpqbTU2bER0dU9WN3ROYWotUGU0UGo2eGVuNHduM2FRdmNlSUdfd09XWFpQTU9PYUpqbVFqdkdKMF9jc292Z1c4QzdKYTFmbVNfdzhGV3MybzNjNjlZbWZwYldJ?oc=5",
-   "published": "2026-10-30T09:40+00:00",
-   "published_jst": "2026-10-30 18:40",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "25cc4c9bb2e3",
@@ -1188,19 +1211,6 @@
    "ai_related": true
   },
   {
-   "id": "1e01abdbefdf",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "BIMの第一人者・グラフィソフト直伝！設計・施工をつなぐ、AI時代の新常識を社長が語る講演を開催＜12/10・参加無料＞",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yMllCbmJIYVFjSEpaaUozY0F1WDZNcS1SYU92TlBVeWEyQlhpTlIwd1RiUHY4NnMtMHJTdzgyTHl4WW9yaWFPQndORGUzOVg1b0xIeXhaMElMN2pLaTdjS2RqbzhMWmxfLWc?oc=5",
-   "published": "2026-10-30T08:40+00:00",
-   "published_jst": "2026-10-30 17:40",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "cc7fd3be5701",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1212,168 +1222,6 @@
    "published_jst": "2026-10-30 17:17",
    "summary": "Googleは、米国とインドのプロバイダーが提供する数百冊の教科書に「Gemini Notebook」内で無料でアクセスできるようになったと発表した。",
    "ai_related": true
-  },
-  {
-   "id": "d6e650ee729e",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "パーソルクロステクノロジーとUnseedが進めるAI活用の建設機械自動化の新たな挑戦",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFRzlOQzBSei05M3YtZGs0YVhEel9YREozSzFFYkdURTZrd196YVU0Z2xWNFI2b0MtYjdLWUNDZVctWm5FYUhla1FuQzI0SkRNMGFmclBvMk92TmVrM0s3N2VrRFZQZlV5?oc=5",
-   "published": "2026-10-30T07:49+00:00",
-   "published_jst": "2026-10-30 16:49",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "503efa440e4f",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIの回答で登場する統計データの40％が裏付ける研究結果などがない「ゾンビ統計」であることが明らかに",
-   "url": "https://gigazine.net/news/20261030-ai-assistants-statistics-not-find-study/",
-   "published": "2026-10-30T07:19+00:00",
-   "published_jst": "2026-10-30 16:19",
-   "summary": "ChatGPT、Perplexity、Gemini、Claude、Google検索のAIによる概要という5つのAIアシスタントが出力した統計情報1285件を追跡調査したところ、そのほとんどが研究による裏付けのないものだったとAI可視化プラットフォームのTrakkrが報告しています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "7ad72e8b793f",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【株式会社ミライト・ワン】建設現場のドローンDXを加速させる「月額制ドローンドックサービス」の解説動画を公開",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RTE5PTUJvMld5ZUlGQTc5Nl9oRnNMX2RZN0pWSXJOR0RsSnRxcDNWREhOa0VwSWlJM2tzQWhjQUdLbDlBU3RmbllwM0s3Nzhvc3ItUlA4cGFEVFNULXY0aXB6LUIwZnBMOHc?oc=5",
-   "published": "2026-10-30T07:15+00:00",
-   "published_jst": "2026-10-30 16:15",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "beee82ce20dd",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Muse clears planning hurdle for £640m Slough regeneration",
-   "url": "https://www.constructionenquirer.com/2026/10/30/muse-clears-planning-hurdle-for-640m-slough-regeneration/",
-   "published": "2026-10-30T07:13+00:00",
-   "published_jst": "2026-10-30 16:13",
-   "summary": "1,539 homes and major office building approved for former university site",
-   "ai_related": false,
-   "title_ja": "Muse、スラウの6.4億ポンド規模の再開発計画が承認",
-   "summary_ja": "元大学跡地に1,539戸の住宅と大型オフィスビルが建設される予定。"
-  },
-  {
-   "id": "f3eda68b844b",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "East West Rail opens £450m early works race",
-   "url": "https://www.constructionenquirer.com/2026/10/30/east-west-rail-opens-450m-early-works-race/",
-   "published": "2026-10-30T07:13+00:00",
-   "published_jst": "2026-10-30 16:13",
-   "summary": "Eight-year framework offers £80m integrator role alongside specialist and enabling works packages",
-   "ai_related": false,
-   "title_ja": "イースト・ウェスト・レール、4.5億ポンドの早期工事の発注を開始",
-   "summary_ja": "8年間の枠組みで、8,000万ポンドの統括管理役および専門・準備工事のパッケージを提供する。"
-  },
-  {
-   "id": "b5e493012bc2",
-   "source": "Dellows News",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "renue、建設現場向けに施工管理AIを提供開始 工程表の組み替えを支援",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TcUNWSlcySDI1dGw5V0tQM2ViM0NJU1pyeUZIbWhCSnlwRmJRUlhqREtuQTJUV0pTV0c2N055Q05CdjNsMEprbDZwbHNsaWp6ckgwcmdqV1hjYjVjNjdLcHJ6aDg?oc=5",
-   "published": "2026-10-30T06:40+00:00",
-   "published_jst": "2026-10-30 15:40",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "7bdba0bbaf85",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Geminiで生成したPDFやスライドを「チャット上で直接編集」可能に 個人プランとGoogle Workspaceで試してみた",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002757/",
-   "published": "2026-10-30T06:31+00:00",
-   "published_jst": "2026-10-30 15:31",
-   "summary": "Geminiとのチャット内で直接、PDFやスライドなどを生成、プレビュー、編集できるようになった。ITmedia AI＋編集部の環境で同機能を試した結果をお届けする。",
-   "ai_related": true
-  },
-  {
-   "id": "9d3f72a35fc2",
-   "source": "Mogura VR",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建築設計を自動化するAI企業Dream、1,700万ドルのシード資金調達を発表",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1UEVnNFJ5VE9MN081SktzREpXSmFNMndKUnJnWFJxV0k1ajQ1b1FMNi1rMHdiaXo1NlJoRDF5enJ6M0xjdzBROVAyMEtacThGcURxNmduWldJX3ZwRWtkVm5EZzc2MmJ3Q24yZkNUOA?oc=5",
-   "published": "2026-10-30T06:20+00:00",
-   "published_jst": "2026-10-30 15:20",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "645c34aab654",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Morgan Sindall lands £68m Salford Business School",
-   "url": "https://www.constructionenquirer.com/2026/10/30/morgan-sindall-lands-68m-salford-business-school/",
-   "published": "2026-10-30T06:13+00:00",
-   "published_jst": "2026-10-30 15:13",
-   "summary": "Main construction to start in April 2027",
-   "ai_related": false,
-   "title_ja": "モーガン・シンダル、6,800万ポンドのサルフォード・ビジネス・スクールを受注",
-   "summary_ja": "本体工事は2027年4月に着工する予定である。"
-  },
-  {
-   "id": "5d1d187cfe0d",
-   "source": "Unisba Media",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ソフトバンクG孫正義氏 フランスにAIデータセンター建設へ 最大14兆円規模(2026年6月2日) Asts Stock (zLa6ulIMD4)",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTXJpZmh4Q0R5a3IxVmV6dTdZSG9vdkhKdC1HcEhQVFFoUFplck9hWVp0RlBSMGQ1MUZ6QTJVdlBPRERkazYzcUNKNlVSbEdFS1gxZnltMzFHLTNXNnNJUGxqcVRxN1NlRjhRNkVOVTBXZ0RDdmswXzIwX2VtMVA4WA?oc=5",
-   "published": "2026-10-30T06:03+00:00",
-   "published_jst": "2026-10-30 15:03",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "7fdc38bfc0b1",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIを50体集めてマインクラフトで文明を作らせたら食糧難に陥って配給制度が実施される",
-   "url": "https://gigazine.net/news/20261030-minecraft-gpt-sol/",
-   "published": "2026-10-30T06:00+00:00",
-   "published_jst": "2026-10-30 15:00",
-   "summary": "AIスタートアップ企業のOlam LabsとベンチャーキャピタルのY Combinatorが共同で、ゲーム「マインクラフト」を50体のGPT-6.1 Solにプレイさせるという実験を行い、その結果を公開しました。また「OpenAIのAI対AnthropicのAIでミニゲームのベッドウォーズをする」という試みも行っています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "7aa824540ca1",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "施工管理AI｜建設現場の状況からAIが工期への影響を判定し工程表を組み直し",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01dm1yLXdNa0V2aE9kMHo3YUo2TzNkNEFvUlJTeXRpSldjbFJYcVRFQ05EQkxKRHcwWkxmT0FRZmJKVVY0V2lYRlpDU0o0WUZhZWd6YncyN24wTmUzdTQyR2RxQWtqaGdsbWc?oc=5",
-   "published": "2026-10-30T06:00+00:00",
-   "published_jst": "2026-10-30 15:00",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
