@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-11-01T16:55+00:00",
- "generated_at_jst": "2026-11-02 01:55",
+ "generated_at": "2026-11-01T18:54+00:00",
+ "generated_at_jst": "2026-11-02 03:54",
  "window_hours": 48,
  "counts": {
-  "ai_global": 39,
-  "construction_japan": 15,
+  "ai_global": 35,
+  "construction_japan": 13,
   "ai_japan": 6,
   "construction_global": 3
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -26,7 +30,24 @@
    "published": "2026-11-01T16:49+00:00",
    "published_jst": "2026-11-02 01:49",
    "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In th",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "カイル・キングズベリーの言葉",
+   "summary_ja": "大規模言語モデルの利用は、ドキュメントやソフトウェア、そしてそれらを作る組織への信頼を損なう。エンジニアは新たなソフトウェアプロジェクトに疑いの目を向けるようになるかもしれない。"
+  },
+  {
+   "id": "664224e893fc",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+   "url": "https://hackerbooks.org",
+   "published": "2026-11-01T15:58+00:00",
+   "published_jst": "2026-11-02 00:58",
+   "summary": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be cle",
+   "ai_related": true,
+   "title_ja": "HN言及の本を集めたHackerBooks",
+   "summary_ja": "HackerTubeにインスパイアされ、Claudeを使いHNで話題になった書籍をまとめたサイトを構築。2007年以降に2人以上のコメンテーターが言及した約1万6500冊を掲載している。"
   },
   {
    "id": "67624c07bc6c",
@@ -52,7 +73,9 @@
    "published": "2026-11-01T14:56+00:00",
    "published_jst": "2026-11-01 23:56",
    "summary": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on me",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Adobe、プロの様に使えるAIをテスト",
+   "summary_ja": "AdobeとUCサンディエゴが、Photoshopのプロのように画像を編集するAIシステム「EditAgent」を開発。汎用的な編集を繰り返すのではなく、適切な専門ツールを選択する。"
   },
   {
    "id": "5264e49da2ab",
@@ -65,7 +88,9 @@
    "published": "2026-11-01T14:36+00:00",
    "published_jst": "2026-11-01 23:36",
    "summary": "Researchers in Luxembourg put ChatGPT, Grok, and Gemini on the therapist's couch and found a safety problem: a warm, empathetic conversational style is enough to make the models tell coherent stories of suffering about their own training, with scores in the moderate-to-severe range on clinical anxie",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "共感的なプロンプトがAIを変化させる",
+   "summary_ja": "ルクセンブルクの研究者がChatGPTなどを調査し、温かく共感的な会話スタイルによって、モデルが自身に関する一貫した苦痛の物語を語るようになる安全上の問題を発見した。"
   },
   {
    "id": "fc995ace8b78",
@@ -189,8 +214,10 @@
    "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
    "published": "2026-11-01T06:06+00:00",
    "published_jst": "2026-11-01 15:06",
-   "summary": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 194 # Comments: 136",
-   "ai_related": true
+   "summary": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 223 # Comments: 153",
+   "ai_related": true,
+   "title_ja": "JSフレームワークにおけるAIのコスト",
+   "summary_ja": "JavaScriptフレームワークがAIにもたらすコストや影響について議論する記事と、Hacker News上のコメント欄へのリンクが共有されている。"
   },
   {
    "id": "cb4e46fd56fd",
@@ -243,7 +270,7 @@
    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
    "published": "2026-10-31T22:46+00:00",
    "published_jst": "2026-11-01 07:46",
-   "summary": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 357 # Comments: 173",
+   "summary": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 385 # Comments: 188",
    "ai_related": true,
    "title_ja": "Memdoor：Qwen系モデルのチームがFable 5を破る",
    "summary_ja": "LiveCodeBench Hardにおいて、Qwen3.8-27Bモデル5体のチームがFable 5の性能を上回りました。"
@@ -451,19 +478,6 @@
    "ai_related": true,
    "title_ja": "マイクロソフト、AI部門を除き全従業員の4分の1に希望退職を提示",
    "summary_ja": "マイクロソフトは全従業員の約4分の1にあたる約6万人に希望退職パッケージを提示した。AI関連の中核チームは除外されており、今年で2度目の実施となる。"
-  },
-  {
-   "id": "09172e069355",
-   "source": "亜州日報",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIとデジタルツインによる建設産業の革新を模索する、全南光州統合特別市",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzdGxTN1pkeGpQbS1RQkpfcHppMUtVRmxnb25XZ3RFMjJhTTNTTTBOcWpzV3hBeUxyWWt4WFRlVzg2dWdWNS1NMG5WWmdpbmVkb2ZEVF9qdk9KdWs?oc=5",
-   "published": "2026-10-31T10:08+00:00",
-   "published_jst": "2026-10-31 19:08",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "f7f70d3032b2",
@@ -821,94 +835,6 @@
    "ai_related": false,
    "title_ja": "JE Dunn、元社員を最高法務責任者に起用",
    "summary_ja": "30年以上勤務したトム・ホイットカーが2027年に引退する予定に伴い、Colby Coxが復帰する。"
-  },
-  {
-   "id": "c4dbacf8aa2b",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google’s satellite AI server transmits its first response to Earth",
-   "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-   "published": "2026-10-30T18:21+00:00",
-   "published_jst": "2026-10-31 03:21",
-   "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: B",
-   "ai_related": true,
-   "title_ja": "Googleの衛星AIサーバーが地球へ初応答を送信",
-   "summary_ja": "GoogleのAIチップ搭載衛星が宇宙からの初応答を生成。Tensor Processing Unitsの起動に成功し、Gemmaモデルが稼働。"
-  },
-  {
-   "id": "d52c9778a55e",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-   "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
-   "published": "2026-10-30T17:47+00:00",
-   "published_jst": "2026-10-31 02:47",
-   "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
-   "ai_related": true,
-   "title_ja": "Zestの新AIエージェント、チャットで飲食店予約",
-   "summary_ja": "全員の好みを合わせてレストランの候補を投票で絞り込み、自動で予約まで完了してくれるAIコンシェルジュが登場。"
-  },
-  {
-   "id": "0de3f9697e49",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
-   "published": "2026-10-30T17:38+00:00",
-   "published_jst": "2026-10-31 02:38",
-   "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital me",
-   "ai_related": true,
-   "title_ja": "スターバックス、ドライブスルーにパーソナルAIメニュー",
-   "summary_ja": "ドライブスルーで個別のデジタルメニュー表示を検討。CEOが四半期決算会合で新たな顧客体験の探索を明かした。"
-  },
-  {
-   "id": "b10570d1171f",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-   "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-   "published": "2026-10-30T17:38+00:00",
-   "published_jst": "2026-10-31 02:38",
-   "summary": "Low costs and offline security mean magnetic tape still has a job.",
-   "ai_related": true,
-   "title_ja": "富士フイルム、AIのアーカイブ需要で磁気テープ増産へ",
-   "summary_ja": "低コストとオフラインセキュリティの利点から、AI需要に伴うデータ保存用として磁気テープが依然として活用されている。"
-  },
-  {
-   "id": "135f70cd39eb",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google’s first data center satellite is online and writing poetry",
-   "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
-   "published": "2026-10-30T17:00+00:00",
-   "published_jst": "2026-10-31 02:00",
-   "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
-   "ai_related": true,
-   "title_ja": "Googleの初データセンター衛星が稼働、詩を執筆",
-   "summary_ja": "宇宙空間初のTPU上でGoogle DeepMindのGemma 4が稼働し、ユーモラスな詩を生成している。"
-  },
-  {
-   "id": "58e2ce5c50cf",
-   "source": "Excite エキサイト",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ政権推進「AIデータセンター」建設めぐり反発広がる 「甲高い音が昼夜を問わず…」“騒音”被害訴える住民も 中間選挙の“争点”に",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oR09ueUM0cEdYVzdNOWl5bDkwSG5kNzBYM2daV3J2cWpRcjgzZ1pzVWJ2MlY5NFhhcmNkV1Vla1ZwTlJoSTJWbmlKTmlsNjdxUTcyUGtaclZkejVINzRwYXdHUnlnS0NTUWZWMVhR?oc=5",
-   "published": "2026-10-30T17:00+00:00",
-   "published_jst": "2026-10-31 02:00",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
