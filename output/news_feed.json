@@ -1,13 +1,18 @@
 {
- "generated_at": "2026-11-01T07:35+00:00",
- "generated_at_jst": "2026-11-01 16:35",
+ "generated_at": "2026-11-01T09:46+00:00",
+ "generated_at_jst": "2026-11-01 18:46",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 9,
-  "ai_global": 52,
-  "construction_global": 20
+  "ai_japan": 7,
+  "construction_japan": 12,
+  "ai_global": 50,
+  "construction_global": 19
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -15,37 +20,35 @@
   {
    "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 403: Forbidden"
-  },
-  {
-   "feed": "buildapp",
-   "error": "URLError: <urlopen error timed out>"
-  },
-  {
-   "feed": "gnews_kensetsu_ai",
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
-  {
-   "feed": "gnews_sekokan_ai",
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
-  {
-   "feed": "gnews_bim_ai",
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
-  {
-   "feed": "gnews_zenecon_ai",
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
-  {
-   "feed": "gnews_sekisan_ai",
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
-  },
-  {
-   "feed": "gnews_kensetsu_dx",
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   }
  ],
  "items": [
+  {
+   "id": "a5436b8b2249",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "無料で完全にWindowsでローカル動作できるElevenLabs代替ツール「VoiceStudio」、音声クローン・音声デザイン・動画吹き替え・音声入力・文字起こし・オーディオブック作成を多言語で可能",
+   "url": "https://gigazine.net/news/20261101-voicestudio/",
+   "published": "2026-11-01T09:00+00:00",
+   "published_jst": "2026-11-01 18:00",
+   "summary": "短い録音から人物の声を再現する音声クローン・文章による新しい声の設計・動画の多言語吹き替え・音声の文字起こし・長文を読み上げるオーディオブック制作などAIによる音声処理にはさまざまな機能があります。こうした機能を1つのアプリから利用でき、音声モデルの切り替えやAIエージェントとの連携にも対応するほか、Windows上で音声生成をローカル実行できる無料のオープンソースElevenLabs代替ツールが「VoiceStudio」です。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "cb4e46fd56fd",
+   "source": "山陽新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "\"地方建設会社が挑む、i-Construction2.0最前線\" 鴻治組、急峻・狭小な山間部の直轄砂防現場で遠隔×自動施工を実証",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lYmFxa0VaQkZRTjh1QnRmU0ZpbTZMUmtyRVF5cGZBVDFvRVAxMWhUXzlTMkd6Yl9uZ19YcG1GYnRaZkRvaFNodGpTVVVjWUwxQVE?oc=5",
+   "published": "2026-11-01T00:32+00:00",
+   "published_jst": "2026-11-01 09:32",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "c999b40c8688",
    "source": "ITmedia AI+",
@@ -84,10 +87,23 @@
    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
    "published": "2026-10-31T22:46+00:00",
    "published_jst": "2026-11-01 07:46",
-   "summary": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 188 # Comments: 95",
+   "summary": "Article URL: https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve Comments URL: https://news.ycombinator.com/item?id=50320995 Points: 220 # Comments: 107",
    "ai_related": true,
    "title_ja": "Memdoor：Qwen系モデルのチームがFable 5を破る",
    "summary_ja": "LiveCodeBench Hardにおいて、Qwen3.8-27Bモデル5体のチームがFable 5の性能を上回りました。"
+  },
+  {
+   "id": "5e8a9a916ad1",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Murataとイビデン、AIインフラ狙い相次ぐ増設…韓国のSamsung Electro-Mechanics・LG Innotekと正面対決",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAtRGtpMEs4eWhtQjlBM283alg3LWZjX3pGZzB2d0hDb3Vhck1hUEFiVGtmSVVRVmxWWWNXN05oa0gydXNGRTRxTG82d0lTV2dlTHNkdS01RFRBaGNDVnBvT0taNTlUYWllbk92eHBzNkNsNVZO?oc=5",
+   "published": "2026-10-31T22:25+00:00",
+   "published_jst": "2026-11-01 07:25",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "bc9463905bbd",
@@ -150,6 +166,19 @@
    "summary_ja": "NAACPが提起した訴訟で、SpaceX傘下のAI企業による大気浄化法違反の追及が認められた。"
   },
   {
+   "id": "b9a7e145e16c",
+   "source": "YouTube",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【建設×AI】10人の現場を9人、8人へ！完全無人化より現実的な自律施工 #shorts",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kbTVBRTltb3dHQjlwcTItRTNMamhKeG1fZ2tVLWo5RmFqMzNtcGp0LXdselU5eE5UcEdZNmZ2aGdhcjBpR0NiUlpXV0NVVmpkQmlDOTZVUGhSWXpZ?oc=5",
+   "published": "2026-10-31T20:06+00:00",
+   "published_jst": "2026-11-01 05:06",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "e07ec5d69c95",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -159,7 +188,7 @@
    "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
    "published": "2026-10-31T19:39+00:00",
    "published_jst": "2026-11-01 04:39",
-   "summary": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 311 # Comments: 179",
+   "summary": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 344 # Comments: 198",
    "ai_related": true,
    "title_ja": "Anthropic、大規模モデルの訓練に関わるユーザーを次々ブロック",
    "summary_ja": "Anthropicが、より大規模なモデルの訓練に少しでも触れるような行為をしたユーザーのアカウントをブロックしていると話題に。"
@@ -279,7 +308,7 @@
    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
    "published": "2026-10-31T10:30+00:00",
    "published_jst": "2026-10-31 19:30",
-   "summary": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 321 # Comments: 157",
+   "summary": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 330 # Comments: 163",
    "ai_related": true,
    "title_ja": "我々はChatGPTのアカウントを乗っ取った",
    "summary_ja": "OpenAIにおけるセキュリティ上の脆弱性やその発見に関する議論、および関連する詳細情報へのリンク。"
@@ -313,6 +342,19 @@
    "ai_related": true,
    "title_ja": "OpenAI、目標の300億ドルに届かず110億ドルの調達に留まる",
    "summary_ja": "OpenAIの最新の資金調達は目標の半分未満である約110億ドルに留まった。大口投資家のAI熱が冷え込む中、企業価値も期待を下回る結果となった。"
+  },
+  {
+   "id": "f7f70d3032b2",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI建設が資金ボトルネックに直面：OpenAIの調達目標半減、Anthropicはジャンク級格付けの恐れ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84eVV2ZFlTTmlVcFdwOGpPM21CYVRuSk1YWWd4RThNcTZ1OGhXS2d5OWRtaUNOSmlCbnZRbGtCSG5Nd0g0Tnoya3FTR0ViTDlQU2JLSGluazZvY1BYc1NrZkNKMnJEYURkQzZjaWx6d1RIV3l0?oc=5",
+   "published": "2026-10-31T08:25+00:00",
+   "published_jst": "2026-10-31 17:25",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "6336aff37e57",
@@ -371,6 +413,19 @@
    "ai_related": true,
    "title_ja": "Apple Intelligence、中国で提供へ",
    "summary_ja": "Appleが中国市場向けに「Apple Intelligence」をiOS 27.3で導入すると発表。まずはベータ版から利用可能になる予定。"
+  },
+  {
+   "id": "6e59f1b111cc",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Googleに刑事捜査の手 フィンランドでAIデータセンター建設 日本は大丈夫か（天野健作） - エキスパート",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRHNreG9PcTlnTTV2QkUxV2lBRm1oS1oyS2J5SW9VQ194NWpxSVo4cFpndUVPcmVjQm0xVFRyb1NkSW5BMS1ueFE2bmpMNWZuYWVGeFFRRTVnVFlFcXBlMFhvRWVjR1JXNEh2Q3A0Rm1GdEZIY1hVQzVWU3RWazRxQzRBa2tiQXFR?oc=5",
+   "published": "2026-10-30T22:01+00:00",
+   "published_jst": "2026-10-31 07:01",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "7424741ae0d2",
@@ -560,6 +615,32 @@
    "ai_related": true,
    "title_ja": "AI大手、新たなスクレイピング拒否基準を支持",
    "summary_ja": "OpenAIやGoogleなどが、パブリッシャーがAIによるスクレイピングを拒否するための新しい標準規格の採用を発表した。"
+  },
+  {
+   "id": "fc01177258f6",
+   "source": "Excite エキサイト",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設現場の「見る・判断する・伝える」は、AIでどう変わる？セーフィーが2027年に向けた次の一手を語る講演を開催＜12/10・参加無料",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwaENkUVNxSDlDYTFYTmJ2Rk1YdDB0Q2JvRGkxRm94LTdBeTNWdmxZekJ6WmRfYkdTeE5kaHozTTkxYlRMYXJld2w3V2xSNXBOWk9SVVhvQ0NmYWdVaUlsTU9KZnVqTVltX2dsbFV2R25wLVU?oc=5",
+   "published": "2026-10-30T20:15+00:00",
+   "published_jst": "2026-10-31 05:15",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "924f79bac880",
+   "source": "毎日新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "プレスリリース：建設現場の「見る・判断する・伝える」は、AIでどう変わる？セーフィーが2027年に向けた次の一手を語る講演を開催＜12/10・参加無料＞（PR TIMES）",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPb3RBWVk1TDVURnF2Q21zZkw3RVhxR2R1UVhPc3RUalB1d1QwUTFXSXlWYnoydDlEQkNqZzVLYW05eHNBY3pieXF0TTRIM2xjbTRjWXd1SHlzM3N4d0U2MjVEVlMzZEhw?oc=5",
+   "published": "2026-10-30T20:10+00:00",
+   "published_jst": "2026-10-31 05:10",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "9e1171f2fe11",
@@ -874,6 +955,19 @@
    "summary_ja": "利益を出していない企業が巨額評価額で資金調達を行うAI時代において、Theranosの教訓が新たな意味を持つ。"
   },
   {
+   "id": "18ae00c651f4",
+   "source": "quasa.io",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Nomic – 建築・エンジニアリング・建設向けAIプラットフォーム、図面レビューと出典付きプロジェクト検索",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWlI1TVdUYkdva0NCb2ZYZ0JpcVhYZG9JdXlGZjVtT0oteE5YV2JJa0F3SFFYNVdNVHdKbEp0N3JqVmg1enVpdmFtWENaT2lKNkNQTjNFVUF1YUdiUUxWZ2Z4RWJsV3dEYnpfODdYLTZNV2s2SjF6Y01LTWlQV2ZnT0NhWUdwWVBCVzk3TVFjRHBWMnlYY1NHYUlfU1h1bXBORzZYLTZEWk0yTkhyRjVFWkszSl9venlxQWdEQl9DdGllbWFJWWptRGZEN0ltMWdVdUZB?oc=5",
+   "published": "2026-10-30T16:01+00:00",
+   "published_jst": "2026-10-31 01:01",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "4a4bcbde667c",
    "source": "NVIDIA Blog",
    "source_id": "nvidia",
@@ -979,6 +1073,19 @@
    "summary_ja": "DoorDashは、サードパーティ製のエージェント開発企業との協業には前向きである姿勢を示した。"
   },
   {
+   "id": "510942d9808a",
+   "source": "Simply Wall St",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "クラウドAIの最新ニュース - AIとドローン技術による土地測量の変革",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR01GRHVmTlJHQzlfSE11Wnk5eGg3ODEwRThwVGllSEZoMDc3eHkyZm1lU081ZEdCdTNlZENiaWtvVjg3WVNSTUtHU1hUdUZaN1BMSmN3TWE4dTBDUmdxX1Z3NmhubW5qNGRLUWpPT1k0Wnl1eW16UG1rQXdPb3ZadVhSNWk1MU1NWjFMZ3hWX2LSAZYBQVVfeXFMTkJHcTZKQ1NaSVNPeWQ4cm8wUGk5Y2NKdUhFSUJ5S1FncnJQMU54d1dtNS1CZUVtRWtyOUFEdzRmTHRBUFhCczVxQ0U4cWE0WXdjTXpuZEh6b0FXZmRFVlhETFNfX3VKSHVrWHd4OGdsUlJ1dUdsMDNhalFKWkczaHJfYkNoZ3A3ZmI0Q3dHUEs3SW04OXFR?oc=5",
+   "published": "2026-10-30T13:29+00:00",
+   "published_jst": "2026-10-30 22:29",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "5ec9437afb13",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1082,6 +1189,19 @@
    "summary_ja": "フランスのVinciのポーランド子会社Warbudが、国内最大のコンサートホール建設の第2段階を受注した。"
   },
   {
+   "id": "ed8c21aab685",
+   "source": "愛媛新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "四電、南予でＡＩ向けＤＣ建設検討 伊方原発電力の「地産地消」推進",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Eanp0Q25LdmZ6YzFnM1BVQVU0WklDeGR2aENrZTNHUTJMdkxFTVZCV3hZbHNiSmtzWE5pMmtXcFVTc2hfU2RZOU1BeFY2R3lCd1dUcUZQQjRYUUtxSTU1Xw?oc=5",
+   "published": "2026-10-30T12:32+00:00",
+   "published_jst": "2026-10-30 21:32",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "92b7e9d02a11",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1093,6 +1213,32 @@
    "published_jst": "2026-10-30 21:00",
    "summary": "本物のろうそくの炎を撮影した映像でAIを学習させ、炎の自然な揺らぎを再現するデジタルキャンドル「Digital Candle」が登場しました。144個のLEDを使って炎を表現する仕組みで、あらかじめ用意されたアニメーションを繰り返すのではなく、AIがリアルタイムで炎の動きを生成するのが特徴です。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "2ce7f378d0fd",
+   "source": "日テレNEWS NNN",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トランプ政権推進「AIデータセンター」建設めぐり反発広がる 「甲高い音が昼夜を問わず…」“騒音”被害訴える住民も 中間選挙の“争点”に",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOW0zWWtlVlkwUW9fTkI2RVd5U21JelNrZUhQaDhFU3dEYnM3Z0JPWk5HWml0dDNreTRhbkFac1hPZVA4MEFZNkVmZTlJckRwWTJ3M1VkeDlwY3VWdTVtU3I3QndiQ2tIZmQzeC00SHNyamZWenRjbWFRWjBRYjhnMndJdDc?oc=5",
+   "published": "2026-10-30T11:28+00:00",
+   "published_jst": "2026-10-30 20:28",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "7b37e285bf04",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トランプ政権推進「AIデータセンター」建設めぐり反発広がる 「甲高い音が昼夜を問わず…」“騒音”被害訴える住民も 中間選挙の“争点”に (日テレNEWS NNN)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc3lCY29HaklrSlRCRE5iX3VFRndEeGR4VlNOa1ZvWFBvMmVCdEZSUnMtM2RZclRNYjRwUU11U3Y0U04zNXluZGdZeDVsLVZhNlZpMTNBR2wxUHNGc05BNjB2RlVFNXlvUmpZU0dTMXFHb2xwQVhCdzhtVkFRbTU4b1p5aXRkUnBWdDRpZEJR?oc=5",
+   "published": "2026-10-30T11:28+00:00",
+   "published_jst": "2026-10-30 20:28",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "dbfbce585037",
@@ -1138,90 +1284,6 @@
    "ai_related": false,
    "title_ja": "リーズ・ロイヤル・アーモリーズの1.48億ポンドの主棟が詳細設計へ",
    "summary_ja": "BDPの起用により、計画申請および施工業者調達に向けた次のステップへと進展した。"
-  },
-  {
-   "id": "25cc4c9bb2e3",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Making it easier for websites to express AI training preferences",
-   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-   "published": "2026-10-30T09:30+00:00",
-   "published_jst": "2026-10-30 18:30",
-   "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-   "ai_related": true,
-   "title_ja": "ウェブサイトがAI学習の意向をより簡単に表明できるように",
-   "summary_ja": "OpenAIは、サイト運営者がAI学習の意向を参加プロバイダーに伝えやすくするため共通の仕組みを尊重する。"
-  },
-  {
-   "id": "c7606af40dbb",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Community safety report and new protections for teens",
-   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-   "published": "2026-10-30T09:00+00:00",
-   "published_jst": "2026-10-30 18:00",
-   "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-   "ai_related": true,
-   "title_ja": "コミュニティの安全レポートと十代の若者向けの新しい保護機能",
-   "summary_ja": "OpenAIは、保護機能の拡張や早期介入などを通じてChatGPTでの暴力防止を強化している。"
-  },
-  {
-   "id": "7f8bcbb1ec1c",
-   "source": "PBC Today (UK)",
-   "source_id": "pbctoday",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Finding the picture on the box: The missing mental model in smart buildings",
-   "url": "https://www.pbctoday.co.uk/news/digital-construction-news/finding-picture-on-box-missing-mental-model-smart-buildings/167136/",
-   "published": "2026-10-30T08:58+00:00",
-   "published_jst": "2026-10-30 17:58",
-   "summary": "Justin Kirby asks how the built environment sector expects to bridge project delivery and live operations without a clear pipeline map for smart buildings. The post Finding the picture on the box: The missing mental model in smart buildings appeared first on Planning, Building & Construction Today .",
-   "ai_related": true,
-   "title_ja": "スマートビルにおける欠落したメンタルモデル",
-   "summary_ja": "スマートビルディングにおいて、プロジェクトの引き渡しと運用をどう繋ぐべきかという課題についての考察。"
-  },
-  {
-   "id": "aeaf48846712",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "人間が話し終わる前に検索や処理を開始する音声AI「Phonic-1」が登場、応答までの待ち時間を大幅に短縮",
-   "url": "https://gigazine.net/news/20261030-phonic-1/",
-   "published": "2026-10-30T08:52+00:00",
-   "published_jst": "2026-10-30 17:52",
-   "summary": "音声AIを開発するPhonicが2026年10月29日に新たな音声AIモデル「Phonic-1」を発表しました。相手が話し終わる前に情報の検索や外部サービスとの連携を開始できるのが特徴で、従来の音声AIと比べて応答までの待ち時間を大幅に短縮できるとのことです。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "aeed731d1456",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "“でぶねこ”の重み公開 1兆パラメータのAIモデル「Mistral Large 4」（Le Chonk）がダウンロード可能に",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002762/",
-   "published": "2026-10-30T08:46+00:00",
-   "published_jst": "2026-10-30 17:46",
-   "summary": "AI開発企業の仏Mistral AIは、AIモデル「Mistral Large 4」（通称Le Chonk）の重みをHugging Faceで公開した。コーディングやサイバーセキュリティ分野で高い性能を示すという。",
-   "ai_related": true
-  },
-  {
-   "id": "cc7fd3be5701",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Gemini Notebook、無料で数百冊の教科書にアクセス可能に 米国・インドの出版社提供 日本でも利用可",
-   "url": "https://www.itmedia.co.jp/aiplus/article/2610/30/2000002760/",
-   "published": "2026-10-30T08:17+00:00",
-   "published_jst": "2026-10-30 17:17",
-   "summary": "Googleは、米国とインドのプロバイダーが提供する数百冊の教科書に「Gemini Notebook」内で無料でアクセスできるようになったと発表した。",
-   "ai_related": true
   }
  ]
 }
