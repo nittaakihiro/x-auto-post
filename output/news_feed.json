@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-01T23:34+00:00",
- "generated_at_jst": "2026-11-02 08:34",
+ "generated_at": "2026-11-02T00:50+00:00",
+ "generated_at_jst": "2026-11-02 09:50",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 27,
-  "ai_japan": 10,
-  "ai_global": 23,
+  "construction_japan": 30,
+  "ai_global": 24,
+  "ai_japan": 9,
   "construction_global": 1
  },
  "errors": [
@@ -16,9 +16,65 @@
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "f6e840c21115",
+   "source": "建設通信新聞Digital",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "政府、戦略投資で人材確保議論 設備工事中心に年内対策",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVV0doMnJERHlaSFBlUlZyQlZfTHVzNk1tcDFYa0Zyek10dG9UUFp0MnpRSHoyOWQ3MkZGeEpjQjhybWNJaFRaVV95XzdfRFNGcjB6b1N3?oc=5",
+   "published": "2026-11-02T00:15+00:00",
+   "published_jst": "2026-11-02 09:15",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "d99d0233e5e6",
+   "source": "Chosunbiz",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国建設技術研究院がAIで地下環境リスク管理を開発",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOUtGeXhkT1NSMm4tZ3NXM2Zld2tIY2YxRnI2eTNtVnBiSTBSNFJIOHNZNzBGOHRacGQyMEQ2U1hEcU5fYUJLSURJczlnS3kzMk1MOEV6cF9CMjdZYmF0U3MyU0JyU0dkRGdPaHQwcjRoSHBMX29rTERyaFNEejhDVFVGdmjSAZgBQVVfeXFMT3FWV25Rdjl1eVlGQkZKVkVCeGN0TTRFMWItN01yaUw5eVRDSzV2SVo5TlJmLUpFalAyM1hpXzQ4OEk0dWhhMHlSUHVobnY5cXJaR3VSUXVod3NKSk03YmNjZXplMFc0X2NVVkV1V21nU0dqbjhHSlc0RU1tS3pXeTd0eFdheS1oX2RfUWFpWDRKdzg2WVpuNTI?oc=5",
+   "published": "2026-11-02T00:05+00:00",
+   "published_jst": "2026-11-02 09:05",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "9c3b18778af4",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "KDDI、ロンドンデータセンターの受電容量を倍増、AI対応の新データセンターを建設（クラウド Watch）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SbVY4cGZWRkhFQkg0VnZ5aXlaMVRURnpxLU03aU9ZbFBCTlNic2c1aWQ3NFQtdl82bTZsQ1MweWQyaEhSRlBDUUZqY0wwZ0xiQlJodm11WVlmS3U4Yk11MlVwanRUcDVsRWpvYXB3MDlPTDB1M0VYdzUzSEljbFk?oc=5",
+   "published": "2026-11-02T00:00+00:00",
+   "published_jst": "2026-11-02 09:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "500af6482c21",
+   "source": "マイナビニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "野原グループはなぜIT部門から建設DXを始めたのか? 全社展開に向けた取り組み",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45V1dWcU1fdHY3RVYwSjBnLVhHalpmS2lGaWp6XzcwNVNraWVRY1BELXEzZGJ4Nl9hVXhpRFF6di1vVGxONWJaV0V5Tk1IQjJKOFhWb3dhT0dob0o5Q0VBRXVKRGdIZDJy?oc=5",
+   "published": "2026-11-02T00:00+00:00",
+   "published_jst": "2026-11-02 09:00",
+   "summary": "",
+   "ai_related": true
+  },
   {
    "id": "859bd4e90e7f",
    "source": "LIGARE（リガーレ）",
@@ -30,6 +86,19 @@
    "published": "2026-11-01T23:32+00:00",
    "published_jst": "2026-11-02 08:32",
    "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "ffb30fef9594",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "If in doubt, delete the uv.lock file",
+   "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+   "published": "2026-11-01T23:24+00:00",
+   "published_jst": "2026-11-02 08:24",
+   "summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock v",
    "ai_related": true
   },
   {
@@ -232,6 +301,19 @@
    "ai_related": true
   },
   {
+   "id": "f6f8e3f8e42c",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "清水建設が現場物流のムダをDXで排除、「トーチタワー」に初適用（2ページ目）",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcnFfWnVtVGQ5bFkzbHZfNk1nRnhGV0dGNHpyNkdSNEU2anBvZzhLRTZJM2htT0pqUXBMM2FUamRHb0tfUGF2SmhjaGR3RGVwTjU5Y1kwcXFOOGU4VEZCeFh2dXoyZ252cm9YXzVDdmRfNFpOdHg1X2JmT05ZOG1GaWtBRkxnZHVmZkhDUWRHeUVEN2Y4?oc=5",
+   "published": "2026-11-01T20:00+00:00",
+   "published_jst": "2026-11-02 05:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "0bb78900d356",
    "source": "日経クロステック",
    "source_id": "gnews_kensetsu_ai",
@@ -271,32 +353,6 @@
    "ai_related": true
   },
   {
-   "id": "a6e39827d7d2",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "我孫子市/参加申請11月24日まで/柴崎排水区雨水幹線整備",
-   "url": "https://www.kensetsunews.com/archives/1303321",
-   "published": "2026-11-01T19:55+00:00",
-   "published_jst": "2026-11-02 04:55",
-   "summary": "千葉県我孫子市は１０月３０日、「柴崎排水区（４工区）雨水幹線整備工事」の一般競争入札を公告した。Ｊ… The post 我孫子市/参加申請11月24日まで/柴崎排水区雨水幹線整備 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "ee8d36fc7026",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "関東整備局の事業評価監視委/再評価6件の継続了承/東関東自動車道水戸線事業費は約165億増",
-   "url": "https://www.kensetsunews.com/archives/1303322",
-   "published": "2026-11-01T19:55+00:00",
-   "published_jst": "2026-11-02 04:55",
-   "summary": "関東地方整備局は１０月２９日、事業評価監視委員会（委員長・久保田尚埼玉大名誉教授・日大客員教授）の… The post 関東整備局の事業評価監視委/再評価6件の継続了承/東関東自動車道水戸線事業費は約165億増 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "31e44dd6c491",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -320,6 +376,32 @@
    "published": "2026-11-01T19:55+00:00",
    "published_jst": "2026-11-02 04:55",
    "summary": "東京都北区は、議会議決案件の「十条小学校校舎新築及び体育館棟リノベーション工事」を制限付き一般競争… The post 北区/宮澤建設JVに決定/十条小校舎新築・体育館更新 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "a6e39827d7d2",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "我孫子市/参加申請11月24日まで/柴崎排水区雨水幹線整備",
+   "url": "https://www.kensetsunews.com/archives/1303321",
+   "published": "2026-11-01T19:55+00:00",
+   "published_jst": "2026-11-02 04:55",
+   "summary": "千葉県我孫子市は１０月３０日、「柴崎排水区（４工区）雨水幹線整備工事」の一般競争入札を公告した。Ｊ… The post 我孫子市/参加申請11月24日まで/柴崎排水区雨水幹線整備 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "ee8d36fc7026",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "関東整備局の事業評価監視委/再評価6件の継続了承/東関東自動車道水戸線事業費は約165億増",
+   "url": "https://www.kensetsunews.com/archives/1303322",
+   "published": "2026-11-01T19:55+00:00",
+   "published_jst": "2026-11-02 04:55",
+   "summary": "関東地方整備局は１０月２９日、事業評価監視委員会（委員長・久保田尚埼玉大名誉教授・日大客員教授）の… The post 関東整備局の事業評価監視委/再評価6件の継続了承/東関東自動車道水戸線事業費は約165億増 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -530,7 +612,7 @@
    "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
    "published": "2026-11-01T06:06+00:00",
    "published_jst": "2026-11-01 15:06",
-   "summary": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 274 # Comments: 215",
+   "summary": "Article URL: https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/ Comments URL: https://news.ycombinator.com/item?id=50323088 Points: 291 # Comments: 226",
    "ai_related": true,
    "title_ja": "JSフレームワークにおけるAIのコスト",
    "summary_ja": "JavaScriptフレームワークがAIにもたらすコストや影響について議論する記事と、Hacker News上のコメント欄へのリンクが共有されている。"
@@ -807,19 +889,6 @@
    "ai_related": true
   },
   {
-   "id": "b492366a35c0",
-   "source": "Mezha.net",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Zaporizhzhiaoblenergo、第二段階の防護施設の建設を完了へ – 配電系統運用者トップ",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNemFJMUFIcHFrYzZvSFZ5el9DcDFnbmIzcmU1OTJCQWlQLXY4WjNVV0U2OUxVUllzSkVYektUenpMN25SYm9NbGdiOFo1eTR0cG9tNnRSS2RVTkZma0RzZVlxdjFWQ1lrelQybHc0WERJS0luczZZTHVIMk50ai1Dck9rSUlfWE43NzN5M01FTFlna3cyVXJLY2E1aVBaUzd2amVVOXJKYndqQ0ZWd0dJaXRkd2h3R3p4YkE?oc=5",
-   "published": "2026-10-31T03:23+00:00",
-   "published_jst": "2026-10-31 12:23",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "6336aff37e57",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -833,32 +902,6 @@
    "ai_related": true,
    "title_ja": "Nvidia、WV州のAIデータセンターで融資保証を検討",
    "summary_ja": "AI投資への懸念が高まる中、半導体大手による融資の債務保証が計画を後押ししている。"
-  },
-  {
-   "id": "3fe3d1720b2d",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "BG2 w/ ビル・ガーリー & ブラッド・ガースナー | エヌビディア、半導体、AIコンピュートの構築、ビッグテックへのAIの影響 | E03",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04bHFBLWNBSjBiMVhZR1pvU1V1ZXZJaDdxbUswQVQtd3J2UHllNGprTmlfbmVobEl6cnd1ZWVHMGZneXhjRi1EMWZPX004dXFrWDFsc0szaEdjekZoM0E?oc=5",
-   "published": "2026-10-31T00:24+00:00",
-   "published_jst": "2026-10-31 09:24",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "0b30c6250260",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIの「費用対効果が分からない」問題、解決へ？ Claude Enterprise搭載の「3つの新機能」",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2610/31/news009.html",
-   "published": "2026-10-31T00:00+00:00",
-   "published_jst": "2026-10-31 09:00",
-   "summary": "AI導入が進む中で、IT部門は費用対効果を厳しく問われる局面に入っている。Anthropicが企業向けプラン「Claude Enterprise」に追加した新機能は、その説明材料になるか。利用状況の可視化から予算の配分まで、3つの機能の中身とは。",
-   "ai_related": true
   }
  ]
 }
