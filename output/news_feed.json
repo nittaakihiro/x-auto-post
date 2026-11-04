@@ -1,20 +1,76 @@
 {
- "generated_at": "2026-11-04T17:17+00:00",
- "generated_at_jst": "2026-11-05 02:17",
+ "generated_at": "2026-11-04T18:53+00:00",
+ "generated_at_jst": "2026-11-05 03:53",
  "window_hours": 48,
  "counts": {
-  "ai_global": 67,
+  "ai_global": 64,
   "construction_global": 46,
   "construction_japan": 51,
   "ai_japan": 29
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "089b0efaf055",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+   "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+   "published": "2026-11-04T18:44+00:00",
+   "published_jst": "2026-11-05 03:44",
+   "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining",
+   "ai_related": true
+  },
+  {
+   "id": "921b1232ce1e",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents",
+   "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/",
+   "published": "2026-11-04T18:41+00:00",
+   "published_jst": "2026-11-05 03:41",
+   "summary": "OpenAI is buying Pierre Computer Company, the startup whose libraries already power the coding agent Codex. Combined with OpenAI's recently launched Git backend Pando, the deal shows the company is building out its infrastructure for developers and AI agents working side by side. The article OpenAI ",
+   "ai_related": true
+  },
+  {
+   "id": "58c6e2c41419",
+   "source": "Construction Dive",
+   "source_id": "construction_dive",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Suffolk deepens tech push with new innovation center",
+   "url": "https://www.constructiondive.com/news/suffolk-new-innovation-center-tech-ai-push/873767/",
+   "published": "2026-11-04T18:31+00:00",
+   "published_jst": "2026-11-05 03:31",
+   "summary": "The new space will bring groups from across the construction life cycle under one roof to advance the company’s tech stack, per the firm.",
+   "ai_related": false
+  },
+  {
+   "id": "99d9ee4fcf23",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "バンク・オブ・アメリカ、AIデータセンター建設の減速が半導体株高を延命させる可能性があると指摘",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZN18wRUJReWdDTmNHMHh2NkppVTJzQ0tXekRvNjY1QXVaRmxla3ppQ2c4REkyaDNzQXM5dl82TXBRY2x3aFk5ZjNzcnpldnpjWF9CQ0J0aVBIamJzZlNvU2FGcmhpTWUxWnQwZ1VXMHktejBv?oc=5",
+   "published": "2026-11-04T17:05+00:00",
+   "published_jst": "2026-11-05 02:05",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "58f69099baa4",
    "source": "TechCrunch AI",
@@ -55,32 +111,6 @@
    "ai_related": true
   },
   {
-   "id": "0c9cbd4df150",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Data centers lost the midterms",
-   "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
-   "published": "2026-11-04T16:05+00:00",
-   "published_jst": "2026-11-05 01:05",
-   "summary": "Data center developers are poised to face a more restrictive building environment after voters across the country voted in candidates who favor moratoriums and ballot measures that put more obstacles on their expansion, delivering a stinging blow to a central pillar of the AI industry. Of voters pol",
-   "ai_related": true
-  },
-  {
-   "id": "e818c1486ecf",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Uber only fulfilled 4 rides from AI agents last quarter",
-   "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
-   "published": "2026-11-04T15:58+00:00",
-   "published_jst": "2026-11-05 00:58",
-   "summary": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company",
-   "ai_related": true
-  },
-  {
    "id": "2fc43c9bb7aa",
    "source": "ConstructConnect Blog",
    "source_id": "constructconnect",
@@ -104,6 +134,32 @@
    "published": "2026-11-04T15:44+00:00",
    "published_jst": "2026-11-05 00:44",
    "summary": "MIT researchers show that OpenAI's GPT-6 Astra can read and deliberately rewrite the weights of other AI models without traditional training. In one experiment, Astra boosted a Qwen model's math accuracy from 7.9 to 48.1 percent by changing just 0.016 percent of its weights. The approach could funda",
+   "ai_related": true
+  },
+  {
+   "id": "7838c87736f9",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Kimi K3.1 Pro model weights are out",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "published": "2026-11-04T15:30+00:00",
+   "published_jst": "2026-11-05 00:30",
+   "summary": "Article URL: https://huggingface.co/moonshotai/Kimi-K3.1-Pro Comments URL: https://news.ycombinator.com/item?id=50366999 Points: 184 # Comments: 49",
+   "ai_related": true
+  },
+  {
+   "id": "f121b002be2b",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "datasette-llm 0.1a10",
+   "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+   "published": "2026-11-04T15:26+00:00",
+   "published_jst": "2026-11-05 00:26",
+   "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
    "ai_related": true
   },
   {
@@ -352,7 +408,7 @@
    "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
    "published": "2026-11-04T11:52+00:00",
    "published_jst": "2026-11-04 20:52",
-   "summary": "Article URL: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability Comments URL: https://news.ycombinator.com/item?id=50364336 Points: 622 # Comments: 400",
+   "summary": "Article URL: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability Comments URL: https://news.ycombinator.com/item?id=50364336 Points: 748 # Comments: 464",
    "ai_related": true
   },
   {
@@ -369,6 +425,19 @@
    "ai_related": false,
    "title_ja": "規制当局、建築安全委の専門家メンバーを募集",
    "summary_ja": "建築安全規制当局（BSR）は、建築諮問委員会（BAC）に参加する建設専門家や技術スペシャリストの募集を開始し、幅広い分野から候補者を求めている。"
+  },
+  {
+   "id": "c66a52272259",
+   "source": "ashu-aseanstatistics.com",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "タイ：パナが基板材料の工場新棟建設、AIサーバー向け増産",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GYUctNGVTUXoxZ1Vzc1FkZzB1TUZGMzdrR2JoVTN3d0xtb21Nb2dXOGlEcmRrb0dBaEhodUNoaUl1N0owQVdtd1JPeE9PNDJJR21rSWVXS0hKYXJ5aE9SQkozcEVqZ2M?oc=5",
+   "published": "2026-11-04T11:01+00:00",
+   "published_jst": "2026-11-04 20:01",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "dfbed0cceda2",
@@ -671,7 +740,7 @@
    "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
    "published": "2026-11-04T08:46+00:00",
    "published_jst": "2026-11-04 17:46",
-   "summary": "Article URL: https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop Comments URL: https://news.ycombinator.com/item?id=50362905 Points: 426 # Comments: 192",
+   "summary": "Article URL: https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop Comments URL: https://news.ycombinator.com/item?id=50362905 Points: 484 # Comments: 212",
    "ai_related": true
   },
   {
@@ -939,8 +1008,8 @@
    "lang": "ja",
    "title": "Nvidiaの供給停止でデータセンター建設不能に…韓国AI業界、「脱Nvidia」へ警鐘",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5idlM0LTdkaDgzeHpsandWTEs5d014UVB4UlJZVktQOFdHTm5mUnJaVTMzd2tYY3Q2SHdNWFZPN0ctZmR1REQ0cXJVYmg5SlNoOFdicnVFd3FHNXZDRm5FSFg3cXVsUFVMRExta3lfTEwtOTRO?oc=5",
-   "published": "2026-11-04T05:25+00:00",
-   "published_jst": "2026-11-04 14:25",
+   "published": "2026-11-04T05:26+00:00",
+   "published_jst": "2026-11-04 14:26",
    "summary": "",
    "ai_related": true
   },
@@ -1371,6 +1440,19 @@
    "summary_ja": "サイバーセキュリティ特化のBallistic Venturesが、新ファンド向けに3億6000万ドル、別枠で1億3000万ドルの調達を目指している。"
   },
   {
+   "id": "07065efd7227",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "llm 0.37.1",
+   "url": "https://simonwillison.net/2026/Nov/3/llm/",
+   "published": "2026-11-03T21:41+00:00",
+   "published_jst": "2026-11-04 06:41",
+   "summary": "Release: llm 0.37.1 A bugfix release, with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
+   "ai_related": true
+  },
+  {
    "id": "bbdc645c0196",
    "source": "日刊建設工業新聞",
    "source_id": "decn",
@@ -1724,6 +1806,32 @@
    "summary_ja": "今回の補助金は、道路と鉄道の交差地点の解消や、踏切の撤去事業に活用される。"
   },
   {
+   "id": "db1d0915e442",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Indie games are missing launch dates because Steam is backed up",
+   "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+   "published": "2026-11-03T18:14+00:00",
+   "published_jst": "2026-11-04 03:14",
+   "summary": "Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their planned launch dates. For example, Studio Daimon, the team behind an upcoming title called Food",
+   "ai_related": true
+  },
+  {
+   "id": "c65f77dcf81d",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+   "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+   "published": "2026-11-03T18:00+00:00",
+   "published_jst": "2026-11-04 03:00",
+   "summary": "Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch. The first of these experiments surfaces content based around themes, like \"Something Light,\" \"Family Movie Night,\" or \"Quick Watches.\" Whe",
+   "ai_related": true
+  },
+  {
    "id": "b121628aeba0",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -1754,19 +1862,6 @@
    "summary_ja": "Anthropicの計算処理マージンは改善するはずの時期であるにもかかわらず、かえって悪化している状況にある。"
   },
   {
-   "id": "7b04a568c5ad",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Agentic cheminformatics with Google Antigravity",
-   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-   "published": "2026-11-03T17:01+00:00",
-   "published_jst": "2026-11-04 02:01",
-   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-   "ai_related": true
-  },
-  {
    "id": "6be45e2e6af3",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1791,7 +1886,7 @@
    "url": "https://neufangled.com/",
    "published": "2026-11-03T16:47+00:00",
    "published_jst": "2026-11-04 01:47",
-   "summary": "Article URL: https://neufangled.com/ Comments URL: https://news.ycombinator.com/item?id=50354358 Points: 732 # Comments: 226",
+   "summary": "Article URL: https://neufangled.com/ Comments URL: https://news.ycombinator.com/item?id=50354358 Points: 761 # Comments: 228",
    "ai_related": true,
    "title_ja": "オープンソースの800ドルグリッパーロボット「Stringman」",
    "summary_ja": "部屋のスケールに対応したオープンソースのロボットアーム「Stringman」に関する技術情報や議論が公開されている。"
@@ -2046,19 +2141,6 @@
    "ai_related": false
   },
   {
-   "id": "1f2e8652f9fd",
-   "source": "Unisba Media",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設業DXについて】コアコンセプト・テクノロジー（4371） IR Live Canada Us Trade Deal Poll (nant2YCjpQ)",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBNVh2MVJMeDBrUEhtYjBNcmZHaTVBZGh4R1h6V01yTzlaMmhHUkVGVXVHOFRScVpEYXV3S2F3ZjItSDZhRENOOTN3RWNsNWRiaVNoV29kbDVQRElYckZudWV3ZjNFYjgyejBB?oc=5",
-   "published": "2026-11-03T12:56+00:00",
-   "published_jst": "2026-11-03 21:56",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "b72dc71cdbb1",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2115,21 +2197,6 @@
    "ai_related": false,
    "title_ja": "Bechtel、ワイオミング州のカレッジに100万ドルを投資",
    "summary_ja": "米建設大手のBechtelが、専門職の育成キャンペーンの一環として州内の短期大学2校に計100万ドルを投資。"
-  },
-  {
-   "id": "71d2bc7001c1",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations",
-   "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/",
-   "published": "2026-11-03T12:35+00:00",
-   "published_jst": "2026-11-03 21:35",
-   "summary": "Anthropic released Message Threads for the Messages API. Instead of resending the entire conversation with every turn, agents now only transmit what's changed. For requests between 500,000 and one million tokens, time to first token drops by about 35 percent. The article Anthropic's Message Threads ",
-   "ai_related": true,
-   "title_ja": "Anthropicが長文会話の初回トークン時間を35%短縮",
-   "summary_ja": "AnthropicがMessage Threadsを発表。エージェントは変更点のみを送信し、長文リクエストの処理時間を大幅に削減する。"
   },
   {
    "id": "26c6032e1d26",
@@ -2267,21 +2334,6 @@
    "summary_ja": "HeimstadenがOpenAIの技術を活用し、ヨーロッパ全域で不動産管理の効率化、コスト削減、従業員の支援を実現する方法を紹介。"
   },
   {
-   "id": "861cdbe59948",
-   "source": "ArchDaily",
-   "source_id": "archdaily",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Beyond Buildings: ArchDaily's November Editorial Focus",
-   "url": "https://www.archdaily.com/1187895/beyond-buildings-archdailys-november-editorial-focus",
-   "published": "2026-11-03T08:00+00:00",
-   "published_jst": "2026-11-03 17:00",
-   "summary": "\"Design a cultural center on a desert coastline, in the style of Alvar Aalto, wood structure, golden hour, aerial drone shot, photorealistic, 4K.\" Within seconds, a line like this returns a convincing image. What is less visible is the shift it demands. For centuries, architectural imagination relie",
-   "ai_related": true,
-   "title_ja": "建築の先へ：ArchDailyの11月特集",
-   "summary_ja": "数秒で説得力のある画像を生成するAI。その技術が建築やデザインの世界にもたらす影響と可能性を探る。"
-  },
-  {
    "id": "9374f6e8a892",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -2383,6 +2435,19 @@
    "ai_related": true,
    "title_ja": "トランプの「スーパーインテリジェンス」忠誠テスト",
    "summary_ja": "9月末にトランプ大統領が署名した大統領令をめぐり、AI関連の動向や業界の反応を報じる。"
+  },
+  {
+   "id": "ab69c65da33a",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "加速する建設DX",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYmhkWngycHcxQloxeUpiQmRiSnlMd1VXbUQzcmN1b0h1UjVJdVVXTHd3QVNpUC1lTFlVdXF4Rk1LeW5PNDZFOWo1eU5fcmh3X2tjOEJkYy1aUmMyWWcwNnhRLVBFSzgyTHQ5VWo5dTlyeGxpaUlPNXIyNnJTaVhod2Q3LUxCLXVfaHRPeXRtNUItSTR2U1BnMHRnNm1sdU1vQ185bTU2SGt2Z2hSc3pEQnlVckNFWmxKTXpkY3FtQi1fTFVV?oc=5",
+   "published": "2026-11-03T03:48+00:00",
+   "published_jst": "2026-11-03 12:48",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "4c7d73c3037d",
@@ -2529,21 +2594,6 @@
    "summary_ja": "非住宅の16のサブカテゴリのうち8つで月間支出が増加した。"
   },
   {
-   "id": "55dd7e97ced5",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-   "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-   "published": "2026-11-02T22:14+00:00",
-   "published_jst": "2026-11-03 07:14",
-   "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
-   "ai_related": true,
-   "title_ja": "Anthropic、自己増殖型AI（RSI）への接近を警告",
-   "summary_ja": "RSIはAIが自己訓練に熟達し、能力が劇的に急加速する段階を指す。"
-  },
-  {
    "id": "67b5baa988f6",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2594,107 +2644,6 @@
    "published_jst": "2026-11-03 05:55",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "e2d32be34d5d",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "グーグル幹部、AI需要で建設するデータセンターはすべて使い切ると発言",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yeGxwMThaMW5hNHR4cWtPTU12TkpMUFlHMTkxUU9NZW93azZKUjZ6dXFqTXlMcGRTaTFHeG1xUFBoY2JLSEJGYkxJdUxpckhrMHdPSHhZY2dqeV9lWlVrNk1lZ2VYemZHQWlsSmJDZjBxTXlG?oc=5",
-   "published": "2026-11-02T18:35+00:00",
-   "published_jst": "2026-11-03 03:35",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "95189256059f",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
-   "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
-   "published": "2026-11-02T18:32+00:00",
-   "published_jst": "2026-11-03 03:32",
-   "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
-   "ai_related": true,
-   "title_ja": "2027年登場：Appleの1,000ドル規模の家庭用ロボット",
-   "summary_ja": "FaceTimeや照明操作に使えるジョン・ターナス氏支持のApple製ロボットは、高価格で用途が限定される可能性がある。"
-  },
-  {
-   "id": "d8f230257776",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "50個のAIエージェントが「マインクラフト」で文明を建設：官僚主義の内耗に陥り、最終的に集団で「寝そべり」",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YYjNtNjJvNDBETlhqNTJLNC1yaU1IYklyNmY5VTktamtPMG1tRk1WaDVGWFo0dkpGdFNLcFhzWlMxeVlkaHFlemxoWGE3Y1JXd2p5NWRJeWJUamtETVBlb21ReS1xS0hiUzJqVEg2ZllqZnYt?oc=5",
-   "published": "2026-11-02T18:25+00:00",
-   "published_jst": "2026-11-03 03:25",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "778dbacaaeb9",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
-   "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
-   "published": "2026-11-02T18:05+00:00",
-   "published_jst": "2026-11-03 03:05",
-   "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
-   "ai_related": true,
-   "title_ja": "Claudeのゲーム模倣禁止ルールはAIのコピーブームを止められない",
-   "summary_ja": "模倣者の津波は、単一のモデルメーカーが阻止できる規模をはるかに超えている。"
-  },
-  {
-   "id": "6fd6ad7938fa",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Rewarding defenders with bigger bug bounties",
-   "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-   "published": "2026-11-02T18:00+00:00",
-   "published_jst": "2026-11-03 03:00",
-   "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-   "ai_related": true,
-   "title_ja": "バグ報奨金の引き上げでセキュリティ研究者を支援",
-   "summary_ja": "OpenAIはセキュリティバグ報奨金を引き上げ、独立した研究者向けに品質や忠実度に応じたボーナスを導入する。"
-  },
-  {
-   "id": "262cfa35f430",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Preparing our next security sprint to harden OpenAI",
-   "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-   "published": "2026-11-02T18:00+00:00",
-   "published_jst": "2026-11-03 03:00",
-   "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-   "ai_related": true,
-   "title_ja": "OpenAI、AIを活用した次のセキュリティ強化を実施",
-   "summary_ja": "OpenAIはCathedral Systemsと協力し、AIを用いて防御機能をテスト・強化するための新たな内部セキュリティスプリントを準備している。"
-  },
-  {
-   "id": "b810030289ed",
-   "source": "Google AI Blog",
-   "source_id": "google_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "The latest AI news we announced in October 2026",
-   "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-   "published": "2026-11-02T17:45+00:00",
-   "published_jst": "2026-11-03 02:45",
-   "summary": "Here are Google’s latest AI updates from October 2026",
-   "ai_related": true,
-   "title_ja": "Googleが2026年10月に発表した最新のAIニュース",
-   "summary_ja": "2026年10月におけるGoogleの最新AIアップデート情報をお届けする。"
   }
  ]
 }
