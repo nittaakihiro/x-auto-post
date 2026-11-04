@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-11-03T23:42+00:00",
- "generated_at_jst": "2026-11-04 08:42",
+ "generated_at": "2026-11-03T23:59+00:00",
+ "generated_at_jst": "2026-11-04 08:59",
  "window_hours": 48,
  "counts": {
   "ai_global": 72,
-  "construction_japan": 46,
+  "construction_japan": 49,
   "ai_japan": 23,
   "construction_global": 44
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -31,13 +35,26 @@
   {
    "id": "f4e3e07307dd",
    "source": "PR TIMES",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "【YORISOI独自分析】AI時代の職業需要を比較。米国の建設・設備3職種は雇用9.6％増の見通し",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QZ01TN0pCOW5LaWVvZDVXR3c1UGZjVmpwRnd2UVptcFlGZlk5Rnl0Ym1RQzdGcEU0dk45V0k1T3I0dGh2bkJ2WGQ2bURoV1NfcUtHV3p0NEl2YVMta25raUNjUklhSVBJaEE?oc=5",
    "published": "2026-11-03T23:20+00:00",
    "published_jst": "2026-11-04 08:20",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "86c9be5dd757",
+   "source": "WIRED.jp",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AI振興か、気候変動対策か──データセンター建設を巡る欧州のジレンマ",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yVGx1MjNXRGFuZUY5bjJ4VlRqZWVhYlhxYS1LTFZxLXFZRzg1OG5HNWVkNXBNY2VZTXJERFJhT0NMd19aWnBHU0hGWjh4SzV2ZkczQ2NGOUltQWZxSnNnNFZLQVJRTXU2Q0h1Qg?oc=5",
+   "published": "2026-11-03T23:00+00:00",
+   "published_jst": "2026-11-04 08:00",
    "summary": "",
    "ai_related": false
   },
@@ -159,6 +176,19 @@
    "ai_related": true,
    "title_ja": "Ballistic Ventures、AIサイバー需要で4.9億ドル調達へ",
    "summary_ja": "サイバーセキュリティ特化のBallistic Venturesが、新ファンド向けに3億6000万ドル、別枠で1億3000万ドルの調達を目指している。"
+  },
+  {
+   "id": "edbf4ed1a954",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+   "url": "https://arxiv.org/abs/2605.29713",
+   "published": "2026-11-03T21:40+00:00",
+   "published_jst": "2026-11-04 06:40",
+   "summary": "Article URL: https://arxiv.org/abs/2605.29713 Comments URL: https://news.ycombinator.com/item?id=50358582 Points: 151 # Comments: 18",
+   "ai_related": true
   },
   {
    "id": "c73532885260",
@@ -351,6 +381,19 @@
    "ai_related": true
   },
   {
+   "id": "d88d847f3044",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "東京都財務局/都庁前にラボ整備検討/参加申請11月6日まで/基本計画を策定",
+   "url": "https://www.kensetsunews.com/archives/1303995",
+   "published": "2026-11-03T19:55+00:00",
+   "published_jst": "2026-11-04 04:55",
+   "summary": "東京都財務局は、２０２４年３月に策定した「都庁周辺の空間再編計画」に基づき、都庁舎前の１１号街路下… The post 東京都財務局/都庁前にラボ整備検討/参加申請11月6日まで/基本計画を策定 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "3f29bafa5489",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -387,19 +430,6 @@
    "published": "2026-11-03T19:55+00:00",
    "published_jst": "2026-11-04 04:55",
    "summary": "大阪市は、「橋梁維持管理に係る新技術活用検討業務委託」の公募型プロポーザルを実施した結果、建設技術… The post 建設技研を特定/橋梁維持管理新技術検討/大阪市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "d88d847f3044",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "東京都財務局/都庁前にラボ整備検討/参加申請11月6日まで/基本計画を策定",
-   "url": "https://www.kensetsunews.com/archives/1303995",
-   "published": "2026-11-03T19:55+00:00",
-   "published_jst": "2026-11-04 04:55",
-   "summary": "東京都財務局は、２０２４年３月に策定した「都庁周辺の空間再編計画」に基づき、都庁舎前の１１号街路下… The post 東京都財務局/都庁前にラボ整備検討/参加申請11月6日まで/基本計画を策定 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -569,7 +599,7 @@
    "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
    "published": "2026-11-03T17:22+00:00",
    "published_jst": "2026-11-04 02:22",
-   "summary": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 949 # Comments: 309",
+   "summary": "Article URL: https://github.com/postmanlabs/postman-app-support/issues/14370 Comments URL: https://news.ycombinator.com/item?id=50354960 Points: 958 # Comments: 313",
    "ai_related": true,
    "title_ja": "Postmanが無断でAIプラグインを自動インストール",
    "summary_ja": "Postmanがユーザーに無断でAIプラグインをインストールし、すべてのAPIデータの共有を試みていることが判明した。"
@@ -588,19 +618,6 @@
    "ai_related": true,
    "title_ja": "Anthropic、計算コストの経済性に依然として苦戦",
    "summary_ja": "Anthropicの計算処理マージンは改善するはずの時期であるにもかかわらず、かえって悪化している状況にある。"
-  },
-  {
-   "id": "7b04a568c5ad",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Agentic cheminformatics with Google Antigravity",
-   "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
-   "published": "2026-11-03T17:01+00:00",
-   "published_jst": "2026-11-04 02:01",
-   "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-   "ai_related": true
   },
   {
    "id": "0eaf3e3a7544",
@@ -640,7 +657,7 @@
    "url": "https://neufangled.com/",
    "published": "2026-11-03T16:47+00:00",
    "published_jst": "2026-11-04 01:47",
-   "summary": "Article URL: https://neufangled.com/ Comments URL: https://news.ycombinator.com/item?id=50354358 Points: 310 # Comments: 123",
+   "summary": "Article URL: https://neufangled.com/ Comments URL: https://news.ycombinator.com/item?id=50354358 Points: 321 # Comments: 125",
    "ai_related": true,
    "title_ja": "オープンソースの800ドルグリッパーロボット「Stringman」",
    "summary_ja": "部屋のスケールに対応したオープンソースのロボットアーム「Stringman」に関する技術情報や議論が公開されている。"
@@ -964,6 +981,19 @@
    "ai_related": false
   },
   {
+   "id": "309093c077a5",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "ISG recoveries hit £46m but trade creditors won’t get a penny",
+   "url": "https://www.constructionenquirer.com/2026/11/03/isg-recoveries-hit-46m-but-trade-creditors-wont-get-a-penny/",
+   "published": "2026-11-03T12:53+00:00",
+   "published_jst": "2026-11-03 21:53",
+   "summary": "Unsecured claims booked at £885m as administration costs rise to nearly £26m",
+   "ai_related": false
+  },
+  {
    "id": "99fc1083a2ad",
    "source": "Global Construction Review",
    "source_id": "gcr",
@@ -1158,6 +1188,19 @@
    "summary_ja": "HuaweiがAIチップ用高性能メモリの調達を顧客に委ね、事実上の闇市場利用を促していると報じられている。"
   },
   {
+   "id": "60f6303535dc",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Graham wins first tower on £1.2bn Liverpool site",
+   "url": "https://www.constructionenquirer.com/2026/11/03/graham-wins-first-tower-on-1-2bn-liverpool-site/",
+   "published": "2026-11-03T11:16+00:00",
+   "published_jst": "2026-11-03 20:16",
+   "summary": "28-storey No.1 Kings will kick-off largest single regeneration project outside London",
+   "ai_related": false
+  },
+  {
    "id": "fc74b3e66802",
    "source": "PBC Today (UK)",
    "source_id": "pbctoday",
@@ -1246,6 +1289,19 @@
    "summary_ja": "AI製クローンの急増を受け、AnthropicはコーディングアシスタントClaude Codeによる既存ゲームの再現をブロックしている。"
   },
   {
+   "id": "cbfbdc482aa1",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Drax powers up £20bn mega data centre scheme",
+   "url": "https://www.constructionenquirer.com/2026/11/03/drax-powers-up-20bn-mega-data-centre-scheme/",
+   "published": "2026-11-03T09:44+00:00",
+   "published_jst": "2026-11-03 18:44",
+   "summary": "Brookfield backs giant AI campus with £2.5bn earmarked for first 100MW phase",
+   "ai_related": true
+  },
+  {
    "id": "e8f00a920199",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1257,6 +1313,32 @@
    "published_jst": "2026-11-03 18:00",
    "summary": "複数のAIエージェントに作業を依頼する場合、途中の承認状態に気付かず作業が中断したり、作業が終了したことに気付かず次の指示待ちで放置されるなど作業効率が悪くなる場合があります。こうした無駄を無くすためAIエージェントをバックグラウンドで実行し、作業完了の通知や承認待ちの依頼をメールのような受信箱にまとめて管理できるほか、Windows・macOS・LinuxやローカルAIモデルにも対応する無料アプリが「Pizza Bot」です。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "7764bd7b7b03",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Emergency works ordered as Galliard tower crisis widens",
+   "url": "https://www.constructionenquirer.com/2026/11/03/emergency-works-ordered-as-galliard-tower-crisis-widens/",
+   "published": "2026-11-03T08:12+00:00",
+   "published_jst": "2026-11-03 17:12",
+   "summary": "Two more blocks now evacuated over transfer slab failure fears",
+   "ai_related": false
+  },
+  {
+   "id": "7bdde6fe7ba1",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Clancy picked for £39m Southern Water pipeline",
+   "url": "https://www.constructionenquirer.com/2026/11/03/clancy-picked-for-39m-southern-water-pipeline/",
+   "published": "2026-11-03T08:08+00:00",
+   "published_jst": "2026-11-03 17:08",
+   "summary": "Andover link will connect Hampshire supply zones and ease pressure on rare chalk streams",
+   "ai_related": false
   },
   {
    "id": "a2357e701f02",
@@ -1304,16 +1386,29 @@
    "summary_ja": "数秒で説得力のある画像を生成するAI。その技術が建築やデザインの世界にもたらす影響と可能性を探る。"
   },
   {
-   "id": "361cfa4044b1",
-   "source": "TradingView",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "英ドラックスとブルックフィールド、270億ドルAIデータセンター建設へ",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVREp1QTVWSFI5LVdZYS00YkowOWJQbkhlTFY5dUdPYWN3dmdYR0xFakNZNVV6X0lnU0JheDJaSS0xUFVJNGVJYlBjU1BRamx2dlBETEd1a2l5MTAwOW9NbkczUG5QTGdyNzZHNl9JcklTNHRmbGEzSA?oc=5",
-   "published": "2026-11-03T07:25+00:00",
-   "published_jst": "2026-11-03 16:25",
-   "summary": "",
+   "id": "9374f6e8a892",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Canary Wharf gets green light for major office overhaul",
+   "url": "https://www.constructionenquirer.com/2026/11/03/canary-wharf-gets-green-light-for-major-office-overhaul/",
+   "published": "2026-11-03T07:57+00:00",
+   "published_jst": "2026-11-03 16:57",
+   "summary": "Deep retrofit of 10 Cabot Square to move into construction in 2027",
+   "ai_related": false
+  },
+  {
+   "id": "750a2f16cbd1",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Work set to start on £230m Farringdon hotel",
+   "url": "https://www.constructionenquirer.com/2026/11/03/work-set-to-start-on-230m-farringdon-hotel/",
+   "published": "2026-11-03T07:50+00:00",
+   "published_jst": "2026-11-03 16:50",
+   "summary": "New 11-storey aparthotel for Staycity Group",
    "ai_related": false
   },
   {
@@ -1433,6 +1528,19 @@
    "ai_related": false
   },
   {
+   "id": "7e4478a59b10",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国のGS建設、壁が動く「ムービングウォール」公開…ロボット技術でマンションの間取りを変える",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGM2VmcDVxbXkyckY2M3dhei1Ta3dxT2tpdFNNNVUxdV8weDZLUjY3Vl9kRWNmVTBlSUhRc3dZQXpYSUt4LUZ5V19iWFdlRGozRTBfQTB5ZGk1SVp0aC14TFlYYjRxcUZLdk1KeTk5REJ5SFl0?oc=5",
+   "published": "2026-11-03T02:36+00:00",
+   "published_jst": "2026-11-03 11:36",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "9c67c7267a56",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1476,6 +1584,19 @@
    "ai_related": true,
    "title_ja": "OpenAI、新最高コーポレート広報責任者に就任",
    "summary_ja": "ジル・ヘイズルベイカー氏がOpenAIに入社し、グローバルなコミュニケーションと企業ポジションの構築を率いる。"
+  },
+  {
+   "id": "af2f8b4a4fec",
+   "source": "アットプレス",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "土木施工管理技士の重要用語を解説するコラムを公開。主任技術者・監理技術者・技士補の違いから、4大管理・KY活動まで",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0M1l4TVR0UVpFSUlMbTVNZUpFRHFsdnU3cWM0WGNHV3p2R29xdVE4bldrZTBkVnM0REFVOXBmcWdSX1EzZElqbFZtc1dnbHM?oc=5",
+   "published": "2026-11-03T00:00+00:00",
+   "published_jst": "2026-11-03 09:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "10dab842bc68",
@@ -2001,7 +2122,7 @@
    "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
    "published": "2026-11-02T14:02+00:00",
    "published_jst": "2026-11-02 23:02",
-   "summary": "Article URL: https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/ Comments URL: https://news.ycombinator.com/item?id=50336918 Points: 352 # Comments: 139",
+   "summary": "Article URL: https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/ Comments URL: https://news.ycombinator.com/item?id=50336918 Points: 353 # Comments: 142",
    "ai_related": true,
    "title_ja": "富士フイルム、テープ生産を5倍に増産",
    "summary_ja": "AIの普及によるデータアーカイブ需要の急増を受け、富士フイルムが磁気テープの生産体制を大幅に強化する。"
@@ -2190,66 +2311,6 @@
    "ai_related": true
   },
   {
-   "id": "1b4624964d23",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "20 firms land £500m MAG airports minor works deal",
-   "url": "https://www.constructionenquirer.com/2026/11/02/20-firms-land-500m-mag-airports-minor-works-deal/",
-   "published": "2026-11-02T08:21+00:00",
-   "published_jst": "2026-11-02 17:21",
-   "summary": "Partners lined up for jobs worth up to £5m at Manchester, Stansted and East Midlands",
-   "ai_related": false,
-   "title_ja": "MAG空港の小規模工事契約に20社が選定",
-   "summary_ja": "マンチェスター、スタンステッド、イースト・ミッドランドの各空港で最大500万ポンド規模の案件を担当するパートナーが決定。"
-  },
-  {
-   "id": "eee597809222",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bugler Group sold to employee ownership trust",
-   "url": "https://www.constructionenquirer.com/2026/11/02/bugler-group-sold-to-employee-ownership-trust/",
-   "published": "2026-11-02T08:21+00:00",
-   "published_jst": "2026-11-02 17:21",
-   "summary": "Three brothers retain leadership roles at £125m housing contractor",
-   "ai_related": false,
-   "title_ja": "Bugler Groupが従業員持株信託に売却",
-   "summary_ja": "1億2,500万ポンド規模の住宅建設会社で、3人の兄弟が引き続き経営陣としての役割を維持する。"
-  },
-  {
-   "id": "ac5148e654eb",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Developer lines up next phases at £180m Wigan mill scheme",
-   "url": "https://www.constructionenquirer.com/2026/11/02/developer-lines-up-next-phases-at-180m-wigan-mill-scheme/",
-   "published": "2026-11-02T08:21+00:00",
-   "published_jst": "2026-11-02 17:21",
-   "summary": "179-home Block A new build to move forward",
-   "ai_related": false,
-   "title_ja": "ウィガンの1億8000万ポンドのミル開発で次のフェーズへ",
-   "summary_ja": "179戸の住宅を含むブロックAの新築工事が次の段階へと進む予定。"
-  },
-  {
-   "id": "d1363396d564",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Balfour Beatty to build Britain’s biggest substation",
-   "url": "https://www.constructionenquirer.com/2026/11/02/balfour-beatty-to-build-britains-biggest-substation-job/",
-   "published": "2026-11-02T08:20+00:00",
-   "published_jst": "2026-11-02 17:20",
-   "summary": "National Grid secures 73-acre Teesside site for giant 1.44GW power hub",
-   "ai_related": false,
-   "title_ja": "Balfour Beatty、英国最大の変電所建設へ",
-   "summary_ja": "ナショナル・グリッドがティーサイドの73エーカーの敷地を確保し、巨大な1.44GWの電力ハブを建設する。"
-  },
-  {
    "id": "a2571c843df1",
    "source": "Infoseek",
    "source_id": "gnews_sekisan_ai",
@@ -2263,36 +2324,6 @@
    "ai_related": false
   },
   {
-   "id": "63ecfd88d507",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "GMI checks in to York with sixth Dakota hotel job",
-   "url": "https://www.constructionenquirer.com/2026/11/02/gmi-checks-in-at-york-with-sixth-dakota-hotel-job/",
-   "published": "2026-11-02T07:49+00:00",
-   "published_jst": "2026-11-02 16:49",
-   "summary": "Main works begin on 140-bedroom hotel after demolition of former city-centre office block",
-   "ai_related": false,
-   "title_ja": "GMI、ヨークで6軒目となるダコタホテルの建設に着手",
-   "summary_ja": "中心街のオフィスビル解体を終え、140室を有するホテルの本格的な工事が開始された。"
-  },
-  {
-   "id": "e93b9d456a5c",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Ibstock profit warning as brick sales plummet",
-   "url": "https://www.constructionenquirer.com/2026/11/02/ibstock-profit-warning-as-brick-sales-plummet/",
-   "published": "2026-11-02T07:47+00:00",
-   "published_jst": "2026-11-02 16:47",
-   "summary": "Production cut by 20% as sales continue to crater",
-   "ai_related": false,
-   "title_ja": "アイブストックが利益警告、レンガ販売が急減",
-   "summary_ja": "販売の低迷が続く中、生産体制を20%縮小することを決定した。"
-  },
-  {
    "id": "21c258173c6f",
    "source": "ニュースメディアVOIX",
    "source_id": "gnews_kensetsu_ai",
@@ -2304,21 +2335,6 @@
    "published_jst": "2026-11-02 16:35",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "f41d9f394baa",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Lucky escape for H&V workers after tower block roof fire",
-   "url": "https://www.constructionenquirer.com/2026/11/02/lucky-escape-for-hv-workers-after-tower-block-roof-fire/",
-   "published": "2026-11-02T07:17+00:00",
-   "published_jst": "2026-11-02 16:17",
-   "summary": "Court hears how quartet of workers fled 14th floor after blaze engulfed roof",
-   "ai_related": false,
-   "title_ja": "高層ビルの屋上火災でH&V作業員が九死に一生",
-   "summary_ja": "屋上が炎に包まれる中、4人の作業員が14階から避難した経緯が法廷で明かされた。"
   },
   {
    "id": "6ba357a5d458",
@@ -2373,6 +2389,19 @@
    "ai_related": true
   },
   {
+   "id": "0dcd2eb02087",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "現代建設、米FANCOと5年契約…240MW級SMRの初期設計に参画",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4c0tINHlfTUxTZTJaQkNGV2xoQ3l2cGs0T3o3cGlfbDlHQWd3T0tlYV80WU9XWTh2SG5tUXdKelNMZHFRQmxZRjFEem02cUVsREFoenJnQ1ZpVmFpY25MS0RjLU8tRWVhaGdFdVZIcjI1ZWpr?oc=5",
+   "published": "2026-11-02T06:26+00:00",
+   "published_jst": "2026-11-02 15:26",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "1fbcd8d7c0f6",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -2399,19 +2428,6 @@
    "ai_related": true
   },
   {
-   "id": "a83f366ce928",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AI電力需要が原発を復活させる、世界79基建設で40年ぶり最多",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zQjBOSVB2MDkwa0Vrdkh3T3lTNXZOUWpfX1BfMzFfRlVjMlFFeThuUkEwSU83V2tWQ3Y3ZEtsUmRTWUViOVpLVVdyRGtyOS00d3pLM3FPdDVza05obFo5dGV5cDNqZVpHUURXc3ByY0FydnhW?oc=5",
-   "published": "2026-11-02T05:36+00:00",
-   "published_jst": "2026-11-02 14:36",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "c9e6e2d46ac3",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_dx",
@@ -2436,6 +2452,19 @@
    "published_jst": "2026-11-02 14:05",
    "summary": "「できる限り人の注意を引かず、できる限り多くの価値を提供する」という基本原則の下に作られたコーディングエージェント「dsh-superagent」が公開されました。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "a0dad7242ccf",
+   "source": "Infoseek",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "第一線で活躍する建築家が選ぶ、優れた建材・設備製品「みらいのたね賞」11製品、「ゲスト選考賞」1製品を決定",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90SXMxekZ4bzlfUTMtVDJ2b2ZKTGdnTXhxcEFTbU9NeVVyM0FJZzZuQ3lzaEV4UG9TMGdXWUpBcG8yNGd0UG9DWEJDSWdINmphNUhTR1JoNnRvMHVIRWtvX3lvTGJSQkFPZXdsSDJPMHhOQQ?oc=5",
+   "published": "2026-11-02T05:00+00:00",
+   "published_jst": "2026-11-02 14:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "7bc1793b8d73",
@@ -2488,6 +2517,19 @@
    "published_jst": "2026-11-02 10:50",
    "summary": "OpenAIはChatGPT Workのエージェント機能をChatGPTに統合する予定とし、CodexとChatGPTで有料プランの利用量制限が共通化されると発表した。",
    "ai_related": true
+  },
+  {
+   "id": "09abaee54b8c",
+   "source": "日本経済新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Ａｒｅｎｔ[5254]：Arentグループのアサクラソフト、 AI機能を搭載した中小建設業向け業務システム「使えるくらうどAI」を提供開始 2026年11月2日(適時開示) ：日経会社情報DIGITAL",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT002RENiUTdjOFoyblZBNTRiamczYS1YSmVmSm9nY093Xzh0TlplYWNMQ0lrb3hqNGVEcVFuVXpNaGUzMmF0MTRHcVhXVXE1RGpCaG9oemR1ckxRNTJfZXZyTEVYTUtQaVJlbFFPTExXRG8wV0x4XzR2YWI5M04wQ1Q0V3FBcTE4UVF5MWxHSlNlNlNqZTRwRm16Sk5DdzZCcVA0MWtONW94bkRicnlNZ25FSVJmNlJvaDg0QWlQNnZ5N1ZjQUN6aGppamg?oc=5",
+   "published": "2026-11-02T01:30+00:00",
+   "published_jst": "2026-11-02 10:30",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "6301e5649e49",
@@ -2596,19 +2638,6 @@
    "ai_related": true,
    "title_ja": "Qodo、Codexを用いたAIコードレビューにコンテキストを統合",
    "summary_ja": "社内知識やコーディング規約をCodexに組み込み、開発者がプルリクエスト前に重大な問題を検出するのを支援する。"
-  },
-  {
-   "id": "500af6482c21",
-   "source": "マイナビニュース",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "野原グループはなぜIT部門から建設DXを始めたのか? 全社展開に向けた取り組み",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45V1dWcU1fdHY3RVYwSjBnLVhHalpmS2lGaWp6XzcwNVNraWVRY1BELXEzZGJ4Nl9hVXhpRFF6di1vVGxONWJaV0V5Tk1IQjJKOFhWb3dhT0dob0o5Q0VBRXVKRGdIZDJy?oc=5",
-   "published": "2026-11-02T00:00+00:00",
-   "published_jst": "2026-11-02 09:00",
-   "summary": "",
-   "ai_related": true
   }
  ]
 }
