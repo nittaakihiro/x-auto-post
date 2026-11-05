@@ -17628,5 +17628,54 @@
       ],
       "hook_alternative": "候補2: output/news_feed.json(デジコン、2026-11-05 15:17 JST)「鹿島、FieldAIのフィジカルAIを使った完全自律移動ロボットを建設現場へ本格導入」。WebSearchで複数回裏取りを試みたが鹿島とFieldAIの提携自体を確認できず、本文も未確認のため計7点で見送り。\n候補3: output/news_feed.json(Tohoku University公式、2026-11-05 10:00 JST)「大林組×東北大学 次世代建設技術共創研究所を設置」。一次ソースで設置の事実は確認できるが、方針表明段階で現場の作業変化を具体的に書ける材料が薄く計7点で見送り。"
     }
+  },
+  {
+    "id": "2026-11-06_07:25",
+    "date": "2026-11-06",
+    "time": "07:25",
+    "text": "OpenAIがChatGPT Images 2.6を公開、文章や写真がそのままアニメGIFになる\n\n指示するだけで動く絵ができるの、普通に楽しい。\n\n引用元は英語なので補足すると、OpenAIとChatGPTの公式X投稿にある動画で、猫のイラストに「踊って」と指示すると数枚の絵が自動でつながりループするGIFになる様子を見せている。\n\n・再生速度の調整とコマ単位の編集ができる\n・顔やペット、キャラクターの参照画像を保存して使い回せる\n・生成速度は従来比50%アップ、開発者向けにFlare/Sunburstの2モデルも追加\n\n現場なら、着工前後の写真をパラパラGIFにして施主説明に使えそう。新人向けの作業手順をひと言の指示で動く図解にもできる。\n\n↓詳細",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 補足\n今回のGIF機能は2026-11-04発表。ロールアウトは順次で一部アカウントはまだ使えない場合がある。生成速度50%アップ・Flare/Sunburstモデルの情報はOpenAI/ChatGPT公式X投稿の本文自体には無く、TechRepublic・BigGo Finance・Zeebiz・TestingCatalogという独立した複数の二次報道が一致していた内容。画像に直接書き込んで修正箇所を指定できる機能、SVG書き出しも同時に追加された。\n\n■ 出典\nhttps://x.com/OpenAI/status/2118124953832935810\nhttps://x.com/ChatGPT/status/2118168231617700199",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": "OpenAIのChatGPT Images 2.6 GIF機能発表。公式Xの動画を軸にした速報型。",
+    "article_url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
+    "video_url": "https://x.com/OpenAI/status/2118124953832935810/video/1",
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "一般AI速報",
+      "format": "速報型",
+      "scores": {
+        "surprise": 1,
+        "visual": 2,
+        "freshness": 1,
+        "ai_magnitude": 1,
+        "credibility": 2
+      },
+      "selection_reason": "直近48h窓でoutput/ai_buzz.jsonは2026-11-03 13時台で更新が止まっており(現在時刻2026-11-06 06:30 JSTとの差約65時間、x_watcherパイプラインが未反映)、同窓の一次ソースとして使えなかったため、output/news_feed.json ai_global(window_hours=48・generated_at_jst 2026-11-06 02:59)とWebSearchを中心に国内外5件を比較した。(1)採用: OpenAI公式X(@OpenAI)とChatGPT公式X(@ChatGPT)が2026-11-04にそれぞれ投稿した『ChatGPT Images 2.6』のGIF生成機能発表。プロンプトや写真をアニメGIF化し、再生速度調整・コマ単位編集・参照画像の保存ができる旨を両アカウントの投稿本文(WebSearchが返すツイート引用で直接確認)で確認でき、video_urlも@OpenAIの投稿から取得できるため採用(surprise1/visual2/freshness1/ai_magnitude1/credibility2=計7点)。(2)不採用: news_feed.json ai_global『Gemini Omni 1.2 Flash』(Google DeepMind Blog、2026-11-06 02:05 JST付)は動画生成モデルの更新で絵の条件は満たしそうだが、GoogleDeepMind公式Xの該当投稿・動画URLをWebSearchで特定できず(x.comへの直接アクセスは本セッションのネットワークポリシー上不可)video_urlが取れないため不採用。(3)不採用: 同ai_global『Tencent Hy4』(The Decoder、2026-11-06 01:06 JST)はプレビュー版が2026年8月に既出で、ビジョン対応版の正式リリース日・公式Xの動画投稿を確認できず不採用。(4)不採用: 『Agility Robotics Nasdaq上場』(TechCrunch/Ars Technica、2026-11-05 21:00 JST)は株式市場ニュースで、ロボットが動く様子を見せるデモ動画が付いていないため不採用。(5)不採用: ai_buzz.json内『DeepSeek Harness Creator Mode』(@DeepSeekHarness、ts換算で2026-11-02 23:03 JST、imp120万超)はインプは大きいが、投稿自体が48h窓(2026-11-04 06:30〜2026-11-06 06:30 JST)より前で鮮度条件を満たさず不採用。",
+      "source_url": "https://x.com/OpenAI/status/2118124953832935810",
+      "published_at": "2026-11-04T09:00:00+09:00",
+      "checked_at": "2026-11-06T06:30:00+09:00",
+      "availability": "一般提供・順次ロールアウト(ChatGPT利用者向け。一部アカウントでは即時反映されない場合があるとBigGo Financeが言及)。開発者向けAPIはFlare/Sunburstの2モデルを用意。",
+      "unverified": [
+        "x.comへの直接アクセスはこのセッションのネットワークポリシー上不可(getaddrinfo ENOTFOUND)のため、@OpenAI・@ChatGPTの投稿そのもの・添付動画は直接閲覧できておらず、WebSearchが返すツイート本文の引用で確認した。動画内の猫のGIFデモの具体的な中身は、the-decoder.com等の二次記事の説明に基づく。",
+        "生成速度50%アップ、Flare/Sunburstモデルの名称・性能、ロールアウトの地域/プラン詳細はOpenAI/ChatGPT公式投稿の引用文には含まれておらず、TechRepublic・BigGo Finance・Zeebiz・TestingCatalogという独立した複数の二次報道が一致していた内容に基づく。the-decoder.com・testingcatalog.com等の記事本文はこのセッションのネットワークポリシー上WebFetch不可(getaddrinfo ENOTFOUND)のため直接確認はできていない。"
+      ],
+      "hook_alternative": "もう1案『OpenAIがGIF生成機能を追加、ChatGPT Images 2.6』は機能名の説明に寄りすぎて驚きが弱いため、1行目を『文章や写真がそのままアニメGIFになる』という体験の驚きに寄せた。"
+    }
   }
 ]
