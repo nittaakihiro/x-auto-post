@@ -17729,6 +17729,58 @@
     }
   },
   {
+    "id": "2026-11-07_07:25",
+    "date": "2026-11-07",
+    "time": "07:25",
+    "text": "【今週のすげー3選】\n\n今週も「これすげー」ってなる映像・事例が3つ揃ったので、AI・建設AIから選びました。\n\n①OpenAIが「ChatGPT Images 2.6」を公開。文章や写真を渡すだけで、そのままアニメGIFになる様子を公式Xの動画で披露\n②海外のクリエイターが、Claudeに作らせた自作スキルにロボットのハエトリグモの写真1枚を見せたら、ガラス製のすねにピストンとバネまで内蔵した460パーツの精巧な機構モデルを、コードだけで組み上げた\n③海外のBIMエンジニアが、現場写真11枚をAIエージェントに渡しただけで、壁の厚みや部材構成まで入った実務レベルのBIMモデルを57分で作らせた一部始終を公開\n\n文章がそのまま動く絵になり、写真1枚から精巧な機構モデルが組み上がり、現場写真だけで実務レベルのBIMモデルまで57分で出てくる一週間でした。現調写真から積算前のたたき台BIMを先に自分で作って持っていく会社が、設計・施工図のやり取りを一歩前に進められそうです。\n\n↓各ソース",
+    "type": "original",
+    "quote_tweet_id": null,
+    "thread_texts": null,
+    "image": {
+      "type": "none",
+      "prompt": null,
+      "path": null
+    },
+    "reply": {
+      "text": "■ 補足\n・①ChatGPT Images 2.6: 2026-11-04、OpenAI公式X(@OpenAI)・ChatGPT公式X(@ChatGPT)で発表。プロンプトや写真をアニメGIF化し、再生速度調整・コマ単位編集・参照画像の保存ができる(2026-11-06朝枠で既出のネタを今週のまとめとして再掲)。\n・②ハエトリグモ型ロボットの機構モデル: 2026-11-01、@elvar_official投稿。写真1枚は見た目だけに使い、460パーツをすべてコードで生成(ガラス製のすねにピストン・バネ内蔵の可動部まで再現)との投稿者本人の説明。Claudeで作った自作スキルによるもので、第三者による再現・検証は確認できていない。3つのうち機構部品の可動まで具体的に書かれており動きの密度が最も高いと判断し、本文に付ける動画はこの投稿を採用。\n・③BIMモデルの自動生成: 2026-11-02、@janpfranke投稿。図面や過去の建築記録を使わず、現場写真11枚のみをAIエージェントに渡し、壁のレイヤー・材料の厚み・部材構成を含む実務レベルのBIMモデルを57分で生成したとの報告。性能は投稿者本人の報告のみで第三者検証はない。\n\n■ 出典\n①https://x.com/OpenAI/status/2118124953832935810\n②https://x.com/elvar_official/status/2116618736371118544\n③https://x.com/janpfranke/status/2116908126645473307",
+      "delay_minutes": 5,
+      "source_query": null
+    },
+    "freshness": "locked",
+    "status": "draft",
+    "hint": null,
+    "article_url": null,
+    "video_url": "https://x.com/elvar_official/status/2116618736371118544/video/1",
+    "tweet_id": null,
+    "reply_tweet_id": null,
+    "posted_at": null,
+    "error": null,
+    "editorial": {
+      "pillar": "土曜朝:今週のすげー3選(AI・建設AI)",
+      "format": "週次recap型(速報型の派生・番号列挙)",
+      "scores": {
+        "驚き": 2,
+        "絵": 2,
+        "鮮度": 1,
+        "建設との距離": 1,
+        "確かさ": 1
+      },
+      "selection_reason": "戦略v8『土曜朝：今週のすげー3選』指示に基づき、今週(2026-11-01〜11-07)のpost_queue.json・output/news_feed.json(ai_global/ai_japan/construction_japan/construction_global, 48h窓×複数回分)・output/ai_buzz.json・output/slack_buzz.jsonを確認した。ai_buzz.json/slack_buzz.jsonは2026-11-03 13時台で更新が止まっており(x_watcherパイプライン未反映、現在との差約67時間)、今週分は11/1〜11/3の一部しかカバーしていない。post_queue.jsonを11/1〜11/7で確認すると、video_urlを付けて採用できたのは11-06朝枠のOpenAI『ChatGPT Images 2.6』のみで、他の日(11-01/11-03朝枠、11-04/11-05/11-06の昼・夜枠)はいずれも『動画付き候補なし』で休載が続いていた(各日dashboard.jsonのskip_reason参照)。このため、本来週内で採用済みの候補だけでは3件に満たず、本セッションでnews_feed.json・ai_buzz.json・slack_buzz.json・WebSearchを再走査して追加候補を探した。検討した主な候補: (a)採用=OpenAI『ChatGPT Images 2.6』(11-06朝枠で既出、公式X発表、video_url確保済み)。(b)採用=@elvar_official(2026-11-01投稿、imp190,000)、Claudeで作った自作スキルに画像1枚を見せ、ロボットのハエトリグモの可動部(ピストン・バネ内蔵)まで含む460パーツの機構モデルをコードのみで生成。『個人が作ってみたもののバズ』として戦略の柱2対象に含まれる区分。(c)採用=@janpfranke(2026-11-02投稿、imp19,000、[建設×AI海外]タグ)、現場写真11枚のみをAIエージェントに渡し、壁レイヤー・材厚まで含む実務レベルのBIMモデルを57分で生成。建設AI(設計・CAD領域)に合致。(d)不採用=国交省・新庄砕石工業所のOPERA対応バックホウ自動施工(slack_buzz.json『石男くん』投稿): 本文を精査すると11/17〜19に山形で開催予定の実演見学会の告知であり、自動施工の映像自体はまだ公開されていないため、絵2点(video_url)の足切りを満たせず不採用(WebSearchでprtimes.jpの告知を確認)。(e)不採用=Google DeepMind『Gemini Omni 1.2 Flash』(news_feed.json ai_japan、2026-11-06付、GA発表・動画生成モデル自体の更新で絵の条件は満たしそうだが、公式X投稿のstatus IDをWebSearchで特定できず(x.comへの直接アクセスは本セッションのネットワークポリシー上不可)video_urlが組み立てられないため不採用。(f)不採用=鹿島建設×FieldAIの自律移動ロボット建設現場導入・荒木組の遠隔操作ロボットアーム(news_feed.json construction_japan、2026-11-05付): WebSearchで複数回検索したが、両社の公式X投稿・動画のstatus IDを特定できず、video_urlが組み立てられないため不採用(記事自体は存在を確認)。(g)不採用=TestingCatalog『Gemini Live mode on Antigravity』早期デモ(ai_buzz.json、2026-11-03): 投稿者が第三者のリーク系トラッカーで公式発表ではなく確かさが下がること、Antigravityという開発者向けIDEの機能デモで『誰もが驚く規模』とは言いにくいことから、(b)(c)の方を優先し不採用。一般AI1件・建設AI(CAD/BIM、国内外問わずで今回は海外)1件に加え、個人の作ってみたバズ1件という構成とした(柱2『個人が作ってみたもののバズも国内外とも対象』に合致)。一番動きのある1本として、機構部品(ピストン・バネ)の可動まで具体的に書かれている(b)にvideo_urlを付けた。重複確認：post_queue.json全期間を『ChatGPT Images』『elvar』『ハエトリグモ』『janpfranke』『BIM』で検索し、(b)(c)はいずれも新規ネタで既出なし、(a)のみ11-06朝枠と同一ネタを今週のまとめとして意図的に再掲(reply_textに既出である旨を明記)したことを確認した。live_metrics.json(data/analytics)は未確認(本セッションから読めず)のため、実投稿(本人が手動で公開したX投稿)との重複は確認できていない(実投稿未確認)。競合サービス(建設向けAI開発・導入支援・BPO・営業代行。光/Hikari・ミャク楽・Motif等)はいずれも該当しない(OpenAI・個人のAI愛好家・海外BIMエンジニアはいずれも競合に当たらない)。",
+      "source_url": "https://x.com/elvar_official/status/2116618736371118544",
+      "published_at": "2026-11-04T09:00+09:00(OpenAI ChatGPT Images 2.6公式発表)/2026-11-01T04:50+09:00(ハエトリグモ型ロボット機構モデル、@elvar_official投稿)/2026-11-02T00:00+09:00(BIMモデル自動生成、@janpfranke投稿)",
+      "checked_at": "2026-11-07T06:41+09:00",
+      "availability": "①ChatGPT Images 2.6は一般提供・順次ロールアウト(ChatGPT利用者向け)。②③はいずれも投稿者個人による一回限りのデモ報告で、製品化・一般提供の情報はない(②は『自作スキル』、③は実務プロジェクトでの実演報告)。",
+      "unverified": [
+        "WebFetchがこのセッションのネットワークポリシー上、news.google.com・blog.google・the-decoder.com・x.com等の外部サイトすべてでgetaddrinfo ENOTFOUND(DNS解決不可)となり、3件とも投稿本文・動画そのものの直接閲覧はできていない。WebSearchが返す要約・引用と、ai_buzz.json/slack_buzz.json収集時点の本文(X投稿のテキストと計測値)のみで判断した。",
+        "②@elvar_officialの『460パーツすべてコードで生成』『ピストン・バネ内蔵』という性能・構造の説明は投稿者本人の主張のみに基づき、第三者による再現・検証や動画の実物確認はできていない。",
+        "③@janpfrankeの『現場写真11枚・57分でBIMモデル生成』も投稿者本人の報告のみに基づき、使用したAIエージェント名・ツールの詳細、第三者検証は確認できていない。",
+        "ai_buzz.json/slack_buzz.jsonは2026-11-03 13時台で更新が止まっており、今週(11/1〜11/7)の後半(11/4〜11/7)の候補はこの2ファイルからは拾えていない(x_watcherパイプライン未反映)。",
+        "data/analytics/live_metrics.jsonが本セッションから読めなかったため、3件とも実投稿(本人が手動で公開したX投稿)との重複は確認できていない(実投稿未確認)。"
+      ],
+      "hook_alternative": "案A(採用): 先々週(10-31)・先週と同じ『【今週のすげー3選】→一人称の驚き→①②③番号列挙→締めの行動提案→↓各ソース』の型を踏襲し、週次recapとしての一貫性を優先した。案B: ①②③の順を『建設AI→建設AI→一般AI』に入れ替える案も検討したが、朝枠らしく一般AIの大ネタ(OpenAI公式発表)から入る従来の構成を優先した。案C: 今週は建設AI(フィジカルAI・ロボット)の確実な動画付き候補が見つからなかったため、①②を一般AI、③のみ建設AI(CAD/BIM)とする構成も検討したが、②は『個人の作ってみたバズ』として柱2の対象にも含まれる区分のため、一般AI1・作ってみたバズ1・建設AI1の組み合わせとして扱った。"
+    }
+  },
+  {
     "id": "2026-11-07_08:00",
     "date": "2026-11-07",
     "time": "08:00",
@@ -17792,20 +17844,28 @@
     "posted_at": null,
     "error": null,
     "editorial": {
-      "pillar": "本質投稿",
-      "format": "商談ネタ型",
+      "pillar": "土曜朝:今週のすげー3選(AI・建設AI)",
+      "format": "週次recap型(速報型の派生・番号列挙)",
       "scores": {
-        "concrete": 2,
-        "own_voice": 2,
-        "not_bottleneck": 2
+        "驚き": 2,
+        "絵": 2,
+        "鮮度": 1,
+        "建設との距離": 1,
+        "確かさ": 1
       },
-      "selection_reason": "前日の商談議事録から、相手が実際に話した現場の実態を1つ選んだ（社名・人名・地域・金額は伏せる）",
-      "source_url": "",
-      "published_at": null,
-      "checked_at": "2026-11-06T21:30:05+09:00",
-      "availability": "自社の商談（非公開）",
-      "unverified": [],
-      "hook_alternative": ""
+      "selection_reason": "戦略v8『土曜朝：今週のすげー3選』指示に基づき、今週(2026-11-01〜11-07)のpost_queue.json・output/news_feed.json(ai_global/ai_japan/construction_japan/construction_global, 48h窓×複数回分)・output/ai_buzz.json・output/slack_buzz.jsonを確認した。ai_buzz.json/slack_buzz.jsonは2026-11-03 13時台で更新が止まっており(x_watcherパイプライン未反映、現在との差約67時間)、今週分は11/1〜11/3の一部しかカバーしていない。post_queue.jsonを11/1〜11/7で確認すると、video_urlを付けて採用できたのは11-06朝枠のOpenAI『ChatGPT Images 2.6』のみで、他の日(11-01/11-03朝枠、11-04/11-05/11-06の昼・夜枠)はいずれも『動画付き候補なし』で休載が続いていた(各日dashboard.jsonのskip_reason参照)。このため、本来週内で採用済みの候補だけでは3件に満たず、本セッションでnews_feed.json・ai_buzz.json・slack_buzz.json・WebSearchを再走査して追加候補を探した。検討した主な候補: (a)採用=OpenAI『ChatGPT Images 2.6』(11-06朝枠で既出、公式X発表、video_url確保済み)。(b)採用=@elvar_official(2026-11-01投稿、imp190,000)、Claudeで作った自作スキルに画像1枚を見せ、ロボットのハエトリグモの可動部(ピストン・バネ内蔵)まで含む460パーツの機構モデルをコードのみで生成。『個人が作ってみたもののバズ』として戦略の柱2対象に含まれる区分。(c)採用=@janpfranke(2026-11-02投稿、imp19,000、[建設×AI海外]タグ)、現場写真11枚のみをAIエージェントに渡し、壁レイヤー・材厚まで含む実務レベルのBIMモデルを57分で生成。建設AI(設計・CAD領域)に合致。(d)不採用=国交省・新庄砕石工業所のOPERA対応バックホウ自動施工(slack_buzz.json『石男くん』投稿): 本文を精査すると11/17〜19に山形で開催予定の実演見学会の告知であり、自動施工の映像自体はまだ公開されていないため、絵2点(video_url)の足切りを満たせず不採用(WebSearchでprtimes.jpの告知を確認)。(e)不採用=Google DeepMind『Gemini Omni 1.2 Flash』(news_feed.json ai_japan、2026-11-06付、GA発表・動画生成モデル自体の更新で絵の条件は満たしそうだが、公式X投稿のstatus IDをWebSearchで特定できず(x.comへの直接アクセスは本セッションのネットワークポリシー上不可)video_urlが組み立てられないため不採用。(f)不採用=鹿島建設×FieldAIの自律移動ロボット建設現場導入・荒木組の遠隔操作ロボットアーム(news_feed.json construction_japan、2026-11-05付): WebSearchで複数回検索したが、両社の公式X投稿・動画のstatus IDを特定できず、video_urlが組み立てられないため不採用(記事自体は存在を確認)。(g)不採用=TestingCatalog『Gemini Live mode on Antigravity』早期デモ(ai_buzz.json、2026-11-03): 投稿者が第三者のリーク系トラッカーで公式発表ではなく確かさが下がること、Antigravityという開発者向けIDEの機能デモで『誰もが驚く規模』とは言いにくいことから、(b)(c)の方を優先し不採用。一般AI1件・建設AI(CAD/BIM、国内外問わずで今回は海外)1件に加え、個人の作ってみたバズ1件という構成とした(柱2『個人が作ってみたもののバズも国内外とも対象』に合致)。一番動きのある1本として、機構部品(ピストン・バネ)の可動まで具体的に書かれている(b)にvideo_urlを付けた。重複確認：post_queue.json全期間を『ChatGPT Images』『elvar』『ハエトリグモ』『janpfranke』『BIM』で検索し、(b)(c)はいずれも新規ネタで既出なし、(a)のみ11-06朝枠と同一ネタを今週のまとめとして意図的に再掲(reply_textに既出である旨を明記)したことを確認した。live_metrics.json(data/analytics)は未確認(本セッションから読めず)のため、実投稿(本人が手動で公開したX投稿)との重複は確認できていない(実投稿未確認)。競合サービス(建設向けAI開発・導入支援・BPO・営業代行。光/Hikari・ミャク楽・Motif等)はいずれも該当しない(OpenAI・個人のAI愛好家・海外BIMエンジニアはいずれも競合に当たらない)。",
+      "source_url": "https://x.com/elvar_official/status/2116618736371118544",
+      "published_at": "2026-11-04T09:00+09:00(OpenAI ChatGPT Images 2.6公式発表)/2026-11-01T04:50+09:00(ハエトリグモ型ロボット機構モデル、@elvar_official投稿)/2026-11-02T00:00+09:00(BIMモデル自動生成、@janpfranke投稿)",
+      "checked_at": "2026-11-07T06:41+09:00",
+      "availability": "①ChatGPT Images 2.6は一般提供・順次ロールアウト(ChatGPT利用者向け)。②③はいずれも投稿者個人による一回限りのデモ報告で、製品化・一般提供の情報はない(②は『自作スキル』、③は実務プロジェクトでの実演報告)。",
+      "unverified": [
+        "WebFetchがこのセッションのネットワークポリシー上、news.google.com・blog.google・the-decoder.com・x.com等の外部サイトすべてでgetaddrinfo ENOTFOUND(DNS解決不可)となり、3件とも投稿本文・動画そのものの直接閲覧はできていない。WebSearchが返す要約・引用と、ai_buzz.json/slack_buzz.json収集時点の本文(X投稿のテキストと計測値)のみで判断した。",
+        "②@elvar_officialの『460パーツすべてコードで生成』『ピストン・バネ内蔵』という性能・構造の説明は投稿者本人の主張のみに基づき、第三者による再現・検証や動画の実物確認はできていない。",
+        "③@janpfrankeの『現場写真11枚・57分でBIMモデル生成』も投稿者本人の報告のみに基づき、使用したAIエージェント名・ツールの詳細、第三者検証は確認できていない。",
+        "ai_buzz.json/slack_buzz.jsonは2026-11-03 13時台で更新が止まっており、今週(11/1〜11/7)の後半(11/4〜11/7)の候補はこの2ファイルからは拾えていない(x_watcherパイプライン未反映)。",
+        "data/analytics/live_metrics.jsonが本セッションから読めなかったため、3件とも実投稿(本人が手動で公開したX投稿)との重複は確認できていない(実投稿未確認)。"
+      ],
+      "hook_alternative": "案A(採用): 先々週(10-31)・先週と同じ『【今週のすげー3選】→一人称の驚き→①②③番号列挙→締めの行動提案→↓各ソース』の型を踏襲し、週次recapとしての一貫性を優先した。案B: ①②③の順を『建設AI→建設AI→一般AI』に入れ替える案も検討したが、朝枠らしく一般AIの大ネタ(OpenAI公式発表)から入る従来の構成を優先した。案C: 今週は建設AI(フィジカルAI・ロボット)の確実な動画付き候補が見つからなかったため、①②を一般AI、③のみ建設AI(CAD/BIM)とする構成も検討したが、②は『個人の作ってみたバズ』として柱2の対象にも含まれる区分のため、一般AI1・作ってみたバズ1・建設AI1の組み合わせとして扱った。"
     }
   }
 ]
