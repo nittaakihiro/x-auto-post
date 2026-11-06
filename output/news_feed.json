@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-11-06T21:28+00:00",
- "generated_at_jst": "2026-11-07 06:28",
+ "generated_at": "2026-11-06T22:08+00:00",
+ "generated_at_jst": "2026-11-07 07:08",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 61,
-  "construction_global": 39,
-  "ai_global": 64,
+  "construction_japan": 63,
+  "construction_global": 36,
+  "ai_global": 65,
   "ai_japan": 36
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -27,6 +31,19 @@
    "published_jst": "2026-11-07 06:19",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "c9ec131cb879",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AIデータセンター建設の行方―中間選挙で民主党が勝利しても続くトランプ政権の建設促進策と州の規制動向 #エキスパートトピ",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWJXZ2hKZHh2Y1Npb2cxdDVCTkRhZ1NGbnBpWXNZakR2bnV1elJMOThWdkdmZzZiWkF4ZUZBZWdJSjdvTUtGYUJNTDlhZzJzcmN6cjFsbUhvalRRcFp1TUY2bktMVWxUaVBwcmdmTWNPYUNwNlE2Rks4SlhaYmRzMzdGUjQ2Vmpj?oc=5",
+   "published": "2026-11-06T21:05+00:00",
+   "published_jst": "2026-11-07 06:05",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "930df5a698b3",
@@ -83,6 +100,19 @@
    "ai_related": true,
    "title_ja": "AIデータセンターに関する最新動向まとめ",
    "summary_ja": "巨大データセンターはAIの基盤だが、電力消費の激しい倉庫の急増により、その影響をめぐる世界的な紛争も激化している。"
+  },
+  {
+   "id": "ef2a83f7f3a4",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "published": "2026-11-06T19:48+00:00",
+   "published_jst": "2026-11-07 04:48",
+   "summary": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 175 # Comments: 40",
+   "ai_related": true
   },
   {
    "id": "edc88645f18e",
@@ -495,21 +525,6 @@
    "summary_ja": "業界団体は交通資金について議会との協力を求めたが、雇用主と労働組合は対立を続けている。"
   },
   {
-   "id": "c5dfef44b1ba",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bond Check: Negotiation Tactics for Assessing Commercial Risk",
-   "url": "https://constructionexec.com/article/bond-check-negotiation-tactics-for-assessing-commercial-risk/?utm_source=rss&utm_medium=rss&utm_campaign=bond-check-negotiation-tactics-for-assessing-commercial-risk",
-   "published": "2026-11-06T14:12+00:00",
-   "published_jst": "2026-11-06 23:12",
-   "summary": "Not all bond forms offer contractors the same protections—and knowing where the language departs from industry standards can prevent costly surprises. The post Bond Check: Negotiation Tactics for Assessing Commercial Risk first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "ボンド確認：商業的リスク評価の交渉戦術",
-   "summary_ja": "すべての保証書が同じ保護を提供するわけではなく、業界標準からの逸脱を知ることで思わぬ損失を防げます。"
-  },
-  {
    "id": "ab4846bbc512",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -577,7 +592,7 @@
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
    "published": "2026-11-06T13:35+00:00",
    "published_jst": "2026-11-06 22:35",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 259 # Comments: 203",
+   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 268 # Comments: 206",
    "ai_related": true,
    "title_ja": "Gemini Omni 1.2 Flashが登場",
    "summary_ja": "Googleの公式ブログやHacker Newsでの議論を紹介する開発者向けの最新情報記事です。"
@@ -832,21 +847,6 @@
    "published_jst": "2026-11-06 20:00",
    "summary": "AIモデルの提供プラットフォームであるOpenRouterの調査によると、2026年9月末時点で、OpenRouter上の上位50モデルのトークンのうちオープンウェイトモデルが処理した割合は72％と、前年の27％から大幅に増加したとのこと。AIのオープンウェイトモデルとクローズドウェイトモデルの違いについて、OpenRouterが解説しています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "956ae262dd68",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "How Construction Companies Gain Competitive Advantage Through Inclusive Leadership",
-   "url": "https://constructionexec.com/article/how-construction-companies-gain-competitive-advantage-through-inclusive-leadership/?utm_source=rss&utm_medium=rss&utm_campaign=how-construction-companies-gain-competitive-advantage-through-inclusive-leadership",
-   "published": "2026-11-06T11:00+00:00",
-   "published_jst": "2026-11-06 20:00",
-   "summary": "Inclusive leadership fosters an environment of thriving, diverse teams, with innovation and agility six times more likely among inclusive organizations. The post How Construction Companies Gain Competitive Advantage Through Inclusive Leadership first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "包摂的リーダーシップがもたらす建設会社の競争力",
-   "summary_ja": "多様なチームを育成する包摂的リーダーシップにより、イノベーションや俊敏性が飛躍的に高まります。"
   },
   {
    "id": "7831a753fad5",
@@ -1188,19 +1188,6 @@
    "ai_related": false
   },
   {
-   "id": "2e0e3a54fddc",
-   "source": "remio",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Nasdaq急落が浮き彫りにするAIインフラの政治リスク",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUDdISWRiUnVzUk1SM1ExVElQZGZvaUFoeURqeXpod3dlTG5nLVhxTlZMWlN0ZDl0blpxdDVCdkNTMmRvallGYWVDMkNHQkh6d3l6eGxjOEQ3bjNNcThaeDRfTlA3cVZRQWRJY0tJQTdvSVhDaFhJYl9RYU9ZT3NYZklPcHN3MW1fSXlOU0g2aWZmZw?oc=5",
-   "published": "2026-11-06T03:06+00:00",
-   "published_jst": "2026-11-06 12:06",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "e6e81981fd90",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1299,19 +1286,6 @@
    "lang": "ja",
    "title": "生成AI活用により建設現場の業務効率化を加速",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZYjlfY0phQWdmYU0zbzhuMVd4R0laTWtxNXQ5bTFZVFowbFo5d0k0b2xoaEpNMTRjX0ZLLXVlN253bWNCV09SV1pRQUlIRTBuVVpuazhpQmFDbkE?oc=5",
-   "published": "2026-11-06T02:00+00:00",
-   "published_jst": "2026-11-06 11:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "429afe23712f",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "生成AI活用により建設現場の業務効率化を加速 (2026年11月6日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5teDhqTUVkbU13VE1vZllsQWsybEIyeTE0UWotdTBJYVVyaDlocnctbFktaVVmUWxXX3FQMTdfNWw1WXplOTFuNzVoaHlzRVlYUzE1bmdUMVM4VlBnVndQUGtB?oc=5",
    "published": "2026-11-06T02:00+00:00",
    "published_jst": "2026-11-06 11:00",
    "summary": "",
@@ -2334,19 +2308,17 @@
    "summary_ja": "カリフォルニアの美しい丘の間に架かるように建てられた、小川と裏庭の滝が特徴的な改修住宅。"
   },
   {
-   "id": "4ed4df9a9e0d",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five Construction Safety Trends That Will Define the Jobsite in 2027",
-   "url": "https://constructionexec.com/article/five-construction-safety-trends-that-will-define-the-jobsite-in-2027/?utm_source=rss&utm_medium=rss&utm_campaign=five-construction-safety-trends-that-will-define-the-jobsite-in-2027",
-   "published": "2026-11-05T11:00+00:00",
-   "published_jst": "2026-11-05 20:00",
-   "summary": "The defining safety trend of 2027 will be adaptability. As walls go up, crews rotate, access points change and projects enter new phases, safety infrastructure must evolve with them. The post Five Construction Safety Trends That Will Define the Jobsite in 2027 first appeared on Construction Executiv",
-   "ai_related": false,
-   "title_ja": "2027年の現場を定義する5つの建設安全トレンド",
-   "summary_ja": "2027年の最大の安全トレンドは適応性であり、プロジェクトの進展に合わせて安全インフラも進化する必要があります。"
+   "id": "7558bf37c5f8",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大手テック株が上昇、有権者がAIデータセンター建設にブレーキ",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05bmNZMWQ0a0U3Rm5MdWRLT2J6M0kzQzVvU3FTVWNhSDFVdk1LLXQxWWo2ejhScEp1SUxWUDNIRE9EQWJlR2VYbHYwaTNDVlh4QzhTWEFvYlRPbFRfZ0lSbFZQc2FNMkZqVVU0dWVDclc2dEZu?oc=5",
+   "published": "2026-11-05T10:55+00:00",
+   "published_jst": "2026-11-05 19:55",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "e57ca23dbfdf",
@@ -2636,6 +2608,19 @@
    "ai_related": true
   },
   {
+   "id": "7afca474d09b",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "新型コロナを吹き飛ばす 「建設DX」",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSHctMVlGVUp5S2tpY1F0Z3lUZGVzSldiemtLNTZnTURibEJKMG9WdENzSTFBNVRiT3ZvUUM0N2d5TVAzcjF1NmNnR3dGN1NHTTM5cG50d0lJMVNHSXl6U25qYVBURk9NSWFxVTFQNVl5dmRYelloRVhteDRvbFNfeURpbDJqSk96RTBtQ1plUEZVTlBSeDhRX0J6SnZMXzJYR0FXZDZBU2s3ZldUYjRHVUpleHliMU5mcGRvamZpQnFYeGNlRUdROXR4OWZWVDhQemhZcWNVNnJjZ0lLVzczN2tB?oc=5",
+   "published": "2026-11-05T03:03+00:00",
+   "published_jst": "2026-11-05 12:03",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "56cdc2907ccf",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2820,6 +2805,19 @@
    "ai_related": true,
    "title_ja": "Flipsnack、登録数増加を実現",
    "summary_ja": "ChatGPT広告キャンペーンの活用により製品の試用を促進し、獲得コストを抑えながら登録者数を増やすことに成功した。"
+  },
+  {
+   "id": "7941c16d0706",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設業の「今」を体験！福岡県建設産業雇用促進事業「学生・一般向けDXセミナー」を麻生建築＆デザイン専門学校で開催",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mNXhuRG52R1JsU3U0ZjhSZW5mMUtWU0ttVlY1YjBnS093OE1nMS1HOTBlRHU5Uy0xUkVSNjJXR0ppZkRIZjdSUC1sbDBlV2dyZC00ckd0N2ZBNFFGTVc1NG84ZTBKbWJHVGNfR3RyZkFsUQ?oc=5",
+   "published": "2026-11-05T00:30+00:00",
+   "published_jst": "2026-11-05 09:30",
+   "summary": "",
+   "ai_related": true
   }
  ]
 }
