@@ -1,24 +1,63 @@
 {
- "generated_at": "2026-11-07T16:24+00:00",
- "generated_at_jst": "2026-11-08 01:24",
+ "generated_at": "2026-11-07T16:39+00:00",
+ "generated_at_jst": "2026-11-08 01:39",
  "window_hours": 48,
  "counts": {
-  "ai_global": 56,
+  "ai_global": 55,
   "ai_japan": 34,
   "construction_japan": 52,
-  "construction_global": 32
+  "construction_global": 35
  },
  "errors": [
   {
-   "feed": "venturebeat_ai",
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
-   "feed": "constructionexec",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "a8253bc05c84",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
+   "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
+   "published": "2026-11-07T16:31+00:00",
+   "published_jst": "2026-11-08 01:31",
+   "summary": "Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn't work as a warning signal: 96 percent of failed runs contai",
+   "ai_related": true
+  },
+  {
+   "id": "fa06ff8fdc83",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+   "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+   "published": "2026-11-07T15:50+00:00",
+   "published_jst": "2026-11-08 00:50",
+   "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, m",
+   "ai_related": true
+  },
+  {
+   "id": "73be1ddc7ff2",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The US let Nvidia sell chips to an empty office in China",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+   "published": "2026-11-07T15:43+00:00",
+   "published_jst": "2026-11-08 00:43",
+   "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a ho",
+   "ai_related": true
+  },
   {
    "id": "70fa707957c5",
    "source": "The Decoder",
@@ -119,7 +158,7 @@
    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
    "published": "2026-11-07T09:46+00:00",
    "published_jst": "2026-11-07 18:46",
-   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 352 # Comments: 201",
+   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 369 # Comments: 211",
    "ai_related": true,
    "title_ja": "すべてのMacに未公開の家族分類機能が搭載",
    "summary_ja": "Apple Intelligenceのパーソナル知識グラフに関する記事およびHacker Newsにおけるユーザーのコメントや議論の紹介。"
@@ -278,6 +317,19 @@
    "ai_related": false
   },
   {
+   "id": "7f20f31d027a",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Nonresidential Construction Adds 13,300 Jobs in October",
+   "url": "https://constructionexec.com/article/nonresidential-construction-adds-13300-jobs-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=nonresidential-construction-adds-13300-jobs-in-october",
+   "published": "2026-11-06T22:07+00:00",
+   "published_jst": "2026-11-07 07:07",
+   "summary": "For the first time since February, the construction industry recorded a loss in the jobs market in October. The post Nonresidential Construction Adds 13,300 Jobs in October first appeared on Construction Executive .",
+   "ai_related": false
+  },
+  {
    "id": "3b6894ca71e2",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -315,19 +367,6 @@
    "published_jst": "2026-11-07 07:00",
    "summary": "AIで提案書の作成や情報収集は効率化できても、それだけで営業成績は上がるのか。AIを導入した営業現場で今、問われているのは、ツールを使いこなす力だけではない。",
    "ai_related": true
-  },
-  {
-   "id": "f4eae745c30a",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "1. 米国民主党陣営のデータセンター建設中断要求がAI産業の新しい変数に浮上しました。 テキサス·オハイオ·ジョージアの3州に米国全体の建設予定データセンター容量の40%が集中しており、州政府の許認可..",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FMXk0Z29OODgwRnF5TFNnZGJfYVY2RDlvX3VqMk51RlhPeUxVbEtQMWpYTUFtWWkwLXo1NHIzdXNFb0dYZkgwQjRpOTcwRi1wM0E?oc=5",
-   "published": "2026-11-06T22:00+00:00",
-   "published_jst": "2026-11-07 07:00",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "7c0fade81edc",
@@ -421,7 +460,7 @@
    "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
    "published": "2026-11-06T19:48+00:00",
    "published_jst": "2026-11-07 04:48",
-   "summary": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 535 # Comments: 131",
+   "summary": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 537 # Comments: 131",
    "ai_related": true,
    "title_ja": "Opusに協力するJev、4分の1の低コストで同等の精度を実現",
    "summary_ja": "Opusに支援を求めるシステムにより、低コストでありながらOpusと同等の高精度な処理が可能になる。"
@@ -689,21 +728,6 @@
    "summary_ja": "悲観論の背景には、高止まりする建設コストと、データセンターブーム以外の需要の低迷がある。"
   },
   {
-   "id": "c821c11af1c2",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How Akai and Moog are embracing vibe-coded mods",
-   "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
-   "published": "2026-11-06T16:34+00:00",
-   "published_jst": "2026-11-07 01:34",
-   "summary": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings of, say, an MPC or Sam",
-   "ai_related": true,
-   "title_ja": "AkaiやMoogがバイブコード化された改造を歓迎する理由",
-   "summary_ja": "inMusicのCEOは、モッディングコミュニティに向けてツールボックスを提供し、コミュニティを支援していく方針を語った。"
-  },
-  {
    "id": "01aef0d2f976",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -867,6 +891,19 @@
    "summary_ja": "業界団体は交通資金について議会との協力を求めたが、雇用主と労働組合は対立を続けている。"
   },
   {
+   "id": "c5dfef44b1ba",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Bond Check: Negotiation Tactics for Assessing Commercial Risk",
+   "url": "https://constructionexec.com/article/bond-check-negotiation-tactics-for-assessing-commercial-risk/?utm_source=rss&utm_medium=rss&utm_campaign=bond-check-negotiation-tactics-for-assessing-commercial-risk",
+   "published": "2026-11-06T14:12+00:00",
+   "published_jst": "2026-11-06 23:12",
+   "summary": "Not all bond forms offer contractors the same protections—and knowing where the language departs from industry standards can prevent costly surprises. The post Bond Check: Negotiation Tactics for Assessing Commercial Risk first appeared on Construction Executive .",
+   "ai_related": false
+  },
+  {
    "id": "ab4846bbc512",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -897,21 +934,6 @@
    "summary_ja": "ブリストルを拠点とする機械サプライヤーが英国16拠点で事業を展開中。"
   },
   {
-   "id": "35ab47bbc76c",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Amazon will let you text Alexa your shopping list",
-   "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
-   "published": "2026-11-06T14:00+00:00",
-   "published_jst": "2026-11-06 23:00",
-   "summary": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listing",
-   "ai_related": true,
-   "title_ja": "Alexaに買い物リストをテキスト送信可能に",
-   "summary_ja": "AIショッピングアシスタントへのテキスト送信で商品を購入できる新機能が追加されました。"
-  },
-  {
    "id": "2095ec85553a",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -940,21 +962,6 @@
    "summary_ja": "METRの調査により、Anthropicの開発速度が約2倍に加速していることが判明しました。"
   },
   {
-   "id": "63c3d56bc72b",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini Omni 1.2 Flash",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "published": "2026-11-06T13:35+00:00",
-   "published_jst": "2026-11-06 22:35",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 353 # Comments: 241",
-   "ai_related": true,
-   "title_ja": "Gemini Omni 1.2 Flashが登場",
-   "summary_ja": "Googleの公式ブログやHacker Newsでの議論を紹介する開発者向けの最新情報記事です。"
-  },
-  {
    "id": "220462f7eefd",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
@@ -966,21 +973,6 @@
    "published_jst": "2026-11-06 22:35",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "c71b99d86779",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
-   "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
-   "published": "2026-11-06T13:25+00:00",
-   "published_jst": "2026-11-06 22:25",
-   "summary": "Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters. The company claims it's the strongest western open-weight model. Better agentic performance comes at a price, though, with token usage rising sharp",
-   "ai_related": true,
-   "title_ja": "Thinking Machinesの新型AIモデル",
-   "summary_ja": "元OpenAIのミラ・ムラティ氏が立ち上げた企業が、最強のオープンモデルを発表しました。"
   },
   {
    "id": "fbf575ba8ccd",
@@ -1159,6 +1151,19 @@
    "published_jst": "2026-11-06 20:00",
    "summary": "AIモデルの提供プラットフォームであるOpenRouterの調査によると、2026年9月末時点で、OpenRouter上の上位50モデルのトークンのうちオープンウェイトモデルが処理した割合は72％と、前年の27％から大幅に増加したとのこと。AIのオープンウェイトモデルとクローズドウェイトモデルの違いについて、OpenRouterが解説しています。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "956ae262dd68",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "How Construction Companies Gain Competitive Advantage Through Inclusive Leadership",
+   "url": "https://constructionexec.com/article/how-construction-companies-gain-competitive-advantage-through-inclusive-leadership/?utm_source=rss&utm_medium=rss&utm_campaign=how-construction-companies-gain-competitive-advantage-through-inclusive-leadership",
+   "published": "2026-11-06T11:00+00:00",
+   "published_jst": "2026-11-06 20:00",
+   "summary": "Inclusive leadership fosters an environment of thriving, diverse teams, with innovation and agility six times more likely among inclusive organizations. The post How Construction Companies Gain Competitive Advantage Through Inclusive Leadership first appeared on Construction Executive .",
+   "ai_related": false
   },
   {
    "id": "197c49d549b7",
@@ -1729,6 +1734,19 @@
    "published_jst": "2026-11-06 11:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "debce351b6aa",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米オープンAIがデータセンターで指針 電力・インフラ費用は自社負担（時事通信）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iVERfbGNBeG02UUxtSUY3QTRQV3FsUzB3YjVDUEJGbDJLdG9jSGZpRFVIaXVZVG5Ick9DNnd5QlFVR3pYT3VEaHRsdjhzSGdMM3NoSnBTME1GYWJQREtVUFVFRVVBZVkwM2hfbG5HTDNhOVU3WnhaTzZDQ2ZTc1U?oc=5",
+   "published": "2026-11-06T01:45+00:00",
+   "published_jst": "2026-11-06 10:45",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "5224c8e51025",
@@ -2398,21 +2416,6 @@
    "ai_related": true
   },
   {
-   "id": "825a50d1c0ad",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
-   "published": "2026-11-05T17:05+00:00",
-   "published_jst": "2026-11-06 02:05",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "Gemini Omni 1.2 Flash：高速かつ手頃で長尺に対応",
-   "summary_ja": "最新モデルの機能詳細とパフォーマンス向上について解説する。"
-  },
-  {
    "id": "b58fee4edbbb",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -2426,6 +2429,21 @@
    "ai_related": true,
    "title_ja": "オーストラリアの大学、AIネイティブ人材の育成を推進",
    "summary_ja": "AI時代に備えるため、ChatGPTの活用を拡大し、教育現場への導入を進めている。"
+  },
+  {
+   "id": "63c3d56bc72b",
+   "source": "Google AI Blog",
+   "source_id": "google_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "published": "2026-11-05T17:00+00:00",
+   "published_jst": "2026-11-06 02:00",
+   "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+   "ai_related": true,
+   "title_ja": "Gemini Omni 1.2 Flashが登場",
+   "summary_ja": "Googleの公式ブログやHacker Newsでの議論を紹介する開発者向けの最新情報記事です。"
   },
   {
    "id": "baf7193e75c1",
