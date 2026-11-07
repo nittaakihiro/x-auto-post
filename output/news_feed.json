@@ -1,20 +1,99 @@
 {
- "generated_at": "2026-11-07T10:42+00:00",
- "generated_at_jst": "2026-11-07 19:42",
+ "generated_at": "2026-11-07T16:24+00:00",
+ "generated_at_jst": "2026-11-08 01:24",
  "window_hours": 48,
  "counts": {
-  "ai_global": 64,
+  "ai_global": 56,
   "ai_japan": 34,
-  "construction_japan": 51,
-  "construction_global": 41
+  "construction_japan": 52,
+  "construction_global": 32
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "70fa707957c5",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+   "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+   "published": "2026-11-07T15:35+00:00",
+   "published_jst": "2026-11-08 00:35",
+   "summary": "In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts say the window for def",
+   "ai_related": true,
+   "title_ja": "オープンAIとクローズドAIのサイバー能力の差が縮小",
+   "summary_ja": "Vals AIベンチマークで、OpenAIのGPT-6が攻撃目標の80.8%を達成。さらにオープンモデルのDeepSeek V4.1 Flashも10分の1のコストで72.8%を記録した。"
+  },
+  {
+   "id": "055e03fe8fc4",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI broke the cybersecurity world. What’s next?",
+   "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+   "published": "2026-11-07T15:00+00:00",
+   "published_jst": "2026-11-08 00:00",
+   "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re go",
+   "ai_related": true,
+   "title_ja": "AIが変えたサイバーセキュリティの現在地と今後",
+   "summary_ja": "Cognitionの最高セキュリティ責任者であるアレックス・スタモス氏を迎え、現在のサイバーセキュリティの混乱とAIの影響について語る特別シリーズの第1回。"
+  },
+  {
+   "id": "a874cf7cfd2a",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+   "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+   "published": "2026-11-07T12:32+00:00",
+   "published_jst": "2026-11-07 21:32",
+   "summary": "Nous Research retrained Alibaba's Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of supervised fine-tuning.",
+   "ai_related": true,
+   "title_ja": "中国製AIの国家プロパガンダは微調整で容易に除去可能",
+   "summary_ja": "Nous ResearchがAlibabaのQwen3.8-27Bを再訓練し、中国寄りのバイアスを激減させることに成功。汎用能力を維持したままプロパガンダ率が1%未満に低下した。"
+  },
+  {
+   "id": "8879475e62b3",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+   "published": "2026-11-07T12:30+00:00",
+   "published_jst": "2026-11-07 21:30",
+   "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organizatio",
+   "ai_related": true,
+   "title_ja": "AnthropicのAI開発自動化レポートに研究者が懸念",
+   "summary_ja": "AnthropicがAIを用いてさらなる高性能AIを開発中で、モデルの性能向上速度は1年前の約2倍に達し、その傾向が衰える兆しは見られないと報告されている。"
+  },
+  {
+   "id": "e049fb2de93a",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+   "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+   "published": "2026-11-07T11:13+00:00",
+   "published_jst": "2026-11-07 20:13",
+   "summary": "The \"Into the Unknown\" benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity check, with agents claiming to have conducted experiments that never took place. G",
+   "ai_related": true,
+   "title_ja": "9つのAIエージェントが未知の研究に挑むも専門家基準に届かず",
+   "summary_ja": "米国国立研究所の未解決の問いに9つのAIエージェントが挑戦。135の提出物のうち要件を満たすものはなく、114本の論文が完全性チェックを通過できなかった。"
+  },
   {
    "id": "36d024f10fd6",
    "source": "The Decoder",
@@ -26,7 +105,24 @@
    "published": "2026-11-07T09:54+00:00",
    "published_jst": "2026-11-07 18:54",
    "summary": "Google Research built an AI that spots signs of high blood pressure using only the pulse and motion sensors in a standard smartwatch, no cuff needed. In a 196-person study, its 65.8 percent detection rate beat the traditional in-office measurement. The method is already live in the Google Health app",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "グーグルのAI、スマートウォッチで高血圧を検出",
+   "summary_ja": "Google Researchが通常のスマートウォッチのセンサーを使い、カフなしで高血圧の兆候を検出するAIを開発。196人の調査で従来の簡易検査を上回る成果を挙げた。"
+  },
+  {
+   "id": "5ec03af4da1d",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Every Mac comes with an (undocumented) family member classifier",
+   "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+   "published": "2026-11-07T09:46+00:00",
+   "published_jst": "2026-11-07 18:46",
+   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 352 # Comments: 201",
+   "ai_related": true,
+   "title_ja": "すべてのMacに未公開の家族分類機能が搭載",
+   "summary_ja": "Apple Intelligenceのパーソナル知識グラフに関する記事およびHacker Newsにおけるユーザーのコメントや議論の紹介。"
   },
   {
    "id": "774dd5b86edb",
@@ -39,7 +135,9 @@
    "published": "2026-11-07T09:45+00:00",
    "published_jst": "2026-11-07 18:45",
    "summary": "OpenAI has secured $11 billion in fresh capital, the first tranche of a round that values the company at $1.25 trillion. The full round could swell to $20 billion. That OpenAI is already turning to wealthy private investors hints at a saturating AI capital market and growing investor caution. The ar",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIが110億ドルを調達、さらなる資金確保へ",
+   "summary_ja": "企業価値1兆2500億ドルとされる新たな資金調達ラウンドで、OpenAIは110億ドルを確保。最終的には200億ドルに膨らむ可能性がある。"
   },
   {
    "id": "8a10efd7969d",
@@ -77,6 +175,19 @@
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yTndQSFNQNzZkaEc0ZUlmcTAtQmJvNjBPN1hMQkN0Nk0yVUFaZVRoa1F5dkhQTU1VZ1p6WlMxSDVSekNoXzJVLWVxRTE0QXpSamc?oc=5",
    "published": "2026-11-07T03:09+00:00",
    "published_jst": "2026-11-07 12:09",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "d9cd1c210297",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設現場の「古い図面」問題 紙とデジタルのズレが招く「手戻り」と「工事遅延」、日本HPはどう解消した？",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5uTFJtMHFRZnI5ZmY3VjlHeXMyLWYxWFJXNkQtUmpkaTJPYWMwaXFWWXFMQ2IxM1M4MUNfSk42ZUp1V2p3WGlVVlpnMWxqSC1SczB3bFJZX2xNVE9kYnIyLWpMYzlkeFI1WHpDSFFSRWx1Qnhr?oc=5",
+   "published": "2026-11-07T02:25+00:00",
+   "published_jst": "2026-11-07 11:25",
    "summary": "",
    "ai_related": true
   },
@@ -165,21 +276,6 @@
    "published_jst": "2026-11-07 07:40",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "7f20f31d027a",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Nonresidential Construction Adds 13,300 Jobs in October",
-   "url": "https://constructionexec.com/article/nonresidential-construction-adds-13300-jobs-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=nonresidential-construction-adds-13300-jobs-in-october",
-   "published": "2026-11-06T22:07+00:00",
-   "published_jst": "2026-11-07 07:07",
-   "summary": "For the first time since February, the construction industry recorded a loss in the jobs market in October. The post Nonresidential Construction Adds 13,300 Jobs in October first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "非住宅建設、10月に1万3300人の雇用増",
-   "summary_ja": "建設業界の雇用は2月以来初めての減少を記録した。月次統計の新たな動向が明らかにされた。"
   },
   {
    "id": "3b6894ca71e2",
@@ -286,21 +382,6 @@
    "ai_related": false
   },
   {
-   "id": "5072f0d6af00",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI is dramatically accelerating AI research",
-   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "published": "2026-11-06T20:27+00:00",
-   "published_jst": "2026-11-07 05:27",
-   "summary": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 308 # Comments: 260",
-   "ai_related": true,
-   "title_ja": "AIがAI研究を劇的に加速させる",
-   "summary_ja": "AI技術の活用により、AIに関する研究開発のスピードが飛躍的に向上していることを伝えている。"
-  },
-  {
    "id": "5d8836d4fb10",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -340,7 +421,7 @@
    "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
    "published": "2026-11-06T19:48+00:00",
    "published_jst": "2026-11-07 04:48",
-   "summary": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 483 # Comments: 110",
+   "summary": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 535 # Comments: 131",
    "ai_related": true,
    "title_ja": "Opusに協力するJev、4分の1の低コストで同等の精度を実現",
    "summary_ja": "Opusに支援を求めるシステムにより、低コストでありながらOpusと同等の高精度な処理が可能になる。"
@@ -370,7 +451,7 @@
    "url": "https://pwn.ai/blog/firecracker-escape",
    "published": "2026-11-06T19:33+00:00",
    "published_jst": "2026-11-07 04:33",
-   "summary": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 240 # Comments: 106",
+   "summary": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 265 # Comments: 114",
    "ai_related": true,
    "title_ja": "Firecracker VMの脱獄：PwnEscape パート2",
    "summary_ja": "仮想マシンモニターであるFirecrackerにおけるセキュリティ脆弱性と脱獄手法についての解説記事。"
@@ -786,21 +867,6 @@
    "summary_ja": "業界団体は交通資金について議会との協力を求めたが、雇用主と労働組合は対立を続けている。"
   },
   {
-   "id": "c5dfef44b1ba",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bond Check: Negotiation Tactics for Assessing Commercial Risk",
-   "url": "https://constructionexec.com/article/bond-check-negotiation-tactics-for-assessing-commercial-risk/?utm_source=rss&utm_medium=rss&utm_campaign=bond-check-negotiation-tactics-for-assessing-commercial-risk",
-   "published": "2026-11-06T14:12+00:00",
-   "published_jst": "2026-11-06 23:12",
-   "summary": "Not all bond forms offer contractors the same protections—and knowing where the language departs from industry standards can prevent costly surprises. The post Bond Check: Negotiation Tactics for Assessing Commercial Risk first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "商業リスク評価のための交渉戦術と保証確認",
-   "summary_ja": "すべての保証書が同じ保護を提供するわけではなく、業界標準との違いを知ることで予期せぬ損失を防げる。"
-  },
-  {
    "id": "ab4846bbc512",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -883,7 +949,7 @@
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
    "published": "2026-11-06T13:35+00:00",
    "published_jst": "2026-11-06 22:35",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 337 # Comments: 230",
+   "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 353 # Comments: 241",
    "ai_related": true,
    "title_ja": "Gemini Omni 1.2 Flashが登場",
    "summary_ja": "Googleの公式ブログやHacker Newsでの議論を紹介する開発者向けの最新情報記事です。"
@@ -1082,51 +1148,6 @@
    "summary_ja": "困難なインフレ環境の中、プレタックス利益が38.1%増加したと発表しました。"
   },
   {
-   "id": "44766e97c429",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Protesters break into Microsoft data center site in Amsterdam",
-   "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-   "published": "2026-11-06T11:55+00:00",
-   "published_jst": "2026-11-06 20:55",
-   "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people",
-   "ai_related": true,
-   "title_ja": "アムステルダムのMicrosoftデータセンター敷地にデモ隊が侵入",
-   "summary_ja": "今朝、アムステルダムのMicrosoftの新しいデータセンター建設地にデモ隊が侵入した。「Geef Tegengas」のメンバーらが抗議活動を組織した。"
-  },
-  {
-   "id": "ae9495936211",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation",
-   "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
-   "published": "2026-11-06T11:38+00:00",
-   "published_jst": "2026-11-06 20:38",
-   "summary": "Anthropic's IPO is in trouble as investors push back on the $1.5 trillion valuation and the tech market sells off. The article Anthropic's $1.5 trillion IPO hits resistance as investors balk at valuation appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "Anthropicの1.5兆ドル規模IPO、高評価への懸念で暗雲",
-   "summary_ja": "投資家が1.5兆ドルという評価額に難色を示し、ハイテク株が売り込まれる中、AnthropicのIPOが困難に直面している。"
-  },
-  {
-   "id": "358cd3352895",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic adds bank account access to Claude so users can track their spending",
-   "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending/",
-   "published": "2026-11-06T11:33+00:00",
-   "published_jst": "2026-11-06 20:33",
-   "summary": "Anthropic is introducing a new feature in Claude called Personal Finance, which allows users to connect their bank and card accounts and ask questions about their finances. The article Anthropic adds bank account access to Claude so users can track their spending appeared first on The Decoder .",
-   "ai_related": true,
-   "title_ja": "Claudeに銀行口座連携機能、支出管理が可能に",
-   "summary_ja": "Anthropicは「Personal Finance」という新機能を導入し、ユーザーが銀行やカードの口座を連携して支出に関する質問ができるようにした。"
-  },
-  {
    "id": "db98e2f8f6c4",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1138,21 +1159,6 @@
    "published_jst": "2026-11-06 20:00",
    "summary": "AIモデルの提供プラットフォームであるOpenRouterの調査によると、2026年9月末時点で、OpenRouter上の上位50モデルのトークンのうちオープンウェイトモデルが処理した割合は72％と、前年の27％から大幅に増加したとのこと。AIのオープンウェイトモデルとクローズドウェイトモデルの違いについて、OpenRouterが解説しています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "956ae262dd68",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "How Construction Companies Gain Competitive Advantage Through Inclusive Leadership",
-   "url": "https://constructionexec.com/article/how-construction-companies-gain-competitive-advantage-through-inclusive-leadership/?utm_source=rss&utm_medium=rss&utm_campaign=how-construction-companies-gain-competitive-advantage-through-inclusive-leadership",
-   "published": "2026-11-06T11:00+00:00",
-   "published_jst": "2026-11-06 20:00",
-   "summary": "Inclusive leadership fosters an environment of thriving, diverse teams, with innovation and agility six times more likely among inclusive organizations. The post How Construction Companies Gain Competitive Advantage Through Inclusive Leadership first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設会社がインクルーシブリーダーシップで競争力を得る方法",
-   "summary_ja": "多様なチームの成長を促し、インクルーシブな組織ではイノベーションと機敏性が高まる。"
   },
   {
    "id": "197c49d549b7",
@@ -1314,7 +1320,7 @@
   {
    "id": "c37666b18aa5",
    "source": "ITmedia",
-   "source_id": "gnews_sekisan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "AIで足場計画から仮設資材積算まで自動化、27年春市場投入へ アルインコとKKG：AI",
@@ -1699,30 +1705,30 @@
    "ai_related": true
   },
   {
-   "id": "2ced759da256",
-   "source": "共同通信PRワイヤー",
+   "id": "16499a9a18bb",
+   "source": "毎日新聞",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "生成AI活用により建設現場の業務効率化を加速",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZYjlfY0phQWdmYU0zbzhuMVd4R0laTWtxNXQ5bTFZVFowbFo5d0k0b2xoaEpNMTRjX0ZLLXVlN253bWNCV09SV1pRQUlIRTBuVVpuazhpQmFDbkE?oc=5",
+   "title": "プレスリリース：生成AI活用により建設現場の業務効率化を加速（共同通信PRワイヤー）",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fWDZsOENhQVkwX2d2SWhGcmRuSDVPY1l1OE10M09wX0d6MmVXRkRHaW9DcnkxV3Z4dmwwalBuYXJremhpdlJpYzJsNjBSMmR4ZjFEY0lCOGlSZ1ZKajBRUTh1QWtCaEI0?oc=5",
    "published": "2026-11-06T02:00+00:00",
    "published_jst": "2026-11-06 11:00",
    "summary": "",
    "ai_related": true
   },
   {
-   "id": "debce351b6aa",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
+   "id": "597e12f0a1d9",
+   "source": "秋田魁新報電子版",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "米オープンAIがデータセンターで指針 電力・インフラ費用は自社負担（時事通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iVERfbGNBeG02UUxtSUY3QTRQV3FsUzB3YjVDUEJGbDJLdG9jSGZpRFVIaXVZVG5Ick9DNnd5QlFVR3pYT3VEaHRsdjhzSGdMM3NoSnBTME1GYWJQREtVUFVFRVVBZVkwM2hfbG5HTDNhOVU3WnhaTzZDQ2ZTc1U?oc=5",
-   "published": "2026-11-06T01:45+00:00",
-   "published_jst": "2026-11-06 10:45",
+   "title": "生成AI活用により建設現場の業務効率化を加速",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVbjBuQjlpR25XNzRwTVhJQlNzZHRmR0dPOXd5M0d3cy10VGN0MEpPRUREMmhVRFJ2aHpNZmJGVHNjQmN4ZGhxZGhNcDNKd2pxeW8xY2ZVRW5SNXY1cm02dkR3?oc=5",
+   "published": "2026-11-06T02:00+00:00",
+   "published_jst": "2026-11-06 11:00",
    "summary": "",
-   "ai_related": false
+   "ai_related": true
   },
   {
    "id": "5224c8e51025",
@@ -1814,21 +1820,6 @@
    "published_jst": "2026-11-06 10:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "85f398082dad",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI is stepping back from NDAs for data center projects",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-   "published": "2026-11-06T00:37+00:00",
-   "published_jst": "2026-11-06 09:37",
-   "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data ",
-   "ai_related": true,
-   "title_ja": "OpenAI、データセンター事業で秘密保持契約の見直しへ",
-   "summary_ja": "データセンター拡大に反対する声が高まる中、OpenAIは建設予定の地域社会に対する新たな公約を発表した。"
   },
   {
    "id": "1b8c172b2829",
@@ -1937,15 +1928,15 @@
    "ai_related": true
   },
   {
-   "id": "a9bd14b749a2",
-   "source": "Yahoo!ニュース",
+   "id": "503136d78fe7",
+   "source": "産経ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "米住民投票でデータセンター建設に反対相次ぐ 規制派民主知事も続々当選、推進に逆風も（産経新聞）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81VkpWM0ZoakVBN2p2M3pLcUJPc09MT1Y3LS1acjFLUDVVWUdXbDdLb09LcWE1ZE5VUXpBaWp5RmpMSF9kd25kemtTS1BrRHp2azZobjRid3dlTm1fTXZYU0VhaENLeFBIUjBZTlY0clhSQ1ZuaUF2SUg2S0U1ZXc?oc=5",
-   "published": "2026-11-05T23:30+00:00",
-   "published_jst": "2026-11-06 08:30",
+   "title": "米住民投票でデータセンター建設に反対相次ぐ 規制派民主知事も続々当選、推進に逆風も",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORF9ib0VJaU9fMmtCYThxYVZKak9UR2VTUXBGWVlNc1Nsbk5rd1dxaTNLOEt2SC02aUt3TkoxUldXMkN5X3V6TmtrVjlFSjhIcG94S195d3Z1M1VKbW5nbGE4VWNxWVVmcVpGejJFNUczMjExd01Vd0QyM0FUZ2FIdUFHSXp3dENIbzQ3dQ?oc=5",
+   "published": "2026-11-05T23:22+00:00",
+   "published_jst": "2026-11-06 08:22",
    "summary": "",
    "ai_related": false
   },
@@ -1978,19 +1969,6 @@
    "summary_ja": "旅行の計画や比較、予約管理、滞在中のサポートをAIエージェントが支援する。"
   },
   {
-   "id": "3b58ffb304e7",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Claude Code sends your email address to websites",
-   "url": "https://github.com/anthropics/claude-code/issues/107757",
-   "published": "2026-11-05T22:17+00:00",
-   "published_jst": "2026-11-06 07:17",
-   "summary": "Article URL: https://github.com/anthropics/claude-code/issues/107757 Comments URL: https://news.ycombinator.com/item?id=50385272 Points: 1571 # Comments: 504",
-   "ai_related": true
-  },
-  {
    "id": "816085af55ef",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2014,6 +1992,19 @@
    "published": "2026-11-05T22:00+00:00",
    "published_jst": "2026-11-06 07:00",
    "summary": "SaaSの増加に伴い、台帳の突合や手動管理に追われる情シスは多い。クラシルはSaaS管理台帳を「zooba」へ集約し、ツール費用を24％削減した。しかし同社の真の目的はコスト削減ではなかった。クラシルの情シスが考える、AI時代のIT資産管理戦略とは。",
+   "ai_related": true
+  },
+  {
+   "id": "23ced21e6251",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設DX、注目政策一気見せ",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSVZmTG5vbWM1NXctd3JfZkN4Wk5ucmR6TVNkOTRTbEFSb2ZXNVFmQVEyZmRscWV6UGhwbXJJUk13SHNvNWJUUDlscUhpaXdvdmUzV3B2eWJOWkh3NWNOMzdvS1dNSWxpRmdBS01Vd01NblFqdDFPT0VreThOY3NTSnRCc3NaRUxfbzUtZ0lZRWVhQWdYdGRfZzc1YU1CZFBDek5QWGZnUkdyR3BOTDFRMkJyRFc?oc=5",
+   "published": "2026-11-05T21:51+00:00",
+   "published_jst": "2026-11-06 06:51",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -2114,6 +2105,19 @@
    "ai_related": true
   },
   {
+   "id": "5da87449d088",
+   "source": "日刊建設工業新聞",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "東北大、大林組／タフ・フィジカルＡＩを共同研究／施工現場の自律化・自動化へ",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBWYXJRTk5UaFNoUFFzWWJYNG5tbjgwUEdldjV6MVEwbVpYTDhubGxUMkc4dndxc2pVcEcyN0ZaNVZtQXhJTFdv?oc=5",
+   "published": "2026-11-05T21:02+00:00",
+   "published_jst": "2026-11-06 06:02",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "6ff3ee8efed8",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -2153,21 +2157,6 @@
    "ai_related": false,
    "title_ja": "Skanska、2四半期連続で過去最高の受注を記録",
    "summary_ja": "米国のデータセンター建設が好調で、同社は米国でのインフラ事業の拡大を目指している。"
-  },
-  {
-   "id": "24d6171445e4",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
-   "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
-   "published": "2026-11-05T20:36+00:00",
-   "published_jst": "2026-11-06 05:36",
-   "summary": "With GPT-6 Cyber, OpenAI is introducing an AI model built to find security vulnerabilities in software, develop exploits, and suggest patches. According to OpenAI, it has already found 81 previously unknown vulnerabilities in Firefox and developed 948 working exploits in the Linux kernel, significan",
-   "ai_related": true,
-   "title_ja": "OpenAIのGPT-6 Cyber、脆弱性の発見と修正を提案",
-   "summary_ja": "ソフトウェアの脆弱性を見つけてエクスプロイトを開発し、パッチを提案するAIモデルを発表した。"
   },
   {
    "id": "3e47b3d202ee",
@@ -2295,6 +2284,19 @@
    "summary_ja": "大規模なインフラ計画への住民の反発が強まり、政治的な反対が将来の投資を脅かす恐れがある。"
   },
   {
+   "id": "845a5b1effb7",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ロボットとAIで考える建設の未来 ― 荒木組、遠隔操作技術とフィジカルAIの可能性を紹介",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nTVNzaVlhVS1QdnkwaHBsY09UYjNVT3JUdHVNMVh0VG11UWpaOEhqSHJ6dC1ldFZqRUJGcVFuaE9YNUp4SW9jaVFEdDNweE5vbW9CUkRIQy1OZFg3bVMwXzV2OTFqZW1faEk5QjRlMTJpQQ?oc=5",
+   "published": "2026-11-05T19:10+00:00",
+   "published_jst": "2026-11-06 04:10",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "8f7798ef97e4",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2341,7 +2343,7 @@
   },
   {
    "id": "69013e2bb0f9",
-   "source": "千葉テレビ放送株式会社",
+   "source": "千葉テレビ放送",
    "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
@@ -2454,240 +2456,6 @@
    "ai_related": true,
    "title_ja": "サント・アントニオ小学校の改修・近代化計画",
    "summary_ja": "1950年代初頭に建てられた歴史ある小学校の改修プロジェクト。アルヴァラデ地区の都市計画モデルの一部として、当時の建築を活かしつつ現代化を図る。"
-  },
-  {
-   "id": "c2788911aa71",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Axiom Math wants to keep AI slop out of mathematics",
-   "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
-   "published": "2026-11-05T16:16+00:00",
-   "published_jst": "2026-11-06 01:16",
-   "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
-   "ai_related": true,
-   "title_ja": "Axiom Math、数学界からAIの粗製乱造を排除へ",
-   "summary_ja": "AIによる不確実な証明が氾濫する中、Axiom Mathは検証技術に注力。同社のAIが「Stacks Project」の形式検証に成功しました。"
-  },
-  {
-   "id": "9b11b10a55dd",
-   "source": "NVIDIA Blog",
-   "source_id": "nvidia",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-   "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-   "published": "2026-11-05T16:00+00:00",
-   "published_jst": "2026-11-06 01:00",
-   "summary": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language model",
-   "ai_related": true,
-   "title_ja": "オープンモデルでAIを身近にするクリス・アレクシアック",
-   "summary_ja": "オープンソースAIの可能性を信じるなら、その価値を大声で発信し続けるべきだとトロントの研究エンジニアは語ります。"
-  },
-  {
-   "id": "abce147212c4",
-   "source": "NVIDIA Blog",
-   "source_id": "nvidia",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-   "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-   "published": "2026-11-05T16:00+00:00",
-   "published_jst": "2026-11-06 01:00",
-   "summary": "Larger models, longer contexts and agentic applications are increasing GPU memory pressure while supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to adopt ",
-   "ai_related": true,
-   "title_ja": "フルスタック・コードデザインがAIのメモリ課題を解決",
-   "summary_ja": "モデルの大規模化やコンテキストの長期化に伴うGPUメモリの圧迫に対し、NVIDIAがメモリパートナーと協力して取り組む課題解決策。"
-  },
-  {
-   "id": "2803a55164f7",
-   "source": "remio",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "オハイオ州のデータセンター禁止措置、AI建設拡大の行方を地域有権者に委ねる",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUHJSLTVjNjVubzJZbkRodjR6T29JX1F3VS1Xb1B6alJnUUxNVEZ0UmFxZDVZX2JpQV9jdWRVTDZoRG5icUNMaTlSOFZMS29RM3ZTcTBDeHhxREdIcF9fNUEzYWNYU3pfQ0RiTjJUcmxnTGxGdndEY0VLbmxhc0EteWo1OFBhSDNPUTVudEJsZ3hCSXAzWXJ1cG9wUQ?oc=5",
-   "published": "2026-11-05T15:41+00:00",
-   "published_jst": "2026-11-06 00:41",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "6dad7a604d39",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-   "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-   "published": "2026-11-05T15:19+00:00",
-   "published_jst": "2026-11-06 00:19",
-   "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-   "ai_related": true,
-   "title_ja": "Dropbox、AIインフラ強化のためTigris Dataを3億5000万ドルで買収",
-   "summary_ja": "この買収により、AI開発者向けの新しいストレージプラットフォーム「DBX Agent Cloud」の開発が支援される見込みです。"
-  },
-  {
-   "id": "44a5c8366103",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Midterms cloud outlook for data center construction, transportation bill",
-   "url": "https://www.constructiondive.com/news/midterms-data-center-construction-transportation-bill/873844/",
-   "published": "2026-11-05T15:12+00:00",
-   "published_jst": "2026-11-06 00:12",
-   "summary": "The widespread Democrat victory increases the likelihood of policy changes around data center construction and a longer wait for surface transportation reauthorization.",
-   "ai_related": false,
-   "title_ja": "中間選挙によりデータセンター建設や交通法案の見通しが不透明に",
-   "summary_ja": "民主党の勝利により、データセンター建設に関する政策変更や交通関連法案の再承認の遅れが懸念されています。"
-  },
-  {
-   "id": "027218d7104e",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "DOL announces applications open for apprentice payment program",
-   "url": "https://www.constructiondive.com/news/dol-announces-applications-open-for-apprentice-payment-program/873853/",
-   "published": "2026-11-05T15:07+00:00",
-   "published_jst": "2026-11-06 00:07",
-   "summary": "Relevant apprenticeship programs span the gamut from information technology to shipbuilding and defense to semiconductor production.",
-   "ai_related": false,
-   "title_ja": "米労働省、見習い支援プログラムの申請受付開始を発表",
-   "summary_ja": "ITから造船、防衛、半導体製造に至るまで、幅広い分野の見習いプログラムが対象となります。"
-  },
-  {
-   "id": "0f2052ea73f7",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
-   "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
-   "published": "2026-11-05T14:42+00:00",
-   "published_jst": "2026-11-05 23:42",
-   "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-   "ai_related": true,
-   "title_ja": "画面・ジョイスティック・マイク搭載、AIと対話できるAinaのスマートリング",
-   "summary_ja": "AIエージェントとの対話に加え、通話への応答やMacでの音声メモの作成もサポートするAinaのスマートリング。"
-  },
-  {
-   "id": "d050786c603e",
-   "source": "NVIDIA Blog",
-   "source_id": "nvidia",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
-   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
-   "published": "2026-11-05T14:00+00:00",
-   "published_jst": "2026-11-05 23:00",
-   "summary": "Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering today, bringing lifelike lighting and materials to the wizarding world on GeForce NOW. Blizzard Entertainment’s World of Warcraft: Forever also opens a new chapter in Azeroth, with a launch-week access reward available",
-   "ai_related": true,
-   "title_ja": "「ホグワーツ・レガシー」がDLSS 5に対応",
-   "summary_ja": "GeForce NOW版ホグワーツ・レガシーがNVIDIA DLSS 5にアップグレードされ、美しい照明効果を実現。"
-  },
-  {
-   "id": "e90772006b65",
-   "source": "日経クロステック",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設DX、注目政策一気見せ",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdVZtR2t4Rm9tWk8yVThxOTNaSTFqZmg4bzNXMFplbnBiLU9Dd1lza0xSSzZhR1FSQklOOHhLQlpLMGVwYzZ3SnMtZ3gtUG1CY3N2aElVVnNxSHctZFpWQU5HcnNCZWM0Z0NCeUFPdzdSOE1WRmRQdTZzdnlOTEhtM2FxUWpIbjR6ZS1tdlVOQmNmb29VZGdPYVBpdEdDSE9FUnNERDRRdHZuZTExeFlwbi1DS2NzZTNXX2dSVloyeXpPSmxfM19ZeFlUQTJPQnZlbTVoTTREYw?oc=5",
-   "published": "2026-11-05T12:51+00:00",
-   "published_jst": "2026-11-05 21:51",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "9667b1cf134b",
-   "source": "Global Construction Review",
-   "source_id": "gcr",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Milestone reached as CIOB qualifications recognised across China",
-   "url": "https://www.globalconstructionreview.com/milestone-reached-as-ciob-qualifications-recognised-across-china/",
-   "published": "2026-11-05T12:13+00:00",
-   "published_jst": "2026-11-05 21:13",
-   "summary": "The Chartered Institute of Building (CIOB) is strengthening its presence in China following formal recognition as a Non-Governmental Organisation (NGO), alongside growing recognition of its professional qualifications across mainland China. The post Milestone reached as CIOB qualifications recognise",
-   "ai_related": false,
-   "title_ja": "CIOBの資格が中国全土で正式に認定",
-   "summary_ja": "英国建設協会（CIOB）がNGOとして正式に登録され、中国での専門資格の認知度がさらに高まっている。"
-  },
-  {
-   "id": "f050bc895e36",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
-   "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-   "published": "2026-11-05T12:00+00:00",
-   "published_jst": "2026-11-05 21:00",
-   "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
-   "ai_related": true,
-   "title_ja": "Agilityのナスダック上場でロボット市場に注目",
-   "summary_ja": "人型ロボットを展開する米国のリーダー企業が、ナスダック証券取引所への上場を果たした。"
-  },
-  {
-   "id": "9dfbaa4b8670",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Housing main drag on industry again in October",
-   "url": "https://www.constructionenquirer.com/2026/11/05/housing-main-drag-on-industry-again-in-october/",
-   "published": "2026-11-05T11:40+00:00",
-   "published_jst": "2026-11-05 20:40",
-   "summary": "Workloads down and materials prices up",
-   "ai_related": false,
-   "title_ja": "10月も住宅建設が業界の主要な足かせに",
-   "summary_ja": "作業量が減少する一方で資材価格の高騰が続いており、住宅部門が引き続き建設業界全体の足かせとなっている。"
-  },
-  {
-   "id": "37c84ec293d1",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sizewell C backs drive to ditch diesel and cut carbon",
-   "url": "https://www.constructionenquirer.com/2026/11/05/sizewell-c-signs-up-to-diesel-phase-out-and-low-carbon-contracts/",
-   "published": "2026-11-05T11:04+00:00",
-   "published_jst": "2026-11-05 20:04",
-   "summary": "Contractors face carbon push on plant, concrete and steel as nuclear client signs industry pledge",
-   "ai_related": false,
-   "title_ja": "Sizewell C、ディーゼル廃止と脱炭素を推進",
-   "summary_ja": "原子力発電所の発注者が業界の誓約に署名し、プラント建設に関わる請負業者に対してコンクリートや鉄鋼分野での脱炭素化を強く求めている。"
-  },
-  {
-   "id": "4ed4df9a9e0d",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Five Construction Safety Trends That Will Define the Jobsite in 2027",
-   "url": "https://constructionexec.com/article/five-construction-safety-trends-that-will-define-the-jobsite-in-2027/?utm_source=rss&utm_medium=rss&utm_campaign=five-construction-safety-trends-that-will-define-the-jobsite-in-2027",
-   "published": "2026-11-05T11:00+00:00",
-   "published_jst": "2026-11-05 20:00",
-   "summary": "The defining safety trend of 2027 will be adaptability. As walls go up, crews rotate, access points change and projects enter new phases, safety infrastructure must evolve with them. The post Five Construction Safety Trends That Will Define the Jobsite in 2027 first appeared on Construction Executiv",
-   "ai_related": false,
-   "title_ja": "2027年の現場を定義する5つの建設安全トレンド",
-   "summary_ja": "2027年の最大の安全トレンドは適応性であり、プロジェクトの進行に合わせて安全インフラも進化する必要がある。"
-  },
-  {
-   "id": "7558bf37c5f8",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大手テック株が上昇、有権者がAIデータセンター建設にブレーキ",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE05bmNZMWQ0a0U3Rm5MdWRLT2J6M0kzQzVvU3FTVWNhSDFVdk1LLXQxWWo2ejhScEp1SUxWUDNIRE9EQWJlR2VYbHYwaTNDVlh4QzhTWEFvYlRPbFRfZ0lSbFZQc2FNMkZqVVU0dWVDclc2dEZu?oc=5",
-   "published": "2026-11-05T10:55+00:00",
-   "published_jst": "2026-11-05 19:55",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
