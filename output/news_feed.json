@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-08T00:40+00:00",
- "generated_at_jst": "2026-11-08 09:40",
+ "generated_at": "2026-11-08T01:25+00:00",
+ "generated_at_jst": "2026-11-08 10:25",
  "window_hours": 48,
  "counts": {
-  "ai_global": 43,
-  "construction_japan": 39,
+  "ai_global": 44,
+  "construction_japan": 32,
   "ai_japan": 25,
-  "construction_global": 28
+  "construction_global": 21
  },
  "errors": [
   {
@@ -14,7 +14,7 @@
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "constructionexec",
+   "feed": "constructionnews_uk",
    "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
@@ -30,7 +30,9 @@
    "published": "2026-11-07T23:57+00:00",
    "published_jst": "2026-11-08 08:57",
    "summary": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pag",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Datasette: Firefoxへのrel=next配信を停止",
+   "summary_ja": "DatasetteのテーブルページへのリクエストがFirefoxでHTTPプリフェッチを誘発していることがネットワークパネルで判明した。"
   },
   {
    "id": "f3ead457d260",
@@ -69,7 +71,9 @@
    "published": "2026-11-07T22:07+00:00",
    "published_jst": "2026-11-08 07:07",
    "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "中間選挙後、イーロン・マスクとデータセンターの先行きが不安視",
+   "summary_ja": "ポッドキャスト「Equity」で、中間選挙がテック業界に意味するものについて詳しく解説した。"
   },
   {
    "id": "69c75581d56f",
@@ -87,6 +91,21 @@
    "summary_ja": "米情報機関のメモによると、中国国家安全省がNvidiaのCEOをスパイするため、女性技術幹部をリクルートしたという。"
   },
   {
+   "id": "5186d80b7eef",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "published": "2026-11-07T20:45+00:00",
+   "published_jst": "2026-11-08 05:45",
+   "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 162 # Comments: 111",
+   "ai_related": true,
+   "title_ja": "Claude Codeの機能によりGitHubの公開ファイルにパスワードが露出",
+   "summary_ja": "コーディングエージェントの機密情報漏洩に関するApiiroのブログ記事と、Hacker Newsでの議論を紹介。"
+  },
+  {
    "id": "1eeaf5457cb1",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -96,7 +115,7 @@
    "url": "https://hunch.net/?p=13764006",
    "published": "2026-11-07T18:02+00:00",
    "published_jst": "2026-11-08 03:02",
-   "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 340 # Comments: 196",
+   "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 368 # Comments: 211",
    "ai_related": true,
    "title_ja": "マイクロソフト研究所のAIフロンティアーズ部門が終焉",
    "summary_ja": "アーカイブ記事やHacker Newsの議論へのリンクが掲載されており、ポイントやコメント数が記録されています。"
@@ -139,8 +158,10 @@
    "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
    "published": "2026-11-07T17:19+00:00",
    "published_jst": "2026-11-08 02:19",
-   "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 179 # Comments: 55",
-   "ai_related": true
+   "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 190 # Comments: 56",
+   "ai_related": true,
+   "title_ja": "MaxxBench：「素晴らしいDeepSWEスコアだが、それは本当か？」",
+   "summary_ja": "MaxxBenchの研究ブログ記事について、Hacker Newsで多くのポイントとコメントが寄せられている。"
   },
   {
    "id": "bc48d8fe5dac",
@@ -315,7 +336,7 @@
    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
    "published": "2026-11-07T09:46+00:00",
    "published_jst": "2026-11-07 18:46",
-   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 579 # Comments: 332",
+   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 590 # Comments: 343",
    "ai_related": true,
    "title_ja": "すべてのMacに未公開の家族分類機能が搭載",
    "summary_ja": "Apple Intelligenceのパーソナル知識グラフに関する記事およびHacker Newsにおけるユーザーのコメントや議論の紹介。"
@@ -474,6 +495,21 @@
    "ai_related": false
   },
   {
+   "id": "7f20f31d027a",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Nonresidential Construction Adds 13,300 Jobs in October",
+   "url": "https://constructionexec.com/article/nonresidential-construction-adds-13300-jobs-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=nonresidential-construction-adds-13300-jobs-in-october",
+   "published": "2026-11-06T22:07+00:00",
+   "published_jst": "2026-11-07 07:07",
+   "summary": "For the first time since February, the construction industry recorded a loss in the jobs market in October. The post Nonresidential Construction Adds 13,300 Jobs in October first appeared on Construction Executive .",
+   "ai_related": false,
+   "title_ja": "非住宅建設業、10月に1万3300人の雇用を創出",
+   "summary_ja": "2月以来初めて、建設業界全体としては10月の雇用市場で減少を記録したことを伝えるニュース。"
+  },
+  {
    "id": "3b6894ca71e2",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -563,19 +599,6 @@
    "published_jst": "2026-11-07 05:55",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "02dccd6e9d11",
-   "source": "ニッキンONLINE",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "粟井機鋼／配管施工のBIM活用支援／樹脂管施工管理の独自アプリ開発も／商社の知見生かしプラットフォーム開発協力",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qSE5scjFSXzhYQmNYb19tWjNNZVFZcEZ3WEhfM0ExZWZjWkIxaEZvdS1oNngxel9hdUpNVDVNdUgtV2w2dVo5SS10TFpFMDRnaXIyOVB3?oc=5",
-   "published": "2026-11-06T20:10+00:00",
-   "published_jst": "2026-11-07 05:10",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "5d8836d4fb10",
@@ -1003,6 +1026,21 @@
    "summary_ja": "業界団体は交通資金について議会との協力を求めたが、雇用主と労働組合は対立を続けている。"
   },
   {
+   "id": "c5dfef44b1ba",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Bond Check: Negotiation Tactics for Assessing Commercial Risk",
+   "url": "https://constructionexec.com/article/bond-check-negotiation-tactics-for-assessing-commercial-risk/?utm_source=rss&utm_medium=rss&utm_campaign=bond-check-negotiation-tactics-for-assessing-commercial-risk",
+   "published": "2026-11-06T14:12+00:00",
+   "published_jst": "2026-11-06 23:12",
+   "summary": "Not all bond forms offer contractors the same protections—and knowing where the language departs from industry standards can prevent costly surprises. The post Bond Check: Negotiation Tactics for Assessing Commercial Risk first appeared on Construction Executive .",
+   "ai_related": false,
+   "title_ja": "ボンド点検：商業リスク評価のための交渉戦術",
+   "summary_ja": "契約者への保護は保証書によって異なり、標準からの逸脱を知ることで思わぬ損失を防ぐことができる。"
+  },
+  {
    "id": "ab4846bbc512",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1089,111 +1127,6 @@
    "summary_ja": "オンライン商品マーケティング用の技術を用いて、シミュレーションと現実のギャップを解消します。"
   },
   {
-   "id": "6c48e28b760f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New council building control charges will ‘put up construction costs’",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/new-council-building-control-charges-will-put-up-construction-costs-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Building control professionals have warned that construction costs will rise or registered building control approvers (RBCAs) could face financial ruin as new council charges are introduced. From today (6 November), local authority building control teams can charge full cost-recovery fees for activi",
-   "ai_related": false,
-   "title_ja": "新たな自治体手数料が建設コストを押し上げか",
-   "summary_ja": "新制度の導入により、建設費用の高騰や承認機関の経営破綻が懸念されています。"
-  },
-  {
-   "id": "8e2abff5bdd7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wates confirmed as Ardmore replacement on Hackney job",
-   "url": "https://www.constructionnews.co.uk/contractors/wates/wates-confirmed-as-ardmore-replacement-on-hackney-job-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Hackney Council has formally appointed Wates to a £25m contract to complete a housing scheme left stalled following the collapse of Ardmore Construction Group Ltd. The east London local authority approved the selection of Wates for phase 2b of the Britannia Project on 2 November… The post Wates conf",
-   "ai_related": false,
-   "title_ja": "ハックニーの住宅事業でWatesが後継に決定",
-   "summary_ja": "破綻した建設会社の未完成案件を引き継ぐため、Watesが2,500万ポンドの契約で正式に任命されました。"
-  },
-  {
-   "id": "3a289454b9c6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Six developers yet to remediate most buildings with serious fire safety issues",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/six-developers-yet-to-remediate-most-buildings-with-serious-fire-safety-issues-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Six developers who signed the government's remediation contract have started or completed works on fewer than 30 per cent of the buildings they are responsible for fixing, government data shows. Construction News analysis of the latest Ministry of Housing, Communities and Local Government (MHCLG) de",
-   "ai_related": false,
-   "title_ja": "防火安全に深刻な問題、6社の改善が進まず",
-   "summary_ja": "政府の契約に署名した6社のデベロッパーが、対象建物の3割未満しか改修を進めていないことが判明しました。"
-  },
-  {
-   "id": "771f8fc4a1fa",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier tops public sector supplier chart",
-   "url": "https://www.constructionnews.co.uk/government/kier-tops-public-sector-supplier-chart-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Kier was the top supplier to the public sector in the last financial year, an analysis has found. The contractor received £3.1bn in direct revenue in 2025/26, more than any other company from any industry. Balfour Beatty was in second place with £2.5bn, while Bouygues… The post Kier tops public sect",
-   "ai_related": false,
-   "title_ja": "キアーが公共部門のサプライヤー首位に",
-   "summary_ja": "前年度の公共部門への供給額が最大の企業となり、直接売上高は31億ポンドに達しました。"
-  },
-  {
-   "id": "b639b70f65e2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Galliford Try bypass job faces six-month delay and cost hike over utility diversions",
-   "url": "https://www.constructionnews.co.uk/civils/galliford-try-bypass-job-faces-six-month-delay-and-cost-hike-over-utility-diversions-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "A long-awaited bypass has been hit by further delays and spiralling costs due to water mains diversions. Galliford Try was awarded the contract for the Banwell Bypass in 2024, six months after original contractor Alun Griffiths walked out unexpectedly while enabling works were already underway.… The",
-   "ai_related": false,
-   "title_ja": "バイパス工事が埋設管移設で遅延とコスト増",
-   "summary_ja": "水道管の移設工事に伴い、長年待たれていたバイパス事業がさらなる遅延と費用増に見舞われています。"
-  },
-  {
-   "id": "a74d103ad45a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Luton Town stadium faces delay and escalating costs",
-   "url": "https://www.constructionnews.co.uk/buildings/luton-town-stadium-faces-delay-and-escalating-costs-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Construction of a 25,000-seat stadium for Luton Town has soared by £15m and is running a month behind schedule. Bosses from the League One football club revealed the time and cost slippages on the Power Court Stadium project when they met with fans last month.… The post Luton Town stadium faces dela",
-   "ai_related": false,
-   "title_ja": "ルートン・タウンの新スタジアムが遅延と増額",
-   "summary_ja": "新スタジアムの建設費が1,500万ポンド増加し、工期も1ヶ月遅れていることが明らかになりました。"
-  },
-  {
-   "id": "3be8ceeb03a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "A subdued Budget could be just what construction needs",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/a-subdued-budget-could-be-just-what-construction-needs-06-11-2026/",
-   "published": "2026-11-06T12:14+00:00",
-   "published_jst": "2026-11-06 21:14",
-   "summary": "Jonathan Seddon is the chief executive at the Bolton-based contractor Seddon For once, a quiet Budget might be exactly what the industry needed. After years of rising costs, legislative changes and political uncertainty, construction businesses have been calling for stability. While the Chancellor's",
-   "ai_related": false,
-   "title_ja": "控えめな予算案こそが建設業界に必要なもの",
-   "summary_ja": "コスト上昇や政治的不確実性が続く中、落ち着いた予算案こそが業界が求めていたものかもしれません。"
-  },
-  {
    "id": "f388a657298f",
    "source": "AEC Magazine",
    "source_id": "aecmag",
@@ -1209,21 +1142,6 @@
    "summary_ja": "製品内でのAIガイダンスやMCPサポート、3Dアセット生成などの機能が追加されました。"
   },
   {
-   "id": "8b6cb96c7ef5",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Welsh M&E specialist weathers ‘challenging’ inflation",
-   "url": "https://www.constructionnews.co.uk/financial/welsh-me-specialist-weathers-challenging-inflation-06-11-2026/",
-   "published": "2026-11-06T12:06+00:00",
-   "published_jst": "2026-11-06 21:06",
-   "summary": "Borley Engineering Services has reported a 38.1 per cent rise in pre-tax despite what its directors described as a “challenging inflationary environment”. The Cardiff-based M&E specialist, trading as CMB Engineering, posted a pre-tax profit of £4m for the year to 31 March 2026, up from… The post Wel",
-   "ai_related": false,
-   "title_ja": "ウェールズのM&E専門企業がインフレを克服",
-   "summary_ja": "困難なインフレ環境の中、プレタックス利益が38.1%増加したと発表しました。"
-  },
-  {
    "id": "db98e2f8f6c4",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1235,6 +1153,21 @@
    "published_jst": "2026-11-06 20:00",
    "summary": "AIモデルの提供プラットフォームであるOpenRouterの調査によると、2026年9月末時点で、OpenRouter上の上位50モデルのトークンのうちオープンウェイトモデルが処理した割合は72％と、前年の27％から大幅に増加したとのこと。AIのオープンウェイトモデルとクローズドウェイトモデルの違いについて、OpenRouterが解説しています。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "956ae262dd68",
+   "source": "Construction Executive",
+   "source_id": "constructionexec",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "How Construction Companies Gain Competitive Advantage Through Inclusive Leadership",
+   "url": "https://constructionexec.com/article/how-construction-companies-gain-competitive-advantage-through-inclusive-leadership/?utm_source=rss&utm_medium=rss&utm_campaign=how-construction-companies-gain-competitive-advantage-through-inclusive-leadership",
+   "published": "2026-11-06T11:00+00:00",
+   "published_jst": "2026-11-06 20:00",
+   "summary": "Inclusive leadership fosters an environment of thriving, diverse teams, with innovation and agility six times more likely among inclusive organizations. The post How Construction Companies Gain Competitive Advantage Through Inclusive Leadership first appeared on Construction Executive .",
+   "ai_related": false,
+   "title_ja": "インクルーシブ・リーダーシップで競争優位性を築く方法",
+   "summary_ja": "多様なチームを育成することで、イノベーションやアジリティの向上が期待できるという組織運営の解説。"
   },
   {
    "id": "197c49d549b7",
@@ -1306,21 +1239,6 @@
    "summary_ja": "普段は家事代行を利用しない筆者だが、新しい人型ロボットの投稿を目にし、実際に自宅を掃除してもらったところ、未来の到来を感じた。"
   },
   {
-   "id": "143455dfc046",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fusion21 launches £1bn construction framework",
-   "url": "https://www.constructionnews.co.uk/contracts/fusion21-launches-1bn-construction-framework-06-11-2026/",
-   "published": "2026-11-06T09:45+00:00",
-   "published_jst": "2026-11-06 18:45",
-   "summary": "Procurement firm Fusion21 has invited contractors to bid for places on a £1bn, four-year framework covering construction and refurbishment projects across the UK. The procurement is divided into two lots, each with an estimated value of £500m, covering housing and non-domestic buildings. Contractors",
-   "ai_related": false,
-   "title_ja": "Fusion21、10億ポンドの建設枠組みを発足",
-   "summary_ja": "調達企業Fusion21は、英国全土の建設・改修プロジェクトを対象とする4年間・10億ポンドの枠組みへの参加を請負業者に呼びかけている。"
-  },
-  {
    "id": "9f06be9b0a37",
    "source": "PBC Today (UK)",
    "source_id": "pbctoday",
@@ -1334,21 +1252,6 @@
    "ai_related": true,
    "title_ja": "リアリティキャプチャの価値は回答できる調査次第",
    "summary_ja": "測量管理やBIM許容差から隠れた表面、再測量まで、建設プロジェクトにおいてリアリティキャプチャが何を明らかにできるかを理解する。"
-  },
-  {
-   "id": "d4c307e043eb",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Van Elle shuts Thurrock depot as piling losses mount",
-   "url": "https://www.constructionnews.co.uk/financial/van-elle-shuts-thurrock-depot-as-piling-losses-mount-06-11-2026/",
-   "published": "2026-11-06T09:32+00:00",
-   "published_jst": "2026-11-06 18:32",
-   "summary": "Piling specialist Van Elle has closed its Thurrock depot as it cut costs in its London operation amid delays to residential projects under the Building Safety Act. The contractor said the restructure of its London-based Rock & Alluvium operation was intended \"to reduce cost and… The post Van Elle sh",
-   "ai_related": false,
-   "title_ja": "Van Elle、杭打ち事業の損失拡大でサロック営業所を閉鎖",
-   "summary_ja": "杭打ち専門企業のVan Elleは、建築安全法に伴う住宅プロジェクトの遅延を受け、ロンドン事業のコスト削減のためサロック営業所を閉鎖した。"
   },
   {
    "id": "c108e6caed00",
@@ -1794,17 +1697,17 @@
    "ai_related": true
   },
   {
-   "id": "debce351b6aa",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
+   "id": "16499a9a18bb",
+   "source": "毎日新聞",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "米オープンAIがデータセンターで指針 電力・インフラ費用は自社負担（時事通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iVERfbGNBeG02UUxtSUY3QTRQV3FsUzB3YjVDUEJGbDJLdG9jSGZpRFVIaXVZVG5Ick9DNnd5QlFVR3pYT3VEaHRsdjhzSGdMM3NoSnBTME1GYWJQREtVUFVFRVVBZVkwM2hfbG5HTDNhOVU3WnhaTzZDQ2ZTc1U?oc=5",
-   "published": "2026-11-06T01:45+00:00",
-   "published_jst": "2026-11-06 10:45",
+   "title": "プレスリリース：生成AI活用により建設現場の業務効率化を加速（共同通信PRワイヤー）",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fWDZsOENhQVkwX2d2SWhGcmRuSDVPY1l1OE10M09wX0d6MmVXRkRHaW9DcnkxV3Z4dmwwalBuYXJremhpdlJpYzJsNjBSMmR4ZjFEY0lCOGlSZ1ZKajBRUTh1QWtCaEI0?oc=5",
+   "published": "2026-11-06T02:00+00:00",
+   "published_jst": "2026-11-06 11:00",
    "summary": "",
-   "ai_related": false
+   "ai_related": true
   },
   {
    "id": "5224c8e51025",
@@ -1831,84 +1734,6 @@
    "published_jst": "2026-11-06 10:31",
    "summary": "米国の非営利研究機関METRは、Anthropicの協力を得て「AIがAI開発を加速させているかどうか」を評価したレポートを公開した。",
    "ai_related": true
-  },
-  {
-   "id": "51852ab3c82b",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "中間選挙で「青い波」到来 民主党幹部が全米のデータセンター建設停止を要求、AI半導体株が急落",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5NUUpib1k4V1R4Z2trc0VhUFkzMTA4bEhaMHlkbWVLdDg5WFd1ZEhwQVY0UzBoWHIzUXVsb3daVVhHNDMxZ25EMW5la0lDUEVOQ2tBX0xJdGJ1Zl9aNy1UZWk0LU5aRkRZY2U0eXl6eEptUjJ4?oc=5",
-   "published": "2026-11-06T01:06+00:00",
-   "published_jst": "2026-11-06 10:06",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "733da496f5af",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大成建設、ららぽーとTOKYO-BAY北館Ⅱ期に低CO₂鋼材採用、CO₂約1,000t削減へ",
-   "url": "https://news.build-app.jp/article/43657/",
-   "published": "2026-11-06T01:00+00:00",
-   "published_jst": "2026-11-06 10:00",
-   "summary": "東京製鐵、三井不動産、大成建設の3社は、千葉県船橋市で三井不動産が進める「三井ショッピングパーク ららぽーと TOKYO-BAY 北館建替え...",
-   "ai_related": false
-  },
-  {
-   "id": "33b44c89b9eb",
-   "source": "ASCII.jp",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "導入済み生成AIから建築の工程管理を直接操作、作業集計や日程変更に対応するMCPサーバー",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LVUc4eHJYa0R1M0lSaWJqQjdReEtDaVJ2ZkFYa2QtdHA4TldxM08wTDIxakpxNUZOcEJqY3N1Ti1DMlBuM190ZldncUc3ZktWVGxhaA?oc=5",
-   "published": "2026-11-06T01:00+00:00",
-   "published_jst": "2026-11-06 10:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "aa9959e9e2ec",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "東京都「令和８年度 現場対話型スタートアップ協働プロジェクト」に採択されました",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZMllsaThMcUVMRWxBOTFEY3FlSjQyWmdTbGZZdkVZMWxwUWJHOXBGUGpac1pZOGhHbXdQTENBYlFNWDJMM0R0TVJ0T3FJSzFJVDBQYmNPN01uZzRhR0hVc1BHa2ZhVUpQZmc?oc=5",
-   "published": "2026-11-06T01:00+00:00",
-   "published_jst": "2026-11-06 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "76f466a0d24e",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場向けにDXソリューションの新製品を展開",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhRWF0bGtLN3lMZFFWNXFRWjR4ejVRT3VKVlByUUNBTW9ROGZMXy1zS2xtUWFPSERGUjlLMUlvVVJPWXBjcThNMzlHazU1bG5sYXdhWXpwU3YwU1VndFlZNmhzY1N0QjQwN1E?oc=5",
-   "published": "2026-11-06T01:00+00:00",
-   "published_jst": "2026-11-06 10:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "d3309b5afc93",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIデータセンター株が急落 ネビウス15％安、IREN17％安、建設制限論と金利に売り（ビジネス＋IT）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xWmlxMk9EOWU0bEt0OWcyd3hnenhqcUQyUmNuT2N3eFYyY3ByV1UzY2d4ejFtczVQaXd5VW9aN3ZOWWl4Q1BsY0tUbWFVa3Uza0xZSy1lQUNRMmpmZWFaZWo4NW5WaE1oN0RoMzY1b2kxOWQwNDRLb0pyUW5ZTlE?oc=5",
-   "published": "2026-11-06T00:45+00:00",
-   "published_jst": "2026-11-06 09:45",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
