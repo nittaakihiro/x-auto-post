@@ -1,20 +1,41 @@
 {
- "generated_at": "2026-11-08T07:25+00:00",
- "generated_at_jst": "2026-11-08 16:25",
+ "generated_at": "2026-11-08T08:57+00:00",
+ "generated_at_jst": "2026-11-08 17:57",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 27,
-  "ai_global": 44,
   "ai_japan": 11,
-  "construction_global": 30
+  "construction_japan": 24,
+  "ai_global": 43,
+  "construction_global": 16
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "8b466a3298bc",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AI画像を検出できるブラウザ拡張機能「Pangram AI Detection」を実際に使って本当に検出できるのか試してみた",
+   "url": "https://gigazine.net/news/20261108-pangram-image-ai-image-detection/",
+   "published": "2026-11-08T08:45+00:00",
+   "published_jst": "2026-11-08 17:45",
+   "summary": "画像生成AIは便利な技術ですが、ロマンス詐欺やフェイクニュースなどに悪用されることもあります。生成AIで作成され画像を高精度に見分けることが可能なブラウザ拡張機能「Pangram AI Detection」が登場したので、実際にAI画像を検出できるのか試してみました。 続きを読む...",
+   "ai_related": true
+  },
   {
    "id": "feda47e61e6c",
    "source": "Yahoo!ニュース",
@@ -51,8 +72,10 @@
    "url": "https://caleb.software/posts/claude-to-pi.html",
    "published": "2026-11-08T03:11+00:00",
    "published_jst": "2026-11-08 12:11",
-   "summary": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 150 # Comments: 86",
-   "ai_related": true
+   "summary": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 235 # Comments: 139",
+   "ai_related": true,
+   "title_ja": "Claudeに別れを告げ、Piを迎える",
+   "summary_ja": "ClaudeからPiへの移行に関する記事と、それに対するHacker Newsでの議論を紹介しています。"
   },
   {
    "id": "aacc6a6ad1bb",
@@ -174,7 +197,7 @@
    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "published": "2026-11-07T20:45+00:00",
    "published_jst": "2026-11-08 05:45",
-   "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 325 # Comments: 223",
+   "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 368 # Comments: 253",
    "ai_related": true,
    "title_ja": "Claude Codeの機能によりGitHubの公開ファイルにパスワードが露出",
    "summary_ja": "コーディングエージェントの機密情報漏洩に関するApiiroのブログ記事と、Hacker Newsでの議論を紹介。"
@@ -189,7 +212,7 @@
    "url": "https://hunch.net/?p=13764006",
    "published": "2026-11-07T18:02+00:00",
    "published_jst": "2026-11-08 03:02",
-   "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 439 # Comments: 260",
+   "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 450 # Comments: 270",
    "ai_related": true,
    "title_ja": "マイクロソフト研究所のAIフロンティアーズ部門が終焉",
    "summary_ja": "アーカイブ記事やHacker Newsの議論へのリンクが掲載されており、ポイントやコメント数が記録されています。"
@@ -232,7 +255,7 @@
    "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
    "published": "2026-11-07T17:19+00:00",
    "published_jst": "2026-11-08 02:19",
-   "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 274 # Comments: 74",
+   "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 291 # Comments: 79",
    "ai_related": true,
    "title_ja": "MaxxBench：「素晴らしいDeepSWEスコアだが、それは本当か？」",
    "summary_ja": "MaxxBenchの研究ブログ記事について、Hacker Newsで多くのポイントとコメントが寄せられている。"
@@ -410,7 +433,7 @@
    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
    "published": "2026-11-07T09:46+00:00",
    "published_jst": "2026-11-07 18:46",
-   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 686 # Comments: 372",
+   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 704 # Comments: 373",
    "ai_related": true,
    "title_ja": "すべてのMacに未公開の家族分類機能が搭載",
    "summary_ja": "Apple Intelligenceのパーソナル知識グラフに関する記事およびHacker Newsにおけるユーザーのコメントや議論の紹介。"
@@ -1201,97 +1224,6 @@
    "summary_ja": "オンライン商品マーケティング用の技術を用いて、シミュレーションと現実のギャップを解消します。"
   },
   {
-   "id": "6c48e28b760f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New council building control charges will ‘put up construction costs’",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/new-council-building-control-charges-will-put-up-construction-costs-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Building control professionals have warned that construction costs will rise or registered building control approvers (RBCAs) could face financial ruin as new council charges are introduced. From today (6 November), local authority building control teams can charge full cost-recovery fees for activi",
-   "ai_related": false
-  },
-  {
-   "id": "8e2abff5bdd7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Wates confirmed as Ardmore replacement on Hackney job",
-   "url": "https://www.constructionnews.co.uk/contractors/wates/wates-confirmed-as-ardmore-replacement-on-hackney-job-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Hackney Council has formally appointed Wates to a £25m contract to complete a housing scheme left stalled following the collapse of Ardmore Construction Group Ltd. The east London local authority approved the selection of Wates for phase 2b of the Britannia Project on 2 November… The post Wates conf",
-   "ai_related": false
-  },
-  {
-   "id": "3a289454b9c6",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Six developers yet to remediate most buildings with serious fire safety issues",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/six-developers-yet-to-remediate-most-buildings-with-serious-fire-safety-issues-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Six developers who signed the government's remediation contract have started or completed works on fewer than 30 per cent of the buildings they are responsible for fixing, government data shows. Construction News analysis of the latest Ministry of Housing, Communities and Local Government (MHCLG) de",
-   "ai_related": false
-  },
-  {
-   "id": "771f8fc4a1fa",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier tops public sector supplier chart",
-   "url": "https://www.constructionnews.co.uk/government/kier-tops-public-sector-supplier-chart-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Kier was the top supplier to the public sector in the last financial year, an analysis has found. The contractor received £3.1bn in direct revenue in 2025/26, more than any other company from any industry. Balfour Beatty was in second place with £2.5bn, while Bouygues… The post Kier tops public sect",
-   "ai_related": false
-  },
-  {
-   "id": "b639b70f65e2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Galliford Try bypass job faces six-month delay and cost hike over utility diversions",
-   "url": "https://www.constructionnews.co.uk/civils/galliford-try-bypass-job-faces-six-month-delay-and-cost-hike-over-utility-diversions-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "A long-awaited bypass has been hit by further delays and spiralling costs due to water mains diversions. Galliford Try was awarded the contract for the Banwell Bypass in 2024, six months after original contractor Alun Griffiths walked out unexpectedly while enabling works were already underway.… The",
-   "ai_related": false
-  },
-  {
-   "id": "a74d103ad45a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Luton Town stadium faces delay and escalating costs",
-   "url": "https://www.constructionnews.co.uk/buildings/luton-town-stadium-faces-delay-and-escalating-costs-06-11-2026/",
-   "published": "2026-11-06T12:45+00:00",
-   "published_jst": "2026-11-06 21:45",
-   "summary": "Construction of a 25,000-seat stadium for Luton Town has soared by £15m and is running a month behind schedule. Bosses from the League One football club revealed the time and cost slippages on the Power Court Stadium project when they met with fans last month.… The post Luton Town stadium faces dela",
-   "ai_related": false
-  },
-  {
-   "id": "3be8ceeb03a7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "A subdued Budget could be just what construction needs",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/a-subdued-budget-could-be-just-what-construction-needs-06-11-2026/",
-   "published": "2026-11-06T12:14+00:00",
-   "published_jst": "2026-11-06 21:14",
-   "summary": "Jonathan Seddon is the chief executive at the Bolton-based contractor Seddon For once, a quiet Budget might be exactly what the industry needed. After years of rising costs, legislative changes and political uncertainty, construction businesses have been calling for stability. While the Chancellor's",
-   "ai_related": false
-  },
-  {
    "id": "f388a657298f",
    "source": "AEC Magazine",
    "source_id": "aecmag",
@@ -1305,19 +1237,6 @@
    "ai_related": true,
    "title_ja": "ChaosがV-RayコレクションにAI機能を統合",
    "summary_ja": "製品内でのAIガイダンスやMCPサポート、3Dアセット生成などの機能が追加されました。"
-  },
-  {
-   "id": "8b6cb96c7ef5",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Welsh M&E specialist weathers ‘challenging’ inflation",
-   "url": "https://www.constructionnews.co.uk/financial/welsh-me-specialist-weathers-challenging-inflation-06-11-2026/",
-   "published": "2026-11-06T12:06+00:00",
-   "published_jst": "2026-11-06 21:06",
-   "summary": "Borley Engineering Services has reported a 38.1 per cent rise in pre-tax despite what its directors described as a “challenging inflationary environment”. The Cardiff-based M&E specialist, trading as CMB Engineering, posted a pre-tax profit of £4m for the year to 31 March 2026, up from… The post Wel",
-   "ai_related": false
   },
   {
    "id": "db98e2f8f6c4",
@@ -1417,19 +1336,6 @@
    "summary_ja": "普段は家事代行を利用しない筆者だが、新しい人型ロボットの投稿を目にし、実際に自宅を掃除してもらったところ、未来の到来を感じた。"
   },
   {
-   "id": "143455dfc046",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fusion21 launches £1bn construction framework",
-   "url": "https://www.constructionnews.co.uk/contracts/fusion21-launches-1bn-construction-framework-06-11-2026/",
-   "published": "2026-11-06T09:45+00:00",
-   "published_jst": "2026-11-06 18:45",
-   "summary": "Procurement firm Fusion21 has invited contractors to bid for places on a £1bn, four-year framework covering construction and refurbishment projects across the UK. The procurement is divided into two lots, each with an estimated value of £500m, covering housing and non-domestic buildings. Contractors",
-   "ai_related": false
-  },
-  {
    "id": "9f06be9b0a37",
    "source": "PBC Today (UK)",
    "source_id": "pbctoday",
@@ -1445,19 +1351,6 @@
    "summary_ja": "測量管理やBIM許容差から隠れた表面、再測量まで、建設プロジェクトにおいてリアリティキャプチャが何を明らかにできるかを理解する。"
   },
   {
-   "id": "d4c307e043eb",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Van Elle shuts Thurrock depot as piling losses mount",
-   "url": "https://www.constructionnews.co.uk/financial/van-elle-shuts-thurrock-depot-as-piling-losses-mount-06-11-2026/",
-   "published": "2026-11-06T09:32+00:00",
-   "published_jst": "2026-11-06 18:32",
-   "summary": "Piling specialist Van Elle has closed its Thurrock depot as it cut costs in its London operation amid delays to residential projects under the Building Safety Act. The contractor said the restructure of its London-based Rock & Alluvium operation was intended \"to reduce cost and… The post Van Elle sh",
-   "ai_related": false
-  },
-  {
    "id": "9ee6215244c1",
    "source": "労働新聞社",
    "source_id": "gnews_kensetsu_ai",
@@ -1469,133 +1362,6 @@
    "published_jst": "2026-11-06 18:28",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "c108e6caed00",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "仮囲いとは？｜設置基準・種類・費用相場・組み方を担当者向けに解説【2026年版】",
-   "url": "https://news.build-app.jp/article/43685/",
-   "published": "2026-11-06T08:47+00:00",
-   "published_jst": "2026-11-06 17:47",
-   "summary": "「この現場に仮囲いは必要なのか」「どの種類を選べばいいのか」と迷っていないでしょうか。仮設計画や見積もりの確認を初めて任されると、法令の読み...",
-   "ai_related": false
-  },
-  {
-   "id": "b122144243d7",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "中国のBaiduが高性能AIモデル「ERNIE 5.5 Flash Base」を公開、今後の強化版を見据えた基盤モデル",
-   "url": "https://gigazine.net/news/20261106-ernie-5-5-flash-base/",
-   "published": "2026-11-06T08:12+00:00",
-   "published_jst": "2026-11-06 17:12",
-   "summary": "中国の大手テクノロジー企業であるBaiduがAIモデル「ERNIE 5.5 Flash Base」をオープンモデルとして公開しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "b6ee477341ed",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "£3.7bn Windermere clean-up takes major tender step",
-   "url": "https://www.constructionenquirer.com/2026/11/06/3-7bn-windermere-clean-up-takes-major-tender-step/",
-   "published": "2026-11-06T08:10+00:00",
-   "published_jst": "2026-11-06 17:10",
-   "summary": "Design and integration partner role could be worth up to £600m over 13 years",
-   "ai_related": false,
-   "title_ja": "37億ポンドのウィンダミア浄化事業で重要な入札段階へ",
-   "summary_ja": "設計・統合パートナーの役割は13年間で最大600万ポンドの価値を持つ可能性がある。"
-  },
-  {
-   "id": "bc8f9eac1966",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-   "url": "https://openai.com/index/partnering-with-hacktron",
-   "published": "2026-11-06T08:00+00:00",
-   "published_jst": "2026-11-06 17:00",
-   "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-   "ai_related": true,
-   "title_ja": "OpenAIのシステム脆弱性発見に向けHacktronと提携",
-   "summary_ja": "OpenAIはHacktronと提携し、脆弱性の発見や外部サービスとの接続テストを通じてAIの防御力を強化します。"
-  },
-  {
-   "id": "c37666b18aa5",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIで足場計画から仮設資材積算まで自動化、27年春市場投入へ アルインコとKKG：AI",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqajZsdW1mVHFVYnNTdjhWbWtPZFkyZFROTzRaV3hXZ0dCcW5OZXhzUXVPZFMwZWNseVZsMmRrQUQ1ZWlGdGVrQXI0anRJeloxODVYdmJhM3ZVeHFRNGZtWWZrTWh2dmNzOXJ0Tg?oc=5",
-   "published": "2026-11-06T08:00+00:00",
-   "published_jst": "2026-11-06 17:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "0a1cb277c3a7",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "GWR lines up 16 builders for £90m station upgrades",
-   "url": "https://www.constructionenquirer.com/2026/11/06/gwr-lines-up-16-builders-for-90m-station-upgrades/",
-   "published": "2026-11-06T07:56+00:00",
-   "published_jst": "2026-11-06 16:56",
-   "summary": "South West Rail operator lines up building works team",
-   "ai_related": false,
-   "title_ja": "GWR、9000万ポンドの駅改修に向け16社の建設業者を選定",
-   "summary_ja": "サウス・ウェスト鉄道の運行会社が建設作業チームを編成。"
-  },
-  {
-   "id": "2e2795b6699c",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米国16州がAIデータセンターの建設制限を検討、資金は海外へ流出の可能性",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCTmdNMjRxeGgyekl6cXJIRzRveXA4M3U2V1dnSlFwN3ZBSi03aGVORThsNnZRcElCV2pNNlFabWtsM3FRSU1qSl81T3dPd0Fpd1NtZGx1WE1OV1JPdDNSYjFMOGVPVEdDb25YQmtPRWtsRHRm?oc=5",
-   "published": "2026-11-06T07:56+00:00",
-   "published_jst": "2026-11-06 16:56",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "570e7210b8d9",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "First time buyer scheme to stall housing market for months",
-   "url": "https://www.constructionenquirer.com/2026/11/06/first-time-buyer-scheme-to-stall-housing-market-for-months/",
-   "published": "2026-11-06T07:36+00:00",
-   "published_jst": "2026-11-06 16:36",
-   "summary": "MJ Gleeson fears rise in cancellations ahead of Your First Home going live",
-   "ai_related": false,
-   "title_ja": "初回購入者向け制度により、数カ月間住宅市場が停滞する懸念",
-   "summary_ja": "新制度の開始を控え、MJ Gleesonはキャンセル増加への懸念を抱いている。"
-  },
-  {
-   "id": "d254c009db61",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Billington cuts profit forecast despite record orders",
-   "url": "https://www.constructionenquirer.com/2026/11/06/billington-cuts-profit-forecast-despite-record-orders/",
-   "published": "2026-11-06T07:32+00:00",
-   "published_jst": "2026-11-06 16:32",
-   "summary": "Industrial job costs and bridge delays dent steelwork firm's profit expectations",
-   "ai_related": false,
-   "title_ja": "Billington、過去最高の受注にもかかわらず利益予想を下方修正",
-   "summary_ja": "産業用工事のコストや橋梁工事の遅れが、鉄骨会社の利益見通しを悪化させた。"
   }
  ]
 }
