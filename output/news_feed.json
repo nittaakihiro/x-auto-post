@@ -1,20 +1,37 @@
 {
- "generated_at": "2026-11-07T23:59+00:00",
- "generated_at_jst": "2026-11-08 08:59",
+ "generated_at": "2026-11-08T00:40+00:00",
+ "generated_at_jst": "2026-11-08 09:40",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 40,
-  "ai_japan": 26,
   "ai_global": 43,
-  "construction_global": 31
+  "construction_japan": 39,
+  "ai_japan": 25,
+  "construction_global": 28
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "3880bf849bb9",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+   "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+   "published": "2026-11-07T23:57+00:00",
+   "published_jst": "2026-11-08 08:57",
+   "summary": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pag",
+   "ai_related": true
+  },
   {
    "id": "f3ead457d260",
    "source": "BigGo ファイナンス",
@@ -79,7 +96,7 @@
    "url": "https://hunch.net/?p=13764006",
    "published": "2026-11-07T18:02+00:00",
    "published_jst": "2026-11-08 03:02",
-   "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 326 # Comments: 186",
+   "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 340 # Comments: 196",
    "ai_related": true,
    "title_ja": "マイクロソフト研究所のAIフロンティアーズ部門が終焉",
    "summary_ja": "アーカイブ記事やHacker Newsの議論へのリンクが掲載されており、ポイントやコメント数が記録されています。"
@@ -92,19 +109,6 @@
    "lang": "ja",
    "title": "5G工場480カ所を建設、半数以上でAIによる高度化を実現―湖北省",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeHFLYmNZa1dYZkhPaFZSTktBWXFOTFdxaUdiWWZueUtTU19FYXg0MWtERFhvUDQ1ZGluTGNFMHhtdVRHTlhWaENLSDZNVEd0NUFGZjc1REYwc2FvcE5ZVVBGWTlXMEdLM2ZhLWhOQ1hzTmpiZHMxRmg4Qkt0ZmFPbWdUM29wdVJTdlpR0gGLAUFVX3lxTE94cUtiY1lrV1hmSE9oVlJOS0FZcU5MV3FpR2JZZm55S1NTX0VheDQxa0REWG9QNDVkaW5MY0UweG11VEdOWFZoQ0tINk1UR3Q1QUZmNzVERjBzYW9wTllVUEZZOVcwR0szZmEtaE5DWHNOamJkczFGaDhCS3RmYU9tZ1Qzb3B1UlN2WlE?oc=5",
-   "published": "2026-11-07T18:00+00:00",
-   "published_jst": "2026-11-08 03:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "c4e3ad504c8e",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "5G工場480カ所を建設、半数以上でAIによる高度化を実現―湖北省 (2026年11月8日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuYjQ3QmNtMmNaX05GZlRuNFlSQm53NUxTZmdyUTJHMHA1MHRFLTJTbDJPTHRla3lGcHVUTXgtYWlDWTVYZWpnVmV1Ry1nYmRjT0kxdXViZEFJOWoxaGc?oc=5",
    "published": "2026-11-07T18:00+00:00",
    "published_jst": "2026-11-08 03:00",
    "summary": "",
@@ -135,7 +139,7 @@
    "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
    "published": "2026-11-07T17:19+00:00",
    "published_jst": "2026-11-08 02:19",
-   "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 168 # Comments: 55",
+   "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 179 # Comments: 55",
    "ai_related": true
   },
   {
@@ -311,7 +315,7 @@
    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
    "published": "2026-11-07T09:46+00:00",
    "published_jst": "2026-11-07 18:46",
-   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 571 # Comments: 328",
+   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 579 # Comments: 332",
    "ai_related": true,
    "title_ja": "すべてのMacに未公開の家族分類機能が搭載",
    "summary_ja": "Apple Intelligenceのパーソナル知識グラフに関する記事およびHacker Newsにおけるユーザーのコメントや議論の紹介。"
@@ -470,21 +474,6 @@
    "ai_related": false
   },
   {
-   "id": "7f20f31d027a",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Nonresidential Construction Adds 13,300 Jobs in October",
-   "url": "https://constructionexec.com/article/nonresidential-construction-adds-13300-jobs-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=nonresidential-construction-adds-13300-jobs-in-october",
-   "published": "2026-11-06T22:07+00:00",
-   "published_jst": "2026-11-07 07:07",
-   "summary": "For the first time since February, the construction industry recorded a loss in the jobs market in October. The post Nonresidential Construction Adds 13,300 Jobs in October first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "10月の非住宅建設業、1万3300人の雇用を追加",
-   "summary_ja": "建設業は2月以来初めて雇用の減少を記録したが、非住宅部門では10月に1万3,300人の雇用が追加された。"
-  },
-  {
    "id": "3b6894ca71e2",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -574,6 +563,19 @@
    "published_jst": "2026-11-07 05:55",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "02dccd6e9d11",
+   "source": "ニッキンONLINE",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "粟井機鋼／配管施工のBIM活用支援／樹脂管施工管理の独自アプリ開発も／商社の知見生かしプラットフォーム開発協力",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qSE5scjFSXzhYQmNYb19tWjNNZVFZcEZ3WEhfM0ExZWZjWkIxaEZvdS1oNngxel9hdUpNVDVNdUgtV2w2dVo5SS10TFpFMDRnaXIyOVB3?oc=5",
+   "published": "2026-11-06T20:10+00:00",
+   "published_jst": "2026-11-07 05:10",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "5d8836d4fb10",
@@ -1001,21 +1003,6 @@
    "summary_ja": "業界団体は交通資金について議会との協力を求めたが、雇用主と労働組合は対立を続けている。"
   },
   {
-   "id": "c5dfef44b1ba",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bond Check: Negotiation Tactics for Assessing Commercial Risk",
-   "url": "https://constructionexec.com/article/bond-check-negotiation-tactics-for-assessing-commercial-risk/?utm_source=rss&utm_medium=rss&utm_campaign=bond-check-negotiation-tactics-for-assessing-commercial-risk",
-   "published": "2026-11-06T14:12+00:00",
-   "published_jst": "2026-11-06 23:12",
-   "summary": "Not all bond forms offer contractors the same protections—and knowing where the language departs from industry standards can prevent costly surprises. The post Bond Check: Negotiation Tactics for Assessing Commercial Risk first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "ボンドチェック：商業リスク評価のための交渉戦術",
-   "summary_ja": "すべての保証書が同じ保護を提供するわけではなく、業界標準からの逸脱を知ることで高額な損失を防ぐことができる。"
-  },
-  {
    "id": "ab4846bbc512",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1248,21 +1235,6 @@
    "published_jst": "2026-11-06 20:00",
    "summary": "AIモデルの提供プラットフォームであるOpenRouterの調査によると、2026年9月末時点で、OpenRouter上の上位50モデルのトークンのうちオープンウェイトモデルが処理した割合は72％と、前年の27％から大幅に増加したとのこと。AIのオープンウェイトモデルとクローズドウェイトモデルの違いについて、OpenRouterが解説しています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "956ae262dd68",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "How Construction Companies Gain Competitive Advantage Through Inclusive Leadership",
-   "url": "https://constructionexec.com/article/how-construction-companies-gain-competitive-advantage-through-inclusive-leadership/?utm_source=rss&utm_medium=rss&utm_campaign=how-construction-companies-gain-competitive-advantage-through-inclusive-leadership",
-   "published": "2026-11-06T11:00+00:00",
-   "published_jst": "2026-11-06 20:00",
-   "summary": "Inclusive leadership fosters an environment of thriving, diverse teams, with innovation and agility six times more likely among inclusive organizations. The post How Construction Companies Gain Competitive Advantage Through Inclusive Leadership first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設会社がインクルーシブリーダーシップで競争力を得る方法",
-   "summary_ja": "インクルーシブなリーダーシップは多様なチームを育成し、イノベーションや敏捷性を高める確率を大幅に向上させる。"
   },
   {
    "id": "197c49d549b7",
@@ -1627,19 +1599,6 @@
    "ai_related": true
   },
   {
-   "id": "b7906a889b50",
-   "source": "Mezha.net",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "抗議者ら、アムステルダムのMicrosoftデータセンター建設現場に侵入",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSDlZSlFuN2RfcVduTzcyNGxHNllqZVV6b3FiMVBlUlhYQk93STMyVGNGVzNHbWNCRThrQTlFczVUQlNqMnFzZU5MRVM4NzQwa0ExSnA3SlF3NlFrYzFSVTl3REpQdkE0MXlEbFVySTdlamI2MUl5dnNyMTh2Qzd1bUpDRTlSNllnSmxRbEZnUERtNDVrTFNPMUtWS0RPT2I0WkZ3?oc=5",
-   "published": "2026-11-06T04:59+00:00",
-   "published_jst": "2026-11-06 13:59",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "9f233117302c",
    "source": "조선일보",
    "source_id": "gnews_kensetsu_ai",
@@ -1835,6 +1794,19 @@
    "ai_related": true
   },
   {
+   "id": "debce351b6aa",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米オープンAIがデータセンターで指針 電力・インフラ費用は自社負担（時事通信）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iVERfbGNBeG02UUxtSUY3QTRQV3FsUzB3YjVDUEJGbDJLdG9jSGZpRFVIaXVZVG5Ick9DNnd5QlFVR3pYT3VEaHRsdjhzSGdMM3NoSnBTME1GYWJQREtVUFVFRVVBZVkwM2hfbG5HTDNhOVU3WnhaTzZDQ2ZTc1U?oc=5",
+   "published": "2026-11-06T01:45+00:00",
+   "published_jst": "2026-11-06 10:45",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "5224c8e51025",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1926,58 +1898,17 @@
    "ai_related": true
   },
   {
-   "id": "1b8c172b2829",
-   "source": "ビジネス+IT",
+   "id": "d3309b5afc93",
+   "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "AIデータセンター株が急落 ネビウス15％安、IREN17％安、建設制限論と金利に売り",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uUFF6UU9qa20wc0daSFowTHgyYVJZSE5jak8yME1PWXBHRkl5TktEUk45WXQyRTMtbWo0dlBBSXRlMlpFWHVUM2JFT3BKZjk0WGNB?oc=5",
-   "published": "2026-11-06T00:34+00:00",
-   "published_jst": "2026-11-06 09:34",
+   "title": "AIデータセンター株が急落 ネビウス15％安、IREN17％安、建設制限論と金利に売り（ビジネス＋IT）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xWmlxMk9EOWU0bEt0OWcyd3hnenhqcUQyUmNuT2N3eFYyY3ByV1UzY2d4ejFtczVQaXd5VW9aN3ZOWWl4Q1BsY0tUbWFVa3Uza0xZSy1lQUNRMmpmZWFaZWo4NW5WaE1oN0RoMzY1b2kxOWQwNDRLb0pyUW5ZTlE?oc=5",
+   "published": "2026-11-06T00:45+00:00",
+   "published_jst": "2026-11-06 09:45",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "020af62e2010",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "コスピ指数が6日、人工知能(AI)データセンター建設が鈍化する恐れがあるという懸念と米国半導体株暴落の余波で、取引序盤8%以上下落し、サーキットブレーカーが発動された。韓国取引所によると、同日午前9時..",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBM1JLRHdqTGVZZGFVb2IyNUxWaUQzbGNiaHl3cjJsNy00Q1lTLVh1VXhRQmV3VkdzTEg2akVGeFVSNjJtcFhOeHhSbEFOMmc?oc=5",
-   "published": "2026-11-06T00:07+00:00",
-   "published_jst": "2026-11-06 09:07",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "cfd4354afa14",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Measuring how AI agents handle everyday wet-lab science",
-   "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-   "published": "2026-11-06T00:00+00:00",
-   "published_jst": "2026-11-06 09:00",
-   "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-   "ai_related": true,
-   "title_ja": "AIエージェントの実験室科学への対応力を測定",
-   "summary_ja": "OpenAIは、AIの実験データ解釈や実験室業務の処理能力を測る新ベンチマーク「BioBasicsBench」を発表しました。"
-  },
-  {
-   "id": "982c5cc35ee3",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIで過去図面を検索、資料探索を平均4.5分に短縮し年間工数90％削減へ",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/06/news005.html",
-   "published": "2026-11-06T00:00+00:00",
-   "published_jst": "2026-11-06 09:00",
-   "summary": "空研工業とRecursiveは、OpenAI APIを活用した「AIナレッジ基盤システム」を共同開発した。過去の図面や技術資料から必要な情報を検索する「図面検索」と、複数の資料の整合性を確認する「図面チェック」の2機能を備える。試用段階では、従来数十分から半日を要していた図面探しが平均4.5分で完了したという。",
-   "ai_related": true
   }
  ]
 }
