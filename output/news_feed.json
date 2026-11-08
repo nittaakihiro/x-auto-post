@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-11-08T15:59+00:00",
- "generated_at_jst": "2026-11-09 00:59",
+ "generated_at": "2026-11-08T16:39+00:00",
+ "generated_at_jst": "2026-11-09 01:39",
  "window_hours": 48,
  "counts": {
-  "ai_global": 37,
+  "ai_global": 33,
   "construction_japan": 18,
   "ai_japan": 10,
-  "construction_global": 5
+  "construction_global": 3
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -26,7 +30,9 @@
    "published": "2026-11-08T14:23+00:00",
    "published_jst": "2026-11-08 23:23",
    "summary": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News appe",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Andrej Karpathy氏、Claudeを活用し動画プラットフォームを週末に開発",
+   "summary_ja": "OpenAI共同創業者のAndrej Karpathy氏が、Claudeを使いHacker Newsの膨大なコメントから厳選動画を抽出。YouTubeのレコメンドを超える精度だと語っている。"
   },
   {
    "id": "ef39af466bc9",
@@ -39,7 +45,9 @@
    "published": "2026-11-08T13:49+00:00",
    "published_jst": "2026-11-08 22:49",
    "summary": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems aren't conscious and won't become so on silicon hardware. They consider the assumption that consciousness depends on computation alone \"fatally flawed\" and warn against granting rig",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "脳＝コンピューターの比喩、意識論争でAIの誤解を招く恐れ",
+   "summary_ja": "意識研究者らがNature誌で、現代のAIは意識を持たず、シリコンハードウェア上で意識が芽生えることもないと主張。脳とAIを同義視する前提に警鐘を鳴らしている。"
   },
   {
    "id": "cbc9ada65cdb",
@@ -52,7 +60,9 @@
    "published": "2026-11-08T11:44+00:00",
    "published_jst": "2026-11-08 20:44",
    "summary": "Turing Award winner Richard Sutton reaffirms that raw compute alone isn't enough for intelligence and that fundamentally new learning methods are needed. Ex-OpenAI researcher Tworek agrees, saying blind transformer scaling \"has reward hacked brains of a whole generation of scientists.\" A growing wav",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "「苦い教訓」の提唱者がLLMのスケーリング狂騒曲に釘を刺す",
+   "summary_ja": "チューリング賞受賞者のRichard Sutton氏が、単純な計算能力の向上だけでは知性に到達せず、全く新しい学習手法が必要であると改めて主張した。"
   },
   {
    "id": "845a5b1effb7",
@@ -91,7 +101,9 @@
    "published": "2026-11-08T09:50+00:00",
    "published_jst": "2026-11-08 18:50",
    "summary": "Alibaba's new coding-agent benchmark, Co-Design Bench, tests AI agents on real user requests that already tripped them up in practice. Even GPT-6 Astra, the top performer, fully solves only 26.4 percent of tasks. On older benchmarks, the same models score above 99 percent. The article AI coding agen",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIコーディング支援、実世界テストの7割超で人間の修正が必要",
+   "summary_ja": "Alibabaの新ベンチマークによるテストで、最高性能のモデルでも全タスクを自力で完全に解決できたのは26.4%にとどまり、人間の介入が不可欠であることが示された。"
   },
   {
    "id": "f2894e8a403d",
@@ -155,7 +167,7 @@
    "url": "https://caleb.software/posts/claude-to-pi.html",
    "published": "2026-11-08T03:11+00:00",
    "published_jst": "2026-11-08 12:11",
-   "summary": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 505 # Comments: 328",
+   "summary": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 527 # Comments: 337",
    "ai_related": true,
    "title_ja": "Claudeに別れを告げ、Piを迎える",
    "summary_ja": "ClaudeからPiへの移行に関する記事と、それに対するHacker Newsでの議論を紹介しています。"
@@ -254,7 +266,7 @@
    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "published": "2026-11-07T20:45+00:00",
    "published_jst": "2026-11-08 05:45",
-   "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 489 # Comments: 352",
+   "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 494 # Comments: 354",
    "ai_related": true,
    "title_ja": "Claude Codeの機能によりGitHubの公開ファイルにパスワードが露出",
    "summary_ja": "コーディングエージェントの機密情報漏洩に関するApiiroのブログ記事と、Hacker Newsでの議論を紹介。"
@@ -286,21 +298,6 @@
    "ai_related": true,
    "title_ja": "Anthropic、テック株安の中でも感謝祭前のIPOを強行",
    "summary_ja": "目標の2兆ドルを下回る1.25兆〜1.75兆ドルの評価額でIPOを推進し、800億〜1000億ドルの資金調達を目指す。"
-  },
-  {
-   "id": "152675bb7018",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
-   "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-   "published": "2026-11-07T17:19+00:00",
-   "published_jst": "2026-11-08 02:19",
-   "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 350 # Comments: 98",
-   "ai_related": true,
-   "title_ja": "MaxxBench：「素晴らしいDeepSWEスコアだが、それは本当か？」",
-   "summary_ja": "MaxxBenchの研究ブログ記事について、Hacker Newsで多くのポイントとコメントが寄せられている。"
   },
   {
    "id": "bc48d8fe5dac",
@@ -460,7 +457,7 @@
    "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
    "published": "2026-11-07T09:46+00:00",
    "published_jst": "2026-11-07 18:46",
-   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 787 # Comments: 422",
+   "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 790 # Comments: 424",
    "ai_related": true,
    "title_ja": "すべてのMacに未公開の家族分類機能が搭載",
    "summary_ja": "Apple Intelligenceのパーソナル知識グラフに関する記事およびHacker Newsにおけるユーザーのコメントや議論の紹介。"
@@ -507,7 +504,7 @@
   {
    "id": "d9cd1c210297",
    "source": "Infoseek",
-   "source_id": "gnews_bim_ai",
+   "source_id": "gnews_kensetsu_dx",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建設現場の「古い図面」問題 紙とデジタルのズレが招く「手戻り」と「工事遅延」、日本HPはどう解消した？",
@@ -925,81 +922,6 @@
    "ai_related": true,
    "title_ja": "AIが恋愛の新たな破局理由に",
    "summary_ja": "サンフランシスコに引っ越したイレーヌは新しい人と出会うためにマッチングアプリを使い始めたが、25歳の彼女を待ち受けていたのは…"
-  },
-  {
-   "id": "22815b4f725e",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Big Tech lost big in the 2026 election",
-   "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
-   "published": "2026-11-06T16:38+00:00",
-   "published_jst": "2026-11-07 01:38",
-   "summary": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast, Nila",
-   "ai_related": true,
-   "title_ja": "2026年中間選挙でビッグテックが痛手を負う",
-   "summary_ja": "米国の有権者は民主党支持とAI反対に投票し、ビッグテックとの戦いやデータセンターをめぐる対立がさらに激化しつつある。"
-  },
-  {
-   "id": "e23db57b0760",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction’s latest economic reports reveal less confidence despite more work",
-   "url": "https://www.constructiondive.com/news/construction-latest-economic-reports-reveal-less-confidence-more-work/873815/",
-   "published": "2026-11-06T16:36+00:00",
-   "published_jst": "2026-11-07 01:36",
-   "summary": "The pessimism stems from high construction costs and slow demand outside the data center boom.",
-   "ai_related": false,
-   "title_ja": "建設業の経済報告、工事増加も信頼感は低下",
-   "summary_ja": "悲観論の背景には、高止まりする建設コストと、データセンターブーム以外の需要の低迷がある。"
-  },
-  {
-   "id": "01aef0d2f976",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Could potential AI clones of GTA VI force a quicker official port?",
-   "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
-   "published": "2026-11-06T16:19+00:00",
-   "published_jst": "2026-11-07 01:19",
-   "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
-   "ai_related": true,
-   "title_ja": "GTA VIのAIクローン登場で公式移植が前倒しに？",
-   "summary_ja": "Rockstarの元技術ディレクターは、開発会社が新たな時間的プレッシャーに直面していると考えている。"
-  },
-  {
-   "id": "5e9853ec7c6c",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bids invited for £1bn construction and refurb framework",
-   "url": "https://www.constructionenquirer.com/2026/11/06/bids-invited-for-1bn-construction-and-refurb-framework/",
-   "published": "2026-11-06T16:18+00:00",
-   "published_jst": "2026-11-07 01:18",
-   "summary": "Latest mega-deal from Fusion21",
-   "ai_related": false,
-   "title_ja": "10億ポンドの建設・改修枠組みの入札が開始",
-   "summary_ja": "Fusion21による最新の大型案件の募集が開始された。"
-  },
-  {
-   "id": "215687ca939d",
-   "source": "NVIDIA Blog",
-   "source_id": "nvidia",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-   "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-   "published": "2026-11-06T16:00+00:00",
-   "published_jst": "2026-11-07 01:00",
-   "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connect",
-   "ai_related": true,
-   "title_ja": "NVIDIAのオープンソースツールが次世代6Gネットワーク開発を支援",
-   "summary_ja": "NVIDIAがAerial無線ソフトウェアをオープンソース化して以来、ツール群が次世代6Gネットワーク開発の基盤を研究者に提供している。"
   }
  ]
 }
