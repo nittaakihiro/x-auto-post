@@ -1,20 +1,105 @@
 {
- "generated_at": "2026-11-08T22:01+00:00",
- "generated_at_jst": "2026-11-09 07:01",
+ "generated_at": "2026-11-08T23:10+00:00",
+ "generated_at_jst": "2026-11-09 08:10",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 7,
   "ai_global": 30,
   "construction_japan": 24,
-  "construction_global": 1
+  "ai_japan": 10
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "67abd93f196f",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+   "published": "2026-11-08T22:54+00:00",
+   "published_jst": "2026-11-09 07:54",
+   "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair",
+   "ai_related": true
+  },
+  {
+   "id": "9572242cc9fc",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "parse_number() as a SQLite extension: C vs Rust",
+   "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+   "published": "2026-11-08T22:26+00:00",
+   "published_jst": "2026-11-09 07:26",
+   "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and so",
+   "ai_related": true
+  },
+  {
+   "id": "e1f09bd55aa1",
+   "source": "デジコン",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "管の天井を走るロボットが、背面の空洞を探す。前田建設工業ら、下水道管路の無人点検技術の実証研究を開始、「No Entry点検」目指す",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBGUUxFeERvLW5vVlA5cjlkYi1sVDB3U3FXckE2RTgxTzUycGhZTU9TWmlKWWdOQWJPNUFtdTF2bWJndzdKdEhFbVNpV0VMQ3hpcjA4?oc=5",
+   "published": "2026-11-08T22:03+00:00",
+   "published_jst": "2026-11-09 07:03",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "71d028e47a2b",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "“おいしい魚”を届けられないかも──スシロー、漁業の危機にどう挑む？ 富士通とタッグ、AIで「海を解剖」するワケ",
+   "url": "https://www.itmedia.co.jp/business/articles/2611/09/news039.html",
+   "published": "2026-11-08T22:00+00:00",
+   "published_jst": "2026-11-09 07:00",
+   "summary": "スシロー、クロシオ水産、富士通などが手を組み、海洋テックを生かした養殖に挑戦している。舞台は、高知県の宿毛湾。異業種連携で、水産業の課題を解決できるのか。",
+   "ai_related": true
+  },
+  {
+   "id": "bf3da7412caf",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「勝手に社外AIを使う」エース社員に困っています……どうすべき？",
+   "url": "https://www.itmedia.co.jp/business/articles/2611/09/news038.html",
+   "published": "2026-11-08T22:00+00:00",
+   "published_jst": "2026-11-09 07:00",
+   "summary": "「会社の“公認AI”では物足りない」――社員が「シャドーAI」を使っている場合、“禁止令”を出すだけで解決する問題なのか。AI活用を推進するために企業はどう対応すればよいのか。",
+   "ai_related": true
+  },
+  {
+   "id": "7d83122e7c5b",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "意思疎通に難？ 技術が分かるから強い？――研究者に事業開発させるべきか否か、NEC・イビデンの回答は……",
+   "url": "https://www.itmedia.co.jp/business/articles/2611/09/news040.html",
+   "published": "2026-11-08T22:00+00:00",
+   "published_jst": "2026-11-09 07:00",
+   "summary": "技術はあるのに「事業化の壁」を越えられない……。この課題に直面したNECとイビデンは、独自の取り組みで成長領域を模索している。AIをどう生かすか。研究者に事業開発を任せるべきか。両社のキーパーソンが語り合った。",
+   "ai_related": true
+  },
   {
    "id": "5645f7bf0762",
    "source": "GIGAZINE",
@@ -26,6 +111,19 @@
    "published": "2026-11-08T22:00+00:00",
    "published_jst": "2026-11-09 07:00",
    "summary": "2名の研究者によるAI研究組織「Linum」が画像生成モデル「Pyramid-JiT(P-JiT)」を公開しました。P-JiTは画像生成AIが抱える「生成に時間とコストがかかる」「制御が難しい」という二つの主要な課題の克服を目指しており、開発コストを2万1千ドル(約331万5千円)に抑えられたことがアピールされています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "aed59df83c5d",
+   "source": "千葉日報オンライン",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "生成AI活用により建設現場の業務効率化を加速",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54dF94YkdJLVdabVdvbWFyekNFc3Q5YmVIR1JPZXp0MlpfUlVEWjNwZGhmeW1EMDVVYU80bks4elktVUN4R1kxeXA4cVpaWldRWlMxTkRR?oc=5",
+   "published": "2026-11-08T21:48+00:00",
+   "published_jst": "2026-11-09 06:48",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -118,7 +216,7 @@
    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
    "published": "2026-11-08T20:26+00:00",
    "published_jst": "2026-11-09 05:26",
-   "summary": "Article URL: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors Comments URL: https://news.ycombinator.com/item?id=50416801 Points: 185 # Comments: 147",
+   "summary": "Article URL: https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors Comments URL: https://news.ycombinator.com/item?id=50416801 Points: 305 # Comments: 240",
    "ai_related": true,
    "title_ja": "Nvidia取締役会、Jensen Huang氏を調査",
    "summary_ja": "Nvidia取締役会によるJensen Huang氏に関する調査についての公式発表と関連リンクのまとめ。"
@@ -149,6 +247,19 @@
    "published": "2026-11-08T19:55+00:00",
    "published_jst": "2026-11-09 04:55",
    "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "53b21b7195bf",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "入札期間は12月3、4日/交通局本庁舎・教習所大規模改修4件/札幌市",
+   "url": "https://www.kensetsunews.com/archives/1305876",
+   "published": "2026-11-08T19:55+00:00",
+   "published_jst": "2026-11-09 04:55",
+   "summary": "札幌市交通局は、「交通局本局庁舎・教習所大規模改修」を建築、強電、弱電、機械工事に４分割して制限付… The post 入札期間は12月3、4日/交通局本庁舎・教習所大規模改修4件/札幌市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -191,19 +302,6 @@
    "ai_related": false
   },
   {
-   "id": "53b21b7195bf",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "入札期間は12月3、4日/交通局本庁舎・教習所大規模改修4件/札幌市",
-   "url": "https://www.kensetsunews.com/archives/1305876",
-   "published": "2026-11-08T19:55+00:00",
-   "published_jst": "2026-11-09 04:55",
-   "summary": "札幌市交通局は、「交通局本局庁舎・教習所大規模改修」を建築、強電、弱電、機械工事に４分割して制限付… The post 入札期間は12月3、4日/交通局本庁舎・教習所大規模改修4件/札幌市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "53044e44b3aa",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -224,11 +322,11 @@
    "source_id": "hn_top",
    "category": "ai_global",
    "lang": "en",
-   "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
    "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
    "published": "2026-11-08T18:16+00:00",
    "published_jst": "2026-11-09 03:16",
-   "summary": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 432 # Comments: 266",
+   "summary": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 517 # Comments: 316",
    "ai_related": true,
    "title_ja": "ゴールドマン・サックス、Claude Codeの利用を停止",
    "summary_ja": "ゴールドマン・サックスが銀行員やトレーダーによるClaude Codeの利用を取りやめたことに関するニュースと議論のリンク。"
@@ -383,7 +481,7 @@
    "url": "https://www.lorekit.io/blog/open-agent-memory-format",
    "published": "2026-11-08T08:40+00:00",
    "published_jst": "2026-11-08 17:40",
-   "summary": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 158 # Comments: 102",
+   "summary": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 163 # Comments: 102",
    "ai_related": true,
    "title_ja": "AIエージェントの記憶にはOpenTelemetryが必要",
    "summary_ja": "AIエージェントの記憶形式やデータ管理の標準化、オープンな仕組みの必要性についての議論と記事。"
@@ -424,7 +522,7 @@
    "url": "https://caleb.software/posts/claude-to-pi.html",
    "published": "2026-11-08T03:11+00:00",
    "published_jst": "2026-11-08 12:11",
-   "summary": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 643 # Comments: 410",
+   "summary": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 665 # Comments: 421",
    "ai_related": true,
    "title_ja": "Claudeに別れを告げ、Piを迎える",
    "summary_ja": "ClaudeからPiへの移行に関する記事と、それに対するHacker Newsでの議論を紹介しています。"
@@ -514,13 +612,13 @@
    "summary_ja": "米情報機関のメモによると、中国国家安全省がNvidiaのCEOをスパイするため、女性技術幹部をリクルートしたという。"
   },
   {
-   "id": "6e6cac047c77",
-   "source": "au Webポータル",
+   "id": "b1272da00005",
+   "source": "千葉テレビ放送株式会社",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "フィジカルAIが建設・物流の人手不足を補う…ARAV、T2、Mujinに見る2026年の現在地",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XV3Z1Zk94X2pvTG0taWc2dUtBN01DMDgtcnFBNUx5MUNYUG93cExsZFQ5YUIzNEpZZi0xY3J1NUR0bjk4UW5TcURzV29nN0FpQ1NoTkkzYUhNUUM4aGxaS0hQSnYyNHZNcUc5NmZn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LVHBJNS0zMWtFcjM3WmxpNmxrOUFrcUdxTXdzcjZvQmtJcG5CVkMwdmx0OE80TU1VR285aHJ1eXYxek5sYlB5MGxNY0lXYXg5Q2xUYVdkUEFUd1psdjFn?oc=5",
    "published": "2026-11-07T20:56+00:00",
    "published_jst": "2026-11-08 05:56",
    "summary": "",
@@ -536,7 +634,7 @@
    "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
    "published": "2026-11-07T20:45+00:00",
    "published_jst": "2026-11-08 05:45",
-   "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 555 # Comments: 387",
+   "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 571 # Comments: 387",
    "ai_related": true,
    "title_ja": "Claude Codeの機能によりGitHubの公開ファイルにパスワードが露出",
    "summary_ja": "コーディングエージェントの機密情報漏洩に関するApiiroのブログ記事と、Hacker Newsでの議論を紹介。"
@@ -811,77 +909,6 @@
    "ai_related": true,
    "title_ja": "OpenAIの評価額が1兆2500億ドルに、AnthropicはIPO間近",
    "summary_ja": "新たな資金調達ラウンドで110億ドルを集め、企業価値が1兆2500億ドルに到達。"
-  },
-  {
-   "id": "d85f3a2b931f",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ政権「ＡＩ推進」に逆風、データセンター集積地の知事選で「建設慎重派」民主党候補に相次ぎ当確（読売新聞オンライン）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ibkx3Z2tOa3Z2cnZMMFVNYkg0UGMxVlotbmNkQnV0V3BxZ0xvbjVZWGl5ZlJ0RVdSS2U4QmdLTy1ONGlzRkNncVF1WTJaME9DbjFLR1JuWEljcVFvWUpTemUtMFQ5Zl95ZzlISWR3V3JyQ2FSRVlNbnI4VXVfSFk?oc=5",
-   "published": "2026-11-06T23:07+00:00",
-   "published_jst": "2026-11-07 08:07",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "1bc7ba2a28c4",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-   "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-   "published": "2026-11-06T23:00+00:00",
-   "published_jst": "2026-11-07 08:00",
-   "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advance",
-   "ai_related": true,
-   "title_ja": "中国、NvidiaのCEOスパイ工作にAI幹部をリクルートか",
-   "summary_ja": "中国情報機関がNvidiaのジェンスン・フアンCEOに関する情報を得るため、幹部を勧誘したと報じられた。"
-  },
-  {
-   "id": "314bd089789a",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-   "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-   "published": "2026-11-06T22:53+00:00",
-   "published_jst": "2026-11-07 07:53",
-   "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
-   "ai_related": true,
-   "title_ja": "OpenAI、評価額1兆2500億ドルでさらに110億ドルを調達か",
-   "summary_ja": "未完了の資金調達ラウンドの一環として、数週間以内に完了予定の追加融資を確保したと報じられている。"
-  },
-  {
-   "id": "150a97d047c0",
-   "source": "株式会社エクサウィザーズ",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SpaceX、1年半で13GWのAIインフラ建設へ 世界最大のAIクラウドを目指す",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85cDdBTi1nUndpaGpJOGlUMnpsWURuWnhwYXlRM1BwcDh5OTF4WG1PTE8tNnU5aG52bng4OW5fMjJpWV9UQUdyMXBCUWdfWXo0UlBmc0RueUVMWkdlSjdiMmUyeHMxdw?oc=5",
-   "published": "2026-11-06T22:40+00:00",
-   "published_jst": "2026-11-07 07:40",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "7f20f31d027a",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Nonresidential Construction Adds 13,300 Jobs in October",
-   "url": "https://constructionexec.com/article/nonresidential-construction-adds-13300-jobs-in-october/?utm_source=rss&utm_medium=rss&utm_campaign=nonresidential-construction-adds-13300-jobs-in-october",
-   "published": "2026-11-06T22:07+00:00",
-   "published_jst": "2026-11-07 07:07",
-   "summary": "For the first time since February, the construction industry recorded a loss in the jobs market in October. The post Nonresidential Construction Adds 13,300 Jobs in October first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "非住宅建設業、10月に1万3300人の雇用を創出",
-   "summary_ja": "2月以来初めて、建設業界全体としては10月の雇用市場で減少を記録したことを伝えるニュース。"
   }
  ]
 }
