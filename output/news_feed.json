@@ -1,17 +1,25 @@
 {
- "generated_at": "2026-11-09T19:51+00:00",
- "generated_at_jst": "2026-11-10 04:51",
+ "generated_at": "2026-11-09T20:42+00:00",
+ "generated_at_jst": "2026-11-10 05:42",
  "window_hours": 48,
  "counts": {
-  "ai_global": 48,
-  "construction_japan": 53,
-  "construction_global": 29,
-  "ai_japan": 25
+  "ai_global": 50,
+  "ai_japan": 26,
+  "construction_japan": 61,
+  "construction_global": 15
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "feed": "constructionexec",
@@ -19,6 +27,125 @@
   }
  ],
  "items": [
+  {
+   "id": "39befa337949",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+   "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+   "published": "2026-11-09T20:09+00:00",
+   "published_jst": "2026-11-10 05:09",
+   "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+   "ai_related": true,
+   "title_ja": "Nvidiaの物議を受け、ジェンスン・ファン氏がサミットを欠席",
+   "summary_ja": "NvidiaのCEOは、先にもAnthropicのイベントを欠席していた。"
+  },
+  {
+   "id": "e3ef7298f39f",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「MCPはもう特別な存在ではない」――その普及と“仕様改訂”がもたらした転換点",
+   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/10/news003.html",
+   "published": "2026-11-09T20:00+00:00",
+   "published_jst": "2026-11-10 05:00",
+   "summary": "AIエージェントと外部のツールをつなぐ「MCP」が、大きな転換点を迎えています。2026年7月の仕様改訂では、サーバ側で通信の状態を保持しない「ステートレス化」が進められました。この変更は、企業がMCPを導入、運用する上で何を意味するのか。まずはMCPの普及状況を振り返りながら、仕様改訂の背景や影響を整理します。",
+   "ai_related": true
+  },
+  {
+   "id": "2ab5155092c7",
+   "source": "日本経済新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "福岡の不動産テック、AIで建設許可支援 アパートの着工3カ月短縮",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OMWhNd0VKV2Q4b0FKdTVwMFdJZmpmS1pEQ1prRTRaaS1rVG55V1YxYkNlZUNpTlE2Q0pOVTZLUHZIQkVFbE1rWTZvSWpBcXhaUzBaWnFENWVBcXFkUkVOMEFvMUNMT19CZUNGaA?oc=5",
+   "published": "2026-11-09T20:00+00:00",
+   "published_jst": "2026-11-10 05:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "4b64c6de0a43",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "YUASA/新本社は延べ2万㎡/大林の設計施工で6月着工",
+   "url": "https://www.kensetsunews.com/archives/1306583",
+   "published": "2026-11-09T19:55+00:00",
+   "published_jst": "2026-11-10 04:55",
+   "summary": "ＹＵＡＳＡは、東京都港区で計画する新本社新築事業の概要をまとめた。延べ床面積は約２万㎡を想定する。… The post YUASA/新本社は延べ2万㎡/大林の設計施工で6月着工 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "9eceb5107cc8",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "笠間市/11月26日まで参加表明/一般廃棄物処理計画",
+   "url": "https://www.kensetsunews.com/archives/1306607",
+   "published": "2026-11-09T19:55+00:00",
+   "published_jst": "2026-11-10 04:55",
+   "summary": "茨城県笠間市は９日、「笠間市一般廃棄物処理基本計画策定業務委託」の公募型プロポーザルを公告した。質… The post 笠間市/11月26日まで参加表明/一般廃棄物処理計画 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "3149d551ade9",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "最優秀に岡田設計/旧高校跡地整備基本計画・基本設計/富良野市",
+   "url": "https://www.kensetsunews.com/archives/1306626",
+   "published": "2026-11-09T19:55+00:00",
+   "published_jst": "2026-11-10 04:55",
+   "summary": "富良野市は、公募型プロポーザルを実施した「旧富良野高校跡地整備基本計画策定および基本設計業務」の最… The post 最優秀に岡田設計/旧高校跡地整備基本計画・基本設計/富良野市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "61c0b381eac5",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "最優秀にPwC特定/新サッカースタジアム整備方針策定支援/青森県",
+   "url": "https://www.kensetsunews.com/archives/1306631",
+   "published": "2026-11-09T19:55+00:00",
+   "published_jst": "2026-11-10 04:55",
+   "summary": "青森県は、「新サッカースタジアム整備方針策定支援業務委託」の簡易公募型プロポーザルを実施した結果、… The post 最優秀にPwC特定/新サッカースタジアム整備方針策定支援/青森県 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "b862e89a1098",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "中部整備局/12月にも募集要項/近鉄四日市駅バスタ運営等",
+   "url": "https://www.kensetsunews.com/archives/1306649",
+   "published": "2026-11-09T19:55+00:00",
+   "published_jst": "2026-11-10 04:55",
+   "summary": "中部地方整備局は６日、コンセッション（運営権付与）方式を採用する「一般国道１号近鉄四日市駅バスター… The post 中部整備局/12月にも募集要項/近鉄四日市駅バスタ運営等 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "75bab00808d6",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "北関東防衛/11月19日まで申請受付/高田施設総合設計",
+   "url": "https://www.kensetsunews.com/archives/1306665",
+   "published": "2026-11-09T19:55+00:00",
+   "published_jst": "2026-11-10 04:55",
+   "summary": "北関東防衛局は、「高田（８）施設総合設計」の総合評価一般競争入札を公告した。申請書は１９日まで受け… The post 北関東防衛/11月19日まで申請受付/高田施設総合設計 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
   {
    "id": "423110507793",
    "source": "The Decoder",
@@ -30,7 +157,24 @@
    "published": "2026-11-09T19:41+00:00",
    "published_jst": "2026-11-10 04:41",
    "summary": "Meta is introducing Muse Ember, its smallest and most efficient AI model, optimized for repetitive agent tasks such as tool calls, routing, and data extraction. According to Meta, it delivers more intelligence per dollar than Claude Haiku 5.5 or GPT-6 Luna. But it falls short when it comes to actual",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Meta、エージェントの反復作業向け小型AIモデル「Muse Ember」発表",
+   "summary_ja": "ツール呼び出しやデータ抽出などの反復的なタスクに特化し、高い費用対効果を実現する。"
+  },
+  {
+   "id": "3ec2e278915e",
+   "source": "MIT Technology Review AI",
+   "source_id": "mit_tr",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The backlash about data centers might really just be about electricity",
+   "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+   "published": "2026-11-09T19:35+00:00",
+   "published_jst": "2026-11-10 04:35",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It",
+   "ai_related": true,
+   "title_ja": "データセンターへの反発、本質は「電力不足」にあるのか",
+   "summary_ja": "AIに関する週刊ニュースレター「The Algorithm」からの記事。米国の選挙期間中にバージニア州アシュバーンを訪れた際の考察。"
   },
   {
    "id": "49362135f61e",
@@ -56,7 +200,9 @@
    "published": "2026-11-09T19:25+00:00",
    "published_jst": "2026-11-10 04:25",
    "summary": "In short: The most reliable way to know: track specification share, meaning how often your products are named in project documents compared with your competitors. Why it matters: specification share moves before sales do, so it's an early read on where your market share is heading How to do it: Cons",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "競合他社の製品は自社より多く仕様書に記載されているか",
+   "summary_ja": "確実な把握方法は仕様書シェアの追跡である。仕様書シェアは売上に先行して変動するため重要となる。"
   },
   {
    "id": "2b128ff09548",
@@ -69,7 +215,9 @@
    "published": "2026-11-09T19:24+00:00",
    "published_jst": "2026-11-10 04:24",
    "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropic、RSIの懸念の中で新型「Mythos」「Fable」を発表",
+   "summary_ja": "新モデルはコーディング、推論、視覚分野に加え、ユーザーとの円滑なコミュニケーションで向上を示している。"
   },
   {
    "id": "4a7141713ab5",
@@ -82,7 +230,9 @@
    "published": "2026-11-09T19:09+00:00",
    "published_jst": "2026-11-10 04:09",
    "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"st",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Apple、AI機能の利用枠を拡張する50ドルのパックを提供開始",
+   "summary_ja": "一部のApple Intelligence機能の利用制限発表に続き、Logic Proで49ドルの追加購入オプションが追加された。"
   },
   {
    "id": "9956252b485e",
@@ -95,7 +245,9 @@
    "published": "2026-11-09T19:09+00:00",
    "published_jst": "2026-11-10 04:09",
    "summary": "Weaker data center and warehouse project planning led to a 9% monthly decline in the Dodge Momentum Index.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "10月の建設着工計画、商業施設の減少により低下",
+   "summary_ja": "データセンターや倉庫の計画停滞により、ドッジ・モメンタム・インデックスが前月比9%下落した。"
   },
   {
    "id": "9c331579e229",
@@ -108,7 +260,9 @@
    "published": "2026-11-09T19:00+00:00",
    "published_jst": "2026-11-10 04:00",
    "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "「ChatGPT Enterprise」がAWS Marketplaceで利用可能に",
+   "summary_ja": "既存のAWSの購買および請求関係を通じて、組織の調達プロセスを簡素化できるようになった。"
   },
   {
    "id": "f1eea0a2781a",
@@ -121,7 +275,9 @@
    "published": "2026-11-09T19:00+00:00",
    "published_jst": "2026-11-10 04:00",
    "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropic、新モデル「Claude Fable 5.2」などを発表",
+   "summary_ja": "困難な技術的課題に挑むために設計され、コーディングなどの面で性能向上が見られるとしている。"
   },
   {
    "id": "796a7f7ee338",
@@ -133,8 +289,10 @@
    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
    "published": "2026-11-09T18:56+00:00",
    "published_jst": "2026-11-10 03:56",
-   "summary": "Article URL: https://www.anthropic.com/claude-fable-and-mythos-5-2 Comments URL: https://news.ycombinator.com/item?id=50429906 Points: 301 # Comments: 116",
-   "ai_related": true
+   "summary": "Article URL: https://www.anthropic.com/claude-fable-and-mythos-5-2 Comments URL: https://news.ycombinator.com/item?id=50429906 Points: 522 # Comments: 245",
+   "ai_related": true,
+   "title_ja": "Claude Fable 5.2およびMythos 5.2に関する情報",
+   "summary_ja": "Anthropicの新型モデルに関する公式発表およびHacker News上の議論やコメントのリンク情報。"
   },
   {
    "id": "4d2bf4843aea",
@@ -160,7 +318,9 @@
    "published": "2026-11-09T18:50+00:00",
    "published_jst": "2026-11-10 03:50",
    "summary": "Bytedance Seed has introduced Seedream 5.5, an image model built for professional production workflows. It supports stable multi-pass editing over up to 100 iterations, generates native RGBA images with transparent backgrounds, and, according to Bytedance, outperforms GPT-Image-2.5 Sunburst in reali",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Bytedance、色ずれなしで100回編集可能なSeedream 5.5を発表",
+   "summary_ja": "プロ向けの制作ワークフロー向けに構築され、最大100回の反復編集や透過PNGの生成を安定してサポートする。"
   },
   {
    "id": "6a52bca1a6cb",
@@ -173,7 +333,9 @@
    "published": "2026-11-09T18:32+00:00",
    "published_jst": "2026-11-10 03:32",
    "summary": "In addition to the greenfield facility in Houston, HITT will renovate Building 13 South as part of a broader $300 million contract shared among seven firms.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "HITT、テキサス州でNASA製造センターの起工式を実施",
+   "summary_ja": "ヒューストンの新施設に加え、7社で共有される3億ドルの契約の一環としてビル13サウスの改修を行う。"
   },
   {
    "id": "20ff528b5495",
@@ -186,7 +348,9 @@
    "published": "2026-11-09T18:09+00:00",
    "published_jst": "2026-11-10 03:09",
    "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ジェンスン・ファン氏のスキャンダルでNvidiaの中国戦略に懸念",
+   "summary_ja": "中国のスパイ疑惑との関係が取り沙汰され、米国の半導体輸出規制緩和に向けたロビー活動への影響が懸念されている。"
   },
   {
    "id": "9d5aee5d27ee",
@@ -199,7 +363,9 @@
    "published": "2026-11-09T18:07+00:00",
    "published_jst": "2026-11-10 03:07",
    "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Instagram、AIプロンプトからフィルターを作る機能を追加",
+   "summary_ja": "Stories用のカスタムフィルターをAIで生成する「Effect Builder」を、18歳以上の米国居住者向けに提供開始。"
   },
   {
    "id": "fe9001b06ea6",
@@ -212,6 +378,21 @@
    "published": "2026-11-09T18:00+00:00",
    "published_jst": "2026-11-10 03:00",
    "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+   "ai_related": true,
+   "title_ja": "Meta、エージェント実行向けの軽量AIモデル「Muse Ember」をリリース",
+   "summary_ja": "入力トークン100万あたり0.10ドルと、HaikuやLunaなどの他社最先端モデルよりも大幅に安価である。"
+  },
+  {
+   "id": "aed59df83c5d",
+   "source": "千葉日報オンライン",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "生成AI活用により建設現場の業務効率化を加速",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54dF94YkdJLVdabVdvbWFyekNFc3Q5YmVIR1JPZXp0MlpfUlVEWjNwZGhmeW1EMDVVYU80bks4elktVUN4R1kxeXA4cVpaWldRWlMxTkRR?oc=5",
+   "published": "2026-11-09T17:59+00:00",
+   "published_jst": "2026-11-10 02:59",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -225,7 +406,9 @@
    "published": "2026-11-09T17:36+00:00",
    "published_jst": "2026-11-10 02:36",
    "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIの未来を左右するのはジェンスン・ファン氏の私生活？",
+   "summary_ja": "他人の私生活には立ち入りたくないが、国家安全保障に関わる問題としてジェンスン・ファン氏の件を取り上げざるを得ない。"
   },
   {
    "id": "4065836ff3f5",
@@ -238,7 +421,9 @@
    "published": "2026-11-09T17:24+00:00",
    "published_jst": "2026-11-10 02:24",
    "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Claude Codeが誤ってGitHub上に機密情報を流出させる",
+   "summary_ja": "「再度尋ねない」というプロンプトにより、パスワードやAPIキーなどが意図せず共有される事態が発生している。"
   },
   {
    "id": "50d303e5bf84",
@@ -251,7 +436,9 @@
    "published": "2026-11-09T17:05+00:00",
    "published_jst": "2026-11-10 02:05",
    "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ナンシー・ペロシ氏の後任議員、AI規制に意欲を示す",
+   "summary_ja": "州上議員としてAI規制法案を主導したスコット・ウィーナー氏が、ペロシ氏の議席を引き継ぎAI規制に挑む。"
   },
   {
    "id": "ea1cff75717b",
@@ -264,7 +451,9 @@
    "published": "2026-11-09T16:56+00:00",
    "published_jst": "2026-11-10 01:56",
    "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropic、天然ガス・タービンを34億ドル相当購入しAIの電力需要へ参入",
+   "summary_ja": "Anthropicは数十億ドル規模の天然ガス・タービンを購入したが、後に後悔する可能性のある取引となった。"
   },
   {
    "id": "e188dcc610ac",
@@ -277,7 +466,9 @@
    "published": "2026-11-09T16:54+00:00",
    "published_jst": "2026-11-10 01:54",
    "summary": "Disney and Adobe are building custom AI tools together for the entertainment giant's productions. The article Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire appeared first on The Decoder .",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ディズニー、Adobe Fireflyを活用した安全なAIモデルの構築に注力",
+   "summary_ja": "ディズニーとAdobeが提携し、エンターテインメント企業の制作向けにブランド安全性を考慮したカスタムAIツールを共同開発する。"
   },
   {
    "id": "ad058ec7fa05",
@@ -290,7 +481,9 @@
    "published": "2026-11-09T16:12+00:00",
    "published_jst": "2026-11-10 01:12",
    "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Mediumの新アプリ「TK」、執筆をAIが直接支援",
+   "summary_ja": "出版業界でのAIの役割に議論が続く中、MediumはAI支援を取り入れた新しい執筆アプリを発表した。"
   },
   {
    "id": "67d134866a7d",
@@ -303,7 +496,9 @@
    "published": "2026-11-09T15:50+00:00",
    "published_jst": "2026-11-10 00:50",
    "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody […]",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "トランプ氏、60ミニッツでAI安全性や規制に言及",
+   "summary_ja": "AIの安全性に関する警告について問われ、リスクは管理可能であり誇張されていると主張した。"
   },
   {
    "id": "70e942b8f916",
@@ -316,20 +511,9 @@
    "published": "2026-11-09T15:44+00:00",
    "published_jst": "2026-11-10 00:44",
    "summary": "Tencent chief AI scientist Vinces Yao Shunyu warns that AI will soon be able to develop bioweapons and argues for a middle ground between open and closed models. While safety filters on open-source systems can be easily stripped through abliteration, closed models like Anthropic's Claude often block",
-   "ai_related": true
-  },
-  {
-   "id": "00a352416af1",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Get all your project info on your phone with SiteBot",
-   "url": "https://www.constructionenquirer.com/2026/11/09/get-all-your-project-info-on-your-phone-with-sitebot/",
-   "published": "2026-11-09T15:44+00:00",
-   "published_jst": "2026-11-10 00:44",
-   "summary": "All the power of construction AI in the palm of your hand",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "テンセントAI責任者：バイオ兵器の危険性とモデルのあり方",
+   "summary_ja": "AIによるバイオ兵器開発の危険性を警告し、オープンとクローズドの中間的なアプローチを主張した。"
   },
   {
    "id": "a9f32dba807c",
@@ -342,7 +526,9 @@
    "published": "2026-11-09T15:43+00:00",
    "published_jst": "2026-11-10 00:43",
    "summary": "Early construction work has already started on the site, according to a Fluor news release.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Fluor、40億ドルのケンタッキー州データセンターで契約獲得",
+   "summary_ja": "Fluorの発表によると、敷地内ですでに初期の建設作業が開始されている。"
   },
   {
    "id": "86961a9937fd",
@@ -355,7 +541,9 @@
    "published": "2026-11-09T15:38+00:00",
    "published_jst": "2026-11-10 00:38",
    "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technolog",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ディズニーとアドビ、生成AIツールを共同開発へ",
+   "summary_ja": "ディズニーの制作パイプラインを支援するため、アーティスト主導の独自生成AIモデルを複数年かけて開発する。"
   },
   {
    "id": "bce465cdb584",
@@ -368,7 +556,9 @@
    "published": "2026-11-09T15:30+00:00",
    "published_jst": "2026-11-10 00:30",
    "summary": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids for downloading music. That was when I decided to go be a copyright lawyer, whi",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "RIAAのCEOとの対談で感じた当時の記憶",
+   "summary_ja": "Napster全盛期に学生だった筆者が、RIAAのトップであるミッチ・グレイザー氏と当時を振り返り対談する。"
   },
   {
    "id": "5d63754d84e9",
@@ -381,7 +571,9 @@
    "published": "2026-11-09T15:23+00:00",
    "published_jst": "2026-11-10 00:23",
    "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "エヌビディアCEOのスキャンダルが国家安全保障問題に",
+   "summary_ja": "エヌビディアは、中国情報機関がCEOをスキャンダルで標的にしたかどうかを調査している。"
   },
   {
    "id": "20922ab50d73",
@@ -394,7 +586,9 @@
    "published": "2026-11-09T15:15+00:00",
    "published_jst": "2026-11-10 00:15",
    "summary": "The U.S. Department of Labor issued a final rule to rescind “affirmative action requirements” for federally registered apprenticeships, effective Jan. 5.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "米労働省、実習制度の差別禁止要件を改定する最終規則を発表",
+   "summary_ja": "連邦登録された実習におけるアファーマティブ・アクション要件を廃止する最終規則を発効した。"
   },
   {
    "id": "d0c486f9cdb2",
@@ -420,7 +614,9 @@
    "published": "2026-11-09T15:07+00:00",
    "published_jst": "2026-11-10 00:07",
    "summary": "A $3,000 award “is everything to people trying to get into these skilled careers” said Alvin Townley, founding executive director of nonprofit Skilled Nation.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "シュナイダーエレクトリック、非営利団体と技能職奨学金を支援",
+   "summary_ja": "「技能職を目指す人々にとって3,000ドルの賞はすべてだ」と非営利団体の代表は語っている。"
   },
   {
    "id": "65b61f4fe878",
@@ -433,7 +629,9 @@
    "published": "2026-11-09T15:07+00:00",
    "published_jst": "2026-11-10 00:07",
    "summary": "CIBSE's position statement explores the opportunities AI presents for the building engineering sector, alongside the risks, responsibilities and safeguards that must accompany its use. The post CIBSE publishes position statement on responsible AI in building engineering appeared first on Planning, B",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "CIBSE、ビルエンジニアリングにおける責任あるAIの声明を発表",
+   "summary_ja": "AIがもたらす機会に加え、その利用に伴うリスクや責任、必要なセーフガードについて探求している。"
   },
   {
    "id": "c938031e47f8",
@@ -458,8 +656,10 @@
    "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
    "published": "2026-11-09T14:31+00:00",
    "published_jst": "2026-11-09 23:31",
-   "summary": "Article URL: https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/ Comments URL: https://news.ycombinator.com/item?id=50426175 Points: 162 # Comments: 72",
-   "ai_related": true
+   "summary": "Article URL: https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/ Comments URL: https://news.ycombinator.com/item?id=50426175 Points: 182 # Comments: 93",
+   "ai_related": true,
+   "title_ja": "マゼンタ色の太陽光パネルがアグリボルタイクスに変革をもたらすか",
+   "summary_ja": "農業と太陽光発電を両立させるアグリボルタイクスにおいて、マゼンタ色のパネルが新たな可能性を開く。"
   },
   {
    "id": "cc49c1ae6860",
@@ -472,7 +672,9 @@
    "published": "2026-11-09T14:30+00:00",
    "published_jst": "2026-11-09 23:30",
    "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former acting Antitrust Div",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ジョナサン・カンター氏、AIを活用して巨大テックに挑む",
+   "summary_ja": "司法省反トラスト局長を退任後、民間セクターから違法な独占を解体するための闘いを続けている。"
   },
   {
    "id": "97be7dad625b",
@@ -485,7 +687,9 @@
    "published": "2026-11-09T14:00+00:00",
    "published_jst": "2026-11-09 23:00",
    "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ロボットがシミュレーションで繊細な作業を習得",
+   "summary_ja": "ロボットが歩行だけでなく、歯車の調整やケーブル接続など、より細かい作業の訓練にシミュレーションを活用。"
   },
   {
    "id": "95c3c02be004",
@@ -498,6 +702,21 @@
    "published": "2026-11-09T14:00+00:00",
    "published_jst": "2026-11-09 23:00",
    "summary": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+   "ai_related": true,
+   "title_ja": "オートマティック、変化するネット社会に向け新プラットフォーム発表",
+   "summary_ja": "Spacefastを投入し、Lovableなどの競合に対抗することを目指している。"
+  },
+  {
+   "id": "7069235f795b",
+   "source": "Excite エキサイト",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ミズホ機材、足場製品の製造DXを本格始動 ～中国製造拠点から、日本品質を追求する次世代型ものづくりへ",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56c21jUVd3RTJrTlpRbjdvWmI1aWtFVm5mb1dtWjVwXzBpVm1LdlJhVWUyTFR4WkNkX003bEZwMXZlLUJiUnVmcnZpVi1ManFYbGF6eXRHVXowU1lrNHY1dVNOT2NHN0NVQ1M5dlh6am1YX0U?oc=5",
+   "published": "2026-11-09T13:40+00:00",
+   "published_jst": "2026-11-09 22:40",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -511,7 +730,9 @@
    "published": "2026-11-09T13:00+00:00",
    "published_jst": "2026-11-09 22:00",
    "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufactur",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "特殊化学産業におけるAIを活用したイノベーション",
+   "summary_ja": "AIやクラウドを活用してイノベーションを加速させる中、最大の課題は新技術と信頼できるデータの統合にある。"
   },
   {
    "id": "c3600664cc80",
@@ -524,46 +745,9 @@
    "published": "2026-11-09T12:59+00:00",
    "published_jst": "2026-11-09 21:59",
    "summary": "Google is expanding its TPU 8 family with two specialized variants: the TPU 8tx keeps sensitive data encrypted even during processing, while the TPU 8i Max doubles compute power and memory by placing two chips on a single package. With nearly 100 external customers now on board, Google is increasing",
-   "ai_related": true
-  },
-  {
-   "id": "a8c9665a88d3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction chiefs launch lobby group for smaller firms",
-   "url": "https://www.constructionnews.co.uk/supply-chain/construction-chiefs-launch-lobby-group-for-smaller-firms-09-11-2026/",
-   "published": "2026-11-09T12:45+00:00",
-   "published_jst": "2026-11-09 21:45",
-   "summary": "The heads of two construction industry bodies will lead a new lobbying group aimed at giving smaller firms more influence over government decisions on skills, procurement and regulation. The Construction Growth Coalition (CGC) launched on 5 November. It is co-chaired by Chartered Institute of Buildi",
-   "ai_related": false
-  },
-  {
-   "id": "e8add06d52ca",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "HSE asbestos reforms welcomed but urgent removals urged",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/hse-asbestos-reforms-welcomed-but-urgent-removals-urged-09-11-2026/",
-   "published": "2026-11-09T12:45+00:00",
-   "published_jst": "2026-11-09 21:45",
-   "summary": "The trade body for asbestos testers has welcomed Health and Safety Executive (HSE) revisions to impartiality rules but has called for more proactive removal of the material from buildings. The watchdog announced this week that it will amend the Control of Asbestos Regulations 2012 to… The post HSE a",
-   "ai_related": false
-  },
-  {
-   "id": "83b43c4e0d82",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolding company fined £16,000 after trainee death",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-company-fined-16000-after-trainee-death-09-11-2026/",
-   "published": "2026-11-09T12:45+00:00",
-   "published_jst": "2026-11-09 21:45",
-   "summary": "A company has been fined £16,000 after a trainee scaffolder died in a five-metre fall from a partially erected scaffold. Michael Swales was working for Ask Scaffolding Ltd when the incident happened on 5 July 2023, the Health and Safety Executive (HSE) said. The firm… The post Scaffolding company fi",
-   "ai_related": false
+   "ai_related": true,
+   "title_ja": "グーグル、1年で4種のTPUを発表しエヌビディアに対抗",
+   "summary_ja": "TPU 8ファミリーを拡充し、セキュリティ重視型や演算能力を倍増させた特化型モデルを展開している。"
   },
   {
    "id": "a0fce1a3a488",
@@ -592,84 +776,6 @@
    "ai_related": true
   },
   {
-   "id": "6e2c38142c8b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Pagabo doubles medium works limit to £20m",
-   "url": "https://www.constructionnews.co.uk/contracts/pagabo-doubles-medium-works-limit-to-20m-09-11-2026/",
-   "published": "2026-11-09T12:37+00:00",
-   "published_jst": "2026-11-09 21:37",
-   "summary": "Pagabo has doubled the maximum project value on its medium works framework to £20m as it invites contractors to bid for places on a new £2bn procurement. The four-year framework will replace the £1bn Medium Works Framework launched in 2023, which covered individual contracts worth… The post Pagabo d",
-   "ai_related": false
-  },
-  {
-   "id": "02aca6f01ede",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Budget 2026: a look at the opportunities and challenges",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/budget-2026-a-look-at-the-opportunities-and-challenges-09-11-2026/",
-   "published": "2026-11-09T12:34+00:00",
-   "published_jst": "2026-11-09 21:34",
-   "summary": "Kelly Boorman is the national head of construction at RSM While tax policy changes in the Budget were insignificant for the construction industry, the Chancellor’s commitment to infrastructure investment and accelerating housing development was clear. So, what does this mean for the industry? Commit",
-   "ai_related": false
-  },
-  {
-   "id": "385d438f6c4a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Valleys to Coast launches £250m framework",
-   "url": "https://www.constructionnews.co.uk/contracts/valleys-to-coast-launches-250m-framework-09-11-2026/",
-   "published": "2026-11-09T12:29+00:00",
-   "published_jst": "2026-11-09 21:29",
-   "summary": "Welsh housing association Valleys to Coast has launched a £250m framework covering new-build construction, regeneration and refurbishment projects across Wales. The housing provider is seeking contractors for a multi-supplier agreement covering projects ranging from small housing schemes to developm",
-   "ai_related": false
-  },
-  {
-   "id": "06455ee10a72",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Council mulls re-procurement of Octavius road job",
-   "url": "https://www.constructionnews.co.uk/civils/council-mulls-re-procurement-of-octavius-road-job-09-11-2026/",
-   "published": "2026-11-09T12:20+00:00",
-   "published_jst": "2026-11-09 21:20",
-   "summary": "Councillors have been asked to approve a plan to re-procure a major road project in the South West after predicted costs spiralled. Mike Bell, the North Somerset Council cabinet member for strategic partnerships, finance and corporate services, will present a case tomorrow (10 November) for going… T",
-   "ai_related": false
-  },
-  {
-   "id": "9e6dc223f22d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bovis signs contract for 36-storey City tower",
-   "url": "https://www.constructionnews.co.uk/contracts/bovis-signs-contract-for-36-storey-city-tower-09-11-2026/",
-   "published": "2026-11-09T12:05+00:00",
-   "published_jst": "2026-11-09 21:05",
-   "summary": "Bovis has signed the main construction contract for a 36-storey office tower at 60 Gracechurch Street in the City of London. The contractor has been providing pre-construction services on the scheme since July 2025, working with developer Sellar and the project’s consultant team. Main construction… ",
-   "ai_related": false
-  },
-  {
-   "id": "1a229518c39b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bam scoops another EGL3 converter station job",
-   "url": "https://www.constructionnews.co.uk/contracts/bam-scoops-another-egl3-converter-station-job-09-11-2026/",
-   "published": "2026-11-09T12:03+00:00",
-   "published_jst": "2026-11-09 21:03",
-   "summary": "Bam UK & Ireland has been appointed to deliver works at the southern converter station for Eastern Green Link 3 (EGL3), extending its involvement to both ends of the proposed link. The company was previously appointed for early contractor involvement on the northern converter station… The post Bam s",
-   "ai_related": false
-  },
-  {
    "id": "7ac548fbaac2",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -680,20 +786,9 @@
    "published": "2026-11-09T11:38+00:00",
    "published_jst": "2026-11-09 20:38",
    "summary": "Nvidia CEO Jensen Huang has admitted to an extramarital affair with a woman US intelligence agencies classify as a suspected Chinese informant. The board has launched an independent investigation. The affair weakens Huang's lobbying efforts against stricter AI chip export controls, with a newly elec",
-   "ai_related": true
-  },
-  {
-   "id": "e64680b79c6b",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bidding starts for £2bn Pagabo small to medium works deal",
-   "url": "https://www.constructionenquirer.com/2026/11/09/bidding-starts-for-2bn-pagabo-small-to-medium-works-deal/",
-   "published": "2026-11-09T11:17+00:00",
-   "published_jst": "2026-11-09 20:17",
-   "summary": "Regional firms targeted for four-year framework covering jobs up to £20m",
-   "ai_related": false
+   "ai_related": true,
+   "title_ja": "エヌビディアの不祥事、輸出規制反対のロビー活動に打撃",
+   "summary_ja": "ファンCEOの不倫スキャンダルが発覚し、AIチップの輸出規制強化に対する同氏の主張を弱める結果となった。"
   },
   {
    "id": "8c28af5b2329",
@@ -709,17 +804,17 @@
    "ai_related": false
   },
   {
-   "id": "3fc60a10a3ed",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "BAM bags both ends of EGL3 power superhighway",
-   "url": "https://www.constructionenquirer.com/2026/11/09/bam-bags-both-ends-of-egl3-power-superhighway/",
-   "published": "2026-11-09T10:59+00:00",
-   "published_jst": "2026-11-09 19:59",
-   "summary": "Norfolk converter station win follows earlier Peterhead appointment",
-   "ai_related": false
+   "id": "a464d29c0452",
+   "source": "ITmedia",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設現場の電源を遠隔操作するIoTシステム「JITAN SWITCH」を機能強化、デジタルサイネージとともに拡販",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qYzRIekRkcm41Y1pMUlNmOEFxR2xHWktIMmtCWFpXNDBZOTNKMjAtVEhRU0VONWVhUHlmOUxSSkJCZkJxeU1ZNGw3OUJwS2llWVRHWWEyajRndzV1cXZXLVk0a3Y4MVk0R0Mwaw?oc=5",
+   "published": "2026-11-09T11:00+00:00",
+   "published_jst": "2026-11-09 20:00",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "ce5fe27343d1",
@@ -733,32 +828,6 @@
    "published_jst": "2026-11-09 19:52",
    "summary": "AI開発企業のZyphraがAIエージェントツール「MAIA」のベータ版を公開しました。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "25ff23a4d555",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Plant dealer Molson appoints administrators",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/plant-dealer-molson-appoints-administrators-09-11-2026/",
-   "published": "2026-11-09T10:47+00:00",
-   "published_jst": "2026-11-09 19:47",
-   "summary": "Four companies in the plant dealer Molson Group have called in administrators. A notice on the Bristol-based group's website showed on Friday (6 November) that joint administrators from PwC have been appointed for Molson Equipment Services Ltd, Capital Equipment Finance Ltd, Aggregate Processing Sol",
-   "ai_related": false
-  },
-  {
-   "id": "a1087a007a9e",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Severfield hires former Robert Bird boss as technical chief",
-   "url": "https://www.constructionenquirer.com/2026/11/09/severfield-hires-former-robert-bird-boss-as-technical-chief/",
-   "published": "2026-11-09T10:31+00:00",
-   "published_jst": "2026-11-09 19:31",
-   "summary": "Simon Nicholas handed brief to get steel giant into projects earlier",
-   "ai_related": false
   },
   {
    "id": "958f55cc51ce",
@@ -787,19 +856,6 @@
    "ai_related": false
   },
   {
-   "id": "32a3890cd87c",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Digger maker Kobelco swoops for control of rival Case",
-   "url": "https://www.constructionenquirer.com/2026/11/09/digger-maker-kobelco-swoops-for-control-of-rival-case/",
-   "published": "2026-11-09T10:21+00:00",
-   "published_jst": "2026-11-09 19:21",
-   "summary": "Case-owner CNH agrees £524m sale of majority stake in construction equipment arm",
-   "ai_related": false
-  },
-  {
    "id": "d04d76538dae",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -823,7 +879,9 @@
    "published": "2026-11-09T10:00+00:00",
    "published_jst": "2026-11-09 19:00",
    "summary": "When AI gives every bidder the same quantities, judgment becomes the real competitive edge.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "すべての請負業者が同じAIを使う場合の競争優位性とは",
+   "summary_ja": "AIが同じ見積もりを弾き出す時代において、人間の判断力こそが真の競争力の源泉となる。"
   },
   {
    "id": "60a92d8f2c6d",
@@ -836,7 +894,9 @@
    "published": "2026-11-09T10:00+00:00",
    "published_jst": "2026-11-09 19:00",
    "summary": "4 key questions contractors should be able to answer before commitments become consequences.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "データセンターの主要なリスクを特定するためのガイドライン",
+   "summary_ja": "契約を結ぶ前に、請負業者が事前に回答しておくべき4つの重要な質問について解説する。"
   },
   {
    "id": "657c6df6104a",
@@ -849,7 +909,9 @@
    "published": "2026-11-09T10:00+00:00",
    "published_jst": "2026-11-09 19:00",
    "summary": "See how streamlined bill payments help construction firms cut costs, save time and drive growth.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "請求処理の効率化が建設ビジネスの成長を駆動する方法",
+   "summary_ja": "請求支払いの合理化が、建設会社のコスト削減、時間短縮、および事業成長にどのように貢献するかを示す。"
   },
   {
    "id": "797296dff620",
@@ -944,7 +1006,9 @@
    "published": "2026-11-09T08:00+00:00",
    "published_jst": "2026-11-09 17:00",
    "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "九研工業、70年分の図面検索を数分に短縮",
+   "summary_ja": "九研工業はOpenAIのAPIを活用し、冷却塔の70年分の図面検索を効率化。エンジニアが必要な図面を探す時間を約1時間から4.5分へと大幅に短縮した。"
   },
   {
    "id": "57a8ba0d5522",
@@ -975,6 +1039,21 @@
    "ai_related": false,
    "title_ja": "Taylor Wimpey、人員削減に向けた協議を開始",
    "summary_ja": "コスト削減の一環として、解雇を計画し進行中。"
+  },
+  {
+   "id": "60cea28eb01f",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "South Wales highways framework jumps £135m to £405m",
+   "url": "https://www.constructionenquirer.com/2026/11/09/south-wales-highways-framework-jumps-135m-to-405m/",
+   "published": "2026-11-09T07:12+00:00",
+   "published_jst": "2026-11-09 16:12",
+   "summary": "Contractors offered bigger slice of six-year roads and bridges programme",
+   "ai_related": false,
+   "title_ja": "南ウェールズの道路事業予算、1.35億ポンド増の4.05億ポンドに",
+   "summary_ja": "6年間の道路・橋梁整備プログラムにおいて、建設会社に割り当てられる予算がさらに拡大される。"
   },
   {
    "id": "756fe490ed1c",
@@ -1355,19 +1434,6 @@
    "ai_related": true
   },
   {
-   "id": "87550c2456a0",
-   "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "XCMG、「AI＋建設機械（AI + Construction Machinery）」コンテストで国際的なイノベーションを紹介 (2026年11月9日掲載)",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TLTZXTTlnNnYxRnBsQVk5QzIwY1lRXzBIeThvakRMczRUREJBMzhwSzJmV3NtbHF4ZU1YaV90ZlI1SmRZRkZfUmhTWWNkQmt5amFNaXNsdGdOVndpMmQ0Q29n?oc=5",
-   "published": "2026-11-09T01:30+00:00",
-   "published_jst": "2026-11-09 10:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "44b98360796d",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1553,19 +1619,6 @@
    "published": "2026-11-08T22:00+00:00",
    "published_jst": "2026-11-09 07:00",
    "summary": "2名の研究者によるAI研究組織「Linum」が画像生成モデル「Pyramid-JiT(P-JiT)」を公開しました。P-JiTは画像生成AIが抱える「生成に時間とコストがかかる」「制御が難しい」という二つの主要な課題の克服を目指しており、開発コストを2万1千ドル(約331万5千円)に抑えられたことがアピールされています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "aed59df83c5d",
-   "source": "千葉日報オンライン",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "生成AI活用により建設現場の業務効率化を加速",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE54dF94YkdJLVdabVdvbWFyekNFc3Q5YmVIR1JPZXp0MlpfUlVEWjNwZGhmeW1EMDVVYU80bks4elktVUN4R1kxeXA4cVpaWldRWlMxTkRR?oc=5",
-   "published": "2026-11-08T21:48+00:00",
-   "published_jst": "2026-11-09 06:48",
-   "summary": "",
    "ai_related": true
   },
   {
