@@ -1,20 +1,37 @@
 {
- "generated_at": "2026-11-10T04:05+00:00",
- "generated_at_jst": "2026-11-10 13:05",
+ "generated_at": "2026-11-10T04:21+00:00",
+ "generated_at_jst": "2026-11-10 13:21",
  "window_hours": 48,
  "counts": {
+  "construction_japan": 70,
   "ai_japan": 32,
-  "construction_japan": 69,
   "ai_global": 58,
-  "construction_global": 26
+  "construction_global": 16
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "d42c76b8ed82",
+   "source": "日本経済新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "川田工業とHighlanders、AIによる建設現場の可視化を実現する4足歩行ロボットシステムを共同開発",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lZGwwNkYxRnlMUEl6a0xTa1Noa253OS12ZzhaVWVSck1xQzM0N2pZOWZvQ0UxSlZyV29nN3ZvMEZHVlUwVmV2cVVkdFNpMjlPMHdDSFliU0d2V015ZVhodkR2Q0tFZ3dYRVZHcQ?oc=5",
+   "published": "2026-11-10T03:57+00:00",
+   "published_jst": "2026-11-10 12:57",
+   "summary": "",
+   "ai_related": true
+  },
   {
    "id": "a805d2b08f09",
    "source": "GIGAZINE",
@@ -29,6 +46,19 @@
    "ai_related": true
   },
   {
+   "id": "5181d1b7ffc2",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "dotsが「複数台のローカルコンピュータ接続」に対応 各マシンでタスクを分担可能に",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2611/10/2000003058/",
+   "published": "2026-11-10T03:47+00:00",
+   "published_jst": "2026-11-10 12:47",
+   "summary": "OpenAIは常時稼働型エージェントツール「dots」が複数台のローカルコンピュータに接続できるようになったと発表した。",
+   "ai_related": true
+  },
+  {
    "id": "4ac5a272094c",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -39,6 +69,19 @@
    "published": "2026-11-10T03:30+00:00",
    "published_jst": "2026-11-10 12:30",
    "summary": "Metaが2026年11月9日に発表した小型AIモデル「Muse Ember」について、AIモデルの評価を行うArtificial Analysis、Vals AI、Arena.aiなどがベンチマーク結果を公開しました。Muse Emberは競合モデルと同等以上の性能を低コストで実現していると評価されており、特にAIエージェントによる作業やウェブ開発で高いコストパフォーマンスを示しています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "32b75834a1b5",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Instagram、年齢を偽った10代もAIで検出 日本でも保護機能の適用を開始",
+   "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003056/",
+   "published": "2026-11-10T03:27+00:00",
+   "published_jst": "2026-11-10 12:27",
+   "summary": "Metaは、Instagramで成人として年齢登録していても、AIが10代と推定したユーザーには「ティーンアカウント」の保護機能を強制適用する取り組みを日本を含む世界各国に拡大すると発表した。日本では同月10日より導入する。年齢詐称による制限回避を防ぐ狙いで、今後Threadsなどにも順次展開していく予定だ。",
    "ai_related": true
   },
   {
@@ -578,7 +621,7 @@
    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
    "published": "2026-11-09T21:56+00:00",
    "published_jst": "2026-11-10 06:56",
-   "summary": "Article URL: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/ Comments URL: https://news.ycombinator.com/item?id=50432831 Points: 226 # Comments: 67",
+   "summary": "Article URL: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/ Comments URL: https://news.ycombinator.com/item?id=50432831 Points: 228 # Comments: 70",
    "ai_related": true,
    "title_ja": "TPU 8txおよびTPU 8i Max",
    "summary_ja": "Googleのインフラおよびクラウド部門による新製品や技術に関する記事とHacker News上の議論を紹介。"
@@ -701,7 +744,7 @@
    "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
    "published": "2026-11-09T20:04+00:00",
    "published_jst": "2026-11-10 05:04",
-   "summary": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 305 # Comments: 229",
+   "summary": "Article URL: https://artificialanalysis.ai/models/claude-fable-5-2 Comments URL: https://news.ycombinator.com/item?id=50431144 Points: 309 # Comments: 230",
    "ai_related": true,
    "title_ja": "Claude Fable 5.2が最高得点を記録",
    "summary_ja": "Artificial AnalysisにおいてClaude Fable 5.2がこれまでで最高となる65点を記録したことを伝える記事。"
@@ -1009,7 +1052,7 @@
    "url": "https://github.com/thisisme6598/gemini_files/",
    "published": "2026-11-09T18:24+00:00",
    "published_jst": "2026-11-10 03:24",
-   "summary": "Article URL: https://github.com/thisisme6598/gemini_files/ Comments URL: https://news.ycombinator.com/item?id=50429426 Points: 469 # Comments: 113",
+   "summary": "Article URL: https://github.com/thisisme6598/gemini_files/ Comments URL: https://news.ycombinator.com/item?id=50429426 Points: 476 # Comments: 113",
    "ai_related": true,
    "title_ja": "Google Geminiが個人ファイルを人間のアノテーターに送信か",
    "summary_ja": "Google Geminiが個人のDriveファイルやメールを人間の注釈者にルーティングしているとするGitHub上の情報。"
@@ -1054,7 +1097,7 @@
    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
    "published": "2026-11-09T18:01+00:00",
    "published_jst": "2026-11-10 03:01",
-   "summary": "Article URL: https://www.anthropic.com/claude-fable-and-mythos-5-2 Comments URL: https://news.ycombinator.com/item?id=50429068 Points: 286 # Comments: 648",
+   "summary": "Article URL: https://www.anthropic.com/claude-fable-and-mythos-5-2 Comments URL: https://news.ycombinator.com/item?id=50429068 Points: 310 # Comments: 665",
    "ai_related": true,
    "title_ja": "Claude Fable 5.2およびMythos 5.2に関する情報",
    "summary_ja": "Anthropicの新型モデルに関する公式発表およびHacker News上の議論やコメントのリンク情報。"
@@ -1427,51 +1470,6 @@
    "summary_ja": "TPU 8ファミリーを拡充し、セキュリティ重視型や演算能力を倍増させた特化型モデルを展開している。"
   },
   {
-   "id": "a8c9665a88d3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction chiefs launch lobby group for smaller firms",
-   "url": "https://www.constructionnews.co.uk/supply-chain/construction-chiefs-launch-lobby-group-for-smaller-firms-09-11-2026/",
-   "published": "2026-11-09T12:45+00:00",
-   "published_jst": "2026-11-09 21:45",
-   "summary": "The heads of two construction industry bodies will lead a new lobbying group aimed at giving smaller firms more influence over government decisions on skills, procurement and regulation. The Construction Growth Coalition (CGC) launched on 5 November. It is co-chaired by Chartered Institute of Buildi",
-   "ai_related": false,
-   "title_ja": "建設業界の首脳陣が中小企業向けのロビー団体を設立",
-   "summary_ja": "政府の政策決定への影響力を高めるため、2つの建設業界団体トップが中小企業向けの新たなロビー活動グループを結成。"
-  },
-  {
-   "id": "e8add06d52ca",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "HSE asbestos reforms welcomed but urgent removals urged",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/hse-asbestos-reforms-welcomed-but-urgent-removals-urged-09-11-2026/",
-   "published": "2026-11-09T12:45+00:00",
-   "published_jst": "2026-11-09 21:45",
-   "summary": "The trade body for asbestos testers has welcomed Health and Safety Executive (HSE) revisions to impartiality rules but has called for more proactive removal of the material from buildings. The watchdog announced this week that it will amend the Control of Asbestos Regulations 2012 to… The post HSE a",
-   "ai_related": false,
-   "title_ja": "HSEのアスベスト規制見直しを歓迎する声と迅速な撤去の要請",
-   "summary_ja": "中立性ルールの改定は歓迎されたものの、建物からのアスベストのより積極的な撤去を求める声が業界団体から上がっている。"
-  },
-  {
-   "id": "83b43c4e0d82",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scaffolding company fined £16,000 after trainee death",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/scaffolding-company-fined-16000-after-trainee-death-09-11-2026/",
-   "published": "2026-11-09T12:45+00:00",
-   "published_jst": "2026-11-09 21:45",
-   "summary": "A company has been fined £16,000 after a trainee scaffolder died in a five-metre fall from a partially erected scaffold. Michael Swales was working for Ask Scaffolding Ltd when the incident happened on 5 July 2023, the Health and Safety Executive (HSE) said. The firm… The post Scaffolding company fi",
-   "ai_related": false,
-   "title_ja": "足場会社に1万6千ポンドの罰金、訓練生の転落死を受け",
-   "summary_ja": "不完全な足場からの転落事故で訓練生が死亡した労働災害をめぐり、足場会社に罰金刑が言い渡された。"
-  },
-  {
    "id": "25e8b725762b",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
@@ -1485,21 +1483,6 @@
    "ai_related": true
   },
   {
-   "id": "6e2c38142c8b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Pagabo doubles medium works limit to £20m",
-   "url": "https://www.constructionnews.co.uk/contracts/pagabo-doubles-medium-works-limit-to-20m-09-11-2026/",
-   "published": "2026-11-09T12:37+00:00",
-   "published_jst": "2026-11-09 21:37",
-   "summary": "Pagabo has doubled the maximum project value on its medium works framework to £20m as it invites contractors to bid for places on a new £2bn procurement. The four-year framework will replace the £1bn Medium Works Framework launched in 2023, which covered individual contracts worth… The post Pagabo d",
-   "ai_related": false,
-   "title_ja": "Pagaboが中規模工事の限度額を2000万ポンドに引き上げ",
-   "summary_ja": "新規案件の入札開始に伴い、Pagaboは中規模工事枠の最大プロジェクト価値を2000万ポンドへと倍増させた。"
-  },
-  {
    "id": "8145716b1a5a",
    "source": "読売新聞",
    "source_id": "gnews_kensetsu_ai",
@@ -1511,81 +1494,6 @@
    "published_jst": "2026-11-09 21:37",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "02aca6f01ede",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Budget 2026: a look at the opportunities and challenges",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/budget-2026-a-look-at-the-opportunities-and-challenges-09-11-2026/",
-   "published": "2026-11-09T12:34+00:00",
-   "published_jst": "2026-11-09 21:34",
-   "summary": "Kelly Boorman is the national head of construction at RSM While tax policy changes in the Budget were insignificant for the construction industry, the Chancellor’s commitment to infrastructure investment and accelerating housing development was clear. So, what does this mean for the industry? Commit",
-   "ai_related": false,
-   "title_ja": "2026年予算案：機会と課題を探る",
-   "summary_ja": "RSMの建設部門責任者ケリー・ブールマンが、予算案におけるインフラ投資と事業加速への期待について語る。"
-  },
-  {
-   "id": "385d438f6c4a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Valleys to Coast launches £250m framework",
-   "url": "https://www.constructionnews.co.uk/contracts/valleys-to-coast-launches-250m-framework-09-11-2026/",
-   "published": "2026-11-09T12:29+00:00",
-   "published_jst": "2026-11-09 21:29",
-   "summary": "Welsh housing association Valleys to Coast has launched a £250m framework covering new-build construction, regeneration and refurbishment projects across Wales. The housing provider is seeking contractors for a multi-supplier agreement covering projects ranging from small housing schemes to developm",
-   "ai_related": false,
-   "title_ja": "Valleys to Coastが2.5億ポンドの枠組みを発足",
-   "summary_ja": "ウェールズの住宅協会が、新築や再生などの事業を対象とした2億5000万ポンドの枠組みを開始し、施工業者を募集。"
-  },
-  {
-   "id": "06455ee10a72",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Council mulls re-procurement of Octavius road job",
-   "url": "https://www.constructionnews.co.uk/civils/council-mulls-re-procurement-of-octavius-road-job-09-11-2026/",
-   "published": "2026-11-09T12:20+00:00",
-   "published_jst": "2026-11-09 21:20",
-   "summary": "Councillors have been asked to approve a plan to re-procure a major road project in the South West after predicted costs spiralled. Mike Bell, the North Somerset Council cabinet member for strategic partnerships, finance and corporate services, will present a case tomorrow (10 November) for going… T",
-   "ai_related": false,
-   "title_ja": "自治体、オクダヴィスの道路工事の再調達を検討",
-   "summary_ja": "南西部の主要な道路事業で予測コストが急増したため、議員らが再調達プランの承認を求められている。"
-  },
-  {
-   "id": "9e6dc223f22d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bovis signs contract for 36-storey City tower",
-   "url": "https://www.constructionnews.co.uk/contracts/bovis-signs-contract-for-36-storey-city-tower-09-11-2026/",
-   "published": "2026-11-09T12:05+00:00",
-   "published_jst": "2026-11-09 21:05",
-   "summary": "Bovis has signed the main construction contract for a 36-storey office tower at 60 Gracechurch Street in the City of London. The contractor has been providing pre-construction services on the scheme since July 2025, working with developer Sellar and the project’s consultant team. Main construction… ",
-   "ai_related": false,
-   "title_ja": "Bovis、シティの36階建てタワー建設契約を締結",
-   "summary_ja": "Bovisがロンドン市内の60 Gracechurch Streetに建設される36階建てオフィスビルの主契約を締結した。"
-  },
-  {
-   "id": "1a229518c39b",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bam scoops another EGL3 converter station job",
-   "url": "https://www.constructionnews.co.uk/contracts/bam-scoops-another-egl3-converter-station-job-09-11-2026/",
-   "published": "2026-11-09T12:03+00:00",
-   "published_jst": "2026-11-09 21:03",
-   "summary": "Bam UK & Ireland has been appointed to deliver works at the southern converter station for Eastern Green Link 3 (EGL3), extending its involvement to both ends of the proposed link. The company was previously appointed for early contractor involvement on the northern converter station… The post Bam s",
-   "ai_related": false,
-   "title_ja": "Bam、EGL3コンバーター局の工事を再び受注",
-   "summary_ja": "Bam UK & IrelandがEastern Green Link 3の南部コンバーター局の施工を受注し、両端の工事に関与することになった。"
   },
   {
    "id": "7ac548fbaac2",
@@ -1631,19 +1539,6 @@
    "summary_ja": "AEC業界の首脳らによるサミットで、関税やインフレ以上に労働力やリーダーシップの重要性が議論の中心となった。"
   },
   {
-   "id": "a464d29c0452",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場の電源を遠隔操作するIoTシステム「JITAN SWITCH」を機能強化、デジタルサイネージとともに拡販",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qYzRIekRkcm41Y1pMUlNmOEFxR2xHWktIMmtCWFpXNDBZOTNKMjAtVEhRU0VONWVhUHlmOUxSSkJCZkJxeU1ZNGw3OUJwS2llWVRHWWEyajRndzV1cXZXLVk0a3Y4MVk0R0Mwaw?oc=5",
-   "published": "2026-11-09T11:00+00:00",
-   "published_jst": "2026-11-09 20:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "ce5fe27343d1",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1655,21 +1550,6 @@
    "published_jst": "2026-11-09 19:52",
    "summary": "AI開発企業のZyphraがAIエージェントツール「MAIA」のベータ版を公開しました。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "25ff23a4d555",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Plant dealer Molson appoints administrators",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/plant-dealer-molson-appoints-administrators-09-11-2026/",
-   "published": "2026-11-09T10:47+00:00",
-   "published_jst": "2026-11-09 19:47",
-   "summary": "Four companies in the plant dealer Molson Group have called in administrators. A notice on the Bristol-based group's website showed on Friday (6 November) that joint administrators from PwC have been appointed for Molson Equipment Services Ltd, Capital Equipment Finance Ltd, Aggregate Processing Sol",
-   "ai_related": false,
-   "title_ja": "建機ディーラーのMolsonが管財人を選任",
-   "summary_ja": "Molson Groupの4社が管財人を選任した。PwCの共同管財人が選ばれたことがウェブサイトの通知で明らかになった。"
   },
   {
    "id": "b67d170f5ed7",
@@ -2334,32 +2214,6 @@
    "summary_ja": "文字列を数値に変換するparse_number()関数を追加するSQLiteのC言語拡張の開発難易度について調査。"
   },
   {
-   "id": "71d028e47a2b",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "“おいしい魚”を届けられないかも──スシロー、漁業の危機にどう挑む？ 富士通とタッグ、AIで「海を解剖」するワケ",
-   "url": "https://www.itmedia.co.jp/business/articles/2611/09/news039.html",
-   "published": "2026-11-08T22:00+00:00",
-   "published_jst": "2026-11-09 07:00",
-   "summary": "スシロー、クロシオ水産、富士通などが手を組み、海洋テックを生かした養殖に挑戦している。舞台は、高知県の宿毛湾。異業種連携で、水産業の課題を解決できるのか。",
-   "ai_related": true
-  },
-  {
-   "id": "bf3da7412caf",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「勝手に社外AIを使う」エース社員に困っています……どうすべき？",
-   "url": "https://www.itmedia.co.jp/business/articles/2611/09/news038.html",
-   "published": "2026-11-08T22:00+00:00",
-   "published_jst": "2026-11-09 07:00",
-   "summary": "「会社の“公認AI”では物足りない」――社員が「シャドーAI」を使っている場合、“禁止令”を出すだけで解決する問題なのか。AI活用を推進するために企業はどう対応すればよいのか。",
-   "ai_related": true
-  },
-  {
    "id": "bc55171edc52",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2440,32 +2294,6 @@
    "ai_related": false
   },
   {
-   "id": "6d932c63a786",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "概算総工費は175億/大規模改修に着手/港区の障害保健福祉センター等複合施設",
-   "url": "https://www.kensetsunews.com/archives/1305977",
-   "published": "2026-11-08T19:55+00:00",
-   "published_jst": "2026-11-09 04:55",
-   "summary": "東京都港区は、竣工から約３０年が経過した障害保健福祉センター等複合施設の大規模改修に着手する。総工… The post 概算総工費は175億/大規模改修に着手/港区の障害保健福祉センター等複合施設 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "a53d50e65015",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "12月1日まで参加受付/WTO大井局舎新設新築など/北関東防衛局",
-   "url": "https://www.kensetsunews.com/archives/1305994",
-   "published": "2026-11-08T19:55+00:00",
-   "published_jst": "2026-11-09 04:55",
-   "summary": "北関東防衛局は６日、ＷＴＯ対象となる「大井（８）局舎新設等建築その他工事」「市ヶ谷（８）電気設備更… The post 12月1日まで参加受付/WTO大井局舎新設新築など/北関東防衛局 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "866f89fa3649",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2476,6 +2304,45 @@
    "published": "2026-11-08T19:55+00:00",
    "published_jst": "2026-11-09 04:55",
    "summary": "【「新たな得手」づくりに積極／リニューアル事業拡大も／ＩＮＡ新建築研究所 加藤朋行（かとう・ともゆき… The post 連載・建築設計事務所/新座標を刻む(5) first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "bdd18b3ae36f",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "学舎・体育館2万平米を公告/基本設計12月14日まで受付/京都府立大",
+   "url": "https://www.kensetsunews.com/archives/1306094",
+   "published": "2026-11-08T19:55+00:00",
+   "published_jst": "2026-11-09 04:55",
+   "summary": "京都府立大学は、延べ床面積の合計が２万㎡を超える「京都府立大学学舎・体育館整備基本設計業務」の委託… The post 学舎・体育館2万平米を公告/基本設計12月14日まで受付/京都府立大 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "53b21b7195bf",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "入札期間は12月3、4日/交通局本庁舎・教習所大規模改修4件/札幌市",
+   "url": "https://www.kensetsunews.com/archives/1305876",
+   "published": "2026-11-08T19:55+00:00",
+   "published_jst": "2026-11-09 04:55",
+   "summary": "札幌市交通局は、「交通局本局庁舎・教習所大規模改修」を建築、強電、弱電、機械工事に４分割して制限付… The post 入札期間は12月3、4日/交通局本庁舎・教習所大規模改修4件/札幌市 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "46aa0eeec763",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "現場から・JR東日本/羽田空港アクセス線新線空港外工区",
+   "url": "https://www.kensetsunews.com/archives/1305973",
+   "published": "2026-11-08T19:55+00:00",
+   "published_jst": "2026-11-09 04:55",
+   "summary": "【１１月１６日にシールドマシン発進／事業の“大きな節目”／施工＝鉄建建設・鹿島・東亜建設工業ＪＶ】 … The post 現場から・JR東日本/羽田空港アクセス線新線空港外工区 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
