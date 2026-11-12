@@ -1,20 +1,54 @@
 {
- "generated_at": "2026-11-12T11:20+00:00",
- "generated_at_jst": "2026-11-12 20:20",
+ "generated_at": "2026-11-12T13:17+00:00",
+ "generated_at_jst": "2026-11-12 22:17",
  "window_hours": 48,
  "counts": {
-  "construction_global": 35,
-  "ai_global": 62,
-  "ai_japan": 34,
-  "construction_japan": 69
+  "ai_global": 66,
+  "ai_japan": 35,
+  "construction_global": 27,
+  "construction_japan": 72
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "4a2374108065",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+   "url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+   "published": "2026-11-12T12:09+00:00",
+   "published_jst": "2026-11-12 21:09",
+   "summary": "Google Deepmind has unveiled AlphaGenome 2, an AI model that analyzes genetic variants for individual cell types rather than across bulk tissue. Trained on more than 107 million cell profiles, it identifies nearly twice as many disease-relevant gene changes as its predecessor. The model is available",
+   "ai_related": true
+  },
+  {
+   "id": "d842497fb129",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "レーザー兵器を搭載したAI潜水ロボット3500台がサケ養殖場を巡回しサケジラミを駆除して1億1200万匹の魚を守っている",
+   "url": "https://gigazine.net/news/20261112-stingray-marine-solutions-ai-robots-salmon/",
+   "published": "2026-11-12T12:00+00:00",
+   "published_jst": "2026-11-12 21:00",
+   "summary": "ノルウェーのサケ養殖場ではAIを搭載した水中ロボットが魚に付着した寄生虫を検出し、レーザーで駆除する取り組みが広がっています。テクノロジー系メディアのTom's Hardwareによると、水中ロボットの稼働台数は3500台を超えているとのことです。 続きを読む...",
+   "ai_related": true
+  },
   {
    "id": "517003bd241c",
    "source": "Construction Executive",
@@ -40,19 +74,6 @@
    "published_jst": "2026-11-12 19:47",
    "summary": "Global design and BIM software provider Vectorworks, Inc. is pleased to announce that the Sustainability Dashboard, which debuted in the release of Vectorworks 2026, has received a three-star certification in the latest round of judging for The DaVinci Awards®. The post Vectorworks Sustainability Da",
    "ai_related": true
-  },
-  {
-   "id": "7279fa6314da",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "£115m fusion plant contracts up for grabs",
-   "url": "https://www.constructionnews.co.uk/contracts/115m-fusion-plant-contracts-up-for-grabs-12-11-2026/",
-   "published": "2026-11-12T10:14+00:00",
-   "published_jst": "2026-11-12 19:14",
-   "summary": "UK Fusion Energy has invited bids for five engineering contracts worth up to £115m to help deliver the UK's prototype fusion power plant in Nottinghamshire. The contracts form part of the Spherical Tokamak for Energy Production (STEP) programme, which aims to deliver a prototype plant… The post £115",
-   "ai_related": false
   },
   {
    "id": "3aa38f920493",
@@ -107,19 +128,6 @@
    "ai_related": false
   },
   {
-   "id": "baaf9c9384d8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Orders fall 18% as tender prices set to rise, says Turner & Townsend",
-   "url": "https://www.constructionnews.co.uk/sections/data/orders-fall-18-as-tender-prices-set-to-rise-says-turner-townend-12-11-2026/",
-   "published": "2026-11-12T09:40+00:00",
-   "published_jst": "2026-11-12 18:40",
-   "summary": "New construction orders have fallen by 18.1 per cent over the past year, dropping below their long-term average, according to Turner & Townsend. The consultancy’s Q4 2026 UK Market Insight report warns that construction activity is likely to remain under pressure. Private commercial construction ros",
-   "ai_related": false
-  },
-  {
    "id": "e64d94750821",
    "source": "PBC Today (UK)",
    "source_id": "pbctoday",
@@ -148,19 +156,6 @@
    "ai_related": true
   },
   {
-   "id": "5b76a0e580f3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Higgins Homes accused of planning failures on job which caused brick fall death",
-   "url": "https://www.constructionnews.co.uk/legal/higgins-homes-accused-of-planning-failures-on-job-which-caused-brick-fall-death-12-11-2026/",
-   "published": "2026-11-12T08:30+00:00",
-   "published_jst": "2026-11-12 17:30",
-   "summary": "Higgins Homes allegedly used generic construction management and phase plans which were riddled with errors and omissions in the run up to the death of a young mother, a court has heard. The company, which denies corporate manslaughter and a breach of the Health and… The post Higgins Homes accused o",
-   "ai_related": false
-  },
-  {
    "id": "72c7d1ba941d",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -185,19 +180,6 @@
    "published_jst": "2026-11-12 17:07",
    "summary": "アメリカの大手航空会社・ユナイテッド航空が、AIエージェントやAIアシスタントを利用したフライトの予約を禁止したと発表しました。理由としては情報漏洩(ろうえい)の懸念やマイルの不正利用防止のほか、当局の規制に違反する可能性が挙げられています。 続きを読む...",
    "ai_related": true
-  },
-  {
-   "id": "cf9fc2728a00",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "TanRo turnover doubles to £159m",
-   "url": "https://www.constructionnews.co.uk/financial/tanro-turnover-doubles-to-159m-12-11-2026/",
-   "published": "2026-11-12T07:40+00:00",
-   "published_jst": "2026-11-12 16:40",
-   "summary": "Industrial and logistics contractor TanRo has more than doubled turnover to £159.4m after several major projects delayed at the planning stage finally got under way. Accounts for the year to 28 February 2026 show TanRo Ltd's revenue rose to £159.4m, up from £67.7m the previous… The post TanRo turnov",
-   "ai_related": false
   },
   {
    "id": "e63551fe38c4",
@@ -754,7 +736,7 @@
    "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
    "published": "2026-11-11T22:31+00:00",
    "published_jst": "2026-11-12 07:31",
-   "summary": "Article URL: https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad Comments URL: https://news.ycombinator.com/item?id=50459703 Points: 1061 # Comments: 1419",
+   "summary": "Article URL: https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad Comments URL: https://news.ycombinator.com/item?id=50459703 Points: 1120 # Comments: 1497",
    "ai_related": true,
    "title_ja": "エヌビディア、ジェンスン・フアン氏の解任を準備",
    "summary_ja": "ウォール・ストリート・ジャーナル紙の報道に関するHacker Newsの議論ページへのリンクです。"
@@ -877,7 +859,7 @@
    "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
    "published": "2026-11-11T21:24+00:00",
    "published_jst": "2026-11-12 06:24",
-   "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 563 # Comments: 566",
+   "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 579 # Comments: 604",
    "ai_related": true,
    "title_ja": "ユナイテッド航空、旅行者のAI代理予約を禁止",
    "summary_ja": "CBSニュースの報道およびHacker Newsの議論ページへのリンクです。"
@@ -1295,7 +1277,7 @@
    "url": "https://github.com/aws/aws-emulator",
    "published": "2026-11-11T18:21+00:00",
    "published_jst": "2026-11-12 03:21",
-   "summary": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an... Comments URL: https://news.ycombinator.com/item?id=50456631 Points: 863 # Comments: 237",
+   "summary": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agent... https://www.allthingsdistributed.com/2026/11/aws-emulator-an... Comments URL: https://news.ycombinator.com/item?id=50456631 Points: 883 # Comments: 247",
    "ai_related": true,
    "title_ja": "AWSエミュレーターに関する議論",
    "summary_ja": "AWSの自律型AIエージェントや分散システムに関する最新の記事と、Hacker News上のコメントを紹介する。"
@@ -1539,21 +1521,6 @@
    "summary_ja": "この新工場で2,000人の雇用が創出される。ホンダはハイブリッド車への注力と迅速な開発の一環として、既存の米国拠点近くに工場を構える。"
   },
   {
-   "id": "5b916f1bea87",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-   "published": "2026-11-11T15:00+00:00",
-   "published_jst": "2026-11-12 00:00",
-   "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-   "ai_related": true,
-   "title_ja": "AlphaGenome 2で解き明かす細胞のDNA読み取り",
-   "summary_ja": "DNA配列やその変異が特定のヒト細胞型や疾患に与える影響を予測し、病気の理解を深めます。"
-  },
-  {
    "id": "7d4c517a6890",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1732,60 +1699,6 @@
    "summary_ja": "セキュリティ企業Clarocが、認証なしでアクセス可能な3万5千件以上のGrok製アプリを発見。機密データが露呈した。"
   },
   {
-   "id": "3053b11da32a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Rayner convenes construction and Whitehall chiefs to tackle homes delivery",
-   "url": "https://www.constructionnews.co.uk/buildings/rayner-to-launch-housing-delivery-board-to-tackle-building-delays-11-11-2026/",
-   "published": "2026-11-11T12:45+00:00",
-   "published_jst": "2026-11-11 21:45",
-   "summary": "HM Treasury and the business department are set to join the Construction Leadership Council (CLC) and Building Safety Regulator (BSR) on a new housing delivery board, Construction News understands. Housing secretary Angela Rayner will chair the board's inaugural meeting on Tuesday (17 November). It ",
-   "ai_related": false
-  },
-  {
-   "id": "003d6a990e8f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Carillion liquidator plans court bid to avoid payouts to unsecured creditors",
-   "url": "https://www.constructionnews.co.uk/contractors/carillion/carillion-liquidator-plans-court-bid-to-avoid-payouts-to-unsecured-creditors-11-11-2026/",
-   "published": "2026-11-11T12:45+00:00",
-   "published_jst": "2026-11-11 21:45",
-   "summary": "Some of Carillion Plc's unsecured creditors could miss out on a potential payout after the collapsed firm’s liquidator announced plans to seek a court order waiving its obligation to set aside funds for them. The official receiver said the cost of distributing the money would… The post Carillion liq",
-   "ai_related": false
-  },
-  {
-   "id": "df97089c1f58",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Building Safety Bill: more work, greater liability?",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/building-safety-bill-more-work-greater-liability-11-11-2026/",
-   "published": "2026-11-11T12:26+00:00",
-   "published_jst": "2026-11-11 21:26",
-   "summary": "Lewis Couth (pictured left) is a real estate litigation partner and Seumas Cram is a construction and engineering senior associate at Walker Morris The UK government has published the Building Safety (Remediation of Unsafe Cladding etc) Bill, a significant addition to the post-Grenfell building safe",
-   "ai_related": false
-  },
-  {
-   "id": "d7faf46e2c7b",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
-   "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
-   "published": "2026-11-11T12:12+00:00",
-   "published_jst": "2026-11-11 21:12",
-   "summary": "OpenAI grew its quarterly revenue 50 percent to $10 billion but is still burning more cash than it brings in. Adjusted operating losses climbed to $10.9 billion, while rival Anthropic operates far more efficiently on $17 billion in revenue. To close the gap, OpenAI is now fueling a price war for ent",
-   "ai_related": true,
-   "title_ja": "OpenAIの四半期売上高が100億ドルに到達",
-   "summary_ja": "OpenAIの売上高は50％増の100億ドルに達したが、多額の現金を消費し続けており、営業損失も拡大している。"
-  },
-  {
    "id": "e140893a01ef",
    "source": "Global Construction Review",
    "source_id": "gcr",
@@ -1810,7 +1723,7 @@
    "url": "https://pietromiotti.com/latest/maya-site",
    "published": "2026-11-11T12:05+00:00",
    "published_jst": "2026-11-11 21:05",
-   "summary": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 995 # Comments: 365",
+   "summary": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 1009 # Comments: 369",
    "ai_related": true,
    "title_ja": "AIエージェントが未踏のマヤ遺跡を発見",
    "summary_ja": "AIを活用した探索により、これまで地図に記載されていなかったマヤ文明の遺跡が新たに発見された。"
@@ -1844,19 +1757,6 @@
    "summary_ja": "建築情報モデルの接続とAIプラットフォームの高度化に向け、620万ドルを調達した。"
   },
   {
-   "id": "64af00978de8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Forterra cuts profit forecast as brick deliveries fall 11%",
-   "url": "https://www.constructionnews.co.uk/financial/forterra-cuts-profit-forecast-as-brick-deliveries-fall-11-11-11-2026/",
-   "published": "2026-11-11T11:50+00:00",
-   "published_jst": "2026-11-11 20:50",
-   "summary": "Brick manufacturer Forterra has cut its annual profit forecast after a further fall in demand, as the slowdown in housebuilding continues to hit companies supplying the construction industry. The Northampton-based company now expects adjusted earnings before interest, tax, depreciation and amortisat",
-   "ai_related": false
-  },
-  {
    "id": "3ee1291b8199",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
@@ -1867,19 +1767,6 @@
    "published": "2026-11-11T11:25+00:00",
    "published_jst": "2026-11-11 20:25",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "bf39a5acb88a",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "2027年にも「超人的AI研究者(SAR)」が登場する可能性が高いとAI研究者らが予測、全ホワイトカラー業務の自動化AIも2028年までに登場か",
-   "url": "https://gigazine.net/news/20261111-superhuman-ai-researcher-2027/",
-   "published": "2026-11-11T11:00+00:00",
-   "published_jst": "2026-11-11 20:00",
-   "summary": "元OpenAIのガバナンス研究者であるダニエル・ココタイロ氏が率いる非営利研究団体のAI Futures Projectが、最高水準の人間の研究者を一掃するかもしれない「Superhuman AI Researcher(超人的AI研究者：SAR)」が2027年に登場する可能性が高いとの予測を発表しました。 続きを読む...",
    "ai_related": true
   },
   {
@@ -1896,19 +1783,6 @@
    "ai_related": false,
    "title_ja": "外装工事事業者が営業と生産の連携を改善する方法",
    "summary_ja": "特定の技術以上に情報の所在を明確にする社内ルールが重要であり、従業員が最新ドキュメントを把握する必要がある。"
-  },
-  {
-   "id": "b0a123128b50",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Heron Bros wins £67.6m Belfast cultural project",
-   "url": "https://www.constructionnews.co.uk/contracts/heron-bros-wins-67-6m-belfast-cultural-project-11-11-2026/",
-   "published": "2026-11-11T10:58+00:00",
-   "published_jst": "2026-11-11 19:58",
-   "summary": "Heron Bros has been selected for a £67.6m main works contract on Belfast Stories, a planned £100m visitor attraction and creative hub. Belfast City Council chose the Magherafelt-based contractor over four rivals, according to a contract award notice published on 10 November. Farrans, Gilbert-Ash, Gr",
-   "ai_related": false
   },
   {
    "id": "8d27401556d8",
@@ -2778,6 +2652,136 @@
    "ai_related": true,
    "title_ja": "AIレースで勝利する米国、Jensen Huangが招きかねなかった危機",
    "summary_ja": "NvidiaのCEOであるJensen Huangは、AIブームを牽引する技術を握る最も重要な人物の一人である。"
+  },
+  {
+   "id": "2800935556d8",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+   "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+   "published": "2026-11-10T19:03+00:00",
+   "published_jst": "2026-11-11 04:03",
+   "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+   "ai_related": true
+  },
+  {
+   "id": "ac5a661efbfd",
+   "source": "Google AI Blog",
+   "source_id": "google_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini Intelligence: New features, on more devices",
+   "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+   "published": "2026-11-10T19:00+00:00",
+   "published_jst": "2026-11-11 04:00",
+   "summary": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+   "ai_related": true
+  },
+  {
+   "id": "286d8783d8da",
+   "source": "沖縄タイムス社",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "アジア最大級 AI基盤設備 マレーシアに建設へ",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9PSTh1ZjVXNFprX2hnbW9ob2JPOGV1Nkh1WllSS2pxaEJ0Ml9QbTNINWZTazhrd2tQOG9tdTR1NlBWOHRPNERfNWxYT3ppbDVDaUFpanRMR3hBd1p0YVE?oc=5",
+   "published": "2026-11-10T18:59+00:00",
+   "published_jst": "2026-11-11 03:59",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "ed4cbbade785",
+   "source": "AEC Magazine",
+   "source_id": "aecmag",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "SketchUp 2027 bridges design workflows",
+   "url": "https://aecmag.com/cad/sketchup-2027-bridges-design-workflows/",
+   "published": "2026-11-10T18:22+00:00",
+   "published_jst": "2026-11-11 03:22",
+   "summary": "Trimble introduces non-destructive modelling and enhanced Revit interoperability The post SketchUp 2027 bridges design workflows appeared first on AEC Magazine .",
+   "ai_related": true
+  },
+  {
+   "id": "7396b577c725",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "ChatGPT is getting verified AI ‘Business Agents’",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+   "published": "2026-11-10T18:00+00:00",
+   "published_jst": "2026-11-11 03:00",
+   "summary": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in Cha",
+   "ai_related": true
+  },
+  {
+   "id": "7ac1a3b2939b",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The indie game community is in disarray over AI and Big Walk",
+   "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+   "published": "2026-11-10T17:32+00:00",
+   "published_jst": "2026-11-11 02:32",
+   "summary": "Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in \"any capacity.\" Soon after, the developer of indie hit Big Walk has published a statement saying it \"sparingly\" used AI in the \"final stretch\" of the game's dev",
+   "ai_related": true
+  },
+  {
+   "id": "ec3f910d2a18",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Anthropic has its own AI-powered office suite now",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+   "published": "2026-11-10T17:30+00:00",
+   "published_jst": "2026-11-11 02:30",
+   "summary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particular hype cycle. And no",
+   "ai_related": true
+  },
+  {
+   "id": "cde6c09138d4",
+   "source": "Unite.AI",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "GrittとMasTec、太陽光発電所の建設にフィジカルAIを導入",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZGdXczh2NUhwbklvbU9XRl9ueFpmYlFPdkc5WklTOUVGNHE1ZWJfRXEtdzU1S210ZmRRc01SSTY3VWJSaVBtaFp4b1R2ZkFPNDVRSXdBcTgxUkpSSVFCRkluVmIybW4tYUdBRzE4ZVNDRWZ3TTFKNXlSSGJGNFpjdUFfX2ZzSDA?oc=5",
+   "published": "2026-11-10T17:24+00:00",
+   "published_jst": "2026-11-11 02:24",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "6d3a4d594c0c",
+   "source": "AINOW",
+   "source_id": "ainow",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "求人原稿をAIエージェントで作る5ステップ 応募につながる書き方のコツ！",
+   "url": "https://ainow.ai/2026/11/11/278512/?utm_source=rss&utm_medium=rss&utm_campaign=%25e6%25b1%2582%25e4%25ba%25ba%25e5%258e%259f%25e7%25a8%25bf%25e3%2582%2592ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e4%25bd%259c%25e3%2582%258b5%25e3%2582%25b9%25e3%2583%2586%25e3%2583%2583%25e3%2583%2597-%25e5%25bf%259c%25e5%258b%259f%25e3%2581%25ab",
+   "published": "2026-11-10T17:22+00:00",
+   "published_jst": "2026-11-11 02:22",
+   "summary": "求人原稿を書こうとしても仕事内容の整理だけで時間が過ぎ、書き上げても応募が集まらない。兼務で採用を担う担当者ほど、この悩みを抱えやすいでしょう。 求人原稿の作成は、AIエージェントに採用要件と過去原稿を渡すことで、初稿づ... The post 求人原稿をAIエージェントで作る5ステップ 応募につながる書き方のコツ！ first appeared on AI専門ニュースメディア AINOW .",
+   "ai_related": true
+  },
+  {
+   "id": "f79ebc744322",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "宇宙・不動産・建設・AIが交わる2日間、3,340名が参加。「宇宙×不動産カンファレンス2026」を11月5日・6日、東京大学 大講堂（安田講堂）で開催",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXdFBhTkpfTV9ycEJ0SFhOSEVpU0lJcDV4X04wbk1YNk5TcDNveHVwVnZzRHUxZ1BNaGg5alJWVHpmZF9sSm9HTkdQZmFWNThwd1l1SGpCNFVjQTRrV1MwbHBudExEUWV5Y0U4WWFNTDZYZw?oc=5",
+   "published": "2026-11-10T17:10+00:00",
+   "published_jst": "2026-11-11 02:10",
+   "summary": "",
+   "ai_related": false
   }
  ]
 }
