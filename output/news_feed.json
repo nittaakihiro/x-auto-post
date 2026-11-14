@@ -1,14 +1,18 @@
 {
- "generated_at": "2026-11-13T23:55+00:00",
- "generated_at_jst": "2026-11-14 08:55",
+ "generated_at": "2026-11-14T00:21+00:00",
+ "generated_at_jst": "2026-11-14 09:21",
  "window_hours": 48,
  "counts": {
   "ai_global": 62,
-  "ai_japan": 34,
+  "ai_japan": 33,
   "construction_global": 43,
   "construction_japan": 51
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -26,6 +30,19 @@
    "published": "2026-11-13T23:49+00:00",
    "published_jst": "2026-11-14 08:49",
    "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers lea",
+   "ai_related": true
+  },
+  {
+   "id": "a41cf41c3f01",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "datasette-cluster-map 0.19",
+   "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+   "published": "2026-11-13T23:02+00:00",
+   "published_jst": "2026-11-14 08:02",
+   "summary": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's ",
    "ai_related": true
   },
   {
@@ -55,6 +72,19 @@
    "ai_related": true,
    "title_ja": "ジェンスン・フアン退任でAI資金調達に暗雲か",
    "summary_ja": "Nvidiaはフアン氏の下でAI企業に多額の投資を行ってきた。同氏の不在により、今後は資金調達額の減少と評価額の低下が懸念されている。"
+  },
+  {
+   "id": "2ff8c47f48f0",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "datasette-leaflet 0.3",
+   "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+   "published": "2026-11-13T22:30+00:00",
+   "published_jst": "2026-11-14 07:30",
+   "summary": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy. datas",
+   "ai_related": true
   },
   {
    "id": "360d40e70480",
@@ -113,21 +143,6 @@
    "ai_related": true,
    "title_ja": "ジェンスン・フアン解任、背景にNvidiaの不透明な取引か",
    "summary_ja": "WSJの報道によると、フアン氏の退任は私生活の問題というより、リスクの高い事業慣行が原因であり、社内に敵を作る要因になったという。"
-  },
-  {
-   "id": "f0632826eee2",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "No AI Slop: A Manifesto",
-   "url": "https://www.slopmanifesto.com/",
-   "published": "2026-11-13T19:51+00:00",
-   "published_jst": "2026-11-14 04:51",
-   "summary": "Article URL: https://www.slopmanifesto.com/ Comments URL: https://news.ycombinator.com/item?id=50488769 Points: 167 # Comments: 95",
-   "ai_related": true,
-   "title_ja": "「AIスロップ（粗製乱造）お断り」：マニフェスト",
-   "summary_ja": "記事およびHacker Newsの議論へのリンク情報です。"
   },
   {
    "id": "645e798427f9",
@@ -229,7 +244,7 @@
    "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
    "published": "2026-11-13T18:40+00:00",
    "published_jst": "2026-11-14 03:40",
-   "summary": "Article URL: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas Comments URL: https://news.ycombinator.com/item?id=50487864 Points: 262 # Comments: 142",
+   "summary": "Article URL: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas Comments URL: https://news.ycombinator.com/item?id=50487864 Points: 274 # Comments: 150",
    "ai_related": true,
    "title_ja": "輸送中の1140万ドル相当のNvidia製ハードウェアが消失",
    "summary_ja": "カリフォルニアからテキサスへの輸送中に高額なNvidia製ハードウェアが紛失した件に関するニュース記事と議論のリンク。"
@@ -259,7 +274,7 @@
    "url": "https://haddyalchaer.com/jepa",
    "published": "2026-11-13T17:55+00:00",
    "published_jst": "2026-11-14 02:55",
-   "summary": "Article URL: https://haddyalchaer.com/jepa Comments URL: https://news.ycombinator.com/item?id=50487185 Points: 196 # Comments: 33",
+   "summary": "Article URL: https://haddyalchaer.com/jepa Comments URL: https://news.ycombinator.com/item?id=50487185 Points: 204 # Comments: 34",
    "ai_related": true,
    "title_ja": "600回の実験で分かったJEPAワールドモデルの特性",
    "summary_ja": "JEPAワールドモデルに関する実験から得られた発見についての記事とコミュニティの議論へのリンク。"
@@ -274,7 +289,7 @@
    "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
    "published": "2026-11-13T17:30+00:00",
    "published_jst": "2026-11-14 02:30",
-   "summary": "Article URL: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths Comments URL: https://news.ycombinator.com/item?id=50486748 Points: 298 # Comments: 85",
+   "summary": "Article URL: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths Comments URL: https://news.ycombinator.com/item?id=50486748 Points: 310 # Comments: 90",
    "ai_related": true,
    "title_ja": "AIがゲーデルの未公開ノートを解読、数百の定理を発見か",
    "summary_ja": "数学の歴史を変えたクルト・ゲーデルのノートブックから、AIの支援により隠された発見が明らかになったというガーディアン紙の記事。"
@@ -891,6 +906,19 @@
    "ai_related": false
   },
   {
+   "id": "44da454e7900",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "url": "https://status.claude.com/incidents/nn11wk485zfn",
+   "published": "2026-11-13T10:18+00:00",
+   "published_jst": "2026-11-13 19:18",
+   "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 482 # Comments: 382",
+   "ai_related": true
+  },
+  {
    "id": "2f725b30197a",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -984,6 +1012,19 @@
    "ai_related": true,
    "title_ja": "施設管理におけるAI：活用できる領域を見極める",
    "summary_ja": "AIの導入準備が整っていると答えた施設管理組織はわずか24％。業界はどう前進すべきか。"
+  },
+  {
+   "id": "d1318183fe17",
+   "source": "OpenAI News",
+   "source_id": "openai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "url": "https://openai.com/business/customer-stories/shield",
+   "published": "2026-11-13T08:00+00:00",
+   "published_jst": "2026-11-13 17:00",
+   "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "ai_related": true
   },
   {
    "id": "c1056bf1cf07",
@@ -1187,19 +1228,6 @@
    "ai_related": true
   },
   {
-   "id": "1807481fe5ac",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "GoogleのGemini搭載スマートグラス「Intelligent Eyewear」が予約受付開始、70以上の言語のリアルタイム翻訳やハンズフリーでのAI操作が可能",
-   "url": "https://gigazine.net/news/20261113-google-intelligent-eyewear/",
-   "published": "2026-11-13T02:33+00:00",
-   "published_jst": "2026-11-13 11:33",
-   "summary": "Googleは2026年11月12日、SamsungおよびメガネブランドのWarby Parker、Gentle Monsterと共同開発したスマートグラス「Intelligent Eyewear」の予約受付を開始しました。AIアシスタントのGeminiを搭載し、スマートフォンを取り出すことなく目の前にある物について質問したり、外国語の会話をリアルタイムで翻訳したりすることが可能で、2026年12月10日に発売予定です。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "b048604a616e",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1226,13 +1254,13 @@
    "ai_related": true
   },
   {
-   "id": "9663c140aea0",
-   "source": "株式会社共同通信社",
+   "id": "884712de9f1c",
+   "source": "OVO [オーヴォ]",
    "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "野村不動産の系統用蓄電所、全国4拠点が12月から順次稼働 再生可能エネルギー事業の一環、ブルースカイエナジーが施工・管理",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQZDdjckR0ZVlON282N0I0ZGxCMktCaTd1dWw3Rm1HT1NfVWwwbFNta2hoUElpdDZyUEFyVEpLV2RsdWtxczJpLWlGcUFFWVFnWG9MOFE1NzNDZ3JL?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlRkJmU3hac2V3MlBUMHZiYnIwRFZkUC1PWEhnOGpSdG9OTENTS0cwRGs5bXRxV3hIQ2Z6S2tub1M5TUM2X25aZVk0UXRLNlhuOURVUg?oc=5",
    "published": "2026-11-13T01:32+00:00",
    "published_jst": "2026-11-13 10:32",
    "summary": "",
@@ -1957,21 +1985,6 @@
    "summary_ja": "アレックス・カープによる左派へのあからさまな方針転換を受け、予定を急遽変更して言及せざるを得なくなった。"
   },
   {
-   "id": "4bad5afe01a1",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Introducing Gemini 4 Hydrogen",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-   "published": "2026-11-12T18:00+00:00",
-   "published_jst": "2026-11-13 03:00",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "Gemini 4 Hydrogenの紹介",
-   "summary_ja": "Gemini 4 Hydrogenに関する発表や詳細情報のプレースホルダー記事。"
-  },
-  {
    "id": "459a57b4750a",
    "source": "Google AI Blog",
    "source_id": "google_ai",
@@ -2642,36 +2655,6 @@
    "published_jst": "2026-11-12 09:25",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "b06379671ede",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Supporting research on AI and children’s safety",
-   "url": "https://openai.com/index/children-first-declaration",
-   "published": "2026-11-12T00:00+00:00",
-   "published_jst": "2026-11-12 09:00",
-   "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-   "ai_related": true,
-   "title_ja": "AIと子どもの安全に関する研究への支援を発表",
-   "summary_ja": "OpenAIは、AIと子どもの安全に関する研究に200万ドルを拠出する。この取り組みは、若者に対するリスクや機会を測定するための共通ツールを支援するもの。"
-  },
-  {
-   "id": "f28f90d2895a",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gilbert + Tobin rethinks the business of law with AI",
-   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-   "published": "2026-11-12T00:00+00:00",
-   "published_jst": "2026-11-12 09:00",
-   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-   "ai_related": true,
-   "title_ja": "Gilbert + Tobin、AIで法律ビジネスを再定義",
-   "summary_ja": "Gilbert + Tobinのパートナー兼CEOであるサム・ニックレス氏へのインタビュー。"
   }
  ]
 }
