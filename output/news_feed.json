@@ -1,20 +1,43 @@
 {
- "generated_at": "2026-11-14T14:32+00:00",
- "generated_at_jst": "2026-11-14 23:32",
+ "generated_at": "2026-11-14T15:02+00:00",
+ "generated_at_jst": "2026-11-15 00:02",
  "window_hours": 48,
  "counts": {
-  "ai_global": 60,
+  "ai_global": 58,
   "ai_japan": 25,
-  "construction_japan": 38,
-  "construction_global": 38
+  "construction_global": 33,
+  "construction_japan": 36
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "d46b516a4c83",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+   "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+   "published": "2026-11-14T15:00+00:00",
+   "published_jst": "2026-11-15 00:00",
+   "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for",
+   "ai_related": true,
+   "title_ja": "サム・アルトマンを解任した元取締役、AI経営者は信頼できない",
+   "summary_ja": "ジョージタウン大学のヘレン・トナー氏を招き、実社会におけるAIについて語り合うシリーズの第2回。"
+  },
   {
    "id": "567fa298898a",
    "source": "The Verge AI",
@@ -26,7 +49,9 @@
    "published": "2026-11-14T12:00+00:00",
    "published_jst": "2026-11-14 21:00",
    "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leat",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ジェンスン・フアンとカリスマ創業者の衰退",
+   "summary_ja": "2025年1月6日、NvidiaのCEOであるジェンスン・フアンは、1万4千人の観客が埋め尽くす会場で圧倒的な歓声を浴びた。"
   },
   {
    "id": "703d5a8bd206",
@@ -39,7 +64,9 @@
    "published": "2026-11-14T11:40+00:00",
    "published_jst": "2026-11-14 20:40",
    "summary": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company fr",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIがロボット工学チームを解体、汎用モデルへ移行",
+   "summary_ja": "汎用モデルがロボットを直接制御できるため、専門のロボットチームが不要となり、研究者を他チームへ再配置する。"
   },
   {
    "id": "8604707ec71f",
@@ -65,7 +92,9 @@
    "published": "2026-11-14T11:21+00:00",
    "published_jst": "2026-11-14 20:21",
    "summary": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so competitor",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropicはわずかな計算資源でMythosの再学習が可能",
+   "summary_ja": "元研究者のジェイコブ・コクソン氏は、同社のアルゴリズムが急速かつ加速的に進化していると指摘する。"
   },
   {
    "id": "1c4e572d1ed1",
@@ -78,20 +107,9 @@
    "published": "2026-11-14T09:45+00:00",
    "published_jst": "2026-11-14 18:45",
    "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its ow",
-   "ai_related": true
-  },
-  {
-   "id": "20cb5f433f07",
-   "source": "Unisba Media",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【最新インタビュー】イーロン・マスク「宇宙にAIデータセンターを建設する！」スペースXが明かす驚異の計画とは？ Challenge Cup Final 2026 (2oskc93uFF)",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeDhwYlZKbkZoaGwwejFnSlpOMTZKLURtUHA5MGprM3JnemVoUVNJdVNaendRbEk5MlJSZkNacjRFdTJXa3h1VWNJRzVsYTl1LUY5dG5nNzk1Y09mV2J0UjhFYk1tcXdnQXB4MmNxanlyZFV1SEdmNmlEaDFueDZueEpn?oc=5",
-   "published": "2026-11-14T05:02+00:00",
-   "published_jst": "2026-11-14 14:02",
-   "summary": "",
-   "ai_related": false
+   "ai_related": true,
+   "title_ja": "RunwayのPraxis-1、動画AIをロボット制御に応用",
+   "summary_ja": "Runwayがオープンソースで公開したロボットモデルPraxis-1は、動画学習の知識を活用してロボットを制御する。"
   },
   {
    "id": "5bca71ed2460",
@@ -116,7 +134,7 @@
    "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
    "published": "2026-11-14T02:52+00:00",
    "published_jst": "2026-11-14 11:52",
-   "summary": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 798 # Comments: 470",
+   "summary": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 819 # Comments: 491",
    "ai_related": true,
    "title_ja": "Nvidia、AIスタートアップに資金提供しGPUを買わせ人工的な品薄を作り出したか",
    "summary_ja": "NvidiaがAIスタートアップに資金を出し自社製GPUを購入させることで、人工的な品薄を演出していたという疑惑が浮上している。"
@@ -131,8 +149,10 @@
    "url": "https://unsloth.ai/docs/models/qwen3.8",
    "published": "2026-11-14T00:06+00:00",
    "published_jst": "2026-11-14 09:06",
-   "summary": "Article URL: https://unsloth.ai/docs/models/qwen3.8 Comments URL: https://news.ycombinator.com/item?id=50491980 Points: 199 # Comments: 56",
-   "ai_related": true
+   "summary": "Article URL: https://unsloth.ai/docs/models/qwen3.8 Comments URL: https://news.ycombinator.com/item?id=50491980 Points: 202 # Comments: 58",
+   "ai_related": true,
+   "title_ja": "Unsloth Qwen3.8-27B量子化の動的v3.1アップデート",
+   "summary_ja": "Unsloth.aiで公開されたQwen3.8-27Bの量子化モデルに関する最新情報と議論を紹介。"
   },
   {
    "id": "04367a7d0b10",
@@ -380,7 +400,7 @@
    "url": "https://haddyalchaer.com/jepa",
    "published": "2026-11-13T17:55+00:00",
    "published_jst": "2026-11-14 02:55",
-   "summary": "Article URL: https://haddyalchaer.com/jepa Comments URL: https://news.ycombinator.com/item?id=50487185 Points: 273 # Comments: 45",
+   "summary": "Article URL: https://haddyalchaer.com/jepa Comments URL: https://news.ycombinator.com/item?id=50487185 Points: 273 # Comments: 46",
    "ai_related": true,
    "title_ja": "600回の実験で分かったJEPAワールドモデルの特性",
    "summary_ja": "JEPAワールドモデルに関する実験から得られた発見についての記事とコミュニティの議論へのリンク。"
@@ -470,21 +490,6 @@
    "summary_ja": "新プラグインにより、オートデスクやオラクルなどのソフトと連携し、見積作成や発注などを自動化する17の専門スキルを備える。"
   },
   {
-   "id": "62b70b6e9b81",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "October Construction Materials Prices Unchanged, Energy and Lumber Prices Fall",
-   "url": "https://constructionexec.com/article/october-construction-materials-prices-unchanged-energy-and-lumber-prices-fall/?utm_source=rss&utm_medium=rss&utm_campaign=october-construction-materials-prices-unchanged-energy-and-lumber-prices-fall",
-   "published": "2026-11-13T16:05+00:00",
-   "published_jst": "2026-11-14 01:05",
-   "summary": "As the year winds down, so do construction materials prices, namely oil and lumber. The post October Construction Materials Prices Unchanged, Energy and Lumber Prices Fall first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "10月の建設資材価格は横ばい、エネルギーと木材価格は下落",
-   "summary_ja": "年末に近づき、原油や木材といった建設資材の価格が低下傾向にあることを伝えるConstruction Executiveの記事。"
-  },
-  {
    "id": "c231d25e54b9",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -569,7 +574,7 @@
    "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
    "published": "2026-11-13T15:08+00:00",
    "published_jst": "2026-11-14 00:08",
-   "summary": "Article URL: https://www.youtube.com/watch?v=IRK8h67ol7Q Comments URL: https://news.ycombinator.com/item?id=50484658 Points: 372 # Comments: 511",
+   "summary": "Article URL: https://www.youtube.com/watch?v=IRK8h67ol7Q Comments URL: https://news.ycombinator.com/item?id=50484658 Points: 381 # Comments: 537",
    "ai_related": true,
    "title_ja": "Jonathan Blow：「AIがプログラミングを解決したなら、なぜ私のソフトウェアは変わらないのか？」",
    "summary_ja": "AIによるプログラミングの自動化が進む中でも、ソフトウェア開発の本質や実態に大きな変化が見られない理由について論じた動画。"
@@ -688,7 +693,9 @@
    "published": "2026-11-13T13:12+00:00",
    "published_jst": "2026-11-13 22:12",
    "summary": "Firm called up for major marine construction job to accommodate Royal Navy's new generation of warships",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "英国防省、ポーツマスの海軍桟橋の再建計画を進める",
+   "summary_ja": "英海軍の新世代軍艦を受け入れるため、大規模な海洋建設工事の企業が選定された。"
   },
   {
    "id": "a326fbf0621f",
@@ -821,7 +828,9 @@
    "published": "2026-11-13T12:06+00:00",
    "published_jst": "2026-11-13 21:06",
    "summary": "Laing O'Rourke lined up for enabling works on 46km stretch of the power link",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ハンバーからミッドランズへの送電線プロジェクトが第一関門を突破",
+   "summary_ja": "46kmに及ぶ送電線プロジェクトの準備工事に向けて、レイン・オロークが選定された。"
   },
   {
    "id": "f91b768f42c3",
@@ -907,7 +916,9 @@
    "published": "2026-11-13T11:45+00:00",
    "published_jst": "2026-11-13 20:45",
    "summary": "Developer to slash project exposure by 80% as London office construction costs outstrip property values",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Landsec、建設費の41%高騰を受け新計画を凍結",
+   "summary_ja": "ロンドンのオフィス建設コストが不動産価値を上回り、開発企業はプロジェクトを80%削減する方針。"
   },
   {
    "id": "031f09277f16",
@@ -920,7 +931,9 @@
    "published": "2026-11-13T11:45+00:00",
    "published_jst": "2026-11-13 20:45",
    "summary": "Firm starts 12-month investigation into restoration costs",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "BAM、ティースサイドの歴史的運搬橋の救済に参画",
+   "summary_ja": "修復費用の調査を行うため、建設会社が12ヶ月間の調査業務を開始した。"
   },
   {
    "id": "9d6928f16d6f",
@@ -979,21 +992,6 @@
    "ai_related": false,
    "title_ja": "ロンドンで足場から転落、男性が重体",
    "summary_ja": "ロンドン東部チンフォードの住宅で、40代の男性が足場から転落し、命に別状はないものの重傷を負った。"
-  },
-  {
-   "id": "1a03da89a50a",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Using Fleet Data to Control Fuel, Labor and Maintenance Costs",
-   "url": "https://constructionexec.com/article/using-fleet-data-to-control-fuel-labor-and-maintenance-costs/?utm_source=rss&utm_medium=rss&utm_campaign=using-fleet-data-to-control-fuel-labor-and-maintenance-costs",
-   "published": "2026-11-13T11:00+00:00",
-   "published_jst": "2026-11-13 20:00",
-   "summary": "GPS tracking systems and telematics technology help collect fleet data, giving managers a clearer picture of daily operations. The post Using Fleet Data to Control Fuel, Labor and Maintenance Costs first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "フリートデータ活用による燃料・労務・保守コストの抑制",
-   "summary_ja": "GPS追跡やテレマティクス技術によりフリートデータを収集し、日々の運行状況を的確に把握してコスト管理に役立てる手法について。"
   },
   {
    "id": "29a230e94fc4",
@@ -1883,19 +1881,6 @@
    "summary_ja": "クラウド時代における現代社会への影響について、Arsがライブ配信で議論を行う。"
   },
   {
-   "id": "cc152c289301",
-   "source": "ダイヤモンド・オンライン",
-   "source_id": "gnews_zenecon_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ゼネコン「経営耐久度」ワーストランキング【日建連加盟128社】プライム上場の日本国土開発は4位、ワースト1位は？",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1oQVVuWU9pNkVSWFQteE1kb2ppOGNQNDFhSzh0SFpMRUZ2cW5SZUg4LVFUXzdkSUhWbWR4MGhOaTRPTjBpZUcxdEdsM1k?oc=5",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "92d8f8f9ee92",
    "source": "建設通信新聞Digital",
    "source_id": "gnews_kensetsu_dx",
@@ -1907,32 +1892,6 @@
    "published_jst": "2026-11-13 04:55",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "fe8a1ca81d07",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日商エステムグループを特定/商業施設の早期開業目指す/大阪府の春宮住宅用地活用",
-   "url": "https://www.kensetsunews.com/archives/1308772",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "大阪府は、「令和７年度府営住宅用地活用事業開発事業者公募（第１回）」の提案競技を実施した結果、日商… The post 日商エステムグループを特定/商業施設の早期開業目指す/大阪府の春宮住宅用地活用 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "441f6f84622f",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "92.7億の大成グループ/札幌市の新スケート・カーリング場DB/構成企業に山下、岩田地崎ら",
-   "url": "https://www.kensetsunews.com/archives/1308884",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "札幌市スポーツ局は、ＷＴＯ対象となる「（仮称）新スケート・カーリング場整備事業」を一般競争入札した… The post 92.7億の大成グループ/札幌市の新スケート・カーリング場DB/構成企業に山下、岩田地崎ら first appeared on 建設通信新聞Digital .",
-   "ai_related": false
   },
   {
    "id": "72e09b676450",
@@ -1984,6 +1943,32 @@
    "published": "2026-11-12T19:55+00:00",
    "published_jst": "2026-11-13 04:55",
    "summary": "静岡市と静岡鉄道は、静岡鉄道清水線長沼駅の移転改良を検討している。ＪＲ東静岡駅北口から伸びる自由通… The post 長沼駅を移転改良/11月13日協定締結/静岡市と静鉄 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "fe8a1ca81d07",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日商エステムグループを特定/商業施設の早期開業目指す/大阪府の春宮住宅用地活用",
+   "url": "https://www.kensetsunews.com/archives/1308772",
+   "published": "2026-11-12T19:55+00:00",
+   "published_jst": "2026-11-13 04:55",
+   "summary": "大阪府は、「令和７年度府営住宅用地活用事業開発事業者公募（第１回）」の提案競技を実施した結果、日商… The post 日商エステムグループを特定/商業施設の早期開業目指す/大阪府の春宮住宅用地活用 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "441f6f84622f",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "92.7億の大成グループ/札幌市の新スケート・カーリング場DB/構成企業に山下、岩田地崎ら",
+   "url": "https://www.kensetsunews.com/archives/1308884",
+   "published": "2026-11-12T19:55+00:00",
+   "published_jst": "2026-11-13 04:55",
+   "summary": "札幌市スポーツ局は、ＷＴＯ対象となる「（仮称）新スケート・カーリング場整備事業」を一般競争入札した… The post 92.7億の大成グループ/札幌市の新スケート・カーリング場DB/構成企業に山下、岩田地崎ら first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2092,21 +2077,6 @@
    "summary_ja": "アレックス・カープによる左派へのあからさまな方針転換を受け、予定を急遽変更して言及せざるを得なくなった。"
   },
   {
-   "id": "4bad5afe01a1",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Introducing Gemini 4 Hydrogen",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-   "published": "2026-11-12T18:00+00:00",
-   "published_jst": "2026-11-13 03:00",
-   "summary": "",
-   "ai_related": true,
-   "title_ja": "Gemini 4 Hydrogenの紹介",
-   "summary_ja": "新しいGemini 4 Hydrogenに関する詳細情報。"
-  },
-  {
    "id": "459a57b4750a",
    "source": "Google AI Blog",
    "source_id": "google_ai",
@@ -2120,21 +2090,6 @@
    "ai_related": true,
    "title_ja": "Google検索がGemini 4 Hydrogenで大幅進化",
    "summary_ja": "Gemini 4 Hydrogenをグローバルに導入し、より役立つ視覚的で直感的な応答を提供します。"
-  },
-  {
-   "id": "96892311de09",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "The Jensen Huang scandal is hardly over",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
-   "published": "2026-11-12T17:44+00:00",
-   "published_jst": "2026-11-13 02:44",
-   "summary": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has ever had. L'état c'es",
-   "ai_related": true,
-   "title_ja": "ジェンスン・フアンのスキャンダルは終わらない",
-   "summary_ja": "2度目の不倫報道が出るまで、AI業界の中核を担うフアンは無敵だと思っていたが、その見方は覆された。"
   },
   {
    "id": "deea79b353af",
@@ -2225,66 +2180,6 @@
    "ai_related": true,
    "title_ja": "ジェンスン・フアン氏、議会証言に同意",
    "summary_ja": "中国のスパイ疑惑がある女性との不倫報道でCEOを解任されたフアン氏が、召喚の動きを受け証言に同意した。"
-  },
-  {
-   "id": "f2b9dfede202",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Multiskilling Can Shorten Construction Schedules by Up to 38%",
-   "url": "https://constructionexec.com/article/multiskilling-can-shorten-construction-schedules-by-up-to-38/?utm_source=rss&utm_medium=rss&utm_campaign=multiskilling-can-shorten-construction-schedules-by-up-to-38",
-   "published": "2026-11-12T16:00+00:00",
-   "published_jst": "2026-11-13 01:00",
-   "summary": "Multiskilled crews increased their share of time directly advancing construction work by 39% and reduced waiting and idle time by 68%. The post Multiskilling Can Shorten Construction Schedules by Up to 38% first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "マルチスキル化で建設工程を最大38%短縮可能",
-   "summary_ja": "多能工化されたチームは施工直接作業の割合が39%増加し、待機・遊休時間が68%削減されたという建設ニュース。"
-  },
-  {
-   "id": "f360117e6763",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Brooklyn building collapses into adjacent construction site, leading to multiple deaths",
-   "url": "https://www.constructiondive.com/news/brooklyn-building-collapses-adjacent-construction-site-fatalities/874484/",
-   "published": "2026-11-12T14:58+00:00",
-   "published_jst": "2026-11-12 23:58",
-   "summary": "The DOB has issued a stop-work order in response to “unsafe construction operations” that led to multiple deaths and hospitalizations. The exact cause of the collapse is under investigation.",
-   "ai_related": false,
-   "title_ja": "ブルックリンのビルが隣接する工事現場に崩落、死傷者多数",
-   "summary_ja": "安全上の問題から作業停止命令が出され、死傷者が出ている。崩落の原因は現在調査中。"
-  },
-  {
-   "id": "5f96a0ebfa7b",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
-   "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-   "published": "2026-11-12T14:50+00:00",
-   "published_jst": "2026-11-12 23:50",
-   "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
-   "ai_related": true,
-   "title_ja": "Google、Gemini搭載の395ドルからのスマートグラスを発表",
-   "summary_ja": "初のGeminiスマートグラスはGoogle、Samsungなどの共同開発によるもの。"
-  },
-  {
-   "id": "f80011fe91f1",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Federal permitting bill that could speed apartment construction advances in Senate",
-   "url": "https://www.constructiondive.com/news/baaja-permitting-bill-speed-apartment-construction-advances-in/874482/",
-   "published": "2026-11-12T14:46+00:00",
-   "published_jst": "2026-11-12 23:46",
-   "summary": "Bipartisan American Affordability and Jobs Act of 2026 measures could streamline permitting processes and development programs for multifamily, according to housing industry groups.",
-   "ai_related": false,
-   "title_ja": "集合住宅の建設を迅速化する連邦許可法案が上院で前進",
-   "summary_ja": "業界団体によると、手続きの簡素化により集合住宅の開発プロセスが円滑になる見込み。"
   }
  ]
 }
