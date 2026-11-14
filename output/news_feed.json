@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-14T19:29+00:00",
- "generated_at_jst": "2026-11-15 04:29",
+ "generated_at": "2026-11-14T20:42+00:00",
+ "generated_at_jst": "2026-11-15 05:42",
  "window_hours": 48,
  "counts": {
-  "ai_global": 44,
-  "ai_japan": 25,
-  "construction_japan": 38,
-  "construction_global": 34
+  "ai_global": 39,
+  "ai_japan": 24,
+  "construction_japan": 29,
+  "construction_global": 30
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+   "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "venturebeat_ai",
+   "feed": "constructionexec",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
@@ -30,7 +30,9 @@
    "published": "2026-11-14T19:05+00:00",
    "published_jst": "2026-11-15 04:05",
    "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned I",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AnthropicのCEO、来年の動向に「大きな不確実性」と指摘",
+   "summary_ja": "過去最大規模のIPOを目前に控え、Anthropicのダリオ・アモディCEOは計算資源の確保が最大の経営的ジレンマであると述べた。同社のコミットメントは900億ドル規模に達している。"
   },
   {
    "id": "7134e7e1ad67",
@@ -43,7 +45,9 @@
    "published": "2026-11-14T17:30+00:00",
    "published_jst": "2026-11-15 02:30",
    "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AIの墓場：消え去ったプロジェクトとスタートアップ一覧",
+   "summary_ja": "Appleの度重なる延期を経たSiriや、OpenAIの混乱した「スーパーアプリ」の発表など、閉鎖されたり期待外れに終わったAIプロジェクトの数々を振り返る。"
   },
   {
    "id": "d586df59cc4d",
@@ -56,7 +60,9 @@
    "published": "2026-11-14T16:48+00:00",
    "published_jst": "2026-11-15 01:48",
    "summary": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The articl",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Gemini 4 CarbonがMathArena首位奪取も、コストは15倍",
+   "summary_ja": "数学ベンチマークMathArenaでOpenAIモデルが久しぶりに首位から陥落。GoogleのGemini 4 CarbonとAnthropicのFable 5.2が上回ったが、コストは大幅に増加している。"
   },
   {
    "id": "59895b456217",
@@ -69,7 +75,9 @@
    "published": "2026-11-14T16:42+00:00",
    "published_jst": "2026-11-15 01:42",
    "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropic、Claude Opus 5.5の古いプロンプト習慣に言及",
+   "summary_ja": "AnthropicはClaude Opus 5.5を有料プランのデフォルトに設定し、古いプロンプトの習慣を改めるガイドを公開した。「よく考えて」の指示をやめ、中程度の労力から始めることが推奨されている。"
   },
   {
    "id": "075bbfb634c2",
@@ -82,7 +90,9 @@
    "published": "2026-11-14T16:34+00:00",
    "published_jst": "2026-11-15 01:34",
    "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Nvidiaのジェンスン・フアンCEO退任でアジア各国が反応",
+   "summary_ja": "一部の政府は半導体供給の確約を取り付ける動きを見せる一方、国内プロジェクトへの影響を注視したり、進行中の調査への対応に追われたりしている。"
   },
   {
    "id": "d46b516a4c83",
@@ -530,19 +540,6 @@
    "ai_related": true,
    "title_ja": "Anthropic、製造業向け「Claude」で工場ソフトとAIを直結",
    "summary_ja": "新プラグインにより、オートデスクやオラクルなどのソフトと連携し、見積作成や発注などを自動化する17の専門スキルを備える。"
-  },
-  {
-   "id": "62b70b6e9b81",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "October Construction Materials Prices Unchanged, Energy and Lumber Prices Fall",
-   "url": "https://constructionexec.com/article/october-construction-materials-prices-unchanged-energy-and-lumber-prices-fall/?utm_source=rss&utm_medium=rss&utm_campaign=october-construction-materials-prices-unchanged-energy-and-lumber-prices-fall",
-   "published": "2026-11-13T16:05+00:00",
-   "published_jst": "2026-11-14 01:05",
-   "summary": "As the year winds down, so do construction materials prices, namely oil and lumber. The post October Construction Materials Prices Unchanged, Energy and Lumber Prices Fall first appeared on Construction Executive .",
-   "ai_related": false
   },
   {
    "id": "c231d25e54b9",
@@ -1000,19 +997,6 @@
    "ai_related": false,
    "title_ja": "ロンドンで足場から転落、男性が重体",
    "summary_ja": "ロンドン東部チンフォードの住宅で、40代の男性が足場から転落し、命に別状はないものの重傷を負った。"
-  },
-  {
-   "id": "1a03da89a50a",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Using Fleet Data to Control Fuel, Labor and Maintenance Costs",
-   "url": "https://constructionexec.com/article/using-fleet-data-to-control-fuel-labor-and-maintenance-costs/?utm_source=rss&utm_medium=rss&utm_campaign=using-fleet-data-to-control-fuel-labor-and-maintenance-costs",
-   "published": "2026-11-13T11:00+00:00",
-   "published_jst": "2026-11-13 20:00",
-   "summary": "GPS tracking systems and telematics technology help collect fleet data, giving managers a clearer picture of daily operations. The post Using Fleet Data to Control Fuel, Labor and Maintenance Costs first appeared on Construction Executive .",
-   "ai_related": false
   },
   {
    "id": "29a230e94fc4",
@@ -1758,241 +1742,6 @@
    "published_jst": "2026-11-13 06:00",
    "summary": "次のページ The post 【マンガ】解体屋ゲン #869 第865話 天下国家を大いに語る（3） first appeared on 施工の神様 .",
    "ai_related": false
-  },
-  {
-   "id": "3d38a3b693a2",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Clark, AECOM JV selected for $3B Kansas City Chiefs stadium",
-   "url": "https://www.constructiondive.com/news/clark-aecom-jv-kansas-city-chiefs-stadium/874555/",
-   "published": "2026-11-12T20:41+00:00",
-   "published_jst": "2026-11-13 05:41",
-   "summary": "The 70,000-seat venue will anchor a larger $4.5 billion capital investment plan in Kansas, including a $300 million practice facility and $1.2 billion in adjacent projects.",
-   "ai_related": false,
-   "title_ja": "スタジアム建設にクラーク等のJVが選定",
-   "summary_ja": "カンザス州の30億ドル規模のチーフタジアム建設に向け、JVが選ばれた。"
-  },
-  {
-   "id": "e153c4dc0f7f",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Jensen Huang was having a third affair, Reuters reports",
-   "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
-   "published": "2026-11-12T20:26+00:00",
-   "published_jst": "2026-11-13 05:26",
-   "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
-   "ai_related": true,
-   "title_ja": "ジェンセン・フアン氏の不倫疑惑報道",
-   "summary_ja": "Reutersによると、フアン氏がNvidiaの新たな女性従業員と関係を持っていたという。"
-  },
-  {
-   "id": "07356858caea",
-   "source": "MIT Technology Review AI",
-   "source_id": "mit_tr",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-   "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-   "published": "2026-11-12T20:16+00:00",
-   "published_jst": "2026-11-13 05:16",
-   "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “pote",
-   "ai_related": true,
-   "title_ja": "Nvidia、チップ追跡の技術的可能性を確認",
-   "summary_ja": "密輸対策措置の導入は技術的に可能であると、Nvidia側が議員に伝えていたことが判明した。"
-  },
-  {
-   "id": "fa1db65a5530",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction site next to fatal Brooklyn collapse previously violated stop-work order: DOB",
-   "url": "https://www.constructiondive.com/news/project-fatal-brooklyn-collapse-stop-work-order/874545/",
-   "published": "2026-11-12T20:01+00:00",
-   "published_jst": "2026-11-13 05:01",
-   "summary": "The Wednesday incident killed eight people, including two construction workers, said New York City Mayor Zohran Mamdani. He vowed the city would hold the responsible parties accountable.",
-   "ai_related": false,
-   "title_ja": "ブルックリンの崩落事故現場で違反が判明",
-   "summary_ja": "死者を出した工事現場の隣接施設が、過去に作業停止命令に違反していたことが発覚した。"
-  },
-  {
-   "id": "5b0f73df89a6",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-   "url": "https://openai.com/business/customer-stories/amplitude",
-   "published": "2026-11-12T20:00+00:00",
-   "published_jst": "2026-11-13 05:00",
-   "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-   "ai_related": true,
-   "title_ja": "Amplitude、OpenAIで迅速な改善を実現",
-   "summary_ja": "OpenAIモデルを活用し、製品エージェントが開発の特定から効果測定までを迅速に行う。"
-  },
-  {
-   "id": "91eb580e47d0",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "総務省が新しい無料オンライン講座「統計解析プログラミング」を1月に開講 Pythonでのデータ分析が4週間で学べる",
-   "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news013.html",
-   "published": "2026-11-12T20:00+00:00",
-   "published_jst": "2026-11-13 05:00",
-   "summary": "総務省統計局が、Pythonで統計解析と主要な分析手法を学ぶ無料オンライン講座「“わかる・使える”統計解析プログラミング」を2027年1月12日に新規開講する。主成分分析、回帰分析、ランダムフォレストから需要予測の演習まで、4週間の中身と受講の条件を整理する。",
-   "ai_related": true
-  },
-  {
-   "id": "30c1e38ef1a2",
-   "source": "北國新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ロボット×ＡＩで建設現場を可視化 川田工業がシステム開発｜経済｜富山のニュース｜富山新聞",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aLXFRYVZJVmg3cFAxMzE4NXlkRENnVFYtUEJFZW5GLVZjbXo2VWtCc3IxVEQ4M1JjX2VYS090SEFMRHpmRWFkV0FvVGwxc3dGNVZzM25zWQ?oc=5",
-   "published": "2026-11-12T20:00+00:00",
-   "published_jst": "2026-11-13 05:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "daa865742ef7",
-   "source": "日本経済新聞",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "施工管理アプリのスパイダープラス 建設DX需要取り込む",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9nUXd3NjY2bTZQSUFOUWw0SFRWRGFobEM5enFyNFZzalR0d2RMMExWdVZnM3o3MmhKUUpoNS04NjZUbzgzaWk3NGRIOFkzQk5OOVU0SHJtR3EzQWduRG5GOXRyazRNWVhfcDBkZHRnTkY4bGZoV2w4aGR3NTlhdw?oc=5",
-   "published": "2026-11-12T20:00+00:00",
-   "published_jst": "2026-11-13 05:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "75c7ee7437ec",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
-   "url": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-   "published": "2026-11-12T19:59+00:00",
-   "published_jst": "2026-11-13 04:59",
-   "summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
-   "ai_related": true,
-   "title_ja": "データセンターへのドローン攻撃の意味とは",
-   "summary_ja": "クラウド時代における現代社会への影響について、Arsがライブ配信で議論を行う。"
-  },
-  {
-   "id": "92d8f8f9ee92",
-   "source": "建設通信新聞Digital",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "特集・第6回建設DX展［東京］",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5QmlxVFpISkI1MG5KSXBEeTlFVU1wT19HUnpFQzU5aDYyMXdiMGpsVXFvNW1SektRbUM0TnhUZW02S1Y4eEtOUHNraE5pbGdFQ3lucmZEbVM?oc=5",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "72e09b676450",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "武蔵野市/32.3億の松村組/保健センター増築改修",
-   "url": "https://www.kensetsunews.com/archives/1308718",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "東京都武蔵野市は、「保健センター増築及び大規模改修等工事」を一般競争入札した結果、３２億３０００万… The post 武蔵野市/32.3億の松村組/保健センター増築改修 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "ee25dfea008f",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "関東地方整備局WTO/12月9日まで2件受付/国道15号品川駅西口基盤整備橋梁上部",
-   "url": "https://www.kensetsunews.com/archives/1308721",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "関東地方整備局は１１月１３日、ＷＴＯ対象となる「Ｒ８国道１５号品川駅西口基盤整備橋梁上部他その１工… The post 関東地方整備局WTO/12月9日まで2件受付/国道15号品川駅西口基盤整備橋梁上部 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "74d4e29a19be",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "鉾田市/概算工事費は最大141億/参加表明11月26日まで庁舎・公共施設再編",
-   "url": "https://www.kensetsunews.com/archives/1308729",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "茨城県鉾田市は１２日、「鉾田市庁舎・公共施設再編整備基本計画策定及び発注支援業務委託（飯名地区）」… The post 鉾田市/概算工事費は最大141億/参加表明11月26日まで庁舎・公共施設再編 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "1162667655bd",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "長沼駅を移転改良/11月13日協定締結/静岡市と静鉄",
-   "url": "https://www.kensetsunews.com/archives/1308748",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "静岡市と静岡鉄道は、静岡鉄道清水線長沼駅の移転改良を検討している。ＪＲ東静岡駅北口から伸びる自由通… The post 長沼駅を移転改良/11月13日協定締結/静岡市と静鉄 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "fe8a1ca81d07",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日商エステムグループを特定/商業施設の早期開業目指す/大阪府の春宮住宅用地活用",
-   "url": "https://www.kensetsunews.com/archives/1308772",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "大阪府は、「令和７年度府営住宅用地活用事業開発事業者公募（第１回）」の提案競技を実施した結果、日商… The post 日商エステムグループを特定/商業施設の早期開業目指す/大阪府の春宮住宅用地活用 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "441f6f84622f",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "92.7億の大成グループ/札幌市の新スケート・カーリング場DB/構成企業に山下、岩田地崎ら",
-   "url": "https://www.kensetsunews.com/archives/1308884",
-   "published": "2026-11-12T19:55+00:00",
-   "published_jst": "2026-11-13 04:55",
-   "summary": "札幌市スポーツ局は、ＷＴＯ対象となる「（仮称）新スケート・カーリング場整備事業」を一般競争入札した… The post 92.7億の大成グループ/札幌市の新スケート・カーリング場DB/構成企業に山下、岩田地崎ら first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "3b869b1138e3",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "No, AI agents did not discover a previously unknown Maya site",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-   "published": "2026-11-12T19:42+00:00",
-   "published_jst": "2026-11-13 04:42",
-   "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked cr",
-   "ai_related": true,
-   "title_ja": "AIエージェントによるマヤ遺跡の発見は誤り",
-   "summary_ja": "未発見とされた遺跡はすでに発見されており、AIによる新発見という主張は間違いだった。"
   }
  ]
 }
