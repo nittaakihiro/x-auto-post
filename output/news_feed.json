@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-15T01:53+00:00",
- "generated_at_jst": "2026-11-15 10:53",
+ "generated_at": "2026-11-15T02:42+00:00",
+ "generated_at_jst": "2026-11-15 11:42",
  "window_hours": 48,
  "counts": {
   "ai_global": 39,
   "ai_japan": 12,
-  "construction_japan": 20,
-  "construction_global": 30
+  "construction_japan": 17,
+  "construction_global": 21
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -72,7 +72,7 @@
    "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
    "published": "2026-11-14T22:26+00:00",
    "published_jst": "2026-11-15 07:26",
-   "summary": "Article URL: https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html Comments URL: https://news.ycombinator.com/item?id=50501631 Points: 179 # Comments: 99",
+   "summary": "Article URL: https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html Comments URL: https://news.ycombinator.com/item?id=50501631 Points: 215 # Comments: 120",
    "ai_related": true,
    "title_ja": "Nvidia、循環取引でGPU価格を高止まりさせた疑惑",
    "summary_ja": "Nvidiaが循環取引を利用して、GPUの価格を意図的に高く維持していたという疑惑についての記事と、それに対する議論が紹介されている。"
@@ -100,6 +100,19 @@
    "lang": "ja",
    "title": "鹿島が完全自律移動ロボットを建設現場に本格導入した",
    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5oVTJIcDFPQ2hrckJlQWYzQlVuZ0ZyYmNyallWT0Z1QU56S3FGTy1iUkp0VFN4eUlZdEVkWmx6ajVCdw?oc=5",
+   "published": "2026-11-14T21:00+00:00",
+   "published_jst": "2026-11-15 06:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "e21105cd52c3",
+   "source": "ビジネスジャーナル",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大企業の「後回しの業務」に商機はあるか…駅舎BIM化で組んだJR東日本とACIMUS",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tcGVId2RIeWhLYlk0NVVIV1dibWtYNEhXVlFERXlZQ0JQUlZPSG92em1hNzd6OTZKZnhxa1laLUZNT2lzbm5qR0NCWlZfVWY1R2JOaGl2YkQ2Qjg?oc=5",
    "published": "2026-11-14T21:00+00:00",
    "published_jst": "2026-11-15 06:00",
    "summary": "",
@@ -209,19 +222,6 @@
    "ai_related": true,
    "title_ja": "サム・アルトマンを解任した元取締役、AI経営者は信頼できない",
    "summary_ja": "ジョージタウン大学のヘレン・トナー氏を招き、実社会におけるAIについて語り合うシリーズの第2回。"
-  },
-  {
-   "id": "cc9557f9b81a",
-   "source": "Dellows News",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ONESTRUCTIONが建設分野特化の生成AI比較サイトを公開",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9mTU80NjNQMlVBYWtpN2FEM0NZdWwzSWxkVk83M2FjSEZtNjRQUGpRX2hBZ2dIZWZOVTlRSHRFbFAzSWwxV0RZ?oc=5",
-   "published": "2026-11-14T12:43+00:00",
-   "published_jst": "2026-11-14 21:43",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "567fa298898a",
@@ -862,51 +862,6 @@
    "summary_ja": "AI業界におけるNvidiaの重要性が高い中、今回のトップ辞任がスタートアップエコシステムに与える影響が注目されている。"
   },
   {
-   "id": "589c23a2f1f8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Skills shortage may blunt BSR cladding crackdown",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/skills-shortage-undermines-crackdown-on-worst-blockers-in-building-safety-13-11-2026/",
-   "published": "2026-11-13T12:47+00:00",
-   "published_jst": "2026-11-13 21:47",
-   "summary": "New powers designed to crackdown on “the worst blockers” of building-safety remediation will be used “pragmatically” due to a lack of skilled contractors, the chair of the Building Safety Regulator (BSR) has said. On Thursday, Lord Andy Roe told MPs examining the Building Safety (Remediation… The po",
-   "ai_related": false,
-   "title_ja": "人材不足によりBSRの外壁改修取り締まりが鈍化する恐れ",
-   "summary_ja": "熟練工の不足により、ビル安全規制当局（BSR）は安全性改修の悪質な妨害行為に対する新たな権限を現実的かつ柔軟に運用せざるを得ないと述べている。"
-  },
-  {
-   "id": "c39953e382e9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Growing number of frameworks blamed for inflated resi retrofit costs",
-   "url": "https://www.constructionnews.co.uk/contracts/growing-number-of-frameworks-blamed-for-inflated-resi-retrofit-costs-13-11-2026/",
-   "published": "2026-11-13T12:45+00:00",
-   "published_jst": "2026-11-13 21:45",
-   "summary": "An overcrowded market of procurement frameworks is allowing contractors to charge housing associations well above market rates for retrofit work, research has revealed. Retrofit contractor Domna has published a report calling for an overhaul of how contracts are awarded. The firm claims the growing ",
-   "ai_related": false,
-   "title_ja": "住宅改修費が高騰、乱立する調達フレームワークに原因の指摘",
-   "summary_ja": "調査によると、調達フレームワークの市場過密化が原因で、施工会社が住宅協会に対して相場を大きく上回る改修費用を請求しているという。"
-  },
-  {
-   "id": "f133b189e95a",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Scotland loses over 6,000 construction workers as regions face labour shortages",
-   "url": "https://www.constructionnews.co.uk/skills/scotland-loses-over-6000-construction-workers-as-regions-face-labour-shortages-13-11-2026/",
-   "published": "2026-11-13T12:45+00:00",
-   "published_jst": "2026-11-13 21:45",
-   "summary": "Scotland's construction industry has lost 6,240 workers in two years, with some parts of the country facing a shortage of people to fill jobs. East Central Scotland has the biggest gap, according to a Construction Industry Training Board (CITB) report. The area is expected to… The post Scotland lose",
-   "ai_related": false,
-   "title_ja": "スコットランドの建設労働者が2年間で6,000人以上減少、各地で人手不足深刻化",
-   "summary_ja": "スコットランドの建設業界で労働者の流出が続き、一部地域では深刻な人手不足に直面している。"
-  },
-  {
    "id": "025949940b1f",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -920,21 +875,6 @@
    "ai_related": true,
    "title_ja": "フアン氏、後継者に対して信頼を示さなかったと報道",
    "summary_ja": "夏の会議において、フアン氏は後継者候補のKress氏を厳しく評していたと伝えられている。"
-  },
-  {
-   "id": "ff3a3880e468",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Leicester station revamp returns to market with £22m tender",
-   "url": "https://www.constructionnews.co.uk/civils/leicester-station-revamp-returns-to-market-with-22m-tender-13-11-2026/",
-   "published": "2026-11-13T12:19+00:00",
-   "published_jst": "2026-11-13 21:19",
-   "summary": "Leicester City Council has launched a £21.6m tender for the Leicester Station Gateway redevelopment, following previous setbacks in procuring a contractor for the scheme. The latest procurement follows the collapse of a previous attempt to enlist a contractor. Only one firm submitted a bid during… T",
-   "ai_related": false,
-   "title_ja": "レスター駅の再開発、2200万ポンドの規模で再入札を実施",
-   "summary_ja": "レスター市議会は、過去の施工会社選定の難航を経て、駅周辺の再開発事業に向けて2,160万ポンドの入札手続きを開始した。"
   },
   {
    "id": "9cd7d2e5ba86",
@@ -1023,21 +963,6 @@
    "ai_related": true
   },
   {
-   "id": "0720c3d480a4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Glasgow eyes March launch for £300m civils framework",
-   "url": "https://www.constructionnews.co.uk/civils/glasgow-eyes-march-launch-for-300m-civils-framework-13-11-2026/",
-   "published": "2026-11-13T12:00+00:00",
-   "published_jst": "2026-11-13 21:00",
-   "summary": "Glasgow City Council has announced plans to launch procurement for a £300m civil engineering and infrastructure framework in March 2027. The council published a prior information notice yesterday (12 November), setting 1 March as the expected date for issuing the contract notice. The proposed framew",
-   "ai_related": false,
-   "title_ja": "グラスゴー、3億ポンドの土木事業枠組みを3月に発足へ",
-   "summary_ja": "グラスゴー市議会は、3億ポンド規模の土木・インフラ事業に関する調達を2027年3月に開始する計画を発表した。"
-  },
-  {
    "id": "81b79e8b3a17",
    "source": "Global Construction Review",
    "source_id": "gcr",
@@ -1081,21 +1006,6 @@
    "ai_related": false,
    "title_ja": "BAM、ティースサイドの歴史的運搬橋の救済に参画",
    "summary_ja": "修復費用の調査を行うため、建設会社が12ヶ月間の調査業務を開始した。"
-  },
-  {
-   "id": "9d6928f16d6f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Overseas contractors can bid for £500m Portsmouth naval jetty rebuild",
-   "url": "https://www.constructionnews.co.uk/buildings/overseas-contractors-can-bid-for-500m-portsmouth-naval-jetty-rebuild-13-11-2026/",
-   "published": "2026-11-13T11:41+00:00",
-   "published_jst": "2026-11-13 20:41",
-   "summary": "The Defence Infrastructure Organisation (DIO) has said bidders from allied states will be able to bid for a £500m job to demolish and rebuild a jetty at HM Naval Base Portsmouth. A notice published yesterday (12 November) outlined plans to replace the ageing Fountain Lake… The post Overseas contract",
-   "ai_related": false,
-   "title_ja": "ポーツマスの軍港桟橋再建工事、海外企業も5億ポンドの入札に参加可能",
-   "summary_ja": "防衛インフラ機関（DIO）は、同盟国の企業もポーツマス海軍基地の桟橋解体・再建に関する5億ポンドの工事入札に参加できると発表した。"
   },
   {
    "id": "3878ddfdca60",
@@ -1152,21 +1062,6 @@
    "summary_ja": "qentinは自然言語を使用し、施設管理者が資産の検索や安全機能の確認を行うのを支援する。"
   },
   {
-   "id": "d6fdcac4eaad",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Man critically injured in London scaffolding fall",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/man-critically-injured-in-london-scaffolding-fall-13-11-2026/",
-   "published": "2026-11-13T11:00+00:00",
-   "published_jst": "2026-11-13 20:00",
-   "summary": "A man in his 40s has suffered life-threatening injuries after falling from scaffolding at a house in Chingford, east London. The incident happened at around 12.10pm on Wednesday (11 November) at a two-storey semi-detached property in Chingford Avenue, Waltham Forest. The man was treated at… The post",
-   "ai_related": false,
-   "title_ja": "ロンドンで足場から転落、男性が重体",
-   "summary_ja": "ロンドン東部チンフォードの住宅で、40代の男性が足場から転落し、命に別状はないものの重傷を負った。"
-  },
-  {
    "id": "1a03da89a50a",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -1180,32 +1075,6 @@
    "ai_related": false,
    "title_ja": "フリートデータ活用による燃料・人件費・保守費の削減",
    "summary_ja": "GPS追跡やテレマティクス技術を活用してフリートデータを収集し、日々の運行管理を明確化してコスト削減につなげる手法を解説。"
-  },
-  {
-   "id": "29a230e94fc4",
-   "source": "VOCO News",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "SpaceXが740億ドル超を投じてAIスパコン拠点建設！テキサス・アリゾナの2拠点、住民は署名で反対",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DMlgtWWM0WjhQamRaTllaVGw4dkF1bnRJNHJyTlkxM2taSWhKNXZOV3ppSTlyTkQteW1CMG9wMm9Mck5ReUs2UHk3YlUxd1NnT2FnWkVxU2J3TUNfV2ROSzhrVGVfQjJXWUVySW5rX09HaWFwUHFUQnV2RQ?oc=5",
-   "published": "2026-11-13T10:19+00:00",
-   "published_jst": "2026-11-13 19:19",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "4afd5ff02293",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【建設×AI】「サクミル」が仕入AIをリリース！請求書や領収書のPDF/写真をアップするだけで仕入-原価管理が可能に",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE40dk5FcmtlczRuMkZKeVhWT215WGFKaWczMEFiLVpVcmQtYmJnR0RIdjE4VTBpREhTZGwwcnRoeV9VOHBMcHRYbGVYbklEQ294Y3ZXa2d4bDVlbDRHam9nVlZ4RjNQQkY2eWp4SEhtNjFQZw?oc=5",
-   "published": "2026-11-13T10:10+00:00",
-   "published_jst": "2026-11-13 19:10",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "09b7282ac7c2",
@@ -1249,21 +1118,6 @@
    "summary_ja": "Archeform BIMは、リフォーム業務をターゲットにした新バージョン1.1をリリースした。"
   },
   {
-   "id": "cf9c8794612d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier and Reds10 secure £4.6m asylum-site deals",
-   "url": "https://www.constructionnews.co.uk/contracts/kier-and-reds10-secure-4-6m-asylum-site-deals-13-11-2026/",
-   "published": "2026-11-13T09:26+00:00",
-   "published_jst": "2026-11-13 18:26",
-   "summary": "Kier and Reds10 have won Home Office contracts worth a combined £4.6m for design work on proposed asylum-seeker accommodation at two former military sites. Kier secured a £3.4m contract for refurbishment and modular accommodation proposals at MoD Barnham in Suffolk. Reds10 won a £1.2m deal… The post",
-   "ai_related": false,
-   "title_ja": "KierとReds10、難民関連施設で合計460万ポンドの契約を獲得",
-   "summary_ja": "KierとReds10は、元軍用地における難民申請者向け宿泊施設の設計に関し、内務省から総額460万ポンドの契約を受注した。"
-  },
-  {
    "id": "03cad8198cb7",
    "source": "清水建設",
    "source_id": "gnews_kensetsu_dx",
@@ -1288,21 +1142,6 @@
    "published_jst": "2026-11-13 17:50",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "17f918fecf04",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Survey drone strikes Manchester crane",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/survey-drone-strikes-manchester-crane-13-11-2026/",
-   "published": "2026-11-13T08:39+00:00",
-   "published_jst": "2026-11-13 17:39",
-   "summary": "A surveying drone has struck a tower crane on a Manchester construction site despite having its obstacle-avoidance system enabled, an air accident report has revealed. The DJI Matrice 4E was following a pre-selected flight path over a site in Cheetham Hill on 3 August when… The post Survey drone str",
-   "ai_related": true,
-   "title_ja": "測量用ドローンがマンチェスターのクレーンに接触",
-   "summary_ja": "障害物回避システムが有効であったにもかかわらず、測量用ドローンが建設現場のタワークレーンに衝突したことが航空事故報告書で判明した。"
   },
   {
    "id": "c0a9a8621d3e",
@@ -1455,19 +1294,6 @@
    "published": "2026-11-13T03:00+00:00",
    "published_jst": "2026-11-13 12:00",
    "summary": "熊谷組は2026年11月12日、2027年3月期の第2四半期（中間期）決算短信を公表しました。対象は2026年4月1日から9月30日までの連...",
-   "ai_related": false
-  },
-  {
-   "id": "b048604a616e",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設現場のKY活動をAIで支援。「Buildee 電子KY」新機能β版を開発",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE10LWZnRlJjY3VmUlkwem9ieUgtVTlPRjFuQUVKRF9EYTlmZjk2Q0d1Z2ZYWFV0VFlwOWZEM0I3bFhrRENaTzlsV0RFaFZWRU9LY3YxSlFvVWZwZ1dNRzRVa1JLekh6ejc4ZGc?oc=5",
-   "published": "2026-11-13T02:00+00:00",
-   "published_jst": "2026-11-13 11:00",
-   "summary": "",
    "ai_related": false
   }
  ]
