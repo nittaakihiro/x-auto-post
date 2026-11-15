@@ -1,17 +1,21 @@
 {
- "generated_at": "2026-11-15T17:06+00:00",
- "generated_at_jst": "2026-11-16 02:06",
+ "generated_at": "2026-11-15T17:44+00:00",
+ "generated_at_jst": "2026-11-16 02:44",
  "window_hours": 48,
  "counts": {
-  "ai_global": 30,
-  "construction_japan": 13,
-  "ai_japan": 10,
-  "construction_global": 4
+  "ai_global": 29,
+  "construction_japan": 14,
+  "ai_japan": 7,
+  "construction_global": 3
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -40,7 +44,7 @@
    "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
    "published": "2026-11-15T14:46+00:00",
    "published_jst": "2026-11-15 23:46",
-   "summary": "Article URL: https://jakub.jankiewicz.org/blog/ai-code-open-source/ Comments URL: https://news.ycombinator.com/item?id=50507303 Points: 351 # Comments: 219",
+   "summary": "Article URL: https://jakub.jankiewicz.org/blog/ai-code-open-source/ Comments URL: https://news.ycombinator.com/item?id=50507303 Points: 456 # Comments: 280",
    "ai_related": true,
    "title_ja": "AI生成コードはすべてオープンソースにすべき",
    "summary_ja": "AIによって生成されたすべてのコードをオープンソース化すべきだとする主張についての議論やコメントが寄せられています。"
@@ -210,6 +214,19 @@
    "ai_related": false
   },
   {
+   "id": "5a291881e2df",
+   "source": "Dellows News",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トリドールHDが建築手法BIMを導入、トランスコスモスと連携し育成プログラムも開始",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9sYXc0NzNNR0dCcUZoWlpDcHRrbUJPOUNrWFk3blRFbXZrcHN5M1MyRjNsbEFfZUJLRF9zc3hnd2dnX2c0UGc?oc=5",
+   "published": "2026-11-15T05:16+00:00",
+   "published_jst": "2026-11-15 14:16",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "c91e0cb9c458",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -232,7 +249,7 @@
    "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
    "published": "2026-11-15T01:18+00:00",
    "published_jst": "2026-11-15 10:18",
-   "summary": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal Comments URL: https://news.ycombinator.com/item?id=50502988 Points: 379 # Comments: 161",
+   "summary": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal Comments URL: https://news.ycombinator.com/item?id=50502988 Points: 390 # Comments: 170",
    "ai_related": true,
    "title_ja": "裁判所、DRAM価格カルテル訴訟の却下申し立てを棄却",
    "summary_ja": "DRAMの価格カルテル疑惑をめぐる訴訟について、裁判所が原告側の訴えを退けるための被告側の申し立てを却下しました。"
@@ -754,75 +771,6 @@
    "ai_related": true,
    "title_ja": "中国の最先端AIモデル、輸出規制対象のNvidia製チップを使用",
    "summary_ja": "中国の最も高度なAIモデルが、輸出禁止対象となっているNvidia製チップを使用して訓練されていたことが新たな調査で判明した。"
-  },
-  {
-   "id": "bb538f8512a3",
-   "source": "AINOW",
-   "source_id": "ainow",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIエージェントを人事・採用に活用！自動化できる4つの業務と注意点",
-   "url": "https://ainow.ai/2026/11/14/278521/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e4%25ba%25ba%25e4%25ba%258b%25e3%2583%25bb%25e6%258e%25a1%25e7%2594%25a8%25e3%2581%25ab%25e6%25b4%25bb%25e7%2594%25a8%25ef%25bc%2581%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b",
-   "published": "2026-11-13T17:27+00:00",
-   "published_jst": "2026-11-14 02:27",
-   "summary": "採用実務に加えて入社後の問い合わせ対応まで抱え、人事本来の業務に手が回らないと感じる担当者は少なくありません。 AIエージェントとは、日程調整や問い合わせ対応といった定型業務を自律的に実行できるAIです。一方で、合否や評... The post AIエージェントを人事・採用に活用！自動化できる4つの業務と注意点 first appeared on AI専門ニュースメディア AINOW .",
-   "ai_related": true
-  },
-  {
-   "id": "743e8b03b2d9",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-   "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-   "published": "2026-11-13T17:25+00:00",
-   "published_jst": "2026-11-14 02:25",
-   "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
-   "ai_related": true,
-   "title_ja": "AIによる社会の乗っ取りは数カ月先か、OpenAI理事が懸念",
-   "summary_ja": "研究者が、AIの報酬ハッキングから人類絶滅の可能性に至る道筋を追跡する。"
-  },
-  {
-   "id": "18709ee1daef",
-   "source": "AINOW",
-   "source_id": "ainow",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIエージェントの労務活用 入退社・社会保険手続きの自動化範囲と導入手順を解説",
-   "url": "https://ainow.ai/2026/11/14/278518/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%258a%25b4%25e5%258b%2599%25e6%25b4%25bb%25e7%2594%25a8-%25e5%2585%25a5%25e9%2580%2580%25e7%25a4%25be%25e3%2583%25bb%25e7%25a4%25be%25e4%25bc%259a%25e4%25bf%259d%25e9%2599%25ba%25e6%2589%258b%25e7%25b6%259a",
-   "published": "2026-11-13T17:19+00:00",
-   "published_jst": "2026-11-14 02:19",
-   "summary": "入退社のたびに書類を回収し、不備を確認し、システムへ転記する。月初や年度更新の時期には提出期限に追われる。こうした労務の定型作業に、時間を取られていないでしょうか。 AIエージェントとは、目標を与えると自ら手順を考え、複... The post AIエージェントの労務活用 入退社・社会保険手続きの自動化範囲と導入手順を解説 first appeared on AI専門ニュースメディア AINOW .",
-   "ai_related": true
-  },
-  {
-   "id": "88d1df1d0c14",
-   "source": "AINOW",
-   "source_id": "ainow",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AI面接官とは？人事向けに導入手順とツール比較・費用を解説",
-   "url": "https://ainow.ai/2026/11/14/278515/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e9%259d%25a2%25e6%258e%25a5%25e5%25ae%2598%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e4%25ba%25ba%25e4%25ba%258b%25e5%2590%2591%25e3%2581%2591%25e3%2581%25ab%25e5%25b0%258e%25e5%2585%25a5%25e6%2589%258b%25e9%25a0%2586%25e3%2581%25a8%25e3%2583%2584%25e3%2583%25bc%25e3%2583%25ab%25e6%25af%2594%25e8%25bc%2583%25e3%2583%25bb",
-   "published": "2026-11-13T17:12+00:00",
-   "published_jst": "2026-11-14 02:12",
-   "summary": "応募数が増えるたびに一次面接の日程調整と実施が人事に積み上がり、面接官ごとの評価のばらつきにも悩んでいないでしょうか。 解決策の一つが、質問と評価の一部をAIが担うAI面接官です。ただし、AIに任せる範囲と運用ルールを決... The post AI面接官とは？人事向けに導入手順とツール比較・費用を解説 first appeared on AI専門ニュースメディア AINOW .",
-   "ai_related": true
-  },
-  {
-   "id": "d69b2415ef4f",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Ferrovial wins $538M Texas water project",
-   "url": "https://www.constructiondive.com/news/ferrovial-wins-538m-texas-water-project/874640/",
-   "published": "2026-11-13T17:08+00:00",
-   "published_jst": "2026-11-14 02:08",
-   "summary": "The reclamation work in Fort Worth, to be delivered by subsidiary Webber, is the firm’s largest water infrastructure project in the U.S. to date.",
-   "ai_related": false,
-   "title_ja": "フェロビアル、テキサス州の水処理プロジェクトを5億3800万ドルで受注",
-   "summary_ja": "子会社のWebberが担当するフォートワースでの環境修復事業は、同社にとって米国における水インフラ事業として過去最大規模。"
   }
  ]
 }
