@@ -1,20 +1,136 @@
 {
- "generated_at": "2026-11-16T18:30+00:00",
- "generated_at_jst": "2026-11-17 03:30",
+ "generated_at": "2026-11-16T19:38+00:00",
+ "generated_at_jst": "2026-11-17 04:38",
  "window_hours": 48,
  "counts": {
-  "ai_global": 59,
-  "construction_global": 21,
+  "ai_global": 65,
+  "construction_global": 11,
   "ai_japan": 30,
   "construction_japan": 51
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "gnews_zenecon_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "cd9a297fa8a4",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+   "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+   "published": "2026-11-16T19:24+00:00",
+   "published_jst": "2026-11-17 04:24",
+   "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advan",
+   "ai_related": true
+  },
+  {
+   "id": "5f72fbdc79b9",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+   "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+   "published": "2026-11-16T19:23+00:00",
+   "published_jst": "2026-11-17 04:23",
+   "summary": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether",
+   "ai_related": true
+  },
+  {
+   "id": "a258409b9578",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+   "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+   "published": "2026-11-16T19:19+00:00",
+   "published_jst": "2026-11-17 04:19",
+   "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before",
+   "ai_related": true
+  },
+  {
+   "id": "d1bee759e86a",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+   "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+   "published": "2026-11-16T19:12+00:00",
+   "published_jst": "2026-11-17 04:12",
+   "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+   "ai_related": true
+  },
+  {
+   "id": "df8e5203f114",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "US moves to cut China’s remote access to AI chips",
+   "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+   "published": "2026-11-16T19:10+00:00",
+   "published_jst": "2026-11-17 04:10",
+   "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
+   "ai_related": true
+  },
+  {
+   "id": "7234ed3b159b",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+   "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+   "published": "2026-11-16T18:52+00:00",
+   "published_jst": "2026-11-17 03:52",
+   "summary": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots Kimi models from coding to science as be",
+   "ai_related": true
+  },
+  {
+   "id": "bd7cc537cd57",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+   "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+   "published": "2026-11-16T18:43+00:00",
+   "published_jst": "2026-11-17 03:43",
+   "summary": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, alon",
+   "ai_related": true
+  },
+  {
+   "id": "9c493a96e3fa",
+   "source": "MIT Technology Review AI",
+   "source_id": "mit_tr",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "The open-source movement wants Jensen Huang back",
+   "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+   "published": "2026-11-16T18:38+00:00",
+   "published_jst": "2026-11-17 03:38",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including El",
+   "ai_related": true
+  },
   {
    "id": "0b5fe7dce536",
    "source": "TechCrunch AI",
@@ -66,7 +182,7 @@
    "source_id": "techcrunch_ai",
    "category": "ai_global",
    "lang": "en",
-   "title": "OpenAI will embed Apollo researchers to investigate AI subversion",
+   "title": "OpenAI will embed safety researchers to investigate AI subversion",
    "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
    "published": "2026-11-16T17:02+00:00",
    "published_jst": "2026-11-17 02:02",
@@ -286,6 +402,19 @@
    "summary_ja": "Claudeの長期的な知識保持について検証した結果、網羅的な記録よりも選択的なメモの方が圧倒的に高い効果を発揮することが分かった。"
   },
   {
+   "id": "242d49a88f8c",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nvidia was in trouble before the Jensen Huang mess",
+   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "published": "2026-11-16T15:24+00:00",
+   "published_jst": "2026-11-17 00:24",
+   "summary": "Article URL: https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/ Comments URL: https://news.ycombinator.com/item?id=50518567 Points: 163 # Comments: 155",
+   "ai_related": true
+  },
+  {
    "id": "e387cc871ef3",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -464,96 +593,6 @@
    "summary_ja": "企業はAIを個別実験として扱ってきましたが、AIエージェントが業務フローに組み込まれる中、そのモデルは不十分になりつつあります。"
   },
   {
-   "id": "15438c614494",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fire put out at £240m Bowmer & Kirkland Newcastle project",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/fire-breaks-out-at-240m-bowmer-kirkland-newcastle-project-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "Firefighters attended and extinguished a blaze at a Bowmer & Kirkland construction site in Newcastle last week. Tyne and Wear Fire and Rescue Service confirmed that two appliances were sent to tackle the incident at the contractor's Castle Leazes development in the city. Bowmer &… The post Fire put ",
-   "ai_related": false,
-   "title_ja": "ニューカッスルの建設現場で火災が発生、無事鎮火",
-   "summary_ja": "先週、ニューカッスルの建設現場で火災が発生し、消防隊が出動して消し止めました。消防当局が2台の車両を出動させたことを確認しています。"
-  },
-  {
-   "id": "15a4def79c8e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "‘Experimental’ public sector framework would stimulate robotics adoption",
-   "url": "https://www.constructionnews.co.uk/tech/experimental-public-sector-framework-would-stimulate-robotics-adoption-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "Adoption of construction site robotics at scale would be boosted if Whitehall issues an experimental procurement framework, a top official has said. Fergus Harradence, deputy director for construction logistics at the Department for Business and Trade, said investment in site robotics is hard to jus",
-   "ai_related": true,
-   "title_ja": "「実験的」な公共調達枠組みでロボット導入促進へ",
-   "summary_ja": "政府が実験的な調達枠組みを導入すれば、建設現場でのロボットの大規模導入が後押しされると高官が述べています。"
-  },
-  {
-   "id": "3fd2f44f3872",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Gateway 3 approvals treble despite longer waits",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/bsr-brings-in-staff-for-gateway-3-surge-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "The Building Safety Regulator (BSR) has more than tripled the number of Gateway 3 approvals in its latest reporting period, although the median approval time has lengthened. The regulator approved 31 applications in the 12 weeks to 1 November, compared with nine in the previous… The post Gateway 3 a",
-   "ai_related": false,
-   "title_ja": "審査期間長期化も、ゲートウェイ3の承認件数は3倍増",
-   "summary_ja": "建築安全規制当局（BSR）は最新の報告期間で承認件数を3倍以上に増やしましたが、中央値の審査期間は長期化しています。"
-  },
-  {
-   "id": "91a2d22b6641",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Speller Metcalfe to take on former Torsion job in West Midlands",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/big-names-in-frame-to-take-on-former-torsion-job-in-west-midlands-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "Speller Metcalfe is to complete a Black Country scheme left unfinished by collapsed firm Torsion Construction. Sandwell Metropolitan Borough Council's Cabinet unanimously approved the firm's appointment for phases one and two of the Tipton Regeneration Scheme (pictured). Council leader Ray Nock said",
-   "ai_related": false,
-   "title_ja": "スペラー・メトカルフェ、前任破綻のウェストミッドランズの工事を継承",
-   "summary_ja": "破綻した建設会社の未完成案件を引き継ぎ、地方議会の満場一致で第1・第2期の施工企業に選ばれました。"
-  },
-  {
-   "id": "fa7e5fe8a974",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "London waste plant build cost surges to £1.25bn",
-   "url": "https://www.constructionnews.co.uk/buildings/london-waste-plant-build-cost-surges-to-1-25bn-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "The cost of a major waste management project in Edmonton has increased by £451m following disputes between contractor Acciona and client North London Waste Authority (NLWA). Public body NLWA and Spanish contractor Acciona have agreed revised terms that would bring the total value of the… The post Lo",
-   "ai_related": false,
-   "title_ja": "ロンドンの廃棄物処理プラントの建設費が12.5億ポンドに高騰",
-   "summary_ja": "請負業者と発注者の間の紛争により、エドモントンの大規模廃棄物管理プロジェクトのコストが4億5100万ポンド増加しました。"
-  },
-  {
-   "id": "7a681818d1e8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Subcontractors risk work by admitting competence gaps, warns ICC chair",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/contractors-confident-on-safety-compliance-but-competence-concerns-remain-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "Subcontractors who admit they lack the competence to carry out safety-critical work risk being replaced rather than supported, the chair of the Industry Competence Committee (ICC) has warned. Jon Vanstone, whose committee advises the Building Safety Regulator, questioned whether commercial contracts",
-   "ai_related": false,
-   "title_ja": "能力不足の告白は排除につながるリスク、ICC委員長が警鐘",
-   "summary_ja": "安全に関わる作業の能力不足を認めた下請け業者は、支援されるどころか、交代させられるリスクがあると業界委員会委員長が警告しました。"
-  },
-  {
    "id": "8cd345b9ca86",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -595,21 +634,6 @@
    "ai_related": false
   },
   {
-   "id": "9ec00cd458e9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Devolving power, building capacity: the procurement challenge ahead",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/devolving-power-building-capacity-the-procurement-challenge-ahead-16-11-2026/",
-   "published": "2026-11-16T12:04+00:00",
-   "published_jst": "2026-11-16 21:04",
-   "summary": "Paul Beeston is partner and head of industry and service insights at Rider Levett Bucknall Further devolution is evidently a core strategy of the new government, with prime minister Andy Burnham promising to give authority and budget responsibility to the regions. While the new government… The post ",
-   "ai_related": false,
-   "title_ja": "権限委譲と能力構築：今後の調達における課題",
-   "summary_ja": "新政権の核心戦略である権限委譲を背景に、自治体への権限付与を約束する中での調達課題について専門家が解説します。"
-  },
-  {
    "id": "f891bd93f3d2",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -638,36 +662,6 @@
    "ai_related": true
   },
   {
-   "id": "bd16daca1ce3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sinden lined up for £31m Tower Hamlets housing job",
-   "url": "https://www.constructionnews.co.uk/contracts/sinden-lined-up-for-31m-tower-hamlets-housing-job-16-11-2026/",
-   "published": "2026-11-16T11:29+00:00",
-   "published_jst": "2026-11-16 20:29",
-   "summary": "Sinden Construction has been selected for a £30.9m contract to build 53 affordable homes and five retail units in Tower Hamlets, east London. Tower Hamlets Council named the Essex-based contractor in an award notice published on 13 November, following a competition that attracted eight bids.… The po",
-   "ai_related": false,
-   "title_ja": "シンデン、タワーハムレッツの3,100万ポンドの住宅工事を受注",
-   "summary_ja": "手頃な価格の住宅53戸と店舗5区画を建設するため、シンデン・コンストラクションが約3,090万ポンドの契約を獲得しました。"
-  },
-  {
-   "id": "58261da29d18",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Northern Trains launches £307m construction framework",
-   "url": "https://www.constructionnews.co.uk/civils/northern-trains-launches-307m-construction-framework-16-11-2026/",
-   "published": "2026-11-16T11:03+00:00",
-   "published_jst": "2026-11-16 20:03",
-   "summary": "Rail operator Northern Trains has launched a £307m framework covering design and construction projects at stations, depots and other operational properties. The framework was developed primarily for Northern Trains, TransPennine Express and London North Eastern Railway, although other train operator",
-   "ai_related": false,
-   "title_ja": "ノーザン・トレインズ、3.07億ポンドの建設枠組みを立ち上げ",
-   "summary_ja": "鉄道運営業者のノーザン・トレインズが、駅や車両基地などの設計・建設プロジェクトを対象とした大規模な枠組みを発表しました。"
-  },
-  {
    "id": "3ec91a598d41",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -681,21 +675,6 @@
    "ai_related": false,
    "title_ja": "スマートPPEにおけるデータセキュリティとプライバシー",
    "summary_ja": "クラウド上のデータ保存は情報漏洩のリスクを高め、特に医療情報の保護が重要視されています。"
-  },
-  {
-   "id": "8d05a5802966",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Tier one JV prepares for 18-month HS2 viaduct deck installation",
-   "url": "https://www.constructionnews.co.uk/civils/hs2/tier-one-jv-prepares-for-18-month-hs2-viaduct-deck-installation-16-11-2026/",
-   "published": "2026-11-16T10:44+00:00",
-   "published_jst": "2026-11-16 19:44",
-   "summary": "Balfour Beatty Vinci has installed a 125-tonne gantry crane ahead of an 18-month operation to construct the decks of five HS2 viaducts in Birmingham. The joint venture (JV) contractor is due to begin installing 1,516 reinforced concrete slabs this week on the Curzon approaches, which… The post Tier ",
-   "ai_related": false,
-   "title_ja": "HS2高架橋の床板設置に向け準備を進める大手JV",
-   "summary_ja": "Balfour Beatty Vinciが、バーミンガムでの5つの高架橋建設に向け125トンの門型クレーンを設置しました。"
   },
   {
    "id": "c738be2a9d59",
@@ -1305,21 +1284,6 @@
    "ai_related": true
   },
   {
-   "id": "8468cd1c9400",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Qwen4-Max",
-   "url": "https://qwen.ai/blog?id=qwen4-max",
-   "published": "2026-11-16T02:14+00:00",
-   "published_jst": "2026-11-16 11:14",
-   "summary": "Article URL: https://qwen.ai/blog?id=qwen4-max Comments URL: https://news.ycombinator.com/item?id=50513215 Points: 802 # Comments: 430",
-   "ai_related": true,
-   "title_ja": "Qwen4-Maxが発表",
-   "summary_ja": "Qwen4-Maxに関する最新のブログ記事と議論が共有されています。"
-  },
-  {
    "id": "dd7d22102e65",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1344,19 +1308,6 @@
    "published_jst": "2026-11-16 10:54",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "a49970a77745",
-   "source": "Dellows News",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "KENCOPA安村CEOと戸田建設斎藤氏がJAPAN BUILDで12月登壇へ",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ZbXBxeGNaNEhnSnFXVEhYNUNCV1hlaXNnZVBwcHZKeUw3OHNWNjVjbUsyUkRjaGxScjBTdjFuQUM1QW1DUDMw?oc=5",
-   "published": "2026-11-16T01:40+00:00",
-   "published_jst": "2026-11-16 10:40",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "9c49f9e22cd8",
@@ -1536,21 +1487,6 @@
    "ai_related": true,
    "title_ja": "datasette-maplibre 0.1a0リリース",
    "summary_ja": "MapLibre GLとOpenFreeMapを組み合わせた、久々のDatasette用地理空間プラグイン。"
-  },
-  {
-   "id": "7bcbcfb1111a",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "What's Next for Nvidia?",
-   "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-   "published": "2026-11-15T23:55+00:00",
-   "published_jst": "2026-11-16 08:55",
-   "summary": "Article URL: https://steveblank.com/2026/11/15/whats-next-for-nvidia/ Comments URL: https://news.ycombinator.com/item?id=50512235 Points: 420 # Comments: 534",
-   "ai_related": true,
-   "title_ja": "Nvidiaの次の展開とは",
-   "summary_ja": "Nvidiaの将来の戦略や動向についての記事と、Hacker Newsでの議論を紹介。"
   },
   {
    "id": "fa232e2aaf8a",
@@ -2170,6 +2106,19 @@
    "summary_ja": "データへの質問を可能にするDatasetteエージェントプラグインで、細かな修正やプロンプト追加を実施。"
   },
   {
+   "id": "0154974e7201",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "鹿島が完全自律移動ロボットを建設現場に本格導入した（ニュースイッチ）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KQy1wVHUySkdyRzlqdUs2LTJ1RHZmY1NoT2RZYS1MUjFlSmxQSS1DOThyNmZWLV9BSkNzUHVDcThzaTZvT3lnUzZidU4teGVJZDc0RTR1bjE1cTFuTTNjRWx6N1JWNUNQWUlxckE4c1VLRXJhZjFwcFF0RTRfS1E?oc=5",
+   "published": "2026-11-15T02:10+00:00",
+   "published_jst": "2026-11-15 11:10",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "acaf00569e86",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2230,7 +2179,7 @@
   {
    "id": "6b8b111d5cd5",
    "source": "ニュースイッチ by 日刊工業新聞社",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "鹿島が完全自律移動ロボットを建設現場に本格導入した",
@@ -2252,21 +2201,6 @@
    "published_jst": "2026-11-15 06:00",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "a60709173eb7",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-   "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-   "published": "2026-11-14T19:05+00:00",
-   "published_jst": "2026-11-15 04:05",
-   "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned I",
-   "ai_related": true,
-   "title_ja": "AnthropicのCEO、来年の動向に「大きな不確実性」と指摘",
-   "summary_ja": "過去最大規模のIPOを目前に控え、Anthropicのダリオ・アモディCEOは計算資源の確保が最大の経営的ジレンマであると述べた。同社のコミットメントは900億ドル規模に達している。"
   }
  ]
 }
