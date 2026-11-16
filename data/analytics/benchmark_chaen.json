@@ -1,23 +1,285 @@
 {
- "fetched_at": "2026-11-15T21:08:29.524807+00:00",
+ "fetched_at": "2026-11-16T00:09:47.650423+00:00",
  "accounts": [
   {
    "username": "masahirochaen",
-   "followers": 203001,
+   "followers": 203000,
    "days": 7,
    "count": 98,
    "tweets": [
+    {
+     "id": 2122118491780362541,
+     "text": "■ 補足\n従来は音声→テキスト→LLM→音声の順に変換していて、誰が話したか、ためらいや話し終わりといった情報がそこで落ちていた。Tofu-1は音声のまま理解するので、テレビから聞こえるYesを相手の返事と取り違えないよう設計されている。\nレイテンシや料金は未公開。利用は申込フォームから。\n\n■ 出典\nhttps://t.co/q3SaRaDW45\nhttps://t.co/s6wALqFIXZ",
+     "chars": 199,
+     "created_at": "2026-11-16T00:04:10+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 343,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122118479889461615,
+     "text": "Blandが音声から音声へ直接返すAIモデルTofu-1を発表。\n\nこの動画は通報者もAIも雨や子どもの声も全部Tofu-1が生成した音とのこと。\n\nこれが本当なら、コールセンターの電話対応などで結構使えそう。早く試してみたい。\n\n・テキストを挟まない全二重の音声モデル\n・話しながら相手の割り込みや言い直しを聞き取る\n・34番地→35番地の訂正にも会話の途中で対応\n・銀行、医療、保険、行政の電話が対象\n・限られた企業向けにリサーチプレビュー開始",
+     "chars": 224,
+     "created_at": "2026-11-16T00:04:07+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1075,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": false,
+     "media": [
+      "video"
+     ]
+    },
+    {
+     "id": 2122101860475814085,
+     "text": "■ 補足\n・Privacy Modeの人のプロンプトとコードは対象外。ログ流出は利用者の0.05%未満、APIキー流出は顧客の0.01%未満で、該当者には個別に連絡済み\n・Cursor本体と公式アップデート、他の拡張は影響なしとのこと\n・10/29に該当版を入れた人は、アンインストールだけでは不十分。公式の手順で確認を\n\n■ 出典\nhttps://t.co/0gZJdffB39\nhttps://t.co/jdDJ6CSfWX",
+     "chars": 214,
+     "created_at": "2026-11-15T22:58:04+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2024,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122101847842562291,
+     "text": "【⚠️注意】Cursorが10月末のセキュリティ事故を報告。委託先Fireworksから漏れたキーが入口で、偽のClaude Code拡張が最大5,000人に届いていた。\n\nNotionに続いてまたFireworks経由。AIツールの裏の委託先まで気にする時代ですね、、\n\n・Fireworksに渡したキーが流出\n・学習用ログに認証情報が残存\n・偽拡張2.1.312／2.1.313を約11時間配信\n・11月1日を最後に封じ込め済み",
+     "chars": 216,
+     "created_at": "2026-11-15T22:58:01+00:00",
+     "metrics": {
+      "bookmark_count": 6,
+      "impression_count": 4692,
+      "like_count": 17,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 3
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
+    {
+     "id": 2122088137132478797,
+     "text": "■ 補足\nHydrogenはGeminiアプリ、AI Studio、Google検索で順次提供中。試すならGeminiアプリで「Three.jsで〇〇を作って」と頼むのが手軽です。\n56秒と6分超、0.19ドルは各ユーザーが自分の作例で出した数字。条件をそろえたベンチマークではないので、目安として読んでください。\n\n■ 出典\nhttps://t.co/6HzeYsLNEj\nhttps://t.co/5u6qa2YoFb",
+     "chars": 211,
+     "created_at": "2026-11-15T22:03:33+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2363,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088125115863301,
+     "text": "⑩ Three.jsで作った近未来都市を飛び回れる。プロシージャル生成のビル群に雨、空飛ぶ車まで。\n\n追加の指示1回でここまで仕上がっています。まず1回作らせて、足りない点を1つずつ伝えるのがコツ。\nhttps://t.co/jmA2h6e5d1",
+     "chars": 123,
+     "created_at": "2026-11-15T22:03:30+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2443,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088113296347303,
+     "text": "⑨ 島のラグーンをインタラクティブに再現。水の表現は独自に作り込まれ、帆船は自分で操縦でき、夜明けから夜までの時間帯も切り替えられます。\n\n観光地や施設の紹介ページを、見るだけでなく遊べる形にするヒントになりますね。\nhttps://t.co/hfJEEr666r",
+     "chars": 132,
+     "created_at": "2026-11-15T22:03:27+00:00",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 284,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088101451571267,
+     "text": "⑧ 3D Medic：Hydrogenが3Dファイルを点検してエラーを見つけ、書き出し前に修正してくれる。\n\n作るだけでなく、チェック役としても使える例。3Dプリントや製造の前工程で手戻りを減らせそう。\nhttps://t.co/WVcxR8H21L",
+     "chars": 125,
+     "created_at": "2026-11-15T22:03:24+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 275,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088089640419409,
+     "text": "⑦ 3Dの砂漠の牧場をHydrogenは56秒で完成。3.8 Flashは6分以上かかった。\n\n1回が速いと、作っては直すを何周も回せる。完成度は試行回数で上げるのが実践的な使い方です。\nhttps://t.co/HXUObTBJcw",
+     "chars": 117,
+     "created_at": "2026-11-15T22:03:21+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 303,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088077741134037,
+     "text": "⑥ 深紅の蛾を45分で制作。CarbonがHydrogenのワーカー群を並列で動かして作っています。デモ動画の録画までHydrogenがやっている。\n\n上位モデルが指示役、Hydrogenが実行役という分担の実例。重い作業はこの組み合わせで回すのが良さそうです。\nhttps://t.co/l8h25zt3jM",
+     "chars": 155,
+     "created_at": "2026-11-15T22:03:18+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 325,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088065904812207,
+     "text": "⑤ インタラクティブな3Dのダイニングルームを30分で作成。照明はちゃんと点き、冷蔵庫も開けられます。\n\n内装や不動産の完成イメージを触って確かめてもらう、という提案が現実的になってきました。\nhttps://t.co/v2nlYHH0C8",
+     "chars": 120,
+     "created_at": "2026-11-15T22:03:16+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 328,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088054072766864,
+     "text": "④ Hanabi Switch（花火スイッチ）という音量スライダー。\n\n動かすと小さな和室が動き出す仕掛け。制作コストは0.19ドル。\n\nUIの部品1つを遊び心のある形に作り込めるので、LPやアプリの細部の試作にちょうどいい。\nhttps://t.co/SqV1ec3uOc",
+     "chars": 137,
+     "created_at": "2026-11-15T22:03:13+00:00",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 339,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088042274181281,
+     "text": "③ 塔、桜、灯籠の橋がある錦鯉の庭をボクセルで再現。\n\nGeminiアプリの中で、20回のプロンプトだけで作られています。\n\n開発環境がなくてもアプリだけで完結するので、エンジニアでない人が最初に試すならこの形が手軽。\nhttps://t.co/FlmVldbtoj",
+     "chars": 133,
+     "created_at": "2026-11-15T22:03:10+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 385,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088030450434189,
+     "text": "② Geminisland：プロンプトを打つと、Hydrogenが3Dのボクセル建築をみんなで共有する島に追加してくれる。できた島は歩き回れます。\n\n参加者が一緒に1つの空間を作れるので、研修やイベントの体験企画にも向いていますね。\nhttps://t.co/KLLzFPa3wq",
+     "chars": 140,
+     "created_at": "2026-11-15T22:03:07+00:00",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 573,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088018500821408,
+     "text": "① Googleスプレッドシートが動く風景画に。\n\n海沿いを走る列車、流れる雲、舞い落ちる葉。どれもセルを1つずつ再計算しながら描かれています。\n\n表計算でここまで動かせるなら、社内の表やダッシュボードに動きのある可視化を足す発想にも応用できそう。\nhttps://t.co/Ce60fRqvoj",
+     "chars": 148,
+     "created_at": "2026-11-15T22:03:04+00:00",
+     "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 723,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "is_quote": true,
+     "media": []
+    },
+    {
+     "id": 2122088006270230652,
+     "text": "【保存版】Gemini 4 Hydrogenの活用事例10選。公開直後から、3Dやインタラクティブな作品の作例が次々と出てきています。\n\n速いので、思いついたアイデアをその場で動く形にできるのが強み。自分の仕事なら何に使えるか考えながら見ると面白いです。ブックマーク推奨。\n\n・3Dの砂漠の牧場を56秒で完成（3.8 Flashは6分超）\n・音量スライダー作品の制作コストは0.19ドル\n・照明が点く3Dダイニングルームを30分で構築\n・3Dファイルの点検・修正役にも\n\nスレッドで詳細を解説👇",
+     "chars": 247,
+     "created_at": "2026-11-15T22:03:01+00:00",
+     "metrics": {
+      "bookmark_count": 69,
+      "impression_count": 8341,
+      "like_count": 67,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 5
+     },
+     "is_quote": false,
+     "media": [
+      "photo"
+     ]
+    },
     {
      "id": 2121937256844058900,
      "text": "ChatGPT広告、日本でも一般公開されている？？\n\n結構簡単に広告出稿できて、ダッシュボードまで用意されている。面白そうなので色々触ってみます。\n\nちなみにChatGPTの週間アクティブユーザーは既に12億人超。\n\n広告事業も開始から約半年で年換算売上10億ドル（約1,500億円）規模に到達しているとのこと。\n\n他のSNSと比較すると、\n\n・Meta：約29兆円/年\n・YouTube：約6兆円/年\n・Snapchat：約9,000億円/年\n・ChatGPT：約1,500億円/年（年換算）\n\nまだまだ広告収益化は初期段階ですが、ユーザー数を考えるとポテンシャルは凄まじい。\n\nしかもInstagramやYouTubeと違って、ChatGPTはユーザーの購買意図をかなり具体的に把握できる。\n\n「おすすめの法人向けAI研修会社を教えて」\n「予算30万円でおすすめのPCを比較して」\n\nこういった購買直前のタイミングで広告を出せるのはかなり強い。\n\n個人的には2030年に広告売上1〜3兆円規模になっていてもおかしくないと思っています。\n\n検索広告のGoogle、SNS広告のMetaに続いて、AI広告という巨大市場が生まれそうですね。",
      "chars": 519,
      "created_at": "2026-11-15T12:04:00+00:00",
      "metrics": {
-      "bookmark_count": 24,
-      "impression_count": 10340,
-      "like_count": 46,
-      "quote_count": 2,
-      "reply_count": 2,
+      "bookmark_count": 29,
+      "impression_count": 12345,
+      "like_count": 61,
+      "quote_count": 3,
+      "reply_count": 3,
       "retweet_count": 2
      },
      "is_quote": false,
@@ -34,9 +296,9 @@
      "chars": 419,
      "created_at": "2026-11-15T11:08:10+00:00",
      "metrics": {
-      "bookmark_count": 4,
-      "impression_count": 7843,
-      "like_count": 36,
+      "bookmark_count": 6,
+      "impression_count": 8737,
+      "like_count": 38,
       "quote_count": 0,
       "reply_count": 1,
       "retweet_count": 1
@@ -52,9 +314,9 @@
      "chars": 266,
      "created_at": "2026-11-15T09:30:48+00:00",
      "metrics": {
-      "bookmark_count": 5,
-      "impression_count": 16233,
-      "like_count": 44,
+      "bookmark_count": 7,
+      "impression_count": 17766,
+      "like_count": 49,
       "quote_count": 1,
       "reply_count": 2,
       "retweet_count": 3
@@ -71,12 +333,12 @@
      "chars": 519,
      "created_at": "2026-11-15T06:09:36+00:00",
      "metrics": {
-      "bookmark_count": 35,
-      "impression_count": 34348,
-      "like_count": 169,
+      "bookmark_count": 36,
+      "impression_count": 37941,
+      "like_count": 183,
       "quote_count": 1,
       "reply_count": 8,
-      "retweet_count": 3
+      "retweet_count": 5
      },
      "is_quote": true,
      "media": [
@@ -92,9 +354,9 @@
      "chars": 362,
      "created_at": "2026-11-15T01:53:49+00:00",
      "metrics": {
-      "bookmark_count": 6,
-      "impression_count": 38534,
-      "like_count": 45,
+      "bookmark_count": 7,
+      "impression_count": 42169,
+      "like_count": 50,
       "quote_count": 3,
       "reply_count": 1,
       "retweet_count": 6
@@ -111,7 +373,7 @@
      "created_at": "2026-11-15T00:59:12+00:00",
      "metrics": {
       "bookmark_count": 4,
-      "impression_count": 4728,
+      "impression_count": 4921,
       "like_count": 6,
       "quote_count": 0,
       "reply_count": 1,
@@ -126,12 +388,12 @@
      "chars": 219,
      "created_at": "2026-11-15T00:59:09+00:00",
      "metrics": {
-      "bookmark_count": 126,
-      "impression_count": 22196,
-      "like_count": 146,
+      "bookmark_count": 136,
+      "impression_count": 23292,
+      "like_count": 155,
       "quote_count": 7,
       "reply_count": 13,
-      "retweet_count": 9
+      "retweet_count": 10
      },
      "is_quote": false,
      "media": [
@@ -145,8 +407,8 @@
      "created_at": "2026-11-14T14:27:04+00:00",
      "metrics": {
       "bookmark_count": 10,
-      "impression_count": 24007,
-      "like_count": 83,
+      "impression_count": 25220,
+      "like_count": 86,
       "quote_count": 0,
       "reply_count": 0,
       "retweet_count": 3
@@ -160,9 +422,9 @@
      "chars": 132,
      "created_at": "2026-11-14T11:56:44+00:00",
      "metrics": {
-      "bookmark_count": 19,
-      "impression_count": 20304,
-      "like_count": 61,
+      "bookmark_count": 20,
+      "impression_count": 20834,
+      "like_count": 62,
       "quote_count": 1,
       "reply_count": 2,
       "retweet_count": 3
@@ -176,9 +438,9 @@
      "chars": 188,
      "created_at": "2026-11-14T11:35:25+00:00",
      "metrics": {
-      "bookmark_count": 282,
-      "impression_count": 36787,
-      "like_count": 220,
+      "bookmark_count": 286,
+      "impression_count": 37603,
+      "like_count": 224,
       "quote_count": 3,
       "reply_count": 1,
       "retweet_count": 10
@@ -193,7 +455,7 @@
      "created_at": "2026-11-14T10:52:16+00:00",
      "metrics": {
       "bookmark_count": 2,
-      "impression_count": 4915,
+      "impression_count": 5004,
       "like_count": 4,
       "quote_count": 0,
       "reply_count": 0,
@@ -209,11 +471,11 @@
      "created_at": "2026-11-14T10:52:13+00:00",
      "metrics": {
       "bookmark_count": 72,
-      "impression_count": 18133,
-      "like_count": 132,
+      "impression_count": 18504,
+      "like_count": 133,
       "quote_count": 3,
       "reply_count": 7,
-      "retweet_count": 8
+      "retweet_count": 9
      },
      "is_quote": false,
      "media": [
@@ -227,7 +489,7 @@
      "created_at": "2026-11-14T05:21:04+00:00",
      "metrics": {
       "bookmark_count": 4,
-      "impression_count": 4985,
+      "impression_count": 5049,
       "like_count": 6,
       "quote_count": 0,
       "reply_count": 0,
@@ -242,9 +504,9 @@
      "chars": 233,
      "created_at": "2026-11-14T05:21:01+00:00",
      "metrics": {
-      "bookmark_count": 32,
-      "impression_count": 13674,
-      "like_count": 68,
+      "bookmark_count": 34,
+      "impression_count": 13931,
+      "like_count": 69,
       "quote_count": 4,
       "reply_count": 5,
       "retweet_count": 3
@@ -261,7 +523,7 @@
      "created_at": "2026-11-14T04:57:11+00:00",
      "metrics": {
       "bookmark_count": 2,
-      "impression_count": 4459,
+      "impression_count": 4509,
       "like_count": 4,
       "quote_count": 0,
       "reply_count": 0,
@@ -277,11 +539,11 @@
      "created_at": "2026-11-14T04:57:08+00:00",
      "metrics": {
       "bookmark_count": 25,
-      "impression_count": 12613,
-      "like_count": 82,
+      "impression_count": 12744,
+      "like_count": 85,
       "quote_count": 1,
       "reply_count": 3,
-      "retweet_count": 13
+      "retweet_count": 14
      },
      "is_quote": false,
      "media": [
@@ -295,7 +557,7 @@
      "created_at": "2026-11-14T03:00:28+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 4098,
+      "impression_count": 4145,
       "like_count": 3,
       "quote_count": 0,
       "reply_count": 0,
@@ -310,9 +572,9 @@
      "chars": 215,
      "created_at": "2026-11-14T03:00:25+00:00",
      "metrics": {
-      "bookmark_count": 10,
-      "impression_count": 9647,
-      "like_count": 38,
+      "bookmark_count": 11,
+      "impression_count": 9753,
+      "like_count": 39,
       "quote_count": 2,
       "reply_count": 4,
       "retweet_count": 5
@@ -329,7 +591,7 @@
      "created_at": "2026-11-14T02:01:17+00:00",
      "metrics": {
       "bookmark_count": 18,
-      "impression_count": 10668,
+      "impression_count": 10784,
       "like_count": 30,
       "quote_count": 2,
       "reply_count": 1,
@@ -347,7 +609,7 @@
      "created_at": "2026-11-13T23:57:09+00:00",
      "metrics": {
       "bookmark_count": 4,
-      "impression_count": 4607,
+      "impression_count": 4653,
       "like_count": 6,
       "quote_count": 0,
       "reply_count": 0,
@@ -363,8 +625,8 @@
      "created_at": "2026-11-13T23:57:06+00:00",
      "metrics": {
       "bookmark_count": 46,
-      "impression_count": 22088,
-      "like_count": 182,
+      "impression_count": 22347,
+      "like_count": 184,
       "quote_count": 8,
       "reply_count": 11,
       "retweet_count": 35
@@ -381,7 +643,7 @@
      "created_at": "2026-11-13T23:03:10+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 3941,
+      "impression_count": 3964,
       "like_count": 6,
       "quote_count": 0,
       "reply_count": 1,
@@ -397,7 +659,7 @@
      "created_at": "2026-11-13T23:03:07+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 4376,
+      "impression_count": 4411,
       "like_count": 8,
       "quote_count": 0,
       "reply_count": 1,
@@ -413,7 +675,7 @@
      "created_at": "2026-11-13T23:03:04+00:00",
      "metrics": {
       "bookmark_count": 0,
-      "impression_count": 1612,
+      "impression_count": 1654,
       "like_count": 5,
       "quote_count": 0,
       "reply_count": 1,
@@ -429,8 +691,8 @@
      "created_at": "2026-11-13T23:03:01+00:00",
      "metrics": {
       "bookmark_count": 21,
-      "impression_count": 25035,
-      "like_count": 152,
+      "impression_count": 25231,
+      "like_count": 153,
       "quote_count": 1,
       "reply_count": 1,
       "retweet_count": 16
@@ -447,7 +709,7 @@
      "created_at": "2026-11-13T21:58:12+00:00",
      "metrics": {
       "bookmark_count": 4,
-      "impression_count": 9093,
+      "impression_count": 9149,
       "like_count": 15,
       "quote_count": 0,
       "reply_count": 0,
@@ -462,9 +724,9 @@
      "chars": 238,
      "created_at": "2026-11-13T21:58:09+00:00",
      "metrics": {
-      "bookmark_count": 163,
-      "impression_count": 105197,
-      "like_count": 481,
+      "bookmark_count": 166,
+      "impression_count": 105534,
+      "like_count": 480,
       "quote_count": 26,
       "reply_count": 12,
       "retweet_count": 40
@@ -481,7 +743,7 @@
      "created_at": "2026-11-13T14:38:46+00:00",
      "metrics": {
       "bookmark_count": 8,
-      "impression_count": 18611,
+      "impression_count": 18669,
       "like_count": 39,
       "quote_count": 1,
       "reply_count": 0,
@@ -502,7 +764,7 @@
      "created_at": "2026-11-13T13:47:45+00:00",
      "metrics": {
       "bookmark_count": 26,
-      "impression_count": 14057,
+      "impression_count": 14124,
       "like_count": 63,
       "quote_count": 3,
       "reply_count": 3,
@@ -520,7 +782,7 @@
      "created_at": "2026-11-13T09:18:13+00:00",
      "metrics": {
       "bookmark_count": 8,
-      "impression_count": 12707,
+      "impression_count": 12748,
       "like_count": 48,
       "quote_count": 1,
       "reply_count": 2,
@@ -536,7 +798,7 @@
      "created_at": "2026-11-13T07:49:43+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 7891,
+      "impression_count": 7921,
       "like_count": 4,
       "quote_count": 1,
       "reply_count": 0,
@@ -552,7 +814,7 @@
      "created_at": "2026-11-13T07:49:40+00:00",
      "metrics": {
       "bookmark_count": 54,
-      "impression_count": 31694,
+      "impression_count": 31774,
       "like_count": 134,
       "quote_count": 0,
       "reply_count": 2,
@@ -570,7 +832,7 @@
      "created_at": "2026-11-13T07:26:12+00:00",
      "metrics": {
       "bookmark_count": 10,
-      "impression_count": 8424,
+      "impression_count": 8460,
       "like_count": 23,
       "quote_count": 1,
       "reply_count": 0,
@@ -588,7 +850,7 @@
      "created_at": "2026-11-13T05:56:30+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 4324,
+      "impression_count": 4354,
       "like_count": 6,
       "quote_count": 0,
       "reply_count": 0,
@@ -604,7 +866,7 @@
      "created_at": "2026-11-13T05:56:28+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 4827,
+      "impression_count": 4869,
       "like_count": 11,
       "quote_count": 0,
       "reply_count": 2,
@@ -619,8 +881,8 @@
      "chars": 254,
      "created_at": "2026-11-13T05:56:25+00:00",
      "metrics": {
-      "bookmark_count": 26,
-      "impression_count": 17423,
+      "bookmark_count": 27,
+      "impression_count": 17584,
       "like_count": 110,
       "quote_count": 3,
       "reply_count": 3,
@@ -638,7 +900,7 @@
      "created_at": "2026-11-13T02:59:10+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 4211,
+      "impression_count": 4231,
       "like_count": 4,
       "quote_count": 0,
       "reply_count": 0,
@@ -653,8 +915,8 @@
      "chars": 209,
      "created_at": "2026-11-13T02:59:07+00:00",
      "metrics": {
-      "bookmark_count": 18,
-      "impression_count": 11058,
+      "bookmark_count": 19,
+      "impression_count": 11094,
       "like_count": 52,
       "quote_count": 4,
       "reply_count": 5,
@@ -672,7 +934,7 @@
      "created_at": "2026-11-13T02:56:47+00:00",
      "metrics": {
       "bookmark_count": 11,
-      "impression_count": 9553,
+      "impression_count": 9589,
       "like_count": 27,
       "quote_count": 1,
       "reply_count": 0,
@@ -690,7 +952,7 @@
      "created_at": "2026-11-13T00:56:02+00:00",
      "metrics": {
       "bookmark_count": 3,
-      "impression_count": 7072,
+      "impression_count": 7111,
       "like_count": 10,
       "quote_count": 0,
       "reply_count": 0,
@@ -705,9 +967,9 @@
      "chars": 334,
      "created_at": "2026-11-13T00:55:59+00:00",
      "metrics": {
-      "bookmark_count": 624,
-      "impression_count": 134224,
-      "like_count": 1250,
+      "bookmark_count": 625,
+      "impression_count": 134556,
+      "like_count": 1251,
       "quote_count": 45,
       "reply_count": 30,
       "retweet_count": 135
@@ -724,7 +986,7 @@
      "created_at": "2026-11-13T00:01:09+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 4255,
+      "impression_count": 4272,
       "like_count": 5,
       "quote_count": 0,
       "reply_count": 0,
@@ -740,7 +1002,7 @@
      "created_at": "2026-11-13T00:01:06+00:00",
      "metrics": {
       "bookmark_count": 20,
-      "impression_count": 9556,
+      "impression_count": 9583,
       "like_count": 36,
       "quote_count": 1,
       "reply_count": 4,
@@ -758,7 +1020,7 @@
      "created_at": "2026-11-12T22:57:05+00:00",
      "metrics": {
       "bookmark_count": 3,
-      "impression_count": 4964,
+      "impression_count": 4978,
       "like_count": 8,
       "quote_count": 0,
       "reply_count": 0,
@@ -774,8 +1036,8 @@
      "created_at": "2026-11-12T22:57:02+00:00",
      "metrics": {
       "bookmark_count": 37,
-      "impression_count": 20212,
-      "like_count": 96,
+      "impression_count": 20256,
+      "like_count": 95,
       "quote_count": 2,
       "reply_count": 1,
       "retweet_count": 4
@@ -792,7 +1054,7 @@
      "created_at": "2026-11-12T21:58:06+00:00",
      "metrics": {
       "bookmark_count": 4,
-      "impression_count": 4488,
+      "impression_count": 4501,
       "like_count": 4,
       "quote_count": 0,
       "reply_count": 0,
@@ -808,7 +1070,7 @@
      "created_at": "2026-11-12T21:58:03+00:00",
      "metrics": {
       "bookmark_count": 48,
-      "impression_count": 14511,
+      "impression_count": 14560,
       "like_count": 107,
       "quote_count": 1,
       "reply_count": 8,
@@ -826,7 +1088,7 @@
      "created_at": "2026-11-12T21:52:00+00:00",
      "metrics": {
       "bookmark_count": 33,
-      "impression_count": 41525,
+      "impression_count": 41570,
       "like_count": 156,
       "quote_count": 3,
       "reply_count": 3,
@@ -842,7 +1104,7 @@
      "created_at": "2026-11-12T16:38:14+00:00",
      "metrics": {
       "bookmark_count": 14,
-      "impression_count": 11087,
+      "impression_count": 11110,
       "like_count": 22,
       "quote_count": 0,
       "reply_count": 1,
@@ -857,8 +1119,8 @@
      "chars": 158,
      "created_at": "2026-11-12T14:21:55+00:00",
      "metrics": {
-      "bookmark_count": 16,
-      "impression_count": 21943,
+      "bookmark_count": 15,
+      "impression_count": 21966,
       "like_count": 74,
       "quote_count": 0,
       "reply_count": 1,
@@ -874,7 +1136,7 @@
      "created_at": "2026-11-12T14:17:41+00:00",
      "metrics": {
       "bookmark_count": 10,
-      "impression_count": 30364,
+      "impression_count": 30407,
       "like_count": 76,
       "quote_count": 3,
       "reply_count": 1,
@@ -892,7 +1154,7 @@
      "created_at": "2026-11-12T12:27:16+00:00",
      "metrics": {
       "bookmark_count": 74,
-      "impression_count": 23049,
+      "impression_count": 23080,
       "like_count": 158,
       "quote_count": 6,
       "reply_count": 5,
@@ -908,7 +1170,7 @@
      "created_at": "2026-11-12T11:27:20+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 4716,
+      "impression_count": 4724,
       "like_count": 8,
       "quote_count": 0,
       "reply_count": 0,
@@ -924,7 +1186,7 @@
      "created_at": "2026-11-12T11:27:18+00:00",
      "metrics": {
       "bookmark_count": 16,
-      "impression_count": 16493,
+      "impression_count": 16517,
       "like_count": 61,
       "quote_count": 0,
       "reply_count": 3,
@@ -942,7 +1204,7 @@
      "created_at": "2026-11-12T05:58:18+00:00",
      "metrics": {
       "bookmark_count": 3,
-      "impression_count": 4567,
+      "impression_count": 4575,
       "like_count": 4,
       "quote_count": 0,
       "reply_count": 0,
@@ -958,7 +1220,7 @@
      "created_at": "2026-11-12T05:58:15+00:00",
      "metrics": {
       "bookmark_count": 30,
-      "impression_count": 12085,
+      "impression_count": 12104,
       "like_count": 54,
       "quote_count": 4,
       "reply_count": 7,
@@ -976,7 +1238,7 @@
      "created_at": "2026-11-12T05:01:05+00:00",
      "metrics": {
       "bookmark_count": 21,
-      "impression_count": 35650,
+      "impression_count": 35671,
       "like_count": 149,
       "quote_count": 5,
       "reply_count": 3,
@@ -992,7 +1254,7 @@
      "created_at": "2026-11-11T16:08:57+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 5212,
+      "impression_count": 5218,
       "like_count": 6,
       "quote_count": 0,
       "reply_count": 0,
@@ -1008,7 +1270,7 @@
      "created_at": "2026-11-11T16:08:54+00:00",
      "metrics": {
       "bookmark_count": 13,
-      "impression_count": 10171,
+      "impression_count": 10185,
       "like_count": 31,
       "quote_count": 1,
       "reply_count": 7,
@@ -1026,7 +1288,7 @@
      "created_at": "2026-11-11T12:17:12+00:00",
      "metrics": {
       "bookmark_count": 2,
-      "impression_count": 5322,
+      "impression_count": 5330,
       "like_count": 8,
       "quote_count": 0,
       "reply_count": 0,
@@ -1042,7 +1304,7 @@
      "created_at": "2026-11-11T12:17:09+00:00",
      "metrics": {
       "bookmark_count": 26,
-      "impression_count": 10154,
+      "impression_count": 10167,
       "like_count": 29,
       "quote_count": 0,
       "reply_count": 5,
@@ -1060,7 +1322,7 @@
      "created_at": "2026-11-11T11:02:12+00:00",
      "metrics": {
       "bookmark_count": 1,
-      "impression_count": 4973,
+      "impression_count": 4980,
       "like_count": 6,
       "quote_count": 0,
       "reply_count": 0,
@@ -1076,7 +1338,7 @@
      "created_at": "2026-11-11T11:02:09+00:00",
      "metrics": {
       "bookmark_count": 11,
-      "impression_count": 13131,
+      "impression_count": 13151,
       "like_count": 48,
       "quote_count": 2,
       "reply_count": 3,
@@ -1094,7 +1356,7 @@
      "created_at": "2026-11-11T10:03:00+00:00",
      "metrics": {
       "bookmark_count": 4,
-      "impression_count": 4495,
+      "impression_count": 4504,
       "like_count": 5,
       "quote_count": 0,
       "reply_count": 0,
@@ -1112,7 +1374,7 @@
      "created_at": "2026-11-11T10:02:56+00:00",
      "metrics": {
       "bookmark_count": 19,
-      "impression_count": 13231,
+      "impression_count": 13247,
       "like_count": 42,
       "quote_count": 4,
       "reply_count": 5,
@@ -1130,7 +1392,7 @@
      "created_at": "2026-11-11T09:18:03+00:00",
      "metrics": {
       "bookmark_count": 16,
-      "impression_count": 10203,
+      "impression_count": 10221,
       "like_count": 36,
       "quote_count": 0,
       "reply_count": 2,
@@ -1147,8 +1409,8 @@
      "chars": 117,
      "created_at": "2026-11-11T03:16:55+00:00",
      "metrics": {
-      "bookmark_count": 10,
-      "impression_count": 17958,
+      "bookmark_count": 9,
+      "impression_count": 17966,
       "like_count": 76,
       "quote_count": 2,
       "reply_count": 2,
@@ -1167,7 +1429,7 @@
      "created_at": "2026-11-11T00:32:47+00:00",
      "metrics": {
       "bookmark_count": 3,
-      "impression_count": 4781,
+      "impression_count": 4785,
       "like_count": 6,
       "quote_count": 0,
       "reply_count": 0,
@@ -1183,7 +1445,7 @@
      "created_at": "2026-11-11T00:32:44+00:00",
      "metrics": {
       "bookmark_count": 3,
-      "impression_count": 5006,
+      "impression_count": 5010,
       "like_count": 7,
       "quote_count": 0,
       "reply_count": 1,
@@ -1199,7 +1461,7 @@
      "created_at": "2026-11-11T00:32:41+00:00",
      "metrics": {
       "bookmark_count": 2,
-      "impression_count": 2329,
+      "impression_count": 2332,
       "like_count": 7,
       "quote_count": 0,
       "reply_count": 1,
@@ -1217,7 +1479,7 @@
      "created_at": "2026-11-11T00:32:29+00:00",
      "metrics": {
       "bookmark_count": 5,
-      "impression_count": 3596,
+      "impression_count": 3602,
       "like_count": 11,
       "quote_count": 0,
       "reply_count": 2,
@@ -1235,7 +1497,7 @@
      "created_at": "2026-11-11T00:32:16+00:00",
      "metrics": {
       "bookmark_count": 75,
-      "impression_count": 53274,
+      "impression_count": 53363,
       "like_count": 195,
       "quote_count": 5,
       "reply_count": 3,
@@ -1253,7 +1515,7 @@
      "created_at": "2026-11-11T00:02:12+00:00",
      "metrics": {
       "bookmark_count": 2,
-      "impression_count": 8283,
+      "impression_count": 8292,
       "like_count": 23,
       "quote_count": 0,
       "reply_count": 1,
@@ -1269,7 +1531,7 @@
      "created_at": "2026-11-10T22:28:46+00:00",
      "metrics": {
       "bookmark_count": 28,
-      "impression_count": 16236,
+      "impression_count": 16250,
       "like_count": 68,
       "quote_count": 2,
       "reply_count": 5,
@@ -1287,7 +1549,7 @@
      "created_at": "2026-11-10T21:50:20+00:00",
      "metrics": {
       "bookmark_count": 2,
-      "impression_count": 8282,
+      "impression_count": 8291,
       "like_count": 22,
       "quote_count": 0,
       "reply_count": 0,
@@ -1303,7 +1565,7 @@
      "created_at": "2026-11-10T21:37:29+00:00",
      "metrics": {
       "bookmark_count": 3,
-      "impression_count": 5107,
+      "impression_count": 5111,
       "like_count": 3,
       "quote_count": 0,
       "reply_count": 0,
@@ -1319,7 +1581,7 @@
      "created_at": "2026-11-10T21:37:26+00:00",
      "metrics": {
       "bookmark_count": 260,
-      "impression_count": 47856,
+      "impression_count": 47878,
       "like_count": 413,
       "quote_count": 7,
       "reply_count": 18,
@@ -1337,7 +1599,7 @@
      "created_at": "2026-11-10T21:03:14+00:00",
      "metrics": {
       "bookmark_count": 6,
-      "impression_count": 25026,
+      "impression_count": 25037,
       "like_count": 99,
       "quote_count": 0,
       "reply_count": 3,
@@ -1356,7 +1618,7 @@
      "created_at": "2026-11-10T11:15:14+00:00",
      "metrics": {
       "bookmark_count": 10,
-      "impression_count": 15758,
+      "impression_count": 15767,
       "like_count": 68,
       "quote_count": 0,
       "reply_count": 3,
@@ -1377,7 +1639,7 @@
      "created_at": "2026-11-10T11:03:32+00:00",
      "metrics": {
       "bookmark_count": 3,
-      "impression_count": 3819,
+      "impression_count": 3820,
       "like_count": 7,
       "quote_count": 0,
       "reply_count": 0,
@@ -1395,7 +1657,7 @@
      "created_at": "2026-11-10T11:03:28+00:00",
      "metrics": {
       "bookmark_count": 2,
-      "impression_count": 4519,
+      "impression_count": 4522,
       "like_count": 8,
       "quote_count": 0,
       "reply_count": 1,
@@ -1413,7 +1675,7 @@
      "created_at": "2026-11-10T11:03:24+00:00",
      "metrics": {
       "bookmark_count": 17,
-      "impression_count": 15385,
+      "impression_count": 15393,
       "like_count": 56,
       "quote_count": 1,
       "reply_count": 2,
@@ -1422,289 +1684,6 @@
      "is_quote": false,
      "media": [
       "video"
-     ]
-    },
-    {
-     "id": 2120091265517928598,
-     "text": "■ 補足\n映像はFaunaの人型ロボットSprout。社内のFrontier AI & Robotics（FAR）チームが歩行・器用な操作・シミュレーションから実機への転移の基盤モデルを開発していて、今の配備先は主に倉庫。家庭向けの発売時期・価格はまだ出ていない⚠️\n\n■ 出典\nhttps://t.co/Rtjj8Xntby\nhttps://t.co/gtvtMxSv5A",
-     "chars": 187,
-     "created_at": "2026-11-10T09:48:41+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 4234,
-      "like_count": 6,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2120091253606068474,
-     "text": "Amazonが家庭用ロボットの新チームを設立。人型ロボットSproutのFauna Roboticsが中核。\n\nフィジカルAIの波が来てますね。。\n\n倉庫で100万台超のロボットを動かすAmazonが次は家の中へ。人やペットがいる分、難易度は段違いですね。\n\n・新組織Personal Robotics Group\n・Faunaのチームと旧Astroの人材が合流\n・Kindle・Echoを作ったLab126も参加\n・UXデザイナーなども採用中",
-     "chars": 222,
-     "created_at": "2026-11-10T09:48:38+00:00",
-     "metrics": {
-      "bookmark_count": 14,
-      "impression_count": 10493,
-      "like_count": 60,
-      "quote_count": 3,
-      "reply_count": 4,
-      "retweet_count": 8
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2120052145320083717,
-     "text": "■ 補足\n2月に1億人以上が読んだ本人の記事「Something Big is Happening」の答え合わせという構成。人員削減の理由1位がAI、Anthropic内のAI開発の26%をAIが担当、会計士との対決など、作中の数字や出来事はShumer側のまとめ⚠️\nFable 5.2は今回発表されたAnthropicの最上位モデル（API $8/$40）。\n\n■ 出典\nhttps://t.co/RWcsQeXHMj\nhttps://t.co/Wy79zRuf1l",
-     "chars": 235,
-     "created_at": "2026-11-10T07:13:14+00:00",
-     "metrics": {
-      "bookmark_count": 4,
-      "impression_count": 7448,
-      "like_count": 7,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2120052133349535806,
-     "text": "Fabel 5.2、このレベルで動画作れるのすごいな、、\n後で試してみます。\n\nMatt ShumerがClaude Fable 5.2に約5分のドキュメンタリー動画を一発で作らせたと公開。（日本語字幕をつけました）\n\n・テーマは2026年のAIの1年\n・調査、台本、映像探し、全フレーム、音楽までAI\n・本人は修正指示を出しただけ\n・本人いわく「Opusがおもちゃに見える」",
-     "chars": 188,
-     "created_at": "2026-11-10T07:13:11+00:00",
-     "metrics": {
-      "bookmark_count": 162,
-      "impression_count": 29011,
-      "like_count": 242,
-      "quote_count": 5,
-      "reply_count": 5,
-      "retweet_count": 13
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2120048200119902693,
-     "text": "【動画解説】早速Fable 5.2でアニメーション動画を作ってみました。\n\n気持ちアニメーションの精度が上がって、ズレや余白の無駄がなくなった気がします。\n\n■Fable 5.2の特徴\n・ほぼ全ての評価でOpus 5.5超え（同社の評価）\n・出力は最大30%高速、API料金は2割値下げ\n・1,000体でフェルマーの最終定理の証明を30時間で形式化\n・ロボット操作のテストは成功率64.9%（社内測定）\n・試した課題ではOpus 5.5で十分\n\n冒頭の私もSeedance製。一切撮影せずにここまで作れます。ほんまにClaude Code最強。",
-     "chars": 272,
-     "created_at": "2026-11-10T06:57:34+00:00",
-     "metrics": {
-      "bookmark_count": 19,
-      "impression_count": 15576,
-      "like_count": 51,
-      "quote_count": 0,
-      "reply_count": 5,
-      "retweet_count": 4
-     },
-     "is_quote": true,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2119998931962839279,
-     "text": "■ 補足\ndotはChatGPTの中で常に動いているエージェントで、クラウド上に専用のPCとブラウザを持っています。PCの接続はデスクトップアプリでdotのプロフィールを開き、ComputersでAllowを選ぶだけ。使っている間はPCをオンラインにしてアプリを開いておく必要があります。\n対象はPro 100/200/500とBusiness Premiumで順次展開中。Enterpriseは11月18日から既定で有効になります。動画は日本語テロップを付けた版です。\n\n■ 出典\nhttps://t.co/6LJwgA4QpC\nhttps://t.co/GCFq97IYOg",
-     "chars": 289,
-     "created_at": "2026-11-10T03:41:47+00:00",
-     "metrics": {
-      "bookmark_count": 5,
-      "impression_count": 4956,
-      "like_count": 10,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 1
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2119998919929368934,
-     "text": "【新機能】ChatGPTのdotに複数のPCと連携可能に。タスク毎にPCを変更できる。\n\nこれってめちゃくちゃ便利なのでは？\n\nビルドやテストは別マシンに任せて、手元のノートPCで開発を続けられるのが便利。自宅にMac MiniやStudioを置いている人にめっちゃ刺さりそう。\n\n・同じdotに2台目、3台目のPCを接続\n・タスクごとに使うPCを指定\n・2台目のMacでiOSビルドを確認しスクショで報告\n・1スレッドで使えるPCは1台",
-     "chars": 219,
-     "created_at": "2026-11-10T03:41:44+00:00",
-     "metrics": {
-      "bookmark_count": 136,
-      "impression_count": 27498,
-      "like_count": 153,
-      "quote_count": 8,
-      "reply_count": 5,
-      "retweet_count": 15
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2119936352091545908,
-     "text": "■ 補足\n・RoboDojo SimはAnthropicの社内実行で、他社モデルも同じ環境で測った数字\n・公式動画では、Claudeがパズルキューブを解く様子も公開\n・Fable 5.2は全有料プランとAPI（claude-fable-5-2）で使える。料金は入力$8・出力$40\n\n言語モデルがそのままロボットを動かす流れが、一気に現実味を帯びてきました。\n\n■ 出典\nhttps://t.co/vYuLYfEO5d\nhttps://t.co/OhgeD2Z1un",
-     "chars": 233,
-     "created_at": "2026-11-09T23:33:07+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 5027,
-      "like_count": 12,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 1
-     },
-     "is_quote": true,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2119936336790778181,
-     "text": "Claude Fable 5.2、今回一番驚いたのはロボティクスの性能。ベンチマークがずば抜けている。\n\n学習していない作業でも、ロボットの腕を動かせるようになった。来年にはフィジカルAIも事後学習無しでもかなり現場で活躍しそう。\n\n・双腕ロボットのシミュレーション「RoboDojo」で64.9%\n・前のFable 5.1は27.6%で、一気に2倍以上\n・Opus 5.5は39.4%、GPT-6 Astraは29.8%\n・ロボット制御専用に作られたAIの多くも上回る（同社測定）\n\n帰ったら早速Unitree G1にぶち込んで試してみたい。",
-     "chars": 272,
-     "created_at": "2026-11-09T23:33:03+00:00",
-     "metrics": {
-      "bookmark_count": 60,
-      "impression_count": 25881,
-      "like_count": 174,
-      "quote_count": 8,
-      "reply_count": 10,
-      "retweet_count": 23
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2119909025307611170,
-     "text": "■ 補足\n・FableとMythosは中身が同じモデル。Mythosはサイバー・生命科学の審査制で、一般向けはFable\n・ProとTeam標準シートは週の上限の最大50%までFableを使える。APIのIDは claude-fable-5-2\n・自分の比較は単発〜中規模の課題。Fableが本領を出すのは長時間の難しい仕事（同社見解）\n\n普段はOpus 5.5、何時間もかかる開発や研究だけFable 5.2という使い分けが良さそう。\n\n■ 出典\nhttps://t.co/vYuLYfEO5d\nhttps://t.co/WKgIa4jsF0",
-     "chars": 272,
-     "created_at": "2026-11-09T21:44:32+00:00",
-     "metrics": {
-      "bookmark_count": 1,
-      "impression_count": 4560,
-      "like_count": 3,
-      "quote_count": 0,
-      "reply_count": 0,
-      "retweet_count": 0
-     },
-     "is_quote": true,
-     "media": []
-    },
-    {
-     "id": 2119909012783468861,
-     "text": "実際にAPIで同じ課題を投げて比べてみた。コーディング、計算問題、Claude Codeでの表計算エンジン実装など4種類。\n\n・どの設定も全問正解で、差は費用と時間だけ\n・Opus 5.5 Mediumの費用はFable 5.2 Mediumの6〜8割\n・Opus 5.5 Maxは同じ正解に最大13倍の費用と200秒超\n・Claude Codeでの実装もOpusが約50秒、Fableが約70秒\n\n普段の仕事ならOpus 5.5で十分という結果。",
-     "chars": 224,
-     "created_at": "2026-11-09T21:44:29+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 4637,
-      "like_count": 6,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2119908995976868282,
-     "text": "ロボット制御も大きく伸びた。学習していない作業でも双腕ロボットを動かせる。\n\nシミュレーションのRoboDojoで64.9%。Opus 5.5の39.4%、GPT-6 Astraの29.8%を上回り、ロボット専用に作られたAIの多くより上。言語モデルがそのままロボットを動かす流れがここにも来ている。 https://t.co/XBjCUXIJE6",
-     "chars": 174,
-     "created_at": "2026-11-09T21:44:25+00:00",
-     "metrics": {
-      "bookmark_count": 2,
-      "impression_count": 1212,
-      "like_count": 3,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2119908955803803857,
-     "text": "生物では、Mythos 5.2が遺伝子治療で薬を運ぶ殻「カプシド」の構造全体を予測する新しい方法を見つけた。挑戦した34個のうち28個を正確にモデル化。\n\n研究者がカプシドをより速く安く設計できる可能性があるとのこと。こういう研究用途のためにMythosがある。 https://t.co/mhs2AmZX63",
-     "chars": 155,
-     "created_at": "2026-11-09T21:44:15+00:00",
-     "metrics": {
-      "bookmark_count": 0,
-      "impression_count": 1226,
-      "like_count": 3,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "video"
-     ]
-    },
-    {
-     "id": 2119908874157543846,
-     "text": "数学では、1,000体のFable 5.2エージェントがフェルマーの最終定理の証明を30時間で完全に形式化。コンピュータが1ステップずつ正しさを確認できる形に書き直した。\n\n同じ構成のOpus 5.5は18時間で26%、30時間でも27%止まり。1回だけの実行とはいえ、長時間の自律作業での差がはっきり出ている。 https://t.co/XLDKeDx2tt",
-     "chars": 180,
-     "created_at": "2026-11-09T21:43:56+00:00",
-     "metrics": {
-      "bookmark_count": 0,
-      "impression_count": 1487,
-      "like_count": 5,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
-     ]
-    },
-    {
-     "id": 2119908858135273772,
-     "text": "一番面白いのがeffort別のグラフ。\n\nHigh設定のFable 5.2が、Max設定のOpus 5.5とほぼ同スコアで、1タスクのコストは約半分。最高点はXhighの49.1%で、Maxにするとグラフ上は点が少し下がり、費用は約3倍に跳ねる。\n\nとりあえずMax、はもう正解じゃない。既定のMediumで始めて、詰まったらHighが良さそう。",
-     "chars": 173,
-     "created_at": "2026-11-09T21:43:52+00:00",
-     "metrics": {
-      "bookmark_count": 9,
-      "impression_count": 2583,
-      "like_count": 9,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 1
-     },
-     "is_quote": false,
-     "media": [
-      "photo",
-      "photo",
-      "photo",
-      "photo"
-     ]
-    },
-    {
-     "id": 2119908832579342525,
-     "text": "公式のベンチ表。Fable 5.2はほぼ全項目でトップ。\n\n・FrontierCode 2.0で49.1%（Opus 5.5は45.5%）\n・PC操作のOSWorld 2.1で89.3%\n・Humanity's Last Exam（ツールあり）で74.2%\n・グラフ読み取りは5.1の44.8%→73.4%\n\nただし業務フローのAutomationBenchはGemini 4 Carbonの53.9%が上で、全勝ではない。数値はすべて同社測定。",
-     "chars": 223,
-     "created_at": "2026-11-09T21:43:46+00:00",
-     "metrics": {
-      "bookmark_count": 3,
-      "impression_count": 3858,
-      "like_count": 10,
-      "quote_count": 0,
-      "reply_count": 1,
-      "retweet_count": 0
-     },
-     "is_quote": false,
-     "media": [
-      "photo"
      ]
     }
    ]
