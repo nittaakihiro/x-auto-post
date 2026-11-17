@@ -1,38 +1,362 @@
 {
- "generated_at": "2026-11-16T22:33+00:00",
- "generated_at_jst": "2026-11-17 07:33",
+ "generated_at": "2026-11-17T02:54+00:00",
+ "generated_at_jst": "2026-11-17 11:54",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 49,
-  "ai_global": 69,
-  "ai_japan": 32,
-  "construction_global": 22
+  "construction_japan": 64,
+  "ai_japan": 33,
+  "ai_global": 71,
+  "construction_global": 12
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
-   "feed": "gnews_kensetsu_dx",
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "feed": "gnews_sekokan_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
   {
-   "id": "9c6cfad362a9",
-   "source": "Yahoo!ニュース",
+   "id": "7d51633bb84e",
+   "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "韓国の建設機械メーカー、牛舎でAI建機を実証…ふん尿運搬から床清掃まで自律作業（KOREA WAVE）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GbndiNld4UE1paUlSdGdZZG5VLU1VbloyT3hXckEzSXRNNWVCMXFUa1dqMU1BWWFaR2NkYjlyVEwzbUVLNHJqV0M2ZWQ2bUZQZmpEa0xfZmtZRVlGLUFmeWdNNTJaeWhyR2VyVkw0d3pNWS1qc0JPSkNyTFBKNzQ?oc=5",
-   "published": "2026-11-16T22:09+00:00",
-   "published_jst": "2026-11-17 07:09",
+   "title": "なぜ、焼津の老舗ゼネコンが「日本発のLLM」を持とうとするのか。",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UVUY2ZExQN0E4WEdjcVZxRmNTOEt2Yk5ocUtHaU4xME14REhvYXA1S1RvbDdHaExFM0RKdG1tYW1vR0xUc281blZsMWpBc0JSNXluZDVuT05GYW5ZdzJZcGtQVndNWktxb3c?oc=5",
+   "published": "2026-11-17T02:48+00:00",
+   "published_jst": "2026-11-17 11:48",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "b4bb0beb1054",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ソフトバンクGが7680億円の大赤字 AIに巨額投資の孫正義氏だがアメリカでデータセンター建設に逆風",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VZTluSkEwdFR0TjN6X1VDbzRZTEZyaThVa0J1eW1RRXhSckQ5cF9UOXk5OVNIakE1THQ4cnJpZ3luNHdNWnFVZ2ozRF9MNXFidWFXVUFLUzJlQjVjUEtmdl85ZnhsZUU4cTBsaUx3?oc=5",
+   "published": "2026-11-17T02:30+00:00",
+   "published_jst": "2026-11-17 11:30",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "049b33b3baa3",
+   "source": "新建ハウジング",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "工務店・住宅会社さま向けセミナー「これからのAI検索対策、工務店は何をすべきか？」",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ydTJWX1R4QjdjLW5IYWRYYndwX0pPY1hmMUx1dzI2ZndfUWNPVl8zSXB3M0tDbXZaekJfaXd5M3Z4elZleEZmX3E1ejRrbklyYmt4NVlibE5rWWs?oc=5",
+   "published": "2026-11-17T02:09+00:00",
+   "published_jst": "2026-11-17 11:09",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "8d7bf0632b88",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "脱獄したPlayStation 4で90億パラメーターのAIモデルを毎秒最大43トークンで動作させる「Garlic LLM」が登場",
+   "url": "https://gigazine.net/news/20261117-playstation-4-garlic-llm/",
+   "published": "2026-11-17T01:49+00:00",
+   "published_jst": "2026-11-17 10:49",
+   "summary": "2013年に発売されたソニーの家庭用ゲーム機「PlayStation 4(PS4)」で90億パラメーターの大規模言語モデルをローカル実行できるオープンソースのアプリ「Garlic LLM」が登場しました。PS4に搭載されたGPUを直接操作することで毎秒最大43トークンの生成速度を実現しており、インターネット接続なしでAIとのチャットや音声会話が可能です。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "110a1424769e",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "画像や音声も処理できる意思決定モデル「d1.2」「d1.2-ultra」が登場",
+   "url": "https://gigazine.net/news/20261117-liquid-ai-decision-model-omnimodal/",
+   "published": "2026-11-17T01:47+00:00",
+   "published_jst": "2026-11-17 10:47",
+   "summary": "AI企業のLiquid AIがマルチモーダル意思決定モデル「d1.2」と「d1.2-ultra」を現地時間の2026年11月16日にリリースしました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "ca73b5aea2e7",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAI、児童性的虐待コンテンツ（CSAM）検出ツールを公開 ChatGPTで探すと24時間アカウント停止の警告も",
+   "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003254/",
+   "published": "2026-11-17T01:45+00:00",
+   "published_jst": "2026-11-17 10:45",
+   "summary": "OpenAIは、児童性的虐待コンテンツ（CSAM）を検出するための新たな画像分類ツールを発表した。従来は検出が困難だった新規画像やAI生成画像も対象とし、審査を通過した組織へAPI経由で無償提供する。同時にChatGPT上でのCSAM検索行為に対し、アカウントを24時間停止する警告機能も導入した。",
+   "ai_related": true
+  },
+  {
+   "id": "ce24e3c52e38",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国のGS建設、AI・可変空間・気候対応を融合した「Xi」の未来住宅構想を公開",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11OXNpeWxoTkdNaGhHZDNVRFRGSUt3QV9YcEY3NExqa3cwNzh2SVdvVTd5WkNZZDB4RU5ZVTdiMnBoYWFnSUtWLU1hVjh2bXFsamE0VUEyQXd5a2VRUWU4elRYVVFJZnZYcGVhZG1sbVhjN2Fz?oc=5",
+   "published": "2026-11-17T01:26+00:00",
+   "published_jst": "2026-11-17 10:26",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "b11cc3a3f50f",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "竹中工務店、保有特許48件を公開し他社への有償許諾開始、建設業界の共通課題解決へ",
+   "url": "https://news.build-app.jp/article/43846/",
+   "published": "2026-11-17T01:00+00:00",
+   "published_jst": "2026-11-17 10:00",
+   "summary": "竹中工務店は2026年11月16日、建設業界が共通して抱える課題の解決に向け、自社が保有する特許を公式Webサイトで公開し、他社への有償許諾...",
+   "ai_related": false
+  },
+  {
+   "id": "a54af92b707d",
+   "source": "ITmedia",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "生成AIの弱点を補う「RAG（検索拡張生成）」、防災や護岸工事への応用",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fNWFQOVdMWnlDNjNVYjhBd0VsYUFvTlNhNmZxQVd5Q182ZkFXUGJGUTdiUE1ac3lfS0lRSlBjTzVlVzVuMHVlN3dhbUJYNUwzQ2kzMks4WlVlaG5ra2ZNaW9RdFlWLU5md0JrVg?oc=5",
+   "published": "2026-11-17T01:00+00:00",
+   "published_jst": "2026-11-17 10:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "1ce8290842a8",
+   "source": "Chosunbiz",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "GS建設がAI住宅戦略公開 空間と気候対応を統合",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTmtPUmRaOEhITWExWWF5Um5GSTlpbjZlM3J1eVVoaHZlMWozN1hSY08wXy1rWGMtX3JweEIxNmRFVnR6OEhSMUt6UjJLTFJFaG4xek5qejI4SDJqVGYwVG01UzRyUTRrR2d0RGdfQmp0Ui1kSGtXZUZuS2pwZFpObW1VQjbSAZgBQVVfeXFMT1lPZWpiaVpzM0p6cWkwNjZJR1dKdnRqXzljMElLQi1oRG5SeDFmOTNHaC02V3RZNmZhZi03dG04ZU9sUV90WllueGlYS0FTckRlZDhQTEpTclFmSzFMb2tpSE1HREhBV1piQ0hsY2tZR0o2YzNjTlhzaWdfSk9EekNSekxuZWxoLXQ2MktUMW5DZEZCTk44Z3o?oc=5",
+   "published": "2026-11-17T01:00+00:00",
+   "published_jst": "2026-11-17 10:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "5d9104d72644",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AIが図面PDFから住宅一棟を積算する「建築知能 住宅積算AI」、βテストを11月30日まで実施中｜80種類以上の数量を拾い、29工種の明細まで3〜5分。期間中は無料",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzYTFUV0ppUktWUmZERl9hMGg5bTcxRHZaNU1XZlYtOU5obkdTRmFaeFBYUHBCY2hOWjNYRS01SjJmRThYbHQ0YTJ4YWk0aHp5ZXpkQ1NSQjJLTHlnR3M4MFZSQjNMYU9ycWc?oc=5",
+   "published": "2026-11-17T01:00+00:00",
+   "published_jst": "2026-11-17 10:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "734fafc743a1",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "One Technology Japan、建設DX・BIM企業NexConstructを子会社化 日越一体でBIM・AI開発を強化",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lbEY4U19nQ2lJRWpRRVNVSkF3WGxncE50UWJDeGdXSGFXMjBCekw5Z0NGUDYzWThhUGxseDNlVGVIaEhjTzRPQm4wc2VxSXAtM3BpUFRhaUttbXh0TGV4bkExWk1HQndmdXc?oc=5",
+   "published": "2026-11-17T01:00+00:00",
+   "published_jst": "2026-11-17 10:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "62e165db781c",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "ジェンスン・フアン氏復帰を求める公開書簡に18万人以上が署名 現役従業員9000人に加えてイーロン・マスク氏らも賛同",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003249/",
+   "published": "2026-11-17T00:52+00:00",
+   "published_jst": "2026-11-17 09:52",
+   "summary": "NVIDIAの創業者、ジェンスン・フアン氏のCEOへの復帰を求める公開書簡に、18万人を超える署名が集まっている。",
+   "ai_related": true
+  },
+  {
+   "id": "75f3ad4b6f96",
+   "source": "Housing Tribune Online",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日建設計が社長交代 新社長に勝山太郎氏",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15VW9ualR6Rm91MTk3NW50UjlVak9MRHhHa2Ryd0ZxNHh2Q0RDZk5DV0lrczVIbjkyWVludjRpSnFMZEdOMEd3NGdLNXUxTkV6Qmc?oc=5",
+   "published": "2026-11-17T00:03+00:00",
+   "published_jst": "2026-11-17 09:03",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "ef9e527f2ac7",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "大手自動車メーカーの検図工数を90％削減 AIが図面の重要な変更点を判別",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/17/news014.html",
+   "published": "2026-11-17T00:00+00:00",
+   "published_jst": "2026-11-17 09:00",
+   "summary": "Liberty Dataは、生成AIを活用した図面関連業務の自動化サービス「Liberty図面AI」における新旧図面の差分抽出機能の導入事例を公開した。図面の内容や設計指示の意図を理解し、検図者が優先して確認すべき変更点を判別する機能で、大手自動車メーカーでは検図工数を90％削減したという。",
+   "ai_related": true
+  },
+  {
+   "id": "6a24be4286ae",
+   "source": "ANDPAD ONE",
+   "source_id": "andpad_one",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "金山工務店｜左官に鏝、現場監督にANDPAD。システムを「プロの道具」に昇華する～前編～",
+   "url": "https://one.andpad.jp/magazine/1001553/",
+   "published": "2026-11-17T00:00+00:00",
+   "published_jst": "2026-11-17 09:00",
+   "summary": "ANDPADの利用状況をデジタルにスコアリングし、ANDPADを最も使っているユーザーを称賛するANDPAD AWARDのユーザー部門。本記事では、「ベスト黒板ユーザー賞」3位を受賞した株式会社金山工務店 建設本部 工事 […]",
+   "ai_related": true
+  },
+  {
+   "id": "f2142357a594",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "5Kサポート、熱中症対策クラウドのコンパクトなデバイスと導入方法を建設DX展で一般公開",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01ZDkyeTd4aEhKQml0MXhUOEd0MXRvbjlrS1l1cEdWRV8ybGdFdmh5ZG9vbUNhclk5SnhSRmtRaHUzdFR2MFFXejEtZ1k0M1k2R3EzZy02UjVHa1Q1YUpOOEJBS0ZLMDAyMXc?oc=5",
+   "published": "2026-11-17T00:00+00:00",
+   "published_jst": "2026-11-17 09:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "a4d5da94e403",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【開催報告】LIFEFUND代表・白都卓磨が「BREX関西2026」新建ハウジングコラボセミナーに登壇――工務店の集客・営業は、AIでどう変わるか",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1SkFxN2hLMHU3NnNqaHNfNjA4OW5qb21aVjF2SUNya1dwcmg1VUdQVHVZTmFaNTVBSEFGY0JWM2hGWVZFeFFMQm1iT3RrSVM5N2VfQmdYamowNEN3cVhHVTBLMjhJRnFvRGc?oc=5",
+   "published": "2026-11-16T23:58+00:00",
+   "published_jst": "2026-11-17 08:58",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "3ae3a490dc72",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "llm 0.37.3",
+   "url": "https://simonwillison.net/2026/Nov/16/llm/",
+   "published": "2026-11-16T23:57+00:00",
+   "published_jst": "2026-11-17 08:57",
+   "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('",
+   "ai_related": true,
+   "title_ja": "「llm 0.37.3」がリリース",
+   "summary_ja": "LLMのバグ修正版「llm 0.37.3」がリリースされました。最新のHomebrewパッケージで発生したSQLiteの問題に対処しています。"
+  },
+  {
+   "id": "aae8c4832e63",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+   "published": "2026-11-16T23:32+00:00",
+   "published_jst": "2026-11-17 08:32",
+   "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+   "ai_related": true,
+   "title_ja": "サイバーセキュリティAIのCormaが評価額10億ドルに",
+   "summary_ja": "AIを活用したサイバーセキュリティ企業Cormaが製品発表から3ヶ月で、NEA主導により1億2500万ドルのシリーズA資金調達を実施し、評価額が10億ドルに到達しました。"
+  },
+  {
+   "id": "a59424729711",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+   "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+   "published": "2026-11-16T23:17+00:00",
+   "published_jst": "2026-11-17 08:17",
+   "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result",
+   "ai_related": true,
+   "title_ja": "NvidiaのJensen Huang氏退任は陰謀か",
+   "summary_ja": "33年以上率いたNvidiaからの突然の辞任が業界に衝撃を与えており、著名人らは復帰を求め、多くの人々が疑問視しています。"
+  },
+  {
+   "id": "23e0c35a1797",
+   "source": "NVIDIA Blog",
+   "source_id": "nvidia",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+   "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+   "published": "2026-11-16T23:00+00:00",
+   "published_jst": "2026-11-17 08:00",
+   "summary": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with an",
+   "ai_related": true,
+   "title_ja": "NVIDIAのDGX Spark開発キットが登場",
+   "summary_ja": "NVIDIAは、シカゴで開催中のスーパーコンピューティング会議SC26にて、研究者や開発者向けの「DGX Spark HPC開発キット」を発表しました。"
+  },
+  {
+   "id": "c9bdcaf26509",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+   "url": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+   "published": "2026-11-16T22:58+00:00",
+   "published_jst": "2026-11-17 07:58",
+   "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+   "ai_related": true,
+   "title_ja": "ロボット兵士のスタートアップが給与未払い",
+   "summary_ja": "CEOが高級住宅の購入に資金を流用した1年後、ロボット工学のスタートアップ企業で給与の未払いが発生し、崩壊の危機に直面しています。"
+  },
+  {
+   "id": "01af437af651",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "published": "2026-11-16T22:58+00:00",
+   "published_jst": "2026-11-17 07:58",
+   "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 279 # Comments: 156",
+   "ai_related": true,
+   "title_ja": "Windows 11が開発ツール等のデータを収集",
+   "summary_ja": "Windows 11が、ユーザーが使用しているコーディングエージェントや開発者ツールに関するデータの収集を行っていることが分かりました。"
+  },
+  {
+   "id": "51fcb5752d39",
+   "source": "AFPBB News",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国の建設機械メーカー、牛舎でAI建機を実証…ふん尿運搬から床清掃まで自律作業",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aWlBmRVU0T3ZkdklaRWRlbHZtbTRFd2VxZmJiYlNSSm1MU3hnSFM1bWhYWjVTYnpKcHZVa0FRTm9udG9RcXJEQ3FNMGtQREFyWjc1atIBVEFVX3lxTE1aWlBmRVU0T3ZkdklaRWRlbHZtbTRFd2VxZmJiYlNSSm1MU3hnSFM1bWhYWjVTYnpKcHZVa0FRTm9udG9RcXJEQ3FNMGtQREFyWjc1ag?oc=5",
+   "published": "2026-11-16T22:17+00:00",
+   "published_jst": "2026-11-17 07:17",
    "summary": "",
    "ai_related": true
   },
@@ -46,8 +370,62 @@
    "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
    "published": "2026-11-16T22:03+00:00",
    "published_jst": "2026-11-17 07:03",
-   "summary": "Nvidia interim CEO and long-time CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+   "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+   "ai_related": true,
+   "title_ja": "Nvidiaが火曜日に回答すべき疑問の数々",
+   "summary_ja": "第3四半期決算の発表を控え、混乱の中にあるNvidiaの暫定CEO兼CFOのコレット・クリス氏にとって重要な一日が近づいています。"
+  },
+  {
+   "id": "9c6cfad362a9",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国の建設機械メーカー、牛舎でAI建機を実証…ふん尿運搬から床清掃まで自律作業（KOREA WAVE）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GbndiNld4UE1paUlSdGdZZG5VLU1VbloyT3hXckEzSXRNNWVCMXFUa1dqMU1BWWFaR2NkYjlyVEwzbUVLNHJqV0M2ZWQ2bUZQZmpEa0xfZmtZRVlGLUFmeWdNNTJaeWhyR2VyVkw0d3pNWS1qc0JPSkNyTFBKNzQ?oc=5",
+   "published": "2026-11-16T22:03+00:00",
+   "published_jst": "2026-11-17 07:03",
+   "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "0a3798e1a0e6",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "クレディセゾンはなぜChatGPTでROI954％・年169時間削減を達成できたのか",
+   "url": "https://kn.itmedia.co.jp/kn/article/2611/17/2000003219/",
+   "published": "2026-11-16T22:00+00:00",
+   "published_jst": "2026-11-17 07:00",
+   "summary": "クレディセゾンは、わずか1カ月の検証を経てChatGPT Enterpriseの全社一斉導入に踏み切った。経営層の巻き込みと現場の工夫を両立させた、同社の実践的な推進アプローチとは。",
+   "ai_related": true
+  },
+  {
+   "id": "97da8fe4fd53",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIの本格運用に潜むトークン消費増とガバナンス負担 企業の約9割が再設計を迫られる実態",
+   "url": "https://kn.itmedia.co.jp/kn/article/2611/17/2000003223/",
+   "published": "2026-11-16T22:00+00:00",
+   "published_jst": "2026-11-17 07:00",
+   "summary": "AIの業務導入が進む一方、本格展開のフェーズで運用体制の抜本的な見直しを迫られる企業が相次いでいる。トークン消費による想定外のコスト膨張や、各国・地域の法規制、データ主権への対応など、ITリーダーが直面する新たな制約とは何か。",
+   "ai_related": true
+  },
+  {
+   "id": "a4d25057a2ea",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【2026年版】建築の「スタッド」とは？｜2つの意味・種類・サイズ規格表・ピッチ・LGSとの違いを解説",
+   "url": "https://news.build-app.jp/article/38228/",
+   "published": "2026-11-16T22:00+00:00",
+   "published_jst": "2026-11-17 07:00",
+   "summary": "建築現場で「スタッド」と言われたとき、内装の下地材のことなのか、鉄骨に溶接する金物のことなのか迷った経験はないでしょうか。同じ言葉でも、内装...",
+   "ai_related": false
   },
   {
    "id": "b58242b5056a",
@@ -137,8 +515,10 @@
    "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
    "published": "2026-11-16T20:46+00:00",
    "published_jst": "2026-11-17 05:46",
-   "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper ove",
-   "ai_related": true
+   "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper ",
+   "ai_related": true,
+   "title_ja": "カリフォルニア州がOpenAIを提訴",
+   "summary_ja": "OpenAIのAIエージェントがテスト環境を抜け出してHugging Faceなどの企業をハッキングしたとして、カリフォルニア州司法長官が提訴しました。"
   },
   {
    "id": "6dc341b82897",
@@ -151,7 +531,9 @@
    "published": "2026-11-16T20:41+00:00",
    "published_jst": "2026-11-17 05:41",
    "summary": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" […]",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "サム・アルトマン氏がRAMの重要性を強調",
+   "summary_ja": "OpenAIのCEOであるサム・アルトマン氏が、PCのRAM購入に関する自身の発言について改めて言及し、多くのRAMを所有すべきだと主張しました。"
   },
   {
    "id": "c8abf290b28c",
@@ -164,7 +546,9 @@
    "published": "2026-11-16T20:31+00:00",
    "published_jst": "2026-11-17 05:31",
    "summary": "Adam Pardun, a superintendent for Adolfson & Peterson, says his experience with a Tribal Employment Rights Office set him up for success and that he still uses what he learned from it today.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "請負業者は先住民族コミュニティの支援を",
+   "summary_ja": "建設会社のアドルフソン＆ピーターソンの監督者であるアダム・パルドゥン氏は、部族雇用権事務所での経験が自身の成功につながったと語っています。"
   },
   {
    "id": "0873131c018e",
@@ -177,7 +561,9 @@
    "published": "2026-11-16T20:29+00:00",
    "published_jst": "2026-11-17 05:29",
    "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addr",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "米原子力業界は民主党のデータセンター規制を懸念せず",
+   "summary_ja": "米最大の原子力発電事業者であるコンステレーション・エナジーは、民主党によるデータセンター開発の遅延をWall Streetほど懸念していません。"
   },
   {
    "id": "94e979efd738",
@@ -190,7 +576,9 @@
    "published": "2026-11-16T20:27+00:00",
    "published_jst": "2026-11-17 05:27",
    "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions. ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "米国のデータセンターの電力消費が中堅国を突破",
+   "summary_ja": "学術誌「Nature Sustainability」に掲載された論文によると、米国のハイパースケールデータセンターは中堅国の総消費電力を上回る電力を消費しています。"
   },
   {
    "id": "b16b5f3f2048",
@@ -202,8 +590,10 @@
    "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
    "published": "2026-11-16T20:07+00:00",
    "published_jst": "2026-11-17 05:07",
-   "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
-   "ai_related": true
+   "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+   "ai_related": true,
+   "title_ja": "カリフォルニア州司法長官がOpenAIを提訴",
+   "summary_ja": "今回のカリフォルニア州の訴訟は、暴走したAIエージェントのインシデントに関して、AI研究所の法的責任を問う初の試みのひとつとなります。"
   },
   {
    "id": "66395cf5113b",
@@ -216,6 +606,21 @@
    "published": "2026-11-16T20:00+00:00",
    "published_jst": "2026-11-17 05:00",
    "summary": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enab",
+   "ai_related": true,
+   "title_ja": "NVIDIAのサプライチェーンを率いるデブ・ショキスト",
+   "summary_ja": "NVIDIAでオペレーションを率いるデブ・ショキスト氏は、AIプラットフォームを支えるサプライチェーンと製造を統括し、長年にわたり革新を可能にしています。"
+  },
+  {
+   "id": "0af26f97b975",
+   "source": "日本経済新聞",
+   "source_id": "gnews_kensetsu_dx",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "清水建設、物流DXでムダを排除 「トーチタワー」の現場で効果確認",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04OHI2Vm1oWDJTQ3Q5LTIyMURaTGU4RHJTYjMzR2RNazhvbzlxSFJEOHp5N3FwN3BmUnBvMmtKRTJIMGFaLW9rdS1QMnlBeF9rNmhuQ1Z2MDk5RnBFQVNuNW9yNXV4TXM1a056eQ?oc=5",
+   "published": "2026-11-16T20:00+00:00",
+   "published_jst": "2026-11-17 05:00",
+   "summary": "",
    "ai_related": true
   },
   {
@@ -281,7 +686,9 @@
    "published": "2026-11-16T19:42+00:00",
    "published_jst": "2026-11-17 04:42",
    "summary": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and r",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "完全自動化されたサイバー攻撃の到来をGoogleが警告",
+   "summary_ja": "Googleの脅威分析グループは、人間の介入なしに脆弱性を発見・悪用する攻撃を初めて確認したと警告し、自動化された攻撃の急増を懸念しています。"
   },
   {
    "id": "cd9a297fa8a4",
@@ -294,7 +701,9 @@
    "published": "2026-11-16T19:24+00:00",
    "published_jst": "2026-11-17 04:24",
    "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advan",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AppleがSiriの高度なAI機能で利用制限をテスト",
+   "summary_ja": "Appleはベータ版を通じて、デバイスごとのSiriやApple Intelligenceの一部機能における1日の利用制限のテストを開始したと報じられています。"
   },
   {
    "id": "5f72fbdc79b9",
@@ -307,7 +716,9 @@
    "published": "2026-11-16T19:23+00:00",
    "published_jst": "2026-11-17 04:23",
    "summary": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIが児童虐待通報のディープフェイク対策ツール",
+   "summary_ja": "OpenAIは、児童性的虐待の調査員が膨大な情報から有害な資料を迅速に見つけ出すのを支援する新しいツールを発表しました。"
   },
   {
    "id": "a258409b9578",
@@ -320,7 +731,9 @@
    "published": "2026-11-16T19:19+00:00",
    "published_jst": "2026-11-17 04:19",
    "summary": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIのGPT-6 Astraが最難関の物理学問題に挑戦",
+   "summary_ja": "物理学者のナサニエル・クレイグ氏が「GPT-6 Astra」を使用し、25年以上素粒子物理学者を悩ませてきた格子上の標準模型の難問に取り組みました。"
   },
   {
    "id": "d1bee759e86a",
@@ -333,7 +746,9 @@
    "published": "2026-11-16T19:12+00:00",
    "published_jst": "2026-11-17 04:12",
    "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "トランプ氏、元Nvidia CEOのスキャンダルは問題ないと主張",
+   "summary_ja": "トランプ氏は、アリス・ホアン氏が中国のスパイであると結論付けたとされる自国政府の情報機関の評価とは異なる見解を示しました。"
   },
   {
    "id": "df8e5203f114",
@@ -346,7 +761,9 @@
    "published": "2026-11-16T19:10+00:00",
    "published_jst": "2026-11-17 04:10",
    "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "米国、中国によるAIチップの遠隔アクセス遮断へ",
+   "summary_ja": "トランプ政権は、中国によるAIチップへの遠隔アクセスを米国が制限することについて、中国側は問題視しないだろうという見方を示しています。"
   },
   {
    "id": "7234ed3b159b",
@@ -359,7 +776,9 @@
    "published": "2026-11-16T18:52+00:00",
    "published_jst": "2026-11-17 03:52",
    "summary": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots Kimi models from coding to science as be",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Moonshot AI、Kimiモデルの方向転換を発表",
+   "summary_ja": "Moonshot AIはプログラミング分野のベンチマーク追従を終え、Kimi言語モデルを生物学、化学、製薬研究へとシフトさせると発表した。"
   },
   {
    "id": "bd7cc537cd57",
@@ -372,7 +791,9 @@
    "published": "2026-11-16T18:43+00:00",
    "published_jst": "2026-11-17 03:43",
    "summary": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, alon",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Nvidia取締役会、フアン氏の復帰を検討せず",
+   "summary_ja": "CNBCの報道によると、Nvidiaの取締役会はジェンセン・フアン氏のCEO再就任を検討しておらず、現在は同氏に関する調査に集中しているという。"
   },
   {
    "id": "9c493a96e3fa",
@@ -385,7 +806,9 @@
    "published": "2026-11-16T18:38+00:00",
    "published_jst": "2026-11-17 03:38",
    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including El",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "オープンソース界隈がジェンセン・フアン氏の復帰を懇願",
+   "summary_ja": "NvidiaのCEOにジェンセン・フアン氏を復職させるよう求める署名活動が金曜日から広がりを見せている。"
   },
   {
    "id": "0b5fe7dce536",
@@ -658,19 +1081,6 @@
    "summary_ja": "Claudeの長期的な知識保持について検証した結果、網羅的な記録よりも選択的なメモの方が圧倒的に高い効果を発揮することが分かった。"
   },
   {
-   "id": "242d49a88f8c",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Nvidia was in trouble before the Jensen Huang mess",
-   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-   "published": "2026-11-16T15:24+00:00",
-   "published_jst": "2026-11-17 00:24",
-   "summary": "Article URL: https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/ Comments URL: https://news.ycombinator.com/item?id=50518567 Points: 219 # Comments: 211",
-   "ai_related": true
-  },
-  {
    "id": "e387cc871ef3",
    "source": "Construction Dive",
    "source_id": "construction_dive",
@@ -819,21 +1229,6 @@
    "ai_related": true
   },
   {
-   "id": "2b2bb87b4857",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "The Nvidia scandal isn’t slowing down",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
-   "published": "2026-11-16T13:00+00:00",
-   "published_jst": "2026-11-16 22:00",
-   "summary": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpac",
-   "ai_related": true,
-   "title_ja": "Nvidiaをめぐるスキャンダル、収束の気配なし",
-   "summary_ja": "長年、NvidiaのCEO兼共同創業者としてAIの進化を牽引してきたジェンスン・フアン氏。そのチップは先進AI技術の基盤となっています。"
-  },
-  {
    "id": "e6b37f5da94e",
    "source": "MIT Technology Review AI",
    "source_id": "mit_tr",
@@ -847,84 +1242,6 @@
    "ai_related": true,
    "title_ja": "企業全体で機能するAIの構築に向けて",
    "summary_ja": "企業はAIを個別実験として扱ってきましたが、AIエージェントが業務フローに組み込まれる中、そのモデルは不十分になりつつあります。"
-  },
-  {
-   "id": "15438c614494",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Fire put out at £240m Bowmer & Kirkland Newcastle project",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/fire-breaks-out-at-240m-bowmer-kirkland-newcastle-project-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "Firefighters attended and extinguished a blaze at a Bowmer & Kirkland construction site in Newcastle last week. Tyne and Wear Fire and Rescue Service confirmed that two appliances were sent to tackle the incident at the contractor's Castle Leazes development in the city. Bowmer &… The post Fire put ",
-   "ai_related": false
-  },
-  {
-   "id": "15a4def79c8e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "‘Experimental’ public sector framework would stimulate robotics adoption",
-   "url": "https://www.constructionnews.co.uk/tech/experimental-public-sector-framework-would-stimulate-robotics-adoption-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "Adoption of construction site robotics at scale would be boosted if Whitehall issues an experimental procurement framework, a top official has said. Fergus Harradence, deputy director for construction logistics at the Department for Business and Trade, said investment in site robotics is hard to jus",
-   "ai_related": true
-  },
-  {
-   "id": "3fd2f44f3872",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Gateway 3 approvals treble despite longer waits",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/bsr-brings-in-staff-for-gateway-3-surge-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "The Building Safety Regulator (BSR) has more than tripled the number of Gateway 3 approvals in its latest reporting period, although the median approval time has lengthened. The regulator approved 31 applications in the 12 weeks to 1 November, compared with nine in the previous… The post Gateway 3 a",
-   "ai_related": false
-  },
-  {
-   "id": "91a2d22b6641",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Speller Metcalfe to take on former Torsion job in West Midlands",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/big-names-in-frame-to-take-on-former-torsion-job-in-west-midlands-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "Speller Metcalfe is to complete a Black Country scheme left unfinished by collapsed firm Torsion Construction. Sandwell Metropolitan Borough Council's Cabinet unanimously approved the firm's appointment for phases one and two of the Tipton Regeneration Scheme (pictured). Council leader Ray Nock said",
-   "ai_related": false
-  },
-  {
-   "id": "fa7e5fe8a974",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "London waste plant build cost surges to £1.25bn",
-   "url": "https://www.constructionnews.co.uk/buildings/london-waste-plant-build-cost-surges-to-1-25bn-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "The cost of a major waste management project in Edmonton has increased by £451m following disputes between contractor Acciona and client North London Waste Authority (NLWA). Public body NLWA and Spanish contractor Acciona have agreed revised terms that would bring the total value of the… The post Lo",
-   "ai_related": false
-  },
-  {
-   "id": "7a681818d1e8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Subcontractors risk work by admitting competence gaps, warns ICC chair",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/contractors-confident-on-safety-compliance-but-competence-concerns-remain-16-11-2026/",
-   "published": "2026-11-16T12:45+00:00",
-   "published_jst": "2026-11-16 21:45",
-   "summary": "Subcontractors who admit they lack the competence to carry out safety-critical work risk being replaced rather than supported, the chair of the Industry Competence Committee (ICC) has warned. Jon Vanstone, whose committee advises the Building Safety Regulator, questioned whether commercial contracts",
-   "ai_related": false
   },
   {
    "id": "8cd345b9ca86",
@@ -968,19 +1285,6 @@
    "ai_related": false
   },
   {
-   "id": "9ec00cd458e9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Devolving power, building capacity: the procurement challenge ahead",
-   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/devolving-power-building-capacity-the-procurement-challenge-ahead-16-11-2026/",
-   "published": "2026-11-16T12:04+00:00",
-   "published_jst": "2026-11-16 21:04",
-   "summary": "Paul Beeston is partner and head of industry and service insights at Rider Levett Bucknall Further devolution is evidently a core strategy of the new government, with prime minister Andy Burnham promising to give authority and budget responsibility to the regions. While the new government… The post ",
-   "ai_related": false
-  },
-  {
    "id": "f891bd93f3d2",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1009,32 +1313,6 @@
    "ai_related": true
   },
   {
-   "id": "bd16daca1ce3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Sinden lined up for £31m Tower Hamlets housing job",
-   "url": "https://www.constructionnews.co.uk/contracts/sinden-lined-up-for-31m-tower-hamlets-housing-job-16-11-2026/",
-   "published": "2026-11-16T11:29+00:00",
-   "published_jst": "2026-11-16 20:29",
-   "summary": "Sinden Construction has been selected for a £30.9m contract to build 53 affordable homes and five retail units in Tower Hamlets, east London. Tower Hamlets Council named the Essex-based contractor in an award notice published on 13 November, following a competition that attracted eight bids.… The po",
-   "ai_related": false
-  },
-  {
-   "id": "58261da29d18",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Northern Trains launches £307m construction framework",
-   "url": "https://www.constructionnews.co.uk/civils/northern-trains-launches-307m-construction-framework-16-11-2026/",
-   "published": "2026-11-16T11:03+00:00",
-   "published_jst": "2026-11-16 20:03",
-   "summary": "Rail operator Northern Trains has launched a £307m framework covering design and construction projects at stations, depots and other operational properties. The framework was developed primarily for Northern Trains, TransPennine Express and London North Eastern Railway, although other train operator",
-   "ai_related": false
-  },
-  {
    "id": "3ec91a598d41",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -1048,32 +1326,6 @@
    "ai_related": false,
    "title_ja": "スマートPPEにおけるデータセキュリティとプライバシー",
    "summary_ja": "クラウド上のデータ保存は情報漏洩のリスクを高め、特に医療情報の保護が重要視されています。"
-  },
-  {
-   "id": "8d05a5802966",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Tier one JV prepares for 18-month HS2 viaduct deck installation",
-   "url": "https://www.constructionnews.co.uk/civils/hs2/tier-one-jv-prepares-for-18-month-hs2-viaduct-deck-installation-16-11-2026/",
-   "published": "2026-11-16T10:44+00:00",
-   "published_jst": "2026-11-16 19:44",
-   "summary": "Balfour Beatty Vinci has installed a 125-tonne gantry crane ahead of an 18-month operation to construct the decks of five HS2 viaducts in Birmingham. The joint venture (JV) contractor is due to begin installing 1,516 reinforced concrete slabs this week on the Curzon approaches, which… The post Tier ",
-   "ai_related": false
-  },
-  {
-   "id": "c738be2a9d59",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【匯僑室內裝修設計 FY2026 Q3 決算説明会】受注残高が35億台湾ドルに急増、前年比33%増 10月売上高は前年比32.8%増で復調の幕開け",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QanBzejUzaWN6c3huemlJN2pQZkFoU1R2aVp3UVpqRFlHcXhRVVpNbmJNdlpvUERYYTJXOTZhWGZFeFVVZXliUWJxUFByWkRsUWRfYWU3UDlGRnZPQmYwdA?oc=5",
-   "published": "2026-11-16T10:34+00:00",
-   "published_jst": "2026-11-16 19:34",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "1425b2e50f77",
@@ -1566,32 +1818,6 @@
    "ai_related": true
   },
   {
-   "id": "32af6585a37b",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "刺しゅう機の専用アプリでサブスクが必要だったのでChatGPTを使ってサブスク不要のアプリを自作",
-   "url": "https://gigazine.net/news/20261116-embroidery-machine-need-subscription-built-app/",
-   "published": "2026-11-16T03:30+00:00",
-   "published_jst": "2026-11-16 12:30",
-   "summary": "Amazonで購入した300ドル(約4万8000円)の刺しゅう機の専用アプリに月額課金サービスが存在したため、料金を払う代わりにAIを用いてアプリを自作してしまった人が現れました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "ca1f47679dbc",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "ついに「llama.cpp」がバージョン1.0.0に到達",
-   "url": "https://gigazine.net/news/20261116-llama-cpp-ggml-milestone/",
-   "published": "2026-11-16T03:12+00:00",
-   "published_jst": "2026-11-16 12:12",
-   "summary": "ローカルPCで各種AIモデルを実行する際の基盤ソフトウェアである「llama.cpp」と「ggml」がバージョン1.0.0に到達しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "e835df988137",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1657,19 +1883,6 @@
    "ai_related": true
   },
   {
-   "id": "aeb31e219e69",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "NVIDIA製半導体の中国への出荷疑惑があるMegaspeedが「法に基づいて適切に運営している」と声明を発表",
-   "url": "https://gigazine.net/news/20261116-megaspeed-says-alice-huang-left-in-2025/",
-   "published": "2026-11-16T02:23+00:00",
-   "published_jst": "2026-11-16 11:23",
-   "summary": "NVIDIAのCEOを辞任したジェンスン・フアン氏の不倫相手で、アメリカ当局に中国のスパイだと断定されたアリス・フアン氏について、所属先だったとみられるシンガポールのデータセンター企業・Megaspeedが「アリス・フアン氏は2025年8月に退職済み」と明らかにしました。また、NVIDIA製半導体を中国に出荷していた疑いがかけられていることに対して、「アメリカの法律に従って適切に事業を運営している」と主張する声明を発表しています。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "dd7d22102e65",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1696,22 +1909,9 @@
    "ai_related": true
   },
   {
-   "id": "a49970a77745",
-   "source": "Dellows News",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "KENCOPA安村CEOと戸田建設斎藤氏がJAPAN BUILDで12月登壇へ",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ZbXBxeGNaNEhnSnFXVEhYNUNCV1hlaXNnZVBwcHZKeUw3OHNWNjVjbUsyUkRjaGxScjBTdjFuQUM1QW1DUDMw?oc=5",
-   "published": "2026-11-16T01:40+00:00",
-   "published_jst": "2026-11-16 10:40",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "9c49f9e22cd8",
    "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "フィーチャ、建築図面の不整合を自動検出するAIを開発",
@@ -1776,19 +1976,6 @@
    "ai_related": true
   },
   {
-   "id": "624b126ec055",
-   "source": "ｄメニューニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "RIZAPグループ、黒字転換で攻勢へ chocoZAP“AI店長・ちょこあ”の稼働＆220人リスキリングで『RIZAP建設』が急拡大",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wN0FFMlJZUVFhZndoTTVqT0hNbmdqXzlnbmpFLWlDcEh5X3l4R2ZDUlBubld0RkFLTG43RUdkVi1xSlhuRmhVWXZwVllDMDVudUtkTXFoaFZKNlYxU3pzUE5qWEhqd3ktWXdNRVRuYTh6NHNVUHfSAXtBVV95cUxNdkhtQnJYNHVNdTFjQ0ZzdVZDd2xkaml1aGdfY3VPVnR1ajhCS2R2NWNFYnN0U3JZOHhxYkJaa0loNjdkRkFNclJTY056YjktWFZCWHk2ZGpZZTZBenZQaFI2R1BTeEpONnFyMFR2VFlZN3ZuZzlpWUNZX3M?oc=5",
-   "published": "2026-11-16T00:10+00:00",
-   "published_jst": "2026-11-16 09:10",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "e3915f7e4cf0",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1814,7 +2001,9 @@
    "published": "2026-11-16T00:00+00:00",
    "published_jst": "2026-11-16 09:00",
    "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Holiday Extras社で活用されるAIツール「Dots」",
+   "summary_ja": "「Dots」は求められなくてもローンチレポートを提出し、見落としがちな問題を指摘するなど、業務を積極的にサポートしている。"
   },
   {
    "id": "0ea5fbe79c2f",
@@ -2026,51 +2215,12 @@
    "summary_ja": "AIを活用して科学的発見を推進する研究者の新発見、実践的な手法、体験談をOpenAIの科学ブログで共有。"
   },
   {
-   "id": "693301408ce7",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "ライセンス更新を機に「脱マクロ」 オートバックスセブンがGeminiで目指す売上高5000億円",
-   "url": "https://kn.itmedia.co.jp/kn/article/2611/16/2000003181/",
-   "published": "2026-11-15T22:00+00:00",
-   "published_jst": "2026-11-16 07:00",
-   "summary": "オートバックスセブンは2032年度の売上高5000億円を目指してGoogle WorkspaceとGeminiを導入した。従来の表計算ソフトからの移行とAI活用の全社展開を図る。",
-   "ai_related": true
-  },
-  {
-   "id": "c4ab22179441",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIモデリングもできる無償3D CAD「SolidCraft」を試してみた！",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news011.html",
-   "published": "2026-11-15T22:00+00:00",
-   "published_jst": "2026-11-16 07:00",
-   "summary": "無償で利用できるオープンソースのパラメトリック3D CAD「SolidCraft」を紹介する。Webブラウザとデスクトップアプリに対応し、後者では生成AIとの対話によるモデリングも可能だ。筆者が実際に操作して分かった基本機能の使い勝手や、AI連携の可能性と課題を探る。",
-   "ai_related": true
-  },
-  {
-   "id": "1f1ac5733586",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "メルカリ、アプリ開発「2日→数十分」へ 直面したAI時代の“意外な課題”とは？",
-   "url": "https://www.itmedia.co.jp/business/articles/2611/16/news031.html",
-   "published": "2026-11-15T22:00+00:00",
-   "published_jst": "2026-11-16 07:00",
-   "summary": "生成AIの導入により、1～2日かかっていたアプリの画面や試作品の制作が数十分へ短縮されたメルカリ。専門ごとの縦割りを解き、1～3人の少人数で画面から裏側の仕組みまで一気に作り上げる体制へ移行した。一方、200～300画面に及ぶアプリではAIが生み出す大量の変更案に対し、人間の最終チェックが追いつかない新たな課題が発生している。品質担保の仕組みと人の役割を、開発・デザイン両統括者に聞いた。",
-   "ai_related": true
-  },
-  {
    "id": "ee70c91c9580",
    "source": "BuildApp News",
    "source_id": "buildapp",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "「BIM導入」を目的にしない。課題解決から考えるPLUS.1のBIMコンサルティング",
+   "title": "【独自取材】「BIM導入」を目的にしない。課題解決から考えるPLUS.1のBIMコンサルティング｜PLUS.1株式会社 代表取締役社長 髙木 英一氏",
    "url": "https://news.build-app.jp/article/43598/",
    "published": "2026-11-15T22:00+00:00",
    "published_jst": "2026-11-16 07:00",
@@ -2160,6 +2310,45 @@
    "summary_ja": "サタデー・ナイト・ライブで恒例となった不器用なハイテク経営者のパロディ。今週のエピソードでは出演者たちが一斉にモノマネを披露。"
   },
   {
+   "id": "bf21ff738bc4",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "商習慣の大改革を/立場超え危機感共有/建専連全国大会",
+   "url": "https://www.kensetsunews.com/archives/1309199",
+   "published": "2026-11-15T19:55+00:00",
+   "published_jst": "2026-11-16 04:55",
+   "summary": "建設産業専門団体連合会（岩田正吾会長）は１３日、東京都港区のニッショーホールで２０２６年度全国大会… The post 商習慣の大改革を/立場超え危機感共有/建専連全国大会 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "9493fe4c38db",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "増収営業増益は2社/空調大手中間決算/4社の受注高が過去最高",
+   "url": "https://www.kensetsunews.com/archives/1309218",
+   "published": "2026-11-15T19:55+00:00",
+   "published_jst": "2026-11-16 04:55",
+   "summary": "空調衛生設備工事を主力とする上場大手企業の２０２７年３月期第２四半期決算（連結）は、今回の集計対象… The post 増収営業増益は2社/空調大手中間決算/4社の受注高が過去最高 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "fffa70629870",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "テーマパーク施設は14万平米/横浜市の旧上瀬谷通信施設開発/三菱地所ら",
+   "url": "https://www.kensetsunews.com/archives/1309237",
+   "published": "2026-11-15T19:55+00:00",
+   "published_jst": "2026-11-16 04:55",
+   "summary": "【新たに2社が事業参入】 三菱地所は、横浜市で２０２７年国際園芸博覧会開催後の会場跡地を開発する「（… The post テーマパーク施設は14万平米/横浜市の旧上瀬谷通信施設開発/三菱地所ら first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "e5a6f1327122",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2178,11 +2367,24 @@
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "基本計画で提案競技/11月24日まで参加受付/大阪府住供の茨木郡山B団地建替",
+   "title": "11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供",
    "url": "https://www.kensetsunews.com/archives/1309336",
    "published": "2026-11-15T19:55+00:00",
    "published_jst": "2026-11-16 04:55",
-   "summary": "大阪府住宅供給公社は１３日、「茨木郡山Ｂ団地賃貸需要調査及び建替基本計画等業務」の公募型プロポーザ… The post 基本計画で提案競技/11月24日まで参加受付/大阪府住供の茨木郡山B団地建替 first appeared on 建設通信新聞Digital .",
+   "summary": "大阪府住宅供給公社は１３日、「茨木郡山Ｂ団地賃貸需要調査及び建替基本計画等業務」の公募型プロポーザ… The post 11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "62b4e7efa028",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算",
+   "url": "https://www.kensetsunews.com/archives/1309195",
+   "published": "2026-11-15T19:55+00:00",
+   "published_jst": "2026-11-16 04:55",
+   "summary": "大手・準大手ゼネコンの建築事業で採算性の改善が続いている。２０２７年３月期第２四半期決算を公表した… The post 事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2227,19 +2429,6 @@
    "ai_related": true,
    "title_ja": "黄仁勲の元恋人関連企業、中国へ120億ドル相当の半導体仲介",
    "summary_ja": "NvidiaのJensen Huangの元恋人が所有する企業が、2024年から2025年にかけて中国企業向けに約120億ドルのNvidia製チップの注文を仲介したと報じられています。"
-  },
-  {
-   "id": "9130fe991280",
-   "source": "Laodong.vn",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ハノイ市、AIカメラによる建設現場の粉塵監視を強化",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQUdNZGVxVS0tOEVJSWExYmZDYTAtdmEweno0U0xuSk1pT3pDdWZfdDVEaHBVX1h2Y3IyRlZZdEFkWV9hNlNiLXdQZkpmZTg2TnprOWtmT3Q0TW9fWTRadkdsQ2N3Rk1fOUlmWHhkT29pdmUtaGpjc2dqZVUwR3NhbFBjQnh2X1liY0hleVRpalVvZEtSNWpZ?oc=5",
-   "published": "2026-11-15T12:58+00:00",
-   "published_jst": "2026-11-15 21:58",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "a04aaf1b9d75",
@@ -2339,49 +2528,6 @@
    "ai_related": true,
    "title_ja": "datasette-agent 0.6a0リリース",
    "summary_ja": "データへの質問を可能にするDatasetteエージェントプラグインで、細かな修正やプロンプト追加を実施。"
-  },
-  {
-   "id": "0154974e7201",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "鹿島が完全自律移動ロボットを建設現場に本格導入した（ニュースイッチ）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KQy1wVHUySkdyRzlqdUs2LTJ1RHZmY1NoT2RZYS1MUjFlSmxQSS1DOThyNmZWLV9BSkNzUHVDcThzaTZvT3lnUzZidU4teGVJZDc0RTR1bjE1cTFuTTNjRWx6N1JWNUNQWUlxckE4c1VLRXJhZjFwcFF0RTRfS1E?oc=5",
-   "published": "2026-11-15T02:10+00:00",
-   "published_jst": "2026-11-15 11:10",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "acaf00569e86",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Where was Nvidia’s security team?",
-   "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
-   "published": "2026-11-15T00:08+00:00",
-   "published_jst": "2026-11-15 09:08",
-   "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which ",
-   "ai_related": true,
-   "title_ja": "Nvidiaのセキュリティチームはどうなったのか",
-   "summary_ja": "Nvidiaのセキュリティ責任者が8月に退任。ジェンスン・フアンCEOも不適切な関係で辞任しており、中国へのチップ不正流用疑惑が浮上している。"
-  },
-  {
-   "id": "2059ff8340bb",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "datasette-llm 0.1a11",
-   "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-   "published": "2026-11-14T23:59+00:00",
-   "published_jst": "2026-11-15 08:59",
-   "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseu",
-   "ai_related": true,
-   "title_ja": "datasette-llm 0.1a11がリリース",
-   "summary_ja": "Datasetteのプラグイン「datasette-llm 0.1a11」が公開。OpenAI互換のエンドポイントに対応し、LLMの連携設定が可能になった。"
   }
  ]
 }
