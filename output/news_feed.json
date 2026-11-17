@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-17T02:54+00:00",
- "generated_at_jst": "2026-11-17 11:54",
+ "generated_at": "2026-11-17T03:56+00:00",
+ "generated_at_jst": "2026-11-17 12:56",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 64,
-  "ai_japan": 33,
+  "ai_japan": 32,
+  "construction_japan": 65,
   "ai_global": 71,
-  "construction_global": 12
+  "construction_global": 22
  },
  "errors": [
   {
-   "feed": "venturebeat_ai",
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
   },
   {
-   "feed": "constructionnews_uk",
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "feed": "venturebeat_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "feed": "gnews_sekokan_ai",
@@ -23,6 +23,71 @@
   }
  ],
  "items": [
+  {
+   "id": "6659db286393",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "NVIDIAが小型AIスパコンDGX Sparkを4台つなげてメモリ容量512GBを実現する「DGX Spark Developer Kit」を発表、最大700Bのモデルを実行可能",
+   "url": "https://gigazine.net/news/20261117-dgx-spark-developer-kit/",
+   "published": "2026-11-17T03:37+00:00",
+   "published_jst": "2026-11-17 12:37",
+   "summary": "NVIDIAが小型AIスーパーコンピューター「DGX Spark」を4台連係させてAIクラスターを形成できる「DGX Spark Developer Kit」を発表しました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "a9212e243784",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Hugging Faceのモデル公開ページでOpenRouterのルーティングサービスを用いたチャットが可能に",
+   "url": "https://gigazine.net/news/20261117-hugging-face-openrouter/",
+   "published": "2026-11-17T03:20+00:00",
+   "published_jst": "2026-11-17 12:20",
+   "summary": "Hugging FaceとOpenRouterが提携し、Hugging Faceのサービス内でOpenRouterのルーティングサービスを利用できるようになりました。これにより、Hugging Faceのユーザーはコスト効率やレイテンシなどを加味しつつプロバイダーを選択できるようになります。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "e3ec0b38c828",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "トランプ大統領がジェンスン・フアンのNVIDIAのCEO復帰を支持、一方で取締役会はフアンをCEOに戻す気なし",
+   "url": "https://gigazine.net/news/20261117-trump-backs-return-of-jensen-huang/",
+   "published": "2026-11-17T03:10+00:00",
+   "published_jst": "2026-11-17 12:10",
+   "summary": "不倫問題を認めたのちNVIDIAのCEOを辞任したジェンスン・フアン氏について、会社内外から強い復帰の要望が出ている中、親密な仲として知られるアメリカのドナルド・トランプ大統領もフアン氏のCEO復帰支持を表明しました。ただし、NVIDIAの取締役会はフアン氏のCEO復帰については検討していないと述べています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "32299f9a40b2",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AIに打ち明けた相談は“広告トラッカー”に筒抜け？ ChatGPT、Claude、Gemini含む42サービスを米大が調査",
+   "url": "https://www.itmedia.co.jp/news/article/2611/17/2000003241/",
+   "published": "2026-11-17T03:00+00:00",
+   "published_jst": "2026-11-17 12:00",
+   "summary": "米ニューヨーク州立大学ストーニーブルック校に所属する研究者らが発表した論文「Penny for Your Prompts: A Measurement Study of Contextual Leakage in AI Chat Platforms」（IEEE S&P 2027採択）は、AIチャットbotに入力した会話内容や個人情報が、サイト内の追跡プログラム（トラッカー）を通じて外部企業へ漏えいする実態を調査した研究報告だ。",
+   "ai_related": true
+  },
+  {
+   "id": "a74a4e1d7d69",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "矢作建設工業、BuddyBoardで見積図面の確認をオンライン化、設計部にも活用拡大",
+   "url": "https://news.build-app.jp/article/43850/",
+   "published": "2026-11-17T03:00+00:00",
+   "published_jst": "2026-11-17 12:00",
+   "summary": "株式会社BuddyBoardは2026年11月16日、建築業界向けの図面ナレッジプラットフォーム「BuddyBoard」が、矢作建設工業株式...",
+   "ai_related": false
+  },
   {
    "id": "7d51633bb84e",
    "source": "PR TIMES",
@@ -37,13 +102,26 @@
    "ai_related": true
   },
   {
-   "id": "b4bb0beb1054",
-   "source": "Infoseek",
+   "id": "80cdf01ade0d",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "規制の厳しい業界でAIエージェントをどう導入する？ MicrosoftとIBMが発表した基盤「3つの特徴」",
+   "url": "https://www.itmedia.co.jp/enterprise/articles/2611/17/news015.html",
+   "published": "2026-11-17T02:30+00:00",
+   "published_jst": "2026-11-17 11:30",
+   "summary": "AIエージェントの実証から本番運用へ――。IBMとMicrosoftは、6000種類超の構築済みエージェントやアセットをそろえた業界特化型の基盤「Imagine Enterprise」でこの移行を支援する。一から構築せず、既存システムも置き換えずに済むという仕組みとは。",
+   "ai_related": true
+  },
+  {
+   "id": "1665525f3532",
+   "source": "J-CAST ニュース",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "ソフトバンクGが7680億円の大赤字 AIに巨額投資の孫正義氏だがアメリカでデータセンター建設に逆風",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VZTluSkEwdFR0TjN6X1VDbzRZTEZyaThVa0J1eW1RRXhSckQ5cF9UOXk5OVNIakE1THQ4cnJpZ3luNHdNWnFVZ2ozRF9MNXFidWFXVUFLUzJlQjVjUEtmdl85ZnhsZUU4cTBsaUx3?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oYWg1WGp3TGFpYUhiOTFoeDdYSjczX0NuSXVnMG0tUGpMRm5Jb3F5QWllbDBiUFdtaXRfc29qS09KTDZpNFNsTW92Y2I0OENKanhrYzc0bWpOMkdUVDE4?oc=5",
    "published": "2026-11-17T02:30+00:00",
    "published_jst": "2026-11-17 11:30",
    "summary": "",
@@ -102,6 +180,19 @@
    "ai_related": true
   },
   {
+   "id": "2eface4fa8c8",
+   "source": "PR TIMES",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【オンライン開催】生成AI × MIDAS Open APIで土木設計を自動化｜設計データ活用事例を紹介",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWk9sY1NwOHpYZXpzUWY4OGRWU00xaEg2MmNxVUp3WUh1ZE5CUnZhalVPOTVyOVBGSXRXbElnNTZGU3lWN19KcTN6eFAzaUNCRTNlR2taSnRTR3FOWi1iY1duWi1GcTJfdXc?oc=5",
+   "published": "2026-11-17T01:30+00:00",
+   "published_jst": "2026-11-17 10:30",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "ce24e3c52e38",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
@@ -141,6 +232,19 @@
    "ai_related": true
   },
   {
+   "id": "7557129b2aa2",
+   "source": "조선일보",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "GS建設、「ザイ」未来戦略発表…「AIホーム」来年下半期分譲団地から適用へ",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYmZVRTlsNHRBVlVTOXJqcGM0R00xcVd2NGY5UkdkdV9QbTFwYl9UTXdMZ25ObDNkZDN5dF9BdV8tMm9VZzFQYjQ2dDBlNHM2S0pnMFcyNFhTbkZfNUJwY1RjRGRFVVVBQTNxbXc3RU9zZ1RKNHl4dVBLTklGU1RVUA?oc=5",
+   "published": "2026-11-17T01:00+00:00",
+   "published_jst": "2026-11-17 10:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "1ce8290842a8",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
@@ -152,32 +256,6 @@
    "published_jst": "2026-11-17 10:00",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "5d9104d72644",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "AIが図面PDFから住宅一棟を積算する「建築知能 住宅積算AI」、βテストを11月30日まで実施中｜80種類以上の数量を拾い、29工種の明細まで3〜5分。期間中は無料",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzYTFUV0ppUktWUmZERl9hMGg5bTcxRHZaNU1XZlYtOU5obkdTRmFaeFBYUHBCY2hOWjNYRS01SjJmRThYbHQ0YTJ4YWk0aHp5ZXpkQ1NSQjJLTHlnR3M4MFZSQjNMYU9ycWc?oc=5",
-   "published": "2026-11-17T01:00+00:00",
-   "published_jst": "2026-11-17 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "734fafc743a1",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "One Technology Japan、建設DX・BIM企業NexConstructを子会社化 日越一体でBIM・AI開発を強化",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lbEY4U19nQ2lJRWpRRVNVSkF3WGxncE50UWJDeGdXSGFXMjBCekw5Z0NGUDYzWThhUGxseDNlVGVIaEhjTzRPQm4wc2VxSXAtM3BpUFRhaUttbXh0TGV4bkExWk1HQndmdXc?oc=5",
-   "published": "2026-11-17T01:00+00:00",
-   "published_jst": "2026-11-17 10:00",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "62e165db781c",
@@ -342,7 +420,7 @@
    "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
    "published": "2026-11-16T22:58+00:00",
    "published_jst": "2026-11-17 07:58",
-   "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 279 # Comments: 156",
+   "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 320 # Comments: 191",
    "ai_related": true,
    "title_ja": "Windows 11が開発ツール等のデータを収集",
    "summary_ja": "Windows 11が、ユーザーが使用しているコーディングエージェントや開発者ツールに関するデータの収集を行っていることが分かりました。"
@@ -438,6 +516,19 @@
    "published": "2026-11-16T21:30+00:00",
    "published_jst": "2026-11-17 06:30",
    "summary": "ダッソー・システムズは、年次カンファレンス「3DEXPERIENCE CONFERENCE JAPAN 2026」の開催に併せてプレスブリーフィングを実施した。同社 CEOのパスカル・ダロズ氏が、AIと科学、人間の専門性を融合させた産業AI戦略について説明。バーチャルツインを中核に、物理世界の仕組みを理解し、現実世界の課題解決を支援するAIの実現を目指す。",
+   "ai_related": true
+  },
+  {
+   "id": "204a30011332",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenCode Browse",
+   "url": "https://opencode.ai/product/browse",
+   "published": "2026-11-16T21:20+00:00",
+   "published_jst": "2026-11-17 06:20",
+   "summary": "Article URL: https://opencode.ai/product/browse Comments URL: https://news.ycombinator.com/item?id=50523459 Points: 151 # Comments: 67",
    "ai_related": true
   },
   {
@@ -1244,6 +1335,84 @@
    "summary_ja": "企業はAIを個別実験として扱ってきましたが、AIエージェントが業務フローに組み込まれる中、そのモデルは不十分になりつつあります。"
   },
   {
+   "id": "15438c614494",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Fire put out at £240m Bowmer & Kirkland Newcastle project",
+   "url": "https://www.constructionnews.co.uk/buildings/building-safety/fire-breaks-out-at-240m-bowmer-kirkland-newcastle-project-16-11-2026/",
+   "published": "2026-11-16T12:45+00:00",
+   "published_jst": "2026-11-16 21:45",
+   "summary": "Firefighters attended and extinguished a blaze at a Bowmer & Kirkland construction site in Newcastle last week. Tyne and Wear Fire and Rescue Service confirmed that two appliances were sent to tackle the incident at the contractor's Castle Leazes development in the city. Bowmer &… The post Fire put ",
+   "ai_related": false
+  },
+  {
+   "id": "15a4def79c8e",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "‘Experimental’ public sector framework would stimulate robotics adoption",
+   "url": "https://www.constructionnews.co.uk/tech/experimental-public-sector-framework-would-stimulate-robotics-adoption-16-11-2026/",
+   "published": "2026-11-16T12:45+00:00",
+   "published_jst": "2026-11-16 21:45",
+   "summary": "Adoption of construction site robotics at scale would be boosted if Whitehall issues an experimental procurement framework, a top official has said. Fergus Harradence, deputy director for construction logistics at the Department for Business and Trade, said investment in site robotics is hard to jus",
+   "ai_related": true
+  },
+  {
+   "id": "3fd2f44f3872",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Gateway 3 approvals treble despite longer waits",
+   "url": "https://www.constructionnews.co.uk/buildings/building-safety/bsr-brings-in-staff-for-gateway-3-surge-16-11-2026/",
+   "published": "2026-11-16T12:45+00:00",
+   "published_jst": "2026-11-16 21:45",
+   "summary": "The Building Safety Regulator (BSR) has more than tripled the number of Gateway 3 approvals in its latest reporting period, although the median approval time has lengthened. The regulator approved 31 applications in the 12 weeks to 1 November, compared with nine in the previous… The post Gateway 3 a",
+   "ai_related": false
+  },
+  {
+   "id": "91a2d22b6641",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Speller Metcalfe to take on former Torsion job in West Midlands",
+   "url": "https://www.constructionnews.co.uk/financial/administrations/big-names-in-frame-to-take-on-former-torsion-job-in-west-midlands-16-11-2026/",
+   "published": "2026-11-16T12:45+00:00",
+   "published_jst": "2026-11-16 21:45",
+   "summary": "Speller Metcalfe is to complete a Black Country scheme left unfinished by collapsed firm Torsion Construction. Sandwell Metropolitan Borough Council's Cabinet unanimously approved the firm's appointment for phases one and two of the Tipton Regeneration Scheme (pictured). Council leader Ray Nock said",
+   "ai_related": false
+  },
+  {
+   "id": "fa7e5fe8a974",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "London waste plant build cost surges to £1.25bn",
+   "url": "https://www.constructionnews.co.uk/buildings/london-waste-plant-build-cost-surges-to-1-25bn-16-11-2026/",
+   "published": "2026-11-16T12:45+00:00",
+   "published_jst": "2026-11-16 21:45",
+   "summary": "The cost of a major waste management project in Edmonton has increased by £451m following disputes between contractor Acciona and client North London Waste Authority (NLWA). Public body NLWA and Spanish contractor Acciona have agreed revised terms that would bring the total value of the… The post Lo",
+   "ai_related": false
+  },
+  {
+   "id": "7a681818d1e8",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Subcontractors risk work by admitting competence gaps, warns ICC chair",
+   "url": "https://www.constructionnews.co.uk/buildings/building-safety/contractors-confident-on-safety-compliance-but-competence-concerns-remain-16-11-2026/",
+   "published": "2026-11-16T12:45+00:00",
+   "published_jst": "2026-11-16 21:45",
+   "summary": "Subcontractors who admit they lack the competence to carry out safety-critical work risk being replaced rather than supported, the chair of the Industry Competence Committee (ICC) has warned. Jon Vanstone, whose committee advises the Building Safety Regulator, questioned whether commercial contracts",
+   "ai_related": false
+  },
+  {
    "id": "8cd345b9ca86",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1285,6 +1454,19 @@
    "ai_related": false
   },
   {
+   "id": "9ec00cd458e9",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Devolving power, building capacity: the procurement challenge ahead",
+   "url": "https://www.constructionnews.co.uk/sections/long-reads/opinion/devolving-power-building-capacity-the-procurement-challenge-ahead-16-11-2026/",
+   "published": "2026-11-16T12:04+00:00",
+   "published_jst": "2026-11-16 21:04",
+   "summary": "Paul Beeston is partner and head of industry and service insights at Rider Levett Bucknall Further devolution is evidently a core strategy of the new government, with prime minister Andy Burnham promising to give authority and budget responsibility to the regions. While the new government… The post ",
+   "ai_related": false
+  },
+  {
    "id": "f891bd93f3d2",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -1313,6 +1495,32 @@
    "ai_related": true
   },
   {
+   "id": "bd16daca1ce3",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Sinden lined up for £31m Tower Hamlets housing job",
+   "url": "https://www.constructionnews.co.uk/contracts/sinden-lined-up-for-31m-tower-hamlets-housing-job-16-11-2026/",
+   "published": "2026-11-16T11:29+00:00",
+   "published_jst": "2026-11-16 20:29",
+   "summary": "Sinden Construction has been selected for a £30.9m contract to build 53 affordable homes and five retail units in Tower Hamlets, east London. Tower Hamlets Council named the Essex-based contractor in an award notice published on 13 November, following a competition that attracted eight bids.… The po",
+   "ai_related": false
+  },
+  {
+   "id": "58261da29d18",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Northern Trains launches £307m construction framework",
+   "url": "https://www.constructionnews.co.uk/civils/northern-trains-launches-307m-construction-framework-16-11-2026/",
+   "published": "2026-11-16T11:03+00:00",
+   "published_jst": "2026-11-16 20:03",
+   "summary": "Rail operator Northern Trains has launched a £307m framework covering design and construction projects at stations, depots and other operational properties. The framework was developed primarily for Northern Trains, TransPennine Express and London North Eastern Railway, although other train operator",
+   "ai_related": false
+  },
+  {
    "id": "3ec91a598d41",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -1326,6 +1534,19 @@
    "ai_related": false,
    "title_ja": "スマートPPEにおけるデータセキュリティとプライバシー",
    "summary_ja": "クラウド上のデータ保存は情報漏洩のリスクを高め、特に医療情報の保護が重要視されています。"
+  },
+  {
+   "id": "8d05a5802966",
+   "source": "Construction News (UK)",
+   "source_id": "constructionnews_uk",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Tier one JV prepares for 18-month HS2 viaduct deck installation",
+   "url": "https://www.constructionnews.co.uk/civils/hs2/tier-one-jv-prepares-for-18-month-hs2-viaduct-deck-installation-16-11-2026/",
+   "published": "2026-11-16T10:44+00:00",
+   "published_jst": "2026-11-16 19:44",
+   "summary": "Balfour Beatty Vinci has installed a 125-tonne gantry crane ahead of an 18-month operation to construct the decks of five HS2 viaducts in Birmingham. The joint venture (JV) contractor is due to begin installing 1,516 reinforced concrete slabs this week on the Curzon approaches, which… The post Tier ",
+   "ai_related": false
   },
   {
    "id": "1425b2e50f77",
@@ -1580,19 +1801,6 @@
    "summary_ja": "自然と建築を融合させた自発的エコロジーのプロトタイプであり、気候インフラとしての都市の雑草地アプローチを高めています。"
   },
   {
-   "id": "22771f43f4f6",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Amazonが世界中のあらゆる商品情報を集約する「World Product Graph」計画を進めていることが判明、AIショッピングエージェントに対抗へ",
-   "url": "https://gigazine.net/news/20261116-amazon-world-product-graph/",
-   "published": "2026-11-16T06:27+00:00",
-   "published_jst": "2026-11-16 15:27",
-   "summary": "Amazonが自社で販売していない商品も含め、世界中の商品情報を集約する「World Product Graph」という計画を進めていることが、ロイターが入手した内部文書を基に報じています。商品検索の主導権を握ることで、Googleや他社のAIショッピングエージェントに対抗する狙いがあるとみられます。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "a14822a512d9",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
@@ -1727,32 +1935,6 @@
    "ai_related": false
   },
   {
-   "id": "7cc9706389e3",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "NVIDIAのコレット・クレス暫定CEOはジェンスン・フアンのやり方を「セーブ」していたとの指摘",
-   "url": "https://gigazine.net/news/20261116-colette-kress-nvidia/",
-   "published": "2026-11-16T05:05+00:00",
-   "published_jst": "2026-11-16 14:05",
-   "summary": "不倫問題を機に辞任したNVIDIAのジェンスン・フアン氏の後任に、最高財務責任者のコレット・クレス氏が暫定として就きました。このクレス氏がどんな人物なのか、ウォール・ストリート・ジャーナルなどがまとめています。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "dc4acfbc9cf3",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "「Qwen4-Max」が登場、一部テストでClaude Opus 5.5に勝利し小型オープンモデルも後日公開予定",
-   "url": "https://gigazine.net/news/20261116-qwen4-max/",
-   "published": "2026-11-16T04:27+00:00",
-   "published_jst": "2026-11-16 13:27",
-   "summary": "中国の大手テクノロジー企業であるAlibabaがAIモデル「Qwen4-Max」を2026年11月16日に正式リリースしました。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "ef5cd38fca8d",
    "source": "クラフトバンク総研",
    "source_id": "gnews_kensetsu_ai",
@@ -1763,19 +1945,6 @@
    "published": "2026-11-16T04:24+00:00",
    "published_jst": "2026-11-16 13:24",
    "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "0b779de345d8",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "NVIDIAのジェンスン・フアンがCEO復帰に向け関係者と協議中との報道",
-   "url": "https://gigazine.net/news/20261116-jensen-huang-discusses-comeback-nvidia-ceo/",
-   "published": "2026-11-16T04:14+00:00",
-   "published_jst": "2026-11-16 13:14",
-   "summary": "アメリカの政府当局により「中国の女スパイ」と断定されている女性との不倫を認め、NVIDIAのCEOを辞任した創業者のジェンスン・フアン氏が、同社のCEOに復帰するべく関係者と協議を進めていることが報じられています。 続きを読む...",
    "ai_related": true
   },
   {
@@ -2159,32 +2328,6 @@
    "ai_related": true
   },
   {
-   "id": "8f5ef2451496",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "ガートナーが考えるフィジカルAI実装のロードマップと人の役割",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/16/news050.html",
-   "published": "2026-11-15T23:00+00:00",
-   "published_jst": "2026-11-16 08:00",
-   "summary": "製造業でも多くの業務でAIが活用される中、注目を集めるフィジカルAIだが、製造業での使用状況はどうなっているのだろうか。フィジカルAIの現在地と共にAI時代の人の役割について、ガートナージャパン アナリストの鹿内健太郎氏に話を聞いた。",
-   "ai_related": true
-  },
-  {
-   "id": "780a84054b25",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "DMG森精機が進める工作機械部品へのAM活用、自社イベントで最新5軸機も展示",
-   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/17/news012.html",
-   "published": "2026-11-15T22:45+00:00",
-   "published_jst": "2026-11-16 07:45",
-   "summary": "DMG森精機は、東京グローバルヘッドクォータにおいて自社イベント「東京テクノロジーウィーク」を開催した。国内初披露を含む最新の5軸加工機や複合加工機、金属積層造形機など17台の機械に加え、DXソリューションなどを展示した。",
-   "ai_related": true
-  },
-  {
    "id": "87d7014c15ee",
    "source": "OpenAI News",
    "source_id": "openai",
@@ -2310,6 +2453,32 @@
    "summary_ja": "サタデー・ナイト・ライブで恒例となった不器用なハイテク経営者のパロディ。今週のエピソードでは出演者たちが一斉にモノマネを披露。"
   },
   {
+   "id": "2b8ea5f8f95a",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供",
+   "url": "https://www.kensetsunews.com/archives/1309336",
+   "published": "2026-11-15T19:55+00:00",
+   "published_jst": "2026-11-16 04:55",
+   "summary": "大阪府住宅供給公社は１３日、「茨木郡山Ｂ団地賃貸需要調査及び建替基本計画等業務」の公募型プロポーザ… The post 11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "62b4e7efa028",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算",
+   "url": "https://www.kensetsunews.com/archives/1309195",
+   "published": "2026-11-15T19:55+00:00",
+   "published_jst": "2026-11-16 04:55",
+   "summary": "大手・準大手ゼネコンの建築事業で採算性の改善が続いている。２０２７年３月期第２四半期決算を公表した… The post 事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "bf21ff738bc4",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2359,32 +2528,6 @@
    "published": "2026-11-15T19:55+00:00",
    "published_jst": "2026-11-16 04:55",
    "summary": "北海道大学施設部は、ＷＴＯ対象となる「北海道大学（札幌１）共創環境強化拠点施設新営その他工事」を一… The post 34.4億の戸田JV/共創環境強化拠点施設/北大 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "2b8ea5f8f95a",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供",
-   "url": "https://www.kensetsunews.com/archives/1309336",
-   "published": "2026-11-15T19:55+00:00",
-   "published_jst": "2026-11-16 04:55",
-   "summary": "大阪府住宅供給公社は１３日、「茨木郡山Ｂ団地賃貸需要調査及び建替基本計画等業務」の公募型プロポーザ… The post 11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "62b4e7efa028",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算",
-   "url": "https://www.kensetsunews.com/archives/1309195",
-   "published": "2026-11-15T19:55+00:00",
-   "published_jst": "2026-11-16 04:55",
-   "summary": "大手・準大手ゼネコンの建築事業で採算性の改善が続いている。２０２７年３月期第２四半期決算を公表した… The post 事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2513,21 +2656,6 @@
    "ai_related": true,
    "title_ja": "datasette-apps 0.4a0リリース",
    "summary_ja": "Datasette上でSQLクエリを実行できるサンドボックス化されたHTML/JavaScriptアプリ機能を提供。"
-  },
-  {
-   "id": "cc7b7d650858",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "datasette-agent 0.6a0",
-   "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
-   "published": "2026-11-15T03:49+00:00",
-   "published_jst": "2026-11-15 12:49",
-   "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-a",
-   "ai_related": true,
-   "title_ja": "datasette-agent 0.6a0リリース",
-   "summary_ja": "データへの質問を可能にするDatasetteエージェントプラグインで、細かな修正やプロンプト追加を実施。"
   }
  ]
 }
