@@ -1,18 +1,14 @@
 {
- "generated_at": "2026-11-17T03:56+00:00",
- "generated_at_jst": "2026-11-17 12:56",
+ "generated_at": "2026-11-17T04:47+00:00",
+ "generated_at_jst": "2026-11-17 13:47",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 32,
+  "ai_japan": 31,
   "construction_japan": 65,
-  "ai_global": 71,
+  "ai_global": 70,
   "construction_global": 22
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
@@ -20,9 +16,65 @@
   {
    "feed": "gnews_sekokan_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "gnews_zenecon_ai",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "87f7d195eb90",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAIが児童ポルノ検出ツールを開発し監視団体に提供開始",
+   "url": "https://gigazine.net/news/20261117-openai-child-safety/",
+   "published": "2026-11-17T04:45+00:00",
+   "published_jst": "2026-11-17 13:45",
+   "summary": "OpenAIがAI生成画像を含む児童性的虐待コンテンツの検出を支援するツールを発表しました。新しいツールで監視団体を支援するとともに、ChatGPTに新しい警告機能を追加し、開発者向けガイダンスを公開することで、オンライン児童性的虐待との闘いを強化することを掲げています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "c14bc16ab603",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "Appleがアプリのデータアクセス範囲をわかりやすく詳細に指定できるようにアップデート、AIエージェントの意図せぬデータアクセスを防ぐことが狙いか",
+   "url": "https://gigazine.net/news/20261117-macos-control-data-access-full-disk/",
+   "published": "2026-11-17T04:37+00:00",
+   "published_jst": "2026-11-17 13:37",
+   "summary": "現地時間の2026年11月16日、AppleがmacOS 27.3 beta 2でアプリに許可されているデータアクセスの範囲をよりわかりやすく、細かく指定できるよう権限設定を見直したことを発表しました。これはAIエージェントがユーザーの意図しないデータにアクセスすることを防ぐための措置であると報じられています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "f0c60e60c48f",
+   "source": "PR TIMES",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "KKGの積算AI、LIXIL様のインテリア建材特化版をリリース",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mQjE0ZkF0NEhCVC1GNlhsTHl3WFFkdEJFOUlMdDRpVTkxUEtmMEg5QlB3TGU3Y21lT1lPclYyS1BzcXZvOTcwT1dSMzhXRXAxZE9qLVI2cG5qOWw5ZDRHajdVQkQ2YU5rR3c?oc=5",
+   "published": "2026-11-17T04:16+00:00",
+   "published_jst": "2026-11-17 13:16",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "6997377afeac",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "LIXIL、設計図面からインテリア建材を自動で拾い出す「AI見積システム」を導入",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GNW1YN1hLUWRuRUZvNVJPRUM2SEVzSDhiZUx0NjdaOVZILUlldVNZaEtXYU1zenNvc0FSRzBmVG9ZQ1BxNTV2aHRiUk1RWUpYNWg5MmJUMjdFUFV2d0g1dzJsQnNIc1R3WnYzREVR?oc=5",
+   "published": "2026-11-17T04:00+00:00",
+   "published_jst": "2026-11-17 13:00",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "6659db286393",
    "source": "GIGAZINE",
@@ -180,19 +232,6 @@
    "ai_related": true
   },
   {
-   "id": "2eface4fa8c8",
-   "source": "PR TIMES",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【オンライン開催】生成AI × MIDAS Open APIで土木設計を自動化｜設計データ活用事例を紹介",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWk9sY1NwOHpYZXpzUWY4OGRWU00xaEg2MmNxVUp3WUh1ZE5CUnZhalVPOTVyOVBGSXRXbElnNTZGU3lWN19KcTN6eFAzaUNCRTNlR2taSnRTR3FOWi1iY1duWi1GcTJfdXc?oc=5",
-   "published": "2026-11-17T01:30+00:00",
-   "published_jst": "2026-11-17 10:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "ce24e3c52e38",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
@@ -269,19 +308,6 @@
    "published_jst": "2026-11-17 09:52",
    "summary": "NVIDIAの創業者、ジェンスン・フアン氏のCEOへの復帰を求める公開書簡に、18万人を超える署名が集まっている。",
    "ai_related": true
-  },
-  {
-   "id": "75f3ad4b6f96",
-   "source": "Housing Tribune Online",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "日建設計が社長交代 新社長に勝山太郎氏",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15VW9ualR6Rm91MTk3NW50UjlVak9MRHhHa2Ryd0ZxNHh2Q0RDZk5DV0lrczVIbjkyWVludjRpSnFMZEdOMEd3NGdLNXUxTkV6Qmc?oc=5",
-   "published": "2026-11-17T00:03+00:00",
-   "published_jst": "2026-11-17 09:03",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "ef9e527f2ac7",
@@ -420,7 +446,7 @@
    "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
    "published": "2026-11-16T22:58+00:00",
    "published_jst": "2026-11-17 07:58",
-   "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 320 # Comments: 191",
+   "summary": "Article URL: https://xusheng.dev/posts/windows-coding-agent-telemetry/ Comments URL: https://news.ycombinator.com/item?id=50524736 Points: 372 # Comments: 235",
    "ai_related": true,
    "title_ja": "Windows 11が開発ツール等のデータを収集",
    "summary_ja": "Windows 11が、ユーザーが使用しているコーディングエージェントや開発者ツールに関するデータの収集を行っていることが分かりました。"
@@ -528,7 +554,7 @@
    "url": "https://opencode.ai/product/browse",
    "published": "2026-11-16T21:20+00:00",
    "published_jst": "2026-11-17 06:20",
-   "summary": "Article URL: https://opencode.ai/product/browse Comments URL: https://news.ycombinator.com/item?id=50523459 Points: 151 # Comments: 67",
+   "summary": "Article URL: https://opencode.ai/product/browse Comments URL: https://news.ycombinator.com/item?id=50523459 Points: 170 # Comments: 76",
    "ai_related": true
   },
   {
@@ -1704,19 +1730,6 @@
    "summary_ja": "カザフスタンの東部と南西部にある3つの空港の建設が2026年末までに完了する予定です。"
   },
   {
-   "id": "b8e3a02573c2",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "工場建設ゲーム「Factorio」の中に2000台近くのスピーカーを並べてMP3プレイヤーを実装",
-   "url": "https://gigazine.net/news/20261116-mp3-player-on-factorio/",
-   "published": "2026-11-16T07:55+00:00",
-   "published_jst": "2026-11-16 16:55",
-   "summary": "植民星に工場を建設して作業を自動化するシミュレーションゲーム「Factorio」では、ゲーム内の回路ネットワークを使ってさまざまな装置を制御できます。そんなFactorioで約2000台のプログラマブルスピーカーを組み合わせ、MODを使わずに音楽や歌声などの音声ファイルを再現するシステム「FactoTune」が開発されました。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "3f88703110d6",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -1747,19 +1760,6 @@
    "summary_ja": "Packaged Livingによる434戸の賃貸マンション開発の着工に向け前進しました。"
   },
   {
-   "id": "1f39099daa77",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "OLED搭載の新型MacBook Proで「目が疲れる」「頭痛がする」との報告が相次ぐ",
-   "url": "https://gigazine.net/news/20261116-oled-macbook-pro/",
-   "published": "2026-11-16T07:35+00:00",
-   "published_jst": "2026-11-16 16:35",
-   "summary": "Appleが2026年11月6日に発売した有機EL(OLED)ディスプレイ搭載の新型MacBook Proについて「目が疲れる」「頭痛やめまいが起きる」といった報告が相次いでいます。従来モデルより美しい映像を表示できる一方で、画面の明るさを調整する仕組みが一部のユーザーに不快感を与えている可能性が指摘されています。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "b9dd952b18bd",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1770,19 +1770,6 @@
    "published": "2026-11-16T07:17+00:00",
    "published_jst": "2026-11-16 16:17",
    "summary": "Googleは新AIモデル「Gemini 4 Hydrogen」を発表。「最先端モデルを誰にでも」とし、低コストで日々の作業をサポートするとしている。その概要と性能、使い道、料金をまとめる。",
-   "ai_related": true
-  },
-  {
-   "id": "dbc3fd584a0e",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "地図もカメラも使わずロボット同士の通信だけで空間の形状を認識する技術が開発される",
-   "url": "https://gigazine.net/news/20261116-robo-hearing-the-shape-of-arena/",
-   "published": "2026-11-16T07:15+00:00",
-   "published_jst": "2026-11-16 16:15",
-   "summary": "パリ・シテ大学やソルボンヌ大学、東京大学、お茶の水女子大学などの研究チームが、複数の小型ロボットが互いに情報を交換するだけで自分たちがいる空間の形状を認識する技術を開発しました。カメラやGPS、中央制御用のコンピューターを必要とせず、25台の小型ロボットを用いた実験では30回中30回、空間の形状を正しく識別することに成功しています。 続きを読む...",
    "ai_related": true
   },
   {
@@ -2453,32 +2440,6 @@
    "summary_ja": "サタデー・ナイト・ライブで恒例となった不器用なハイテク経営者のパロディ。今週のエピソードでは出演者たちが一斉にモノマネを披露。"
   },
   {
-   "id": "2b8ea5f8f95a",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供",
-   "url": "https://www.kensetsunews.com/archives/1309336",
-   "published": "2026-11-15T19:55+00:00",
-   "published_jst": "2026-11-16 04:55",
-   "summary": "大阪府住宅供給公社は１３日、「茨木郡山Ｂ団地賃貸需要調査及び建替基本計画等業務」の公募型プロポーザ… The post 11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "62b4e7efa028",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算",
-   "url": "https://www.kensetsunews.com/archives/1309195",
-   "published": "2026-11-15T19:55+00:00",
-   "published_jst": "2026-11-16 04:55",
-   "summary": "大手・準大手ゼネコンの建築事業で採算性の改善が続いている。２０２７年３月期第２四半期決算を公表した… The post 事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "bf21ff738bc4",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2528,6 +2489,32 @@
    "published": "2026-11-15T19:55+00:00",
    "published_jst": "2026-11-16 04:55",
    "summary": "北海道大学施設部は、ＷＴＯ対象となる「北海道大学（札幌１）共創環境強化拠点施設新営その他工事」を一… The post 34.4億の戸田JV/共創環境強化拠点施設/北大 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "2b8ea5f8f95a",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供",
+   "url": "https://www.kensetsunews.com/archives/1309336",
+   "published": "2026-11-15T19:55+00:00",
+   "published_jst": "2026-11-16 04:55",
+   "summary": "大阪府住宅供給公社は１３日、「茨木郡山Ｂ団地賃貸需要調査及び建替基本計画等業務」の公募型プロポーザ… The post 11月24日まで参加受付/茨木郡山B団地建替基本計画/大阪府住供 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "62b4e7efa028",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算",
+   "url": "https://www.kensetsunews.com/archives/1309195",
+   "published": "2026-11-15T19:55+00:00",
+   "published_jst": "2026-11-16 04:55",
+   "summary": "大手・準大手ゼネコンの建築事業で採算性の改善が続いている。２０２７年３月期第２四半期決算を公表した… The post 事業収益の改善続く/利益を施工力強化に/大手・準大手ゼネコン中間決算 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2641,21 +2628,6 @@
    "published_jst": "2026-11-15 14:16",
    "summary": "",
    "ai_related": true
-  },
-  {
-   "id": "968e4ab4d9bb",
-   "source": "Simon Willison",
-   "source_id": "simonw",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "datasette-apps 0.4a0",
-   "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
-   "published": "2026-11-15T04:02+00:00",
-   "published_jst": "2026-11-15 13:02",
-   "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see",
-   "ai_related": true,
-   "title_ja": "datasette-apps 0.4a0リリース",
-   "summary_ja": "Datasette上でSQLクエリを実行できるサンドボックス化されたHTML/JavaScriptアプリ機能を提供。"
   }
  ]
 }
