@@ -1,31 +1,282 @@
 {
- "generated_at": "2026-11-17T23:11+00:00",
- "generated_at_jst": "2026-11-18 08:11",
+ "generated_at": "2026-11-18T04:25+00:00",
+ "generated_at_jst": "2026-11-18 13:25",
  "window_hours": 48,
  "counts": {
-  "ai_global": 83,
-  "ai_japan": 28,
-  "construction_japan": 52,
-  "construction_global": 37
+  "ai_japan": 32,
+  "construction_japan": 55,
+  "ai_global": 81,
+  "construction_global": 32
  },
  "errors": [
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "e1222fb357e7",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAIが「GPT-6.2 Astra」「GPT-6.2 Sol」をリリース、資料作成やPC操作が進化＆少ないトークンで複雑な業務を処理可能に",
+   "url": "https://gigazine.net/news/20261118-openai-gpt-6-2-astra-sol/",
+   "published": "2026-11-18T04:15+00:00",
+   "published_jst": "2026-11-18 13:15",
+   "summary": "OpenAIが新たなAIモデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表しました。GPT-6.2 Astraは複雑な業務やプログラミング、科学研究に適した最上位モデルで、GPT-6.2 Solは日常的な作業を効率よく処理できるモデルです。両モデルとも従来より少ない出力トークン数で高い性能を発揮でき、資料作成やPC操作の精度も向上しているとのことです。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "1d4bca0ece3e",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenJDKのBase64デコーダにおけるメモリ破損の脆弱性「Java4Shell」をOpenAIのCodexで発見、わずか3時間で攻撃実証まで成功",
+   "url": "https://gigazine.net/news/20261118-java4shell/",
+   "published": "2026-11-18T04:00+00:00",
+   "published_jst": "2026-11-18 13:00",
+   "summary": "セキュリティ研究企業のCalifが2026年11月17日、Javaのオープンソース実装であるOpenJDKに重大な脆弱(ぜいじゃく)性「Java4Shell(CVE-2026-114938)」が存在すると発表しました。Java4Shellを悪用すると、攻撃者は機密情報の窃取やリモートコード実行(RCE)が可能になります。CalifはOpenAIのAIコーディングエージェント「Codex」を利用して、わずか1時間で脆弱性を発見したと報告しています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "61d5296caa37",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "NVIDIAのコレット・クレス暫定CEOが中国向けのH200販売終了を発表",
+   "url": "https://gigazine.net/news/20261118-nvidia-ends-to-sell-chip-to-china/",
+   "published": "2026-11-18T03:14+00:00",
+   "published_jst": "2026-11-18 12:14",
+   "summary": "ジェンスン・フアン氏のCEO辞任後、初となる決算説明会で、コレット・クレス暫定CEOがAI用途やHPC用途向けのGPU・H200の中国向け販売を終了することを明らかにしました。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "fec4d75d6377",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "イーロン・マスクの母親がゲーム「インフィニティニキ」のアップデート予告に登場してプレイヤーは困惑",
+   "url": "https://gigazine.net/news/20261118-infinity-nikki-elon-musk-mom-appears-trailers/",
+   "published": "2026-11-18T02:53+00:00",
+   "published_jst": "2026-11-18 11:53",
+   "summary": "電気自動車メーカー・テスラや宇宙開発企業・SpaceXのCEOとして知られる実業家のイーロン・マスク氏の母親で、モデルとして活躍するメイ・マスク氏が、オープンワールド着せ替えアドベンチャーゲーム「インフィニティニキ」のアップデート予告に登場し、ゲーマーを困惑させています。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "385af8e8e781",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【ベトナム】建設ＤＸのワンテクノロジー、越同業を買収（NNA）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NYlpGR0Z0d0VRQ09FUGxtMk1mU2pINm9qaEd0Y3ZkMDJ0cEQ5VTdDd1A2Q181dlpUUENvalZtZ2FhSnRyS0ZsUVdDX09CTkNwWVJBMm16ZWlpT1JLSjllYlI5WlNDbVNidXJNTE5BVmtjeWJWWTNONXNJcnRzUGc?oc=5",
+   "published": "2026-11-18T02:30+00:00",
+   "published_jst": "2026-11-18 11:30",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "341d9474a267",
+   "source": "建通新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "橋本ＨＤとＡＩ ｉｎｓｉｄｅ ＡＩ×建設の共同事業構想を発表",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZjRLWWVFVGxVRHRqTl9tLW1xbkoxbjVucUZoZnpCUmdyNUw4NEJMUmtkV0xFSWRiYzZab3J5UUdPa1ZzdVBEVy12MkpDTHJvQUxqeG5XMDBoNHNta0ozY1pnbWN5aGtQMWRRMlBXSFFpcGR0eDJOaVdsbElzNUdEeA?oc=5",
+   "published": "2026-11-18T02:27+00:00",
+   "published_jst": "2026-11-18 11:27",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "94c714841bbc",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "ジェンスン・フアンがCEO復帰への意欲を公表するもNVIDIA会長は「復帰させる予定なし」と明言",
+   "url": "https://gigazine.net/news/20261118-nvidia-not-plan-reappoint-jensen-huang-ceo/",
+   "published": "2026-11-18T01:55+00:00",
+   "published_jst": "2026-11-18 10:55",
+   "summary": "NVIDIAのハーベイ・C・ジョーンズ会長が、同社の決算説明会の中で中国の女スパイとの不倫問題を受けてCEOを辞任したジェンスン・フアン氏のCEO復帰について、「予定はない」と言及したことが明らかになりました。フアン氏はCEO辞任後初めてXへの投稿を行い、CEO復帰への意欲を見せていましたが、会社側が一蹴した形です。 続きを読む...",
+   "ai_related": true
+  },
+  {
+   "id": "d652f478feee",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+   "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+   "published": "2026-11-18T01:44+00:00",
+   "published_jst": "2026-11-18 10:44",
+   "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+   "ai_related": true
+  },
+  {
+   "id": "6f4eb2cd7aff",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "わが社はChatGPTでどう紹介されている？ OpenAIが企業向けの確認機能を提供開始",
+   "url": "https://www.itmedia.co.jp/enterprise/articles/2611/18/news022.html",
+   "published": "2026-11-18T01:40+00:00",
+   "published_jst": "2026-11-18 10:40",
+   "summary": "ChatGPTがユーザーに向けて、自社をどのように紹介しているのかを把握したいと考える企業は多いだろう。OpenAIは、その把握に役立つ機能を企業向けにβ版で公開した。米国の対象企業であれば、自社のAIエージェントをChatGPT広告のリンク先に設定することもできる。",
+   "ai_related": true
+  },
+  {
+   "id": "c94558a5626f",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「GPT-6.2 Astra／Sol」登場 前世代超える性能を「コスト1/3で実現」 Ultrafast提供も拡大",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003282/",
+   "published": "2026-11-18T01:32+00:00",
+   "published_jst": "2026-11-18 10:32",
+   "summary": "OpenAIが「GPT-6.2 Astra」「GPT-6.2 Sol」を発表。Astraは一部の性能評価で、前世代を上回るスコアを3分の1以下のコストで実現したとうたう。第三者機関の総合指標ではClaude Fable 5.2次ぐ2位。",
+   "ai_related": true
+  },
+  {
+   "id": "87638ccb5b9f",
+   "source": "매일경제",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設住宅フォーラムが創立30周年を迎え、人工知能(AI)とデジタル転換にともなう建設·住宅産業の変化と対応方案を議論した。",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZQTU4ZjJabm05a25ySUVha2tzZ1ZwNVQ5MTFSV2M0em1sSzZlb1huMGt5Y3FfNGlka0Z2LWhFdzlZejBqWm15TWNjUVpWWjNrVS10MDFR?oc=5",
+   "published": "2026-11-18T01:28+00:00",
+   "published_jst": "2026-11-18 10:28",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "b38be2347b6d",
+   "source": "BuildApp News",
+   "source_id": "buildapp",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "国土交通省、9月の建設総合統計を公表、出来高総計5兆6,211億円で前年同月比5.5％増",
+   "url": "https://news.build-app.jp/article/43871/",
+   "published": "2026-11-18T01:00+00:00",
+   "published_jst": "2026-11-18 10:00",
+   "summary": "国土交通省は2026年11月17日、建設総合統計の令和8年（2026年）9月分を公表しました。9月の出来高総計は5兆6,211億円で、前年同...",
+   "ai_related": false
+  },
+  {
+   "id": "ab50b7af668b",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+   "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+   "published": "2026-11-18T00:27+00:00",
+   "published_jst": "2026-11-18 09:27",
+   "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
+   "ai_related": true
+  },
+  {
+   "id": "f2df59b272b9",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "published": "2026-11-18T00:17+00:00",
+   "published_jst": "2026-11-18 09:17",
+   "summary": "Article URL: https://revscope.co/blog/search-seo-geo-2026/ Comments URL: https://news.ycombinator.com/item?id=50540178 Points: 172 # Comments: 116",
+   "ai_related": true
+  },
+  {
+   "id": "83a48772429a",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nvidia promises that revenue will keep soaring — for now",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+   "published": "2026-11-18T00:16+00:00",
+   "published_jst": "2026-11-18 09:16",
+   "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+   "ai_related": true
+  },
+  {
+   "id": "19bce111d0ee",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Satya Nadella says he’s AGI-pilled now",
+   "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+   "published": "2026-11-17T23:41+00:00",
+   "published_jst": "2026-11-18 08:41",
+   "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI",
+   "ai_related": true
+  },
+  {
+   "id": "28509d8a3a74",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "published": "2026-11-17T23:37+00:00",
+   "published_jst": "2026-11-18 08:37",
+   "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+   "ai_related": true
+  },
+  {
+   "id": "f266b68992fa",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "「AIによる鍵の不正利用」を生体認証で防ぐ日立の新技術、サイバー攻撃対策にも",
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/18/news040.html",
+   "published": "2026-11-17T23:30+00:00",
+   "published_jst": "2026-11-18 08:30",
+   "summary": "日立製作所は、AIによる業務が人間の承認に基づくことを証明する技術「PoHD」を開発。生体認証を応用し、署名用の秘密鍵を保存せず生体情報から都度復元する。先進技術紹介のイベント「Hitachi R&D Innovation Day 2026」でデモンストレーションも披露した。",
+   "ai_related": true
+  },
   {
    "id": "3feac0927710",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
    "category": "ai_global",
    "lang": "en",
-   "title": "Nvidia says its open-source AI strategy remains intact after Jensen Huang’s exit",
+   "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
    "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
    "published": "2026-11-17T23:04+00:00",
    "published_jst": "2026-11-18 08:04",
-   "summary": "Nvidia's interim CEO reaffirmed its open-source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+   "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+   "ai_related": true
+  },
+  {
+   "id": "ef2a16e7b9cc",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "AI時代に必要なエンジニアのスキルとは？ 開発現場の“品質問題”から読み解く",
+   "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003236/",
+   "published": "2026-11-17T23:00+00:00",
+   "published_jst": "2026-11-18 08:00",
+   "summary": "ソフトウェア品質に関する調査から見えてきた、AI時代に必要なエンジニアのスキルを解説する。",
    "ai_related": true
   },
   {
@@ -165,6 +416,19 @@
    "ai_related": false
   },
   {
+   "id": "a6a3a994423b",
+   "source": "Chosunbiz",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "AIで設計と事業性分析を統合 ジェネレイト北米開拓加速",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWkdwZUt1MnByZjlBYi1wUG5tUm9FY29xY1dMOE91bm5ZcmtZZ2E5V09YNDlqLWNzeDMxaEhGMF9tUEkzejUwZlpIZlZmcV9YcTJHRWFGLVdmNG5KZ0l0a3lOQlJmNVNZQldlQ3dnTjFocTh3bWFjUTJoVUw4clZlVVBn0gGWAUFVX3lxTE5BRHJSQnR1bWw4ZVJoZmRsR01yc0QtVXhEM3p2SEgzMEZ5V1M3RFlieWo1Mjd0eHdoX3gtVXRLb19vbnZiTExHblJFZmpqZjlyZUd6M0JXb0xvWGlpbWlmaUNDbDFBVkRhZHlPcUE1QVl1VW5TS0had3doU0pCQ01ZUTAwemQ4YWtKT2RQSWZYZkUyUGZ0UQ?oc=5",
+   "published": "2026-11-17T21:01+00:00",
+   "published_jst": "2026-11-18 06:01",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "25612f3abffd",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
@@ -251,6 +515,19 @@
    "summary_ja": "OpenAIは高性能かつ安価な新モデル「GPT-6.2 Astra and Sol」をリリース。独立系インデックスではClaudeに次ぐ第2位にランクイン。"
   },
   {
+   "id": "abc3fe7497c2",
+   "source": "山陽新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米ＡＩ向けデータ施設建設 ＮＴＴ、大阪で１兆円規模",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0dlZDX2xWVnVVUzdJUTZIc1pVenM5S3U2YXZzWmRzNmgxNTRvZUMyM094c0N4RGRRX240N1gxWlZuYnJyZ2ptSkdPSWpINlp2YTkxUTFqb2Q5UQ?oc=5",
+   "published": "2026-11-17T20:17+00:00",
+   "published_jst": "2026-11-18 05:17",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "d239b7fa65f7",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -269,11 +546,11 @@
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "川越市/基幹的設備を改良・運営/11月30日まで参加受付資源化C整備民活調査",
+   "title": "基幹的設備を改良・運営/11月30日まで参加受付/川越市の資源化センター整備民活調査",
    "url": "https://www.kensetsunews.com/archives/1310540",
    "published": "2026-11-17T19:55+00:00",
    "published_jst": "2026-11-18 04:55",
-   "summary": "埼玉県川越市は、「資源化センター施設整備事業におけるＰＦＩ等導入可能性調査」を実施する。同センター… The post 川越市/基幹的設備を改良・運営/11月30日まで参加受付資源化C整備民活調査 first appeared on 建設通信新聞Digital .",
+   "summary": "埼玉県川越市は、「資源化センター施設整備事業におけるＰＦＩ等導入可能性調査」を実施する。同センター… The post 基幹的設備を改良・運営/11月30日まで参加受付/川越市の資源化センター整備民活調査 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -426,7 +703,7 @@
    "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
    "published": "2026-11-17T18:25+00:00",
    "published_jst": "2026-11-18 03:25",
-   "summary": "Article URL: https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50535885 Points: 240 # Comments: 111",
+   "summary": "Article URL: https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50535885 Points: 308 # Comments: 141",
    "ai_related": true,
    "title_ja": "MAI Code 2およびCode 2 Flashの紹介",
    "summary_ja": "Microsoft AIが発表した「MAI Code 2」および「MAI Code 2 Flash」に関する記事と議論のページ。"
@@ -510,7 +787,7 @@
    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
    "published": "2026-11-17T17:46+00:00",
    "published_jst": "2026-11-18 02:46",
-   "summary": "Article URL: https://openai.com/index/introducing-gpt-6-2-astra-sol/ Comments URL: https://news.ycombinator.com/item?id=50535230 Points: 985 # Comments: 609",
+   "summary": "Article URL: https://openai.com/index/introducing-gpt-6-2-astra-sol/ Comments URL: https://news.ycombinator.com/item?id=50535230 Points: 1149 # Comments: 727",
    "ai_related": true,
    "title_ja": "GPT-6.2 AstraとSolに関する発表",
    "summary_ja": "OpenAIが発表した新モデル「GPT-6.2 Astra and Sol」に関する記事およびユーザー間の議論をまとめたページ。"
@@ -598,7 +875,7 @@
    "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
    "published": "2026-11-17T17:12+00:00",
    "published_jst": "2026-11-18 02:12",
-   "summary": "Article URL: https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf Comments URL: https://news.ycombinator.com/item?id=50534631 Points: 291 # Comments: 155",
+   "summary": "Article URL: https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf Comments URL: https://news.ycombinator.com/item?id=50534631 Points: 430 # Comments: 212",
    "ai_related": true,
    "title_ja": "Nvidia、売上高1,040億ドル突破もシンガポールでの販売開示を停止",
    "summary_ja": "Nvidiaはシンガポールでの売上開示を停止し、全体の売上高は1040億ドルに達した。"
@@ -737,21 +1014,6 @@
    "ai_related": true,
    "title_ja": "ジェンスン・フアン氏、NvidiaのCEO復帰の意向を表明",
    "summary_ja": "先週辞任したNvidiaのCEOジェンスン・フアン氏が、取締役会の要請があれば復帰する意向を示したと報じられた。"
-  },
-  {
-   "id": "d81b9377edb6",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction Companies Don’t Have an Equipment Problem. They Have a Coordination Problem.",
-   "url": "https://constructionexec.com/article/construction-companies-dont-have-an-equipment-problem-they-have-a-coordination-problem/?utm_source=rss&utm_medium=rss&utm_campaign=construction-companies-dont-have-an-equipment-problem-they-have-a-coordination-problem",
-   "published": "2026-11-17T16:00+00:00",
-   "published_jst": "2026-11-18 01:00",
-   "summary": "A fleet count alone is an incomplete measure of capacity. The post Construction Companies Don’t Have an Equipment Problem. They Have a Coordination Problem. first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "建設業界の課題は機材不足ではなく調整力にある",
-   "summary_ja": "保有する機材の数だけでは、建設会社の作業能力を正確に測ることはできない。"
   },
   {
    "id": "babc21b9f3c5",
@@ -909,7 +1171,7 @@
    "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
    "published": "2026-11-17T14:53+00:00",
    "published_jst": "2026-11-17 23:53",
-   "summary": "Article URL: https://runta.com/blog/introducing-frontierharness-eval-v1-1/ Comments URL: https://news.ycombinator.com/item?id=50532191 Points: 313 # Comments: 110",
+   "summary": "Article URL: https://runta.com/blog/introducing-frontierharness-eval-v1-1/ Comments URL: https://news.ycombinator.com/item?id=50532191 Points: 344 # Comments: 120",
    "ai_related": true,
    "title_ja": "各モデルに最適なハーネスとは何か",
    "summary_ja": "AIモデルの評価や性能測定における最適なハーネス（枠組み）の選び方についての解説記事。"
@@ -990,21 +1252,6 @@
    "summary_ja": "米国の労働者に公正な配慮と仕事への優先的アクセスを提供することを目指し、労働長官が月曜日に表明した。"
   },
   {
-   "id": "1632fb5fec80",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
-   "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-   "published": "2026-11-17T14:05+00:00",
-   "published_jst": "2026-11-17 23:05",
-   "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
-   "ai_related": true,
-   "title_ja": "Nvidia、ジェンスン・フアン退任後の初の大規模施策は国家安全保障",
-   "summary_ja": "新設の常任委員会により、国家安全保障政策、輸出管理の遵守、世界的な貿易リスクに対する取締役会レベルの監督が可能になると企業は発表した。"
-  },
-  {
    "id": "b198e88d7ab7",
    "source": "NVIDIA Blog",
    "source_id": "nvidia",
@@ -1018,21 +1265,6 @@
    "ai_related": true,
    "title_ja": "SC26開幕、NvidiaのIan BuckがAIエージェント時代を語る",
    "summary_ja": "シカゴでのSC26において、NvidiaのIan Buck氏がAIエージェント向けの新しいツールを発表。実験の計画やコードの実行が可能なソフトウェアを披露した。"
-  },
-  {
-   "id": "38c9e2505124",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
-   "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-   "published": "2026-11-17T14:00+00:00",
-   "published_jst": "2026-11-17 23:00",
-   "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
-   "ai_related": true,
-   "title_ja": "Spotifyの新ツール、実在アーティストのディープフェイクを阻止",
-   "summary_ja": "先月Billboardが、ソニー・ミュージックが26万曲以上のディープフェイク楽曲の削除を要求したと報じたことを受けたアップデート。"
   },
   {
    "id": "0e789c02d673",
@@ -1224,19 +1456,6 @@
    "summary_ja": "アーティストのNatasha Sweetenのための680平方フィートの絵画スタジオ兼オフィス。経済的で効率的な建物を目指し、自然光を取り入れている。"
   },
   {
-   "id": "a5b7ac5fb121",
-   "source": "매일경제",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現地時間3日に行われた米中間選挙では、AIデータセンターの建設中止を公約に掲げた民主党候補が多数当選した。これを機に、米国が主導してきた世界のAIインフラ市場で、中国の追い上げがさらに勢いを増すとみら..",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ISDhJUXJKRUxLb1dGWnFKaFdpWm5zYllseEFxMlZNTkV1ZGo4Qm53QU1RZll2YjVTVVpxSXlyeWROSExCdWQwMEVTMDRLWkU?oc=5",
-   "published": "2026-11-17T11:54+00:00",
-   "published_jst": "2026-11-17 20:54",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "646db36fd461",
    "source": "Construction News (UK)",
    "source_id": "constructionnews_uk",
@@ -1252,19 +1471,17 @@
    "summary_ja": "政府の調達枠組みにおいて、5百万ポンド以上の契約で若者の雇用を義務付けるべきだと大規模な報告書が提言した。"
   },
   {
-   "id": "f0ddacbbb174",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "When Water Hits an Active Job: Managing the First Week After a Major Water Loss",
-   "url": "https://constructionexec.com/article/when-water-hits-an-active-job-managing-the-first-week-after-a-major-water-loss/?utm_source=rss&utm_medium=rss&utm_campaign=when-water-hits-an-active-job-managing-the-first-week-after-a-major-water-loss",
-   "published": "2026-11-17T11:00+00:00",
-   "published_jst": "2026-11-17 20:00",
-   "summary": "The first seven days after projectwide water damage are the most critical for taking action. The post When Water Hits an Active Job: Managing the First Week After a Major Water Loss first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "水害発生時の現場：大規模な浸水被害直後の最初の1週間の管理",
-   "summary_ja": "プロジェクト全体が水害を受けた後の最初の7日間は、対応を行う上で最も重要な期間となる。"
+   "id": "f972e84d74f0",
+   "source": "BigGo ファイナンス",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米クリーブランド連銀のハマック総裁、小幅利上げを支持 AIデータセンター建設ブームがインフレを助長と警告",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UempHcUV1b2ZOVUV4Mi1ZTWpJRlFMNVpfM3N1OGp5U29MQXdrOXZNUGp5N1VjbjNwVEJjZTJlVy1LQWR2dF84STl5SVRUTVR1TGJ1X19yNkF4dw?oc=5",
+   "published": "2026-11-17T11:08+00:00",
+   "published_jst": "2026-11-17 20:08",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "40fa6885a3d0",
@@ -1317,21 +1534,6 @@
    "published_jst": "2026-11-17 19:25",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "567d2c83df20",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How the Claude Code team thinks about verification",
-   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-   "published": "2026-11-17T10:20+00:00",
-   "published_jst": "2026-11-17 19:20",
-   "summary": "Article URL: https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/ Comments URL: https://news.ycombinator.com/item?id=50529612 Points: 246 # Comments: 193",
-   "ai_related": true,
-   "title_ja": "Claude Codeチームの検証に対する考え方",
-   "summary_ja": "記事URL：https://claude.dev/blog/how-the-Claude-code-team-thinks-about-verification/"
   },
   {
    "id": "ac70efc879bf",
@@ -1614,19 +1816,6 @@
    "ai_related": true
   },
   {
-   "id": "c14bc16ab603",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Appleがアプリのデータアクセス範囲をわかりやすく詳細に指定できるようにアップデート、AIエージェントの意図せぬデータアクセスを防ぐことが狙いか",
-   "url": "https://gigazine.net/news/20261117-macos-control-data-access-full-disk/",
-   "published": "2026-11-17T04:37+00:00",
-   "published_jst": "2026-11-17 13:37",
-   "summary": "現地時間の2026年11月16日、AppleがmacOS 27.3 beta 2でアプリに許可されているデータアクセスの範囲をよりわかりやすく、細かく指定できるよう権限設定を見直したことを発表しました。これはAIエージェントがユーザーの意図しないデータにアクセスすることを防ぐための措置であると報じられています。 続きを読む...",
-   "ai_related": true
-  },
-  {
    "id": "f0c60e60c48f",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1651,45 +1840,6 @@
    "published_jst": "2026-11-17 13:03",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "6659db286393",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "NVIDIAが小型AIスパコンDGX Sparkを4台つなげてメモリ容量512GBを実現する「DGX Spark Developer Kit」を発表、最大700Bのモデルを実行可能",
-   "url": "https://gigazine.net/news/20261117-dgx-spark-developer-kit/",
-   "published": "2026-11-17T03:37+00:00",
-   "published_jst": "2026-11-17 12:37",
-   "summary": "NVIDIAが小型AIスーパーコンピューター「DGX Spark」を4台連係させてAIクラスターを形成できる「DGX Spark Developer Kit」を発表しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "a9212e243784",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "Hugging Faceのモデル公開ページでOpenRouterのルーティングサービスを用いたチャットが可能に",
-   "url": "https://gigazine.net/news/20261117-hugging-face-openrouter/",
-   "published": "2026-11-17T03:20+00:00",
-   "published_jst": "2026-11-17 12:20",
-   "summary": "Hugging FaceとOpenRouterが提携し、Hugging Faceのサービス内でOpenRouterのルーティングサービスを利用できるようになりました。これにより、Hugging Faceのユーザーはコスト効率やレイテンシなどを加味しつつプロバイダーを選択できるようになります。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "e3ec0b38c828",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "トランプ大統領がジェンスン・フアンのNVIDIAのCEO復帰を支持、一方で取締役会はフアンをCEOに戻す気なし",
-   "url": "https://gigazine.net/news/20261117-trump-backs-return-of-jensen-huang/",
-   "published": "2026-11-17T03:10+00:00",
-   "published_jst": "2026-11-17 12:10",
-   "summary": "不倫問題を認めたのちNVIDIAのCEOを辞任したジェンスン・フアン氏について、会社内外から強い復帰の要望が出ている中、親密な仲として知られるアメリカのドナルド・トランプ大統領もフアン氏のCEO復帰支持を表明しました。ただし、NVIDIAの取締役会はフアン氏のCEO復帰については検討していないと述べています。 続きを読む...",
-   "ai_related": true
   },
   {
    "id": "32299f9a40b2",
@@ -1783,19 +1933,6 @@
    "ai_related": true
   },
   {
-   "id": "2eface4fa8c8",
-   "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【オンライン開催】生成AI × MIDAS Open APIで土木設計を自動化｜設計データ活用事例を紹介",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SWk9sY1NwOHpYZXpzUWY4OGRWU00xaEg2MmNxVUp3WUh1ZE5CUnZhalVPOTVyOVBGSXRXbElnNTZGU3lWN19KcTN6eFAzaUNCRTNlR2taSnRTR3FOWi1iY1duWi1GcTJfdXc?oc=5",
-   "published": "2026-11-17T01:30+00:00",
-   "published_jst": "2026-11-17 10:30",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "ce24e3c52e38",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
@@ -1807,6 +1944,19 @@
    "published_jst": "2026-11-17 10:26",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "1ce8290842a8",
+   "source": "Chosunbiz",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "GS建設がAI住宅「ザイ」構想公開",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTmtPUmRaOEhITWExWWF5Um5GSTlpbjZlM3J1eVVoaHZlMWozN1hSY08wXy1rWGMtX3JweEIxNmRFVnR6OEhSMUt6UjJLTFJFaG4xek5qejI4SDJqVGYwVG01UzRyUTRrR2d0RGdfQmp0Ui1kSGtXZUZuS2pwZFpObW1VQjbSAZgBQVVfeXFMT1lPZWpiaVpzM0p6cWkwNjZJR1dKdnRqXzljMElLQi1oRG5SeDFmOTNHaC02V3RZNmZhZi03dG04ZU9sUV90WllueGlYS0FTckRlZDhQTEpTclFmSzFMb2tpSE1HREhBV1piQ0hsY2tZR0o2YzNjTlhzaWdfSk9EekNSekxuZWxoLXQ2MktUMW5DZEZCTk44Z3o?oc=5",
+   "published": "2026-11-17T01:14+00:00",
+   "published_jst": "2026-11-17 10:14",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "b11cc3a3f50f",
@@ -1848,19 +1998,6 @@
    "ai_related": false
   },
   {
-   "id": "3c36042f0a1e",
-   "source": "Chosunbiz",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "GS建設がAI住宅戦略公開 空間と気候対応を統合",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTmtPUmRaOEhITWExWWF5Um5GSTlpbjZlM3J1eVVoaHZlMWozN1hSY08wXy1rWGMtX3JweEIxNmRFVnR6OEhSMUt6UjJLTFJFaG4xek5qejI4SDJqVGYwVG01UzRyUTRrR2d0RGdfQmp0Ui1kSGtXZUZuS2pwZFpObW1VQjY?oc=5",
-   "published": "2026-11-17T01:00+00:00",
-   "published_jst": "2026-11-17 10:00",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "5d9104d72644",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1874,6 +2011,19 @@
    "ai_related": false
   },
   {
+   "id": "015024bb750c",
+   "source": "Chosunbiz",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "GS建設がAI住宅戦略公開 空間と気候対応を統合",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWU9lamJpWnMzSnpxaTA2NklHV0p2dGpfOWMwSUtCLWhEblJ4MWY5M0doLTZXdFk2ZmFmLTd0bThlT2xRX3RaWW54aVhLQVNyRGVkOFBMSlNyUWZLMUxva2lITUdESEFXWmJDSGxja1lHSjZjM2NOWHNpZ19KT0R6Q1J6TG5lbGgtdDYyS1QxbkNkRkJOTjhnetIBmAFBVV95cUxPWU9lamJpWnMzSnpxaTA2NklHV0p2dGpfOWMwSUtCLWhEblJ4MWY5M0doLTZXdFk2ZmFmLTd0bThlT2xRX3RaWW54aVhLQVNyRGVkOFBMSlNyUWZLMUxva2lITUdESEFXWmJDSGxja1lHSjZjM2NOWHNpZ19KT0R6Q1J6TG5lbGgtdDYyS1QxbkNkRkJOTjhneg?oc=5",
+   "published": "2026-11-17T01:00+00:00",
+   "published_jst": "2026-11-17 10:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "734fafc743a1",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -1881,19 +2031,6 @@
    "lang": "ja",
    "title": "One Technology Japan、建設DX・BIM企業NexConstructを子会社化 日越一体でBIM・AI開発を強化",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lbEY4U19nQ2lJRWpRRVNVSkF3WGxncE50UWJDeGdXSGFXMjBCekw5Z0NGUDYzWThhUGxseDNlVGVIaEhjTzRPQm4wc2VxSXAtM3BpUFRhaUttbXh0TGV4bkExWk1HQndmdXc?oc=5",
-   "published": "2026-11-17T01:00+00:00",
-   "published_jst": "2026-11-17 10:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "08aebd90180f",
-   "source": "PR TIMES",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "BIM・CAD・建設技術支援のジョーアブロードとBIMSTOKのアーリーリフレクションが業務提携",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZWmR1bG9NLWNuOEdRQm04M2JTcjh5eEVmWmhuZW5FSXZvbnl2Nk1SVkw5Z1B1MEgtLWxTcE41RFhXLTVJdTBpNmw3akZXQUQyT2RiUjFST3JwX3Z5bnVTX0V1enFXN0Y4blE?oc=5",
    "published": "2026-11-17T01:00+00:00",
    "published_jst": "2026-11-17 10:00",
    "summary": "",
@@ -2049,21 +2186,6 @@
    "ai_related": true,
    "title_ja": "「llm 0.37.3」がリリース",
    "summary_ja": "LLMのバグ修正版「llm 0.37.3」がリリースされました。最新のHomebrewパッケージで発生したSQLiteの問題に対処しています。"
-  },
-  {
-   "id": "aae8c4832e63",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-   "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-   "published": "2026-11-16T23:32+00:00",
-   "published_jst": "2026-11-17 08:32",
-   "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-   "ai_related": true,
-   "title_ja": "サイバーセキュリティAIのCormaが評価額10億ドルに",
-   "summary_ja": "AIを活用したサイバーセキュリティ企業Cormaが製品発表から3ヶ月で、NEA主導により1億2500万ドルのシリーズA資金調達を実施し、評価額が10億ドルに到達しました。"
   },
   {
    "id": "a59424729711",
@@ -2275,21 +2397,6 @@
    "summary_ja": "米最大の原子力発電事業者であるコンステレーション・エナジーは、民主党によるデータセンター開発の遅延をWall Streetほど懸念していません。"
   },
   {
-   "id": "94e979efd738",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "US data centers now burn more electricity than a midsized country",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
-   "published": "2026-11-16T20:27+00:00",
-   "published_jst": "2026-11-17 05:27",
-   "summary": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions. ",
-   "ai_related": true,
-   "title_ja": "米国のデータセンターの電力消費が中堅国を突破",
-   "summary_ja": "学術誌「Nature Sustainability」に掲載された論文によると、米国のハイパースケールデータセンターは中堅国の総消費電力を上回る電力を消費しています。"
-  },
-  {
    "id": "66395cf5113b",
    "source": "NVIDIA Blog",
    "source_id": "nvidia",
@@ -2318,6 +2425,19 @@
    "ai_related": true
   },
   {
+   "id": "b97666d7c204",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "連載・建築設計事務所/新座標を刻む(9)",
+   "url": "https://www.kensetsunews.com/archives/1309895",
+   "published": "2026-11-16T19:55+00:00",
+   "published_jst": "2026-11-17 04:55",
+   "summary": "【挑戦で快適な未来を支える／ＤＣと半導体関連に注力／日立建設設計 伊藤博之（いとう・ひろゆき）社長】… The post 連載・建築設計事務所/新座標を刻む(9) first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
    "id": "07c56258c346",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2336,11 +2456,11 @@
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "日本郵船/郵船ビルを建替え/設計＝地所設計、施工＝戸田建設/33年竣工目指す",
+   "title": "郵船ビルを建替え/33年竣工目指す/日本郵船",
    "url": "https://www.kensetsunews.com/archives/1309941",
    "published": "2026-11-16T19:55+00:00",
    "published_jst": "2026-11-17 04:55",
-   "summary": "日本郵船は、東京都千代田区にある本店ビルの郵船ビルディングを建て替える。設計は三菱地所設計、外装デ… The post 日本郵船/郵船ビルを建替え/設計＝地所設計、施工＝戸田建設/33年竣工目指す first appeared on 建設通信新聞Digital .",
+   "summary": "【設計＝地所設計、施工＝戸田建設】 日本郵船は、東京都千代田区にある本店ビルの郵船ビルディングを建て… The post 郵船ビルを建替え/33年竣工目指す/日本郵船 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2349,24 +2469,11 @@
    "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "白井駅周辺まちづくり/質疑は11月27日まで/事業パートナーを募集",
+   "title": "質疑は11月27日まで/事業パートナーを募集/白井駅周辺まちづくり",
    "url": "https://www.kensetsunews.com/archives/1309957",
    "published": "2026-11-16T19:55+00:00",
    "published_jst": "2026-11-17 04:55",
-   "summary": "千葉県白井市の白井駅周辺地区まちづくり協議会は１６日、同地区の土地活用に向けた事業検討パートナーの… The post 白井駅周辺まちづくり/質疑は11月27日まで/事業パートナーを募集 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "5a467551fd62",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "名古屋市/WTOで4月公告/新たな劇場整備運営BTO",
-   "url": "https://www.kensetsunews.com/archives/1310012",
-   "published": "2026-11-16T19:55+00:00",
-   "published_jst": "2026-11-17 04:55",
-   "summary": "名古屋市観光文化交流局は、２０２７年度からＢＴＯ（建設・譲渡・運営）方式を採用する「新たな劇場整備… The post 名古屋市/WTOで4月公告/新たな劇場整備運営BTO first appeared on 建設通信新聞Digital .",
+   "summary": "千葉県白井市の白井駅周辺地区まちづくり協議会は１６日、同地区の土地活用に向けた事業検討パートナーの… The post 質疑は11月27日まで/事業パートナーを募集/白井駅周辺まちづくり first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2700,21 +2807,6 @@
    "summary_ja": "1,800人以上の科学者が研究でChatGPTをどのように活用しているかを探ります。日々の業務や生産性の向上に関する調査結果を紹介します。"
   },
   {
-   "id": "3ec91a598d41",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Data Security and Privacy Considerations for Smart PPE",
-   "url": "https://constructionexec.com/article/data-security-and-privacy-considerations-for-smart-ppe/?utm_source=rss&utm_medium=rss&utm_campaign=data-security-and-privacy-considerations-for-smart-ppe",
-   "published": "2026-11-16T11:00+00:00",
-   "published_jst": "2026-11-16 20:00",
-   "summary": "Data stored in the cloud can increase the risk of data breaches, particularly for medical information, which is considered the most sensitive. The post Data Security and Privacy Considerations for Smart PPE first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "スマートPPEにおけるデータセキュリティとプライバシーの考慮事項",
-   "summary_ja": "クラウドに保存されたデータは情報漏洩のリスクを高める可能性があり、特に機密性の高い医療情報においてその傾向が強い。"
-  },
-  {
    "id": "1425b2e50f77",
    "source": "AEC Magazine",
    "source_id": "aecmag",
@@ -2728,116 +2820,6 @@
    "ai_related": true,
    "title_ja": "BIMの先へ：エンジニアリングデータから知能へ",
    "summary_ja": "BIMは次世代のエンジニアリング業務構築に向けた構造化データの基盤を提供しました。"
-  },
-  {
-   "id": "13ad9fffa798",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "大林組と東北大、次世代建設技術共創研究所を設置 タフ・フィジカルAIの社会実装を推進：AI",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoTG1fanZQQkZtalNOdEZvM1RVejZyUm4weWFJbWJBaHhqeUxyS1FMUjlnbnpfbmtqalFqNEtTZktCMFEtUWt5REoxbWVVTWY5R04xVnc4OW9vYTZXc2dnWmh5b2k0cTVPZEdmMA?oc=5",
-   "published": "2026-11-16T10:00+00:00",
-   "published_jst": "2026-11-16 19:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "f054a54f8228",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "How Revolut raises ambition without lowering the bar",
-   "url": "https://openai.com/business/customer-stories/revolut",
-   "published": "2026-11-16T09:30+00:00",
-   "published_jst": "2026-11-16 18:30",
-   "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-   "ai_related": true,
-   "title_ja": "Revolutが基準を下げずに野望を高める方法",
-   "summary_ja": "RevolutがOpenAIモデルを活用し、コーディング時間を大幅削減しつつセキュリティを維持する手法を紹介。"
-  },
-  {
-   "id": "b66630e7ad76",
-   "source": "TBS NEWS DIG",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米中「AI」主導権争い激化か データセンター“建設ラッシュ”の東南アジア 米中ロ接近…日本は関係改善の糸口掴めるか",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9FNExXcVpFOG16bm5OZ3dWVXF1Wkx4bHMxdjZkeWVwaWlsZUFQOEo5LXJ3X3hyQi00WDdmbGh5eHY1eEFEaHNXRmR1WG9DQVZIX0xIUDRHTQ?oc=5",
-   "published": "2026-11-16T09:26+00:00",
-   "published_jst": "2026-11-16 18:26",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "e6c41a193449",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "ジェンスン・フアン氏退任は「NVIDIAバブル崩壊」の序章か？ どうなる今後の半導体業界",
-   "url": "https://www.itmedia.co.jp/news/article/2611/16/2000003226/",
-   "published": "2026-11-16T09:05+00:00",
-   "published_jst": "2026-11-16 18:05",
-   "summary": "米NVIDIA創業者にして社長兼CEO兼会長だったジェンスン・フアン氏が同社を退任した。半導体業界や同社の事業への影響は。",
-   "ai_related": true
-  },
-  {
-   "id": "91e58e2ea930",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-   "url": "https://openai.com/index/lvmh-media-division-partnership",
-   "published": "2026-11-16T09:00+00:00",
-   "published_jst": "2026-11-16 18:00",
-   "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-   "ai_related": true,
-   "title_ja": "LVMHメディア部門、OpenAIと戦略的提携を発表",
-   "summary_ja": "LVMHメディア部門とOpenAIが提携し、AIによるジャーナリズム支援とChatGPTでの出版物閲覧を推進します。"
-  },
-  {
-   "id": "0b06a48e7869",
-   "source": "AEC Magazine",
-   "source_id": "aecmag",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Ricoh launches resilient 360° camera for construction",
-   "url": "https://aecmag.com/reality-capture-modelling/ricoh-launches-resilient-360-construction-camera/",
-   "published": "2026-11-16T08:57+00:00",
-   "published_jst": "2026-11-16 17:57",
-   "summary": "Ricoh Theta A1 combines dust and water protection and improved image quality The post Ricoh launches resilient 360° camera for construction appeared first on AEC Magazine .",
-   "ai_related": false,
-   "title_ja": "リコー、建設向けタフな360度カメラを発売",
-   "summary_ja": "Ricoh Theta A1は防塵・防水性能を備え、画質も向上しています。"
-  },
-  {
-   "id": "479f6a07fc42",
-   "source": "Construction Enquirer (UK)",
-   "source_id": "construction_enquirer",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "£800m London waste plant job cost rockets to £1.25bn",
-   "url": "https://www.constructionenquirer.com/2026/11/16/800m-london-waste-plant-job-cost-rockets-to-1-25bn/",
-   "published": "2026-11-16T08:13+00:00",
-   "published_jst": "2026-11-16 17:13",
-   "summary": "Acciona strikes deal to resolve £572m claims row and reset finish date",
-   "ai_related": false
-  },
-  {
-   "id": "ebd9eb949639",
-   "source": "OpenAI News",
-   "source_id": "openai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Our first phase of embedded assessments",
-   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-   "published": "2026-11-16T08:00+00:00",
-   "published_jst": "2026-11-16 17:00",
-   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-   "ai_related": true
   }
  ]
 }
