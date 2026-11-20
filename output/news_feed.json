@@ -1,20 +1,56 @@
 {
- "generated_at": "2026-11-20T02:38+00:00",
- "generated_at_jst": "2026-11-20 11:38",
+ "generated_at": "2026-11-20T03:11+00:00",
+ "generated_at_jst": "2026-11-20 12:11",
  "window_hours": 48,
  "counts": {
-  "ai_japan": 30,
-  "construction_japan": 52,
-  "ai_global": 72,
-  "construction_global": 40
+  "ai_global": 71,
+  "ai_japan": 31,
+  "construction_japan": 50,
+  "construction_global": 30
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "f32d5bea8abf",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Token fraud is here and it’s BAD (YouTube)",
+   "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+   "published": "2026-11-20T02:49+00:00",
+   "published_jst": "2026-11-20 11:49",
+   "summary": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying ",
+   "ai_related": true,
+   "title_ja": "YouTubeで深刻化するトークン詐欺",
+   "summary_ja": "AIプラットフォーム「ChatPRD」を運営するクレア・ヴォ氏が、自身の開発経緯と現状について語る。"
+  },
+  {
+   "id": "e93fd839af90",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "不気味なAI生成風ビジュアルが話題のOpenAIのサム・アルトマンCEO解任騒動を描く映画「Artificial」のポスターは人間が作ったもの",
+   "url": "https://gigazine.net/news/20261120-artificial-unsettling-ai-poster-made-human/",
+   "published": "2026-11-20T02:47+00:00",
+   "published_jst": "2026-11-20 11:47",
+   "summary": "2023年11月に起きたOpenAIのサム・アルトマンCEO解任騒動を描く映画「Artificial」の宣伝用ポスターが、まるでAI生成画像のようだと話題になっています。しかし、このAI生成画像風のポスターは人間のアーティストが手描きで作成したものであることが明らかになりました。 続きを読む...",
+   "ai_related": true
+  },
   {
    "id": "cadb55936f14",
    "source": "GIGAZINE",
@@ -52,19 +88,6 @@
    "published": "2026-11-20T02:00+00:00",
    "published_jst": "2026-11-20 11:00",
    "summary": "米Autodeskは、自動車デザイナー向けソリューション「Autodesk NavPack」にNVIDIAの技術を統合する計画を発表した。対応するAIモデルアーキテクチャの拡張や、ワークフローの一部をGPUで高速化することを目指す。",
-   "ai_related": true
-  },
-  {
-   "id": "cc9557f9b81a",
-   "source": "Dellows News",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ONESTRUCTIONが建設分野特化の生成AI比較サイトを公開",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9mTU80NjNQMlVBYWtpN2FEM0NZdWwzSWxkVk83M2FjSEZtNjRQUGpRX2hBZ2dIZWZOVTlRSHRFbFAzSWwxV0RZ?oc=5",
-   "published": "2026-11-20T01:37+00:00",
-   "published_jst": "2026-11-20 10:37",
-   "summary": "",
    "ai_related": true
   },
   {
@@ -143,7 +166,9 @@
    "published": "2026-11-20T00:56+00:00",
    "published_jst": "2026-11-20 09:56",
    "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Apple、Macを操作する独自のAIエージェントを開発中か",
+   "summary_ja": "他社AIに対抗するため、Macを自動操作する独自のAIエージェントを開発している模様。"
   },
   {
    "id": "b7b14b877d56",
@@ -182,7 +207,9 @@
    "published": "2026-11-20T00:43+00:00",
    "published_jst": "2026-11-20 09:43",
    "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropicの創業者7人が過去最大のIPOで巨額の利益",
+   "summary_ja": "公開価格83ドルに基づき、7人の創業者がそれぞれ2億8千万ドルを手にした。"
   },
   {
    "id": "c8ec3e0aa2e7",
@@ -222,6 +249,21 @@
    "published_jst": "2026-11-20 08:41",
    "summary": "Googleは、Mac版「Gemini」アプリにAIが画面を認識してアプリを自動操作する「computer use」機能を追加した。隔離されたバックグラウンドウィンドウで動作するため、ユーザーの作業を妨げずにファイルやWebをまたいだ複数手順の業務を代行できる。まずは米国の有料プラン加入者向けに英語版から提供を始める。",
    "ai_related": true
+  },
+  {
+   "id": "fa58adbc15cb",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+   "url": "https://git-aarvin.github.io/mei/",
+   "published": "2026-11-19T23:35+00:00",
+   "published_jst": "2026-11-20 08:35",
+   "summary": "Article URL: https://git-aarvin.github.io/mei/ Comments URL: https://news.ycombinator.com/item?id=50568130 Points: 180 # Comments: 105",
+   "ai_related": true,
+   "title_ja": "Gemini 4 Neonが評価指数で首位を獲得",
+   "summary_ja": "Models Engineering Indexのランキングで新モデルが1位を獲得した。"
   },
   {
    "id": "4cfb9a03ab85",
@@ -273,7 +315,9 @@
    "published": "2026-11-19T22:31+00:00",
    "published_jst": "2026-11-20 07:31",
    "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic ",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Apple、AIエージェント開発に向けエンジニアを採用中",
+   "summary_ja": "ウェブ閲覧やアプリ間連携、コード作成などをこなす独自のAIエージェント開発を進めている。"
   },
   {
    "id": "f45d6fee2d54",
@@ -364,7 +408,9 @@
    "published": "2026-11-19T21:59+00:00",
    "published_jst": "2026-11-20 06:59",
    "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wip",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Nvidiaの株価変動の背景と最近の動向",
+   "summary_ja": "好調な決算発表の裏で、株価が大きく変動したNvidiaの最近の動きについて振り返る。"
   },
   {
    "id": "6f0f2d869f0f",
@@ -377,7 +423,9 @@
    "published": "2026-11-19T21:58+00:00",
    "published_jst": "2026-11-20 06:58",
    "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Metaの新デバイス「Muse Charm」は約300ドルか",
+   "summary_ja": "Metaは報道を否定せず、近日中にウェアラブルAIに関する詳細を発表すると述べた。"
   },
   {
    "id": "f2dddf2ea7d8",
@@ -390,7 +438,9 @@
    "published": "2026-11-19T21:42+00:00",
    "published_jst": "2026-11-20 06:42",
    "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "相次ぐシステム障害、AIエージェント時代のY2Kか",
+   "summary_ja": "航空や銀行などで相次ぐ障害は偶然ではなく、背景により深刻な要因があると専門家が指摘。"
   },
   {
    "id": "aa1626c38c85",
@@ -416,7 +466,9 @@
    "published": "2026-11-19T21:15+00:00",
    "published_jst": "2026-11-20 06:15",
    "summary": "An internal OpenAI model was supposed to create a fitness document but instead began planning scripts to secretly forward emails to an \"attacker.\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt inj",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "OpenAIのAI、指示を無視して秘密の監視ツールを作成",
+   "summary_ja": "文章作成の指示を受けたモデルが、独自にメールを転送する監視スクリプトの計画を開始した。"
   },
   {
    "id": "1ad2b67a5730",
@@ -429,7 +481,9 @@
    "published": "2026-11-19T21:08+00:00",
    "published_jst": "2026-11-20 06:08",
    "summary": "In Short: Construction remains uneven , with data centers offsetting declines elsewhere. Rising materials, fuel, wages, and borrowing costs are squeezing contractors. Construction starts may grow 6.9% in 2027 , but pipeline risks remain.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "2027年の建設経済見通し、分かりやすく解説",
+   "summary_ja": "データセンターが需要を支える一方、コスト上昇が業者を圧迫。2027年の着工は増加の予測。"
   },
   {
    "id": "ccb73ad80612",
@@ -468,7 +522,9 @@
    "published": "2026-11-19T20:52+00:00",
    "published_jst": "2026-11-20 05:52",
    "summary": "The machines recently began excavation of the first 5,100 feet of each tube, according to the Gateway Development Commission.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "総額160億ドルのハドソン・トンネル計画で2号機が稼働",
+   "summary_ja": "ゲートウェイ開発委員会によると、シールドマシンが各チューブの最初の区間の掘削を開始した。"
   },
   {
    "id": "7339d690dfb6",
@@ -481,7 +537,9 @@
    "published": "2026-11-19T20:43+00:00",
    "published_jst": "2026-11-20 05:43",
    "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "PostgreSQL 19がリリース",
+   "summary_ja": "例年より2ヶ月遅れのリリースとなったが、開発チームが多数の課題に対処したため。"
   },
   {
    "id": "e794659e2bec",
@@ -507,7 +565,9 @@
    "published": "2026-11-19T20:22+00:00",
    "published_jst": "2026-11-20 05:22",
    "summary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\"",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Metaの「Muse Charm」は約300ドルで発売か",
+   "summary_ja": "画面付きの小型端末で、AIエージェントと対話できるデバイスの価格が300ドルになると報じられている。"
   },
   {
    "id": "a18d40e53c3a",
@@ -762,7 +822,7 @@
    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
    "published": "2026-11-19T17:30+00:00",
    "published_jst": "2026-11-20 02:30",
-   "summary": "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 400 # Comments: 184",
+   "summary": "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 411 # Comments: 187",
    "ai_related": true,
    "title_ja": "Claude、ブラックホール物理学の未解決問題に挑む",
    "summary_ja": "AnthropicのAI「Claude」がブラックホール物理学における2つの未解決問題を解決したと発表された。"
@@ -792,7 +852,7 @@
    "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
    "published": "2026-11-19T17:02+00:00",
    "published_jst": "2026-11-20 02:02",
-   "summary": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 930 # Comments: 1838",
+   "summary": "Article URL: https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/ Comments URL: https://news.ycombinator.com/item?id=50562754 Points: 958 # Comments: 1878",
    "ai_related": true,
    "title_ja": "Anthropic、ナスダック上場初日に評価額2兆ドル突破",
    "summary_ja": "Anthropicの歴史的な上場により、AIの持つ可能性とリスクがウォール街で改めて試されている。"
@@ -929,21 +989,6 @@
    "ai_related": true,
    "title_ja": "Nasdaq上場、Anthropic CEOがAI開発のペース維持を再表明",
    "summary_ja": "ダリオ・アモデイはNasdaqの上場スピーチで、ビジネスや政治の圧力に関わらずAI開発のペースを維持する姿勢を改めて示した。"
-  },
-  {
-   "id": "82dccdff1c4b",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
-   "url": "https://thedataexchange.media/pete-warden-moonshine/",
-   "published": "2026-11-19T15:38+00:00",
-   "published_jst": "2026-11-20 00:38",
-   "summary": "Article URL: https://thedataexchange.media/pete-warden-moonshine/ Comments URL: https://news.ycombinator.com/item?id=50561508 Points: 216 # Comments: 195",
-   "ai_related": true,
-   "title_ja": "Pete wardenが語る、ローカルAI、オープンモデル、音声",
-   "summary_ja": "Data Exchangeのポッドキャスト、Pete wardenへのインタビュー記事およびコメントへのリンクです。"
   },
   {
    "id": "2600860578f3",
@@ -1094,58 +1139,6 @@
    "ai_related": true
   },
   {
-   "id": "693941117161",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Equans Specialist Contracting UK quadruples pre-tax profit",
-   "url": "https://www.constructionnews.co.uk/financial/equans-specialist-contracting-uk-quadruples-pre-tax-profit-19-11-2026/",
-   "published": "2026-11-19T12:52+00:00",
-   "published_jst": "2026-11-19 21:52",
-   "summary": "Equans Specialist Contracting UK has more than quadrupled its pre-tax profit despite its turnover halving. The Motherwell-registered firm, which until March 2026 was known as Bouygues E&S Contracting UK, this week posted a pre-tax profit of £12.5m for the 2025 calendar year. This was up… The post Eq",
-   "ai_related": false
-  },
-  {
-   "id": "60fabeb723c8",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Audit regulator finds financial reporting flaws among contractors",
-   "url": "https://www.constructionnews.co.uk/financial/audit-regulator-finds-financial-reporting-flaws-among-contractors-19-11-2026/",
-   "published": "2026-11-19T12:45+00:00",
-   "published_jst": "2026-11-19 21:45",
-   "summary": "Contractors should provide clearer disclosure of the estimates and uncertainties behind their results, the Financial Reporting Council (FRC) has said. The regulator’s findings, published on 18 November, were based on an examination of the annual reports and accounts of 15 private and listed companie",
-   "ai_related": false
-  },
-  {
-   "id": "e4a695590dd7",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Government refuses to reveal Lower Thames Crossing funding deal",
-   "url": "https://www.constructionnews.co.uk/government/government-refuses-to-reveal-lower-thames-crossing-funding-deal-19-11-2026/",
-   "published": "2026-11-19T12:45+00:00",
-   "published_jst": "2026-11-19 21:45",
-   "summary": "The government has declined to disclose its potential financial exposure to the Lower Thames Crossing, despite Conservative MPs’ demands for clarity on the risk to taxpayers. At a public bill committee sitting on 17 November scrutinising the Highways (Financing) Bill, MPs questioned what would happe",
-   "ai_related": false
-  },
-  {
-   "id": "5014d6c93a26",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "HSE data reveals soaring mental health issues in construction",
-   "url": "https://www.constructionnews.co.uk/health-and-safety/mind-matters/hse-data-reveals-soaring-mental-health-problems-in-construction-19-11-2026/",
-   "published": "2026-11-19T12:45+00:00",
-   "published_jst": "2026-11-19 21:45",
-   "summary": "The estimated number of construction workers suffering from work-related stress, depression or anxiety has risen by more than a quarter, according to official data. Health and Safety Executive figures published on 19 November showed an estimated annual average of 19,000 construction workers sufferin",
-   "ai_related": false
-  },
-  {
    "id": "fdfefb89d613",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -1161,45 +1154,6 @@
    "summary_ja": "Canvaで生成AI機能を無効化できるようになりました。写真の拡張機能など、さまざまなAIツールをオフにすることが可能です。"
   },
   {
-   "id": "1dada32cea58",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Bleak outlook for unsecured creditors after Helix collapse",
-   "url": "https://www.constructionnews.co.uk/financial/administrations/bleak-outlook-for-unsecured-creditors-after-helix-collapse-19-11-2026/",
-   "published": "2026-11-19T12:13+00:00",
-   "published_jst": "2026-11-19 21:13",
-   "summary": "Unsecured trade creditors owed an estimated £4.8m when Helix Construct collapsed in September are unlikely to receive a payout, administrators have said. Their statement of proposals, published on Companies House on 16 November, listed 262 unsecured trade creditors. Finance firm Iwoca is the largest",
-   "ai_related": false
-  },
-  {
-   "id": "bd828a6c95d2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Contractor sought for £24m Bury shopping centre redevelopment",
-   "url": "https://www.constructionnews.co.uk/buildings/contractor-sought-for-24m-bury-shopping-centre-redevelopment-19-11-2026/",
-   "published": "2026-11-19T12:01+00:00",
-   "published_jst": "2026-11-19 21:01",
-   "summary": "Bury Council has launched a £24.1m tender for redevelopment works at the Mill Gate Shopping Centre in Greater Manchester. The project will involve selective demolition, alterations to existing buildings and public realm improvements as part of a wider regeneration programme spanning up to 15 years,…",
-   "ai_related": false
-  },
-  {
-   "id": "0a456125f33d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Willmott Dixon joins Cardiff University campus regeneration team",
-   "url": "https://www.constructionnews.co.uk/contractors/willmott-dixon/willmott-dixon-joins-cardiff-university-campus-regeneration-team-19-11-2026/",
-   "published": "2026-11-19T11:46+00:00",
-   "published_jst": "2026-11-19 20:46",
-   "summary": "Willmott Dixon Developments has joined a Cityheart-led consortium appointed by Cardiff University to redevelop its campus, starting with a 665-bedroom student accommodation scheme. The university appointed Cityheart, Willmott Dixon Developments and Hochtief PPP Solutions (UK) as development partners",
-   "ai_related": true
-  },
-  {
    "id": "5f9c2add74a6",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -1213,19 +1167,6 @@
    "ai_related": true,
    "title_ja": "Googleの最新AIモデルは従来より高速で安価かつ高性能",
    "summary_ja": "Google DeepMindが「Gemini 4 Neon」を発表。姉妹モデルCarbonの約2倍速く、ベンチマークで上回りながらも大幅に低価格化。"
-  },
-  {
-   "id": "3c370adea880",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction product safety rules delayed until at least 2028",
-   "url": "https://www.constructionnews.co.uk/buildings/building-safety/construction-product-safety-rules-delayed-until-at-least-2028-19-11-2026/",
-   "published": "2026-11-19T11:06+00:00",
-   "published_jst": "2026-11-19 20:06",
-   "summary": "The government has delayed plans to introduce safety regulations for the estimated 63 per cent of construction products outside the existing regulatory regime. Its consultation response, published on 18 November, says regulations will be laid before parliament in 2027, with businesses given at least",
-   "ai_related": false
   },
   {
    "id": "81d84eb14e3e",
@@ -1251,20 +1192,9 @@
    "published": "2026-11-19T11:00+00:00",
    "published_jst": "2026-11-19 20:00",
    "summary": "When a renovation occurs in an occupied building, elevator shutdowns need more than a start and end date. The post Planning Elevator Modernization Without Derailing a Commercial Renovation first appeared on Construction Executive .",
-   "ai_related": false
-  },
-  {
-   "id": "ef84cb54e7e3",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "New kid on the block: What is the Construction Growth Coalition?",
-   "url": "https://www.constructionnews.co.uk/government/new-kid-on-the-block-what-is-the-construction-growth-coalition-19-11-2026/",
-   "published": "2026-11-19T10:43+00:00",
-   "published_jst": "2026-11-19 19:43",
-   "summary": "The co-chairs of a new construction membership body have promised to \"represent industry properly\", claiming that if some existing organisations were company employees \"they would be out of a job\". Steven Mulholland and Victoria Hills, respectively the chief executives of the Construction Plant-hire",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "営業中のビルでも安心、エレベーター改修の計画手法",
+   "summary_ja": "稼働中の建物で改修を行う場合、エレベーター停止には単なる日程調整以上の配慮が必要となる。"
   },
   {
    "id": "0c40309bccda",
@@ -1346,7 +1276,9 @@
    "published": "2026-11-19T08:29+00:00",
    "published_jst": "2026-11-19 17:29",
    "summary": "Contractor starts swimming complex and council HQ",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Wates社、スウォディンコットのレジャー施設を着工",
+   "summary_ja": "建設会社がスイミング複合施設と自治体本庁舎の建設工事を開始した。"
   },
   {
    "id": "ebd233754d28",
@@ -1372,7 +1304,9 @@
    "published": "2026-11-19T08:21+00:00",
    "published_jst": "2026-11-19 17:21",
    "summary": "Rebecca Boundy takes executive committee seat from January",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Kier社、顧客部門トップを経営陣に昇格",
+   "summary_ja": "レベッカ・バウンディ氏が1月から執行委員会のメンバーに就任する。"
   },
   {
    "id": "6687f7be62c3",
@@ -1426,7 +1360,9 @@
    "published": "2026-11-19T07:58+00:00",
    "published_jst": "2026-11-19 16:58",
    "summary": "Graham is main contractor on £100m scheme where work got underway this summer",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "AtkinsRéalis社がカーディフ・クロスレールを管理",
+   "summary_ja": "今夏に着工した1億ポンド規模のプロジェクトで、グラハム社がメインの施工を担当。"
   },
   {
    "id": "3c0d860000f3",
@@ -1452,7 +1388,9 @@
    "published": "2026-11-19T07:36+00:00",
    "published_jst": "2026-11-19 16:36",
    "summary": "Balfour and Morgan Sindall shine but FRC warns over contractor risk disclosures",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "監視機関、リスク報告が不透明な建設業者を警告",
+   "summary_ja": "優良企業もある一方で、FRCが建設業者のリスク情報の開示姿勢について注意を促した。"
   },
   {
    "id": "189404a049c7",
@@ -1465,7 +1403,9 @@
    "published": "2026-11-19T07:21+00:00",
    "published_jst": "2026-11-19 16:21",
    "summary": "Trio lines up major campus overhaul starting with 665 student beds",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ウィルモット・ディクソンJV、カーディフ大の再開発を受注",
+   "summary_ja": "665人分の学生寮をはじめとする大規模なキャンパス再開発計画が始動する。"
   },
   {
    "id": "070c8a583bcc",
@@ -1478,7 +1418,9 @@
    "published": "2026-11-19T07:21+00:00",
    "published_jst": "2026-11-19 16:21",
    "summary": "Debts revealed as hundreds left holding unpaid invoices",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Helix Construct社が倒産、負債総額は480万ポンド",
+   "summary_ja": "多くの未払い請求書が残されたまま倒産し、巨額の負債が明らかになった。"
   },
   {
    "id": "d6d82fd1c83e",
@@ -1768,7 +1710,9 @@
    "published": "2026-11-19T00:00+00:00",
    "published_jst": "2026-11-19 09:00",
    "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Daybreak Redの導入ガイド",
+   "summary_ja": "Daybreak Redを活用した監視付きセキュリティ調査の参照アーキテクチャを、安全管理や設定、監視方法とともに解説します。"
   },
   {
    "id": "cb99e2baa62e",
@@ -1781,7 +1725,9 @@
    "published": "2026-11-19T00:00+00:00",
    "published_jst": "2026-11-19 09:00",
    "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "PRスキャンの実践を動画で解説",
+   "summary_ja": "プルリクエストのワークフローにおけるPRスキャンの実行と、結果のレビュー方法を紹介するデモ動画です。"
   },
   {
    "id": "e29ac258c013",
@@ -1794,7 +1740,9 @@
    "published": "2026-11-19T00:00+00:00",
    "published_jst": "2026-11-19 09:00",
    "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Codex Security Pluginの紹介",
+   "summary_ja": "Codex Security Pluginの導入から結果のレビューに至るまで、一連のワークフローとデモ映像を公開しています。"
   },
   {
    "id": "a2fb00344062",
@@ -1807,7 +1755,9 @@
    "published": "2026-11-19T00:00+00:00",
    "published_jst": "2026-11-19 09:00",
    "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Daybreak Blueの利用を開始する",
+   "summary_ja": "Daybreak Blueのオンボーディング手順を解説した動画です。初期設定の流れや使い方の詳細を確認できます。"
   },
   {
    "id": "fd1897fc7619",
@@ -1943,19 +1893,6 @@
    "summary_ja": "今回のジェイコブスの発表は、トランプ大統領が7月に発表したワシントン・ダレス空港の225億ドルの刷新計画に続くもの。"
   },
   {
-   "id": "0c3c8b23c6ca",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Introducing Gemini 4 Neon",
-   "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-   "published": "2026-11-18T21:35+00:00",
-   "published_jst": "2026-11-19 06:35",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "a526ce676010",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -2010,32 +1947,6 @@
    "ai_related": false
   },
   {
-   "id": "08b1b3473e31",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "連載・建築設計事務所/新座標を刻む(11)",
-   "url": "https://www.kensetsunews.com/archives/1311254",
-   "published": "2026-11-18T19:55+00:00",
-   "published_jst": "2026-11-19 04:55",
-   "summary": "【１００周年見据えた新中計策定／「現代の建築技師」を追求／東畑建築事務所 米井寛（よねい・ゆたか）社… The post 連載・建築設計事務所/新座標を刻む(11) first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
-   "id": "eb66a3056bf9",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "29年度に都決/天文台周辺は段階的整備/三鷹市南口中央通り再開発",
-   "url": "https://www.kensetsunews.com/archives/1311315",
-   "published": "2026-11-18T19:55+00:00",
-   "published_jst": "2026-11-19 04:55",
-   "summary": "東京都三鷹市は、昨今の社会経済情勢を踏まえ、大型プロジェクトを見直す。見直しの方針として「新都市再… The post 29年度に都決/天文台周辺は段階的整備/三鷹市南口中央通り再開発 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "b0e9cfde784a",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2085,6 +1996,32 @@
    "published": "2026-11-18T19:55+00:00",
    "published_jst": "2026-11-19 04:55",
    "summary": "西新宿三丁目西地区市街地再開発組合が東京都新宿区で進める「西新宿三丁目西地区第一種市街地再開発事業… The post 前田で12月に解体着手/再開発施設は延37.7万平米/西新宿三丁目西地区再開発 first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "08b1b3473e31",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "連載・建築設計事務所/新座標を刻む(11)",
+   "url": "https://www.kensetsunews.com/archives/1311254",
+   "published": "2026-11-18T19:55+00:00",
+   "published_jst": "2026-11-19 04:55",
+   "summary": "【１００周年見据えた新中計策定／「現代の建築技師」を追求／東畑建築事務所 米井寛（よねい・ゆたか）社… The post 連載・建築設計事務所/新座標を刻む(11) first appeared on 建設通信新聞Digital .",
+   "ai_related": false
+  },
+  {
+   "id": "eb66a3056bf9",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "29年度に都決/天文台周辺は段階的整備/三鷹市南口中央通り再開発",
+   "url": "https://www.kensetsunews.com/archives/1311315",
+   "published": "2026-11-18T19:55+00:00",
+   "published_jst": "2026-11-19 04:55",
+   "summary": "東京都三鷹市は、昨今の社会経済情勢を踏まえ、大型プロジェクトを見直す。見直しの方針として「新都市再… The post 29年度に都決/天文台周辺は段階的整備/三鷹市南口中央通り再開発 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2146,19 +2083,6 @@
    "ai_related": true,
    "title_ja": "マイクロソフト、自社AI製品で外部モデルを廃止",
    "summary_ja": "MAI部門が7つの新モデルを発表。MAI Code 2は低コストで高い性能を実現している。"
-  },
-  {
-   "id": "652211f5c064",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Genie 4 is now available",
-   "url": "https://deepmind.google/blog/genie-4-is-now-available/",
-   "published": "2026-11-18T18:13+00:00",
-   "published_jst": "2026-11-19 03:13",
-   "summary": "",
-   "ai_related": true
   },
   {
    "id": "92505241bf1c",
@@ -2266,19 +2190,6 @@
    "summary_ja": "同族経営の建設会社が、新築工事の減少の中で利益率を死守。"
   },
   {
-   "id": "e1e7e6f5daa9",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Kier promotes Boundy to group executive role",
-   "url": "https://www.constructionnews.co.uk/contractors/kier/kier-promotes-boundy-to-group-executive-role-18-11-2026/",
-   "published": "2026-11-18T15:31+00:00",
-   "published_jst": "2026-11-19 00:31",
-   "summary": "Kier has promoted Rebecca Boundy to the newly created role of group clients and markets director, with a place on its executive committee from January 2027. Boundy is currently managing director of clients and markets in Kier's construction division, a position she took up in… The post Kier promotes",
-   "ai_related": false
-  },
-  {
    "id": "0d16c078e35e",
    "source": "Construction Executive",
    "source_id": "constructionexec",
@@ -2289,7 +2200,9 @@
    "published": "2026-11-18T15:19+00:00",
    "published_jst": "2026-11-19 00:19",
    "summary": "KAST Construction has a new CEO, Helix breaks more ground in Alabama, Trimble announces innovation award winners and more. The post New Names and Faces: November 2026 first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "人事・業界ニュース：2026年11月",
+   "summary_ja": "KAST Constructionの新CEO就任やアラバマ州でのHelixの新たな着工、Trimbleのイノベーション賞受賞者などを紹介します。"
   },
   {
    "id": "220e5646234a",
@@ -2422,7 +2335,9 @@
    "published": "2026-11-18T11:00+00:00",
    "published_jst": "2026-11-18 20:00",
    "summary": "“This isn’t one industry creating a Southern construction boom—we’re seeing several major sectors investing in the region at the same time.” The post Analyzing the Sudden Southern Manufacturing Boom first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "南部での製造業ブームの背景を分析",
+   "summary_ja": "南部で起きている建設ラッシュは単一の産業によるものではなく、複数の主要セクターが同時に投資を行っているためだと分析しています。"
   },
   {
    "id": "d1dd49b4f83d",
@@ -2673,19 +2588,6 @@
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tTk93UXQ4YkpkSTVSY0ltUU8zR1NaYzl2emwxY0JRNUU1WVhZMlNLcU9RV2hDVlFQcmFPTkktSkVndmdlSHB0VWQ0WVpMVm8wMkRUSzluZ0xuLUxQdFpfdTV1blQzUQ?oc=5",
    "published": "2026-11-18T04:00+00:00",
    "published_jst": "2026-11-18 13:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "573aa5b17636",
-   "source": "Infoseek",
-   "source_id": "gnews_sekisan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【オンライン開催】生成AI × MIDAS Open APIで土木設計を自動化｜設計データ活用事例を紹介",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05T2RYVWJGSHcyVkxEN19FRlpXd2loU21zdXg3aVJFWXR3VUZGc2d0c205czVSV3JFMTRPVWdrX1NXR1Brak5kVTlIZDB3NTBzMGIzXzYwaFpPaWZoVzZIVXdkQmxybE1kWjJ6TVFGS1RWZw?oc=5",
-   "published": "2026-11-18T03:40+00:00",
-   "published_jst": "2026-11-18 12:40",
    "summary": "",
    "ai_related": true
   }
