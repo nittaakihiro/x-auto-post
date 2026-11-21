@@ -1,20 +1,102 @@
 {
- "generated_at": "2026-11-21T13:29+00:00",
- "generated_at_jst": "2026-11-21 22:29",
+ "generated_at": "2026-11-21T16:57+00:00",
+ "generated_at_jst": "2026-11-22 01:57",
  "window_hours": 48,
  "counts": {
+  "ai_global": 55,
   "ai_japan": 28,
-  "ai_global": 58,
   "construction_japan": 46,
-  "construction_global": 33
+  "construction_global": 30
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "033823f6f4fd",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nvidia researchers argue huge AI context windows are a dead end",
+   "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+   "published": "2026-11-21T16:23+00:00",
+   "published_jst": "2026-11-22 01:23",
+   "summary": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even ",
+   "ai_related": true
+  },
+  {
+   "id": "a35786f03510",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+   "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+   "published": "2026-11-21T16:04+00:00",
+   "published_jst": "2026-11-22 01:04",
+   "summary": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley's spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall's group records every breath its members take to train an AI in his image. Former members report manipul",
+   "ai_related": true
+  },
+  {
+   "id": "89298d3b7fb0",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+   "published": "2026-11-21T16:00+00:00",
+   "published_jst": "2026-11-22 01:00",
+   "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+   "ai_related": true
+  },
+  {
+   "id": "a9f34b76fcc6",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Can Anthropic afford to put safety first?",
+   "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+   "published": "2026-11-21T15:00+00:00",
+   "published_jst": "2026-11-22 00:00",
+   "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conver",
+   "ai_related": true
+  },
+  {
+   "id": "e74727ec8af7",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+   "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+   "published": "2026-11-21T14:00+00:00",
+   "published_jst": "2026-11-21 23:00",
+   "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of ",
+   "ai_related": true
+  },
+  {
+   "id": "d536e38a7a19",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+   "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+   "published": "2026-11-21T13:32+00:00",
+   "published_jst": "2026-11-21 22:32",
+   "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since editing a conversation's history can discard reasoning content a",
+   "ai_related": true
+  },
   {
    "id": "d29ae10053db",
    "source": "GIGAZINE",
@@ -141,26 +223,26 @@
    "ai_related": false
   },
   {
-   "id": "228f2dfaceca",
+   "id": "14e6acf1d4eb",
    "source": "財経新聞",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "トランプ氏、海外にAIデータセンターを建設する米企業に「途方もない税」を警告",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBVno3Z0F0MUZCajdQTHlTN3ZEMEdHUTloVTRtWHVoWnkxWVowcGUzV1gzWlBLcm1QSXFiTUpwMW1pU3NXUkJOTVRvZy1FbXlFek9ZaWhVanhWVW5PaWhiWGFHZ9IBaEFVX3lxTE5MN01ZSEJBMHZQNnk4NFJJSFFLbFFhbDVtdVVSbEVZZURwenZ4Q3Vic0prNjNzZmVjZmVLdTRzSHFKaVQ4Vnl2bDFTTWtpbHpkUW45NlpJNVp4T2s0QVhoUDl6Q2tfVGNU?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MN01ZSEJBMHZQNnk4NFJJSFFLbFFhbDVtdVVSbEVZZURwenZ4Q3Vic0prNjNzZmVjZmVLdTRzSHFKaVQ4Vnl2bDFTTWtpbHpkUW45NlpJNVp4T2s0QVhoUDl6Q2tfVGNU0gFoQVVfeXFMTkw3TVlIQkEwdlA2eTg0UklIUUtsUWFsNW11VVJsRVllRHB6dnhDdWJzSms2M3NmZWNmZUt1NHNIcUppVDhWeXZsMVNNa2lsemRRbjk2Wkk1WnhPazRBWGhQOXpDa19UY1Q?oc=5",
    "published": "2026-11-21T07:45+00:00",
    "published_jst": "2026-11-21 16:45",
    "summary": "",
    "ai_related": false
   },
   {
-   "id": "9fecc33f3478",
+   "id": "b3c22b4c68fd",
    "source": "財経新聞",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "米データセンター建設費、2026年は13%上昇―AIブームで過去10年平均の約3倍",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0d1ZvcmRSTm9MdUNGWW1pd1lHWnpRc0Nydkk5ZTJHSld0YkJDRnB6Ti1NS29LQ09pYldKZWotSmFYS3lfTjZOdFBoMURkY29rdng3d2FmdkJLRjhtOVRoOWRMaU50dFpD0gFoQVVfeXFMUDR3Vm9yZFJOb0x1Q0ZZbWl3WUdaelFzQ3J2STllMkdKV3RiQkNGcHpOLU1Lb0tDT2liV0plai1KYVhLeV9ONk50UGgxRGRjb2t2eDd3YWZ2QktGOG05VGg5ZExpTnR0WkM?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50YkJfdndZMGo3RWpOUG95bW0yc2pCVXp3dlVOdUIyMHlCamlfcEt4RkhLQ2REUWUxZ0pfVUZKRm5GSGhYYUNpSHpveXA5a1VDeG04ei1XUjBETE01Zmh6YzhtY9IBaEFVX3lxTFA0d1ZvcmRSTm9MdUNGWW1pd1lHWnpRc0Nydkk5ZTJHSld0YkJDRnB6Ti1NS29LQ09pYldKZWotSmFYS3lfTjZOdFBoMURkY29rdng3d2FmdkJLRjhtOVRoOWRMaU50dFpD?oc=5",
    "published": "2026-11-21T07:37+00:00",
    "published_jst": "2026-11-21 16:37",
    "summary": "",
@@ -474,7 +556,7 @@
    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
    "published": "2026-11-20T20:12+00:00",
    "published_jst": "2026-11-21 05:12",
-   "summary": "Article URL: https://thinkingmachines.ai/news/inkling-2-mini/ Comments URL: https://news.ycombinator.com/item?id=50581260 Points: 1109 # Comments: 208",
+   "summary": "Article URL: https://thinkingmachines.ai/news/inkling-2-mini/ Comments URL: https://news.ycombinator.com/item?id=50581260 Points: 1194 # Comments: 232",
    "ai_related": true,
    "title_ja": "Inkling 2 Mini",
    "summary_ja": "Thinking Machines AIによるInkling 2 Miniに関する記事とHacker Newsの議論。"
@@ -710,25 +792,10 @@
    "url": "https://arxiv.org/abs/2611.21885",
    "published": "2026-11-20T16:29+00:00",
    "published_jst": "2026-11-21 01:29",
-   "summary": "Article URL: https://arxiv.org/abs/2611.21885 Comments URL: https://news.ycombinator.com/item?id=50577265 Points: 430 # Comments: 126",
+   "summary": "Article URL: https://arxiv.org/abs/2611.21885 Comments URL: https://news.ycombinator.com/item?id=50577265 Points: 454 # Comments: 138",
    "ai_related": true,
    "title_ja": "言語モデルが自身の重みを書き換えることが可能に",
    "summary_ja": "言語モデルの自己書き換え機能に関するArXivの論文およびHacker Newsでの議論。"
-  },
-  {
-   "id": "0ca09a417878",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
-   "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-   "published": "2026-11-20T15:56+00:00",
-   "published_jst": "2026-11-21 00:56",
-   "summary": "A Bloomberg News analysis of 10 million job postings suggests AI is compounding China's already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns th",
-   "ai_related": true,
-   "title_ja": "中国のAI関連職、他職種より速いスピードで求人が減少",
-   "summary_ja": "ブルームバーグの分析によると、AIの影響を受ける中国の求人は他より10ポイント早く減少しており、若手やクリエイティブ業界が大きな打撃を受けている。"
   },
   {
    "id": "4ef7e0be99b1",
@@ -746,21 +813,6 @@
    "summary_ja": "コンクリート製断熱サンドイッチ壁ファサードシステムが認証を取得しました。"
   },
   {
-   "id": "302263e9b653",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
-   "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-   "published": "2026-11-20T15:03+00:00",
-   "published_jst": "2026-11-21 00:03",
-   "summary": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appeared first on The De",
-   "ai_related": true,
-   "title_ja": "Apple、デバイスを操作するAIエージェント開発へ",
-   "summary_ja": "競合他社に続きAppleも独自AIエージェントの開発に参入。同時にライバルの自社デバイスへのアクセスを制限し、新たな障壁を設けている。"
-  },
-  {
    "id": "92c1cc867c01",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -774,21 +826,6 @@
    "ai_related": true,
    "title_ja": "Nvidia、ジェンスン・フアン退任の混乱続く中で好決算",
    "summary_ja": "CEO解任の混乱の最中、Nvidiaは健全な成長を示し好調維持を約束する最新決算を発表した。"
-  },
-  {
-   "id": "ac4e692a5c06",
-   "source": "The Decoder",
-   "source_id": "the_decoder",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
-   "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-   "published": "2026-11-20T14:53+00:00",
-   "published_jst": "2026-11-20 23:53",
-   "summary": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would b",
-   "ai_related": true,
-   "title_ja": "Nvidia、オープンソース強化のためInceptionに5億ドル投資",
-   "summary_ja": "Nvidiaは、拡散モデルベースの言語モデルを開発するAIスタートアップのInceptionを約5億ドルで買収寸前であると報じられている。"
   },
   {
    "id": "0d238de1aed3",
@@ -875,7 +912,7 @@
    "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
    "published": "2026-11-20T13:29+00:00",
    "published_jst": "2026-11-20 22:29",
-   "summary": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 369 # Comments: 673",
+   "summary": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 425 # Comments: 757",
    "ai_related": true,
    "title_ja": "AI株の急落を受け、ナスダックは2026年の上昇分をすべて吐き出す",
    "summary_ja": "AI関連の株価下落が市場全体の足を引っ張り、Anthropicの上場2日目も低調な動きとなる中でナスダックは今年の上げ幅を消し去った。"
@@ -1404,6 +1441,19 @@
    "summary_ja": "AIプラットフォーム「ChatPRD」を運営するクレア・ヴォ氏が、自身の開発経緯と現状について語る。"
   },
   {
+   "id": "1df8db9f4432",
+   "source": "TBS NEWS DIG",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "1947年創業の老舗建設会社が破産申請 負債総額およそ1億5000万円 コンビニ経営も 愛媛・松山市",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TZTRrZlhyYUhZTUYxRUVldnZNemlTQkw4cGdDWGJXaWZoWjNvdlpnX2VnN05nUjZhVFBWd2VPcXNLVjFpb293ZzFNLUJ0YS0xYWpOZlRWWkVMNnZFNVVTdWZ4dFB0SjA?oc=5",
+   "published": "2026-11-20T02:30+00:00",
+   "published_jst": "2026-11-20 11:30",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "3d1b399678b2",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1484,7 +1534,7 @@
   {
    "id": "f5bc71245ce0",
    "source": "マイナビニュース",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "AIは現場をどう変えるのか?──フィジカルAI時代の最前線",
@@ -1995,19 +2045,6 @@
    "ai_related": false
   },
   {
-   "id": "ec6a8f2bfb7b",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "年内に基本計画策定/東畑が支援業務高野口中学校移転/橋本市",
-   "url": "https://www.kensetsunews.com/archives/1312121",
-   "published": "2026-11-19T19:55+00:00",
-   "published_jst": "2026-11-20 04:55",
-   "summary": "和歌山県橋本市は、高野口中学校の移転に向けて、早ければ２０２６年内に基本計画を策定したい考えだ。策… The post 年内に基本計画策定/東畑が支援業務高野口中学校移転/橋本市 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "6202ad8baab7",
    "source": "建設通信新聞",
    "source_id": "kensetsunews",
@@ -2034,16 +2071,16 @@
    "ai_related": false
   },
   {
-   "id": "419868e5d0f0",
-   "source": "ダイヤモンド・オンライン",
-   "source_id": "gnews_zenecon_ai",
+   "id": "ec6a8f2bfb7b",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "ゼネコン「経営耐久度」ワーストランキング【土木一式603社】ワースト2位は協拓建設、1位は？官庁工事が多い土木会社は価格転嫁をしやすいはずが…",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtSnFrT2JNWFVZQVN3UmZOWG1sXzBsaGNXMEE2UWR2UTUxMFlqNzQ4emdiWXdZamNYVTA5ZFMzRGpJRUpERUFyVC0wNGE?oc=5",
-   "published": "2026-11-19T19:30+00:00",
-   "published_jst": "2026-11-20 04:30",
-   "summary": "",
+   "title": "年内に基本計画策定/東畑が支援業務高野口中学校移転/橋本市",
+   "url": "https://www.kensetsunews.com/archives/1312121",
+   "published": "2026-11-19T19:55+00:00",
+   "published_jst": "2026-11-20 04:55",
+   "summary": "和歌山県橋本市は、高野口中学校の移転に向けて、早ければ２０２６年内に基本計画を策定したい考えだ。策… The post 年内に基本計画策定/東畑が支援業務高野口中学校移転/橋本市 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -2101,21 +2138,6 @@
    "published_jst": "2026-11-20 03:29",
    "summary": "AI人事とは、採用・評価・労務などの人事業務にAIを取り入れ、文書作成やデータ分析を任せることで、担当者が人にしかできない判断に集中できる状態をつくる取り組みです。 「経営層から人事でもAIを使えと言われたが、採用や評価... The post AI人事とは？採用・評価・労務で任せてよい業務と導入時の注意点 first appeared on AI専門ニュースメディア AINOW .",
    "ai_related": true
-  },
-  {
-   "id": "a628e3d51eab",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Gemini on Mac can now use your computer",
-   "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-   "published": "2026-11-19T18:21+00:00",
-   "published_jst": "2026-11-20 03:21",
-   "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and",
-   "ai_related": true,
-   "title_ja": "Mac版Geminiでパソコン操作が可能に",
-   "summary_ja": "ローカルファイルやウェブをまたいだ複数ステップのタスクを実行し、作業効率化をサポートする。"
   },
   {
    "id": "1054662f25c3",
@@ -2221,126 +2243,6 @@
    "ai_related": true,
    "title_ja": "Anthropic、公開初値より33%高の111ドルで上場",
    "summary_ja": "AnthropicのIPO価格は83ドルに設定され、800億ドル以上の新たな資本調達を実現した。"
-  },
-  {
-   "id": "d0946e26531a",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic starts trading on Wall Street",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-   "published": "2026-11-19T16:52+00:00",
-   "published_jst": "2026-11-20 01:52",
-   "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its ",
-   "ai_related": true,
-   "title_ja": "Anthropicがウォール街での取引を開始",
-   "summary_ja": "ナスダックに「ANT」の銘柄コードで上場。初値は1株111.50ドルで、企業価値は大幅に上昇した。"
-  },
-  {
-   "id": "72cb08ad07eb",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "PCL picks 21-year vet as new CFO",
-   "url": "https://www.constructiondive.com/news/pcl-picks-new-cfo-chief-financial-officer/875193/",
-   "published": "2026-11-19T16:50+00:00",
-   "published_jst": "2026-11-20 01:50",
-   "summary": "Danny Dodds has succeeded Gordon Stephenson, who will retire in February.",
-   "ai_related": false,
-   "title_ja": "PCL、21年目のベテランを新CFOに起用",
-   "summary_ja": "2月に退任するゴードン・スティーブンソン氏の後任として、ダニー・ドッズ氏がCFOに就任する。"
-  },
-  {
-   "id": "7fda6d085776",
-   "source": "Global Construction Review",
-   "source_id": "gcr",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Western Sydney International Airport opens after Bechtel-delivered programme finishes seven months early",
-   "url": "https://www.globalconstructionreview.com/western-sydney-international-airport-opens-after-bechtel-delivered-programme-finishes-seven-months-early/",
-   "published": "2026-11-19T16:36+00:00",
-   "published_jst": "2026-11-20 01:36",
-   "summary": "Western Sydney International Airport (WSI) has opened to passengers seven months early. The post Western Sydney International Airport opens after Bechtel-delivered programme finishes seven months early appeared first on Global Construction Review .",
-   "ai_related": false,
-   "title_ja": "西シドニー国際空港が開業、7カ月前倒しで完了",
-   "summary_ja": "Bechtelが手掛けた計画が7カ月早く完了し、西シドニー国際空港（WSI）が乗客向けに開業した。"
-  },
-  {
-   "id": "b80c1a82c17c",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-   "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-   "published": "2026-11-19T16:19+00:00",
-   "published_jst": "2026-11-20 01:19",
-   "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
-   "ai_related": true,
-   "title_ja": "Nasdaq上場、Anthropic CEOがAI開発のペース維持を再表明",
-   "summary_ja": "ダリオ・アモデイはNasdaqの上場スピーチで、ビジネスや政治の圧力に関わらずAI開発のペースを維持する姿勢を改めて示した。"
-  },
-  {
-   "id": "c990fb121000",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-   "published": "2026-11-19T14:54+00:00",
-   "published_jst": "2026-11-19 23:54",
-   "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-   "ai_related": true,
-   "title_ja": "Anthropicの上場、AI循環的資金調達ブームの試金石に",
-   "summary_ja": "Anthropicは多額の計算資源の負担を抱えて上場するが、AmazonやGoogleなどの主要インフラパートナーは、Anthropicがリードを失っても利益を得続ける可能性がある。"
-  },
-  {
-   "id": "61fa8adfafbc",
-   "source": "Construction Dive",
-   "source_id": "construction_dive",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Data centers poised to be more community friendly, a Johnson Controls executive says",
-   "url": "https://www.constructiondive.com/news/data-centers-poised-to-be-more-community-friendly-a-johnson-controls-execu/875164/",
-   "published": "2026-11-19T14:32+00:00",
-   "published_jst": "2026-11-19 23:32",
-   "summary": "Innovation in compressors, fans, waterless systems, noise attenuation and heat reuse can address many of the concerns people have, solutions architecture chief Mihir Nandkeolyar says.",
-   "ai_related": false,
-   "title_ja": "データセンターは地域社会により優しい存在へ",
-   "summary_ja": "圧縮機やファンの革新、水を使わないシステム、騒音対策、廃熱利用により、人々の懸念の多くに対応できるとJohnson Controlsの幹部は語る。"
-  },
-  {
-   "id": "b6fd64654869",
-   "source": "NVIDIA Blog",
-   "source_id": "nvidia",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
-   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
-   "published": "2026-11-19T14:00+00:00",
-   "published_jst": "2026-11-19 23:00",
-   "summary": "GeForce NOW is kicking off Black Friday with more reasons to make time for gaming. Six-month memberships are back for a limited time. Save 30% on the first six-month term of a Performance or Ultimate membership. Big gaming plans, smaller price tag. Keep the holiday savings going: Check out more NVID",
-   "ai_related": true,
-   "title_ja": "GeForce NOWにブラックフライデーのお得なセールが登場",
-   "summary_ja": "GeForce NOWがブラックフライデーを記念し、期間限定で6カ月メンバーシップの復活と、パフォーマンスまたはアルティメットプランの30%OFFセールを実施。"
-  },
-  {
-   "id": "1501adb883e7",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Superhuman pushes its Go assistant everywhere",
-   "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-   "published": "2026-11-19T14:00+00:00",
-   "published_jst": "2026-11-19 23:00",
-   "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
-   "ai_related": true,
-   "title_ja": "SuperhumanがAIアシスタント「Go」を全面展開",
-   "summary_ja": "Superhumanは、「Go」を中核エージェントに据え、DocsやMailでも利用できるようにしている。"
   }
  ]
 }
