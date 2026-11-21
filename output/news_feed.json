@@ -1,24 +1,59 @@
 {
- "generated_at": "2026-11-21T00:57+00:00",
- "generated_at_jst": "2026-11-21 09:57",
+ "generated_at": "2026-11-21T03:11+00:00",
+ "generated_at_jst": "2026-11-21 12:11",
  "window_hours": 48,
  "counts": {
+  "construction_japan": 47,
   "ai_japan": 31,
-  "ai_global": 61,
-  "construction_global": 36,
-  "construction_japan": 46
+  "ai_global": 60,
+  "construction_global": 37
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "64e761bafa59",
+   "source": "読売新聞",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ＡＩ巨額投資やＤＣ建設減速に懸念、ＮＹ株が７か月ぶり安値水準…「恐怖指数」はトランプ関税以来の高水準",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wUmd5OXBpREQzMFY0T1M1QW1YaHVIalBCdXNfVHRmVVg2TkZqcnZyS2dHMGVJMEZ2QlZ5ZmcybVBQQ3JGUDZsUUpvbGdXVmFrY1hjLWtoek1FdUZoYVd3V0FvUXQ?oc=5",
+   "published": "2026-11-21T02:09+00:00",
+   "published_jst": "2026-11-21 11:09",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "82553317d571",
+   "source": "Dellows News",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ゴーレムと日積サーベイ、建築積算システムとGHG排出量算定アプリを連携開始",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9wSHFhbzNYQ05GNW9GWWNDNjJOdmh5T29ZTzdjem81MFZrM2Q2ZlJ2b1gtck5ueFhseGp1T0JrMHlzS01KYmVN?oc=5",
+   "published": "2026-11-21T02:06+00:00",
+   "published_jst": "2026-11-21 11:06",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "d51ed71306a9",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "他国にAIデータセンターを建設 トランプ氏米IT企業に罰則を表明（AP通信）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnY3ZRTkxIQ0Y3bjVmVEwxSXZYYTF4WG5pQUsxTVBYTVZZaS1tMXAxc1lJU2ZPRjA2QmJyRUpMaTdrV1hGQndSLVQ0UkZTdmRDSUJ1S1ZLdVZ1RXZIek44TTd5V2gwZW1yWTAtYWZtMlJpT05XWGFoakJCV0FWSlk?oc=5",
+   "published": "2026-11-21T01:58+00:00",
+   "published_jst": "2026-11-21 10:58",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "80c508e366c6",
    "source": "ITmedia AI+",
@@ -33,6 +68,19 @@
    "ai_related": true
   },
   {
+   "id": "bb098df18848",
+   "source": "産経ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "米中でAIの「ガードレール」確立合意とトランプ氏 米企業の海外でのDC建設には重課税",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNk1JY2haN0ZRVUxyb05nVWVyR2U0NFhaY0ZqTFRGV0VjOENlRUFiTGduazRpVHZKb3VWRV9ENjl1dGlRV1A2TTl3YUYyaVpfblpiU1Y2MWs4ODUtUVktN3ZSNndCQk03N1R1N1RLaGR5VkloVkJkRGpUVTFSTXZnNGtwMGZHamRaSzJ0NQ?oc=5",
+   "published": "2026-11-20T22:40+00:00",
+   "published_jst": "2026-11-21 07:40",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "5a49fd4a2d77",
    "source": "Ars Technica AI",
    "source_id": "arstechnica_ai",
@@ -43,7 +91,9 @@
    "published": "2026-11-20T21:58+00:00",
    "published_jst": "2026-11-21 06:58",
    "summary": "Google search is making it even easier to access AI tools on the search page.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Google、AI履歴付きの新検索ホームを公開",
+   "summary_ja": "Google検索ページでAIツールへのアクセスがさらに簡単になりました。"
   },
   {
    "id": "c4b0222f29f2",
@@ -145,17 +195,19 @@
    "summary_ja": "GPT-6.2シリーズからの内部推論抽出に対する保護を強化し、成功率を大幅に引き下げた。"
   },
   {
-   "id": "c69438672bb7",
+   "id": "c72cb9838d98",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
    "category": "ai_global",
    "lang": "en",
-   "title": "Nvidia accounting under SEC investigation, sources say",
-   "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+   "title": "US SEC's Nvidia probe is examining potential accounting issues – sources",
+   "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
    "published": "2026-11-20T20:22+00:00",
    "published_jst": "2026-11-21 05:22",
-   "summary": "Article URL: https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html Comments URL: https://news.ycombinator.com/item?id=50581438 Points: 213 # Comments: 102",
-   "ai_related": true
+   "summary": "Article URL: https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627 Comments URL: https://news.ycombinator.com/item?id=50581438 Points: 241 # Comments: 127",
+   "ai_related": true,
+   "title_ja": "米SECのNvidia調査、会計上の問題を精査か",
+   "summary_ja": "関係筋によると、米証券取引委員会（SEC）がNvidiaの潜在的な会計上の問題点を調査しているとのことです。"
   },
   {
    "id": "d5c834965ee7",
@@ -182,7 +234,7 @@
    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
    "published": "2026-11-20T20:12+00:00",
    "published_jst": "2026-11-21 05:12",
-   "summary": "Article URL: https://thinkingmachines.ai/news/inkling-2-mini/ Comments URL: https://news.ycombinator.com/item?id=50581260 Points: 617 # Comments: 100",
+   "summary": "Article URL: https://thinkingmachines.ai/news/inkling-2-mini/ Comments URL: https://news.ycombinator.com/item?id=50581260 Points: 731 # Comments: 124",
    "ai_related": true,
    "title_ja": "Inkling 2 Mini",
    "summary_ja": "Thinking Machines AIによるInkling 2 Miniに関する記事とHacker Newsの議論。"
@@ -274,6 +326,21 @@
    "ai_related": true,
    "title_ja": "Ravi Vakilの引用",
    "summary_ja": "一般化リーマン予想の証明案について、ブライアン・コンラッドが数カ月にわたり詳細なフィードバックを提供。"
+  },
+  {
+   "id": "626a4e06b313",
+   "source": "ArchDaily",
+   "source_id": "archdaily",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Exhibition Artifact / Configuración Visual",
+   "url": "https://www.archdaily.com/1188961/exhibition-artifact-configuracion-visual",
+   "published": "2026-11-20T19:00+00:00",
+   "published_jst": "2026-11-21 04:00",
+   "summary": "The Exhibition Artifact (Artefacto Expositivo) arose from a commission to build a temporary support to exhibit architectural models developed by students of the UNIACC School of Architecture during a celebration of the academic community. In response to this brief, the project proposes to expand the",
+   "ai_related": true,
+   "title_ja": "展示アーティファクト / 視覚的構成",
+   "summary_ja": "学生の建築模型を展示する一時的な支持体として制作された建築プロジェクト。"
   },
   {
    "id": "6d310728229e",
@@ -377,21 +444,6 @@
    "summary_ja": "貸し手は担保が宇宙へ打ち上げられるのを嫌がるが、宇宙データセンターにとってこれは何を意味するか。"
   },
   {
-   "id": "321223b3abbe",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
-   "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-   "published": "2026-11-20T16:59+00:00",
-   "published_jst": "2026-11-21 01:59",
-   "summary": "Article URL: https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/ Comments URL: https://news.ycombinator.com/item?id=50577901 Points: 255 # Comments: 192",
-   "ai_related": true,
-   "title_ja": "Google従業員、AIを拒否する学校を罰しないよう会社に要請",
-   "summary_ja": "GoogleとAlphabetの労働組合が、AI導入を拒む学校に対する不利益な処置を行わないよう嘆願書を提出。"
-  },
-  {
    "id": "859ee3ec8c20",
    "source": "The Verge AI",
    "source_id": "verge_ai",
@@ -431,7 +483,7 @@
    "url": "https://arxiv.org/abs/2611.21885",
    "published": "2026-11-20T16:29+00:00",
    "published_jst": "2026-11-21 01:29",
-   "summary": "Article URL: https://arxiv.org/abs/2611.21885 Comments URL: https://news.ycombinator.com/item?id=50577265 Points: 329 # Comments: 107",
+   "summary": "Article URL: https://arxiv.org/abs/2611.21885 Comments URL: https://news.ycombinator.com/item?id=50577265 Points: 348 # Comments: 113",
    "ai_related": true,
    "title_ja": "言語モデルが自身の重みを書き換えることが可能に",
    "summary_ja": "言語モデルの自己書き換え機能に関するArXivの論文およびHacker Newsでの議論。"
@@ -462,7 +514,9 @@
    "published": "2026-11-20T15:37+00:00",
    "published_jst": "2026-11-21 00:37",
    "summary": "Certification success for Concrete Insulated Sandwich Wall Façade System",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "O'Reilly Precastシステムが追加承認を獲得",
+   "summary_ja": "コンクリート製断熱サンドイッチ壁ファサードシステムが認証を取得しました。"
   },
   {
    "id": "302263e9b653",
@@ -520,7 +574,9 @@
    "published": "2026-11-20T14:48+00:00",
    "published_jst": "2026-11-20 23:48",
    "summary": "Contractor acquires Linear UK Group and Solace Interiors",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Strabag、専門企業2社を買収し買収攻勢を継続",
+   "summary_ja": "建設会社のStrabagがLinear UK GroupとSolace Interiorsを買収しました。"
   },
   {
    "id": "299291fdd518",
@@ -789,21 +845,6 @@
    "ai_related": true
   },
   {
-   "id": "000028228240",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-   "url": "https://architectlabs.com/blog/frostbite",
-   "published": "2026-11-20T10:01+00:00",
-   "published_jst": "2026-11-20 19:01",
-   "summary": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 618 # Comments: 322",
-   "ai_related": true,
-   "title_ja": "Frostbite：AIが発見・設計・検証した新しいCPUアーキテクチャ",
-   "summary_ja": "AIによって発見、設計、検証が行われた新しいCPUアーキテクチャ「Frostbite」に関する記事と議論のリンク。"
-  },
-  {
    "id": "e3708cde5e45",
    "source": "ITmedia",
    "source_id": "gnews_kensetsu_ai",
@@ -903,6 +944,21 @@
    "summary_ja": "提出期限に関する紛争により教育省の建設枠組みから除外されたBouyguesが、訴訟の継続を認めるとの高裁判決を獲得した。"
   },
   {
+   "id": "11f79f6f88ff",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+   "url": "https://signal.org/blog/protecting-your-privacy/",
+   "published": "2026-11-20T09:42+00:00",
+   "published_jst": "2026-11-20 18:42",
+   "summary": "Article URL: https://signal.org/blog/protecting-your-privacy/ Comments URL: https://news.ycombinator.com/item?id=50572348 Points: 520 # Comments: 308",
+   "ai_related": true,
+   "title_ja": "モバイルOS上のAIエージェントによるデータ収集を制限",
+   "summary_ja": "プライバシー保護に関するSignalのブログ記事と、それに対するHacker Newsの議論。"
+  },
+  {
    "id": "1ccf079776ef",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_sekokan_ai",
@@ -939,7 +995,9 @@
    "published": "2026-11-20T08:05+00:00",
    "published_jst": "2026-11-20 17:05",
    "summary": "Contractor defeats Government bid to block legal challenge over narrow tender defeat",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Bouygues、150億ポンドの学校枠組み巡る訴訟で勝訴",
+   "summary_ja": "わずかな差での入札敗北を巡り、政府側の訴訟阻止の試みを退けました。"
   },
   {
    "id": "91e4f499baaa",
@@ -952,7 +1010,9 @@
    "published": "2026-11-20T08:05+00:00",
    "published_jst": "2026-11-20 17:05",
    "summary": "New owners at north east specialist R J Utility Services",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ユーティリティ関連の施工会社でMBOを実施",
+   "summary_ja": "北東部の専門企業R J Utility Servicesに新しいオーナーが就任しました。"
   },
   {
    "id": "4cfb9a03ab85",
@@ -978,7 +1038,9 @@
    "published": "2026-11-20T07:56+00:00",
    "published_jst": "2026-11-20 16:56",
    "summary": "Christie Commins to lead growth in west of England",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Kierの事業開発責任者がWatesへ移籍",
+   "summary_ja": "クリスティ・コミンズ氏がイングランド西部の事業成長を主導します。"
   },
   {
    "id": "03187c116733",
@@ -1004,7 +1066,9 @@
    "published": "2026-11-20T07:46+00:00",
    "published_jst": "2026-11-20 16:46",
    "summary": "NEPO opens nationwide race for housing upgrades",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "5億ポンドの改修枠組みに向け建設会社が招集される",
+   "summary_ja": "NEPOが住宅アップグレードに向けた全国的な入札を開始しました。"
   },
   {
    "id": "d0e6284c1954",
@@ -1017,7 +1081,9 @@
    "published": "2026-11-20T07:38+00:00",
    "published_jst": "2026-11-20 16:38",
    "summary": "Council officials take further action after Banbury building failure",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "アパート建設現場の崩落を受け周辺が封鎖",
+   "summary_ja": "バンベリーでの建物崩壊を受け、自治体当局が追加措置を講じています。"
   },
   {
    "id": "cc9e8f2101e0",
@@ -1043,7 +1109,9 @@
    "published": "2026-11-20T07:31+00:00",
    "published_jst": "2026-11-20 16:31",
    "summary": "Green light for major groundworks package to unlock 1,600-home Borough Yard scheme",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "Sisk、バーケンヘッド再開発で3,700万ポンドの契約獲得",
+   "summary_ja": "1,600戸規模のBorough Yard事業に向けた大規模な基礎工事が承認されました。"
   },
   {
    "id": "df5195cab69a",
@@ -1057,6 +1125,19 @@
    "published_jst": "2026-11-20 16:05",
    "summary": "アサシンクリードシリーズやレインボーシックスシリーズで知られるフランスに本社を置くゲーム会社・Ubisoftが、生成AIの実装に特化したゲームスタジオ「Motherbrain」を設立しました。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "815799711e69",
+   "source": "ITmedia",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "日立建機、3Dマシンガイダンス後付けキットが30トンクラスの油圧ショベルに対応：i-Construction 2.0",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IUDZmYVRHQWNxSUF4UzBfREdYMW1fNlpOTEctbTRCZUVQTU5QcUVpWDFtempXczhHTzc1VG9nWnBGTG1BQS1fX2dsU1JCakZDblhoOGdvV1lHWnI0ZjYwRmFPVjJiMks5SWxNbg?oc=5",
+   "published": "2026-11-20T07:00+00:00",
+   "published_jst": "2026-11-20 16:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "d36203fa73b9",
@@ -1109,6 +1190,19 @@
    "published_jst": "2026-11-20 12:30",
    "summary": "座席の振動、香り、水しぶきなどで臨場感を高める映画館の上映システム「4DX」で、アクションシーンだけでなく、情事の場面でも適切に動く作品が登場しました。体験した人によると「登場人物の動きに合わせて座席が揺れる」そうです。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "d22f31f2d3a8",
+   "source": "新建ハウジング",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【AIマスター工務店】なぜ今「住宅AI検定」なのか？",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wcWZnVDN1ZDJFSUw4R2NwMENVcW9oNWdLTDVzYTZEek1TRnZLYkRaOUdSSndYdXAwZzhWMzA1UElRVDhoWjhuR00tOUNmVld3cHc?oc=5",
+   "published": "2026-11-20T03:00+00:00",
+   "published_jst": "2026-11-20 12:00",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "f32d5bea8abf",
@@ -1180,7 +1274,7 @@
   {
    "id": "cc9557f9b81a",
    "source": "Dellows News",
-   "source_id": "gnews_bim_ai",
+   "source_id": "gnews_sekisan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "ONESTRUCTIONが建設分野特化の生成AI比較サイトを公開",
@@ -1256,6 +1350,19 @@
    "ai_related": true,
    "title_ja": "Apple、Macを操作する独自のAIエージェントを開発中か",
    "summary_ja": "他社AIに対抗するため、Macを自動操作する独自のAIエージェントを開発している模様。"
+  },
+  {
+   "id": "704876c6d861",
+   "source": "ダイヤモンド・オンライン",
+   "source_id": "gnews_zenecon_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ゼネコン・不動産 建設費高騰の呪縛",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aaXhSVldlb016akdfd1QyeG9JQXJMcE9OZ292Q2ZCR1Q3WVJSMlk0NEJvY2l2UFhxMkppR3VmbWYxZ1p2d1VBcXR5eGM1N09Oa0tNMl9HaXI?oc=5",
+   "published": "2026-11-20T00:54+00:00",
+   "published_jst": "2026-11-20 09:54",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "b7b14b877d56",
@@ -2149,19 +2256,6 @@
    "ai_related": false
   },
   {
-   "id": "d109990de331",
-   "source": "Dellows News",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Joh Abroadとアーリーリフレクションが業務提携、維持管理のBIM活用を推進",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Vc01OUDQ1dDVIOV9hMzAxR0NrSjY4MHR5VGRGZWhNa0xBZ2pLelNVeVpjeE1fOFhQR21qVmFra3E4c0hFRG4w?oc=5",
-   "published": "2026-11-19T10:58+00:00",
-   "published_jst": "2026-11-19 19:58",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "0c40309bccda",
    "source": "BigGo ファイナンス",
    "source_id": "gnews_kensetsu_ai",
@@ -2300,19 +2394,6 @@
    "ai_related": true
   },
   {
-   "id": "5b29dbe4d622",
-   "source": "ITmedia",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "自律走行ロボとAIで橋梁点検から調書作成まで自動化へ 大和インフラロボティクス：スマートメンテナンス",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnTG9RLWh5ZHd4b1JMX2QxTHdRM21ETU54cXBEcnFuYUU2MnNDZkcyMGI5TkYzd3dDYzhaQV8tRHhFSXRoc0stdUpHSFlsR3JGWGRXRGNfcV8wQlhnUnIzQ1ptbFpnQlpNR3pfUg?oc=5",
-   "published": "2026-11-19T07:00+00:00",
-   "published_jst": "2026-11-19 16:00",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "4539dabc088d",
    "source": "ZDNET Japan",
    "source_id": "gnews_bim_ai",
@@ -2365,19 +2446,6 @@
    "ai_related": true
   },
   {
-   "id": "b8db4d429455",
-   "source": "Dellows News",
-   "source_id": "gnews_bim_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ACIMUSが約6,500万円調達 JR東日本スタートアップと資本業務提携",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBxOGtVU1FrZXREVDNTUW5MR3hzOXJ1d1c1SG1Wamx3aGV2bFd2ZTVVLVdKSWhvUWN6RVFjdmFXS3hNX0RaVHc?oc=5",
-   "published": "2026-11-19T04:09+00:00",
-   "published_jst": "2026-11-19 13:09",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "7097187ba44e",
    "source": "BuildApp News",
    "source_id": "buildapp",
@@ -2413,45 +2481,6 @@
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5TcmlLSnlYN21zUEsxUGdWMF9EN21NVjNoWl9fQ0FYdXNWNUFnaktBMmhRWmtYUEZKTE0yanhEZUREYWpxN2lZ?oc=5",
    "published": "2026-11-19T03:43+00:00",
    "published_jst": "2026-11-19 12:43",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "7e3adfbe843c",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "野原グループ、マンション改修の日程調整工数を53.3％削減、調整専科を自社工事で本格運用",
-   "url": "https://news.build-app.jp/article/43893",
-   "published": "2026-11-19T03:00+00:00",
-   "published_jst": "2026-11-19 12:00",
-   "summary": "BIMクラウドサービス「BuildApp」で建設DXを進める野原グループ株式会社（本社：東京都新宿区、代表取締役社長：野原弘輔）は、リノベー...",
-   "ai_related": true
-  },
-  {
-   "id": "95ebbbd30a80",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "竹中工務店、水素連携版I.SEMを黒部市の集合住宅に導入、夏の余剰電力を冬に活用",
-   "url": "https://news.build-app.jp/article/43888",
-   "published": "2026-11-19T01:00+00:00",
-   "published_jst": "2026-11-19 10:00",
-   "summary": "建設会社の竹中工務店は、自社で開発したエネルギーマネジメントシステム「I.SEM®」と、水素をつくって使う「Power to Gas水素エネ...",
-   "ai_related": false
-  },
-  {
-   "id": "d3140a653d75",
-   "source": "PR TIMES",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "現場AIプラットフォーム「KANNA」、2段階認証を全プランで開放 協力会社IDの無料発行とあわせ不正ログイン対策を強化",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9aYVdvZ0dyUkNGVWVHbWZjR1lPQmdsZVJvam5ZWUFGeXVvemFpem5DcjZiYjBJUTRpa0FyVTZPNEZ3Q3ZJWmJBX18tZWtVYkw1N1N1SUpidFo4MlBpanhMZHRuZG9GUGhoV0E?oc=5",
-   "published": "2026-11-19T01:00+00:00",
-   "published_jst": "2026-11-19 10:00",
    "summary": "",
    "ai_related": false
   }
