@@ -1,19 +1,36 @@
 {
- "generated_at": "2026-11-22T23:35+00:00",
- "generated_at_jst": "2026-11-23 08:35",
+ "generated_at": "2026-11-22T23:52+00:00",
+ "generated_at_jst": "2026-11-23 08:52",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 32,
+  "construction_japan": 33,
   "ai_japan": 10,
-  "ai_global": 25
+  "ai_global": 26
  },
  "errors": [
+  {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "f16abbc738a3",
+   "source": "동아일보",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "李大統領「先端施設の建設人材が不足」 蔚山のメガプロジェクトを視察",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwVHYycms0SFpTelBVYU5lVlhFcF9BVGxJMEhRWDlyMXJMWlRzX3duMHlQcEt0b0hVdERWQW1OVFNyRTc5OWtYNGlEeWdabm1pT3VVSkRRZ1UwWTB2STB2NkxMUzdwZw?oc=5",
+   "published": "2026-11-22T23:33+00:00",
+   "published_jst": "2026-11-23 08:33",
+   "summary": "",
+   "ai_related": false
+  },
   {
    "id": "842a10e6c106",
    "source": "Yahoo!ニュース",
@@ -192,7 +209,7 @@
    "url": "https://github.com/gulivan/worker755",
    "published": "2026-11-22T13:56+00:00",
    "published_jst": "2026-11-22 22:56",
-   "summary": "Article URL: https://github.com/gulivan/worker755 Comments URL: https://news.ycombinator.com/item?id=50599762 Points: 254 # Comments: 59",
+   "summary": "Article URL: https://github.com/gulivan/worker755 Comments URL: https://news.ycombinator.com/item?id=50599762 Points: 256 # Comments: 59",
    "ai_related": true,
    "title_ja": "LLMのサブエージェントになるゲームを作成",
    "summary_ja": "ユーザーがLLMのサブエージェントとしてプレイするゲームを開発し、GitHubおよびHacker Newsで公開された。"
@@ -284,6 +301,19 @@
    "ai_related": true,
    "title_ja": "GPT-6.2は回答が早い一方、透明性ではClaudeに劣る",
    "summary_ja": "OpenAIの新型モデルは端的な回答を返すものの不確実性を認めにくく、透明性ではAnthropicのClaudeが大きくリードしている。"
+  },
+  {
+   "id": "bf1d56f79e08",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "published": "2026-11-22T08:57+00:00",
+   "published_jst": "2026-11-22 17:57",
+   "summary": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 848 # Comments: 863",
+   "ai_related": true
   },
   {
    "id": "66293aa6a60d",
