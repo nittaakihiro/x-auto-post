@@ -1,28 +1,101 @@
 {
- "generated_at": "2026-11-22T20:22+00:00",
- "generated_at_jst": "2026-11-23 05:22",
+ "generated_at": "2026-11-22T23:35+00:00",
+ "generated_at_jst": "2026-11-23 08:35",
  "window_hours": 48,
  "counts": {
   "construction_japan": 32,
-  "ai_global": 18,
-  "ai_japan": 8,
-  "construction_global": 1
+  "ai_japan": 10,
+  "ai_global": 25
  },
  "errors": [
   {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
-  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "feed": "the_decoder",
-   "error": "HTTPError: HTTP Error 500: Internal Server Error"
   }
  ],
  "items": [
+  {
+   "id": "842a10e6c106",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国・李在明大統領、蔚山のAIデータセンターを視察「スピードが命」…建設人材の確保を検討（KOREA WAVE）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xYW1MVEZRZHIzdW5sWGI4djVTUy1jd1A2MERCS25JbWtQeXlEYnU4cGZVOFoybnlrYkFMc2t3QmtGRzFxNGQ3eTAydXd4TF9ISGt5Y2dHekswVGpwLTk4c0JreHRxNVdNTUpGZXNmdFVRQ0pTTjcwenBnbTM3aVE?oc=5",
+   "published": "2026-11-22T23:03+00:00",
+   "published_jst": "2026-11-23 08:03",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "7c8f52f95d03",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "OpenAIのチーフサイエンティスト、AI開発に業界共通の「上限」を提案 指標は「パープレキシティ」",
+   "url": "https://www.itmedia.co.jp/news/article/2611/23/2000003394/",
+   "published": "2026-11-22T22:49+00:00",
+   "published_jst": "2026-11-23 07:49",
+   "summary": "OpenAIのチーフサイエンティストが、AIの予測精度を示す「パープレキシティ」を共通指標とし、開発の上限を業界で設けるよう提案する論考を公開した。GPT-3.5以降の社内モデルの推移も開示し、早ければ2027年にも事前学習が急加速する恐れがあるとして、監視技術が追いつくまでの歯止めを訴えている。",
+   "ai_related": true
+  },
+  {
+   "id": "e7090200216e",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "We haven’t seen the last of the major tech outages",
+   "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+   "published": "2026-11-22T22:48+00:00",
+   "published_jst": "2026-11-23 07:48",
+   "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The Americ",
+   "ai_related": true,
+   "title_ja": "大規模なITシステム障害は今後も続く",
+   "summary_ja": "FAAの運航停止やOutlook、JPMorgan Chaseの障害が相次ぐ中、専門家は今後もさらなる大規模障害の発生を懸念している。"
+  },
+  {
+   "id": "4970c78ea0ba",
+   "source": "株式会社エクサウィザーズ",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "「2027年に世界最大級のAIインフラ企業へ」SpaceXが発電設備まで内製化する理由",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zdEVPZ01QelJadkRZVEhublJQa2R4S09aV3NtTjQ2dGVGak01TWwwbWFlajBxZkwwOVZudk1QWEVaS0R6Tmx5YkVrRkM3amNrR1VQNkNXaW1sdTRmd3YzcTRKel9hdw?oc=5",
+   "published": "2026-11-22T22:41+00:00",
+   "published_jst": "2026-11-23 07:41",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "716c53fa8fce",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "published": "2026-11-22T21:14+00:00",
+   "published_jst": "2026-11-23 06:14",
+   "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+   "ai_related": true,
+   "title_ja": "OpenAIのチーフ科学者が語るAI開発の速度制限",
+   "summary_ja": "AI開発に速度制限を設けるには、まずその速度をどのように測定すべきかについて合意を形成する必要がある。"
+  },
+  {
+   "id": "1a73b3726a9e",
+   "source": "ITmedia AI+",
+   "source_id": "itmedia_ai",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "メルカリの情報流出、AI委託先で何が起きた？ 確認された2つの攻撃",
+   "url": "https://kn.itmedia.co.jp/kn/article/2611/23/2000003393/",
+   "published": "2026-11-22T21:00+00:00",
+   "published_jst": "2026-11-23 06:00",
+   "summary": "メルカリグループが業務で利用する「Notion AI」で、チャット記録の一部が外部に流出した可能性があることが公表された。AI処理を委託企業では、外部クラウド事業者への侵害や認証情報の窃取、サービスの脆弱性を悪用した不正アクセスが確認された。",
+   "ai_related": true
+  },
   {
    "id": "2a741192b759",
    "source": "BigGo ファイナンス",
@@ -47,7 +120,9 @@
    "published": "2026-11-22T18:08+00:00",
    "published_jst": "2026-11-23 03:08",
    "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "データセンターが大手テック反発の中心にある理由",
+   "summary_ja": "ジャーナリストのパリ・マルクス氏が、自身の新著「Hyperscale」について詳しく解説する。"
   },
   {
    "id": "265c68ec3a4c",
@@ -78,6 +153,36 @@
    "ai_related": true
   },
   {
+   "id": "7cda7525825c",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+   "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+   "published": "2026-11-22T15:15+00:00",
+   "published_jst": "2026-11-23 00:15",
+   "summary": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer",
+   "ai_related": true,
+   "title_ja": "AIコーディングエージェント、実務のシミュレーションで苦戦",
+   "summary_ja": "現実的な職場環境を模したテストでは、AIエージェントが完了できたタスクは1割未満にとどまり、課題が浮き彫りになった。"
+  },
+  {
+   "id": "7bb6862f6214",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+   "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+   "published": "2026-11-22T14:20+00:00",
+   "published_jst": "2026-11-22 23:20",
+   "summary": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasingly interchangeable ch",
+   "ai_related": true,
+   "title_ja": "Perplexityの新API、ウェブ検索を常時監視に",
+   "summary_ja": "Perplexityは、スケジュール通りにウェブを検索し、変化があった際のみエージェントに通知する新しいMonitor APIを発表した。"
+  },
+  {
    "id": "3c4f4993adca",
    "source": "Hacker News (150pt+)",
    "source_id": "hn_top",
@@ -87,8 +192,10 @@
    "url": "https://github.com/gulivan/worker755",
    "published": "2026-11-22T13:56+00:00",
    "published_jst": "2026-11-22 22:56",
-   "summary": "Article URL: https://github.com/gulivan/worker755 Comments URL: https://news.ycombinator.com/item?id=50599762 Points: 208 # Comments: 48",
-   "ai_related": true
+   "summary": "Article URL: https://github.com/gulivan/worker755 Comments URL: https://news.ycombinator.com/item?id=50599762 Points: 254 # Comments: 59",
+   "ai_related": true,
+   "title_ja": "LLMのサブエージェントになるゲームを作成",
+   "summary_ja": "ユーザーがLLMのサブエージェントとしてプレイするゲームを開発し、GitHubおよびHacker Newsで公開された。"
   },
   {
    "id": "0f50037c76f2",
@@ -106,6 +213,51 @@
    "summary_ja": "テック界の重要トレンドを読み解くニュースレター「The Stepback」が、あらゆるもののハッキング化が進む現状と今後の展望について解説しています。"
   },
   {
+   "id": "5f8d980aa0c1",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+   "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+   "published": "2026-11-22T13:00+00:00",
+   "published_jst": "2026-11-22 22:00",
+   "summary": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models c",
+   "ai_related": true,
+   "title_ja": "AIの進化がテストを凌駕、METRが安全性を警告",
+   "summary_ja": "AIの進化速度がテスト能力を超えており、危険な加速を否定できないとMETRが警告している。"
+  },
+  {
+   "id": "08ae7c88a3e3",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+   "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+   "published": "2026-11-22T12:07+00:00",
+   "published_jst": "2026-11-22 21:07",
+   "summary": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter responded by removing",
+   "ai_related": true,
+   "title_ja": "安価なAI提供者が鍵の窃取やユーザー監視を行う実態",
+   "summary_ja": "セキュリティ研究者が、AIサプライチェーンにおける深刻な脆弱性や、キーの盗難などの不正行為を多数発見した。"
+  },
+  {
+   "id": "fa9fd258dbb9",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+   "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+   "published": "2026-11-22T11:08+00:00",
+   "published_jst": "2026-11-22 20:08",
+   "summary": "The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived years earlier than expected: Terence Tao had predicted it wouldn't happen until arou",
+   "ai_related": true,
+   "title_ja": "リーマン予想の証明をLeanコミュニティが正式確認",
+   "summary_ja": "数多くの独立した検証者による確認を経て、リーマン予想の証明が正しいことが公式に確認された。"
+  },
+  {
    "id": "c2bb7c2ac3ff",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
@@ -119,19 +271,19 @@
    "ai_related": false
   },
   {
-   "id": "bf1d56f79e08",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
+   "id": "c4e40287f1a8",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
    "category": "ai_global",
    "lang": "en",
-   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "published": "2026-11-22T08:57+00:00",
-   "published_jst": "2026-11-22 17:57",
-   "summary": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 701 # Comments: 748",
+   "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+   "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+   "published": "2026-11-22T09:41+00:00",
+   "published_jst": "2026-11-22 18:41",
+   "summary": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score lower on transparency th",
    "ai_related": true,
-   "title_ja": "2028年、Anthropicの電力の87%がガス、11%が石炭に",
-   "summary_ja": "2028年におけるAnthropicの電力供給源について、大部分がガス由来となり、残りが石炭などのグリッド電力に依存する見込みであることを伝えています。"
+   "title_ja": "GPT-6.2は回答が早い一方、透明性ではClaudeに劣る",
+   "summary_ja": "OpenAIの新型モデルは端的な回答を返すものの不確実性を認めにくく、透明性ではAnthropicのClaudeが大きくリードしている。"
   },
   {
    "id": "66293aa6a60d",
@@ -171,21 +323,6 @@
    "published_jst": "2026-11-22 14:11",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "7893687ce631",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Data Processing Incidents on Inference Providers",
-   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-   "published": "2026-11-22T02:14+00:00",
-   "published_jst": "2026-11-22 11:14",
-   "summary": "Article URL: https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/ Comments URL: https://news.ycombinator.com/item?id=50595554 Points: 264 # Comments: 88",
-   "ai_related": true,
-   "title_ja": "推論プロバイダにおけるデータ処理インシデント",
-   "summary_ja": "AIモデルの推論を提供するサービスにおける、データ処理関連のインシデントやセキュリティ上の問題に関する詳細情報へのリンクです。"
   },
   {
    "id": "be5db2288027",
@@ -250,7 +387,9 @@
    "published": "2026-11-22T00:00+00:00",
    "published_jst": "2026-11-22 09:00",
    "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Perplexityとインテリジェンス",
+   "summary_ja": "AIモデルの進化を測る指標としてのパープレキシティの重要性と、新たな評価基準の確立に向けた可能性について解説。"
   },
   {
    "id": "0ceef4b235ec",
@@ -352,6 +491,19 @@
    "summary_ja": "ジュネーブで開催された国連会議で、自律型兵器いわゆる「キラーロボット」の規制ルール策定に向けた協議が行われたが、合意には至らなかった。"
   },
   {
+   "id": "704876c6d861",
+   "source": "ダイヤモンド・オンライン",
+   "source_id": "gnews_zenecon_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ゼネコン・不動産 建設費高騰の呪縛",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aaXhSVldlb016akdfd1QyeG9JQXJMcE9OZ292Q2ZCR1Q3WVJSMlk0NEJvY2l2UFhxMkppR3VmbWYxZ1p2d1VBcXR5eGM1N09Oa0tNMl9HaXI?oc=5",
+   "published": "2026-11-21T18:54+00:00",
+   "published_jst": "2026-11-22 03:54",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "01945f6a907c",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -365,6 +517,36 @@
    "ai_related": true,
    "title_ja": "テキストメッセージで使える注目のAIエージェント",
    "summary_ja": "日常のサポートから家族、旅行、仕事向けまで、テキストメッセージ上で利用できる優れたAIエージェントを厳選して紹介する。"
+  },
+  {
+   "id": "033823f6f4fd",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Nvidia researchers argue huge AI context windows are a dead end",
+   "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+   "published": "2026-11-21T16:23+00:00",
+   "published_jst": "2026-11-22 01:23",
+   "summary": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even ",
+   "ai_related": true,
+   "title_ja": "巨大なAIコンテキストウィンドウは行き止まりか",
+   "summary_ja": "Nvidiaの研究者が、コストやエラーの多い巨大コンテキストウィンドウに代わる効率的なアプローチを提唱している。"
+  },
+  {
+   "id": "a35786f03510",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+   "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+   "published": "2026-11-21T16:04+00:00",
+   "published_jst": "2026-11-22 01:04",
+   "summary": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley's spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall's group records every breath its members take to train an AI in his image. Former members report manipul",
+   "ai_related": true,
+   "title_ja": "シリコンバレーのAI終末論がカルト化の懸念",
+   "summary_ja": "一部のテック業界でAIに対する信仰的・狂信的な動きが見られ、精神的な権威を求める動きが強まっている。"
   },
   {
    "id": "89298d3b7fb0",
@@ -425,6 +607,21 @@
    "summary_ja": "チェス専門だったChess.comが事業を拡大し、バックギャモン、囲碁、麻雀、数独など10種類のクラシックゲームを追加する。"
   },
   {
+   "id": "d536e38a7a19",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+   "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+   "published": "2026-11-21T13:32+00:00",
+   "published_jst": "2026-11-21 22:32",
+   "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since editing a conversation's history can discard reasoning content a",
+   "ai_related": true,
+   "title_ja": "OpenAI、GPT-6.2向けの新しいプロンプト指針を共有",
+   "summary_ja": "過度に短い回答や不必要な質問を防ぐため、OpenAIが新型モデル向けの新しいプロンプトテンプレートを公開した。"
+  },
+  {
    "id": "d29ae10053db",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -436,6 +633,34 @@
    "published_jst": "2026-11-21 21:00",
    "summary": "AIエージェントにソフトウェアのバグ修正を任せ、別のAIとやり取りする中で秘密を守れるかどうかを調べる実験を行ったところ、修正方法を教えてもらう代わりに秘密の認証情報を相手に渡すエージェントがいたという実験結果が報告されています。 続きを読む...",
    "ai_related": true
+  },
+  {
+   "id": "9c9ec1c5f197",
+   "source": "The Decoder",
+   "source_id": "the_decoder",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+   "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+   "published": "2026-11-21T11:19+00:00",
+   "published_jst": "2026-11-21 20:19",
+   "summary": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof, an",
+   "ai_related": true,
+   "title_ja": "Claudeによるリーマン予想証明の直後、スタンフォードが競合発表",
+   "summary_ja": "AnthropicがClaudeを使ったリーマン予想の証明を発表したわずか数時間後、スタンフォード大学が人間による別のドラフトを発表した。"
+  },
+  {
+   "id": "7d5883fe84ad",
+   "source": "Dellows News",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "SORABITOとイレブンラボジャパン、音声AIの建設現場活用で特別講演",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CdnlWLWR0a1F3R2o5XzJJNGJKRFVYOGFKaF8tdnhZVTJ0WXlwVk9yblF6MFZmaGlJWlU0UTNWY3FVT1pRM1hR?oc=5",
+   "published": "2026-11-21T11:12+00:00",
+   "published_jst": "2026-11-21 20:12",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "1a51ffa92ee0",
@@ -466,7 +691,7 @@
   {
    "id": "6eae5fc7e0e3",
    "source": "Dellows News",
-   "source_id": "gnews_sekokan_ai",
+   "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "建設システム、TechSuiteのAI検索パートナーズを導入 SEO成果受け",
@@ -594,6 +819,19 @@
    "ai_related": false
   },
   {
+   "id": "faab2ff9bd2b",
+   "source": "Dellows News",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ONESTRUCTIONが建設特化AIのAPI提供 GENIAC応募企業向け",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SUkFXRFlhNEZVclFna09od3ZLSEJmbE9Eb0V1dTBBUmRiMWR3NVR6aHdkUlVUMkxpYldVaEx4RUtXeEduVnE4?oc=5",
+   "published": "2026-11-21T04:26+00:00",
+   "published_jst": "2026-11-21 13:26",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "9bd356862ea4",
    "source": "Yahoo!ニュース",
    "source_id": "gnews_kensetsu_ai",
@@ -618,6 +856,32 @@
    "published_jst": "2026-11-21 12:00",
    "summary": "",
    "ai_related": false
+  },
+  {
+   "id": "c67754b72ca4",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "トランプ氏、データセンターの国外建設認めず 建設すれば「莫大な税金」",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE95MUMyVkZqa1dpb2I4ZzAwelF5S0lzNXdhcWRxRU80Nzlqb29KUlBWSVZtTlp3WnlWeGljZmFCSGpyMkpTZ2FaRkVfWUNnSUxjTk03RGtacG1wbzFMTkczS0F6eFrSAWRBVV95cUxPeTFDMlZGamtXaW9iOGcwMHpReUtJczV3YXFkcUVPNDc5am9vSlJQVklWbU5ad1p5VnhpY2ZhQkhqcjJKU2dhWkZFX1lDZ0lMY05NN0RrWnBtcG8xTE5HM0tBenha?oc=5",
+   "published": "2026-11-21T02:34+00:00",
+   "published_jst": "2026-11-21 11:34",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "da07b1b76090",
+   "source": "Infoseek",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "ＡＩ巨額投資やＤＣ建設減速に懸念、ＮＹ株が７か月ぶり安値水準…「恐怖指数」はトランプ関税以来の高水準",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GSnVoX1JtbGpmZEFHZVhoZHNlUG0wc3ZQSU5WS3BxQ3FscHdSYW5UTmFnMThFRXp5amNwTzIyUUVXOG1YN3p5ZmhISmswaW9vWWxMS294WnZHRV9pRGhKLURlMWpnWjJQbmtuTVlMTVVjQQ?oc=5",
+   "published": "2026-11-21T02:09+00:00",
+   "published_jst": "2026-11-21 11:09",
+   "summary": "",
+   "ai_related": true
   },
   {
    "id": "82553317d571",
@@ -670,157 +934,6 @@
    "published_jst": "2026-11-21 09:00",
    "summary": "「AIが普及すれば企業の人員は減る」という通説と食い違う調査結果を、IDCが発表した。AI投資で高いROIを得ている組織ほど、今後の増員を見込む割合が高い。AIで成果を出す企業が人員を増やすのはなぜか。",
    "ai_related": true
-  },
-  {
-   "id": "9331cd8cea92",
-   "source": "Infoseek",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "米中でAIの「ガードレール」確立合意とトランプ氏 米企業の海外でのDC建設には重課税",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3Rld254b1lkM1d2WGRzSGJsajJrc0t6VUVoaWljalZGclBtaUFmMkE0NUFXREpoNWNFTEZZVjBEUXVtX25lRnRIN3Vkbk54QTBYbzM5Z1V3bUp4QjVnc2RZc09sOHpNczdoMi1uZjg4V2U4a2lRUV8yZ0JrbXc1TWVmb3NDb3liM21pQUtESdIBlAFBVV95cUxPN0c5dUJaLTJyaVNJWFBtRnhsYk1PaW1mZnpyUmJrQ1NxMlc0UEQ5Nmt2WEZpUXFPU3VNVlU3MWhHYTBTdUhVMldTcHVHdHVXMHY1b2pzbHZXYmVwQUhNMkVubGlYNXVZN2V4MG1xbnBRLTl1a1VHMmZFSF9WTXpzc3BKbE9RN0gzUjVsd2JTd21WbU45?oc=5",
-   "published": "2026-11-20T22:40+00:00",
-   "published_jst": "2026-11-21 07:40",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "5a49fd4a2d77",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google rolls out new search homepage with AI chat history and no search button",
-   "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-   "published": "2026-11-20T21:58+00:00",
-   "published_jst": "2026-11-21 06:58",
-   "summary": "Google search is making it even easier to access AI tools on the search page.",
-   "ai_related": true,
-   "title_ja": "Google、AI履歴付きの新検索ホームを公開",
-   "summary_ja": "Google検索ページでAIツールへのアクセスがさらに簡単になりました。"
-  },
-  {
-   "id": "64e761bafa59",
-   "source": "読売新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ＡＩ巨額投資やＤＣ建設減速に懸念、ＮＹ株が７か月ぶり安値水準…「恐怖指数」はトランプ関税以来の高水準",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wUmd5OXBpREQzMFY0T1M1QW1YaHVIalBCdXNfVHRmVVg2TkZqcnZyS2dHMGVJMEZ2QlZ5ZmcybVBQQ3JGUDZsUUpvbGdXVmFrY1hjLWtoek1FdUZoYVd3V0FvUXQ?oc=5",
-   "published": "2026-11-20T21:58+00:00",
-   "published_jst": "2026-11-21 06:58",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "c4b0222f29f2",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-   "published": "2026-11-20T21:47+00:00",
-   "published_jst": "2026-11-21 06:47",
-   "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
-   "ai_related": true,
-   "title_ja": "Meta、AIデータセンターの排出増で2030年目標を再検討",
-   "summary_ja": "Metaが2030年の持続可能性目標を再評価中であり、他社が追随するか注目されている。"
-  },
-  {
-   "id": "46267e5da827",
-   "source": "ConstructConnect Blog",
-   "source_id": "constructconnect",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "How Do General Contractors Manage Multiple Construction Bids Efficiently?",
-   "url": "https://www.constructconnect.com/blog/how-do-general-contractors-manage-multiple-construction-bids-efficiently",
-   "published": "2026-11-20T21:36+00:00",
-   "published_jst": "2026-11-21 06:36",
-   "summary": "In short: General contractors manage multiple bids efficiently by scoring each opportunity before pursuing it, running every bid through one shared pipeline, and tracking subcontractor coverage by trade until bid day. A simple go/no-go score keeps estimator hours on jobs you can win. Measure number ",
-   "ai_related": false,
-   "title_ja": "ゼネコンはどのように複数の建設入札を効率的に管理するか",
-   "summary_ja": "案件の事前スコア化、共通パイプラインの利用、入札日までの業者カバー率追跡により効率化する。"
-  },
-  {
-   "id": "ea9cb4c4c855",
-   "source": "日本経済新聞",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ氏、データセンター国外建設認めず 米中でAI安全策検討",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aV1Q1anVlZm1rZFBNcWtoNFdwbDdlXzRCRExRbGtyRjFJSVVBZ1hjQUtzVUhQMUJBNHA4M2tLcGFBTEFXQkZzZ3FIblc4UUxfU2dVbFAxLXVRTzdXVDJ4YnVwcFRYZkRIMDJMag?oc=5",
-   "published": "2026-11-20T21:08+00:00",
-   "published_jst": "2026-11-21 06:08",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "99727b65c290",
-   "source": "Ars Technica AI",
-   "source_id": "arstechnica_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-   "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-   "published": "2026-11-20T20:59+00:00",
-   "published_jst": "2026-11-21 05:59",
-   "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
-   "ai_related": true,
-   "title_ja": "研究者がAIサプライチェーンに機密データを植え込み、プライバシーの惨状が判明",
-   "summary_ja": "追跡可能な機密プロンプトを使ったテストにより、データが非公開のまま保持されないことが判明。"
-  },
-  {
-   "id": "9719a84b9903",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_dx",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "5Kサポート、熱中症対策デバイスを建設DX展で一般公開",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBWRWo0R25xUFE4WmxNUVZhRXFsVFZnY1VLXzhjR1NlWUY5OFZTMjJRamphbXpQUWlXOG1sZnQtSlVFUUFyRVRj?oc=5",
-   "published": "2026-11-20T20:59+00:00",
-   "published_jst": "2026-11-21 05:59",
-   "summary": "",
-   "ai_related": true
-  },
-  {
-   "id": "4fa325751d8b",
-   "source": "山陽新聞",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "RIZAPグループ、黒字転換で攻勢へ chocoZAP“AI店長・ちょこあ”の稼働＆220人リスキリングで『RIZAP建設』が急拡大",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RUG40WWVPUGZNWUhpT0NtdklfSTJkWWJlZG55ekxRandQTWk0TnBFemJWSkVFRjFKblkzNEc0NjZXMHNHdXhPM3E4cjd3NkJkYlBaRjZBYnBzMTNpOU5pSjEyNA?oc=5",
-   "published": "2026-11-20T20:52+00:00",
-   "published_jst": "2026-11-21 05:52",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "d6c97a5d06d2",
-   "source": "テレ朝NEWS",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "トランプ氏 データセンター国外建設認めず 海外建設企業に「巨額の税金課す」と表明",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GMW4za0QtQlBPTGFGb3hKNm9PbEZVOUpNRlcxbUthbFJFUW1sWGxlTDFsMVE0X0oyMWhyT1lBSFVIREpjeDNHWFc2MG9aTTAtdTNlMGR1cEp4X1Zxa1JaZGhUX1RrVFNoZTBZcXBjR1pPcVBxNG5VTTBn?oc=5",
-   "published": "2026-11-20T20:47+00:00",
-   "published_jst": "2026-11-21 05:47",
-   "summary": "",
-   "ai_related": false
-  },
-  {
-   "id": "52a752e4baee",
-   "source": "Dellows News",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "renue、建設現場向けに施工管理AIを提供開始 工程表の組み替えを支援",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5vRDZxQXkxWGJrMkZ2T01pWGJOMjUwbHp2a3AzYzJrVXlLd2hOTGxJOGlRMGVsVi1mRnNNQmdfalJ5bkk1Y3c?oc=5",
-   "published": "2026-11-20T20:33+00:00",
-   "published_jst": "2026-11-21 05:33",
-   "summary": "",
-   "ai_related": false
   }
  ]
 }
