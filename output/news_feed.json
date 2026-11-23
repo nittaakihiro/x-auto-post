@@ -1,23 +1,33 @@
 {
- "generated_at": "2026-11-22T23:52+00:00",
- "generated_at_jst": "2026-11-23 08:52",
+ "generated_at": "2026-11-23T01:45+00:00",
+ "generated_at_jst": "2026-11-23 10:45",
  "window_hours": 48,
  "counts": {
-  "construction_japan": 33,
-  "ai_japan": 10,
-  "ai_global": 26
+  "ai_global": 29,
+  "construction_japan": 32,
+  "ai_japan": 9,
+  "construction_global": 1
  },
  "errors": [
-  {
-   "feed": "deepmind",
-   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
-  },
   {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ],
  "items": [
+  {
+   "id": "04504f1c4726",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+   "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+   "published": "2026-11-23T01:25+00:00",
+   "published_jst": "2026-11-23 10:25",
+   "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+   "ai_related": true
+  },
   {
    "id": "f16abbc738a3",
    "source": "동아일보",
@@ -86,6 +96,19 @@
    "ai_related": false
   },
   {
+   "id": "5ed8a6e89f30",
+   "source": "Howl.Link",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "“異動先”は建設現場 AI時代の配置転換 | News Everyday",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE52ZUVpaE1fTHlsYVh1RWVqd2VCVjhrRGpBUWlNeVRzV1pBUE1UWHFZYzNPbzJxOFZTV1cw?oc=5",
+   "published": "2026-11-22T22:24+00:00",
+   "published_jst": "2026-11-23 07:24",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "716c53fa8fce",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -101,6 +124,19 @@
    "summary_ja": "AI開発に速度制限を設けるには、まずその速度をどのように測定すべきかについて合意を形成する必要がある。"
   },
   {
+   "id": "4f0ed76760ef",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "published": "2026-11-22T21:01+00:00",
+   "published_jst": "2026-11-23 06:01",
+   "summary": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 201 # Comments: 74",
+   "ai_related": true
+  },
+  {
    "id": "1a73b3726a9e",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -114,16 +150,29 @@
    "ai_related": true
   },
   {
-   "id": "2a741192b759",
-   "source": "BigGo ファイナンス",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "マスク氏、AI業界が数千億ドル規模の資金不足に直面と警告―データセンター建設の遅れで",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ncHk1V1ZpckxyYkNXTVJLengwNmp1RDc5Q0FWRGhqd0QyUnk5SnBDb2Y2R0RoOFB3Y21KQkdrbl9fR1V3WHlpNzJ6TW1wdTNTc0tXWjU4QVR2REtjWGdMd1ZQdlhYdGx2WVprQlFCdFBQNzNZ?oc=5",
-   "published": "2026-11-22T18:25+00:00",
-   "published_jst": "2026-11-23 03:25",
-   "summary": "",
+   "id": "9b4a55165bbd",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Select Styling Specimens",
+   "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+   "published": "2026-11-22T19:45+00:00",
+   "published_jst": "2026-11-23 04:45",
+   "summary": "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page that shows all of the way",
+   "ai_related": true
+  },
+  {
+   "id": "d00b789035ae",
+   "source": "Construction Enquirer (UK)",
+   "source_id": "construction_enquirer",
+   "category": "construction_global",
+   "lang": "en",
+   "title": "Winvic lands £44m Cambridge park and ride job",
+   "url": "https://www.constructionenquirer.com/2026/11/22/winvic-lands-44m-cambridge-park-and-ride-job/",
+   "published": "2026-11-22T19:26+00:00",
+   "published_jst": "2026-11-23 04:26",
+   "summary": "Civils arm takes main works contract after Balfour Beatty pre-construction role",
    "ai_related": false
   },
   {
@@ -209,7 +258,7 @@
    "url": "https://github.com/gulivan/worker755",
    "published": "2026-11-22T13:56+00:00",
    "published_jst": "2026-11-22 22:56",
-   "summary": "Article URL: https://github.com/gulivan/worker755 Comments URL: https://news.ycombinator.com/item?id=50599762 Points: 256 # Comments: 59",
+   "summary": "Article URL: https://github.com/gulivan/worker755 Comments URL: https://news.ycombinator.com/item?id=50599762 Points: 269 # Comments: 62",
    "ai_related": true,
    "title_ja": "LLMのサブエージェントになるゲームを作成",
    "summary_ja": "ユーザーがLLMのサブエージェントとしてプレイするゲームを開発し、GitHubおよびHacker Newsで公開された。"
@@ -312,7 +361,7 @@
    "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
    "published": "2026-11-22T08:57+00:00",
    "published_jst": "2026-11-22 17:57",
-   "summary": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 848 # Comments: 863",
+   "summary": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 885 # Comments: 894",
    "ai_related": true
   },
   {
@@ -519,19 +568,6 @@
    "ai_related": true,
    "title_ja": "国連、「キラーロボット」の規制ルール合意に失敗",
    "summary_ja": "ジュネーブで開催された国連会議で、自律型兵器いわゆる「キラーロボット」の規制ルール策定に向けた協議が行われたが、合意には至らなかった。"
-  },
-  {
-   "id": "704876c6d861",
-   "source": "ダイヤモンド・オンライン",
-   "source_id": "gnews_zenecon_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "ゼネコン・不動産 建設費高騰の呪縛",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aaXhSVldlb016akdfd1QyeG9JQXJMcE9OZ292Q2ZCR1Q3WVJSMlk0NEJvY2l2UFhxMkppR3VmbWYxZ1p2d1VBcXR5eGM1N09Oa0tNMl9HaXI?oc=5",
-   "published": "2026-11-21T18:54+00:00",
-   "published_jst": "2026-11-22 03:54",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "01945f6a907c",
@@ -951,19 +987,6 @@
    "published_jst": "2026-11-21 10:58",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "80c508e366c6",
-   "source": "ITmedia AI+",
-   "source_id": "itmedia_ai",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "AIで成果を出す企業ほど「人を増やす」？ “通説”を否定する調査結果をIDCが発表",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html",
-   "published": "2026-11-21T00:00+00:00",
-   "published_jst": "2026-11-21 09:00",
-   "summary": "「AIが普及すれば企業の人員は減る」という通説と食い違う調査結果を、IDCが発表した。AI投資で高いROIを得ている組織ほど、今後の増員を見込む割合が高い。AIで成果を出す企業が人員を増やすのはなぜか。",
-   "ai_related": true
   }
  ]
 }
