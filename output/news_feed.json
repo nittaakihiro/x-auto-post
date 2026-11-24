@@ -1,20 +1,118 @@
 {
- "generated_at": "2026-11-24T16:29+00:00",
- "generated_at_jst": "2026-11-25 01:29",
+ "generated_at": "2026-11-24T17:39+00:00",
+ "generated_at_jst": "2026-11-25 02:39",
  "window_hours": 48,
  "counts": {
-  "construction_global": 32,
-  "ai_global": 63,
-  "construction_japan": 47,
+  "ai_global": 65,
+  "construction_global": 22,
+  "construction_japan": 48,
   "ai_japan": 31
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "constructionnews_uk",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "34b536284971",
+   "source": "Ars Technica AI",
+   "source_id": "arstechnica_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Tidal will ban fully AI-generated music on December 9",
+   "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+   "published": "2026-11-24T17:34+00:00",
+   "published_jst": "2026-11-25 02:34",
+   "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+   "ai_related": true,
+   "title_ja": "Tidal、完全AI生成の音楽を12月9日に禁止へ",
+   "summary_ja": "AI楽曲はTidalのカタログの6.3%を占めているが、それが間もなくゼロになる。"
+  },
+  {
+   "id": "c7d2da5c582f",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Tidal will start banning AI-generated music next month",
+   "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+   "published": "2026-11-24T17:17+00:00",
+   "published_jst": "2026-11-25 02:17",
+   "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labe",
+   "ai_related": true,
+   "title_ja": "Tidal、来月よりAI生成音楽の禁止を開始へ",
+   "summary_ja": "12月9日に正式禁止。約2900万曲を削除し、毎日8万～8万5千曲を拒否する見込み。"
+  },
+  {
+   "id": "eaadf2423721",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "published": "2026-11-24T17:00+00:00",
+   "published_jst": "2026-11-25 02:00",
+   "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+   "ai_related": true,
+   "title_ja": "Meta、InstagramのDMにMuse AIアシスタントを統合",
+   "summary_ja": "ユーザーはアプリ間を行き来することなく、Instagram内で直接AIエージェントと対話できる。"
+  },
+  {
+   "id": "c808d58c8ec4",
+   "source": "Simon Willison",
+   "source_id": "simonw",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+   "published": "2026-11-24T16:53+00:00",
+   "published_jst": "2026-11-25 01:53",
+   "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Be",
+   "ai_related": true,
+   "title_ja": "GPT 6.2 Astraが歴史的謎を解明",
+   "summary_ja": "歴史学者マーク・ハンフリーズ教授が、最小限のプロンプトで歴史研究に活用した事例を紹介。"
+  },
+  {
+   "id": "26c3ceae0894",
+   "source": "TechCrunch AI",
+   "source_id": "techcrunch_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+   "published": "2026-11-24T16:46+00:00",
+   "published_jst": "2026-11-25 01:46",
+   "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+   "ai_related": true,
+   "title_ja": "Tidal、AI楽曲の氾濫を受け数百万のAI生成トラックを削除へ",
+   "summary_ja": "完全な生成でなければ、AI支援による楽曲の受け入れは継続すると同社は述べている。"
+  },
+  {
+   "id": "c82ab5c57408",
+   "source": "The Verge AI",
+   "source_id": "verge_ai",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Jensen Huang deepfakes are the hot new AI slop",
+   "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+   "published": "2026-11-24T16:30+00:00",
+   "published_jst": "2026-11-25 01:30",
+   "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive an",
+   "ai_related": true,
+   "title_ja": "Jensen Huangのディープフェイクが新たなAIの脅威に",
+   "summary_ja": "Nvidiaの前CEOがイビサ島のクラブで踊る、閲覧数6万回近い偽動画がInstagramで話題に。"
+  },
   {
    "id": "588114b6c93d",
    "source": "Construction Dive",
@@ -26,7 +124,24 @@
    "published": "2026-11-24T16:21+00:00",
    "published_jst": "2026-11-25 01:21",
    "summary": "Despite bright spots in energy and aviation, Pennsylvania needs billions of dollars in upgrades to roads and water systems, ASCE said.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ASCE、ペンシルベニア州のインフラを「C-」と評価",
+   "summary_ja": "エネルギーや航空分野に明るい兆しはあるが、道路や水道システムの改良に多額の資金が必要。"
+  },
+  {
+   "id": "4dbaea2697ae",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Tidal bans AI-generated music",
+   "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+   "published": "2026-11-24T16:12+00:00",
+   "published_jst": "2026-11-25 01:12",
+   "summary": "Article URL: https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/ Comments URL: https://news.ycombinator.com/item?id=50630309 Points: 186 # Comments: 143",
+   "ai_related": true,
+   "title_ja": "TidalがAI生成音楽の配信を禁止",
+   "summary_ja": "Tidalがプラットフォーム上での完全なAI生成音楽の禁止に踏み切ったことを伝えるニュース記事。"
   },
   {
    "id": "8a546b15d29e",
@@ -39,7 +154,9 @@
    "published": "2026-11-24T16:10+00:00",
    "published_jst": "2026-11-25 01:10",
    "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Crusoe投資家がAIデータセンター向け太陽光と蓄電池に期待する理由",
+   "summary_ja": "次世代データセンターには毎年数10ギガワットの電力が必要であり、太陽光と蓄電池が最適であると主張。"
   },
   {
    "id": "dc69597abec1",
@@ -52,7 +169,9 @@
    "published": "2026-11-24T16:09+00:00",
    "published_jst": "2026-11-25 01:09",
    "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "NYT、AI機能を含むPhotoshopへのアップデートを控えるよう警告",
+   "summary_ja": "フリーランスの写真家に対し、ユーザーに分かりにくい形でAIを使用する最新版への更新を避けるよう要請。"
   },
   {
    "id": "ee2357a4074e",
@@ -65,124 +184,9 @@
    "published": "2026-11-24T16:02+00:00",
    "published_jst": "2026-11-25 01:02",
    "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
-   "ai_related": true
-  },
-  {
-   "id": "39192e93040d",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Housing",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-housing-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Housing overview 2 per cent decline in project starts against the previous year. 31 per cent fall in main contract awards year-on-year. Detailed planning approvals remained broadly unchanged, declining by less than 1 per cent compared with the previous year. Residential sector activity remained rela",
-   "ai_related": false
-  },
-  {
-   "id": "2d4b7dd0a637",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Industrial",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-industrial-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Industrial overview 53 per cent decline in project starts against the previous year. 53 per cent fall in main contract awards year-on-year. 28 per cent decline in detailed planning approvals compared to the previous year. Industrial sector activity weakened significantly during the period, with proj",
-   "ai_related": false
-  },
-  {
-   "id": "71f17d61cdbd",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Offices",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-offices-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Offices overview 26 per cent decline in project starts against the previous year. 47 per cent fall in main contract awards year-on-year. 60 per cent rise in detailed planning approvals compared to the previous year. Office sector activity remained subdued, with project starts and contract… The post ",
-   "ai_related": false
-  },
-  {
-   "id": "512573f4786f",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Retail",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-retail-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Retail overview 17 per cent decline in project starts against the previous year. 34 per cent fall in main contract awards year-on-year. 12 per cent rise in detailed planning approvals compared to the previous year. Retail sector activity remained subdued during the period, with project… The post UK ",
-   "ai_related": false
-  },
-  {
-   "id": "e8cc19e25afc",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Hotel & leisure",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-hotel-leisure-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Hotel & leisure overview 22 per cent decline in project starts against the previous year. 18 per cent rise in main contract awards year-on-year. 14 per cent increase in detailed planning approvals compared to the previous year. Hotel and leisure sector activity presented a mixed… The post UK constru",
-   "ai_related": false
-  },
-  {
-   "id": "b1615192c1a4",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Community & amenity",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-community-amenity-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Community & amenity overview 31 per cent decline in project starts against the previous year. 9 per cent rise in main contract awards year-on-year. 35 per cent increase in detailed planning approvals compared to the previous year. Community and amenity sector activity weakened in terms… The post UK ",
-   "ai_related": false
-  },
-  {
-   "id": "b6a57b872326",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Health",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-health-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Health overview 43 per cent decline in project starts against the previous year. 48 per cent fall in main contract awards year-on-year. 39 per cent fall in detailed planning approvals compared to the previous year. The sector recorded weaker on-site activity, with project starts declining… The post ",
-   "ai_related": false
-  },
-  {
-   "id": "3db69e741fa2",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Education",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-education-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Education overview 5 per cent increase in project starts against the previous year. 38 per cent fall in main contract awards year-on-year. 40 per cent rise in detailed planning approvals compared to the previous year. Education sector activity strengthened in terms of project starts and… The post UK",
-   "ai_related": false
-  },
-  {
-   "id": "2171c791812e",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "UK construction activity October 2026: Infrastructure",
-   "url": "https://www.constructionnews.co.uk/cn-intelligence/uk-construction-activity-october-2026-infrastructure-24-11-2026/",
-   "published": "2026-11-24T16:02+00:00",
-   "published_jst": "2026-11-25 01:02",
-   "summary": "Infrastructure overview 60 per cent decline in project starts against the previous year. 61 per cent fall in main contract awards year-on-year. 44 per cent fall in detailed planning approvals compared to the previous year. Civil engineering activity weakened substantially during the period, with sta",
-   "ai_related": false
+   "ai_related": true,
+   "title_ja": "Pinterest、保護者が十代の利用者のAI生成コンテンツを制限可能に",
+   "summary_ja": "他社がAIチャットボットの制限に注力する中、Pinterestはフィードを埋め尽くすAIコンテンツに対処。"
   },
   {
    "id": "8d6c7c64bc85",
@@ -195,7 +199,9 @@
    "published": "2026-11-24T16:00+00:00",
    "published_jst": "2026-11-25 01:00",
    "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Geminiがゴールデンステートの組織とファン体験を変革",
+   "summary_ja": "Google Geminiがパートナーとなり、ウォリアーズやチェイス・センターのファン体験と業務を支援。"
   },
   {
    "id": "4a847676e926",
@@ -203,12 +209,14 @@
    "source_id": "techcrunch_ai",
    "category": "ai_global",
    "lang": "en",
-   "title": "Amazon’s Decart acquisition is a bet on using software to narrow the gap with Nvidia in the AI chip race",
+   "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
    "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
    "published": "2026-11-24T15:51+00:00",
    "published_jst": "2026-11-25 00:51",
    "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AmazonのDecart買収、Nvidiaとの半導体格差をソフトで埋める狙い",
+   "summary_ja": "報じられる75億ドルでのDecart買収は、Trainiumチップの効率を向上させる取り組みの一環。"
   },
   {
    "id": "22d7270e7a58",
@@ -221,7 +229,9 @@
    "published": "2026-11-24T15:15+00:00",
    "published_jst": "2026-11-25 00:15",
    "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than t",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "AI近代化で企業ネットワークの負担がさらに増大",
+   "summary_ja": "AI導入の急増に伴いネットワークが逼迫。さらにエージェント型AIが負荷を押し上げている。"
   },
   {
    "id": "1d8ec09785d2",
@@ -247,7 +257,9 @@
    "published": "2026-11-24T14:58+00:00",
    "published_jst": "2026-11-24 23:58",
    "summary": "The federal government gave the firms 30 days to respond to its notice to provide proof of compliance.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "トランプ政権、E-Verify違反で1,500社超の請負業者に通知",
+   "summary_ja": "連邦政府は、コンプライアンス遵守の証明を30日以内に提出するよう企業に求めた。"
   },
   {
    "id": "62e80eacdeda",
@@ -260,7 +272,9 @@
    "published": "2026-11-24T14:57+00:00",
    "published_jst": "2026-11-24 23:57",
    "summary": "A construction executive breaks down the increased risks on today’s more complex projects and why contractors need to be more choosy about what they agree to.",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "建設業界の役員が絶対に署名しない4つの契約条項",
+   "summary_ja": "複雑化する現代のプロジェクトにおけるリスクの高まりと、契約先の慎重な選定が必要な理由を解説。"
   },
   {
    "id": "2f75382e1552",
@@ -273,7 +287,9 @@
    "published": "2026-11-24T14:56+00:00",
    "published_jst": "2026-11-24 23:56",
    "summary": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "トランプとシリコンバレーがいかにしてNvidiaにジェンセン・フアンを復帰させたか",
+   "summary_ja": "フアンの支援者らはトランプとバンスを動かし、Nvidia取締会に復帰を認めさせるよう圧力をかけた。"
   },
   {
    "id": "fd5a78dbdf5b",
@@ -286,7 +302,9 @@
    "published": "2026-11-24T14:28+00:00",
    "published_jst": "2026-11-24 23:28",
    "summary": "Anthropic researcher Levent Alpöge is walking back parts of his announcement of an AI-assisted proof of the generalized Riemann hypothesis. The claim that it ran to more than 250,000 pages was a joke, he says, and the published Lean code is \"full of garbage.\" He still stands by the math. The article",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropicの研究者、AI支援によるリーマン予想の証明を堅持",
+   "summary_ja": "一部表現の誇張は認めつつも、一般化リーマン予想のAI支援証明に関する発表の核心部分を擁護。"
   },
   {
    "id": "7938c5e589ad",
@@ -299,7 +317,9 @@
    "published": "2026-11-24T14:04+00:00",
    "published_jst": "2026-11-24 23:04",
    "summary": "AtkinsRéalis and University of Birmingham to focus on digital technologies, AI, skills development and more The post University partnership to address engineering skills gap appeared first on AEC Magazine .",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "大学との提携でエンジニアリングのスキルギャップに対処",
+   "summary_ja": "アトキンスレリスとバーミンガム大学がデジタル技術やAI、スキル開発などに焦点を当てて連携。"
   },
   {
    "id": "fce8d06d3346",
@@ -312,20 +332,9 @@
    "published": "2026-11-24T14:02+00:00",
    "published_jst": "2026-11-24 23:02",
    "summary": "According to an Axios report, many employees at OpenAI and Anthropic believe the companies' own unreleased frontier models can no longer be safely controlled. Both companies are internally debating whether to halt releases or even stop training altogether, while employee trust in leadership is erodi",
-   "ai_related": true
-  },
-  {
-   "id": "c046fa4968e0",
-   "source": "Construction News (UK)",
-   "source_id": "constructionnews_uk",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Construction Playbook ‘comply or explain’ regime to be scrapped",
-   "url": "https://www.constructionnews.co.uk/government/construction-playbook-comply-or-explain-regime-to-be-scrapped-24-11-2026/",
-   "published": "2026-11-24T12:45+00:00",
-   "published_jst": "2026-11-24 21:45",
-   "summary": "The government has committed to scrapping the Construction Playbook’s “comply or explain” regime in 2027, as part of a drive to improve public sector procurement. Published in December 2020, the playbook sets out 14 policies governing how public construction projects should be assessed, procured and",
-   "ai_related": false
+   "ai_related": true,
+   "title_ja": "OpenAIとAnthropicの未発表モデルが安全性対策を超過か",
+   "summary_ja": "多くの従業員が、最先端の未発表モデルをもはや安全に制御できないと考えていることが報道で判明。"
   },
   {
    "id": "5e57d423bc79",
@@ -337,8 +346,10 @@
    "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
    "published": "2026-11-24T12:40+00:00",
    "published_jst": "2026-11-24 21:40",
-   "summary": "Article URL: https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/ Comments URL: https://news.ycombinator.com/item?id=50627340 Points: 530 # Comments: 225",
-   "ai_related": true
+   "summary": "Article URL: https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/ Comments URL: https://news.ycombinator.com/item?id=50627340 Points: 612 # Comments: 250",
+   "ai_related": true,
+   "title_ja": "LLMエージェントは利用者のためではなく親企業のために働く",
+   "summary_ja": "記事のURLとHacker Newsのコメントページへのリンク、およびポイントやコメント数が記載されています。"
   },
   {
    "id": "21c67f84759f",
@@ -351,7 +362,9 @@
    "published": "2026-11-24T12:30+00:00",
    "published_jst": "2026-11-24 21:30",
    "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ハッカーのAIエージェントが人間の関与なしでゼロデイ脆弱性を悪用",
+   "summary_ja": "Cairn AIフレームワークは、防御側と攻撃側の双方にとって強力なツールであることが証明されつつある。"
   },
   {
    "id": "aa6abd20a9e0",
@@ -364,7 +377,9 @@
    "published": "2026-11-24T12:30+00:00",
    "published_jst": "2026-11-24 21:30",
    "summary": "In a position paper, TU Darmstadt researchers call for redefining computer science as \"Computer and AI Science.\" Their biggest concern is code generated on the fly at runtime, which they say upends today's safety and correctness guarantees. The article German researchers call for computer science to",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "ドイツの研究者が情報科学を「コンピュータ・AI科学」へ刷新することを提言",
+   "summary_ja": "チューリッヒやダルムシュタットの研究者らが、実行時生成コードが安全性を覆すとして情報科学の再定義を求めている。"
   },
   {
    "id": "ce0a30343a30",
@@ -380,19 +395,6 @@
    "ai_related": true
   },
   {
-   "id": "04a9f8211995",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Who in Washington owns and trades Nvidia stock",
-   "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
-   "published": "2026-11-24T11:51+00:00",
-   "published_jst": "2026-11-24 20:51",
-   "summary": "Article URL: https://www.kadoa.com/congress/insights/trump-nvidia Comments URL: https://news.ycombinator.com/item?id=50626861 Points: 242 # Comments: 126",
-   "ai_related": true
-  },
-  {
    "id": "671fc88c0bb2",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -403,7 +405,9 @@
    "published": "2026-11-24T11:26+00:00",
    "published_jst": "2026-11-24 20:26",
    "summary": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own appeared first",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "Anthropicの「Claude Ship」がAIエージェントによるプルリクエストのレビューを自動化",
+   "summary_ja": "チームのガイドラインに従ってコード変更案のレビューや修正、承認を自動で行うベータ版ツール「Claude Ship」を発表。"
   },
   {
    "id": "c4f03a2a0476",
@@ -442,7 +446,9 @@
    "published": "2026-11-24T11:00+00:00",
    "published_jst": "2026-11-24 20:00",
    "summary": "Brandon Mabile will be the ABC national chair for 2027. The post ABC Announces 2027 Chair, Executive Committee first appeared on Construction Executive .",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "ABCが2027年の会長および執行委員会を発表",
+   "summary_ja": "ブランドン・マビル氏が2027年のABC全国会長に就任する予定であるとConstruction Executiveが伝えた。"
   },
   {
    "id": "acdd050928c8",
@@ -456,19 +462,6 @@
    "published_jst": "2026-11-24 19:51",
    "summary": "マンガ「GetBackers -奪還屋-」のボイスコミック公式X（@reclaim_00）は、11月18日に投稿した告知映像について、誤解や混乱を招いたとして謝罪した。",
    "ai_related": true
-  },
-  {
-   "id": "1ceaf79ae716",
-   "source": "DXマガジン",
-   "source_id": "gnews_sekokan_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "「欲しい人材がなかなか見つからない…」と悩む建設会社も助かる！仕事内容や案件の規模まで理解した担当者がつなぐ新しい採用サービス",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5TZFpfdl82SndIU3RyS3Y5YzlnODVjUkVjb08tZHpHUmZKNUpaWkZnWUhlNDFFbDBscHB2VmdqVi1adnh0UGdzLWl0aUE?oc=5",
-   "published": "2026-11-24T10:13+00:00",
-   "published_jst": "2026-11-24 19:13",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "4e0217158e11",
@@ -494,7 +487,9 @@
    "published": "2026-11-24T08:11+00:00",
    "published_jst": "2026-11-24 17:11",
    "summary": "European contract wins and London office revival hopes lift outlook",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "組織改革を経てSeverfieldが黒字転換を果たす",
+   "summary_ja": "欧州での受注獲得とロンドンオフィス復活への期待感が今後の見通しを引き上げている。"
   },
   {
    "id": "f05dec0d6b87",
@@ -533,7 +528,9 @@
    "published": "2026-11-24T07:46+00:00",
    "published_jst": "2026-11-24 16:46",
    "summary": "Balfour, Galliford Try, Sisk and Eurovia face fight to retain places",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "10億ポンド規模のミッドランズ高速道路同盟の更新に向けて争奪戦が開始",
+   "summary_ja": "Balfour、Galliford Try、Sisk、Euroviaが地位の維持をかけて争う構え。"
   },
   {
    "id": "12a39ad8ff28",
@@ -546,7 +543,9 @@
    "published": "2026-11-24T07:44+00:00",
    "published_jst": "2026-11-24 16:44",
    "summary": "Leeds-based firm falls into administration three years after former parent collapsed with 165 job losses",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "通信土木会社Future Network Solutionsが経営破綻",
+   "summary_ja": "リーズに拠点を置く同社は、元親会社の倒産から3年後に管財人の管理下に入り、165人の雇用が失われた。"
   },
   {
    "id": "28bc77d445ab",
@@ -559,7 +558,9 @@
    "published": "2026-11-24T07:42+00:00",
    "published_jst": "2026-11-24 16:42",
    "summary": "REIDsteel stunned by decision to source steel for stadium expansion from China",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "地元企業がAFCボーンマスに対し中国製鉄鋼の採用を猛批判",
+   "summary_ja": "REIDsteel社は、スタジアム拡張用の鉄鋼を中国から調達するという決定に大きな衝撃を受けている。"
   },
   {
    "id": "cd0ccb625f38",
@@ -572,7 +573,9 @@
    "published": "2026-11-24T07:30+00:00",
    "published_jst": "2026-11-24 16:30",
    "summary": "Architecture reaches people through whatever medium carries it, and each new medium changes our picture of what a good building looks like. For example, when 3D modeling software arrived, the novelty of complex shapes drove the starchitecture era of the 2010s, and projects built on those experiments",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "建物は実際に機能するか、写真写りが良いだけか？脳科学とデータが建築家に教えること",
+   "summary_ja": "建築は様々な媒体を通じて人々に届き、新しい媒体は優れた建物の定義を変化させてきた。3Dモデリングの登場はその一例である。"
   },
   {
    "id": "7aa1ecc5c0a0",
@@ -585,7 +588,9 @@
    "published": "2026-11-24T07:20+00:00",
    "published_jst": "2026-11-24 16:20",
    "summary": "UK construction margins set to beat 3.4% as energy workloads grow",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "好調な後半戦を受けBalfour Beattyが業績予想を上方修正",
+   "summary_ja": "エネルギー関連の作業量増加に伴い、英国の建設マージンは3.4%を上回る見込み。"
   },
   {
    "id": "387f1975ed47",
@@ -637,7 +642,9 @@
    "published": "2026-11-24T04:24+00:00",
    "published_jst": "2026-11-24 13:24",
    "summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "datasette-charts 0.2a0がリリース",
+   "summary_ja": "Datasette向けの新しいチャート作成プラグインを昨日公開。本日はDatasette Agentとの統合が行われ、チャットでグラフ作成が可能に。"
   },
   {
    "id": "0451980d58e7",
@@ -666,6 +673,21 @@
    "ai_related": true
   },
   {
+   "id": "f0d501e2c9d5",
+   "source": "Hacker News (150pt+)",
+   "source_id": "hn_top",
+   "category": "ai_global",
+   "lang": "en",
+   "title": "Drone Maps of Salvage Yards",
+   "url": "https://salvageyarddrone.wordpress.com/",
+   "published": "2026-11-24T04:00+00:00",
+   "published_jst": "2026-11-24 13:00",
+   "summary": "Article URL: https://salvageyarddrone.wordpress.com/ Comments URL: https://news.ycombinator.com/item?id=50623515 Points: 152 # Comments: 59",
+   "ai_related": true,
+   "title_ja": "スクラップ置き場のドローンマップ",
+   "summary_ja": "記事のURLとHacker Newsのコメントページへのリンク、およびポイントやコメント数が記載されています。"
+  },
+  {
    "id": "8deb8354cac1",
    "source": "PR TIMES",
    "source_id": "gnews_kensetsu_ai",
@@ -689,7 +711,9 @@
    "published": "2026-11-24T03:45+00:00",
    "published_jst": "2026-11-24 12:45",
    "summary": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment has",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "datasette-agent 0.7a1がリリース",
+   "summary_ja": "Datasette Agentの小規模な改善。チャットセッションでiframeサイドパネルを開き、フラグッシュを使って異なるページへ移動できるよう改良された。"
   },
   {
    "id": "7095487cc852",
@@ -991,6 +1015,19 @@
    "ai_related": true,
    "title_ja": "Z.ai、初のループ型Transformer搭載の「GLM-5.4」公開",
    "summary_ja": "中国のAIラボZ.aiが、同社初となるループ型Transformerアーキテクチャを採用したモデル「GLM-5.4」を発表した。"
+  },
+  {
+   "id": "3baa91ce4643",
+   "source": "山陽新聞",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【3農家限定】AIは使えている。でも、現場で活きていない。農家AI伴走支援の無料モニター募集を開始",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ubWpaM1ljTVA1Z1MyQUtUTmFQMGZwcFNtb2NGTWs2RFRqc0k3c0YtdUhBNFhuY1pXSlZyLTk4MW1LYjFsNVJiLXQzQ0pVTVdoVzVXQ2UtbVVHMzVURmlSRjBEY0VSVy1GaUhxbXB0VQ?oc=5",
+   "published": "2026-11-23T23:07+00:00",
+   "published_jst": "2026-11-24 08:07",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "13c2af13fd22",
@@ -1514,21 +1551,6 @@
    "summary_ja": "OpenAIの主任科学者がGPTシリーズの内部パープレキシティスコアを初公開。競合に対し、共通の制限を設けるよう協調を強く呼びかけた。"
   },
   {
-   "id": "786a4f32021c",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
-   "published": "2026-11-23T18:26+00:00",
-   "published_jst": "2026-11-24 03:26",
-   "summary": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok ",
-   "ai_related": true,
-   "title_ja": "オレゴン・バージニア州、Grokのディープフェイク巡りSpaceX提訴",
-   "summary_ja": "両州の司法長官が、業界標準の安全対策を無視して消費者保護法に違反したとして、それぞれSpaceXを提訴した。"
-  },
-  {
    "id": "a2f14d06f82b",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1600,21 +1622,6 @@
    "ai_related": false
   },
   {
-   "id": "3c69fd56490c",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
-   "url": "https://twitter.com/ylecun/status/2124550037912920090",
-   "published": "2026-11-23T17:07+00:00",
-   "published_jst": "2026-11-24 02:07",
-   "summary": "Article URL: https://twitter.com/ylecun/status/2124550037912920090 Comments URL: https://news.ycombinator.com/item?id=50615308 Points: 1913 # Comments: 1103",
-   "ai_related": true,
-   "title_ja": "ダリオ氏が危険性を強調しオープンソースを違法化する狙いか",
-   "summary_ja": "AIの危険性を過度に訴えることでオープンソースモデルを規制し、自らの支配的地位を維持しようとしているという見方。"
-  },
-  {
    "id": "c5903c8754bb",
    "source": "Google AI Blog",
    "source_id": "google_ai",
@@ -1645,21 +1652,6 @@
    "summary_ja": "ホリデーシーズンに向けて、NVIDIAの最新技術を活用し、趣味を次のレベルへと高めるインスピレーションを見つけよう。"
   },
   {
-   "id": "9dddeb89e408",
-   "source": "Google DeepMind Blog",
-   "source_id": "deepmind",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Finding faster quantum algorithms with agents and formal verification",
-   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-   "published": "2026-11-23T16:59+00:00",
-   "published_jst": "2026-11-24 01:59",
-   "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
-   "ai_related": true,
-   "title_ja": "エージェントと形式検証を用いた高速な量子アルゴリズムの探索",
-   "summary_ja": "AIエージェントチームと形式手法を活用し、核融合や化学分野向けの量子アルゴリズムを効率的に改善する手法。"
-  },
-  {
    "id": "b7579835e4e7",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -1688,21 +1680,6 @@
    "ai_related": true,
    "title_ja": "トランプ氏、フアン氏復帰へNvidiaの取締役会に直接働きかけか",
    "summary_ja": "トランプ米大統領がCNBCの取材に対し、フアン氏のNvidia復帰に向けて自身が取締役会を説得したと語った。"
-  },
-  {
-   "id": "1cb78417896f",
-   "source": "The Verge AI",
-   "source_id": "verge_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
-   "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
-   "published": "2026-11-23T16:30+00:00",
-   "published_jst": "2026-11-24 01:30",
-   "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally involved and this is a great decision by the NVIDIA board,\" White House communications director Steven C",
-   "ai_related": true,
-   "title_ja": "ホワイトハウス、フアン氏のCEO復帰にトランプ氏が関与と誇示",
-   "summary_ja": "ジェンスン・フアン氏のNvidia復帰劇にトランプ大統領が重要な役割を果たしたとし、ホワイトハウスがその貢献をアピールしている。"
   },
   {
    "id": "704876c6d861",
@@ -1743,7 +1720,9 @@
    "published": "2026-11-23T15:46+00:00",
    "published_jst": "2026-11-24 00:46",
    "summary": "Cargo drones replace cranes for factory roof revamp",
-   "ai_related": true
+   "ai_related": true,
+   "title_ja": "大型ドローンが55トンのソーラーパネルを稼働中の現場へ配送",
+   "summary_ja": "工場の屋根改修において、クレーンの代わりに貨物用ドローンが活躍している。"
   },
   {
    "id": "2de563bd97a9",
@@ -1756,7 +1735,9 @@
    "published": "2026-11-23T15:32+00:00",
    "published_jst": "2026-11-24 00:32",
    "summary": "Specialist lands deal at 171 Victoria Street",
-   "ai_related": false
+   "ai_related": false,
+   "title_ja": "KaneがSiskのオフィス工事で4000万ポンドの設備工事を受注",
+   "summary_ja": "専門企業である同社がヴィクトリア街171番地のプロジェクトで契約を獲得した。"
   },
   {
    "id": "dff8ecfdbf17",
@@ -1912,7 +1893,7 @@
    "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
    "published": "2026-11-23T14:00+00:00",
    "published_jst": "2026-11-23 23:00",
-   "summary": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress... Comments URL: https://news.ycombinator.com/item?id=50611576 Points: 2724 # Comments: 3583",
+   "summary": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress... Comments URL: https://news.ycombinator.com/item?id=50611576 Points: 2739 # Comments: 3597",
    "ai_related": true,
    "title_ja": "Nvidia、Jensen Huang氏のCEO再任を発表",
    "summary_ja": "Nvidiaの取締役会がJensen Huang氏のCEO復帰を正式決定したことを伝えるニュース記事のリンクと議論のコメント。"
@@ -2198,6 +2179,19 @@
    "ai_related": false
   },
   {
+   "id": "8fb8252f1ade",
+   "source": "PR TIMES",
+   "source_id": "gnews_sekisan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "LIFEFUND、2031年度売上高176億円を目指し「住のインフラ企業」への事業展開を推進。",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kZWF4d3BXdzV2ZWl2T2haNFVFd0NxOGhwdERYc3hZSmRob2hHVnV1LW96c2ZzMFR2TWNpVy1FMXpreEtZaS1HWEZVLUNZaU10bkM2ZGIxUnU3b3JVVWszS1lHQjlHTUxMY3c?oc=5",
+   "published": "2026-11-23T03:00+00:00",
+   "published_jst": "2026-11-23 12:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "04504f1c4726",
    "source": "TechCrunch AI",
    "source_id": "techcrunch_ai",
@@ -2360,21 +2354,6 @@
    "published_jst": "2026-11-23 03:25",
    "summary": "",
    "ai_related": false
-  },
-  {
-   "id": "74f939e081ec",
-   "source": "TechCrunch AI",
-   "source_id": "techcrunch_ai",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Why data centers are at the center of the Big Tech backlash",
-   "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
-   "published": "2026-11-22T18:08+00:00",
-   "published_jst": "2026-11-23 03:08",
-   "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
-   "ai_related": true,
-   "title_ja": "データセンターが大手テック反発の中心にある理由",
-   "summary_ja": "ジャーナリストのパリ・マルクス氏が、自身の新著「Hyperscale」について詳しく解説する。"
   }
  ]
 }
