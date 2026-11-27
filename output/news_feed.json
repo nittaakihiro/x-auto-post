@@ -1,20 +1,45 @@
 {
- "generated_at": "2026-11-27T04:34+00:00",
- "generated_at_jst": "2026-11-27 13:34",
+ "generated_at": "2026-11-27T05:05+00:00",
+ "generated_at_jst": "2026-11-27 14:05",
  "window_hours": 48,
  "counts": {
   "ai_japan": 39,
-  "construction_japan": 72,
-  "ai_global": 39,
-  "construction_global": 27
+  "construction_japan": 74,
+  "ai_global": 36,
+  "construction_global": 26
  },
  "errors": [
   {
+   "feed": "deepmind",
+   "error": "ParseError: not well-formed (invalid token): line 1, column 0"
+  },
+  {
    "feed": "venturebeat_ai",
    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "feed": "hn_top",
+   "error": "URLError: <urlopen error timed out>"
+  },
+  {
+   "feed": "constructionexec",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
+  {
+   "id": "239bc14f832c",
+   "source": "GIGAZINE",
+   "source_id": "gigazine",
+   "category": "ai_japan",
+   "lang": "ja",
+   "title": "人間の生きた細胞にビートルズの歌詞を保存＆細胞分裂後も正確に読み取ることに成功",
+   "url": "https://gigazine.net/news/20261127-human-cells-dna-storage/",
+   "published": "2026-11-27T04:42+00:00",
+   "published_jst": "2026-11-27 13:42",
+   "summary": "アメリカのテキサス大学ダラス校の研究チームが人間の生きた細胞にデジタルデータを保存したうえで、第三者によるデータの読み取りを困難にする技術を開発したと発表しました。研究チームはビートルズの楽曲「レット・イット・ビー」の歌詞をDNAに記録し、細胞分裂を繰り返した後も正確に読み取れることを確認しています。 続きを読む...",
+   "ai_related": true
+  },
   {
    "id": "5bb3278eed9f",
    "source": "GIGAZINE",
@@ -81,9 +106,22 @@
    "ai_related": true
   },
   {
+   "id": "14d5359ca9f6",
+   "source": "ITmedia",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "大林組の能登復旧工事、無人建機をドローンで常時監視 危険エリアへの立ち入りを自動検知",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wbFZlWmVfYUZIYmlMNWJRMmtxWUZOZjNfUnJzOUFMbW5xV0U5Sm5mWGJwVE1fN0dWQV9QenJfOUthdTlRN3VBZGxZSzRSRW5HRGhGOXVVbFhiNGNITllEVHloeFMwQS1DRnI2Sg?oc=5",
+   "published": "2026-11-27T02:00+00:00",
+   "published_jst": "2026-11-27 11:00",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "10760b268a1b",
    "source": "ASCII.jp",
-   "source_id": "gnews_kensetsu_dx",
+   "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "マウスコンピューター、第6回 建設DX展で建設・土木向け動作検証済みPCを公開",
@@ -250,19 +288,6 @@
    "ai_related": true
   },
   {
-   "id": "19dd4641586d",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "AI made self-hosting fun again",
-   "url": "https://janlukas.blog/posts/ai-self-hosting",
-   "published": "2026-11-26T21:47+00:00",
-   "published_jst": "2026-11-27 06:47",
-   "summary": "Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 429 # Comments: 233",
-   "ai_related": true
-  },
-  {
    "id": "890fc3fc565d",
    "source": "日刊建設工業新聞",
    "source_id": "decn",
@@ -314,6 +339,32 @@
    "published": "2026-11-26T20:00+00:00",
    "published_jst": "2026-11-27 05:00",
    "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "245ff367974d",
+   "source": "日経クロステック",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "建設費抑制の対策は？ 外部仕上げ見直して代替品や既製品の活用模索",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fQ1FDbGdnanZJZ1VqdzhocWZVX1ZjYWRWWDhmbzhId2ZMc1p6bEtzTTNOX0hBLXlQWkt6WDdOSUR5SVFBdUNhS2FtVXBwWkZ5YUliamFIZGRIaEp5YlpwLU1YMWhYU3B4TkJwWQ?oc=5",
+   "published": "2026-11-26T20:00+00:00",
+   "published_jst": "2026-11-27 05:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "e5e059c2ab41",
+   "source": "建設通信新聞",
+   "source_id": "kensetsunews",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "横浜・花通信・施設建築が大詰め/開幕へ高まる期待",
+   "url": "https://www.kensetsunews.com/archives/1314544",
+   "published": "2026-11-26T19:55+00:00",
+   "published_jst": "2026-11-27 04:55",
+   "summary": "２０２７年国際園芸博覧会（ＧＲＥＥＮ×ＥＸＰＯ２０２７）協会は２６日、テーマ館「ねっこ」＝写真＝な… The post 横浜・花通信・施設建築が大詰め/開幕へ高まる期待 first appeared on 建設通信新聞Digital .",
    "ai_related": false
   },
   {
@@ -382,19 +433,6 @@
    "ai_related": false
   },
   {
-   "id": "e5e059c2ab41",
-   "source": "建設通信新聞",
-   "source_id": "kensetsunews",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "横浜・花通信・施設建築が大詰め/開幕へ高まる期待",
-   "url": "https://www.kensetsunews.com/archives/1314544",
-   "published": "2026-11-26T19:55+00:00",
-   "published_jst": "2026-11-27 04:55",
-   "summary": "２０２７年国際園芸博覧会（ＧＲＥＥＮ×ＥＸＰＯ２０２７）協会は２６日、テーマ館「ねっこ」＝写真＝な… The post 横浜・花通信・施設建築が大詰め/開幕へ高まる期待 first appeared on 建設通信新聞Digital .",
-   "ai_related": false
-  },
-  {
    "id": "7e69e25001ac",
    "source": "The Decoder",
    "source_id": "the_decoder",
@@ -434,19 +472,6 @@
    "published_jst": "2026-11-27 03:15",
    "summary": "求人票の作成、応募者への返信、面接の日程調整に追われ、候補者と向き合う時間が取れない。他業務と兼務で採用を担う担当者ほど、この悩みを抱えやすいでしょう。 求人業務のうちAIに任せられる工程は、求人票の作成から採用データの... The post AIで求人業務を効率化する方法10選！採用担当の工数を減らす進め方 first appeared on AI専門ニュースメディア AINOW .",
    "ai_related": true
-  },
-  {
-   "id": "77dece845c18",
-   "source": "KZOOハワイ",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "【News】ハワイ州議会、AIの活用と規制を検討 ハワイ島では大規模データセンターの建設 禁止案も",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83dGZDeTdJeVVZazBBUGgwNDhlaThYUGJGbm5GMDYyOFpydnJaY0ZqRzZ5VUc1ZVhPd0ZHUVBaWHRETDJZaWNsZVlHa2NINjBwQzg5ZnVnWS03UQ?oc=5",
-   "published": "2026-11-26T17:31+00:00",
-   "published_jst": "2026-11-27 02:31",
-   "summary": "",
-   "ai_related": false
   },
   {
    "id": "927ad05da19b",
@@ -823,19 +848,6 @@
    "summary_ja": "破産手続き中のCharacter.AIによるユーザーデータの売却を防ぐため、42州の司法長官が阻止に動いている。"
   },
   {
-   "id": "4c5b30e40ea1",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-   "published": "2026-11-26T09:44+00:00",
-   "published_jst": "2026-11-26 18:44",
-   "summary": "Article URL: https://techstackups.com/articles/google-workspace-ai-agents-mcp/ Comments URL: https://news.ycombinator.com/item?id=50653477 Points: 282 # Comments: 237",
-   "ai_related": true
-  },
-  {
    "id": "25d0c3e8b9d2",
    "source": "GIGAZINE",
    "source_id": "gigazine",
@@ -1129,19 +1141,6 @@
    "ai_related": true
   },
   {
-   "id": "64a870b6a927",
-   "source": "Hacker News (150pt+)",
-   "source_id": "hn_top",
-   "category": "ai_global",
-   "lang": "en",
-   "title": "Moat: OpenRouter replacement",
-   "url": "https://commandcode.ai/moat",
-   "published": "2026-11-26T06:32+00:00",
-   "published_jst": "2026-11-26 15:32",
-   "summary": "Article URL: https://commandcode.ai/moat Comments URL: https://news.ycombinator.com/item?id=50652184 Points: 262 # Comments: 150",
-   "ai_related": true
-  },
-  {
    "id": "ebd99d31f440",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1315,32 +1314,6 @@
    "ai_related": true
   },
   {
-   "id": "2a77512b7702",
-   "source": "GIGAZINE",
-   "source_id": "gigazine",
-   "category": "ai_japan",
-   "lang": "ja",
-   "title": "NVIDIAのスキャンダルを巡るトランプ大統領の言動にスティーブン・キングが「国家安全保障を犠牲に株式市場を守っている」と非難",
-   "url": "https://gigazine.net/news/20261126-stephen-king-trump/",
-   "published": "2026-11-26T04:15+00:00",
-   "published_jst": "2026-11-26 13:15",
-   "summary": "不倫問題を認めたのちNVIDIAのCEOを辞任したジェンスン・フアン氏について、親密な仲として知られるアメリカのドナルド・トランプ大統領もフアン氏のCEO復帰支持を表明し、フアン氏がCEOに再任した際にはトランプ大統領がNVIDIAの取締役会を説得したとコメントしました。これに対し作家のスティーブン・キング氏が、強い批判をSNSに投稿しました。 続きを読む...",
-   "ai_related": true
-  },
-  {
-   "id": "da7094d74b5c",
-   "source": "Yahoo!ニュース",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "壁にスマホかざすと完成イメージや確認リスト表示、ドローンで撮影し３Ｄ模型…ＡＩで建設現場を効率化（読売新聞オンライン）",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQmw1bEdQbFN5U2J0clltUnlVTjZHb2h6WTlZUnE3bDRsUEV0RTNmUjVvMzh5dXJ1WUxQMUlUd21PM1poQW5xR3laQ294S2NFME5kOURUeVFkb2EwY1c0dDNPc3BJUEFWVmRNWWpaQjJKX2Y3ZzZqVTJ3V1hkeG4taGM5cEl2Vkdn?oc=5",
-   "published": "2026-11-26T04:15+00:00",
-   "published_jst": "2026-11-26 13:15",
-   "summary": "",
-   "ai_related": true
-  },
-  {
    "id": "9137211b9a59",
    "source": "読売新聞",
    "source_id": "gnews_kensetsu_ai",
@@ -1445,9 +1418,22 @@
    "ai_related": true
   },
   {
+   "id": "b52d6762bb4e",
+   "source": "PR TIMES",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "スキル管理ツール「fapi」、Excelで即使える『ITインフラ・ネットワーク・セキュリティ向けスキルツリー』を無料配布開始！「作成・入力の手間」を解決し、適正アサインと高度技術継承を支援。",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hUDRtWXJQYm5qXzlFRzNncWZQejdBd2pUeS16Tk5IRkVKOWtZQnZiT1IzS3NzdXdhVi1WWTg3UHpyM01NbVFuZG0zRzhXdUMxNGdSV1VQNFhhRkVDUmdzek9NdVNWRklWR3c?oc=5",
+   "published": "2026-11-26T02:12+00:00",
+   "published_jst": "2026-11-26 11:12",
+   "summary": "",
+   "ai_related": false
+  },
+  {
    "id": "ea8e1e2232e5",
    "source": "ライブドアニュース",
-   "source_id": "gnews_kensetsu_ai",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "西松建設とEdgeLab、BIMに蓄積した所長の気づきをAIでノウハウ化し、現場横断で活用する取り組みを開始",
@@ -1614,6 +1600,32 @@
    "ai_related": true
   },
   {
+   "id": "879110166026",
+   "source": "PR TIMES",
+   "source_id": "gnews_sekokan_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "【工務店DX】教育コストゼロで現場に定着。操作手順を画面上で直接ナビゲートする新機能が「つながる家づくり‐plantable‐」に実装",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hWFFaajlEeXA2eDhNandoNk9YcEFEbS1uS19mTVdxOG93TFNNYkNEZ1ZBOWUwSmpTMExMcy1GQ0NSSG9NWjdwN25GVS1BS1VuRHltbkZmVTlXLWVUcFpUdEZiYXhWOUZNRmc?oc=5",
+   "published": "2026-11-26T00:17+00:00",
+   "published_jst": "2026-11-26 09:17",
+   "summary": "",
+   "ai_related": true
+  },
+  {
+   "id": "2fa77a344f52",
+   "source": "新建ハウジング",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "Walk in home最新版、BIM図面審査・Web確認申請に対応",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5QVkJhYldvcEVDWWk3bExfZjAxYi0zNGNfZURFMWlFejE1T0Y2ZEhBUGlkQ1diXzBLclplZFRZYkgxZTBnRGplb05fbWVCY3dERnc?oc=5",
+   "published": "2026-11-26T00:15+00:00",
+   "published_jst": "2026-11-26 09:15",
+   "summary": "",
+   "ai_related": true
+  },
+  {
    "id": "ff7bfab3ed78",
    "source": "ITmedia AI+",
    "source_id": "itmedia_ai",
@@ -1649,6 +1661,19 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KME14R1FENGxXanUxSXplZUtVX0NiWV9BcDE4S2w5dVBRa1E0dWRaLVQxQVRqSW9qaUZnY1NaeHIzb0JmTEtHZUhNVFFLZ2JtQnN4eTZ3dFlHTjBHeVUtNGxWd3U4MVh3YjFmNw?oc=5",
    "published": "2026-11-26T00:00+00:00",
    "published_jst": "2026-11-26 09:00",
+   "summary": "",
+   "ai_related": false
+  },
+  {
+   "id": "67731c1abb42",
+   "source": "매일경제",
+   "source_id": "gnews_bim_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "湖畔建設が発掘から共同開発·現場検証までスタートアップとの協力成果を出している。",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1udEY1OVZDNmZCWjdXTXRpTlRZeG1SS0xlbkE5X1JtYnlWSk44NWxsaEFyV0hieG02NTF1ZEhZTlI3M3NCaUIyakxObVlSY2J3cHZFcHdR?oc=5",
+   "published": "2026-11-25T23:49+00:00",
+   "published_jst": "2026-11-26 08:49",
    "summary": "",
    "ai_related": false
   },
@@ -1696,7 +1721,7 @@
   {
    "id": "29efc9af6e0c",
    "source": "PR TIMES",
-   "source_id": "gnews_kensetsu_dx",
+   "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "Arentの「GENBA Dock 工程管理（PROCOLLA）」が国土交通省の新技術データベース「NETIS」に登録ー生成AIを活用した工程表作成システムとして、公共工事での活用拡大を目指すー | 株式会社Arentのプレスリリース",
@@ -1705,6 +1730,19 @@
    "published_jst": "2026-11-26 08:00",
    "summary": "",
    "ai_related": true
+  },
+  {
+   "id": "21cc69df774d",
+   "source": "Yahoo!ニュース",
+   "source_id": "gnews_kensetsu_ai",
+   "category": "construction_japan",
+   "lang": "ja",
+   "title": "韓国ハンファ、軍向けAIデータセンター建設…2028年7月に一部稼働へ (KOREA WAVE)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcTNRdkdQNXpnMVVYOE5CTGo5VkxYOXJQRTVYX1p5SkIwaEQ3UUxjMjAzdEpaU3JpMUhvdG5fWGFDSVJqaEhnMkltWHVUd2M5WXZOallXQ25ZRGlUdUs0UHNxZGxMalBYSEs1T2FHdmZjby05U0ZMZTJGXzFDdjJpTkZKRmRtbk5NblprSm1R?oc=5",
+   "published": "2026-11-25T22:52+00:00",
+   "published_jst": "2026-11-26 07:52",
+   "summary": "",
+   "ai_related": false
   },
   {
    "id": "707319c903aa",
@@ -1776,13 +1814,13 @@
    "summary_ja": "Googleは昨年、ユーザー情報に基づきAI生成の動画広告を配信する「My Channel」の特許を出願した。"
   },
   {
-   "id": "312fb8111273",
+   "id": "b47e9c143ccb",
    "source": "Chosunbiz",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "韓国クラウドラボ、AIで建設現場の安全管理 7300カ所に導入",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRXY3V3UyWVRPU0Y2UVgzTFJJTW5waVQ4RmNjTGZmT3FJd3RiUW9uRXBzRlRpR1RwYzlxeWVJQ0N4eXNhVFVLdnN3TGplRkxhVjRPRGwtWjVyU1I1TG92OHdNNmRDaWtTTFJiUU9aOW9TWFRyRVRvRUJnN2pVbnBvYUJR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRXY3V3UyWVRPU0Y2UVgzTFJJTW5waVQ4RmNjTGZmT3FJd3RiUW9uRXBzRlRpR1RwYzlxeWVJQ0N4eXNhVFVLdnN3TGplRkxhVjRPRGwtWjVyU1I1TG92OHdNNmRDaWtTTFJiUU9aOW9TWFRyRVRvRUJnN2pVbnBvYUJR0gGWAUFVX3lxTE0wOXg0T2xENnVsVjJuMGYwZk9JZGY2ejFIYjNtZzVzbjZxZ2hTMXpjR0VBcjh0UTQtVTdQWkdyQjVVUVU2aUJ6dGZIRUw3OFNBRlRldHJhd2x0bjZyLXI3cmRQcEFMSFBuWTd6cEk1dHFVWU1GTzB4YklUR1JVNDBtWkVwSjM4MHdLQWlad0Jnc0p5Nktvdw?oc=5",
    "published": "2026-11-25T21:02+00:00",
    "published_jst": "2026-11-26 06:02",
    "summary": "",
@@ -2120,19 +2158,6 @@
    "summary_ja": "Nvidiaは稼働間近までバックアップしない方針を示しており、ネオクラウドには建設遅延や借入コストの高騰がのしかかっている。"
   },
   {
-   "id": "8b41d6bcbe6d",
-   "source": "조선일보",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "TSMC、サムスンの米半導体拠点テキサスに新工場建設へ",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVdMOVNDbDJCUHZyb3ZfVmowNVc5MlctSWQ0dGFmOG5XTkx2WEV2c0htNFVIWS0tVkJKV1lBU3BfQWc0REs4OXc0MVVjekE5cEhmRnNsYy1McE5abWxPRlAtbWxYcE5sTXhJbEVfM2RzdlVDaHVlNEFHdEdHN19Sbw?oc=5",
-   "published": "2026-11-25T15:34+00:00",
-   "published_jst": "2026-11-26 00:34",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "e158b8ea5db4",
    "source": "ITmedia",
    "source_id": "gnews_bim_ai",
@@ -2208,7 +2233,7 @@
   {
    "id": "7c4b0699f0a1",
    "source": "Infoseek",
-   "source_id": "gnews_kensetsu_dx",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
    "title": "申込・決済・受講までWeb完結！ 建設業界の資格講習DXをトータル支援",
@@ -2277,21 +2302,6 @@
    "summary_ja": "最先端のAIは、かつてトップ物理学者に丸一日かかっていた問題をすでに解決しつつある。"
   },
   {
-   "id": "6ea1f1c6fa03",
-   "source": "Construction Executive",
-   "source_id": "constructionexec",
-   "category": "construction_global",
-   "lang": "en",
-   "title": "Austin Convention Center Gets an Unconventional Upgrade",
-   "url": "https://constructionexec.com/article/austin-convention-center-gets-an-unconventional-upgrade/?utm_source=rss&utm_medium=rss&utm_campaign=austin-convention-center-gets-an-unconventional-upgrade",
-   "published": "2026-11-25T11:00+00:00",
-   "published_jst": "2026-11-25 20:00",
-   "summary": "The Austin Convention Center is undergoing a $1.6-billion redevelopment and expansion after running out of space and operational capacity—again. The post Austin Convention Center Gets an Unconventional Upgrade first appeared on Construction Executive .",
-   "ai_related": false,
-   "title_ja": "オースティン・コンベンション・センターが大規模改修へ",
-   "summary_ja": "オースティン・コンベンション・センターは、スペースと運営能力の限界を受け、16億ドルを投じた大規模な再開発と拡張工事に着手する。"
-  },
-  {
    "id": "09d5bc68279d",
    "source": "ITmedia",
    "source_id": "gnews_kensetsu_ai",
@@ -2305,17 +2315,17 @@
    "ai_related": false
   },
   {
-   "id": "add7c953b7ec",
-   "source": "沖縄タイムス社",
-   "source_id": "gnews_kensetsu_ai",
+   "id": "dbe27dbe5a15",
+   "source": "Manegy[マネジー]",
+   "source_id": "gnews_sekokan_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "SANY、国際建設機械見本市（bauma CHINA 2026）でAIネイティブなロボット技術が支える未来へ前進",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51QjJZY2F5V0dwQ1F1eFV0dWpEbUdMcFU4THRXb1hseU03SXdLSFBpZUsyeW1GdTlZR2lqdlZNSEFLblo0ZVpOX2FNeXRBbGtFZU4yZC1kRHpJX216UlE?oc=5",
-   "published": "2026-11-25T10:25+00:00",
-   "published_jst": "2026-11-25 19:25",
+   "title": "建設業で求められる福利厚生とは？導入ポイントも解説",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04ZHR3TGUzVVZjZlFXSXV3YU9wSy1sem82OU5nVi1vemZ1bW9CTlYwYXkybm00TjZuWVBsNmxUcEEyRzF5aGdVX25oRXpPRkJBMTI4?oc=5",
+   "published": "2026-11-25T11:00+00:00",
+   "published_jst": "2026-11-25 20:00",
    "summary": "",
-   "ai_related": true
+   "ai_related": false
   },
   {
    "id": "cb4782794f2f",
@@ -2359,19 +2369,6 @@
    "ai_related": true
   },
   {
-   "id": "75c7eb4e4109",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "建設業振興基金とSORABITO、CCUS向け音声AI実証実験の開始を発表",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GbXhiQXJNaV9DQXlCZWtaWmM0Mm5QcHhObU1DakZPSThxWWFpbExieERGWmYwWHdMeEtpeGhjMGx3MUpWS1pINGgyQ2xuMU00a084TlczX1VEMnpVOWwxRlRCQU9pWlUtLU4zQ3FTRzk?oc=5",
-   "published": "2026-11-25T07:55+00:00",
-   "published_jst": "2026-11-25 16:55",
-   "summary": "",
-   "ai_related": false
-  },
-  {
    "id": "516bcb1685e5",
    "source": "Construction Enquirer (UK)",
    "source_id": "construction_enquirer",
@@ -2387,30 +2384,30 @@
    "summary_ja": "不動産・土地開発グループが4000万ポンドを超える臨時損失について警告を発した。"
   },
   {
-   "id": "79abe863b6e5",
-   "source": "ニュースメディアVOIX",
-   "source_id": "gnews_kensetsu_ai",
+   "id": "75bfe8be5bdc",
+   "source": "ITmedia",
+   "source_id": "gnews_bim_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "Arentが発表した建設業向けAIドッキングプラットフォーム「現場ドック」の特徴と利点",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Xdl8zc0Z0ZXV2OHVxWGFhRU1qRDA4NnBqeHhReGJZSk13YlVKT1RvRUJhN2l6RzRmaTM3aDE0SmsxM3c4cEJRWm5IbEwwNVJoZVEzWHRDQ05xYWxpREVFMnJyaw?oc=5",
-   "published": "2026-11-25T07:15+00:00",
-   "published_jst": "2026-11-25 16:15",
+   "title": "手書き帳票を撮って送信、AIと人の目でデータ化 入力の手間を約9割削減：現場管理",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10SFFPZTBPYzlDb2JhNkc2Qm5JSk43LWlicS1fSERxc0dxRUs0dXBidTFJenhKLWZlWnhsc3Vpd1ptdm5DbEd0dWMzTHdtZm5nNDlLcDVnSU5TSzBVd05DRlQ1RXdVU3lqZ0lQOQ?oc=5",
+   "published": "2026-11-25T07:00+00:00",
+   "published_jst": "2026-11-25 16:00",
    "summary": "",
    "ai_related": false
   },
   {
-   "id": "69bde4692289",
-   "source": "IoTNEWS AI+",
+   "id": "0b1384cf7db5",
+   "source": "共同通信PRワイヤー",
    "source_id": "gnews_kensetsu_ai",
    "category": "construction_japan",
    "lang": "ja",
-   "title": "Arent、大まかな現場報告からAIが各ツールへの入力を提案する建設業向けプラットフォーム「現場ドック」を発表",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fTll0ZjNvV2hBVVdFeUJiYTNJbDFKa2dPVTZpQnBQbGJEbjJocGFpbm0wN0lYOFBLNGN3ZmI1TWNHQlVUSWdIc3J6TS00MkZW0gFWQVVfeXFMT2VFUHowUDBjVHd6ZldMT3VtT0haaXl5a0NILXlMTFBQbWY5bWxSdVI5TC11d1F4VFhxM1UtSkktWTdXWWtsazlfZ0k3ZHdNUFJzRzBGSXc?oc=5",
-   "published": "2026-11-25T06:31+00:00",
-   "published_jst": "2026-11-25 15:31",
+   "title": "SANY、国際建設機械見本市（bauma CHINA 2026）でAIネイティブなロボット技術が支える未来へ前進",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tVVhtUHZMSVNCMVcta1I0NWdzRDYyS3BBd1hORlhiZ3JzUnUzTFlpUXdFNTVfUUM3MzhpRmxhVldFX2liVi16MlNzcWxvNTRKYzZfaGl4b0JJSjA?oc=5",
+   "published": "2026-11-25T06:47+00:00",
+   "published_jst": "2026-11-25 15:47",
    "summary": "",
-   "ai_related": false
+   "ai_related": true
   },
   {
    "id": "fc2a6386c146",
@@ -2423,19 +2420,6 @@
    "published": "2026-11-25T06:00+00:00",
    "published_jst": "2026-11-25 15:00",
    "summary": "2026年12月2日（水）～4日（金）に開催される「建設DX展［東京］」は、建設業界のDXをテーマとした専門展示会です。当サイトでは会場を取...",
-   "ai_related": true
-  },
-  {
-   "id": "ee3902e8dc9c",
-   "source": "BuildApp News",
-   "source_id": "buildapp",
-   "category": "construction_japan",
-   "lang": "ja",
-   "title": "Beyont、清水建設のAIエージェント構築を支援、月200分の作業を10分に短縮見込み",
-   "url": "https://news.build-app.jp/article/44012",
-   "published": "2026-11-25T05:00+00:00",
-   "published_jst": "2026-11-25 14:00",
-   "summary": "Beyontは、清水建設でAI活用を担う3組織の14名を対象に、Microsoft Copilot Studioを使ったAIエージェント構築...",
    "ai_related": true
   }
  ]
